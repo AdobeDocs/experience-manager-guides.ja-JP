@@ -1,15 +1,15 @@
 ---
-title: このガイドについて
+title: オンプレミスインストール
 description: AEMガイドをダウンロード、インストールおよび設定する方法について説明します。
 exl-id: 90d5ad94-eb68-4d73-9b23-a1f3d4b802ba
-source-git-commit: b8fba97d5e686fd09b094a6cf5b52aa08ef2d069
+source-git-commit: 02b33615669945cf65f70d6fd2de81bfd340a0ab
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
 
-# このガイドについて {#id175MC0P0S5Z}
+# オンプレミスインストール {#id175MC0P0S5Z}
 
 Adobe Experience Managerガイド\( 後で *AEMガイド*\) は、エンタープライズクラスの強力なコンポーネントコンテンツ管理ソリューション (CCMS\) です。 Adobe Experience Managerでのネイティブ DITA サポートが可能になり、AEMで DITA ベースのコンテンツの作成と配信を処理できるようになります。 作成者は、Adobe FrameMakerや使いやすい組み込み Web エディターなど、任意のオフライン DITA オーサリングツールを使用してコンテンツを作成できます。
 
