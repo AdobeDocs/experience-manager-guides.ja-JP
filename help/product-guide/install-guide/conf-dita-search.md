@@ -2,9 +2,9 @@
 title: AEM Assets UI の検索の設定
 description: AEM Assets UI の検索を設定する方法を説明します。
 exl-id: b920ba7f-e8fc-4af6-aa8a-b8516b1cffc0
-source-git-commit: 247f4d8fe744b6f9d285a7f61c2b31628de2bb36
+source-git-commit: 31dc283a5e51fc9c504ac4e75a9719dc247e90eb
 workflow-type: tm+mt
-source-wordcount: '1695'
+source-wordcount: '1696'
 ht-degree: 1%
 
 ---
@@ -70,6 +70,7 @@ AEM Assets UI に UUID ベースの検索コンポーネントを追加するに
 
    - **フィールドラベル**: UUID
    - **プロパティ名**: jcr:content/fmUuid
+
 1. クリック **完了** をクリックして変更を保存します。
 
    Assets UI で「フィルター」オプションにアクセスすると、UUIS ベースの検索フィルタリングオプションが表示されます。
@@ -118,7 +119,7 @@ DITA 検索が機能するには、DITA コンテンツの一部の前処理が�
 >
 > デフォルトの検索設定を `prolog` 要素を選択した場合は、このプロセスをスキップできます。
 
-このファイルには、属性セットとルールセットの 2 つの主なセクションが含まれています。 ルールセットの節のスニペットを次に示します。
+このファイルには、2 つの主なセクションの属性セットとルールセットが含まれています。 ルールセットの節のスニペットを次に示します。
 
 ```XML
 <ruleset filetypes="xml dita"><!-- Element rules --><rule xpath="//[contains(@class, 'topic/topic')]/[contains(@class, 'topic/prolog')]//*[not(*)]" text="yes" attributeset="all-attrs" /><!-- Attribute rules --><rule xpath="//[contains(@class, 'topic/topic')]/[contains(@class, 'topic/prolog')]///@[local-name() != 'class']" /></ruleset>
@@ -127,7 +128,6 @@ DITA 検索が機能するには、DITA コンテンツの一部の前処理が�
 「ルールセット」セクションでは、次の項目を指定できます。
 
 - 要素を抽出するルール
-
 - 属性を抽出するルール
 
 
