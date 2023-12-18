@@ -2,9 +2,9 @@
 user-guide-title: Experience Managerガイド
 user-guide-description: Adobe Experience Managerガイドの製品ドキュメントをお読みください。
 breadcrumb-title: AEM Guides ガイド
-source-git-commit: 31dc283a5e51fc9c504ac4e75a9719dc247e90eb
+source-git-commit: 757371f7d9e9029096abd2f269b3bdd715d1c965
 workflow-type: tm+mt
-source-wordcount: '1639'
+source-wordcount: '1635'
 ht-degree: 5%
 
 ---
@@ -213,8 +213,8 @@ ht-degree: 5%
       + コンテンツの移行 {#content-migration}
          + [非 UUID から UUID へのコンテンツの移行](./install-guide/migrate-uuid-non-uuid.md)
          + 移行プロセス {#migration-process}
-            + [UUID 以外のコンテンツのバージョンでの移行](./install-guide/migrate-non-uuid-uuid-with-versions.md)
-            + [UUID 以外のコンテンツの移行（バージョンを使用しない場合）](./install-guide/migrate-non-uuid-uuid-without-versions.md)
+            + [バージョン管理されたコンテンツを移行](./install-guide/migrate-non-uuid-uuid-with-versions.md)
+            + [バージョン管理されていないコンテンツを移行](./install-guide/migrate-non-uuid-uuid-without-versions.md)
          + [既存のコンテンツを移行](./install-guide/migrate-content.md)
          + [既存の DITA コンテンツのアップロード](./install-guide/migrate-content-upload-existing-dita-content.md)
          + [DITA 以外のコンテンツの移行](./install-guide/migrate-content-non-dita.md)
