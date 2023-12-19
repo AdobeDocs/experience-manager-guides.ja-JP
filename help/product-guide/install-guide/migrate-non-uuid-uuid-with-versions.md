@@ -1,7 +1,7 @@
 ---
 title: UUID 以外のコンテンツをバージョン付きで UUID コンテンツに変換
 description: UUID 以外のコンテンツをバージョン付きで UUID コンテンツに移行する方法を説明します。
-source-git-commit: 4888bd4647a7ec8bbd4e53786b267cca96630219
+source-git-commit: b4ba381cad13960f2fd514b23c66016f0e08e273
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 1%
@@ -54,8 +54,7 @@ UUID 以外のバージョンのコンテンツを UUID コンテンツに移行
    >* 移行を実行するには、管理者権限が必要です。
    >* 移行を続行する前に、エラーが発生したファイルを修正することをお勧めします。
 
-1. （オプション）コンテンツに対してバージョンのパージを実行して、不要なバージョンを削除し、移行プロセスを高速化します。 バージョンのパージを実行するには、「 」オプションを選択します
-   **バージョンのパージ** 移行画面から、URL を使用してユーザーインターフェイスに移動します。 `http://<server- name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
+1. （オプション）コンテンツに対してバージョンのパージを実行して、不要なバージョンを削除し、移行プロセスを高速化します。 バージョンのパージを実行するには、「 」オプションを選択します **バージョンのパージ** 移行画面から、URL を使用してユーザーインターフェイスに移動します。 `http://<server- name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
    >[!NOTE]
    >
    >このユーティリティは、ベースラインまたはレビューで使用されるバージョンや、ラベルを持つバージョンを削除しません。
