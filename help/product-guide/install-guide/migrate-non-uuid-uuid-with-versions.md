@@ -1,9 +1,9 @@
 ---
 title: UUID 以外のコンテンツをバージョン付きで UUID コンテンツに変換
 description: UUID 以外のコンテンツをバージョン付きで UUID コンテンツに移行する方法を説明します。
-source-git-commit: 72cdc50df0dfb4af8c798bd1a488c852ed054707
+source-git-commit: 0d985688af601ca51822b116ea4baafce19f0658
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '755'
 ht-degree: 1%
 
 ---
@@ -14,7 +14,7 @@ UUID 以外のバージョンのコンテンツを UUID コンテンツに移行
 
 >[!NOTE]
 >
->必要な UUID バージョンに移行する前に、お使いのバージョンに応じてアップグレード手順に従ってください。
+>フォロー： [アップグレード手順](./upgrade-xml-documentation.md) 製品のライセンス版に固有です。
 
 ## 互換性マトリックス
 
@@ -26,10 +26,9 @@ UUID 以外のバージョンのコンテンツを UUID コンテンツに移行
 
 ## パッケージのインストール
 
-ご使用のバージョンに応じて、Adobeソフトウェア配布ポータルから必要なパッケージをダウンロードし、インストールします。
+ご使用のバージョンに応じて、Adobeソフトウェア配布ポータルから必要なパッケージをダウンロードします。
 <details>
-<summary>  バージョン 4.1 用パッケージ </summary>
-バージョン 4.1 以外の UUID を使用している場合は、次のパッケージをインストールする前に、バージョン 4.1 UUID をインストールする必要があります。
+<summary>  バージョン 4.1 のアップグレードパス用のパッケージ</summary>
 
 1. **移行前**: [com.adobe.guides.pre-uuid-migration-1.0.9.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F1-0%2Fcom.adobe.guides.pre-uuid-migration-1.0.9.zip)
 1. **移行**: [com.adobe.guides.uuid-upgrade-1.0.19.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F1-0%2Fcom.adobe.guides.uuid-upgrade-1.0.19.zip)
@@ -37,8 +36,7 @@ UUID 以外のバージョンのコンテンツを UUID コンテンツに移行
 
 
 <details>
-<summary> バージョン 4.3.1 のパッケージ</summary>
-バージョン 4.3 以外の UUID を使用している場合は、次のパッケージをインストールする前に、バージョン 4.3.1 UUID をインストールする必要があります。
+<summary> バージョン 4.3.1 のアップグレードパス用パッケージ</summary>
 
 1. **移行前**: [com.adobe.guides.pre-uuid-migration-1.1.3.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2Fcom.adobe.guides.pre-uuid-migration-1.1.3.zip)
 1. **移行**: [com.adobe.guides.uuid-upgrade-1.1.15.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2Fcom.adobe.guides.uuid-upgrade-1.1.15.zip)
@@ -47,17 +45,18 @@ UUID 以外のバージョンのコンテンツを UUID コンテンツに移行
 
 ## 移行前
 
-1. （オプション）コンテンツに対してバージョンのパージを実行して、不要なバージョンを削除し、移行プロセスを高速化します。 バージョンのパージを実行するには、「 」オプションを選択します **バージョンのパージ** 移行画面から、URL を使用してユーザーインターフェイスに移動します。 `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
+非 UUID バージョン（4.1 非 UUID または 4.3.0 非 UUID）に対して、次のチェックを実行します。
 
-   >[!NOTE]
-   >
-   >このユーティリティは、ベースラインまたはレビューで使用されるバージョンや、ラベルを持つバージョンを削除しません。
 1. お使いのバージョンに従って、移行前パッケージをインストールします。
 
    >[!NOTE]
    >
    >* 移行を実行するには、管理者権限が必要です。
    >* 移行を続行する前に、エラーが発生したファイルを修正することをお勧めします。
+1. （オプション）コンテンツに対してバージョンのパージを実行して、不要なバージョンを削除し、移行プロセスを高速化します。 バージョンのパージを実行するには、「 」オプションを選択します **バージョンのパージ** 移行画面から、URL を使用してユーザーインターフェイスに移動します。 `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
+   >[!NOTE]
+   >
+   >このユーティリティは、ベースラインまたはレビューで使用されるバージョンや、ラベルを持つバージョンを削除しません。
 1. Launch `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
 1. 選択 **互換性評価**  左のパネルから、フォルダパスを参照します。
 1. 互換性を確認して、次の情報をリストします。
@@ -100,7 +99,7 @@ UUID 以外のバージョンのコンテンツを UUID コンテンツに移行
 1. プロパティ検証を有効にする (`validation.enabled`) を Day CQ Tagging Service で使用します。
 
 1. 以下を確認します。 `uuid.regex` プロパティフォルダーがに正しく設定されている `com.adobe.fmdita.config.ConfigManager`. 空白の場合は、デフォルト値 ( `^GUID-(?<id>.*)`.
-1. 別のロガーを `com.adobe.fmdita.uuid.upgrade.UuidUpgrade` ブラウザーの応答は、 `/content/uuid-upgrade/logs`.
+1. 別のロガーを `com.adobe.fmdita.uuid` ブラウザーの応答は、 `/content/uuid-upgrade/logs`.
 
 ### 手順 2：移行の実行と検証
 
