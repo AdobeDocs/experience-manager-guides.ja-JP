@@ -1,7 +1,7 @@
 ---
 title: UUID 以外のコンテンツをバージョン付きで UUID コンテンツに変換
 description: UUID 以外のコンテンツをバージョン付きで UUID コンテンツに移行する方法を説明します。
-source-git-commit: 0d985688af601ca51822b116ea4baafce19f0658
+source-git-commit: b57364fa52d48791fbab07125f13007c563b7781
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 1%
@@ -53,19 +53,19 @@ UUID 以外のバージョンのコンテンツを UUID コンテンツに移行
    >
    >* 移行を実行するには、管理者権限が必要です。
    >* 移行を続行する前に、エラーが発生したファイルを修正することをお勧めします。
-1. （オプション）コンテンツに対してバージョンのパージを実行して、不要なバージョンを削除し、移行プロセスを高速化します。 バージョンのパージを実行するには、「 」オプションを選択します **バージョンのパージ** 移行画面から、URL を使用してユーザーインターフェイスに移動します。 `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
+
+1. （オプション）コンテンツに対してバージョンのパージを実行して、不要なバージョンを削除し、移行プロセスを高速化します。 バージョンのパージを実行するには、「 」オプションを選択します
+   **バージョンのパージ** 移行画面から、URL を使用してユーザーインターフェイスに移動します。 `http://<server- name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
    >[!NOTE]
    >
    >このユーティリティは、ベースラインまたはレビューで使用されるバージョンや、ラベルを持つバージョンを削除しません。
-1. Launch `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
+1. Launch `http://<server- name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
 1. 選択 **互換性評価**  左のパネルから、フォルダパスを参照します。
 1. 互換性を確認して、次の情報をリストします。
    * 合計ファイル数
    * 合計バージョン数
    * 移行の推定時間
    * エラーが発生したファイルの数
-
-
 
    ![移行時の互換性評価タブ](assets/migration-compatibility-assessment.png){width="800" align="left"}
 
