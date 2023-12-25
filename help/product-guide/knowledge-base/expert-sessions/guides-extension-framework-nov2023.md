@@ -2,9 +2,9 @@
 title: AEMガイドの拡張フレームワーク — Web エディターのカスタマイズと UI のレビュー
 description: Guides 拡張機能フレームワークを使用すると、更新が容易な JSON、CSS、JavaScript を使用して、レビュー UI または Webeditor の目的のセクションをカスタマイズできます。
 exl-id: 7b2efae3-be8c-4259-babb-f28a6903116a
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 9406895007386cbd15d5a9412457333493d7bb36
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '364'
 ht-degree: 1%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 1%
 
 - **一般的な使用例をドキュメント化** - [Experience League時](https://guides-extension.vercel.app/docs/aem_guides_framework/basic_customisation)
 
-- **サンプルを含むパブリックリポジトリ** - [GIT で](https://github.com/adobe/guides-extension/tree/sc-expert-session). sc-expert-session を参照するブランチを参照してください。
+- **サンプルを含むパブリックリポジトリ** - [GIT で](https://github.com/adobe/guides-extension/tree/sc-expert-session). sc-expert-session ブランチを参照してください。
 
 
 >[!NOTE]

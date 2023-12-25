@@ -2,9 +2,9 @@
 user-guide-title: Experience Managerガイド
 user-guide-description: Adobe Experience Managerガイドの製品ドキュメントをお読みください。
 breadcrumb-title: AEM Guides ガイド
-source-git-commit: 757371f7d9e9029096abd2f269b3bdd715d1c965
+source-git-commit: 9406895007386cbd15d5a9412457333493d7bb36
 workflow-type: tm+mt
-source-wordcount: '1635'
+source-wordcount: '1638'
 ht-degree: 5%
 
 ---
@@ -380,6 +380,7 @@ ht-degree: 5%
       + [ネイティブPDFパブリッシングの学習 — 第 1 部](./knowledge-base/expert-sessions/native-pdf-publishing-eamples-part1-june2023.md)
       + [ネイティブPDF出版の学習 — Hands on Lab - BYOS](./knowledge-base/expert-sessions/native-pdf-publishing-hands-on-lab-sep2023.md)
       + [AEM Guides の拡張フレームワーク](./knowledge-base/expert-sessions/guides-extension-framework-nov2023.md)
+      + [外部データソースの統合](./knowledge-base/expert-sessions/external-datasource-integration-dec2023.md)
    + 記事 {#kb-articles}
       + オーサリング{#authoring}
          + レポート {#reports}
