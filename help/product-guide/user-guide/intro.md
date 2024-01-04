@@ -1,12 +1,12 @@
 ---
 title: Adobe Experience Managerガイドについて
-description: エンタープライズグレードの DITA ベースのコンポーネントコンテンツ管理ソリューション、Adobe Experience Managerガイドについて説明します。 AEMガイドの利点を理解する。
-short-description: エンタープライズグレードの DITA ベースのコンポーネントコンテンツ管理ソリューションであるAEMガイドについて説明します。
+description: エンタープライズグレードの DITA ベースのコンポーネントコンテンツ管理ソリューションである Adobe Experience Manager Guides について説明します。AEM Guides のメリットを理解します。
+short-description: エンタープライズグレードの DITA ベースのコンポーネントコンテンツ管理ソリューションである AEM Guides について説明します。
 exl-id: 474e7eab-3474-4362-9f1d-17cc98e53184
 source-git-commit: b8fba97d5e686fd09b094a6cf5b52aa08ef2d069
 workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
