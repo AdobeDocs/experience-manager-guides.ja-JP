@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+title: 拡張機能リポジトリの概要
+description: AEM Guides 拡張機能パッケージディレクトリの構造
+source-git-commit: 9345278dd02f5736e5384f3a97b2422894d20339
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---

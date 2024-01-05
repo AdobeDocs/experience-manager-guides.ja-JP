@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ガイド
-source-git-commit: 9754536b7954d63d80746b34ff2cf35716086fdf
+source-git-commit: 6dedfb51c9f32c5f621c3672735ecc07be3d619d
 workflow-type: tm+mt
-source-wordcount: '1644'
-ht-degree: 5%
+source-wordcount: '1652'
+ht-degree: 6%
 
 ---
 
@@ -392,8 +392,12 @@ ht-degree: 5%
             + Schematron {#schematron}
                + [Schematron の検証](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
       + Guides Extention Framework {#extention-framework}
-         + [はじめに](./guides-ui-extensions/getting-started/Introduction.md)
-         + [インストールガイド](./guides-ui-extensions/getting-started/integrating-customisations.md)
+         + はじめに {#getting-started}
+            + [はじめに](./guides-ui-extensions/getting-started/Introduction.md)
+            + [インストールガイド](./guides-ui-extensions/getting-started/integrating-customisations.md)
+            + [拡張リポジトリの概要](./guides-ui-extensions/getting-started/extension-repo-intro.md)
+         + カスタマイズ {#customisations}
+            + [シンプルなカスタマイズ](./guides-ui-extensions/customisations/add-button.md)
       + 公開 {#publishing}
          + [ネイティブAEMパブリッシング用のPDF環境の設定](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
          + [FMPS とガイド](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
