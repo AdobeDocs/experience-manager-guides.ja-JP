@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ガイド
-source-git-commit: 9406895007386cbd15d5a9412457333493d7bb36
+source-git-commit: 9754536b7954d63d80746b34ff2cf35716086fdf
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1644'
 ht-degree: 5%
 
 ---
@@ -391,6 +391,9 @@ ht-degree: 5%
                + [Web エディターにカスタムスタイルを追加](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
             + Schematron {#schematron}
                + [Schematron の検証](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
+      + Guides Extention Framework {#extention-framework}
+         + [はじめに](./guides-ui-extensions/getting-started/Introduction.md)
+         + [インストールガイド](./guides-ui-extensions/getting-started/integrating-customisations.md)
       + 公開 {#publishing}
          + [ネイティブAEMパブリッシング用のPDF環境の設定](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
          + [FMPS とガイド](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
