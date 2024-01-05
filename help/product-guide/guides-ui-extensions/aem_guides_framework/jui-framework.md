@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+title: Jui Framework
+description: Jui フレームワークについて
+source-git-commit: a61abc0d2b480e276991db916ba0cbf630ca7996
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '265'
 ht-degree: 1%
 
 ---
@@ -23,7 +24,7 @@ JUI-React-Spectrum ライブラリには、AdobeReact Spectrum コンポーネ�
 
 ### MVC UI デザイン
 
-![代替テキスト](./imgs/jui-mvc-flow.png)
+![JUI MVC フロー](./imgs/jui-mvc-flow.png)
 
 ### ウィジェット
 
@@ -35,7 +36,7 @@ JUI-React-Spectrum ライブラリには、AdobeReact Spectrum コンポーネ�
 - 他のウィジェットを持つことができます
 - アプリがウィジェット
 
-![代替テキスト](./imgs/jui-widget.png)
+![JUI ウィジェット](./imgs/jui-widget.png)
 
 ### 要素
 
@@ -76,4 +77,4 @@ JUI-React-Spectrum ライブラリには、AdobeReact Spectrum コンポーネ�
 
 ### サンプルのアプリデザイン
 
-![代替テキスト](./imgs/jui-sample-app.png)
+![サンプルアプリ](./imgs/jui-sample-app.png)

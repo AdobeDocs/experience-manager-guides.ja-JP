@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ガイド
-source-git-commit: 5962414dfc065543b946cac1468a5f62013073cf
+source-git-commit: 2f5e951d3452e05fb307d6c34487269b5172000e
 workflow-type: tm+mt
-source-wordcount: '1660'
+source-wordcount: '1679'
 ht-degree: 6%
 
 ---
@@ -392,6 +392,18 @@ ht-degree: 6%
             + Schematron {#schematron}
                + [Schematron の検証](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
       + Guides Extention Framework {#extention-framework}
+         + Aem ガイドフレームワーク {#aem-guides-framework}
+            + [基本的なカスタマイズ](./guides-ui-extensions/aem_guides_framework/basic-customisation.md)
+            + [JUI フレームワーク](./guides-ui-extensions/aem_guides_framework/jui-framework.md)
+            + コンポーネント {#framework-components}
+               + [ボタン](./guides-ui-extensions/aem_guides_framework/components/button.md)
+               + [アイコン](./guides-ui-extensions/aem_guides_framework/components/icon.md)
+               + [ラベル](./guides-ui-extensions/aem_guides_framework/components/label.md)
+               + [リスト](./guides-ui-extensions/aem_guides_framework/components/list.md)
+               + [テキスト領域](./guides-ui-extensions/aem_guides_framework/components/textArea.md)
+            + ウィジェット {#framework-widgets}
+               + [レンダリングウィジェット](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
+               + [基本ウィジェット](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
          + はじめに {#getting-started}
             + [はじめに](./guides-ui-extensions/getting-started/Introduction.md)
             + [インストールガイド](./guides-ui-extensions/getting-started/integrating-customisations.md)
@@ -400,8 +412,9 @@ ht-degree: 6%
             + [シンプルなカスタマイズ](./guides-ui-extensions/customisations/add-button.md)
             + [コンテキストメニューのカスタマイズ](./guides-ui-extensions/customisations/context-menus.md)
             + [ツールバーとトップバーのカスタマイズ](./guides-ui-extensions/customisations/toolbar-topbar.md)
-         + レビュー{#review-app-customisations}
-            + [コンポーネント](./guides-ui-extensions/customisations/ReviewApp/components.md)
+            + レビュー{#review-app-customisations}
+               + [コンポーネント](./guides-ui-extensions/customisations/ReviewApp/components.md)
+               + [カスタマイズ](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
       + 公開 {#publishing}
          + [ネイティブAEMパブリッシング用のPDF環境の設定](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
          + [FMPS とガイド](./knowledge-base/kb-articles/publishing/fmpsandguides.md)

@@ -1,10 +1,14 @@
 ---
-source-git-commit: 5962414dfc065543b946cac1468a5f62013073cf
+title: カスタマイズ
+description: レビューアプリのカスタマイズ
+source-git-commit: a61abc0d2b480e276991db916ba0cbf630ca7996
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
+
+
 # レビューアプリのカスタマイズ
 
 レビューアプリのカスタマイズを容易にするために、以下に示すいくつかのフックを提供し、説明します。
@@ -14,7 +18,7 @@ ht-degree: 0%
 - id: `review_comment`
 - フック： `this.updateExtraProps`:
 
-説明に従って [ここ](../../aem_guides_framework/basic_customisation.md)の場合、カスタマイズ中に追加された新しい属性は、 `this.model.extraProps`. メソッド `updateExtraProps` では、レビューコメントに属性を追加し、追加した属性のサーバー上での更新と保存も処理できます。
+説明に従って [ここ](../../aem_guides_framework/basic-customisation.md)の場合、カスタマイズ中に追加された新しい属性は、 `this.model.extraProps`. メソッド `updateExtraProps` では、レビューコメントに属性を追加し、追加した属性のサーバー上での更新と保存も処理できます。
 
 ### 使用例
 

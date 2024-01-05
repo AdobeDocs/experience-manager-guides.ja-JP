@@ -2,9 +2,9 @@
 title: AEMガイドの拡張フレームワーク — Web エディターのカスタマイズと UI のレビュー
 description: Guides 拡張機能フレームワークを使用すると、更新が容易な JSON、CSS、JavaScript を使用して、レビュー UI または Webeditor の目的のセクションをカスタマイズできます。
 exl-id: 7b2efae3-be8c-4259-babb-f28a6903116a
-source-git-commit: 9406895007386cbd15d5a9412457333493d7bb36
+source-git-commit: 20fb3f3556b5188764266e7fdf8aa876e45c1922
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '362'
 ht-degree: 1%
 
 ---
@@ -45,9 +45,9 @@ ht-degree: 1%
 
 - **Extension Framework の基本リポジトリ** - [GIT](https://github.com/adobe/guides-extension/tree/main)
 
-- **ドキュメント** - [Experience League時](https://guides-extension.vercel.app/docs/aem_guides_framework/basic_customisation)
+- **ドキュメント** - [Experience League時](../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)
 
-- **一般的な使用例をドキュメント化** - [Experience League時](https://guides-extension.vercel.app/docs/aem_guides_framework/basic_customisation)
+- **一般的な使用例をドキュメント化** - [Experience League時](../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
 
 - **サンプルを含むパブリックリポジトリ** - [GIT で](https://github.com/adobe/guides-extension/tree/sc-expert-session). sc-expert-session ブランチを参照してください。
 

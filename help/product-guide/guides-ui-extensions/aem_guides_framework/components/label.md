@@ -1,12 +1,12 @@
 ---
-sidebar_position: 2
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+title: ラベル
+description: ラベル
+source-git-commit: 2e1cb576fa3b0a765304508e5f7962a154f1a72c
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 2%
+source-wordcount: '46'
+ht-degree: 6%
 
 ---
-
 
 # ラベル
 
