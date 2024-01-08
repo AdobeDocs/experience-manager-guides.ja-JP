@@ -2,9 +2,9 @@
 title: ネイティブPDF公開機能のカスタマイズと設定
 description: ネイティブPDF機能の様々なコンポーネントをカスタマイズして設定する方法を説明します。
 exl-id: 00bc894a-031e-4d09-bd30-331399fedbc8
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: c79f1d114d8a708cd088f2846243bbcfeed6e620
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,7 @@ AEMガイドを使用すると、ネイティブPDF出力生成機能を使用�
 * [テンプレートテンプレートのPDF](../native-pdf/components-pdf-template.md)
 * [ページレイアウトのデザイン](../native-pdf/design-page-layout.md)
 * [言語変数のサポート](../native-pdf/native-pdf-language-variables.md)
+* [PDF出力内の変数](../native-pdf/native-pdf-variables.md)
 * 共通のコンテンツスタイル {#content-styles}
    * [共通のコンテンツスタイルの使用](../native-pdf/stylesheet.md)
    * [カスタムの変更バースタイルを使用する](../native-pdf/change-bar-style.md)

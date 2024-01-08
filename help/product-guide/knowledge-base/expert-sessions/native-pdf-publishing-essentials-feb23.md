@@ -2,9 +2,9 @@
 title: ネイティブPDFの公開の基本事項
 description: AEMガイドでネイティブの PDF エンジンを使用してPDFを公開する方法について説明します。
 exl-id: e7ba6d2d-ebfb-4400-9b10-c4fb173123cf
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '204'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,6 @@ AEMガイドは、組み込みのPDF発行エンジンを備えており、ユ�
 ## 重要ポイント
 
 このセッションでは、次の事項について学習します。
-
 - PDF公開の基本事項
 - テンプレートテンプレートの様々なコンポーネントの作成とPDF化
 - 公開用のコンテンツの構造化とスタイル設定
@@ -42,14 +41,13 @@ AEMガイドは、組み込みのPDF発行エンジンを備えており、ユ�
 
 - **特集ビデオ** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **ユーザーガイド** - [ネイティブPDFの公開](/help/product-guide/native-pdf/pdf-template.md)
+- **ユーザーガイド** - [ネイティブPDFの公開](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/configuring/config-native-pdf-publish/pdf-template.html?lang=en)
 
 - **コミュニティフォーラム**  — セッション固有のコミュニティでのExperience League操作については、  [AEM Guides フォーラム](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 > このセッションで示す機能は、次のバージョンのAEMガイドで利用できます。
->
 > - オンプレミス 4.2 以降
 > - Cloud Service2211 以降
 

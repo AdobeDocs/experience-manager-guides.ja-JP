@@ -2,9 +2,9 @@
 title: Web エディターの機能について
 description: AEMガイドの Web エディターの機能について説明します。 Web エディターのインターフェイス（メインツールバー、セカンダリツールバー、左パネル、コンテンツ編集領域、右パネルなど）を把握します。
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 9d9a1f270873869ce8261aae439f0ecd7d9fea94
 workflow-type: tm+mt
-source-wordcount: '17222'
+source-wordcount: '17364'
 ht-degree: 0%
 
 ---
@@ -147,9 +147,11 @@ ht-degree: 0%
 
   ![](images/editor-setting-add-attributes-list.png-to-element.PNG){width="300" align="left"}
 
-- **プロファイルを公開**：ナレッジベース出力の公開に使用できる公開プロファイルが含まれます。 選択した消費者タイプ用に新しいプロファイルを作成できます。 例： Salesforce。
+- **プロファイルを公開**：これには、 **ナレッジベース** 出力。 ターゲットのナレッジベース用に新しいプロファイルを作成できます。 例えば、Salesforce や ServiceNow などです。
 
-   - **Salesforce 公開プロファイルを作成するための要件**
+   - **Salesforce 公開プロファイルの作成**
+
+     **前提条件**
 
       - Salesforce 用接続アプリを作成します。 詳しくは、 [API 統合の OAuth 設定の有効化](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&amp;type=5).
 
@@ -157,7 +159,7 @@ ht-degree: 0%
 
          - コールバックを指定します。
 
-           `URL: http://: <server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
+           `URL: http://<server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
 
          - 次の OAuth 範囲を選択します。
             - フルアクセス（フル）
@@ -166,18 +168,38 @@ ht-degree: 0%
   アプリが設定されると、Salesforce は **消費者キー** および **消費者の秘密鍵**.
 
   これらは、Salesforce 公開プロファイルの作成に使用できます。
-  ![エディター設定のプロファイル](./images/create-profile-editor-settings.png){width="300" align="left"}
 
 
+   - Salesforce 公開プロファイルを作成するには、 **Salesforce** ナレッジベース **サーバーの種類** ドロップダウン。 プロファイル名を入力します。 Adobe Analytics の **サイトの URL**、出力の公開に使用するコンシューマーサイトを入力し、 **消費者キー** および **消費者の秘密鍵** Salesforce 消費者サイトが提供します。 すると、 **検証** および **保存** 新しく作成されたプロファイル。
+     ![salesforce 公開プロファイルをエディタ設定で](./images/salesforce-publish-profile.png){width="550" align="left"}
 
-- 公開プロファイルを作成するには、Salesforce などのナレッジベースを **サーバーの種類** ドロップダウン。 プロファイル名を入力します。 Adobe Analytics の **サイトの URL** 出力の公開に使用するコンシューマーサイトを入力し、 **消費者キー** および **消費者の秘密鍵** Salesforce などの消費者サイトが提供します。 次に、新しく作成されたプロファイルにログインします。
-
-  >[!NOTE]
-  >
-  >Experience Managerガイドで Salesforce のプロキシを設定するには、AEMで Apache HTTP Components Proxy Configuration を使用します。 方法を学ぶ [AEM Link Checker のプロキシの設定](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
+     >[!NOTE]
+     >
+     >Experience Managerガイドで Salesforce のプロキシを設定するには、AEMで Apache HTTP Components Proxy Configuration を使用します。 方法を学ぶ [AEM Link Checker のプロキシの設定](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
 
 
-  ログイン後、DITA Map の出力プリセットで「プロファイルを公開」を選択し、を使用して、選択した記事の出力を生成できます。 詳しくは、 [Web エディターからの記事ベースの公開](../install-guide/configure-article-based-publishing.md) 」を参照してください。
+   - **ServiceNow 公開プロファイルの作成**
+
+     **前提条件**
+
+     アセットをアップロードするために ServiceNow サーバーを設定します。
+      - 次に接続： **ServiceNow** サーバー。
+      - に移動します。 **システムのプロパティ** > **セキュリティ**.
+      - 次のオプションをオフにします。
+
+        **このプロパティを設定して、アップロードの MIME タイプチェックを有効にする必要があります（すべてのバージョン Eureka 以降）。 添付ファイルの MIME タイプ検証を有効 (true) または無効 (false) にします。 glide.attachment.extensions で設定されたファイル拡張子は、アップロード時に MIME タイプのチェックが行われます。**
+
+      - 「**保存**」をクリックします。
+
+     アプリを設定したら、 **ServiceNow** プロファイルを公開します。
+   - 公開プロファイルを作成するには、 **サーバーの種類** ドロップダウン。 プロファイルを入力 **名前**. Adobe Analytics の **ServiceNow URL**、出力の公開に使用するコンシューマーサイトを入力し、 **ユーザー名** および **パスワード** ServiceNow 消費者サイトによって提供されます。 すると、 **検証** および **保存** 新しく作成されたプロファイル。
+
+     ![ServiceNow パブリッシュプロファイル](./images/service-now-publish-profile.png){width="550" align="left"}
+
+  検証後、DITA Map の出力プリセットで「プロファイルを公開」を選択し、それを使用して  **Salesforce** または **ServiceNow** 選択したサーバー。
+
+  詳しくは、 [ナレッジベース](../user-guide/generate-output-knowledge-base.md) 出力プリセット。
+
 
 - **検証**：このタブには、Web エディターでスキーマ検証を設定するオプションが含まれています。 次の機能を有効にできます。
 
@@ -186,7 +208,7 @@ ht-degree: 0%
      >[!NOTE]
      >選択した Schematron ファイルは、選択したフォルダープロファイルに対して保持されます。
 
-     ![エディター設定での検証](./images/editor-setting-validation.png){width="300" align="left"}
+     ![エディター設定での検証](./images/editor-setting-validation.png){width="550" align="left"}
 これにより、選択した Schematron ファイルで定義された規則を壊すファイルを保存できなくなります。 これを選択しない場合、変更を保存する前にファイルが検証されません。
 
    - **すべてのユーザが検証パネルでスキーマファイルを追加することを許可**：ユーザーが Web エディターの検証パネルで任意のスキーマファイルを追加できるようにする場合に選択します。 これにより、ユーザは Schematron ファイルを追加し、Schematron ファイルに対してトピックを検証できます。 これが選択されていない場合、 **スキーマトロンファイルを追加** ボタンが **検証パネル** 」をクリックします。
@@ -232,9 +254,8 @@ ht-degree: 0%
 
 - **ルートマップを選択**:DITA マップファイルを選択して、キー参照または用語集エントリを解決します。 選択したルートマップが、キー参照を解決する最も高い優先順位を持ちます。 詳しくは、 [キー参照の解決](map-editor-other-features.md#id176GD01H05Z).
 
-
 >[!NOTE]
->
+> 
 > ルートマップを使用しない場合は、 **ルートマップを選択** フィールドが空白です。
 
 **作成者モード、ソースモード、プレビューモード**
@@ -666,7 +687,7 @@ AEMガイドを使用すると、自由形式のテキスト形式でラベル�
 
 作成者がラベルを指定する必要のある場所に応じて、これらのラベルはドロップダウンリストの形式で表示されます。 これにより、事前に定義された、一貫性のあるラベルのみがシステムで使用されます。
 
-トピックにラベルを適用する方法は異なります。 [バージョン履歴](web-editor-use-label.md#) Assets UI のパネル、 [ベースライン](/help/product-guide/user-guide/generate-output-use-baseline-for-publishing.md#id184KD0T305Z) UI、Web エディター。 Web エディターのバージョンラベル機能を使用すると、作成者はすばやく簡単にトピックにラベルを割り当てることができます。
+トピックにラベルを適用する方法は異なります。 [バージョン履歴](web-editor-use-label.md) Assets UI のパネル、 [ベースライン](/help/product-guide/user-guide/generate-output-use-baseline-for-publishing.md) UI、Web エディター。 Web エディターのバージョンラベル機能を使用すると、作成者はすばやく簡単にトピックにラベルを割り当てることができます。
 
 Web エディターからトピックにラベルを追加するには、次の手順を実行します。
 

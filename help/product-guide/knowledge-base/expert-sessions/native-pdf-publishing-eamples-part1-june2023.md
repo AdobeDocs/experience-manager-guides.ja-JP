@@ -2,9 +2,9 @@
 title: ネイティブPDFパブリッシング — 例による学習（第 1 部）
 description: ネイティブPDFの公開エンジンを使用すると、必要に応じて必要に応じてセクションを操作しながら、ドキュメントのコンテンツレイアウトを制御できます。その際に、更新が容易な CSS、HTMLおよび JavaScript を使用します。
 exl-id: ddaf4e83-9958-42c5-b172-4c9f8e923910
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '256'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,6 @@ ht-degree: 1%
 ## 重要ポイント
 
 このセッションでは、ネイティブPDF公開に関する以下の内容を学びました。
-
 - MathML、透かし、変更の追跡などの基本機能の有効化
 - カスタムフォントの使用
 - PDF出力での DITA XML からのメタデータの使用
@@ -41,18 +40,17 @@ ht-degree: 1%
 
 ## 関連リソース
 
-- **ネイティブPDFの設定手順** - [Experience League](/help/product-guide/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
+- **ネイティブPDFの設定手順** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.html?lang=en)
 
-- **ネイティブPDF公開の機能の概要** - [Experience League時](/help/product-guide/knowledge-base/expert-sessions/native-pdf-publishing-essentials-feb23.md)
+- **ネイティブPDF公開の機能の概要** - [Experience League時](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23.html?lang=en)
 
-- **一般的な使用例をドキュメント化** - [Experience League時](/help/product-guide/native-pdf/stylesheet.md)
+- **一般的な使用例をドキュメント化** - [Experience League時](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/content-styles/stylesheet.html?lang=en)
 
 - **コミュニティフォーラム**  — セッション固有のコミュニティでのExperience League操作については、  [AEM Guides フォーラム](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 > このセッションで示す機能は、次のバージョンのAEMガイドで利用できます。
->
 > - オンプレミス 4.2 以降
 > - Cloud Service2303 以降
 

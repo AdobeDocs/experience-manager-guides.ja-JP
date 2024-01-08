@@ -2,7 +2,7 @@
 title: ワークフローの設定とカスタマイズ
 description: ワークフローの設定とカスタマイズの方法について説明します
 exl-id: 3be387b9-6ac2-4b61-afdf-fbe9d8b6cc1e
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
 source-wordcount: '1744'
 ht-degree: 3%
@@ -201,7 +201,7 @@ AEMガイドは、AEMで DITA コンテンツを使用できる様々なワー�
 >
 > Web コンソールからアクセスできるプロパティは、 http://です。&lt;server name=&quot;&quot;>:&lt;port>/system/console/configMgr.
 
-| プロパティ | バンドル名 | 説明 |
+| Property | バンドル名 | 説明 |
 |--------|-----------|-----------|
 | ダイナミックアウトルーフ | `com.adobe.fmdita.postprocess.PostProcessObservation` | 後処理が実行されていないすべてのファイルについて、トピックファイルを解析して、参照元を取得します。 処理するファイルの数が多い場合、システムに過負荷がかかる可能性があるので、このオプションを無効のままにしておくことをお勧めします。 |
 | 後処理Threads | `com.adobe.fmdita.config.ConfigManager` | 後処理ワークフローに使用する後処理スレッドの数を設定します。 <br>デフォルト値は 1 です。 |

@@ -2,9 +2,9 @@
 title: ネイティブテンプレートの作成とカスタマイズPDF
 description: ネイティブテンプレートを作成してカスタマイズする方法についてPDFします。
 exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1154'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ ht-degree: 0%
 このオプションを選択して、Assets UI にテンプレートを表示します。 テンプレートのルート位置が開くと、テンプレートのすべてのリソースを表示できます。
 
 カスタムテンプレートを作成したら、PDF出力プリセットのページレイアウトから選択できます。
-方法を学ぶ [PDF出力](/help/product-guide/web-editor/native-pdf-web-editor.md).
+方法を学ぶ [PDF出力](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=en).
 
 >[!NOTE]
 >
@@ -112,7 +112,6 @@ ht-degree: 0%
 テンプレートをカスタマイズするには、テンプレートコンポーネントを調整し、スタイルシートを使用してスタイル形式を適用します。
 
 テンプレートをカスタマイズするには、次のPDFを実行します。
-
 1. Web エディターで、 **出力** タブをクリックします。
 1. 左側のサイドバーを展開し、「 」を選択します。 **テンプレート**.
 

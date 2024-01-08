@@ -2,9 +2,9 @@
 title: ベースラインを使用したコンテンツの管理
 description: ベースラインを使用してコンテンツを効果的に管理する方法を説明します。
 exl-id: 3fc2e889-b255-4e8d-9750-ab61337107ae
-source-git-commit: 0afe8bf9b16b1d1367971462b0d44f1721b317c5
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '183'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,6 @@ AEMガイドのリリース管理は、トピックとアセットのバージ�
 ## 重要ポイント
 
 このセッションでは、次の事項について学習します。
-
 - AEMガイドの様々なベースライン操作
 - ベースラインを使用したダウンロード、公開、翻訳
 - ベースラインを使用する際のベストプラクティス
@@ -41,14 +40,13 @@ AEMガイドのリリース管理は、トピックとアセットのバージ�
 
 - **特集ビデオ** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **ユーザーガイド** - [基準線を使用する](/help/product-guide/user-guide/generate-output-use-baseline-for-publishing.md)
+- **ユーザーガイド** - [基準線を使用する](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html)
 
 - **コミュニティフォーラム**  — セッション固有のコミュニティでのExperience League操作については、 [AEM Guides フォーラム](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 >このセッションで示す機能は、次のバージョンのAEMガイドで利用できます。
->
 > - オンプレミス 4.1 以降
 > - Cloud Service2211 以降
 

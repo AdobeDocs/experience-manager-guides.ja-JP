@@ -2,9 +2,9 @@
 title: AEMガイドでの DITA ファイルのタグの管理
 description: AEMガイドでの cq:tags の管理について説明する簡単な記事
 exl-id: 2d805c26-df9b-405a-81ca-7aa84c6f86c8
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '280'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,7 @@ DITA コンテンツにタグを追加する方法は様々ですが、この記
 
 ### 管理 —> メタデータのリストが空か不完全です
 
-リストが空または不完全な場合は、ditamap でインデックス作成を実行する必要が生じる場合があります。 [アップグレード手順（コンテンツのインデックス作成）](/help/product-guide/install-guide/upgrade-xml-documentation.md#steps-to-index-the-existing-content-to-use-the-new-find-and-replace%3A)
+`If list is empty or  incomplete then you may need to run the indexing on your ditamap, You can refer` [アップグレード手順（コンテンツのインデックス作成）](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/download-install-upgrade-aemg/upgrade-xml-documentation.html?lang=en#steps-to-index-the-existing-content-to-use-the-new-find-and-replace%3A)
 
 ### カスタムメタデータはリストで使用できません
 
@@ -54,8 +54,8 @@ DITA コンテンツにタグを追加する方法は様々ですが、この記
 
 ## その他の役立つリソース
 
-- [マップダッシュボード (Assets UI) を使用した一括タグ付け](/help/product-guide/user-guide/map-editor-bulk-tagging.md)
-- [Web エディタでの Ditamap レポート](/help/product-guide/user-guide/reports-web-editor.md)
+- [マップダッシュボード (Assets UI) を使用した一括タグ付け](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/manaege-metadata/map-editor-bulk-tagging.html?lang=en)
+- [Web エディタでの Ditamap レポート](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/reports-aem-guide/reports-web-editor.html?lang=en)
 - [AEMでのタグ付け](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/configuring/tagging.html?lang=en)
 
 

@@ -2,9 +2,9 @@
 title: リリースノート | Adobe Experience Managerガイドas a Cloud Service、2023 年 2 月リリース
 description: Adobe Experience Managerガイドの 2 月リリースas a Cloud Service
 exl-id: 090eaf94-fe3a-47e9-9937-f84f8434550d
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1426'
 ht-degree: 0%
 
 ---
@@ -121,9 +121,9 @@ AEMガイドでは次の項目を選択できます。 **エディタとマッ�
 
 発行リクエストごとに、AEMガイドはas a Cloud Service的に個別のコンテナを実行し、ユーザーのリクエストに従って水平方向に拡大/縮小します。 これにより、複数の発行リクエストを実行して、パフォーマンスを向上させることができます。
 
-詳しくは、 [AEMガイド用の新しいマイクロサービスベースの公開の設定をas a Cloud Service](/help/product-guide/knowledge-base/publishing/configure-microservices.md).
+詳しくは、 [AEMガイド用の新しいマイクロサービスベースの公開の設定をas a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/publishing/configure-microservices.md).
 
-## ネイティブPDF |カスタムブックマークをPDF出力に追加
+## ネイティブPDF | カスタムブックマークをPDF出力に追加
 
 これで、ナビゲーションを容易にするために、最終PDF出力の特定のコンテンツにカスタムブックマークを追加できます。 これは、DITA マップのトピックまたはセクションタイトルから作成された TOC に追加されます。
 
@@ -132,11 +132,11 @@ AEMガイドでは次の項目を選択できます。 **エディタとマッ�
 AEMガイドは、TOC エントリまたはPDF出力内の特定のトピックにカスタムスタイルを適用する機能を提供します。 例えば、目次のテキストの色やトピックのタイトルを変更できます。 トピック内のコンテンツ全体にスタイルを適用することもできます。
 
 
-## ネイティブPDF |脚注コンポーネントのページマーカーのスタイルを設定する
+## ネイティブPDF | 脚注コンポーネントのページマーカーのスタイル設定
 
 これで、足の音符のページマーカーのスタイルを設定できます。 例えば、角括弧を追加したり、色を変更したりできます。 これらのスタイルを使用すると、ドキュメント内のページのマーカーを簡単に識別できます。
 
-## ネイティブPDF |目次の変更されたトピックを示す変更バー
+## ネイティブPDF | 変更バーを使用して、目次の変更されたトピックを示します。
 
 AEMガイドで、出力されたトピックの目次内で変更されたPDFをすばやく識別できるようになりました。  目次の変更済みトピックの左側に変更バーが表示されます。 目次のトピックをクリックすると、詳細な変更が表示されます。
 

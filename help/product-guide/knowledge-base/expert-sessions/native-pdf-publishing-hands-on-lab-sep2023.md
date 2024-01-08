@@ -2,9 +2,9 @@
 title: ネイティブPDF出版「Hands on lab - BYOS」 — インタラクティブラーニング
 description: この「実践ラボ — BYOS」セッションは、ネイティブPDFの公開を詳しく調査しています。 様々な使用例を調べ、主な機能を活用し、Adobeの専門家と直接関わり合い、特定の問題文や要件に対処します。
 exl-id: 55c276d8-8611-4050-be5f-7f9854f94228
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '325'
 ht-degree: 1%
 
 ---
@@ -46,18 +46,17 @@ ht-degree: 1%
 
 ## 関連リソース
 
-- **ネイティブPDFの設定手順** - [Experience League](/help/product-guide/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
+- **ネイティブPDFの設定手順** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.html?lang=en)
 
-- **ネイティブPDF公開の機能の概要** - [Experience League時](/help/product-guide/knowledge-base/expert-sessions/native-pdf-publishing-essentials-feb23.md)
+- **ネイティブPDF公開の機能の概要** - [Experience League時](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23.html?lang=en)
 
-- **一般的な使用例をドキュメント化** - [Experience League時](/help/product-guide/native-pdf/stylesheet.md)
+- **一般的な使用例をドキュメント化** - [Experience League時](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/content-styles/stylesheet.html?lang=en)
 
 - **コミュニティフォーラム**  — セッション固有のコミュニティでのExperience League操作については、  [AEM Guides フォーラム](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 > このセッションで示す機能は、次のバージョンのAEMガイドで利用できます。
->
 > - オンプレミス 4.2 以降
 > - Cloud Service2309 以降
 

@@ -2,9 +2,9 @@
 title: 生成後のワークフロー
 description: 例を含む、生成後のワークフローの概要
 exl-id: e19fdc0b-0ec6-46ce-81ed-e9490d12c029
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '306'
 ht-degree: 2%
 
 ---
@@ -20,15 +20,13 @@ AEMガイドでは、出力後の生成ワークフローを柔軟に指定で�
 ### ワークフロープロセスの作成
 
 生成された出力に対して操作を実行する Java または ECMA ベースのワークフロープロセスを作成します。 例えば、ソースから生成されたコンテンツにメタデータをコピーしたり、生成された出力のメタデータを操作したりします。
-
 - ECMA スクリプトを使用してこのようなプロセスを作成する例を取り上げます（添付されたパッケージを参照できます）。
-- Java ベースのワークフロープロセスについては、*出力後の生成ワークフローのカスタマイズ*」/ [インストールおよび設定ガイド](/help/product-guide/install-guide/customize-workflows.md#id17A6GI004Y4)
+- Java ベースのワークフロープロセスについては、*出力後の生成ワークフローのカスタマイズ*」/ [インストールおよび設定ガイド](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_Installation-Configuration-Guide_EN.pdf#page=119)
 
 
 ### ワークフローモデルの作成
 
 前の手順で作成したカスタムワークフロープロセスで、ワークフローモデルを作成し、そのプロセスステップを追加します。
-
 - また、必須のプロセスステップ「*投稿生成を最終決定*」がワークフローの最後のステップとして追加されました。
 
 以下に示すサンプルワークフローモデルを参照してください。

@@ -2,9 +2,9 @@
 title: AEMガイドのレポート
 description: ユーザーがコンテンツの品質を向上できるように、AEMで使用できるすべてのレポートについて説明します。
 exl-id: f0d761ff-efea-452c-bb8e-865f34a182fc
-source-git-commit: 0afe8bf9b16b1d1367971462b0d44f1721b317c5
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '263'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,6 @@ ht-degree: 1%
 ## セッションの概要
 
 このセッションでは、ユーザーが標準で使用できるレポートを表示しました。 概して次のように説明します。
-
 - ドキュメント（マップ）とトピックレポート
 - メタデータレポートと一括メタデータ管理オプション
 - コンテンツ再利用レポート
@@ -41,7 +40,6 @@ ht-degree: 1%
 ## 重要ポイント
 
 このセッションでは、次の事項について学びました。
-
 - CCMS におけるレポートの重要性
 - すぐに使用できるレポート
 - コンテンツに関するレポートの例
@@ -53,14 +51,13 @@ ht-degree: 1%
 
 - **特集ビデオ** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=en)
 
-- **ユーザーガイド** - [コンテンツの作成](/help/product-guide/user-guide/reports-intro.md)
+- **ユーザーガイド** - [コンテンツの作成](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
 
 - **コミュニティフォーラム**  — セッション固有のコミュニティでのExperience League操作については、  [AEM Guides フォーラム](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 > このセッションで示す機能は、次のバージョンのAEMガイドで利用できます。
->
 > - オンプレミス：4.2 以降
 > - Cloud Service:2302 以降
 

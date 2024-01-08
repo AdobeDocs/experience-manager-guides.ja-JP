@@ -2,9 +2,9 @@
 title: Web ベースのコンテンツの作成
 description: Web エディターを使用して構造化コンテンツを作成する方法を説明します。
 exl-id: ab051c14-5c1e-4685-89e8-3c90dff9ea5e
-source-git-commit: 0afe8bf9b16b1d1367971462b0d44f1721b317c5
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '196'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,6 @@ AEMガイドには、構造化コンテンツを作成するための組み込�
 ## 重要ポイント
 
 このセッションでは、次の事項について学習します。
-
 - Web エディターの設定を行う
 - Web エディターの機能を使用して作成者の生産性を向上させる
 - 使用可能な機能の拡張と統合
@@ -41,14 +40,13 @@ AEMガイドには、構造化コンテンツを作成するための組み込�
 
 - **特集ビデオ** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **ユーザーガイド** - [コンテンツの作成](/help/product-guide/user-guide/authoring-content.md)
+- **ユーザーガイド** - [コンテンツの作成](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map/authoring-content.html)
 
 - **コミュニティフォーラム**  — セッション固有のコミュニティでのExperience League操作については、  [AEM Guides フォーラム](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 > このセッションで示す機能は、次のバージョンのAEMガイドで利用できます。
->
 > - オンプレミス 4.1.3 以降
 > - Cloud Service2211 以降
 

@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ガイド
-source-git-commit: 2f5e951d3452e05fb307d6c34487269b5172000e
+source-git-commit: 2c81d111dede5301366169ba5f4c3825ac39c491
 workflow-type: tm+mt
-source-wordcount: '1679'
+source-wordcount: '1686'
 ht-degree: 6%
 
 ---
@@ -155,6 +155,7 @@ ht-degree: 6%
       + AEMガイドの出力プリセット {#output-presets-aemg}
          + [AEM Site](./user-guide/generate-output-aem-site.md)
          + [PDF](./user-guide/generate-output-pdf.md)
+         + [ナレッジベース](./user-guide/generate-output-knowledge-base.md)
          + [HTML5](./user-guide/generate-output-html5.md)
          + [EPUB](./user-guide/generate-output-epub.md)
          + [カスタム](./user-guide/generate-output-custom.md)
@@ -266,6 +267,7 @@ ht-degree: 6%
             + [PDFテンプレート](./native-pdf/pdf-template.md)
             + [テンプレートテンプレートのPDF](./native-pdf/components-pdf-template.md)
             + [ページレイアウトのデザイン](./native-pdf/design-page-layout.md)
+            + [PDF出力内の変数](./native-pdf/native-pdf-variables.md)
             + [言語変数のサポート](./native-pdf/native-pdf-language-variables.md)
             + 共通のコンテンツスタイル {#content-styles}
                + [共通のコンテンツスタイルの使用](./native-pdf/stylesheet.md)
@@ -430,3 +432,4 @@ ht-degree: 6%
          + [条件付きコンテンツの使用](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
          + [キーの操作](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
    + [酸素コネクタを使用](./oxygen-connector/use-aem-connector.md)
+

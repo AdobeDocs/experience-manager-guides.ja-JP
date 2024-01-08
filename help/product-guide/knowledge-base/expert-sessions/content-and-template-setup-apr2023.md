@@ -2,9 +2,9 @@
 title: コンテンツとテンプレートの設定
 description: コンテンツとテンプレートを設定する際に考慮すべき事項については、AEMガイドを参照してください。
 exl-id: f125bad9-33a2-4de5-b43f-d6368d61879b
-source-git-commit: 0afe8bf9b16b1d1367971462b0d44f1721b317c5
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '275'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 1%
 ## セッションの概要
 
 このセッションでは、大まかに次の内容を説明します。
-
 - コンテンツ設定の様々な側面（分類、分類、メタデータ）
 - コンテンツテンプレートの設定（トピックテンプレート、マップテンプレート、スニペット）
+
 
 
 ## セッションの記録
@@ -38,7 +38,6 @@ ht-degree: 1%
 ## 重要ポイント
 
 このセッションでは、次の事項について学びました。
-
 - コンテンツをインポート/作成する前に、分析および検討に時間を費やす
 - 様々なユーザーセグメント（エンドユーザーまたは作成者）に応じたコンテンツの分類と分類
 - メタデータ機能を活用してユーザーの生産性を高める
@@ -52,14 +51,13 @@ ht-degree: 1%
 
 - **特集ビデオ** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/folder-profiles.html)
 
-- **ユーザーガイド** - [コンテンツの作成](/help/product-guide/user-guide/reports-intro.md)
+- **ユーザーガイド** - [コンテンツの作成](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
 
 - **コミュニティフォーラム**  — セッション固有のコミュニティでのExperience League操作については、  [AEM Guides フォーラム](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 > このセッションで示す機能は、次のバージョンのAEMガイドで利用できます。
->
 > - オンプレミス：4.2 以降
 > - Cloud Service:2303 以降
 

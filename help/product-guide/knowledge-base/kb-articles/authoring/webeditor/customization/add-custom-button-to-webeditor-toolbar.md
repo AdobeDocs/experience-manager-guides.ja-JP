@@ -2,9 +2,9 @@
 title: WebEditor ツールバーにアクションにつながる新しいカスタムボタンを追加する
 description: 新しいカスタムボタンを webeditor ツールバーに追加し、javascript を呼び出してカスタム操作する方法を説明します。
 exl-id: 34999db6-027a-4d93-944f-b285b4a44288
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -60,10 +60,7 @@ JIRA ID を含む「change-request-id」要素は、API から取得する必要
 
 ### 新しいボタンのクリック時イベントを処理します
 
->[!NOTE]
->
->以下の手順は、この投稿に添付されたパッケージとして利用できます
-
+    注意：以下に示す手順は、この投稿に添付されたパッケージとして利用できます
 
 
 - フォルダープロファイルを保存した後、プロジェクトディレクトリ（の下）に「cq:ClientLibraryFolder」を作成します。 */apps*) をクリックし、以下のスクリーンショットに示すように、プロパティを追加します。

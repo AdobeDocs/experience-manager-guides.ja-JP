@@ -2,9 +2,9 @@
 title: Guides Webeditor にカスタムスタイルを追加する
 description: カスタムスタイルを追加して、ガイドウェブエディターの外観と操作性を変更する方法を説明します。
 exl-id: 03143fb2-d05d-4103-b172-8b91880b7f9e
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,6 @@ ht-degree: 0%
 [このリンクを使用して、フォルダープロファイルと CSS テンプレートレイアウトの設定について詳しく知る](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en#customize-the-css-template-layout)
 
 以下を使用して、上記のスタイルをウェブエディターで設定します。
-
 - 用途 [css_layout.css](../../../assets/authoring/webeditor-customstyles-css_layout.css) を選択し、選択したフォルダープロファイルにアップロードします。
 - 添付のパッケージをインストールします。 [webeditor-styles-resources.zip](../../../assets/authoring/webeditor-styles-resources.zip) AEMパッケージマネージャーを使用した上記の CSS ファイルで使用するリソースのインストール
 
@@ -57,4 +56,4 @@ Please note this is compatible to AEM Guides version 4.2 and AEM Guides cloud ve
 
 ## 参照
 
-また、Webeditor の設定やカスタマイズに関するエキスパートセッション ( [ウェブディターに関するエキスパートセッション](/help/product-guide/knowledge-base/expert-sessions/webbased-authoring-jan2023.md)
+また、Webeditor の設定やカスタマイズに関するエキスパートセッション ( [ウェブディターに関するエキスパートセッション](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/webbased-authoring-jan2023.html?lang=en)

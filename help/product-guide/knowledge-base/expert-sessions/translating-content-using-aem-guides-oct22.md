@@ -2,9 +2,9 @@
 title: コンテンツの翻訳
 description: コンテンツを複数の言語に翻訳する方法を説明します。
 exl-id: c8dacbdc-4b0b-44ca-82d4-889cd83741ff
-source-git-commit: 0afe8bf9b16b1d1367971462b0d44f1721b317c5
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '166'
 ht-degree: 5%
 
 ---
@@ -31,7 +31,6 @@ AEMガイドは、堅牢な翻訳機能を備えた多言語コンテンツ作�
 ## 重要ポイント
 
 このセッションでは、次の事項について学習します。
-
 - 企業が翻訳に投資してビジネスを改善する理由
 - 使用可能なフレームワークのメカニズムと翻訳プロセス
 - 翻訳ワークフロー、API およびダッシュボードの自動化
@@ -41,14 +40,13 @@ AEMガイドは、堅牢な翻訳機能を備えた多言語コンテンツ作�
 
 - **特集ビデオ** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **ユーザーガイド** - [コンテンツを翻訳](/help/product-guide/install-guide/translation.md)
+- **ユーザーガイド** - [コンテンツを翻訳](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ftranslation.html)
 
 - **コミュニティフォーラム**  — セッション固有のコミュニティでのExperience League操作については、 [AEM Guides フォーラム](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)
 
 >[!NOTE]
 >
 > このセッションで示す機能は、次のバージョンのAEMガイドで利用できます。
->
 > - オンプレミス 4.1 以降
 > - Cloud Service2207 以降
 

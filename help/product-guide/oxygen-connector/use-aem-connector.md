@@ -4,9 +4,9 @@ description: Oxygen Plugin を使用して、Adobe Experience Managerガイド�
 hide: true
 hidefromtoc: true
 exl-id: 9a140564-27eb-404e-93a5-f5c81364e7f7
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 0e19b870541e8e65dc371eb01fc3256f172c1a91
 workflow-type: tm+mt
-source-wordcount: '6101'
+source-wordcount: '6294'
 ht-degree: 0%
 
 ---
@@ -246,22 +246,21 @@ AEMリポジトリ内の DITA トピックに関連付けられたプロファ�
 
    ![ドキュメントタイプの関連付け](images/document_type_association.png){width="650" align="left"}
 
-1. Adobe Analytics の **クラスパス** 「 」タブで、「 com.adobe.o2.connector 」を選択します。 **ID のプラグインから親クラスローダーを使用** 」ドロップダウンリストから選択できます。
+1. Adobe Analytics の **クラスパス** タブ、選択 `com.adobe.o2.connector` （内） **ID のプラグインから親クラスローダーを使用** 」ドロップダウンリストから選択できます。
 
    ![「クラスパス」タブ](images/dita-extension.png){width="650" align="left"}
 
 1. Adobe Analytics の **拡張機能** 「 」タブで、次の変更をおこないます。
-   - クリック **選択** の横 **オーサー拡張機能の状態リスナー** under **個々の拡張機能** で「 CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn 」を選択します。 **クラス** リスト。 「**OK**」をクリックします。
-   - クリック **選択** の横 **作成者のカスタム属性値エディタ** under **個々の拡張機能** 「 CustomValueEditor - com.adobe.o2.framework.extn 」を選択し、 **クラス** リスト。 クリック **OK**.
-次のスクリーンショットは、設定済みの **拡張** DITA トピックのタブ：
 
-     ![DITA トピック用に設定された拡張機能](images/dita-topic-extension-tab.png){width="650" align="left"}
-
-   - クリック **選択** の横 **拡張機能バンドル** 「 」で「 LinkResolverExtensionBundle - com.adobe.o2.framework.extn 」を選択します。 **クラス** リスト。 「**OK**」をクリックします。
-
+   - クリック **選択** の横 **拡張機能バンドル** を選択し、   `LinkResolverExtensionBundle - com.adobe.o2.framework.extn` （内） **クラス** リスト。 「**OK**」をクリックします。
      ![DITA トピック用に設定された拡張機能](images/dita-map-extenstion-link-resolve.png) {width="650" align="left"}
+   - クリック **選択** の横 **オーサー拡張機能の状態リスナー** under **個々の拡張機能** を選択し、 `CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn` （内） **クラス** リスト。 「**OK**」をクリックします。
+   - クリック **選択** の横 **作成者のカスタム属性値エディタ** under **個々の拡張機能** を選択し、 `CustomValueEditor - com.adobe.o2.framework.extn` （内） **クラス** リスト。 「**OK**」をクリックします。
+   - クリック **選択** の横 **作成者の外部オブジェクト挿入ハンドラー** under **個々の拡張機能** を選択し、 `CustomURLInsertionHandler - com.adobe.o2.ui ` （内） **クラス** リスト。 「**OK**」をクリックします。
 
 
+   次のスクリーンショットは、設定済みの **拡張** DITA トピックのタブ：
+   <img src="images/dita-topic-extension-tab.png" alt="DITA トピック用に設定された拡張機能" width="650" border="2px">
 1. クリック **OK** をクリックして、変更を保存します。
 
 ### DITA マップ拡張の設定
@@ -270,20 +269,23 @@ AEM Web インターフェイスから直接 Oxygen XML Author でマップフ�
 
 DITA マップ拡張を設定するには、次の手順を実行します。
 
-1. Oxygen XML Author で、**オプション** \> **環境設定**.
+1. Oxygen XML Author で、 **オプション** \> **環境設定**.
 1. Adobe Analytics の **ドキュメントタイプの関連付け** タブ、選択 **DITA マップ**&#x200B;をクリックし、 **拡張**.
 1. Adobe Analytics の **クラスパス** 「 」タブで、「 com.adobe.o2.connector 」を選択します。 **ID のプラグインから親クラスローダーを使用** 」ドロップダウンリストから選択できます。
 1. Adobe Analytics の **拡張機能** 「 」タブで、次の変更をおこないます。
-1. 
-   - クリック **選択** の横 **オーサー拡張機能の状態リスナー** under **個々の拡張機能** で「 CustomDITAMapAuthorExtensionStateListener - com.adobe.o2.framework.extn 」を選択します。 **クラス** リスト。 「**OK**」をクリックします。
-- クリック **選択** の横 **作成者のカスタム属性値エディタ** under **個々の拡張機能** 「 CustomValueEditor - com.adobe.o2.framework.extn 」を選択し、 **クラス** リスト。 「**OK**」をクリックします。
-- *\（オプション\）* マップファイルを開いたときに参照を解決しない場合は、次の追加設定を実行する必要があります。
+   - クリック **選択** の横 **拡張機能バンドル** を選択し、   `com.adobe.o2.framework.extn.LinkResolverDITAMapExtensionBundle` （内） **クラス** リスト。 「**OK**」をクリックします。
 
-  クリック **選択** の横 **参照リゾルバー** under **個々の拡張機能** 「CustomDITAMapReferenceResolver - com.adobe.o2.framework.extn 」を選択し、 **クラス** リスト。 「**OK**」をクリックします。
+   - クリック **選択** の横 **オーサー拡張機能の状態リスナー** under **個々の拡張機能** を選択し、 `CustomDITAMapAuthorExtensionStateListener - com.adobe.o2.framework.extn` （内） **クラス** リスト。 「**OK**」をクリックします。
 
-  次のスクリーンショットは、設定済みの **拡張** タブ：
+   - クリック **選択** の横 **作成者の外部オブジェクト挿入ハンドラー** under **個々の拡張機能** を選択し、 `CustomURLInsertionHandler - com.adobe.o2.ui ` （内） **クラス** リスト。 「**OK**」をクリックします。
 
-  ![DITA マップ用に設定された拡張機能](images/dita-map-extension-tab.png){width="650" align="left"}
+   - クリック **選択** の横 **作成者のカスタム属性値エディタ** under **個々の拡張機能** を選択し、 `CustomValueEditor - com.adobe.o2.framework.extn` （内） **クラス** リスト。 「**OK**」をクリックします。
+
+   - クリック **選択** の横 **参照リゾルバー** under **個々の拡張機能** を選択し、 `CustomDITAMapReferenceResolver - com.adobe.o2` （内） **クラス** リスト。 「**OK**」をクリックします。
+   - *\（オプション\）* マップファイルを開いたときに参照を解決しない場合は、次の追加設定を実行する必要があります。
+
+   次のスクリーンショットは、設定済みの **拡張** タブ：
+   <img src="images/dita-map-extension-tab.png" alt="DITA マップ用に設定された拡張機能" width="650" border="2px">
 
 1. クリック **OK** をクリックして、変更を保存します。
 
@@ -440,7 +442,7 @@ AEMガイドで利用可能なエディターを使用する場合は、コン�
 
    ![チェックインダイアログ](images/checkin-dropdown-labels.png){width="550" align="left"}
 
-   複数のラベルを（コンマで区切って）同じトピックバージョンに追加できます。  例： *Adobe*, *AEM*,*ガイド*
+   複数のラベルを（コンマで区切って）同じトピックバージョンに追加できます。  例： *Adobe*, *AEM*, *ガイド*.
 ただし、1 つのトピックの異なるバージョンに同じラベルを追加することはできません。 以前のバージョンに既に追加しているラベルを追加すると、最新のバージョンに追加され、以前のバージョンから削除されます。
 
    >[!NOTE]
@@ -511,7 +513,7 @@ AEMガイドで利用可能なエディターを使用する場合は、コン�
 
 - AEMリポジトリからコンテンツをチェックアウトし、ローカルシステムで変更を加える場合は、ファイルのアップロード時にファイル名が変更されないようにしてください。
 
-- DITA マップマネージャで参照を挿入すると、UUID ではなく、ファイルのタイトルが表示されます。 タイトルが存在しない場合は、ファイル名が表示されます。
+- DITA マップマネージャまたはエディタで参照を挿入すると、UUID ではなく、ファイルのタイトルが表示されます。 タイトルが存在しない場合は、ファイル名が表示されます。
 
 ### お気に入りの追加と削除 {#id195HC04405P}
 
@@ -607,6 +609,24 @@ Oxygen XML Author で DITA トピックを編集するには、次の手順を�
    >[!NOTE]
    >
    >AEM Guides 用の Oxygen Plugin を使用してトピックをチェックインし、AEM Web インターフェイスからチェックインすると、Oxygen XML Author で行った変更は、トピックのチェックインバージョンには保存されません。
+
+**トピックガイドリポジトリからトピックへの参照をExperience Managerします。**
+
+トピックをドラッグ&amp;ドロップして、トピックまたは DITA マップに参照を挿入することもできます。
+>[!NOTE]
+>
+> ファイルへの参照を追加する前に、ファイルをチェックアウトする必要があります。
+
+参照のタイプに基づいて、次の要素が追加されます。
+
+トピックを開いた状態でエディターにドロップする場合：
+- 参照が `<image>` 要素を含める必要があります。
+- ビデオまたはオーディオ用にオブジェクト要素が追加されます。
+- The `<xref>`  要素は、topic、map、DITAVAL、PDF、ZIP、XML など、その他すべての参照用に追加されます。
+
+マップを開いた状態でエディタまたは DITA マップ・マネージャにドロップする場合：
+- The `<mapref>` DITA マップ、ブックマップ、または件名スキームを含むマップ参照用の要素が追加されます。
+- The `<topicref>` 要素は、topic、map、DITAVAL、PDF、ZIP、XML など、その他すべての参照用に追加されます。
 
 
 ## 属性プロファイルの操作 {#id1827JA002YK}
