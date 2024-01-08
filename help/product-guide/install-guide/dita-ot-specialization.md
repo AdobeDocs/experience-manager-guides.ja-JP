@@ -2,7 +2,7 @@
 title: カスタム DITA-OT および DITA 特殊化の使用
 description: カスタム DITA-OT および DITA 特殊化の使用方法を説明します。
 exl-id: ddc1393b-b269-40e5-9627-96dad82b42e9
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 8e8e64ad1105b0546856cb82b47547ceacd405b9
 workflow-type: tm+mt
 source-wordcount: '2093'
 ht-degree: 0%
@@ -156,7 +156,7 @@ DITA 特殊化とは、新しい要素を追加または既存の要素を削除
 
 1. フォルダーを次の場所にアップロードします。
 
-   `/libs/fmdita/dita_resources`
+   `/apps/fmdita/dita_resources`
 
 1. 上部の「 Adobe Experience Manager 」リンクをクリックし、「 」を選択します。 **ツール**.
 
