@@ -2,14 +2,14 @@
 title: TutorialsガイドのExperience Manager
 description: Experience Managerガイド ( 旧称XML Documentation for Adobe Experience Manager) のチュートリアルビデオを見つけます。 ネイティブの DITA サポートと、構造化されたオーサリングのExperience Manager。
 exl-id: 06dd1b77-1a98-430f-8322-475d4fa4947b
-source-git-commit: f02a9e4a71796996a4ea933cb3c5b983103a251b
+source-git-commit: 4bb3a064a44b0b0c638ef22d0d7c219c77a20b20
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '307'
 ht-degree: 2%
 
 ---
 
-# Tutorials [!DNL Adobe Experience Manager Guides] {#overview}
+# AEM Guides ドキュメント
 
 [!DNL Experience Manager Guides] ( _[!DNL AEM Guides]_以降 ) は、エンタープライズクラスの強力なコンポーネントコンテンツ管理ソリューション (CCMS) です。 Experience Managerでのネイティブ DITA サポートが可能になり、AEMで DITA ベースのコンテンツの作成と配信を処理できます。 作成者は、Adobe FrameMakerや使いやすい組み込み Web エディターなど、任意のオフライン DITA オーサリングツールを使用してコンテンツを作成できます。
 
