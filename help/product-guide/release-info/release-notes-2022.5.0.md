@@ -2,7 +2,9 @@
 title: リリースノート | Adobe Experience Managerガイドas a Cloud Service、2022 年 5 月リリース
 description: Adobe Experience Manager Guides の 5 月リリースas a Cloud Service
 exl-id: 7928a300-5ec9-492c-b9be-02b6f87638c6
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 0%
@@ -80,7 +82,7 @@ AEMガイドas a Cloud Serviceは、5 月のリリースで多くの機能強化
 
 * The **言語** リストには、言語フォルダとその言語コードが表示されます。 例えば、フランス語 (fr) やドイツ語 (de) です。
 
-* 翻訳機能で、国と言語の両方を含む言語コードもサポートされるようになりました。 例： `fr-fr`, `en-us`.
+* 翻訳機能で、国と言語の両方を含む言語コードもサポートされるようになりました。 `fr-fr`、`en-us` などです。
 
 ![翻訳が言語化される](assets/translation-languages.png)
 

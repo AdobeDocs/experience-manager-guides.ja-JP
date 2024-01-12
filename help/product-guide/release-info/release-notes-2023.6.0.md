@@ -1,8 +1,10 @@
 ---
-title: リリースノート | Adobe Experience Managerガイド（2023 年 6 月リリース）のアップグレード手順と修正された問題
+title: リリースノート | 2023 年 6 月リリースのAdobe Experience Managerガイドにおけるアップグレード手順と修正された問題
 description: バグ修正とAdobe Experience Managerガイドの 2023 年 6 月リリースへのアップグレード方法について説明します。as a Cloud Service
 exl-id: df17ee33-9f50-4223-ab9f-a57a31097d22
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1170'
 ht-degree: 1%
@@ -86,9 +88,9 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 既存のコンテンツのインデックス作成に関する次の手順を実行し、「レポート」タブのマップレベルおよびトピックリストで新しい検索と置換テキストを使用します。
 
-1. POSTリクエストをサーバーに対して実行します\（正しい認証で） - `http://<server:port\>/bin/guides/map-find/indexing`. （オプション）マップの特定のパスを渡してインデックスを作成できます。デフォルトでは、すべてのマップにインデックスが作成されます。例： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+1. POSTリクエストをサーバーに対して実行します\（正しい認証で） - `http://<server:port\>/bin/guides/map-find/indexing`. （任意）マップの特定のパスを渡してインデックスを作成できます。デフォルトでは、すべてのマップにインデックスが作成されます\|\| 例： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
-1. また、ルートフォルダーを渡して、特定のフォルダー（およびそのサブフォルダー）の DITA マップのインデックスを作成することもできます。 例：`http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`。paths パラメーターと root パラメーターの両方が渡される場合は、paths パラメーターのみが考慮されます。
+1. また、ルートフォルダーを渡して、特定のフォルダー（およびそのサブフォルダー）の DITA マップのインデックスを作成することもできます。 例えば、`http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test` のようになります。paths パラメーターと root パラメーターの両方が渡される場合は、paths パラメーターのみが考慮されます。
 
 1. API は jobId を返します。 ジョブのステータスを確認するには、ジョブ ID を持つGETリクエストを同じエンドポイントに送信します。 `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\( 例： `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
@@ -123,11 +125,11 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 - レイアウト表示から作成者またはソース表示に切り替えると、content33 から navtitle が削除されます。 (12174)
 - DITA マップをクリックした際にアプリケーションエラーが発生することがあります。 (11842)
-- Web エディター |トピックの編集中に、XML エディターに改行なしのスペースが追加されます。 (11786)
-- アセット UI |リスト表示では、オーバーレイ表示された列は結合できません。 (11528)
+- Web エディター | トピックの編集中に、XML エディターに改行なしのスペースが追加されます。 (11786)
+- アセット UI | リスト表示では、オーバーレイ表示可能な列は結合できません。 (11528)
 - Keyref がマップビューで解決されません。 (11490)
 - XML エディターを使用して移動する際に、トップメニューが表示されない。 (10868)
-- `conref` ph タグで |表示される参照ダイアログが正しくありません。 (9481)
+- `conref` ph タグで | 表示される参照ダイアログが正しくありません。 (9481)
 - 他の要素へのローカルリンクは、Web エディターで解決されません。 (8790)
 - Matches() 関数は schematron 機能では動作しません。 (11224)
 
@@ -141,16 +143,16 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 ### 公開
 
 - 更新または再起動された可能性のあるポッドから一時ファイルを読み取ると、AEMサイトへの公開が失敗します。 (12113)
-- ネイティブPDF | brackets() を含む出力クラスを持つコンテンツを公開すると、公開が停止します。 (11936)
-- JSON 出力 |プロパティ値が次の値を持つマップメタデータ `"value in spaces and double quotes"` 公開エラーにつながります。 (11933)
-- Web エディター |出力パスとテンプレートをAEMプリセットで選択できません。 (11530)
-- ネイティブPDF |カスタム属性は、一時的なHTMLまたはPDFエンジンには反映されません。 (DXML-12005)
-- ネイティブPDF |大きなコンテンツを公開する際に Java OutOfMemoryError が発生します。 (11789)
-- JSON 出力 | `fmUuid` JSON の jcr:content ノードのプロパティは、JSON 内の「id」とは異なります。 (11564)
-- JSON 出力 |同じファイル名のマップとトピックが存在する場合、マップの JSON は削除されます。 (11524)
-- ネイティブPDF |外部参照は、外部参照ラベルの代わりに href トピックタイトルの内容を印刷しています。 (11322)
-- ネイティブPDF |テンプレート設定を保存できません。PDFテンプレート設定を保存できません。 (10751)
-- ネイティブPDF |複数の外部参照を含めると、列幅を超えた文字列が表示されます。 (10876)
+- ネイティブPDF | 出力クラスに角括弧 () が付いたコンテンツを公開すると、公開が停止します。 (11936)
+- JSON 出力 | プロパティ値がとなるマップメタデータ `"value in spaces and double quotes"` 公開エラーにつながります。 (11933)
+- Web エディター | 出力パスとテンプレートをAEMプリセットで選択できません。 (11530)
+- ネイティブPDF | カスタム属性は、一時的なHTMLまたはPDF・エンジンには反映されません。 (DXML-12005)
+- ネイティブPDF | 大きなコンテンツを公開する際に Java OutOfMemoryError が発生します。 (11789)
+- JSON 出力 | The `fmUuid` JSON の jcr:content ノードのプロパティは、JSON 内の「id」とは異なります。 (11564)
+- JSON 出力 | 同じファイル名のマップとトピックが存在する場合、マップの JSON は削除されます。 (11524)
+- ネイティブPDF | 外部参照は、外部参照ラベルの代わりに href トピックタイトルの内容を印刷します。 (11322)
+- ネイティブPDF | テンプレート設定をPDFできません。 (10751)
+- ネイティブPDF | 文字は、複数の外部参照を含めると、列幅を超えて延長されます。 (10876)
 - ネイティブPDF | `<note>``</note>` 要素は、そのタイプの余分な span タイトルを生成しません。 (10549)
 - ネイティブPDF | WCAG 2.0 に準拠するために、生成されたPDFに言語メタデータを設定することはできません。 (12296)
 
@@ -162,4 +164,4 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 ### レビュー
 
-- 新しいレビュー UI |条件は、Web エディターでの動作とは異なり、非表示の作業をハイライトして表示します。 (11628)
+- 新しいレビュー UI | 条件は、Web エディターでの動作とは異なり、ハイライト表示および非表示の作業を表示します。 (11628)

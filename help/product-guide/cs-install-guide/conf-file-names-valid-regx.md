@@ -2,7 +2,10 @@
 title: 有効なファイル名文字に対して Regx を設定します
 description: 有効なファイル名文字の正規表現を設定する方法を説明します。
 exl-id: 05e9ca3c-28ff-4f82-8061-3d20307890ff
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Filename Configuration
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 0%

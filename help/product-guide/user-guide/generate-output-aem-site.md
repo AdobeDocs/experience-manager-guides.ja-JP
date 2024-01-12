@@ -2,7 +2,9 @@
 title: AEM Site
 description: AEMガイドでAEMサイトプリセットを作成および設定します。 記事ベースの出力、出力リンクトピックの生成、conref の公開、コンテンツ内の文字列の検索には、AEMサイトのサポートを使用します。
 exl-id: 019d9fbf-2f23-4669-8022-d693be75c1c3
-source-git-commit: b8c90eb8d1acfe6777a615bd71367027cd8d1c3b
+feature: Publishing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '2577'
 ht-degree: 0%

@@ -2,7 +2,9 @@
 title: ネイティブPDF | PDF出力生成
 description: ネイティブPDFの公開を使用する方法、PDFの出力プリセットを作成および生成する方法、ネイティブPDFの出力を生成した後に一時ファイルをダウンロードする方法、およびAEMガイドで言語変数を使用する方法について説明します。
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: b8c90eb8d1acfe6777a615bd71367027cd8d1c3b
+feature: Publishing, Web Editor, Native PDF Output
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '3196'
 ht-degree: 0%

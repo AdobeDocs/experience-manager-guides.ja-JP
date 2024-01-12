@@ -2,7 +2,10 @@
 title: デスクトップベースの XML エディターの統合
 description: デスクトップベースの XML エディターを統合する方法を説明します。
 exl-id: 268e8613-bb3b-4577-96fb-a588dabfd834
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Publishing FrameMaker Documents
+role: Admin
+level: Experienced
+source-git-commit: 82c7feab6599440c52ecbec845b5e3b8bb4a5046
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 0%

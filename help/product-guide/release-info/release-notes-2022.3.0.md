@@ -2,7 +2,9 @@
 title: リリースノート： [!DNL AEM Guides]（2022 年 3 月リリース）
 description: の 3 月リリース [!DNL Adobe Experience Manager Guides] as a Cloud Service
 exl-id: 885edbb5-dfe4-4bdc-bb66-0df64addb094
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 1%

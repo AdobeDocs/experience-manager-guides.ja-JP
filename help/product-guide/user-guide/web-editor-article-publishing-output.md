@@ -2,7 +2,9 @@
 title: リポジトリパネルからの出力の生成
 description: AEMガイドのリポジトリパネルまたは [ マップビュー ] パネルから出力を生成します。 1 つ以上の DITA マップで使用するトピックを公開する方法、または複数のトピックの出力を生成する方法を説明します。
 exl-id: f7a4be54-9c51-44e6-96bb-f25e3a6155da
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Features of Web Editor, Publishing
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 0%

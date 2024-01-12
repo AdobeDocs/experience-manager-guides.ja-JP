@@ -2,7 +2,9 @@
 title: リリースノート | Adobe Experience Managerガイドas a Cloud Service、2023 年 3 月リリース
 description: Adobe Experience Manager Guides の 3 月リリースas a Cloud Service
 exl-id: 6a0bba92-7d7d-4b20-ad46-0eacc91268da
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 0%
@@ -27,7 +29,7 @@ ht-degree: 0%
 既存のコンテンツのインデックスを作成し、マップレベルで新しい検索と置換テキストを使用するには、次の手順を実行します。
 
 * サーバーに対してPOSTリクエストを実行します（正しい認証を使用） - `http://<server:port>/bin/guides/map-find/indexing`.
-( オプション：マップの特定のパスを渡してインデックスを作成できます。デフォルトでは、すべてのマップにインデックスが作成されます。 ||例： `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
+( オプション：マップの特定のパスを渡してインデックスを作成できます。デフォルトでは、すべてのマップにインデックスが作成されます。 || 例： `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
 * API は jobId を返します。 ジョブのステータスを確認するには、ジョブ ID を持つGETリクエストを同じエンドポイントに送信します。 `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
 ( 例： http://&lt;_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
@@ -58,10 +60,10 @@ ht-degree: 0%
 様々な領域で修正されたバグを以下に示します。
 
 * ダウンロードPDFプロセスが Web エディタで適切に動作していません。 (11496)
-* JSON 出力 |プロパティ値が次の値を持つマップメタデータ `"value in spaces and double quotes"` 公開エラーにつながります。 (11438)
+* JSON 出力 | プロパティ値がとなるマップメタデータ `"value in spaces and double quotes"` 公開エラーにつながります。 (11438)
 * オーディオおよびビデオマルチメディアファイルの挿入が、YouTube形式で **マルチメディアの挿入** アイコン。 (11320)
 * 検証エラーは、特殊なタイトル要素を持つテンプレートを使用してマップを作成した場合に発生します。 (11212)
-* ネイティブPDF |テーブルヘッダーに存在する脚注は、PDF出力内の対応するページフッターで、太字および中央揃えのテキストになります。 (10610)
+* ネイティブPDF | テーブルヘッダーに存在する脚注は、PDF出力内の対応するページフッターで、太字および中央揃えのテキストになります。 (10610)
 >[!NOTE]
 >
 >ネイティブPDFの変更を反映するには、/content/dam/dita-templates にあるPDFフォルダーを削除し、最新のビルドにアップグレードします。 (10610)

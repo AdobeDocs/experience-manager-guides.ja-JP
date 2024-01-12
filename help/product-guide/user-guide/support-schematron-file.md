@@ -2,7 +2,9 @@
 title: Schematron ファイルのサポート
 description: DITA トピックを読み込んで検証する方法、assert レポートステートメントを使用してルールを確認する方法、正規表現式を使用する方法、およびAEMガイドの Schematron ファイルで抽象パターンを定義する方法を説明します。
 exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Features of Web Editor
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 0%

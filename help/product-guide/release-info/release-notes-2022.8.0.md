@@ -2,7 +2,9 @@
 title: リリースノート | Adobe Experience Managerガイドas a Cloud Service、2022 年 8 月リリース
 description: 8 月リリースのAdobe Experience Manager Guidesas a Cloud Service
 exl-id: a01bfe8a-4715-438c-bb94-aa1d31f6662d
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 0%
@@ -95,9 +97,9 @@ AEMガイドで **インライン属性** 管理者から **エディター設�
 * 更新された Node.js は公開には使用されません。 (9835)
 * DITA トピックは、 **プロパティ** ページに貼り付けます。 (8745)
 * DITA ブックマップに追加された際の FrontMattere 要素が正しく機能しません。 (9507)
-* ネイティブPDF |使用時に空のPDFが生成されます **クイック生成** 複数のファイルに対して、空の要素が選択されている場合。 (9822)
-* ネイティブPDF |付録は、章としてPDF出力に公開されます。 (9829)
-* ネイティブPDF |SVG画像が編集されても、ページレイアウトには更新されて表示されません。 (9069)
+* ネイティブPDF | を使用すると、空のPDFが生成されます。 **クイック生成** 複数のファイルに対して、空の要素が選択されている場合。 (9822)
+* ネイティブPDF | 付録は、章としてPDF出力に公開されます。 (9829)
+* ネイティブPDF | SVG画像を編集しても、ページレイアウトには更新された画像は表示されません。 (9069)
 * 通常のハイフンは、 `Nonbreaking Hyphen` 文字を挿入するには、 **特殊文字の挿入** ダイアログ。 (8919)
 * 編集済みの場合、XML Editor では、トピック内に更新済みの画像は表示されません。 (9500)
 * エディターを使用して出力を公開する際に、プリセットを **出力** タブをクリックします。 (9100)

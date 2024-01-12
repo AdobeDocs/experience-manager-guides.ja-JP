@@ -1,7 +1,9 @@
 ---
 title: リリースノート | 2023 年 12 月リリースのAdobe Experience Managerガイドの新機能
 description: 2023 年 12 月リリースのAdobe Experience Managerガイドas a Cloud Serviceの新機能と機能強化について説明します。
-source-git-commit: a2605a7758f53fd877f28cad98a1ef17f9f87b50
+feature: What's New
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1017'
 ht-degree: 0%

@@ -2,7 +2,10 @@
 title: パッケージを作成およびアクティベートするための Java ベースの API
 description: パッケージを作成およびアクティブ化するための Java ベースの API について説明します。
 exl-id: b801c2b3-445f-4aa7-a4f2-029563d7cb3a
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Java-Based API Packages
+role: Developer
+level: Experienced
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 0%

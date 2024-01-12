@@ -2,7 +2,9 @@
 title: 酸素を使用する
 description: AEMガイドでのコンテンツのオーサリングと公開に対する Oxygen XML Editor のサポートについて説明します。
 exl-id: 7c1a610c-e203-4298-9b29-457aef5e8c94
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Desktop Tools
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 0%

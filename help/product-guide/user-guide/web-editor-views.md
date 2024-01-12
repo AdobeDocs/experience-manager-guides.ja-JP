@@ -2,7 +2,9 @@
 title: Web エディターの表示
 description: ドキュメントをオーサー、ソース、プレビューモードで表示します。 AEMガイドで、条件付きフィルターに基づいてコンテンツを表示し、変更の追跡マークアップを表示し、トピックをPDFとして書き出す方法について説明します。
 exl-id: 74db2902-4507-4904-85d8-6b52e4af4c55
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Features of Web Editor
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 0%

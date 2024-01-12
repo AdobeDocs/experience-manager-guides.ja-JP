@@ -2,7 +2,10 @@
 title: AEM Assets UI の検索の設定
 description: AEM Assets UI の検索を設定する方法を説明します。
 exl-id: b920ba7f-e8fc-4af6-aa8a-b8516b1cffc0
-source-git-commit: 86305f4979369b2c5bccfca635a06e5091d0124d
+feature: Search Configuration
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1695'
 ht-degree: 1%

@@ -2,7 +2,9 @@
 title: トピックまたはマップのレビュー
 description: コンテンツをスムーズに評価するため、AEMガイドでトピックまたはマップを効率的にレビューします。 AEMガイドの作成者およびレビュー担当者向けの機能を理解する。
 exl-id: 81ea0b52-52b0-4764-a6d8-a96d5c7693bf
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Reviewing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 0%

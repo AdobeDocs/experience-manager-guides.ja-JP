@@ -1,7 +1,9 @@
 ---
 title: ナレッジベース
 description: Web エディターとマップダッシュボードからナレッジベースプリセットを作成する方法を説明します。 AEMガイドでナレッジベースの出力プリセットを設定します。
-source-git-commit: 899b493709ee7f1fb31789e4afc3e985fa2505f7
+feature: Publishing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1158'
 ht-degree: 1%

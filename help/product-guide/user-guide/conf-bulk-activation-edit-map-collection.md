@@ -2,7 +2,9 @@
 title: 一括アクティベーションマップコレクションの編集
 description: AEMガイドで一括公開ダッシュボードを使用します。 マップファイルを追加または削除して、一括アクティベーションマップコレクションを編集する方法を説明します。
 exl-id: 5f897c52-5d6e-4614-a14f-1806e085c21c
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Publishing, Bulk Activation
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 1%

@@ -2,7 +2,9 @@
 title: マップコンソールから DITA マップの出力を生成します
 description: AEMガイドのマップコンソールから DITA マップの出力を生成します。 増分出力の生成と、ステータスの表示、キャンセル、出力タスクの削除の方法について説明します。
 exl-id: d6cbd44c-e74c-4192-bcc4-fb7752c59508
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Publishing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1418'
 ht-degree: 0%

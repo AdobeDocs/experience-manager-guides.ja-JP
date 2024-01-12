@@ -2,7 +2,9 @@
 title: AEMガイドでの DITA ファイルのタグの管理
 description: AEMガイドでの cq:tags の管理について説明する簡単な記事
 exl-id: 2d805c26-df9b-405a-81ca-7aa84c6f86c8
-source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
+feature: Metadata Management
+role: User, Admin
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 1%

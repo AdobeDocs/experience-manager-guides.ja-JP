@@ -2,7 +2,9 @@
 title: リリースノート： [!DNL AEM Guides]（2022 年 1 月リリース）
 description: の 1 月リリース [!DNL Adobe Experience Manager Guides] as a Cloud Service
 exl-id: b2da77fa-f17c-440b-be59-acaafcd9a57c
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '2441'
 ht-degree: 0%
@@ -195,7 +197,7 @@ AEM Server の Oxigne でファイルを更新すると、現在の Oxygen セ�
 ### マッピングダッシュボード
 
 * マップダッシュボードのトピックまたはレポートタブのトピックのタイトルに conref コンテンツが表示されない。 (8263)
-* AEM Sites Output DITA トピックタイトルが更新されても、生成されたサイトページの| jcr:title が更新されません。 (8131)
+* AEM Sites Output | DITA トピックタイトルが更新されても、生成されたサイトページの jcr:title が更新されません。 (8131)
 * ダウンロード MAP は、トピック内で使用されるビデオファイルをダウンロードしません。 (8070)
 * オブジェクトのタグがダウンロードブックマップ API で使用される場合、メディアファイルがダウンロードされない。 (8057)
 * conref で始まるタイトルのファイルに conref が含まれるトピックがある場合、「レポート」タブに誤ったレポートが表示されます。 (4698)
@@ -234,9 +236,9 @@ AEM Server の Oxigne でファイルを更新すると、現在の Oxygen セ�
 
 ### コンテンツの読み込み
 
-* HTMLから DITA への変換 |「tr」のエントリが空の「td」テーブルは、出力で追加の行を引き起こします。 (8132)
-* HTMLから DITA への変換 |複数の tbody を持つテーブルを持つHTMLは、例外で失敗します。 (7940)
-* HTMLから DITA への変換 |ソースHTMLにコメントがある場合はエラーアウトします。 (7937)
+* HTMLから DITA への変換 | 「tr」のエントリが空のテーブルは、出力で追加の行を引き起こします。 (8132)
+* HTMLから DITA への変換 | 複数の tbody を持つテーブルを持つHTMLは、例外で失敗します。 (7940)
+* HTMLから DITA への変換 | ソースHTMLにコメントがある場合にエラーアウトします。 (7937)
 * DITA 1.3 DITA ファイルを読み込むと、一部の HREF が正しくないリンクに変換されます。 (8019)
 
 ## 既知の問題

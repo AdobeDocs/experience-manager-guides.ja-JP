@@ -1,8 +1,11 @@
 ---
-title: ネイティブPDF |言語変数のサポート
+title: ネイティブPDF | 言語変数のサポート
 description: 言語の出力および出力PDFでの言語変数の使用
 exl-id: 2335a7d5-251b-4266-8bba-9c9935e7bbf4
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Output Generation
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1589'
 ht-degree: 0%
@@ -91,7 +94,7 @@ Experience Managerガイドは、選択した言語で存在する言語変数�
 
 ### 言語変数のエクスポート
 
-言語の言語変数をエクスポートするには、ドロップダウンから言語を選択し、 **書き出し** <img src="./assets/language-variable-export-icon.svg" alt="書き出しアイコン" width="25">.
+言語の言語変数をエクスポートするには、ドロップダウンから言語を選択し、 **書き出し** <img src="./assets/language-variable-export-icon.svg" alt="書き出しアイコン" width="25"> などの相対リンクにすることも可能です。
 形式を持つ XML ファイルを作成します。 `language_variable_<ln>` 場所 `<ln>` は、選択した言語のコードです。 例： `language_variable_en.xml` （英語の場合）および `language_variable_fr.xml` フランス語に対して。
 
 >[!NOTE]

@@ -2,7 +2,9 @@
 title: DITAVAL エディタを使用
 description: AEMガイドの DIVATAL エディタを使用して DITAVAL ファイルを作成および編集する方法を説明します。 DITAVAL エディタがオーサービューとソースビューで DITAVAL ファイルをサポートする方法を説明します。
 exl-id: f3901a4f-1925-42aa-b773-0d6f18175ce8
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, DITAVAL Editor
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 0%

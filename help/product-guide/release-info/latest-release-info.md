@@ -2,7 +2,9 @@
 title: AEMガイドリリース
 description: 最新の AEM Guides リリースと前提条件の AEM バージョン
 exl-id: 780697a9-bdc6-40c2-b258-64639fe30f88
-source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 1%

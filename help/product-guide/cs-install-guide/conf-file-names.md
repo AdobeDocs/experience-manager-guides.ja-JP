@@ -2,7 +2,10 @@
 title: ファイル名を設定
 description: ファイル名を設定する方法を学ぶ
 exl-id: 8f34847c-68e4-4027-abae-f74df27212be
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Filename Configuration
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 0%

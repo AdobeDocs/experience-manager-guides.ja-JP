@@ -2,7 +2,9 @@
 title: Web エディターからの出力プリセットの作成
 description: Web エディターから出力プリセットを作成します。 AEMガイドで出力プリセットを編集、名前変更、複製、削除する方法について説明します。
 exl-id: cd38b039-ef91-45c9-a226-433e57b09873
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Features of Web Editor, Publishing
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%

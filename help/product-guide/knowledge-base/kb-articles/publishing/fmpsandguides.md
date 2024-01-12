@@ -2,7 +2,9 @@
 title: AEMガイドでのFrameMaker Publishing Server(FMPS) を使用した公開
 description: AEMガイドを使用した FMPS による公開
 exl-id: 05d4d876-f83b-473c-bf31-14d6565e80e2
-source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
+feature: AEM Guides FrameMaker Publishing Server
+role: User, Admin
+source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%

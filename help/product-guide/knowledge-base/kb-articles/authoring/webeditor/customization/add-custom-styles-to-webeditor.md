@@ -2,7 +2,9 @@
 title: Guides Webeditor にカスタムスタイルを追加する
 description: カスタムスタイルを追加して、ガイドウェブエディターの外観と操作性を変更する方法を説明します。
 exl-id: 03143fb2-d05d-4103-b172-8b91880b7f9e
-source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
+feature: Web Editor
+role: User, Admin
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%

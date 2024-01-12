@@ -2,7 +2,10 @@
 title: ユーザー管理とセキュリティ
 description: ユーザー管理とセキュリティの仕組みを説明します
 exl-id: 1269a652-5261-413d-9ea0-b4f75003e9d8
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: User Management
+role: Admin
+level: Experienced
+source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 10%

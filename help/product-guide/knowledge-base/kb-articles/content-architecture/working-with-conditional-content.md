@@ -3,7 +3,8 @@ title: 条件付きコンテンツの使用
 description: 条件を作成し、条件付きコンテンツ生成を [!DNL AEM Guides]
 role: User
 exl-id: a86007e3-48d1-458b-84a7-b683e113e5b2
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Publishing
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 5%

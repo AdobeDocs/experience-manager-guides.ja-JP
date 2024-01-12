@@ -2,7 +2,9 @@
 title: リリースノート | Adobe Experience Managerガイドas a Cloud Service、2023 年 2 月リリース
 description: Adobe Experience Managerガイドの 2 月リリースas a Cloud Service
 exl-id: 090eaf94-fe3a-47e9-9937-f84f8434550d
-source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1426'
 ht-degree: 0%

@@ -2,7 +2,9 @@
 title: グローバルおよびフォルダープロファイルの出力プリセットの管理
 description: AEMガイドで、グローバルおよびフォルダープロファイル出力プリセットを作成、編集、名前変更、複製および削除する方法について説明します。管理者ユーザー向けのプリセットです。
 exl-id: 549c9fe2-77f8-423c-8b3e-b43e56055732
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Features of Web Editor, Publishing
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 0%

@@ -2,7 +2,9 @@
 title: '[ 高度なマップエディタ ] を使用する'
 description: AEMガイドの高度なマップエディターの操作方法について説明します。 高度なマップエディタの機能を理解する。 DITA マップを使用してトピックを編集し、レイアウトビュー、作成者ビュー、プレビューモードを使用します。
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Map Editor
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '3695'
 ht-degree: 0%

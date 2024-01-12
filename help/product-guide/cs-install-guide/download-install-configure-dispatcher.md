@@ -2,7 +2,10 @@
 title: Dispatcher の設定
 description: Dispatcher の設定方法について説明します。
 exl-id: d3ce4d01-b0fd-4f02-977c-ab378c328071
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Installation
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 19%

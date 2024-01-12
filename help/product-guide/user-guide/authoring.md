@@ -2,7 +2,9 @@
 title: コンテンツを管理
 description: コンテンツを管理し、AEMガイドの役割と権限を特定します。 コンテンツ管理の主要概念と、グローバルまたはフォルダーレベルのプロファイルの操作について説明します。
 exl-id: 84926dc2-1180-48ef-85d0-50e3478bf26a
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Content Management
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 10%

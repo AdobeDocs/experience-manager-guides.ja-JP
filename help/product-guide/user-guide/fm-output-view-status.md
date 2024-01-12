@@ -2,7 +2,9 @@
 title: 出力生成タスクのステータスの表示
 description: 出力生成キューのFrameMaker文書を表示します。 出力生成タスクのステータスを表示する方法を説明します。
 exl-id: c358f747-f0a5-4d9e-a96f-20f30663101f
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Publishing FrameMaker Documents
+role: User
+source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%

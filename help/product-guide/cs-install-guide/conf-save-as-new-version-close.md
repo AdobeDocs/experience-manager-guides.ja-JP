@@ -2,7 +2,10 @@
 title: 閉じるときに新しいバージョンとして保存するようにプロンプトを設定する
 description: 閉じるときに新しいバージョンとして保存するようにプロンプトを設定する方法を説明します
 exl-id: 9029b671-8ff8-45eb-b27e-ab89bd09e7ed
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Web Editor Configuration
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 1%

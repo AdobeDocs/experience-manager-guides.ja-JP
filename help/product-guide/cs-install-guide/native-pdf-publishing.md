@@ -2,7 +2,10 @@
 title: ネイティブPDF公開機能のカスタマイズと設定
 description: ネイティブPDF機能の様々なコンポーネントをカスタマイズして設定する方法を説明します。
 exl-id: 00bc894a-031e-4d09-bd30-331399fedbc8
-source-git-commit: c79f1d114d8a708cd088f2846243bbcfeed6e620
+feature: Output Generation
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 0%

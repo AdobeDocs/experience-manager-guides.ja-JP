@@ -2,7 +2,9 @@
 title: AEMガイドの拡張フレームワーク — Web エディターのカスタマイズと UI のレビュー
 description: Guides 拡張機能フレームワークを使用すると、更新が容易な JSON、CSS、JavaScript を使用して、レビュー UI または Webeditor の目的のセクションをカスタマイズできます。
 exl-id: 7b2efae3-be8c-4259-babb-f28a6903116a
-source-git-commit: 20fb3f3556b5188764266e7fdf8aa876e45c1922
+feature: Web Editor, Troubleshooting
+role: User, Admin
+source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 1%

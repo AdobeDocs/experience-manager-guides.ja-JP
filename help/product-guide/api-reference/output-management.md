@@ -2,7 +2,10 @@
 title: 出力管理用の REST API
 description: 出力管理用の REST API について説明します。
 exl-id: dab654f5-555d-4a89-bc94-55b1e938f255
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Rest API Output Management
+role: Developer
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1175'
 ht-degree: 0%

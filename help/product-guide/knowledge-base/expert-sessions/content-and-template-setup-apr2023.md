@@ -2,7 +2,9 @@
 title: コンテンツとテンプレートの設定
 description: コンテンツとテンプレートを設定する際に考慮すべき事項については、AEMガイドを参照してください。
 exl-id: f125bad9-33a2-4de5-b43f-d6368d61879b
-source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
+feature: Template Configuration
+role: User, Admin
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 1%

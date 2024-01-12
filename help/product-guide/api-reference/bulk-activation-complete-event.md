@@ -1,7 +1,10 @@
 ---
 title: 一括アクティベーション完了イベントハンドラー
 description: 一括アクティベーション完了イベントハンドラーの詳細を説明します
-source-git-commit: 8f1bb12a92ab9a63aef1765e51159644242683a0
+feature: Bulk Activation Event Handler
+role: Developer
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 1%

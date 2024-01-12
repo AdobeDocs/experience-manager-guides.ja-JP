@@ -2,7 +2,9 @@
 title: 出力生成にマップコレクションを使用
 description: マップコレクションを作成および削除する方法と、DITA マップを追加または削除する方法を説明します。 AEMガイドのマップコレクションから出力生成タスクを設定、生成およびキャンセルします。
 exl-id: 41152fa4-f739-44d2-9ccd-74072f53e31b
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Publishing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 0%

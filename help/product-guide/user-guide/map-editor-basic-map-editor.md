@@ -2,7 +2,9 @@
 title: 基本マップエディタを使用する
 description: AEMガイドの基本マップエディタを使用する方法について説明します。 マップレベルとトピックレベルでの基本的なマップエディタの機能を理解します。 DITA マップで関係テーブルを作成および編集します。
 exl-id: 13da729d-e8f7-46ae-873a-1bfc32da974f
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Map Editor
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '1408'
 ht-degree: 0%

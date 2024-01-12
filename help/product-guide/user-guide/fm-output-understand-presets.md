@@ -2,7 +2,9 @@
 title: 出力プリセットの概要
 description: FrameMakerドキュメントをAEMガイドで公開します。 PDF、HTML5、およびEPUB形式でFrameMakerドキュメントの出力を生成する方法について説明します。
 exl-id: fa682007-68d6-415b-b9c2-acd5d9fc1aae
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Publishing FrameMaker Documents
+role: User
+source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 0%

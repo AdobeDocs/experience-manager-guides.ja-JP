@@ -2,7 +2,9 @@
 title: トピックを作成
 description: AEMガイドの Web エディターで、カスタムテンプレートを使用して DITA トピックのタイプを作成する方法を説明します。
 exl-id: 84e9cfdf-e188-487f-9181-68708029c101
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 0%

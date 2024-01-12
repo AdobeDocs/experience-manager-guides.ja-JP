@@ -1,7 +1,10 @@
 ---
 title: ネイティブPDF | 変数をPDF出力で使用
 description: PDF 出力テンプレートおよび出力テンプレートでの変数の使用
-source-git-commit: f1fd9c9e3fd3f228feeff469d04221fc3b0ab30f
+feature: Output Generation
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1446'
 ht-degree: 0%

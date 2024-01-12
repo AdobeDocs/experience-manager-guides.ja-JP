@@ -2,7 +2,9 @@
 title: リリースノート | Adobe Experience Managerガイドas a Cloud Service、2023 年 4 月リリース
 description: 2023 年 4 月リリースのAdobe Experience Manager Guides as a Cloud Service
 exl-id: fa339eab-d3d0-4763-adbf-6411e39aa213
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '598'
 ht-degree: 0%
@@ -28,7 +30,7 @@ ht-degree: 0%
 既存のコンテンツのインデックスを作成し、マップレベルで新しい検索と置換テキストを使用するには、次の手順を実行します。
 
 * サーバーに対してPOSTリクエストを実行します（正しい認証を使用） - `http://<server:port>/bin/guides/map-find/indexing`.
-( オプション：マップの特定のパスを渡してインデックスを作成できます。デフォルトでは、すべてのマップにインデックスが作成されます。 ||例： `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
+( オプション：マップの特定のパスを渡してインデックスを作成できます。デフォルトでは、すべてのマップにインデックスが作成されます。 || 例： `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
 * API は jobId を返します。 ジョブのステータスを確認するには、ジョブ ID を持つGETリクエストを同じエンドポイントに送信します。 `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
 ( 例： http://&lt;_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
@@ -60,7 +62,7 @@ ht-degree: 0%
 
 様々な領域で修正されたバグを以下に示します。
 
-* ネイティブPDF | brackets() を含む出力クラスを持つコンテンツを公開すると、公開が停止します。 (11596)
+* ネイティブPDF | 出力クラスに角括弧 () が付いたコンテンツを公開すると、公開が停止します。 (11596)
 * 「変更の追跡」がオンの既存のリスト項目の代わりに移動（ドラッグ&amp;ドロップ）すると問題が発生します。 (11570)
 * 「変更の追跡」がオンの新しいリスト項目として移動（ドラッグ&amp;ドロップ）すると問題が発生します。 (11569)
 * [ 変更の追跡 ] で、リスト項目のインデントまたはインデント解除が期待どおりに機能しません。 (11568)
@@ -74,4 +76,4 @@ ht-degree: 0%
 
 Adobeは、2023 年 4 月のリリースのAEMガイドに関して、次の既知の問題を特定しました。
 
-* ネイティブPDF |古いメタデータは、出力プリセットが明示的に開かれるまで入力されません。
+* ネイティブPDF | 出力プリセットが明示的に開かれるまで、古いメタデータは入力されません。

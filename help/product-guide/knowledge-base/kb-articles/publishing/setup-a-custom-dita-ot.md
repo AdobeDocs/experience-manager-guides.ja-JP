@@ -3,7 +3,8 @@ title: でのカスタム DITA-OT の設定 [!DNL AEM Guides]
 description: でカスタム DITA-OT を設定する方法を説明します。 [!DNL Adobe Experience Manager Guides]
 role: Admin
 exl-id: f479c2cf-5b8b-4517-be97-81303468007a
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: DITA-OT Configuration
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 0%

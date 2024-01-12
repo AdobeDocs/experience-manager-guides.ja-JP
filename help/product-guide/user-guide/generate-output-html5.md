@@ -2,7 +2,9 @@
 title: HTML5 を使用
 description: Web エディターからHTML5 プリセットを作成し、ダッシュボードをマッピングする方法を説明します。 AEMガイドでHTML5 の出力プリセットを設定します。
 exl-id: b54bf3a0-7a13-41a0-ae72-cdf2caf8d974
-source-git-commit: b8c90eb8d1acfe6777a615bd71367027cd8d1c3b
+feature: Publishing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1142'
 ht-degree: 1%

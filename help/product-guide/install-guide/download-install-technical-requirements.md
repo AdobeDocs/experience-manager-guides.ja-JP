@@ -2,7 +2,10 @@
 title: 技術要件
 description: AEMガイドを使用するための技術要件について説明します。
 exl-id: d69245b0-bf20-43c1-b46e-b6c220319690
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Introduction, Installation
+role: Admin
+level: Experienced
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 5%

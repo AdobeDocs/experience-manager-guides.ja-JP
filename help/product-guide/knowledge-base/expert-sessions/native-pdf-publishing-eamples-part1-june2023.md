@@ -2,7 +2,9 @@
 title: ネイティブPDFパブリッシング — 例による学習（第 1 部）
 description: ネイティブPDFの公開エンジンを使用すると、必要に応じて必要に応じてセクションを操作しながら、ドキュメントのコンテンツレイアウトを制御できます。その際に、更新が容易な CSS、HTMLおよび JavaScript を使用します。
 exl-id: ddaf4e83-9958-42c5-b172-4c9f8e923910
-source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
+feature: Native PDF Output
+role: User, Admin
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 1%

@@ -2,7 +2,9 @@
 title: Web エディタからのベースラインの作成と管理
 description: AEMガイドの Web エディターでベースラインを作成および管理します。 ラベルに基づいてベースラインを作成し、ベースラインにフィルターを適用する方法を説明します。
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
-source-git-commit: f02a9e4a71796996a4ea933cb3c5b983103a251b
+feature: Authoring, Features of Web Editor, Publishing
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '1617'
 ht-degree: 0%
