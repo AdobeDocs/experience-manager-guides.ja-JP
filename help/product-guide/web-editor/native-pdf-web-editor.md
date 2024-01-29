@@ -4,10 +4,10 @@ description: ネイティブPDFの公開を使用する方法、PDFの出力プ�
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
 feature: Publishing, Web Editor, Native PDF Output
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '3196'
-ht-degree: 0%
+source-wordcount: '3293'
+ht-degree: 1%
 
 ---
 
@@ -87,16 +87,20 @@ PDF出力プリセットを作成または設定するには：
 
 「メタデータ」タブを使用して、PDF出力用のメタデータフィールド（作成者の名前、ドキュメントのタイトル、キーワード、著作権情報など）を設定します。 また、PDF出力用のカスタムメタデータを追加できます。
 
-このメタデータは、出力PDFの「ドキュメントのプロパティ」内の「説明」タブでメタデータにマッピングされます。
+このメタデータは、 **説明** タブ内の **ドキュメントのプロパティ** 出力PDFの
 
-**注意**：このメタデータは、ブックレベルで定義されたメタデータを上書きします。
+
 
 <img src="assets/pdf-metadata.png" alt="「メタデータ」タブ" width="600">
 
-出力プリセットから、 **「 」PDFを選択** > **メタデータ** メタデータオプションを追加してカスタマイズするには：
+出力プリセットから、  **PDF** > **ネイティブPDF** > **メタデータ** メタデータオプションを追加してカスタマイズするには：
+* **topicmeta に追加されたメタデータを使用**
+
+  このオプションはデフォルトで選択されています。DITA マップの topicmeta 要素に追加したメタデータを使用して、PDF出力のメタデータフィールドに値を入力できます。
+
 * **XMPファイルを指定**
 
-  メタデータフィールドは、 [XMP](https://www.adobe.com/products/xmp.html) （拡張可能なメタデータプラットフォーム）ファイル。 サンプルのXMPファイルは、こちらからダウンロードできます。
+  また、メタデータフィールドに直接値を入力するには、 [XMP](https://www.adobe.com/products/xmp.html) （拡張可能なメタデータプラットフォーム）ファイル。 サンプルのXMPファイルは、こちらからダウンロードできます。
 
 [ダウンロード](assets/SampleXMP.xmp)
 
@@ -169,6 +173,7 @@ PDFをProtectし、ファイルを開いて読み取るための制限を追加�
 | **MathML 式を有効にする** | コンテンツに存在する MathML 式をレンダリングするには、このオプションを選択します。 式は、それ以外の場合はデフォルトで無視されます。 |
 | **一時ファイルをダウンロード** | ネイティブHTML出力の生成時に作成された中間PDFファイルをダウンロードする場合は、このオプションを選択します。 出力の生成後に、後で一時ファイルをダウンロードすることができます。 |
 | **PDF適合** | これは、PDFが準拠していることを確認するために、ユーザーが保存する標準です。 ドロップダウンから「 」を選択して、使用可能なPDF標準のリストから選択します。 サポートされる標準の詳細については、 [PDF標準について](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
+| **ファイルのプロパティ** | ネイティブPDF公開に渡すメタデータを選択します。 ドロップダウンには、カスタムプロパティとデフォルトプロパティの両方が一覧表示されます。 例： `dc:description`, `dc:language`, `dc:title`、および `docstate` はデフォルトのプロパティですが、 `author` をカスタムプロパティとして追加します。 選択したメタデータのプロパティは、ネイティブPDFを使用して生成されたPDFファイルに渡されます。 <br> これらのプロパティは、 `metadataList` ファイルは次の場所で利用できます。`/libs/fmdita/config/metadataList`. <br>このファイルは次の場所にオーバーレイできます。 `/apps/fmdita/config/metadataList`. |
 
 
 ## PDF出力の生成 {#generate-pdf-output}

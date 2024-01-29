@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: 4bb3a064a44b0b0c638ef22d0d7c219c77a20b20
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '1686'
+source-wordcount: '1699'
 ht-degree: 6%
 
 ---
@@ -58,23 +58,28 @@ ht-degree: 6%
             + [2 月のリリースノート](./release-info/release-notes-2022.2.0.md)
             + [1 月のリリースノート](./release-info/release-notes-2022.1.0.md)
       + オンプレミス/Managed Services {#on-prem-release-notes}
-         + 4.3.0 リリース {#43-release}
-            + 新機能 {#43-whats-new}
-               + [4.3.1 新機能](./release-info/whats-new-4.3.1-release.md)
-               + [4.3.0 新機能](./release-info/whats-new-4.3-release.md)
-            + リリースノート {#43-release-notes}
-               + [4.3.1 リリースノート](./release-info/release-notes-4.3.1.md)
-               + [4.3.0 リリースノート](./release-info/release-notes-4.3.md)
-         + 4.2 リリース {#42-release}
-            + 新機能 {#42-whats-new}
-               + [4.2.1 新機能](./release-info/whats-new-4.2.1-release.md)
-               + [4.2 新機能](./release-info/whats-new-4.2-release.md)
-            + リリースノート {#42-release-notes}
-               + [4.2.1 リリースノート](./release-info/release-notes-4.2.1.md)
-               + [4.2 リリースノート](./release-info/release-notes-4.2.md)
-         + [4.1.x リリースノート](./release-info/release-notes-4.1.md)
-         + [4.0.x リリースノート](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         + [3.8.x リリースノート](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+      + 4.4.0 リリース {#44-release}
+         + 新機能 {#44-whats-new}
+            + [4.4 新機能](./release-info/whats-new-4.4.md)
+         + リリースノート {#43-release-notes}
+            + [4.4 リリースノート](./release-info/release-notes-4.4.md)
+      + 4.3.0 リリース {#43-release}
+         + 新機能 {#43-whats-new}
+            + [4.3.1 新機能](./release-info/whats-new-4.3.1-release.md)
+            + [4.3.0 新機能](./release-info/whats-new-4.3-release.md)
+         + リリースノート {#43-release-notes}
+            + [4.3.1 リリースノート](./release-info/release-notes-4.3.1.md)
+            + [4.3.0 リリースノート](./release-info/release-notes-4.3.md)
+      + 4.2 リリース {#42-release}
+         + 新機能 {#42-whats-new}
+            + [4.2.1 新機能](./release-info/whats-new-4.2.1-release.md)
+            + [4.2 新機能](./release-info/whats-new-4.2-release.md)
+         + リリースノート {#42-release-notes}
+            + [4.2.1 リリースノート](./release-info/release-notes-4.2.1.md)
+            + [4.2 リリースノート](./release-info/release-notes-4.2.md)
+      + [4.1.x リリースノート](./release-info/release-notes-4.1.md)
+      + [4.0.x リリースノート](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+      + [3.8.x リリースノート](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 + ユーザーガイド {#user-guide}
    + 概要 {#about-aem-guide}
       + [について [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)

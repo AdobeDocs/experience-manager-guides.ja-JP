@@ -3,9 +3,9 @@ title: リリースノート | 2023 年 12 月リリースのAdobe Experience Ma
 description: 2023 年 12 月リリースのAdobe Experience Managerガイドas a Cloud Serviceの新機能と機能強化について説明します。
 feature: What's New
 role: Leader
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '966'
 ht-degree: 0%
 
 ---
@@ -128,13 +128,6 @@ Experience Managerガイドで、Web エディターからベースラインを�
 *ラベルに基づいてベースラインを複製するか、正確なコピーを作成します。*
 
 方法の詳細 [Web エディタからのベースラインの作成と管理](../user-guide/web-editor-baseline.md).
-
-## 一括アクティベーションマップコレクションの作成プロセスを改善しました。
-
-一括アクティベーションマップコレクションを作成するプロセスが、より調和したものになりました。 これで、アクティベーションの結果ページが表示されたら、アクティベーションの結果とログを表示できます。
-詳しくは、 [一括アクティベーションマップコレクションの作成](../user-guide/conf-bulk-activation-create-map-collection.md).
-
-
 
 ## AEM Site 出力のクロスマップリンクの解決
 

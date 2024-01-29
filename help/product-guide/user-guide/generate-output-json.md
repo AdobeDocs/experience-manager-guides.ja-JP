@@ -4,9 +4,9 @@ description: Web エディターとマップダッシュボードから JSON プ
 exl-id: 9eb426fc-ca0a-4932-8a55-fea731281a0a
 feature: Publishing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '626'
 ht-degree: 1%
 
 ---
@@ -28,9 +28,6 @@ Web エディターでは、次の設定が **一般** タブ：
 
 詳しくは、 [JSON 設定](#id231KJA00REJ).
 
-**マップダッシュボードから**
-
-PDFの出力プリセットを開くには、Assets UI で DITA マップファイルをクリックし、「出力プリセット」をクリックしてから「HTML5」オプションをクリックします。 マップダッシュボードで、 **編集** 上部で様々な設定を更新し、「 **保存**.
 
 **JSON 設定**
 

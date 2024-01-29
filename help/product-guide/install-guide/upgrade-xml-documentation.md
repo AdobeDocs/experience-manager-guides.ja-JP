@@ -5,9 +5,9 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '4470'
+source-wordcount: '5744'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 0%
 >
 > ライセンス版の製品に固有のアップグレード手順に従ってください。
 
-現在のバージョンのExperience Managerガイドをバージョン 4.3.1 にアップグレードできます
+現在のバージョンのExperience Managerガイドをバージョン 4.4.0 にアップグレードできます。
 
-- バージョン 4.3.0、4.2 または 4.2.1 を使用している場合は、バージョン 4.3.1 に直接アップグレードできます。
-- バージョン 4.1 または 4.1.x を使用している場合は、バージョン 4.3.1 にアップグレードする前に、バージョン 4.3.0、4.2 または 4.2.x にアップグレードする必要があります。
-- バージョン 4.0 を使用している場合は、バージョン 4.3.1 にアップグレードする前に、バージョン 4.2 にアップグレードする必要があります。
+- バージョン 4.3.1、4.3.0、または 4.2.1（ホットフィックス 4.2.1.3）を使用している場合は、バージョン 4.4.0 に直接アップグレードできます。
+- バージョン 4.2、4.1、4.1.x を使用している場合は、バージョン 4.4.0 にアップグレードする前に、バージョン 4.3.1、4.3.0、または 4.2.1（ホットフィックス 4.2.1.3）にアップグレードする必要があります。
+- バージョン 4.0 を使用している場合は、バージョン 4.3.x にアップグレードする前に、バージョン 4.2 にアップグレードする必要があります。
 - バージョン 3.8.5 を使用している場合は、バージョン 4.2 にアップグレードする前に、バージョン 4.0 にアップグレードする必要があります。
 - 3.8.5 より前のバージョンを使用している場合は、製品固有のインストールガイドの「Experience Managerガイドのアップグレード」の節を参照してください。
 
@@ -38,6 +38,7 @@ ht-degree: 0%
 - [バージョン 4.2.1 へのアップグレード](#upgrade-version-4-2-1)
 - [バージョン 4.3.0 へのアップグレード](#upgrade-version-4-3)
 - [バージョン 4.3.1 へのアップグレード](#upgrade-version-4-3-1)
+- [バージョン 4.4.0 へのアップグレード](#upgrade-version-4-4-0)
 
 
 >[!IMPORTANT]
@@ -206,7 +207,7 @@ Experience Managerガイドをインストールした後、新しくインス�
    >
    > 更新して、カスタマイズされた変更とExperience Managerガイドの後処理手順が最終的なワークフローモデルに存在することを確認します。
 
-1. 1 回 **DAM アセットの更新ワークフロー**&#x200B;が検証された場合は、対応するランチャー設定を確認します。 これをおこなうには、AEM Workflow インターフェイスに移動してランチャーを開きます。
+1. 1 回 **DAM アセットの更新ワークフロー** が検証された場合は、対応するランチャー設定を確認します。 これをおこなうには、AEM Workflow インターフェイスに移動してランチャーを開きます。
 
    ```http
    http://localhost:4502/libs/cq/workflow/content/console.html
@@ -292,9 +293,11 @@ Experience Managerガイドをインストールした後、新しくインス�
 
 ## バージョン 4.2.1 へのアップグレード {#upgrade-version-4-2-1}
 
-バージョン 4.2.1 へのアップグレードは、バージョンガイドの現在のバージョンに依存していますExperience Managerガイド。
+>[!TIP]
+>
+>Hotfix 4.2.1.3 をバージョン 4.2.1 の上にインストールすることをお勧めします。
 
-バージョン 4.1、4.1.x、4.2 を使用している場合は、直接バージョン 4.2.1 にアップグレードできます。
+バージョン 4.2.1 へのアップグレードは、バージョンガイドの現在のバージョンに依存していますExperience Managerガイド。 バージョン 4.1、4.1.x、4.2 を使用している場合は、直接バージョン 4.2.1 にアップグレードできます。
 
 >[!NOTE]
 >
@@ -419,7 +422,7 @@ Experience Managerガイドをインストールした後、新しくインス�
    >
    > 更新して、カスタマイズされた変更とExperience Managerガイドの後処理手順が最終的なワークフローモデルに存在することを確認します。
 
-1. 1 回 **DAM アセットの更新ワークフロー**&#x200B;が検証された場合は、対応するランチャー設定を確認します。 これをおこなうには、AEM Workflow インターフェイスに移動してランチャーを開きます。
+1. 1 回 **DAM アセットの更新ワークフロー** が検証された場合は、対応するランチャー設定を確認します。 これをおこなうには、AEM Workflow インターフェイスに移動してランチャーを開きます。
 
    ```http
    http://localhost:4502/libs/cq/workflow/content/console.html
@@ -525,7 +528,6 @@ Experience Managerガイドをインストールした後、新しくインス�
 1. のデフォルト値または以前の既存の値に戻す `queryLimitReads` 手順 1 で変更した場合。
 
 
-4.3.1
 
 ## バージョン 4.3.1 へのアップグレード {#upgrade-version-4-3-1}
 
@@ -540,7 +542,7 @@ Experience Managerガイドをインストールした後、新しくインス�
 Experience Managerガイド 4.3.1 のアップグレードプロセスを開始する前に、以下が行われていることを確認します。
 
 1. Experience Managerガイドのバージョン 4.3.0、4.2、または 4.2.1 にアップグレードし、それぞれのインストール手順を完了しました。
-1. すべての翻訳タスクを閉じました。
+1. （オプション）すべての翻訳タスクを閉じました。
 1. ログレベルをに変更しました。 **情報** 対象： `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` クラスを作成し、新しいログファイルにこれらのログを追加します。例： `logs/translation_upgrade.log`.
 
 
@@ -725,6 +727,205 @@ Experience Managerガイドをインストールした後、新しくインス�
 
 1. のデフォルト値または以前の既存の値に戻す `queryLimitReads` 手順 1 で変更した場合。
 
+## バージョン 4.4.0 へのアップグレード {#upgrade-version-4-4-0}
+
+バージョン 4.4.0 へのアップグレードは、バージョンガイドの現在のバージョンに依存していますExperience Managerガイド。 バージョン 4.3.1、4.3.0、4.2、または 4.2.1（ホットフィックス 4.2.1.3）を使用している場合は、バージョン 4.4.0 に直接アップグレードできます。
+
+>[!NOTE]
+>
+>後処理とインデックス作成には、数時間かかる場合があります。 オフピーク時にアップグレードプロセスを開始することをお勧めします。
+
+****前提条件****
+
+Experience Managerガイド 4.4.0 のアップグレードプロセスを開始する前に、以下が行われていることを確認します。
+
+1. Experience Managerガイドのバージョン 4.3.1、4.3.0、または 4.2.1（ホットフィックス 4.2.1.3）にアップグレードされ、それぞれのインストール手順を完了しました。
+1. （オプション）すべての翻訳タスクを閉じました。
+1. ログレベルをに変更しました。 **情報** 対象： `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` クラスを作成し、新しいログファイルにこれらのログを追加します。例： `logs/translation_upgrade.log`.
+
+
+## バージョン 4.4.0 のインストール
+
+1. 4.4.0 バージョンパッケージをからダウンロードします。 [Adobeソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. バージョン 4.4.0 パッケージをインストールします。
+1. 「トリガーをヒット」を選択して、翻訳マップのアップグレードジョブを開始できます。 詳しくは、 [サーブレットを介したスクリプトのトリガーの有効化](#enable-trigger-serverlet-4-4-0).
+
+1. パッケージのインストールが完了したら、ログで次のメッセージが表示されるまで待ちます。
+
+   `Completed the post deployment setup script`
+
+   上記のメッセージは、インストールのすべての手順が完了したことを示しています。
+
+   次の ERROR プレフィックスが表示された場合は、カスタマーサクセスチームに報告してください。
+
+   - デプロイメント設定後のスクリプトでエラーが発生しました
+   - 翻訳 MAP の移植中に例外が発生しました
+   - プロパティの v1 から v2 に翻訳マップをポートできません
+1. バージョン 4.4.0 でリリースされた Oxygen コネクタプラグインをアップグレードします（必要に応じて）。
+1. パッケージをインストールした後で、ブラウザーのキャッシュをクリアします。
+1. 次の節で詳しく説明するように、カスタマイズのアップグレードを続行します。
+
+
+## バージョン 4.4.0 のインストール後
+
+Experience Managerガイドをインストールした後、新しくインストールしたバージョンから設定に適用される様々な設定を結合できます。
+
+>[!NOTE]
+>
+> dam-update-asset モデルはカスタマイズできます。 したがって、カスタマイズが行われている場合は、カスタマイズとExperience Managerガイドをモデルの作業用コピーに同期する必要があります。
+
+1. **DAM アセットの更新ワークフロー（後処理の変更）:**
+
+1. URL を開く：
+
+   ```
+   http://localhost:4502/libs/cq/workflow/admin/console/content/models.html 
+   ```
+
+1. 選択 **DAM アセットの更新ワークフロー**.
+1. **編集**&#x200B;をクリックします。
+1. 次の場合、 **DXML Post Process Initiator** コンポーネントが存在する場合は、カスタマイズが同期されていることを確認してください。
+1. 次の場合、 **DXML Post Process Initiator** コンポーネントが存在しない場合は、次の手順を実行して挿入します。
+
+1. クリック **コンポーネントを挿入** \( プロセスの最後のステップとしてExperience Managerガイドの後処理を担当します\)。
+1. を設定します。 **処理ステップ** 次の詳細を含む：
+
+   **「共通」タブ**
+
+   **タイトル：** DXML Post Process Initiator
+
+   **説明**：変更または作成されたアセットの DXML 後処理のための Sling ジョブをトリガーする、DXML 後処理開始者ステップ。
+
+   **「プロセス」タブ**
+
+   - 選択 **DXML Post Process Initiator**&#x200B;から **プロセス** ドロップダウン
+
+   - 選択 **ハンドラー処理の設定**
+
+   - 選択 **完了**
+
+1. クリック **同期** をクリックします。 成功通知が届きます。
+
+   >[!NOTE]
+   >
+   > 更新して、カスタマイズされた変更とExperience Managerガイドの後処理手順が最終的なワークフローモデルに存在することを確認します。
+
+1. 1 回 **DAM アセットの更新ワークフロー** が検証された場合は、対応するランチャー設定を確認します。 これをおこなうには、AEM Workflow インターフェイスに移動してランチャーを開きます。
+
+   ```http
+   http://localhost:4502/libs/cq/workflow/content/console.html
+   ```
+
+   次に対応する\（必要に応じて\）次の 2 つのランチャー\（アクティブにする必要がある\）を検索し、変更します。 **DAM アセットの更新ワークフロー**:
+
+1. 「 」のランチャー&#x200B;*作成されたノード*」が **DAM アセットの更新ワークフロー** — 条件の場合 `"jcr:content/jcr:mimeType!=video"`に設定する場合、「グロビング」の値は次のようにする必要があります。
+
+   ```json
+   /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
+   ```
+
+   - &#39;excludeList&#39;には `"event-user-data:changedByWorkflowProcess"`.
+   - 「 」のランチャー&#x200B;*変更されたノード*」が **DAM アセットの更新ワークフロー —** 条件&quot;`jcr:content/jcr:mimeType!=video`&quot;、「グロビング」の値は次のようにする必要があります。
+
+   ```json
+   /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
+   ```
+
+   - `excludeList` は、 `"event-user-data:changedByWorkflowProcess"`.
+
+1. アップグレードが完了したら、カスタマイズ/オーバーレイが検証され、新しいアプリケーションコードに合わせて更新されることを確認します。 以下に例を示します。
+   - /libs/fmditaor/libs からオーバーレイされたコンポーネントは、新しい製品コードと比較する必要があります。また、/apps の下のオーバーレイされたファイルで更新を行う必要があります。
+   - 製品から使用される clientlib カテゴリは、変更の確認が必要です。 最新の機能を取得するには、上書きされた設定（以下の例を参照）を最新の設定と比較する必要があります。
+   - elementmapping.xml
+   - ui\_config.json\（フォルダープロファイルに設定されている可能性があります）
+   - 修正済み `com.adobe.fmdita.config.ConfigManager`
+
+1. damAssetLucene にカスタマイズを追加した場合は、再度適用する必要が生じる場合があります。 これらの変更を行った後、reindex を true に設定します。 これにより、カスタマイズした既存のノードのインデックスがすべて再作成されます。 完了すると、再インデックスフラグが再び false に設定されます。 システム内のアセットの数によっては、この処理に数時間かかる場合があります。
+
+## 既存のコンテンツのインデックスを作成する手順
+
+>[!NOTE]
+>
+> 4.3.0 または 4.3.1 からアップグレードする場合、これらの手順を実行する必要はありません。
+
+既存のコンテンツのインデックスを作成し、マップレベルで新しい検索と置換テキストを使用するには、次の手順を実行します。
+
+- POSTリクエストをサーバーに対して実行します\（正しい認証で） - `http://<server:port\>/bin/guides/map-find/indexing`. （任意）マップの特定のパスを渡してインデックスを作成できます。デフォルトでは、すべてのマップにインデックスが作成されます\|\| 例： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+
+- API は jobId を返します。 ジョブのステータスを確認するには、ジョブ ID を持つGETリクエストを同じエンドポイントに送信します。 `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\( 例： `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
+
+- ジョブが完了すると、上記のGETリクエストは成功と共に応答し、マップが失敗した場合はメンションします。 正常にインデックス付けされたマップは、サーバーログから確認できます。
+
+## リンク切れレポートを使用するために既存のコンテンツを後で処理する手順
+
+>[!NOTE]
+>
+> 4.3.0 または 4.3.1 からアップグレードする場合、これらの手順を実行する必要はありません。
+
+既存のコンテンツを後処理し、新しい壊れたリンクレポートを使用するには、次の手順を実行します。
+
+1. （オプション）システム内に 100,000 個を超える DITA ファイルがある場合、 `queryLimitReads` under `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` を大きい値 ( 存在するアセットの数（例：200,000）を超える値 ) に設定し、再デプロイします。
+
+   | PID | プロパティキー | プロパティの値 |
+   |---|---|---|
+   | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitReads | 値：200000 <br> デフォルト値：100000 |
+
+1. 次の API を実行して、すべてのファイルの後処理を実行します。
+
+   | 終点 | /bin/guides/reports/upgrade |
+   |---|---|
+   | リクエストタイプ | **POST**  このスクリプトはPOSTリクエストなので、Postmanなどのエージェントを介して実行する必要があります。 |
+   | 予想される応答 | API は jobId を返します。 ジョブのステータスを確認するには、ジョブ ID を持つGETリクエストを同じエンドポイントに送信します。<br> サンプル URL: `http://<server:port>/bin/guides/reports/upgrade` |
+
+   | 終点 | /bin/guides/reports/upgrade |
+   |---|---|
+   | リクエストタイプ | **GET** |
+   | パラメーター | jobId：前の post リクエストから受け取った jobId を渡します。 |
+   | 予想される応答 |  — ジョブが完了すると、GETリクエストへの応答が成功します。 <br>  — エラーが発生した場合は、エラーログと API 出力を顧客成功チームと共有します。  <br>サンプル URL: `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
+
+1. のデフォルト値または以前の既存の値に戻す `queryLimitReads` 手順 1 で変更した場合。
+
+### サーブレットを介したスクリプトのトリガーの有効化{#enable-trigger-serverlet-4-4-0}
+
+>[!NOTE]
+>
+> 4.3.0 または 4.3.1 からアップグレードする場合、これらの手順を実行する必要はありません。
+
+POST:
+
+```
+http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
+```
+
+応答：
+
+```
+{
+"msg": "Job is successfully submitted and lock node is created for future reference",
+"lockNodePath": "/var/dxml/executor-locks/translation-map-upgrade/1683190032886",
+"status": "SCHEDULED"
+}
+```
+
+上記の応答 JSON で、キー `lockNodePath` は、送信されたジョブを指す、リポジトリで作成されたノードへのパスを保持します。 ジョブが完了すると自動的に削除され、それまでは、このノードを参照してジョブの現在のステータスを確認できます。
+
+を探す `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript Completed porting of translation map from V1 to V2` および `com.adobe.fmdita.xmltranslation.ots.TranslationMapUpgradeOTS Completed the thread to upgrade translation map from V1 to V2` 次の手順に進む前に、を参照してください。
+
+>[!NOTE]
+>
+> ノードがまだ存在するかどうか、およびジョブのステータスを確認する必要があります。
+
+**GET**: `http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/1683190032886.json`
+
+
+
+## を処理する手順 `'fmdita rewriter'` 競合
+
+Experience Managerガイドには [**custom sling rewriter**](../cs-install-guide/conf-output-generation.md#custom-rewriter) クロスマップ（2 つの異なるマップのトピック間のリンク）の場合に生成されるリンクを処理するためのモジュール。
+
+コードベースに別のカスタム Sling リライターがある場合は、 `'order'` 値が 50 より大きい (Experience Managerガイド sling rewriter が使用する ) `'order'` 50.  これを上書きするには、50 より大きい値が必要です。 詳しくは、 [出力書き換えパイプライン](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
+
+このアップグレードの間、 `'order'` の値を 1000 から 50 に変更した場合、既存のカスタムリライターがある場合は、とマージする必要があります。 `'fmdita-rewriter'`.
 
 
 **親トピック：**[&#x200B;ダウンロードとインストール](download-install.md)
