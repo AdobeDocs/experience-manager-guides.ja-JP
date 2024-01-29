@@ -1,9 +1,9 @@
 ---
 title: リリースノート | Adobe Experience Managerガイド 4.4.0 リリースの新機能
 description: Adobe Experience Managerガイドの 4.4.0 リリースの新機能および機能強化について説明します
-source-git-commit: ca86700d033ad8eb7cdba917f010f3aa71113a19
+source-git-commit: 027e8e6a6119145a5b2255449514a76488c90463
 workflow-type: tm+mt
-source-wordcount: '2293'
+source-wordcount: '2307'
 ht-degree: 0%
 
 ---
@@ -177,6 +177,7 @@ Experience Managerガイドを使用すると、AEM Site 出力の URL を管理
 
 Experience Managerは、適用されたラベルに従ってトピックを自動的に選択することで、ベースラインを作成する機能を提供します。 同じ DITA マップの自動ベースラインを使用して、複数の出力プリセットをシームレスに公開できるようになりました。 一度に 1 つのプリセットのみを公開する必要はありませんが、複数の出力プリセットを同時に簡単に公開できます。
 
+方法の詳細 [Web エディタからのベースラインの作成と管理](../user-guide/web-editor-baseline.md).
 
 ## ネイティブPDFの強化
 
