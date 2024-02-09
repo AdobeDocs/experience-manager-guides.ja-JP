@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: 84c36eb746f0b8d49e1e461062c0d1373a0d1e83
+source-git-commit: 1171f785ff183f9d3332842fb9a15e123041de4a
 workflow-type: tm+mt
 source-wordcount: '1699'
 ht-degree: 6%
@@ -61,7 +61,7 @@ ht-degree: 6%
       + 4.4.0 リリース {#44-release}
          + 新機能 {#44-whats-new}
             + [4.4 新機能](./release-info/whats-new-4.4.md)
-         + リリースノート {#43-release-notes}
+         + リリースノート {#44-release-notes}
             + [4.4 リリースノート](./release-info/release-notes-4.4.md)
       + 4.3.0 リリース {#43-release}
          + 新機能 {#43-whats-new}
