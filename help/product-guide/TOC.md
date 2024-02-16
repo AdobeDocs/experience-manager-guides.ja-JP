@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: 1171f785ff183f9d3332842fb9a15e123041de4a
+source-git-commit: ae821964e123079707f51377390df378230680fc
 workflow-type: tm+mt
 source-wordcount: '1699'
 ht-degree: 6%
@@ -21,63 +21,63 @@ ht-degree: 6%
          + [デプロイメント手順](./release-info/deploy-xml-on-aemaacs.md)
          + 2023 年リリース {#2023-releases}
             + 12 月リリース {#2312-release}
-               + [新機能](./release-info/whats-new-2023.12.0.md)
-               + [リリースノート](./release-info/release-notes-2023.12.0.md)
+               + [新機能](./release-info/whats-new-2023-12-0.md)
+               + [リリースノート](./release-info/release-notes-2023-12-0.md)
             + 11 月リリース {#2311-release}
-               + [新機能](./release-info/whats-new-2023.11.0.md)
-               + [リリースノート](./release-info/release-notes-2023.11.0.md)
+               + [新機能](./release-info/whats-new-2023-11-0.md)
+               + [リリースノート](./release-info/release-notes-2023-11-0.md)
             + 10 月リリース {#2310-release}
-               + [新機能](./release-info/whats-new-2023.10.0.md)
-               + [リリースノート](./release-info/release-notes-2023.10.0.md)
+               + [新機能](./release-info/whats-new-2023-10-0.md)
+               + [リリースノート](./release-info/release-notes-2023-10-0.md)
             + 9 月リリース {#2309-release}
-               + [新機能](./release-info/whats-new-2023.9.0.md)
-               + [リリースノート](./release-info/release-notes-2023.9.0.md)
+               + [新機能](./release-info/whats-new-2023-9-0.md)
+               + [リリースノート](./release-info/release-notes-2023-9-0.md)
             + 7 月リリース {#2307-release}
-               + [新機能](./release-info/whats-new-2023.7.0.md)
-               + [リリースノート](./release-info/release-notes-2023.7.0.md)
+               + [新機能](./release-info/whats-new-2023-7-0.md)
+               + [リリースノート](./release-info/release-notes-2023-7-0.md)
             + 6 月リリース {#2306-release}
-               + [新機能](./release-info/whats-new-2023.6.0.md)
-               + [リリースノート](./release-info/release-notes-2023.6.0.md)
+               + [新機能](./release-info/whats-new-2023-6-0.md)
+               + [リリースノート](./release-info/release-notes-2023-6-0.md)
             + 4 月リリース {#2304-release}
-               + [新機能](./release-info/whats-new-2023.4.0.md)
-               + [リリースノート](./release-info/release-notes-2023.4.0.md)
+               + [新機能](./release-info/whats-new-2023-4-0.md)
+               + [リリースノート](./release-info/release-notes-2023-4-0.md)
             + 3 月リリース {#2303-release}
-               + [新機能](./release-info/whats-new-2023.3.0.md)
-               + [リリースノート](./release-info/release-notes-2023.3.0.md)
+               + [新機能](./release-info/whats-new-2023-3-0.md)
+               + [リリースノート](./release-info/release-notes-2023-3-0.md)
             + 2 月リリース {#2302-release}
-               + [新機能](./release-info/whats-new-2023.2.0.md)
-               + [リリースノート](./release-info/release-notes-2023.2.0.md)
+               + [新機能](./release-info/whats-new-2023-2-0.md)
+               + [リリースノート](./release-info/release-notes-2023-2-0.md)
          + 2022 年リリース {#2022-releases}
-            + [11 月のリリースノート](./release-info/release-notes-2022.11.0.md)
-            + [10 月のリリースノート](./release-info/release-notes-2022.10.0.md)
-            + [9 月のリリースノート](./release-info/release-notes-2022.9.0.md)
-            + [8 月のリリースノート](./release-info/release-notes-2022.8.0.md)
-            + [5 月のリリースノート](./release-info/release-notes-2022.5.0.md)
-            + [4 月のリリースノート](./release-info/release-notes-2022.4.0.md)
-            + [3 月のリリースノート](./release-info/release-notes-2022.3.0.md)
-            + [2 月のリリースノート](./release-info/release-notes-2022.2.0.md)
-            + [1 月のリリースノート](./release-info/release-notes-2022.1.0.md)
+            + [11 月のリリースノート](./release-info/release-notes-2022-11-0.md)
+            + [10 月のリリースノート](./release-info/release-notes-2022-10-0.md)
+            + [9 月のリリースノート](./release-info/release-notes-2022-9-0.md)
+            + [8 月のリリースノート](./release-info/release-notes-2022-8-0.md)
+            + [5 月のリリースノート](./release-info/release-notes-2022-5-0.md)
+            + [4 月のリリースノート](./release-info/release-notes-2022-4-0.md)
+            + [3 月のリリースノート](./release-info/release-notes-2022-3-0.md)
+            + [2 月のリリースノート](./release-info/release-notes-2022-2-0.md)
+            + [1 月のリリースノート](./release-info/release-notes-2022-1-0.md)
       + オンプレミス/Managed Services {#on-prem-release-notes}
       + 4.4.0 リリース {#44-release}
          + 新機能 {#44-whats-new}
-            + [4.4 新機能](./release-info/whats-new-4.4.md)
+            + [4.4 新機能](./release-info/whats-new-4-4.md)
          + リリースノート {#44-release-notes}
-            + [4.4 リリースノート](./release-info/release-notes-4.4.md)
+            + [4.4 リリースノート](./release-info/release-notes-4-4.md)
       + 4.3.0 リリース {#43-release}
          + 新機能 {#43-whats-new}
-            + [4.3.1 新機能](./release-info/whats-new-4.3.1-release.md)
-            + [4.3.0 新機能](./release-info/whats-new-4.3-release.md)
+            + [4.3.1 新機能](./release-info/whats-new-4-3-1-release.md)
+            + [4.3.0 新機能](./release-info/whats-new-4-3-release.md)
          + リリースノート {#43-release-notes}
-            + [4.3.1 リリースノート](./release-info/release-notes-4.3.1.md)
-            + [4.3.0 リリースノート](./release-info/release-notes-4.3.md)
+            + [4.3.1 リリースノート](./release-info/release-notes-4-3-1.md)
+            + [4.3.0 リリースノート](./release-info/release-notes-4-3.md)
       + 4.2 リリース {#42-release}
          + 新機能 {#42-whats-new}
-            + [4.2.1 新機能](./release-info/whats-new-4.2.1-release.md)
-            + [4.2 新機能](./release-info/whats-new-4.2-release.md)
+            + [4.2.1 新機能](./release-info/whats-new-4-2-1-release.md)
+            + [4.2 新機能](./release-info/whats-new-4-2-release.md)
          + リリースノート {#42-release-notes}
-            + [4.2.1 リリースノート](./release-info/release-notes-4.2.1.md)
-            + [4.2 リリースノート](./release-info/release-notes-4.2.md)
-      + [4.1.x リリースノート](./release-info/release-notes-4.1.md)
+            + [4.2.1 リリースノート](./release-info/release-notes-4-2-1.md)
+            + [4.2 リリースノート](./release-info/release-notes-4-2.md)
+      + [4.1.x リリースノート](./release-info/release-notes-4-1.md)
       + [4.0.x リリースノート](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
       + [3.8.x リリースノート](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 + ユーザーガイド {#user-guide}
