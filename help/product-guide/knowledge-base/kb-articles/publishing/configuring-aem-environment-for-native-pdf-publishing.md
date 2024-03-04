@@ -4,9 +4,9 @@ description: ネイティブAEM公開用のPDF環境の設定
 exl-id: 40266ca0-0b0b-4418-b606-f70270addbaa
 feature: Native PDF Output
 role: User, Admin
-source-git-commit: a41fed965ed9fe33994478d51030eefdad1037de
+source-git-commit: 1baed01b2e573d79d4baaa6a551966ce59449136
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '902'
 ht-degree: 1%
 
 ---
@@ -181,12 +181,6 @@ Java 環境の設定を修正した後も問題が解決しない場合は、次
 
 CRX リポジトリの/var/dxml/profiles/b1aad0a7-9079-e56c-1ed8-6fcababe8166/nodejs の nodejs ノードの timeout プロパティ値を検証します。 デフォルト値は 300 です。
 
-### 依存例外の抽出中にエラーが発生しました（文字列が長すぎます）
-![文字列が長すぎる例外です](..//assets/publishing/string-too-long-error.png)
-
-この例外を回避するには、次の手順に従います。
-1. サイズを小さくするのに必要でないスタイルを削除します。
-2. 1 つの大きな CSS ではなく、複数のスタイルシートを作成します。
 
 
 上記の手順の実行中に問題が発生した場合は、AEM Guides コミュニティに質問を投稿してください。 [フォーラム](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) 助けを求めて
