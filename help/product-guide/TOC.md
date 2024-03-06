@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: 8fc1a5232bcc9049b16def8d629ab45a278a2c8f
+source-git-commit: 933d683ec970417d4aac739c3cae19c103170ae9
 workflow-type: tm+mt
-source-wordcount: '1711'
+source-wordcount: '1740'
 ht-degree: 6%
 
 ---
@@ -15,10 +15,16 @@ ht-degree: 6%
 - [[!DNL AEM Guides] の概要](overview.md)
 - [免責事項](./user-guide/rebranding-disclaimer.md)
 - リリース情報 {#release-info}
+
    - [[!DNL AEM Guides] リリース](./release-info/latest-release-info.md)
    - リリースノート {#release-notes}
       - Cloud Services {#cloud-release-notes}
          - [デプロイメント手順](./release-info/deploy-xml-on-aemaacs.md)
+         - 2024 年リリース {#2024-releases}
+            - 2024.2.0 リリース {#2402-release}
+               - [新機能](./release-info/whats-new-2024-2-0.md)
+               - [修正された問題](./release-info/fixed-issues-2024-2-0.md)
+               - [アップグレードの手順](./release-info/upgrade-instructions-2024-2-0.md)
          - 2023 年リリース {#2023-releases}
             - 12 月リリース {#2312-release}
                - [新機能](./release-info/whats-new-2023-12-0.md)
@@ -108,6 +114,7 @@ ht-degree: 6%
                - [Web エディターのその他の機能](./user-guide/web-editor-other-features.md)
                - [Web エディターの表示](./user-guide/web-editor-views.md)
                - [Schematron ファイルのサポート](./user-guide/support-schematron-file.md)
+               - [コンテンツを作成するための AI を利用したスマートサクセス（ベータ版）](./user-guide/authoring-ai-based-smart-suggestions.md)
                - [Web エディターから Markdown ドキュメントを作成する](./user-guide/web-editor-markdown-topic.md)
                - [コンテンツに引用を追加する](./user-guide/web-editor-apply-citations.md)
                - [データソースからのデータを使用する](./user-guide/web-editor-content-snippet.md)
@@ -219,8 +226,8 @@ ht-degree: 6%
       - コンテンツの移行 {#content-migration}
          - [非 UUID から UUID へのコンテンツの移行](./install-guide/migrate-uuid-non-uuid.md)
          - 移行プロセス {#migration-process}
-            - [バージョン管理されたコンテンツを移行](./install-guide/migrate-non-uuid-uuid-with-versions.md)
-            - [バージョン管理されていないコンテンツを移行](./install-guide/migrate-non-uuid-uuid-without-versions.md)
+            - [UUID 以外のコンテンツのバージョンでの移行](./install-guide/migrate-non-uuid-uuid-with-versions.md)
+            - [UUID 以外のコンテンツの移行（バージョンを使用しない場合）](./install-guide/migrate-non-uuid-uuid-without-versions.md)
          - [既存のコンテンツを移行](./install-guide/migrate-content.md)
          - [既存の DITA コンテンツのアップロード](./install-guide/migrate-content-upload-existing-dita-content.md)
          - [DITA 以外のコンテンツの移行](./install-guide/migrate-content-non-dita.md)
@@ -322,6 +329,7 @@ ht-degree: 6%
       - Web エディターの設定の操作 {#web-editor-configs-cs}
          - [Web エディタのカスタマイズ](./cs-install-guide/conf-web-editor.md)
          - [ツールバーのカスタマイズ](./cs-install-guide/conf-web-editor-customize-toolbar.md)
+         - [AI を利用したオーサリング用のスマート候補の設定](./cs-install-guide/conf-smart-suggestions.md)
          - [タグ表示のデフォルト値の設定](./cs-install-guide/configure-default-value-tags-view.md)
          - [UUID ベースのリンクの表示の設定](./cs-install-guide/conf-uuid-based-links.md)
          - [同じタブで DITA トピックまたはマップファイルを開く](./cs-install-guide/open-dita-files-same-tab.md)

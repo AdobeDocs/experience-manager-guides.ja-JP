@@ -1,28 +1,29 @@
 ---
 title: ダウンロードとインストール
-description: ダウンロードとインストールの方法を説明します
+description: ダウンロードおよびインストール方法について説明します
 exl-id: 6387dd19-1bd1-4ce8-9428-968a6b838fbb
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 1b25f1df67fa2442ab79830dc2ac5a6eabd0394c
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 0%
+source-wordcount: '73'
+ht-degree: 8%
 
 ---
 
 # ダウンロードとインストール {#id1645E0O04MK}
 
-AEMガイドは GitHub リポジトリを通じて入手できます。 AEMガイドは GitHub リポジトリからダウンロードしてインストールできます。
+2024.2.0 リリースより、Experience Managerガイドは、Experience Manageras a Cloud Serviceの自動アドオンとしてのみ使用できます。
+
+2023 年 12 月以前のリリースを使用している場合は、Adobe Experience Managerガイドを GitHub リポジトリからダウンロードしてインストールできます。
+
 
 - **[AEM Guide モジュールのデプロイ](download-install-dxml-first-time.md)**
 
 - **[Dispatcher の設定](download-install-configure-dispatcher.md)**
 
 - **[AEM Guide のインストールの確認](download-install-verify-dxml-installation.md)**
-
-- **[アップグレードAEMガイド](download-install-upgrade-dxml.md)**
 
 - **[設定の上書き](download-install-additional-config-override.md)**
 

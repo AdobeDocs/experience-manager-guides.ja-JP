@@ -4,9 +4,9 @@ description: バグ修正とAdobe Experience Managerガイドの 4.3.1 リリー
 exl-id: 3fb6dc31-ec6e-40f5-ab3f-a6e591da315e
 feature: Release Notes
 role: Leader
-source-git-commit: 5a444e88b0adba7fa3d498437df39b729b10b5eb
+source-git-commit: 1b25f1df67fa2442ab79830dc2ac5a6eabd0394c
 workflow-type: tm+mt
-source-wordcount: '1306'
+source-wordcount: '1308'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 ## 4.3.1 リリースのExperience Managerガイドにアップグレード
 
 
-現在のバージョンのガイドをバージョン 4.3.1 に簡単にアップグレードできます。Experience ManagerガイドのExperience Manager4.3.1 へのアップグレードを進める前に、次の点を考慮する必要があります。現在のバージョンのバージョンのバージョンをバージョン 4.3.1 にアップグレードできます。
+現在のバージョンのExperience Managerガイドをバージョン 4.3.1 に簡単にアップグレードできます。Experience ManagerガイドのExperience Manager4.3.1 へのアップグレードを進める前に、次の点を考慮する必要があります。現在のバージョンのバージョンのバージョンをバージョン 4.3.1 にアップグレードできます。
 
 
 - バージョン 4.3.0、4.2 または 4.2.1 を使用している場合は、バージョン 4.3.1 に直接アップグレードできます。

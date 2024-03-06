@@ -1,9 +1,9 @@
 ---
 title: リリースノート | Adobe Experience Managerガイド 4.4.0 リリースのアップグレード手順と修正された問題
 description: バグ修正とAdobe Experience Managerガイドの 4.4.0 リリースにアップグレードする方法について説明します
-source-git-commit: 5a444e88b0adba7fa3d498437df39b729b10b5eb
+source-git-commit: 1b25f1df67fa2442ab79830dc2ac5a6eabd0394c
 workflow-type: tm+mt
-source-wordcount: '1808'
+source-wordcount: '1820'
 ht-degree: 0%
 
 ---
@@ -17,14 +17,14 @@ ht-degree: 0%
 ## Experience Managerガイドの 4.4.0 リリースにアップグレード
 
 
-現在のバージョンのガイドをバージョン 4.4.0 に簡単にアップグレードできます。バージョン 4.4.0 のExperience Managerガイドへのアップグレードを進める前に、次の点を考慮する必要があります。
+現在のバージョンのExperience Managerガイドをバージョン 4.4.0 に簡単にアップグレードできます。バージョン 4.4.0 のExperience Managerガイドへのアップグレードを進める前に、次の点を考慮する必要があります。
 
 
 - バージョン 4.3.1、4.3.0、または 4.2.1（ホットフィックス 4.2.1.3）を使用している場合は、バージョン 4.4.0 に直接アップグレードできます。
 - バージョン 4.2、4.1、4.1.x を使用している場合は、バージョン 4.4.0 にアップグレードする前に、バージョン 4.3.1、4.3.0、または 4.2.1（ホットフィックス 4.2.1.3）にアップグレードする必要があります。
 - バージョン 4.0 を使用している場合は、バージョン 4.3.x にアップグレードする前に、バージョン 4.2 にアップグレードする必要があります。
 - バージョン 3.8.5 を使用している場合は、バージョン 4.2 にアップグレードする前に、バージョン 4.0 にアップグレードする必要があります。
-- 3.8.5 より前のバージョンを使用している場合は、製品固有のインストールガイドの「Experience Managerガイドのアップグレード」の節を参照してください。
+- 3.8.5 より前のバージョンを使用している場合は、で入手可能な製品固有のExperience Managerガイドの「アップグレードインストールガイド」の節を参照してください。 [Adobe Experience Manager Guides ヘルプPDFアーカイブ](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 

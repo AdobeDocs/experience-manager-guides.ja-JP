@@ -1,7 +1,7 @@
 ---
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 22150456d455687a1e3bf36695ce6c1238f92e0c
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '227'
 ht-degree: 2%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 2%
    - [AEM Guide モジュールのデプロイ](download-install-dxml-first-time.md)
    - [Dispatcher の設定](download-install-configure-dispatcher.md)
    - [AEM Guide のインストールの確認](download-install-verify-dxml-installation.md)
-   - [アップグレードAEMガイド](download-install-upgrade-dxml.md)
    - [設定の上書き](download-install-additional-config-override.md)
    - [Recommendations （パフォーマンス最適化）](download-install-recommend-perf-optimiz.md)
 - [ユーザー管理とセキュリティ](user-admin-sec.md)

@@ -5,15 +5,17 @@ exl-id: 3bb28304-d8e2-45eb-8297-546eed428b8c
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 1b25f1df67fa2442ab79830dc2ac5a6eabd0394c
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: '52'
 ht-degree: 0%
 
 ---
 
-# AEM Guide モジュールのデプロイ {#id213BCL00KEV}
+# Adobe Experience Manager Guide モジュールのデプロイ {#id213BCL00KEV}
 
-まず、Cloud Manager を使用してAEMガイドをデプロイします。 モジュールをデプロイするには、 [AEMガイドのas a Cloud Service的なデプロイメント](https://experienceleague.adobe.com/docs/experience-manager-xml-documentation-learn/tutorials/release-info/release-notes/cloud-release-notes/deploy-xml-on-aemaacs.html).
+まず、Cloud Manager を使用してExperience Managerガイドをデプロイします。 モジュールをデプロイするには、 [AEMガイドのas a Cloud Service的なデプロイメント](../release-info/deploy-xml-on-aemaacs.md)
+
+
 
 **親トピック：**[&#x200B;ダウンロードとインストール](download-install.md)
