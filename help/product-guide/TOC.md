@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: 933d683ec970417d4aac739c3cae19c103170ae9
+source-git-commit: d886d25f90f95c01009c0a9586df6b32754223cb
 workflow-type: tm+mt
-source-wordcount: '1740'
+source-wordcount: '1742'
 ht-degree: 6%
 
 ---
@@ -15,8 +15,6 @@ ht-degree: 6%
 - [[!DNL AEM Guides] の概要](overview.md)
 - [免責事項](./user-guide/rebranding-disclaimer.md)
 - リリース情報 {#release-info}
-
-   - [[!DNL AEM Guides] リリース](./release-info/latest-release-info.md)
    - リリースノート {#release-notes}
       - Cloud Services {#cloud-release-notes}
          - [デプロイメント手順](./release-info/deploy-xml-on-aemaacs.md)
@@ -63,12 +61,15 @@ ht-degree: 6%
             - [3 月のリリースノート](./release-info/release-notes-2022-3-0.md)
             - [2 月のリリースノート](./release-info/release-notes-2022-2-0.md)
             - [1 月のリリースノート](./release-info/release-notes-2022-1-0.md)
-      - オンプレミス/Managed Services {#on-prem-release-notes}
-      - 4.4.0 リリース {#44-release}
-         - 新機能 {#44-whats-new}
-            - [4.4 新機能](./release-info/whats-new-4-4.md)
-         - リリースノート {#44-release-notes}
-            - [4.4 リリースノート](./release-info/release-notes-4-4.md)
+   - オンプレミス/Managed Services {#on-prem-release-notes}
+      - [[!DNL AEM Guides] リリース](./release-info/latest-release-info.md)
+      - 4.4.0 リリース {#440-release}
+         - [新機能](./release-info/whats-new-4-4.md)
+         - [修正された問題](./release-info/fixed-issues-4-4.md)
+         - [アップグレードの手順](./release-info/upgrade-instructions-4-4.md)
+      - 4.3.1.5 リリース {#4315-release}
+         - [修正された問題](./release-info/fixed-issues-4-3-1-5.md)
+         - [アップグレードの手順](./release-info/upgrade-instructions-4-3-1-5.md)
       - 4.3.0 リリース {#43-release}
          - 新機能 {#43-whats-new}
             - [4.3.1 新機能](./release-info/whats-new-4-3-1-release.md)

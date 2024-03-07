@@ -1,18 +1,23 @@
 ---
 title: リリースノート | Adobe Experience Managerガイド 4.4.0 リリースの新機能
 description: Adobe Experience Managerガイドの 4.4.0 リリースの新機能および機能強化について説明します
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+role: Leader
+source-git-commit: 8f8075b205725a55b93286c804b879353b4d965d
 workflow-type: tm+mt
 source-wordcount: '2307'
 ht-degree: 0%
 
 ---
 
-# Adobe Experience Managerガイドの 4.4.0 リリース（2024 年 1 月）の新機能
+# 4.4.0 リリース（2024 年 1 月）の新機能
 
-この記事では、Adobe Experience Managerガイド ( 後で *Experience Managerガイド*) をクリックします。
+この記事では、Adobe Experience Managerガイドのバージョン 4.4.0 の新機能および拡張機能について説明します。
 
-アップグレードの手順、互換性マトリックス、およびこのリリースで修正された問題について詳しくは、 [リリースノート](./release-notes-4-4.md).
+このリリースで修正された問題の一覧については、 [4.4.0 リリースの問題を修正しました](../release-info/fixed-issues-4-4.md).
+
+詳細 [4.4.0 リリースのアップグレード手順](../release-info/upgrade-instructions-4-4.md).
+
+
 
 ## Web エディターの改良されたバージョン履歴機能
 
