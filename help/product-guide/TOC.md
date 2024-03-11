@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: d886d25f90f95c01009c0a9586df6b32754223cb
+source-git-commit: 46fae421d3fb3bedaa2841c29d7d20f539bdf793
 workflow-type: tm+mt
 source-wordcount: '1742'
 ht-degree: 6%
@@ -61,32 +61,32 @@ ht-degree: 6%
             - [3 月のリリースノート](./release-info/release-notes-2022-3-0.md)
             - [2 月のリリースノート](./release-info/release-notes-2022-2-0.md)
             - [1 月のリリースノート](./release-info/release-notes-2022-1-0.md)
-   - オンプレミス/Managed Services {#on-prem-release-notes}
-      - [[!DNL AEM Guides] リリース](./release-info/latest-release-info.md)
-      - 4.4.0 リリース {#440-release}
-         - [新機能](./release-info/whats-new-4-4.md)
-         - [修正された問題](./release-info/fixed-issues-4-4.md)
-         - [アップグレードの手順](./release-info/upgrade-instructions-4-4.md)
-      - 4.3.1.5 リリース {#4315-release}
-         - [修正された問題](./release-info/fixed-issues-4-3-1-5.md)
-         - [アップグレードの手順](./release-info/upgrade-instructions-4-3-1-5.md)
-      - 4.3.0 リリース {#43-release}
-         - 新機能 {#43-whats-new}
-            - [4.3.1 新機能](./release-info/whats-new-4-3-1-release.md)
-            - [4.3.0 新機能](./release-info/whats-new-4-3-release.md)
-         - リリースノート {#43-release-notes}
-            - [4.3.1 リリースノート](./release-info/release-notes-4-3-1.md)
-            - [4.3.0 リリースノート](./release-info/release-notes-4-3.md)
-      - 4.2 リリース {#42-release}
-         - 新機能 {#42-whats-new}
-            - [4.2.1 新機能](./release-info/whats-new-4-2-1-release.md)
-            - [4.2 新機能](./release-info/whats-new-4-2-release.md)
-         - リリースノート {#42-release-notes}
-            - [4.2.1 リリースノート](./release-info/release-notes-4-2-1.md)
-            - [4.2 リリースノート](./release-info/release-notes-4-2.md)
-      - [4.1.x リリースノート](./release-info/release-notes-4-1.md)
-      - [4.0.x リリースノート](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-      - [3.8.x リリースノート](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+      - オンプレミス/Managed Services {#on-prem-release-notes}
+         - [[!DNL AEM Guides] リリース](./release-info/latest-release-info.md)
+         - 4.4.0 リリース {#440-release}
+            - [新機能](./release-info/whats-new-4-4.md)
+            - [修正された問題](./release-info/fixed-issues-4-4.md)
+            - [アップグレードの手順](./release-info/upgrade-instructions-4-4.md)
+         - 4.3.1.5 リリース {#4315-release}
+            - [修正された問題](./release-info/fixed-issues-4-3-1-5.md)
+            - [アップグレードの手順](./release-info/upgrade-instructions-4-3-1-5.md)
+         - 4.3.0 リリース {#43-release}
+            - 新機能 {#43-whats-new}
+               - [4.3.1 新機能](./release-info/whats-new-4-3-1-release.md)
+               - [4.3.0 新機能](./release-info/whats-new-4-3-release.md)
+            - リリースノート {#43-release-notes}
+               - [4.3.1 リリースノート](./release-info/release-notes-4-3-1.md)
+               - [4.3.0 リリースノート](./release-info/release-notes-4-3.md)
+         - 4.2 リリース {#42-release}
+            - 新機能 {#42-whats-new}
+               - [4.2.1 新機能](./release-info/whats-new-4-2-1-release.md)
+               - [4.2 新機能](./release-info/whats-new-4-2-release.md)
+            - リリースノート {#42-release-notes}
+               - [4.2.1 リリースノート](./release-info/release-notes-4-2-1.md)
+               - [4.2 リリースノート](./release-info/release-notes-4-2.md)
+         - [4.1.x リリースノート](./release-info/release-notes-4-1.md)
+         - [4.0.x リリースノート](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x リリースノート](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - ユーザーガイド {#user-guide}
    - 概要 {#about-aem-guide}
       - [について [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
