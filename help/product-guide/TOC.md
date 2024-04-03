@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: 46fae421d3fb3bedaa2841c29d7d20f539bdf793
+source-git-commit: fa6486d7a1ca392742968fc4adad3e3910a91903
 workflow-type: tm+mt
-source-wordcount: '1742'
+source-wordcount: '1749'
 ht-degree: 6%
 
 ---
@@ -435,6 +435,9 @@ ht-degree: 6%
                - [カスタマイズ](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
       - 公開 {#publishing}
          - [ネイティブAEMパブリッシング用のPDF環境の設定](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
+
+         - [ネイティブPDF公開でブックマップの TOC を生成](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
+
          - [FMPS とガイド](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          - [マイクロサービスのアーキテクチャとパフォーマンス](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          - [マイクロサービスベースの公開の設定](./knowledge-base/publishing/configure-microservices.md)
