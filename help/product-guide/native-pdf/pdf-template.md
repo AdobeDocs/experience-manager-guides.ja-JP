@@ -5,7 +5,7 @@ exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 7790aa9dce9a586b8b422dc6deeecab3d53aca8d
+source-git-commit: a6c87e6f9a68962488e70985a0513dcb05eaa9cd
 workflow-type: tm+mt
 source-wordcount: '1151'
 ht-degree: 0%
@@ -29,7 +29,7 @@ ht-degree: 0%
 新しいテンプレートをPDFするには、次の手順を実行します。
 
 1. Web エディターで、 **出力** タブをクリックします。
-1. 選択 **テンプレート** ![テンプレートアイコン](./assets/template.svg) をクリックします。
+1. 選択 **テンプレート** <img src="./assets/template.png" alt= "テンプレートアイコン" width="25"> をクリックします。
 
    <img src="assets/create-pdf-template.png" alt="PDFテンプレートを作成" width="400">
 
