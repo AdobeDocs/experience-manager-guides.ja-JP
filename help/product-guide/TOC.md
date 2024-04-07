@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: fa6486d7a1ca392742968fc4adad3e3910a91903
+source-git-commit: 6ff99d32dd7a30c1104a79da4f223defe109f190
 workflow-type: tm+mt
-source-wordcount: '1749'
+source-wordcount: '1754'
 ht-degree: 6%
 
 ---
@@ -402,6 +402,7 @@ ht-degree: 6%
          - レポート {#reports}
             - [DITA コンテンツのメタデータの管理](./knowledge-base/kb-articles/authoring/reports/manage-metadata.md)
          - Web エディター {#webeditor}
+            - [AEMガイドのコンテンツの再利用性](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
             - カスタマイズ {#customizing}
                - [ツールバーにカスタムボタンを追加](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
                - [Web エディターにカスタムスタイルを追加](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
