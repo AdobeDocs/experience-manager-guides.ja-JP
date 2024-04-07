@@ -2,9 +2,9 @@
 title: AEMガイドでの DITA コンテンツの再利用
 description: この簡単な記事では、AEMガイドと DITA が、コンテンツの再利用性を使用する際に、時間と労力を節約する方法を説明します。
 role: User, Admin
-source-git-commit: 6ff99d32dd7a30c1104a79da4f223defe109f190
+source-git-commit: 8fceb5e76dcc946efc118b217e93088619c5c5c6
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
@@ -12,6 +12,12 @@ ht-degree: 0%
 # AEMガイドのコンテンツの再利用性
 
 AdobeAEMガイドは、DITA の強みを活用して、コンテンツの再利用に使いやすいインターフェイスを提供します。
+
+この記事では、以下について説明します。
+
+1. トピックリファレンス (`topicrefs`)
+2. コンテンツリファレンス (`conref` および `conkeyref`)
+3. AEMガイドでドラッグ&amp;ドロップでコンテンツを再利用するためのボーナスヒント
 
 ## トピック参照を使用した再利用性 (topicref)
 
@@ -129,7 +135,7 @@ AEMガイドを使用し、2 回クリックします。
 ここでは、ルートマップは既にマップビューで開いているので、自動選択されました。
 
 
-### AEM Guides での 1 回のクリックでコンテンツを再利用
+## AEM Guides での 1 回のクリックでコンテンツを再利用
 
 AEMガイドは、1 回のクリックでコンテンツ参照を追加できる「再利用可能なコンテンツ」機能を提供します。
 
