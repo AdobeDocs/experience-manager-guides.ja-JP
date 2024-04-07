@@ -2,10 +2,12 @@
 title: NativePDF を使用した TOC（目次）公開
 description: NativePDF を使用した Dita ブックマップ用の TOC およびその他のブックリストの公開
 feature: Native PDF Output
+author: Pulkit Nagpal(punagpal)
 role: User, Admin
-source-git-commit: 6ccaef5d35d492fe8dbe0f8b52af8d11258f3d2a
+exl-id: c551f0a8-f973-4c5a-bd34-f52890a91342
+source-git-commit: 7638f3634ad45bbadda64ec6e3f706cbb65d696c
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -36,6 +38,31 @@ DITA 仕様では、 `<backmatter>` 」セクションにも追加します。
       <indexlist/>
     </booklists>
   </backmatter>
+```
+
+TOC、figure-list、table-list を含むブックマップのサンプル構造と、バックマターのインデックスリスト。
+
+```
+<bookmap>
+  <title>My Bookmap Title </title>
+  <frontmatter>
+    <booklists>
+      <toc/>
+      <figurelist/>
+      <tablelist/>
+    </booklists>
+  </frontmatter>
+
+  <chapter href="chapter1.ditamap">
+  <chapter href="chapter2.ditamap">
+  </chapter>
+
+  <backmatter>
+    <booklists>
+      <indexlist/>
+    </booklists>
+  </backmatter>
+</bookmap>
 ```
 
 TOC とブックリストは、ブックマップで定義された構造に基づいて自動的に生成されます。
@@ -71,6 +98,7 @@ Ditamap を公開している場合、ネイティブPDFは TOC とブックリ�
 <br>
 <br>
 
-AEM Guides コミュニティに質問を投稿します。 [フォーラム](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) を参照してください。
+AEM Guides コミュニティで投稿 [フォーラム](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) を参照してください。
+
 
 
