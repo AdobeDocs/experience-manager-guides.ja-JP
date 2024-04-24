@@ -2,7 +2,7 @@
 title: オーサリング用のスマート候補の設定
 description: オーサリング用のスマート候補を設定する方法を説明します
 exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
-source-git-commit: b2042431e96f2cbd90eea9c8cfcdb3e7033e26bb
+source-git-commit: d3e0c475ebd50a2664ea45c293d34b3a10772633
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 1%
@@ -34,7 +34,9 @@ Adobe Developer コンソールで IMS 設定を作成するには、次の手�
    *I/O Management API をプロジェクトに追加します。*
 
 1. 新しいを作成 **OAuth 認証情報** 保存します。
-   ![設定 API の OAuth 認証情報タイル](assets/conf-ss-OAuth-credential.png) {width="3000" align="left"}
+
+   ![設定 API の OAuth 認証情報タイル](assets/conf-ss-OAuth-credential.png)
+
    *API に OAuth 認証情報を設定します。*
 
 1. が含まれる  **プロジェクト** タブ、を選択 **OAuth サーバーからサーバーへ** をオプションとして選択し、新しく作成した資格情報を選択します。
