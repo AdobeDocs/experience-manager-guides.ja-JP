@@ -4,7 +4,7 @@ description: AEM Guides で web エディターの機能を確認します。 �
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 43bdcba4642c9d75585bc571acf0cb0da22a5f4c
+source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
 workflow-type: tm+mt
 source-wordcount: '18678'
 ht-degree: 0%
@@ -2014,3 +2014,4 @@ AEM ガイドには、プロジェクト内のすべてのレビュータスク�
 > 変更履歴の記録機能は、メイン ツールバーの [ 変更履歴の記録の有効化/無効化 ] 機能を使用して記録されたすべての更新を表示します。 詳しくは、 [変更の追跡を有効/無効にします](#id205DF0203Y4).
 
 **親トピック：**[ Web エディターの操作](web-editor.md)
+

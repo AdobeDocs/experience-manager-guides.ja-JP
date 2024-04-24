@@ -1,7 +1,7 @@
 ---
 title: リリースノート | Adobe Experience Manager Guides 2024.4.0 リリースの問題を修正しました
 description: Adobe Experience Manager Guides as a Cloud Serviceの 2024.04.0 リリースのバグ修正について説明します。
-source-git-commit: 9d1b0bea20b2fe3ae8fb2ee7cf4387cf7271562d
+source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 0%
@@ -64,4 +64,5 @@ ht-degree: 0%
 ## 翻訳
 
 - **翻訳を承認** 一時ファイルの変換を完了できません。 （14665）
+
 

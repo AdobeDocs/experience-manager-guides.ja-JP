@@ -1,7 +1,7 @@
 ---
 title: リリースノート | Adobe Experience Manager Guides 2024.4.0 リリースの新機能
 description: Adobe Experience Manager Guides as a Cloud Serviceの 2024.4.0 リリースの新機能と機能強化について説明します。
-source-git-commit: 9a0d2886012bd1695387a93984ccac5127384db3
+source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
 workflow-type: tm+mt
 source-wordcount: '1806'
 ht-degree: 0%
@@ -223,3 +223,4 @@ DITA-OT を使用して生成された出力に渡されたメタデータプロ
 
 
 Experience Managerガイド用の Cloud Publishing サービスが、Adobe IMS OAuth ベースの認証で保護されるようになりました。 方法を学ぶ [oauth 認証を使用したマイクロサービスベースのパブリッシングの設定](../knowledge-base/publishing/configure-microservices-imt-config.md).
+

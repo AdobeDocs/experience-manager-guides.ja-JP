@@ -1,7 +1,7 @@
 ---
 title: リリースノート | Adobe Experience Manager Guides 2024.04.0 リリースのアップグレード手順と修正された問題
 description: 互換性マトリックスと、as a Cloud ServiceのAdobe Experience Manager Guides 2024.04.0 リリースへのアップグレード方法について説明します。
-source-git-commit: 6db8848a5b1ab42240925cf3573393e1a5205056
+source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
 workflow-type: tm+mt
 source-wordcount: '887'
 ht-degree: 0%
@@ -130,3 +130,4 @@ Experience Managerガイドにはがあります [**カスタム sling rewriter*
 コードベースに別のカスタム sling リライターがある場合は、 `'order'` Experience Managerガイド sling rewriter が使用する 50 より大きい値 `'order'` 50。 これを上書きするには、50 より大きい値が必要です。 詳しくは、次を参照してください [出力の書き換えパイプライン](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
 
 このアップグレード中、以下を行いました `'order'` 値が 1000 から 50 に変更された場合は、既存のカスタムリライターを結合する必要があります。 `fmdita-rewriter`.
+

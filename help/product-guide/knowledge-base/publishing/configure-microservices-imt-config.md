@@ -3,7 +3,7 @@ title: AEM ガイドの OAuth 認証を使用したマイクロサービスベ�
 description: AEM Guides の OAuth 認証を使用してマイクロサービスベースのパブリッシングを設定する方法について説明します。
 feature: Microservice in AEM Guides
 role: User, Admin
-source-git-commit: 17116ed5619b7177cf0174449d67cfebf5b9cf46
+source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 0%
@@ -21,9 +21,6 @@ ht-degree: 0%
 > Experience Managerガイドのマイクロサービスベースの公開では、PDF（ネイティブと DITA-OT ベースの両方）、HTML 5、JSON、カスタムの各種類の出力プリセットがサポートされています。
 
 Cloud Publishing Service はAdobe IMSの OAuth ベースの認証で保護されているので、次の手順を実行して環境をAdobeのセキュアトークンベースの認証ワークフローと統合し、クラウドベースのスケーラブルな公開ソリューションの使用を開始します。
-
-
-
 
 
 ## Adobe Developer コンソールでの IMS 設定の作成
