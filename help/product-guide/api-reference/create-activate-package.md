@@ -1,31 +1,52 @@
 ---
-title: パッケージを作成およびアクティベートするための REST API
-description: パッケージを作成およびアクティベートするための REST API について説明します。
+title: パッケージを作成およびアクティブ化するための REST API
+description: パッケージを作成およびアクティブ化するための REST API について説明します
 exl-id: 90686f77-a769-44bc-90eb-116cf9d0341e
 feature: Rest API Packages
 role: Developer
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 32da48d82b1267bb220424edf385035426293b66
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
 
-# パッケージを作成およびアクティベートするための REST API {#id198CF0260Y4}
+# パッケージを作成およびアクティブ化するための REST API {#id198CF0260Y4}
 
-次の REST API を使用して、CRX パッケージを作成し、アクティベートできます。
+次の REST API を使用すると、CRX パッケージを作成し、アクティブ化できます。
 
-## パッケージの作成とアクティベート
+## パッケージ作成および有効化
 
-CRX パッケージをPOSTし、アクティベートするアクティベートメソッド。
+CRX パッケージを作成してアクティベートするPOST メソッド。
 
-**リクエスト URL**: http://*&lt;aem-guides-server>*: *&lt;port-number>*/bin/fmdita/activate
+**リクエストURL** :
+http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/fmdita/activate&lt;/port-number\>&lt;/aem-guides-server\>
 
-**パラメーター**：リクエストクエリは、JSON ルール文字列で構成されます。 POSTリクエストのコンテンツタイプをに設定する必要があります `application/json; charset=UTF-8`.
+**パラメーター**:
+リクエスト クエリは、JSON ルール文字列で構成されます。 POST リクエストのコンテンツタイプは に設定する必要があります `application/json; charset=UTF-8`。
 
-**例**：次の例は、curl コマンドを使用した API 呼び出しを示しています。
+**例**:
+以下に、curl コマンドを使用した API 呼び出しの例を示します。
 
-    &quot;&#39;
-    curl -u &lt;*username*>:&lt;*password*> -H &quot;Content-Type: application/json; charset=UTF-8&quot; -k -XPOST-d &quot;{[JSON ルール文字列 ](create-activate-package-java.md#example-create-activate-package-id198JH0B905Z)}&quot; http://&lt;*aem-server-guides-ges*>:&lt;*port-number*>/bin/fmdita/activate
-    &quot;&#39;
+```XML
+curl -u <*username*>:<*password*> -H "Content-Type: application/json; charset=UTF-8"  -k -X POST -d "{[JSON rules string](create-activate-package-java.md#example-create-activate-package-id198JH0B905Z)}" http://<*aem-guides-server*>:<*port-number*>/bin/fmdita/activate
+```
+
+
+**オプションパラメーター**
+
+`activationTarget`
+
+**有効な値**
+
+`preview` または `publish` Cloud Serviceおよび `publish` オンプレミスソフトウェアの場合
+
+パラメーターに 無効 値が含まれている場合、パッケージのアクティベーションは失敗します。 次の例は、オプションのパラメーターを指定した curl コマンドを使用した API 呼び出しを示しています。
+
+
+    &#39;&#39;&#39;XML
+    
+    curl -u &lt;*username*>:&lt;*password*> -H &quot;Content-書式 ＜例外＞Photoshop のみ「テキスト」: アプリケーション/json;charset=UTF-8&quot; -k -X POST -d &quot;{[JSON ルール文字列](create-activate-package-java.md#example-create-activate-package-id198JH0B905Z)}&quot; http://&lt;*aem-guides-server*>:&lt;*port-number*>/bin/fmdita/activate?activationTarget=&#39;&lt;validActivationTargetValue>&#39;
+    &#39;&#39;&#39;
+&lt;/validActivationTargetValue>&lt;/*port-number*>&lt;/*aem-guides-server*>&lt;/*password*>&lt;/*username*>

@@ -1,105 +1,109 @@
 ---
-title: AEMガイド用の新しいマイクロサービスベースの公開の設定をas a Cloud Service
-description: AEMガイド用の新しいマイクロサービスベースの公開を設定する方法について説明します。
+title: AEM ガイド用の新しいマイクロサービスベースのパブリッシングの設定as a Cloud Service
+description: AEM Guides 用に新しいマイクロサービスベースのパブリッシングを設定する方法について説明します。
 exl-id: 92e3091d-6337-4dc6-9609-12b1503684cd
 feature: Microservice in AEM Guides
 role: User, Admin
-source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
+source-git-commit: f929d4fd74e98e2025d80c14dbef6aeb464c0dd5
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 0%
+source-wordcount: '711'
+ht-degree: 2%
 
 ---
 
-# AEMガイド用の新しいマイクロサービスベースの公開の設定をas a Cloud Service
+# JWT 認証を使用したマイクロサービスベースの公開の設定
 
-新しい公開マイクロサービスを使用すると、as a Cloud ServiceのAEMガイドで大規模な公開ワークロードを同時に実行し、業界をリードするAdobe I/O Runtimeのサーバレスプラットフォームを活用できます。
-
-発行リクエストごとに、AEMガイドはas a Cloud Service的に個別のコンテナを実行し、ユーザーのリクエストに従って水平方向に拡大/縮小します。 これにより、ユーザーは、複数の公開リクエストを実行し、大規模なオンプレミスのAEMサーバーよりも高いパフォーマンスを得ることができます。
+[!BADGE Cloud Service]{type=Informative}
 
 >[!NOTE]
 >
-> AEMガイドの Microservice ベースの公開では、PDF（ネイティブと DITA-OT ベースの両方）、HTML5、JSON およびカスタムタイプの出力プリセットがサポートされます。
-
-新しいクラウド公開サービスはAdobe IMSJWT ベースの認証で保護されるので、お客様は以下の手順に従って、Adobeのセキュアなトークンベースの認証ワークフローと環境を統合し、新しいクラウドベースのスケーラブル公開ソリューションの使用を開始する必要があります。
+> サービスアカウント（JWT）資格情報は、OAuth サーバー間認証情報に代わって非推奨（廃止予定）になりました。サービスアカウント（JWT）資格情報を使用するアプリケーションは、2025 年 1 月 1 日（PT）以降は機能しなくなります。 アプリケーションが引き続き機能するように、2025 年 1 月 1 日までに新しい資格情報に移行する必要があります。 の詳細情報 [サービスアカウント（JWT）資格情報から OAuth サーバー間資格情報への移行](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/).
 
 
-## Adobe Developer Console での IMS 設定の作成
 
-**統合の作成に必要なロール**：システム管理者
+Adobe Experience Manager ガイド用のマイクロサービスベースの公開as a Cloud Serviceでは、PDF（ネイティブと DITA-OT ベースの両方）、HTML 5、JSON、カスタムの各種類の出力プリセットがサポートされています。
 
-Adobe Developer Console で IMS 設定を作成するには、次の手順を実行します。
+サービスアカウント（JWT）資格情報は非推奨になったので、Adobe IMS OAuth ベースの認証を使用することをお勧めします。 方法を学ぶ [oauth 認証を使用したマイクロサービスベースのパブリッシングの設定](configure-microservices-imt-config.md).
 
-1. 開発者コンソールを開きます。 `https://developer.adobe.com/console`.
+Adobe IMSの JWT ベースの認証で保護された Cloud Publishing サービスの場合、以下の手順に従って環境をAdobeのセキュアトークンベースの認証ワークフローと統合し、新しいクラウドベースのスケーラブルな公開ソリューションの使用を開始する必要があります。
 
-1. 切り替え先 **プロジェクト** タブを上から開きます。
+
+## Adobe Developer コンソールでの IMS 設定の作成
+
+**集計の作成に必要な役割**: システム管理者
+
+Adobe Developer コンソールで IMS 設定を作成するには、次の手順を実行します。
+
+1. Developer Console を開きます。 `https://developer.adobe.com/console`.
+
+1. 切り替え先 **プロジェクト** タブを上から選択します。
 
    <img src="assets/projects-tab.png" alt="「プロジェクト」タブ" width="500">
 
-1. 新しい空のプロジェクトを作成するには、「 **空のプロジェクト** から **新規プロジェクトを作成** ドロップダウン。
+1. 新しい空のプロジェクトを作成するには、を選択します。 **空のプロジェクト** から **新規プロジェクトを作成** ドロップダウン。
 
    <img src="assets/create-new-project.png" alt="新規プロジェクトを作成" width="500">
 
-1. 選択 **API** から **プロジェクトに追加** ドロップダウンを使用して、IO 管理 API をプロジェクトに追加します。
+1. を選択 **API** から **プロジェクトに追加** ドロップダウンで、プロジェクトに IO 管理 API を追加します。
 
    <img src="assets/add-project.png" alt="プロジェクトを追加" width="300">
 
    <img src="assets/io-management-api.png" alt="io 管理" width="500">
 
-1. API を追加する際に、新しい秘密鍵と公開鍵のペアを作成します。 これにより、システム上の秘密鍵が自動的にダウンロードされます。
+1. API の追加時に、新しい秘密鍵と公開鍵のペアを作成します。 これにより、秘密鍵がシステムに自動的にダウンロードされます。
 
    <img src="assets/generate-key-pair.png" alt="キーペアを生成" width="500">
 
 1. 設定済みの API を保存します。
 
-   <img src="assets/save-api.png" alt="api を保存" width="600">
+   <img src="assets/save-api.png" alt="save api" width="600">
 
-1. に戻る **プロジェクト** タブをクリックし、 **プロジェクトの概要** 左側に
+1. に戻る **プロジェクト** tab キーを押してクリック **プロジェクトの概要** 左側。
 
    <img src="assets/project-overview.png" alt="プロジェクトの概要" width="500">
 
-1. クリック **ダウンロード** ボタンを上部に配置して、サービス JSON をダウンロードします。
+1. クリック **Download** 上部のボタンをクリックして、サービス JSON をダウンロードします。
 
    <img src="assets/download-json.png" alt="json をダウンロード" width="500">
 
-これで、JWT 認証の詳細を設定し、秘密鍵とサービスの詳細 JSON もダウンロードしました。 これらの 2 つのファイルは、次の節で必要となるので、手元に置いておいてください。
+これで、JWT 認証の詳細が設定され、秘密鍵とサービスの詳細の JSON もダウンロードされました。 次の節では、これらのファイルが必要なので、これら 2 つのファイルを手元に置いてください。
 
-### 環境に IMS 設定を追加する
+### 環境への IMS 設定の追加
 
-IMS 設定を環境に追加するには、次の手順を実行します。
+次の手順を実行して、環境に IMS 設定を追加します。
 
-1. Experience Manager を開き、設定する環境を含むプログラムを選択します。
-1. 切り替え先 **環境** タブをクリックします。
+1. Experience manager を開き、設定する環境が含まれているプログラムを選択します。
+1. 切り替え先 **環境** タブ。
 1. 設定する環境名をクリックします。 これにより、環境情報ページに移動します。
-1. 切り替え先 **設定** タブをクリックします。
-1. 秘密鍵とプロジェクト JSON をアップロードします（下のスクリーンショットを参照）。 次に示すように、同じ名前と設定を使用していることを確認します。
+1. 切り替え先 **設定** タブ。
+1. 以下のスクリーンショットに示すように、秘密鍵とプロジェクト JSON をアップロードします。 以下にハイライト表示されているのと同じ名前と設定を使用していることを確認します。
 
    <img src="assets/ims-config-environment.png" alt="ims 設定" width="500">
 
 >[!NOTE]
 >
-> 上のスクリーンショットに示すように、秘密鍵とサービスの詳細 JSON ファイルの内容を開き、コピーし、設定パネルの value 列に貼り付ける必要があります。
+> 上記のスクリーンショットに示すように、秘密鍵とサービスの詳細の JSON ファイルの内容を開き、コピーして、設定パネルの「値」列に貼り付ける必要があります。
 
-IMS 設定を環境に追加したら、次の手順を実行して、OSGi を使用してこれらのプロパティをAEMガイドにリンクします。
+IMS 設定を環境に追加したら、次の手順を実行して、OSGi を使用してこれらのプロパティをExperience Managerガイドにリンクします。
 
-1. Cloud Manager の Git プロジェクトコードで、以下の 2 つのファイルを追加します ( ファイルの内容については、 [付録](#appendix)) をクリックします。
+1. Cloud Manager Git プロジェクトコードで、以下の 2 つのファイルを指定して追加します（ファイルの内容については、 [付録](#appendix)）に設定します。
 
    * `com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
    * `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
-1. 新しく追加されたファイルが、 `filter.xml`.
-1. Git の変更をコミットしてプッシュします。
-1. パイプラインを実行して、環境に変更を適用します。
+1. 新しく追加したファイルがによってカバーされていることを確認します。 `filter.xml`.
+1. Git の変更をコミットし、プッシュします。
+1. パイプラインを実行して変更を環境に適用します。
 
-その後、新しいマイクロサービスベースのクラウドパブリッシングを使用できるようになります。
+この操作が完了すると、新しい microservice ベースのクラウドパブリッシングを使用できるようになります。
 
 ## FAQ
 
-1. 1 つのキーを複数のクラウド環境で使用できますか。
-   * はい。1 つの秘密鍵を生成し、すべての環境で使用できますが、すべての環境に対して環境変数を設定し、同じ鍵を使用する必要があります。
-1. マイクロサービスを使用する OSGi 設定が有効になっている場合、公開プロセスは同じコードベースを持つローカルAEMサーバー上で動作しますか？
-   * いいえ、フラグが `dxml.use.publish.microservice` が `true` その後、常にマイクロサービス設定を探します。 設定 `dxml.use.publish.microservice` から `false` パブリッシュがローカルで動作するようにするために使用します。
-1. マイクロサービスベースの公開を使用する場合、DITA プロセスに割り当てられるメモリ量はどれくらいですか？ これは DITA プロファイル ANT パラメーターを介して駆動されますか？
-   * マイクロサービスベースの公開では、DITA プロファイルの ant パラメーターを使用してメモリ割り当てを実行しません。 サービスコンテナで使用可能な合計メモリは 8 GB で、そのうち 6 GB が DITA-OT プロセスに割り当てられます。
+1. 1 つのキーを複数のクラウド環境で使用できますか？
+   * はい。1 つの秘密鍵を生成し、すべての環境で使用できますが、すべての環境に環境変数を設定し、同じ鍵を使用する必要があります。
+1. マイクロサービスを使用する OSGi 設定が有効になっている場合、公開プロセスは同じコードベースを持つローカル AEM サーバーで動作しますか？
+   * いいえ（フラグの場合） `dxml.use.publish.microservice` はに設定されています。 `true` 次に、マイクロサービスの設定が常に検索されます。 を設定 `dxml.use.publish.microservice` 対象： `false` ローカルで公開を機能させるために使用します。
+1. マイクロサービスベースのパブリッシングを使用する場合、DITA プロセスに割り当てられるメモリの量 これは DITA プロファイルの ant パラメータを介して実行されますか。
+   * マイクロサービスベースのパブリッシングでは、メモリ割り当ては DITA プロファイルの ant パラメーターによって実行されません。 サービスコンテナで使用可能なメモリの合計は 8 GB で、そのうち 6 GB が DITA-OT プロセスに割り当てられます。
 
 
 ## 付録 {#appendix}
@@ -119,8 +123,8 @@ IMS 設定を環境に追加したら、次の手順を実行して、OSGi を�
 **ファイル**: `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
 
 **コンテンツ**:
-* `dxml.use.publish.microservice`:DITA-OT を使用したマイクロサービスベースの公開の有効化に切り替えます
-* `dxml.use.publish.microservice.native.pdf`：マイクロサービスベースのネイティブPDF公開を有効に切り替えます
+* `dxml.use.publish.microservice`:DITA-OT を使用したマイクロサービスベースの公開を有効にするように切り替えます
+* `dxml.use.publish.microservice.native.pdf`：マイクロサービスベースのネイティブPDF公開を有効にするように切り替えます
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
