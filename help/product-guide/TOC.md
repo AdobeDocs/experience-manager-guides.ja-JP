@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: e8febe389ed805375d4b79570cd9a0e023e046f3
+source-git-commit: ca1123005d1f36cba11b3f93a89de47006bfead4
 workflow-type: tm+mt
-source-wordcount: '1777'
+source-wordcount: '1783'
 ht-degree: 6%
 
 ---
@@ -404,8 +404,6 @@ ht-degree: 6%
       - [ガイドでのコンテンツの翻訳 – 第 2 部](./knowledge-base/expert-sessions/translating-content-using-aem-guides-part2-feb2024.md)
    - 記事 {#kb-articles}
       - オーサリング {#authoring}
-         - レポート {#reports}
-            - [DITA コンテンツのメタデータの管理](./knowledge-base/kb-articles/authoring/reports/manage-metadata.md)
          - Web エディター {#webeditor}
             - [AEM ガイドでのコンテンツの再利用性](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
             - カスタマイズ {#customizing}
@@ -415,6 +413,9 @@ ht-degree: 6%
                - [ファイル コンテキスト メニューのカスタマイズ](./knowledge-base/kb-articles/authoring/webeditor/customization/remove-delete-from-webeditor.md)
             - スケマトロン {#schematron}
                - [スキーマトロンの検証](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
+         - レポート {#reports}
+            - [DITA コンテンツのメタデータの管理](./knowledge-base/kb-articles/authoring/reports/manage-metadata.md)
+         - [カスタム dita 型用のアイコンの定義](./knowledge-base/kb-articles/authoring/define-icon-for-custom-ditatypes.md)
       - Guides 拡張フレームワーク {#extention-framework}
          - Aem Guides フレームワーク {#aem-guides-framework}
             - [基本的なカスタマイズ](./guides-ui-extensions/aem_guides_framework/basic-customisation.md)
