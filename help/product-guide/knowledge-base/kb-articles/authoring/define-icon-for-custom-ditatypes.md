@@ -1,9 +1,9 @@
 ---
 title: カスタム Dita 型用のアイコンの設定
 description: カスタム Dita タイプのアイコンを定義して、AEMの様々な UI で表示する方法を説明します
-source-git-commit: ce2f5e4ab6b05fbce7b8384ff59091ebf9bab7be
+source-git-commit: 40b4c0803c87dbf1d3c2756e7974848100b5e56e
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ## 問題の説明
 
-AEM Guides で使用されるカスタムスキーマを使用すると、カスタムトピックまたはマップのタイプを作成でき、カスタムトピックまたはマップが web エディターまたは Assets UI にアイコンが表示されないことがあります。 参照については、スクリーンショットを参照してください  （../assets/authoring/custom-ditatype-icon-notshown.png）
+AEM Guides で使用されるカスタムスキーマを使用すると、カスタムトピックまたはマップのタイプを作成でき、カスタムトピックまたはマップが web エディターまたは Assets UI にアイコンが表示されないことがあります。 参照については、スクリーンショットを参照してください ![参照用のスクリーンショット](../assets/authoring/custom-ditatype-icon-notshown.png)
 
 したがって、カスタムトピック/マップのタイプにアイコンを割り当てるには、次の手順を実行する必要があります。
 - カスタムのトピック/マップのタイプを検索
@@ -25,9 +25,19 @@ Web エディター（リポジトリ表示）と Assets UI にアイコンを�
 
 ## Web エディタービューでカスタムトピック/マップのアイコンを表示しています
 
-手順 1：カスタム dita トピック/ap の dita タイプを特定する – web-editor でリポジトリビューを開く/ ブラウザで developer console を開く – リストされたトピック/マップの横のアイコンスペースをInspectする – カスタムトピックに割り当てられたクラスを確認する – スクリーンショットを参照  （../assets/authoring/custom-ditatype-icon-knowditatype.png）詳しくは、このクラスを使用してアイコンを割り当て、CSS を記述します
+*手順 1 *: カスタム dita トピック/ap の dita タイプを決定します
+- Web エディターでリポジトリ表示を開く/ ブラウザーで開発者コンソールを開きます。
+- リストされたトピック/マップの横にあるアイコンスペースをInspectします
+- カスタムトピックに割り当てられているクラスを確認します
+- スクリーンショットを参照 ![スクリーンショットを参照](../assets/authoring/custom-ditatype-icon-knowditatype.png) を参照
+- このクラスを使用してアイコンを割り当て、CSS を記述します
 
-手順 2: CSS を作成してこの dita 型にアイコンを割り当てる – /apps の下にクライアントライブラリを作成します。必要なパスに cq:ClientLibraryFolder を作成します。そのディレクトリにカテゴリ「apps.fmdita.xml_editor.page」を追加します。このディレクトリの下にフォルダー「assets」を作成し、カスタム dita 型に使用するすべてのアイコンを追加します。
+*手順 2 *: css を作成し、この dita タイプにアイコンを割り当てます
+- /apps の下にクライアントライブラリを作成します。目的のパスの下に cq:ClientLibraryFolder を作成したとします
+   - カテゴリ「apps.fmdita.xml_editor.page」を追加します
+- このディレクトリの下に「assets」フォルダを作成し、カスタム dita タイプに使用するすべてのアイコンを追加します
+- クライアントライブラリフォルダーに css ファイルを追加します。例えば、「tree-icons.css」とします
+   - 次のコードを追加します
 
 ```
             .tree-item-icon {
@@ -40,17 +50,28 @@ Web エディター（リポジトリ表示）と Assets UI にアイコンを�
             }
 ```
 
-    - クライアントライブラリフォルダーに css.txt を追加し、作成した「tree-icon.css」への参照を追加します
-     – これらの変更を保存/デプロイします
-スクリーンショットを参照  （../assets/authoring/custom-ditatype-icon-define-webeditor-styles.png）を参照してください。
+- クライアントライブラリフォルダーに css.txt を追加し、作成した「tree-icon.css」への参照を追加します
+- これらの変更を保存/デプロイ
 
-最終的な出力はスクリーンショットで示されます。  （../assets/authoring/custom-ditatype-icon-webeditor-showstyles.png）
+スクリーンショットを参照 ![スクリーンショットを参照](../assets/authoring/custom-ditatype-icon-define-webeditor-styles.png) を参照してください。
+
+最終的な出力はスクリーンショットで示されます。 ![スクリーンショットに表示](../assets/authoring/custom-ditatype-icon-webeditor-showstyles.png)
 
 
 ## Assets UI でのカスタムトピック/マップのアイコンの表示
 
-手順 1：カスタム dita トピック/マップの dita タイプの決定 – 前のメソッドの手順 1 で説明します
+*手順 1*：カスタム dita トピック/マップの dita タイプの決定
+- これについては、前のメソッドの手順 1 で説明しました
 
-/libs/fmdita/clientlibs/clientlibs/xmleditor/clientlib-dam/topic_type.js手順 2：カスタムトピック/マップ型用のカスタム dita 型に読み込むアイコンを定義する Javacscript を作成する – /apps の下にクライアントライブラリを作成します。例えば、必要なパスに cq:ClientLibraryFolder を作成します。次のプロパティを追加します。– 「categories」（複数値文字列）値を「dam.gui.admin.coral」に追加します。変数「parentImagePath」の値を、カスタムアイコンの保存場所に変更することで、images フォルダーのパスを変更することもできます。クライアントライブラリフォルダーの下に js.txt という名前のファイルを作成し、「topic_type.js」への参照を追加します。これらの変更を保存またはデプロイします。スクリーンショットを参照  （../assets/authoring/custom-ditatype-icon-define-assetsui-styles.png）を参照してください。
+*手順 2*:Javacscript を作成して、カスタムのトピック/マップタイプのカスタム dita タイプに読み込むアイコンを定義します
+- /apps の下にクライアントライブラリを作成します。目的のパスの下に cq:ClientLibraryFolder を作成したとします
+   - 次のプロパティを追加します。
+      - 「categories」（複数値文字列）の値が「dam.gui.admin.coral」である
+      - 「dependencies」（複数値文字列）値を「libs.fmdita.versioncontrol」として
+- この/apps ディレクトリに「/libs/fmdita/clientlibs/clientlibs/xmleditor/clientlib-dam/topic_type.js」ファイルのコピーを作成します。
+   - コピーした「topic_type.js」を編集し、変数「typeImageNameMap」の下の customtopictype を変更または追加します
+   - また、変数「parentImagePath」の値を、カスタムアイコンが格納されている場所に変更することで、画像フォルダーのパスを変更することもできます
+- クライアントライブラリフォルダーに js.txt という名前のファイルを作成し、「topic_type.js」への参照を追加します。
+- これらの変更を保存/デプロイ スクリーンショットを参照 ![スクリーンショットを参照](../assets/authoring/custom-ditatype-icon-define-assetsui-styles.png) を参照してください。
 
-最終的な出力はスクリーンショットに示されているように表示されます。  （../assets/authoring/custom-ditatype-icon-assetsui-showstyles.png）
+最終的な出力はスクリーンショットに示されているように表示されます。 ![スクリーンショットに表示](../assets/authoring/custom-ditatype-icon-assetsui-showstyles.png)
