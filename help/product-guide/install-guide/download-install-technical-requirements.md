@@ -1,28 +1,28 @@
 ---
-title: 技術要件
-description: Adobe Experience Managerガイドを使用するための技術要件について説明します。
+title: 技術的要件
+description: Adobe Experience Manager Guides を使用するための技術要件について説明します
 exl-id: d69245b0-bf20-43c1-b46e-b6c220319690
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: 60e905bf4027ee6c0390bf067b95517ab770ed7b
+source-git-commit: eb6d678a27f5a000b83dbc662f4f9ddbba68d8f9
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '93'
 ht-degree: 5%
 
 ---
 
-# 技術要件 {#id213BCG003XA}
+# 技術的要件 {#id213BCG003XA}
 
-AEMガイド 4.4 をインストールする前に、お使いのシステムが次の技術要件を満たしていることを確認してください。
+AEM Guides 4.4 をインストールする前に、お使いのシステムが次の技術要件を満たしていることを確認してください。
 
 **Adobe Experience Manager**
 
-- バージョン 6.5 Service Pack 19、18、または 17
+- バージョン 6.5 サービスパック 20、19、18、17
 
 >[!IMPORTANT]
 >
-> AEM Site の出力生成の場合、AEMパブリッシュインスタンスには Service Pack 19、18、17 が必要です。
+> AEM サイト出力を生成するには、AEM パブリッシュインスタンスにサービスパック 20、19、18、17 が必要です。
 
 **オペレーティングシステム**
 
