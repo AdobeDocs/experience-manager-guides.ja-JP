@@ -5,9 +5,9 @@ exl-id: d7cd412b-89ea-43a5-97b3-09944863bbee
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: acd16f23a7b3023a62b3c15007b03d4f3b2cfb4f
+source-git-commit: 873542cb2e8e1b7e80e0ecc113cae4f603b18592
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '902'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,11 @@ ht-degree: 0%
 
 Experience Managerガイドには付属しています **データソース** データソース用の標準提供コネクタを設定するのに役立つツールです。 JIRA、SQL （MySQL、PostgreSQL、Microsoft SQL Server、SQLite、MariaDB、H2DB）、AdobeCommerce、Elasticsearchおよび汎用 REST クライアントコネクタを設定できます。
 
-これらの標準のコネクタに加えて、Salsify、Akeneo、およびMicrosoft Azure DevOps Boards （ADO） データ ソース用のコネクタがExperience Manager ガイドに記載されています。 ダウンロードしてインストールできます。 その後、ユーザーはこれらのコネクタを設定できます。
+
+これらの標準のコネクタに加えて、Salsify、Akeneo、およびMicrosoft Azure DevOps Boards （ADO） データ ソース用のコネクタがExperience Manager ガイドに記載されています。 これらのオープンソースコネクタは、 [Maven 中央リポジトリ](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides). その後、ユーザーはこれらのコネクタを設定できます。
+方法を学ぶ [オープンソースコネクタのインストール](#install-open-source-connector).
+
+
 
 また、ファイルコネクタを使用して JSON データファイルに接続することもできます。 コンピューターから JSON ファイルをアップロードするか、Adobe Experience Manager Assets から参照します。 次に、ジェネレーターを使用してコンテンツスニペットまたはトピックを作成します。
 
@@ -78,6 +82,39 @@ Generic REST Client、Salsify、Akeneo、Microsoft Azure DevOps Boards （ADO）
 1. また、Salsify、Akeneo、Microsoft ADO などのデータ ソースで使用できる既定のリソースを使用することもできます。 データソースに設定しないリソースのオプションをオフに切り替えます。
 
 これにより、単一のコンテンツスニペットまたはトピック内の特定のデータソースについて、任意のリソースからデータをすばやく取得できます。
+
+
+
+## オープンソースコネクタのインストール{#install-open-source-connector}
+
+に存在する依存関係を公開するには [Maven 中央リポジトリ](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides) Cloud Serviceには、オープンソースコネクタの依存関係を含めて埋め込む必要があります。
+
+1. 依存関係をに追加します。 `all/pom.xml`  cloud manager Git プロジェクトコード内。 例えば、Microsoft Azure DevOps Boards データソースコネクタに次の依存関係を追加できます。
+
+
+   ```
+   <dependency>
+       <groupId>com.adobe.aem.addon.guides</groupId>
+       <artifactId>konnect-azure-devops</artifactId>
+       <version>1.0.0</version>
+       <type>jar</type>
+   </dependency> 
+   ```
+
+1. 追加した依存関係を埋め込みます。
+
+       ``
+       &lt;embedded>
+       &lt;groupid>com.adobe.aem.addon.guides&lt;/groupid>
+       &lt;artifactid>konnect-azure-devops&lt;/artifactid>
+       &lt;type>jar&lt;/type>
+       &lt;target>/apps/aemdoxonaemcsstageprogram-vendor-packages/content/install&lt;/target>
+       &lt;/embedded>
+       ``
+   
+1. パイプラインを実行してCloud Serviceに変更を適用します。
+コネクタは環境にインストールされています。
+
 
 ## コネクタで使用できる機能
 

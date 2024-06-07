@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: 56fa545f1dd32bcc3ec533cffb14a364b934ba20
+source-git-commit: bcb61127f5f69ac39860a90eac2e1a56ecd1de31
 workflow-type: tm+mt
-source-wordcount: '1792'
-ht-degree: 6%
+source-wordcount: '1815'
+ht-degree: 7%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 6%
       - Cloud Services {#cloud-release-notes}
          - [デプロイメントの手順](./release-info/deploy-xml-on-aemaacs.md)
          - 2024 年リリース {#2024-releases}
+            - 2024.6.0 リリース {#2406-release}
+               - [新機能](./release-info/whats-new-2024-06-0.md)
+               - [修正された問題](./release-info/fixed-issues-2024-06-0.md)
+               - [アップグレード手順](./release-info/upgrade-instructions-2024-06-0.md)
             - 2024.4.0 リリース {#2404-release}
                - [新機能](./release-info/whats-new-2024-04-0.md)
                - [修正された問題](./release-info/fixed-issues-2024-04-0.md)
@@ -121,6 +125,7 @@ ht-degree: 6%
                - [Web エディタービュー](./user-guide/web-editor-views.md)
                - [Schematron ファイルのサポート](./user-guide/support-schematron-file.md)
                - [コンテンツを作成するための AI を活用したスマートな提案](./user-guide/authoring-ai-based-smart-suggestions.md)
+
                - [Web エディターからの Markdown ドキュメントの作成](./user-guide/web-editor-markdown-topic.md)
                - [コンテンツへの引用文献の追加](./user-guide/web-editor-apply-citations.md)
                - [データソースからのデータの使用](./user-guide/web-editor-content-snippet.md)
@@ -191,7 +196,8 @@ ht-degree: 6%
          - [追加の特殊文字を設定](./web-editor/configure-additional-special-characters.md)
       - [公開ダッシュボードを使用した公開タスクの管理](./user-guide/generate-output-publish-dashboard.md)
       - [基本的なトラブルシューティング](./user-guide/generate-output-basic-troubleshooting.md)
-      - [コンテンツフラグメントに公開](./user-guide/publish-content-fragment.md)
+      - [コンテンツフラグメントの公開](./user-guide/publish-content-fragment.md)
+      - [エクスペリエンスフラグメントの公開](./user-guide/publish-experience-fragment.md)
       - コンテンツの一括アクティベーション {#bulk-activation}
          - [公開済みコンテンツの一括アクティベーション](./user-guide/conf-bulk-activation.md)
          - [一括アクティベーションマップコレクションの作成](./user-guide/conf-bulk-activation-create-map-collection.md)
@@ -240,10 +246,11 @@ ht-degree: 6%
       - カスタム DITA-OT と特殊化の操作 {#custom-dita-ot-spec}
          - [カスタム DITA-OT および DITA 特殊化の使用](./install-guide/dita-ot-specialization.md)
       - UUID および非 UUID ベースのファイル名を設定します {#conf-non-uuid-filename}
-         - [ファイル名の設定](./install-guide/conf-file-names.md)
-         - [UUID に基づく自動ファイル名の設定](./install-guide/conf-auto-uuid-filenames.md)
-         - [有効なファイル名文字に対して正規表現を設定](./install-guide/conf-file-names-valid-regx.md)
-         - [AEM Site 出力の有効なファイル名の設定](./install-guide/conf-file-names-valid-regx-aem-site-output.md)
+      - [フォルダーの後処理の設定](./install-guide/conf-folder-post-processing.md)
+      - [ファイル名の設定](./install-guide/conf-file-names.md)
+      - [UUID に基づく自動ファイル名の設定](./install-guide/conf-auto-uuid-filenames.md)
+      - [有効なファイル名文字に対して正規表現を設定](./install-guide/conf-file-names-valid-regx.md)
+      - [AEM Site 出力の有効なファイル名の設定](./install-guide/conf-file-names-valid-regx-aem-site-output.md)
       - トピックとマップ テンプレートを使用する {#topic-map-template}
          - [トピックとマップのテンプレートを設定](./install-guide/conf-template-tags.md)
          - [カスタム DITA トピックテンプレートの設定](./install-guide/conf-template-tags-custom-dita-topic-template.md)
@@ -287,6 +294,7 @@ ht-degree: 6%
             - [ページレイアウトのデザイン](./native-pdf/design-page-layout.md)
             - [PDF出力の変数](./native-pdf/native-pdf-variables.md)
             - [言語変数のサポート](./native-pdf/native-pdf-language-variables.md)
+            - [PDF出力へのバーコードの追加](./native-pdf/add-barcode.md)
             - 共通のコンテンツスタイル {#content-styles}
                - [共通のコンテンツスタイルの使用](./native-pdf/stylesheet.md)
                - [カスタム変更バーのスタイルを使用する](./native-pdf/change-bar-style.md)
@@ -295,8 +303,7 @@ ht-degree: 6%
                - [JavaScript を使用してコンテンツやスタイルを操作する](./native-pdf/use-javascript-content-style.md)
                - [脚注へのスタイルの適用](./native-pdf/footnote-number-style.md)
          - [ネイティブPDF公開用の JVM フラグの設定](./native-pdf/configure-jvm-flags.md)
-         - [トピックとコンテンツフラグメント間のマッピングの作成](./install-guide/conf-content-fragment-mapping.md)
-      - カスタムワークフローの操作 {#custom-workflow}
+         - カスタムワークフローの操作 {#custom-workflow}
          - [ワークフローの設定とカスタマイズ](./install-guide/customize-workflows.md)
       - 翻訳設定の操作 {#translate-config}
          - [コンテンツの翻訳](./install-guide/translation.md)
@@ -365,6 +372,7 @@ ht-degree: 6%
          - [ネイティブPDF公開](./cs-install-guide/native-pdf-publishing.md)
          - [ネイティブPDF公開用のノードプロセスの設定](./native-pdf/configure-node-options.md)
          - [トピックとコンテンツフラグメント間のマッピングの作成](./cs-install-guide/conf-content-fragment-mapping-cs.md)
+         - [トピックとエクスペリエンスフラグメント間のマッピングの作成](./cs-install-guide/conf-experience-fragment-mapping-cs.md)
       - カスタムワークフローの操作 {#custom-workflow-cs}
          - [ワークフローの設定とカスタマイズ](./cs-install-guide/customize-workflows.md)
       - 翻訳設定の操作 {#translate-config-cs}

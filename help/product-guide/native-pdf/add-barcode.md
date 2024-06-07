@@ -1,26 +1,97 @@
 ---
-title: ネイティブPDF公開機能 |バーコードを追加
+title: ネイティブPDF公開機能 | バーコードを追加
 description: バーコードの追加方法を説明します。
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: a766353908829ab433173f8fd003ecad0c9d1bf1
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 0%
+source-wordcount: '795'
+ht-degree: 1%
 
 ---
 
-# バーコード出力へのPDFの追加
 
-バーコードは、機械で簡単に処理できる情報を含める場合に役立ちます。 同様に、読者がモバイルデバイスで開くことのできるリンクにも QR コードが使用されます。
+# PDF出力へのバーコードの追加
 
-このチュートリアルでは、PDF出力の各ページの上にバーコードを追加します。
+バーコードは、機械が読み取ることができるデータパターンです。 お客様はバーコードスキャナーまたはスマートフォンのカメラを使用してバーコードをスキャンできます。 製品詳細、在庫番号、web サイト URL などのエンコード情報が役立つ場合があります。 バーコードを追加すると、データを簡単に取り込み、カスタマーエクスペリエンスを向上させ、データ管理とセキュリティを強化できます。
 
-## バーコードを生成する手順
+バーコードのスタイルを作成できます。 これを使用して、ページレイアウトにバーコードを挿入します。 目的のページレイアウトでサンプルバーコードにスタイルを適用できます。
+
+
+このチュートリアルでは、PDF出力にバーコードを追加する方法について説明します。
+
+## バーコードの生成手順
 
 バーコードを生成するには、次の手順を実行します。
 
-### DITA マップへのリソース ID の追加
+### テンプレートの CSS を更新してバーコード値をレンダリングする
 
-DITA マップにリソース ID 要素を追加します。 リソース ID は、バーコードを生成するためのメイン入力として機能します。
+を変更する `layout.css` PDFの生成中にバーコードをレンダリングするファイル。 「qrcode」や「pdf417」など、様々なバーコードタイプがサポートされています。  詳しくは、次を参照してください [バーコードの種類](#barcode-types).
+
+
+
+```css
+...
+.barcode { 
+-ro-replacedelement: barcode;   
+-ro-barcode-type: code128;   
+-ro-barcode-size: 100%;   
+-ro-barcode-content: content();   
+object-fit: contain;   
+margin-top: 2mm;
+ 
+}
+...
+```
+
+### CSS スタイルを使用してバーコードを生成
+
+バーコードは、様々な方法で生成できます。 例を次に示します。
+
+**例 1**
+
+テンプレートヘッダーにバーコードプレースホルダーを追加して、スタイルを適用します。
+
+1. 編集 **テンプレート** > **ページレイアウト**
+1. ページレイアウトを選択します。 例えば、ヘッダーやフッターを含む BackCover ページレイアウトを選択できます。
+1. バーコードを挿入する場所に次の範囲を追加します。
+
+   `<span class="barcode">Sample barcode</span></p>`。
+
+   >[!NOTE]
+   >
+   > と同じクラス名を使用します。 `layout.css`.
+
+1. 置換 `<Sample barcode>` バーコードスキャナーで読み取る値を指定します。
+
+ページレイアウトを含むテンプレートを使用して出力PDFを生成すると、バーコードを表示できます。 前の手順を実行したら、バーコードを含むPDF出力を生成できます。
+
+次のスクリーンショットは、PDF出力内のサンプルバーコードを示しています。
+
+<img src="./assets/barcode-output-sample.png" alt="バーコードを含むサンプル出力" width="700" border="2px">
+
+**例 2**
+
+を変更する `Common.plt` 内のファイル **基本** プロジェクトタイトルの後にバーコードを追加するためのテンプレート。
+
+ISBN 番号のバーコードを作成するには、ISBN 番号を追加します。 次に、ISBN 番号を使用してバーコードを生成します。
+
+```html
+...
+
+  <div data-region="header">
+    <p class="chapter-header"><span data-field="project-title" data-format="default">Project Title</span> </p>
+    <p><span class="barcode">978-1-56619-909-4</span></p>
+  </div>
+} 
+...
+```
+
+**例 3**
+
+マップのメタデータを使用してバーコードを作成するには：
+
+に存在する任意のメタデータを使用 `<topicmeta>` バーコードとして表示する DITA マップの要素。 正しい XPath を使用していることを確認します。 例えば、 `<resourceid>` が含まれる `<topicmeta>` （DITA マップの）。
+
+次の例では、リソース ID がバーコードを生成するためのメイン入力として機能します。
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -36,76 +107,55 @@ DITA マップにリソース ID 要素を追加します。 リソース ID は
 </map>  
 ```
 
-オーサリングモードでリソース ID を編集することもできます。
-
-<img src="./assets/barcode-map.png" alt="バーコードを含むサンプル出力" width="700" border="2px solid blue">
 
 
-### テンプレートヘッダーにバーコードプレースホルダーを追加する
+リソース ID は、次のようにページレイアウトで使用できます。
 
-を変更します。 `Common.plt` ファイルを **基本** テンプレートを使用して、プロジェクトタイトルの後にバーコードを追加します。
 
 ```html
-...
   <div data-region="header">
     <p class="chapter-header"><span data-field="project-title" data-format="default">Project Title</span> </p>
     <p><span class="barcode" data-field="metadata" data-format="default" data-subtype="//resourceid/@id">Resource ID (barcode)</span></p>
   </div>
 } 
-...
 ```
 
+## バーコードの種類 {#barcode-types}
 
-### バーコード値をレンダリングするためにテンプレートの CSS を更新する
+よく使用されるバーコードの一部を次に示します。
 
-を変更します。 `content.css` バーコードの生成中にバーコードをレンダリングするPDFファイル。 「qrcode」や「pdf417」など、様々なバーコードタイプがサポートされています。  詳しくは、 [バーコードタイプ](#barcode-types).
-
-
-
-```css
-...
-.barcode {
-  -ro-replacedelement: barcode;
-  -ro-barcode-type: code128;
-}
-...
-```
-
-上記の手順を実行した後、バーコード付きのPDF出力を生成できます。
-
-次のスクリーンショットは、サンプルバーコードをPDF出力に表示したものです。
-
-<img src="./assets/barcode-output-sample.png" alt="バーコードを含むサンプル出力" width="700">
-
-
-## バーコードタイプ {#barcode-types}
-
-| タイプ | CSS 属性 | 追加の属性 |
-| ------------------------------- | ----------------------- | -------------------------- |
-| QR コード | qrcode |                            |
-| PDF417 | pdf417 |                            |
-| DataMatrix | data-matrix |                            |
-| Aztec コード | aztec-code |                            |
-| グリッドマトリックス | grid-matrix |                            |
-| Maxicode | maxicode mode-4 |                            |
-| マイクロ QR | microqr |                            |
+| タイプ | -ro-barcode-type | 追加の詳細 |
+| ---| --- | --- |
+| QR コード | qrcode | ISO/IEC 18004:2015 に準拠した QR コードバーコードのコードのコード。 |
+| Code 128 | code128 | ISO/IEC 15417:2007 で定義されている Code 128 バーコードコードのコード。 |
+| コード 32 | code32 | コード 32、イタリア語 harmacode としても知られています。 |
+| コード 49 | code49 | ANSI/AIM-BC6-2000 に準拠したコード 49。 |
+| コード 11 | code11 |                            |
+| Code 93 | code93 |                            |
+| Code16k | code16k |                            |
+| PDF417 | pdf417 | PDF417/MicroPDF417 バーコード コード コード コード コードは、ISO/IEC 15438:2006 および ISO/IEC 24728:2006 に準拠しています。 |
+| コード 3 / 9 | code39 | ISO/IEC 16388:2007 に準拠した 9 のバーコードのコード 3。 |
+| MSI プレッシー | msiplessey |                            |
+| チャネルコード | channelcode | ANSI/AIM BC12-1998 に準拠したチャネル コード。 |
+| Codabar | codabar | BS EN 798:1996 に準拠した Codabar バーコードのコード体系。 |
+| EAN-8 | ean-8 | BS EN 797:1996 に準拠した EAN バーコードのコード。 |
+| EAN-13 | ean-13 | BS EN 797:1996 に準拠した EAN バーコードのコード。 |
+| UPC-A | upc-a | BS EN 797:1996 に従った UPC バーコードのコードのコード。 |
+| UPC-E | upc-e | BS EN 797:1996 に従った UPC バーコードのコードのコード。 |
+| Ean/UPC アドオン | アドオン | BS EN 797:1996 に準拠した EAN/UPC アドオンのバーコードのコード。 |
+| テレペン | テレペン | テレペンAlphaとも呼ばれます。 |
+| GS1 データバー/データバー 14 | データバー | ISO/IEC 24724:2011 準拠の GS1 DataBar。 |
+| GS1 データバー拡張/データバー 14 拡張 | databar-expanded | GS1 DataBar ISO/IEC 24724:2011 に準拠して拡張。 |
+| GS1 Databar Limited | databar-limited | ISO/IEC 24724:2011 に準拠した GS1 DataBar Limited。 |
+| POSTNET （郵便数値エンコーディングの手法） | postnet | United States Postal Service で使用される POSTNET （郵便数値エンコーディング技術）バーコードコード。 |
+| Pharmazentralnummer （PZN-8） | pzn8 | ドイツの製薬業界で使用されている Code 39 ベースのコード。 |
+| Pharmacode | ファーマコード |                            |
+| Codablock F | codablockf | AIM Europe 「Uniform Symbology Specification Codablock F」（1995 年）によるシンボロジ。 |
+| ログ | ログ | 米国国防総省が使用している LOGMARS （Logistics Applications of Automated Marking and Reading Symbols：自動標識および読み取りシンボルのロジスティクス用途）規格。 |
+| アステカ ルーン | アステカ・ルーン | ISO/IEC 24778:2008 Annex A に準拠した Aztec Runes バーコードのコードのコード。 |
+| Aztec コード | aztec-code | Aztec Code ISO/IEC 24778:2008 に準拠したバーコードのコードのコード。 |                            |
+| DataMatrix | data-matrix | ISO/IEC 16022:2006 に準拠したデータ・マトリックス ECC 200 バーコード・コードのコード・コード。 |
 | コード 1 | code-one |                            |
-| Codablock F | codablockf |                            |
-| GS1 データバー制限 | データバー制限の |                            |
-| GS1 データバーの全方向 | データベース全方向 |                            |
-| EAN-13 | ean-13 |                            |
-| GS1-128 (EAN-128) | code128 | -ro-barcode-encoding: gs1; |
-| ITF-14 | itf14 |                            |
-| UPC-A | upc-a |                            |
-| コード 128 | code128 |                            |
-| インターリーブ 2/5 | code2of5 interleaved |                            |
-| POSTNET | postnet |                            |
-| Datch Post Kixcode | kixcode |                            |
-| Korea Post | 朝鮮ポスト |                            |
-| Deutsche Post Litcode | dp-leitcode |                            |
-| オーストラリアの投稿 | auspost |                            |
-| ログマーズ | logmars |                            |
-| 薬所 | 薬局 |                            |
-| USPS OneCode （インテリジェントメール） | usps-onecode |                            |
+
 
 

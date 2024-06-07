@@ -5,9 +5,9 @@ exl-id: 90686f77-a769-44bc-90eb-116cf9d0341e
 feature: Rest API Packages
 role: Developer
 level: Experienced
-source-git-commit: 32da48d82b1267bb220424edf385035426293b66
+source-git-commit: b95a64ca2e8ebffebec3d8ff8704f76f7faceca2
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
@@ -40,9 +40,17 @@ curl -u <*username*>:<*password*> -H "Content-Type: application/json; charset=UT
 
 **有効な値**
 
-`preview` または `publish` Cloud Serviceおよび `publish` オンプレミスソフトウェアの場合
+`preview` または `publish` 、Cloud Service `publish` およびオンプレミスソフトウェアの場合
 
-パラメーターに 無効 値が含まれている場合、パッケージのアクティベーションは失敗します。 次の例は、オプションのパラメーターを指定した curl コマンドを使用した API 呼び出しを示しています。
+- Cloud Service、パラメーターに 無効値が含まれている場合、パッケージ アクティベーションは失敗します。
+
+- オンプレミスソフトウェアの場合、パラメーターに無効値が含まれている場合、エラーはログに記録され、デフォルト値 `publish`を使用して公開が行われます。
+
+オプションのパラメータ を定義すると、 `activationTarget`Cloud Service とオンプレミスソフトウェアの両方でデフォルトの 公開する エージェントを使用してアクティブ化されます。
+
+
+
+次の例は、オプションのパラメーターを指定した curl コマンドを使用した API 呼び出しを示しています。
 
 
     &#39;&#39;&#39;XML

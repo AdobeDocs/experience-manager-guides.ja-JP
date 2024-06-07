@@ -4,7 +4,7 @@ description: AEM Guides で web エディターのその他の機能を確認し
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: caf00a014838751675aed11e5687a81fe7ad2e7c
+source-git-commit: d30f05ff614693beca5d9cf7f206a36f3dadfc8b
 workflow-type: tm+mt
 source-wordcount: '2532'
 ht-degree: 0%
@@ -182,6 +182,7 @@ MathML エディタを使用して数式を挿入すると、構文に問題が�
 **脚注の挿入**
 
 - を使用して、コンテンツに脚注を挿入します。 `fn` 要素。 オーサリングモードでは、脚注の値がコンテンツとインラインで表示されます。 ただし、プレビューモードに切り替えたり、ドキュメントを公開したりすると、脚注がトピックの最後に表示されます。
+
 
 **要素の名前変更または置換**
 

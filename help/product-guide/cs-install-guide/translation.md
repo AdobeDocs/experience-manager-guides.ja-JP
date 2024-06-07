@@ -5,10 +5,10 @@ exl-id: 5af78233-343e-47ba-b60c-b7f4789e2406
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
+source-git-commit: bcb61127f5f69ac39860a90eac2e1a56ecd1de31
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 11%
+source-wordcount: '756'
+ht-degree: 10%
 
 ---
 
@@ -68,9 +68,26 @@ DITA マップダッシュボードの「翻訳」 タブを非表示にする�
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `component.translation` | ブール値： <br>  – 人間による翻訳を使用している場合は、次のようになります *無効* \（ `false`\） **コンポーネントベースの翻訳ワークフロー** オプション。 <br>  – 機械翻訳を使用している場合は、次のようにします *有効\（ `true`\）* この **コンポーネントベースの翻訳ワークフロー** オプション。 |
 
+
+
+## 従来の翻訳ワークフローの設定
+
+最新の翻訳ワークフローを使用することをお勧めします。これにより、パフォーマンスが向上します。 ただし、従来の翻訳ワークフローを使用する場合は、このワークフローを設定できます。
+
+記載されている手順を使用します。 [設定の上書き](download-install-additional-config-override.md#) 設定ファイルを作成します。 設定ファイルで、レガシー翻訳ワークフローを設定するために、次の（プロパティ）の詳細を指定します。
+
+
+
+
+| PID | プロパティキー | プロパティの値 |
+|---|------------|--------------|
+| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | ブール値： <br>  – 最新の翻訳ワークフローを使用する場合は、次のようにします *無効* \（ `false`\） **従来の翻訳ワークフローの実行** オプション。 最新の翻訳ワークフローは、デフォルトで有効になっています。 <br>  – 従来の翻訳を使用している場合は、次のようになります *有効\（ `true`\）* この **従来の翻訳ワークフローの実行** オプション。 |
+
+
+
 >[!NOTE]
 >
-> 翻訳コネクタを使用している場合は、の説明に従ってコネクタが設定されていることを確認してください *[翻訳統合フレームワークの設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)* トピック （AEM ドキュメント）。
+> 翻訳コネクタを使用している場合は、の説明に従ってコネクタが設定されていることを確認してください *[翻訳統合フレームワークの設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)* Adobe Experience Manager ドキュメントのトピック。
 
 >[!IMPORTANT]
 >
