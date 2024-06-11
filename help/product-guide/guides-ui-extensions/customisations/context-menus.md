@@ -2,13 +2,13 @@
 title: コンテキストメニュー
 description: コンテキストメニューのカスタマイズ
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 25aa76dd-ef05-41ed-b980-14bbc1626059
+source-git-commit: 4f00d6b7ad45636618bafe92e643b3e288ec2643
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 1%
 
 ---
-
 
 # コンテキストメニューのカスタマイズ
 
@@ -16,16 +16,16 @@ ht-degree: 1%
 
 - `file_options`
 コントローラ：
-   - マップビュー： `ditamap_viewer_controller`
-   - リポジトリパネル： `repository_panel_controller`
+   - マップ ビュー： `ditamap_viewer_controller`
+   - リポジトリーパネル： `repository_panel_controller`
    - お気に入りパネル： `collection_tree_controller`
-   - ファイルプロパティリファレンスリンク： `file_references_links_controller`
+   - ファイルプロパティ参照リンク： `file_references_links_controller`
    - リポジトリ検索パネル： `repository_search_controller`
-   - 件名スキームパネル： `subject_scheme_tree_controller`
+   - 件名の設定パネル： `subject_scheme_tree_controller`
 
 - `folder_options`
 コントローラ：
-   - リポジトリパネル： `repository_panel_controller`
+   - リポジトリーパネル： `repository_panel_controller`
    - お気に入りパネル： `collection_tree_controller`
 
 - `collection_options`
@@ -34,7 +34,7 @@ ht-degree: 1%
 
 - `map_view_options`
 コントローラ：
-   - マップビュー： `ditamap_viewer_controller`
+   - マップ ビュー： `ditamap_viewer_controller`
 
 - `baseline_panel_menu`
 コントローラ：
@@ -44,11 +44,11 @@ ht-degree: 1%
 コントローラ：
    - プリセットパネル： `preset_panel`
 
-また、新しい一意の ID を定義して、独自のコンテキストメニューを作成することもできます。
+新しい一意の ID を定義することで、独自のコンテキストメニューを作成することもできます。
 
-現在は、各コンテキストメニューに `controller id` 関連付けられています。 このコントローラは、 `on-event` 様々なコンテキストメニューオプションの機能
+各コンテキストメニューには、 `controller id` 関連付けられています。 このコントローラーは `on-event` 各種コンテキストメニューオプションの機能
 
-例を見て理解しましょう
+を理解するための例を見てみましょう。
 
 ```js title=customise_context_menu.js"
 const fileOptions = {
@@ -88,7 +88,7 @@ const fileOptions = {
 
     controller: {
         downloadFile(){
-            const path  = this.model.selectedItem.path
+            const path  = this.getValue('selectedItems')[0].path
             this.loader.loadDitaFile(path).then((file) => {
               function download_file(name, contents) {
                 const mime_type = "text/plain";
@@ -116,9 +116,9 @@ const fileOptions = {
 }
 ```
 
-次に、このコードが何をしているかを説明します。
+次に、このコードの動作を説明します。
 
-1. `id` を使用して、カスタマイズするコンテキストメニューを識別します。
-2. `contextMenuWidget` を使用して `widget id` または `component` コンテキストメニューを呼び出し、 `events`.
+1. `id` は、カスタマイズするコンテキストメニューを識別するために使用されます。
+2. `contextMenuWidget` を使用して、 `widget id` または `component` コンテキストメニューを呼び出し、 `events`.
 
-残りの部分は同じです。 `view` は、項目の定義に使用されます。 `target` は、置き換える場所、追加する場所、またはオプションの前に追加する場所を指定し、 `contextMenuWidget` コントローラが `on-click` イベント。
+残りの部分は同じままで、次のような結果になります `view` を使用して、項目を定義します。 `target` オプションと先頭をどこで置換、追加、または追加するかを指定します。 `contextMenuWidget` コントローラは、 `on-click` イベント。

@@ -2,7 +2,8 @@
 title: アプリのカスタマイズ
 description: アプリのカスタマイズ
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 3e454c48-2168-41a5-bbab-05c8a5b5aeb1
+source-git-commit: 4f00d6b7ad45636618bafe92e643b3e288ec2643
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
@@ -11,40 +12,41 @@ ht-degree: 0%
 
 # アプリのカスタマイズ
 
-MVC（モデル、ビュー、コントローラ）構造に従うアプリ
+このアプリは MVC （モデル、ビュー、コントローラ）構造に従います
 
 ## モデル
 
-モデルは、様々な属性を定義し、その値を保存します。 モデルに格納された各種属性の値は、構文を使用してコントローラからアクセスできます
+モデルは、様々な属性を定義し、その値を保存します。 モデルに格納されている各種属性の値には、構文を使用してコントローラからアクセスできます
 
 ```typescript
-this.model.attributeName
+this.getValue('attributeName')
 ```
 
-アプリのカスタマイズの場合、新しく作成されたすべての属性が、モデル内のマップに追加されます。
+アプリでカスタマイズする場合は、新しく作成したすべての属性がモデルのマップの下に追加されます。
 モデルに新しい属性を設定するには、コントローラで次の構文を使用します。
 
 ```typescript
-this.model.extraProps.set("key", value)
+// If a key is not already in model then it will be added to extraProps
+this.setValue('key', value)
 ```
 
 モデルに追加された属性にアクセスするには、次の構文を使用します。
 
 ```typescript
-const value = this.model.extraProps.get("key")
+const value = this.getValue("key")
 ```
 
 ## 表示
 
-ビューは、アプリの UI を定義します。 ここでは、JSON ファイルを使用してファイルの表示を定義します。 ここでは、コンポーネント、（コンポーネントの抽出クラスで指定された）CSS を定義し、モデルに保存されている値をレンダリングします。
-アプリでは、各ビューは JSON を使用して定義されます。 JSON は、 `id`.
+ビューは、アプリの UI を定義します。 JSON ファイルを使用して、ファイルの表示を定義します。 ここでは、コンポーネント、css （コンポーネントの抽出で指定）を定義し、モデルに保存された値をレンダリングします。
+アプリでは、各ビューは JSON を使用して定義されます。 JSON は、と呼ばれる一意の ID を使用して参照されます。 `id`.
 
-## コントローラ
+## コントローラー
 
-コントローラは、イベントの処理とデータの処理に使用されます。 コントローラは、サーバからデータを取得して送信するために使用されます。これは、UI に表示され、バックエンドに保存されるデータ間のインターフェイスです。
+コントローラは、イベントを処理し、データを処理するために使用されます。 コントローラーは、サーバーからデータを取得して送信するために使用され、UI に表示されるものとバックエンドに保存されるものの間のインターフェイスです。
 
-- 初期化時に値を設定するには、 `init` 関数に置き換えます。
-- メソッドをコントローラに追加するには、次の構文を使用します。
+- 初期化時に値を設定するには、を使用します `init` 関数。
+- コントローラにメソッドを追加するには、次の構文を使用します。
 
 ```typescript
 methodName: function(args){
@@ -52,9 +54,9 @@ methodName: function(args){
 }
 ```
 
-The `methodName` ここは～の役割を果たす `key` JSON（表示）または他の関数でメソッドを参照するには、以下を実行します。
+この `methodName` ここでは、 `key` json （ビュー）または他の関数でメソッドを参照するには
 
-- コントローラでメソッドを呼び出すには、次の構文を使用します。
+- コントローラでメソッドを呼び出すには、構文を使用します
 
 ```typescript
 this.next('methodName', args)
@@ -62,13 +64,13 @@ this.next('methodName', args)
 
 ## 例
 
-次に、簡単な例を使用して、これら 3 つのコンポーネントが相互にどのようにやり取りするかを示します。
-クリック時にラベル値を切り替えるボタンを追加します。
+次に、簡単な例を使って、これらの 3 つのコンポーネントがどのように相互にやり取りするかを示します。
+クリックするとラベル値を切り替えるボタンを追加します
 
 ### 例を表示
 
-以下では、変数名の下にモデルに保存された動的テキストを表示するボタンの JSON を定義します `buttonLabel`.
-この例では、ボタンをクリックするとラベルが変わります。
+次に、モデル内に格納された動的テキストを変数名の下に表示するボタンの JSON を定義します `buttonLabel`.
+この例では、ボタンをクリックすると、ラベルが変更されます。
 
 ```JSON
 {
@@ -81,22 +83,22 @@ this.next('methodName', args)
 
 ### モデルの例
 
-この場合 `extraProps.buttonLabel` ボタンのラベルを保持します。
+この場合、 `extraProps.buttonLabel` ボタンのラベルを保持します
 
 ### コントローラの例
 
 ```typescript
   controller: {
-    init: function () {
-      this.model.extraProps.set("buttonLabel", "Submit")
+    init: function (context) {
+      context.setValue("buttonLabel", "Submit")
     },
 
     switchButtonLabel(){
-        const buttonLabel = this.model.extraProps.get("buttonLabel") === "Submit"? "Cancel" : "Submit"
-        this.model.extraProps.set("buttonLabel", buttonLabel)
+        const buttonLabel = this.getValue("buttonLabel") === "Submit"? "Cancel" : "Submit"
+        this.setValue("buttonLabel", buttonLabel)
     }
   }
 ```
 
-以下のGIFに、上記のコードの動作を示します
+以下のGIFは、上記のコードの動作を示しています
 ![basic_customization](imgs/basic_customisation.gif "基本カスタマイズボタン")
