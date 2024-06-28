@@ -1,9 +1,10 @@
 ---
-title: AEM ガイドの OAuth 認証を使用したマイクロサービスベースのパブリッシングの設定as a Cloud Service
-description: AEM Guides の OAuth 認証を使用してマイクロサービスベースのパブリッシングを設定する方法について説明します。
+title: AEM Guidesas a Cloud Serviceの OAuth 認証を使用したマイクロサービスベースのパブリッシングの設定
+description: AEM Guidesの OAuth 認証を使用してマイクロサービスベースのパブリッシングを設定する方法について説明します。
 feature: Microservice in AEM Guides
 role: User, Admin
-source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
+exl-id: db0c83c7-1ece-4010-b214-f8d806d26bc9
+source-git-commit: 6d935ce934890066de358c434717efeef2c997cb
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 0%
@@ -12,22 +13,22 @@ ht-degree: 0%
 
 # OAuth 認証を使用したマイクロサービスベースの公開の設定
 
-パブリッシングマイクロサービスを使用すると、大規模なパブリッシングワークロードをas a Cloud ServiceのExperience Managerガイドで同時に実行し、業界をリードするAdobe I/O Runtime サーバーレスプラットフォームを活用できます。
+パブリッシングマイクロサービスを使用すると、Experience Manager Guidesas a Cloud Serviceで大規模なパブリッシングワークロードを同時に実行し、業界をリードするAdobe I/O Runtime サーバーレスプラットフォームを活用できます。
 
-公開リクエストごとに、Experience Managerガイドas a Cloud Serviceは、ユーザーリクエストに応じて水平方向に拡大・縮小する個別のコンテナを実行します。 これにより、複数の公開リクエストを実行し、大規模なオンプレミス Adobe Experience Manager サーバーよりも高いパフォーマンスを得ることができます。
+公開リクエストごとに、Experience Manager Guidesas a Cloud Serviceは、ユーザーリクエストに応じて水平方向に拡大・縮小される個別のコンテナを実行します。 これにより、複数の公開リクエストを実行し、大規模なオンプレミス Adobe Experience Manager サーバーよりも高いパフォーマンスを得ることができます。
 
 >[!NOTE]
 >
-> Experience Managerガイドのマイクロサービスベースの公開では、PDF（ネイティブと DITA-OT ベースの両方）、HTML 5、JSON、カスタムの各種類の出力プリセットがサポートされています。
+> Experience Manager Guidesのマイクロサービスベースの公開では、PDF（ネイティブと DITA-OT ベースの両方）、HTML 5、JSON、カスタムの各種類の出力プリセットがサポートされています。
 
 Cloud Publishing Service はAdobe IMSの OAuth ベースの認証で保護されているので、次の手順を実行して環境をAdobeのセキュアトークンベースの認証ワークフローと統合し、クラウドベースのスケーラブルな公開ソリューションの使用を開始します。
 
 
-## Adobe Developer コンソールでの IMS 設定の作成
+## Adobe Developer Consoleでの IMS 設定の作成
 
 **設定の作成に必要な役割**: システム管理者
 
-で IMS 設定を作成するには、次の手順を実行します **Adobe Developer コンソール**:
+で IMS 設定を作成するには、次の手順を実行します **Adobe Developer Console**:
 
 >[!NOTE]
 >
@@ -39,7 +40,7 @@ Cloud Publishing Service はAdobe IMSの OAuth ベースの認証で保護され
 
    <img src="assets/projects-tab.png" alt="「プロジェクト」タブ" width="500">
 
-   *「」を選択します&#x200B;**プロジェクト**タブ&#x200B;**Adobe Developer コンソール***
+   *「」を選択します&#x200B;**プロジェクト**タブ&#x200B;**Adobe Developer Console***
 
 1. 新しい空のプロジェクトを作成するには、を選択します。 **空のプロジェクト** から **新規プロジェクトを作成** ドロップダウン。
 
@@ -127,7 +128,7 @@ JWT （非推奨）を使用して公開するために、既にマイクロサ�
 >
 > マイクロサービスベースの公開を既に使用している場合は、次の手順をスキップしてください。
 
-IMS 設定を環境に追加したら、次の手順を実行して、OSGi を使用してこれらのプロパティをExperience Managerガイドにリンクします。
+IMS 設定を環境に追加したら、次の手順を実行して、OSGi を使用してこれらのプロパティをExperience Manager Guidesにリンクします。
 
 1. Cloud Manager Git プロジェクトコードで、次の 2 つのファイル（ファイルの内容は「」を表示）を追加します。 [付録](#appendix)）に設定します。
 
