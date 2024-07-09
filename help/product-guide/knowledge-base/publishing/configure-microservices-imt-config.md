@@ -2,11 +2,11 @@
 title: AEM Guidesas a Cloud Serviceの OAuth 認証を使用したマイクロサービスベースのパブリッシングの設定
 description: AEM Guidesの OAuth 認証を使用してマイクロサービスベースのパブリッシングを設定する方法について説明します。
 feature: Microservice in AEM Guides
-role: User, Admin
+role: Admin
 exl-id: db0c83c7-1ece-4010-b214-f8d806d26bc9
-source-git-commit: 6d935ce934890066de358c434717efeef2c997cb
+source-git-commit: c51a372dc44921a489219f5ac99e3ad180ccc91d
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ OAuth 認証の詳細を設定し、JSON サービスの詳細をダウンロー
 >
 >スマート提案用の OAuth プロジェクトを既に作成している場合は、同じプロジェクトをマイクロサービスに再利用し、以下の手順をスキップして IMS 設定を環境に追加できます。
 
-### 既存の設定を更新
+### 既存の設定を更新する（JWT から OAuth へのシフト）
 
 JWT （非推奨）を使用して公開するために、既にマイクロサービスを使用している場合は、次の手順を実行して設定を更新します。
 
@@ -114,7 +114,7 @@ JWT （非推奨）を使用して公開するために、既にマイクロサ�
 1. 設定する環境の名前を選択します。 これで、 **環境情報** ページ。
 1. に切り替え **設定** タブ。
 
-1. SERVICE_ACCOUNT_DETAILS JSON フィールドを更新します。 次のスクリーンショットで示したのと同じ名前と設定を使用していることを確認してください。
+1. SERVICE_ACCOUNT_DETAILS という名前の新しい設定を作成します。 値に、開発者コンソールからダウンロードした OAuth JSON ファイルのコンテンツを追加します。
 
 
 <img src="assets/jws-service-account-config.png" alt="ims サービスアカウントの設定" width="500">
@@ -122,7 +122,7 @@ JWT （非推奨）を使用して公開するために、既にマイクロサ�
 *環境を初めて設定します。*
 
 
-### マイクロサービスベースの公開を初めて使用
+### マイクロサービスベースのパブリッシングを有効化するための初回コード変更
 
 >[!NOTE]
 >
@@ -130,7 +130,7 @@ JWT （非推奨）を使用して公開するために、既にマイクロサ�
 
 IMS 設定を環境に追加したら、次の手順を実行して、OSGi を使用してこれらのプロパティをExperience Manager Guidesにリンクします。
 
-1. Cloud Manager Git プロジェクトコードで、次の 2 つのファイル（ファイルの内容は「」を表示）を追加します。 [付録](#appendix)）に設定します。
+1. Cloud Manager Git プロジェクトコードで、次の 2 つのファイルをに追加します。 `/apps/fmditaCustom/config` （ファイルの内容については、 [付録](#appendix)）に設定します。
 
    * `com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
    * `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
