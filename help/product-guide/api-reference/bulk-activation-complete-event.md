@@ -27,6 +27,7 @@ com/adobe/fmdita/replication/complete
 ```
 
 **パラメーター**:
+
 |名前|種類|説明|
 |----|----|-----------|
 |`path`|文字列|このイベントをトリガーしたファイルのパス。 <br>例えば、`/content/output/sites/ditamap1-ditamap` などです。<br> JSON 配列としてシリアル化されたパスのリストです。|
