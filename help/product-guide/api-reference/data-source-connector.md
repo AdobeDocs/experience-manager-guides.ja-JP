@@ -24,6 +24,7 @@ GETソースコネクタを登録するデータメソッド。
 `http://server:port/bin/guides/v1/konnect/config/register?path=<uploaded file path>`
 
 **パラメーター**:
+
 |名前|種類|必須|説明|
 |----|----|--------|-----------|
 |`path`|文字列|Yes|AEM リポジトリ内のパスを指す文字列。 `/content/dam or /var/dxml` のパスを指定することもできます。|
