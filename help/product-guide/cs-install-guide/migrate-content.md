@@ -1,6 +1,6 @@
 ---
 title: 既存のコンテンツを移行
-description: 既存のコンテンツを移行する方法を説明します。
+description: 既存のコンテンツを移行する方法を学ぶ
 exl-id: 65d69d64-9cb7-4d08-b384-363df1ac9a16
 feature: Migration
 role: Admin
@@ -14,12 +14,12 @@ ht-degree: 0%
 
 # 既存のコンテンツを移行 {#id181AGB000Y4}
 
-AEMガイドを使用すると、構造化および非構造化の様々なドキュメントを DITA 形式に変換できます。 このトピックでは、AEMリポジトリでの DITA コンテンツのアップロードと、DITA 以外のコンテンツの DITA 形式への変換に関する情報について説明します。
+AEM Guidesを使用すると、様々な構造化および非構造化ドキュメントを DITA 形式に変換できます。 ここでは、AEM リポジトリに DITA コンテンツをアップロードする方法と、DITA 以外のコンテンツを DITA 形式に変換する方法について説明します。
 
 >[!TIP]
 >
-> 詳しくは、 *コンテンツの移行とアップロード* の節を参照してください。
+> 既存のコンテンツの移行とアップロードの使用に関するベストプラクティスについては、ベストプラクティスガイドの *コンテンツの移行とアップロード* の節を参照してください。
 
 - **[既存の DITA コンテンツのアップロード](migrate-content-upload-existing-dita-content.md)**
 
-- **[DITA 以外のコンテンツの移行](migrate-content-non-dita.md)**
+- **[非 DITA コンテンツの移行](migrate-content-non-dita.md)**

@@ -1,6 +1,6 @@
 ---
 title: Adobe Experience Managerのインストール
-description: Adobe Experience Managerのインストール方法
+description: Adobe Experience Managerのインストール方法を学ぶ
 exl-id: 4693b102-b75a-4904-b2d5-914e774305f3
 feature: Introduction, Installation
 role: Admin
@@ -14,27 +14,27 @@ ht-degree: 0%
 
 # Adobe Experience Managerのインストール {#id213BCI020E8}
 
-AEMガイドは、Adobe Experience Managerの上にインストールされるプラグインです。 AEMのインストールには、AEMの基本概念と推奨されるデプロイメントシナリオを理解しておく必要があります。 次のリンクは、AEMのインストールを開始する際に役立ちます。
+AEM Guidesは、Adobe Experience Managerにインストールされるプラグインです。 AEMをインストールするには、AEMのいくつかの基本的な概念と推奨されるデプロイメントシナリオに関する理解が必要です。 次のリンクは、AEMのインストールを開始する際に役立ちます。
 
-- [基本的なAEM概念](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/deploy.html#BasicConcepts)
+- [AEMの基本概念 ](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/deploy.html#BasicConcepts)
 
-- [推奨されるAEMデプロイメント](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/recommended-deploys.html)
+- [ 推奨されるAEM デプロイメント ](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/recommended-deploys.html)
 
-
->[!IMPORTANT]
->
-> AEM 6.5.x で Java 11 を使用している場合、次の問題が発生する可能性があります。 *JDK 11 の原因`NoClassDefFoundError`*. 参照 [JDK 11 が原因で NoClassDefFoundError \| AEM 6.5](https://helpx.adobe.com/experience-manager/kb/jdk-11-causes-noclassdeffounderror---aem-6-5.html) この問題を解決する記事を紹介します。
-
-組織に最適なデプロイメント戦略を特定したら、インストールプロセスを実行します ( *[はじめに](https://helpx.adobe.com/jp/experience-manager/6-5/sites/deploying/using/deploy.html#GettingStarted)* AEMドキュメントの節を参照してください。
-
-AEMインスタンスをアップグレードする予定がある場合は、次の手順に従う必要があります。
-
-1. AEM Guides をアンインストールします。
-1. AEMインスタンスをアップグレードします。
-1. AEM Guides をインストールします。
 
 >[!IMPORTANT]
 >
-> システムパフォーマンスの向上を検討できる、パフォーマンス最適化に関する推奨事項が多数あります。 詳しくは、 [Recommendations （パフォーマンス最適化）](download-install-recommend-perf-optimiz.md#) 」を参照してください。
+> AEM 6.5.x で Java 11 を使用している場合は、問題が発生する可能性があります。*JDK 11 が原因`NoClassDefFoundError`* す。 この問題を解決するには、[JDK 11 が原因で NoClassDefFoundError \| AEM 6.5](https://helpx.adobe.com/experience-manager/kb/jdk-11-causes-noclassdeffounderror---aem-6-5.html) の記事を参照してください。
 
-**親トピック：**[&#x200B;ダウンロードとインストール](download-install.md)
+組織に最適なデプロイメント方法を特定したら、AEM ドキュメントの *[はじめに ](https://helpx.adobe.com/jp/experience-manager/6-5/sites/deploying/using/deploy.html#GettingStarted)* の節に従ってインストールプロセスを実行します。
+
+AEM インスタンスをアップグレードする場合は、次の順序に従う必要があります。
+
+1. AEM Guidesをアンインストールします。
+1. AEM インスタンスをアップグレードします。
+1. AEM Guidesをインストールします。
+
+>[!IMPORTANT]
+>
+> システムパフォーマンスを向上させるために検討できるパフォーマンス最適化の推奨事項が多数あります。 詳しくは、[ パフォーマンスの最適化のRecommendations](download-install-recommend-perf-optimiz.md#) を参照してください。
+
+**親トピック：**[ ダウンロードとインストール ](download-install.md)

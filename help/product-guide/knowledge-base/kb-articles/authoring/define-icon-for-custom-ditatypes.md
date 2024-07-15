@@ -1,7 +1,8 @@
 ---
 title: カスタム Dita 型用のアイコンの設定
 description: カスタム Dita タイプのアイコンを定義して、AEMの様々な UI で表示する方法を説明します
-source-git-commit: de281989de21d8bf4ba771670d7cb871a089b1e1
+exl-id: 5a259ea0-3b5f-4c6e-b488-1586767aa991
+source-git-commit: 7355f48ba8ad0ac15c54be183d9aa91bb88724e8
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 0%
@@ -13,9 +14,9 @@ ht-degree: 0%
 
 ## 問題の説明
 
-AEM Guides で使用されるカスタムスキーマを使用すると、カスタムトピックまたはマップの種類を作成でき、カスタムトピックまたはマップの種類が web エディターまたは Assets UI にアイコンが表示されないことがあります。 参照については、以下のスクリーンショットを参照してください
+AEM Guidesで使用されるカスタムスキーマを使用すると、カスタムトピックまたはマップの種類を作成でき、カスタムトピックまたはマップの種類が web エディターまたはAssets UI にアイコンが表示されないことがあります。 参照については、以下のスクリーンショットを参照してください
 
-![参照用のスクリーンショット](../assets/authoring/custom-ditatype-icon-notshown.png)
+![ 参照用のスクリーンショット ](../assets/authoring/custom-ditatype-icon-notshown.png)
 
 
 カスタムのトピックまたはマップのタイプにアイコンを割り当てるには、次の手順を実行する必要があります。
@@ -23,19 +24,19 @@ AEM Guides で使用されるカスタムスキーマを使用すると、カス
 - スタイルを記述して、カスタムタイプに必要なアイコンを追加します
 
 
-Web エディター（リポジトリ表示）と Assets UI にアイコンを表示するために、上記の手順を実装できます。 以下は、両方の手順です
+上記の手順を実装して、web エディター（リポジトリビュー）でもAssets UI でもアイコンを表示することができます。 以下は、両方の手順です
 
 
 ## Web エディタービューでカスタムトピック/マップのアイコンを表示しています
 
-_手順 1:_ カスタム dita トピック/ap の dita タイプを決定します
+_手順 1:_ カスタム dita トピック/ap の dita タイプを決定する
 - Web エディターでリポジトリ表示を開く/ ブラウザーで開発者コンソールを開きます。
 - リストされたトピック/マップの横にあるアイコンスペースをInspectします
 - カスタムトピックに割り当てられているクラスを確認します
-- 詳しくは、以下のスクリーンショットを参照してください ![スクリーンショットを参照](../assets/authoring/custom-ditatype-icon-knowditatype.png)
+- 詳しくは、以下のスクリーンショットを参照してください ![ スクリーンショットを参照 ](../assets/authoring/custom-ditatype-icon-knowditatype.png)
 - このクラスを使用してアイコンを割り当て、CSS を記述します
 
-_手順 2:_ CSS を作成し、この dita タイプにアイコンを割り当てます
+_手順 2:_ css を作成し、この dita タイプにアイコンを割り当てる
 - /apps の下にクライアントライブラリを作成します。目的のパスの下に cq:ClientLibraryFolder を作成したとします
    - カテゴリ「apps.fmdita.xml_editor.page」を追加します
 - このディレクトリの下に「assets」フォルダを作成し、カスタム dita タイプに使用するすべてのアイコンを追加します
@@ -57,18 +58,18 @@ _手順 2:_ CSS を作成し、この dita タイプにアイコンを割り当�
 - これらの変更を保存/デプロイ
 
 詳しくは、以下のスクリーンショットを参照してください。
-![スクリーンショットを参照](../assets/authoring/custom-ditatype-icon-define-webeditor-styles.png)
+![ スクリーンショットを参照 ](../assets/authoring/custom-ditatype-icon-define-webeditor-styles.png)
 
 最終的な出力は次のスクリーンショットに示されます。
-![スクリーンショットに表示](../assets/authoring/custom-ditatype-icon-webeditor-showstyles.png)
+![ スクリーンショットに示す ](../assets/authoring/custom-ditatype-icon-webeditor-showstyles.png)
 
 
-## Assets UI でのカスタムトピック/マップのアイコンの表示
+## Assets UI のカスタムトピック/マップのアイコンを表示しています
 
 _手順 1:_ カスタム dita トピック/マップの dita タイプの決定
 - これについては、前のメソッドの手順 1 で説明しました
 
-_手順 2:_ Javacscript を作成して、カスタムのトピック/マップ型用のカスタム dita 型用に読み込むアイコンを定義します
+_手順 2:_ Javacscript を作成して、カスタムのトピック/マップ型用のカスタム dita タイプに読み込むアイコンを定義します
 - /apps の下にクライアントライブラリを作成します。目的のパスの下に cq:ClientLibraryFolder を作成したとします
    - 次のプロパティを追加します。
       - 「categories」（複数値文字列）の値が「dam.gui.admin.coral」である
@@ -77,7 +78,8 @@ _手順 2:_ Javacscript を作成して、カスタムのトピック/マップ�
    - コピーした「topic_type.js」を編集し、変数「typeImageNameMap」の下の customtopictype を変更または追加します
    - また、変数「parentImagePath」の値を、カスタムアイコンが格納されている場所に変更することで、画像フォルダーのパスを変更することもできます
 - クライアントライブラリフォルダーに js.txt という名前のファイルを作成し、「topic_type.js」への参照を追加します。
-- これらの変更を保存/デプロイします。詳しくは、以下のスクリーンショットを参照してください。
-  ![スクリーンショットを参照](../assets/authoring/custom-ditatype-icon-define-assetsui-styles.png)
+- これらの変更を保存/デプロイ
+詳しくは、以下のスクリーンショットを参照してください。
+  ![ スクリーンショットを参照 ](../assets/authoring/custom-ditatype-icon-define-assetsui-styles.png)
 
-最終的な出力はスクリーンショットに示されているように表示されます。 ![スクリーンショットに表示](../assets/authoring/custom-ditatype-icon-assetsui-showstyles.png)
+最終的な出力はスクリーンショットのように表示されます ![ スクリーンショットのように ](../assets/authoring/custom-ditatype-icon-assetsui-showstyles.png)

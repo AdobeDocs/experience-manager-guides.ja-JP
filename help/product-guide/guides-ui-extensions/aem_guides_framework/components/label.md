@@ -2,7 +2,8 @@
 title: ラベル
 description: ラベル
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: aceefb08-3198-4c3a-90ec-ac1cdde28582
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '46'
 ht-degree: 6%
@@ -11,10 +12,10 @@ ht-degree: 6%
 
 # ラベル
 
-任意のテキストや文字列を表示するには、コンポーネント、ラベルを使用します。
-JUI のラベルコンポーネントは html を表します `<label/>`.
+任意のテキストまたは文字列を表示するには、コンポーネント label を使用します。
+JUI のラベルコンポーネントは HTML `<label/>` を表します。
 
-静的ラベルの追加例を以下に示します
+以下は、静的ラベルを追加する例です
 
 ```js title="staticLabel.js"
 const staticLabelJSON =  {
@@ -23,7 +24,7 @@ const staticLabelJSON =  {
 }
 ```
 
-以下の JSON に動的文字列が表示されます。
+以下の JSON は、動的文字列を表示します。
 
 ```js title="dynamicLabel.js"
 const labelJSON =  {
@@ -34,4 +35,4 @@ const labelJSON =  {
 
 レンダリングされたラベルは次のようになります。
 
-![ラベル](./imgs/label.png "ラベル")
+![label](./imgs/label.png "Label")

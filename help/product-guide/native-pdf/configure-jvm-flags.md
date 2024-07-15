@@ -14,21 +14,21 @@ ht-degree: 1%
 
 # ネイティブPDF公開用の JVM フラグの設定
 
-ネイティブPDFの公開では、別の JVM プロセスを開始して、PDFを生成します。 異なるシナリオをサポートするには、この JVM の設定を調整する必要がある場合があります。 例えば、より大きなワークロードを実行するには、生成された JVM プロセスで使用可能な最大ヒープサイズを増やす必要があります。
+ネイティブPDFの公開により、別個の JVM プロセスが開始し、PDFが生成されます。 場合によっては、別のシナリオをサポートするために、この JVM の設定を調整する必要があります。 例えば、より大きなワークロードを実行するには、生成された JVM プロセスで使用可能な最大ヒープサイズを増やす必要があります。
 
-次の手順を実行して、AEM Guides Native Guide Publishing JVM フラグをPDFします。
+AEM Guides ネイティブPDFに JVM フラグを公開するように設定するには、次の手順を実行します。
 
 1. Adobe Experience Manager Web コンソール設定ページを開きます。
 
-   設定ページにアクセスするデフォルトの URL は次のとおりです。
+   設定ページにアクセスするためのデフォルトの URL は次のとおりです。
 
    ```http
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. を検索して選択します。 *com.adobe.fmdita.config.ConfigManager* バンドル。
+1. *com.adobe.fmdita.config.ConfigManager* バンドルを検索して選択します。
 
-1. プロパティを更新します。 **ネイティブ pdf 用の Java コマンドラインオプション** (*native.pdf.java.opts*) をクリックして、標準の JVM フラグを渡します。
+1. プロパティ **ネイティブ PDF の Java コマンドラインオプション** （*native.pdf.java.opts*）を更新して、標準の JVM フラグを渡します。
 
 
 

@@ -1,46 +1,46 @@
 ---
 title: コンポーネント
-description: アプリコンポーネントを確認
+description: アプリのコンポーネントのレビュー
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 78d626f9-9f96-4748-a268-39fa57aef495
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%
 
 ---
 
-
-# Review App のコンポーネント
+# レビューアプリのコンポーネント
 
 レビューアプリの主なコンポーネントは次のとおりです。
 
-- インラインレビューパネル： `id: inline_review_panel`
-   - レビューコメントが XML エディタ側でレンダリングされる右側のパネル。
+- インラインレビューパネル：`id: inline_review_panel`
+   - レビューコメントが XML エディター側にレンダリングされる右側のパネル。
 
-![インラインレビューパネルのスクリーンショット](./imgs/inline_review.png)
+![ インラインレビューパネルのスクリーンショット ](./imgs/inline_review.png)
 
-- トピックのレビュー： `id: topic_reviews`
-   - コメントが Review App に表示される右側のパネル。
+- トピックのレビュー：`id: topic_reviews`
+   - レビューアプリでコメントがレンダリングされる右パネル。
 
-![トピックレビューパネルのスクリーンショット](./imgs/topic_reviews.png)
+![ トピックのレビューパネルのスクリーンショット ](./imgs/topic_reviews.png)
 
-- レビューコメント： `id: review_comment`
+- コメントを確認：`id: review_comment`
    - 各レビューコメントのウィジェット。
 
-レビューアプリでのコメントを確認します。
-![レビューコメントのスクリーンショット](./imgs/review_comment.png)
+レビューアプリでコメントをレビュー：
+![ レビューのコメントのスクリーンショット ](./imgs/review_comment.png)
 
-XML エディター側でコメントを確認します。
-![レビューコメントのスクリーンショット](./imgs/review_comment_xmleditor.png)
+xml エディター側でコメントを確認します。
+![ レビューのコメントのスクリーンショット ](./imgs/review_comment_xmleditor.png)
 
-- レビューコメントの返信： `id: comment_reply`
-   - レビューコメントの返信ごとにウィジェットを使用します。
-     ![レビューコメントの返信のスクリーンショット](./imgs/reply.png)
+- コメント返信を確認：`id: comment_reply`
+   - 各レビューコメント返信のウィジェット。
+     ![ レビューのコメントの返信のスクリーンショット ](./imgs/reply.png)
 
-- 新しいレビューコメントの返信： `id: comment_new_reply`
-   - 新しいレビューコメントの返信用のウィジェット。
-     ![新しいレビューコメントの返信のスクリーンショット](./imgs/new_reply.png)
+- 新しいレビューコメントの返信：`id: comment_new_reply`
+   - 新しいレビューコメント返信のウィジェット。
+     ![ 新規レビューコメント返信のスクリーンショット ](./imgs/new_reply.png)
 
-- 注釈ツールボックス： `id: annotation_toolbox`
-   - レビューアプリケーションの右上のツールバー。
-     ![注釈ツールボックスのスクリーンショット](./imgs/annotation_toolbox.png)
+- 注釈ツールボックス：`id: annotation_toolbox`
+   - レビューアプリの右上のツールバー
+     ![ 注釈ツールボックスのスクリーンショット ](./imgs/annotation_toolbox.png)

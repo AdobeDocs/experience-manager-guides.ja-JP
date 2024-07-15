@@ -1,6 +1,6 @@
 ---
-title: アップグレードAEMガイド
-description: AEMガイドのアップグレード方法を説明します
+title: AEM Guidesのアップグレード
+description: AEM Guidesのアップグレード方法を学ぶ
 exl-id: 57ae906f-69e3-4319-89f6-0fa9ddb7a3ff
 feature: Installation
 role: Admin
@@ -12,23 +12,23 @@ ht-degree: 0%
 
 ---
 
-# アップグレードAEMガイド {#id213BD050YPH}
+# AEM Guidesのアップグレード {#id213BD050YPH}
 
-1. Cloud Manager の Git リポジトリにアクセスします。
+1. Cloud Managerの Git リポジトリにアクセスします。
 
-1. dox/dox.installer/pom.xmlファイルを更新します。
+1. dox/dox.installer/pom.xml ファイルを更新します。
 
-1. dox.version 変数の値を、Adobeで指定されたバージョンの詳細に更新します。
+1. dox.version 変数の値を、Adobeが提供するバージョンの詳細に更新します。
 
-1. 変更をコミットし、Cloud Manager パイプラインを実行して、アップグレードされたパッケージをデプロイします。
+1. 変更をコミットし、Cloud Manager パイプラインを実行して、アップグレードしたパッケージをデプロイします。
 
 
 >[!NOTE]
 >
-> CI/CD パイプラインの使用について詳しくは、 [Cloud Manager での CI/CD パイプラインのAdobe](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/cloud-manager/use-the-cicd-pipeline-in-cloud-manager-for-aem.html).
+> CI/CD パイプラインの使用について詳しくは、[Cloud Manager Adobeでの CI/CD パイプラインの使用 ](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/cloud-manager/use-the-cicd-pipeline-in-cloud-manager-for-aem.html) を参照してください。
 
-## ブラウザーキャッシュをクリア
+## ブラウザーキャッシュのクリア
 
-アップグレードプロセスが完了したら、アップグレードバージョンのAEMガイドを使用する前に、すべてのユーザーがブラウザーのキャッシュをクリアする必要があります。
+アップグレードプロセスが完了したら、すべてのユーザーは、アップグレードされたバージョンのAEM Guidesを使用する前に、ブラウザーキャッシュをクリアする必要があります。
 
-**親トピック：**[&#x200B;ダウンロードとインストール](download-install.md)
+**親トピック：**[ ダウンロードとインストール ](download-install.md)

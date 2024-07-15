@@ -2,18 +2,18 @@
 title: ボタン
 description: ボタン
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 40e3f254-f94e-4f43-8ff5-2e6e1eb1cb6f
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '60'
 ht-degree: 5%
 
 ---
 
-
 # ボタン
 
-ボタンを表示するには、コンポーネントの「 」ボタンを使用します。
-JUI のボタンコンポーネントは html を表します `<button/>`.
+ボタンを表示するには、コンポーネント、ボタンを使用します。
+JUI のボタンコンポーネントは HTML `<button/>` を表します。
 
 ```js title="buttonJSON.js"
 const buttonJSON = {
@@ -24,9 +24,9 @@ const buttonJSON = {
 };
 ```
 
-これにより、 `Yes, login`. その他のプロパティには、variant、label、on-click などがありますが、これらに限定されません。
-> **_注意：_**  The `on-<events>` は、コントローラ内のコマンドを呼び出すための構文です。
+これにより、`Yes, login` というラベルのボタンが生成されます。 その他のプロパティには、バリアント、ラベル、クリック時が含まれますが、これらに限定されません。
+> **_注意：_** コントローラ内のコマンドを呼び出すための構文は `on-<events>` のとおりです。
 
 レンダリングされたボタンは次のようになります。
 
-![ボタン](imgs/yes_login_button.png "ボタン")
+![button](imgs/yes_login_button.png "Button")

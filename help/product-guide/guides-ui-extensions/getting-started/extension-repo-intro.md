@@ -1,16 +1,16 @@
 ---
 title: 拡張機能リポジトリの概要
-description: AEM Guides 拡張機能パッケージディレクトリの構造
+description: AEM Guides拡張機能パッケージディレクトリ構造
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 99a00b3e-a5c9-41d8-a73d-8690d587277e
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%
 
 ---
 
-
-# AEM Guides 拡張機能パッケージディレクトリの構造
+# AEM Guides拡張機能パッケージディレクトリ構造
 
 ```text
 ├── src
@@ -41,11 +41,11 @@ ht-degree: 0%
 │   ├── index.ts
 ```
 
-ソースディレクトリには、拡張機能の typescript ファイルまたは javascript ファイルが含まれます。 index.ts ファイルは、拡張機能のエントリポイントです。 ここですべてのコンポーネントをインポートし、単一のオブジェクトとしてエクスポートできます。 このオブジェクトは、拡張機能でコンポーネントのレンダリングに使用されます。
+ソースディレクトリには、拡張機能の typescript ファイルまたは Javascript ファイルが含まれます。 index.ts ファイルは、拡張機能のエントリポイントです。 すべてのコンポーネントをここに読み込み、単一のオブジェクトとして書き出すことができます。 このオブジェクトは、拡張機能でコンポーネントのレンダリングに使用されます。
 
 ### /dist
 
-これは最終的なビルドディレクトリです。 これには、AEMにコピーする必要がある最終的な JS と CSS が含まれます。
+これが最終的なビルドディレクトリです。 これには、AEMにコピーする必要がある最終的な JS と CSS が含まれています
 
 ```test
 ├── dist
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 ## /jsons
 
-このディレクトリには、様々な表示の JSON が含まれています。 これらの JSON を使用して、ターゲットを識別し、表示をカスタマイズできます。
+このディレクトリには、様々なビューの JSON が含まれています。 これらの JSON を使用してターゲットを識別し、ビューをカスタマイズできます。
 
 ```text
 ├── jsons // jsons for the aem app

@@ -14,22 +14,22 @@ ht-degree: 4%
 
 # ダウンロードとインストール {#id1645E0O04MK}
 
-AEMガイドは、Adobeソフトウェア配布ポータルから入手できます。 AEMガイドは、Adobeソフトウェア配布ポータルアカウントからダウンロードし、セットアップのすべてのAdobe Experience Manager \(AEM\) インスタンスにインストールできます。 通常、AEMのオーサーインスタンスと実稼動インスタンスは、別のサーバーでホストされます。 AEMガイドは、使用するAEMのすべてのインスタンスにインストールする必要があります。
+AEM Guidesは、Adobeソフトウェア配布ポータルを通じて利用できるようになります。 Adobeソフトウェア配布ポータルアカウントからAEM Guidesをダウンロードして、設定したすべてのAdobe Experience Manager \（AEM\） インスタンスにインストールすることができます。 通常、AEMのオーサーインスタンスと実稼動インスタンスは、異なるサーバーでホストされます。 使用するすべてのAEM インスタンスにAEM Guidesをインストールする必要があります。
 
-ダウンロードとインストールのプロセスを開始する前に、システムがAEMガイドをインストールするための技術要件を満たしていることを確認する必要があります。
+ダウンロードおよびインストールプロセスを開始する前に、お使いのシステムがAEM Guidesをインストールするための技術要件を満たしていることを確認する必要があります。
 
-- **[技術要件](download-install-technical-requirements.md)**
+- **[技術的要件](download-install-technical-requirements.md)**
 
 - **[Adobe Experience Managerのインストール](download-install-aem.md)**
 
-- **[AEMガイドを初めてダウンロードしてインストールする](download-install-aemg-first-time.md)**
+- **[AEM Guidesを初めてダウンロードしてインストールする](download-install-aemg-first-time.md)**
 
-- **[Dispatcher の設定](download-install-configure-dispatcher.md)**
+- **[Dispatcherの設定](download-install-configure-dispatcher.md)**
 
-- **[AEM Guide のインストールの確認](download-install-verify-aemg-installation.md)**
+- **[AEM Guidesのインストールの確認](download-install-verify-aemg-installation.md)**
 
-- **[Adobe Experience Managerガイドのアップグレード](upgrade-xml-documentation.md)**
+- **[Adobe Experience Manager Guidesのアップグレード](upgrade-xml-documentation.md)**
 
-- **[AEM Guides のアンインストール](download-install-unistall-aemg.md)**
+- **[AEM Guidesをアンインストール](download-install-unistall-aemg.md)**
 
-- **[Recommendations （パフォーマンス最適化）](download-install-recommend-perf-optimiz.md)**
+- **[パフォーマンス最適化のためのRecommendations](download-install-recommend-perf-optimiz.md)**

@@ -1,34 +1,35 @@
 ---
-title: リリースノート | Adobe Experience Managerガイド（2023 年 12 月リリース）のアップグレード手順と修正された問題
-description: バグ修正と、Adobe Experience Managerガイドas a Cloud Serviceの 2023 年 12 月リリースへのアップグレード方法について説明します。
+title: リリースノート | Adobe Experience Manager Guidesのアップグレード手順と修正された問題、2023 年 12 月リリース
+description: バグ修正と、2023 年 12 月リリースのAdobe Experience Manager Guidesas a Cloud Serviceへのアップグレード方法について説明します。
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+exl-id: 63efe42a-b817-49df-8f76-df8d7acf9194
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '1319'
 ht-degree: 1%
 
 ---
 
-# 2023 年 12 月リリースのAdobe Experience Manager Guides as a Cloud Service
+# 2023 年 12 月Adobe Experience Manager Guidesas a Cloud Serviceリリース
 
-このリリースノートでは、アップグレードの手順、互換性マトリックス、およびバージョン 2023 年 12 月のAdobe Experience Managerガイドas a Cloud Service( 後で *Experience Managerガイドas a Cloud Service*) をクリックします。
+このリリースノートでは、Adobe Experience Manager Guidesas a Cloud Service（後で *Experience Manager Guidesas a Cloud Service* と呼ばれます）の 2023 年 12 月版で修正されたアップグレード手順、互換性マトリックスおよび問題について説明します。
 
-新機能および機能強化の詳細については、「 [2023 年 12 月リリースのExperience Managerガイドas a Cloud Service](whats-new-2023-12-0.md).
+新機能と機能強化について詳しくは、[Experience Manager Guidesas a Cloud Serviceの 2023 年 12 月リリースの新機能 ](whats-new-2023-12-0.md) を参照してください。
 
-## 2023 年 12 月リリースにアップグレード
+## 2023 年 12 月リリースへのアップグレード
 
-次の手順を実行して、現在のExperience Managerガイドのas a Cloud Service設定をアップグレードします。
+次の手順を実行して、現在のExperience Manager Guidesのas a Cloud Service設定をアップグレードします。
 
-1. Cloud Serviceの Git コードを確認し、アップグレードする環境に対応するCloud Serviceパイプラインで設定されたブランチに切り替えます。
-2. 更新 `<dox.version>` プロパティ： `/dox/dox.installer/pom.xml` ファイルのCloud ServiceGit コードを2023.12.0.16に保存します。
-3. 変更をコミットし、Cloud Serviceパイプラインを実行して、2023 年 12 月リリースのExperience Managerガイドas a Cloud Serviceにアップグレードします。
+1. Cloud Serviceの Git コードをチェックアウトし、アップグレードする環境に対応する、Cloud Serviceパイプラインで設定されたブランチに切り替えます。
+2. Cloud Service`<dox.version>`Git コード `/dox/dox.installer/pom.xml` ファイルのプロパティを 2023.12.0.16 に更新します。
+3. 変更内容をコミットし、Cloud Serviceパイプラインを実行して、2023 年 12 月リリースのExperience Manager Guidesas a Cloud Serviceにアップグレードします。
 
-## サーブレットを介したスクリプトのトリガーを有効にする手順
+## サーブレットを使用したスクリプトのトリガーを有効にする手順
 
-(2023 年 6 月リリースより前のバージョンのExperience Managerガイドをas a Cloud Serviceの場合のみ )
+（Experience Manager Guidesas a Cloud Serviceの 2023 年 6 月リリースより前のバージョンを使用している場合のみ）
 
-インストールが完了したら、「トリガーを押して翻訳ジョブを開始」を選択できます。
+インストールが完了したら、トリガーを押して翻訳ジョブを開始できます。
 
 POST:
 
@@ -46,9 +47,9 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 }
 ```
 
-前の応答 JSON では、キー `lockNodePath` は、送信されたジョブを指す、リポジトリで作成されたノードへのパスを保持します。 ジョブが完了すると、ジョブは自動的に削除されます。その後、このノードを参照してジョブのステータスを確認できます。
+前の応答 JSON では、キー `lockNodePath` は、送信されたジョブを指す、リポジトリで作成されたノードへのパスを保持します。 ジョブが完了すると自動的に削除されるので、このノードでジョブのステータスを確認できます。
 
-このジョブが完了するまで待ってから、次の手順に進みます。
+このジョブが完了するのを待ってから、次の手順に進みます。
 
 >[!NOTE]
 >
@@ -59,70 +60,70 @@ GET
 http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/1683190032886.json
 ```
 
-## リンク切れレポートを使用するために既存のコンテンツを後で処理する手順
+## 壊れたリンクレポートを使用するために、既存のコンテンツを後処理する手順
 
-(2023 年 6 月リリースより前のバージョンのExperience Managerガイドをas a Cloud Serviceの場合のみ )
+（Experience Manager Guidesas a Cloud Serviceの 2023 年 6 月リリースより前のバージョンを使用している場合のみ）
 
-既存のコンテンツを後処理し、新しい壊れたリンクレポートを使用するには、次の手順を実行します。
+既存のコンテンツを後処理し、新しい壊れたリンクのレポートを使用するには、次の手順を実行します。
 
-1. （オプション）システムに 100,000 個を超える DITA ファイルがある場合、 `queryLimitReads` および `queryLimitInMemory` under `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` を大きい値 ( 存在するアセットの数（例：200,000）を超える値 ) に設定し、再デプロイします。
+1. （オプション）システムに 100,000 個を超える DITA ファイルがある場合は、`org.apache.jackrabbit.oak.query.QueryEngineSettingsService` 下の `queryLimitReads` および `queryLimitInMemory` を大きい値（存在するアセットの数を超える値は、たとえば 200,000）に変更してから再デプロイします。
 
-   - 指示に従い、 *設定の上書き* 設定ファイルを作成するには、 Adobe Experience Manager Guides のインストールと設定をas a Cloud Service的に行ってください。
-   - 設定ファイルで、次の（プロパティ）詳細を指定して、 `queryLimitReads` および `queryLimitInMemory` オプション：
+   - Adobe Experience Manager Guidesのインストールと設定のas a Cloud Serviceの *設定の上書き* の節で説明している手順に従って、設定ファイルを作成します。
+   - 設定ファイルで、`queryLimitReads` と `queryLimitInMemory` オプションを設定するために、次の（プロパティ）の詳細を指定します。
 
      | PID | プロパティキー | プロパティの値 |
      |---|---|---|
-     | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitReads | 値：200000デフォルト値：100000 |
-     | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitInMemory | 値：200000デフォルト値：100000 |
+     | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitReads | 値：200000 デフォルト値：100000 |
+     | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitInMemory | 値：200000 デフォルト値：100000 |
 
-1. サーバーに対してPOSTリクエストを実行します（正しい認証を使用） - `http://<server>//bin/guides/reports/upgrade`.
+1. （正しいPOSTを使用して）サーバへの認証リクエストを実行します。`http://<server>//bin/guides/reports/upgrade`
 
-1. API は jobId を返します。 ジョブのステータスを確認するには、ジョブ ID を持つGETリクエストを同じエンドポイントに送信します。 `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
-( 例： `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
+1. API は jobId を返します。 ジョブのステータスを確認するには、ジョブ ID を含むGETリクエストを同じエンドポイント（`http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`）に送信します。
+（例：`http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）
 
-1. ジョブが完了すると、前のGETリクエストへの応答が成功します。 何らかの理由でジョブが失敗した場合は、サーバーログから失敗を確認できます。
+1. ジョブが完了すると、前回のGETリクエストが正常に応答します。 何らかの理由でジョブが失敗した場合は、サーバーログに失敗が示されます。
 
-1. のデフォルト値または以前の既存の値に戻す `queryLimitReads` 手順 1 で変更した場合。
+1. 手順 1 で変更した場合は、デフォルトまたは以前の既存の値 `queryLimitReads` に戻します。
 
-## 「レポート」タブの新しい検索と置換、およびトピックリストを使用するために既存のコンテンツをインデックス化する手順は次のとおりです。
+## 「レポート」タブで新しい「検索と置換」および「トピック」リストを使用するために、既存のコンテンツにインデックスを作成する手順は次のとおりです。
 
-(2023 年 6 月リリースより前のバージョンのExperience Managerガイドをas a Cloud Serviceの場合のみ )
+（Experience Manager Guidesas a Cloud Serviceの 2023 年 6 月リリースより前のバージョンを使用している場合のみ）
 
-既存のコンテンツのインデックス作成に関する次の手順を実行し、「レポート」タブのマップレベルおよびトピックリストで新しい検索と置換テキストを使用します。
+既存のコンテンツのインデックスを作成する次の手順を実行し、「レポート」タブの新しい検索と置換のテキストをマップレベルとトピックリストで使用します。
 
-1. サーバーに対してPOSTリクエストを実行します（正しい認証を使用） - `http://<server:port>/bin/guides/map-find/indexing`. （任意）マップの特定のパスを渡してインデックスを作成できます。デフォルトでは、すべてのマップがインデックス付けされます|| 例： `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
+1. （正しいPOSTを使用して）サーバへの認証リクエストを実行します。`http://<server:port>/bin/guides/map-find/indexing` （オプション：マップの特定のパスをインデックスを作成するために渡すことができます。デフォルトでは、すべてのマップにインデックスが作成されます||例：`https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`）。
 
-1. また、ルートフォルダーを渡して、特定のフォルダー（およびそのサブフォルダー）の DITA マップのインデックスを作成することもできます。 例えば、`http://<server:port>/bin/guides/map-find/indexing?root=/content/dam/test` のようになります。paths パラメーターと root パラメーターの両方が渡される場合は、paths パラメーターのみが考慮されます。
+1. ルートフォルダーを渡して、特定のフォルダー（およびそのサブフォルダー）の DITA マップのインデックスを作成することもできます。 例えば、`http://<server:port>/bin/guides/map-find/indexing?root=/content/dam/test` のようになります。paths パラメーターと root パラメーターの両方が渡される場合、paths パラメーターのみが考慮されることに注意してください。
 
-1. API は jobId を返します。 ジョブのステータスを確認するには、ジョブ ID を持つGETリクエストを同じエンドポイントに送信します。 `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`( 例： `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
+1. API は jobId を返します。 ジョブのステータスを確認するには、同じエンドポイント `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}` （例：`http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）にジョブ ID を含むGETリクエストを送信します
 
 
-1. ジョブが完了すると、前のGETリクエストが成功と応答し、マップに失敗した場合はメンションします。 正常にインデックス付けされたマップは、サーバーログから確認できます。
+1. ジョブが完了すると、前回のGETリクエストが成功を示して応答し、マップが失敗したかどうかを示します。 正常にインデックス化されたマップは、サーバ ログから確認できます。
 
-## を処理する手順 `'fmdita rewriter'` 競合
+## `'fmdita rewriter'` の競合を処理する手順
 
-Experience Managerガイドには [**custom sling rewriter**](../cs-install-guide/conf-output-generation.md#custom-rewriter) クロスマップ（2 つの異なるマップのトピック間のリンク）の場合に生成されるリンクを処理するためのモジュール。
+Experience Manager Guidesには、クロスマップ（2 つの異なるマップのトピック間のリンク）の場合に生成されるリンクを処理する [**custom sling rewriter**](../cs-install-guide/conf-output-generation.md#custom-rewriter) モジュールがあります。
 
-コードベースに別のカスタム Sling リライターがある場合は、 `'order'` 値が 50 より大きい (Experience Managerガイド sling rewriter が使用する ) `'order'` 50.  これを上書きするには、50 より大きい値が必要です。 詳しくは、 [出力書き換えパイプライン](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
+コードベースに別のカスタム sling rewriter がある場合は、Experience Manager Guides sling rewriter が 50 を使用するように、50 より大きい `'order'` 値を使用し `'order'` す。  これを上書きするには、50 より大きい値が必要です。 詳しくは、[ 出力の書き換えパイプライン ](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html) を参照してください。
 
-このアップグレードの間、 `'order'` の値を 1000 から 50 に変更した場合、既存のカスタムリライターがある場合は、とマージする必要があります。 `'fmdita-rewriter'`.
+このアップグレード中に、`'order'` の値が 1000 から 50 に変更されるので、既存のカスタムリライターがある場合は `'fmdita-rewriter'` と結合する必要があります。
 
 
 ## 互換性マトリックス
 
-この節では、2023 年 12 月のリリースでas a Cloud ServiceするExperience Managerガイドでサポートされるソフトウェアアプリケーションの互換性マトリックスを示します。
+この節では、2023 年 12 月リリースのExperience Manager Guidesas a Cloud Serviceでサポートされるソフトウェアアプリケーションの互換性マトリックスを示します。
 
 ### FrameMakerとFrameMaker Publishing Server
 
-| Experience Managerガイド as a Cloud リリース | FMPS | FrameMaker |
+| Experience Manager Guides as a Cloud リリース | FMPS | FrameMaker |
 | --- | --- | --- |
-| 2023.12.0 | 互換性がありません | 2022 以降 |
+| 2023.12.0 | 互換性がありません | 2022 以上 |
 | | | |
 
 
 ### 酸素コネクタ
 
-| Experience Managerガイド as a Cloud リリース | Oxygen Connector ウィンドウ | Oxygen Connector Mac | Oxygen Windows で編集 | Oxen Macで編集 |
+| Experience Manager Guides as a Cloud リリース | 酸素コネクタウィンドウ | 酸素コネクタMac | 酸素ウィンドウで編集 | Oxygen Macで編集 |
 | --- | --- | --- | --- | --- |
 | 2023.12.0 | 3.3-uuid.5 | 3.3-uuid.5 | 2.3 | 2.3 |
 |  |  |  |  |
@@ -130,9 +131,9 @@ Experience Managerガイドには [**custom sling rewriter**](../cs-install-guid
 
 ### ナレッジベーステンプレートバージョン
 
-| コンポーネントのパッケージ名 | コンポーネントのバージョン | テンプレートバージョン |
+| コンポーネントパッケージ名 | コンポーネントのバージョン | テンプレートのバージョン |
 |---|---|---|
-| Experience ManagerガイドコンポーネントCloud Service用コンテンツパッケージ | dxml-components.all-1.2.2 | aem-site-template-dxml.all-1.0.15 |
+| Cloud Service用Experience Manager Guides コンポーネントコンテンツパッケージ | dxml-components.all-1.2.2 | aem-site-template-dxml.all-1.0.15 |
 
 ## 修正された問題
 
@@ -142,43 +143,43 @@ Experience Managerガイドには [**custom sling rewriter**](../cs-install-guid
 
 ### オーサリング
 
-- The **タイトル** 「 Web エディター」タブでは、ドット (.) の後ろが切り捨てられます。 。(14372)
-- Assets UI でマップ名が重複している場合のエラーメッセージは更新されません。 (14320)
-- アセットのドラッグ&amp;ドロップ中に、バージョン作成ロジックでエラーが発生します。 (14291)
-- 再利用可能なコンテンツでは、要素 ID がスキップされます。 (14213)
-- 非表示にする設定コントロール **言語変数** 下のパネル **出力** 」タブが表示されません。 (14194)
-- Web エディターは、レイアウトビューで特殊なスキーマを使用して新しい参照やトピックを追加すると、アプリケーションエラーをスローします。 (14094)
-- 次へのアンカーリンク： `<dlentry>` または `<dt>` 要素がリンクテキストを表示できません。 (13543)
-- The **お気に入力** Web エディターのコレクションの読み込みに失敗しました。 (13495)
-- スペースを含む一意の ID で作成された場合、引用には、クリックできないリンクが表示されます。 (13447)
-- Adobe Analytics の **レイアウト** ブックマップの表示、使用 **右に移動** 選択したチャプターをサブ要素で機能しないようにするには、次の手順を実行します。 (12567)
-- Google Chrome およびMicrosoft Edge ブラウザーでは、XML Editor のプレビューウィンドウが切り捨てられています。 (10755)
-- Web エディターでは、可能な親要素内に要素をラップする機能がありません。 (8791)
+- 「Web エディター」タブの **タイトル** が、ドット（.）の後に切り詰められる 。（14372）
+- Assets UI の重複したマップ名に対するエラーメッセージが更新されていません。 （14320）
+- アセットのドラッグ&amp;ドロップ中に、バージョン作成ロジックでエラーが発生します。 （14291）
+- 再利用可能なコンテンツは、要素 ID をスキップします。 （14213）
+- **出力** タブの下の **言語変数** パネルを非表示にするための設定コントロールがありません。 （14194）
+- Web エディターでは、レイアウト ビューで特殊なスキーマを使用して新しい参照またはトピックを追加すると、アプリケーションエラーがスローされる。 （14094）
+- `<dlentry>` または `<dt>` 要素へのアンカーリンクでリンクテキストが表示されない。 （13543）
+- Web エディターの **お気に入り** コレクションを読み込めません。 （13495）
+- 引用は、スペースを含む一意の ID で作成された場合、クリックできないリンクを表示します。 （13447）
+- ブックマップの **レイアウト** ビューで **右に移動** を使用して、選択したチャプターをサブ要素にすることは機能しません。 （12567）
+- Google ChromeおよびMicrosoft Edge ブラウザーで、XML エディターのプレビューウィンドウが切り詰められる。 （10755）
+- Web エディターには、可能な親要素の中に要素を含める機能がありません。 （8791）
 
 ### 公開
 
-- Fmdita コンポーネントのハードコードされたパスは次のとおりです： `delegator.jsp`(AEM Sitesコンポーネントをオーバーレイできないようにする ) (13993)
-- ネイティブPDFの公開出力のPDFリアクターのタグ付きビューが期待どおりに動作しません。 (13622)
-- AEMサイトの公開で、スコープピアリンクを持つ大きなマップのデータストアにコミットする際に問題が発生しました。 (13531)
-- Experience Managerガイドの一括公開ダッシュボードを使用してサイトをアクティベートできません。 (13439)
-- AEM Sitesの出力で、要素ラベルのローカライゼーションが正しく機能していません。 (12144)
-- 見つかりません **ditaval** Web エディターの UI で作成されたフォルダープロファイルレベルの出力プリセットのオプション。 (11903)
+- Fmdita コンポーネントは、`delegator.jsp` をハードコードしたパスを持つので、AEM Sites コンポーネントをオーバーレイできません。 （13993）
+- ネイティブPDF公開出力のPDFリアクターのタグ付きビューが、期待どおりに動作しない。 （13622）
+- スコープピアリンクを持つ大きなマップのデータストアをコミットすると、AEM サイト公開で問題が発生します。 （13531）
+- Experience Manager Guides一括公開ダッシュボードを使用してサイトをアクティベートできない。 （13439）
+- AEM Sites出力で要素ラベルのローカライゼーションが正しく機能していません。 （12144）
+- Web エディター UI で作成されたフォルダープロファイルレベルの出力プリセットに **ditaval** オプションが見つからない。 （11903）
 
 ### 管理
 
-- AEMクラウド環境で、大規模なノードが原因で MongoWrite 例外が発生しました。 (13509)
+- AEM クラウド環境では、大規模なノードが原因で MongoWrite 例外が発生します。 （13509）
 
 ### 翻訳
 
-- The **許可/却下** ボタンが誤って自動承認された人間による翻訳用に表示される。 (14318)
-- 英語以外の DITA ファイルをAEMページに変換する際に、国際化 (i18n) の問題が発生します。 (14286)
-- 一時翻訳プロジェクトから翻訳されたコンテンツを同期できず、DITA XML エディターの翻訳ウィザードに正しく表示されません **処理中** 承認済みジョブのステータス。 (9938)
+- 自動承認された人間による翻訳で、「**許可/拒否**」ボタンが誤って表示される。 （14318）
+- 英語以外の DITA ファイルをAEM ページに変換する際に、国際化対応（i18n）の問題が発生します。 （14286）
+- 翻訳済みコンテンツが一時的な翻訳プロジェクトから同期できず、DITA XML エディタの翻訳ウィザードで、承認済みジョブのステータスが誤って **処理中** と表示される。 （9938）
 
 ### アクセシビリティ
 
-- フォーカスがトピックエディターに閉じ込められるので、オーサーキャンバスのユーザーインターフェイス内を移動できません。 (13517)
+- フォーカスがトピックエディターにトラップされるので、オーサーキャンバスのユーザーインターフェイス内を移動できない。 （13517）
 
 ## 既知の問題
 
-Adobeは、2023 年 12 月リリースで次の既知の問題を特定しました。
-- 2023 年 12 月のリリースにアップグレードすると、「無効な DTD エラーの取得」が断続的に発生します。
+Adobeでは、2023 年 12 月リリースの次の既知の問題を特定しました。
+- 「Getting Invalid DTD Error」が、2023 年 12 月リリースへのアップグレード時に断続的に発生する。

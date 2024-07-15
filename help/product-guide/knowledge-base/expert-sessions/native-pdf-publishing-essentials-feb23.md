@@ -1,6 +1,6 @@
 ---
 title: ネイティブPDFの公開の基本事項
-description: AEMガイドでネイティブの PDF エンジンを使用してPDFを公開する方法について説明します。
+description: AEM Guidesでネイティブ pdf エンジンを使用してPDFを公開する方法を説明します。
 exl-id: e7ba6d2d-ebfb-4400-9b10-c4fb173123cf
 feature: Native PDF Output
 role: User, Admin
@@ -13,46 +13,46 @@ ht-degree: 2%
 
 # ネイティブPDFの公開の基本事項
 
-AEMガイドは、組み込みのPDF発行エンジンを備えており、ユーザーはコンテンツをPDF形式で作成、開発および公開できます。 豊富な機能セットにより、多様なページレイアウトの作成、スタイルシートのカスタマイズ、シームレスなコンテンツ公開に必要な様々なPDFコンポーネントのデザインが可能です。
+AEM Guidesには、PDF形式のコンテンツを作成、開発および公開できるPDFーパブリッシングエンジンが組み込まれています。 その豊富な機能セットにより、様々なページレイアウトの作成、スタイルシートのカスタマイズ、シームレスなコンテンツ公開に必要な様々なPDFコンポーネントのデザインを行うことができます。
 
 ## セッションの概要
 
-このセッションでは、AEMガイドでネイティブの PDF エンジンを使用してPDFを公開する方法を学びます
+このセッションでは、AEM Guidesでネイティブ pdf エンジンを使用してPDFを公開する方法を説明します
 
-## セッションの記録
+## セッションの録画
 
 >[!VIDEO](https://video.tv.adobe.com/v/3416076/native-pdf?quality=12&learn=on)
 
 ## ハイライト
 
-- **日付** - 2023 年 2 月 23 日
-- **出席者数** - 135
+- **日付** - 2023 年 2 月 23 日（Pt）
+- **出席者の数** ～ 135
 - **期間** - 60 分
-- **対象ユーザ** ・お客様、パートナー、Adobe従業員
+- **対象読者** – お客様、パートナー、Adobe社員
 
 ## 重要ポイント
 
-このセッションでは、次の事項について学習します。
+このセッションでは、以下について学習します。
 - PDF公開の基本事項
-- テンプレートテンプレートの様々なコンポーネントの作成とPDF化
-- 公開用のコンテンツの構造化とスタイル設定
+- PDFテンプレートの様々なコンポーネントを作成およびカスタマイズする
+- 公開用のコンテンツの構造とスタイル設定
 - スクリプトを使用した出力の操作
 - 高度な設定、セキュリティ、印刷、実稼動
 
 ## 関連リソース
 
-- **特集ビデオ** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
+- **特集ビデオ** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **ユーザーガイド** - [ネイティブPDFの公開](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/configuring/config-native-pdf-publish/pdf-template.html?lang=en)
+- **ユーザーガイド** - [ ネイティブPDFの公開 ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/configuring/config-native-pdf-publish/pdf-template.html?lang=en)
 
-- **コミュニティフォーラム**  — セッション固有のコミュニティでのExperience League操作については、  [AEM Guides フォーラム](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **コミュニティフォーラム** - Experience Leagueに関するセッション固有のコミュニティのやり取りについては、[AEM Guides フォーラム ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions) にアクセスしてください。
 
 >[!NOTE]
 >
-> このセッションで示す機能は、次のバージョンのAEMガイドで利用できます。
+> このセッションで紹介する機能は、次のバージョンのAEM Guidesで利用できます。
 > - オンプレミス 4.2 以降
-> - Cloud Service2211 以降
+> - Cloud Service 2211 以降
 
 ## お問い合わせ
 
-ご不明な点は、 <techcomm@adobe.com>
+ご質問については、<techcomm@adobe.com> 宛てにメールを送信してください

@@ -2,7 +2,8 @@
 title: アイコン
 description: アイコン
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 5ba41c77-7329-49fc-bce5-02682261ea8e
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '49'
 ht-degree: 6%
@@ -11,10 +12,10 @@ ht-degree: 6%
 
 # アイコン
 
-アイコンを表示するには、コンポーネントのアイコンを使用します。
-JUI のテキスト領域コンポーネントは、html を表します。 `<icon/>`.
+アイコンを表示するには、コンポーネント、アイコンを使用します。
+JUI のテキスト領域コンポーネントは HTML `<icon/>` を表します。
 
-アイコンは次の場所で使用できます： [Adobeスペクトルアイコン](https://spectrum.adobe.com/page/icons/) はアプリと互換性があります。
+[Adobe スペクトラム アイコン ](https://spectrum.adobe.com/page/icons/) で利用できるアイコンは、アプリと互換性があります。
 
 ```js title="icon.js"
 const iconJSON =  {
@@ -29,4 +30,4 @@ const iconJSON =  {
 
 レンダリングされたアイコンは次のようになります。
 
-![アイコン](./imgs/info_icon.png "アイコン")
+![icon](./imgs/info_icon.png "Icon")

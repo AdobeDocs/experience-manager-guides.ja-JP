@@ -1,6 +1,6 @@
 ---
-title: AEM Guides での DITA コンテンツの再利用
-description: この簡単な記事では、コンテンツの再利用性を使用する際に、AEM Guides と DITA がどのように時間と労力を節約できるかを説明します
+title: AEM Guidesでの DITA コンテンツの再利用
+description: この簡単な記事では、コンテンツの再利用性を使用する際に、AEM Guidesと DITA がどのように時間と労力を節約できるかを説明します
 role: User, Admin
 exl-id: 1522ebf5-2aea-4d8f-ade7-367227b31dd9
 source-git-commit: 4160c990bafe41611714ef66ee361aba0ef47c0a
@@ -10,15 +10,15 @@ ht-degree: 0%
 
 ---
 
-# AEM ガイドでのコンテンツの再利用性
+# AEM Guidesでのコンテンツの再利用性
 
-Adobe AEM Guides は DITA の強みを活かし、コンテンツの再利用に役立つ使いやすいインターフェイスを提供します。
+AdobeAEM Guidesは DITA の強みを活用して、コンテンツを再利用するための使いやすいインターフェイスを提供します。
 
 この記事では、以下について説明します。
 
 1. [トピック参照（](#reusability-using-topic-referencestopicref)
 2. [コンテンツ参照（](#reusability-using-content-reference-conref--conkeyref)
-3. [AEM ガイドでドラッグ&amp;ドロップでコンテンツを再利用するための便利なヒント](#reuse-content-with-a-single-click-in-aem-guides)
+3. [AEM Guidesでドラッグ&amp;ドロップでコンテンツを再利用するための便利なヒント](#reuse-content-with-a-single-click-in-aem-guides)
 
 ## トピック参照（topicref）を使用した再利用性
 
@@ -77,14 +77,14 @@ Adobe AEM Guides は DITA の強みを活かし、コンテンツの再利用に
 </section>
 ```
 
-こちら `conref=kyc_procedures.dita#indvidual_kyc` kyc_procedures.dita はファイル識別子、#individual_kyc はフラグメント識別子です。
+ここで `conref=kyc_procedures.dita#indvidual_kyc`kyc_procedures.dita はファイル識別子、#individual_kyc はフラグメント識別子です。
 
 Kyc_procedure.dita は、引き続き唯一の情報ソースです。 規制の要求に応じて KYC プロセスに変更がある場合は、1 つのトピックを更新するだけで、その変更はそれを参照しているすべてのトピックに自動的に反映されます。
 
-AEM Guides を使用した 2 回のクリック
+AEM Guidesを使用した、2 回のクリック
 
 手順 1:「再利用可能なコンテンツを挿入」をクリックする
-![ツールバー](../../assets/publishing/content-reusability_image1.png)
+![ ツールバー ](../../assets/publishing/content-reusability_image1.png)
 
 <br>
 
@@ -125,10 +125,10 @@ AEM Guides を使用した 2 回のクリック
 
 ここで、トピックパスは、最近の規制の変更により、「kyc_procedure_2020.dita」から「kyc_procedure_2024.dita」に変更されています。
 
-AEM Guides を使用した 2 回のクリック
+AEM Guidesを使用した、2 回のクリック
 
 手順 1:「再利用可能なコンテンツを挿入」をクリックする
-![ツールバー](../../assets/publishing/content-reusability_image1.png)
+![ ツールバー ](../../assets/publishing/content-reusability_image1.png)
 
 手順 2：再利用が必要なルートマップ（オプション）、キー、フラグメントを選択する。
 ![conkeyref](../../assets/publishing/content-reusability_image3.png)
@@ -136,17 +136,17 @@ AEM Guides を使用した 2 回のクリック
 このルート マップは、マップ ビューで既に開かれているため、自動的に選択されています
 
 
-## AEM Guides で 1 回クリックしてコンテンツを再利用
+## AEM Guidesでシングルクリックでコンテンツを再利用
 
-AEM Guides には、コンテンツ参照をワンクリックで追加できる「再利用可能なコンテンツ」機能が用意されています。
+AEM Guidesには、コンテンツ参照をワンクリックで追加できる「再利用可能なコンテンツ」機能が用意されています。
 
 手順 1：再利用可能なコンテンツに汎用トピックを追加する
 
-![再利用可能なコンテンツを追加](../../assets/publishing/content-reusability_image4.png)
+![ 再利用可能なコンテンツを追加 ](../../assets/publishing/content-reusability_image4.png)
 
 手順 2：追加したら、宛先トピックで再利用するフラグメントをドラッグ&amp;ドロップします。
 
-![再利用可能なコンテンツ GIF を追加](../../assets/publishing/content-reusability_image5.gif)
+![ 再利用可能なコンテンツ GIF を追加 ](../../assets/publishing/content-reusability_image5.gif)
 
 
 
@@ -164,4 +164,4 @@ AEM Guides には、コンテンツ参照をワンクリックで追加できる
 <br>
 
 
-AEM Guides コミュニティに投稿 [フォーラム](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) （すべてのクエリの場合）。
+クエリがある場合は、AEM Guides Community [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) でPostしてください。

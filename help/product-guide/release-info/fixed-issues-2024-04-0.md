@@ -1,68 +1,66 @@
 ---
-title: リリースノート | Adobe Experience Manager Guides 2024.4.0 リリースの問題を修正しました
-description: Adobe Experience Manager Guides as a Cloud Serviceの 2024.04.0 リリースのバグ修正について説明します。
-source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
+title: リリースノート | Adobe Experience Manager Guides、2024.4.0 リリースの問題を修正しました
+description: Adobe Experience Manager Guidesas a Cloud Serviceの 2024.04.0 リリースのバグ修正について説明します。
+exl-id: 35351d71-7739-4ad3-a063-67adf64906bf
+source-git-commit: 5d99274da8fdacbd255d426fa4913b5773ca45f8
 workflow-type: tm+mt
 source-wordcount: '578'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-
 # 2024.04.0 リリースの問題を修正しました
 
-この記事では、Adobe Experience Manager Guides as a Cloud Serviceの 2024.04.0 リリースの様々な領域で修正されたバグについて説明します。
+この記事では、Adobe Experience Manager Guidesas a Cloud Serviceの 2024.04.0 リリースの様々な領域で修正されたバグについて説明します。
 
-新機能および機能強化について詳しくは、以下を参照してください [2024.04.0 リリースの新機能](whats-new-2024-04-0.md).
+新機能と機能強化について詳しくは、[ 2024.04.0リリースの新機能](whats-new-2024-04-0.md)を参照してください。
 
-について [2024.04.0 リリースのアップグレード手順](upgrade-instructions-2024-04-0.md).
+[2024.04.0 リリースのアップグレード手順 ](upgrade-instructions-2024-04-0.md) について説明します。
 
 ## オーサリング
 
-- この **コピー** 関数がAdobe Experience Manager as a Cloud Serviceで空のフォルダーを複製できない。 （15353）
+- **コピー** 関数で、Adobe Experience Manager as a Cloud Serviceの空のフォルダーを複製できません。 （15353）
 - Web エディターが.pptx ファイルをアップロードできません。 （14837）
 - Web エディタでテキストを検索する際、カーソルは Enter キーを押すと、検索されたテキストの最初の出現箇所に戻ります。 （14820）
 - 自動保存は、複数の問題を引き起こし、カーソルを再配置し、ドキュメントで手動クリックを必要とします。 （14253）
-- グローバル検索で見つかったファイルを開くと、検索結果が無効になる **検索と置換**. （12142）
-- ソースビューで、 `</conbody>` が間違った場所に挿入される場合があります。 （11305）
-- XML エディターで、ツールヒント機能がソースフィールドを更新できません。 （15847）
-- この **UUID リンクを共有** Adobe Experience Managerの画像に対して、機能が機能しません。 （15598）
-- でテキストが重なってしまう問題が発生する `<reltable>` および `<fig>` タグ。 （15238）
-- で問題がちらつく **属性** パネル。 （15237）
+- グローバル **検索と置換** で検索されたファイルを開くと、検索結果が無効になります。 （12142）
+- ソース ビューでは、`</conbody>` が間違った位置に挿入されることがあります。 （11305）
+- XML エディターで、ツールヒント機能がSource フィールドを更新できません。 （15847）
+- Adobe Experience Managerの画像に対して **UUID リンクを共有** 機能が機能しません。 （15598）
+- `<reltable>` タグと `<fig>` タグでテキストが重なってしまう問題が発生します。 （15238）
+- **属性** パネルがちらつく問題が発生する。 （15237）
 - コンテンツ内の文字または単語を削除すると、カーソルがブロック要素間をジャンプします。 （15224）
-- この **属性** パネルが Web エディターのソースビューに表示されません。 （14387）
+- **属性** パネルは、Web エディターのSource ビューには表示されません。 （14387）
 - Web エディターでタグの末尾を編集すると、不要な改行なしのスペースが追加される。 （11786）
 - DITA ファイルのスペルエラーの修正中にコンテンツが削除される。 （11610）
 
 
 ## 公開
 
-- 次の場合、AEM サイト出力の生成が失敗します **孤立したサイトの削除** 」オプションが有効になっています。 （15896）
+- 「**孤立したサイトを削除**」オプションが有効になっている場合、AEM サイトの出力生成が失敗します。 （15896）
 - ファイルをマップ コレクションに追加すると、編集機能が機能しません。 （15813）
 - JSON 出力で、DITA マップまたはトピックのメタデータが JSON 出力ファイルに反映されません。 （15713）
 - プリセット名の変更中にネイティブPDFの公開が失敗する。 （15662）
-- この **sourcePath** 公開されたAEM サイト出力のプロパティが正しくありません。 （15502）
+- 公開済みのAEM サイト出力で **sourcePath** プロパティが正しくありません。 （15502）
 - ネイティブPDF出力プリセットで言語変数の選択とカスタマイズが正しく機能しない。 （15399）
 - 大きなスタイルシートまたはレイアウトを使用したテンプレートを使用すると、ネイティブPDFの生成が失敗する。 （15344）
-- 次の場合、コンテンツは公開済みの出力で正しくレンダリングされません `<conref>` は絶対パスで使用されます。
-- 間で競合が発生しているので、AEM Sitesの URL 短縮機能が機能しません `fmdita rewriter` および `ResourceResolver`. （14793）
-- この **processing-role=&quot;resource-only&quot;**, **search=&quot;no&quot;**、および **chunk=&quot;to-content&quot;** AEM Sites出力では、属性はそれぞれ異なって表示されます。 （14442）
+- 絶対パスで使用すると、公開済み出力にコンテンツ `<conref>` 正しくレンダリングされません。
+- `fmdita rewriter` と `ResourceResolver` の間の競合が原因で、AEM Sites URL の短縮化が機能しません。 （14793）
+- **processing-role=&quot;resource-only&quot;**、**search=&quot;no&quot;**、および **chunk=&quot;to-content&quot;** 属性は、それぞれAEM Sites出力に表示されます。 （14442）
 - 2K のマップを含むフォルダーがフォルダープロファイル内のフォルダーパスに設定されている場合、出力プリセットに適用された変更は失敗します。（14852）
 
 ## 管理
 
-- 閉じられていない **リソースリゾルバー** 原因 2023 年 10 月リリースのExperience Managerガイドのas a Cloud Service版で、セッション数と PathNotFoundException エラーが増加しています。 （15604）
+- 2023 年 10 月のExperience Manager Guidesのas a Cloud Serviceリリース後に、閉じられていない **リソースリゾルバー** により、セッション数と PathNotFoundException エラーが増加します。 （15604）
 - 機能フラグ **fmdita.useapproval** が期待どおりに動作していません。 （15310）
-- Java API を使用したベースラインの作成は、2023 年 6 月リリースのas a Cloud ServiceExperience Managerガイドでは機能しません。 （14787）
-- この `/bin/fmdita/import` アップロードするアセットが 500 MB を超える場合、API が無期限に保留中のリクエストで停止したままになる。 （14743）
+- Java API を使用したベースラインの作成は、2023 年 6 月リリースのExperience Manager Guidesas a Cloud Serviceでは機能しません。 （14787）
+- アップロードするアセットが 500 MB を超えると、`/bin/fmdita/import` API はリクエストを無期限に保留状態のままになります。 （14743）
 
 ## レビュー
 
-- レビューノードを削除すると、Adobe Experience Manager Guides でコメントを開いて表示する機能が中断されます。 （15366）
+- レビューノードを削除すると、Adobe Experience Manager Guidesでコメントを開いて表示する機能が中断されます。 （15366）
 - Web エディターでは、レビューパネルの読み込みに時間がかかります。 （14680）
 
 ## 翻訳
 
-- **翻訳を承認** 一時ファイルの変換を完了できません。 （14665）
-
-
+- **翻訳を承認** 一時ファイルの翻訳を完了できません。 （14665）

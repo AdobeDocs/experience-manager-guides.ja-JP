@@ -1,6 +1,6 @@
 ---
 title: リリースノート | Adobe Experience Manager Guides 4.4.0 リリースのアップグレード手順
-description: Adobe Experience Manager Guides の 4.4.0 リリースへのアップグレード方法について説明します
+description: Adobe Experience Manager Guidesの 4.4.0 リリースへのアップグレード方法について説明します
 role: Leader
 exl-id: 884178b6-7a72-471a-a6e3-238a543fb227
 source-git-commit: 47c06dcc30b34780cbd26ded1ca400a5056a59ba
@@ -16,14 +16,14 @@ ht-degree: 5%
 
 新機能と機能強化について詳しくは、[ 4.4.0リリースの新機能](../release-info/whats-new-4-4.md)を参照してください。
 
-このリリースで修正された問題のリストについては、 [4.4.0 リリースでの問題を修正しました](../release-info/fixed-issues-4-4.md).
+このリリースで修正された問題のリストについては、[4.4.0 リリースで修正された問題 ](../release-info/fixed-issues-4-4.md) を参照してください。
 
 
 
 
 ## 互換性マトリックス
 
-このセクションでは、Experience Manager・ガイド 4.4.0 リリースでサポートされているソフトウェア・アプリケーションの互換表を示します。
+この節では、Experience Manager Guides 4.4.0 リリースでサポートされるソフトウェアアプリケーションの互換表を示します。
 
 ### Adobe Experience Manager
 
@@ -34,7 +34,7 @@ ht-degree: 5%
 バージョン 6.5 サービスパック 20、19、18、17
 
 
-詳しくは、 [技術的要件](../install-guide/download-install-technical-requirements.md) オンプレミスでのインストールおよび設定ガイドの節を参照してください。
+詳しくは、『オンプレミスのインストールおよび設定ガイド』の [ 技術要件 ](../install-guide/download-install-technical-requirements.md) の節を参照してください。
 
 ### FrameMakerとFrameMaker Publishing Server
 
@@ -60,26 +60,26 @@ ht-degree: 5%
 
 | コンポーネントパッケージ名 | コンポーネントのバージョン | テンプレートのバージョン |
 |---|---|---|
-| Cloud Service用のExperience Managerガイドコンポーネントコンテンツパッケージ | dxml-components.all-1.2.2 | aem-site-template-dxml.all-1.0.15 |
+| Cloud Service用Experience Manager Guides コンポーネントコンテンツパッケージ | dxml-components.all-1.2.2 | aem-site-template-dxml.all-1.0.15 |
 
 
 
-## Experience Managerガイドの 4.4.0 リリースへのアップグレード
+## Experience Manager Guidesの 4.4.0 リリースへのアップグレード
 
 
-Guides の現在のバージョンをバージョン 4.4.0 に簡単にアップグレードできます。Experience Managerガイドのバージョン 4.4.0 へのアップグレードを行う前に、次の点を考慮する必要があります。
+Guides の現在のバージョンをバージョン 4.4.0 に簡単にアップグレードできます。Experience Manager Guidesのバージョン 4.4.0 へのアップグレードを行う前に、次の点を考慮する必要があります。
 
 
 - バージョン 4.3.1、4.3.0、または 4.2.1 （ホットフィックス 4.2.1.3）を使用している場合は、バージョン 4.4.0 に直接アップグレードできます。
 - バージョン 4.2、4.1 または 4.1.x を使用している場合は、バージョン 4.4.0 にアップグレードする前に、バージョン 4.3.1、4.3.0 または 4.2.1 （Hotfix 4.2.1.3）にアップグレードする必要があります。
 - バージョン 4.0 を使用している場合、バージョン 4.3.x にアップグレードする前にバージョン 4.2 にアップグレードする必要があります。
 - バージョン 3.8.5 を使用している場合、バージョン 4.2 にアップグレードする前にバージョン 4.0 にアップグレードする必要があります。
-- バージョン 3.8.5 より前のバージョンを使用している場合は、で入手可能なExperience Manager固有のインストールガイドのアップグレードインストールガイドの節を参照してください。 [Adobe Experience Manager ガイドのヘルプPDFアーカイブ](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+- バージョン 3.8.5 より前のバージョンを使用している場合は、[Experience Manager Guides ヘルプPDFアーカイブ ](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) にある製品固有のインストールガイドのAdobe Experience Manager Guidesのアップグレードの節を参照してください。
 
 
 
 >[!NOTE]
 >
->Experience Managerガイドのバージョンをアップグレードする前に、AEM サービスパックをインストールする必要があります。
+>Experience Manager Guides版をアップグレードする前に、AEM サービスパックをインストールする必要があります。
 
-詳細については、 [オンプレミスリリースのアップグレード手順](../install-guide/upgrade-xml-documentation.md) （Experience Managerガイドの）。
+詳しくは、Experience Manager Guidesの [ オンプレミスリリースのアップグレード手順 ](../install-guide/upgrade-xml-documentation.md) を参照してください。

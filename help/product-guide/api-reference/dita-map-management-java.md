@@ -1,6 +1,6 @@
 ---
 title: DITA マップを操作する Java ベースの API
-description: DITA マップを操作する Java ベースの API について説明します。
+description: DITA マップで使用する Java ベースの API について説明します
 exl-id: bd91fc90-75f8-487c-99d1-2637e9cf9924
 feature: Java-Based API Dita Map
 role: Developer
@@ -14,36 +14,36 @@ ht-degree: 0%
 
 # DITA マップを操作する Java ベースの API {#id175UB30E05Z}
 
-次の Java ベースの API を使用して、AEMガイドで DITA マップを操作できます。 これらの API は、バンドルの形式で使用できます。 これらの API を使用するには、コードにこのバンドルを含める必要があります。
+次の Java ベースの API を使用すると、AEM Guidesで DITA マップを操作できます。 これらの API は、バンドルの形式で使用できます。 これらの API を使用するには、コードにこのバンドルを含める必要があります。
 
-バンドルの詳細：
+バンドルの詳細
 
-- グループ ID : **com.adobe.fmdita**
+- グループ ID:**com.adobe.fmdita**
 
 - アーティファクト ID: **api**
 
-- バージョン： **3.2**
+- バージョン：**3.2**
 
-- パッケージ： **com.adobe.fmdita.api.maps**
+- パッケージ：**com.adobe.fmdita.api.maps**
 
-- クラスの詳細：
+- クラス詳細：
 
   ```JAVA
   public class MapUtilities extends Object
   ```
 
-  MapUtilities クラスには、DITA マップファイルからメタデータ情報を取得するメソッドが含まれます。
+  MapUtilities クラスには、DITA マップファイルからメタデータ情報を取得するメソッドが含まれています。
 
 
-## 依存を含む DITA マップをダウンロード
+## 依存を含む DITA マップのダウンロード
 
-The `zipMapWithDependents` メソッドは、DITA マップと、参照トピック、サブマップ、画像、DTD などのすべての依存を含む.zip ファイルを作成します。 DITA マップ用の.zip ファイルは、指定されたベースラインに基づいて作成されます。
+`zipMapWithDependents` メソッドは、参照トピック、サブマップ、イメージ、DTD などのすべての依存と共に DITA マップを含む.zip ファイルを作成します。 DITA マップの.zip ファイルは、指定のベースラインに基づいて作成されます。
 
-また、同じ構造（親フォルダーと子フォルダー）を維持するか、すべての依存ファイルに対して 1 つのフォルダー内にフラットファイル構造を作成することもできます。
+また、同じ構造\（親および子フォルダー\）を維持するか、すべての依存ファイル用の 1 つのフォルダー内にフラットファイル構造を作成することもできます。
 
 >[!IMPORTANT]
 >
-> 依存ファイルが見つからない場合、API は例外をスローし、.zip ファイルの作成に失敗します。
+> 依存ファイルがない場合、API は例外をスローし、.zip ファイルの作成に失敗します。
 
 **構文**：
 
@@ -56,23 +56,32 @@ public static void zipMapWithDependents(Session session,
                      throws RepositoryException, IOException
 ```
 
-**パラメーター**: |名前|型|説明| |—|—|—| |`session`|javax.jcr.Session|有効な JCR セッション。| |`sourcePath`|String|ダウンロードする必要がある DITA マップファイルのパス\(AEMリポジトリ内\)。| |`outputStream`|java.io.OutputStream|ZIP を書き込むストリーム。| |`baseline`|String|バージョン管理されたコンテンツを取得するために使用されるベースラインのタイトル。 <br> **注意：** 値では大文字と小文字が区別されます。| |flatFS|Boolean|\（オプション\）true に設定した場合、ZIP ファイルにフラット構造が返されます。 例えば、DITA マップが複数のフォルダー内のコンテンツを参照する場合、参照されるすべてのファイルが 1 つのフォルダーに取り込まれます。 同じ名前のファイルが存在する場合、それらのファイルの名前は数値サフィックスを追加することで変更されます。 すべての参照\（DITA マップおよびトピック\）は、フラットフォルダー構造内のファイルの新しい場所に基づいて更新されるので、自動的に処理されます。 false に設定した場合、フォルダー構造は ZIP ファイル内でそのまま維持されます。 DITA マップが複数の場所のファイルを参照する場合、それらのすべての場所も ZIP ファイル内に作成されます。 ZIP ファイルを復元すると、保存先の場所に正確なフォルダー構造が作成されます。 <br> このパラメータのデフォルト値は false です。|
+**パラメーター**:
+|名前|種類|説明|
+|----|----|-----------|
+|`session`|javax.jcr.Session|有効な JCR セッション。|
+|`sourcePath`|文字列|ダウンロードする必要がある DITA マップファイルのパス \（AEM リポジトリ内）。|
+|`outputStream`|java.io.OutputStream|ZIP を書き込むストリーム。|
+|`baseline`|文字列|バージョン管理されたコンテンツを取得するために使用されるベースラインのタイトル。<br> **メモ：** この値では大文字と小文字が区別されます。|
+|flatFS|Boolean|\（オプション\） true に設定した場合、ファイルのフラット構造が ZIP ファイルで返されます。 たとえば、DITA マップが複数のフォルダ内のコンテンツを参照する場合、参照されるすべてのファイルが 1 つのフォルダに取り込まれます。 同じ名前のファイルが存在する場合は、数字のサフィックスを追加して名前を変更します。 すべての参照\（in DITA map and topics\）は、フラットフォルダ構造内のファイルの新しい場所に基づいて更新されるため、自動的に処理されます。 false に設定した場合、フォルダー構造は ZIP ファイルにそのまま保持されます。 DITA マップが複数の場所からファイルを参照する場合、これらすべての場所も ZIP ファイルに作成されます。 ZIP ファイルを復元すると、正確なフォルダー構造が復元先の場所に作成されます。 <br> このパラメーターの既定値は false です。|
 
-**戻り値**:ZIP のコンテンツは、 `outputStream`.
+**戻り値**
+ZIP の内容は `outputStream` に書き込まれます。
 
-**例外**：スロー ``javax.jcr.RepositoryException``, `java.io.IOException`.
+**例外**:
+``javax.jcr.RepositoryException``、`java.io.IOException` をスローします。
 
-## 依存を持つ DITA マップをダウンロード\（非同期\）
+## 依存を持つ DITA マップをダウンロードします\（非同期\）
 
-または、非同期モードで、依存を含む DITA マップをダウンロードできます。 この方法は、より大きな DITA マップでより便利です。
+または、依存を含む DITA マップを非同期モードでダウンロードできます。 この方法は、大きな DITA マップの場合により便利です。
 
-The `zipMapWithDependents` メソッドは、DITA マップと、参照トピック、サブマップ、画像、DTD などのすべての依存を含む.zip ファイルを作成します。 DITA マップ用の.zip ファイルは、指定されたベースラインに基づいて作成されます。
+`zipMapWithDependents` メソッドは、参照トピック、サブマップ、イメージ、DTD などのすべての依存と共に DITA マップを含む.zip ファイルを作成します。 DITA マップの.zip ファイルは、指定のベースラインに基づいて作成されます。
 
-また、同じ構造（親フォルダーと子フォルダー）を維持するか、すべての依存ファイルに対して 1 つのフォルダー内にフラットファイル構造を作成することもできます。
+また、同じ構造\（親および子フォルダー\）を維持するか、すべての依存ファイル用の 1 つのフォルダー内にフラットファイル構造を作成することもできます。
 
 >[!NOTE]
 >
-> このノードは、output.history.purgetime 設定（定義されている場合）またはデフォルトで 5 日後に自動削除されます。
+> このノードは、output.history.purgetime 設定（定義されている場合）、またはデフォルトの 5 日間に基づいて、しばらくすると自動的に削除されます。
 
 **構文**：
 
@@ -83,13 +92,20 @@ public static CompletableFuture<Node> zipMapWithDependencies(Session session,
                      boolean flatFS) 
 ```
 
-**パラメーター**: |名前|型|説明| |—|—|—| |`session`|javax.jcr.Session|有効な JCR セッション。| |`sourcePath`|String|ダウンロードする必要がある DITA マップファイルのパス\(AEMリポジトリ内\)。| |`baseline`|String|バージョン管理されたコンテンツを取得するために使用されるベースラインのタイトル。 <br> **注意：** 値では大文字と小文字が区別されます。| |flatFS|Boolean|\（オプション\）true に設定した場合、ZIP ファイルにフラット構造が返されます。 例えば、DITA マップが複数のフォルダー内のコンテンツを参照する場合、参照されるすべてのファイルが 1 つのフォルダーに取り込まれます。 同じ名前のファイルが存在する場合、それらのファイルの名前は数値サフィックスを追加することで変更されます。 すべての参照\（DITA マップおよびトピック\）は、フラットフォルダー構造内のファイルの新しい場所に基づいて更新されるので、自動的に処理されます。 false に設定した場合、フォルダー構造は ZIP ファイル内でそのまま維持されます。 DITA マップが複数の場所のファイルを参照する場合、それらのすべての場所も ZIP ファイル内に作成されます。 ZIP ファイルを復元すると、保存先の場所に正確なフォルダー構造が作成されます。<br> このパラメータのデフォルト値は false です。|
+**パラメーター**:
+|名前|種類|説明|
+|----|----|-----------|
+|`session`|javax.jcr.Session|有効な JCR セッション。|
+|`sourcePath`|文字列|ダウンロードする必要がある DITA マップファイルのパス \（AEM リポジトリ内）。|
+|`baseline`|文字列|バージョン管理されたコンテンツを取得するために使用されるベースラインのタイトル。<br> **メモ：** この値では大文字と小文字が区別されます。|
+|flatFS|Boolean|\（オプション\） true に設定した場合、ファイルのフラット構造が ZIP ファイルで返されます。 たとえば、DITA マップが複数のフォルダ内のコンテンツを参照する場合、参照されるすべてのファイルが 1 つのフォルダに取り込まれます。 同じ名前のファイルが存在する場合は、数字のサフィックスを追加して名前を変更します。 すべての参照\（in DITA map and topics\）は、フラットフォルダ構造内のファイルの新しい場所に基づいて更新されるため、自動的に処理されます。 false に設定した場合、フォルダー構造は ZIP ファイルにそのまま保持されます。 DITA マップが複数の場所からファイルを参照する場合、これらすべての場所も ZIP ファイルに作成されます。 ZIP ファイルを復元すると、正確なフォルダー構造が復元先の場所に作成されます。<br> このパラメーターの既定値は false です。|
 
-**戻り値**:zip ファイルのノードは、 `CompletableFuture`クラス。 ユーザーは、引き続き非同期で処理でき、を使用できます。 `.get()`ノードが必要な場合にスレッドをブロックする未来のメソッド。 返される値はエラーで終わる場合もあり、で処理できます。 `.exceptionally()` メソッド。
+**戻り値**
+zip ファイルのノードは `CompletableFuture` クラスにラップされます。 ユーザーは引き続き非同期処理を実行でき、ノードが必要なときに `.get()`method of future を使用してスレッドをブロックできます。 返される値はエラーで終わることもあり、`.exceptionally()` のメソッドで処理できます。
 
-## ベースラインのリストを取得する
+## ベースラインのリストの取得
 
-The ``getBaselineList`` メソッドは、指定された DITA マップに存在するすべてのベースラインのリストを取得します。
+``getBaselineList`` メソッドは、特定の DITA マップに存在するすべてのベースラインのリストを取得します。
 
 **構文**：
 
@@ -100,15 +116,21 @@ public static List<HashMap<String,String>> getBaselineList(
                   throws javax.jcr.RepositoryException
 ```
 
-**パラメーター**: |名前|型|説明| |—|—|—| |`session`|javax.jcr.Session|有効な JCR セッション。| |`sourcePath`|String|ベースライン情報を取得する DITA マップファイルのパス\(AEMリポジトリ内\)。|
+**パラメーター**:
+|名前|種類|説明|
+|----|----|-----------|
+|`session`|javax.jcr.Session|有効な JCR セッション。|
+|`sourcePath`|文字列|ベースライン情報を取得する DITA マップ ファイルのパス \（AEM リポジトリ\）。|
 
-**戻り値**: `HashMap` オブジェクト。 各 `HashMap` オブジェクトは、ベースラインを表し、ベースラインの名前とタイトルを含みます。
+**戻り値**
+`HashMap` オブジェクトのリスト。 各 `HashMap` オブジェクトは、ベースラインを表し、ベースラインの名前とタイトルが含まれます。
 
-**例外**：スロー ``javax.jcr.RepositoryException``.
+**例外**:
+``javax.jcr.RepositoryException`` をスローします。
 
 ## 条件付きプリセットのリストの取得
 
-The ``getConditionalPresetList`` メソッドは、特定の DITA マップに存在するすべての条件付きプリセットのリストを取得します。
+``getConditionalPresetList`` メソッドは、特定の DITA マップに存在するすべての条件付きプリセットのリストを取得します。
 
 **構文**：
 
@@ -119,15 +141,21 @@ public static List<HashMap<String,String>> getConditionalPresetList (
                   throws javax.jcr.RepositoryException
 ```
 
-**パラメーター**: |名前|型|説明| |—|—|—| |`session`|javax.jcr.Session|有効な JCR セッション。| |`sourcePath`|String|条件付きプリセット情報を取得する DITA マップファイルのパス\(AEMリポジトリ内\)。|
+**パラメーター**:
+|名前|種類|説明|
+|----|----|-----------|
+|`session`|javax.jcr.Session|有効な JCR セッション。|
+|`sourcePath`|文字列|条件付きプリセット情報を取得する DITA マップファイルのパス \（AEM リポジトリ内）。|
 
-**戻り値**: `HashMap` オブジェクト。 各 `HashMap` オブジェクトは、条件付きプリセットを表し、条件付きプリセットの名前とタイトルを含みます。
+**戻り値**
+`HashMap` オブジェクトのリスト。 各 `HashMap` オブジェクトは、条件付きプリセットを表し、条件付きプリセットの名前とタイトルが含まれています。
 
-**例外**：スロー ``javax.jcr.RepositoryException``.
+**例外**:
+``javax.jcr.RepositoryException`` をスローします。
 
-## 条件付きプリセットの DITAVAL ファイル情報を取得する
+## 条件付きプリセットの DITAVAL ファイル情報の取得
 
-The ``getDitavalFromConditionalPreset`` メソッドは、指定された DITA マップの条件付きプリセットに対応する DITAVAL ファイルのパスを取得します。
+``getDitavalFromConditionalPreset`` メソッドは、特定の DITA マップの条件付きプリセットに対応する DITAVAL ファイルのパスを取得します。
 
 **構文**：
 
@@ -138,13 +166,19 @@ public static String getDitavalFromConditionalPreset
     String cpName) throws RepositoryException
 ```
 
-**パラメーター**: |名前|型|説明| |—|—|—| |`session`|javax.jcr.Session|有効な JCR セッション。| |`sourcePath`|String|DITAVAL ファイルを取得する DITA マップファイルのパス\(AEMリポジトリ内\)。| |`cpName`|文字列|DITAVAL ファイルを取得する DITA マップ内の条件付きプリセットの名前。|
+**パラメーター**:
+|名前|種類|説明|
+|----|----|-----------|
+|`session`|javax.jcr.Session|有効な JCR セッション。|
+|`sourcePath`|文字列|DITAVAL ファイルを取得する DITA マップファイルのパス \（AEM リポジトリ内）。|
+|`cpName`|文字列|DITAVAL ファイルを取得する DITA マップの条件付きプリセットの名前。|
 
-**戻り値**:DITA マップファイルで定義された条件付きプリセットに対応する DITAVAL ファイルのパス。
+**戻り値**
+DITA マップファイルで定義された条件付きプリセットに対応する DITAVAL ファイルのパス。
 
-## ノードのすべての依存関係を取得する
+## ノードのすべての依存関係の取得
 
-The ``getAllDependencies`` メソッドは、指定されたノードのすべての依存関係を返します。
+``getAllDependencies`` メソッドは、指定されたノードのすべての依存関係を返します。
 
 **構文**：
 
@@ -154,6 +188,10 @@ public static List
 (Node rootNode) throws GuidesApiException
 ```
 
-**パラメーター**: |名前|型|説明| |—|—|—| |`rootNode`|javax.jcr.Node|すべての依存関係を取得するルートノード。|
+**パラメーター**:
+|名前|種類|説明|
+|----|----|-----------|
+|`rootNode`|javax.jcr.Node|すべての依存関係が取得されるルートノード。|
 
-**戻り値**：ルートノードのすべての依存関係を含むノードリスト。
+**戻り値**
+ルートノードのすべての依存関係を含むノードリスト。

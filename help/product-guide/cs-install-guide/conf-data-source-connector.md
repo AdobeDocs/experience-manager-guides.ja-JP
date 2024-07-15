@@ -1,6 +1,6 @@
 ---
 title: データソースコネクタの設定
-description: データソースコネクタの設定方法を説明します
+description: データソースコネクタの設定方法を学ぶ
 exl-id: 6e01098b-53fe-41e0-bffe-9ad056d4a9b3
 feature: Web Editor Configuration
 role: Admin
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # データソースコネクタの設定
 
-AEMガイドは、JIRA、SQL(MySQL、PostgreSQL、Microsoft SQL Server、SQLite、MariaDB、H2DB)、AdobeCommerce およびElasticsearchデータベース用の既製のコネクタを提供します。 既定のインターフェイスを拡張して、他のコネクタを追加することもできます。 次の設定を使用すると、様々なデータソースを簡単に追加できます。 追加したデータソースは、Web エディターで表示できます。
+AEM Guidesには、JIRA、SQL （MySQL、PostgreSQL、Microsoft SQL Server、SQLite、MariaDB、H2DB）、AdobeCommerce およびElasticsearchデータベース用の標準のコネクタが用意されています。 デフォルトのインタフェースを拡張して、ほかのコネクタを追加することもできます。 次の設定を使用すると、様々なデータソースを簡単に追加できます。 追加したデータソースは、web エディターで表示できます。
 
-次の手順を実行して、データソースコネクタを設定し、Web エディターから使用します。
+次の手順を実行してデータソースコネクタを設定し、web エディターから使用します。
 
 ## コネクタの設定
 
-JSON ファイルをアップロードして、標準コネクタを設定できます。 次のサンプル設定ファイルを使用して、JIRA、SQL(MySQL、PostgreSQL、Microsoft SQL Server、SQLite、MariaDB、H2DB)、AdobeCommerce およびElasticsearchデータベース用のコネクタを設定できます。
+JSON ファイルをアップロードすることで、標準のコネクタを設定できます。 次のサンプル設定ファイルを使用して、JIRA、SQL （MySQL、PostgreSQL、Microsoft SQL Server、SQLite、MariaDB、H2DB）、AdobeCommerce およびElasticsearchデータベース用のコネクタを設定できます。
 
-ユーザー名とパスワードを使用した Jira の基本認証のサンプルセットアップファイル：
+ユーザー名とパスワードを使用した Jira の基本認証用のサンプルセットアップファイルを次に示します。
 
 ```
 {
@@ -40,9 +40,9 @@ JSON ファイルをアップロードして、標準コネクタを設定でき
 }
 ```
 
-例：名前を付けて保存 `jira.json`.
+例えば、`jira.json` として保存します。
 
-トークンを使用した Jira の基本認証のサンプルセットアップファイル：
+トークンを使用した Jira の基本認証のサンプル設定ファイルは次のとおりです。
 
 ```
 {
@@ -59,9 +59,9 @@ JSON ファイルをアップロードして、標準コネクタを設定でき
 }
 ```
 
-例：名前を付けて保存 `jira.json`.
+例えば、`jira.json` として保存します。
 
-「Basic」キーワードが含まれるトークンを使用した Jira の基本認証のサンプルセットアップファイルを次に示します。
+Jira の基本認証のサンプル設定ファイルで、トークンには「Basic」キーワードが含まれています。
 
 ```
 {
@@ -78,9 +78,9 @@ JSON ファイルをアップロードして、標準コネクタを設定でき
 }
 ```
 
-例：名前を付けて保存 `jira.json`.
+例えば、`jira.json` として保存します。
 
-MySQL の基本認証用のサンプルセットアップファイル：
+MySql の基本認証の設定例を次に示します。
 
 ```
 {
@@ -99,9 +99,9 @@ MySQL の基本認証用のサンプルセットアップファイル：
 }
 ```
 
-例：名前を付けて保存 `mysql.json`.
+例えば、`mysql.json` として保存します。
 
-PostgreSQL の基本認証用のサンプル設定ファイルを次に示します。
+PostgreSQL の基本認証用の設定例を次に示します。
 
 ```
 {
@@ -120,9 +120,9 @@ PostgreSQL の基本認証用のサンプル設定ファイルを次に示しま
 }
 ```
 
-例：名前を付けて保存 `postgres.json`.
+例えば、`postgres.json` として保存します。
 
-Microsoft SQL Server の基本認証のサンプルセットアップファイル：
+Microsoft SQL Server の基本認証のサンプル設定ファイル：
 
 ```
 {
@@ -141,9 +141,9 @@ Microsoft SQL Server の基本認証のサンプルセットアップファイ�
 }
 ```
 
-例：名前を付けて保存 `mssqlserver.json`.
+例えば、`mssqlserver.json` として保存します。
 
-SQLite の基本認証用のサンプル設定ファイル：
+SQLite の基本認証用のサンプル セットアップ ファイル：
 
 ```
 {
@@ -162,11 +162,11 @@ SQLite の基本認証用のサンプル設定ファイル：
 }
 ```
 
-例：名前を付けて保存 `sqqlite.json`.
+例えば、`sqqlite.json` として保存します。
 
 
 
-H2DB 用のサンプル設定ファイル：
+H2DB のセットアップ ファイルの例は次のとおりです。
 
 ```
 {
@@ -185,11 +185,11 @@ H2DB 用のサンプル設定ファイル：
 }
 ```
 
-例：名前を付けて保存 `sqqlite.json`.
+例えば、`sqqlite.json` として保存します。
 
 
 
-MariaDb の基本認証用のサンプルセットアップファイル：
+MariaDb の基本認証用のサンプル設定ファイル：
 
 ```
 {
@@ -208,10 +208,10 @@ MariaDb の基本認証用のサンプルセットアップファイル：
 }
 ```
 
-例：名前を付けて保存 `mariadb.json`.
+例えば、`mariadb.json` として保存します。
 
 
-Elasticsearchの基本認証用のサンプル設定ファイル：
+Elasticsearchの基本認証用のセットアップファイルのサンプル：
 
 ```
 {
@@ -228,9 +228,9 @@ Elasticsearchの基本認証用のサンプル設定ファイル：
 }
 ```
 
-例：名前を付けて保存 `ES.json`.
+例えば、`ES.json` として保存します。
 
-Elastic Search のクエリには、インデックスとクエリを含める必要があります。
+Elastic Search のクエリには、インデックスとクエリが含まれている必要があります。
 
 ```
 {
@@ -245,7 +245,7 @@ Elastic Search のクエリには、インデックスとクエリを含める�
 
 
 
-AdobeCommerce NoAuth のサンプルセットアップファイル：
+Adobe Commerce NoAuth のサンプル設定ファイル：
 
 ```
 {
@@ -260,27 +260,27 @@ AdobeCommerce NoAuth のサンプルセットアップファイル：
 }
 ```
 
-例：名前を付けて保存 `commerce.json`.
+例えば、`commerce.json` として保存します。
 
 ### コネクタ設定のカスタマイズ
 
-AEMガイドでは、ユーザーのニーズに合わせて設定ファイルの一部の値をカスタマイズできます。
+AEM Guidesでは、ユーザーのニーズに合わせて設定ファイルの一部の値をカスタマイズできます。
 
 | プロパティ名 | 説明 |
 |---|---|
-| configName | ユーザーは、コネクタを識別するのに役立つ設定名を指定できます |
-| templateFolders | テンプレートの取得元フォルダーのリスト |
+| configName | ユーザーは、コネクタの識別に役立つ設定名を指定できます |
+| templateFolders | テンプレートの取得元となるフォルダーのリスト |
 
-その他のフィールドは、コネクタを実行するように選択された config クラスに基づいてカスタマイズされます。
+その他のフィールドは、コネクタを実行するために選択された設定クラスに基づいてカスタマイズされます。
 
-## ファイルをAEMの場所にアップロードします
+## AEMの場所にファイルをアップロードします。
 
-ファイルをAEM Assetsの任意の場所にアップロードします。
+AEM Assetsの任意の場所にファイルをアップロードします。
 
-例：  `/content/dam/jira.json`
+例：`/content/dam/jira.json`
 
 ## REST API を使用した設定の作成
 
-設定は、REST API を使用して登録できます。 詳しくは、 *データソースコネクタを登録する REST API* 『 Adobe Experience Managerガイド』の API リファレンスの節を参照してください。
+REST API を使用して、設定を登録できます。 詳しくは、『Adobe Experience Manager Guides API リファレンス』の *REST API を参照して、データソースコネクタを登録し* ください。
 
-データソースを設定すると、Web エディターのデータソースパネルにコネクタが表示されます。 その後、データソースに接続し、トピックにコンテンツスニペットを挿入できます。 詳しくは、 [データソースからコンテンツスニペットを挿入する](../user-guide/web-editor-content-snippet.md).
+データソースを設定すると、コネクタが Web エディターのデータソース パネルの下に表示されます。 その後、データソースに接続し、トピックにコンテンツスニペットを挿入できます。 詳しくは、[ データソースからコンテンツスニペットを挿入する ](../user-guide/web-editor-content-snippet.md) を参照してください。

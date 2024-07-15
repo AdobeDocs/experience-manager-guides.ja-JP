@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # ネイティブPDF公開
 
-AEM Guides を使用すると、ネイティブPDFの出力生成機能を使用して、個々のトピックまたはマップファイルのPDFを生成できます。 PDF出力の生成時に、PDFテンプレートをカスタマイズして使用できます。 ページレイアウトを作成およびデザインして、必要に応じてPDF出力の様々なセクションを表示できます。
+AEM Guidesでは、ネイティブPDFの出力生成機能を使用して、個々のトピックまたはマップファイルのPDFを生成できます。 PDF出力の生成時に、PDFテンプレートをカスタマイズして使用できます。 ページレイアウトを作成およびデザインして、必要に応じてPDF出力の様々なセクションを表示できます。
 
-また、AEM Guides では、ローカライズされた文字列を定義するのに役立つ言語変数もサポートしています。 また、PDF出力に含まれる様々な要素のスタイルを定義することもできます。 上級ユーザーの場合は、CSS を直接操作して高度なページレイアウトを作成することもできます。
+また、AEM Guidesでは、ローカライズされた文字列を定義するのに役立つ言語変数もサポートされています。 また、PDF出力に含まれる様々な要素のスタイルを定義することもできます。 上級ユーザーの場合は、CSS を直接操作して高度なページレイアウトを作成することもできます。
 
 
 詳しくは、以下を参照してください。
@@ -26,10 +26,10 @@ AEM Guides を使用すると、ネイティブPDFの出力生成機能を使用
 * [言語変数のサポート](../native-pdf/native-pdf-language-variables.md)
 * [PDF出力の変数](../native-pdf/native-pdf-variables.md)
 * [PDF出力へのバーコードの追加](../native-pdf/add-barcode.md)
-* 共通のコンテンツスタイル {#content-styles}
+* Common content styles {#content-styles}
    * [共通のコンテンツスタイルの使用](../native-pdf/stylesheet.md)
    * [カスタム変更バーのスタイルを使用する](../native-pdf/change-bar-style.md)
    * [目次エントリとトピックコンテンツにカスタムスタイルを適用](../native-pdf/custom-style-toc.md)
    * [PDF出力へのカスタムブックマークの追加](../native-pdf/add-custom-bookmark.md)
-   * [JavaScript を使用してコンテンツやスタイルを操作する](../native-pdf/use-javascript-content-style.md)
+   * [JavaScriptを使用してコンテンツやスタイルを操作する](../native-pdf/use-javascript-content-style.md)
    * [脚注でのカスタムスタイルの使用](../native-pdf/footnote-number-style.md)

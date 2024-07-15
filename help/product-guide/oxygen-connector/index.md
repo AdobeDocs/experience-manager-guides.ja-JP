@@ -5,8 +5,8 @@ source-wordcount: '15'
 ht-degree: 6%
 
 ---
-# Oxygen Plugin for Adobe Experience Manager Guides
+# Adobe Experience Manager Guides用 Oxygen プラグイン
 
 - [免責事項](rebranding-disclaimer.md)
-- [Oxygen Plugin for Adobe Experience Manager Guides](use-aem-connector.md)
+- [Adobe Experience Manager Guides用 Oxygen プラグイン](use-aem-connector.md)
 

@@ -1,20 +1,20 @@
 ---
-title: トップバーとツールバー
-description: トップバーとツールバーのカスタマイズ
+title: 上部バーとツールバー
+description: 上部バーとツールバーのカスタマイズ
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 7065c9b8-67ac-4f6d-8124-daa547f2dc3b
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 0%
 
 ---
 
+# 上部バーとツールバーのカスタマイズ
 
-# トップバーとツールバーのカスタマイズ
+`topbar` と `toolbar` をカスタマイズするには、ID `topbar` または `toolbar` を使用し、同じビュー、コントローラー構造に従います。
 
-をカスタマイズするには `topbar` および `toolbar`を使用する場合、次の id を使用します。 `topbar` または `toolbar`、同じビュー、コントローラ構造に従います。
-
-次に、ツールバーのカスタマイズの簡単な例を示します。 ここで、 `Insert Numbered List` ボタンをクリックし、 `Insert Paragraph` ボタンを使用し、カスタマイズされたオンクリックハンドラーを使用してアドビのコンポーネントに追加します。
+次に、ツールバーのカスタマイズの簡単な例を示します。 ここでは、「`Insert Numbered List`」ボタンを削除し、カスタマイズされたオンクリックハンドラーを使用して、「`Insert Paragraph`」ボタンを独自のコンポーネントに置き換えました。
 
 ```js title = toolbar_customisation.js
 const toolbarExtend = {

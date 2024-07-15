@@ -14,17 +14,17 @@ ht-degree: 8%
 
 # ダウンロードとインストール {#id1645E0O04MK}
 
-2024.2.0 リリースより、Experience Managerガイドは、Experience Manageras a Cloud Serviceの自動アドオンとしてのみ使用できます。
+2024.2.0 リリース以降、Experience Manager Guidesは、Experience Manageras a Cloud Service向けの自動アドオンとしてのみ使用できます。
 
-2023 年 12 月以前のリリースを使用している場合は、Adobe Experience Managerガイドを GitHub リポジトリからダウンロードしてインストールできます。
+2023 年 12 月以前のリリースを使用している場合は、GitHub リポジトリーからAdobe Experience Manager Guidesをダウンロードしてインストールできます。
 
 
-- **[AEM Guide モジュールのデプロイ](download-install-dxml-first-time.md)**
+- **[AEM Guides モジュールのデプロイ](download-install-dxml-first-time.md)**
 
-- **[Dispatcher の設定](download-install-configure-dispatcher.md)**
+- **[Dispatcherの設定](download-install-configure-dispatcher.md)**
 
-- **[AEM Guide のインストールの確認](download-install-verify-dxml-installation.md)**
+- **[AEM Guidesのインストールの確認](download-install-verify-dxml-installation.md)**
 
 - **[設定の上書き](download-install-additional-config-override.md)**
 
-- **[Recommendations （パフォーマンス最適化）](download-install-recommend-perf-optimiz.md)**
+- **[パフォーマンス最適化のためのRecommendations](download-install-recommend-perf-optimiz.md)**

@@ -1,6 +1,6 @@
 ---
-title: 条件付き属性を操作する REST API
-description: 条件付き属性を操作する REST API について説明します。
+title: 条件付き属性を操作するための REST API
+description: 条件付き属性を操作するための REST API について説明します
 exl-id: 1f0e023a-422c-47b9-917f-b0d80090471c
 feature: Rest API Conditional Attributes
 role: Developer
@@ -12,19 +12,23 @@ ht-degree: 0%
 
 ---
 
-# 条件付き属性を操作する REST API {#id175UB30E05Z}
+# 条件付き属性を操作するための REST API {#id175UB30E05Z}
 
-次の REST API を使用して、フォルダープロファイルに条件属性を追加できます。
+次の REST API を使用すると、フォルダープロファイルに条件付き属性を追加できます。
 
 ## フォルダーレベルのプロファイルへの条件付き属性の追加
 
-特定のPOSTーレベルのプロファイルに条件付き属性を追加するフォルダーメソッド。
+特定のフォルダーレベルのプロファイルに条件付き属性をPOSTする追加メソッド。
 
 **リクエスト URL**:\
-http://*&lt;aem-guides-server>*: *&lt;port-number>*/bin/fmdita/folderprofiles
+http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/fmdita/folderprofiles
 
 **パラメーター**:\
-|名前|型|必須|説明| |—|—|—|—| |`:operation`|String|はい|呼び出される操作の名前。 このパラメーターの値は、 ``ADDATTRIBUTEPROFILES``. <br> **注意：** 値では大文字と小文字が区別されません。| |`profilename`|String|はい|条件付き属性を追加する必要があるフォルダーレベルのプロファイルの名前を表示します。| |`conditionalprofiles`|JSON 配列|はい|条件付き属性の名前と値で構成される JSON 配列。 次のコードスニペットの例は、2 つの属性を持つ JSON 配列を示しています。 `platform` および `product` 複数の値が割り当てられている。|
+|名前|種類|必須|説明|
+|----|----|--------|-----------|
+|`:operation`|String|Yes|呼び出す操作の名前。 このパラメーターの値は ``ADDATTRIBUTEPROFILES`` です。<br> **メモ：** この値では、大文字と小文字が区別されません。|
+|`profilename`|文字列|Yes|条件属性を追加する必要があるフォルダーレベルのプロファイルの表示名。|
+|`conditionalprofiles`|JSON 配列|Yes|条件付き属性名と値で構成される JSON 配列。 次のコードスニペットの例は、2 つの属性（`platform` と `product`）が割り当てられた JSON 配列を示しています。|
 
 ```JSON
 [  {    name: "platform",    
@@ -42,4 +46,4 @@ http://*&lt;aem-guides-server>*: *&lt;port-number>*/bin/fmdita/folderprofiles
 ```
 
 **応答値**:\
-HTTP 200 \(Successful\) 応答を返します。
+HTTP 200 \（成功\）応答を返します。

@@ -1,6 +1,6 @@
 ---
-title: AEM Guide のインストールの確認
-description: AEM Guide のインストールを確認する方法を説明します。
+title: AEM Guidesのインストールの確認
+description: AEM Guidesのインストールを確認する方法を学ぶ
 exl-id: 4e566c57-a522-4605-bc70-47155f20b429
 feature: Installation
 role: Admin
@@ -12,21 +12,21 @@ ht-degree: 0%
 
 ---
 
-# AEM Guide のインストールの確認 {#id213BD030FBE}
+# AEM Guidesのインストールの確認 {#id213BD030FBE}
 
-AEMガイドをインストールしたら、インストールが成功したかどうかを確認する必要があります。 次の手順を実行して、インストールを検証します。
+AEM Guidesをインストールしたら、インストールが成功したかどうかを確認する必要があります。 インストールを確認するには、次の手順を実行します。
 
-1. Cloud Serviceの開発者コンソールにアクセスします。
+1. Cloud ServiceのDeveloper Consoleにアクセスします。
 
-   開発者コンソールへのアクセスについて詳しくは、 [開発者コンソールへのアクセス](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=ja) (AEMドキュメント )。
+   Developer Consoleへのアクセスについて詳しくは、AEM ドキュメントの [Developer Console アクセス ](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=ja) を参照してください。
 
-1. AEMの OSGi バンドルのリストにアクセスします。
+1. AEMで OSGi バンドルのリストにアクセスします。
 
-   バンドルへのアクセスについて詳しくは、 [バンドル](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=en#bundles) (AEMドキュメント )。
+   バンドルへのアクセスについて詳しくは、AEM ドキュメントの [ バンドル ](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=en#bundles) を参照してください。
 
 1. バンドルのリストで fmdita を検索し、そのステータスを確認します。
 
-   ステータスが表示されます *アクティブ* バンドルが正常にデプロイされた場合。 いずれかのバンドルのステータスが「Active」でない場合は、AEMログを調べて、インストールに関する問題をトラブルシューティングします。
+   正常にデプロイされたバンドルのステータスが *アクティブ* になります。 バンドルのステータスがアクティブでない場合は、AEM ログを確認してインストールの問題のトラブルシューティングを行ってください。
 
 
-**親トピック：**[&#x200B;ダウンロードとインストール](download-install.md)
+**親トピック：**[ ダウンロードとインストール ](download-install.md)

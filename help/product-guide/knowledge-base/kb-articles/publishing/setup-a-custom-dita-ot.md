@@ -1,6 +1,6 @@
 ---
-title: でのカスタム DITA-OT の設定 [!DNL AEM Guides]
-description: でカスタム DITA-OT を設定する方法を説明します。 [!DNL Adobe Experience Manager Guides]
+title: ' [!DNL AEM Guides] でカスタム DITA-OT を設定します。'
+description: ' [!DNL Adobe Experience Manager Guides] でカスタム DITA-OT を設定する方法を説明します。'
 role: Admin
 exl-id: f479c2cf-5b8b-4517-be97-81303468007a
 feature: DITA-OT Configuration
@@ -11,20 +11,20 @@ ht-degree: 0%
 
 ---
 
-# でのカスタム DITA-OT の設定 [!DNL AEM Guides] (AEMの )
+# [!DNL AEM Guides] for AEMでのカスタム DITA-OT の設定
 
-カスタム DITA-OT を追加する手順については、の節を参照してください。 _カスタム DITA-OT プラグインの使用_ の _インストールおよび設定ガイド_.
+カスタム DITA-OT を追加する手順については、『インストールと設定ガイド _の節_ カスタム DITA-OT プラグインの使用 _を参照してください_。
 
-手順の概要は次のとおりです。
+大まかに言えば、手順は次のとおりです。
 
 + 基本的な DITA-OT の取得
-   + 標準搭載の DITA-OT のコピーを [!DNL AEM Guides]、パスからダウンロード `/etc/fmdita/dita_resources/DITA-OT.zip`
-   + 別のバージョンを入手する場合は、 [dita-ot repo](https://www.dita-ot.org/download)
-+ DITA-OT に「いいね！」を変更 [新しいプラグインの追加](https://www.dita-ot.org/dev/topics/plugins-installing.html)、または既存のプラグインのカスタマイズ（以下の関連リンクの節を参照）
-+ アップロード `DITA-OT.zip` 受信先 `/apps/<project-folder>/dita_resources` （カスタムプロジェクトフォルダーの作成が推奨される方法です）。
-+ を使用した DITA プロファイルの追加 **[!UICONTROL ツール]** > **[!UICONTROL ガイド]** > **[!UICONTROL DITA プロファイル]** （カスタム DITA-OT がアップロードされた DITA-OT パスを使用します。下のスクリーンショットを参照してください）。
-  ![DITA プロファイル](assets/dita-profile.png)
+   + 標準提供の DITA-OT のコピーを [!DNL AEM Guides] から取得する場合は、パス `/etc/fmdita/dita_resources/DITA-OT.zip` からダウンロードします
+   + 別のバージョンを入手したい場合は、[dita-ot repo からダウンロードしてください ](https://www.dita-ot.org/download)
++ [ 新しいプラグインの追加 ](https://www.dita-ot.org/dev/topics/plugins-installing.html)、既存のプラグインのカスタマイズなど、DITA-OT への変更を行います（以下の関連リンクの節の例を参照）。
++ 受信 `DITA-OT.zip` を `/apps/<project-folder>/dita_resources` にアップロードします（カスタムプロジェクトフォルダーの作成をお勧めします）
++ **[!UICONTROL Tools]** > **[!UICONTROL Guides]** > **[!UICONTROL DITA Profiles]** を使用して DITA プロファイルを追加します（カスタム DITA-OT がアップロードされる DITA-OT パスを使用します。以下のスクリーンショットを参照）。
+  ![DITA プロファイル ](assets/dita-profile.png)
 
 >[!MORELIKETHIS]
 >
->+ [DITA-OT プラグインのサンプルのカスタマイズ](https://www.dita-ot.org/dev/topics/pdf-customization.html)
+>+ [DITA-OT プラグインサンプルのカスタマイズ ](https://www.dita-ot.org/dev/topics/pdf-customization.html)

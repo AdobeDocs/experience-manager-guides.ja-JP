@@ -1,6 +1,6 @@
 ---
 title: クエリの LimitReads 数の設定
-description: クエリの LimitReads の数を設定する方法を説明します
+description: クエリの LimitReads 数を設定する方法を説明します
 exl-id: f6010cc3-5fec-4ec7-adf7-5ad3c9bd8879
 feature: Web Editor Configuration
 role: Admin
@@ -14,23 +14,23 @@ ht-degree: 2%
 
 # クエリの LimitReads 数の設定 {#id231RC0HL0ID}
 
-クエリが一度に読み取るノード数を増やすには、次の手順を実行します。
+クエリで一度に読み取れるノードの数を増やすには、次の手順を実行します。
 
-1. Adobe Experience Manager Web コンソールの JMX ページを開きます。
+1. Adobe Experience Manager web コンソール JMX ページを開きます。
 
-   設定ページにアクセスするデフォルトの URL は次のとおりです。
+   設定ページにアクセスするためのデフォルトの URL は次のとおりです。
 
    ```http
    http://<server name>:<port>/system/console/jmx
    ```
 
-1. を検索してクリックします。 **QueryEngineSettings**.
+1. **QueryEngineSettings** を検索してクリックします。
 
-1. の属性値を変更 **LimitReads** 属性。
+1. **LimitReads** 属性の属性値を変更します。
 
 1. 「**保存**」をクリックします。
 
 
-この属性値を増やすと、大きな DITA マップ用のレポートを生成できます。
+この属性値を増やすと、より大きな DITA マップのレポートを生成できます。
 
-**親トピック：**[ Web エディタのカスタマイズ](conf-web-editor.md)
+**親トピック：**[ Web エディタのカスタマイズ ](conf-web-editor.md)

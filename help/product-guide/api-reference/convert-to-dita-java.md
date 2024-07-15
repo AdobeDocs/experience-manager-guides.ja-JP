@@ -1,6 +1,6 @@
 ---
 title: 変換ワークフロー用の Java ベースの API
-description: コンバージョンワークフロー用の Java ベースの API について説明します。
+description: 変換ワークフロー用の Java ベースの API について説明します
 exl-id: 807d9ffa-23e3-476c-992d-c1f495233892
 feature: Java-Based API Conversion Workflow
 role: Developer
@@ -14,30 +14,30 @@ ht-degree: 0%
 
 # 変換ワークフロー用の Java ベースの API {#id175UB30E05Z}
 
-次の Java ベースの API を使用して、HTMLおよび Word 文書を DITA 形式に変換できます。 これらの API は、バンドルの形式で使用できます。 これらの API を使用するには、コードにこのバンドルを含める必要があります。
+次の Java ベースの API を使用すると、HTML文書と Word 文書を DITA 形式に変換できます。 これらの API は、バンドルの形式で使用できます。 これらの API を使用するには、コードにこのバンドルを含める必要があります。
 
 **バンドルの詳細**:
 
-- グループ ID : **com.adobe.fmdita**
+- グループ ID:**com.adobe.fmdita**
 
 - アーティファクト ID: **api**
 
-- バージョン： **3.2**
+- バージョン：**3.2**
 
-- パッケージ： **com.adobe.fmdita.api.conversion**
+- パッケージ：**com.adobe.fmdita.api.conversion**
 
-- クラスの詳細：
+- クラス詳細：
 
   ```JAVA
   public class ConversionUtils extends Object
   ```
 
-  The **ConversionUtils** クラスには、HTMLおよび Word 文書を DITA 形式に変換するメソッドが含まれます。
+  **ConversionUtils** クラスには、HTML文書と Word 文書を DITA 形式に変換するメソッドが含まれています。
 
 
-## 変換HTML文書
+## HTMLドキュメントを変換
 
-The `convertHtmlToDita` メソッドは、HTML文書を DITA 形式に変換します。
+`convertHtmlToDita` メソッドは、HTML文書を DITA フォーマットに変換します。
 
 **構文**：
 
@@ -49,13 +49,20 @@ public static void convertHtmlToDita(Session session,
                   throws RepositoryException, WorkflowException
 ```
 
-**パラメーター**: |名前|型|説明| |—|—|—| |`session`|javax.jcr.Session|有効な JCR セッション。| |`inputFile`|String|AEMリポジトリ内のソースHTMLファイルの絶対パス。| |`destPath`|String|変換された DITA ファイルを保存する宛先の場所の絶対パス。| |`createRev`|Boolean|ファイルのリビジョンを作成するかどうかを指定します\( `true`\) 指定された宛先でのみ\( `false`\) です。 これは、変換先の場所に、変換されたファイルの既存のバージョンが含まれている場合にのみ考慮されます。|
+**パラメーター**:
+|名前|種類|説明|
+|----|----|-----------|
+|`session`|javax.jcr.Session|有効な JCR セッション。|
+|`inputFile`|String|AEM リポジトリ内のソースHTMLファイルの絶対パス。|
+|`destPath`|文字列|変換された DITA ファイルを保存する保存先の絶対パス。|
+|`createRev`|ブール値|ファイルのリビジョンを指定された宛先に作成するかどうかを指定します\（`true`\）。\（`false`\） これは、変換後のファイルの既存のバージョンが変換先の場所に含まれている場合にのみ考慮されます。|
 
-**例外**：スロー `RepositoryException`.
+**例外**:
+`RepositoryException` をスローします。
 
-## Word 文書の変換
+## Word ドキュメントの変換
 
-The ``convertWordToDita`` メソッドは、Word 文書を DITA 形式に変換します。
+``convertWordToDita`` メソッドは、Word 文書を DITA 形式に変換します。
 
 **構文**：
 
@@ -68,6 +75,14 @@ public static void convertWordToDita(Session session,
                   throws RepositoryException, WorkflowException
 ```
 
-**パラメーター**: |名前|型|説明| |—|—|—| |`session`|javax.jcr.Session|有効な JCR セッション。| |`inputFile`|String|AEMリポジトリ内のソース Word ファイルの絶対パス。| |`destPath`|String|変換された DITA ファイルを保存する宛先の場所の絶対パス。| |`style2tagMap`|String|変換に使用するスタイルマッピングファイルの絶対パス。| |`createRev`|Boolean|ファイルのリビジョンを作成するかどうかを指定します\( `true`\) 指定された宛先でのみ\( `false`\) です。 これは、変換先の場所に、変換されたファイルの既存のバージョンが含まれている場合にのみ考慮されます。|
+**パラメーター**:
+|名前|種類|説明|
+|----|----|-----------|
+|`session`|javax.jcr.Session|有効な JCR セッション。|
+|`inputFile`|String|AEM リポジトリ内のソース Word ファイルの絶対パス。|
+|`destPath`|文字列|変換された DITA ファイルを保存する保存先の絶対パス。|
+|`style2tagMap`|String|変換に使用するスタイル マッピング ファイルの絶対パス。|
+|`createRev`|ブール値|ファイルのリビジョンを指定された宛先に作成するかどうかを指定します\（`true`\）。\（`false`\） これは、変換後のファイルの既存のバージョンが変換先の場所に含まれている場合にのみ考慮されます。|
 
-**例外**：スロー `RepositoryException`.
+**例外**:
+`RepositoryException` をスローします。

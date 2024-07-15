@@ -1,6 +1,6 @@
 ---
-title: ベースラインとラベルを操作する Java ベースの API
-description: ベースラインとラベルを操作する Java ベースの API について説明します。
+title: ベースラインとラベルを操作するための Java ベースの API
+description: ベースラインとラベルで動作する Java ベースの API について学ぶ
 exl-id: 0e2ba1bb-f5bf-44da-848a-a55385460c83
 feature: Java-Based API Baseline
 role: Developer
@@ -12,36 +12,36 @@ ht-degree: 0%
 
 ---
 
-# ベースラインとラベルを操作する Java ベースの API {#id175UB30E05Z}
+# ベースラインとラベルを操作するための Java ベースの API {#id175UB30E05Z}
 
 次の Java ベースの API を使用すると、ベースラインを作成し、ベースライン内のファイルにラベルを追加できます。 これらの API は、バンドルの形式で使用できます。 これらの API を使用するには、コードにこのバンドルを含める必要があります。
 
-バンドルの詳細：
+バンドルの詳細
 
-- グループ ID : **com.adobe.fmdita**
+- グループ ID:**com.adobe.fmdita**
 
 - アーティファクト ID: **api**
 
-- バージョン： **3.5**
+- バージョン：**3.5**
 
-- パッケージ： **com.adobe.fmdita.api.baselines**
+- パッケージ：**com.adobe.fmdita.api.baselines**
 
-- クラスの詳細：
+- クラス詳細：
 
   ```JAVA
   public class BaselineUtils extends Object
   ```
 
-  The **BaselineUtils** クラスには、ベースラインを作成し、ベースライン内のファイルにラベルを適用するメソッドが含まれます。
+  **BaselineUtils** クラスには、ベースラインを作成し、ベースライン内のファイルにラベルを適用するためのメソッドが含まれています。
 
 
-## ベースラインを作成
+## ベースラインの作成
 
-ベースライン作成メソッドには 2 つのバージョンがあります。1 つはXML Documentationソリューションバージョン 3.5 用、もう 1 つは 3.5 リリースより前のバージョン用です（3.4、3.3 および 3.2\のバージョンを含む）。 バージョン 3.5 API を使用すると、ラベル、直接参照、間接参照をマップファイル内に使用してベースラインを作成できます。
+ベースラインの作成メソッドには、XML Documentation ソリューションバージョン 3.5 用と、3.5 リリースより前のバージョン \（バージョン 3.4、3.3、および 3.2\を含む）用の 2 つのバージョンがあります。 バージョン 3.5 API では、マップ ファイル内のラベル、直接参照、間接参照を使用してベースラインを作成できます。
 
-他のバージョンの API では、日時を使用してベースラインを作成します。 この API は、XML Documentationソリューション 3.4、3.3 または 3.2 を使用するシステムとの下位互換性を確保するために保持されます。
+他のバージョンの API では日時を使用してベースラインを作成します。 この API は、XML Documentation ソリューション 3.4、3.3 または 3.2 を使用しているシステムとの下位互換性を保つために保持されています。
 
-**構文\（バージョン 3.5 の場合\）**:
+**構文\（バージョン 3.5\用）**:
 
 ```JAVA
 public static String createBaseline(Session session, 
@@ -53,13 +53,23 @@ LinkedHashMap indirectContext)
 throws GuidesApiException
 ```
 
-**パラメーター**: |名前|型|説明| |—|—|—| |`session`|javax.jcr.Session|有効な JCR セッション。 ユーザーセッションには、DITA マップの読み取り権限と書き込み権限の両方が必要です。また、ベースラインに含まれるすべての参照ファイルの読み取り権限が必要です。| |`sourcePath`|String|AEMリポジトリ内の DITA マップファイルの絶対パス。| |`baselineTitle`|String|ベースラインの一意のタイトル。| |`label`|String|指定されたラベルが適用されているトピックのバージョンを選択します。| |`directContext`|LinkedHashMap&lt;string object=&quot;&quot;>|直接参照されるトピック「(content)」が選択されている設定に基づき、マップでの順序に従ってバージョンが解決されます。 <br> マップのすべてのキーで反復処理が実行された後にバージョンが見つからない場合、ベースライン作成プロセスは失敗します。 <br> HashMap が空の場合（デフォルトでは空で null マップではなく空のマップを送信）、デフォルトでは次のように設定されます。 <br>`directContext.put("label", label);` <br> `directContext.put("latest", true);` <br> ベースライン作成で特定のラベルのバージョンのみを選択し、そのようなバージョンが存在しない場合は失敗する場合は、 `label` キーと、ベースラインを作成するラベルを指定します。| |`indirectContext`|LinkedHashMap&lt;string object=&quot;&quot;>|間接的に参照されるトピック「（参照されるコンテンツ）」が選択されている設定に基づいて、マップでの順序に従ってバージョンが解決されます。 <br> マップのすべてのキーで反復処理が実行された後にバージョンが見つからない場合、ベースライン作成プロセスは失敗します。 <br> HashMap が空の場合（デフォルトでは空で null マップではなく空のマップを送信）、デフォルトでは次のように設定されます。 <br>`indirectContext.put("label", label);` <br>`indirectContext.put "pickAutomatically", null);` <br> バージョンを自動的に取得する代わりに最新のバージョンにする場合は、次を置き換えます。 <br>`indirectContext.put("pickAutomatically", null);` <br> _次を使用：_ <br>`indirectContext.put("latest", true)`|
+**パラメーター**:
+|名前|種類|説明|
+|----|----|-----------|
+|`session`|javax.jcr.Session|有効な JCR セッション。 ユーザーセッションには、DITA マップに対する読み取りおよび書き込みパーミッションと、ベースラインに含まれるすべての参照ファイルに対する読み取りパーミッションの両方が必要です。|
+|`sourcePath`|文字列|AEM リポジトリ内の DITA マップファイルの絶対パス。|
+|`baselineTitle`|文字列|ベースラインの一意のタイトル。|
+|`label`|文字列|指定したラベルが適用されているトピックのバージョンを選択します。|
+|`directContext`|LinkedHashMap&lt;String, Object\>|直接参照されるトピック \（content\）が選択された設定に基づいて、バージョンを解決するためにマップに記載されている順序に従います。 <br> マップのすべてのキーを反復処理した後にバージョンが見つからない場合、ベースラインの作成プロセスは失敗します。 <br> HashMap が空の\（send empty and not null map for default\）の場合、デフォルトでは <br>`directContext.put("label", label);` <br> と入力されます `directContext.put("latest", true);` <br> ベースラインの作成で特定のラベルのバージョンのみを選択し、そのバージョンが存在しない場合に失敗する場合は、ベースラインを作成するラベルと `label` キーを入力します。|
+|`indirectContext`|LinkedHashMap&lt;String, Object\>|間接的に参照されるトピック \（参照コンテンツ\）が選択された設定に基づいて、バージョンを解決するためにマップに記述されている順序に従います。 <br> マップのすべてのキーを反復処理した後にバージョンが見つからない場合、ベースラインの作成プロセスは失敗します。 <br> HashMap が空の\（send empty and not null map for default\）の場合、デフォルトでは、次のように入力されます。<br>`indirectContext.put("label", label);` <br>`indirectContext.put "pickAutomatically", null);` <br> バージョンを自動的に取得する代わりに最新バージョンにする場合は、<br>`indirectContext.put("pickAutomatically", null);` <br> を置換します。 _with:_ <br>`indirectContext.put("latest", true)`|
 
-**戻り値**：ベースラインの名前（JCR リポジトリ内のベースラインのノード名）。 DITA マップのベースラインページで、新しく作成したベースラインのタイトルがユーザーに表示されます。
+**戻り値**
+ベースラインの名前（JCR リポジトリのベースラインのノード名）。 新しく作成されたベースラインのタイトルは、DITA マップの「ベースライン」ページでユーザーに表示されます。
 
-**例外**：スロー ``ItemExistExceptiom`` 同じタイトルのベースラインが既に存在する場合。
+**例外**:
+同じタイトルのベースラインが既に存在する場合、``ItemExistExceptiom`` をスローします。
 
-**構文\（バージョン 3.4、3.3、3.2\の場合）**
+**構文\（バージョン 3.4、3.3、3.2 の場合）**
 
 ```JAVA
 public static String createBaseline
@@ -69,15 +79,23 @@ String baselineTitle,
 Date versionDate) throws GuidesApiException
 ```
 
-**パラメーター**: |名前|型|説明| |—|—|—| |`session`|javax.jcr.Session|有効な JCR セッション。 ユーザーセッションには、DITA マップの読み取り権限と書き込み権限の両方が必要です。また、ベースラインに含まれるすべての参照ファイルの読み取り権限が必要です。| |``sourcePath``|String|AEMリポジトリ内の DITA マップファイルの絶対パス。| |`baselineTitle`|String|ベースラインの一意のタイトル。| |`versionDate`|日付|ベースラインは、この日付と同様に、トピックのバージョン（DITA マップから直接参照）を使用して作成されます。 日付を `d-MM-yyyy H:mm` 形式|
+**パラメーター**:
+|名前|種類|説明|
+|----|----|-----------|
+|`session`|javax.jcr.Session|有効な JCR セッション。 ユーザーセッションには、DITA マップに対する読み取りおよび書き込みパーミッションと、ベースラインに含まれるすべての参照ファイルに対する読み取りパーミッションの両方が必要です。|
+|``sourcePath``|文字列|AEM リポジトリ内の DITA マップファイルの絶対パス。|
+|`baselineTitle`|文字列|ベースラインの一意のタイトル。|
+|`versionDate`|日付|ベースラインは、この日付と同じように、トピックのバージョン\（DITA マップから直接参照\）を使用して作成されます。 日付を `d-MM-yyyy H:mm` 形式で指定します。|
 
-**戻り値**：ベースラインの名前（JCR リポジトリ内のベースラインのノード名）。 DITA マップのベースラインページで、新しく作成したベースラインのタイトルがユーザーに表示されます。
+**戻り値**
+ベースラインの名前（JCR リポジトリのベースラインのノード名）。 新しく作成されたベースラインのタイトルは、DITA マップの「ベースライン」ページでユーザーに表示されます。
 
-**例外**：スロー ``RepositoryException.``
+**例外**:
+``RepositoryException.`` をスロー
 
 ## ラベルの適用
 
-The ``applyLabel`` メソッドは、ベースライン内のファイルに 1 つ以上のラベルを適用します。
+``applyLabel`` メソッドは、ベースラインのファイルに 1 つまたは複数のラベルを適用します。
 
 **構文**：
 
@@ -89,13 +107,20 @@ public static void applyLabel(Session session,
                   throws RepositoryException, WorkflowException, Exception
 ```
 
-**パラメーター**: |名前|型|説明| |—|—|—| |`session`|javax.jcr.Session|有効な JCR セッション。| |`sourcePath`|String|AEMリポジトリ内の DITA マップファイルの絶対パス。| |``baselineName``|String|ラベルを適用するベースラインノードの名前。 ベースラインノードの名前を取得するには、 [\#id185NFF0085Z](#id185NFF0085Z) メソッドを使用するか、CRXDE で DITA マップのベースラインノードを確認します。<br> **注意：** ラベルは、ベースライン内のマップファイルから直接参照されるファイルのバージョンに適用されます。| |`label`|String|ベースライン内のファイルに適用されるラベル。 ラベルに次の文字が含まれていないことを確認してください： &amp;sol; &amp;comma; &amp;colon; &amp;comma; &amp;lbrack; &amp;comma; &amp;rbrack; &amp;comma; &amp;vert; &amp;comma; &amp;ast; <br> 複数のラベルを設定する場合は、ラベルをコンマで区切ります（例：Label1, Label2）。|
+**パラメーター**:
+|名前|種類|説明|
+|----|----|-----------|
+|`session`|javax.jcr.Session|有効な JCR セッション。|
+|`sourcePath`|文字列|AEM リポジトリ内の DITA マップファイルの絶対パス。|
+|``baselineName``|文字列|ラベルを適用する必要があるベースライン ノードの名前。 ベースラインノードの名前を取得するには、[\#id185NFF0085Z](#id185NFF0085Z) メソッドを使用するか、CRXDE<br> で DITA マップのベースラインノードを確認します。 **メモ：** ラベルは、ベースラインのマップファイルから直接参照されるファイルのバージョンに適用されます。|
+|`label`|文字列|ベースラインのファイルに適用されるラベル。 ラベルに次の文字が含まれていないことを確認します：&amp;sol; &amp;comma; &amp;colon; &amp;comma; &amp;lbrack; &amp;comma; rbrack; &amp;comma; &amp;vert; &amp;comma;ast; <br> 複数のラベルを設定する場合は、ラベルをコンマで区切ります（例：Label1, Label2）。
 
-**例外**：スロー `RepositoryException`.
+**例外**:
+`RepositoryException` をスローします。
 
 ## ラベルを削除
 
-The ``deleteLabel`` メソッドは、ベースライン内のファイルから 1 つ以上のラベルを削除します。
+``deleteLabel`` メソッドは、ベースラインのファイルから 1 つまたは複数のラベルを削除します。
 
 **構文**：
 
@@ -107,8 +132,16 @@ String baselineName,
 String label) throws GuidesApiException
 ```
 
-**パラメーター**: |名前|型|説明| |—|—|—| |`session`|javax.jcr.Session|有効な JCR セッション。| |`sourcePath`|String|AEMリポジトリ内の DITA マップファイルの絶対パス。| |`baselineName`|文字列|ラベルを削除する基準線の名前。 <br> **注意：** ラベルは、ベースライン内のマップファイルから直接参照されるファイルのバージョンから削除されます。| |`label`|String|ベースライン内のファイルから削除するラベル。 <br> 複数のラベルを削除する場合は、ラベルをコンマで区切ります（例：Label1、Label2）。|
+**パラメーター**:
+|名前|種類|説明|
+|----|----|-----------|
+|`session`|javax.jcr.Session|有効な JCR セッション。|
+|`sourcePath`|文字列|AEM リポジトリ内の DITA マップファイルの絶対パス。|
+|`baselineName`|文字列|ラベルを削除する必要があるベースラインの名前。<br> **メモ：** ラベルは、ベースラインのマップファイルから直接参照されるファイルのバージョンから削除されます。|
+|`label`|文字列|ベースライン内のファイルから削除するラベル。 <br> 複数のラベルを削除する場合は、コンマでラベルを区切ります。例：Label1, Label2。|
 
-**戻り値**：を使用したマップ *key:value* 一対の `path:deletedlabels` ベースライン内のすべてのファイルに対して。
+**戻り値**
+ベースライン内のすべてのファイルの `path:deletedlabels` の *key:value* ペアを持つマップ。
 
-**例外**：スロー ``RepositoryException`, `VersionException`, `Exception``.
+**例外**:
+``RepositoryException`, `VersionException`, `Exception`` をスローします。

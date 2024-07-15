@@ -1,23 +1,24 @@
 ---
-title: 一括アクティベーション完了イベントハンドラー
-description: 一括アクティベーション完了イベントハンドラーの詳細を説明します
+title: 一括有効化の完了イベントハンドラー
+description: 一括アクティベーション完了イベントハンドラーについて学ぶ
 feature: Bulk Activation Event Handler
 role: Developer
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+exl-id: 08b153d7-3d13-4804-9e3e-38790dbea1f3
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '185'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# 一括アクティベーション完了イベントハンドラー
+# 一括有効化の完了イベントハンドラー
 
-Experience Managerガイドの公開 `com/adobe/fmdita/replication/complete` イベント。一括アクティベーションプロセスの完了後に操作を実行するために使用されます。 このイベントは、一括アクティベーションプロセスが完了するたびにトリガーされます。 例えば、マップのAEMサイトプリセットの一括アクティベーションを実行した場合、このイベントはアクティベーションプロセスが終了した後に呼び出されます。
+Experience Manager Guidesは `com/adobe/fmdita/replication/complete` 一括有効化プロセスの完了後、操作を実行するために使用されるイベントを公開します。 このイベントは、一括アクティベーションプロセスが完了するたびにトリガーされます。 例えば、マップのAEM サイトプリセットの一括有効化を実行した場合、このイベントは有効化プロセスの終了後に呼び出されます。
 
-このイベントで使用可能なプロパティを読み取り、さらに処理をおこなうには、AEMイベントハンドラーを作成する必要があります。
+このイベントで使用可能なプロパティを読み取り、さらに処理を行うには、AEM イベントハンドラーを作成する必要があります。
 
-イベントの詳細については、以下で説明します。
+イベントの詳細は、以下で説明します。
 
 **イベント名**:
 
@@ -25,7 +26,16 @@ Experience Managerガイドの公開 `com/adobe/fmdita/replication/complete` イ
 com/adobe/fmdita/replication/complete 
 ```
 
-**パラメーター**: |名前|型|説明| |—|—|—| |`path`|String|このイベントを発生させたファイルのパス。 <br> 例： `/content/output/sites/ditamap1-ditamap`. <br> JSON 配列としてシリアル化されたパスのリストです。| |`messageType`|String|メッセージの種類。 <br>選択可能なオプション： `REPLICATION`| |`action`|String|実行されたアクションです。 <br>選択可能なオプション： `BulkReplicate`| |`user`|String|操作を開始したユーザー。| |`result`|文字列|一括アクティベーションの結果。 これは、シリアル化された JSON オブジェクトです。 <br>`{"success":boolean,"code":integer,"message":"" }`| |`agentId`|String|レプリケーションで使用される agentId。 例：`"publish"`。| |`importMode`|String|Activation で使用される読み込みモード。 次のオプションを選択できます。 <br>`REPLACE, MERGE, UPDATE`.|
+**パラメーター**:
+|名前|種類|説明|
+|----|----|-----------|
+|`path`|文字列|このイベントをトリガーしたファイルのパス。 <br>例えば、`/content/output/sites/ditamap1-ditamap` などです。<br> JSON 配列としてシリアル化されたパスのリストです。|
+|`messageType`|文字列|メッセージの種類。 <br> 可能なオプション : `REPLICATION`|
+|`action`|文字列|実行されるアクションです。 <br> 可能なオプション : `BulkReplicate`|
+|`user`|文字列|操作を開始したユーザー。|
+|`result`|String|一括有効化の結果。 これはシリアル化された JSON オブジェクトです：<br>`{"success":boolean,"code":integer,"message":"" }`|
+|`agentId`|文字列|レプリケーションで使用される agentId。 例えば、`"publish"` のように指定します。|
+|`importMode`|文字列|アクティブ化で使用されるインポート モード。 使用できるオプションは <br>`REPLACE, MERGE, UPDATE` です。|
 
 
 **サンプルイベントリスナー**:

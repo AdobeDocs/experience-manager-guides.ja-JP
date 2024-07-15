@@ -2,7 +2,8 @@
 title: リスト
 description: リスト
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 333b5e24-efba-4a51-8f68-83b5d1d7daec
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '59'
 ht-degree: 5%
@@ -20,8 +21,8 @@ const listJSON =  {
 },
 ```
 
-ここで、言語は単純な文字列の配列です。 `languages = ["English", "Hindi", "French"]`
-オブジェクトのリストをレンダリングする場合は、item config を使用して構造を指定できます。
+ここで、言語は文字列の単純な配列です。 `languages = ["English", "Hindi", "French"]`
+オブジェクトのリストをレンダリングする場合は、項目設定を使用して構造を指定できます。
 
 ```js title="list.js"
 const listJSON =  {
@@ -34,8 +35,8 @@ const listJSON =  {
 },
 ```
 
-通常、itemConfig は `widget`. ウィジェットの詳細については、次の URL を参照してください： [ウィジェット](../Widgets/basic-widget.md)
+通常、itemConfig は `widget` です。 ウィジェットについて詳しくは、[ ウィジェット ](../Widgets/basic-widget.md) を参照してください
 
 レンダリングされたリストは次のようになります。
 
-![リスト](./imgs/list.png "リスト")
+![list](./imgs/list.png "List")

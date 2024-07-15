@@ -1,22 +1,22 @@
 ---
 title: インストールとセットアップ
-description: AEM Guides 拡張機能パッケージのインストールと使用
+description: AEM Guides拡張機能パッケージのインストールと使用
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 0304c8d0-35a8-4712-a9af-36557e3b247f
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '348'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
+# AEM Guides拡張機能パッケージのインストールと使用
 
-# AEM Guides 拡張機能パッケージのインストールと使用
-
-拡張機能を使用すると、AEMガイドアプリをニーズに合わせてカスタマイズできます。 この拡張機能フレームワークは、AEMガイド v4.3（オンプレミス）および 2310（クラウド）でサポートされます。
+拡張機能を使用すると、AEM Guides アプリをニーズに合わせてカスタマイズできます。 この拡張機能フレームワークは、AEM Guides v4.3 以降（オンプレミス）および 2310 （クラウド）でサポートされます。
 
 ## 要件
 
-このパッケージにはが必要です [git bash](https://github.com/git-guides/install-git) および npm
+このパッケージには、[git bash](https://github.com/git-guides/install-git) と npm が必要です
 
 ## インストール
 
@@ -28,54 +28,55 @@ npx @adobe/create-guides-extension
 
 ## カスタマイズコードの追加
 
-1. で拡張する各コンポーネントのコードファイルを追加します。 `src/` ディレクトリ。 一部のサンプルファイルは既に追加されています。
-2. 現在は、 `index.ts` 次の場所にあるファイル： `src/` ディレクトリ：
-   - 次をインポート： `.ts` ファイルを作成し、ビルドに追加するカスタマイズを含めます。
-   - インポートの追加先 `window.extension`
-   - カスタマイズされたコンポーネントの登録 `id` 対応するインポート `tcx extensions`
-   - サンプルを参照してください。 `/src/index.ts`
+1. `src/` ディレクトリに拡張する各コンポーネントのコードファイルを追加します。 いくつかのサンプル ファイルは既に追加されています。
+2. `src/` ディレクトリにある `index.ts` ファイルで、次の操作を行います。
+   - カスタマイズ内容を追加した `.ts` ファイルをビルドに読み込みます。
+   - `window.extension` への読み込みの追加
+   - カスタマイズしたコンポーネントの `id` と、対応する読み込みを `tcx extensions` に登録します
+   - サンプル `/src/index.ts` を参照してください。
 
-## カスタマイズされたコードの構築
+## カスタマイズされたコードの作成
 
-- 実行 `npm run build` をルートディレクトリに追加します。 ディレクトリに 3 つのファイルが格納されます。 `dist/`:
+- ルートディレクトリで `npm run build` を実行します。 ディレクトリには、次の 3 つのファイルが `dist/` ります。
    - `build.css`
    - `guides-extension.js`
    - `guides-extension.umd.cjs`
 
-![ビルド出力](./../imgs/build_output.png)
+![ ビルド出力 ](./../imgs/build_output.png)
 
-## カスタマイズのAEMへの追加
+## AEMへのカスタマイズの追加
 
-- に移動します。 `CRXDE` `crx/de/index.jsp#/`
-- の下 `apps` フォルダー、タイプの新しいノードを作成 `cq:ClientLibraryFolder`
+- `CRXDE` `crx/de/index.jsp#/` に移動
+- `apps` フォルダーの下に、タイプ `cq:ClientLibraryFolder` の新しいノードを作成します
 
 ![フォルダー構造](./../imgs/crxde_folder_structure.png)
 
-- Adobe Analytics の `properties` ノードで、「 」を選択します。 `Multi` 次のプロパティ名を追加します。 `categories`
-タイプ： `String []`
-値： `apps.fmdita.review_overrides`, `apps.fmdita.xml_editor.page_overrides`
+- ノードの `properties` で、を選択して次のプロパティ `Multi` 追加します
+名前：`categories`
+型：`String []`
+値：`apps.fmdita.review_overrides`、`apps.fmdita.xml_editor.page_overrides`
 
-![フォルダーのプロパティ](./../imgs/crxde_folder_properties.png)
+![ フォルダーのプロパティ ](./../imgs/crxde_folder_properties.png)
 
-- ビルド js を追加するには、新しいファイルを作成します。例えば、 `tcx1.js` 上記の作成済みノード内。 ここで、 `dist/guides-extension.umd.cjs` または `dist/guides-extension.js`. 新しいファイルを作成します `js.txt`で、js ファイルの名前を追加します。この場合、次のようになります。
+- ビルドされた js を追加するには、新しいファイル（例：上記で作成されたノードの `tcx1.js`）を作成します。 ここでは、`dist/guides-extension.umd.cjs` または `dist/guides-extension.js` からコードを追加します。 次に、`js.txt` という新しいファイルを作成します。ここでは、js ファイルの名前を追加します。この場合、名前は次のようになります。
 
 ```t
 #base=.
 tcx1.js
 ```
 
-- ビルド CSS を追加するには、次のように新しいファイルを作成します。 `tcx1.css` 上記の作成済みノード内。 ここで、 `dist/build.css`. 新しいファイルを作成します `css.txt`ここで、css ファイルの名前を追加します。この場合、次のようになります。
+- 構築された css を追加するには、例えば、新しいファイルを上記で作成したノードに `tcx1.css` 作成します。 ここでは、`dist/build.css` からコードを追加します。 次に、`css.txt` という新しいファイルを作成します。ここでは、css ファイルの名前を追加します。この場合、名前は次のようになります。
 
 ```t
 #base=.
 tcx1.css
 ```
 
-- 以下を実行します。 `shift + refresh` を追加しました。
+- カスタマイズ内容を含むアプリを `shift + refresh` しく読み込んでください。
 
 ## トラブルシューティング
 
-上記の手順がすべて正しく実行されたことを確認します。
-tcx.js にコードを追加した後、必ずハードリフレッシュ（Shift+リフレッシュ）を行ってください。
-AEMを開き、右クリックして「 」をクリックします。 `Inspect`
-ソースに移動し、 `[node_name].js` （例： extensions.js）ファイル。 Ctrl/Cmd+D キーを押して、ファイルを検索します。 次の場合、 `.js` ファイルは、貼り付けた JS コードを含む `dist/guides-extension.umd.cjs` または `dist/guides-extension.js`、設定が完了している
+上記のすべての手順が正しく実行されていることを確認します。
+コードを tcx.js に追加した後、必ずハードリフレッシュ（shift+refresh）を実行してください。
+次に、AEMを開き、右クリックして「`Inspect`」をクリックします。
+ソースに移動し、`[node_name].js` （例：extensions.js）ファイルを検索します。 Control / Cmd + D を実行してファイルを検索します。 `dist/guides-extension.umd.cjs` または `dist/guides-extension.js` から貼り付けた JS コードを含んだ `.js` ファイルが存在する場合、セットアップは完了です

@@ -1,6 +1,6 @@
 ---
-title: AEMガイドを初めてダウンロードしてインストールする
-description: AEMガイドを初めてダウンロードしてインストールする方法を説明します。
+title: AEM Guidesを初めてダウンロードしてインストールする
+description: AEM Guidesの初めてのダウンロードおよびインストール方法を説明します
 exl-id: 830a4381-303c-419c-b87f-9563352a7eeb
 feature: Introduction, Installation
 role: Admin
@@ -12,43 +12,43 @@ ht-degree: 0%
 
 ---
 
-# AEMガイドを初めてダウンロードしてインストールする {#id213BCL00KEV}
+# AEM Guidesを初めてダウンロードしてインストールする {#id213BCL00KEV}
 
-次の手順を実行して、AEMガイドを初めてコンピューターにダウンロードし、インストールします。
+以下の手順を実行して、AEM Guidesをダウンロードし、コンピューターに初めてインストールします。
 
 >[!IMPORTANT]
 >
-> AEMガイドと共に Livefyre を使用する場合は、AEMガイドをインストールする前に、必ず 3.0 より前のバージョンの Livefyre をインストールしてください。 Livefyre バージョン 3.0 以降を使用している場合は、そのような制限はありません。
+> AEM Guidesと共に Livefyre を使用する場合は、AEM Guidesをインストールする前に 3.0 より前のバージョンの Livefyre をインストールしてください。 Livefyre バージョン 3.0 以降を使用している場合、そのような制限はありません。
 
-1. AEM Software Distribution Portal からAdobe Guides をダウンロードします。
+1. Adobeソフトウェア配布ポータルからAEM Guidesをダウンロードします。
 
-1. AEMインスタンスにログインし、CRX パッケージマネージャーに移動します。 パッケージマネージャーにアクセスするデフォルトの URL は次のとおりです。
+1. AEM インスタンスにログインし、CRX パッケージマネージャーに移動します。 パッケージマネージャーにアクセスするデフォルトの URL は次のとおりです。
 
    ```http
    http://<server name>:<port>/crx/packmgr/index.jsp
    ```
 
-   パッケージマネージャーは、ローカルのAEMインストール上のパッケージを管理します。 パッケージマネージャーの使用について詳しくは、 [パッケージの操作方法](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/package-manager.html) (AEMドキュメント )。
+   パッケージマネージャーは、ローカル AEM インストール上のパッケージを管理します。 パッケージマネージャーの操作について詳しくは、AEM ドキュメントの [ パッケージの操作方法 ](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/package-manager.html) を参照してください。
 
    ![](assets/package-manager.png){width="650" align="left"}
 
-1. AEM Guides パッケージをアップロードするには、 **パッケージをアップロード**.
+1. AEM Guides パッケージをアップロードするには、「**パッケージをアップロード**」をクリックします。
 
-1. パッケージをアップロードダイアログで、手順 1 でダウンロードしたAEM Guides ファイルに移動し、をクリックします。 **OK**.
+1. パッケージをアップロード ダイアログで、手順 1 でダウンロードしたAEM Guides ファイルに移動して、「**OK**」をクリックします。
 
-   パッケージがAEMインスタンスにアップロードされます。
+   パッケージがAEM インスタンスにアップロードされます。
 
-1. パッケージをインストールするには、 **インストール**.
+1. パッケージをインストールするには、「**インストール**」をクリックします。
 
    ![](assets/install-package.png){width="650" align="left"}
 
-1. パッケージをインストールダイアログで、 **インストール**.
+1. パッケージをインストール ダイアログで、「**インストール**」をクリックします。
 
-1. AEMガイドの使用を開始するには、「ホーム」ボタンをクリックします ![](assets/home-button.png) CRX パッケージマネージャーの左上隅。
+1. AEM Guidesの使用を開始するには、CRX パッケージマネージャーの左上隅にある「ホーム」ボタンをクリックし ![](assets/home-button.png) す。
 
 
 >[!NOTE]
 >
-> 設定内のAEMサーバーのすべてのインスタンスで、インストール手順を実行します。
+> 設定したAEM サーバーのすべてのインスタンスでインストール手順を実行します。
 
-**親トピック：**[&#x200B;ダウンロードとインストール](download-install.md)
+**親トピック：**[ ダウンロードとインストール ](download-install.md)

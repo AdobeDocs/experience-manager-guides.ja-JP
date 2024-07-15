@@ -1,6 +1,6 @@
 ---
-title: Oxygen で編集するオプションを設定します。
-description: Oxygen コネクタプラグインで編集するオプションを設定する方法を説明します。
+title: Oxygen で編集するオプションを設定します
+description: 酸素コネクタプラグインで編集するオプションを設定する方法を説明します。
 exl-id: 96081a6d-39cf-4697-8b43-6494543ea187
 feature: Web Editor Configuration
 role: Admin
@@ -12,20 +12,20 @@ ht-degree: 1%
 
 ---
 
-# Oxygen で編集するオプションを設定します。
+# Oxygen で編集するオプションを設定します
 
-また、AEMガイドを使用すると、Oxygen Connector プラグインで DITA トピックと DITA マップを編集できます。
+AEM Guidesでは、Oxygen コネクタプラグインで DITA トピックと DITA マップを編集することもできます。
 
-に示す手順を使用します。 [設定の上書き](download-install-additional-config-override.md#) をクリックして、設定ファイルを作成します。 設定ファイルで、次の（プロパティ）詳細を指定して、 **酸素で編集** オプション：
+[ 設定の上書き ](download-install-additional-config-override.md#) の手順に従って、設定ファイルを作成します。 設定ファイルで、「**酸素で編集** オプションを設定するために、次の（プロパティ）の詳細を指定します。
 
 
 
 | PID | プロパティキー | プロパティの値 |
 |---|------------|--------------|
-| `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.editinoxygen` | ブール値\(true/false\)。 **デフォルト値**: false |
+| `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.editinoxygen` | ブール \（true/false\） **デフォルト値**:false |
 
 >[!NOTE]
 >
-> この設定はデフォルトで無効になっており、Web エディターではこのオプションを使用できません。
+> この設定はデフォルトで無効になっており、オプションは web エディターでは使用できません。
 
-**親トピック：**[ Web エディタのカスタマイズ](conf-web-editor.md)
+**親トピック：**[ Web エディタのカスタマイズ ](conf-web-editor.md)

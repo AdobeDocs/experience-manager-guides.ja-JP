@@ -1,5 +1,5 @@
 ---
-title: Recommendations （パフォーマンス最適化）
+title: パフォーマンス最適化のためのRecommendations
 description: パフォーマンス最適化のためのRecommendationsについて説明します
 exl-id: 92ac1f81-2f51-44b0-82c3-56b39e8f3027
 feature: Performance Optimization
@@ -12,17 +12,17 @@ ht-degree: 0%
 
 ---
 
-# Recommendations （パフォーマンス最適化） {#id213BD0JG0XA}
+# パフォーマンス最適化のためのRecommendations {#id213BD0JG0XA}
 
 パフォーマンスを最適化する際は、次の点を考慮してください。
 
-- コンテンツとインデックス作成のエクスペリエンスを最適化するには、 [コンテンツの検索とインデックス作成の最適化](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html?lang=ja) (AEMドキュメント )。
+- コンテンツとインデックス作成のエクスペリエンスを最適化するには、AEM ドキュメントの [ コンテンツの検索とインデックス作成の最適化 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html?lang=ja) を参照してください。
 
-- 公開にカスタム DITA-OT を使用する際に Xerces Jar にパッチを適用します。 これは、使用事例に応じて必須の設定です。 この変更は、出力の公開にカスタム DITA-OT を使用する場合にのみ必要です。
+- カスタム DITA-OT を使用して発行する際に、Xerces Jar にパッチを適用します。 ユースケースによっては、これは必須の設定です。 この変更は、出力の発行にカスタム DITA-OT を使用する場合にのみ必要です。
 
-  *必要な設定*：カスタム DITA-OT パッケージの Xerces Jar ファイルを、出荷済みの OOTB ファイルに置き換えます。 デフォルトの OOTB xercesImpl-2.11.0.jar ファイルは、/libs/fmdita/dita\_resources/DITA-OT.zipファイル内で使用できます。 置き換えられる古い Xerces Jar ファイルと一致するように、xercesImpl-2.11.0.jar ファイルの名前を変更してください。 これは、実行時に実行できます。
+  *必要な設定*：カスタム DITA-OT パッケージ内の Xerces Jar ファイルを、付属の OOTB に置き換えます。 デフォルトの OOTB xercesImpl-2.11.0.jar ファイルは、/libs/fmdita/dita\_resources/DITA-OT.zip ファイル内にあります。 xercesImpl-2.11.0.jar ファイルの名前を、置き換える古い Xerces Jar ファイルと一致するように変更します。 これは実行時に行うことができます。
 
-  この変更により、多数のトピックを含む DITA マップを公開する際に、公開時間とメモリ使用率が低減します。
+  この変更により、多数のトピックを含む DITA マップを公開する際に、公開時間とメモリの使用量が削減されます。
 
 
-**親トピック：**[&#x200B;ダウンロードとインストール](download-install.md)
+**親トピック：**[ ダウンロードとインストール ](download-install.md)

@@ -1,6 +1,6 @@
 ---
-title: ファイル名を設定
-description: ファイル名を設定する方法を学ぶ
+title: ファイル名の設定
+description: ファイル名の設定方法を学ぶ
 exl-id: e5e50cb8-45a9-4045-abac-88a3de62803d
 feature: Filename Configuration
 role: Admin
@@ -12,12 +12,12 @@ ht-degree: 0%
 
 ---
 
-# ファイル名を設定 {#id214BD010GXA}
+# ファイル名の設定 {#id214BD010GXA}
 
-このトピックでは、DITA ファイルのファイル名の操作に関する情報を扱います。 UUID ベースのシステムの場合、UUID ベースのファイル名を自動的に定義し、通常のシステムの場合は、ファイル名で許可される有効な文字のリストを制御できます。
+このトピックでは、DITA ファイルのファイル名の操作について説明します。 UUID ベースのシステムの場合は、UUID ベースのファイル名を自動的に定義するように選択できます。通常のシステムの場合は、ファイル名で許可される有効な文字のリストを制御できます。
 
 - **[UUID に基づく自動ファイル名の設定](conf-auto-uuid-filenames.md)**
 
-- **[有効なファイル名文字に対して Regx を設定します](conf-file-names-valid-regx.md)**
+- **[有効なファイル名文字に対して Regx を構成する](conf-file-names-valid-regx.md)**
 
-- **[AEM Site 出力用の有効なファイル名の設定](conf-file-names-valid-regx-aem-site-output.md)**
+- **[AEM Site 出力の有効なファイル名を設定する](conf-file-names-valid-regx-aem-site-output.md)**

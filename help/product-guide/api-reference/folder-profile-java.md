@@ -1,6 +1,6 @@
 ---
-title: フォルダープロファイルを操作する Java ベースの API
-description: フォルダープロファイルを操作する Java ベースの API について説明します。
+title: フォルダープロファイルを操作するための Java ベースの API
+description: フォルダープロファイルを操作するための Java ベースの API について説明します
 exl-id: 388ae654-c4f9-4bb7-ba98-370b8919e3a6
 feature: Java-Based API Folder Profiles
 role: Developer
@@ -12,32 +12,32 @@ ht-degree: 0%
 
 ---
 
-# フォルダープロファイルを操作する Java ベースの API {#id175UB30E05Z}
+# フォルダープロファイルを操作するための Java ベースの API {#id175UB30E05Z}
 
 次の Java ベースの API を使用すると、フォルダーレベルのプロファイルに条件属性を追加できます。 この API は、バンドルの形式で使用できます。 この API を使用するには、コードにこのバンドルを含める必要があります。
 
-バンドルの詳細：
+バンドルの詳細
 
-- グループ ID : **com.adobe.fmdita**
+- グループ ID:**com.adobe.fmdita**
 
 - アーティファクト ID: **api**
 
-- バージョン： **3.2**
+- バージョン：**3.2**
 
-- パッケージ： **com.adobe.fmdita.api.profiles**
+- パッケージ：**com.adobe.fmdita.api.profiles**
 
-- クラスの詳細：
+- クラス詳細：
 
   ```JAVA
   public class FolderProfileUtils extends Object
   ```
 
-  The **`FolderProfileUtils`** クラスには、フォルダープロファイルに条件付き属性を追加するメソッドが含まれます。
+  **`FolderProfileUtils`** クラスには、フォルダープロファイルに条件属性を追加するためのメソッドが含まれています。
 
 
 ## フォルダープロファイルへの条件付き属性の追加
 
-The ``addAttributeProfiles`` メソッドは、フォルダーレベルのプロファイルに条件付き属性を追加します。
+``addAttributeProfiles`` メソッドは、フォルダーレベルのプロファイルに条件付き属性を追加します。
 
 **構文**：
 
@@ -53,15 +53,23 @@ String profileName,
 Session session) throws GuidesApiException
 ```
 
-**パラメーター**: |名前|型|説明| |—|—|—| |``attributeNames``|String|属性名のリスト。| |``values``|String|指定された属性の値のリスト。| |`labels`|String|ラベルのリスト `attribute`- `value` ペア。 [1](#fntarg_1)| |`profileName`|String|これらの属性、値およびラベルを適用する必要があるフォルダーレベルのプロファイルの名前。 **重要：** プロファイルで定義されている既存の attributes-values-labels はすべて上書きされます。| |`session`|javax.jcr.Session|有効な JCR セッション。|
+**パラメーター**:
+|名前|種類|説明|
+|----|----|-----------|
+|``attributeNames``|文字列|属性名のリスト。|
+|``values``|文字列|指定された属性の値のリスト。|
+|`labels`|文字列|`attribute` と `value` のペアのラベルのリスト。 [1](#fntarg_1)|
+|`profileName`|文字列|これらの属性、値、およびラベルを適用する必要があるフォルダーレベルのプロファイルの名前。 **重要：** プロファイルで定義されている既存の属性 – 値 – ラベルはすべて上書きされます。|
+|`session`|javax.jcr.Session|有効な JCR セッション。|
 
-**戻り値**:
-`true` 成功のために。 失敗した場合は、例外がスローされます。
+**戻り値**
+成功を `true` します。 エラーが発生した場合、例外がスローされます。
 
-**例外**：スロー ``java.lang.Exception`` 次のシナリオでは、
+**例外**:
+次のシナリオでは、``java.lang.Exception`` をスローします。
 
-- API が `resourceResolverFactory` オブジェクト。 その場合は、バンドルを再起動する必要があります。
+- API がオブジェクトを取得でき `resourceResolverFactory` かった場合。 その場合は、バンドルを再起動する必要があります。
 - API に渡されたパラメーターが無効な場合。
-- API が、許可されていないユーザーセッション（特定のフォルダープロファイルの管理者でないユーザーなど）によって呼び出された場合。
+- 指定されたフォルダープロファイルの管理者でないユーザーなど、権限のないユーザーセッションを使用して API が呼び出された場合。
 
-[1](#fnsrc_1) The `attributeNames`, `values`、および `labels` 配列リスト内の同じインデックスが同じエントリに対応している必要があります。
+[1](#fnsrc_1) 配列リスト内の同じインデックスにある `attributeNames`、`values`、および `labels` は、同じエントリに対応する必要があります。

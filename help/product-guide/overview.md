@@ -1,41 +1,41 @@
 ---
-title: TutorialsガイドのExperience Manager
-description: Experience Managerガイド ( 旧称XML Documentation for Adobe Experience Manager) のチュートリアルビデオを見つけます。 ネイティブの DITA サポートと、構造化されたオーサリングのExperience Manager。
+title: Experience Manager GuidesのTutorials
+description: Experience Manager Guides（旧称XML Documentation for Adobe Experience Manager）のチュートリアルビデオを検索します。 Experience Managerでのネイティブ DITA サポートと構造化オーサリングについて説明します。
 exl-id: 06dd1b77-1a98-430f-8322-475d4fa4947b
 feature: AEM Guides Tutorials
 role: User
 source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
 # AEM Guides ドキュメント
 
-[!DNL Experience Manager Guides] ( _[!DNL AEM Guides]_以降 ) は、エンタープライズクラスの強力なコンポーネントコンテンツ管理ソリューション (CCMS) です。 Experience Managerでのネイティブ DITA サポートが可能になり、AEMで DITA ベースのコンテンツの作成と配信を処理できます。 作成者は、Adobe FrameMakerや使いやすい組み込み Web エディターなど、任意のオフライン DITA オーサリングツールを使用してコンテンツを作成できます。
+[!DNL Experience Manager Guides] （以下 _[!DNL AEM Guides]_参照）は、強力なエンタープライズグレードのコンポーネントコンテンツ管理ソリューション（CCMS）です。 これにより、Experience Managerでのネイティブ DITA サポートが可能になり、AEMが DITA ベースのコンテンツの作成と配信を処理できるようになります。 これにより、作成者は、Adobe FrameMakerや使いやすい組み込み web エディターなど、オフラインの DITA オーサリングツールを使用してコンテンツを作成できます。
 
-[!DNL AEM Guides] ソリューションは、DITA コンテンツのコラボレーション、レビュー、翻訳、検索、レポートなどのすべてのコア CCMS 機能を提供し、効率的なコンテンツ再利用と強力なワークフローにより、作成者はより短時間でより多くの作業を実行できます。 また、クラス最高のシングルクリック公開機能を活用して、Experience Manager Sites、PDF、HTML5、EPUB、DITA-OT を使用したカスタム出力など、最も一般的な形式向けの DITA ベースの出力を生成できます。
+[!DNL AEM Guides] のソリューションは、DITA コンテンツのコラボレーション、レビュー、翻訳、検索、レポートなど、すべての主要な CCMS 機能を提供します。これにより、作成者は効率的なコンテンツの再利用と強力なワークフローを通じて、より短い時間でより多くの作業を行うことができます。 さらに、クラス最高のシングルクリック公開機能を活用して、最も人気のあるフォーマット（Experience Manager Sites、PDF、HTML5、EPUB、DITA-OT を通じたカスタム出力）用に DITA ベースの出力を生成できます。
 
-を使用 [!DNL AEM Guides] ソリューションを導入すると、企業はシームレスでパーソナライズされたエクスペリエンスをエンドユーザーに提供し、プリセールスおよびポストセールスコンテンツの一貫性と統一性を確保できます。 コンテンツの整合性を完全に制御することは、容易に実現できます。 さらに、ローカライゼーションに要する時間とコストも大幅に削減されます。
+[!DNL AEM Guides] のソリューションを使用すると、企業はエンドユーザーにシームレスでパーソナライズされたエクスペリエンスを提供し、セールス前およびセールス後のコンテンツの一貫性と統一性を確保できます。 コンテンツの整合性を完全に制御することが容易にできます。 さらに、ローカライゼーションの時間とコストも大幅に削減されます。
 
 >[!NOTE]
 > 
-> Adobe Experience Managerガイドは、以前は次のブランド名を付けました。 _XML Documentation for Adobe Experience Manager_. ドキュメント内の特定の参照は、以前のブランディングを引き続き参照する場合がありますが、現在のオファーにはまだ適用できます。
+> Adobe Experience Manager Guidesは、以前はAdobe Experience Manager用の _XML Documentation_ というブランドでした。 ドキュメント内の特定のリファレンスは、以前のブランディングを引き続き参照する場合がありますが、現在の製品にはそのまま適用されます。
 
 ## 新機能
 
-* **[[!DNL AEM Guides] 入門コース](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/getting-started/overview.html){target="blank"}**
+* **[[!DNL AEM Guides] はじめる前に ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/getting-started/overview.html){target="blank"}** コース
 
-  _でコンテンツを作成、整理、オーサリングおよび公開する方法について説明します。 [!DNL Adobe Experience Manager Guides]._
+  _[!DNL Adobe Experience Manager Guides] でコンテンツを作成、整理、オーサリングおよび公開する方法について説明します_。
 
-* **[[!DNL AEM Guides] 組み込み Web エディターでのオーサリング](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html){target="blank"}**
+* **[[!DNL AEM Guides] 組み込み web エディターでのオーサリング ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html){target="blank"}**
 
-  _ネイティブの Web エディターを使用してコンテンツを作成する方法について説明します。  [!DNL Adobe Experience Manager Guides]. ユーザーの環境設定、エディターの設定、設定、ツールバーなどを完全に理解できます。_
+  _[!DNL Adobe Experience Manager Guides] でネイティブ web エディターを使用してコンテンツを作成する方法を説明します。 ユーザーの環境設定、エディターの設定、設定、ツールバーなどについて完全に理解できます。_
 
-* **[次を使用した出力の生成 [!DNL AEM Guides]](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/overview.html){target="blank"}**
+* **[出力生成  [!DNL AEM Guides]](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/overview.html){target="blank"}**
 
-  _を使用して出力を生成する方法を説明します。 [!DNL Adobe Experience Manager Guides]. レポート、ベースライン、条件、トラブルシューティング、一括公開、アクティベーションなど、出力生成に使用できる様々な機能について説明します。_
+  _[!DNL Adobe Experience Manager Guides] を使用して出力を生成する方法を説明します。 レポート、ベースライン、条件、トラブルシューティング、一括公開、アクティベーションなど、出力の生成に使用できる様々な機能について説明します。_
 
 
 <!--
@@ -93,6 +93,6 @@ Dummy links cause validation to fail
 
 ## その他のリソース
 
-* [[!DNL AEM Guides] オンラインユーザガイド](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html)
-* [[!DNL AEM Guides] PDFガイド](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
+* [[!DNL AEM Guides]  オンラインユーザーガイド ](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html)
+* [[!DNL AEM Guides] PDFガイド ](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
 * [Experience League - AEM に関する情報](https://experienceleague.adobe.com/?lang=ja#recommended/solutions/experience-manager)

@@ -1,6 +1,6 @@
 ---
-title: AEMガイドの仕組み
-description: AEMガイドがAEMおよびその他の DITA エディターと連携して、企業シナリオでのコンテンツ管理、再利用、翻訳およびレビューを可能にする方法を説明します。
+title: AEM Guidesの仕組み
+description: AEM GuidesがAEMやその他の DITA エディターと連携して、エンタープライズシナリオでのコンテンツ管理、再利用、翻訳、レビューを強化する方法を説明します。
 exl-id: 7c76fa01-63dc-4017-af15-c1e62b1849d1
 feature: Introduction
 role: User
@@ -11,11 +11,11 @@ ht-degree: 0%
 
 ---
 
-# AEMガイドの仕組み {#id167G9A00DO4}
+# AEM Guidesの仕組み {#id167G9A00DO4}
 
-次の図は、AEMガイドがAEMおよび任意の DITA エディターと連携して、企業シナリオでのコンテンツ管理、再利用、翻訳およびレビューを可能にする仕組みを示しています。
+次の図は、AEM GuidesがAEMおよび任意の DITA Editor と連携して、大規模法人シナリオでコンテンツ管理、再利用、翻訳、レビューを可能にする仕組みを示しています。
 
 ![](images/xml-add-on-how-it-works.png){width="800" align="center"}
 
 
-**親トピック：**[ Adobe Experience Managerガイドについてas a Cloud Service](intro.md)
+**親トピック：**[ Adobe Experience Manager Guidesのas a Cloud Serviceについて ](intro.md)

@@ -2,20 +2,20 @@
 title: ウィジェット
 description: ウィジェットについて
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 96e960df-d595-4d58-8ad4-27057f857bac
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '87'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-
 # ウィジェット
 
-コンポーネントの節で説明したように、複数の基本コンポーネントを組み合わせてウィジェットを作成できます。
-ウィジェットを使用して、新しい「より複雑な」コンポーネントを作成したり、コンポーネントの項目に構造を設定したりできます。
+コンポーネント セクションで説明しているように、複数の基本コンポーネントを組み合わせてウィジェットを作成できます。
+ウィジェットを使用すると、新しい「より複雑な」コンポーネントを作成したり、コンポーネントの項目に構造を指定したりできます。
 
-ウィジェットの概念について説明しましょう。
+ウィジェットの概念について詳しく説明します。
 
 まず、言語のリストを表示する簡単なウィジェットを作成します。
 
@@ -45,8 +45,8 @@ const widgetJSON =  {
 },
 ```
 
-ここで `@languages` は、次のモデルで定義された配列です： `widget_languages` 形式： [&quot;英語&quot;, &quot;フランス語&quot;, &quot;ヒンディー語&quot;, &quot;スペイン語&quot;, &quot;ウルドゥー語&quot;]
+ここで、`widget_languages` のモデルで定義される配列は `@languages` です。[ 「英語」、「フランス語」、「ヒンディー語」、「スペイン語」、「ウルドゥ語」 ]
 
 レンダリングされた基本ウィジェットは次のようになります。
 
-![basic_widget](imgs/basic_widget.png "基本ウィジェット")
+![basic_widget](imgs/basic_widget.png "Basic ウィジェット ")

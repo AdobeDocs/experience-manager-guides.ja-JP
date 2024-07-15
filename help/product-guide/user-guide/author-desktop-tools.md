@@ -1,6 +1,6 @@
 ---
-title: デスクトップツールを使用したコンテンツのオーサリング
-description: AEMガイドのデスクトップツールを使用してコンテンツを作成します。 Adobe FrameMakerと Oxigne XML Editor を使用して、DITA コンテンツを作成および公開する方法を説明します。
+title: デスクトップツールを使用したコンテンツの作成
+description: AEM Guidesのデスクトップツールを使用したコンテンツのオーサリング。 Adobe FrameMakerと Oxygen XML Editor を使用して DITA コンテンツを作成および公開する方法を説明します。
 exl-id: d2c54f28-9433-46ee-adc2-d021c6bd5eb7
 feature: Authoring, Desktop Tools
 role: User
@@ -11,13 +11,13 @@ ht-degree: 0%
 
 ---
 
-# デスクトップツールを使用したコンテンツのオーサリング {#id221EB0Z80KS}
+# デスクトップツールを使用したコンテンツの作成 {#id221EB0Z80KS}
 
-AEMガイドは、Adobe FrameMakerや Oxygen XML Editor などのデスクトップツールを使用したオーサリングもサポートしています。 これらのツールを使用して、DITA コンテンツの作成、様々な形式での文書の公開、文書のバージョンの管理を行うことができます。
+AEM Guidesは、Adobe FrameMakerや Oxygen XML Editor などのデスクトップツールを使用したオーサリングもサポートしています。 これらのツールを使用して、DITA コンテンツを作成したり、文書を様々な形式で発行したり、文書のバージョンを管理したりできます。
 
 - **[FrameMakerの操作](author-desktop-framemaker.md)**
 
-- **[酸素を使用する](author-desktop-oxygen.md)**
+- **[酸素の操作](author-desktop-oxygen.md)**
 
 
-**親トピック：**[&#x200B;コンテンツの作成](authoring-content.md)
+**親トピック：**[ コンテンツを作成 ](authoring-content.md)

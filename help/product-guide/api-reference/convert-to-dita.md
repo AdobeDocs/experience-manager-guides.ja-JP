@@ -1,6 +1,6 @@
 ---
-title: 変換ワークフロー用の REST API
-description: 変換ワークフロー用の REST API について説明します。
+title: コンバージョンワークフロー用の REST API
+description: コンバージョンワークフロー用の REST API について説明します
 exl-id: f091782e-ab54-4db4-9018-9bcbff9da7b2
 feature: Rest API Conversion Workflow
 role: Developer
@@ -12,36 +12,61 @@ ht-degree: 0%
 
 ---
 
-# 変換ワークフロー用の REST API {#id175UB30E05Z}
+# コンバージョンワークフロー用の REST API {#id175UB30E05Z}
 
-次の REST API を使用して、Word、HTMLおよびInDesignのドキュメントを DITA 形式に変換できます。
+次の REST API を使用すると、Word、HTML、およびInDesign文書を DITA フォーマットに変換できます。
 
-## Word 文書の変換
+## Word ドキュメントの変換
 
-Word 文書を DITA 形式に変換するGETメソッド。
+Word 文書を DITA フォーマットに変換するGET方式。
 
-**リクエスト URL**: http://*&lt;aem-guides-server>*: *&lt;port-number>*/bin/fmdita/conversion
+**リクエスト URL**:
+http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/fmdita/conversion
 
-**パラメーター**: |名前|型|必須|説明| |—|—|—|—| |``operation``|String|はい|呼び出される操作の名前。 このパラメーターの値は、 ``word2dita``. <br> **注意：** 値では大文字と小文字が区別されません。 | |`inputFile`|String|はい|AEMリポジトリ内のソース Word ファイルの絶対パス。| |`destPath`|String|はい|変換された DITA ファイルが保存される保存先の絶対パス。| |`createRev`|Boolean|はい|ファイルのリビジョンを作成するかどうかを指定します\( `true`\) 指定された宛先でのみ\( `false`\) です。 これは、変換先の場所に、変換されたファイルの既存のバージョンが含まれている場合にのみ考慮されます。| |`style2tagMap`|String|はい|変換に使用されるスタイルマッピングファイルの絶対パス。|
+**パラメーター**:
+|名前|種類|必須|説明|
+|----|----|--------|-----------|
+|``operation``|String|Yes|呼び出す操作の名前。 このパラメーターの値は ``word2dita`` です。<br> **メモ：** この値では、大文字と小文字が区別されません。 |
+|`inputFile`|String|Yes|AEM リポジトリ内のソース Word ファイルの絶対パス。|
+|`destPath`|文字列|Yes|変換された DITA ファイルが保存される保存先の絶対パス。|
+|`createRev`|ブール値|はい|ファイルのリビジョンを指定された宛先に作成するか\（`true`\）または\（`false`\）でないかを指定します。 これは、変換先の場所に変換後のファイルの既存のバージョンが含まれている場合にのみ考慮されます。|
+|`style2tagMap`|文字列|はい|変換に使用するスタイル マッピング ファイルの絶対パス。|
 
-**応答値**:HTTP 200 \(Successful\) 応答を戻します。
+**応答値**:
+HTTP 200 \（成功\）応答を返します。
 
-## 変換HTML文書
+## HTMLドキュメントを変換
 
-GET文書を DITA 形式にHTMLする変換メソッド。
+HTML文書を DITA フォーマットに変換するGET方式。
 
-**リクエスト URL**: http://*&lt;aem-guides-server>*: *&lt;port-number>*/bin/fmdita/conversion
+**リクエスト URL**:
+http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/fmdita/conversion
 
-**パラメーター**: |名前|型|必須|説明| |—|—|—|—| |`operation`|String|はい|呼び出される操作の名前。 このパラメーターの値は、 ``html2dita``. <br> **注意：** 値では大文字と小文字が区別されません。| |`inputFile`|String|はい|AEMリポジトリ内のソースHTMLファイルの絶対パス。| |`destPath`|String|はい|変換された DITA ファイルが保存される保存先の絶対パス。| |`createRev`|Boolean|はい|ファイルのリビジョンを作成するかどうかを指定します\( `true`\) 指定された宛先でのみ\( `false`\) です。 これは、変換先の場所に、変換されたファイルの既存のバージョンが含まれている場合にのみ考慮されます。|
+**パラメーター**:
+|名前|種類|必須|説明|
+|----|----|--------|-----------|
+|`operation`|String|Yes|呼び出す操作の名前。 このパラメーターの値は ``html2dita`` です。<br> **メモ：** この値では、大文字と小文字が区別されません。|
+|`inputFile`|String|Yes|AEM リポジトリ内のソースHTMLファイルの絶対パス。|
+|`destPath`|文字列|Yes|変換された DITA ファイルが保存される保存先の絶対パス。|
+|`createRev`|ブール値|はい|ファイルのリビジョンを指定された宛先に作成するか\（`true`\）または\（`false`\）でないかを指定します。 これは、変換後のファイルの既存のバージョンが変換先の場所に含まれている場合にのみ考慮されます。|
 
-**応答値**:HTTP 200 \(Successful\) 応答を戻します。
+**応答値**:
+HTTP 200 \（成功\）応答を返します。
 
-## 変換InDesign文書
+## InDesignドキュメントを変換
 
-GET文書を DITA 形式にInDesignする変換メソッド。
+InDesign文書を DITA フォーマットに変換するGET方式。
 
-**リクエスト URL**: http://*&lt;aem-guides-server>*: *&lt;port-number>*/bin/fmdita/conversion
+**リクエスト URL**:
+http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/fmdita/conversion
 
-**パラメーター**: |名前|型|必須|説明| |—|—|—|—| |``operation``|String|はい|呼び出される操作の名前。 このパラメーターの値は、 ``idml2dita``. <br> **注意：** 値では大文字と小文字が区別されません。| |`inputFile`|String|はい|AEMリポジトリ内のソースInDesignファイルの絶対パス。| |`destPath`|String|はい|変換された DITA ファイルが保存される保存先の絶対パス。| |`createRev`|Boolean|はい|ファイルのリビジョンを作成するかどうかを指定します\( `true`\) 指定された宛先でのみ\( `false`\) です。 これは、変換先の場所に、変換されたファイルの既存のバージョンが含まれている場合にのみ考慮されます。|
+**パラメーター**:
+|名前|種類|必須|説明|
+|----|----|--------|-----------|
+|``operation``|String|Yes|呼び出す操作の名前。 このパラメーターの値は ``idml2dita`` です。<br> **メモ：** この値では、大文字と小文字が区別されません。|
+|`inputFile`|String|Yes|AEM リポジトリ内のソースInDesignファイルの絶対パス。|
+|`destPath`|文字列|Yes|変換された DITA ファイルが保存される保存先の絶対パス。|
+|`createRev`|ブール値|はい|ファイルのリビジョンを指定された宛先に作成するか\（`true`\）または\（`false`\）でないかを指定します。 これは、変換後のファイルの既存のバージョンが変換先の場所に含まれている場合にのみ考慮されます。|
 
-**応答値**:HTTP 200 \(Successful\) 応答を戻します。
+**応答値**:
+HTTP 200 \（成功\）応答を返します。

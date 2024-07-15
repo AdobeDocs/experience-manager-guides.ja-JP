@@ -1,6 +1,6 @@
 ---
 title: 技術的要件
-description: Adobe Experience Manager Guides を使用するための技術要件について説明します
+description: Adobe Experience Manager Guidesを操作するための技術要件について説明します
 exl-id: d69245b0-bf20-43c1-b46e-b6c220319690
 feature: Introduction, Installation
 role: Admin
@@ -40,7 +40,7 @@ AEM Guides 4.4 をインストールする前に、お使いのシステムが�
 
 **Web ブラウザー**
 
-- Google Chrome
+- GoogleChrome
 
 
-**親トピック：**[&#x200B;ダウンロードとインストール](download-install.md)
+**親トピック：**[ ダウンロードとインストール ](download-install.md)

@@ -1,81 +1,82 @@
 ---
-title: Jui Framework
+title: Jui フレームワーク
 description: Jui フレームワークについて
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: c193cf90-5916-4d8c-88f1-be5014beca1c
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 1%
 
 ---
 
-# Jui Framework
+# Jui フレームワーク
 
-拡張機能の記述方法に進む前に、フレームワークのアーキテクチャを理解します。
-効果的に拡大できるように。
+拡張機能の書き方を学ぶ前に、フレームワークのアーキテクチャを理解します。
+効果的に拡張できるように。
 
 ## はじめに
 
-JUI は、React および React Spectrum コンポーネントの上にある MVCAdobeです。 JUI は JSON ユーザーインターフェイスです。 複数の Git リポジトリで構成されています。
+JUI は、React およびAdobe React Spectrum コンポーネント上の MVC フレームワークです。 JUI は JSON ユーザーインターフェイスです。 複数の Git リポジトリで構成されています。
 
-JUI-Core は、JSON 設定を動作中の React コンポーネントに変換し、関連するコントローラークラスのインスタンスにリンクさせるすべてのロジックを備えたコアライブラリです。
-JUI-React-Spectrum ライブラリには、AdobeReact Spectrum コンポーネントのラッパーウィジェットがあります。
+JUI-Core は、JSON 設定を動作する React コンポーネントに変換し、関連するコントローラクラスインスタンスとリンクするためのすべてのロジックを備えたコアライブラリです。
+JUI-React-Spectrum  ライブラリには、Adobe React Spectrum コンポーネントのラッパーウィジェットがあります
 
 ## JUI コアデザイン
 
 ### MVC UI デザイン
 
-![JUI MVC フロー](./imgs/jui-mvc-flow.png)
+![JUI MVC フロー ](./imgs/jui-mvc-flow.png)
 
 ### ウィジェット
 
-- 一意の ID を持つ。
-- 表示用の個々の JSON ファイルがある。
+- 一意の ID を持ちます。
+- 表示する個々の JSON ファイルを持ちます。
 - 独自または共有のコントローラを持つことができます。
-- 親モデルまたは新しいモデルを使用できます。
-- UI 要素（React コンポーネント）を持つことができる
-- 他のウィジェットを持つことができます
-- アプリがウィジェット
+- 親モデルまたは新規モデルを使用できます。
+- UI 要素（React コンポーネント）を持つことができます
+- 他のウィジェットを使用できる
+- アプリはウィジェットです
 
-![JUI ウィジェット](./imgs/jui-widget.png)
+![JUI ウィジェット ](./imgs/jui-widget.png)
 
 ### 要素
 
-- HTML/React コンポーネントです。
+- は、HTML/React コンポーネントです。
 - モデルがなく、親ウィジェットモデルを使用します。
 
-### イベントハンドラー
+### イベント ハンドラー
 
-- 次へ (eventOpts)
-   - 一部のオプトでトリガーイベントを設定するには
-- Subscribe(callback)
-   - 設定でイベントが発生したことを通知する
+- Next （eventOpts）
+   - 一部のオプションでイベントをトリガーするには
+- 購読（コールバック）
+   - 設定でイベントが発生したという通知を取得
 
 ### アプリ/グローバルモデル
 
-- 次へ（新しい値）
+- Next （新しい値）
    - 新しい値を公開するには
-- Subscribe(callback)
-   - 値変更の通知を取得するには
-   - 初めて古い値を取得する
-- GetValue()
-   - 現在の値を取得するには
+- 購読（コールバック）
+   - 変更された値の通知を取得するには
+   - 初回の古い値の取得
+- GetValue （）
+   - 現在の値を取得
 
-### コントローラ
+### コントローラー
 
-- コントローラクラスから拡張する必要があります。
+- Controller クラスから拡張する必要があります
 - API
 - CreateModel
-   - 子ウィジェットを別のモデルで作成するには
+   - 子ウィジェットを個別のモデルとして作成するには
 - InitEventHandler
-   - 子ウィジェットを別々のイベントハンドラーで作成するには
-- RegisterCommands
-   - ローカルイベント、親イベントまたはアプリイベントを登録するには
-- Next(eventName, eventHandler)
-   - 子ウィジェットイベントハンドラーのトリガーイベント、親ウィジェットイベントハンドラー、またはアプリイベントハンドラーを設定するには
-- Subscribe(callback, eventHandler)
-- SubscribeAppModel(callback)
+   - 子ウィジェットに個別のイベントハンドラーを作成するには
+- RegisterCommand
+   - ローカル、親、またはアプリケーションのイベントを登録するには
+- Next （eventName, eventHandler）
+   - 子ウィジェットイベントハンドラー、親ウィジェットイベントハンドラーまたはアプリイベントハンドラーのトリガーイベントへ
+- Subscribe （callback, eventHandler）
+- SubscribeAppModel （callback）
 
-### サンプルのアプリデザイン
+### サンプルアプリデザイン
 
-![サンプルアプリ](./imgs/jui-sample-app.png)
+![ サンプルアプリ ](./imgs/jui-sample-app.png)

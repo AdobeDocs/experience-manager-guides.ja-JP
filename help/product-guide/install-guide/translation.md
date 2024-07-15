@@ -1,5 +1,5 @@
 ---
-title: AEM Guides でのコンテンツの翻訳
+title: AEM Guidesでのコンテンツの翻訳
 description: コンテンツの翻訳方法を学ぶ
 exl-id: 0d3a909c-3499-4ef4-b033-02e412dae959
 feature: Translation
@@ -23,24 +23,24 @@ ht-degree: 11%
 
 コンテンツの翻訳には次の手順が含まれます。
 
-1. AEMを [翻訳サービスプロバイダー](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider) および作成 [翻訳統合フレームワークの設定](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration).
+1. AEMを [ 翻訳サービスプロバイダー ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider) 接続して、[ 翻訳統合フレームワーク設定 ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration) を作成します。
 
-1. 言語マスターのページとの関連付け [翻訳サービスとフレームワークの設定](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation).
+1. 言語マスターのページを [ 翻訳サービスとフレームワークの設定 ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation) に関連付けます。
 
-1. タイプを識別する [翻訳するコンテンツ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-rules.html?lang=ja-JP).
+1. [ 翻訳するコンテンツ ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-rules.html?lang=ja-JP) のタイプを特定します。
 
 1. [翻訳するコンテンツを準備](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/tc-prep.html)します。そのためには、言語マスターをオーサリングして、言語コピーのルートページを作成します。
 
-1. 作成 [翻訳プロジェクト](https://experienceleague.adobe.com/docs/experience-manager-65/administering/introduction/tc-manage.html?lang=ja) 翻訳するコンテンツを収集し、翻訳プロセスを準備します。
+1. [ 翻訳プロジェクト ](https://experienceleague.adobe.com/docs/experience-manager-65/administering/introduction/tc-manage.html?lang=ja) を作成して、翻訳するコンテンツを収集し、翻訳プロセスを準備します。
 
-1. 翻訳プロジェクトを使用して、次のことを行います [コンテンツ翻訳の管理](https://experienceleague.adobe.com/docs/experience-manager-65/administering/introduction/tc-manage.html?lang=ja) プロセス。
+1. 翻訳プロジェクトを使用して [ コンテンツの翻訳の管理 ](https://experienceleague.adobe.com/docs/experience-manager-65/administering/introduction/tc-manage.html?lang=ja) プロセスを実行します。
 
 
 AEMとの統合のためのコネクタが翻訳サービスプロバイダーに用意されていない場合、AEMでは翻訳済みコンテンツ（XML 形式）の手動による書き出しと読み込みがサポートされます。
 
 >[!TIP]
 >
-> を参照してください。 *翻訳*&#x200B;コンテンツの翻訳に関するベストプラクティスについては、ベストプラクティスガイドのを参照してください。
+> コンテンツの翻訳に関す *ベストプラクティスについては、ベストプラクティスガイドの* 翻訳」の節を参照してください。
 
 ## DITA マップダッシュボードの「翻訳」タブを設定します
 
@@ -54,9 +54,9 @@ AEMとの統合のためのコネクタが翻訳サービスプロバイダー�
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. を検索し、 **com.adobe.fmdita.config.ConfigManager** バンドル。
+1. **com.adobe.fmdita.config.ConfigManager** バンドルを検索してクリックします。
 
-1. 「」を選択します **「翻訳」タブを非表示** オプションを選択し、マップダッシュボードの「翻訳」タブを非表示にします。
+1. 「**翻訳タブを非表示**」オプションを選択して、マップダッシュボードの「翻訳」タブを非表示にします。
 
    >[!NOTE]
    >
@@ -78,17 +78,17 @@ AEMとの統合のためのコネクタが翻訳サービスプロバイダー�
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. を検索し、 **com.adobe.fmdita.config.ConfigManager** バンドル。
+1. **com.adobe.fmdita.config.ConfigManager** バンドルを検索してクリックします。
 
-1. の設定 **コンポーネントベースの DITA 翻訳ワークフロー** 設定に応じたオプション：
+1. 設定に従って「**コンポーネントベースの DITA 翻訳ワークフロー**」オプションを設定します。
 
-   - 人間による翻訳を使用している場合は、 *無効* この **コンポーネントベースの翻訳ワークフロー** オプション。
+   - 人間による翻訳を使用している場合は、「*コンポーネントベースの翻訳ワークフロー&#x200B;**オプションを* 無効** にします。
 
-   - 機械翻訳を使用している場合は、 *Enable （有効）* この **コンポーネントベースの翻訳ワークフロー** オプション。
+   - 機械翻訳を使用する場合は、「*コンポーネントベースの翻訳ワークフロー&#x200B;**オプションを* 有効** にします。
 
    >[!NOTE]
    >
-   > 翻訳コネクタを使用している場合は、の説明に従ってコネクタが設定されていることを確認してください *[翻訳統合フレームワークの設定](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html)* トピック （AEM ドキュメント）。
+   > 翻訳コネクタを使用している場合は、AEM ドキュメントの *[翻訳統合フレームワークの設定 ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html)* トピックの説明に従ってコネクタが設定されていることを確認してください。
 
 1. 「**保存**」をクリックします。
 
@@ -143,12 +143,12 @@ Based on the translation workflow used in your setup, provide the following (pro
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. を検索し、 **com.adobe.fmdita.config.ConfigManager** バンドル。
+1. **com.adobe.fmdita.config.ConfigManager** バンドルを検索してクリックします。
 
-1. の設定 **後処理の言語コピー** 設定に応じたオプション：
+1. 設定に応じて、**Post プロセスの言語コピー** オプションを設定します。
 
-   - \（*デフォルト*\）一時ファイルに対して後処理操作を実行しない場合は、 *無効* この **後処理の言語コピー** オプション。
+   - \（*Default*\）一時ファイルに対して後処理オペレーションを実行しない場合は、「*4}Post-process language copies*」オプションを選択して **無効にします。**
 
-   - 一時ファイルに対して後処理操作を実行する場合は、 *Enable （有効）* この **後処理の言語コピー** オプション。
+   - 一時ファイルに対して後処理の処理を実行する場合は、「**Post プロセスの言語コピー**」オプションを *有効* にします。
 
 1. 「**保存**」をクリックします。

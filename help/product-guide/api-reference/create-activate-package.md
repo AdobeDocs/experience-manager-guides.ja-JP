@@ -1,6 +1,6 @@
 ---
-title: パッケージを作成およびアクティブ化するための REST API
-description: パッケージを作成およびアクティブ化するための REST API について説明します
+title: パッケージを作成してアクティブ化するための REST API
+description: パッケージを作成してアクティブ化するための REST API について説明します
 exl-id: 90686f77-a769-44bc-90eb-116cf9d0341e
 feature: Rest API Packages
 role: Developer
@@ -12,49 +12,48 @@ ht-degree: 0%
 
 ---
 
-# パッケージを作成およびアクティブ化するための REST API {#id198CF0260Y4}
+# パッケージを作成してアクティブ化するための REST API {#id198CF0260Y4}
 
-次の REST API を使用すると、CRX パッケージを作成し、アクティブ化できます。
+次の REST API を使用すると、CRX パッケージを作成してアクティブ化できます。
 
-## パッケージ作成および有効化
+## パッケージを作成してアクティブ化
 
-CRX パッケージを作成してアクティベートするPOST メソッド。
+CRX パッケージを作成してアクティブ化するPOSTメソッド。
 
-**リクエストURL** :
-http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/fmdita/activate&lt;/port-number\>&lt;/aem-guides-server\>
+**リクエスト URL**:
+http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/fmdita/activate
 
 **パラメーター**:
-リクエスト クエリは、JSON ルール文字列で構成されます。 POST リクエストのコンテンツタイプは に設定する必要があります `application/json; charset=UTF-8`。
+リクエストクエリは、JSON ルール文字列で構成されます。 POSTリクエストのコンテンツタイプは、`application/json; charset=UTF-8` に設定する必要があります。
 
 **例**:
-以下に、curl コマンドを使用した API 呼び出しの例を示します。
+curl コマンドを使用した API 呼び出しの例を次に示します。
 
 ```XML
 curl -u <*username*>:<*password*> -H "Content-Type: application/json; charset=UTF-8"  -k -X POST -d "{[JSON rules string](create-activate-package-java.md#example-create-activate-package-id198JH0B905Z)}" http://<*aem-guides-server*>:<*port-number*>/bin/fmdita/activate
 ```
 
 
-**オプションパラメーター**
+**オプションのパラメーター**
 
 `activationTarget`
 
 **有効な値**
 
-`preview` または `publish` 、Cloud Service `publish` およびオンプレミスソフトウェアの場合
+Cloud Serviceの場合は `preview` または `publish`、オンプレミスの場合は `publish`
 
-- Cloud Service、パラメーターに 無効値が含まれている場合、パッケージ アクティベーションは失敗します。
+- Cloud Serviceの場合、パラメーターに無効な値が含まれていると、パッケージの有効化は失敗します。
 
-- オンプレミスソフトウェアの場合、パラメーターに無効値が含まれている場合、エラーはログに記録され、デフォルト値 `publish`を使用して公開が行われます。
+- オンプレミスソフトウェアでは、パラメーターに無効な値が含まれている場合、エラーがログに記録され、デフォルト値 `publish` を使用して公開が行われます。
 
-オプションのパラメータ を定義すると、 `activationTarget`Cloud Service とオンプレミスソフトウェアの両方でデフォルトの 公開する エージェントを使用してアクティブ化されます。
-
-
-
-次の例は、オプションのパラメーターを指定した curl コマンドを使用した API 呼び出しを示しています。
+オプションのパラメーター `activationTarget` を指定しない場合は、Cloud Serviceーとオンプレミスの両方でデフォルトのパブリッシュエージェントを使用してアクティベートされます。
 
 
-    &#39;&#39;&#39;XML
+
+次の例は、curl コマンドをオプションパラメーターと共に使用した API 呼び出しを示しています。
+
+
+    &quot;&#39;XML
     
-    curl -u &lt;*username*>:&lt;*password*> -H &quot;Content-書式 ＜例外＞Photoshop のみ「テキスト」: アプリケーション/json;charset=UTF-8&quot; -k -X POST -d &quot;{[JSON ルール文字列](create-activate-package-java.md#example-create-activate-package-id198JH0B905Z)}&quot; http://&lt;*aem-guides-server*>:&lt;*port-number*>/bin/fmdita/activate?activationTarget=&#39;&lt;validActivationTargetValue>&#39;
-    &#39;&#39;&#39;
-&lt;/validActivationTargetValue>&lt;/*port-number*>&lt;/*aem-guides-server*>&lt;/*password*>&lt;/*username*>
+    curl -u &lt;*username*>:&lt;*password*> -H &quot;Content-Type: application/json; charset=UTF-8&quot; -k -X POST -d &quot;{[JSON rules string] （create-activate-package-java.md#example-create-activate-package-id198JH0B905Z） }&quot; http://&lt;*aem-guides-server*>:&lt;*port-number*>/bin/fmdita/activate?activationTarget=&#39;&lt;validActivation targetValue>&#39;
+    &quot;&#39;

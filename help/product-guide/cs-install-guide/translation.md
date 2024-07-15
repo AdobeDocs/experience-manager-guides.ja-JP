@@ -23,35 +23,35 @@ ht-degree: 10%
 
 コンテンツの翻訳には次の手順が含まれます。
 
-1. AEMを [翻訳サービスプロバイダー](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) 翻訳統合フレームワーク設定を作成します。
+1. AEMを [ 翻訳サービスプロバイダー ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) に接続し、翻訳統合フレームワーク設定を作成します。
 
 1. 翻訳サービスとフレームワークの設定に言語マスターのページを関連付けます。
 
-1. タイプを識別する [翻訳するコンテンツ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/rules.html?lang=en).
+1. [ 翻訳するコンテンツ ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/rules.html?lang=en) のタイプを特定します。
 
 1. [翻訳するコンテンツを準備](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html?lang=en)します。そのためには、言語マスターをオーサリングして、言語コピーのルートページを作成します。
 
-1. 作成 [翻訳プロジェクト](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en) 翻訳するコンテンツを収集し、翻訳プロセスを準備します。
+1. [ 翻訳プロジェクト ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en) を作成して、翻訳するコンテンツを収集し、翻訳プロセスを準備します。
 
-1. 翻訳プロジェクトを使用して、次のことを行います [コンテンツ翻訳の管理](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en) プロセス。
+1. 翻訳プロジェクトを使用して [ コンテンツの翻訳の管理 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en) プロセスを実行します。
 
 
 AEMとの統合のためのコネクタが翻訳サービスプロバイダーに用意されていない場合、AEMでは翻訳済みコンテンツ（XML 形式）の手動による書き出しと読み込みがサポートされます。
 
 >[!TIP]
 >
-> を参照してください。 *翻訳* コンテンツの翻訳に関するベストプラクティスについては、ベストプラクティスガイドの節を参照してください。
+> コンテンツの翻訳に関するベストプラクティスについては、ベストプラクティスガイドの *翻訳* の節を参照してください。
 
 ## DITA マップダッシュボードの「翻訳」タブを設定します
 
 DITA マップダッシュボードの「翻訳」 タブを非表示にするには、次の手順を実行します。
 
-1. 記載されている手順を使用します。 [設定の上書き](download-install-additional-config-override.md#) 設定ファイルを作成します。
+1. [ 設定の上書き ](download-install-additional-config-override.md#) の手順に従って、設定ファイルを作成します。
 1. 設定ファイルで、次の\（property\）の詳細を指定して、マップダッシュボードの「翻訳」タブを設定します。
 
    | PID | プロパティキー | プロパティの値 |
    |---|------------|--------------|
-   | `com.adobe.fmdita.config.ConfigManager` | `tabs.translation` | ブール値\（true/ false\）。<br> **デフォルト値**: `true` |
+   | `com.adobe.fmdita.config.ConfigManager` | `tabs.translation` | ブール値\（true/ false\）.<br> **デフォルト値**: `true` |
 
    >[!NOTE]
    >
@@ -62,11 +62,11 @@ DITA マップダッシュボードの「翻訳」 タブを非表示にする�
 
 翻訳ベンダーのコネクタが DITA コンテンツをサポートしていない場合は、コンポーネントベースの翻訳ワークフローを有効にする必要があります。 有効にすると、翻訳可能コンテンツがアセットメタデータとして送信されます。 ただし、このワークフローを機能させるには、コネクタがアセットメタデータの翻訳をサポートしている必要があります。
 
-設定で使用した翻訳ワークフローに基づいて、コンポーネントベースの翻訳ワークフローオプションを設定する必要があります。 記載されている手順を使用します。 [設定の上書き](download-install-additional-config-override.md#) 設定ファイルを作成します。 設定ファイルで、コンポーネントベースの翻訳ワークフローを設定するために、次の\（property\）の詳細を指定します。
+設定で使用した翻訳ワークフローに基づいて、コンポーネントベースの翻訳ワークフローオプションを設定する必要があります。 [ 設定の上書き ](download-install-additional-config-override.md#) の手順に従って、設定ファイルを作成します。 設定ファイルで、コンポーネントベースの翻訳ワークフローを設定するために、次の\（property\）の詳細を指定します。
 
 | PID | プロパティキー | プロパティの値 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `component.translation` | ブール値： <br>  – 人間による翻訳を使用している場合は、次のようになります *無効* \（ `false`\） **コンポーネントベースの翻訳ワークフロー** オプション。 <br>  – 機械翻訳を使用している場合は、次のようにします *有効\（ `true`\）* この **コンポーネントベースの翻訳ワークフロー** オプション。 |
+| `com.adobe.fmdita.config.ConfigManager` | `component.translation` | ブール値：<br> -   人間による翻訳を使用している場合は、「*コンポーネントベースの翻訳ワークフロー&#x200B;**オプションを無効* \（`false`\）** します。 <br> -   機械翻訳を使用している場合は、「*コンポーネントベースの翻訳ワークフロー&#x200B;**オプション* 「\（`true`\）を有効にする** を選択します。 |
 
 
 
@@ -74,20 +74,20 @@ DITA マップダッシュボードの「翻訳」 タブを非表示にする�
 
 最新の翻訳ワークフローを使用することをお勧めします。これにより、パフォーマンスが向上します。 ただし、従来の翻訳ワークフローを使用する場合は、このワークフローを設定できます。
 
-記載されている手順を使用します。 [設定の上書き](download-install-additional-config-override.md#) 設定ファイルを作成します。 設定ファイルで、レガシー翻訳ワークフローを設定するために、次の（プロパティ）の詳細を指定します。
+[ 設定の上書き ](download-install-additional-config-override.md#) の手順に従って、設定ファイルを作成します。 設定ファイルで、レガシー翻訳ワークフローを設定するために、次の（プロパティ）の詳細を指定します。
 
 
 
 
 | PID | プロパティキー | プロパティの値 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | ブール値： <br>  – 最新の翻訳ワークフローを使用する場合は、次のようにします *無効* \（ `false`\） **従来の翻訳ワークフローの実行** オプション。 最新の翻訳ワークフローは、デフォルトで有効になっています。 <br>  – 従来の翻訳を使用している場合は、次のようになります *有効\（ `true`\）* この **従来の翻訳ワークフローの実行** オプション。 |
+| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | Boolean:<br> – 最新の翻訳ワークフローを使用する場合は、「*レガシーの翻訳ワークフローを実行*」オプションを **無効**\（`false`\）にします。 最新の翻訳ワークフローは、デフォルトで有効になっています。 <br> -   従来の翻訳を使用する場合は、「*従来の翻訳ワークフローを実行&#x200B;**オプション* 「\（`true`\）を有効にする** を選択します。 |
 
 
 
 >[!NOTE]
 >
-> 翻訳コネクタを使用している場合は、の説明に従ってコネクタが設定されていることを確認してください *[翻訳統合フレームワークの設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)* Adobe Experience Manager ドキュメントのトピック。
+> 翻訳コネクタを使用している場合は、Adobe Experience Manager ドキュメントの *[翻訳統合フレームワークの設定 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)* トピックの説明に従ってコネクタが設定されていることを確認してください。
 
 >[!IMPORTANT]
 >
@@ -97,9 +97,9 @@ DITA マップダッシュボードの「翻訳」 タブを非表示にする�
 
 翻訳ワークフローを開始すると、ソースコンテンツの一時的な言語コピーが作成されます。 これらの一時ファイルに対する後処理操作を有効または無効にすることができます。 後処理操作では、ファイルからの着信および発信参照が解決され、他の操作と共にドキュメントの状態が設定されます。 これらの一時ファイルの後処理を有効にすると、翻訳プロセスの完了に時間がかかる可能性があります。 そのため、後処理オプションは無効にしておくことをお勧めします。
 
-記載されている手順を使用します。 [設定の上書き](download-install-additional-config-override.md#) 設定ファイルを作成します。 設定ファイルで、一時的な言語コピーの後処理を設定するために、次の\（property\）の詳細を指定します。
+[ 設定の上書き ](download-install-additional-config-override.md#) の手順に従って、設定ファイルを作成します。 設定ファイルで、一時的な言語コピーの後処理を設定するために、次の\（property\）の詳細を指定します。
 
 | PID | プロパティキー | プロパティの値 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | ブール値： <br>  – 一時ファイルに対して後処理操作を実行しない場合は、 *無効* \（false\） **後処理の言語コピー** オプション。<br>  – 一時ファイルに対して後処理操作を実行する場合は、 *Enable （有効）* \（true\） **後処理の言語コピー** オプション。<br> **デフォルト値**:false |
+| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | ブール値：<br> -   一時ファイルに対して後処理の処理を実行しない場合は、「**Post プロセスの言語コピー**」オプションを *無効*\（false\）にします。<br> -   一時ファイルに対して後処理の処理を実行する場合は、*有効*\（true\） **Post プロセスの言語コピー** オプションを選択します。<br> **デフォルト値**:false |
 

@@ -1,6 +1,6 @@
 ---
 title: デスクトップベースの XML エディターの統合
-description: デスクトップベースの XML エディターを統合する方法を説明します。
+description: デスクトップベースの XML エディターを統合する方法を学ぶ
 exl-id: 268e8613-bb3b-4577-96fb-a588dabfd834
 feature: Publishing FrameMaker Documents
 role: Admin
@@ -14,29 +14,29 @@ ht-degree: 0%
 
 # デスクトップベースの XML エディターの統合 {#id181GB01G0HS}
 
-市場では多くの XML エディタが利用可能で、既に使用している可能性があります。 Adobe FrameMakerは、AEMコネクタに付属する、最も強力な XML エディターの 1 つです。 FrameMakerでAEMコネクタを使用すると、AEMリポジトリとの接続、ファイルのチェックアウトとチェックイン、およびFrameMakerでの直接のファイルの編集を簡単におこなえます。 AEMガイドを設定して、Web エディターからFrameMakerを起動することもできます。 ファイルをFrameMakerで開いたら、ファイルを編集し、AEMリポジトリに再度チェックインできます。
+市場には多くの XML エディターが存在しており、既に使用している可能性があります。 Adobe FrameMakerは、AEM コネクタに付属する最も強力な XML エディターの 1 つです。 FrameMakerでAEM コネクタを使用すると、AEM リポジトリとの接続、ファイルのチェックアウトとチェックイン、FrameMakerでの直接編集を簡単に行うことができます。 また、web エディターからFrameMakerを起動するようにAEM Guidesを設定することもできます。 ファイルをFrameMakerで開いたら、ファイルを編集してAEM リポジトリにチェックインできます。
 
-## Web エディターからFrameMakerでのファイル編集を有効にする
+## Web エディターからFrameMakerーでのファイル編集を有効にする
 
-FrameMakerまたはその他の DITA エディターを使用して、DITA コンテンツを作成および更新できます。 ただし、組織でFrameMakerを DITA エディターとして使用している場合は、AEMからFrameMakerで DITA 文書を直接開くオプションをユーザーに与えることができます。
+FrameMakerまたはその他の DITA エディタを使用して、DITA コンテンツを作成および更新できます。 ただし、FrameMakerを DITA エディタとして使用している場合は、AEMから直接FrameMakerで DITA 文書を開くことができます。
 
-デフォルトでは、ユーザーには **「開く」FrameMaker** ボタンをAEMツールバーに追加します。 このボタンをAEMツールバーに追加するには、次の手順を実行します。
+デフォルトでは、AEM ツールバーに「**FrameMakerで開く** ボタンは表示されません。 次の手順を実行して、このボタンをAEM ツールバーに追加します。
 
 1. Adobe Experience Manager Web コンソール設定ページを開きます。
 
-   設定ページにアクセスするデフォルトの URL は次のとおりです。
+   設定ページにアクセスするためのデフォルトの URL は次のとおりです。
 
    ```http
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. を検索して、 **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** バンドル。
+1. **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** バンドルを検索してクリックします。
 
    ![](assets/open-in-fm-toolbar.png){width="550" align="left"}
 
-1. を選択します。 **「開くFrameMaker」ボタンを表示** オプション。
+1. 「**FrameMakerで開くボタンを表示**」オプションを選択します。
 
 1. 「**保存**」をクリックします。
 
 
-次を有効にした場合、 **「開くFrameMaker」ボタンを表示** オプションを選択し、 **「開く」FrameMaker** ボタンがAEMリポジトリ内の任意の DITA ファイルを選択する際に表示されます。 このオプションが *無効*、 **「開く」FrameMaker** ボタンは、リポジトリ内で.fm ファイルまたは.book ファイルを選択した場合にのみ表示されます。
+「**FrameMakerで開くボタンを表示**」オプションを有効にすると、AEM リポジトリ内の任意の DITA ファイルを選択したときに「**FrameMakerで開く**」ボタンが表示されます。 このオプションが *有効になっていない* 場合、「**FrameMakerで開く**」ボタンは、リポジトリで.fm または.book ファイルを選択した場合にのみ表示されます。

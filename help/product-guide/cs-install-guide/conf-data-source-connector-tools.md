@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # ユーザーインターフェイスからのデータソースコネクタの設定
 
-Experience Managerガイドには付属しています **データソース** データソース用の標準提供コネクタを設定するのに役立つツールです。 JIRA、SQL （MySQL、PostgreSQL、Microsoft SQL Server、SQLite、MariaDB、H2DB）、AdobeCommerce、Elasticsearchおよび汎用 REST クライアントコネクタを設定できます。
+Experience Manager Guidesには、データソース用の標準のコネクタを設定するのに役立つ **データソース** ツールが付属しています。 JIRA、SQL （MySQL、PostgreSQL、Microsoft SQL Server、SQLite、MariaDB、H2DB）、AdobeCommerce、Elasticsearchおよび汎用 REST クライアントコネクタを設定できます。
 
 
-これらの標準のコネクタに加えて、Salsify、Akeneo、およびMicrosoft Azure DevOps Boards （ADO） データ ソース用のコネクタがExperience Manager ガイドに記載されています。 これらのオープンソースコネクタは、 [Maven 中央リポジトリ](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides). その後、ユーザーはこれらのコネクタを設定できます。
-方法を学ぶ [オープンソースコネクタのインストール](#install-open-source-connector).
+これらの標準のコネクタに加えて、Experience Manager Guidesには Salsify、Akeneo、およびMicrosoft Azure DevOps Boards （ADO）データソース用のコネクタが用意されています。 これらのオープンソースコネクタは、[Maven Central リポジトリ ](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides) からダウンロードしてインストールできます。 その後、ユーザーはこれらのコネクタを設定できます。
+方法について説明します [ オープンソースコネクタをインストールする ](#install-open-source-connector)。
 
 
 
@@ -26,15 +26,15 @@ Experience Managerガイドには付属しています **データソース** �
 
 コネクタを設定するには、次の手順を実行します。
 
-1. 「」を選択します **Adobe Experience Manager** 上部のリンクから「ツール」を選択します。
-1. を選択 **ガイド** ツールのリストから。
-1. 「」を選択します **データソース** タイル。 この **データソース** ページが表示されます。 接続されたデータソースを表示できます。
+1. 上部の **Adobe Experience Manager** リンクを選択し、「ツール」を選択します。
+1. ツールのリストから **ガイド** を選択します。
+1. **データソース** タイルを選択します。 **データソース** ページが表示されます。 接続されたデータソースを表示できます。
 
-   を切り替えることができます **リスト表示** または **タイル表示** 接続された様々なデータソースをリストまたはタイルとして表示する場合。
+   **リスト表示** または **タイル表示** を切り替えて、接続された様々なデータソースをリストまたはタイルとして表示できます。
 
    <img src="./assets/data-sources-create-window.png" alt= "データソースページにリストされたデータソース" width="800">
 
-   *データソースコネクタを表示または作成します。*
+   *データソースコネクタの表示または作成*
 1. 「**作成**」をクリックします。
 1. コネクタを作成するデータベースを選択します。 例えば、Elasticsearchコネクタです。
    >[!NOTE]
@@ -46,24 +46,24 @@ Experience Managerガイドには付属しています **データソース** �
 
    >[!TIP]
    >
-   >* カーソルを合わせる <img src="./assets/info-details.svg" alt= "情報アイコン" width="25"> フィールドの近くに、それについての詳細を表示します。
+   >* カーソルを合わせる フィールドの近くを <img src="./assets/info-details.svg" alt= "情報アイコン" width="25"> リックすると、フィールドに関する詳細が表示されます。
    > * *を含むフィールドは必須です。 例えば、Elasticsearchコネクタに関して次の詳細を入力できます。
 
-   * **名前**：データソースの名前を入力します。
+   * **名前**: データソースの名前を入力します。
    * **認証タイプ**：ドロップダウンから認証のタイプを選択します。 例：基本的なユーザー名とパスワードの認証
    * **ユーザー名**：ユーザー名を入力します。
    * **パスワード**：ユーザー名とパスワードを入力します。
-   * **URL**:API URL を追加します。
+   * **URL**:API の URL を追加します。
 
 
-1. 「」を選択します **ファクトリテンプレートを除外** ファクトリテンプレートがトピックおよびスニペットの生成に使用されないようにするオプション。 その下には表示されません。 **データマッピングテンプレート** のドロップダウン  **コンテンツスニペットジェネレーターを追加** または **トピック ジェネレータの追加** ダイアログが表示されます。
+1. 「**ファクトリテンプレートを除外**」オプションを選択して、ファクトリテンプレートをトピックおよびスニペットの生成に使用しないようにします。 これらのプロパティは、「**コンテンツスニペットジェネレーターを追加**」ダイアログボックスまたは **トピックジェネレーターを追加** ダイアログボックスの **データマッピングテンプレート** ドロップダウンに表示されません。
 
 
-1. を選択 **接続をテスト**. を表示できます **接続をテスト** ボタンは、必要な詳細を追加した後にのみ有効になります。 接続の詳細が正しい場合は、成功メッセージを表示します。 そうしないと、エラーメッセージが表示される場合があります。
+1. **接続をテスト** を選択します。 **接続をテスト** ボタンは、必要な詳細を追加した後でのみ有効になります。 接続の詳細が正しい場合は、成功メッセージを表示します。 そうしないと、エラーメッセージが表示される場合があります。
 
 
 
-1. を選択 **保存** 上部でコネクタを保存します。     を表示する **保存** すべての詳細を入力して接続に成功すると、ボタンが有効になります。
+1. 上部の「**保存**」を選択して、コネクタを保存します。     すべての詳細を入力して接続に成功したら、有効な **保存** ボタンを表示します。
 
 
    コネクタが正常に保存されると、接続されたデータソースがページに表示されます。
@@ -74,10 +74,10 @@ Generic REST Client、Salsify、Akeneo、Microsoft Azure DevOps Boards （ADO）
 
 リソースを作成するには、以下の手順を実行します。
 
-1. を選択 ![アイコンを追加](assets/Add_icon.svg) が含まれる **URL リソースセクション** 各 URL にリソースを追加します。
-1. のすべての詳細を設定 **リソースを追加** ダイアログが表示されます。
+1. **URL リソース ](assets/Add_icon.svg) セクションの ![ 追加アイコン** を選択して、各 URL のリソースを追加します。
+1. **リソースを追加** ダイアログボックスですべての詳細を設定します。
 1. 「**追加**」をクリックします。
-1. 次を編集できます ![編集アイコン](assets/edit_pencil_icon.svg) または削除 ![削除](assets/Delete_icon.svg) url リソースリストのリソース。
+1. URL リソースリストで、リソースの編集 ![ 編集アイコン ](assets/edit_pencil_icon.svg) または削除 ![ 削除 ](assets/Delete_icon.svg) を行うことができます。
 
 1. また、Salsify、Akeneo、Microsoft ADO などのデータ ソースで使用できる既定のリソースを使用することもできます。 データソースに設定しないリソースのオプションをオフに切り替えます。
 
@@ -87,9 +87,9 @@ Generic REST Client、Salsify、Akeneo、Microsoft Azure DevOps Boards （ADO）
 
 ## オープンソースコネクタのインストール{#install-open-source-connector}
 
-に存在する依存関係を公開するには [Maven 中央リポジトリ](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides) Cloud Serviceには、オープンソースコネクタの依存関係を含めて埋め込む必要があります。
+[Maven Central リポジトリ ](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides) に存在する依存関係をCloud Serviceに公開するには、オープンソースコネクタの依存関係を含めて埋め込む必要があります。
 
-1. 依存関係をに追加します。 `all/pom.xml`  cloud manager Git プロジェクトコード内。 例えば、Microsoft Azure DevOps Boards データソースコネクタに次の依存関係を追加できます。
+1. Cloud Manager Git プロジェクトコードの `all/pom.xml` に依存関係を追加します。 例えば、Microsoft Azure DevOps Boards データソースコネクタに次の依存関係を追加できます。
 
 
    ```
@@ -103,14 +103,14 @@ Generic REST Client、Salsify、Akeneo、Microsoft Azure DevOps Boards （ADO）
 
 1. 追加した依存関係を埋め込みます。
 
-       ``
+       ```
        &lt;embedded>
-       &lt;groupid>com.adobe.aem.addon.guides&lt;/groupid>
-       &lt;artifactid>konnect-azure-devops&lt;/artifactid>
+       &lt;groupId>com.adobe.aem.addon.guides&lt;/groupId>
+       &lt;artifactId>konnect-azure-devops&lt;/artifactId>
        &lt;type>jar&lt;/type>
        &lt;target>/apps/aemdoxonaemcsstageprogram-vendor-packages/content/install&lt;/target>
        &lt;/embedded>
-       ``
+       ```
    
 1. パイプラインを実行してCloud Serviceに変更を適用します。
 コネクタは環境にインストールされています。
@@ -118,14 +118,14 @@ Generic REST Client、Salsify、Akeneo、Microsoft Azure DevOps Boards （ADO）
 
 ## コネクタで使用できる機能
 
-* を切り替えます **リスト表示** または **タイル表示**  接続された様々なデータソースをリストまたはタイルとして表示する場合。
-* 単一のコネクタのチェックボックスを選択します。 クリック **すべて選択** すべてのコネクタを選択します。 次のいずれかをクリックできます。 **すべて解除** すべてのコネクタが選択されている場合。
+* **リスト表示** または **タイル表示** を切り替えて、接続された様々なデータソースをリストまたはタイルとして表示します。
+* 単一のコネクタのチェックボックスを選択します。 **すべてを選択** をクリックして、すべてのコネクタを選択します。 すべてのコネクタを選択したら、「**すべて選択解除**」をクリックできます。
 
 <img src="./assets/data-sources-features.png" alt= "「データソース」ページのデータソースの機能" width="800">
 
-*データソースコネクタの編集、再接続、複製、削除を行います。*
+*データソースコネクタの編集、再接続、複製、削除*
 
-のコネクタには、次の機能を使用できます **データソース** ページ：
+**データソース** ページのコネクタでは、次の機能を使用できます。
 
 * **編集**：選択したコネクタの設定の詳細を編集します。
 
@@ -137,4 +137,4 @@ Generic REST Client、Salsify、Akeneo、Microsoft Azure DevOps Boards （ADO）
 * **削除**：選択したコネクタを削除します。
 
 
-データソースを設定すると、コネクタがの下に表示されます **データソースパネル** Web エディターで以下を行います。 その後、データソースに接続し、トピックにコンテンツスニペットを挿入できます。 詳しくは、次を参照してください [データソースからコンテンツスニペットを挿入する](../user-guide/web-editor-content-snippet.md).
+データソースを設定すると、コネクタが Web エディターの **データソース** パネルの下に表示されます。 その後、データソースに接続し、トピックにコンテンツスニペットを挿入できます。 詳しくは、[ データソースからコンテンツスニペットを挿入する ](../user-guide/web-editor-content-snippet.md) を参照してください。

@@ -16,37 +16,37 @@ ht-degree: 1%
 
 - `file_options`
 コントローラ：
-   - マップ ビュー： `ditamap_viewer_controller`
-   - リポジトリーパネル： `repository_panel_controller`
-   - お気に入りパネル： `collection_tree_controller`
-   - ファイルプロパティ参照リンク： `file_references_links_controller`
-   - リポジトリ検索パネル： `repository_search_controller`
-   - 件名の設定パネル： `subject_scheme_tree_controller`
+   - マップ ビュー：`ditamap_viewer_controller`
+   - リポジトリパネル：`repository_panel_controller`
+   - お気に入りパネル：`collection_tree_controller`
+   - ファイル プロパティ参照リンク：`file_references_links_controller`
+   - リポジトリ検索パネル：`repository_search_controller`
+   - 件名の設定パネル：`subject_scheme_tree_controller`
 
 - `folder_options`
 コントローラ：
-   - リポジトリーパネル： `repository_panel_controller`
-   - お気に入りパネル： `collection_tree_controller`
+   - リポジトリパネル：`repository_panel_controller`
+   - お気に入りパネル：`collection_tree_controller`
 
 - `collection_options`
 コントローラ：
-   - お気に入りパネル： `collection_tree_controller`
+   - お気に入りパネル：`collection_tree_controller`
 
 - `map_view_options`
 コントローラ：
-   - マップ ビュー： `ditamap_viewer_controller`
+   - マップ ビュー：`ditamap_viewer_controller`
 
 - `baseline_panel_menu`
 コントローラ：
-   - ベースラインパネル： `baseline_panel`
+   - [ ベースライン ] パネル：`baseline_panel`
 
 - `preset_item_menu`
 コントローラ：
-   - プリセットパネル： `preset_panel`
+   - プリセットパネル：`preset_panel`
 
 新しい一意の ID を定義することで、独自のコンテキストメニューを作成することもできます。
 
-各コンテキストメニューには、 `controller id` 関連付けられています。 このコントローラーは `on-event` 各種コンテキストメニューオプションの機能
+これで、各コンテキストメニューに `controller id` が関連付けられました。 このコントローラは、さまざまなコンテキスト メニューオプションの `on-event` 機能を処理します
 
 を理解するための例を見てみましょう。
 
@@ -118,7 +118,7 @@ const fileOptions = {
 
 次に、このコードの動作を説明します。
 
-1. `id` は、カスタマイズするコンテキストメニューを識別するために使用されます。
-2. `contextMenuWidget` を使用して、 `widget id` または `component` コンテキストメニューを呼び出し、 `events`.
+1. `id` は、カスタマイズするコンテキストメニューを識別するために使用します。
+2. `contextMenuWidget` は、コンテキストメニューを呼び出してコンテン `events` を処理する `widget id` または `component` を定義するために使用されます。
 
-残りの部分は同じままで、次のような結果になります `view` を使用して、項目を定義します。 `target` オプションと先頭をどこで置換、追加、または追加するかを指定します。 `contextMenuWidget` コントローラは、 `on-click` イベント。
+残りの部分は同じままで、項目の定義に使用さ `view`、オプションの置き換え、追加または追加を行う場所を識別します。`target` の後、`contextMenuWidget` のコントローラが `on-click` のイベントを処理します。

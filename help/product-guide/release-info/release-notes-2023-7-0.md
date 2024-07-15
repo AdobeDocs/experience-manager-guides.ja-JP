@@ -1,6 +1,6 @@
 ---
-title: リリースノート | 2023 年 7 月リリースのAdobe Experience Managerガイドにおけるアップグレード手順と修正された問題
-description: バグ修正とAdobe Experience Managerガイドの 2023 年 7 月リリースへのアップグレード方法について説明します。as a Cloud Service
+title: リリースノート | Adobe Experience Manager Guidesのアップグレード手順と修正された問題、2023 年 7 月リリース
+description: バグ修正と、Adobe Experience Manager Guidesas a Cloud Serviceの 2023 年 7 月リリースへのアップグレード方法について説明します
 exl-id: f1765c6a-cb8e-4a06-a6f4-f5c225b6bc88
 feature: Release Notes
 role: Leader
@@ -13,23 +13,23 @@ ht-degree: 1%
 
 # 2023 年 7 月リリースのAdobe Experience Manager Guidesas a Cloud Service
 
-このリリースノートでは、Adobe Experience Managerガイドのバージョン 2023 年 7 月 ( 後で *AEMガイドas a Cloud Service*) をクリックします。
+このリリースノートでは、Adobe Experience Manager Guidesの 2023 年 7 月バージョン（後で *AEM Guidesas a Cloud Service* と呼ばれます）で修正されたアップグレード手順、互換性マトリックスおよび問題について説明します。
 
-新機能および機能強化について詳しくは、 [2023 年 7 月リリースのAEMガイドas a Cloud Serviceの新機能](whats-new-2023-7-0.md).
+新機能と機能強化について詳しくは、[AEM Guidesas a Cloud Serviceの 2023 年 7 月リリースの新機能 ](whats-new-2023-7-0.md) を参照してください。
 
-## 2023 年 7 月リリースにアップグレード
+## 2023 年 7 月リリースへのアップグレード
 
-次の手順に従って、現在のAEM Guidesas a Cloud Service設定をアップグレードします。
+次の手順を実行して、現在のAEM Guidesのas a Cloud Service設定をアップグレードします。
 
-1. Cloud Serviceの Git コードを確認し、アップグレードする環境に対応するCloud Serviceパイプラインで設定されたブランチに切り替えます。
-2. 更新 `<dox.version>` プロパティ： `/dox/dox.installer/pom.xml` ファイルのCloud ServiceGit コードを 2023.7.0.314 に設定します。
-3. 変更をコミットし、Cloud Serviceパイプラインを実行して、2023 年 7 月リリースのAEM Guides as a Cloud Serviceにアップグレードします。
+1. Cloud Serviceの Git コードをチェックアウトし、アップグレードする環境に対応する、Cloud Serviceパイプラインで設定されたブランチに切り替えます。
+2. Cloud Service`<dox.version>`Git コード `/dox/dox.installer/pom.xml` ファイルのプロパティを 2023.7.0.314 に更新します。
+3. 変更内容をコミットし、Cloud Serviceパイプラインを実行して、2023 年 7 月リリースのAEM Guidesas a Cloud Serviceにアップグレードします。
 
-## サーブレットを介したスクリプトのトリガーを有効にする手順
+## サーブレットを使用したスクリプトのトリガーを有効にする手順
 
-(2023 年 6 月リリースより前のバージョンのAEMガイドをas a Cloud Serviceの場合のみ )
+（AEM Guidesas a Cloud Serviceの 2023 年 6 月リリースより前のバージョンを使用している場合のみ）
 
-インストールが完了したら、「トリガーを押して翻訳ジョブを開始」を選択できます。
+インストールが完了したら、トリガーを押して翻訳ジョブを開始できます。
 
 POST:
 
@@ -47,9 +47,9 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 }
 ```
 
-前の応答 JSON では、キー `lockNodePath` は、送信されたジョブを指す、リポジトリで作成されたノードへのパスを保持します。 ジョブが完了すると自動的に削除され、それまでは、このノードを参照してジョブの現在のステータスを確認できます。
+前の応答 JSON では、キー `lockNodePath` は、送信されたジョブを指す、リポジトリで作成されたノードへのパスを保持します。 ジョブが完了すると自動的に削除されますが、その時点まで、ジョブの現在のステータスについては、このノードを参照できます。
 
-このジョブが完了するまで待ってから、次の手順に進みます。
+このジョブが完了するのを待ってから、次の手順に進みます。
 
 >[!NOTE]
 >
@@ -60,60 +60,61 @@ GET
 http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/1683190032886.json
 ```
 
-## リンク切れレポートを使用するために既存のコンテンツを後で処理する手順
+## 壊れたリンクレポートを使用するために、既存のコンテンツを後処理する手順
 
-(2023 年 6 月リリースより前のバージョンのAEMガイドをas a Cloud Serviceの場合のみ )
+（AEM Guidesas a Cloud Serviceの 2023 年 6 月リリースより前のバージョンを使用している場合のみ）
 
-既存のコンテンツを後処理し、新しい壊れたリンクレポートを使用するには、次の手順を実行します。
+既存のコンテンツを後処理し、新しい壊れたリンクのレポートを使用するには、次の手順を実行します。
 
-1. （オプション）システム内に 100,000 個を超える DITA ファイルがある場合、 `queryLimitReads` under `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` を大きい値 ( 存在するアセットの数（例：200,000）を超える値 ) に設定し、再デプロイします。
+1. （オプション）システムに 100,000 個を超える Dita ファイルがある場合は、`org.apache.jackrabbit.oak.query.QueryEngineSettingsService` の `queryLimitReads` を大きい値（存在するアセットの数を超える値は、たとえば 200,000）に変更してから再デプロイします。
 
-   - に示す手順を使用します。 *設定の上書き* 設定ファイルを作成するには、 Adobe Experience Manager Guides のインストールと設定をas a Cloud Service的に行ってください。
-   - 設定ファイルで、次の（プロパティ）詳細を指定して queryLimitReads オプションを設定します。
+   - Adobe Experience Manager Guidesのインストールと設定の *設定の上書き* の節で説明している手順を使用します
+as a Cloud Service：設定ファイルを作成します。
+   - 設定ファイルで、次の（プロパティ）の詳細を指定して queryLimitReads オプションを設定します。
 
      | PID | プロパティキー | プロパティの値 |
      |---|---|---|
-     | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitReads | 値：200000デフォルト値：100000 |
+     | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitReads | 値：200000 デフォルト値：100000 |
 
-1. サーバーに対してPOSTリクエストを実行します（正しい認証を使用） - `http://<server:port>//bin/guides/reports/upgrade`.
+1. （正しいPOSTを使用して）サーバへの認証リクエストを実行します。`http://<server:port>//bin/guides/reports/upgrade`
 
-1. API は jobId を返します。 ジョブのステータスを確認するには、ジョブ ID を持つGETリクエストを同じエンドポイントに送信します。 `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
-( 例： `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
+1. API は jobId を返します。 ジョブのステータスを確認するには、ジョブ ID を含むGETリクエストを同じエンドポイント（`http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`）に送信します。
+（例：`http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）
 
-1. ジョブが完了すると、以前のGETリクエストが成功して応答します。 何らかの理由でジョブが失敗した場合は、サーバーログから失敗を確認できます。
+1. ジョブが完了すると、前回のGETリクエストが正常に応答します。 何らかの理由でジョブが失敗した場合は、失敗がサーバーログに記録されます。
 
-1. のデフォルト値または以前の既存の値に戻す `queryLimitReads` 手順 1 で変更した場合。
+1. 手順 1 で変更した場合は、デフォルトまたは以前の既存の値 `queryLimitReads` に戻します。
 
-## 「レポート」タブの新しい検索と置換、およびトピックリストを使用するために既存のコンテンツをインデックス化する手順は次のとおりです。
+## 「レポート」タブで新しい「検索と置換」および「トピック」リストを使用するために、既存のコンテンツにインデックスを作成する手順は次のとおりです。
 
-(2023 年 6 月リリースより前のバージョンのAEMガイドをas a Cloud Serviceの場合のみ )
+（AEM Guidesas a Cloud Serviceの 2023 年 6 月リリースより前のバージョンを使用している場合のみ）
 
-既存のコンテンツのインデックス作成に関する次の手順を実行し、「レポート」タブのマップレベルおよびトピックリストで新しい検索と置換テキストを使用します。
+既存のコンテンツのインデックスを作成する次の手順を実行し、「レポート」タブの新しい検索と置換のテキストをマップレベルとトピックリストで使用します。
 
-1. POSTリクエストをサーバーに対して実行します\（正しい認証で） - `http://<server:port\>/bin/guides/map-find/indexing`. （任意）マップの特定のパスを渡してインデックスを作成できます。デフォルトでは、すべてのマップにインデックスが作成されます\|\| 例： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+1. サーバー\（正しい認証\） - `http://<server:port\>/bin/guides/map-find/indexing` へのPOSTリクエストを実行します。 （オプション：マップの特定のパスをインデックスに指定できます。デフォルトでは、すべてのマップにインデックスが付けられます\|\|例：`https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`）。
 
-1. また、ルートフォルダーを渡して、特定のフォルダー（およびそのサブフォルダー）の DITA マップのインデックスを作成することもできます。 例えば、`http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test` のようになります。paths パラメーターと root パラメーターの両方が渡される場合は、paths パラメーターのみが考慮されます。
+1. ルートフォルダーを渡して、特定のフォルダー（およびそのサブフォルダー）の DITA マップのインデックスを作成することもできます。 例えば、`http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test` のようになります。paths パラメーターと root パラメーターの両方が渡される場合、paths パラメーターのみが考慮されることに注意してください。
 
-1. API は jobId を返します。 ジョブのステータスを確認するには、ジョブ ID を持つGETリクエストを同じエンドポイントに送信します。 `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\( 例： `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
+1. API は jobId を返します。 ジョブのステータスを確認するには、同じエンドポイント `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\（例：`http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\）にジョブ ID を含むGETリクエストを送信します
 
 
-1. ジョブが完了すると、前のGETリクエストは成功と共に応答し、マップが失敗した場合はメンションされます。 正常にインデックス付けされたマップは、サーバーログから確認できます。
+1. ジョブが完了すると、前回のGETリクエストが成功を返し、マップが失敗したかどうかを示します。 正常にインデックス化されたマップは、サーバ ログから確認できます。
 
 ## 互換性マトリックス
 
-この節では、AEMガイド (as a Cloud Service) の 2023 年 7 月リリースでサポートされるソフトウェアアプリケーションの互換性マトリックスを示します。
+この節では、2023 年 7 月リリースのAEM Guidesas a Cloud Serviceでサポートされているソフトウェアアプリケーションの互換性マトリックスを示します。
 
 ### FrameMakerとFrameMaker Publishing Server
 
 | AEM Guides as a Cloud リリース | FMPS | FrameMaker |
 | --- | --- | --- |
-| 2023.07.0 | 互換性がありません | 2022 以降 |
+| 2023.07.0 | 互換性がありません | 2022 以上 |
 | | | |
 
 
 ### 酸素コネクタ
 
-| AEM Guides as a Cloud リリース | Oxygen Connector ウィンドウ | Oxygen Connector Mac | Oxygen Windows で編集 | Oxen Macで編集 |
+| AEM Guides as a Cloud リリース | 酸素コネクタウィンドウ | 酸素コネクタMac | 酸素ウィンドウで編集 | Oxygen Macで編集 |
 | --- | --- | --- | --- | --- |
 | 2023.07.0 | 2.9-uuid-2 | 2.9-uuid-2 | 2.3 | 2.3 |
 |  |  |  |  |
@@ -125,14 +126,14 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 ### オーサリング
 
-- Web エディターのレイアウトビューには、インライン/表示属性が表示されません。 (12498)
-- AEMガイド用 Oxygen Plugin でファイルをアップロードするが、クラウドサービスでは動作しない。 をクリックします。 (12207)
-- 編集可能なテンプレートを使用すると、DITA マップの公開が非常に遅くなります。 (12075)
-- グローバルプロファイル UI 設定がフォルダープロファイルと一致しません。 (11970)
-- DITA ファイルをコピーして貼り付けると、コンテンツ参照が壊れます。 (11959)
-- AEM Guides がインストールされている場合、列表示でコンテンツフラグメントを編集できない。 (7342)
-- ラップ解除された外部参照がサブ要素タグの下にある場合、コンテンツは失われます。 (12532)
+- インライン/表示属性が Web エディターのレイアウト ビューに表示されません。 （12498）
+- 利用している場合、AEM Guides用 Oxygen プラグインへのファイルのアップロードが Cloud Services で機能しない。 をファイル名で使用します。 （12207）
+- 編集可能テンプレートを使用すると、DITA マップの公開が非常に遅くなる。 （12075）
+- グローバルプロファイル UI 設定がフォルダープロファイルと一致しません。 （11970）
+- DITA ファイルをコピーして貼り付けると、コンテンツ参照が壊れます。 （11959）
+- AEM Guidesがインストールされている場合、列表示でコンテンツフラグメントを編集できない。 （7342）
+- 展開された外部参照がサブ要素タグの下にある場合、コンテンツは失われます。 （12532）
 
 ### 公開
 
-- 右側のパネルの「ファイル」プロパティから「終了状態」に変更された docstate は、承認ワークフローが機能しません。 (11026)
+- 右側のパネルの「ファイル」プロパティで docstate を「終了状態」に変更すると、承認ワークフローが機能しない。 （11026）

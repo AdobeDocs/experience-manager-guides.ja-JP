@@ -2,7 +2,8 @@
 title: テキスト領域
 description: テキスト領域
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 4c576acc-fa6a-4c41-9b92-443ba51dc8ee
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 3%
@@ -11,8 +12,8 @@ ht-degree: 3%
 
 # テキストフィールドとテキスト領域
 
-テキストを入力として使用するには、コンポーネント、テキストフィールドおよびテキスト領域を使用します。
-JUI のテキスト領域コンポーネントは、html を表します。 `<textarea/>`.
+テキストを入力として取り込むには、コンポーネント、テキストフィールド、テキスト領域を使用します。
+JUI のテキスト領域コンポーネントは HTML `<textarea/>` を表します。
 
 ```js title="textArea.js"
 const textAreaJSON =  {
@@ -30,9 +31,9 @@ const textAreaJSON =  {
 },
 ```
 
-ここで `on-keyup` は、コントローラ内のコマンドを呼び出すための構文です。
-これにより、 textArea が生成され、 Enter キーを押すとイベントが呼び出されます `submitName`
+ここで、コントローラ内のコマンドを呼び出すための構文を `on-keyup` に示します。
+Enter キーを押すとイベント `submitName` が呼び出される textArea が生成されます
 
 レンダリングされたテキスト領域は次のようになります。
 
-![text-area](./imgs/text_area.png "テキスト領域")
+![text-area](./imgs/text_area.png "Text area")

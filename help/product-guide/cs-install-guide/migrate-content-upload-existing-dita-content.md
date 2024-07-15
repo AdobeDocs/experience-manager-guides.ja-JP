@@ -1,6 +1,6 @@
 ---
 title: 既存の DITA コンテンツのアップロード
-description: 既存の DITA コンテンツのアップロード方法を説明します。
+description: 既存の DITA コンテンツをアップロードする方法を学ぶ
 exl-id: 2b385eef-00a7-4c25-9e78-367a0c9e44ba
 feature: Migration
 role: Admin
@@ -14,25 +14,25 @@ ht-degree: 0%
 
 # 既存の DITA コンテンツのアップロード {#id176FF000JUI}
 
-ほとんどの場合、AEMガイドで使用する既存の DITA コンテンツのリポジトリが存在する可能性があります。 このような既存のコンテンツに対しては、 [Adobe Experience Manager as a Cloud Service Assets へのデジタルアセットの追加](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html).
+ほとんどの場合、AEM Guidesで使用する既存の DITA コンテンツのリポジトリがあります。 このような既存のコンテンツの場合、[Adobe Experience Manager as a Cloud Service Assetsへのデジタルアセットの追加 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html) で説明されている、サポートされている任意の方法を使用することができます。
 
 ## UUID ファイル名パターンの設定
 
-コンテンツを読み込む場合、ファイル名が UUID に基づく必要はありません。 UUID ベースのファイル名を使用するシステムでは、すべてのファイルが、元のファイル名ではなく UUID を使用して参照される必要があります。 読み込んだファイルに UUID ベースのファイル名がない場合は、UUID をファイルプロパティに追加するようにシステムを設定できます。 その後、この UUID は、UUID がファイルの命名に使用されない場合に、このようなファイルを参照するために使用されます。
+コンテンツを読み込む場合、ファイル名が UUID に基づいている必要はありません。 UUID ベースのファイル名を使用するシステムでは、元のファイル名ではなく、すべてのファイルを UUID を使用して参照する必要があります。 読み込んだファイルが UUID ベースのファイル名を持たない場合は、そのファイルプロパティに UUID を追加するようにシステムを設定できます。 次に、この UUID は、そのようなファイルを参照するために使用されます。UUID は、ファイルの命名には使用されません。
 
-に示す手順を使用します。 [設定の上書き](download-install-additional-config-override.md#) をクリックして、設定ファイルを作成します。 設定ファイルで、次の\(property\) 詳細を指定して UUID ファイル名パターンを設定します。
+[ 設定の上書き ](download-install-additional-config-override.md#) の手順に従って、設定ファイルを作成します。 UUID ファイルパターンを設定するには、設定ファイルで、次の\（property\）の詳細を指定します。
 
 | PID | プロパティキー | プロパティの値 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `uuid.regex` | UUID ファイル名パターンの正規表現を指定する文字列。 <br> ファイルが指定されたパターンに従わない場合、UUID がファイルのプロパティに追加され、ファイルへの参照はすべて、ファイルに割り当てられた UUID で更新されます。 <br> **デフォルト値**: `"^GUID-(?<id>.*)"` |
+| `com.adobe.fmdita.config.ConfigManager` | `uuid.regex` | UUID ファイル名パターンの正規表現を指定する文字列。 <br> ファイルが指定されたパターンに従わない場合、UUID がファイルのプロパティに追加され、ファイルへのすべての参照が UUID がファイルに割り当てられて更新されます。<br> **デフォルト値**: `"^GUID-(?<id>.*)"` |
 
 ## curl コマンドの使用
 
-curl コマンドを使用して、DAM でフォルダーを作成したり、ファイルをアップロードしたり、アップロードされたコンテンツにメタデータを追加したりすることもできます。
+また、curl コマンドを使用して、DAM へのフォルダーの作成、ファイルのアップロード、アップロードされたコンテンツへのメタデータの追加を行うこともできます。
 
 **フォルダーの作成**
 
-次のコマンドを実行して、AEMリポジトリにフォルダーを作成します。
+次のコマンドを実行して、AEM リポジトリにフォルダーを作成します。
 
 ```
 curl --user <username>:<password> --data jcr:primaryType=sling:Folder "<server folder path>"
@@ -40,28 +40,28 @@ curl --user <username>:<password> --data jcr:primaryType=sling:Folder "<server f
 
 フォルダーを作成するには、次のパラメーターを指定します。
 
-- `<username>:<passowrd>`:AEMリポジトリにアクセスするためのユーザー名とパスワードを指定します。 このユーザーは、フォルダーの作成権限を持っている必要があります。
+- `<username>:<passowrd>`:AEM リポジトリにアクセスするためのユーザー名とパスワードを指定します。 このユーザーには、フォルダー作成権限が必要です。
 
-- `jcr:primaryType=sling:Folder`：このパラメーターを指定します。 *現状* フォルダータイプのリソースを作成する場合。
+- `jcr:primaryType=sling:Folder`：このパラメーター *そのまま* を指定して、フォルダータイプのリソースを作成します。
 
-- `<server folder path>`:AEMリポジトリで作成する新しいフォルダーの名前を含む完全なフォルダーパス。 例えば、次のようにパスを指定した場合、 `http://192.168.1.1:4502/content/dam/projects/AEM-Guides`を選択し、次にフォルダー `AEM-Guides` が `projects` フォルダーを DAM に追加します。
+- `<server folder path>`:AEM リポジトリに作成する新しいフォルダーの名前を含む、完全なフォルダーパス。 例えば、パスを `http://192.168.1.1:4502/content/dam/projects/AEM-Guides` として指定した場合、フォルダー `AEM-Guides` は DAM の `projects` フォルダー内に作成されます。
 
 
 **ファイルのアップロード**
 
-次のコマンドを実行して、AEMリポジトリにファイルをアップロードします。
+次のコマンドを実行して、AEM リポジトリにファイルをアップロードします。
 
 ```
 curl --user <username>:<password> -T "<local file path>" "<server folder path>"
 ```
 
-ファイルをアップロードするには、次のパラメーターを指定します。
+次のパラメーターを指定して、ファイルをアップロードします。
 
-- `<username>:<passowrd>`:AEMリポジトリにアクセスするためのユーザー名とパスワードを指定します。 このユーザーは、 `server folder path`.
+- `<username>:<passowrd>`:AEM リポジトリにアクセスするためのユーザー名とパスワードを指定します。 このユーザーには、`server folder path` に対する書き込み権限が必要です。
 
-- ``local file path``：アップロードするローカルシステム上の完全なファイルパス。
+- ``local file path``：アップロードするローカルシステム上の完全ファイルパス。
 
-- `<server folder path>`：ファイルをアップロードするAEMサーバー上の完全なフォルダーパス。
+- `<server folder path>`：ファイルをアップロードするAEM サーバー上のフォルダーパスを入力します。
 
 
 **メタデータを追加**
@@ -74,11 +74,11 @@ curl --user <username>:<password> -F<attribute name>=<value> <metadata node path
 
 メタデータ情報を追加するには、次のパラメーターを指定します。
 
-- `<username>:<passowrd>`:AEMリポジトリにアクセスするためのユーザー名とパスワードを指定します。 このユーザーは、 ``metadata node path``.
+- `<username>:<passowrd>`:AEM リポジトリにアクセスするためのユーザー名とパスワードを指定します。 このユーザーには、``metadata node path`` に対する書き込み権限が必要です。
 
-- ``-F<attribute name>=<value>``: `<attribute name>` は、メタデータ属性の名前です。例えば、 `audience` そして `<value>` は、 `internal`. 複数の属性の名前と値のペアをスペースで区切って指定できます。
+- ``-F<attribute name>=<value>``: `<attribute name>` は、`audience` などのメタデータ属性の名前で、`<value>` は `internal` にすることができます。 複数の属性の名前と値のペアをスペースで区切って指定できます。
 
-- `<metadata node path>`：ファイル名とそのメタデータノードを含む完全なフォルダーパス。 例えば、次のようにパスを指定した場合、 `http://192.168.1.1:4502/content/dam/projects/AEM-Guides/intro.xml/jcr:content/metadata`を指定した場合、指定したメタデータ情報が `intro.xml` ファイル。
+- `<metadata node path>`：ファイル名とそのメタデータノードを含む完全なフォルダーパス。 例えば、パスに `http://192.168.1.1:4502/content/dam/projects/AEM-Guides/intro.xml/jcr:content/metadata` を指定した場合、指定したメタデータ情報がファイルに設定 `intro.xml` れます。
 
 
-**親トピック：**[&#x200B;既存のコンテンツを移行](migrate-content.md)
+**親トピック：**[ 既存のコンテンツを移行 ](migrate-content.md)

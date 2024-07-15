@@ -4,19 +4,19 @@ description: Adobe Experience Manager Assetsにアップロードされたフォ
 feature: Filename Configuration
 role: Admin
 level: Experienced
-source-git-commit: 532e7c562a233619a8c4b7cbdbaef44bc73eb4b2
+exl-id: ff6e1322-9655-42aa-b353-199c70c9de49
+source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 0%
 
 ---
 
-
 # フォルダーの後処理を無効にする
 
-デフォルトでは、アップロードされたすべてのアセットは、DAM アセットの更新ワークフローを使用して処理されます。 Experience Managerガイドは、このワークフローの一部として、後処理と呼ばれる追加処理を実行します。 これは UUID の生成にも役立ちます
+デフォルトでは、アップロードされたすべてのアセットは、DAM アセットの更新ワークフローを使用して処理されます。 Experience Manager Guidesは、このワークフローの一部として、後処理と呼ばれる追加の処理を実行します。 これは UUID の生成にも役立ちます
 
-ファイルおよびフォルダーをにアップロードする際に *Adobe Experience Manager Assets* サーバーで、後処理と UUID の生成を無効にすることもできます。
+ファイルやフォルダーを *Adobe Experience Manager Assets* サーバーにアップロードする際に、後処理を無効にしたり、UUID を生成したりすることもできます。
 
 
 次の手順を実行して、特定のパスの後処理を無効にするか、フォルダーの後処理を無視します。
@@ -30,11 +30,11 @@ ht-degree: 0%
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. を検索し、 **com.adobe.fmdita.config.ConfigManager** バンドル。
+1. **com.adobe.fmdita.config.ConfigManager** バンドルを検索してクリックします。
 
-1. 「」を選択します **後処理用に無視されたパス** ：後処理用のフォルダーを無視します。
+1. 後処理用にフォルダーを無視するには、「**Post処理では無視されるパス**」オプションをオンにします。
 
-   標準の NODE_path （複数値プロパティ、OPTIONSを省略する文字列）を設定する文字列値 `/` 最後に）
+   標準の NODE_path を設定する文字列値（複数値プロパティ、末尾に `/` を省略するOPTIONSを含む文字列）
 
    **デフォルト値**: `/content/dam/projects/translation_output`
 
@@ -42,9 +42,9 @@ ht-degree: 0%
    >
    > このプロパティはデフォルトで無効になっており、マップダッシュボードで「翻訳」タブを使用できます。
 
-1. 「」を選択します **後処理に対して有効なパス** ：パスの後処理を有効にします。
+1. 「**Post処理の有効なパス**」オプションをオンにして、後処理のパスを有効にします。
 
-   標準の NODE_path （複数値プロパティ、OPTIONSを省略する文字列）を設定する文字列値 `/` 最後に）
+   標準の NODE_path を設定する文字列値（複数値プロパティ、末尾に `/` を省略するOPTIONSを含む文字列）
 
    **デフォルト値**: `/content/dam/`
 

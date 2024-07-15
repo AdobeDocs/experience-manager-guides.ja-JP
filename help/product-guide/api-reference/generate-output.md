@@ -1,6 +1,6 @@
 ---
-title: 出力生成と連携する Java ベースの API
-description: 出力生成と連携する Java ベースの API について説明します。
+title: 出力生成を操作するための Java ベースの API
+description: 出力生成を操作するための Java ベースの API について説明します
 exl-id: e19439df-39ec-47fd-9da5-24f51750a7e5
 feature: Java-Based API Publishing
 role: Developer
@@ -12,32 +12,32 @@ ht-degree: 0%
 
 ---
 
-# 出力生成と連携する Java ベースの API {#id175UB30E05Z}
+# 出力生成を操作するための Java ベースの API {#id175UB30E05Z}
 
-次の Java ベースの API を使用して、DITA マップの出力を生成できます。 この API は、バンドルの形式で使用できます。 この API を使用するには、コードにこのバンドルを含める必要があります。
+次の Java ベースの API を使用すると、DITA マップの出力を生成できます。 この API は、バンドルの形式で使用できます。 この API を使用するには、コードにこのバンドルを含める必要があります。
 
-バンドルの詳細：
+バンドルの詳細
 
-- グループ ID : **com.adobe.fmdita**
+- グループ ID:**com.adobe.fmdita**
 
 - アーティファクト ID: **api**
 
-- バージョン： **3.4**
+- バージョン：**3.4**
 
-- パッケージ： ****com.adobe.fmdita.api.maps****
+- パッケージ：****com.adobe.fmdita.api.maps****
 
-- クラスの詳細：
+- クラス詳細：
 
   ```JAVA
   public class **PublishUtils** extends Object
   ```
 
-  The **`PublishUtils`** クラスには、1 つ以上の出力プリセットの出力を生成するメソッドが含まれています。
+  **`PublishUtils`** クラスには、1 つ以上の出力プリセットの出力を生成するメソッドが含まれています。
 
 
 ## 出力を生成
 
-The ``generateOutput`` メソッドは、指定した出力プリセットを使用して DITA マップファイルの出力を生成します。
+``generateOutput`` メソッドは、指定した出力プリセットを使用して DITA マップファイルの出力を生成します。
 
 **構文**：
 
@@ -48,6 +48,12 @@ String outputName)
 throws GuidesApiException
 ```
 
-**パラメーター**: |名前|型|説明| |—|—|—| |`session`|javax.jcr.Session|有効な JCR セッション。| |``sourcePath``|String|出力を生成する必要がある DITA マップファイルのパス\(AEMリポジトリ内\)。| |``outputName``|String|出力の生成に使用する出力プリセットの名前。 複数の出力プリセットは、例えばパイプ (「\|」) の区切り文字を使用して指定できます。 `aemsite\|pdfoutput`.|
+**パラメーター**:
+|名前|種類|説明|
+|----|----|-----------|
+|`session`|javax.jcr.Session|有効な JCR セッション。|
+|``sourcePath``|文字列|出力を生成する必要がある DITA マップ ファイルのパス \（AEM リポジトリ\）。|
+|``outputName``|文字列|出力の生成に使用する出力プリセットの名前。 複数の出力プリセットは、パイプ \（&quot;\|&quot;\）区切り文字（例：`aemsite\|pdfoutput`）を使用して指定できます。
 
-**例外**：スロー ``javax.jcr.RepositoryException``, `java.io.IOException`、および `java.lang.Exception`.
+**例外**:
+``javax.jcr.RepositoryException``、`java.io.IOException`、および `java.lang.Exception` をスローします。

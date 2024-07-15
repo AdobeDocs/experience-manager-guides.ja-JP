@@ -17,14 +17,14 @@ ht-degree: 0%
 ## レビュー – コメント
 
 - id: `review_comment`
-- フック： `this.updateExtraProps`:
+- フック：`this.updateExtraProps`:
 
-前述のとおり [こちら](../../aem_guides_framework/basic-customisation.md)の場合、カスタマイズ中に追加された新しい属性はに分類されます。 `this.model.extraProps`. メソッド `updateExtraProps` を使用すると、レビューコメントに属性を追加し、追加した属性のサーバー上での更新と保存も処理できます。
+[ こちら ](../../aem_guides_framework/basic-customisation.md) で説明しているように、カスタマイズ中に追加された新しい属性は `this.model.extraProps` の下に置かれます。 メソッド `updateExtraProps` を使用すると、レビューコメントに属性を追加し、追加した属性のサーバー上での更新と保存も処理できます。
 
 ### 使用例
 
-例えば、フィールドを追加するとします `commentRationale` および `severity` ご意見をお聞かせください。
-を更新しましょう `commentRationale` 「これは重要な文です。」 および `severity` 「重大」に変更します。
+例えば、コメントに `commentRationale` や `severity` のフィールドを追加するとします。
+`commentRationale` を「これは重要な文です」に更新しましょう。 「重大」の `severity` です。
 これは、次の構文を使用して実行できます。
 
 ```typescript
@@ -47,20 +47,22 @@ ht-degree: 0%
 
 - id: `inline_review_panel`
 
-1. フック： `onNewCommentEvent`
-フック `onNewCommentEvent` 新しいコメントまたは返信イベントで、イベントをスローしたり、メソッドを呼び出したりできます。
-で受け取った引数 `onNewCommentEvent` 次を含める：
+1. フック：`onNewCommentEvent`
+フック `onNewCommentEvent` を使用すると、新しいコメントまたは返信イベントでイベントをスローしたり、メソッドを呼び出したりできます。
+`onNewCommentEvent` で受け取る引数は次のとおりです。
    - events：ディスパッチされたコメント/返信イベント。
-   - newComment: boolean ディスパッチされたイベントが新しいコメントイベントだった場合、つまり `highlight`, `insertion`, `deletion`, `sticky note comment`
-   - newReply: boolean ディスパッチされたイベントが新しい返信イベントだった場合。
+   - newComment: ブール値
+ディスパッチされたイベントが新しいコメントイベント（`highlight`、`insertion`、`deletion`、`sticky note comment` など）の場合
+   - newReply: ブール値
+ディスパッチされたイベントが新しい返信イベントだった場合。
 
-2. フック： `sendExtraProps`
+2. フック：`sendExtraProps`
 
-このフックは、 `event` を送信します `extraProps` インラインレビューパネルから変更します。 この 2 つのフックの使い方を以下に説明します。
+このフックは、`event` を拡張してインラインレビューパネルから `extraProps` を送信する場合に便利です。 この 2 つのフックの使い方を以下に説明します。
 
 ### インラインレビューパネルの例
 
-extraProp を送信したいとします。 `userInfo`新しいコメントまたは返信がディスパッチされるたびに行われます。 これで、インラインレビューパネルを使用してこれが行われますが、新しく生成されたコメントの commentId への参照がないので、これを達成するために、次のコードを記述できます。
+新しいコメントや返信がディスパッチされるたびに extraProp、`userInfo` を送信したいとします。 これで、インラインレビューパネルを使用してこれが行われますが、新しく生成されたコメントの commentId への参照がないので、これを達成するために、次のコードを記述できます。
 
 ```typescript
     onNewCommentEvent(args){
@@ -75,7 +77,7 @@ extraProp を送信したいとします。 `userInfo`新しいコメントま�
     },
 ```
 
-上記のコードスニペットでは、ディスパッチされたイベントが新しいコメントか返信かを確認しています。 新しいコメントまたは返信の場合は、メソッドを呼び出しています `setUserInfo`
+上記のコードスニペットでは、ディスパッチされたイベントが新しいコメントか返信かを確認しています。 新しいコメントまたは返信の場合は、メソッド `setUserInfo` を呼び出しています
 
 ```typescript
     setUserInfo(event) {
@@ -98,8 +100,8 @@ extraProp を送信したいとします。 `userInfo`新しいコメントま�
 
 上記の方法では、ユーザーの名、メール、タイトルなどを含む extraProp を送信するようにイベントを拡張しています。 この方法でイベントを拡張すると、extraProp が正しい commentId で送信され、正しいコメントに添付されます。
 
-フック `updateExtraProps` 本来呼び出すフック `sendExtraProps`では、いつ何を使うべきでしょうか。
+フック `updateExtraProps` は本質的にフック `sendExtraProps` を呼び出します。
 
-使用 `updateExtraProps` が含まれる `review_comment` コントローラ （既にのコメントがある） `id` したがって、以下の点に注意してください `extraProps.`
+`review_comment` コントローラーでは `updateExtraProps` を使用します。このコントローラーには既にコメントの `id` が含まれているため、`extraProps.` を言及するだけです
 
-この `inline_review_panel` ただし、はコメントの id にアクセスできないので、インラインレビューパネルからイベントをディスパッチする必要がある場合はいつでも、 `sendExtraProps` 便利になります。
+ただし、`inline_review_panel` はコメントの ID にアクセスできないため、インラインレビューパネルからイベントをディスパッチする必要がある場合は、`sendExtraProps` が便利です。

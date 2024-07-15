@@ -39,13 +39,13 @@ const value = this.getValue("key")
 ## 表示
 
 ビューは、アプリの UI を定義します。 JSON ファイルを使用して、ファイルの表示を定義します。 ここでは、コンポーネント、css （コンポーネントの抽出で指定）を定義し、モデルに保存された値をレンダリングします。
-アプリでは、各ビューは JSON を使用して定義されます。 JSON は、と呼ばれる一意の ID を使用して参照されます。 `id`.
+アプリでは、各ビューは JSON を使用して定義されます。 JSON は、`id` と呼ばれる一意の ID を使用して参照されます。
 
 ## コントローラー
 
 コントローラは、イベントを処理し、データを処理するために使用されます。 コントローラーは、サーバーからデータを取得して送信するために使用され、UI に表示されるものとバックエンドに保存されるものの間のインターフェイスです。
 
-- 初期化時に値を設定するには、を使用します `init` 関数。
+- 初期化時に値を設定するには、`init` 関数を使用します。
 - コントローラにメソッドを追加するには、次の構文を使用します。
 
 ```typescript
@@ -54,7 +54,7 @@ methodName: function(args){
 }
 ```
 
-この `methodName` ここでは、 `key` json （ビュー）または他の関数でメソッドを参照するには
+ここでの `methodName` は、JSON （ビュー）または他の関数でメソッドを参照する `key` として機能します
 
 - コントローラでメソッドを呼び出すには、構文を使用します
 
@@ -69,7 +69,7 @@ this.next('methodName', args)
 
 ### 例を表示
 
-次に、モデル内に格納された動的テキストを変数名の下に表示するボタンの JSON を定義します `buttonLabel`.
+次に、モデル内に格納された動的テキストを変数名 `buttonLabel` の下に表示するボタンの JSON を定義します。
 この例では、ボタンをクリックすると、ラベルが変更されます。
 
 ```JSON
@@ -83,7 +83,7 @@ this.next('methodName', args)
 
 ### モデルの例
 
-この場合、 `extraProps.buttonLabel` ボタンのラベルを保持します
+この場合、ボタンのラベル `extraProps.buttonLabel` 保持します
 
 ### コントローラの例
 
@@ -101,4 +101,4 @@ this.next('methodName', args)
 ```
 
 以下のGIFは、上記のコードの動作を示しています
-![basic_customization](imgs/basic_customisation.gif "基本カスタマイズボタン")
+![basic_customization](imgs/basic_customisation.gif "Basic customization button")
