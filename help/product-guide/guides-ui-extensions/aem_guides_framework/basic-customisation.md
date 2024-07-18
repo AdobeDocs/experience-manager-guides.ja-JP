@@ -3,14 +3,44 @@ title: アプリのカスタマイズ
 description: アプリのカスタマイズ
 role: User, Admin
 exl-id: 3e454c48-2168-41a5-bbab-05c8a5b5aeb1
-source-git-commit: 4f00d6b7ad45636618bafe92e643b3e288ec2643
+source-git-commit: 3615928117ce1be527dc3c6d2ec8ddd115b78b0a
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
 
 # アプリのカスタマイズ
+
+## 拡張機能フレームワークの下で公開された機能
+
+データ、config およびトリガーイベントへのアクセスに使用できる `proxy` の下で、一連の関数とゲッターを公開しました。 以下のリストとアクセス方法を参照してください。
+
+```typescript
+interface EventData {
+  key?: string,
+  keys?: string[]
+  view?: any,
+  next?: any,
+  error?: any,
+  completed?: any,
+  id?: any
+}
+
+* getValue(key)
+* setValue(key, value)
+* subject // getter
+* subscribe(opts: EventData)
+* subscribeAppEvent(opts: EventData)
+* subscribeAppModel(key, next)
+* subscribeParentEvent(opts: EventData)
+* parentEventHandlerNext(eventName: string, opts: any)
+* appModelNext(eventName:string, opts) 
+* appEventHandlerNext(eventName:string, opts)
+* next(eventName:string, opts, eventHandler?)
+* viewConfig //getter
+* args //getter
+```
 
 このアプリは MVC （モデル、ビュー、コントローラ）構造に従います
 
@@ -89,8 +119,8 @@ this.next('methodName', args)
 
 ```typescript
   controller: {
-    init: function (context) {
-      context.setValue("buttonLabel", "Submit")
+    init: function () {
+      this.setValue("buttonLabel", "Submit")
     },
 
     switchButtonLabel(){
@@ -102,3 +132,111 @@ this.next('methodName', args)
 
 以下のGIFは、上記のコードの動作を示しています
 ![basic_customization](imgs/basic_customisation.gif "Basic customization button")
+
+
+### 設定の例を表示
+
+この場合、`viewConfig` を使用して検索モードイベントにアクセスし、イベントをトリガーして更新します
+
+```typescript
+  { 
+    id: 'repository_panel', 
+    controller: {
+      init: function () {
+        console.log('Logging view config ', this.viewConfig)
+        this.next(this.viewConfig.items[1].searchModeChangedEvent, { searchMode: true })
+      }
+    }
+  }
+```
+
+### 購読の例
+
+この場合、「ファイル名の変更」オプションがクリックされたときに、ファイル名の変更をコンソールログに追加するサブスクリプションを追加します
+
+```typescript
+  { 
+    id: 'repository_panel', 
+    controller: {
+      init: function () {
+        this.subscribe({
+          key: 'rename',
+          next: () => { console.log('rename using extension') }
+        })
+      }
+    }
+  }
+```
+
+### 購読アプリのイベントの例
+
+この場合、変更されたアクティブなドキュメントのコンソールログを表示します（エディター UI のタブの変更）
+
+```typescript
+  { 
+    id: 'repository_panel', 
+    controller: {
+      init: function () {
+        this.subscribeAppEvent({
+          key: 'app.active_document_changed',
+          next: () => { console.log('Extension: active document changed') }
+        })
+      }
+    }
+  }
+```
+
+### 購読アプリモデルイベントの例
+
+`app.mode` などのアプリモデルイベントを登録する例
+
+```typescript
+  { 
+    id: 'repository_panel', 
+    controller: {
+      init: function () {
+        this.subscribeAppModel('app.mode',
+          () => { console.log('app mode subs') }
+        )
+      }
+    }
+  }
+```
+
+### 親コントローラ イベントの例
+
+この中で、私たちは、動作 `tabChange` るコントローラのイベントであるイベント `left_panel_container` サブスクリプションを追加します
+`repository_panel` の親コントローラとして
+
+```typescript
+  { 
+    id: 'repository_panel', 
+    controller: {
+      init: function () {
+        this.subscribeParentEvent({
+          key: 'tabChange',
+          next: () => { console.log('tab change subs') }
+        })
+        this.parentEventHandlerNext('tabChange', {
+          data: 'map_panel'
+        )
+      }
+    }
+  }
+```
+
+### 次のアプリケーション モデルとアプリケーション コントローラー
+
+実行する正しいイベントとそのデータを把握することで、これらは直接トリガーされます
+
+```typescript
+  { 
+    id: 'file_options', 
+    controller: {
+      init: function () {
+        this.appModelNext('app.mode', 'author')
+        this.appEventHandlerNext('app.active_document_changed', 'active doc changed')   
+      }
+    }
+  } 
+```

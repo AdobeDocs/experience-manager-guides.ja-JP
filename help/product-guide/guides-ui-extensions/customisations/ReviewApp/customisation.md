@@ -3,7 +3,7 @@ title: カスタマイズ
 description: レビューアプリのカスタマイズ
 role: User, Admin
 exl-id: 9f6a4e9f-fc13-40b5-a30f-151c94faff81
-source-git-commit: 4f00d6b7ad45636618bafe92e643b3e288ec2643
+source-git-commit: 492f72768e0de74a91eb7acc9db8264e21bfc810
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 ## レビュー – コメント
 
 - id: `review_comment`
-- フック：`this.updateExtraProps`:
+- フック：`this.next('updateExtraProps')`:
 
 [ こちら ](../../aem_guides_framework/basic-customisation.md) で説明しているように、カスタマイズ中に追加された新しい属性は `this.model.extraProps` の下に置かれます。 メソッド `updateExtraProps` を使用すると、レビューコメントに属性を追加し、追加した属性のサーバー上での更新と保存も処理できます。
 
@@ -80,8 +80,20 @@ ht-degree: 0%
 上記のコードスニペットでは、ディスパッチされたイベントが新しいコメントか返信かを確認しています。 新しいコメントまたは返信の場合は、メソッド `setUserInfo` を呼び出しています
 
 ```typescript
+    const getUserInfo = (userId) => {
+      return $.ajax({
+        url: '/bin/dxml/xmleditor/userinfo',
+        data: {
+          username: userId,
+        },
+        success: (data) => {
+          return data
+        }
+      })
+    }
+
     setUserInfo(event) {
-      this.loader?.getUserInfo(event.user).subscribe(userData => {
+      getUserInfo(event.user).done(userData => {
         const extraProps = {
           "userFirstName": userData?.givenName || '',
           "userLastName": userData?.familyName || '',

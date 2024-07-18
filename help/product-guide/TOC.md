@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: 05a21c8b18d5eb79447423d48e1d65b4d6b44242
+source-git-commit: d16d9915b826a754f834ad82f413e860c2da12d2
 workflow-type: tm+mt
-source-wordcount: '1819'
+source-wordcount: '1824'
 ht-degree: 7%
 
 ---
@@ -403,7 +403,7 @@ ht-degree: 7%
    - [ベースラインとラベルを操作するための Java ベースの API](./api-reference/create-baseline-label-java.md)
    - [フォルダープロファイルを操作するための Java ベースの API](./api-reference/folder-profile-java.md)
    - [パッケージを作成してアクティブ化するための Java ベースの API](./api-reference/create-activate-package-java.md)
-   - [Post処理イベントハンドラー](./api-reference/post-process-event.md)
+   - [後処理イベントハンドラー](./api-reference/post-process-event.md)
    - [一括有効化の完了イベントハンドラー](./api-reference/bulk-activation-complete-event.md)
    - [変換処理イベントハンドラー](./api-reference/conversion-complete-event.md)
 - ナレッジベース {#knowledge-base}
@@ -459,9 +459,12 @@ ht-degree: 7%
             - [シンプルなカスタマイズ](./guides-ui-extensions/customisations/add-button.md)
             - [コンテキストメニューのカスタマイズ](./guides-ui-extensions/customisations/context-menus.md)
             - [ツールバーと上部バーのカスタマイズ](./guides-ui-extensions/customisations/toolbar-topbar.md)
+            - [例](./guides-ui-extensions/examples.md)
+            - [カスタマイズ可能な Json](./guides-ui-extensions/JSONs.md)
             - レビュー {#review-app-customisations}
                - [コンポーネント](./guides-ui-extensions/customisations/ReviewApp/components.md)
                - [カスタマイズ](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
+               - [カスタムダイアログ](./guides-ui-extensions/customisations/ReviewApp/custom-dialog.md)
       - 公開 {#publishing}
 
          - [ネイティブPDF公開用のAEM環境の設定](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
@@ -477,7 +480,7 @@ ht-degree: 7%
          - [カスタム DITA-OT の設定](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
 
       - ワークフロー {#workflows}
-         - [Post生成のワークフロー](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
+         - [生成後のワークフロー](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
       - 翻訳 {#translation}
          - [翻訳から段落を除外](./knowledge-base/kb-articles/translation/exclude-paragraphs-from-translation.md)
       - ユースケース {#use-cases}
