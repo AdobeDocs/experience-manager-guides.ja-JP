@@ -5,10 +5,10 @@ exl-id: e2811892-c3cf-41f5-94d8-c2b37823a53a
 feature: Rest API Data Source
 role: Developer
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: b4762314ec5269abe62b622184f1724762a6cfa0
 workflow-type: tm+mt
 source-wordcount: '81'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
@@ -25,9 +25,9 @@ GETソースコネクタを登録するデータメソッド。
 
 **パラメーター**:
 
-|名前|種類|必須|説明|
+| 名前 | 型 | 必須 | 説明 |
 |----|----|--------|-----------|
-|`path`|文字列|Yes|AEM リポジトリ内のパスを指す文字列。 `/content/dam or /var/dxml` のパスを指定することもできます。|
+| `path` | String | はい | AEM リポジトリ内のパスを指す文字列。 `/content/dam or /var/dxml` 内のパスを指定することもできます。 |
 
 **例**:\
 `http://host:4502/bin/guides/v1/konnect/config/register?path=/var/dxml/konnect/jira.json`

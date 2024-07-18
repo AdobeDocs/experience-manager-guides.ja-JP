@@ -5,10 +5,10 @@ exl-id: 6277e52d-1b05-4dd7-8d2b-4b94f329e2d7
 feature: Rest API DITA Map
 role: Developer
 level: Experienced
-source-git-commit: 7c529e98334999cf2b5e9ee18a27278d24318437
+source-git-commit: d0196ffbe5a779445d627871c2940f7eea40f1ce
 workflow-type: tm+mt
 source-wordcount: '611'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -24,10 +24,11 @@ ht-degree: 0%
 http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/fmdita/exportditamap
 
 **パラメーター**:
-|名前|種類|必須|説明|
+
+| 名前 | 型 | 必須 | 説明 |
 |----|----|--------|-----------|
-|`ditamap`|String|Yes|AEM リポジトリ内の DITA マップファイルの絶対パス。|
-|`baseline`|文字列|いいえ|バージョン管理されたコンテンツを取得するために使用されるベースラインのタイトル。<br> **メモ：** この値では大文字と小文字が区別されます。 |
+| `ditamap` | String | はい | AEM リポジトリの DITA マップファイルの絶対パス。 |
+| `baseline` | 文字列 | いいえ | バージョン管理されたコンテンツを取得するために使用されるベースラインのタイトル。<br> **メモ：** この値では大文字と小文字が区別されます。 |
 
 **応答値**:
 応答の出力ストリームにコンテンツが書き込まれる.zip ファイル。

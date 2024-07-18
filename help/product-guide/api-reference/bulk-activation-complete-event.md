@@ -5,10 +5,10 @@ feature: Bulk Activation Event Handler
 role: Developer
 level: Experienced
 exl-id: 08b153d7-3d13-4804-9e3e-38790dbea1f3
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+source-git-commit: 9b8971bf7065a94a2e42669094249c822c555718
 workflow-type: tm+mt
 source-wordcount: '185'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
@@ -28,15 +28,15 @@ com/adobe/fmdita/replication/complete
 
 **パラメーター**:
 
-|名前|種類|説明|
+| 名前 | 種類 | 説明 |
 |----|----|-----------|
-|`path`|文字列|このイベントをトリガーしたファイルのパス。 <br>例えば、`/content/output/sites/ditamap1-ditamap` などです。<br> JSON 配列としてシリアル化されたパスのリストです。|
-|`messageType`|文字列|メッセージの種類。 <br> 可能なオプション : `REPLICATION`|
-|`action`|文字列|実行されるアクションです。 <br> 可能なオプション : `BulkReplicate`|
-|`user`|文字列|操作を開始したユーザー。|
-|`result`|String|一括有効化の結果。 これはシリアル化された JSON オブジェクトです：<br>`{"success":boolean,"code":integer,"message":"" }`|
-|`agentId`|文字列|レプリケーションで使用される agentId。 例えば、`"publish"` のように指定します。|
-|`importMode`|文字列|アクティブ化で使用されるインポート モード。 使用できるオプションは <br>`REPLACE, MERGE, UPDATE` です。|
+| `path` | String | このイベントをトリガーしたファイルのパス。 <br>例えば、`/content/output/sites/ditamap1-ditamap` などです。<br> JSON 配列としてシリアル化されたパスのリストです。 |
+| `messageType` | 文字列 | メッセージのタイプ。 <br> 可能なオプション : `REPLICATION` |
+| `action` | 文字列 | これは、実行されるアクションです。 <br> 可能なオプション : `BulkReplicate` |
+| `user` | 文字列 | 操作を開始したユーザー。 |
+| `result` | 文字列 | 一括アクティベーションの結果。 シリアル化された JSON オブジェクトです（<br>`{"success":boolean,"code":integer,"message":"" }`）。 |
+| `agentId` | 文字列 | レプリケーションで使用される agentId。 例えば、`"publish"` のように指定します。 |
+| `importMode` | 文字列 | アクティベーションで使用されるインポートモード。 使用可能なオプションは次のとおりです。<br>`REPLACE, MERGE, UPDATE` |
 
 
 **サンプルイベントリスナー**:

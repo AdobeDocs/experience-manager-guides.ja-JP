@@ -5,10 +5,10 @@ exl-id: f091782e-ab54-4db4-9018-9bcbff9da7b2
 feature: Rest API Conversion Workflow
 role: Developer
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: bda1af0da134fce53b4a4118278fa1ef2fe34c69
 workflow-type: tm+mt
 source-wordcount: '391'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -24,13 +24,14 @@ Word 文書を DITA フォーマットに変換するGET方式。
 http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/fmdita/conversion
 
 **パラメーター**:
-|名前|種類|必須|説明|
+
+| 名前 | 型 | 必須 | 説明 |
 |----|----|--------|-----------|
-|``operation``|String|Yes|呼び出す操作の名前。 このパラメーターの値は ``word2dita`` です。<br> **メモ：** この値では、大文字と小文字が区別されません。 |
-|`inputFile`|String|Yes|AEM リポジトリ内のソース Word ファイルの絶対パス。|
-|`destPath`|文字列|Yes|変換された DITA ファイルが保存される保存先の絶対パス。|
-|`createRev`|ブール値|はい|ファイルのリビジョンを指定された宛先に作成するか\（`true`\）または\（`false`\）でないかを指定します。 これは、変換先の場所に変換後のファイルの既存のバージョンが含まれている場合にのみ考慮されます。|
-|`style2tagMap`|文字列|はい|変換に使用するスタイル マッピング ファイルの絶対パス。|
+| ``operation`` | String | はい | 呼び出される操作の名前。 このパラメーターの値は ``word2dita`` です。<br> **メモ：** この値では、大文字と小文字が区別されません。 |
+| `inputFile` | 文字列 | はい | AEM リポジトリ内のソース Word ファイルの絶対パス。 |
+| `destPath` | 文字列 | はい | 変換された DITA ファイルが保存される保存先の絶対パス。 |
+| `createRev` | ブーリアン | はい | ファイルのリビジョンを指定された宛先に作成する\（`true`\）かどうかを指定します\（`false`\）。 これは、変換先の場所に変換後のファイルの既存のバージョンが含まれている場合にのみ考慮されます。 |
+| `style2tagMap` | 文字列 | はい | 変換に使用されるスタイルマッピングファイルの絶対パス。 |
 
 **応答値**:
 HTTP 200 \（成功\）応答を返します。
