@@ -5,10 +5,10 @@ exl-id: f091782e-ab54-4db4-9018-9bcbff9da7b2
 feature: Rest API Conversion Workflow
 role: Developer
 level: Experienced
-source-git-commit: add4730e396fe7384a20fb2c6c04730c20a83e71
+source-git-commit: e979823b7947b561165fde92023ae9c440182e94
 workflow-type: tm+mt
 source-wordcount: '391'
-ht-degree: 6%
+ht-degree: 9%
 
 ---
 
@@ -63,12 +63,13 @@ InDesign文書を DITA フォーマットに変換するGET方式。
 http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/fmdita/conversion
 
 **パラメーター**:
-|名前|種類|必須|説明|
+
+| 名前 | 型 | 必須 | 説明 |
 |----|----|--------|-----------|
-|``operation``|String|Yes|呼び出す操作の名前。 このパラメーターの値は ``idml2dita`` です。<br> **メモ：** この値では、大文字と小文字が区別されません。|
-|`inputFile`|String|Yes|AEM リポジトリ内のソースInDesignファイルの絶対パス。|
-|`destPath`|文字列|Yes|変換された DITA ファイルが保存される保存先の絶対パス。|
-|`createRev`|ブール値|はい|ファイルのリビジョンを指定された宛先に作成するか\（`true`\）または\（`false`\）でないかを指定します。 これは、変換後のファイルの既存のバージョンが変換先の場所に含まれている場合にのみ考慮されます。|
+| ``operation`` | String | はい | 呼び出される操作の名前。 このパラメーターの値は ``idml2dita`` です。<br> **メモ：** この値では、大文字と小文字が区別されません。 |
+| `inputFile` | 文字列 | はい | AEM リポジトリ内のソースInDesignファイルの絶対パス。 |
+| `destPath` | 文字列 | はい | 変換された DITA ファイルが保存される保存先の絶対パス。 |
+| `createRev` | ブーリアン | はい | ファイルのリビジョンを指定された宛先に作成する\（`true`\）かどうかを指定します\（`false`\）。 これは、変換先の場所に変換後のファイルの既存のバージョンが含まれている場合にのみ考慮されます。 |
 
 **応答値**:
 HTTP 200 \（成功\）応答を返します。
