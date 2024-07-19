@@ -1,9 +1,9 @@
 ---
 title: 例
 description: カスタマイズ例のリスト
-source-git-commit: 7770bc791ae87748cfe191cfaff3f929f77b4533
+source-git-commit: fc0b19ac44ca9cbc1e9c5cf046f9a0a24f2a1794
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,9 @@ ht-degree: 0%
 
 6. [ 変更を確定ダイアログ ](./examples/review_app_examples/accept_with_modification_dialog.ts)
 これは、アプリに新しいウィジェットを追加する例です。 ここでは、`Revised Text` と `Adjudicator Comment Rationale` の 2 つの入力テキストフィールドを持つ新しいダイアログを作成しました。
+
+7. [ リビジョンを保存 ](./examples/save_revision.ts)
+既存のダイアログを更新する方法の例を次に示します。 ここでは、公開用のボタンを追加します。 ダイアログのコンテンツを変更できます。 JSON については、[`save_revision`](./jsons/dialogs/save_revision.json) を参照してください。
 
 ![ 修正を適用ダイアログ ](./imgs/accept_with_modification_dialogue.png)
 
