@@ -1,0 +1,105 @@
+{
+  "id": "save_revision",
+  "extraclass": "save-revision resizable",
+  "component": "dialog",
+  "header": {
+    "items": [
+      {
+        "component": "label",
+        "label": "Save as new version"
+      }
+    ]
+  },
+  "content": {
+    "items": [
+      {
+        "component": "blockGroup",
+        "extraclass": "current-version-controls",
+        "items": [
+          {
+            "component": "label",
+            "label": "Last Version: ",
+            "extraclass": "current-version-label spectrum-Form-fieldlabel"
+          },
+          {
+            "component": "label",
+            "label": "@currentVersion",
+            "extraclass": "current-version-number"
+          }
+        ]
+      },
+      {
+        "component": "blockGroup",
+        "extraclass": "version-label-controls",
+        "items": [
+          {
+            "component": "label",
+            "label": "Comments for new version",
+            "extraclass": "spectrum-Form-fieldlabel"
+          },
+          {
+            "component": "textfield",
+            "extraclass": "version-label-box",
+            "class": "spectrum-DecoratedTextfield-input",
+            "placeholder": "",
+            "data": "versionComment",
+            "autoFocus": true
+          }
+        ]
+      },
+      {
+        "component": "blockGroup",
+        "extraclass": "version-label-controls",
+        "items": [
+          {
+            "component": "label",
+            "label": "Version labels",
+            "extraclass": "spectrum-Form-fieldlabel"
+          },
+          {
+            "component": "select",
+            "multiple": true,
+            "show": "@hasLabels",
+            "extraclass": [
+              "version-label-box",
+              "spectrum-DecoratedTextfield-input"
+            ],
+            "placeholder": "@placeholderLabels",
+            "data": "versionLabels",
+            "on-change": "updateSelectedLabels",
+            "selected": "@selectedLabels"
+          },
+          {
+            "component": "textfield",
+            "hide": "@hasLabels",
+            "extraclass": "version-label-box",
+            "class": "spectrum-DecoratedTextfield-input",
+            "data": "selectedLabels"
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "items": [
+      {
+        "component": "blockGroup",
+        "class": "dialog-controls",
+        "items": [
+          {
+            "component": "button",
+            "label": "Cancel",
+            "on-click": "cancel",
+            "variant": "secondary"
+          },
+          {
+            "component": "button",
+            "label": "Save",
+            "variant": "cta",
+            "on-click": "saveRevision"
+          }
+        ]
+      }
+    ]
+  }
+}
