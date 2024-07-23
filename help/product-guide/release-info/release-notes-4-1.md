@@ -4,7 +4,7 @@ description: Adobe Experience Manager Guidesの最新リリース
 exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
 workflow-type: tm+mt
 source-wordcount: '3644'
 ht-degree: 1%
@@ -18,6 +18,7 @@ ht-degree: 1%
 ## 最新リリースへのアップグレード
 
 AEM Guidesの現在のバージョンを 4.1.3 に簡単にアップグレードできます。AEM Guidesのバージョン 4.1.3 へのアップグレードを行う前に、次の点を考慮する必要があります。
+
 * バージョン 4.1 または 4.1.x を使用している場合は、バージョン 4.1.3 に直接アップグレードできます。
 * バージョン 4.0.x を使用している場合は、4.1.3 にアップグレードする前にバージョン 4.1 または 4.1.x にアップグレードする必要があります。
 * バージョン 3.8.5 を使用している場合は、4.1 にアップグレードする前にバージョン 4.0.x にアップグレードする必要があります。

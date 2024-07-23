@@ -3,9 +3,9 @@ title: リリースノート | Adobe Experience Manager Guides 4.4.0 リリー�
 description: Adobe Experience Manager Guides 4.4.0 リリースの新機能および機能強化について説明します
 role: Leader
 exl-id: 63a2e93b-b4cf-4423-88e4-b01c6a52a532
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
 workflow-type: tm+mt
-source-wordcount: '2307'
+source-wordcount: '2308'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,7 @@ Experience Manager Guidesには、ドキュメントに加えられた変更を�
 ![ バージョン履歴ダイアログボックス ](assets/version-history-dialog-web-editor.png){width="800" align="left"}
 *トピックの異なるバージョンでの変更をプレビューします。*
 
-
-**左側のパネル** の節で、[ バージョン履歴 ](../user-guide/web-editor-features.md#id2051EA0M0HS) 機能の説明について詳しく説明します。
+**バージョン履歴** 機能の説明について詳しくは、[ 左パネル（レガシー） ](/help/legacy-product-guide/user-guide/web-editor-features.md#id2051EA0M0HS) の節を参照してください。
 
 ## 条件プリセットの管理
 

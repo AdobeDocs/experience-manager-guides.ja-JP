@@ -2,7 +2,7 @@
 title: リリースノート | Adobe Experience Manager Guides 2024.06.0 リリースの新機能
 description: Adobe Experience Manager Guidesas a Cloud Serviceの 2024.06.0 リリースの新機能と機能強化について説明します。
 exl-id: c885b8ba-5230-4d51-8f38-311b3a33fe0a
-source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
+source-git-commit: 2455307ef747b2f2574666ee773d931b302f58ca
 workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 2%
@@ -36,7 +36,6 @@ Experience Manager Guidesで、トピックまたはその要素をエクスペ�
 Experience Manager Guidesでは、コンテンツフラグメントにいくつかの便利な機能強化も提供しています。
 
 - DITAVAL ファイルまたは条件付き属性を使用して、コンテンツフラグメントに公開する際に条件でコンテンツを簡単にフィルタリングできます。
-
 - また、「ファイルのプロパティ **の「** 出力 **」セクションでは、トピックのコンテンツフラグメントを公開して表示す** こともできます。
 
 ![[ ファイル プロパティ ] の [ オプション ] タブ ](./assets/file-properties-outputs-tab.png){width="300" align="left"}
