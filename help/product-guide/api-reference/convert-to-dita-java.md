@@ -5,10 +5,10 @@ exl-id: 807d9ffa-23e3-476c-992d-c1f495233892
 feature: Java-Based API Conversion Workflow
 role: Developer
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 83966cc9187b13dd3b5956821e0aa038b41db28e
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -50,12 +50,13 @@ public static void convertHtmlToDita(Session session,
 ```
 
 **パラメーター**:
-|名前|種類|説明|
+
+| 名前 | 種類 | 説明 |
 |----|----|-----------|
-|`session`|javax.jcr.Session|有効な JCR セッション。|
-|`inputFile`|String|AEM リポジトリ内のソースHTMLファイルの絶対パス。|
-|`destPath`|文字列|変換された DITA ファイルを保存する保存先の絶対パス。|
-|`createRev`|ブール値|ファイルのリビジョンを指定された宛先に作成するかどうかを指定します\（`true`\）。\（`false`\） これは、変換後のファイルの既存のバージョンが変換先の場所に含まれている場合にのみ考慮されます。|
+| `session` | javax.jcr.Session | 有効な JCR セッション。 |
+| `inputFile` | 文字列 | AEM リポジトリ内のソースHTMLファイルの絶対パス。 |
+| `destPath` | 文字列 | 変換された DITA ファイルが保存される保存先の絶対パス。 |
+| `createRev` | ブール値 | ファイルのリビジョンを指定された宛先に作成する\（`true`\）かどうかを指定します\（`false`\）。 これは、変換先の場所に変換後のファイルの既存のバージョンが含まれている場合にのみ考慮されます。 |
 
 **例外**:
 `RepositoryException` をスローします。
@@ -76,13 +77,14 @@ public static void convertWordToDita(Session session,
 ```
 
 **パラメーター**:
-|名前|種類|説明|
+
+| 名前 | 種類 | 説明 |
 |----|----|-----------|
-|`session`|javax.jcr.Session|有効な JCR セッション。|
-|`inputFile`|String|AEM リポジトリ内のソース Word ファイルの絶対パス。|
-|`destPath`|文字列|変換された DITA ファイルを保存する保存先の絶対パス。|
-|`style2tagMap`|String|変換に使用するスタイル マッピング ファイルの絶対パス。|
-|`createRev`|ブール値|ファイルのリビジョンを指定された宛先に作成するかどうかを指定します\（`true`\）。\（`false`\） これは、変換後のファイルの既存のバージョンが変換先の場所に含まれている場合にのみ考慮されます。|
+| `session` | javax.jcr.Session | 有効な JCR セッション。 |
+| `inputFile` | 文字列 | AEM リポジトリ内のソース Word ファイルの絶対パス。 |
+| `destPath` | 文字列 | 変換された DITA ファイルが保存される保存先の絶対パス。 |
+| `style2tagMap` | 文字列 | 変換に使用されるスタイルマッピングファイルの絶対パス。 |
+| `createRev` | ブール値 | ファイルのリビジョンを指定された宛先に作成する\（`true`\）かどうかを指定します\（`false`\）。 これは、変換先の場所に変換後のファイルの既存のバージョンが含まれている場合にのみ考慮されます。 |
 
 **例外**:
 `RepositoryException` をスローします。

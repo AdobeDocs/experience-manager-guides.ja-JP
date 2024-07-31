@@ -5,10 +5,10 @@ exl-id: 388ae654-c4f9-4bb7-ba98-370b8919e3a6
 feature: Java-Based API Folder Profiles
 role: Developer
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 83966cc9187b13dd3b5956821e0aa038b41db28e
 workflow-type: tm+mt
 source-wordcount: '245'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -54,13 +54,14 @@ Session session) throws GuidesApiException
 ```
 
 **パラメーター**:
-|名前|種類|説明|
+
+| 名前 | 種類 | 説明 |
 |----|----|-----------|
-|``attributeNames``|文字列|属性名のリスト。|
-|``values``|文字列|指定された属性の値のリスト。|
-|`labels`|文字列|`attribute` と `value` のペアのラベルのリスト。 [1](#fntarg_1)|
-|`profileName`|文字列|これらの属性、値、およびラベルを適用する必要があるフォルダーレベルのプロファイルの名前。 **重要：** プロファイルで定義されている既存の属性 – 値 – ラベルはすべて上書きされます。|
-|`session`|javax.jcr.Session|有効な JCR セッション。|
+| ``attributeNames`` | String | 属性名のリスト。 |
+| ``values`` | 文字列 | 指定された属性の値のリスト。 |
+| `labels` | 文字列 | `attribute` ～ `value` のペアのラベルのリスト。 [1](#fntarg_1) |
+| `profileName` | 文字列 | これらの属性、値およびラベルを適用する必要があるフォルダーレベルのプロファイルの名前。 **重要：** プロファイルで定義されている既存の属性 – 値 – ラベルはすべて上書きされます。 |
+| `session` | javax.jcr.Session | 有効な JCR セッション。 |
 
 **戻り値**
 成功を `true` します。 エラーが発生した場合、例外がスローされます。
