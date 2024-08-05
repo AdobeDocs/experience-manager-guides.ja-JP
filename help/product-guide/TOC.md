@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: 44875f9fb0935abd0ee58bf933bb0eedb50c0616
+source-git-commit: f2c99e59e7352279135169796221faba74fe45c7
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '1836'
 ht-degree: 7%
 
 ---
@@ -335,6 +335,7 @@ ht-degree: 7%
          - [既存のコンテンツを移行](./cs-install-guide/migrate-content.md)
          - [既存の DITA コンテンツのアップロード](./cs-install-guide/migrate-content-upload-existing-dita-content.md)
          - [DITA 以外のコンテンツの移行](./cs-install-guide/migrate-content-non-dita.md)
+         - [オンプレミスからCloud Serviceへのコンテンツの移行](./cs-install-guide/migrate-on-premise-content-cloud.md)
       - カスタム DITA-OT および特殊化 {#custom-dita-ot-spec-cs} の操作
          - [カスタム DITA-OT および DITA 特殊化の使用](./cs-install-guide/dita-ot-specialization.md)
       - UUID および非 UUID ベースのファイル名の設定 {#conf-non-uuid-filename-cs}
