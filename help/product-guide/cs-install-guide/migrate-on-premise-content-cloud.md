@@ -4,7 +4,7 @@ description: コンテンツをオンプレミスソフトウェアからCloud S
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 0c29d3cffa9f9a741ba5f7bd6150d234fbe8341e
+source-git-commit: af7b3595c10793a8faf72310083547f90b6568f0
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 5%
@@ -74,8 +74,7 @@ Experience Manager GuidesのコンテンツをExperience Manager as a cloud serv
 1. 作成後、3 つのドットを選択し、「**抽出キーをコピー**」を選択します。
 
 
-1. **クリップボードにコピー** をクリックします。
-最初のプロジェクトを作成します。
+1. **クリップボードにコピー** をクリックします。 最初のプロジェクトを作成します。
    ![ 抽出キー ](./assets/migration-copy-to-clipboard.png)
 
 1. 上部の **0}Adobe Experience Manager} を選択し、「ソフトウェア配布**」タイルを選択し **す。**
@@ -125,17 +124,14 @@ Experience Manager GuidesのコンテンツをExperience Manager as a cloud serv
 1. **移行セット** を選択し、上部の **抽出** を選択します。
    ![ 移行セットの抽出 ](./assets/migration-extract.png)
 
-1. 選択したパスと設定の **移行セットの抽出** ポップアップで詳細を確認し、「**抽出**」をクリックします。
-抽出には数分かかり、ステータスが更新済みとして表示されます。
+1. 選択したパスと設定の **移行セットの抽出** ポップアップで詳細を確認し、「**抽出**」をクリックします。 抽出には数分かかり、ステータスが更新済みとして表示されます。
    ![ 移行セットの抽出 ](./assets/migration-set-extraction.png)
 
 1. 抽出が完了し、ステータス `finished` に示されたら、Cloud Acceleration Managerに移動し、手順 18 で作成したプロジェクトを選択します。
 詳細については、3 つのドットを選択し、「**詳細を表示**」を選択してください。
 
 
-1. 移行セットの詳細ポップアップで、移行セットの設定を確認し、ポップアップを閉じます。
-
-   次のスクリーンショットに示すように、パスおよびその他の設定を確認できます。
+1. 移行セットの詳細ポップアップで、移行セットの設定を確認し、ポップアップを閉じます。 次のスクリーンショットに示すように、パスおよびその他の設定を確認できます。
    ![migration-details](./assets/migration-details.png)
 
 
@@ -146,8 +142,6 @@ Experience Manager GuidesのコンテンツをExperience Manager as a cloud serv
 1. 移行セットを選択し、環境で必要なサーバーを選択して、「**取り込み**」をクリックします。
 
    ![ 新規取り込み ](./assets/migration-new-ingestion.png)
-
-
 
 ## Publish インスタンスでのコンテンツ転送ツールの実行
 
