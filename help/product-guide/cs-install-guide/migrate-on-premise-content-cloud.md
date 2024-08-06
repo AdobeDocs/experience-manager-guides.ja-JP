@@ -4,18 +4,29 @@ description: コンテンツをオンプレミスソフトウェアからCloud S
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: af7b3595c10793a8faf72310083547f90b6568f0
+source-git-commit: f1c21c6a2683c99d2fcf91b6e5bd4626b3de653b
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 5%
+source-wordcount: '1000'
+ht-degree: 4%
 
 ---
 
 # オンプレミスからCloud Serviceへのコンテンツの移行
 
-Experience Managerのas a Cloud Service性は、Experience Manager Assets、Forms、Screensに対して、拡張性、安全性、機敏性の高いテクノロジー基盤を提供します。 これにより、マーケターや IT 担当者は、インパクトのあるエクスペリエンスの大規模な提供に専念できます。
+Experience Managerのas a Cloud Service性は、Experience Manager Guides、Assets、Forms、Screensに対して、拡張性、安全性、機敏性の高いテクノロジー基盤を提供します。 これにより、マーケターや IT 担当者は、インパクトのあるエクスペリエンスの大規模な提供に専念できます。
 Experience Manager as a Cloud Service を使用すると、チームは製品アップグレード計画ではなく技術革新に専念できます。新しい製品機能は徹底的にテストされ、中断することなくチームに提供されるので、チームは常に最新バージョンのAdobe Experience Managerにアクセスできます。
+
 この記事では、オンプレミスプラットフォームまたはManaged Services Experience Manager GuidesのコンテンツをCloud Serviceに移行し、クラウドベースのプラットフォームにスムーズに移行するための詳細な手順を説明します。
+
+## 前提条件
+
+* Adobe Experience Manager 6.4 以降のバージョン
+* Experience Manager Guidesは、UUID バージョンである必要があります。 非 UUID バージョンのAdobe Experience Manager Guidesを使用している場合は、最初に [ 非 DITA コンテンツの移行 ](./migrate-content-non-dita.md) の手順を実行して UUID に移行します。
+* コンテンツの移行先のクラウドインスタンスの **0}Cloud Acceleration Manager} にアクセスします**
+* 最大 20 TB のリポジトリサイズがサポートされます
+* 25 GB の Lucene インデックスの合計サイズ
+* ノード名の長さは 150 バイト未満にする必要があります
+
 
 ## 移行プロセス
 
@@ -36,12 +47,8 @@ Experience Manager as a Cloud Service を使用すると、チームは製品ア
 > 
 > サポートされているのはバージョン 2.0.0 以降のみで、最新バージョンを使用することをお勧めします。
 
-### 前提条件
 
-* Adobe Experience Manager 6.4 以降のバージョン
-* 最大 20 TB のリポジトリサイズがサポートされます
-* 25 GB の Lucene インデックスの合計サイズ
-* ノード名の長さは 150 バイト未満にする必要があります
+
 
 
 Experience Manager GuidesのコンテンツをExperience Manager as a cloud service に移行するには、次の手順を実行します。
@@ -100,9 +107,9 @@ Experience Manager GuidesのコンテンツをExperience Manager as a cloud serv
    ![](./assets/migration-create-migration-set.png)
 
 1. 移行するパスを指定し、「**保存**」をクリックします。
-例：`/content/we-retail`
+例：`/content/sites`
 または
-   `/content/dam/wknd-events`
+   `/content/dam/tech-docs`
    ![ 含まれるパス ](./assets/migration-included-paths.png)
 
 
