@@ -4,7 +4,7 @@ description: コンテンツをオンプレミスソフトウェアからCloud S
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: f1c21c6a2683c99d2fcf91b6e5bd4626b3de653b
+source-git-commit: 645d9983b66c740444f24e2283806b5ec4a4ee79
 workflow-type: tm+mt
 source-wordcount: '1000'
 ht-degree: 4%
@@ -21,7 +21,7 @@ Experience Manager as a Cloud Service を使用すると、チームは製品ア
 ## 前提条件
 
 * Adobe Experience Manager 6.4 以降のバージョン
-* Experience Manager Guidesは、UUID バージョンである必要があります。 非 UUID バージョンのAdobe Experience Manager Guidesを使用している場合は、最初に [ 非 DITA コンテンツの移行 ](./migrate-content-non-dita.md) の手順を実行して UUID に移行します。
+* Experience Manager Guidesは、UUID バージョンである必要があります。 非 UUID バージョンのAdobe Experience Manager Guidesを使用している場合は、最初に [ 非 DITA コンテンツの移行 ](../install-guide/migrate-uuid-non-uuid.md) の手順を実行して UUID に移行します。
 * コンテンツの移行先のクラウドインスタンスの **0}Cloud Acceleration Manager} にアクセスします**
 * 最大 20 TB のリポジトリサイズがサポートされます
 * 25 GB の Lucene インデックスの合計サイズ
