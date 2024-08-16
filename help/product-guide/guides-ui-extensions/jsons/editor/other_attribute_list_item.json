@@ -1,0 +1,72 @@
+{
+  "component": "blockGroup",
+  "id": "other_attribute_list_item",
+  "metadata": "@index",
+  "items": [
+    {
+      "component": "blockGroup",
+      "hide": "@editableAttributes.index",
+      "extraclass": "display-flex-row editable-attribute-value gap-2 items-center",
+      "items": [
+        {
+          "component": "blockGroup",
+          "extraclass": "display-flex flex-1 relative h-8 items-center border-thin-right",
+          "items": [
+            {
+              "component": "label",
+              "title": "@name",
+              "label": "@name",
+              "extraclass": "overflow-ellipses attribute-label"
+            }
+          ]
+        },
+        {
+          "component": "blockGroup",
+          "extraclass": "basis-5/12 display-flex flex-1 relative h-8 items-center overflow-ellipses",
+          "items": [
+            {
+              "component": "label",
+              "extraclass": "italic overflow-ellipses",
+              "title": "@value",
+              "label": "@value"
+            },
+            {
+              "component": "blockGroup",
+              "extraclass": "editable-attribute-tools display-flex items-center full-height",
+              "hide": "@disableActions",
+              "items": [
+                {
+                  "component": "div",
+                  "items": [
+                    {
+                      "metadata": "@index",
+                      "component": "button",
+                      "icon": "edit",
+                      "size": "XS",
+                      "title": "edit",
+                      "extraclass": "rounded",
+                      "on-click": "editAttr",
+                      "variant": "action",
+                      "quiet": true
+                    },
+                    {
+                      "metadata": "@index",
+                      "component": "button",
+                      "icon": "deleteOutline",
+                      "size": "XS",
+                      "title": "delete",
+                      "extraclass": "rounded ml-0",
+                      "on-click": "deleteAttr",
+                      "variant": "action",
+                      "quiet": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
