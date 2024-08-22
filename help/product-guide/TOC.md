@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: 3c861e42bb01255f19cb2c901a3bca94d7949b76
+source-git-commit: 135f78ae723f3d77a3e7448f5af79b2261b89b1e
 workflow-type: tm+mt
-source-wordcount: '1842'
+source-wordcount: '1848'
 ht-degree: 7%
 
 ---
@@ -84,14 +84,14 @@ ht-degree: 7%
                - [4.3.1 新機能](./release-info/whats-new-4-3-1-release.md)
                - [4.3.0 新機能](./release-info/whats-new-4-3-release.md)
             - リリースノート {#43-release-notes}
-               - [4.3.1 リリースノート](./release-info/release-notes-4-3-1.md)
-               - [4.3.0 リリースノート](./release-info/release-notes-4-3.md)
+               - [リリースノート（4.3.1)](./release-info/release-notes-4-3-1.md)
+               - [リリースノート（4.3.0)](./release-info/release-notes-4-3.md)
          - 4.2 リリース {#42-release}
             - {#42-whats-new} の新機能
                - [4.2.1 新機能](./release-info/whats-new-4-2-1-release.md)
                - [4.2 新機能](./release-info/whats-new-4-2-release.md)
             - リリースノート {#42-release-notes}
-               - [4.2.1 リリースノート](./release-info/release-notes-4-2-1.md)
+               - [リリースノート（4.2.1)](./release-info/release-notes-4-2-1.md)
                - [4.2 リリースノート](./release-info/release-notes-4-2.md)
          - [4.1.x リリースノート](./release-info/release-notes-4-1.md)
          - [4.0.x リリースノート ](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
@@ -469,16 +469,14 @@ ht-degree: 7%
                - [カスタマイズ](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
                - [カスタムダイアログ](./guides-ui-extensions/customisations/ReviewApp/custom-dialog.md)
       - 公開 {#publishing}
-
+         - DITA-OT {#dita-ot}
+            - [プラグインでのAEM メタデータの使用](./knowledge-base/kb-articles/publishing/dita-ot/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)
          - [ネイティブPDF公開用のAEM環境の設定](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
-
          - [ネイティブPDFパブリッシングでのブックマップの TOC の生成](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
-
          - [FMPS とガイド](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          - [マイクロサービスのアーキテクチャとパフォーマンス](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          - [JWT 認証を使用したマイクロサービスベースの公開の設定](./knowledge-base/publishing/configure-microservices.md)
          - [OAuth 認証を使用したマイクロサービスベースの公開の設定](./knowledge-base/publishing/configure-microservices-imt-config.md)
-
          - [AEM Cloud でのベンチマークの公開](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
          - [カスタム DITA-OT の設定](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
 
