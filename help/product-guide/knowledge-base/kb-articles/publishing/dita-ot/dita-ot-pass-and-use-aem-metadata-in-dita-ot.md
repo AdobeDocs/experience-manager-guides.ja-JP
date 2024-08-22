@@ -1,7 +1,7 @@
 ---
 title: DITA-OT プラグインが生成した出力へのAEM Assets メタデータの伝播
 description: 生成された出力にメタデータをプッシュするためのAEMでの DITA-OT プラグインとコンテンツの設定
-source-git-commit: 5a427e14f13ba6e7344f48a9edb3f153a4958ba2
+source-git-commit: d1694535e27b0b605111f71f1f11c47ddb30536e
 workflow-type: tm+mt
 source-wordcount: '906'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 ## 背景
 
 AEM Guidesでは、DITA-OT プラグインを使用して、設定済みのプラグインを使用して任意の出力形式に公開できます。
-また、AEM DAM で管理されているアセットのメタデータを DITA-OT プロセスに渡して、生成される出力で使用することもできます。[ 出力プリセットでメタデータを渡すための ditamap/topics の設定方法 ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot) に関するドキュメントを参照してください。
+また、AEM DAM で管理されるアセットのメタデータを DITA-OT プロセスに渡して、生成される出力で使用することもできます。[output プリセットをメタデータを渡すための ditamap/topics の設定方法 ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot) に関するドキュメントを参照してください。
 
 
 ## 前提
@@ -59,7 +59,7 @@ AEM Assets メタデータスキーマを使用すると、AEMでAssetsのカス
 
 #### 一時ディレクトリの metadata.xml へのアクセス
 
-ダウンロードした一時ファイルパッケージ内に metadata.xml ファイルが表示され、プロパティと値の構造を確認することができます（下のスクリーンショットを参照）
+ダウンロードした一時ファイルパッケージ内に、プロパティと値の構造を見ることができる metadata.xml ファイルがあります（下のスクリーンショットを参照）
 ![metadata.xml の構造と構成 ](../../assets/publishing/publish-tempfiles-metadata-structure.png)
 
 ##### metadata.xml について
