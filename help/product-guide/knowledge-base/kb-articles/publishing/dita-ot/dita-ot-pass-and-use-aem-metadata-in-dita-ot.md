@@ -1,15 +1,15 @@
 ---
 title: DITA-OT プラグインが生成した出力へのAEM Assets メタデータの伝播
 description: 生成された出力にメタデータをプッシュするためのAEMでの DITA-OT プラグインとコンテンツの設定
-source-git-commit: d1694535e27b0b605111f71f1f11c47ddb30536e
+source-git-commit: b48f5a342989d3be48bbc1e8af51a2ce477d0ac7
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '912'
 ht-degree: 0%
 
 ---
 
 
-# この記事について
+# DITA-OT プラグインが生成した出力へのAEM Assets メタデータの伝播
 
 この文書では、DITA-OT プラグインの変更内容を実装して、metadata.xml _（一時ファイルで使用可能）を読み取り_ AEM Guides パブリッシュワークフローによって渡されたプロパティを DITA-OT プラグインで使用し、生成された出力に設定する方法を説明します。
 
