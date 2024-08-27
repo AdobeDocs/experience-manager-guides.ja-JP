@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: 135f78ae723f3d77a3e7448f5af79b2261b89b1e
+source-git-commit: 62c69ba7765f89b03381a5526e616a9118426fb9
 workflow-type: tm+mt
 source-wordcount: '1848'
 ht-degree: 7%
@@ -450,12 +450,12 @@ ht-degree: 7%
                - [アイコン](./guides-ui-extensions/aem_guides_framework/components/icon.md)
                - [ラベル](./guides-ui-extensions/aem_guides_framework/components/label.md)
                - [リスト](./guides-ui-extensions/aem_guides_framework/components/list.md)
-               - [テキスト領域](./guides-ui-extensions/aem_guides_framework/components/textArea.md)
+               - [テキスト領域](./guides-ui-extensions/aem_guides_framework/components/textarea.md)
             - Widgets {#framework-widgets}
                - [ウィジェットのレンダリング](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
                - [基本ウィジェット](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
          - はじめに {#getting-started}
-            - [はじめに](./guides-ui-extensions/getting-started/Introduction.md)
+            - [はじめに](./guides-ui-extensions/getting-started/introduction.md)
             - [インストールガイド](./guides-ui-extensions/getting-started/integrating-customisations.md)
             - [拡張機能リポジトリの概要](./guides-ui-extensions/getting-started/extension-repo-intro.md)
          - Customizations {#customisations}
@@ -463,7 +463,7 @@ ht-degree: 7%
             - [コンテキストメニューのカスタマイズ](./guides-ui-extensions/customisations/context-menus.md)
             - [ツールバーと上部バーのカスタマイズ](./guides-ui-extensions/customisations/toolbar-topbar.md)
             - [例](./guides-ui-extensions/examples.md)
-            - [カスタマイズ可能な Json](./guides-ui-extensions/JSONs.md)
+            - [カスタマイズ可能な Json](./guides-ui-extensions/jsons.md)
             - レビュー {#review-app-customisations}
                - [コンポーネント](./guides-ui-extensions/customisations/ReviewApp/components.md)
                - [カスタマイズ](./guides-ui-extensions/customisations/ReviewApp/customisation.md)

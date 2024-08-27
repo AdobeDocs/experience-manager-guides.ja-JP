@@ -4,7 +4,7 @@ user-guide-description: Adobe Experience Manager Guides の製品ドキュメン
 breadcrumb-title: AEM Guides ドキュメント
 hide: true
 badgeAll: label="レガシーガイド – 詳細情報" type="Informative" url="/help/legacy-product-guide/legacy.md" tooltip="レガシーガイド"
-source-git-commit: f0b3d688733fcdf2116c74e4b7d2aab2097a0b51
+source-git-commit: 62c69ba7765f89b03381a5526e616a9118426fb9
 workflow-type: tm+mt
 source-wordcount: '529'
 ht-degree: 6%
@@ -177,12 +177,12 @@ ht-degree: 6%
           - [Icon](./guides-ui-extensions/aem_guides_framework/components/icon.md)
           - [Label](./guides-ui-extensions/aem_guides_framework/components/label.md)
           - [List](./guides-ui-extensions/aem_guides_framework/components/list.md)
-          - [Textarea](./guides-ui-extensions/aem_guides_framework/components/textArea.md)
+          - [Textarea](./guides-ui-extensions/aem_guides_framework/components/textarea.md)
         - Widgets {#framework-widgets}
           - [Rendering Widgets](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
           - [Basic Widgets](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
       - Getting Started {#getting-started}
-        - [Introduction](./guides-ui-extensions/getting-started/Introduction.md)
+        - [Introduction](./guides-ui-extensions/getting-started/introduction.md)
         - [Installation guide](./guides-ui-extensions/getting-started/integrating-customisations.md)
         - [Extension Repositry intro](./guides-ui-extensions/getting-started/extension-repo-intro.md)
       - Customisations {#customisations}
