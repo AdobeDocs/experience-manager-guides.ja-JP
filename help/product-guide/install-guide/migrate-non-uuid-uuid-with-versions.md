@@ -5,14 +5,19 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: 8f3a89fc-7d18-453d-909d-6dff5e275cab
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+source-git-commit: b0c7b944b66c4a4167beece4f827f3d5789531b5
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '788'
 ht-degree: 1%
 
 ---
 
 # バージョン管理されたコンテンツの移行
+
+>[!NOTE]
+>
+> 非 UUID コンテンツをExperience Manager Guidesの UUID コンテンツに移行できます。 この記事は、2024 年 11 月にアーカイブされる予定です。
+>最新の詳細なドキュメントについては、[**非 UUID から UUID へのコンテンツの移行**](./migrate-non-uuid-uuid-new.md) を参照してください。
 
 以下の手順を実行して、UUID でバージョン管理されていないコンテンツを UUID コンテンツに移行します。
 
@@ -87,7 +92,7 @@ ht-degree: 1%
 
 1. 使用可能な空き領域が、移行中にAEM（crx-quickstart directory）で使用される領域の 10 倍以上あることを確認します。 移行が完了したら、コンパクションを実行して、ディスク領域のほとんどを再利用できます（[ リビジョンクリーンアップ ](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=ja) を参照）。
 
-1. `com.adobe.fmdita.config.ConfigManager` で *Post処理ワークフローランチャーを有効にする* を有効にする *および `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation.` でバージョンの後処理を有効にする*
+1. `com.adobe.fmdita.config.ConfigManager` で *後処理ワークフローランチャーを有効にする* を有効にする」および `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation.` で *バージョン後処理を有効にする*
 
 1. サポートされているリリースの UUID バージョンを非 UUID バージョンよりも先にインストールします。 例えば、4.1 の非 UUID ビルドを使用している場合は、UUID バージョン 4.1 をインストールして、移行を実行する必要があります。
 
@@ -98,7 +103,7 @@ ht-degree: 1%
    * DAM アセットの更新ワークフロー
    * DAM メタデータの書き戻しワークフロー
 
-1. `com.adobe.fmdita.config.ConfigManager` で *Post処理ワークフローランチャーを有効にする* を無効にし、`com.adobe.fmdita.postprocess.version.PostProcessVersionObservation` で *バージョン後処理を有効にする* を無効にします。
+1. `com.adobe.fmdita.config.ConfigManager` で *後処理ワークフローランチャーを有効にする* を無効にし、`com.adobe.fmdita.postprocess.version.PostProcessVersionObservation` で *バージョン後処理を有効にする* を無効にします。
 
 1. Day CQ タグ付けサービスで、「検証を有効にする（`validation.enabled`）」プロパティを無効にします。
 
