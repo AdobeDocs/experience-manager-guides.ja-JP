@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: b0c7b944b66c4a4167beece4f827f3d5789531b5
+source-git-commit: ff34f8b21d3e930ed332a360e90040a14b219f75
 workflow-type: tm+mt
-source-wordcount: '1849'
+source-wordcount: '1855'
 ht-degree: 7%
 
 ---
@@ -483,6 +483,7 @@ ht-degree: 7%
       - ワークフロー {#workflows}
          - [生成後のワークフロー](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
       - 翻訳 {#translation}
+         - [翻訳パフォーマンスを向上させるためのベストプラクティス](./knowledge-base/kb-articles/translation/increase-translation-performance-aem-guides.md)
          - [翻訳から段落を除外](./knowledge-base/kb-articles/translation/exclude-paragraphs-from-translation.md)
       - ユースケース {#use-cases}
          - [条件付きコンテンツの操作](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
