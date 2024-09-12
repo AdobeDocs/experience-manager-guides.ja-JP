@@ -5,16 +5,24 @@ exl-id: 438e2964-b9c7-462a-a68c-8031bd97911c
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: f8c71e18f5e2e5dbc5a2abdbb92c72fdad3bb233
+source-git-commit: 97d7776c81e7776d0248d6711ae5d05c46c44239
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
 
 # トピックとコンテンツフラグメント間のマッピングの作成
 
-AEM Guidesは、トピックとコンテンツフラグメントモデルの間に JSON ベースのマッピングを作成する機能を提供します。 このマッピングを使用して、トピック内の一部またはすべての要素に存在するコンテンツをコンテンツフラグメントに公開できます。
+
+
+Adobe Experience Manager Guidesでは、トピックとコンテンツフラグメントモデルの間に JSON ベースのマッピングを作成できます。 JSON ベースのマッピングを使用すると、トピック内の一部またはすべての要素に存在するコンテンツをコンテンツフラグメントに公開できます。
+
+>[!NOTE]
+> 
+> 4.6 以降のバージョンを使用する場合、このマッピングを作成する必要はありません。トピック要素を、コンテンツフラグメントモデルに存在するフィールドにドラッグできます。
+> 詳しくは、[ コンテンツフラグメントの公開 ](../user-guide/publish-content-fragment.md) 方法を参照してください。
+
 
 1. *contentFragmentMapping.json* をダウンロードするには、管理者としてAdobe Experience Managerにログインします。
 1. 上部の「Adobe Experience Manager」リンクを選択し、「**ツール**」を選択します。

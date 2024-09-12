@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: ff34f8b21d3e930ed332a360e90040a14b219f75
+source-git-commit: 3540c27fcfb856a0ee6b669c3d7a573331324817
 workflow-type: tm+mt
-source-wordcount: '1855'
+source-wordcount: '1879'
 ht-degree: 7%
 
 ---
@@ -72,6 +72,11 @@ ht-degree: 7%
             - [1 月リリースノート](./release-info/release-notes-2022-1-0.md)
       - オンプレミス/Managed Services {#on-prem-release-notes}
          - [[!DNL AEM Guides] リリース](./release-info/latest-release-info.md)
+         - 4.6.0 リリース {#460-release}
+            - [新機能](./release-info/whats-new-4-6.md)
+            - [ 修正された問題 ](./release-info/fixed-issues-4-6-0.md)
+            - [アップグレード手順](./release-info/upgrade-instructions-4-6-0.md)
+
          - 4.4.0 リリース {#440-release}
             - [新機能](./release-info/whats-new-4-4.md)
             - [修正された問題](./release-info/fixed-issues-4-4.md)
@@ -206,6 +211,7 @@ ht-degree: 7%
       - [基本的なトラブルシューティング](./user-guide/generate-output-basic-troubleshooting.md)
       - [コンテンツフラグメントの公開](./user-guide/publish-content-fragment.md)
       - [Publish エクスペリエンスフラグメント](./user-guide/publish-experience-fragment.md)
+      - [Publish AEM Sitesのページ](./user-guide/publish-aem-sites.md)
       - コンテンツア {#bulk-activation} ットの一括アクティベーション
          - [公開済みコンテンツの一括アクティベーション](./user-guide/conf-bulk-activation.md)
          - [一括アクティベーションマップコレクションの作成](./user-guide/conf-bulk-activation-create-map-collection.md)
@@ -247,8 +253,8 @@ ht-degree: 7%
       - コンテンツ移行 {#content-migration}
          - [非 UUID から UUID へのコンテンツの移行](./install-guide/migrate-uuid-non-uuid.md)
          - 移行プロセス {#migration-process}
-            - [非 UUID コンテンツとバージョンの移行](./install-guide/migrate-non-uuid-uuid-new.md)
-            - [ バージョンを持つ非 UUID コンテンツの移行（レガシー） ](./install-guide/migrate-non-uuid-uuid-with-versions.md)
+            - [非 UUID コンテンツとバージョンの移行](./install-guide/migrate-non-uuid-uuid.md)
+            - [ バージョンを持つ非 UUID コンテンツの移行（レガシー） ](./install-guide/migrate-non-uuid-uuid-with-versions-legacy.md)
          - [既存のコンテンツを移行](./install-guide/migrate-content.md)
          - [既存の DITA コンテンツのアップロード](./install-guide/migrate-content-upload-existing-dita-content.md)
          - [DITA 以外のコンテンツの移行](./install-guide/migrate-content-non-dita.md)
@@ -284,7 +290,6 @@ ht-degree: 7%
          - [テキストフィルターの設定](./install-guide/config-text-filters.md)
          - [クエリの LimitReads 数の設定](./install-guide/conf-query-limitreads.md)
          - [記事ベースの公開用パッケージのインストール](./install-guide/configure-article-based-publishing.md)
-         - [データソースコネクタの設定](./install-guide/conf-data-source-connector.md)
          - [ユーザーインターフェイスからのデータソースコネクタの設定](./install-guide/conf-data-source-connector-tools.md)
          - [詳細マップ エディタを既定値として設定します。](./install-guide/conf-map-editor.md)
          - [デフォルト@navtitle 属性を含める](./install-guide/auto-add-navtitle.md)
@@ -377,7 +382,8 @@ ht-degree: 7%
          - [グローバルプロファイルまたはフォルダーレベルのプロファイルの設定](./cs-install-guide/conf-folder-level.md)
       - のバージョン {#version-mgt-cs} 設定
          - [バージョン管理](./cs-install-guide/version-management.md)
-      - 出力生成設定の操作 {#output-gen-config-cs}
+      - デスクトップベースの XML エディターの操作 {#desktop-xml-editor}
+         - 出力生成設定の操作 {#output-gen-config-cs}
          - [出力生成設定の指定](./cs-install-guide/conf-output-generation.md)
          - [ネイティブPDF公開](./cs-install-guide/native-pdf-publishing.md)
          - [ネイティブPDF公開用のノードプロセスの設定](./native-pdf/configure-node-options.md)
@@ -468,6 +474,10 @@ ht-degree: 7%
                - [コンポーネント](./guides-ui-extensions/customisations/ReviewApp/components.md)
                - [カスタマイズ](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
                - [カスタムダイアログ](./guides-ui-extensions/customisations/ReviewApp/custom-dialog.md)
+      - 外部データソース {#external-data-source}
+         - [データソースの統合](../product-guide/knowledge-base/kb-articles/data-source/integrate-data-sources.md)
+         - [データソースコネクタの設定](../product-guide/knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)
+
       - 公開 {#publishing}
          - DITA-OT {#dita-ot}
             - [プラグインでのAEM メタデータの使用](./knowledge-base/kb-articles/publishing/dita-ot/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)

@@ -5,7 +5,7 @@ exl-id: dab654f5-555d-4a89-bc94-55b1e938f255
 feature: Rest API Output Management
 role: Developer
 level: Experienced
-source-git-commit: 3279640b32041cafe262457c62b8bd34e55f9ccf
+source-git-commit: 45ae1471fe0f0586764ede9dd96530b7f75f69ee
 workflow-type: tm+mt
 source-wordcount: '1175'
 ht-degree: 6%
@@ -27,7 +27,7 @@ http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/publishlistener
 
 | 名前 | 型 | 必須 | 説明 |
 |----|----|--------|-----------|
-| `:operation` | String | はい | 呼び出される操作の名前。 このパラメーターの値は `getalloutputs` です。<br> **メモ：** この値では、大文字と小文字が区別されません。 |
+| `:operation` | 文字列 | はい | 呼び出される操作の名前。 このパラメーターの値は `getalloutputs` です。<br> **メモ：** この値では、大文字と小文字が区別されません。 |
 | `sourcePath` | 文字列 | はい | DITA マップファイルの絶対パス。 |
 
 **応答値**:
@@ -63,7 +63,7 @@ http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/publishlistener
 
 | 名前 | 型 | 必須 | 説明 |
 |----|----|--------|-----------|
-| `:operation` | String | はい | 呼び出される操作の名前。 このパラメーターの値は ``createoutput`` です。<br> **メモ：** この値では、大文字と小文字が区別されません。 |
+| `:operation` | 文字列 | はい | 呼び出される操作の名前。 このパラメーターの値は ``createoutput`` です。<br> **メモ：** この値では、大文字と小文字が区別されません。 |
 | `sourcePath` | 文字列 | はい | DITA マップファイルの絶対パス。 |
 | `outputTitle` | 文字列 | はい | 出力プリセット設定のわかりやすい名前。 出力プリセットの「設定名」プロパティの値を定義する場合に使用します。<br> **メモ：** 新しい出力プリセットが作成されると、バックエンドシステムは指定されたタイトルから出力プリセットの一意の名前を駆動します。 |
 | `outputType` | 文字列 | はい | このプリセットを使用して生成される出力のタイプ （AEM サイト、PDF、EPUB、その他）。 使用できるオプションは次のとおりです。<br>-   AEMSITE <br>-   PDF<br>-   HTML5 <br>-   EPUB<br>-   CUSTOM |
@@ -85,7 +85,7 @@ http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/publishlistener
 
 | 名前 | 型 | 必須 | 説明 |
 |----|----|--------|-----------|
-| `:operation` | String | はい | 呼び出される操作の名前。 このパラメーターの値は ``saveoutput`` です。<br> **メモ：** この値では、大文字と小文字が区別されません。 |
+| `:operation` | 文字列 | はい | 呼び出される操作の名前。 このパラメーターの値は ``saveoutput`` です。<br> **メモ：** この値では、大文字と小文字が区別されません。 |
 | `sourcePath` | 文字列 | はい | DITA マップファイルの絶対パス。 |
 | `outputObj` | 文字列 | はい | 更新される出力プリセットのプロパティを含む JSON オブジェクト。 `outputObj.outputName` プロパティには、更新する出力プリセットの名前が含まれています。 JSON オブジェクトの形式については、**DITA マップのすべての出力プリセットの取得 [ の表** 応答値 ](#get-output-presets-dita-map) を参照してください。 |
 
@@ -103,7 +103,7 @@ http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/publishlistener
 
 | 名前 | 型 | 必須 | 説明 |
 |----|----|--------|-----------|
-| `:operation` | String | はい | 呼び出される操作の名前。 このパラメーターの値は `getoutput` です。 <br>**メモ：** この値では、大文字と小文字が区別されません。 |
+| `:operation` | 文字列 | はい | 呼び出される操作の名前。 このパラメーターの値は `getoutput` です。 <br>**メモ：** この値では、大文字と小文字が区別されません。 |
 | `sourcePath` | 文字列 | はい | DITA マップファイルの絶対パス。 |
 | `outputName` | 文字列 | はい | 詳細を取得する必要がある出力プリセットの名前。 |
 
@@ -140,7 +140,7 @@ http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/publishlistener
 
 | 名前 | 型 | 必須 | 説明 |
 |----|----|--------|-----------|
-| `operation` | String | はい | 呼び出される操作の名前。 このパラメーターの値は `GENERATEOUTPUT` です。<br> **メモ：** この値では大文字と小文字が区別されます。 |
+| `operation` | 文字列 | はい | 呼び出される操作の名前。 このパラメーターの値は `GENERATEOUTPUT` です。<br> **メモ：** この値では大文字と小文字が区別されます。 |
 | `source` | 文字列 | はい | DITA マップファイルの絶対パス。 |
 | `outputName` | 文字列 | はい | 出力の生成に使用する出力プリセットの名前。 複数の出力プリセットは、パイプ\（&quot;\|&quot;\）区切り文字（例：`aemsite|pdfoutput`）を使用して指定できます。 |
 
@@ -158,7 +158,7 @@ http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/publishlistener
 
 | 名前 | 型 | 必須 | 説明 |
 |----|----|--------|-----------|
-| `operation` | String | はい | 呼び出される操作の名前。 このパラメーターの値は `INCREMENTALPUBLISH` です。 <br>**メモ：** この値では大文字と小文字が区別されます。 |
+| `operation` | 文字列 | はい | 呼び出される操作の名前。 このパラメーターの値は `INCREMENTALPUBLISH` です。 <br>**メモ：** この値では大文字と小文字が区別されます。 |
 | `contentPath` | JSON | はい | DITA マップファイルとトピックファイルの絶対パスと出力プリセットの名前。 構築ブロックとして次の例を使用します。 |
 
 ```XML
@@ -203,7 +203,7 @@ http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/publishlistener
 
 | 名前 | 型 | 必須 | 説明 |
 |----|----|--------|-----------|
-| `:operation` | String | はい | 呼び出される操作の名前。 このパラメーターの値は `deleteoutput` です。<br> **メモ：** この値では、大文字と小文字が区別されません。 |
+| `:operation` | 文字列 | はい | 呼び出される操作の名前。 このパラメーターの値は `deleteoutput` です。<br> **メモ：** この値では、大文字と小文字が区別されません。 |
 | `sourcePath` | 文字列 | はい | DITA マップファイルの絶対パス。 |
 | `outputName` | 文字列 | はい | 削除する出力プリセットの名前。 |
 

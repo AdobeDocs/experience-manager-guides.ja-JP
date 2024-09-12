@@ -5,9 +5,9 @@ exl-id: 4597d1be-5426-4eba-8490-e42d0e565427
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 1644bfba3332b0f023aa8d70aefd2680d4220d8a
 workflow-type: tm+mt
-source-wordcount: '2761'
+source-wordcount: '2802'
 ht-degree: 0%
 
 ---
@@ -130,27 +130,42 @@ AEM Guidesでは、InDesignドキュメントを変換できます。 FrameMaker
 
    `/libs/fmdita/config/idml2dita_io.xml`
 
-1. `apps` ノード内に `config` フォルダーのオーバーレイノードを作成します。
+1. 必要に応じてカスタム設定を作成するには、`config` フォルダーのオーバーレイノードを `apps` ノード内に作成します。
+
+1. 以下のファイルまたはフォルダーを `libs` フォルダーから apps フォルダーにコピーします。
+
+   - `/fmdita/config/idml2dita_io.xml`
+   - `/fmdita/idml2dita/config`
+   - `/fmdita/idml2dita/xsl`
 
 1. `apps` ノードで使用可能な設定ファイルに移動します。
 
    `/apps/fmdita/config/idml2dita_io.xml`
 
-   `idml2dita_io.xml` ファイルで次のパラメーターを設定します。
+1. `idml2dita_io.xml` ファイル内の `idml12dita` フォルダーにある設定のマッピングを追加します。
+1. ファイルに次のプロパティ `idml2dita_io.xml` 追加します。
 
-   - `inputDir` 要素で、ソースInDesignドキュメントを使用できる入力フォルダーの場所を指定します。 例えば、InDesignドキュメントが `projects` のフォルダー内の `indesigntodita` という名前のフォルダーに格納されている場合、その場所は `/content/dam/idmlfiles/indesigntodita/` のように指定します。
+   ```
+   <entry key="idml2DitaConfig">/apps/fmdita/idml2dita/config</entry>
+   
+   <entry key="idml2DitaXsl">/apps/fmdita/idml2dita/xsl</entry>
+   ```
 
-   - `outputDir` エレメントで、出力フォルダの場所を指定するか、変換後の DITA 文書を保存するデフォルトの出力場所を残します。 指定された出力フォルダーが DAM に存在しない場合、変換ワークフローは出力フォルダーを作成します。
+`idml2dita_io.xml` ファイルで次のパラメーターを設定します。
 
-   - `mapStyle` エレメントで、InDesign文書スタイルの DITA エレメントへのマッピングを含むマップファイルの場所を指定します。 デフォルトのマッピングは、次の場所にあるファイルに保存されます。
+- `inputDir` 要素で、ソースInDesignドキュメントを使用できる入力フォルダーの場所を指定します。 例えば、InDesignドキュメントが `projects` のフォルダー内の `indesigntodita` という名前のフォルダーに格納されている場合、その場所は `/content/dam/idmlfiles/indesigntodita/` のように指定します。
 
-     ```XML
-     /stmap.adobeidml.xml
-     ```
+- `outputDir` エレメントで、出力フォルダの場所を指定するか、変換後の DITA 文書を保存するデフォルトの出力場所を残します。 指定された出力フォルダーが DAM に存在しない場合、変換ワークフローは出力フォルダーを作成します。
 
-     >[!NOTE]
-     >
-     > ファイルの構造とカスタマイズ方法 `stmap.adobeidml.xml` ついて詳しくは、[ 付録 *の* DITA マイグレーションへのInDesign用のマッピング ファイルを準備する ](appendix.md#id194AF0003HT) の節を参照してください。
+- `mapStyle` エレメントで、InDesign文書スタイルの DITA エレメントへのマッピングを含むマップファイルの場所を指定します。 デフォルトのマッピングは、次の場所にあるファイルに保存されます。
+
+```XML
+    /stmap.adobeidml.xml
+```
+
+>[!NOTE]
+>
+> ファイルの構造とカスタマイズ方法 `stmap.adobeidml.xml` ついて詳しくは、[ 付録 *の* DITA マイグレーションへのInDesign用のマッピング ファイルを準備する ](appendix.md#id194AF0003HT) の節を参照してください。
 
 1. `idml2dita_io.xml` ファイルを保存します。
 

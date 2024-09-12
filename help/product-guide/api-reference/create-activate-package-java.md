@@ -5,14 +5,20 @@ exl-id: b801c2b3-445f-4aa7-a4f2-029563d7cb3a
 feature: Java-Based API Packages
 role: Developer
 level: Experienced
-source-git-commit: 1bb422427822e7f369e0c1be7de6b12ec012075e
+source-git-commit: ed0b0e6124a8656e711a8e64b290b805569fbd48
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '591'
 ht-degree: 1%
 
 ---
 
 # パッケージを作成してアクティブ化するための Java ベースの API {#id175UB30E05Z}
+
+>[!NOTE]
+>
+> Experience Manager Guidesで使用可能な Java ベースの API を使用して、カスタムプラグインを作成し、標準のワークフローを拡張できます。 この記事は、2024 年 11 月にアーカイブされる予定です。
+> Java ベースの API の使用に関する最新および詳細なドキュメントについては、[![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-guides-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api) を参照してください。
+
 
 次の Java ベースの API を使用すると、CRX パッケージを作成してアクティブ化できます。 この API は、バンドルの形式で使用できます。 この API を使用するには、コードにこのバンドルを含める必要があります。
 

@@ -5,14 +5,19 @@ exl-id: e19439df-39ec-47fd-9da5-24f51750a7e5
 feature: Java-Based API Publishing
 role: Developer
 level: Experienced
-source-git-commit: a255007fc9fe169f926e356ec9d2a8f5a2fdbe29
+source-git-commit: ee4eb829ebe215315b05cd1f376e934c02a73b1e
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 3%
+source-wordcount: '201'
+ht-degree: 2%
 
 ---
 
 # 出力生成を操作するための Java ベースの API {#id175UB30E05Z}
+
+>[!NOTE]
+>
+> Experience Manager Guidesで使用可能な Java ベースの API を使用して、カスタムプラグインを作成し、標準のワークフローを拡張できます。 この記事は、2024 年 11 月にアーカイブされる予定です。
+> Java ベースの API の使用に関する最新および詳細なドキュメントについては、[![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-guides-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api) を参照してください。
 
 次の Java ベースの API を使用すると、DITA マップの出力を生成できます。 この API は、バンドルの形式で使用できます。 この API を使用するには、コードにこのバンドルを含める必要があります。
 

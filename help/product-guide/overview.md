@@ -4,7 +4,7 @@ description: Experience Manager Guides（旧称XML Documentation for Adobe Exper
 exl-id: 06dd1b77-1a98-430f-8322-475d4fa4947b
 feature: AEM Guides Tutorials
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: fb4b5fa72cc0643810e4c299dd827803687f0bc4
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 3%
@@ -36,7 +36,6 @@ ht-degree: 3%
 * **[出力生成  [!DNL AEM Guides]](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/overview.html){target="blank"}**
 
   _[!DNL Adobe Experience Manager Guides] を使用して出力を生成する方法を説明します。 レポート、ベースライン、条件、トラブルシューティング、一括公開、アクティベーションなど、出力の生成に使用できる様々な機能について説明します。_
-
 
 <!--
 
@@ -90,9 +89,9 @@ Dummy links cause validation to fail
 
 -->
 
-
 ## その他のリソース
 
 * [[!DNL AEM Guides]  オンラインユーザーガイド ](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html)
 * [[!DNL AEM Guides] PDFガイド ](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
 * [Experience League - AEM に関する情報](https://experienceleague.adobe.com/?lang=ja#recommended/solutions/experience-manager)
+

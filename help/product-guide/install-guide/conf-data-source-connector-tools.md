@@ -5,9 +5,9 @@ exl-id: 2a0ac0a0-b2a9-453e-851b-fb04c8903526
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 1eb4fcb33d6f905df3f543232e7040d1da42560b
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
@@ -76,4 +76,8 @@ Experience Manager Guidesには、データソース用の標準のコネクタ�
 * **削除**：選択したコネクタを削除します。
 
 
-データソースを設定すると、コネクタが Web エディターの **データソース** パネルの下に表示されます。 その後、データソースに接続し、トピックにコンテンツスニペットを挿入できます。 詳しくは、[ データソースからコンテンツスニペットを挿入する ](../user-guide/web-editor-content-snippet.md) を参照してください。
+データソースを設定すると、コネクタが Web エディターの **データソース** パネルの下に表示されます。 その後、データソースに接続し、トピックにコンテンツスニペットを挿入できます。 詳しくは、[ データソースのデータを使用 ](../user-guide/web-editor-content-snippet.md) を参照してください。
+
+>[!NOTE]
+>
+>また、カスタムコネクタを作成して、様々なデータソースで使用することもできます。 方法について説明します [ カスタムコネクタの設定 ](../knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)。

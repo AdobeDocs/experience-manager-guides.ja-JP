@@ -4,14 +4,19 @@ description: AEM Guidesで基本マップエディターを使用する方法に
 exl-id: 13da729d-e8f7-46ae-873a-1bfc32da974f
 feature: Authoring, Map Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 126cecdaa481b9da1add4ba3664c26c2bc5da068
 workflow-type: tm+mt
-source-wordcount: '1408'
+source-wordcount: '1471'
 ht-degree: 0%
 
 ---
 
 # 基本マップエディタの操作 {#id1942CM005Y4}
+
+>[!NOTE]
+>
+> 以前はExperience Manager Guidesで使用できた基本マップエディターは、バージョン 4.3 および 2307 から非推奨（廃止予定）になりました。 基本マップ エディタにアクセスして DITA マップを作成および管理することはできません。
+>高度なマップエディタを使用することをお勧めします。 高度なマップ エディタでは、機能が強化され、カスタマイズ オプションが改善されています。 詳細は、[ 高度なマップエディター ](../user-guide/map-editor-advanced-map-editor.md) の操作方法を参照してください。
 
 基本マップエディタには、AEM リポジトリからトピックを追加して DITA マップまたはブックマップを作成するための簡単なドラッグ&amp;ドロップ機能があります。 ネストされたトピック、関係テーブル \（reltable\）、属性およびメタデータ情報を追加し、マップが正しいかどうかを検証することもできます。
 

@@ -6,9 +6,9 @@ hidefromtoc: true
 exl-id: 9a140564-27eb-404e-93a5-f5c81364e7f7
 feature: Oxygen Plugin, Authoring, Web Editor
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6c89275df6bdcd031c45956aeb06b6c3e5753208
 workflow-type: tm+mt
-source-wordcount: '6294'
+source-wordcount: '6293'
 ht-degree: 0%
 
 ---
@@ -29,13 +29,13 @@ AEM Guides用 Oxygen プラグインは、Adobeソフトウェア配布ポータ
 
 ### 技術的要件
 
-- Oxygen XML オーサーバージョン 25.1
+- Oxygen XML オーサーバージョン 26.1
 
-- Adobe Experience Manager Guides バージョン 4.3 以降
+- Adobe Experience Manager Guides バージョン 4.6 以降
 
-- Adobe Experience Manager バージョン 6.5 （サービスパック 14、15、16、17）
+- Adobe Experience Manager バージョン 6.5 （サービスパック 21、20、19）
 
-- Oxygen XML オーサーバージョン 25.1 でサポートされているオペレーティングシステム
+- Oxygen XML オーサーバージョン 26.1 でサポートされているオペレーティングシステム
 
 - Java 開発キット
    - Oracle SE 8 JRE 1.8
@@ -159,7 +159,7 @@ JxBrowser は、酸素コネクタプラグインによる SSO 認証に使用�
 >
 >ファイルを更新する前に、ファイルのバックアップを取ります。
 
-**Macおよび Oxygen 25.1 の場合**
+**Macおよび Oxygen 26.1 の場合**
 
 env.sh に次の行を追加します。
 
@@ -185,7 +185,7 @@ oxynoauthor.sh に次の行を追加します。
 -Djdk.module.illegalAccess=permit\-Djava.ipc.external=true\
 ```
 
-**Windows および Oxygen 25.1 の場合**
+**Windows および Oxygen 26.1 の場合**
 
 env.bat に次の行を追加します。
 
@@ -746,7 +746,7 @@ AEM Guidesでは、関連する DITA 属性を使用して、条件属性を簡�
    </configuration>   
    ```
 
-1. ファイルを `Oxygen Author 25` ディレクトリに保存します。 （例えば、パスは `C:\Program Files\Oxygen XML Author 25\logback.xml` のようになります）。
+1. ファイルを `Oxygen Author 26` ディレクトリに保存します。 （例えば、パスは `C:\Program Files\Oxygen XML Author 26\logback.xml` のようになります）。
 
 1. ファイルを閉じます。 これにより、次のパスで利用できる oXygen ログが有効になります：`${user.home}/Desktop/oxygenLog/oxygen.log`
 1. `oxygenAuthor.bat` ファイルをテキストエディターで開きます。
