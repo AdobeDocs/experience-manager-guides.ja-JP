@@ -1,7 +1,9 @@
 ---
 title: DITA AEM Guidesでの Markdown の使用
 description: DITA AEM Guidesでの Markdown の移行と使用
-source-git-commit: b4235841798fb12b3d0491e33b4466073ac02ef3
+author: Pulkit Nagpal(punagpal)
+exl-id: a94c0129-df40-4b61-ac60-679b2ffe7e86
+source-git-commit: f971be4be9e2d32618616727cd9c682941dd3fb2
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
