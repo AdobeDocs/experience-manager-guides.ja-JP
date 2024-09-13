@@ -1,9 +1,10 @@
 ---
 title: デプロイメントオプションとクラウドへの移行
 description: AEM Guides、様々なデプロイメントオプションおよびオンプレミス設定から AEMaaCS へのコンテンツの移行
-source-git-commit: 3c861e42bb01255f19cb2c901a3bca94d7949b76
+exl-id: 6224f35a-bbed-4a3b-b411-ee653c108d90
+source-git-commit: 4644b7237dcb85a2bc62495abcd48d2c312a7842
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '245'
 ht-degree: 2%
 
 ---
@@ -50,9 +51,9 @@ AEM Guidesで使用可能なデプロイメントオプション（非クラウ�
 ### ドキュメント化
 
 - [AEM Cloud への移行 ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
-- [AEM Guides: UUID コンテンツをオンプレミス/AMS からクラウドに移動します ](https://experienceleague.corp.adobe.com/docs/experience-manager-guides/using/install-guide/cs-ig/migrate-con-cs/migrate-on-premise-content-cloud.html)
+- [AEM Guides:UUID コンテンツをオンプレミス/AMS からクラウドに移動します](../../cs-install-guide/migrate-on-premise-content-cloud.md)
 - [ コンテンツ転送ツール：よくある質問 ](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/migration/moving-to-aem-as-a-cloud-service/content-migration/faq)
-- [AEM Guides：非 uuid コンテンツのクラウドへの移行 ](https://experienceleague.corp.adobe.com/docs/experience-manager-guides/using/install-guide/on-prem-ig/content-migration/migrate-uuid-non-uuid.html)
+- [AEM Guides：非 uuid コンテンツの Cloud への移行](../../install-guide/migrate-uuid-non-uuid.md)
 
 ### コミュニティフォーラム
 
