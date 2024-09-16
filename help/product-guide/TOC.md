@@ -1,10 +1,10 @@
 ---
 user-guide-title: Experience Manager Guides
-user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
+user-guide-description: Adobe Experience Manager Guidesの製品ドキュメントをお読みください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: a9f8622dc5a2647bcff32c8895700d5c5933be4a
+source-git-commit: 768468d991de00439dd93108d3a4049b0de595aa
 workflow-type: tm+mt
-source-wordcount: '1889'
+source-wordcount: '1890'
 ht-degree: 7%
 
 ---
