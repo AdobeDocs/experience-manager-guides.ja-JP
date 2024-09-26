@@ -1,6 +1,6 @@
 ---
 user-guide-title: Experience Manager Guides
-user-guide-description: Adobe Experience Manager Guidesの製品ドキュメントをお読みください。
+user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
 source-git-commit: 768468d991de00439dd93108d3a4049b0de595aa
 workflow-type: tm+mt
@@ -89,14 +89,14 @@ ht-degree: 7%
                - [4.3.1 新機能](./release-info/whats-new-4-3-1-release.md)
                - [4.3.0 新機能](./release-info/whats-new-4-3-release.md)
             - リリースノート {#43-release-notes}
-               - [リリースノート（4.3.1)](./release-info/release-notes-4-3-1.md)
-               - [リリースノート（4.3.0)](./release-info/release-notes-4-3.md)
+               - [リリースノート（4.3.1）](./release-info/release-notes-4-3-1.md)
+               - [リリースノート（4.3.0）](./release-info/release-notes-4-3.md)
          - 4.2 リリース {#42-release}
             - {#42-whats-new} の新機能
                - [4.2.1 新機能](./release-info/whats-new-4-2-1-release.md)
                - [4.2 新機能](./release-info/whats-new-4-2-release.md)
             - リリースノート {#42-release-notes}
-               - [リリースノート（4.2.1)](./release-info/release-notes-4-2-1.md)
+               - [リリースノート（4.2.1）](./release-info/release-notes-4-2-1.md)
                - [4.2 リリースノート](./release-info/release-notes-4-2.md)
          - [4.1.x リリースノート](./release-info/release-notes-4-1.md)
          - [4.0.x リリースノート ](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
