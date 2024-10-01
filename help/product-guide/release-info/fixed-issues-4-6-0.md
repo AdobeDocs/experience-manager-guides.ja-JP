@@ -2,9 +2,9 @@
 title: リリースノート | Adobe Experience Manager Guides 4.6.0 リリースの問題を修正しました
 description: Adobe Experience Manager Guides 4.6.0 リリースのバグ修正について説明します
 role: Leader
-source-git-commit: 5a30d427fa579e37a18b0fca65dea96dc486c594
+source-git-commit: 17c3d945cb2a2faab1e361385a95e1de5a790a96
 workflow-type: tm+mt
-source-wordcount: '1946'
+source-wordcount: '1970'
 ht-degree: 0%
 
 ---
@@ -161,6 +161,8 @@ ht-degree: 0%
 - DITA マップの上部ツールバーから挿入すると、トピックの参照がユーザーインタフェースで壊れて表示されます。
 - DITA マップに参照がない場合、ネイティブPDFの生成が失敗する。
 - トピックのドキュメントの状態が **完了** に更新されると、**新しいリリースの開始** アイコンは、トピックの **プレビュー** モードでのみ使用できます。
+- Asset UI で DITA ファイルを選択すると、Configuration Settings で無効になっている場合でも、オプション **FrameMakerで開く** が表示されます。
+
 
 
 
