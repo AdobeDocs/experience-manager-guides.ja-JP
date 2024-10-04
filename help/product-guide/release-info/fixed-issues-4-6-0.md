@@ -2,9 +2,9 @@
 title: リリースノート | Adobe Experience Manager Guides 4.6.0 リリースの問題を修正しました
 description: Adobe Experience Manager Guides 4.6.0 リリースのバグ修正について説明します
 role: Leader
-source-git-commit: 17c3d945cb2a2faab1e361385a95e1de5a790a96
+source-git-commit: 6bff0a9c8770418c4486b65feb1c11792b893ca8
 workflow-type: tm+mt
-source-wordcount: '1970'
+source-wordcount: '1985'
 ht-degree: 0%
 
 ---
@@ -75,8 +75,7 @@ ht-degree: 0%
 - 自動保存機能を使用すると、「閉じる」ボタンの動作が一貫しません。 （10996）
 - 新しい要素を挿入したり、数式を変更したりすると、MathML要素で検証の問題が発生します。 （10624）
 - 変更の追跡機能は、韓国語の文字で始まるテキストには使用できません。 （14538）
-
-
+- トピックからのリンク画像が、バージョン作成後にベースラインに表示されません。 （16931）
 
 ## 公開
 
