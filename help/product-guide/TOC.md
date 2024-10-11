@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: 23470fdb176fa487139f8a8822be7f95dd205a3e
+source-git-commit: f6e34c0bc57603b4251abd4859b43c95042e8819
 workflow-type: tm+mt
-source-wordcount: '1896'
+source-wordcount: '1964'
 ht-degree: 7%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 7%
       - Cloud Services {#cloud-release-notes}
          - [デプロイメントの手順](./release-info/deploy-xml-on-aemaacs.md)
          - 2024 年リリース {#2024-releases}
+            - 2024.10.0 リリース {#2406-release}
+               - [新機能](./release-info/whats-new-2024-10-0.md)
+               - [修正された問題](./release-info/fixed-issues-2024-10-0.md)
+               - [アップグレード手順](./release-info/upgrade-instructions-2024-10-0.md)
             - 2024.6.0 リリース {#2406-release}
                - [新機能](./release-info/whats-new-2024-06-0.md)
                - [修正された問題](./release-info/fixed-issues-2024-06-0.md)
@@ -135,7 +139,8 @@ ht-degree: 7%
                - [Web エディタービュー](./user-guide/web-editor-views.md)
                - [Schematron ファイルのサポート](./user-guide/support-schematron-file.md)
                - [コンテンツを作成するための AI を活用したスマートな提案](./user-guide/authoring-ai-based-smart-suggestions.md)
-
+               - [コンテンツを検索するための AI を活用したスマートヘルプ](./user-guide/ai-based-smart-help.md)
+               - [AI アシスタントで効率よくドキュメントを作成](./user-guide/AI-assistant-right-panel.md)
                - [Web エディターからの Markdown ドキュメントの作成](./user-guide/web-editor-markdown-topic.md)
                - [コンテンツへの引用文献の追加](./user-guide/web-editor-apply-citations.md)
                - [データソースからのデータの使用](./user-guide/web-editor-content-snippet.md)
@@ -189,7 +194,10 @@ ht-degree: 7%
       - [出力生成の基本](./user-guide/generate-output.md)
       - [出力プリセットの概要](./user-guide/generate-output-understand-presets.md)
       - AEM Guides {#output-presets-aemg} の出力プリセット
-         - [AEM サイト](./user-guide/generate-output-aem-site.md)
+
+         - [AEM Sites](./user-guide/generate-output-aem-site.md)
+         - [マップダッシュボードのAEM Sites プリセット](./user-guide/generate-output-aem-site-map-dashboard.md)
+         - [Web エディターでのAEM Sites プリセット](./user-guide/generate-output-aem-site-web-editor.md)
          - [PDF](./user-guide/generate-output-pdf.md)
          - [ナレッジベース](./user-guide/generate-output-knowledge-base.md)
          - [HTML5](./user-guide/generate-output-html5.md)
@@ -302,6 +310,8 @@ ht-degree: 7%
          - [デスクトップベースの XML エディターの統合](./install-guide/integrate-desktop-editors.md)
       - 出力生成設定の操作 {#output-gen-config}
          - [出力生成設定の指定](./install-guide/conf-output-generation.md)
+         - [aem sites テンプレートのダウンロードとインストール](./install-guide/download-install-aem-sites-templates.md)
+         - [AEM Sites出力でのHTMLタグのオーバーレイ](./install-guide/overlay-html-tags-aem-sites.md)
          - ネイティブPDF公開 {#config-native-pdf-publish}
             - [PDFテンプレート](./native-pdf/pdf-template.md)
             - [PDFテンプレートのコンポーネント](./native-pdf/components-pdf-template.md)
@@ -359,6 +369,8 @@ ht-degree: 7%
          - [Web エディターのカスタマイズ](./cs-install-guide/conf-web-editor.md)
          - [ツールバーのカスタマイズ](./cs-install-guide/conf-web-editor-customize-toolbar.md)
          - [オーサリング用に AI を活用してスマートな候補を設定](./cs-install-guide/conf-smart-suggestions.md)
+
+         - [AI を活用したスマートヘルプを設定してコンテンツを検索](./cs-install-guide/conf-smart-help.md)
          - [タグビューのデフォルト値の設定](./cs-install-guide/configure-default-value-tags-view.md)
          - [UUID ベースのリンクの表示を設定](./cs-install-guide/conf-uuid-based-links.md)
          - [DITA トピックまたはマップファイルを同じタブで開く](./cs-install-guide/open-dita-files-same-tab.md)
@@ -383,8 +395,10 @@ ht-degree: 7%
       - のバージョン {#version-mgt-cs} 設定
          - [バージョン管理](./cs-install-guide/version-management.md)
       - デスクトップベースの XML エディターの操作 {#desktop-xml-editor}
-         - 出力生成設定の操作 {#output-gen-config-cs}
+         - [デスクトップベースの XML エディターの統合](./cs-install-guide/integrate-desktop-editors-cs.md)
+      - 出力生成設定の操作 {#output-gen-config-cs}
          - [出力生成設定の指定](./cs-install-guide/conf-output-generation.md)
+         - [aem sites テンプレートのダウンロードとインストール](./cs-install-guide/download-install-aem-sites-templates-cs.md)
          - [ネイティブPDF公開](./cs-install-guide/native-pdf-publishing.md)
          - [ネイティブPDF公開用のノードプロセスの設定](./native-pdf/configure-node-options.md)
          - [トピックとコンテンツフラグメント間のマッピングの作成](./cs-install-guide/conf-content-fragment-mapping-cs.md)

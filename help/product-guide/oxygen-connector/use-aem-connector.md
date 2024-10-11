@@ -6,9 +6,9 @@ hidefromtoc: true
 exl-id: 9a140564-27eb-404e-93a5-f5c81364e7f7
 feature: Oxygen Plugin, Authoring, Web Editor
 role: User, Admin
-source-git-commit: 6c89275df6bdcd031c45956aeb06b6c3e5753208
+source-git-commit: b2b26a85236245f989866ab8ee801a930ed8a8c4
 workflow-type: tm+mt
-source-wordcount: '6293'
+source-wordcount: '6347'
 ht-degree: 0%
 
 ---
@@ -346,7 +346,7 @@ AEM リポジトリに接続したら、ファイルを開いて Oxygen XML オ�
 
 1. AEM Guidesパネルで、編集用に開くファイルを右クリックします。
 
-1. コンテキストメニューから **開く** を選択します。
+1. コンテキストメニューから **開く** を選択します。 または、ファイルをダブルクリックして開くこともできます。
 
    ファイルが Oxygen XML オーサーのエディターで開かれます。
 
@@ -354,12 +354,14 @@ AEM リポジトリに接続したら、ファイルを開いて Oxygen XML オ�
 
    ファイルのタブの上にマウスポインターを置くと、UUID と共にサーバーパスが表示されます。 上のスクリーンショットでは、ドキュメントの UUID がハイライト表示されています。
 
+>[!NOTE]
+>
+>Oxygen XML 作成者のエディターで、トピック内の画像やビデオにカーソルを合わせると、選択した項目の UUID のみが表示されます。 リポジトリ内で画像を見つけるには、表示された画像またはオブジェクトタグ（ビデオ、オーディオ、その他のメディアファイルの場合のみ）を右クリックし、**リポジトリに表示** を選択します。
+
+
 
 **Auto-Checkout File when Opened**」オプション\（環境設定ダイアログ\）を選択した場合、ファイルを開くと、ファイルは自動的にチェックアウトされ、編集できるようになります。 ファイルを開くには、ファイル名をダブルクリックするか、ファイル名を右クリックしてコンテキスト メニューから **開く** を選択します。 このオプションを選択しない場合、ファイルは読み取り専用モードで開かれます。
 
->[!NOTE]
->
->ファイルをダブルクリックして開くこともできます。
 
 ### AEM Guides エディターでファイルを開く {#id195GH0V30KX}
 
@@ -751,7 +753,7 @@ AEM Guidesでは、関連する DITA 属性を使用して、条件属性を簡�
 1. ファイルを閉じます。 これにより、次のパスで利用できる oXygen ログが有効になります：`${user.home}/Desktop/oxygenLog/oxygen.log`
 1. `oxygenAuthor.bat` ファイルをテキストエディターで開きます。
 1. パラメーターを追加して、JxBrowser 関連のログを設定します
-   `-Denable.aem.jx.log=true`といったアドバイスを耳にしたことがある方もいるでしょう。これにより、次のパスで表示できる JxBrowser 関連のログが有効になります。`${user.home}\AppData\Local\Temp\Oxygen_Plugin_Javax_Log.log`
+   `-Denable.aem.jx.log=true` に移行することで使用を置き換えることができます。これにより、次のパスで表示できる JxBrowser 関連のログが有効になります。`${user.home}\AppData\Local\Temp\Oxygen_Plugin_Javax_Log.log`
 
 
 

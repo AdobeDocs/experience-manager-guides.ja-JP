@@ -5,9 +5,9 @@ exl-id: a0eeb43c-06e4-4922-a005-704e8929063f
 feature: Template Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 83971ee35a19cf0146ddd034b1ae7a345f587663
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '489'
 ht-degree: 1%
 
 ---
@@ -54,5 +54,21 @@ AEM Guidesには、DITA マップとブックマップという 2 つの標準�
 >[!TIP]
 >
 > カスタムマップテンプレートの使用に関するベストプラクティスについては、ベストプラクティスガイドの *カスタムテンプレート* の節を参照してください。
+
+
+## DITA マップ内の参照数のカスタマイズ
+
+DITA マップ内の参照数に基づいて、非同期処理のしきい値を設定できます。 デフォルトでは、5 つを超える参照を持つマップは非同期操作を使用して作成され、参照の少ないマップは引き続き同期操作を使用します。
+
+
+[ 設定の上書き ](download-install-additional-config-override.md#) の手順に従って、設定ファイルを作成します。 設定ファイルで、次の（プロパティ）の詳細を指定して、プロセスの同期を維持するために DITA マップテンプレート内の参照数を指定します。
+
+| PID | プロパティキー | プロパティの値 |
+|---|------------|--------------|
+| com.adobe.fmdita.xmleditor.config.XmlEditorConfig | xmleditor.asyncmapcreation | > 0<br> **デフォルト値**:5 |
+
+カスタムテンプレートを使用して大きなトピック参照を含む DITA マップを作成する場合、合計処理時間が 60 秒を超えると、クラウドサーバーでマップの作成が失敗します。
+
+これを防ぐには、タスクを並行して実行でき、大きな DITA マップの処理時間を短縮できる **非同期 DITA マップ作成** を XmlEditorConfig で設定します。
 
 **親トピック：**[ トピックおよびマップ テンプレートを設定 ](conf-template-tags.md)

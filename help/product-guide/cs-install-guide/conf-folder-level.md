@@ -5,9 +5,9 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: 3bdc3c6370bbad67f9c31f538a49bee105fec0f9
+source-git-commit: c94eb03af60ef9df60f77c21bfce1c45708df2f8
 workflow-type: tm+mt
-source-wordcount: '4285'
+source-wordcount: '4521'
 ht-degree: 0%
 
 ---
@@ -407,11 +407,11 @@ AEM Guidesでは、管理者は、特定の設定を使用して出力プリセ�
 
 
 
-## Web エディターでの AI を利用したスマート提案の設定 {#conf-ai-smart-suggestions}
+## Web エディターで AI を活用してスマートな提案を設定 {#conf-ai-smart-suggestions}
 
 ![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guidesのas a Cloud Serviceの場合。
 
-AI を活用してスマートな提案を設定し、作成者が既存のコンテンツを再利用して、正しい一貫性のあるコンテンツ参照を簡単に作成できるようにします。 「**AI 設定**」タブを使用すると、web エディターのスマート候補パネルの設定を制御できます。
+AI を活用してスマートな提案を設定し、作成者が既存のコンテンツを再利用して、正しい一貫性のあるコンテンツ参照を簡単に作成できるようにします。 「**AI 設定**」タブを使用すると、web エディターの AI アシスタントパネルから **再利用可能なコンテンツを提案** の設定を制御できます。
 
 グローバルレベルまたはフォルダーレベルのプロファイルで標準 AI 設定を設定するには、次の手順を実行します。
 1. フォルダーレベルのプロファイルの管理者または管理者権限を持つユーザーとしてAdobe Experience Managerにログインします。
@@ -421,7 +421,7 @@ AI を活用してスマートな提案を設定し、作成者が既存のコ�
 
    >[!NOTE]
    >
-   >AI ベースのスマート候補をグローバルプロファイルまたはフォルダーレベルのプロファイルに設定できます。
+   >グローバルプロファイルまたはフォルダーレベルのプロファイルに対して、AI ベースのスマートな提案を設定できます。
 
 1. プロファイルページで、「**AI 設定**」タブを選択します。
    ![ グローバルプロファイルの「AI 設定」タブ ](assets/global-profile-AI-configuration-cs.png) {width="800" align="left"}
@@ -441,57 +441,57 @@ AI を活用してスマートな提案を設定し、作成者が既存のコ�
    >
    > ファイルを保存すると、最後にインデックス付けされたステータスの詳細が上部に表示されます。
 
-Web エディターでのオーサリング中にコンテンツ参照を追加する [AI ベースのスマート提案 ](../user-guide/authoring-ai-based-smart-suggestions.md) を表示および追加する方法について説明します。
+Web エディターでのオーサリング中にコンテンツ参照を追加する [AI ベースのスマート候補 ](../user-guide/authoring-ai-based-smart-suggestions.md) を表示および追加する方法について説明します。
 
 
 
 
-<!--## Configure AI-powered Guides Assistant in the Web Editor {#conf-ai-guides-assistant}
+## Web エディターでの AI を利用したスマートヘルプの設定 {#conf-ai-guides-assistant}
 
-For ![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service.
+![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guidesの場合はas a Cloud Serviceです。
 
-You can configure the AI-powered **Guides Assistant** to help the authors ask questions and easily find the required content from the [ Experience Manager Guides Documentation](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
+AI を活用した **スマートヘルプ** を設定すると、作成者が質問したり、[Experience Manager Guides ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview) から必要なコンテンツを簡単に見つけたりするのに役立ちます。
 
-The **XML Editor Configuration** tab allows you to configure the default questions of the **Guides Assistant panel** in the Web Editor.
+「**XML エディター設定**」タブでは、Web エディターで **スマートヘルプパネル** のデフォルトの質問を設定できます。
 
 >[!NOTE]
 >
->You can configure up to 10 default questions. 
+>デフォルトの質問は最大 10 個まで設定できます。
 
-Perform the following steps to configure the default questions:
+デフォルトの質問を設定するには、次の手順を実行します。
 
-1. Log into Adobe Experience Manager as an administrator or user with administrative rights on a folder-level profile.
-1. Select the **Adobe Experience Manager** link at the top and choose **Tools**.
-1. Select **Guides** from the list of tools and select the **Folder Profiles** tile.
-1. Select the profile tile that you want to configure.
+1. フォルダーレベルのプロファイルの管理者または管理者権限を持つユーザーとしてAdobe Experience Managerにログインします。
+1. 上部の **Adobe Experience Manager** リンクを選択し、「**ツール**」を選択します。
+1. ツールのリストから **ガイド** を選択し、**フォルダープロファイル** タイルを選択します。
+1. 設定するプロファイルタイルを選択します。
 
-    >[!NOTE]
-    >
-    >You can configure default questions for the **Guides assistant panel** to the global or a folder-level profile.
+   >[!NOTE]
+   >
+   >**スマートヘルプパネル** のデフォルトの質問を、グローバルプロファイルまたはフォルダーレベルのプロファイルに設定できます。
 
-1.  Select the **XML Editor Configuration** tab. 
+1. 「**XML エディター設定**」タブを選択します。
 
-1. Click the **Edit** icon on the top.
-1.  In the **XML Editor UI configuration** section, select the **Download** icon to download the `ui_config.json` file on your local system.
-1.  In the `ui_config.json` file, add the sample questions.
+1. 上部の **編集** アイコンをクリックします。
+1. 「**XML エディターの UI 設定**」セクションで「**ダウンロード**」アイコンを選択して、`ui_config.json` ファイルをローカルシステムにダウンロードします。
+1. `ui_config.json` ファイルに、サンプルの質問を追加します。
 
-    **Example of sample questions**:
+   **サンプル質問の例**:
 
-    ```json
-    "assistantSampleQuestions": [
-    "How to create a new topic",
-    "How to create a new map",
-    "What is a baseline" ]
-    ```
+   ```json
+   "assistantSampleQuestions": [
+   "How to create a new topic",
+   "How to create a new map",
+   "What is a baseline" ]
+   ```
 
-1. Save the file and upload it.
+1. ファイルを保存してアップロードします。
 
-    >[!NOTE]
-    >
-    > The default questions appear in the **Guides assistant** panel after you save the file. 
+   >[!NOTE]
+   >
+   > ファイルを保存すると、デフォルトの質問が **スマートヘルプ** パネルに表示されます。
 
 
-Learn more about using the [AI-powered Guides assistant](../user-guide/ai-based-guides-assistant.md) to find the required content from the Experience Manager Guides documentation. -->
+[AI を利用したスマートヘルプ ](../user-guide/ai-based-smart-help.md) を使用して、必要なコンテンツを見つける方法について詳しくは、Experience Manager Guides ドキュメントを参照してください。
 
 
 ## XML Web エディターの設定とカスタマイズ {#id2065G300O5Z}

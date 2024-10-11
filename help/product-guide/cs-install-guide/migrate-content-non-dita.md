@@ -5,9 +5,9 @@ exl-id: cf437fb8-ed33-47af-aa7e-ffd8acd232da
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: cddbd7a19d4dfaa3f6549ed1bd511eeeb02acbb2
 workflow-type: tm+mt
-source-wordcount: '2889'
+source-wordcount: '2940'
 ht-degree: 0%
 
 ---
@@ -137,12 +137,29 @@ AEM Guidesでは、InDesignドキュメントを変換できます。 FrameMaker
 1. 次の場所にあるデフォルトの設定ファイルに移動します。
 
    `/libs/fmdita/config/idml2dita_io.xml`
+1. 必要に応じてカスタム設定を作成するには、`config` フォルダーのオーバーレイノードを `apps` ノード内に作成します。
 
-1. `apps` ノード内に `config` フォルダーのオーバーレイノードを作成します。
+1. 以下のファイルまたはフォルダーを `libs` フォルダーから apps フォルダーにコピーします。
+
+   - `/fmdita/config/idml2dita_io.xml`
+   - `/fmdita/idml2dita/config`
+   - `/fmdita/idml2dita/xsl`
 
 1. `apps` ノードで使用可能な設定ファイルに移動します。
 
    `/apps/fmdita/config/idml2dita_io.xml`
+
+1. `idml2dita_io.xml` ファイル内の `idml12dita` フォルダーにある設定のマッピングを追加します。
+1. ファイルに次のプロパティ `idml2dita_io.xml` 追加します。
+
+   ```
+   <entry          key="idml2DitaConfig">/apps/fmdita/idml2dita/config</entry>
+   
+   <entry key="idml2DitaXsl">/apps/fmdita/idml2dita/xsl</entry>
+   ```
+
+1. `apps` ノード内に `config` フォルダーのオーバーレイノードを作成します。
+
 
    `idml2dita_io.xml` ファイルで次のパラメーターを設定します。
 
