@@ -1,13 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 18 18" width="18">
-  <defs>
-    <style>
-      .fill {
-        fill: #464646;
-      }
-    </style>
-  </defs>
-  <title>S Send 18 N</title>
-  <rect id="Canvas" fill="#ff13dc" opacity="0" width="18" height="18" /><path class="fill" d="M16.5955,2.5565.9,7.239a.25.25,0,0,0-.0405.4635L4.82,9.679Z" />
-  <path class="fill" d="M6.5445,10.516l5.9685,3a.5.5,0,0,0,.67121-.22243l.00029-.00057L17.818,3.182Z" />
-  <path class="fill" d="M5.04,11.625v3.8195a.3565.3565,0,0,0,.587.272l2.68-2.258Z" />
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="spectrum-Icon spectrum-Icon--sizeS" icon="deleteChat" aria-hidden="true" data-name="deleteChat" focusable="false" role="img"><defs></defs><g clip-path="url(#deleteChat)"><path d="M8.619 8.619a4.814 4.814 0 0 1 3.425-1.42c1.138 0 2.202.41 3.067 1.125V2.666c0-.981-.796-1.777-1.778-1.777H2.667c-.982 0-1.778.796-1.778 1.777V8.89c0 .981.796 1.777 1.778 1.777h.889v3.908c0 .198.239.297.379.158l3.328-3.328a4.796 4.796 0 0 1 1.356-2.785Z"></path><path d="M14.841 9.247a3.956 3.956 0 1 0-5.594 5.594 3.956 3.956 0 0 0 5.595-5.594Zm-1.728 4.809-1.069-1.069-1.068 1.069a.222.222 0 0 1-.314 0l-.629-.629a.222.222 0 0 1 0-.314l1.069-1.069-1.069-1.068a.222.222 0 0 1 0-.314l.629-.629a.222.222 0 0 1 .314 0l1.068 1.069 1.069-1.069a.222.222 0 0 1 .314 0l.629.629a.222.222 0 0 1 0 .314l-1.069 1.068 1.069 1.069a.222.222 0 0 1 0 .314l-.629.629a.222.222 0 0 1-.314 0Z"></path></g><defs><clipPath id="deleteChat"><path fill="#fff" d="M0 0h16v16H0z"></path></clipPath></defs></svg>
