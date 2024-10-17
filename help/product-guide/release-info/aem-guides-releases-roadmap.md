@@ -3,10 +3,10 @@ title: Adobe Experience Manager Guides リリースロードマップ 2024
 description: Adobe Experience Manager Guides オンプレミスおよびAdobe Experience Manager Guidesas a Cloud Serviceのライブリリースおよび今後のリリースについて説明します
 role: Admin, Leader, Developer, User
 exl-id: cb6709ce-2732-45d0-adfd-5aeca520240e
-source-git-commit: 874671a6d6007ac126d15c659b49ecd819f0477c
+source-git-commit: aaf1c31e0c5f5ac863370eb22c8f9cf3df7d25ef
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 28%
+source-wordcount: '284'
+ht-degree: 30%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 28%
 >
 >以下の日付とこの記事で入手可能なロードマップ更新は情報提供のみを目的としており、いつでも変更される可能性があります。
 
-## [!DNL Experience Manager Guides] as a [!DNL Cloud Service] （2024 年カレンダー） {#aem-guides-roadmap-cs}
+## [!DNL Experience Manager Guides] as a [!DNL Cloud Service] {#aem-guides-roadmap-cs}
 
 Experience Manager Guidesas a Cloud Serviceのリリースは次のように予定されています。
 
@@ -27,11 +27,13 @@ Experience Manager Guidesas a Cloud Serviceのリリースは次のように予�
 | Adobe Experience Manager Guides 2024.2.0 | 自動更新 | 2024年3月6日（PT） | [ こちら ](whats-new-2024-2-0.md) | [ こちら ](upgrade-instructions-2024-2-0.md) | [ こちら ](fixed-issues-2024-2-0.md) | 更新済み |
 | Adobe Experience Manager Guides 2024.4.0 | 自動更新 | 2024年4月26日（PT） | [ こちら ](whats-new-2024-04-0.md) | [ こちら ](upgrade-instructions-2024-04-0.md) | [ こちら ](fixed-issues-2024-04-0.md) | 更新済み |
 | Adobe Experience Manager Guides 2024.6.0 | 自動更新 | 2024年6月10～12日（PT） | [ こちら ](whats-new-2024-06-0.md) | [ こちら ](upgrade-instructions-2024-06-0.md) | [ こちら ](fixed-issues-2024-06-0.md) | 更新済み |
-| Adobe Experience Manager Guides 2024.10.0 | 自動更新 | 2024 年 10 月 14～16 日 |  |  |  | ターゲット |
+| Adobe Experience Manager Guides 2024.10.0 | 自動更新 | 2024年10月14～16日（PT） | [ こちら ](whats-new-2024-10-0.md) | [ こちら ](upgrade-instructions-2024-10-0.md) | [ こちら ](fixed-issues-2024-10-0.md) | 更新済み |
+| Adobe Experience Manager Guides 2025.02.0 | 自動更新 | ～ 2025 年 2 月 |  |  |  | ターゲット |
+| Adobe Experience Manager Guides 2025.04.0 | 自動更新 | ～ 2025 年 4 月 |  |  |  | ターゲット |
 
 {style="table-layout:auto"}
 
-## [!DNL Experience Manager Guides] オンプレミスおよびManaged Services（2024 年カレンダー） {#aem-guides-roadmap-on-prem}
+## [!DNL Experience Manager Guides] オンプレミスおよび Managed Services {#aem-guides-roadmap-on-prem}
 
 サポートされているAdobe Experience Manager Guides オンプレミスおよびManaged Services リリーススケジュールの新機能、機能強化およびバグ修正に関する製品アップデートは次のとおりです。
 
@@ -39,3 +41,6 @@ Experience Manager Guidesas a Cloud Serviceのリリースは次のように予�
 |---|---|---|---|---|---|
 | Adobe Experience Manager Guides 4.4.0 | リリース | 2024年1月29日（PT） | [ こちら ](whats-new-4-4.md) | [ こちら ](upgrade-instructions-4-4.md) | リリース日 |
 | Adobe Experience Manager Guides 4.6.0 | リリース | 2024年9月12日（PT） | [ こちら ](whats-new-4-6.md) | [ こちら ](upgrade-instructions-4-6-0.md) | リリース日 |
+| Adobe Experience Manager Guides 4.6.1 | サービスパック 1 | 2024 年 10 月末 |  |  | ターゲット |
+| Adobe Experience Manager Guides 5.0.0 | リリース | ～ 2025 年 2 月 |  |  | ターゲット |
+| Adobe Experience Manager Guides 5.1.0 | リリース | ～ 2025 年 8 月 |  |  | ターゲット |
