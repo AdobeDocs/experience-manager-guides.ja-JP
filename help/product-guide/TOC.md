@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: 6543bc66e1c950a6bf6b923652d61ee87ef966c8
+source-git-commit: fb586c7e857db5c4aa68645cb1be2a48fdbe165c
 workflow-type: tm+mt
-source-wordcount: '1964'
+source-wordcount: '1972'
 ht-degree: 7%
 
 ---
@@ -496,6 +496,7 @@ ht-degree: 7%
       - 公開 {#publishing}
          - DITA-OT {#dita-ot}
             - [プラグインでのAEM メタデータの使用](./knowledge-base/kb-articles/publishing/dita-ot/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)
+         - [DITA Native PDFへのカスタムフォントの追加](./knowledge-base/kb-articles/publishing/add-custom-font-native-pdf.md)
          - [ネイティブPDF公開用のAEM環境の設定](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
          - [PDFの最初のページにエンタープライズブランディングを追加](./knowledge-base/kb-articles/publishing/add-branding-to-bookmap-content-header.md)
          - [ネイティブPDFパブリッシングでのブックマップの TOC の生成](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
