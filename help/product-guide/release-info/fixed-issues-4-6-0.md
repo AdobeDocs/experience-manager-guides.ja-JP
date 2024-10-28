@@ -2,9 +2,9 @@
 title: リリースノート | Adobe Experience Manager Guides 4.6.0 リリースの問題を修正しました
 description: Adobe Experience Manager Guides 4.6.0 リリースのバグ修正について説明します
 role: Leader
-source-git-commit: 6bff0a9c8770418c4486b65feb1c11792b893ca8
+source-git-commit: 9ffe068bbcdc0fe32e3dbf56a48171d241825e5a
 workflow-type: tm+mt
-source-wordcount: '1985'
+source-wordcount: '1996'
 ht-degree: 0%
 
 ---
@@ -107,6 +107,7 @@ ht-degree: 0%
 - OOTB トピック再生成または増分公開 API の失敗により、トピックの再生成に失敗しました。 （18452）
 - Experience Manager Guidesをアップグレードした後、条件プリセットが更新された属性を取得しない。 （18174）
 - キー定義を含むファイルが DITA マップと同じフォルダにない場合、ネイティブPDF出力のコンテンツ参照が正しく解決されません。 （15062）
+- ローカライズされたマップでは、公開済みコンテンツの一括アクティベーションが機能しません。 （17638）
 
 
 ## 管理
