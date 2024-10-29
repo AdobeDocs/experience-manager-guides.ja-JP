@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: 9db546b3a9e0ece66024e1c06c6cec52b786ff76
+source-git-commit: f74362c78532ddd7721faf66789281a8c0704194
 workflow-type: tm+mt
-source-wordcount: '1974'
+source-wordcount: '1988'
 ht-degree: 7%
 
 ---
@@ -20,10 +20,13 @@ ht-degree: 7%
       - Cloud Services {#cloud-release-notes}
          - [デプロイメントの手順](./release-info/deploy-xml-on-aemaacs.md)
          - 2024 年リリース {#2024-releases}
-            - 2024.10.0 リリース {#2410-release}
-               - [新機能](./release-info/whats-new-2024-10-0.md)
-               - [修正された問題](./release-info/fixed-issues-2024-10-0.md)
-               - [アップグレード手順](./release-info/upgrade-instructions-2024-10-0.md)
+            - 2024.10.x リリース {#2410-release}
+               - 2024.10.1 リリース {#2410-1-release}
+                  - [修正された問題](./release-info/fixed-issues-2024-10-1.md)
+               - 2024.10.0 リリース {#2410-0-release}
+                  - [新機能](./release-info/whats-new-2024-10-0.md)
+                  - [修正された問題](./release-info/fixed-issues-2024-10-0.md)
+                  - [アップグレード手順](./release-info/upgrade-instructions-2024-10-0.md)
             - 2024.6.0 リリース {#2406-release}
                - [新機能](./release-info/whats-new-2024-06-0.md)
                - [修正された問題](./release-info/fixed-issues-2024-06-0.md)
@@ -76,11 +79,13 @@ ht-degree: 7%
             - [1 月リリースノート](./release-info/release-notes-2022-1-0.md)
       - オンプレミス/Managed Services {#on-prem-release-notes}
          - [[!DNL AEM Guides] リリース](./release-info/latest-release-info.md)
+         - 4.6.1 リリース {#461-release}
+            - [ 修正された問題 ](./release-info/fixed-issues-4-6-1.md)
+            - [ アップグレード手順 ](./release-info/upgrade-instructions-4-6-1.md)
          - 4.6.0 リリース {#460-release}
             - [新機能](./release-info/whats-new-4-6.md)
             - [ 修正された問題 ](./release-info/fixed-issues-4-6-0.md)
             - [アップグレード手順](./release-info/upgrade-instructions-4-6-0.md)
-
          - 4.4.0 リリース {#440-release}
             - [新機能](./release-info/whats-new-4-4.md)
             - [修正された問題](./release-info/fixed-issues-4-4.md)
@@ -106,7 +111,6 @@ ht-degree: 7%
          - [4.0.x リリースノート ](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
          - [3.8.x リリースノート ](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - ユーザーガイド {#user-guide}
-
    - 概要 {#about-aem-guide}
       - [概要  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides] の作業と主な機能 {#aemg-works-features}
@@ -118,18 +122,14 @@ ht-degree: 7%
       - [ファイルとフォルダーの管理](./user-guide/authoring-file-management.md)
       - [ファイルをダウンロード](./user-guide/authoring-download-assets.md)
    - Author Content {#author-content}
-
       - [オーサリングの概要](./user-guide/authoring-content.md)
       - トピックの作成とプレビュー {#create-preview-topics}
-
          - [トピックの作成とプレビュー](./user-guide/create-preview-topics.md)
          - [トピックの作成](./user-guide/web-editor-create-topics.md)
          - [トピックのプレビュー](./user-guide/web-editor-preview-topics.md)
          - Author content {#author-content-aem-guides}
-
             - [AEM Guidesを使用したコンテンツのオーサリング方法](./user-guide/authoring-content-xml-doc.md)
             - Web エディター {#work-with-web-editor}
-
                - [Web エディターの操作](./user-guide/web-editor.md)
                - [Web エディターの起動](./user-guide/web-editor-launch-editor.md)
                - [Web エディターでのトピックの編集](./user-guide/web-editor-edit-topics.md)
@@ -154,7 +154,6 @@ ht-degree: 7%
                - [Web エディターからのベースラインの作成と管理](./user-guide/web-editor-baseline.md)
                - [ドキュメントの状態](./user-guide/web-editor-document-states.md)
                - [ラベルを使用](./user-guide/web-editor-use-label.md)
-
             - マップ エディタ {#work-with-map-editor}
                - [マップ エディタを使用する](./user-guide/map-editor.md)
                - [マップの作成](./user-guide/map-editor-create-map.md)
@@ -164,12 +163,10 @@ ht-degree: 7%
                - [マップ エディタのその他の機能](./user-guide/map-editor-other-features.md)
             - DITAVAL エディタ {#ditaval-editor}
                - [DITAVAL エディタの操作](./user-guide/ditaval-editor.md)
-
          - コンテンツ {#author-using-desktop-tools} ータをオーサリングするためのデスクトップツール
             - [デスクトップツールを使用したコンテンツの作成](./user-guide/author-desktop-tools.md)
             - [FrameMakerの操作](./user-guide/author-desktop-framemaker.md)
             - [酸素の操作](./user-guide/author-desktop-oxygen.md)
-
    - Review content {#review-topic-maps}
       - [トピックまたはマップのレビュー](./user-guide/review.md)
       - [DITA プロジェクトの作成](./user-guide/authoring-create-dita-project.md)
@@ -194,7 +191,6 @@ ht-degree: 7%
       - [出力生成の基本](./user-guide/generate-output.md)
       - [出力プリセットの概要](./user-guide/generate-output-understand-presets.md)
       - AEM Guides {#output-presets-aemg} の出力プリセット
-
          - [AEM Sites](./user-guide/generate-output-aem-site.md)
          - [マップダッシュボードのAEM Sites プリセット](./user-guide/generate-output-aem-site-map-dashboard.md)
          - [Web エディターでのAEM Sites プリセット](./user-guide/generate-output-aem-site-web-editor.md)
@@ -242,7 +238,6 @@ ht-degree: 7%
       - [コンテンツ再利用レポート](./user-guide/reports-content-reuse.md)
       - [コンバージョンステータスレポート](./user-guide/reports-convertion-status.md)
       - [元に戻したファイルのバージョン履歴レポート](./user-guide/reports-reverted-file-version-history.md)
-
 - インストールと設定 {#install-guide}
    - オンプレミス {#on-prem-ig}
       - [オンプレミスの基本](./install-guide/introduction.md)
@@ -368,8 +363,7 @@ ht-degree: 7%
       - Web エディター設定の操作 {#web-editor-configs-cs}
          - [Web エディターのカスタマイズ](./cs-install-guide/conf-web-editor.md)
          - [ツールバーのカスタマイズ](./cs-install-guide/conf-web-editor-customize-toolbar.md)
-         - [オーサリング用に AI を活用してスマートな候補を設定](./cs-install-guide/conf-smart-suggestions.md)
-
+         - [ オーサリング用に AI を活用してスマートな提案を設定 ](./cs-install-guide/conf-smart-suggestions.md)
          - [AI を活用したスマートヘルプを設定してコンテンツを検索](./cs-install-guide/conf-smart-help.md)
          - [タグビューのデフォルト値の設定](./cs-install-guide/configure-default-value-tags-view.md)
          - [UUID ベースのリンクの表示を設定](./cs-install-guide/conf-uuid-based-links.md)
@@ -428,7 +422,6 @@ ht-degree: 7%
    - [一括有効化の完了イベントハンドラー](./api-reference/bulk-activation-complete-event.md)
    - [変換処理イベントハンドラー](./api-reference/conversion-complete-event.md)
 - ナレッジベース {#knowledge-base}
-
    - エキスパートセッション {#expert-session}
       - [エキスパートセッションの概要](./knowledge-base/expert-sessions/expert-session.md)
       - [コンテンツの翻訳](./knowledge-base/expert-sessions/translating-content-using-aem-guides-oct22.md)
@@ -447,7 +440,6 @@ ht-degree: 7%
       - [デプロイメントオプションとクラウドへの移行](./knowledge-base/expert-sessions/migration-uuid-onprem-to-cloud.md)
       - [コンテンツを非 uuid から UUID に移行します](./knowledge-base/expert-sessions/migration-non-uuid-to-uuid.md)
    - 第 {#kb-articles} 条
-
       - オーサリング {#authoring}
          - Web エディター {#webeditor}
             - [AEM Guidesでのコンテンツの再利用](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
@@ -491,10 +483,8 @@ ht-degree: 7%
                - [カスタムダイアログ](./guides-ui-extensions/customisations/ReviewApp/custom-dialog.md)
       - 外部データソース {#external-data-source}
          - [データソースの統合](../product-guide/knowledge-base/kb-articles/data-source/integrate-data-sources.md)
-         - [データソースコネクタの設定](../product-guide/knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)
-
+         - [ データソースコネクタの設定 ](../product-guide/knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)
       - 公開 {#publishing}
-
          - ネイティブPDF{#native-pdf}
             - [DITA Native PDFへのカスタムフォントの追加](./knowledge-base/kb-articles/publishing/add-custom-font-native-pdf.md)
             - [ネイティブPDF公開用のAEM環境の設定](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
@@ -503,14 +493,11 @@ ht-degree: 7%
          - DITA-OT {#dita-ot}
             - [プラグインでのAEM メタデータの使用](./knowledge-base/kb-articles/publishing/dita-ot/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)
             - [カスタム DITA-OT の設定](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
-         - [FMPS とガイド](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
-
+         - [FMPS とガイド ](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          - [マイクロサービスのアーキテクチャとパフォーマンス](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          - [JWT 認証を使用したマイクロサービスベースの公開の設定](./knowledge-base/publishing/configure-microservices.md)
          - [OAuth 認証を使用したマイクロサービスベースの公開の設定](./knowledge-base/publishing/configure-microservices-imt-config.md)
-         - [AEM Cloud でのベンチマークの公開](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
-
-
+         - [AEM Cloud でのベンチマークの公開 ](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
       - ワークフロー {#workflows}
          - [生成後のワークフロー](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
       - 翻訳 {#translation}
@@ -519,5 +506,4 @@ ht-degree: 7%
       - ユースケース {#use-cases}
          - [条件付きコンテンツの操作](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
          - [キーの操作](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
-
    - [酸素コネクタを使用](./oxygen-connector/use-aem-connector.md)
