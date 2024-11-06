@@ -5,10 +5,10 @@ exl-id: 0d3a909c-3499-4ef4-b033-02e412dae959
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: bc2348ae3342addf9ab05a3e3898fa485dba9bcf
+source-git-commit: f7ce1dc72edfcec939e5bd25bbf82c2e3907a326
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 11%
+source-wordcount: '836'
+ht-degree: 9%
 
 ---
 
@@ -92,6 +92,40 @@ AEMとの統合のためのコネクタが翻訳サービスプロバイダー�
 
 1. 「**保存**」をクリックします。
 
+>[!IMPORTANT]
+>
+> 翻訳設定を行った後、言語フォルダーに適切なクラウド設定をセットアップしたことを確認します。
+
+## 従来の翻訳ワークフローの設定
+
+>[!IMPORTANT]
+> 
+> 最新の翻訳ワークフローを使用することをお勧めします。これにより、パフォーマンスが向上します。 ただし、現在の翻訳プロセスでカスタマイズが有効になっている場合は、従来の翻訳ワークフローの使用を検討します。
+
+デフォルトでは、従来の翻訳ワークフローオプションは無効になっています。 このオプションを設定するには、次の手順を実行します。
+
+1. Adobe Experience Manager Web コンソール設定ページを開きます。
+
+   設定ページにアクセスするためのデフォルトの URL は次のとおりです。
+
+   ```http
+   http://<server name>:<port>/system/console/configMgr
+   ```
+
+1. **com.adobe.fmdita.config.ConfigManager** バンドルを検索してクリックします。
+
+1. 設定に応じて、従来の翻訳ワークフローオプションを設定します。
+
+   - （*デフォルト*）最新の翻訳ワークフローを使用する場合は、「**従来の翻訳ワークフローを実行**」オプションを無効にします。
+   - 従来の翻訳ワークフローを使用する場合は、「**従来の翻訳ワークフローを実行**」オプションを有効にします。
+
+1. 「**保存**」をクリックします。
+
+
+
+
+
+
 <!---
 
 This was added for 2406 CS IG
@@ -125,9 +159,7 @@ Based on the translation workflow used in your setup, provide the following (pro
 
 
 --->
->[!IMPORTANT]
->
-> 翻訳設定を行った後、言語フォルダーに適切なクラウド設定をセットアップしたことを確認します。
+
 
 ## 一時的な言語コピーの後処理の設定
 
@@ -145,10 +177,10 @@ Based on the translation workflow used in your setup, provide the following (pro
 
 1. **com.adobe.fmdita.config.ConfigManager** バンドルを検索してクリックします。
 
-1. 設定に応じて、**Post プロセスの言語コピー** オプションを設定します。
+1. 設定に応じて **後処理言語コピー** オプションを設定します。
 
-   - \（*Default*\）一時ファイルに対して後処理オペレーションを実行しない場合は、「*4}Post-process language copies*」オプションを選択して **無効にします。**
+   - \（*デフォルト*\）一時ファイルに対する後処理操作を実行しない場合は、「*後処理言語コピー&#x200B;**」オプションを* 無効** にします。
 
-   - 一時ファイルに対して後処理の処理を実行する場合は、「**Post プロセスの言語コピー**」オプションを *有効* にします。
+   - 一時ファイルに対して後処理操作を実行する場合は、「*後処理言語コピー&#x200B;**オプションを* 有効** にします。
 
 1. 「**保存**」をクリックします。

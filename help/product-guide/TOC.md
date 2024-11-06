@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: f74362c78532ddd7721faf66789281a8c0704194
+source-git-commit: 9553c05b1ab9657d6138aa0ff026cc4494514bd8
 workflow-type: tm+mt
 source-wordcount: '1988'
 ht-degree: 7%
@@ -20,13 +20,12 @@ ht-degree: 7%
       - Cloud Services {#cloud-release-notes}
          - [デプロイメントの手順](./release-info/deploy-xml-on-aemaacs.md)
          - 2024 年リリース {#2024-releases}
-            - 2024.10.x リリース {#2410-release}
-               - 2024.10.1 リリース {#2410-1-release}
-                  - [修正された問題](./release-info/fixed-issues-2024-10-1.md)
-               - 2024.10.0 リリース {#2410-0-release}
-                  - [新機能](./release-info/whats-new-2024-10-0.md)
-                  - [修正された問題](./release-info/fixed-issues-2024-10-0.md)
-                  - [アップグレード手順](./release-info/upgrade-instructions-2024-10-0.md)
+            - 2024.10.0 SP1 リリース {#2410-0-sp1-release}
+               - [修正された問題](./release-info/fixed-issues-2024-10-0-sp1.md)
+            - 2024.10.0 リリース {#2410-0-release}
+               - [新機能](./release-info/whats-new-2024-10-0.md)
+               - [修正された問題](./release-info/fixed-issues-2024-10-0.md)
+               - [アップグレード手順](./release-info/upgrade-instructions-2024-10-0.md)
             - 2024.6.0 リリース {#2406-release}
                - [新機能](./release-info/whats-new-2024-06-0.md)
                - [修正された問題](./release-info/fixed-issues-2024-06-0.md)
@@ -79,9 +78,9 @@ ht-degree: 7%
             - [1 月リリースノート](./release-info/release-notes-2022-1-0.md)
       - オンプレミス/Managed Services {#on-prem-release-notes}
          - [[!DNL AEM Guides] リリース](./release-info/latest-release-info.md)
-         - 4.6.1 リリース {#461-release}
-            - [ 修正された問題 ](./release-info/fixed-issues-4-6-1.md)
-            - [ アップグレード手順 ](./release-info/upgrade-instructions-4-6-1.md)
+         - 4.6.0 SP1 リリース {#460-sp1-release}
+            - [ 修正された問題 ](./release-info/fixed-issues-4-6-0-sp1.md)
+            - [ アップグレード手順 ](./release-info/upgrade-instructions-4-6-0-sp1.md)
          - 4.6.0 リリース {#460-release}
             - [新機能](./release-info/whats-new-4-6.md)
             - [ 修正された問題 ](./release-info/fixed-issues-4-6-0.md)
