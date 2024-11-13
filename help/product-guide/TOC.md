@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: 9553c05b1ab9657d6138aa0ff026cc4494514bd8
+source-git-commit: 59929235b3d93267b9b82fd2827c8d3ac6607e61
 workflow-type: tm+mt
 source-wordcount: '1988'
 ht-degree: 7%
@@ -139,7 +139,7 @@ ht-degree: 7%
                - [Schematron ファイルのサポート](./user-guide/support-schematron-file.md)
                - [コンテンツを作成するための AI を活用したスマートな提案](./user-guide/authoring-ai-based-smart-suggestions.md)
                - [コンテンツを検索するための AI を活用したスマートヘルプ](./user-guide/ai-based-smart-help.md)
-               - [AI アシスタントで効率よくドキュメントを作成](./user-guide/AI-assistant-right-panel.md)
+               - [AI アシスタントで効率よくドキュメントを作成](./user-guide/ai-assistant-right-panel.md)
                - [Web エディターからの Markdown ドキュメントの作成](./user-guide/web-editor-markdown-topic.md)
                - [コンテンツへの引用文献の追加](./user-guide/web-editor-apply-citations.md)
                - [データソースからのデータの使用](./user-guide/web-editor-content-snippet.md)
