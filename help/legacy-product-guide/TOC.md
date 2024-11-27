@@ -4,9 +4,9 @@ user-guide-description: Adobe Experience Manager Guides の製品ドキュメン
 breadcrumb-title: AEM Guides ドキュメント
 hide: true
 badgeAll: label="レガシーガイド – 詳細情報" type="Informative" url="/help/legacy-product-guide/legacy.md" tooltip="レガシーガイド"
-source-git-commit: 62c69ba7765f89b03381a5526e616a9118426fb9
+source-git-commit: 328f74790de401c0595bcc4009110bc36f5104bf
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '543'
 ht-degree: 6%
 
 ---
@@ -107,6 +107,8 @@ ht-degree: 6%
       - [出力プリセットの概要](./user-guide/generate-output-understand-presets.md)
       - AEM Guides {#output-presets-aemg} の出力プリセット
          - [AEM サイト](./user-guide/generate-output-aem-site.md)
+         - [マップダッシュボードのAEM Sites プリセット](./user-guide/generate-output-aem-site-map-dashboard.md)
+         - [Web エディターでのAEM Sites プリセット](./user-guide/generate-output-aem-site-web-editor.md)
          - [PDF](./user-guide/generate-output-pdf.md)
          - [ナレッジベース](./user-guide/generate-output-knowledge-base.md)
          - [HTML5](./user-guide/generate-output-html5.md)
