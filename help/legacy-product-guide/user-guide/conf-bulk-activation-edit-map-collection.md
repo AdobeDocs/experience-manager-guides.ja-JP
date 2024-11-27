@@ -3,7 +3,7 @@ title: 一括アクティベーションマップコレクションを編集
 description: AEM Guidesの一括公開ダッシュボードを使用します。 マップ ファイルを追加または削除して、一括有効化マップ コレクションを編集する方法を説明します。
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 2%

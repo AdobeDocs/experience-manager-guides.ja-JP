@@ -3,7 +3,7 @@ title: コンテンツの管理
 description: AEM Guidesでコンテンツを管理し、役割と権限を特定します。 コンテンツ管理の主要概念と、グローバルプロファイルまたはフォルダーレベルのプロファイルの操作について説明します。
 feature: Content Management
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 10%
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 実際のコンテンツの作成を開始する前に、AEM Guidesのコンテンツ管理のいくつかの基本概念を理解する必要があります。 次に、様々なユーザーグループの作成とアセットの整理から始めます。
 
-## 主要な概念
+## 主な概念
 
 AEMのコンテンツ管理に関する主要な概念を次に示します。
 

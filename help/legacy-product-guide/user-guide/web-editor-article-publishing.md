@@ -3,7 +3,7 @@ title: Web エディターからの記事ベースの公開
 description: Web エディターから 1 つ以上の記事を公開する方法を説明します。 AEM Guidesの DITA マップ内の 1 つ以上のトピックの出力を生成します。
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 0%

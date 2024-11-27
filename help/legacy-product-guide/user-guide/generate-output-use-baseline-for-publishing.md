@@ -3,7 +3,7 @@ title: ベースラインの操作
 description: AEM Guidesでのベースラインの使用について説明します。 コンテンツの作成、表示、編集、複製、ラベルの削除、追加および翻訳済みベースラインの書き出しを行う方法について説明します。
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1960'
 ht-degree: 0%

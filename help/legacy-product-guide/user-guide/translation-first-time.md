@@ -3,7 +3,7 @@ title: コンテンツ翻訳のベストプラクティス
 description: AEM Guidesのコンテンツ翻訳のベストプラクティスについて説明します。 翻訳サービスの設定方法、新しい翻訳プロジェクトの作成方法、翻訳ジョブの開始方法について説明します。
 feature: Translation
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1295'
 ht-degree: 2%

@@ -3,7 +3,7 @@ title: 出力生成タスクのステータスの表示
 description: FrameMakerドキュメントの出力生成キューを表示します。 出力生成タスクのステータスを表示する方法について説明します。
 feature: Publishing FrameMaker Documents
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%

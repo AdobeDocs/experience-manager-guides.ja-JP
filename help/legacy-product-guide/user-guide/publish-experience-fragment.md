@@ -3,7 +3,7 @@ title: エクスペリエンスフラグメントへのトピックのPublish
 description: AEM Guidesで、トピックまたはトピック内の要素をエクスペリエンスフラグメントにPublishします。  トピックに存在するエクスペリエンスフラグメントを表示し、再公開する方法を説明します。
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 1%
@@ -30,7 +30,7 @@ Experience Manager Guidesを使用すると、トピックまたはその要素�
    * **タイトル**：フォルダーのタイトルを表示または編集します。
 
    * **許可されたテンプレート**:experiencefragment の子ページとして追加できるテンプレートのリストが含まれます。 許可されたテンプレートを追加するには、必要なテンプレートを取得するための正規表現を「**許可されたテンプレート**」フィールドで指定します。
-次に例を示します。
+例：
      `/libs/cq/experience-fragments/components/experiencefragment/template`
 
      フォルダーに許可されたテンプレートを定義しない場合、デフォルトでは、親フォルダーまたは templates フォルダーからテンプレートが選択されます。
@@ -60,7 +60,7 @@ Experience Manager Guidesを使用すると、トピックまたはその要素�
 
 
 
-     管理者は、マッピングを *experienceFragmentMapping.json* ファイルに追加できます。  [ トピックとエクスペリエンスフラグメント間のマッピングを作成する ](/help/product-guide/cs-install-guide/conf-experience-fragment-mapping-cs.md) 方法について詳しくは、インストールおよび設定ガイドを参照してください。
+     管理者は、マッピングを *experienceFragmentMapping.json* ファイルに追加できます。  [ トピックとエクスペリエンスフラグメント間のマッピングを作成する ](../cs-install-guide/conf-experience-fragment-mapping-cs.md) 方法について詳しくは、インストールおよび設定ガイドを参照してください。
 
    * また、様々な条件を選択してコンテンツを公開することもできます。  次のいずれかのオプションを選択します。
 

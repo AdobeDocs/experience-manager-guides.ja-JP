@@ -3,7 +3,7 @@ title: 翻訳ステータスの表示
 description: AEM Guidesの DITA マップで、各トピックの翻訳ステータスと翻訳済み言語コピーを表示する方法を説明します。
 feature: Translation
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 0%

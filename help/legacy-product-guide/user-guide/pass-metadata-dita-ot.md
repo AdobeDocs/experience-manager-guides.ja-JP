@@ -3,7 +3,7 @@ title: DITA-OT を使用してメタデータを出力に渡す
 description: AEM Guidesでの DITA-OT 公開を使用してメタデータを出力に渡す方法を説明します。
 feature: Publishing, Metadata Management
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 0%

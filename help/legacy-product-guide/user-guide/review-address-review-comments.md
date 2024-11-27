@@ -3,7 +3,7 @@ title: 住所レビューのコメント
 description: AEM Guidesで作成者としてのレビューコメントに対処する方法を説明します。 作成者がドキュメント内のコメントを編集、フィルタリング、許可、却下する方法を説明します。
 feature: Reviewing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 # 住所レビューのコメント {#id2056B0X0KBI}
 
 
-作成者は、Web エディターを使用して、トピック内のコメントに対処できます。 コメントは、レビューパネルで選択したレビュータスクに基づいて読み込まれます。 詳しくは、「左パネル **セクションの機能 ![](images/active-review-tasklist-icon.svg) 説明の** レビュー [ パネルを参照し ](/help/product-guide/user-guide/web-editor-features.md#id2051EA0M0HS) ください。
+作成者は、Web エディターを使用して、トピック内のコメントに対処できます。 コメントは、レビューパネルで選択したレビュータスクに基づいて読み込まれます。 詳しくは、「左パネル **セクションの機能 ![](images/active-review-tasklist-icon.svg) 説明の** レビュー [ パネルを参照し ](../user-guide/web-editor-features.md#id2051EA0M0HS) ください。
 
 次のセクションでは、Web エディタでコメントを編集する方法について説明します。
 

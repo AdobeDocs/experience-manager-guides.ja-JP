@@ -3,7 +3,7 @@ title: データソースからコンテンツスニペットを挿入する
 description: AEM Guidesのデータソースのデータを使用します。 データソースからコンテンツスニペットを挿入する方法を説明します。 トピックジェネレーターを使用してトピックを作成します。
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '2389'
 ht-degree: 0%
@@ -26,18 +26,18 @@ ht-degree: 0%
 <summary> クラウドサービス </summary>
 
 
-- 2023 年 10 月リリース以降を使用している場合は、Cloud Service インストールおよび設定ガイドの [ ユーザーインターフェイスからのデータソースコネクタの設定 ](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) の方法を参照してください。
+- 2023 年 10 月リリース以降を使用している場合は、Cloud Service インストールおよび設定ガイドの [ ユーザーインターフェイスからのデータソースコネクタの設定 ](../cs-install-guide/conf-data-source-connector-tools.md) の方法を参照してください。
 
-- 2023 年 7 月または 2023 年 9 月のリリースを使用している場合は、Cloud Service インストールおよび設定ガイドで [ データソースコネクタの設定 ](/help/product-guide/cs-install-guide/conf-data-source-connector.md) の方法を参照してください。
+- 2023 年 7 月または 2023 年 9 月のリリースを使用している場合は、Cloud Service インストールおよび設定ガイドで [ データソースコネクタの設定 ](../cs-install-guide/conf-data-source-connector.md) の方法を参照してください。
 
 </details>
 
 <details>    
 <summary>  オンプレミスソフトウェア </summary>
 
-- 4.3.1 リリース以降を使用している場合は、オンプレミスのインストールおよび設定ガイドの [ ユーザーインターフェイスからのデータソースコネクタの設定 ](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) 方法を参照してください。
+- 4.3.1 リリース以降を使用している場合は、オンプレミスのインストールおよび設定ガイドの [ ユーザーインターフェイスからのデータソースコネクタの設定 ](../cs-install-guide/conf-data-source-connector-tools.md) 方法を参照してください。
 
-- 4.3 リリースを使用している場合は、オンプレミスのインストールおよび設定ガイドで [ データソースコネクタの設定 ](/help/product-guide/cs-install-guide/conf-data-source-connector.md) を参照してください。
+- 4.3 リリースを使用している場合は、オンプレミスのインストールおよび設定ガイドで [ データソースコネクタの設定 ](../cs-install-guide/conf-data-source-connector.md) を参照してください。
 </details>
 
 
@@ -118,7 +118,7 @@ AEM Guidesは、データソースに接続する機能を提供します。 デ
 1. データは、プレビューまたは DITA ソースビューで表示できます。
 
    1. プレビューには、コンテンツに挿入した際のデータの表示方法が表示されます。 プレビューには、選択したテンプレートの形式でデータのごく一部が表示されます。
-次に例を示します。
+例：
       - SQL テーブル テンプレートを選択した場合は、SQL データを表形式で表示できます。
       - Jira 順序付きリストテンプレートを選択した場合は、Jira の課題の順序付きリストを表示できます。
 
@@ -283,7 +283,7 @@ Experience Managerテンプレートは Velocity ツール（バージョン 2.0
 
 テンプレートで速度ツールを使用するには、次の手順を実行します。
 1. Web エディターで Velocity テンプレートを編集します。
-1. ツールとその関数を `<tool.function>` 形式で追加します。 次に例を示します。
+1. ツールとその関数を `<tool.function>` 形式で追加します。 例：
    - 計算ツールを使用して乱数を生成するには、`$mathTool.random` を使用します。
    - 数学ツールを使用して数値の合計を生成するには、`$mathTool.add(num1, num2)` を使用します。
 1. テンプレートを使用して、コンテンツスニペットまたはトピックを作成します。

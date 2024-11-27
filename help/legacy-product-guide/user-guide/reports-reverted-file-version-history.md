@@ -3,7 +3,7 @@ title: 元に戻したファイルのバージョン履歴レポート
 description: AEM Guidesで、復元されたファイルのバージョン履歴レポートを表示します。 Assets UI からのバージョンログの復元、トピックのプレビュー、AEM ツールの選択にアクセスする方法を説明します。
 feature: Report Generation
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%

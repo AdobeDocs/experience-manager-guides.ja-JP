@@ -3,7 +3,7 @@ title: 条件付き属性プロファイル
 description: AEM Guidesで条件属性を作成する方法を説明します。 フォルダーおよびグローバルプロファイルで条件属性を使用して、コンテンツの条件を設定します。
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 1%

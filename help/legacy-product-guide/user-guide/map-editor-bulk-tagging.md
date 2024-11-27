@@ -3,7 +3,7 @@ title: DITA コンテンツの一括タグ付け
 description: AEM Guidesのコンテンツの一括タグ付けを使用して、DITA コンテンツの検出性を向上させます。 1 つまたは複数のトピックにバルクタグを適用、削除、表示、非表示にする方法を説明します。
 feature: Metadata Management
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%

@@ -3,7 +3,7 @@ title: Adobe Experience Manager Guidesについて
 description: エンタープライズグレードの DITA ベースのコンポーネントコンテンツ管理ソリューションである Adobe Experience Manager Guides について説明します。 AEM Guides のメリットを理解します。
 feature: Introduction
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 7%
@@ -26,7 +26,7 @@ AEM Guidesを使用すると、エンドユーザーにシームレスでパー�
 
 - 既存のAdobeツール/システムに精通しており、1 つのパートナーと統合できるオポチュニティ
 
-- マーケティングおよび技術コンテンツをエンドツーエンドで管理するための単一の CMS
+- マーケティングおよび技術コンテンツをエンドツーエンドで管理するための単一のCMS
 
 - 効率的なコンテンツ再利用による迅速な市場投入
 

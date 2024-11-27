@@ -3,9 +3,9 @@ title: Web エディターの機能の理解
 description: AEM Guidesの web エディターの機能を確認します。 メインツールバー、セカンダリツールバー、左パネル、コンテンツ編集領域、右パネルなど、web エディターのインターフェイスがわかる。
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
-source-wordcount: '18678'
+source-wordcount: '18802'
 ht-degree: 0%
 
 ---
@@ -148,13 +148,13 @@ Source ビューでは、「検索と置換」は特定の要素や属性を検�
 
   ![](images/editor-setting-add-attributes-list.png-to-element.PNG){width="300" align="left"}
 
-- **Publish プロファイル**: **ナレッジベース** 出力の公開に使用できるPublish プロファイルが含まれています。 ターゲットのナレッジベース用に新しいプロファイルを作成できます。 例えば、Salesforce や ServiceNow です。
+- **Publish プロファイル**: **ナレッジベース** 出力の公開に使用できるPublish プロファイルが含まれています。 ターゲットのナレッジベース用に新しいプロファイルを作成できます。 例えば、Salesforceや ServiceNow などです。
 
    - **Salesforce Publish プロファイルの作成**
 
      **前提条件**
 
-      - Salesforce 用の接続アプリケーションを作成します。 詳しくは、[API 統合のための OAuth 設定の有効化 ](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&amp;type=5) を参照してください。
+      - Salesforce用に接続アプリケーションを作成します。 詳しくは、[API 統合のための OAuth 設定の有効化 ](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&amp;type=5) を参照してください。
 
       - 接続アプリケーションを設定する際は、次の点を確認します。
 
@@ -166,17 +166,17 @@ Source ビューでは、「検索と置換」は特定の要素や属性を検�
             - フルアクセス （フル）
             - 「API を使用してユーザーデータを管理」を選択します（api）
 
-  アプリを設定すると、Salesforce が **消費者キー** と **消費者の秘密鍵** を提供します。
+  アプリを設定すると、Salesforceは **Consumer Key** と **Consumer Secret** を提供します。
 
   これらを使用して、Salesforce Publish プロファイルを作成できます。
 
 
-   - Salesforce Publish プロファイルを作成するには、「**サーバータイプ**」ドロップダウンから **Salesforce** ナレッジベースを選択します。 プロファイル名を入力します。 **サイト URL** に、出力の公開に使用する消費者サイトを入力し、Salesforce 消費者サイトから提供される **消費者キー** と **消費者の秘密鍵** を追加します。 次に、新しく作成したプロファイルを **検証** および **保存** します。
+   - Salesforce Publish プロファイルを作成するには、「{Server Type **」ドロップダウンから** Salesforce **ナレッジベースを選** します。 プロファイル名を入力します。 **サイト URL** に、出力の公開に使用するコンシューマーサイトを入力し、Salesforce コンシューマーサイトから提供される **コンシューマーキー** と **コンシューマーシークレット** を追加します。 次に、新しく作成したプロファイルを **検証** および **保存** します。
      ![ エディター設定での salesforce 公開プロファイル ](./images/salesforce-publish-profile.png){width="550" align="left"}
 
      >[!NOTE]
      >
-     >Experience Manager Guidesで Salesforce のプロキシを設定するには、AEMで Apache HTTP Components Proxy Configuration を使用します。 方法を説明します [AEM リンクチェッカーのプロキシを設定する ](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html)。
+     >Experience Manager GuidesでSalesforceのプロキシを設定するには、AEMで Apache HTTP Components Proxy Configuration を使用します。 方法を説明します [AEM リンクチェッカーのプロキシを設定する ](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html)。
 
 
    - **ServiceNow Publish プロファイルの作成**
@@ -199,7 +199,7 @@ Source ビューでは、「検索と置換」は特定の要素や属性を検�
 
   検証後、DITA Map の出力プリセットでPublish プロファイルを選択し、それを使用して、選択した **Salesforce** または **ServiceNow** サーバーへの出力を生成できます。
 
-  [ ナレッジベース ](/help/product-guide/user-guide/generate-output-knowledge-base.md) 出力プリセットの詳細情報。
+  [ ナレッジベース ](../user-guide/generate-output-knowledge-base.md) 出力プリセットの詳細情報。
 
 
 - **検証**：このタブには、Web エディターでスキーマトロン検証を設定するためのオプションが含まれています。 次の機能を有効にできます。
@@ -605,7 +605,7 @@ DITA マップで定義されたキーワードを挿入します。 [ キーワ
 
 チェックイン/チェックアウトのツールヒントは、`ui_config.json` ファイルの title プロパティによって決まります。
 
-詳細については、『オンプレミス インストールおよび設定ガイド』の [ チェックインおよびチェックアウトアイコンのタイトルを設定する ](/help/product-guide/install-guide/conf-checkin-checkout-title.md) を参照してください。
+詳細については、『オンプレミス インストールおよび設定ガイド』の [ チェックインおよびチェックアウトアイコンのタイトルを設定する ](../install-guide/conf-checkin-checkout-title.md) を参照してください。
 
 
 **タグ表示の切り替え** - ![](images/Label_icon.svg)
@@ -1142,7 +1142,7 @@ Web エディターには、テキスト検索用の拡張フィルターが用�
 
   >[!NOTE]
   >
-  >環境内でこの機能を有効にするには、カスタマーサクセスチームにお問い合わせください。 これは、標準のサポートの一部として有効になっていません。 詳細については、『インストールと設定ガイド』の [Oxygen で編集するオプションの設定 ](/help/product-guide/cs-install-guide/conf-edit-in-oxygen.md) の節を参照してください。
+  >環境内でこの機能を有効にするには、カスタマーサクセスチームにお問い合わせください。 これは、標準のサポートの一部として有効になっていません。 詳細については、『インストールと設定ガイド』の [Oxygen で編集するオプションの設定 ](../cs-install-guide/conf-edit-in-oxygen.md) の節を参照してください。
 
 
 - **Assets UI で表示**:.dita/.xml ファイルのプレビューをAssets UI に表示する場合に使用します。 .ditamap/.bookmap ファイルの場合、マップ内のすべてのトピックファイルがページごとに統合された単一のビューで表示されます。
@@ -1507,7 +1507,22 @@ AEM Guidesでは、用語集型のドキュメントを簡単に作成して使�
 
 ![](images/conditional-panel-create-cond.png){width="400" align="left"}
 
-属性リストから、定義する条件属性を選択し、条件の値を入力して、条件パネルに表示されるラベルを指定します。 また、条件の色を定義することもできます。 この色は、条件が適用されるコンテンツの背景色として設定されます
+属性リストから、定義する条件属性を選択し、条件の値を入力して、条件パネルに表示されるラベルを指定します。 条件のグループを定義します。 1 つのグループに複数の条件を追加できます。 また、条件の色を定義することもできます。 この色は、条件が適用されるコンテンツの背景色として設定されます。
+
+条件をグループ化し、ネストされたフォルダー内で構造化できます。 グループを使用すると、複数のレベルで条件を作成し、コンテンツで使用しやすいように整理できます。
+
+例えば、*Acrobat* や *AEM Guides* などの商品の条件グループを作成できます。 両方のグループに対して条件属性を選択できます。 各グループには、*User*、*Admin*、*Reviewer*、*Author* など、特定の値を含めることができます。
+
+>[!NOTE]
+>
+> 入力して新しいグループを作成するか、特定の属性の既存のグループを選択します。
+
+`/` を使用して、サブグループを定義すると、`AEM Guides/Cloud Service` のようなサブグループを定義できます。
+
+
+
+![ ネストされた階層で整理された条件 ](images/conditions-nested-hierarchy.png){width="300" align="left"}
+
 
 条件を編集するには、「オプション」メニューから「**編集**」を選択します。 条件を編集ダイアログが表示されます。
 
@@ -1805,7 +1820,7 @@ AEM Guidesには、プロジェクト内のすべてのレビュータスクを�
    - 「![](images/filter-search-icon.svg)」を選択して、「**フィルター** ダイアログを開きます。 すべてのプロジェクトを選択することも、特定のプロジェクトのみを選択することもできます。 選択したプロジェクトが **レビュー** パネルに表示されます。
      ![](images/active-review-select-project.png){width="300" align="left"}
 
-     「**自分が開始したタスク**」オプションは、デフォルトで有効になっています。 開始したタスクのみを表示できます。
+     「**自分が開始したタスク**」オプションは、デフォルトで有効になっています。 開始したタスクのみを表示できます。 このオプションの切り替え状態は、ページを更新した後も維持されます。
 
 1. デフォルトでは、レビュープロジェクトには、コメントが関連付けられているトピックのフラットリストが表示されます。 左側のパネルから必要なフィルターを適用し、そこに含まれるレビューコメントに基づいてトピックをフィルタリングします。
 
@@ -1916,7 +1931,7 @@ AEM Guidesには、プロジェクト内のすべてのレビュータスクを�
 
 ## コンテンツ編集領域 {#id2051EB000UI}
 
-コンテンツ編集領域には、トピックまたはマップのコンテンツが表示されます。 この領域のすべてのコンテンツ編集を行います。 編集中のコンテンツの WYSIWYG 表示が提供されます。 複数のトピックを同時に開いて、それぞれのタブに表示することができます。
+コンテンツ編集領域には、トピックまたはマップのコンテンツが表示されます。 この領域のすべてのコンテンツ編集を行います。 これにより、編集中のコンテンツのWYSIWYG ビューが提供されます。 複数のトピックを同時に開いて、それぞれのタブに表示することができます。
 
 デフォルトでは、タブにファイルのタイトルが表示されます。 ファイルの上にマウスポインターを置くと、ファイルのタイトルとファイルパスがツールチップとして表示されます。
 

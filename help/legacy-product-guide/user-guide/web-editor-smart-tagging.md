@@ -3,7 +3,7 @@ title: スマートタグ付け
 description: AEM Guidesでスマートタグを追加する方法を説明します。 XML キーワード抽出ツールを使用して、関連するキーワードを抽出します。
 feature: Metadata Management
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%

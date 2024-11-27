@@ -3,7 +3,7 @@ title: コンテンツへの引用の追加と管理
 description: AEM Guidesで引用文献を追加および管理します。 引用スタイルの適用、読み込み、フィルター、検索、変更、編集、プレビュー、挿入、削除、引用を含んだコンテンツ出力の生成の方法について説明します。
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 0%
@@ -48,12 +48,12 @@ AEM Guidesは、Modern Language Association （MLA）、American Psychological A
 
    >[!NOTE]
    >
-   >ISBN、DOI、または PubMed ID を追加することもできます。 AEM Guidesによって、他のフィールドが自動的に設定されます。
+   >ISBN、DOI、PubMed ID も追加できます。 AEM Guidesによって、他のフィールドが自動的に設定されます。
 
    | 書籍 | Web サイト | ジャーナル |
    | --- | ---|---|
    | **Source** <br> ドロップダウンから、引用のソースを本として選択します。 | **Source**<br> ドロップダウンから、Web サイトとしての引用のソースを選択します。 | **Source** <br> ドロップダウンから、引用のソースをジャーナルとして選択します。 |
-   | **検索方法** <br> ドロップダウンから **ISBN** または **DOI** を選択して、引用にリンクされているデジタル ID を検索します。  <br> DOI：デジタルオブジェクト識別子 <br>ISBN：一意の数値ブック識別子 | **検索条件** <br> ドロップダウンから **DOI** を選択し、引用にリンクされたデジタル ID を検索します。 | **検索方法** <br> ドロップダウンから **DOI** または PubMed ID を選択して、引用にリンクされているデジタル ID を検索します。<br>  <br> |
+   | **検索条件** <br> ドロップダウンから **ISBN** または **DOI** を選択して、引用にリンクされたデジタル ID を検索します。  <br> DOI:ISBN<br> デジタルオブジェクト Id：一意の数値ブック Id | **検索条件** <br> ドロップダウンから **DOI** を選択し、引用にリンクされたデジタル ID を検索します。 | **検索方法** <br> ドロップダウンから **DOI** または PubMed ID を選択して、引用にリンクされているデジタル ID を検索します。<br>  <br> |
    | **作成者** <br> 引用文献の作成者の姓と名を追加します。 「![](images/Add_icon.svg)」を選択すると、さらに名前を追加できます。 | **作成者** <br> 引用文献の作成者の姓と名を追加します。 「![](images/Add_icon.svg)」を選択すると、さらに名前を追加できます。 | **作成者** <br> 引用文献の作成者の姓と名を追加します。 ![](images/Add_icon.svg) を選択すると、名前をさらに追加できます。 |
    | **タイトル** <br> 本のタイトルを追加します。 | **タイトル** <br> web ページのタイトルを追加します。 | **タイトル** <br> 記事のタイトルを追加します。 |
    | **編集者** <br> 本の編集者を追加します。 | **Web サイト名** <br> Web サイトの名前を追加します。 | **雑誌名** <br> 記事が見つかった作品のタイトルを追加します。 |
@@ -257,10 +257,10 @@ AEM Guidesは、Modern Language Association （MLA）、American Psychological A
 
 ネイティブPDF出力では、引用文は挿入先のコンテンツ内に表示されます。 参考文献ページを作成することもできます。 引用文献をクリックすると、文献目録ページにリダイレクトされます。
 
-PDFテンプレートで **引用** ページレイアウトを作成し、ドキュメントに含めます。 本で使用されているすべての引用は、PDF出力に表示される 1 つのページにリストされます。 ページレイアウトの作成について詳しくは、[ ページレイアウトの作成 ](/help/product-guide/native-pdf/components-pdf-template.md#create-page-layout) を参照してください。
+PDFテンプレートで **引用** ページレイアウトを作成し、ドキュメントに含めます。 本で使用されているすべての引用は、PDF出力に表示される 1 つのページにリストされます。 ページレイアウトの作成について詳しくは、[ ページレイアウトの作成 ](../native-pdf/components-pdf-template.md#create-page-layout) を参照してください。
 
 
-引用文献ページの表示と操作性を変更するには、[PDF テンプレートのカスタマイズ ](/help/product-guide/native-pdf/pdf-template.md) を表示します。
+引用文献ページの表示と操作性を変更するには、[PDF テンプレートのカスタマイズ ](../native-pdf/pdf-template.md) を表示します。
 
 
 
@@ -272,4 +272,4 @@ PDFテンプレートで **引用** ページレイアウトを作成し、ド�
 
 1. 検索パネルで `<cite>` を検索します。
 
-スタイルについて詳しくは、[ 共通のコンテンツスタイルの操作 ](/help/product-guide/native-pdf/stylesheet.md) を参照してください。
+スタイルについて詳しくは、[ 共通のコンテンツスタイルの操作 ](../native-pdf/stylesheet.md) を参照してください。
