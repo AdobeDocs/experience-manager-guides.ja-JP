@@ -3,7 +3,7 @@ title: 条件プリセットの使用
 description: AEM Guidesでの条件プリセットの使用を理解している。 AEMで条件プリセットを作成、編集、コピー、削除する方法について説明します。
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: f8f1116efbf0c7c26f6ebacf6234dcc2fee636c1
 workflow-type: tm+mt
 source-wordcount: '1210'
 ht-degree: 2%
@@ -71,7 +71,7 @@ Web エディターの **条件プリセット** ビューで、条件プリセ�
    >
    > 別のプリセットを選択した場合や、保存せずにプリセットを閉じた場合は、警告が表示されます。
 
-条件プリセットを作成すると、出力プリセットの **条件プリセット** ドロップダウンの下に表示されます。 [PublishPDF出力 ](../web-editor/native-pdf-web-editor.md) の方法の詳細をご覧ください。
+条件プリセットを作成すると、出力プリセットの **条件プリセット** ドロップダウンの下に表示されます。 [PublishPDF出力 ](/help/product-guide/web-editor/native-pdf-web-editor.md) の方法の詳細をご覧ください。
 
 ### 条件プリセットの名前の変更
 

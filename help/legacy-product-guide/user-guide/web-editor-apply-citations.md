@@ -3,7 +3,7 @@ title: コンテンツへの引用の追加と管理
 description: AEM Guidesで引用文献を追加および管理します。 引用スタイルの適用、読み込み、フィルター、検索、変更、編集、プレビュー、挿入、削除、引用を含んだコンテンツ出力の生成の方法について説明します。
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: f8f1116efbf0c7c26f6ebacf6234dcc2fee636c1
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 0%
@@ -257,10 +257,10 @@ AEM Guidesは、Modern Language Association （MLA）、American Psychological A
 
 ネイティブPDF出力では、引用文は挿入先のコンテンツ内に表示されます。 参考文献ページを作成することもできます。 引用文献をクリックすると、文献目録ページにリダイレクトされます。
 
-PDFテンプレートで **引用** ページレイアウトを作成し、ドキュメントに含めます。 本で使用されているすべての引用は、PDF出力に表示される 1 つのページにリストされます。 ページレイアウトの作成について詳しくは、[ ページレイアウトの作成 ](../native-pdf/components-pdf-template.md#create-page-layout) を参照してください。
+PDFテンプレートで **引用** ページレイアウトを作成し、ドキュメントに含めます。 本で使用されているすべての引用は、PDF出力に表示される 1 つのページにリストされます。 ページレイアウトの作成について詳しくは、[ ページレイアウトの作成 ](/help/product-guide/native-pdf/components-pdf-template.md#create-page-layout) を参照してください。
 
 
-引用文献ページの表示と操作性を変更するには、[PDF テンプレートのカスタマイズ ](../native-pdf/pdf-template.md) を表示します。
+引用文献ページの表示と操作性を変更するには、[PDF テンプレートのカスタマイズ ](/help/product-guide/native-pdf/pdf-template.md) を表示します。
 
 
 
@@ -272,4 +272,4 @@ PDFテンプレートで **引用** ページレイアウトを作成し、ド�
 
 1. 検索パネルで `<cite>` を検索します。
 
-スタイルについて詳しくは、[ 共通のコンテンツスタイルの操作 ](../native-pdf/stylesheet.md) を参照してください。
+スタイルについて詳しくは、[ 共通のコンテンツスタイルの操作 ](/help/product-guide/native-pdf/stylesheet.md) を参照してください。
