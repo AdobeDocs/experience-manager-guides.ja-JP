@@ -3,7 +3,7 @@ title: カスタマイズしたテンプレートに基づいてマップを作�
 description: カスタマイズしたテンプレートを作成し、それらを使用して新しいマップファイルを作成し、定義したタイトルをAEM Guidesの DITA マップに渡す方法について説明します。
 feature: Authoring, Map Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 0%
@@ -96,13 +96,13 @@ AEM Guidesでは、dita-templates フォルダからカスタマイズされた�
 <details>
     <summary> クラウドサービス </summary>
 
-[ カスタム DITA テンプレートフォルダーパスを設定する ](../install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) 方法については、『Cloud Serviceインストールおよび設定ガイド』を参照してください。
+[ カスタム DITA テンプレートフォルダーパスを設定する ](/help/product-guide/install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) 方法については、『Cloud Serviceインストールおよび設定ガイド』を参照してください。
 </details>
 
 <details>
     <summary> オンプレミスソフトウェア</summary>
 
-[ カスタム DITA テンプレートフォルダーパスを設定する ](../cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) 方法については、『オンプレミスインストールおよび設定ガイド』を参照してください。
+[ カスタム DITA テンプレートフォルダーパスを設定する ](/help/product-guide/cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) 方法については、『オンプレミスインストールおよび設定ガイド』を参照してください。
 </details>
 
 ## テンプレートで定義されたタイトルを渡します

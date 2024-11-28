@@ -3,7 +3,7 @@ title: エクスペリエンスフラグメントへのトピックのPublish
 description: AEM Guidesで、トピックまたはトピック内の要素をエクスペリエンスフラグメントにPublishします。  トピックに存在するエクスペリエンスフラグメントを表示し、再公開する方法を説明します。
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 1%
@@ -60,7 +60,7 @@ Experience Manager Guidesを使用すると、トピックまたはその要素�
 
 
 
-     管理者は、マッピングを *experienceFragmentMapping.json* ファイルに追加できます。  [ トピックとエクスペリエンスフラグメント間のマッピングを作成する ](../cs-install-guide/conf-experience-fragment-mapping-cs.md) 方法について詳しくは、インストールおよび設定ガイドを参照してください。
+     管理者は、マッピングを *experienceFragmentMapping.json* ファイルに追加できます。  [ トピックとエクスペリエンスフラグメント間のマッピングを作成する ](/help/product-guide/cs-install-guide/conf-experience-fragment-mapping-cs.md) 方法について詳しくは、インストールおよび設定ガイドを参照してください。
 
    * また、様々な条件を選択してコンテンツを公開することもできます。  次のいずれかのオプションを選択します。
 

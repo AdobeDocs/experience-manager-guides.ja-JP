@@ -3,7 +3,7 @@ title: Web エディターの機能の理解
 description: AEM Guidesの web エディターの機能を確認します。 メインツールバー、セカンダリツールバー、左パネル、コンテンツ編集領域、右パネルなど、web エディターのインターフェイスがわかる。
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '18802'
 ht-degree: 0%
@@ -605,7 +605,7 @@ DITA マップで定義されたキーワードを挿入します。 [ キーワ
 
 チェックイン/チェックアウトのツールヒントは、`ui_config.json` ファイルの title プロパティによって決まります。
 
-詳細については、『オンプレミス インストールおよび設定ガイド』の [ チェックインおよびチェックアウトアイコンのタイトルを設定する ](../install-guide/conf-checkin-checkout-title.md) を参照してください。
+詳細については、『オンプレミス インストールおよび設定ガイド』の [ チェックインおよびチェックアウトアイコンのタイトルを設定する ](/help/product-guide/install-guide/conf-checkin-checkout-title.md) を参照してください。
 
 
 **タグ表示の切り替え** - ![](images/Label_icon.svg)
@@ -1142,7 +1142,7 @@ Web エディターには、テキスト検索用の拡張フィルターが用�
 
   >[!NOTE]
   >
-  >環境内でこの機能を有効にするには、カスタマーサクセスチームにお問い合わせください。 これは、標準のサポートの一部として有効になっていません。 詳細については、『インストールと設定ガイド』の [Oxygen で編集するオプションの設定 ](../cs-install-guide/conf-edit-in-oxygen.md) の節を参照してください。
+  >環境内でこの機能を有効にするには、カスタマーサクセスチームにお問い合わせください。 これは、標準のサポートの一部として有効になっていません。 詳細については、『インストールと設定ガイド』の [Oxygen で編集するオプションの設定 ](/help/product-guide/cs-install-guide/conf-edit-in-oxygen.md) の節を参照してください。
 
 
 - **Assets UI で表示**:.dita/.xml ファイルのプレビューをAssets UI に表示する場合に使用します。 .ditamap/.bookmap ファイルの場合、マップ内のすべてのトピックファイルがページごとに統合された単一のビューで表示されます。

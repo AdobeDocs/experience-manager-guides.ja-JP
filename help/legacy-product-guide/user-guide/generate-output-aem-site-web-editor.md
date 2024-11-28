@@ -3,7 +3,7 @@ title: AEM Sites
 description: Web エディタでAEM Sites プリセットを作成して設定し、DITA マップ、選択したトピック、およびリンクされたトピックのAEM Sites出力を生成します。
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '2732'
 ht-degree: 0%
@@ -16,9 +16,9 @@ ht-degree: 0%
 AEM Sites プリセットは、web エディターから作成して、AEM Sites出力を生成するように設定できます。 AEM Sitesの出力は、複合コンポーネントのマッピングと `guides-components` に基づいているので、効率的なコンテンツの作成と管理が容易になります。
 
 Experience Manager Guidesには、AEM Sitesを作成するための事前定義済みのテンプレートが用意されています。 これらのプリセットにより、コンテンツのレイアウトと構造の一貫性を確保できます。
-- これらの定義済みテンプレートに基づいて ](../cs-install-guide/download-install-aem-sites-templates-cs.md#create-a-home-page-using-the-template) ホームページを作成 [ します。
-- 必要に応じて、[ トピックテンプレートを編集 ](../cs-install-guide/download-install-aem-sites-templates-cs.md#package-installation) し、スタイルを適用できます。
-- また、[ 既存のAEM Sites テンプレートをカスタマイズする ](../cs-install-guide/download-install-aem-sites-templates-cs.md#customize-existing-aem-sites-templates) こともできます。
+- これらの定義済みテンプレートに基づいて ](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md#create-a-home-page-using-the-template) ホームページを作成 [ します。
+- 必要に応じて、[ トピックテンプレートを編集 ](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md#package-installation) し、スタイルを適用できます。
+- また、[ 既存のAEM Sites テンプレートをカスタマイズする ](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md#customize-existing-aem-sites-templates) こともできます。
 
 
 
@@ -40,8 +40,8 @@ Experience Manager Guidesには、AEM Sitesを作成するための事前定義�
 >[!NOTE]
 >
 >管理者は、Experience Manager Guides用にAEM Sites プリセットを設定する前に、テンプレートを使用してAEM Sites構造を作成する必要があります。
-- **オンプレミスソフトウェア**：オンプレミスソフトウェアの [AEM Sites テンプレートをダウンロードしてインストール ](../install-guide/download-install-aem-sites-templates.md) する方法の詳細を説明します。
-- **Cloud Service**:Cloud Service用にAEM Sites テンプレートを [ ダウンロードしてインストール ](../cs-install-guide/download-install-aem-sites-templates-cs.md) する方法について説明します。
+- **オンプレミスソフトウェア**：オンプレミスソフトウェアの [AEM Sites テンプレートをダウンロードしてインストール ](/help/product-guide/install-guide/download-install-aem-sites-templates.md) する方法の詳細を説明します。
+- **Cloud Service**:Cloud Service用にAEM Sites テンプレートを [ ダウンロードしてインストール ](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md) する方法について説明します。
 
 
 
@@ -140,7 +140,7 @@ AEM Sites出力には、次のオプションを使用できます。
 Experience Manager Guidesでは、標準提供のテンプレートを使用したり、独自のAEM Sites テンプレートを追加したりできます。
 
 AEM Sites プリセットを設定する前に、必ずテンプレートを使用してAEM Sites構造を作成してください。\
-詳しくは、[AEM Sites テンプレートのダウンロードとインストール ](../install-guide/download-install-aem-sites-templates.md) を参照してください。
+詳しくは、[AEM Sites テンプレートのダウンロードとインストール ](/help/product-guide/install-guide/download-install-aem-sites-templates.md) を参照してください。
 
 
 

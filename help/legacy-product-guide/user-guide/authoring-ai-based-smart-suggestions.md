@@ -1,7 +1,7 @@
 ---
 title: コンテンツを作成するための AI を活用したスマートな提案
 description: Web エディターで AI を利用したスマート提案を表示および利用する方法を説明します。
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 0%
@@ -17,7 +17,7 @@ Experience Manager Guidesでは、一貫性のある正確なコンテンツを�
 これにより、ドキュメントリポジトリの既存のコンテンツを再利用し、一貫性のあるコンテンツを作成できます。 例えば、**Adobe** に関する段落を含む、**Adobe Firefly** に関する情報を含むドキュメントを作成するとします。 その場合、同じ段落を含む **Adobe Photoshop** など、別のトピックからコンテンツ参照をすばやく表示して追加できます。
 >[!NOTE]
 >
-> [ グローバルプロファイルまたはフォルダーレベルのプロファイル ](../cs-install-guide/conf-folder-level.md#conf-ai-smart-suggestions) では、管理者がインデックスを作成してスマート候補を表示するファイルやフォルダー、候補を表示するために入力する必要のある最小文字数、リストに表示できる候補の最大数を定義する必要があります。
+> [ グローバルプロファイルまたはフォルダーレベルのプロファイル ](/help/product-guide/cs-install-guide/conf-folder-level.md#conf-ai-smart-suggestions) では、管理者がインデックスを作成してスマート候補を表示するファイルやフォルダー、候補を表示するために入力する必要のある最小文字数、リストに表示できる候補の最大数を定義する必要があります。
 
 次の手順を実行して、トピックに適切なコンテンツ参照を追加するためのスマート提案を表示します。
 

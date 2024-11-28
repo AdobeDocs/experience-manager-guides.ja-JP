@@ -3,7 +3,7 @@ title: データソースからコンテンツスニペットを挿入する
 description: AEM Guidesのデータソースのデータを使用します。 データソースからコンテンツスニペットを挿入する方法を説明します。 トピックジェネレーターを使用してトピックを作成します。
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '2389'
 ht-degree: 0%
@@ -26,18 +26,18 @@ ht-degree: 0%
 <summary> クラウドサービス </summary>
 
 
-- 2023 年 10 月リリース以降を使用している場合は、Cloud Service インストールおよび設定ガイドの [ ユーザーインターフェイスからのデータソースコネクタの設定 ](../cs-install-guide/conf-data-source-connector-tools.md) の方法を参照してください。
+- 2023 年 10 月リリース以降を使用している場合は、Cloud Service インストールおよび設定ガイドの [ ユーザーインターフェイスからのデータソースコネクタの設定 ](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) の方法を参照してください。
 
-- 2023 年 7 月または 2023 年 9 月のリリースを使用している場合は、Cloud Service インストールおよび設定ガイドで [ データソースコネクタの設定 ](../cs-install-guide/conf-data-source-connector.md) の方法を参照してください。
+- 2023 年 7 月または 2023 年 9 月のリリースを使用している場合は、Cloud Service インストールおよび設定ガイドで [ データソースコネクタの設定 ](/help/product-guide/cs-install-guide/conf-data-source-connector.md) の方法を参照してください。
 
 </details>
 
 <details>    
 <summary>  オンプレミスソフトウェア </summary>
 
-- 4.3.1 リリース以降を使用している場合は、オンプレミスのインストールおよび設定ガイドの [ ユーザーインターフェイスからのデータソースコネクタの設定 ](../cs-install-guide/conf-data-source-connector-tools.md) 方法を参照してください。
+- 4.3.1 リリース以降を使用している場合は、オンプレミスのインストールおよび設定ガイドの [ ユーザーインターフェイスからのデータソースコネクタの設定 ](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) 方法を参照してください。
 
-- 4.3 リリースを使用している場合は、オンプレミスのインストールおよび設定ガイドで [ データソースコネクタの設定 ](../cs-install-guide/conf-data-source-connector.md) を参照してください。
+- 4.3 リリースを使用している場合は、オンプレミスのインストールおよび設定ガイドで [ データソースコネクタの設定 ](/help/product-guide/cs-install-guide/conf-data-source-connector.md) を参照してください。
 </details>
 
 

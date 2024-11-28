@@ -3,7 +3,7 @@ title: コンテンツフラグメントへのトピックのPublish
 description: トピックまたはトピック内の要素をAEM GuidesのコンテンツフラグメントにPublishします。  トピックのコンテンツフラグメントを表示して再公開する方法を説明します。
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
@@ -74,7 +74,7 @@ Experience Manager Guidesでは、トピックやその要素をコンテンツ�
 
      >[!NOTE]
      >
-     > 4.4 以前のバージョンを使用している場合は、ドロップダウンからマッピングを選択します。 *contentFragmentMapping.json* ファイルからマッピングを選択します。  管理者は、マッピングを *contentFragmentMapping.json* ファイルに追加できます。 [ トピックとコンテンツフラグメント間のマッピングを作成する ](../cs-install-guide/conf-content-fragment-mapping-cs.md) 方法について詳しくは、インストールおよび設定ガイドを参照してください。
+     > 4.4 以前のバージョンを使用している場合は、ドロップダウンからマッピングを選択します。 *contentFragmentMapping.json* ファイルからマッピングを選択します。  管理者は、マッピングを *contentFragmentMapping.json* ファイルに追加できます。 [ トピックとコンテンツフラグメント間のマッピングを作成する ](/help/product-guide/cs-install-guide/conf-content-fragment-mapping-cs.md) 方法について詳しくは、インストールおよび設定ガイドを参照してください。
 
 1. 「**生成**」をクリックして、コンテンツフラグメントを公開します。
 
@@ -110,4 +110,4 @@ Experience Manager Guidesでは、トピックやその要素をコンテンツ�
 
 新しい UUID コンテンツ移行スクリプトは、大幅に最適化され、非 UUID から UUID へのコンテンツの移行が、以前のスクリプトよりも 30 倍高速になりました。 チェックポイントからの再開、ライブインサイト、推定完了時間、詳細なレポートなどの機能が含まれ、調和のとれた移行プロセスを確保します。 特に、移行プロセスでは、アセットのメタデータが変更されずに保持されます。 このスクリプトは、300 万のアセットの大規模なデータセットでテストおよび検証され、大規模な移行に対する効率と信頼性が確認されています。
 
-詳しくは、[UUID から UUID へのコンテンツの移行 ](../install-guide/migrate-non-uuid-uuid.md) を参照してください。
+詳しくは、[UUID から UUID へのコンテンツの移行 ](/help/product-guide/install-guide/migrate-non-uuid-uuid.md) を参照してください。

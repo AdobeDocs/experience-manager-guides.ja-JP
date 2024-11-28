@@ -1,7 +1,7 @@
 ---
 title: コンテンツを検索するための AI を活用したスマートヘルプ
 description: Web エディターで AI を利用したスマートヘルプを表示および利用する方法について説明します。
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Web エディターを開くと、右側に **スマートヘルプ** パネル�
 
 >[!NOTE]
 >
-> 管理者が **スマートヘルプ** 機能を設定する必要があります。 詳しくは、Cloud Service向けのインストールおよび設定ガイドの [ コンテンツを検索するための AI を利用したスマートヘルプの設定 ](../cs-install-guide/conf-smart-help.md) の節を参照してください。
+> 管理者が **スマートヘルプ** 機能を設定する必要があります。 詳しくは、Cloud Service向けのインストールおよび設定ガイドの [ コンテンツを検索するための AI を利用したスマートヘルプの設定 ](/help/product-guide/cs-install-guide/conf-smart-help.md) の節を参照してください。
 
 ![ スマートヘルプパネル ](images/smart-help-panel.png){width="300" align="left"}
 
@@ -39,7 +39,7 @@ Web エディターを開くと、右側に **スマートヘルプ** パネル�
 
    >[!NOTE]
    >
-   > [ グローバルプロファイルまたはフォルダーレベルのプロファイル ](../cs-install-guide/conf-folder-level.md#conf-ai-guides-assistant) では、管理者がパネルに表示されるデフォルトの質問を定義する必要があります。
+   > [ グローバルプロファイルまたはフォルダーレベルのプロファイル ](/help/product-guide/cs-install-guide/conf-folder-level.md#conf-ai-guides-assistant) では、管理者がパネルに表示されるデフォルトの質問を定義する必要があります。
 
 1. 質問を入力して、Experience Manager Guides ドキュメントで関連コンテンツを検索します。 パネルでデフォルトの質問を選択するか、テキストボックスに質問を入力できます。
 
