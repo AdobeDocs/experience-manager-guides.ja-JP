@@ -5,9 +5,9 @@ exl-id: 5af78233-343e-47ba-b60c-b7f4789e2406
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: bcb61127f5f69ac39860a90eac2e1a56ecd1de31
+source-git-commit: ea3083542e955a56c27cd833600370a7962c6b8d
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '773'
 ht-degree: 10%
 
 ---
@@ -72,16 +72,17 @@ DITA マップダッシュボードの「翻訳」 タブを非表示にする�
 
 ## 従来の翻訳ワークフローの設定
 
-最新の翻訳ワークフローを使用することをお勧めします。これにより、パフォーマンスが向上します。 ただし、従来の翻訳ワークフローを使用する場合は、このワークフローを設定できます。
+>[!IMPORTANT]
+>
+> パフォーマンスを向上させるには、AEM Guides 2024.06.0 以降で利用可能な最新の翻訳ワークフローを使用することをお勧めします。 ただし、翻訳プロセスのカスタマイズを有効にして、新しいワークフローの影響を受ける場合は、回避策として従来の翻訳ワークフローに戻すことを検討してください。
 
 [ 設定の上書き ](download-install-additional-config-override.md#) の手順に従って、設定ファイルを作成します。 設定ファイルで、レガシー翻訳ワークフローを設定するために、次の（プロパティ）の詳細を指定します。
 
 
-
-
 | PID | プロパティキー | プロパティの値 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | Boolean:<br> – 最新の翻訳ワークフローを使用する場合は、「*レガシーの翻訳ワークフローを実行*」オプションを **無効**\（`false`\）にします。 最新の翻訳ワークフローは、デフォルトで有効になっています。 <br> -   従来の翻訳を使用する場合は、「*従来の翻訳ワークフローを実行&#x200B;**オプション* 「\（`true`\）を有効にする** を選択します。 |
+| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | Boolean:<br> – 最新の翻訳ワークフローを使用する場合は、「*レガシーの翻訳ワークフローを実行*」オプションを **無効**\（`false`\）にします。  <br> -   従来の翻訳を使用する場合は、「*従来の翻訳ワークフローを実行&#x200B;**オプション* 「\（`true`\）を有効にする** を選択します。<br> **デフォルト値**:false |
+
 
 
 
@@ -101,5 +102,5 @@ DITA マップダッシュボードの「翻訳」 タブを非表示にする�
 
 | PID | プロパティキー | プロパティの値 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | ブール値：<br> -   一時ファイルに対して後処理の処理を実行しない場合は、「**Post プロセスの言語コピー**」オプションを *無効*\（false\）にします。<br> -   一時ファイルに対して後処理の処理を実行する場合は、*有効*\（true\） **Post プロセスの言語コピー** オプションを選択します。<br> **デフォルト値**:false |
+| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | ブール値：<br> -   一時ファイルに対して後処理操作を実行しない場合は *無効* \（false\） **後処理言語コピー** オプションを選択します。<br> -   一時ファイルに対して後処理操作を実行する場合は *有効* \（true\） **後処理言語コピー** オプションを選択します。<br> **デフォルト値**:false |
 

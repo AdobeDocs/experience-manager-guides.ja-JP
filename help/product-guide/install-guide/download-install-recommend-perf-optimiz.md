@@ -5,9 +5,9 @@ exl-id: b2a836a0-de82-4d89-aae3-43276997da74
 feature: Performance Optimization
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: b28b7d96cce69f677b0bcf891b94d7ac84eb1eb0
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '907'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ JVM 開始パラメーターは、インフラストラクチャとディスク�
 
 `* -Xloggc:</path/to/gc.log>`
 
- – 一般に、Java 11 の場合は G1GC \（`-XX:+UseG1GC`\）を使用し、Java 8 の場合は CMS \（– `XX:+UseConcMarkSweepGC`\）を使用します。
+ – 一般に、Java 11 の場合は G1GC \（`-XX:+UseG1GC`\）を使用し、Java 8 の場合はCMS \（– `XX:+UseConcMarkSweepGC`\）を使用します。
 
 -`-XX:NewRatio` を使用して、若年世代のメモリサイズのサイズを制御します。 デフォルト値は 2 です。つまり、メモリの 1/3 が若年世代に使用されます。 すぐに作成および破棄されるオブジェクトが多数あるので、値を 1 に設定すると、若い世代にメモリの 1/2 が割り当てられます。
 
@@ -114,17 +114,5 @@ AEM Sites出力を生成する場合は、この変更が必要です。
 **この変更の結果**
 **ヒープ内のAEM サイトページを制限** プロパティの数が増えると、AEM サイト出力生成プロセスが最適化されます。
 
-## 後処理スレッドの数を最適化\（ユースケースによっては必須\）
-
-**変更点は何ですか？**
-この変更は、DITA コンテンツを一括アップロードする場合に必要です。
-
-`com.adobe.fmdita.config.ConfigManager` の下の **Post プロセスのThreads** プロパティを `1` に設定します。
-
-**どのような場合に設定するか？**
-これは実行時に行うことができます。
-
-**この変更の結果**
-この変更により、DITA ファイルの一括アップロード時の後処理時間が短縮されます。
 
 **親トピック：**[ ダウンロードとインストール ](download-install.md)
