@@ -3,9 +3,9 @@ title: Adobe Experience Manager Guides リリースロードマップ 2024
 description: Adobe Experience Manager Guides オンプレミスおよびAdobe Experience Manager Guidesas a Cloud Serviceのライブリリースおよび今後のリリースについて説明します
 role: Admin, Leader, Developer, User
 exl-id: cb6709ce-2732-45d0-adfd-5aeca520240e
-source-git-commit: 50e7445e368831d9310124617341f51e0161742f
+source-git-commit: 90861abe508f766d37309d872d20cc2dfa5f8fed
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '323'
 ht-degree: 29%
 
 ---
@@ -29,7 +29,7 @@ Experience Manager Guidesas a Cloud Serviceのリリースは次のように予�
 | Adobe Experience Manager Guides 2024.6.0 | 自動更新 | 2024年6月10～12日（PT） | [ こちら ](whats-new-2024-06-0.md) | [ こちら ](upgrade-instructions-2024-06-0.md) | [ こちら ](fixed-issues-2024-06-0.md) | 更新済み |
 | Adobe Experience Manager Guides 2024.10.0 | 自動更新 | 2024年10月14～16日（PT） | [ こちら ](whats-new-2024-10-0.md) | [ こちら ](upgrade-instructions-2024-10-0.md) | [ こちら ](fixed-issues-2024-10-0.md) | 更新済み |
 | Adobe Experience Manager Guides 2024.10.0 | サービスパック 1 | 2024年10月29日（PT） | - | - | [ こちら ](fixed-issues-2024-10-0-sp1.md) | 更新済み |
-| Adobe Experience Manager Guides 2024.12.0 | 自動更新 | 2025年1月13～15日（PT） |  |  |  | ターゲット |
+| Adobe Experience Manager Guides 2024.12.0 | 自動更新 | 2025年1月13～15日（PT） |  | [ こちら ](upgrade-instructions-2024-12-0.md) | [ こちら ](fixed-issues-2024-12-0.md) | 更新済み |
 | Adobe Experience Manager Guides 2025.02.0 | 自動更新 | ～ 2025 年 2 月 |  |  |  | ターゲット |
 | Adobe Experience Manager Guides 2025.04.0 | 自動更新 | ～ 2025 年 4 月 |  |  |  | ターゲット |
 
@@ -44,6 +44,6 @@ Experience Manager Guidesas a Cloud Serviceのリリースは次のように予�
 | Adobe Experience Manager Guides 4.4.0 | リリース | 2024年1月29日（PT） | [ こちら ](whats-new-4-4.md) | [ こちら ](upgrade-instructions-4-4.md) | リリース日 |
 | Adobe Experience Manager Guides 4.6.0 | リリース | 2024年9月12日（PT） | [ こちら ](whats-new-4-6.md) | [ こちら ](upgrade-instructions-4-6-0.md) | リリース日 |
 | Adobe Experience Manager Guides 4.6.0 | サービスパック 1 | 2024年10月29日（PT） | - | [ こちら ](upgrade-instructions-4-6-0-sp1.md) | リリース日 |
-| Adobe Experience Manager Guides 4.6.0 | サービスパック 2 | 2025 年 1 月末 |  |  | ターゲット |
+| Adobe Experience Manager Guides 4.6.0 | サービスパック 3 | 2025 年 1 月末 |  |  | ターゲット |
 | Adobe Experience Manager Guides 5.0.0 | リリース | ～ 2025 年 2 月 |  |  | ターゲット |
 | Adobe Experience Manager Guides 5.1.0 | リリース | ～ 2025 年 8 月 |  |  | ターゲット |
