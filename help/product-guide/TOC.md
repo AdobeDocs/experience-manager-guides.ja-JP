@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: 74958da7f69733f1671f0ab91a4401033fbb2016
+source-git-commit: 6d0648ddaabffe84c923afe7c531eea902406c1c
 workflow-type: tm+mt
-source-wordcount: '2003'
+source-wordcount: '2011'
 ht-degree: 7%
 
 ---
@@ -511,4 +511,5 @@ ht-degree: 7%
       - ユースケース {#use-cases}
          - [条件付きコンテンツの操作](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
          - [キーの操作](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
+         - [aemguides を使用した aemsites のコンテキストコンテンツ変数の有効化](./knowledge-base/kb-articles/publishing/enabling-contextual-content-variables-in-aem-sites-via-aemguides.md)
    - [酸素コネクタを使用](./oxygen-connector/use-aem-connector.md)
