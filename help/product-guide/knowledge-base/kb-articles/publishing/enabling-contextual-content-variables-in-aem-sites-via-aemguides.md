@@ -1,16 +1,17 @@
 ---
-title: AEM Guidesを使用したAEM Sitesでのコンテキストコンテンツ変数（CCVAR）の有効化
-description: AEM Guidesを使用したAEM Sitesでのコンテキストコンテンツ変数（CCVAR）の操作
+title: AEM Guidesから生成されたAEM Sites ページでのコンテキストコンテンツ変数（CCVAR）の有効化
+description: AEM Guidesから生成されたAEM Sites ページでのコンテキストコンテンツ変数（CCVAR）の操作
 feature: Web Editor
 role: User, Admin
-source-git-commit: cd5b8329153f598365a640f50d2c003af72dac50
+exl-id: f9adbb3f-6c1c-4d6f-b55d-1fb45acca91a
+source-git-commit: 4020534552bdb77545c2a283f2a90adc3aebc729
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '473'
 ht-degree: 2%
 
 ---
 
-# AEM Guidesを使用したAEM Sitesでのコンテキストコンテンツ変数（CCVAR）の有効化
+# AEM Guidesから生成されたAEM Sites ページでのコンテキストコンテンツ変数（CCVAR）の有効化
 
 コンテキストコンテンツ変数（CCVAR）は、作成者が作成したテキストで動的コンテンツ変数を直接使用できるようにする、ACS Commons の機能です。 CCVAR はAEM Sitesで一般的に使用されますが、この記事では、**AEM Guidesで作成されたコンテンツから生成されたページを使用して** 主に DITA マップで定義されたキーワードを使用して *同様の機能を実現する方法を説明し* す。
 
@@ -20,7 +21,7 @@ ht-degree: 2%
 CCVAR を使用すると、作成者はコンテンツに動的変数を挿入し、コンテキストに基づいて実行時に解決されます。 例えば、`((page_properties.pageTitle))` などの変数は、コンテンツのレンダリング中にページタイトルを動的に取り込むことができます。
 
 
-## AEM Guidesから生成されたAEM Sitesで CCVAR を有効にする方法
+## AEM Guidesから生成されたAEM Sites ページで CCVAR を有効にする方法
 
 AEM Guidesをすべてのコンテンツ（AEM Sites、PDF、HTML5 など）のソースとして使用する場合、AEM Guidesから生成されたページで CCVAR を有効にするには、キーワードを使用して CCVAR 名を定義する必要があります。 ガイドでこれを行うには、`<keydef>` 要素を使用して DITA マップに **キーワード** を定義します。 これらのキーワードは動的な値（または CCVAR 名）に対応し、DITA トピックで参照できます。
 
