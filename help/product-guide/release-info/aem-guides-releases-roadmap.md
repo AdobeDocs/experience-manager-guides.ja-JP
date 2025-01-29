@@ -3,9 +3,9 @@ title: Adobe Experience Manager Guides リリースロードマップ 2024
 description: Adobe Experience Manager Guides オンプレミスおよびAdobe Experience Manager Guidesas a Cloud Serviceのライブリリースおよび今後のリリースについて説明します
 role: Admin, Leader, Developer, User
 exl-id: cb6709ce-2732-45d0-adfd-5aeca520240e
-source-git-commit: 90861abe508f766d37309d872d20cc2dfa5f8fed
+source-git-commit: 9183f1c531c5f54b70af0fa7cb908131346390db
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '321'
 ht-degree: 29%
 
 ---
@@ -24,14 +24,14 @@ Experience Manager Guidesas a Cloud Serviceのリリースは次のように予�
 
 | リリース | イベント | スケジュール | 新機能 | アップグレード手順 | 修正された問題 | ステータス |
 |---|---|---|---|---|---|---|
-| Adobe Experience Manager Guides 2024.2.0 | 自動更新 | 2024年3月6日（PT） | [ こちら ](whats-new-2024-2-0.md) | [ こちら ](upgrade-instructions-2024-2-0.md) | [ こちら ](fixed-issues-2024-2-0.md) | 更新済み |
-| Adobe Experience Manager Guides 2024.4.0 | 自動更新 | 2024年4月26日（PT） | [ こちら ](whats-new-2024-04-0.md) | [ こちら ](upgrade-instructions-2024-04-0.md) | [ こちら ](fixed-issues-2024-04-0.md) | 更新済み |
+| Adobe Experience Manager Guides 2024.2.0 | 自動アップデート | 2024年3月6日（PT） | [ こちら ](whats-new-2024-2-0.md) | [ こちら ](upgrade-instructions-2024-2-0.md) | [ こちら ](fixed-issues-2024-2-0.md) | 更新済み |
+| Adobe Experience Manager Guides 2024.4.0 | 自動アップデート | 2024年4月26日（PT） | [ こちら ](whats-new-2024-04-0.md) | [ こちら ](upgrade-instructions-2024-04-0.md) | [ こちら ](fixed-issues-2024-04-0.md) | 更新済み |
 | Adobe Experience Manager Guides 2024.6.0 | 自動更新 | 2024年6月10～12日（PT） | [ こちら ](whats-new-2024-06-0.md) | [ こちら ](upgrade-instructions-2024-06-0.md) | [ こちら ](fixed-issues-2024-06-0.md) | 更新済み |
-| Adobe Experience Manager Guides 2024.10.0 | 自動更新 | 2024年10月14～16日（PT） | [ こちら ](whats-new-2024-10-0.md) | [ こちら ](upgrade-instructions-2024-10-0.md) | [ こちら ](fixed-issues-2024-10-0.md) | 更新済み |
+| Adobe Experience Manager Guides 2024.10.0 | 自動アップデート | 2024年10月14～16日（PT） | [ こちら ](whats-new-2024-10-0.md) | [ こちら ](upgrade-instructions-2024-10-0.md) | [ こちら ](fixed-issues-2024-10-0.md) | 更新済み |
 | Adobe Experience Manager Guides 2024.10.0 | サービスパック 1 | 2024年10月29日（PT） | - | - | [ こちら ](fixed-issues-2024-10-0-sp1.md) | 更新済み |
-| Adobe Experience Manager Guides 2024.12.0 | 自動更新 | 2025年1月13～15日（PT） |  | [ こちら ](upgrade-instructions-2024-12-0.md) | [ こちら ](fixed-issues-2024-12-0.md) | 更新済み |
-| Adobe Experience Manager Guides 2025.02.0 | 自動更新 | ～ 2025 年 2 月 |  |  |  | ターゲット |
-| Adobe Experience Manager Guides 2025.04.0 | 自動更新 | ～ 2025 年 4 月 |  |  |  | ターゲット |
+| Adobe Experience Manager Guides 2024.12.0 | 自動アップデート | 2025年1月13～15日（PT） |  | [ こちら ](upgrade-instructions-2024-12-0.md) | [ こちら ](fixed-issues-2024-12-0.md) | 更新済み |
+| Adobe Experience Manager Guides 2025.02.0 | 自動アップデート | ～ 2025 年 2 月 |  |  |  | ターゲット |
+| Adobe Experience Manager Guides 2025.04.0 | 自動アップデート | ～ 2025 年 4 月 |  |  |  | ターゲット |
 
 {style="table-layout:auto"}
 
@@ -44,6 +44,6 @@ Experience Manager Guidesas a Cloud Serviceのリリースは次のように予�
 | Adobe Experience Manager Guides 4.4.0 | リリース | 2024年1月29日（PT） | [ こちら ](whats-new-4-4.md) | [ こちら ](upgrade-instructions-4-4.md) | リリース日 |
 | Adobe Experience Manager Guides 4.6.0 | リリース | 2024年9月12日（PT） | [ こちら ](whats-new-4-6.md) | [ こちら ](upgrade-instructions-4-6-0.md) | リリース日 |
 | Adobe Experience Manager Guides 4.6.0 | サービスパック 1 | 2024年10月29日（PT） | - | [ こちら ](upgrade-instructions-4-6-0-sp1.md) | リリース日 |
-| Adobe Experience Manager Guides 4.6.0 | サービスパック 3 | 2025 年 1 月末 |  |  | ターゲット |
+| Adobe Experience Manager Guides 4.6.0 | サービスパック 3 | 2025年1月22日（PT） | - | [ こちら ](upgrade-instructions-4-6-0-sp2.md) | リリース日 |
 | Adobe Experience Manager Guides 5.0.0 | リリース | ～ 2025 年 2 月 |  |  | ターゲット |
 | Adobe Experience Manager Guides 5.1.0 | リリース | ～ 2025 年 8 月 |  |  | ターゲット |

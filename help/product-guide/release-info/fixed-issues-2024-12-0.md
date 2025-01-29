@@ -1,9 +1,10 @@
 ---
 title: リリースノート | Adobe Experience Manager Guides 2024.12.0 リリースの問題を修正しました
 description: Adobe Experience Manager Guidesas a Cloud Serviceの 2024.12.0 リリースのバグ修正について説明します。
-source-git-commit: f643a4a22151af2ff14288ab3885c1a6657a80ca
+exl-id: 04a57e1a-6e74-46f6-acde-5045d3dcacdc
+source-git-commit: dd404c42863f0b4a5f31b54f770c0bf296d68ab9
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '408'
 ht-degree: 1%
 
 ---
@@ -40,3 +41,30 @@ ht-degree: 1%
 ## 翻訳
 
 - ベースラインを使用したマップの変換が遅くなり、最終的に関連するすべてのトピックとマップ ファイルのリストのロードに失敗します。 （19733）
+
+## 回避策に関する既知の問題
+
+Adobe Experience Manager Guides as a Cloud Serviceの 2024.12.0 リリースで、Adobeは次の既知の問題を特定しました。
+
+**コンテンツの翻訳処理中にプロジェクトの作成に失敗する**
+
+翻訳用のコンテンツの送信中に、プロジェクトの作成が次のログエラーで失敗します。
+
+翻訳プロジェクトの処理中に `com.adobe.cq.wcm.translation.impl.TranslationPrepareResource` エラーが発生しました
+
+`com.adobe.cq.projects.api.ProjectException`: プロジェクトを作成できません
+
+原因：`org.apache.jackrabbit.oak.api.CommitFailedException`: `OakAccess0000`: アクセスが拒否されました
+
+
+**回避策**：この問題を解決するには、次の回避策の手順を実行します。
+
+1. repoinit ファイルを追加します ファイルが存在しない場合は、[sample repoinit config creation steps](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-cloud-questions/repoinit-configuration-for-property-set-on-aem-as-cloud-service/m-p/438854) を実行してファイルを作成します。
+2. ファイルに次の行を追加して、コードをデプロイします。
+
+   ```
+   { "scripts": [ "set principal ACL for translation-job-service\n allow jcr:all on /home/users/system/cq:services/internal/translation\nend" ] }
+   ```
+
+3. デプロイメント後の翻訳のテスト。
+
