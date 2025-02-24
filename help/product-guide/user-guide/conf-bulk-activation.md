@@ -4,26 +4,26 @@ description: 公開済みコンテンツの一括アクティベーションに�
 exl-id: 3643ecab-b5c1-41ea-8b7b-1470ead63aec
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: 5dac015816317ee9739c7c3678541592a7145e89
+source-git-commit: 99e42091490b28b5d5ee73472a7655e3feeafd25
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
 
 # 公開済みコンテンツの一括アクティベーション {#id214GG080LE8}
 
-実際のシナリオでは、作成者はAEMのオーサーインスタンスにアクセスできますが、実際のコンテンツはAEMのパブリッシュインスタンスに公開されます。 その後、パブリッシュインスタンスを様々な地域ロケーションにさらにデプロイできます。 公開された出力は、様々なプロセスを経て、これらの公開サーバーに移動する必要があります。 オーサーインスタンスからパブリッシュインスタンスにコンテンツを移動するプロセスは、コンテンツのアクティベーションまたはレプリケーションと呼ばれます。
+実際のシナリオでは、作成者はAdobe Experience Managerのオーサーインスタンスにアクセスできますが、実際のコンテンツはAdobe Experience Managerのパブリッシュインスタンスに公開されます。 その後、パブリッシュインスタンスを様々な地域ロケーションにさらにデプロイできます。 公開された出力は、様々なプロセスを経て、これらの公開サーバーに移動する必要があります。 オーサーインスタンスからパブリッシュインスタンスにコンテンツを移動するプロセスは、コンテンツのアクティベーションまたはレプリケーションと呼ばれます。
 
 >[!NOTE]
 >
-> AEMでのオーサーインスタンスとパブリッシュインスタンスの設定方法について詳しくは、[ オーサーとPublishのアーキテクチャの概要 ](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites) を参照してください。
+> Adobe Experience Managerでのオーサーインスタンスとパブリッシュインスタンスの設定方法について詳しくは、[ オーサーとパブリッシュのアーキテクチャの概要 ](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites) を参照してください。
 
-AEM Guidesの一括アクティベーション機能を使用すると、オーサリングからパブリッシュインスタンスまで、コンテンツをすばやく簡単にアクティベーションできます。 一括アクティベーション機能では、次の機能を柔軟に使用できます。
+Experience Manager Guidesの一括アクティベーション機能を使用すると、オーサリングからパブリッシュインスタンスまで、コンテンツをすばやく簡単にアクティベーションできます。 一括アクティベーション機能では、次の機能を柔軟に使用できます。
 
 - 1 つまたは複数のマップ \（マップ コレクション\）を 1 つのアクティブ化タスクに追加します
 
-- 公開する 1 つまたは複数の出力プリセットを選択します。 AEM サイト、PDF、ネイティブPDF、HTML 5、カスタムおよび
+- 有効化する 1 つまたは複数の出力プリセットを選択します。 Adobe Experience Manager サイト、PDF、ネイティブ PDF、HTML5、カスタムおよび
 JSON 出力プリセット。
 
 

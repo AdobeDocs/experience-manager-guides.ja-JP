@@ -4,9 +4,9 @@ description: AEM Guidesの通知を使用してレビュータスクを再割り
 exl-id: 6cd01564-aa26-4773-9c95-9dc519706f27
 feature: Reviewing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -38,4 +38,4 @@ ht-degree: 0%
 
 割り当てられたレビュー担当者は、再び割り当てられたレビュータスクのインボックスで通知を受け取ります。
 
-**親トピック：**[ トピックまたはマップを確認する ](review.md)
+**親トピック：**[ レビューの概要 ](review.md)

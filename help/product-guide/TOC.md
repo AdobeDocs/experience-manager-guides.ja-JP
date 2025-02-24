@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: 4020534552bdb77545c2a283f2a90adc3aebc729
+source-git-commit: ab7e91306d9a5253205e773f148d789141b9b0d1
 workflow-type: tm+mt
-source-wordcount: '2016'
-ht-degree: 7%
+source-wordcount: '2034'
+ht-degree: 8%
 
 ---
 
@@ -19,6 +19,11 @@ ht-degree: 7%
    - リリースノート {#release-notes}
       - Cloud Services {#cloud-release-notes}
          - [デプロイメントの手順](./release-info/deploy-xml-on-aemaacs.md)
+         - 2025 年リリース {#2025-releases}
+            - 2025.02.0 リリース {#2502-release}
+               - [新機能](./release-info/whats-new-2025-02-0.md)
+               - [修正された問題](./release-info/fixed-issues-2025-02-0.md)
+               - [アップグレード手順](./release-info/upgrade-instructions-2025-02-0.md)
          - 2024 年リリース {#2024-releases}
             - 2024.12.0 リリース {#2412-release}
                - [修正された問題](./release-info/fixed-issues-2024-12-0.md)
@@ -115,134 +120,143 @@ ht-degree: 7%
          - [4.1.x リリースノート](./release-info/release-notes-4-1.md)
          - [4.0.x リリースノート ](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
          - [3.8.x リリースノート ](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
-- ユーザーガイド {#user-guide}
-   - 概要 {#about-aem-guide}
+- ユーザーガイド （新しい UI） {#user-guide}
+   - 概要 {#about-aemg}
       - [概要  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides] の作業と主な機能 {#aemg-works-features}
          - [仕組  [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
          - [主  [!DNL AEM Guides]  機能](./user-guide/intro-dxml-features.md)
-   - Manage Content {#manage-content}
-      - [主な概念、役割と権限、前提条件](./user-guide/authoring.md)
-      - [ファイルのアップロード](./user-guide/authoring-upload-existing-files.md)
-      - [ファイルとフォルダーの管理](./user-guide/authoring-file-management.md)
-      - [ファイルをダウンロード](./user-guide/authoring-download-assets.md)
-   - Author Content {#author-content}
+   - [[!DNL AEM Guides] のホームページエクスペリエンス](./user-guide/intro-home-page.md)
+   - Author content {#author-content}
       - [オーサリングの概要](./user-guide/authoring-content.md)
-      - トピックの作成とプレビュー {#create-preview-topics}
-         - [トピックの作成とプレビュー](./user-guide/create-preview-topics.md)
-         - [トピックの作成](./user-guide/web-editor-create-topics.md)
-         - [トピックのプレビュー](./user-guide/web-editor-preview-topics.md)
-         - Author content {#author-content-aem-guides}
-            - [AEM Guidesを使用したコンテンツのオーサリング方法](./user-guide/authoring-content-xml-doc.md)
-            - Web エディター {#work-with-web-editor}
-               - [Web エディターの操作](./user-guide/web-editor.md)
-               - [Web エディターの起動](./user-guide/web-editor-launch-editor.md)
-               - [Web エディターでのトピックの編集](./user-guide/web-editor-edit-topics.md)
-               - [Web エディターの機能の理解](./user-guide/web-editor-features.md)
-               - [Web エディターのキーボードショートカット](./user-guide/web-editor-keyboard-shortcuts.md)
-               - [Web エディターのその他の機能](./user-guide/web-editor-other-features.md)
-               - [Web エディタービュー](./user-guide/web-editor-views.md)
-               - [Schematron ファイルのサポート](./user-guide/support-schematron-file.md)
-               - [コンテンツを作成するための AI を活用したスマートな提案](./user-guide/authoring-ai-based-smart-suggestions.md)
-               - [コンテンツを検索するための AI を活用したスマートヘルプ](./user-guide/ai-based-smart-help.md)
-               - [AI アシスタントで効率よくドキュメントを作成](./user-guide/ai-assistant-right-panel.md)
-               - [Web エディターからの Markdown ドキュメントの作成](./user-guide/web-editor-markdown-topic.md)
-               - [コンテンツへの引用文献の追加](./user-guide/web-editor-apply-citations.md)
-               - [データソースからのデータの使用](./user-guide/web-editor-content-snippet.md)
-               - [グローバルプロファイルおよびフォルダープロファイル出力プリセットの管理](./user-guide/web-editor-manage-output-presets.md)
-               - 記事ベースの公開 {#article-based-pub}
-                  - [Web エディターからの記事ベースの公開](./user-guide/web-editor-article-publishing.md)
-                  - [Web エディターからの出力プリセットの作成](./user-guide/web-editor-article-publishing-presets.md)
-                  - [リポジトリパネルまたはマップビューパネルからの出力を生成します。](./user-guide/web-editor-article-publishing-output.md)
-                  - [「クイック生成」パネルを使用して出力を生成および表示する](./user-guide/web-editor-quick-generate-panel.md)
-               - [Web エディターからのドキュメントの翻訳](./user-guide/translate-documents-web-editor.md)
-               - [Web エディターからのベースラインの作成と管理](./user-guide/web-editor-baseline.md)
-               - [ドキュメントの状態](./user-guide/web-editor-document-states.md)
-               - [ラベルを使用](./user-guide/web-editor-use-label.md)
-            - マップ エディタ {#work-with-map-editor}
-               - [マップ エディタを使用する](./user-guide/map-editor.md)
-               - [マップの作成](./user-guide/map-editor-create-map.md)
-               - [カスタマイズしたテンプレートに基づいてマップを作成する](./user-guide/create-maps-customized-templates.md)
-               - [高度なマップエディターの操作](./user-guide/map-editor-advanced-map-editor.md)
-               - [基本マップエディタの操作](./user-guide/map-editor-basic-map-editor.md)
-               - [マップ エディタのその他の機能](./user-guide/map-editor-other-features.md)
-            - DITAVAL エディタ {#ditaval-editor}
-               - [DITAVAL エディタの操作](./user-guide/ditaval-editor.md)
-         - コンテンツ {#author-using-desktop-tools} ータをオーサリングするためのデスクトップツール
-            - [デスクトップツールを使用したコンテンツの作成](./user-guide/author-desktop-tools.md)
-            - [FrameMakerの操作](./user-guide/author-desktop-framemaker.md)
-            - [酸素の操作](./user-guide/author-desktop-oxygen.md)
-   - Review content {#review-topic-maps}
-      - [トピックまたはマップのレビュー](./user-guide/review.md)
+      - [AEM Guidesを使用したコンテンツのオーサリング方法](./user-guide/authoring-content-xml-doc.md)
+      - 編集者 {#work-with-editor}
+         - [エディターの概要](./user-guide/web-editor.md)
+         - [エディターの起動](./user-guide/web-editor-launch-editor.md)
+         - [エディターでのトピックの編集](./user-guide/web-editor-edit-topics.md)
+         - トピックの作成とプレビュー {#create-preview-topics}
+            - [トピックの作成とプレビュー](./user-guide/create-preview-topics.md)
+            - [トピックの作成](./user-guide/web-editor-create-topics.md)
+            - [トピックのプレビュー](./user-guide/web-editor-preview-topics.md)
+         - [エディターの機能の理解](./user-guide/web-editor-features.md)
+         - [エディターのその他の機能](./user-guide/web-editor-other-features.md)
+         - [エディターのキーボードショートカット](./user-guide/web-editor-keyboard-shortcuts.md)
+         - [エディタービュー](./user-guide/web-editor-views.md)
+         - [Schematron ファイルのサポート](./user-guide/support-schematron-file.md)
+         - [エディターからの Markdown ドキュメントの作成](./user-guide/web-editor-markdown-topic.md)
+         - [コンテンツへの引用文献の追加](./user-guide/web-editor-apply-citations.md)
+         - [ データソースのデータを使用する ](./user-guide/web-editor-content-snippet.md)
+         - [ドキュメントの状態](./user-guide/web-editor-document-states.md)
+         - [ラベルを使用](./user-guide/web-editor-use-label.md)
+      - マップ エディタ {#map-editor}
+         - [マップエディターの概要](./user-guide/map-editor.md)
+         - [マップの作成](./user-guide/map-editor-create-map.md)
+         - [カスタマイズしたテンプレートに基づいてマップを作成する](./user-guide/create-maps-customized-templates.md)
+         - [マップ エディタの機能](./user-guide/map-editor-advanced-map-editor.md)
+         - [マップ エディタのその他の機能](./user-guide/map-editor-other-features.md)
+      - DITAVAL エディタ {#ditaval-editor}
+         - [DITAVAL エディタの使用](./user-guide/ditaval-editor.md)
+      - コンテンツ {#author-using-desktop-tools} ータをオーサリングするためのデスクトップツール
+         - [デスクトップツールを使用したコンテンツの作成](./user-guide/author-desktop-tools.md)
+   - レビュー {#review}
+      - [レビューの概要](./user-guide/review.md)
       - [DITA プロジェクトの作成](./user-guide/authoring-create-dita-project.md)
       - [レビュー用にトピックを送信](./user-guide/review-send-topics-for-review.md)
       - [通知を使用したレビュータスクの再割り当て](./user-guide/reassign-review-using-notification.md)
-      - トピックのレビュー {#review-topics}
-         - [トピックを確認](./user-guide/review-topics.md)
-         - [住所レビューのコメント](./user-guide/review-address-review-comments.md)
+      - [トピックを確認](./user-guide/review-topics.md)
+      - [住所レビューのコメント](./user-guide/review-address-review-comments.md)
       - [レビューダッシュボードを使用したレビュータスクの管理](./user-guide/review-manage-tasks-review-dashboard.md)
       - [完了したレビュータスクの表示](./user-guide/review-view-completed-task.md)
-   - AEM Guides {#manaege-metadata} のメタデータ
+   - Adobe Workfront {#workfront-integration} を使用した共同作業
+      - [WorkfrontとExperience Manager Guidesの統合](./user-guide/workfront-integration.md)
+   - メタデータとタグ付け {#manage-metadata}
       - [メタデータを管理](./user-guide/manage-metadata.md)
       - [AEMでのメタデータの操作](./user-guide/metadata-dita.md)
       - [スマートタグ付け](./user-guide/web-editor-smart-tagging.md)
       - [DITA コンテンツの一括タグ付け](./user-guide/map-editor-bulk-tagging.md)
-   - コンテンツ翻訳 {#translate-content}
-      - [コンテンツの翻訳](./user-guide/translation.md)
-      - [コンテンツ翻訳のベストプラクティス](./user-guide/translation-first-time.md)
-      - [翻訳ステータスの表示](./user-guide/translation-view-trans-state-6234.md)
-      - [変更したトピックを翻訳](./user-guide/translation-modified-topics-6234.md)
-   - 出力生成 {#output-gen}
-      - [出力生成の基本](./user-guide/generate-output.md)
-      - [出力プリセットの概要](./user-guide/generate-output-understand-presets.md)
-      - AEM Guides {#output-presets-aemg} の出力プリセット
-         - [AEM Sites](./user-guide/generate-output-aem-site.md)
-         - [マップダッシュボードのAEM Sites プリセット](./user-guide/generate-output-aem-site-map-dashboard.md)
-         - [Web エディターでのAEM Sites プリセット](./user-guide/generate-output-aem-site-web-editor.md)
-         - [PDF](./user-guide/generate-output-pdf.md)
-         - [ナレッジベース](./user-guide/generate-output-knowledge-base.md)
-         - [HTML5](./user-guide/generate-output-html5.md)
-         - [EPUB](./user-guide/generate-output-epub.md)
-         - [カスタム](./user-guide/generate-output-custom.md)
-         - [JSON](./user-guide/generate-output-json.md)
-      - [宛先パス、サイト名、ファイル名の各オプションを設定する変数を使用します](./user-guide/generate-output-use-variables.md)
-      - [出力プリセットの作成、編集、複製、削除](./user-guide/generate-output-create-edit-preset.md)
-      - [DITA-OT を使用してメタデータを出力に渡す](./user-guide/pass-metadata-dita-ot.md)
-      - [条件付き属性プロファイル](./user-guide/generate-output-conditional-attribute-profiling.md)
-      - [条件プリセットの使用](./user-guide/generate-output-use-condition-presets.md)
-      - [ベースラインの操作](./user-guide/generate-output-use-baseline-for-publishing.md)
-      - [マップコンソールから DITA マップの出力を生成](./user-guide/generate-output-for-a-dita-map.md)
-      - [出力生成にマップ コレクションを使用](./user-guide/generate-output-use-map-collection-output-generation.md)
-      - ネイティブPDF公開機能 {#web-editor} を使用
-         - [PublishPDF出力](./web-editor/native-pdf-web-editor.md)
-         - [追加の特殊文字を設定](./web-editor/configure-additional-special-characters.md)
-      - [Publish ダッシュボードを使用した公開タスクの管理](./user-guide/generate-output-publish-dashboard.md)
-      - [基本的なトラブルシューティング](./user-guide/generate-output-basic-troubleshooting.md)
-      - [コンテンツフラグメントの公開](./user-guide/publish-content-fragment.md)
-      - [Publish エクスペリエンスフラグメント](./user-guide/publish-experience-fragment.md)
-      - [Publish AEM Sitesのページ](./user-guide/publish-aem-sites.md)
-      - コンテンツア {#bulk-activation} ットの一括アクティベーション
-         - [公開済みコンテンツの一括アクティベーション](./user-guide/conf-bulk-activation.md)
-         - [一括アクティベーションマップコレクションの作成](./user-guide/conf-bulk-activation-create-map-collection.md)
-         - [出力を有効化](./user-guide/conf-bulk-activation-publish-map-collection.md)
-         - [一括アクティベーションマップコレクションを編集](./user-guide/conf-bulk-activation-edit-map-collection.md)
-         - [一括有効化マップコレクションを削除](./user-guide/conf-bulk-activation-delete-map-collection.md)
-   - FrameMakerドキュメントの出力の生成 {#generate-fm-output}
-      - [FrameMakerドキュメントの出力の生成](./user-guide/fm-output-generatation.md)
+   - マップ管理と公開 {#map-management-publishing}
+      - [マップコンソールの概要](./user-guide/map-console-overview.md)
+      - [Map コンソールでファイルを開く](./user-guide/open-files-map-console.md)
+      - 出力生成 {#output-gen}
+         - [出力生成の基本](./user-guide/generate-output.md)
+         - AEM Guides {#output-presets-aemg} の出力プリセット
+            - [出力プリセットの概要](./user-guide/generate-output-understand-presets.md)
+            - AEM Sites {#aem-sites}
+               - [マップ コンソールのAEM Sites プリセット](./user-guide/generate-output-aem-site-web-editor.md)
+               - [マップ ダッシュボードのAEM Sites プリセット](./user-guide/generate-output-aem-site-map-dashboard.md)
+            - PDF {#pdf-preset}
+               - [PDF出力プリセットの概要](./user-guide/generate-output-pdf.md)
+               - [DITA-OT PDF出力プリセット](./user-guide/generate-output-pdf-dita-ot.md)
+               - [ネイティブ PDF出力プリセット](./web-editor/native-pdf-web-editor.md)
+            - [ナレッジベース](./user-guide/generate-output-knowledge-base.md)
+            - [HTML5](./user-guide/generate-output-html5.md)
+            - [EPUB](./user-guide/generate-output-epub.md)
+            - [カスタム](./user-guide/generate-output-custom.md)
+            - [JSON](./user-guide/generate-output-json.md)
+         - [出力プリセットの編集、複製または削除](./user-guide/generate-output-create-edit-preset.md)
+         - コンテンツの条件 {#conditional-content} 定
+            - [条件プリセットの使用](./user-guide/generate-output-use-condition-presets.md)
+            - [条件付き属性プロファイル](./user-guide/generate-output-conditional-attribute-profiling.md)
+         - ベースライン {#work-with-baseline} の使用
+            - [マップコンソールからのベースラインの作成と管理](./user-guide/web-editor-baseline.md)
+            - [マップダッシュボードからのベースラインの作成と管理](./user-guide/generate-output-use-baseline-for-publishing.md)
+         - [グローバルプロファイルおよびフォルダープロファイル出力プリセットの管理](./user-guide/web-editor-manage-output-presets.md)
+         - [宛先パス、サイト名、ファイル名の各オプションを設定する変数を使用します](./user-guide/generate-output-use-variables.md)
+         - [DITA-OT を使用してメタデータを出力に渡す](./user-guide/pass-metadata-dita-ot.md)
+         - レポート {#reports-aem-guide}
+            - [レポートの概要](./user-guide/reports-intro.md)
+            - [マップコンソールからの DITA マップレポート](./user-guide/reports-web-editor.md)
+            - [マップダッシュボードからの DITA マップレポート](./user-guide/reports-ditamap.md)
+            - [コンテンツ再利用レポート](./user-guide/reports-content-reuse.md)
+            - [コンバージョンステータスレポート](./user-guide/reports-convertion-status.md)
+            - [ 元に戻したファイルのバージョン履歴レポート ](./user-guide/reports-reverted-file-version-history.md)
+         - コンテンツ翻訳 {#translate-content}
+            - [コンテンツ翻訳の概要](./user-guide/translation.md)
+            - [コンテンツ翻訳のベストプラクティス](./user-guide/translation-first-time.md)
+            - [マップ コンソールからのドキュメントの翻訳](./user-guide/translate-documents-web-editor.md)
+            - [翻訳ステータスの表示](./user-guide/translation-view-trans-state-6234.md)
+            - [変更したトピックを翻訳](./user-guide/translation-modified-topics-6234.md)
+         - 出力 {#generate-output} を生成
+            - [DITA マップの出力の生成](./user-guide/generate-output-for-a-dita-map.md)
+            - [ナレッジベース出力の生成](./user-guide/web-editor-article-publishing.md)
+            - 単一トピックの公開 {#single-topic-publishing}
+               - [コンテンツフラグメントの公開](./user-guide/publish-content-fragment.md)
+               - [エクスペリエンスフラグメントの公開](./user-guide/publish-experience-fragment.md)
+               - [AEM Sitesページの公開](./user-guide/publish-aem-sites.md)
+               - [増分出力の生成](./user-guide/generate-output-aem-site.md)
+         - [出力生成にマップ コレクションを使用](./user-guide/generate-output-use-map-collection-output-generation.md)
+         - [出力生成プロセスの管理](./user-guide/generate-output-manage-process.md)
+         - [公開ダッシュボードを使用した公開タスクの管理](./user-guide/generate-output-publish-dashboard.md)
+         - [基本的なトラブルシューティング](./user-guide/generate-output-basic-troubleshooting.md)
+         - コンテンツア {#bulk-activation} ットの一括アクティベーション
+            - [公開済みコンテンツの一括アクティベーション](./user-guide/conf-bulk-activation.md)
+            - [一括アクティベーションマップコレクションの作成](./user-guide/conf-bulk-activation-create-map-collection.md)
+            - [出力を有効化](./user-guide/conf-bulk-activation-publish-map-collection.md)
+            - [一括アクティベーションマップコレクションを編集](./user-guide/conf-bulk-activation-edit-map-collection.md)
+            - [一括有効化マップコレクションを削除](./user-guide/conf-bulk-activation-delete-map-collection.md)
+   - FrameMaker ドキュメントの出力生成 {#generate-fm-output}
+      - [FrameMaker出力生成の基本](./user-guide/fm-output-generatation.md)
       - でサポートされるプリセット {#fm-docs-generating-presets}
-         - [FrameMakerドキュメントを生成するためのプリセット](./user-guide/fm-output-understand-presets.md)
+         - [FrameMaker ドキュメントを生成するためのプリセット](./user-guide/fm-output-understand-presets.md)
          - [PDF](./user-guide/fm-output-pdf-preset.md)
          - [HTML5](./user-guide/fm-output-html5-preset.md)
          - [EPUB](./user-guide/fm-output-epub-preset.md)
       - [.book ファイルまたは.fm ファイルの出力を生成する](./user-guide/fm-output-generate.md)
       - [出力生成タスクのステータスの表示](./user-guide/fm-output-view-status.md)
-   - AEM Guides {#reports-aem-guide} のレポート
-      - [レポートの概要](./user-guide/reports-intro.md)
-      - [Web エディタからの DITA マップレポート](./user-guide/reports-web-editor.md)
-      - [マップダッシュボードからの DITA マップレポート](./user-guide/reports-ditamap.md)
-      - [コンテンツ再利用レポート](./user-guide/reports-content-reuse.md)
-      - [コンバージョンステータスレポート](./user-guide/reports-convertion-status.md)
-      - [元に戻したファイルのバージョン履歴レポート](./user-guide/reports-reverted-file-version-history.md)
+   - AEM Guides {#ai-assistant-aem} の AI アシスタント
+      - [Adobe ジェネレーティブ AI ユーザーの開示](./user-guide/adobe-generative-ai-disclosures.md)
+      - [AI アシスタントの概要](./user-guide/ai-assistant.md)
+      - [コンテンツを検索するための AI を活用したスマートヘルプ](./user-guide/ai-based-smart-help.md)
+      - [ ドキュメントをスマートにオーサリングするための AI アシスタントオーサリング ](./user-guide/ai-assistant-right-panel.md)
+      - [コンテンツを作成するための AI を活用したスマートな提案](./user-guide/authoring-ai-based-smart-suggestions.md)
+      - [よくある質問](./user-guide/ai-assistant-faq.md)
+   - 付録 {#appendix}
+      - Manage Content {#manage-content}
+         - [主な概念、役割と権限、前提条件](./user-guide/authoring.md)
+         - [ファイルのアップロード](./user-guide/authoring-upload-existing-files.md)
+         - [ファイルとフォルダーの管理](./user-guide/authoring-file-management.md)
+         - [ファイルをダウンロード](./user-guide/authoring-download-assets.md)
+- [ ユーザーガイド（古い UI） ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - インストールと設定 {#install-guide}
    - オンプレミス {#on-prem-ig}
       - [オンプレミスの基本](./install-guide/introduction.md)
@@ -255,7 +269,7 @@ ht-degree: 7%
          - [AEM Guidesのインストールの確認](./install-guide/download-install-verify-aemg-installation.md)
          - [AEM Guidesのアップグレード](./install-guide/upgrade-xml-documentation.md)
          - [AEM Guidesのアンインストール](./install-guide/download-install-unistall-aemg.md)
-         - [パフォーマンス最適化のためのRecommendations](./install-guide/download-install-recommend-perf-optimiz.md)
+         - [パフォーマンスの最適化に関する推奨事項](./install-guide/download-install-recommend-perf-optimiz.md)
       - ユーザーグループとセキュリティ {#user-group-sec} ールの操作
          - [ユーザー管理とセキュリティ](./install-guide/user-admin-sec.md)
       - コンテンツ移行 {#content-migration}
@@ -273,7 +287,7 @@ ht-degree: 7%
       - [ファイル名の設定](./install-guide/conf-file-names.md)
       - [UUID に基づく自動ファイル名の設定](./install-guide/conf-auto-uuid-filenames.md)
       - [有効なファイル名文字に対して正規表現を設定](./install-guide/conf-file-names-valid-regx.md)
-      - [AEM Site 出力の有効なファイル名の設定](./install-guide/conf-file-names-valid-regx-aem-site-output.md)
+      - [AEM サイト出力用の有効なファイル名の設定](./install-guide/conf-file-names-valid-regx-aem-site-output.md)
       - でのトピックおよびマップ テンプレート {#topic-map-template} 使用する
          - [トピックとマップのテンプレートを設定](./install-guide/conf-template-tags.md)
          - [カスタム DITA トピックテンプレートの設定](./install-guide/conf-template-tags-custom-dita-topic-template.md)
@@ -294,7 +308,7 @@ ht-degree: 7%
          - [ファイルを閉じるときにチェックインするようにプロンプトを設定する](./install-guide/conf-checkin-file-close.md)
          - [許可される特殊文字の設定](./install-guide/conf-special-chars.md)
          - [要素 ID の自動生成](./install-guide/auto-generate-ids.md)
-         - [AEMのデフォルトの辞書をカスタマイズ](./install-guide/customize-aem-custom-dictionary.md)
+         - [AEMのデフォルトの辞書のカスタマイズ](./install-guide/customize-aem-custom-dictionary.md)
          - [テキストフィルターの設定](./install-guide/config-text-filters.md)
          - [クエリの LimitReads 数の設定](./install-guide/conf-query-limitreads.md)
          - [記事ベースの公開用パッケージのインストール](./install-guide/configure-article-based-publishing.md)
@@ -302,6 +316,7 @@ ht-degree: 7%
          - [詳細マップ エディタを既定値として設定します。](./install-guide/conf-map-editor.md)
          - [デフォルト@navtitle 属性を含める](./install-guide/auto-add-navtitle.md)
          - [Oxygen で編集するオプションを設定します](./cs-install-guide/conf-edit-in-oxygen.md)
+         - [追加の特殊文字を設定](./web-editor/configure-additional-special-characters.md)
       - のグローバルプロファイルおよびフォルダーレベルのプロファイル {#global-folder-profiles} 操作する
          - [グローバルプロファイルまたはフォルダーレベルのプロファイルの設定](./install-guide/conf-folder-level.md)
       - のバージョン {#version-mgt} 設定
@@ -311,10 +326,10 @@ ht-degree: 7%
       - 出力生成設定の操作 {#output-gen-config}
          - [出力生成設定の指定](./install-guide/conf-output-generation.md)
          - [aem sites テンプレートのダウンロードとインストール](./install-guide/download-install-aem-sites-templates.md)
-         - [AEM Sites出力でのHTMLタグのオーバーレイ](./install-guide/overlay-html-tags-aem-sites.md)
-         - ネイティブPDF公開 {#config-native-pdf-publish}
+         - [AEM Sites出力でのHTML タグのオーバーレイ](./install-guide/overlay-html-tags-aem-sites.md)
+         - PDF Native Publishing {#config-native-pdf-publish}
             - [PDFテンプレート](./native-pdf/pdf-template.md)
-            - [PDFテンプレートのコンポーネント](./native-pdf/components-pdf-template.md)
+            - [PDF テンプレートのコンポーネント](./native-pdf/components-pdf-template.md)
             - [ページレイアウトのデザイン](./native-pdf/design-page-layout.md)
             - [PDF出力の変数](./native-pdf/native-pdf-variables.md)
             - [言語変数のサポート](./native-pdf/native-pdf-language-variables.md)
@@ -326,7 +341,7 @@ ht-degree: 7%
                - [PDF出力へのカスタムブックマークの追加](./native-pdf/add-custom-bookmark.md)
                - [JavaScriptを使用してコンテンツやスタイルを操作する](./native-pdf/use-javascript-content-style.md)
                - [脚注へのスタイルの適用](./native-pdf/footnote-number-style.md)
-         - [ネイティブPDF公開用の JVM フラグの設定](./native-pdf/configure-jvm-flags.md)
+         - [PDFのネイティブ公開用の JVM フラグの設定](./native-pdf/configure-jvm-flags.md)
          - でのカスタムワークフロー {#custom-workflow} 操作
          - [ワークフローの設定とカスタマイズ](./install-guide/customize-workflows.md)
       - での翻訳設定 {#translate-config} 操作
@@ -336,14 +351,14 @@ ht-degree: 7%
       - [付録](./install-guide/appendix.md)
    - Cloud Services {#cs-ig}
       - [このガイドについて](./cs-install-guide/introduction.md)
-      - AEM GuidesをCloud Service{#deploy-conf-aemg-cs} ーザーとしてデプロイして設定する
+      - AEM Guides as Cloud Service {#deploy-conf-aemg-cs} のデプロイと設定
          - [ダウンロードとインストール](./cs-install-guide/download-install.md)
          - [AEM Guides モジュールのデプロイ](./cs-install-guide/download-install-dxml-first-time.md)
          - [Dispatcher の設定](./cs-install-guide/download-install-configure-dispatcher.md)
          - [AEM Guidesのインストールの確認](./cs-install-guide/download-install-verify-dxml-installation.md)
          - [AEM Guidesのアップグレード](./cs-install-guide/download-install-upgrade-dxml.md)
          - [設定の上書き](./cs-install-guide/download-install-additional-config-override.md)
-         - [パフォーマンス最適化のためのRecommendations](./cs-install-guide/download-install-recommend-perf-optimiz.md)
+         - [パフォーマンスの最適化に関する推奨事項](./cs-install-guide/download-install-recommend-perf-optimiz.md)
       - ユーザーグループとセキュリティ {#user-group-sec-cs} ールの操作
          - [ユーザー管理とセキュリティ](./cs-install-guide/user-admin-sec.md)
       - コンテンツ移行 {#migrate-con-cs}
@@ -358,7 +373,7 @@ ht-degree: 7%
          - [ファイル名の設定](./cs-install-guide/conf-file-names.md)
          - [UUID に基づく自動ファイル名の設定](./cs-install-guide/conf-auto-uuid-filenames.md)
          - [有効なファイル名文字に対して正規表現を設定](./cs-install-guide/conf-file-names-valid-regx.md)
-         - [AEM Site 出力の有効なファイル名の設定](./cs-install-guide/conf-file-names-valid-regx-aem-site-output.md)
+         - [AEM サイト出力用の有効なファイル名の設定](./cs-install-guide/conf-file-names-valid-regx-aem-site-output.md)
       - でのトピックおよびマップ テンプレート {#topic-map-template-cs} 使用する
          - [トピックとマップのテンプレートを設定](./cs-install-guide/conf-template-tags.md)
          - [カスタム DITA トピックテンプレートの設定](./cs-install-guide/conf-template-tags-custom-dita-topic-template.md)
@@ -372,6 +387,7 @@ ht-degree: 7%
          - [AI を活用したスマートヘルプを設定してコンテンツを検索](./cs-install-guide/conf-smart-help.md)
          - [タグビューのデフォルト値の設定](./cs-install-guide/configure-default-value-tags-view.md)
          - [UUID ベースのリンクの表示を設定](./cs-install-guide/conf-uuid-based-links.md)
+         - [ 貼り付けたテーブルの表示の設定 ](./cs-install-guide/conf-pasted-tables.md)
          - [DITA トピックまたはマップファイルを同じタブで開く](./cs-install-guide/open-dita-files-same-tab.md)
          - [左側のパネルでのカスタムパネルの設定](./cs-install-guide/configure-custom-panel.md)
          - [Web エディターでのファイルの自動保存の設定](./cs-install-guide/auto-save-in-editor.md)
@@ -379,11 +395,11 @@ ht-degree: 7%
          - [ファイルを閉じるときにチェックインするようにプロンプトを設定する](./cs-install-guide/conf-checkin-file-close.md)
          - [許可される特殊文字の設定](./cs-install-guide/conf-special-chars.md)
          - [要素 ID の自動生成](./cs-install-guide/auto-generate-ids.md)
-         - [AEMのデフォルトの辞書をカスタマイズ](./cs-install-guide/customize-aem-custom-dictionary.md)
+         - [AEMのデフォルトの辞書のカスタマイズ](./cs-install-guide/customize-aem-custom-dictionary.md)
          - [テキストフィルターの設定](./cs-install-guide/config-text-filters.md)
          - [ファイル参照ダイアログのフィルターの設定](./cs-install-guide/conf-custom-file-filters.md)
          - [記事ベースの公開用パッケージのインストール](./cs-install-guide/configure-article-based-publishing.md)
-         - [単一トピックPDFの生成の設定](./cs-install-guide/conf-pdf-generation-dita-ot.md)
+         - [単一トピックのPDFの生成の設定](./cs-install-guide/conf-pdf-generation-dita-ot.md)
          - [Web エディターでの翻訳機能の設定](./cs-install-guide/conf-translation-web-editor.md)
          - [データソースコネクタの設定](./cs-install-guide/conf-data-source-connector.md)
          - [ユーザーインターフェイスからのデータソースコネクタの設定](./cs-install-guide/conf-data-source-connector-tools.md)
@@ -395,11 +411,13 @@ ht-degree: 7%
          - [バージョン管理](./cs-install-guide/version-management.md)
       - デスクトップベースの XML エディターの操作 {#desktop-xml-editor}
          - [デスクトップベースの XML エディターの統合](./cs-install-guide/integrate-desktop-editors-cs.md)
+      - Workfront {#configure-workfront-cs} の設定
+         - [Workfrontの設定](./cs-install-guide/conf-workfront.md)
       - 出力生成設定の操作 {#output-gen-config-cs}
          - [出力生成設定の指定](./cs-install-guide/conf-output-generation.md)
          - [aem sites テンプレートのダウンロードとインストール](./cs-install-guide/download-install-aem-sites-templates-cs.md)
-         - [ネイティブPDF公開](./cs-install-guide/native-pdf-publishing.md)
-         - [ネイティブPDF公開用のノードプロセスの設定](./native-pdf/configure-node-options.md)
+         - [PDFのネイティブ公開](./cs-install-guide/native-pdf-publishing.md)
+         - [PDFのネイティブ公開用にノードプロセスを設定](./native-pdf/configure-node-options.md)
          - [トピックとコンテンツフラグメント間のマッピングの作成](./cs-install-guide/conf-content-fragment-mapping-cs.md)
          - [トピックとエクスペリエンスフラグメント間のマッピングの作成](./cs-install-guide/conf-experience-fragment-mapping-cs.md)
       - でのカスタムワークフロー {#custom-workflow-cs} 操作
@@ -432,11 +450,11 @@ ht-degree: 7%
       - [コンテンツの翻訳](./knowledge-base/expert-sessions/translating-content-using-aem-guides-oct22.md)
       - [ベースラインを使用したコンテンツの管理](./knowledge-base/expert-sessions/baselines-dec22.md)
       - [Web ベースコンテンツの作成](./knowledge-base/expert-sessions/webbased-authoring-jan2023.md)
-      - [ネイティブPDFの公開の基本事項](./knowledge-base/expert-sessions/native-pdf-publishing-essentials-feb23.md)
+      - [PDFへのネイティブ公開の基本事項](./knowledge-base/expert-sessions/native-pdf-publishing-essentials-feb23.md)
       - [AEM Guidesのレポート](./knowledge-base/expert-sessions/basic-reports-mar2023.md)
       - [コンテンツとテンプレートの設定](./knowledge-base/expert-sessions/content-and-template-setup-apr2023.md)
-      - [ネイティブPDFのパブリッシングの学習 – 第 1 部](./knowledge-base/expert-sessions/native-pdf-publishing-eamples-part1-june2023.md)
-      - [ネイティブPDFパブリッシングの学習 – 実践ラボ - BYOS](./knowledge-base/expert-sessions/native-pdf-publishing-hands-on-lab-sep2023.md)
+      - [PDFのネイティブパブリッシングの学習 – 第 1 部](./knowledge-base/expert-sessions/native-pdf-publishing-eamples-part1-june2023.md)
+      - [PDFのネイティブパブリッシングの学習 – 実践ラボ - BYOS](./knowledge-base/expert-sessions/native-pdf-publishing-hands-on-lab-sep2023.md)
       - [AEM Guides拡張フレームワーク](./knowledge-base/expert-sessions/guides-extension-framework-nov2023.md)
       - [外部データソース統合](./knowledge-base/expert-sessions/external-datasource-integration-dec2023.md)
       - [ガイドでのコンテンツの翻訳 – 第 2 部](./knowledge-base/expert-sessions/translating-content-using-aem-guides-part2-feb2024.md)
@@ -490,11 +508,11 @@ ht-degree: 7%
          - [データソースの統合](../product-guide/knowledge-base/kb-articles/data-source/integrate-data-sources.md)
          - [ データソースコネクタの設定 ](../product-guide/knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)
       - 公開 {#publishing}
-         - ネイティブPDF{#native-pdf}
+         - ネイティブ PDF {#native-pdf}
             - [DITA Native PDFへのカスタムフォントの追加](./knowledge-base/kb-articles/publishing/add-custom-font-native-pdf.md)
-            - [ネイティブPDF公開用のAEM環境の設定](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
+            - [PDF Native Publishing 用のAEM環境の設定](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
             - [PDFの最初のページにエンタープライズブランディングを追加](./knowledge-base/kb-articles/publishing/add-branding-to-bookmap-content-header.md)
-            - [ネイティブPDFパブリッシングでのブックマップの TOC の生成](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
+            - [Native PDF Publishing でブックマップの目次を生成する](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
          - DITA-OT {#dita-ot}
             - [プラグインでのAEM メタデータの使用](./knowledge-base/kb-articles/publishing/dita-ot/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)
             - [カスタム DITA-OT の設定](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)

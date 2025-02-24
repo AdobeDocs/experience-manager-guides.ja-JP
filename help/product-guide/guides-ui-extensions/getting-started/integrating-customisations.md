@@ -3,9 +3,9 @@ title: インストールとセットアップ
 description: AEM Guides拡張機能パッケージのインストールと使用
 role: User, Admin
 exl-id: 0304c8d0-35a8-4712-a9af-36557e3b247f
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+source-git-commit: b4d6c1c8c2d413bb4137e58391554abf2fb68b8c
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '356'
 ht-degree: 1%
 
 ---
@@ -56,6 +56,11 @@ npx @adobe/create-guides-extension
 型：`String []`
 値：`apps.fmdita.review_overrides`、`apps.fmdita.xml_editor.page_overrides`
 
+>[!NOTE]
+>
+> 最後から 2 番目の UI の場合、値は `apps.fmdita.penultimate.xml_editor.page_overrides` および `apps.fmdita.review_overrides` になります
+
+
 ![ フォルダーのプロパティ ](./../imgs/crxde_folder_properties.png)
 
 - ビルドされた js を追加するには、新しいファイル（例：上記で作成されたノードの `tcx1.js`）を作成します。 ここでは、`dist/guides-extension.umd.cjs` または `dist/guides-extension.js` からコードを追加します。 次に、`js.txt` という新しいファイルを作成します。ここでは、js ファイルの名前を追加します。この場合、名前は次のようになります。
@@ -78,5 +83,5 @@ tcx1.css
 
 上記のすべての手順が正しく実行されていることを確認します。
 コードを tcx.js に追加した後、必ずハードリフレッシュ（shift+refresh）を実行してください。
-次に、AEMを開き、右クリックして「`Inspect`」をクリックします。
+次に、AEMを開き、右クリックして「`Inspect`」をクリックします
 ソースに移動し、`[node_name].js` （例：extensions.js）ファイルを検索します。 Control / Cmd + D を実行してファイルを検索します。 `dist/guides-extension.umd.cjs` または `dist/guides-extension.js` から貼り付けた JS コードを含んだ `.js` ファイルが存在する場合、セットアップは完了です

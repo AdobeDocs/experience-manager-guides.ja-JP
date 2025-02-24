@@ -1,25 +1,23 @@
 ---
-user-guide-title: Experience Manager Guides（従来）
+user-guide-title: Experience Manager Guides旧 UI
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
 hide: true
-badgeAll: label="レガシーガイド – 詳細情報" type="Informative" url="/help/legacy-product-guide/legacy.md" tooltip="レガシーガイド"
-source-git-commit: 328f74790de401c0595bcc4009110bc36f5104bf
+badgeAll: label="古い UI ガイド – 詳細情報" type="Informative" url="/help/legacy-product-guide/disclaimer.md" tooltip="古い UI ガイド"
+source-git-commit: e1d6123991ddd8d25f76ee03befeb95f020a9834
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '550'
 ht-degree: 6%
 
 ---
 
 
-# [!DNL Adobe Experience Manager Guides (Legacy)] {#using-legacy}
+# [!DNL Adobe Experience Manager Guides Old UI] {#using-old-ui}
 
+- [免責事項](disclaimer.md)
 - [[!DNL AEM Guides] の概要](overview.md)
-- [レガシーについて](legacy.md)
-- [ リリースノート（プライマリガイド） ](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/release-info/aem-guides-releases-roadmap){target="_blank"}
-
-- ユーザーガイド {#user-guide}
-
+- [ リリース情報 ](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/release-info/aem-guides-releases-roadmap){target="_blank"}
+- ユーザーガイド（古い UI） {#user-guide}
    - 概要 {#about-aem-guide}
       - [概要  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides] の作業と主な機能 {#aemg-works-features}
@@ -31,18 +29,14 @@ ht-degree: 6%
       - [ファイルとフォルダーの管理](./user-guide/authoring-file-management.md)
       - [ファイルをダウンロード](./user-guide/authoring-download-assets.md)
    - Author Content {#author-content}
-
       - [オーサリングの概要](./user-guide/authoring-content.md)
       - トピックの作成とプレビュー {#create-preview-topics}
-
          - [トピックの作成とプレビュー](./user-guide/create-preview-topics.md)
          - [トピックの作成](./user-guide/web-editor-create-topics.md)
          - [トピックのプレビュー](./user-guide/web-editor-preview-topics.md)
          - Author content {#author-content-aem-guides}
-
             - [AEM Guidesを使用したコンテンツのオーサリング方法](./user-guide/authoring-content-xml-doc.md)
             - Web エディター {#work-with-web-editor}
-
                - [Web エディターの操作](./user-guide/web-editor.md)
                - [Web エディターの起動](./user-guide/web-editor-launch-editor.md)
                - [Web エディターでのトピックの編集](./user-guide/web-editor-edit-topics.md)
@@ -52,7 +46,6 @@ ht-degree: 6%
                - [Web エディタービュー](./user-guide/web-editor-views.md)
                - [Schematron ファイルのサポート](./user-guide/support-schematron-file.md)
                - [コンテンツを作成するための AI を活用したスマートな提案](./user-guide/authoring-ai-based-smart-suggestions.md)
-
                - [Web エディターからの Markdown ドキュメントの作成](./user-guide/web-editor-markdown-topic.md)
                - [コンテンツへの引用文献の追加](./user-guide/web-editor-apply-citations.md)
                - [データソースからのデータの使用](./user-guide/web-editor-content-snippet.md)
@@ -66,7 +59,6 @@ ht-degree: 6%
                - [Web エディターからのベースラインの作成と管理](./user-guide/web-editor-baseline.md)
                - [ドキュメントの状態](./user-guide/web-editor-document-states.md)
                - [ラベルを使用](./user-guide/web-editor-use-label.md)
-
             - マップ エディタ {#work-with-map-editor}
                - [マップ エディタを使用する](./user-guide/map-editor.md)
                - [マップの作成](./user-guide/map-editor-create-map.md)
@@ -76,12 +68,10 @@ ht-degree: 6%
                - [マップ エディタのその他の機能](./user-guide/map-editor-other-features.md)
             - DITAVAL エディタ {#ditaval-editor}
                - [DITAVAL エディタの操作](./user-guide/ditaval-editor.md)
-
          - コンテンツ {#author-using-desktop-tools} ータをオーサリングするためのデスクトップツール
             - [デスクトップツールを使用したコンテンツの作成](./user-guide/author-desktop-tools.md)
             - [FrameMakerの操作](./user-guide/author-desktop-framemaker.md)
             - [酸素の操作](./user-guide/author-desktop-oxygen.md)
-
    - Review content {#review-topic-maps}
       - [トピックまたはマップのレビュー](./user-guide/review.md)
       - [DITA プロジェクトの作成](./user-guide/authoring-create-dita-project.md)
@@ -123,20 +113,20 @@ ht-degree: 6%
       - [ベースラインの操作](./user-guide/generate-output-use-baseline-for-publishing.md)
       - [マップコンソールから DITA マップの出力を生成](./user-guide/generate-output-for-a-dita-map.md)
       - [出力生成にマップ コレクションを使用](./user-guide/generate-output-use-map-collection-output-generation.md)
-      - [Publish ダッシュボードを使用した公開タスクの管理](./user-guide/generate-output-publish-dashboard.md)
+      - [公開ダッシュボードを使用した公開タスクの管理](./user-guide/generate-output-publish-dashboard.md)
       - [基本的なトラブルシューティング](./user-guide/generate-output-basic-troubleshooting.md)
       - [コンテンツフラグメントの公開](./user-guide/publish-content-fragment.md)
-      - [Publish エクスペリエンスフラグメント](./user-guide/publish-experience-fragment.md)
+      - [エクスペリエンスフラグメントの公開](./user-guide/publish-experience-fragment.md)
       - コンテンツア {#bulk-activation} ットの一括アクティベーション
          - [公開済みコンテンツの一括アクティベーション](./user-guide/conf-bulk-activation.md)
          - [一括アクティベーションマップコレクションの作成](./user-guide/conf-bulk-activation-create-map-collection.md)
          - [出力を有効化](./user-guide/conf-bulk-activation-publish-map-collection.md)
          - [一括アクティベーションマップコレクションを編集](./user-guide/conf-bulk-activation-edit-map-collection.md)
          - [一括有効化マップコレクションを削除](./user-guide/conf-bulk-activation-delete-map-collection.md)
-   - FrameMakerドキュメントの出力の生成 {#generate-fm-output}
-      - [FrameMakerドキュメントの出力の生成](./user-guide/fm-output-generatation.md)
+   - FrameMaker ドキュメントの出力生成 {#generate-fm-output}
+      - [FrameMaker ドキュメントの出力の生成](./user-guide/fm-output-generatation.md)
       - でサポートされるプリセット {#fm-docs-generating-presets}
-         - [FrameMakerドキュメントを生成するためのプリセット](./user-guide/fm-output-understand-presets.md)
+         - [FrameMaker ドキュメントを生成するためのプリセット](./user-guide/fm-output-understand-presets.md)
          - [PDF](./user-guide/fm-output-pdf-preset.md)
          - [HTML5](./user-guide/fm-output-html5-preset.md)
          - [EPUB](./user-guide/fm-output-epub-preset.md)
@@ -149,76 +139,4 @@ ht-degree: 6%
       - [コンテンツ再利用レポート](./user-guide/reports-content-reuse.md)
       - [コンバージョンステータスレポート](./user-guide/reports-convertion-status.md)
       - [元に戻したファイルのバージョン履歴レポート](./user-guide/reports-reverted-file-version-history.md)
-
-<!--
-  - Articles {#kb-articles}
-
-    - Use native PDF publishing feature {#web-editor}
-      - [Publish PDF output](./web-editor/native-pdf-web-editor.md)
-      - [Configure additional special characters](./web-editor/configure-additional-special-characters.md)
-
-    - Authoring {#authoring}
-      - Web Editor {#webeditor}
-        - [Content re-usability in AEM Guides](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
-        - Customizing {#customizing}
-          - [Add custom button to toolbar](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
-          - [Add custom styles to Web Editor](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
-          - [Customize Folder ContextMenu](./knowledge-base/kb-articles/authoring/webeditor/customization/hide-create-ditamap-webeditor.md)
-          - [Customize File ContextMenu](./knowledge-base/kb-articles/authoring/webeditor/customization/remove-delete-from-webeditor.md)
-        - Schematron {#schematron}
-          - [Schematron Validation](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
-      - Reports {#reports}
-        - [Manage metadata for your DITA content](./knowledge-base/kb-articles/authoring/reports/manage-metadata.md)
-      - [Define icon for custom dita types](./knowledge-base/kb-articles/authoring/define-icon-for-custom-ditatypes.md)
-    - Guides Extention Framework {#extention-framework}
-      - Aem Guides Framework {#aem-guides-framework}
-        - [Basic Customisations](./guides-ui-extensions/aem_guides_framework/basic-customisation.md)
-        - [JUI Framework](./guides-ui-extensions/aem_guides_framework/jui-framework.md)
-        - Components {#framework-components}
-          - [Button](./guides-ui-extensions/aem_guides_framework/components/button.md)
-          - [Icon](./guides-ui-extensions/aem_guides_framework/components/icon.md)
-          - [Label](./guides-ui-extensions/aem_guides_framework/components/label.md)
-          - [List](./guides-ui-extensions/aem_guides_framework/components/list.md)
-          - [Textarea](./guides-ui-extensions/aem_guides_framework/components/textarea.md)
-        - Widgets {#framework-widgets}
-          - [Rendering Widgets](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
-          - [Basic Widgets](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
-      - Getting Started {#getting-started}
-        - [Introduction](./guides-ui-extensions/getting-started/introduction.md)
-        - [Installation guide](./guides-ui-extensions/getting-started/integrating-customisations.md)
-        - [Extension Repositry intro](./guides-ui-extensions/getting-started/extension-repo-intro.md)
-      - Customisations {#customisations}
-        - [Simple customisation](./guides-ui-extensions/customisations/add-button.md)
-        - [Customising Context Menus](./guides-ui-extensions/customisations/context-menus.md)
-        - [Customising Toolbar & Topbar](./guides-ui-extensions/customisations/toolbar-topbar.md)
-        - [Examples](./guides-ui-extensions/examples.md)
-        - [Customisable Jsons](./guides-ui-extensions/JSONs.md)
-        - Review{#review-app-customisations}
-          - [Components](./guides-ui-extensions/customisations/ReviewApp/components.md)
-          - [Customising](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
-          - [Custom Dialog](./guides-ui-extensions/customisations/ReviewApp/custom-dialog.md)
-    - Publishing {#publishing}
-
-      - [Configuring AEM Environment for Native PDF Publishing](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
-
-      - [Generate Bookmap's TOC in Native PDF Publishing](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
-
-      - [FMPS and Guides](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
-      - [Microservice architecture and performance](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
-      - [Configure microservice-based publishing with JWT authentication](./knowledge-base/publishing/configure-microservices.md)
-      - [Configure microservice-based publishing with OAuth authentication](./knowledge-base/publishing/configure-microservices-imt-config.md)
-
-      - [Publishing benchmarks on AEM cloud](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
-      - [Set up a custom DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
-
-    - Workflows {#workflows}
-      - [Post Generation Workflow](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
-    - Translation {#translation}
-      - [Exclude paragraphs from translation](./knowledge-base/kb-articles/translation/exclude-paragraphs-from-translation.md)
-    - Use Cases {#use-cases}
-      - [Working with conditional content](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
-      - [Working with keys](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
-
-  - [Use Oxygen Connector](./oxygen-connector/use-aem-connector.md)
-
--->
+- [ ユーザーガイド（新しい UI） ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/about-aem-guide/intro)

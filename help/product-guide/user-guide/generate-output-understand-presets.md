@@ -1,30 +1,32 @@
 ---
 title: 出力プリセットについて
-description: AEM Guidesの出力プリセットを理解する AEM サイト、PDF、HTML 5、EPUB、カスタムおよび JSON 形式の出力プリセットを、Web エディターとマップダッシュボードで作成できます。
+description: AEM Guidesの出力プリセットを理解する AEM サイト、PDF、HTML5、EPUB、カスタムおよび JSON 形式について、Web エディターおよびマップダッシュボードからの出力プリセットを作成する。
 exl-id: 8eaf0765-8b66-47d6-9c40-888495baa711
 feature: Publishing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 0%
+source-wordcount: '223'
+ht-degree: 1%
 
 ---
 
 # 出力プリセットについて {#understanding_output_settings}
 
-AEM Guidesは、AEM サイト、PDF、ナレッジベース、HTML 5、EPUB、JSON などの最も一般的な形式での出力の作成と、DITA-OT、ネイティブPDF、FMPS を通じたカスタム出力をサポートしています。 これらの出力形式を使用すると、様々な出力プリセットを設定できます。 出力プリセットは、コンテンツを公開する際のカスタマイズされた出力形式を表します。
+Experience Manager Guidesは、AEM Sites、PDF、ナレッジベース、HTML5、EPUB、JSON などの最も一般的な形式での出力の作成と、DITA-OT、Native PDF、FMPS を通じたカスタム出力をサポートしています。 これらの出力形式を使用すると、様々な出力プリセットを設定できます。 ここで、出力プリセットは、コンテンツを公開する際のカスタマイズされた出力形式を表します。
 
-次の節では、サポートされる出力形式で使用できるオプションについて説明します。
+出力プリセットは、次の 2 つの方法で作成および管理できます。
 
-プリセットは、次の 2 つの方法で作成できます。
+- **マップコンソールから**:AEM Sites、PDF、ナレッジベース、HTML5、カスタムおよび JSON 出力プリセットを作成し、それぞれの出力を生成できます。
+- **マップダッシュボードから**:AEM Sites、PDF、HTML5、EPUBおよびカスタム出力プリセットを作成し、それぞれの出力を生成できます。
 
-- **Web エディターから**:AEM サイト、PDF、ナレッジベース、HTML 5、カスタムおよび JSON 出力プリセットを作成し、それぞれの出力を生成できます。
-- **マップダッシュボードから**:AEM サイト、PDF、HTML 5、EPUBおよびカスタム出力プリセットを作成し、それぞれの出力を生成できます。
+詳しくは、出力プリセットの作成 [ 編集、複製、削除 ](./generate-output-create-edit-preset.md) を参照してください。
 
-次の節では、サポートされる出力形式で使用できるオプションについて説明します。
+## Experience Manager Guidesでサポートされている出力プリセットのタイプ
 
-- **[AEM サイト](generate-output-aem-site.md)**
+サポートされている出力形式では、次のプリセットオプションを使用できます。
+
+- **[AEM Sites](generate-output-aem-site.md)**
 
 - **[PDF](generate-output-pdf.md)**
 

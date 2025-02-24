@@ -3,7 +3,8 @@ title: AEM Guidesの仕組み
 description: AEM GuidesがAEMやその他の DITA エディターと連携して、エンタープライズシナリオでのコンテンツ管理、再利用、翻訳、レビューを強化する方法を説明します。
 feature: Introduction
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+exl-id: 531f7d2c-7b11-44b1-b4af-d3f660066643
+source-git-commit: cbcb55fc239d9469de45a224f14361db14ec5f76
 workflow-type: tm+mt
 source-wordcount: '68'
 ht-degree: 0%
@@ -17,4 +18,4 @@ ht-degree: 0%
 ![](images/xml-add-on-how-it-works.png){width="800" align="center"}
 
 
-**親トピック：**[ Adobe Experience Manager Guidesのas a Cloud Serviceについて ](intro.md)
+**親トピック：**[ Adobe Experience Manager Guides as a Cloud Serviceについて ](../user-guide/intro.md)

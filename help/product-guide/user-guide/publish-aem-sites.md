@@ -1,35 +1,29 @@
 ---
-title: AEM Sites ページへのトピックのPublish
-description: トピックまたはトピック内の要素をAdobe Experience Manager Sites出力にPublishします。  トピックに存在するExperience Manager Sites ページを表示して再公開する方法を説明します。
+title: AEM Sites ページへのトピックの公開
+description: トピックまたはトピック内の要素をAdobe Experience Manager Sites出力に公開します。  トピックに存在するExperience Manager Sites ページを表示して再公開する方法を説明します。
 feature: Publishing
 role: User
-source-git-commit: 05c3e5e6f3c6aea4b3e3f3a52af5810307f1f29b
+exl-id: acbc48b7-93a2-41c6-8565-359fbbdd1fb9
+source-git-commit: 144ecbea83b2c649a00c6b88e533327f3ce111f4
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
 
-# Publish Adobe Experience Manager Sitesのページ
+# Adobe Experience Manager Sitesページの公開
 
 
 Experience Manager Sitesページとは、Adobe Experience Manager web サイトで公開されるコンテンツを指します。 Experience Manager Guidesでは、スタンドアロントピックを Sites ページに公開できます。
 
 この機能を使用すると、DITA マップと出力プリセットを作成せずに、トピックとそのエレメントを公開できます。 トピックを簡単に更新し、Sites ページを再公開し、様々な web ページで再利用できます。 この機能を使用すると、スタンドアロンの記事やマーケティングコンテンツを簡単に公開できます。
 
-
-
-
-
 Sites ページを生成するには、次の手順を実行します。
 
 
-
-
-1. トピックの **ファイルのプロパティ** の **出力** セクションから、「**新規出力 ](./images/Add_icon.svg)![ 新規出力アイコン** を選択します。
+1. エディターでトピックを開き、右側のパネルから「ファイルプロパティ」を選択します。
+1. 「**出力**」セクションから ![ 新規出力 ](./images/Add_icon.svg) アイコン **新規出力アイコン** を選択します。
 1. **Sites ページ** を選択します。
-
-
 1. **サイトのページを生成** ダイアログボックスで、次の詳細を入力します。
    ![ サイトを生成ページでパスとテンプレートの詳細を追加する ](images/aem-sites-page-generate.png){width="500" align="left"}
 
@@ -54,15 +48,12 @@ Sites ページを生成するには、次の手順を実行します。
 
 
 
-1. 「**生成**」をクリックして、Sites ページを公開します。
+1. 「**生成**」を選択して、Sites ページを公開します。
 1. トピックの Sites ページは、「**ファイルのプロパティ** の「**出力**」セクションで確認できます。 サイトページは、公開の日時に応じて、最新のページが最初に表示されます。
 
-   ![ トピックの Sites ページを表示 ](images/aem-sites-outputs.png){width=300 align=&quot;left&quot;}
+   ![ トピックの Sites ページを表示 ](images/aem-sites-output-new.png){width=300 align=&quot;left&quot;}
 
    *トピックに関して存在する Sites ページを表示し、それらを再公開します*。
-
-
-
 
 Sites ページを公開すると、任意のAdobe Experience Manager サイトでも使用できます。
 

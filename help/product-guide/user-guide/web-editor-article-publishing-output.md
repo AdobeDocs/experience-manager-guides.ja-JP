@@ -4,14 +4,18 @@ description: AEM Guidesのリポジトリーパネルまたはマップビュー
 exl-id: f7a4be54-9c51-44e6-96bb-f25e3a6155da
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: a02a7310f5e332f88827a9d5a05034abec05b43a
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
 
 # リポジトリパネルまたはマップビューパネルからの出力を生成します。 {#id218CL6010AE}
+
+>[!NOTE]
+>
+> 以前はAdobe Experience Manager Guidesで使用できた Quick Generate パネルは、バージョン 4.0 および 2502 から非推奨（廃止予定）になりました。 [ クイック生成 ] パネルにアクセスして、[ リポジトリ ] パネルまたは [ マップ ビュー ] パネルから出力を生成することはできません。
 
 また、DITA マップ用に作成した出力プリセットを使用して、リポジトリパネルまたはマップビューパネルから出力を生成することもできます。
 
@@ -23,7 +27,7 @@ ht-degree: 0%
 
 - マップビューパネル内の **出力を生成** 機能を使用して、選択した複数のトピックの出力を生成します。
 
-## Publish 1 つ以上の DITA マップで使用されるトピック
+## 1 つまたは複数の DITA マップで使用されるトピックをパブリッシュする
 
 次の手順を実行して、DITA マップ内の 1 つ以上のトピックの出力を生成します。
 

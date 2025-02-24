@@ -4,9 +4,9 @@ description: AEM Guidesでスマートタグを追加する方法を説明しま
 exl-id: 7fb4b881-0898-44eb-a0e8-85cb99d9593b
 feature: Metadata Management
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 9898f98d897da4da9ca76a89efd262239606ac2e
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 > スマートタグ付け機能は初期設定では使用できず、システム管理者に相談する必要があるカスタム実装が必要になります。
 
-AEM Guidesには、スマートタグを追加する機能が付属しています。 XML キーワード抽出ツールを使用して、スマートタグを抽出できます。 このツールは、人工知能を使用してコンテンツを理解し、関連するキーワードを提供します。 スマートタグを使用すると、検索エンジンの最適化\（SEO\）を改善し、ユーザーが関連コンテンツを見つけやすくなります。
+Adobe Experience Manager Guidesには、スマートタグを追加する機能が付属しています。 XML キーワード抽出ツールを使用して、スマートタグを抽出できます。 このツールは、人工知能を使用してコンテンツを理解し、関連するキーワードを提供します。 スマートタグを使用すると、検索エンジンの最適化\（SEO\）を改善し、ユーザーが関連コンテンツを見つけやすくなります。
 
 スマートタグを作成するには、次の手順を実行します。
 
@@ -27,7 +27,7 @@ AEM Guidesには、スマートタグを追加する機能が付属していま�
 
    ![](images/smart-tag-reprocess-asset.png){width="300" align="left"}
 
-1. 「Post プロセスを実行」オプションを選択します。 ツールが正常に開始すると、メッセージが表示されます。
+1. 「後処理の実行」オプションを選択します。 ツールが正常に開始すると、メッセージが表示されます。
 1. タグが自動的に抽出され、選択したトピックのプロパティページに表示されます。
 
    ![](images/properties-smart-tags.png){width="800" align="left"}

@@ -4,9 +4,9 @@ description: AEM Guidesの DITA マップで、各トピックの翻訳ステー
 exl-id: 6ed30bc6-3030-40fd-987a-928fd5b06ee6
 feature: Translation
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,15 @@ DITA マップ内の各トピックの翻訳ステータスと翻訳済み言語
 
 DITA マップの翻訳ステータスを表示するには、以下の手順を実行します。
 
-1. ソース言語コピーの DITA マップファイルに移動します。
-1. 「**翻訳**」タブをクリックします。
-1. 左側の **フィルター** パネルで、ステータスを確認する **翻訳言語** を選択し、「**完了**」をクリックします。
+1. エディタの **マップコンソール** を使用して、必要な DITA マップファイルに移動します。
+1. 「**翻訳**」タブを選択します。
+1. 左側の **翻訳** パネルで、ステータスを確認する言語を **使用可能な言語** リストからチェックインして、「**適用**」を選択します。
+1. ターゲット言語が選択されたトピックがすべて、   翻訳ステータス。
 
    >[!NOTE]
    >
-   > さらに、翻訳ステータス \（Out of Sync Missing Copy、In Progress、または In sync\）、Sourceタイプ \（as All、DITA、DITA map、または Resource\）、変更日に基づいてコンテンツをフィルタリングできます。 キーワードを入力して、特定のトピックを検索することもできます。
+   > さらに、翻訳ステータス \（Out of Sync Missing Copy、In Progress、または In sync\）、Sourceタイプ \（as All、DITA、DITA map、または Resource\）、および変更日に基づいて、コンテンツをフィルタリングできます。 さらに、キーワードを入力して、特定のトピックを検索できます。 **更新** を使用すると、変更があった場合にステータスを更新できます。
 
-**親トピック：**[ コンテンツを翻訳 ](translation.md)
+   ![](images/translation-status-new.png){width="800" align="left"}
+
+**親トピック：**[ コンテンツ翻訳の概要 ](translation.md)

@@ -4,14 +4,19 @@ description: AEM Guidesの quick generate パネルを使用します。 クイ�
 exl-id: 5de04980-91d7-4bbc-a4b7-9bfd60ccf3c7
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: a02a7310f5e332f88827a9d5a05034abec05b43a
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
 
 # 「クイック生成」パネルを使用して出力を生成および表示する {#id22AKE050F5L}
+
+>[!NOTE]
+>
+> 以前はAdobe Experience Manager Guidesで使用できた Quick Generate パネルは、バージョン 4.0 および 2502 から非推奨（廃止予定）になりました。 「クイック生成」パネルにアクセスして出力を生成および表示することはできません
+
 
 AEM Guidesには、web エディター内に統合された **クイック生成** パネルが用意されています。 このパネルを使用すると、DITA マップ用に作成された出力プリセットの出力を同時に生成できます。 1 つ以上のプリセットの出力を生成することも、DITA マップ用に作成されたすべてのプリセットの出力を生成することもできます。 **クイック生成** パネルを使用して、プリセット用に生成された出力を後で表示することもできます。
 

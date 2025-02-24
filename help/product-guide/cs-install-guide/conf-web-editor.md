@@ -5,9 +5,9 @@ exl-id: 9a52ba17-68c0-4552-aae6-e89bc5d3ac6f
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: ede91932959b952a47c890269695a69a2edab523
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ AEM Guidesには、作成者が DITA 文書を作成および編集できる強�
 
 - [ツールバーのカスタマイズ](conf-web-editor-customize-toolbar.md#)
 - [Web エディターでのファイルの自動保存の設定](auto-save-in-editor.md#)
-- [AEMのデフォルトの辞書をカスタマイズ](customize-aem-custom-dictionary.md#)
+- [AEMのデフォルトの辞書のカスタマイズ](customize-aem-custom-dictionary.md#)
 - [要素 ID の自動生成](auto-generate-ids.md#)
 - [許可される特殊文字の設定](conf-special-chars.md#)
 - [ファイル参照ダイアログのフィルターの設定](conf-custom-file-filters.md#)
@@ -29,6 +29,8 @@ AEM Guidesには、作成者が DITA 文書を作成および編集できる強�
 - **[タグビューのデフォルト値の設定](configure-default-value-tags-view.md)**
 
 - **[UUID ベースのリンクの表示を設定](conf-uuid-based-links.md)**
+
+- **[貼り付けたテーブルの表示の設定](conf-pasted-tables.md)**
 
 - **[同じタブで DITA トピックまたはマップファイルを開く](open-dita-files-same-tab.md)**
 
@@ -52,10 +54,12 @@ AEM Guidesには、作成者が DITA 文書を作成および編集できる強�
 
 - **[記事ベースの公開用パッケージのインストール](configure-article-based-publishing.md)**
 
-- **[単一トピックPDFの生成の設定](conf-pdf-generation-dita-ot.md)**
+- **[単一トピックのPDFの生成の設定](conf-pdf-generation-dita-ot.md)**
 
 - **[Web エディターでの翻訳機能の設定](conf-translation-web-editor.md)**
 
 - **[詳細マップ エディタを既定値として設定](conf-map-editor.md)**
 
 - **[デフォルト@navtitle 属性を含める](auto-add-navtitle.md)**
+
+

@@ -1,19 +1,19 @@
 ---
-title: Web エディターのキーボードショートカット
+title: エディターのキーボードショートカット
 description: AEM Guidesの web エディターで、時間を節約するキーボードショートカットを確認します。
 exl-id: d843c5a9-04f8-44f2-9bf5-60cb4ed7fa38
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 33da473cfa8c654a5413f9d8cbe9c43acaf65766
+source-git-commit: e5f4dc964a31d3bc23db166ee391e5e3550d8cbc
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '357'
 ht-degree: 2%
 
 ---
 
-# Web エディターのキーボードショートカット {#id2056B0A0WHT}
+# エディターのキーボードショートカット {#id2056B0A0WHT}
 
-Web エディターには、キーボードショートカットを使用して実行できる操作が多数あります。 次の表に、これらのキーボードショートカットを示します。
+エディターには、キーボードショートカットを使用して実行できる操作が多数あります。 次の表に、これらのキーボードショートカットを示します。
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ Web エディターには、キーボードショートカットを使用して�
 | 現在のエディターにフォーカス | **Ctrl***+**Shift**+***0*** | ***Command***+**Shift**+***0*** |
 | オーサービューまたはSourceビューでドキュメントを保存 | ***Ctrl***+**Shift**+***S*** | ***Command***+**Shift**+***S*** |
 | オーサービューまたはSourceビューで開いたすべてのドキュメントを保存 | ***Ctrl***+***S*** | ***Command***+***S*** |
-| 要素の挿入ダイアログを表示 | ***Alt***+***Enter*** | ***Option***+***Enter*** |
+| 要素の挿入ダイアログを表示 | ***Alt***+***1*** | ***Option***+***Enter*** |
 | 選択した要素の前に要素を挿入する [ 要素を挿入 ] ダイアログ ボックスを表示 | ***Alt***+***Shift***+***Enter*** | ***Option***+***Shift***+***Enter*** |
 | カーソルを 1 単語左に移動します。 | ***Ctrl***+***左向き矢印*** | ***Option***+***左矢印*** |
 | カーソルを 1 単語右に移動します。 | ***Ctrl***+***右矢印*** | ***Option***+***右矢印*** |

@@ -1,39 +1,41 @@
 ---
 title: マップ エディタを使用する
-description: AEM Guidesでマップエディタを使用します。 AEM マップエディターでマップファイルを作成および編集する方法を説明します。
+description: AEM Guidesでマップエディタを使用します。 AEM マップエディターでマップファイルを作成および編集する方法について説明します。
 exl-id: 1c780ae2-6917-474f-8222-cb93807426e2
 feature: Authoring, Map Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 594e348fc1188e66cf2f4648702ed2b17f1f8f33
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
 
-# マップ エディタを使用する {#id181OF0M30Y4}
+# マップエディターの概要 {#id181OF0M30Y4}
 
-AEM Guidesのマップエディタを使用すると、マップファイルを作成および編集できます。 マップ エディタを使用して、DITA マップとブックマップの 2 種類のファイルを編集できます。 これらのファイルは、**作成** \> **DITA Map** ワークフローを使用して作成できます。 独自のマップ テンプレートを作成し、カスタム テンプレートに基づいてマップを作成することもできます。 これらのテンプレートは、テンプレート選択ブループリントと web エディターに表示するために、フォルダープロファイルに追加する必要があります。
+Adobe Experience Manager Guidesのマップエディタを使用すると、マップファイルを作成および編集できます。 マップ エディタを使用して、DITA マップとブックマップの 2 種類のファイルを編集できます。 これらのファイルは、**作成** \> **DITA Map** ワークフローを使用して作成できます。 独自のマップ テンプレートを作成し、カスタム テンプレートに基づいてマップを作成することもできます。 これらのテンプレートは、テンプレート選択ブループリントとエディターに表示するために、フォルダープロファイルに追加する必要があります。
 
-グローバルおよびフォルダープロファイル設定は、フォルダーレベルの管理者ユーザーのみが使用できます。 グローバルプロファイルおよびフォルダーレベルのプロファイルの設定について詳しくは、お使いの設定に合わせたAdobe Experience Manager Guidesのインストールと設定の *オーサリングテンプレートの設定* を参照してください。
+グローバルプロファイルおよびフォルダープロファイルの設定は、フォルダーレベルの管理者ユーザーのみが使用できます。 グローバルプロファイルおよびフォルダーレベルのプロファイルの設定について詳しくは、Adobe Experience Manager Guidesのインストールと設定の *オーサリングテンプレートの設定* を参照してください。
 
-マップ エディタには、基本マップ エディタと詳細マップ エディタの 2 つのモードがあります。 基本マップエディタは、設定によってのみ使用できます。 管理者が有効にしている場合は、基本マップエディタのみを使用できます。 既定では、すべての新しいマップが開き、拡張マップ エディタで編集できます。 高度なマップエディタは、DITA トピックファイルの編集に使用する Web エディタ自体で使用できます。
+<!------------------------------------
 
-このトピックでは、DITA マップを作成し、高度なマップエディタと基本マップエディタを使用してマップファイルを編集する手順について説明します。
+The Map Editor comes in two modes — the Basic Map Editor and the Advanced Map Editor. The Basic Map Editor is available only through configuration. If your administrator has enabled it, then only the Basic Map Editor will be available for use. By default, all new maps are opened for editing in the Advanced Map Editor. The Advanced Map Editor is available within the Editor itself, which is used for editing DITA topic files.
+
+-------->
+
+このトピックでは、DITA マップを作成し、マップエディタを使用してマップファイルを編集する手順について説明します。
 
 >[!TIP]
 >
-> マップエディタの操作に関するベストプラクティスについては、『ベストプラクティス集』の *マップエディタ* の節を参照してください。
+> 『ベスト プラクティス ガイド』の *マップ エディタ* のセクションを参照し、マップ エディタの操作に関するベスト プラクティスを確認してください。
 
 - **[マップを作成する](map-editor-create-map.md)**
 
 - **[カスタマイズされたテンプレートに基づいてマップを作成する](create-maps-customized-templates.md)**
 
-- **[高度なマップエディターの操作](map-editor-advanced-map-editor.md)**
+- **[マップ エディタの機能](map-editor-advanced-map-editor.md)**
 
-- **[基本マップエディタの操作](map-editor-basic-map-editor.md)**
-
-- **[マップ エディタのその他の機能](map-editor-other-features.md)**
+- **[マップエディタのその他の機能](map-editor-other-features.md)**
 
 
 **親トピック：**[ AEM Guidesを使用してコンテンツを作成する ](authoring-content-xml-doc.md)

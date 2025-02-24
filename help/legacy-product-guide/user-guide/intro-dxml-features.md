@@ -1,9 +1,10 @@
 ---
 title: AEM Guidesの主な機能
-description: AEM Guides、DITA オーサリング、コンテンツ管理、Web ベースレビュー、FrameMaker、ローカリゼーション、マルチチャネルパブリッシング、翻訳の統合などの主な機能について説明します。
+description: AEM Guides、DITA オーサリング、コンテンツ管理、web ベースレビュー、翻訳、ローカリゼーション、マルチチャネルパブリッシング、FrameMakerの統合などの主な機能について説明します。
 feature: Introduction
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+exl-id: b3e17f62-70d0-470e-9e52-73489510c62f
+source-git-commit: cbcb55fc239d9469de45a224f14361db14ec5f76
 workflow-type: tm+mt
 source-wordcount: '938'
 ht-degree: 0%
@@ -19,7 +20,7 @@ ht-degree: 0%
 
 また、AEM ツールバーおよび web エディターで使用できる新しいオプションからファイルをチェックアウトおよびチェックインすることもできます。
 
-組織が特殊な形式の DITA を使用している場合、Web エディタをカスタマイズして特殊な DITA 文書を作成および編集できます。 DITA 特殊化の使用について詳しくは、「Adobe Experience Manager Guidesas a Cloud Serviceのインストールと設定」の *カスタム DITA-OT および DITA 特殊化の使用* を参照してください。
+組織が特殊な形式の DITA を使用している場合、Web エディタをカスタマイズして特殊な DITA 文書を作成および編集できます。 DITA 特殊化の使用方法について詳しくは、「Adobe Experience Manager Guides as a Cloud Serviceのインストールと設定」の *カスタム DITA-OT および DITA 特殊化の使用* を参照してください。
 
 現在、組み込みエディタは次の DITA 標準をサポートしています。
 
@@ -47,7 +48,7 @@ Adobe Experience Managerには、主要な翻訳プロバイダー向けのビ�
 **DITA コンテンツのクラス最高のマルチチャネルパブリッシング**
 市場投入までの時間を短縮するシームレスなワンタッチアプローチにより、エンタープライズコンテンツのパブリッシングを効率化します。
 
-Experience Managerに追加されたネイティブ DITA サポートを使用して、Experience Manager Sites、PDF、HTML5、EPUBS、またはカスタム出力の出力を DITA-OT から生成します。 完全に設定可能な出力を活用して、エンドユーザーに対して高度にパーソナライズされた、関連性の高い、没入感のあるコンテンツエクスペリエンスを提供できます。 また、バッチ生成を簡単に実行したり、ベースラインを使用してドキュメントの特定のバージョンを公開したりすることもできます。
+Experience Managerに追加されたネイティブ DITA サポートを使用して、DITA-OT からExperience Manager Sites、PDF、HTML5、EPUBS、またはカスタム出力の出力を生成します。 完全に設定可能な出力を活用して、エンドユーザーに対して高度にパーソナライズされた、関連性の高い、没入感のあるコンテンツエクスペリエンスを提供できます。 また、バッチ生成を簡単に実行したり、ベースラインを使用してドキュメントの特定のバージョンを公開したりすることもできます。
 
 **包括的な検索およびコンテンツ使用状況データ**
 関連するコンテンツをすばやく見つけて選択し、再利用するたびにコンテンツの ROI を最大化します。 DITA オーサリングツール内のシンプルなインタフェースを使用して、リポジトリ全体でコンテンツ属性とトピックメタデータを使用した基本検索とアドバンス検索を実行します。 結果にはコンテンツ使用状況データがタグ付けされるので、最適な再利用のために適切なコンテンツを簡単に識別して選択できます。
@@ -56,14 +57,14 @@ Experience Managerに追加されたネイティブ DITA サポートを使用�
 公開前にコンテンツを簡単に確認および修正できるので、公開がエラーなしで行えます。 DITA マップレベルで各種レポートに簡単にアクセスして、システムの健全性を常に監視します。 すべてのトピックの欠落しているトピックの数、リンク切れまたは参照の数、レビューのステータスおよび翻訳を確認できます。 また、レポートを使用して、公開前の最終段階で包括的な健全性チェックを実行することもできます。
 
 **パーソナライズされた出力を実現する広範なタグ管理のサポート**\
-関連性の高いコンテンツエクスペリエンスを通じて、エンドユーザーのエンゲージメントとコンテンツの採用を深めます。 AEM Guidesを使用すると、Experience Managerで広範なタグ管理のサポートを利用して、DITA ソースコンテンツに関連するタグを適用できます。 これらのタグを使用して、エンドユーザーに高度にパーソナライズされたコンテンツエクスペリエンスを提供します。
+関連性の高いコンテンツエクスペリエンスを通じて、エンドユーザーのエンゲージメントとコンテンツの採用を深めます。 AEM Guidesを使用すると、Experience Managerの広範なタグ管理サポートを活用して、DITA ソースコンテンツに関連するタグを適用できます。 これらのタグを使用して、エンドユーザーに高度にパーソナライズされたコンテンツエクスペリエンスを提供します。
 
 **Adobe FrameMakerとのネイティブ統合**
-Experience ManagerとFrameMaker（2015 年リリース） Update 4 以降を操作しながら、迅速かつシームレスなエクスペリエンスをお楽しみください。
+Experience ManagerおよびFrameMaker（2015 リリース） Update 4 以降を使用しながら、迅速かつシームレスなエクスペリエンスを実現します。
 
-組み込みコネクタを介したExperience ManagerとFrameMakerの緊密な統合により、Experience Managerコンテンツリポジトリとシームレスに連携できます。 コネクタを活用すると、DITA コンテンツのオーサリング、レビュー、検索をすばやく開始できます。
+組み込みコネクタを介したExperience ManagerとFrameMakerの緊密な統合により、Experience Manager コンテンツリポジトリとシームレスに連携できます。 コネクタを活用すると、DITA コンテンツのオーサリング、レビュー、検索をすばやく開始できます。
 
-FrameMakerでAEM コネクタを使用すると、FrameMakerファイルを管理できます。 AEM コネクタを使用すると、DITA およびその他のFrameMaker文書（.book と.fm）をAEMに簡単にアップロードできます。 AEM Guidesでは、FrameMakerドキュメントをAEMから直接公開することもできます。 FrameMakerブックファイルに DITA ファイルと.fm ファイルの組み合わせが含まれている場合は、AEM Guidesでも同様に文書を発行できます。 現在、FrameMakerの.book ファイルと.fm ファイルを、PDF、HTML5、およびEPUB形式で公開できます。
+FrameMakerのAEM コネクタを使用すると、FrameMaker ファイルを管理できます。 AEM コネクタを使用すると、DITA および他のFrameMaker文書（.book と.fm）をAEMに簡単にアップロードできます。 AEM Guidesでは、AEMから直接FrameMaker ドキュメントを公開することもできます。 FrameMaker ブックファイルに DITA ファイルと.fm ファイルの組み合わせが含まれている場合は、AEM Guidesでも同じように文書を発行できます。 現在、FrameMakerの.book ファイルと.fm ファイルは、PDF、HTML5、EPUBの各形式で公開できます。
 
 ## その他のリソース
 
@@ -74,4 +75,4 @@ FrameMakerでAEM コネクタを使用すると、FrameMakerファイルを管�
 * クイックスタートガイド
 * [ ヘルプ* アーカイブページ ](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) （古いリリースドキュメントにアクセス）
 
-**親トピック：**[ Adobe Experience Manager Guidesのas a Cloud Serviceについて ](intro.md)
+**親トピック：**[ Adobe Experience Manager Guides as a Cloud Serviceについて ](../user-guide/intro.md)

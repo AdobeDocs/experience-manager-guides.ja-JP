@@ -5,7 +5,7 @@ exl-id: d8ee9cf7-1d67-4b4a-aa80-64e893a99463
 feature: API Introduction
 role: Developer
 level: Experienced
-source-git-commit: 9024b552fd470344ba7b0068a147c37084ae0d13
+source-git-commit: 00a926e82f7d848e0c8041de758f20e79758b01b
 workflow-type: tm+mt
 source-wordcount: '760'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # はじめに {#id1761C0007W7}
 
-Adobe Experience Manager Guides \（後で *AEM Guides*\）は、Adobe Experience Manager \（AEM\）で DITA ベースのコンテンツの作成と配信のためのコンポーネントコンテンツ管理ソリューション \（CCMS\）機能を実現するエンドツーエンドのエンタープライズソリューションです。 お客様は、AEM Guides API を使用してプログラムでAEM Guides ワークフローにアクセスし、他のエンタープライズアプリケーションと統合できます。 また、これらの API は、Adobeパートナーが、機能を拡張したり、他のアプリケーションやサービスと統合したりすることで、AEM Guidesの価値提案を強化するためにも使用できます。
+Adobe Experience Manager Guides \（後で *AEM Guides*\）は、Adobe Experience Manager \（AEM\）で DITA ベースのコンテンツの作成と配信のためのコンポーネントコンテンツ管理ソリューション \（CCMS\）機能を実現するエンドツーエンドのエンタープライズソリューションです。 お客様は、AEM Guides API を使用してプログラムでAEM Guides ワークフローにアクセスし、他のエンタープライズアプリケーションと統合できます。 また、これらの API は、Adobe パートナーが、機能を拡張したり、他のアプリケーションやサービスと統合したりすることで、AEM Guidesの価値提案を強化するためにも使用できます。
 
 ## AEM Guidesの API
 
@@ -201,9 +201,9 @@ API JAR をローカル Maven リポジトリにインストールした後、�
 
 サービス API JAR をプロジェクトの pom.xml ファイルにプロジェクトの依存関係として追加すると、プロジェクトでAEM Guides Java API を構築して使用できるようになります。
 
-## AEM Guidesas a Cloud Service用の Maven 中央リポジトリの API JAR の使用
+## AEM Guides as a Cloud Serviceの Maven 中央リポジトリからの API JAR の使用
 
-AEM Guidesas a Cloud Serviceについては、API JAR は Maven Central にデプロイされています。 API JAR は設定なしで使用できます。
+AEM Guides as a Cloud Serviceの場合、API JAR は Maven Central にデプロイされています。 API JAR は設定なしで使用できます。
 
 >[!NOTE]
 >
@@ -214,8 +214,8 @@ API JAR を使用するには、次に示すように、依存関係をプロジ
 ```XML
 <dependency>
    <groupId>com.adobe.aem</groupId>
-   <artifactId>aem-guides-sdk-api</artifactId>
-   <version>2022.5</version>
+   <artifactId>aem-dox-sdk-api</artifactId>
+   <version>${RELEASE}</version>
 </dependency>
 ```
 

@@ -4,9 +4,9 @@ description: AEM Guidesで引用文献を追加および管理します。 引�
 exl-id: 685d747d-e017-4350-a6bf-822fd55c76e8
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
 workflow-type: tm+mt
-source-wordcount: '1887'
+source-wordcount: '1890'
 ht-degree: 0%
 
 ---
@@ -15,17 +15,17 @@ ht-degree: 0%
 
 引用は、コンテンツに追加された情報のソースへの参照です。 引用文献を使用すると、ソース情報の作成者にクレジットを付与し、読者がソース情報を追跡するのに役立ちます。 引用文を追加すると、コンテンツの信頼性が高まり、盗用を防ぐことができます。 また、よく研究されたコンテンツを表示することもできます。
 
-AEM Guidesでは、引用文を追加および読み込んで、コンテンツに適用できます。 これらの引用は、書籍、Web サイト、ジャーナルの任意のソースから追加できます。
+Adobe Experience Manager Guidesでは、引用文を追加および読み込んで、コンテンツに適用できます。 これらの引用は、書籍、Web サイト、ジャーナルの任意のソースから追加できます。
 
 
-AEM Guidesでは、引用の編集、プレビュー、並べ替えを行うことができます。 コンテンツに引用文を追加したら、ネイティブPDFを使用して出力を生成できます。 ネイティブPDF出力に参考文献ページや参照ページを追加することもできます。
+Experience Manager Guidesでは、引用の編集、プレビュー、並べ替えを行うことができます。 コンテンツに引用文を追加したら、Native PDFを使用して出力を生成できます。 ネイティブのPDF出力に文献目録ページや参照ページを追加することもできます。
 
-AEM Guidesは、Modern Language Association （MLA）、American Psychological Association （APA）、Chicago、Institute for Electrical and Electronics Engineers （IEEE）、American Heart Association （AHA）など、複数のスタイルの引用をサポートしています。 これらは、明確かつ一貫して使用することをお勧めします。
+Experience Manager Guidesは、Modern Language Association （MLA）、American Psychological Association （APA）、Chicago、Institute for Electrical and Electronics Engineers （IEEE）、American Heart Association （AHA）など、複数のスタイルの引用をサポートしています。 これらは、明確かつ一貫して使用することをお勧めします。
 
 
 >[!NOTE]
 >
->現在、AEM Guidesでは、引用に対してネイティブPDFのみをサポートしています。
+>現在、Experience Manager Guidesは、引用に対してネイティブ PDFのみをサポートしています。
 
 
 ## 引用文献の追加
@@ -33,14 +33,16 @@ AEM Guidesは、Modern Language Association （MLA）、American Psychological A
 引用を追加するには、次の手順に従います。
 
 1. 左側のパネルで「**引用文献** ![ 引用文献アイコン ](images/citations-icon.svg) アイコンを選択します。
-**引用** パネルが開きます。
 
-   ![](images/citation-panel.png){width="300" align="left"}
+   **引用** パネルが開きます。
+
+   ![](images/citation-panel.png){width="350" align="left"}
 
 1. **引用** パネルで、「![ アイコンを追加 ](images/Add_icon.svg)」を選択します。 ドロップダウンから、新しい引用を追加するか、引用を読み込むかを選択できます。
 
 1. **新しい引用** を選択して、新しい引用を追加します。
-**引用文献を追加** ダイアログボックスが開きます。
+
+   **引用文献を追加** ダイアログボックスが開きます。
 
    ![web エディターの引用パネル ](images/citation-add.png){width="300" align="left"}
 
@@ -49,12 +51,12 @@ AEM Guidesは、Modern Language Association （MLA）、American Psychological A
 
    >[!NOTE]
    >
-   >ISBN、DOI、または PubMed ID を追加することもできます。 AEM Guidesによって、他のフィールドが自動的に設定されます。
+   >ISBN、DOI、PubMed ID も追加できます。 AEM Guidesによって、他のフィールドが自動的に設定されます。
 
    | 書籍 | Web サイト | ジャーナル |
    | --- | ---|---|
    | **Source** <br> ドロップダウンから、引用のソースを本として選択します。 | **Source**<br> ドロップダウンから、Web サイトとしての引用のソースを選択します。 | **Source** <br> ドロップダウンから、引用のソースをジャーナルとして選択します。 |
-   | **検索方法** <br> ドロップダウンから **ISBN** または **DOI** を選択して、引用にリンクされているデジタル ID を検索します。  <br> DOI：デジタルオブジェクト識別子 <br>ISBN：一意の数値ブック識別子 | **検索条件** <br> ドロップダウンから **DOI** を選択し、引用にリンクされたデジタル ID を検索します。 | **検索方法** <br> ドロップダウンから **DOI** または PubMed ID を選択して、引用にリンクされているデジタル ID を検索します。<br>  <br> |
+   | **検索条件** <br> ドロップダウンから **ISBN** または **DOI** を選択して、引用にリンクされたデジタル ID を検索します。  <br> DOI:ISBN<br> デジタルオブジェクト Id：一意の数値ブック Id | **検索条件** <br> ドロップダウンから **DOI** を選択し、引用にリンクされたデジタル ID を検索します。 | **検索方法** <br> ドロップダウンから **DOI** または PubMed ID を選択して、引用にリンクされているデジタル ID を検索します。<br>  <br> |
    | **作成者** <br> 引用文献の作成者の姓と名を追加します。 「![](images/Add_icon.svg)」を選択すると、さらに名前を追加できます。 | **作成者** <br> 引用文献の作成者の姓と名を追加します。 「![](images/Add_icon.svg)」を選択すると、さらに名前を追加できます。 | **作成者** <br> 引用文献の作成者の姓と名を追加します。 ![](images/Add_icon.svg) を選択すると、名前をさらに追加できます。 |
    | **タイトル** <br> 本のタイトルを追加します。 | **タイトル** <br> web ページのタイトルを追加します。 | **タイトル** <br> 記事のタイトルを追加します。 |
    | **編集者** <br> 本の編集者を追加します。 | **Web サイト名** <br> Web サイトの名前を追加します。 | **雑誌名** <br> 記事が見つかった作品のタイトルを追加します。 |
@@ -66,10 +68,6 @@ AEM Guidesは、Modern Language Association （MLA）、American Psychological A
    | **シリーズ** <br> 本のシリーズを追加します。 |  | **一意の ID** <br> 引用に一意の ID を追加します。一意の ID は、その引用の一意の ID です。 |
    | **URL** <br> ブックに Web リンクを追加します。 |
    | **一意の ID** <br> 引用に一意の ID を追加します。 一意の ID は、その引用の一意の ID です。 |
-
-
-
-
 
 1. 「**完了**」を選択します。
 
@@ -97,8 +95,8 @@ AEM Guidesは、Modern Language Association （MLA）、American Psychological A
    ファイルが正常に読み込まれると、参照が引用パネルに表示されます。
 
    >[!NOTE]
-   > <ol><li> AEM Guidesでは、一意で既に存在しない引用のみを読み込みます。
-    &gt; <li> AEM Guidesでは、書籍、ジャーナルまたは web サイトから引用文を読み込むことができます。 現在、他のソースからの引用はサポートされていません。
+   > <ol><li> Experience Manager Guidesでは、一意で既に存在しない引用のみを読み込みます。
+    &gt; <li> Experience Manager Guidesでは、書籍、ジャーナルまたは web サイトから引用文を読み込むことができます。 現在、他のソースからの引用はサポートされていません。
 
 ## 引用の管理
 
@@ -127,8 +125,8 @@ AEM Guidesは、Modern Language Association （MLA）、American Psychological A
 
 ### 引用スタイルの変更 {#change-citation-style}
 
-システム管理者は、**エディター設定** の **一般設定** タブにある **引用** ドロップダウンから引用のスタイルを変更できます。
-これらのスタイルによって、プレビューペインまたはネイティブPDF出力での引用文献の表示方法が決まります。
+システム管理者は、**設定** の **一般** タブにある **引用** ドロップダウンから引用のスタイルを変更できます。
+これらのスタイルによって、プレビューペインまたはネイティブのPDF出力での引用文献の表示方法が決まります。
 
 ドロップダウンでは、次のオプションを使用できます。
 
@@ -166,15 +164,15 @@ AEM Guidesは、Modern Language Association （MLA）、American Psychological A
 
    >[!NOTE]
    >
-   >プレビューは、管理者が **エディター設定** で選択した引用スタイルに基づいています。
+   >プレビューは、管理者が **設定** で選択した引用スタイルに基づいています。
 
-1. プレビューボックスを閉じるには、画面上の任意の場所をクリックします。
+1. プレビューボックスを閉じるには、画面上の任意の場所を選択します。
 
    ![](images/citation-preview.png){width="550" align="left"}
 
 >[!NOTE]
 >
-> トピックに挿入された引用を、Assets UI または web エディターの「プレビュー」タブからプレビューすることもできます。
+> また、Assets UI またはエディターの「プレビュー」タブで、トピックに挿入された引用をプレビューすることもできます。
 
 ## 引用文献の挿入
 
@@ -189,11 +187,11 @@ AEM Guidesは、Modern Language Association （MLA）、American Psychological A
 ### メインツールバーから
 
 1. メインツールバーの「**引用文献** ![ アイコン ](images/citations-icon.svg) アイコンを選択します。
-1. **引用** ダイアログで、引用を選択します。 複数の引用を選択することもできます。
+1. **引用** ダイアログボックスで、引用を選択します。 複数の引用を選択することもできます。
    ![ 引用対話 ](images/citation-dialog-main-toolbar.png){width="300" align="left"}
 1. 引用文献をフィルターするには、[ 引用文献 **] ダイアログ ボックスの検索パネルで最初の数文字を入力し** す。
 
-1. 「**完了**」をクリックします。
+1. 「**完了**」を選択します。
 選択した引用文献は、トピックのカーソル位置に追加されます。
 
 
@@ -201,7 +199,7 @@ AEM Guidesは、Modern Language Association （MLA）、American Psychological A
 
 >[!NOTE]
 > 
->左側のパネルから **引用** アイコンを表示するには、システム管理者が **エディター設定** の **パネル** タブで **引用** オプションを選択する必要があります。
+>左側のパネルから **引用** アイコンを表示するには、システム管理者が **設定** の **パネル** タブで **引用** オプションを有効にする必要があります。
 
 1. 左側のパネルで **Citations** ![citations アイコン ](images/citations-icon.svg) アイコンを選択します。
 1. **引用文献** パネルから引用文献をドラッグし、トピック内の適切な場所にドロップします。
@@ -213,7 +211,7 @@ AEM Guidesは、Modern Language Association （MLA）、American Psychological A
 1. **引用** ダイアログから、挿入する引用を選択します。
 1. 「**完了**」を選択して、トピックに追加します。
 
-トピックに引用文献を挿入したら、Web エディタで引用文献をプレビューできます。 ネイティブPDFを使用して、引用のあるコンテンツを公開することもできます。
+トピックに引用文献を挿入したら、Web エディタで引用文献をプレビューできます。 また、Native PDFを使用して、引用付きのコンテンツを公開することもできます。
 
 
 
@@ -254,22 +252,21 @@ AEM Guidesは、Modern Language Association （MLA）、American Psychological A
 
 ## 引用を含んだコンテンツ出力の生成
 
-トピックに引用文を挿入したら、ネイティブPDFを使用して引用文を含むコンテンツを公開できます。
+トピックに引用文を挿入したら、Native PDFを使用して引用文を含むコンテンツを公開できます。
 
-ネイティブPDF出力では、引用文は挿入先のコンテンツ内に表示されます。 参考文献ページを作成することもできます。 引用文献をクリックすると、文献目録ページにリダイレクトされます。
+ネイティブ PDF出力では、引用文は、引用文を挿入したコンテンツ内に表示されます。 参考文献ページを作成することもできます。 引用文献を選択すると、文献目録ページにリダイレクトされます。
 
-PDFテンプレートで **引用** ページレイアウトを作成し、ドキュメントに含めます。 本で使用されているすべての引用は、PDF出力に表示される 1 つのページにリストされます。 ページレイアウトの作成について詳しくは、[ ページレイアウトの作成 ](../native-pdf/components-pdf-template.md#create-page-layout) を参照してください。
+PDF テンプレートで **引用** ページレイアウトを作成し、ドキュメントに含めます。 本で使用されているすべての引用は、PDFの出力に表示される 1 ページにリストされます。 ページレイアウトの作成について詳しくは、[ ページレイアウトの作成 ](../native-pdf/components-pdf-template.md#create-page-layout) を参照してください。
 
 
-引用文献ページの表示と操作性を変更するには、[PDF テンプレートのカスタマイズ ](../native-pdf/pdf-template.md) を表示します。
-
+引用文献ページの表示と操作性を変更するには、[[PDF テンプレートのカスタマイズ ](../native-pdf/pdf-template.md)] をクリックします。
 
 
 ### 引用に対するコンテンツスタイルの適用
 
 トピックに追加された引用文献に書式を適用します。
 
-1. ネイティブPDF出力プリセットの **テンプレート** パネルで **スタイルシート** を選択します。   すべてのスタイルオプションを含む **スタイル** パネルが開きます。
+1. ネイティブ PDF出力プリセットの **テンプレート** パネルで **スタイルシート** を選択します。   すべてのスタイルオプションを含む **スタイル** パネルが開きます。
 
 1. 検索パネルで `<cite>` を検索します。
 
