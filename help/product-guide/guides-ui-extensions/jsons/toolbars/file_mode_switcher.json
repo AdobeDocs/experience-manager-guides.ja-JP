@@ -1,0 +1,59 @@
+{
+  "component": "blockGroup",
+  "extraclass": ["app-mode-switcher", "@extraClass"],
+  "show": "@hasValidEditorMode",
+  "id": "file_mode_switcher",
+  "items": [
+    {
+      "component": "spectrum_actionGroup",
+      "hide": "@showDropDown",
+      "items": "@availableButtons",
+      "selectedKeys": "@selectedKeys",
+      "density": "compact",
+      "isQuiet": true,
+      "on-action": {"name": "editorViewClicked" }
+    },
+    {
+      "component": "spectrum_menuTrigger",
+      "show": ["@showDropDown"],
+      "items": [
+        {
+          "component": "spectrum_actionButton",
+          "isQuiet": true,
+          "items": [
+            {
+              "component": "spectrum_icon",
+              "icon": "@menuIcon",
+              "size": "XS",
+              "width": "14px",
+              "height": "14px"
+            },
+            {
+              "component": "spectrum_flex",
+              "items": [
+                {
+                  "component": "spectrum_icon",
+                  "icon": "chevronDown"
+                },
+                { "component": "spectrum_text", "label": "@menuTitle"}
+              ]
+            }
+          ]
+        },
+        {
+          "component": "spectrum_menu",
+          "selectionMode": "single",
+          "selectedKeys": "@selectedKeys",
+          "on-selectionChange": "handleChangeView",
+          "items": [
+            { "key": "toc", "displayName": "Layout", "hide": "@hideLayoutButton", "icon": "layout" },
+            { "key": "author", "displayName": "Author", "hide": "@hideAuthorMode", "icon": "s2EditForm" },
+            { "key": "source", "displayName": "Source", "hide": "@hideSourceMode", "icon": "code" },
+            { "key": "split", "displayName": "Side-by-side", "hide": "@hideSplitMode", "icon": "sSideBySide" },
+            { "key": "preview", "displayName": "Preview", "hide": "@hidePreviewMode", "icon": "preview" }
+          ]
+        }
+      ]
+    }
+  ]
+}

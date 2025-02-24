@@ -1,0 +1,60 @@
+{
+  "id": "home_navigation_bar",
+  "component": "spectrum_flex",
+  "items": [
+    { 
+      "component": "spectrum_heading", 
+      "label": "@headerLabel", 
+      "level": 4 
+    },
+    {
+      "component": "spectrum_flex",
+      "items": [
+        {
+          "component": "widget",
+          "id": "ai_assistant_button"
+        },
+        {
+          "component": "spectrum_fragment",
+          "hide": "@isOnlyReviewer",
+          "items": [
+            {
+              "component": "spectrum_divider",
+              "orientation": "vertical",
+              "show":"@showAiAssistantButton",
+              "size": "S"
+            },
+            {
+              "component": "spectrum_actionButton",
+              "on-press": "handleOnPropertiesClick",
+              "isQuiet": true,
+              "title": "Customise overview section",
+              "aria-label": "Customise overview section",
+              "items": [{ "component": "spectrum_icon", "icon": "properties" }]
+            },
+            {
+              "component": "spectrum_divider",
+              "orientation": "vertical",
+              "size": "S"
+            }
+          ]
+        },
+        {
+          "component": "spectrum_fragment",
+          "show": "@folderProfileName",
+          "items": [
+            {
+              "component": "spectrum_icon",
+              "icon": "globeGrid",
+              "size": "S"
+            },
+            {
+              "component": "spectrum_text",
+              "text": "@folderProfileName"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

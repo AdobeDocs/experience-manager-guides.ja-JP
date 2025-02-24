@@ -1,0 +1,72 @@
+{
+  "id": "editor_tab_bar",
+  "component": "spectrum_view",
+  "elementId": "editor_tab_bar",
+  "show": "@showEditorAppActions",
+  "items": [
+    {
+      "component": "spectrum_flex",
+      "items": [
+        {
+          "component": "spectrum_actionButton",
+          "on-press": "app_actions_save_all",
+          "isQuiet": true,
+          "title": "Save all",
+          "aria-label": "Save all",
+          "show": "@activeEditor",
+          "metadata": {
+            "name": "APP_SAVE_ALL"
+          },
+          "items": [{ "component": "spectrum_icon", "icon": "sSaveAllFloppy" }]
+        },
+        {
+          "component": "spectrum_divider",
+          "orientation": "vertical",
+          "size": "S",
+          "show": "@activeEditor"
+        },
+        {
+          "component": "widget",
+          "id": "ai_assistant_button"
+        },
+        {
+          "component": "spectrum_divider",
+          "orientation": "vertical",
+          "show": "@showAiAssistantButton",
+          "size": "S"
+        },
+        {
+          "component": "spectrum_flex",
+          "items": [
+            {
+              "component": "spectrum_actionMenu",
+              "on-action": "handleActionMenu",
+              "isQuiet": true,
+              "triggerConfig": {
+                "component": "spectrum_actionButton",
+                 "aria-label": "More Action",
+                 "title": "More actions",
+                "isQuiet": true,
+                "items": [{ "component": "spectrum_icon", "icon": "moreVertical" }]
+              },
+              "items": "@actions"
+            }
+          ]
+        },
+        {
+          "component": "spectrum_divider",
+          "orientation": "vertical",
+          "size": "S"
+        },
+        {
+          "component": "spectrum_actionButton",
+          "on-press": "$$APP_ACTIONS_MAXIMIZE_GUIDES",
+          "aria-label":"$$maximiseButtonTitle",
+          "isQuiet": true,
+          "title": "$$maximiseButtonTitle",
+          "items": [{ "component": "spectrum_icon", "icon": "$$maximizeIcon" }]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1491 @@
+{
+  "id": "editor_toolbar",
+  "elementId": "editor_toolbar",
+  "component": "spectrum_flex",
+  "hide": "@hideToolbar",
+  "items": [
+    {
+      "component": "spectrum_actionMenu",
+      "isQuiet": true,
+      "elementId": "toolbar-file",
+      "hide": "@hideMenu",
+      "on-action": "handleEditActions",
+      "triggerConfig": {
+        "component": "spectrum_actionButton",
+        "isQuiet": true,
+        "items": [
+          {
+            "component": "view",
+            "extraclass": "display-flex align-center toolbar-action-Menu-trigger",
+            "items": [
+              { "component": "spectrum_icon", "icon": "sdcActions" },
+              {
+                "component": "spectrum_text",
+                "label": "Menu"
+              }
+            ]
+          },
+          { "component": "spectrum_icon", "icon": "chevronDown" }
+        ]
+      },
+      "sections": [
+        {
+          "hide": "@isTabReadMode",
+          "key": "Edit",
+          "items": [
+            {
+              "key": "AUTHOR_UNDO",
+              "name": "Undo",
+              "icon": "Undo",
+              "hide": "@hideUndo",
+              "shortcut": ["CTRL+Z", " ⌘ + Z"]
+            },
+            {
+              "key": "AUTHOR_REDO",
+              "name": "Redo",
+              "icon": "Redo",
+              "hide": "@hideRedo",
+              "shortcut": ["CTRL+Y", " ⌘ + Y"]
+            },
+            {
+              "key": "AUTHOR_CUT",
+              "name": "Cut",
+              "icon": "cut",
+              "hide": "@hideCut",
+              "shortcut": ["CTRL+X", " ⌘ + X"]
+            },
+            {
+              "key": "AUTHOR_COPY",
+              "name": "Copy",
+              "icon": "copy",
+              "hide": "@hideCopy",
+              "shortcut": ["CTRL+C", " ⌘ + C"]
+            },
+            {
+              "key": "AUTHOR_DELETE_ELEMENT",
+              "icon": "delete",
+              "name": "Delete"
+            }
+          ]
+        },
+        {
+          "key": "Edit template",
+          "hide": "@isTabReadMode",
+          "items": [
+            {
+              "name": "Refresh navigation title attribute",
+              "key": "AUTHOR_REFRESH_NAV_TITLE",
+              "icon": "refresh",
+              "hide": "@hideRefreshNavTitle"
+            },
+            {
+              "name": "Edit header",
+              "hide": "@hideEditHeader",
+              "key": "AUTHOR_EDIT_HEADER",
+              "icon": "railTop"
+            },
+            {
+              "name": "Edit footer",
+              "hide": "@hideEditFooter",
+              "key": "AUTHOR_EDIT_FOOTER",
+              "icon": "railBottom"
+            },
+            {
+              "name": "Edit content",
+              "hide": "@hideEditContent",
+              "key": "AUTHOR_INSERT_TOPIC_PLACEHOLDER",
+              "icon": "webPage"
+            }
+
+          ]
+        },
+        {
+          "key": "Find",
+          "items": [
+            {
+              "key": "EDITOR_CHECK_SPELLING",
+              "name": "Check spelling",
+              "icon": "spellcheck",
+              "hide": "@hideCheckSpelling"
+            },
+            {
+              "key": "APP_SHOW_FIND_REPLACE_DIALOG",
+              "icon": "findAndReplace",
+              "name": "Find and replace",
+              "shortcut": ["CTRL+F", " ⌘ + F"],
+              "hide": "@hideFindAndReplace"
+            }
+
+          ]
+        },
+        {
+          "key": "File",
+          "items": [
+            {
+              "key": "EDITOR_VERSION_HISTORY",
+              "name": "Version history",
+              "icon": "history",
+              "hide": "@hideVersionHistory"
+            },
+            {
+              "key": "EDITOR_VERSION_LABELS",
+              "name": "Version label",
+              "icon": "autotagFormFields",
+              "hide": "@hideVersionLabels"
+            },
+            {
+              "key": "EDITOR_MERGE_WITH_VERSION",
+              "name": "Merge",
+              "icon": "merge",
+              "hide": "@hideMergeWithVersion"
+            },
+            {
+              "key": "EDITOR_MARK_TOPIC_APPROVED",
+              "name": "Mark approved",
+              "icon": "checkmark",
+              "hide": "@hideMarkTopicApproved"
+            }
+          ]
+        },
+        {
+          "key": "Review",
+          "hide": "@isTabReadMode",
+          "items": [
+            {
+              "key": "CREATE_REVIEW_TASK",
+              "name": "Create review task",
+              "icon": "workflowAdd",
+              "hide": "@hideCreateReviewTasks"
+            }
+          ]
+        },
+        {
+          "key": "View",
+          "items": [
+            {
+              "key": "APP_TOGGLE_TRACK_CHANGE",
+              "name": "Track changes",
+              "isSelected": "@inTrackChangeMode",
+              "isEmphasized": true,
+              "icon": "editDoodle",
+              "hide": "@hideTrackChanges"
+            },
+            {
+              "key": "AUTHOR_TOGGLE_TAG_VIEW",
+              "name": "Tags",
+              "isSelected": "@isToogleTagViewSelected",
+              "isEmphasized": true,
+              "icon": "navpaneTags",
+              "hide": "@hideTagsView"
+            },
+            {
+              "key": "TOC_SHOW_CHECKBOX",
+              "name": "Show checkbox",
+              "isSelected": "@showCheckbox",
+              "isEmphasized": true,
+              "hide": "@hideTocViewOptions"
+            },
+            {
+              "key": "TOC_SHOW_FILENAME",
+              "name": "Show filename",
+              "isSelected": "@showFilename",
+              "isEmphasized": true,
+              "hide": "@hideTocViewOptions"
+            },
+            {
+              "key": "TOC_SHOW_LINE_NUMBER",
+              "name": "Show line number",
+              "isSelected": "@showLineNumber",
+              "isEmphasized": true,
+              "hide": "@hideTocViewOptions"
+            }
+          ]
+        }
+      ]
+  },
+  {
+      "component": "spectrum_view",
+      "elementId": "editor_responsive_toolbar",
+      "hide": "@isTabReadMode",
+      "style": { "flex": 1, "classname": "whitespace-nowrap overflow-hidden" },
+      "items": [
+        {
+          "component": "spectrum_actionButton",
+          "label": "Element",
+          "on-press": "handleEditActions",
+          "hide": "@hideAddElement",
+          "isQuiet": true,
+          "items": [
+            {
+              "component": "spectrum_icon",
+              "icon": "add"
+            }
+          ],
+          "metadata": {
+            "name": "AUTHOR_SHOW_INSERT_ELEMENT_UI"
+          },
+          "elementId": "AUTHOR_SHOW_INSERT_ELEMENT_UI"
+        },
+        {
+          "component": "spectrum_actionButton",
+          "label": "Move to left",
+          "on-press": "handleEditActions",
+          "hide": "@hideAuthorMoveLeft",
+          "isQuiet": true,
+          "items": [
+            {
+              "component": "spectrum_icon",
+              "icon": "arrowLeft"
+            }
+          ],
+          "metadata": {
+            "name": "AUTHOR_MOVE_LEFT"
+          },
+          "elementId": "AUTHOR_MOVE_LEFT"
+        },
+        {
+          "component": "spectrum_actionButton",
+          "label": "Move to right",
+          "on-press": "handleEditActions",
+          "hide": "@hideAuthorMoveRight",
+          "isQuiet": true,
+          "items": [
+            {
+              "component": "spectrum_icon",
+              "icon": "arrowRight"
+            }
+          ],
+          "metadata": {
+            "name": "AUTHOR_MOVE_RIGHT"
+          },
+          "elementId": "AUTHOR_MOVE_RIGHT"
+        },
+        {
+          "component": "spectrum_actionButton",
+          "label": "Paragraph",
+          "on-press": "handleEditActions",
+          "hide": "@hideNonXMLAuthor",
+          "isQuiet": true,
+          "items": [
+            {
+              "component": "spectrum_icon",
+              "icon": "textParagraph"
+            }
+          ],
+          "metadata": {
+            "name": "AUTHOR_INSERT_ELEMENT",
+            "args" : "p" 
+          },
+          "elementId": "AUTHOR_INSERT_PARAGRAPH"
+        },
+        {
+          "component": "spectrum_actionButton",
+          "label": "Paragraph",
+          "on-press": "handleEditActions",
+          "hide": "@hidePltSourceMode",
+          "isQuiet": true,
+          "items": [
+            {
+              "component": "spectrum_icon",
+              "icon": "textParagraph"
+            }
+          ],
+          "metadata": {
+            "name": "AUTHOR_INSERT_ELEMENT",
+            "args" : "p" 
+          },
+          "elementId": "AUTHOR_INSERT_PARAGRAPH"
+        },
+        {
+          "component": "spectrum_actionButton",
+          "on-press": "handleEditActions",
+          "hide": "@hidePrintTemplateLists",
+          "label": "Ordered list",
+          "isQuiet": true,
+          "items": [
+            {
+              "component": "spectrum_icon",
+              "icon": "TextNumbered"
+            }
+          ],
+          "metadata": {
+            "name": "AUTHOR_INSERT_ORDERED_LIST"
+          },
+          "elementId": "AUTHOR_INSERT_ORDERED_LIST"
+        },
+        {
+          "style": {
+            "classname": "editor-resizeable-toolbar-button"
+          },
+          "component": "spectrum_actionButton",
+          "on-press": "handleEditActions",
+          "hide": "@hidePrintTemplateLists",
+          "label": "Unordered list",
+          "isQuiet": true,
+          "items": [
+            {
+              "component": "spectrum_icon",
+              "icon": "TextBulleted"
+            }
+          ],
+          "metadata": {
+            "name": "AUTHOR_INSERT_UNORDERED_LIST"
+          },
+          "elementId": "AUTHOR_INSERT_UNORDERED_LIST"
+        },
+        {
+          "component": "spectrum_actionButton",
+          "on-press": "handleEditActions",
+          "hide": "@hideMarkdownFormatting",
+          "label": "Headings",
+          "isQuiet": true,
+          "items": [
+            {
+              "component": "spectrum_icon",
+              "icon": "sHeadings"
+            }
+          ],
+          "metadata": {
+            "name": "EDITOR_SHOW_HEADINGS"
+          },
+          "elementId": "EDITOR_SHOW_HEADINGS"
+        },
+        {
+          "component": "spectrum_actionButton",
+          "on-press": "handleEditActions",
+          "hide": "@hideMarkdownFormatting",
+          "label": "Bold",
+          "isQuiet": true,
+          "items": [
+            {
+              "component": "spectrum_icon",
+              "icon": "textBold"
+            }
+          ],
+          "metadata": {
+            "name": "SOURCE_APPLY_BOLD"
+          },
+          "elementId": "SOURCE_APPLY_BOLD"
+        },
+        {
+          "component": "spectrum_actionButton",
+          "on-press": "handleEditActions",
+          "hide": "@hideMarkdownFormatting",
+          "label": "Italic",
+          "isQuiet": true,
+          "items": [
+            {
+              "component": "spectrum_icon",
+              "icon": "textItalic"
+            }
+          ],
+          "metadata": {
+            "name": "SOURCE_APPLY_ITALIC"
+          },
+          "elementId": "SOURCE_APPLY_ITALIC"
+        },
+        {
+          "component": "spectrum_actionButton",
+          "on-press": "handleEditActions",
+          "hide": "@hideMarkdownFormatting",
+          "isQuiet": true,
+          "label": "Strikethrough",
+          "items": [
+            {
+              "component": "spectrum_icon",
+              "icon": "textStrikethrough"
+            }
+          ],
+          "metadata": {
+            "name": "SOURCE_APPLY_STRIKETHROUGH"
+          },
+          "elementId": "SOURCE_APPLY_STRIKETHROUGH"
+        },
+        {
+          "component": "spectrum_actionButton",
+          "on-press": "handleEditActions",
+          "hide": "@hideMarkdownFormatting",
+          "label": "Code",
+          "isQuiet": true,
+          "items": [
+            {
+              "component": "spectrum_icon",
+              "icon": "code"
+            }
+          ],
+          "metadata": {
+            "name": "SOURCE_INSERT_CODE_BLOCK"
+          },
+          "elementId": "SOURCE_INSERT_CODE_BLOCK"
+        },
+        {
+          "component": "spectrum_actionButton",
+          "on-press": "handleEditActions",
+          "hide": "@hideMarkdownFormatting",
+          "label": "Block-quote",
+          "isQuiet": true,
+          "items": [
+            {
+              "component": "spectrum_icon",
+              "icon": "sBlockQuote"
+            }
+          ],
+          "metadata": {
+            "name": "SOURCE_INSERT_BLOCK_QUOTE"
+          },
+          "elementId": "SOURCE_INSERT_BLOCK_QUOTE"
+        },
+        {
+          "component": "spectrum_actionButton",
+          "label": "Bulleted list",
+          "on-press": "handleEditActions",
+          "hide": "@hideListActions",
+          "isQuiet": true,
+          "items": [
+            {
+              "component": "spectrum_icon",
+              "icon": "textBulleted"
+            }
+          ],
+          "metadata": {
+            "name": "AUTHOR_INSERT_REMOVE_BULLETED_LIST"
+          },
+          "elementId": "AUTHOR_INSERT_REMOVE_BULLETED_LIST"
+        },
+        {
+          "component": "spectrum_actionButton",
+          "label": "Numbered list",
+          "on-press": "handleEditActions",
+          "hide": "@hideListActions",
+          "isQuiet": true,
+          "items": [
+            {
+              "component": "spectrum_icon",
+              "icon": "textNumbered"
+            }
+          ],
+          "metadata": {
+            "name": "AUTHOR_INSERT_REMOVE_NUMBERED_LIST"
+          },
+          "elementId": "AUTHOR_INSERT_REMOVE_NUMBERED_LIST"
+        },
+        {
+          "component": "spectrum_actionButton",
+          "label": "Move to left",
+          "on-press": "handleEditActions",
+          "hide": "@hideTOCMoveButtons",
+          "isQuiet": true,
+          "items": [
+            {
+              "component": "spectrum_icon",
+              "icon": "arrowLeft"
+            }
+          ],
+          "metadata": {
+            "name": "TOC_MOVE_LEFT"
+          },
+          "elementId": "TOC_MOVE_LEFT"
+        },
+        {
+          "component": "spectrum_actionButton",
+          "label": "Move to right",
+          "on-press": "handleEditActions",
+          "hide": "@hideTOCMoveButtons",
+          "isQuiet": true,
+          "items": [
+            {
+              "component": "spectrum_icon",
+              "icon": "arrowRight"
+            }
+          ],
+          "metadata": {
+            "name": "TOC_MOVE_RIGHT"
+          },
+          "elementId": "TOC_MOVE_RIGHT"
+        },
+        {
+          "component": "spectrum_actionButton",
+          "label": "Move up",
+          "on-press": "handleEditActions",
+          "hide": "@hideTOCMoveButtons",
+          "isQuiet": true,
+          "items": [
+            {
+              "component": "spectrum_icon",
+              "icon": "arrowUp"
+            }
+          ],
+          "metadata": {
+            "name": "TOC_MOVE_UP"
+          },
+          "elementId": "TOC_MOVE_UP"
+        },
+        {
+          "component": "spectrum_actionButton",
+          "label": "Move down",
+          "on-press": "handleEditActions",
+          "hide": "@hideTOCMoveButtons",
+          "isQuiet": true,
+          "items": [
+            {
+              "component": "spectrum_icon",
+              "icon": "arrowDown"
+            }
+          ],
+          "metadata": {
+            "name": "TOC_MOVE_DOWN"
+          },
+          "elementId": "TOC_MOVE_DOWN"
+        },
+        {
+          "component": "spectrum_actionButton",
+          "aria-label": "Insert before",
+          "label" : "Insert before",
+          "on-press": "handleEditActions",
+          "hide": "@hideTocDitaMapEdit",
+          "isQuiet": true,
+          "items": [
+            {
+              "component": "spectrum_icon",
+              "icon": "textSpaceBefore"
+            }
+          ],
+          "metadata": {
+            "name": "author.show_insert_element_before_block_ui"
+          },
+          "elementId": "author.show_insert_element_before_block_ui"
+        },
+        {
+          "component": "spectrum_actionButton",
+          "aria-label": "Insert after",
+          "label": "Insert after",
+          "on-press": "handleEditActions",
+          "hide": "@hideTocDitaMapEdit",
+          "isQuiet": true,
+          "items": [
+            {
+              "component": "spectrum_icon",
+              "icon": "textSpaceAfter"
+            }
+          ],
+          "metadata": {
+            "name": "author.show_insert_element_after_block_ui"
+          },
+          "elementId": "author.show_insert_element_after_block_ui"
+        },
+        {
+          "component": "spectrum_actionButton",
+          "label": "Table",
+          "on-press": "handleInsertTable",
+          "hide": "@hideHTMLInsertTableButton",
+          "isQuiet": true,
+          "items": [
+            {
+              "component": "spectrum_icon",
+              "icon": "tableAdd"
+            }
+          ],
+          "metadata": {
+            "name":"AUTHOR_INSERT_TABLE"
+          },
+          "elementId":"AUTHOR_INSERT_TABLE"
+        },
+        {
+          "component": "spectrum_actionButton",
+          "label": "Table",
+          "on-press": "handleInsertTable",
+          "hide": "@hideXMLInsertTableButton",
+          "isQuiet": true,
+          "items": [
+            {
+              "component": "spectrum_icon",
+              "icon": "tableAdd"
+            }
+          ],
+            "args": ["simpletable", "table", "choicetable"],
+            "metadata": {
+              "name": "AUTHOR_INSERT_ELEMENT"
+            },
+            "elementId": "AUTHOR_INSERT_ELEMENT"
+        },
+        {
+          "component": "spectrum_actionButton",
+          "label": "Image",
+          "aria-label": "Image",
+          "on-press": "handleEditActions",
+          "show": "@showInsertImageAEM",
+          "isQuiet": true,
+          "items": [
+            {
+              "component": "spectrum_icon",
+              "icon": "imageAdd"
+            }
+          ],
+          "metadata": {
+            "name": "AUTHOR_INSERT_IMAGE_AEM"
+          },
+          "elementId": "AUTHOR_INSERT_IMAGE_AEM"
+        },
+        {
+          "component": "spectrum_actionMenu",
+          "isQuiet": true,
+          "elementId": "toolbar-multimedia",
+          "on-action": "handleEditActions",
+          "style": {
+            "classname": "toolbar-section-button gap-2 editor-resizeable-toolbar-button"
+          },
+          "triggerConfig": {
+            "component": "spectrum_actionButton",
+            "isQuiet": true,
+            "elementId": "MULTIMEDIA_ADD_CONTENT",
+            "items": [
+              {
+                "component": "view",
+                "extraclass": "display-flex align-center toolbar-action-Menu-trigger",
+                "items": [
+                  {
+                    "component": "spectrum_icon",
+                    "icon": "addContent"
+                  },
+                  {
+                    "component": "spectrum_text",
+                    "label": "Multimedia"
+                  }
+                ]
+              },
+              {
+                "component": "spectrum_icon",
+                "icon": "chevronDown",
+                "style": {
+                  "padding": 0
+                }
+              }
+            ]
+          },
+          "hide": "@hideNonXMLAuthor",
+          "items": [
+            {
+              "name": "Audio",
+              "icon": "audioWave",
+              "key": "AUTHOR_INSERT_ELEMENT",
+              "args": "object"
+            },
+            {
+              "name": "Video",
+              "icon": "video",
+              "key": "AUTHOR_INSERT_ELEMENT",
+              "args": "object"
+            },
+            {
+              "name": "YouTube",
+              "key": "AUTHOR_INSERT_ELEMENT",
+              "icon": "s2youtube",
+              "args": "<object data='http://youtube.com'></object>"
+            },
+            {
+              "name": "Vimeo",
+              "key": "AUTHOR_INSERT_ELEMENT",
+              "icon": "sdcPlay",
+              "args": "<object data='http://vimeo.com'></object>"
+            }
+          ]
+        },
+        {
+          "style": {
+            "classname": "editor-resizeable-toolbar-button"
+          },
+          "component": "spectrum_actionButton",
+          "on-press": "handleEditActions",
+          "hide": "@hideSourceAutoIndent",
+          "isQuiet": true,
+          "items": [
+            {
+              "component": "spectrum_icon",
+              "icon": "textIndentIncrease"
+            },
+            {
+              "component": "spectrum_text",
+              "label": "Auto indent"
+            }
+          ],
+          "metadata": {
+            "name": "SOURCE_AUTO_INDENT"
+          },
+          "elementId": "SOURCE_AUTO_INDENT"
+        },
+        {
+          "style": {
+            "classname": "editor-resizeable-toolbar-button"
+          },
+          "component": "spectrum_actionButton",
+          "on-press": "handleEditActions",
+          "show": "@showInsertXref",
+          "isQuiet": true,
+          "items": [
+            {
+              "component": "spectrum_icon",
+              "icon": "linkGlobe"
+            },
+            {
+              "component": "spectrum_text",
+              "label": "Cross-reference"
+            }
+          ],
+          "metadata": {
+            "name": "AUTHOR_INSERT_ELEMENT",
+            "args": ["xref", "link"]
+          },
+          "elementId": "AUTHOR_INSERT_X_REF"
+        },
+        {
+          "style": {
+            "classname": "editor-resizeable-toolbar-button"
+          },
+          "component": "spectrum_actionButton",
+          "on-press": "handleEditActions",
+          "hide": "@hideInsertResuableContent",
+          "isQuiet": true,
+          "items": [
+            {
+              "component": "spectrum_icon",
+              "icon": "reuseFiles"
+            },
+            {
+              "component": "spectrum_text",
+              "label": "Reusable content"
+            }
+          ],
+          "metadata": {
+            "name": "AUTHOR_INSERT_REUSABLE_CONTENT"
+          },
+          "elementId": "AUTHOR_INSERT_REUSABLE_CONTENT"
+        },
+        {
+          "style": {
+            "classname": "editor-resizeable-toolbar-button"
+          },
+          "component": "spectrum_actionButton",
+          "on-press": "handleEditActions",
+          "hide": "@hideInsertSymbol",
+          "isQuiet": true,
+          "items": [
+            {
+              "component": "spectrum_icon",
+              "icon": "specialCharacter"
+            },
+            {
+              "component": "spectrum_text",
+              "label": "Symbol"
+            }
+          ],
+          "metadata": {
+            "name": "AUTHOR_INSERT_SYMBOL"
+          },
+          "elementId": "AUTHOR_INSERT_SYMBOL"
+        },
+        {
+          "style": {
+            "classname": "editor-resizeable-toolbar-button"
+          },
+          "component": "spectrum_actionButton",
+          "on-press": "handleEditActions",
+          "hide": "@hideInsertCitation",
+          "isQuiet": true,
+          "items": [
+            {
+              "component": "spectrum_icon",
+              "icon": "sDoubleQuotes"
+            },
+            {
+              "component": "spectrum_text",
+              "label": "Citations"
+            }
+          ],
+          "metadata": {
+            "name": "AUTHOR_INSERT_CITATION_DIALOG"
+          },
+          "elementId": "AUTHOR_INSERT_CITATION_DIALOG"
+        },
+        {
+          "style": {
+            "classname": "editor-resizeable-toolbar-button"
+          },
+          "component": "spectrum_actionButton",
+          "on-press": "handleEditActions",
+          "hide": "@hideInsertCitation",
+          "isQuiet": true,
+          "items": [
+            {
+              "component": "spectrum_icon",
+              "icon": "documentFragment"
+            },
+            {
+              "component": "spectrum_text",
+              "label": "Snippets"
+            }
+          ],
+          "metadata": {
+            "name": "AUTHOR_SHOW_INSERT_SNIPPET_UI"
+          },
+          "elementId": "AUTHOR_SHOW_INSERT_SNIPPET_UI"
+        },
+        {
+          "component": "spectrum_actionMenu",
+          "isQuiet": true,
+          "elementId": "toolbar-code-headings",
+          "on-action": "handleEditActions",
+          "style": {
+            "classname": "toolbar-section-button gap-2 editor-resizeable-toolbar-button"
+          },
+          "triggerConfig": {
+            "component": "spectrum_actionButton",
+            "isQuiet": true,
+            "elementId": "HEADING_CODE_HEADINGS",
+            "items": [
+              {
+                "component": "view",
+                "extraclass": "display-flex align-center toolbar-action-Menu-trigger",
+                "items": [
+                  {
+                    "component": "spectrum_icon",
+                    "icon": "code"
+                  },
+                  {
+                    "component": "spectrum_text",
+                    "label": "Headings"
+                  }
+                ]
+              },
+              {
+                "component": "spectrum_icon",
+                "icon": "chevronDown",
+                "style": {
+                  "padding": 0
+                }
+              }
+            ]
+          },
+          "hide": "@hidePltSourceMode",
+          "items": [
+            {
+              "name": "H1",
+              "key": "AUTHOR_INSERT_HTML",
+              "args": {
+                "html": "<h1><br/></h1>"
+              }
+            },
+            {
+              "name": "H2",
+              "key": "AUTHOR_INSERT_HTML",
+              "args": {
+                "html": "<h2><br/></h2>"
+              }
+            },
+            {
+              "name": "H3",
+              "key": "AUTHOR_INSERT_HTML",
+              "args": {
+                "html": "<h3><br/></h3>"
+              }
+            },
+            {
+              "name": "H4",
+              "key": "AUTHOR_INSERT_HTML",
+              "args": {
+                "html": "<h4><br/></h4>"
+              }
+            },
+            {
+              "name": "H5",
+              "key": "AUTHOR_INSERT_HTML",
+              "args": {
+                "html": "<h5><br/></h5>"
+              }
+            },
+            {
+              "name": "H6",
+              "key": "AUTHOR_INSERT_HTML",
+              "args": {
+                "html": "<h6><br/></h6>"
+              }
+            }
+          ]
+        },
+        {
+          "style": {
+            "classname": "editor-resizeable-toolbar-button"
+          },
+          "component": "spectrum_actionButton",
+          "on-press": "handleEditActions",
+          "hide": "@hideDitavalAddProp",
+          "isQuiet": true,
+          "items": [
+            {
+              "component": "spectrum_icon",
+              "icon": "addCircle"
+            },
+            {
+              "component": "spectrum_text",
+              "label": "Add prop"
+            }
+          ],
+          "metadata": {
+            "name": "APP_ADD_PROP"
+          },
+          "elementId": "APP_ADD_PROP"
+        },
+        {
+          "style": {
+            "classname": "editor-resizeable-toolbar-button"
+          },
+          "component": "spectrum_actionButton",
+          "on-press": "handleEditActions",
+          "hide": "@hideDitavalAddProp",
+          "isQuiet": true,
+          "items": [
+            {
+              "component": "spectrum_icon",
+              "icon": "multipleAdd"
+            },
+            {
+              "component": "spectrum_text",
+              "label": "Add all props"
+            }
+          ],
+          "metadata": {
+            "name": "APP_ADD_PROPS"
+          },
+          "elementId": "APP_ADD_PROPS"
+        },
+        {
+          "style": {
+            "classname": "editor-resizeable-toolbar-button"
+          },
+          "component": "spectrum_actionButton",
+          "on-press": "handleEditActions",
+          "hide": "@hideInsertHyperlink",
+          "isQuiet": true,
+          "items": [
+            {
+              "component": "spectrum_icon",
+              "icon": "LinkGlobe"
+            },
+            {
+              "component": "spectrum_text",
+              "label": "Hyperlink"
+            }
+          ],
+          "metadata": {
+            "name": "AEM_AUTHOR_INSERT_HREF"
+          },
+          "elementId": "AEM_AUTHOR_INSERT_HREF"
+        },
+        {
+          "style": {
+            "classname": "editor-resizeable-toolbar-button"
+          },
+          "component": "spectrum_actionButton",
+          "on-press": "handleEditActions",
+          "hide": "@hideInsertBookmark",
+          "isQuiet": true,
+          "items": [
+            {
+              "component": "spectrum_icon",
+              "icon": "bookmark"
+            },
+            {
+              "component": "spectrum_text",
+              "label": "Bookmark"
+            }
+          ],
+          "metadata": {
+            "name": "AUTHOR_INSERT_BOOKMARK"
+          },
+          "elementId": "AUTHOR_INSERT_BOOKMARK"
+        },
+        {
+          "style": {
+            "classname": "editor-resizeable-toolbar-button"
+          },
+          "component": "spectrum_actionButton",
+          "on-press": "handleEditActions",
+          "hide":"@hidePltSourceMode",
+          "isQuiet": true,
+          "items": [
+            {
+              "component": "spectrum_icon",
+              "icon": "brackets"
+            },
+            {
+              "component": "spectrum_text",
+              "label": "Variable"
+            }
+          ],
+          "metadata": {
+            "name": "AUTHOR_INSERT_VARIABLE"
+          },
+          "elementId": "AUTHOR_INSERT_VARIABLE"
+        },
+        {
+          "style": {
+            "classname": "editor-resizeable-toolbar-button"
+          },
+          "component": "spectrum_actionButton",
+          "on-press": "handleEditActions",
+          "hide": "@hidePltSourceMode",
+          "isQuiet": true,
+          "items": [
+            {
+              "component": "spectrum_icon",
+              "icon": "bracketsSquare"
+            },
+            {
+              "component": "spectrum_text",
+              "label": "Fields"
+            }
+          ],
+          "metadata": {
+            "name": "AUTHOR_INSERT_FIELD"
+          },
+          "elementId": "AUTHOR_INSERT_FIELD"
+        },
+        {
+          "style": {
+            "classname": "editor-resizeable-toolbar-button"
+          },
+          "component": "spectrum_actionButton",
+          "on-press": "handleEditActions",
+          "hide":"@hidePltSourceMode",
+          "isQuiet": true,
+          "items": [
+            {
+              "component": "spectrum_icon",
+              "icon": "sdcSetReadingLangauge"
+            },
+            {
+              "component": "spectrum_text",
+              "label": "Language variable"
+            }
+          ],
+          "metadata": {
+            "name": "AUTHOR_INSERT_LANGUAGE_VARIABLE"
+          },
+          "elementId": "AUTHOR_INSERT_LANGUAGE_VARIABLE"
+        },
+        {
+          "component": "spectrum_actionMenu",
+          "isQuiet": true,
+          "elementId": "toolbar-html-element",
+          "on-action": "handleEditActions",
+          "style": {
+            "classname": "toolbar-section-button gap-2 editor-resizeable-toolbar-button"
+          },
+          "triggerConfig": {
+            "component": "spectrum_actionButton",
+            "isQuiet": true,
+            "items": [
+              {
+                "component": "view",
+                "extraclass": "display-flex align-center toolbar-action-Menu-trigger",
+                "items": [
+                  {
+                    "component": "spectrum_icon",
+                    "icon": "addCircle"
+                  },
+                  {
+                    "component": "spectrum_text",
+                    "label": "HTML elements"
+                  }
+                ]
+              },
+              {
+                "component": "spectrum_icon",
+                "icon": "chevronDown",
+                "style": {
+                  "padding": 0
+                }
+              }
+            ]
+          },
+          "hide": "@hidePltSourceMode",
+          "items": [
+            {
+              "name": "Line Break",
+              "icon": "line",
+              "key": "AUTHOR_INSERT_ELEMENT",
+              "args": {
+                "html": "<br/>"
+             } 
+            },
+            {
+              "name": "Span",
+              "icon": "code",
+              "key": "AUTHOR_INSERT_ELEMENT",
+              "args": {
+                "html": "<span><br/></span>"
+              }
+            },
+            {
+              "name": "Horizontal Line",
+              "icon": "line",
+              "key": "AUTHOR_INSERT_HTML",
+              "args": {
+                "html": "<hr></hr>"
+              }
+            },
+            {
+              "name": "Iframe",
+              "icon": "code",
+              "key": "AUTHOR_INSERT_IFRAME"
+            },
+            {
+              "name": "Div Container",
+              "icon": "Rectangle",
+              "key": "AUTHOR_INSERT_HTML",
+              "args": {
+                "html": "<div style='padding:4px'><p><br/></p></div>"
+              }
+            },
+            {
+              "name": "Positioned Div",
+              "icon": "Rectangle",
+              "key": "AUTHOR_INSERT_HTML",
+              "args": {
+                "html": "<div style='padding: 4px; height: 50px; width: 200px; position: absolute;'><p><br/></p></div>"
+              }
+            },
+            {
+              "name": "Embed HTML",
+              "icon": "code",
+              "key": "AUTHOR_INSERT_HTML"
+            }
+
+          ]
+        },
+        {
+          "style": {
+            "classname": "editor-resizeable-toolbar-button"
+          },
+          "component": "spectrum_actionButton",
+          "on-press": "handleEditActions",
+          "hide": "@hideTocDitaMapEdit",
+          "isQuiet": true,
+          "items": [
+            {
+              "component": "spectrum_icon",
+              "icon": "addFiles"
+            },
+            {
+              "component": "spectrum_text",
+              "label": "Topic reference"
+            }
+          ],
+          "metadata": {
+            "name": "TOC_INSERT_TOPIC_REFERENCE"
+          },
+          "elementId": "TOC_INSERT_TOPIC_REFERENCE"
+        },
+        {
+          "style": {
+            "classname": "editor-resizeable-toolbar-button"
+          },
+          "component": "spectrum_actionButton",
+          "on-press": "handleEditActions",
+          "hide": "@hideInsertTopicGroupAuthor",
+          "isQuiet": true,
+          "items": [
+            {
+              "component": "spectrum_icon",
+              "icon": "addOpenFiles"
+            },
+            {
+              "component": "spectrum_text",
+              "label": "Topic group"
+            }
+          ],
+          "metadata": {
+           "name": "AUTHOR_INSERT_ELEMENT",
+            "args": "topicgroup"
+          },
+          "elementId": "AUTHOR_INSERT_TOPIC_GROUP"
+        },
+        {
+          "style": {
+            "classname": "editor-resizeable-toolbar-button"
+          },
+          "component": "spectrum_actionButton",
+          "on-press": "handleEditActions",
+          "hide": "@hideInsertTopicGroupToc",
+          "isQuiet": true,
+          "items": [
+            {
+              "component": "spectrum_icon",
+              "icon": "addOpenFiles"
+            },
+            {
+              "component": "spectrum_text",
+              "label": "Topic group"
+            }
+          ],
+          "metadata": {
+            "name": "TOC_INSERT_ELEMENT",
+            "args": "topicgroup"
+          },
+          "elementId": "TOC_INSERT_TOPIC_GROUP"
+        },
+        {
+          "style": {
+            "classname": "editor-resizeable-toolbar-button"
+          },
+          "component": "spectrum_actionButton",
+          "on-press": "handleEditActions",
+          "hide": "@hideTocKeyDef",
+          "isQuiet": true,
+          "items": [
+            {
+              "component": "spectrum_icon",
+              "icon": "key"
+            },
+            {
+              "component": "spectrum_text",
+              "label": "Key definition"
+            }
+          ],
+          "metadata": {
+             "name": "TOC_INSERT_ELEMENT",
+              "args": "keydef"
+          },
+          "elementId": "TOC_INSERT_KEY_DEF"
+        },
+        {
+          "style": {
+            "classname": "editor-resizeable-toolbar-button"
+          },
+          "component": "spectrum_actionButton",
+          "on-press": "handleEditActions",
+          "hide": "@hideAddCapter",
+          "isQuiet": true,
+          "items": [
+            {
+              "component": "spectrum_icon",
+              "icon": "projectAdd"
+            },
+            {
+              "component": "spectrum_text",
+              "label": "Chapter"
+            }
+          ],
+          "metadata": {
+           "name": "AUTHOR_INSERT_ELEMENT",
+            "args": "chapter"
+          },
+          "elementId": "AUTHOR_INSERT_CHAPTER"
+        },
+        {
+          "style": {
+            "classname": "editor-resizeable-toolbar-button"
+          },
+          "component": "spectrum_actionButton",
+          "on-press": "handleEditActions",
+          "hide": "@hideKeyDef",
+          "isQuiet": true,
+          "items": [
+            {
+              "component": "spectrum_icon",
+              "icon": "key"
+            },
+            {
+              "component": "spectrum_text",
+              "label": "Key definition"
+            }
+          ],
+          "metadata": {
+               "name": "AUTHOR_INSERT_ELEMENT",
+                "args": "keydef"
+          },
+          "elementId": "AUTHOR_INSERT_KEY_DEF"
+        },
+        {
+          "style": {
+            "classname": "editor-resizeable-toolbar-button"
+          },
+          "component": "spectrum_actionButton",
+          "on-press": "handleEditActions",
+          "hide": "@hideRelTable",
+          "isQuiet": true,
+          "items": [
+            {
+              "component": "spectrum_icon",
+              "icon": "tableAdd"
+            },
+            {
+              "component": "spectrum_text",
+              "label": "Relationship table"
+            }
+          ],
+          "metadata": {
+            "name": "AUTHOR_INSERT_ELEMENT",
+            "args": "reltable" 
+          },
+          "elementId": "AUTHOR_INSERT_RELTABLE"
+        },
+        {
+          "style": {
+            "classname": "editor-resizeable-toolbar-button"
+          },
+          "component": "spectrum_actionButton",
+          "on-press": "$$AUTHOR_INSERT_ELEMENT",
+          "hide": "@hideInsertKeyword",
+          "isQuiet": true,
+          "items": [
+            {
+              "component": "spectrum_icon",
+              "icon": "recogniseText"
+            },
+            {
+              "component": "spectrum_text",
+              "label": "Keyword"
+            }
+          ],
+          "metadata": {
+            "name": "AUTHOR_INSERT_KEYWORD"
+            
+          },
+          "args": "keyword",
+          "elementId": "AUTHOR_INSERT_KEYWORD"
+         
+        },
+        {
+          "style": {
+            "classname": "editor-resizeable-toolbar-button"
+          },
+          "component": "spectrum_actionButton",
+          "on-press": "handleEditActions",
+          "hide": "@hideChapterToc",
+          "isQuiet": true,
+          "items": [
+            {
+              "component": "spectrum_icon",
+              "icon": "breakdown"
+            },
+            {
+              "component": "spectrum_text",
+              "label": "Chapter TOC"
+            }
+          ],
+          "metadata": {
+            "name": "AUTHOR_INSERT_CHAPTER_TOC"
+          },
+          "elementId": "AUTHOR_INSERT_CHAPTER_TOC"
+        },
+        {
+          "style": {
+            "classname": "editor-resizeable-toolbar-button"
+          },
+          "component": "spectrum_actionButton",
+          "on-press": "handleEditActions",
+          "hide": "@hideExternalConnector",
+          "elementId": "APP_SHOW_QUERY_INSERT_DIALOG",
+          "isQuiet": true,
+          "items": [
+            {
+              "component": "spectrum_icon",
+              "icon": "importFormData"
+            },
+            {
+              "component": "spectrum_text",
+              "label": "Query data"
+            }
+          ],
+          "metadata": {
+            "name": "APP_SHOW_QUERY_INSERT_DIALOG"
+          }
+        },
+        {
+          "component": "spectrum_actionMenu",
+          "isQuiet": true,
+          "extension": true,
+          "on-action": "handleEditActions",
+          "items": "@listItems",
+          "triggerConfig":{
+            "component": "spectrum_actionButton",
+            "elementId": "toolbar-responsive-more-button",
+            "title": "More",
+            "isQuiet": true,
+            "items": [{ "component": "spectrum_icon", "icon": "more" }]}
+        },
+        {
+          "component": "spectrum_actionButton",
+          "label": "Download as PDF",
+          "on-press": "handleEditActions",
+          "hide": "@hideSaveAsPDF",
+          "isQuiet": true,
+          "items": [
+            {
+              "component": "spectrum_icon",
+              "icon": "filePDF"
+            },
+            {
+              "component": "spectrum_text",
+              "label": "Download as PDF"
+            }
+          ],
+          "metadata": {
+            "name": "EDITOR_SAVE_AS_PDF"
+          },
+          "elementId": "EDITOR_SAVE_AS_PDF"
+        }
+      ]
+  },
+  {
+    "component": "spectrum_view",
+    "elementId": "editor_responsive_toolbar",
+    "hide": "@isTabWriteMode",
+    "style": { "flexGrow": 1 },
+    "items": [
+      {
+        "component": "spectrum_actionButton",
+        "label": "Start a new release",
+        "on-press": "handleEditActions",
+        "hide": "@hideStartNewRelease",
+        "isQuiet": true,
+        "items": [
+          {
+            "component": "spectrum_icon",
+            "icon": "playCircle"
+          },
+          {
+            "component": "spectrum_text",
+            "label": "Start a new release"
+          }
+        ],
+        "metadata": {
+          "name": "EDITOR_START_NEW_RELEASE"
+        },
+        "elementId": "EDITOR_START_NEW_RELEASE"
+      },
+      {
+        "component": "spectrum_actionButton",
+        "label": "Download as PDF",
+        "on-press": "handleEditActions",
+        "hide": "@hideSaveAsPDF",
+        "isQuiet": true,
+        "items": [
+          {
+            "component": "spectrum_icon",
+            "icon": "filePDF"
+          },
+          {
+            "component": "spectrum_text",
+            "label": "Download as PDF"
+          }
+        ],
+        "metadata": {
+          "name": "EDITOR_SAVE_AS_PDF"
+        },
+        "elementId": "EDITOR_SAVE_AS_PDF"
+      }
+    ]
+  }
+  ]
+}

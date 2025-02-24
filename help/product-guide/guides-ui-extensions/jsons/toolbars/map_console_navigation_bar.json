@@ -1,0 +1,91 @@
+{
+  "id": "map_console_navigation_bar",
+  "component": "div",
+  "extraclass": "map-console-primary-header",
+  "items": [
+    {
+      "component": "div",
+      "extraclass": "map-title-block",
+      "show": "@hasValidMap",
+      "items": [
+        {
+          "component": "div",
+          "extraclass": "map-title",
+          "title": "@title",
+          "items": [
+            {
+              "component": "icon",
+              "icon": "hierarchicalNodeView",
+              "size": "S"
+            },
+            {
+              "component": "label",
+              "label": "@mapTitle"
+            }
+          ]
+        },
+        {
+          "component": "spectrum_menuTrigger",
+          "items": [
+            {
+              "component": "spectrum_actionButton",
+              "isQuiet": true,
+              "style": {
+                "height": "size-350"
+              },
+              "items": [
+                { "component": "spectrum_icon", "icon": "chevronDown" }
+              ]
+            },
+            {
+              "component": "spectrum_menu",
+              "on-action": "menuItemSelected",
+              "items": "@dropDownItems"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "component": "div",
+      "extraclass": "map-console-header-actions",
+      "items": [
+        {
+          "component": "widget",
+          "id": "ai_assistant_button"
+        },
+        { 
+          "component": "spectrum_divider",
+          "size": "S",
+          "show":"@showAiAssistantButton",
+          "orientation": "vertical"
+        },
+        {
+          "component": "spectrum_actionMenu",
+          "on-action": "actionMenuItemSelected",
+          "isQuiet": true,
+          "triggerConfig": {
+            "component": "spectrum_actionButton",
+            "title": "More actions",
+            "isQuiet": true,
+            "items": [{ "component": "spectrum_icon", "icon": "moreVertical" }]
+          },
+          "items": "@actions"
+        },
+        { 
+          "component": "spectrum_divider",
+          "size": "S",
+          "orientation": "vertical"
+        },
+        {
+          "component": "spectrum_actionButton",
+          "on-press": "$$APP_ACTIONS_MAXIMIZE_GUIDES",
+          "aria-label": "$$maximiseButtonTitle",
+          "isQuiet": true,
+          "title": "$$maximiseButtonTitle",
+          "items": [{ "component": "spectrum_icon", "icon": "$$maximizeIcon" }]
+        }
+      ]
+    }
+  ]
+}

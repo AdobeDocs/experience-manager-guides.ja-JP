@@ -1,0 +1,75 @@
+{
+  "id": "file_lock",
+  "component": "spectrum_flex",
+  "items": [
+    {
+      "component": "spectrum_flex",
+      "items": [
+        {
+          "component": "spectrum_switch",
+          "show": "@showLockButton",
+          "isSelected": "@isFileLocked",
+          "isDisabled": "@isDisabled",
+          "isEmphasized": true,
+          "on-change": "handleFileLockChange",
+          "title": "@switchButtonTooltip"
+        },
+        {
+          "component": "div",
+          "extraclass": "file-lock-button",
+          "hide": "@showLockButton",
+          "title": "@tooltipText",
+          "items": [
+            {
+              "component": "spectrum_icon",
+              "icon": "s2FileLock",
+              "size": "S"
+            },
+            {
+              "component": "label",
+              "extraclass": "@primaryTextExtraClass",
+              "label": "@primaryText"
+            }
+          ]
+        },
+        {
+          "component": "spectrum_flex",
+          "show": "@showLockButton",
+          "items": [
+            {
+              "component": "label",
+              "extraclass": "@primaryTextExtraClass",
+              "label": "@primaryText"
+            }
+          ]
+        },
+        {
+          "component": "spectrum_contextualHelp",
+          "show": "@showLockButton",
+          "variant": "info",
+          "placement": "bottom end",
+          "heading": "Lock",
+          "subHeading": "This restricts other users from editing the file. Unlock the file/ disable the switch if you want others to have editing access"
+        },
+        {
+          "component": "spectrum_actionMenu",
+          "show": "@showAdminDropDown",
+          "isQuiet": true,
+          "elementId": "toolbar-view",
+          "on-action": "onAction",
+          "triggerConfig": {
+            "component": "spectrum_actionButton",
+            "isQuiet": true,
+            "items": [
+              {
+                "component": "spectrum_icon",
+                "icon": "chevronDown"
+              }
+            ]
+          },
+          "items": "@items"
+        }
+      ]
+    }
+  ]
+}

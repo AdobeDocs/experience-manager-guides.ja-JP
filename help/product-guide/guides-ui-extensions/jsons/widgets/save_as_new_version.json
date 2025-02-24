@@ -1,0 +1,65 @@
+{
+  "id": "save_as_new_version",
+  "component": "div",
+  "extraclass": "display-flex gap-2 toolbar-info-wrapper items-center",
+  "items": [
+    {
+      "show": "@isNotLatest",
+      "component": "button",
+      "title": "This is not the latest version",
+      "icon": "alert",
+      "variant": "action",
+      "iconSize": "S",
+      "quiet": "true"
+    },
+    {
+      "component": "spectrum_view",
+      "items": [
+        {
+          "component": "spectrum_flex",
+          "isQuiet": true,
+          "items": [
+            {
+              "component": "spectrum_text",
+              "label": "@versionDetails"
+            },
+            {
+              "component": "spectrum_flex",
+              "show": "@isNotReadOnly",
+              "items": [
+                {
+                  "component": "spectrum_view",
+                  "items": [
+                    {
+                      "component": "spectrum_actionButton",
+                      "label": "Save as new version",
+                      "title": "Save as new version",
+                      "on-press": "handleAppSaveVersion",
+                      "isQuiet": true,
+                      "items": [
+                        {
+                          "component": "spectrum_icon",
+                          "icon": "dataUpload"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "component": "spectrum_view",
+      "show": "@isSideBySideViewOn",
+      "items": [
+        {
+          "component": "spectrum_text",
+          "label": "@versionDetails"
+        }
+      ]
+    }
+  ]
+}

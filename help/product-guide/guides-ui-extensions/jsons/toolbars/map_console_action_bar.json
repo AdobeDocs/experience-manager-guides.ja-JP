@@ -1,0 +1,253 @@
+{
+  "id": "map_console_action_bar",
+  "component": "div",
+  "extraclass": ["map-console-panel-header", "@responsiveClass", "@hidePanelClass"],
+  "items": [
+    {
+      "component": "div",
+      "extraclass": "map-console-header-titlebar",
+      "items": [
+        {
+          "component": "div",
+          "extraclass": ["map-console-panel-header-title","@panelHeaderTitleClass"],
+          "items": [
+            {
+              "component": "label",
+              "label": "@title",
+              "title": "@title"
+            }
+          ]
+        },
+        {
+          "show": "@showDescription",
+          "component": "div",
+          "extraclass": "description-separator"
+        },
+        {
+          "component": "div",
+          "items": [
+            {
+              "show": "@showDescription",
+              "component": "label",
+              "label": "@description",
+              "title": "@description"
+            }
+          ]
+        },
+        {
+          "component": "div",
+          "extraclass": "title-bar-buttons",
+          "items": "@titleBarButtons"
+        }
+      ]
+    },
+    {
+      "component": "div",
+      "extraclass": "map-console-panel-header-toolbar",
+      "items": [
+        {
+          "key": "generatePreset",
+          "component": "button",
+          "title": "Generate output",
+          "on-click": "APP_PRESET_GENERATE_AEM",
+          "label": "Generate output",
+          "icon": "export",
+          "type": "secondary",
+          "disabled": "@disableGeneratePresetButton",
+          "variant": "action",
+          "quiet": true,
+          "show": "@isPresetMode"
+        },
+        {
+          "key": "pdfGenerate",
+          "component": "button",
+          "title": "Generate output",
+          "on-click": "APP_PRESET_GENERATE",
+          "label": "Generate output",
+          "icon": "export",
+          "type": "secondary",
+          "disabled": "@disableGeneratePresetButton",
+          "variant": "action",
+          "quiet": true,
+          "show": "@isPDFPresetMode"
+        },
+        {
+          "key": "downloadTempFiles",
+          "component": "button",
+          "title": "Download temporary files",
+          "on-click": "DOWNLOAD_TEMP_FILES",
+          "label": "Download temporary files",
+          "icon": "FileZip",
+          "type": "secondary",
+          "variant": "action",
+          "quiet": true,
+          "show": "@showDownloadTempFiles"
+        },
+        {
+          "key":"viewOutput",
+          "component": "button",
+          "title": "@viewOutputTitle",
+          "on-click": "PRESET_VIEW",
+          "label": "@viewOutputTitle",
+          "icon": "@v3viewOutputIcon",
+          "type": "secondary",
+          "variant": "action",
+          "quiet": true,
+          "show": "@showViewOutput"
+        },
+        {
+          "key":"manageTags",
+          "component": "button",
+          "title": "Manage",
+          "on-click": "reports.manage_report",
+          "label": "Manage",
+          "icon": "s2AppGear",
+          "type": "secondary",
+          "variant": "action",
+          "quiet": true,
+          "show": "@showManageTags"
+        },
+        {
+          "key": "postProcess",
+          "component": "button",
+          "title": "Run post process",
+          "on-click": "runPostProcessing",
+          "label": "Run post process",
+          "icon": "s2AppGear",
+          "type": "secondary",
+          "variant": "action",
+          "quiet": true,
+          "show": "@showPostProcessButton"
+        },
+        {
+          "key":"outOfSync",
+          "component": "button",
+          "title": "Mark in sync",
+          "on-click": "workflow.dismiss_out_of_sync",
+          "label": "Mark in sync",
+          "icon": "s2switch",
+          "type": "secondary",
+          "variant": "action",
+          "quiet": true,
+          "show": "@showDismissOutOfSyncButton"
+        },
+        {
+          "key":"rearrangeTopics",
+          "component": "button",
+          "title": "Re-arrange topics",
+          "on-click": "workflow.reset_sort_order",
+          "label": "Re-arrange topics",
+          "icon": "s2IconOrder",
+          "type": "secondary",
+          "variant": "action",
+          "quiet": true,
+          "show": "@showDitamapOrderingButton"
+        },
+        {
+          "key":"download",
+          "component": "button",
+          "title": "Download",
+          "on-click": "download_table",
+          "label": "Download",
+          "icon": "downloadTable",
+          "type": "secondary",
+          "variant": "action",
+          "quiet": true,
+          "show": "@showDownloadButton"
+        },
+        {
+          "key":"downloadCsv",
+          "component": "button",
+          "title": "Download CSV",
+          "on-click": "download_csv",
+          "label": "Download CSV",
+          "icon": "downloadTable",
+          "type": "secondary",
+          "variant": "action",
+          "quiet": true,
+          "show": "@showDownloadCsvButton"
+        },
+        {
+          "key":"refresh",
+          "component": "button",
+          "title": "Refresh",
+          "on-click": "refresh_table",
+          "label": "Refresh",
+          "icon": "refresh",
+          "type": "secondary",
+          "variant": "action",
+          "quiet": true,
+          "show": "@showRefresh"
+        },
+        {
+          "key":"reset",
+          "component": "button",
+          "title": "Reset",
+          "on-click": "baseline.reset",
+          "label": "Reset",
+          "icon": "revert",
+          "type": "secondary",
+          "variant": "action",
+          "quiet": true,
+          "show": "@isBaselineMode"
+        },
+        {
+          "key":"buttonSeparator",
+          "component": "div",
+          "extraclass": "button-separator",
+          "show": "@showButtonSeparator"
+        },
+        {
+          "key": "save",
+          "component": "button",
+          "title": "Save",
+          "on-click": "APP_SAVE",
+          "label": "Save",
+          "type": "primary",
+          "variant": "cta",
+          "extraclass": "save-button-config",
+          "quiet": false,
+          "show": "@showSaveButton",
+          "disabled": "@isSaveButtonDisabled"
+        },
+        {
+          "key": "selectAll",
+          "component": "button",
+          "title": "@selectAllTitle",
+          "on-click": "SELECT_ALL",
+          "label": "@selectAllTitle",
+          "type": "custom",
+          "variant": "action",
+          "extraclass": "select-all-button",
+          "quiet": true,
+          "show": false
+        },
+        {
+          "key": "clearSelection",
+          "component": "button",
+          "title": "Clear selection",
+          "on-click": "CLEAR_SELECTION",
+          "label": "Clear selection",
+          "type": "custom",
+          "variant": "action",
+          "extraclass": "clear-selection-button",
+          "quiet": true,
+          "show": false
+        },
+        {
+          "key": "sendForTranslation",
+          "component": "button",
+          "title": "Send for translation",
+          "on-click": "APP_SUBMIT_FOR_TRANSLATION",
+          "label": "Send for translation",
+          "type": "primary",
+          "variant": "cta",
+          "extraclass": "send-for-translation-config",
+          "quiet": false,
+          "show": "@isTranslationMode",
+          "disabled": "@disableTranslationButton"
+        }
+      ]
+    }         
+  ]
+}
