@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: 293d2fd9c015a4ec516080b9e5dfed32b96639b7
+source-git-commit: 7252254443b5f1fee8c51e49efe23da418e46d50
 workflow-type: tm+mt
 source-wordcount: '2040'
 ht-degree: 7%
@@ -258,7 +258,7 @@ ht-degree: 7%
          - [ファイルとフォルダーの管理](./user-guide/authoring-file-management.md)
          - [ファイルをダウンロード](./user-guide/authoring-download-assets.md)
 - ユーザーガイド（古い UI） {#user-guide-old-ui}
-   - [AEM Guidesの概要） ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guidesの概要 ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - インストールと設定 {#install-guide}
    - オンプレミス {#on-prem-ig}
       - [オンプレミスの基本](./install-guide/introduction.md)
