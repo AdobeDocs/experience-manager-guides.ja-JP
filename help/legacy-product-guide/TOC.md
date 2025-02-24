@@ -1,13 +1,13 @@
 ---
 user-guide-title: Experience Manager Guides旧 UI
-user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
+user-guide-description: 古いユーザーインターフェイスを使用したAdobe Experience Manager Guidesの製品ドキュメントをお読みください。
 breadcrumb-title: AEM Guides ドキュメント
 hide: true
 badgeAll: label="古い UI ガイド – 詳細情報" type="Informative" url="/help/legacy-product-guide/disclaimer.md" tooltip="古い UI ガイド"
-source-git-commit: e1d6123991ddd8d25f76ee03befeb95f020a9834
+source-git-commit: 293d2fd9c015a4ec516080b9e5dfed32b96639b7
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 6%
+source-wordcount: '555'
+ht-degree: 4%
 
 ---
 
@@ -139,4 +139,5 @@ ht-degree: 6%
       - [コンテンツ再利用レポート](./user-guide/reports-content-reuse.md)
       - [コンバージョンステータスレポート](./user-guide/reports-convertion-status.md)
       - [元に戻したファイルのバージョン履歴レポート](./user-guide/reports-reverted-file-version-history.md)
-- [ ユーザーガイド（新しい UI） ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/about-aem-guide/intro)
+- [ ユーザーガイド （新しい UI） ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/about-aemg/intro)
+

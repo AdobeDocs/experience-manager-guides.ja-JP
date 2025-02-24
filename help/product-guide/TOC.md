@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: ab7e91306d9a5253205e773f148d789141b9b0d1
+source-git-commit: 293d2fd9c015a4ec516080b9e5dfed32b96639b7
 workflow-type: tm+mt
-source-wordcount: '2034'
-ht-degree: 8%
+source-wordcount: '2040'
+ht-degree: 7%
 
 ---
 
@@ -126,7 +126,8 @@ ht-degree: 8%
       - [!DNL AEM Guides] の作業と主な機能 {#aemg-works-features}
          - [仕組  [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
          - [主  [!DNL AEM Guides]  機能](./user-guide/intro-dxml-features.md)
-   - [[!DNL AEM Guides] のホームページエクスペリエンス](./user-guide/intro-home-page.md)
+   - ホーム ページ {#home-page}
+      - [[!DNL AEM Guides] のホームページエクスペリエンス](./user-guide/intro-home-page.md)
    - Author content {#author-content}
       - [オーサリングの概要](./user-guide/authoring-content.md)
       - [AEM Guidesを使用したコンテンツのオーサリング方法](./user-guide/authoring-content-xml-doc.md)
@@ -158,7 +159,7 @@ ht-degree: 8%
          - [DITAVAL エディタの使用](./user-guide/ditaval-editor.md)
       - コンテンツ {#author-using-desktop-tools} ータをオーサリングするためのデスクトップツール
          - [デスクトップツールを使用したコンテンツの作成](./user-guide/author-desktop-tools.md)
-   - レビュー {#review}
+   - Review content {#review}
       - [レビューの概要](./user-guide/review.md)
       - [DITA プロジェクトの作成](./user-guide/authoring-create-dita-project.md)
       - [レビュー用にトピックを送信](./user-guide/review-send-topics-for-review.md)
@@ -177,6 +178,19 @@ ht-degree: 8%
    - マップ管理と公開 {#map-management-publishing}
       - [マップコンソールの概要](./user-guide/map-console-overview.md)
       - [Map コンソールでファイルを開く](./user-guide/open-files-map-console.md)
+      - レポート {#reports-aem-guide}
+         - [レポートの概要](./user-guide/reports-intro.md)
+         - [マップコンソールからの DITA マップレポート](./user-guide/reports-web-editor.md)
+         - [マップダッシュボードからの DITA マップレポート](./user-guide/reports-ditamap.md)
+         - [コンテンツ再利用レポート](./user-guide/reports-content-reuse.md)
+         - [コンバージョンステータスレポート](./user-guide/reports-convertion-status.md)
+         - [ 元に戻したファイルのバージョン履歴レポート ](./user-guide/reports-reverted-file-version-history.md)
+      - コンテンツ翻訳 {#translate-content}
+         - [コンテンツ翻訳の概要](./user-guide/translation.md)
+         - [コンテンツ翻訳のベストプラクティス](./user-guide/translation-first-time.md)
+         - [マップ コンソールからのドキュメントの翻訳](./user-guide/translate-documents-web-editor.md)
+         - [翻訳ステータスの表示](./user-guide/translation-view-trans-state-6234.md)
+         - [変更したトピックを翻訳](./user-guide/translation-modified-topics-6234.md)
       - 出力生成 {#output-gen}
          - [出力生成の基本](./user-guide/generate-output.md)
          - AEM Guides {#output-presets-aemg} の出力プリセット
@@ -203,19 +217,6 @@ ht-degree: 8%
          - [グローバルプロファイルおよびフォルダープロファイル出力プリセットの管理](./user-guide/web-editor-manage-output-presets.md)
          - [宛先パス、サイト名、ファイル名の各オプションを設定する変数を使用します](./user-guide/generate-output-use-variables.md)
          - [DITA-OT を使用してメタデータを出力に渡す](./user-guide/pass-metadata-dita-ot.md)
-         - レポート {#reports-aem-guide}
-            - [レポートの概要](./user-guide/reports-intro.md)
-            - [マップコンソールからの DITA マップレポート](./user-guide/reports-web-editor.md)
-            - [マップダッシュボードからの DITA マップレポート](./user-guide/reports-ditamap.md)
-            - [コンテンツ再利用レポート](./user-guide/reports-content-reuse.md)
-            - [コンバージョンステータスレポート](./user-guide/reports-convertion-status.md)
-            - [ 元に戻したファイルのバージョン履歴レポート ](./user-guide/reports-reverted-file-version-history.md)
-         - コンテンツ翻訳 {#translate-content}
-            - [コンテンツ翻訳の概要](./user-guide/translation.md)
-            - [コンテンツ翻訳のベストプラクティス](./user-guide/translation-first-time.md)
-            - [マップ コンソールからのドキュメントの翻訳](./user-guide/translate-documents-web-editor.md)
-            - [翻訳ステータスの表示](./user-guide/translation-view-trans-state-6234.md)
-            - [変更したトピックを翻訳](./user-guide/translation-modified-topics-6234.md)
          - 出力 {#generate-output} を生成
             - [DITA マップの出力の生成](./user-guide/generate-output-for-a-dita-map.md)
             - [ナレッジベース出力の生成](./user-guide/web-editor-article-publishing.md)
@@ -228,12 +229,12 @@ ht-degree: 8%
          - [出力生成プロセスの管理](./user-guide/generate-output-manage-process.md)
          - [公開ダッシュボードを使用した公開タスクの管理](./user-guide/generate-output-publish-dashboard.md)
          - [基本的なトラブルシューティング](./user-guide/generate-output-basic-troubleshooting.md)
-         - コンテンツア {#bulk-activation} ットの一括アクティベーション
-            - [公開済みコンテンツの一括アクティベーション](./user-guide/conf-bulk-activation.md)
-            - [一括アクティベーションマップコレクションの作成](./user-guide/conf-bulk-activation-create-map-collection.md)
-            - [出力を有効化](./user-guide/conf-bulk-activation-publish-map-collection.md)
-            - [一括アクティベーションマップコレクションを編集](./user-guide/conf-bulk-activation-edit-map-collection.md)
-            - [一括有効化マップコレクションを削除](./user-guide/conf-bulk-activation-delete-map-collection.md)
+      - コンテンツア {#bulk-activation} ットの一括アクティベーション
+         - [公開済みコンテンツの一括アクティベーション](./user-guide/conf-bulk-activation.md)
+         - [一括アクティベーションマップコレクションの作成](./user-guide/conf-bulk-activation-create-map-collection.md)
+         - [出力を有効化](./user-guide/conf-bulk-activation-publish-map-collection.md)
+         - [一括アクティベーションマップコレクションを編集](./user-guide/conf-bulk-activation-edit-map-collection.md)
+         - [一括有効化マップコレクションを削除](./user-guide/conf-bulk-activation-delete-map-collection.md)
    - FrameMaker ドキュメントの出力生成 {#generate-fm-output}
       - [FrameMaker出力生成の基本](./user-guide/fm-output-generatation.md)
       - でサポートされるプリセット {#fm-docs-generating-presets}
@@ -256,7 +257,8 @@ ht-degree: 8%
          - [ファイルのアップロード](./user-guide/authoring-upload-existing-files.md)
          - [ファイルとフォルダーの管理](./user-guide/authoring-file-management.md)
          - [ファイルをダウンロード](./user-guide/authoring-download-assets.md)
-- [ ユーザーガイド（古い UI） ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+- ユーザーガイド（古い UI） {#user-guide-old-ui}
+   - [AEM Guidesの概要） ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - インストールと設定 {#install-guide}
    - オンプレミス {#on-prem-ig}
       - [オンプレミスの基本](./install-guide/introduction.md)

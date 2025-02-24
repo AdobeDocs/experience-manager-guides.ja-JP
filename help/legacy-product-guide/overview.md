@@ -4,18 +4,14 @@ description: Experience Manager Guides（旧称XML Documentation for Adobe Exper
 feature: AEM Guides Tutorials
 role: User
 exl-id: de7bda03-371b-4414-846b-86787f98fda8
-source-git-commit: 67d6b6f59e5d8c37389a181949ce4527760576e2
+source-git-commit: 293d2fd9c015a4ec516080b9e5dfed32b96639b7
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '236'
 ht-degree: 2%
 
 ---
 
 # AEM Guidesの概要
-
->[!NOTE]
->
->レガシーガイドに関するメモです。 メタデータバッジの代わりに、またはメタデータバッジに加えて使用できます。
 
 [!DNL Experience Manager Guides] （以下 _[!DNL AEM Guides]_参照）は、強力なエンタープライズグレードのコンポーネントコンテンツ管理ソリューション（CCMS）です。 これにより、Experience Managerでのネイティブ DITA サポートが可能になり、AEMが DITA ベースのコンテンツの作成と配信を処理できるようになります。 これにより、作成者は、Adobe FrameMakerや使いやすい組み込み web エディターなど、オフラインの DITA オーサリングツールを使用してコンテンツを作成できます。
 
@@ -26,59 +22,6 @@ ht-degree: 2%
 >[!NOTE]
 > 
 > Adobe Experience Manager Guidesは、以前はAdobe Experience Manager用の _XML Documentation_ というブランドでした。 ドキュメント内の特定のリファレンスは、以前のブランディングを引き続き参照する場合がありますが、現在の製品にはそのまま適用されます。
-
-<!--
-
-Dummy links cause validation to fail
-
-## Staff Picks
-
-<table>
-<tr>
-  <td>
-    <a href="#">
-      <img alt="400 x 225px" src="myimage.png" />
-    </a>
-    <div>
-      <a href="#">
-    <strong>Enablement Content 1</strong>
-    </a>
-    </div>
-    <p>
-    <em>A brief description of enablement content.</em>
-    <p>
-  </td>
-   <td>
-    <a href="#">
-      <img alt="400 x 225px" src="myimage.png" />
-    </a>
-    <div>
-      <a href="#">
-    <strong>Enablement Content 1</strong>
-    </a>
-    </div>
-    <p>
-    <em>A brief description of enablement content.</em>
-    <p>
-  </td>
-  <td>
-    <a href="#">
-      <img alt="400 x 225px" src="myimage.png" />
-    </a>
-    <div>
-      <a href="#">
-    <strong>Enablement Content 1</strong>
-    </a>
-    </div>
-    <p>
-    <em>A brief description of enablement content.</em>
-    <p>
-  </td>
-</tr>
-</table>
-
--->
-
 
 ## その他のリソース
 
