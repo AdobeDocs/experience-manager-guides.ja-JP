@@ -3,7 +3,9 @@ title: 出力生成にマップ コレクションを使用
 description: マップコレクションを作成および削除し、DITA マップを追加または削除する方法を説明します。 AEM Guidesのマップコレクションから Output Generation タスクを設定、生成、キャンセルします。
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 4215618f-2203-4c55-adba-cdec76322e9e
+source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 0%
@@ -69,7 +71,7 @@ Map コレクションを作成し、そのコレクションに DITA マップ�
 
 マップ・コレクションを使用して出力を構成および生成するには、次の手順を実行します。
 
-1. AEM サイト、PDF（ネイティブPDFを含む）、HTML 5、EPUB、カスタムプリセットなど、様々な出力プリセットを表示できます。 管理者が作成したグローバルプロファイルプリセットとフォルダープロファイルプリセットも表示できます。
+1. AEM サイト、PDF（ネイティブ PDFを含む）、HTML5、EPUB、カスタムプリセットなど、様々な出力プリセットを表示できます。 管理者が作成したグローバルプロファイルプリセットとフォルダープロファイルプリセットも表示できます。
 
    ![](images/global-preset-icon.svg) アイコンは、フォルダープロファイルレベルのプリセットを示します。
 1. \（オプション\）要件に応じて、次のいずれかの操作を行います。
@@ -137,7 +139,7 @@ Map コレクションを作成し、そのコレクションに DITA マップ�
 
 ## マップ コレクションからの出力生成タスクをキャンセルします
 
-[DITA Map Console](generate-output-for-a-dita-map.md#id2061H100T5Z) または [Publish Dashboard](generate-output-publish-dashboard.md#) から Output Generation Task をキャンセルする場合と同様に、Map Collection から Output Generation Task をキャンセルできます。 [ マップ コレクション ] の [ 出力 ] タブにアクセスし、キャンセルするパブリッシュ タスクに移動し、**このジョブをキャンセル** アイコンをクリックしてパブリッシュ タスクをキャンセルします。
+[DITA マップコンソール ](generate-output-for-a-dita-map.md#id2061H100T5Z) または [ パブリッシュダッシュボード ](generate-output-publish-dashboard.md#) から出力生成タスクをキャンセルする場合と同様に、マップコレクションから出力生成タスクをキャンセルできます。 [ マップ コレクション ] の [ 出力 ] タブにアクセスし、キャンセルするパブリッシュ タスクに移動し、**このジョブをキャンセル** アイコンをクリックしてパブリッシュ タスクをキャンセルします。
 
 ![](images/cancel-publish-task-map-collection.png){width="800" align="left"}
 

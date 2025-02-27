@@ -1,9 +1,11 @@
 ---
-title: コンテンツフラグメントへのトピックのPublish
-description: トピックまたはトピック内の要素をAEM GuidesのコンテンツフラグメントにPublishします。  トピックのコンテンツフラグメントを表示して再公開する方法を説明します。
+title: コンテンツフラグメントへのトピックの公開
+description: AEM Guidesのコンテンツフラグメントにトピックまたはトピック内の要素を公開します。  トピックのコンテンツフラグメントを表示して再公開する方法を説明します。
 feature: Publishing
 role: User
-source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
+hide: true
+exl-id: f8a8dfd3-19de-49ff-b4d4-265b3ac09488
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
@@ -39,7 +41,7 @@ Experience Manager Guidesでは、トピックやその要素をコンテンツ�
 1. **コンテンツフラグメントを生成** ダイアログボックスの **一般** および **マッピング** タブで、次の詳細を入力します。
 
    **一般** タブ
-   ![ フラグメントモデルとマッピングの詳細を、コンテンツフラグメントとしてPublishダイアログに追加 ](images/generate-content-fragment.png)
+   ![ コンテンツフラグメントとして公開ダイアログでフラグメントモデルとマッピングの詳細を追加し ](images/generate-content-fragment.png) す。
    *パス、名前、タイトル、条件のフィルタリングを追加して、トピックまたはその要素をコンテンツフラグメントとして公開します*。
 
 
@@ -63,7 +65,7 @@ Experience Manager Guidesでは、トピックやその要素をコンテンツ�
 
    「**マッピング**」タブ
 
-   ![ フラグメントモデルとマッピングの詳細を、コンテンツフラグメントとしてPublishダイアログに追加 ](images/content-fragment-mapping.png)
+   ![ コンテンツフラグメントとして公開ダイアログでフラグメントモデルとマッピングの詳細を追加し ](images/content-fragment-mapping.png) す。
 
    *コンテンツフラグメントモデルを選択し、マッピングの詳細を追加して、トピックまたはその要素をコンテンツフラグメントとして公開します。*
 

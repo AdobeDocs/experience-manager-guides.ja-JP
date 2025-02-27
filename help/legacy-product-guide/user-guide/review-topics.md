@@ -3,7 +3,9 @@ title: トピックを確認
 description: トピックをレビューする方法、およびAEM Guidesのレビュー担当者、ドキュメントビュー、トピックビュー、コンテキストツールバー、プレビューモード、コメントへの添付ファイルの追加、条件パネルとして機能を使用する方法を説明します。
 feature: Reviewing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 371d89b8-fe05-4477-9bf8-cc47c0899108
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '2351'
 ht-degree: 0%

@@ -3,7 +3,9 @@ title: コンテンツへの引用の追加と管理
 description: AEM Guidesで引用文献を追加および管理します。 引用スタイルの適用、読み込み、フィルター、検索、変更、編集、プレビュー、挿入、削除、引用を含んだコンテンツ出力の生成の方法について説明します。
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: f8f1116efbf0c7c26f6ebacf6234dcc2fee636c1
+hide: true
+exl-id: 832dbc5d-85f7-41fd-8f5d-789732b46f80
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 0%
@@ -17,14 +19,14 @@ ht-degree: 0%
 AEM Guidesでは、引用文を追加および読み込んで、コンテンツに適用できます。 これらの引用は、書籍、Web サイト、ジャーナルの任意のソースから追加できます。
 
 
-AEM Guidesでは、引用の編集、プレビュー、並べ替えを行うことができます。 コンテンツに引用文を追加したら、ネイティブPDFを使用して出力を生成できます。 ネイティブPDF出力に参考文献ページや参照ページを追加することもできます。
+AEM Guidesでは、引用の編集、プレビュー、並べ替えを行うことができます。 コンテンツに引用文を追加したら、Native PDFを使用して出力を生成できます。 ネイティブのPDF出力に文献目録ページや参照ページを追加することもできます。
 
 AEM Guidesは、Modern Language Association （MLA）、American Psychological Association （APA）、Chicago、Institute for Electrical and Electronics Engineers （IEEE）、American Heart Association （AHA）など、複数のスタイルの引用をサポートしています。 これらは、明確かつ一貫して使用することをお勧めします。
 
 
 >[!NOTE]
 >
->現在、AEM Guidesでは、引用に対してネイティブPDFのみをサポートしています。
+>現在、AEM Guidesは、引用に対してネイティブ PDFのみをサポートしています。
 
 
 ## 引用文献の追加
@@ -127,7 +129,7 @@ AEM Guidesは、Modern Language Association （MLA）、American Psychological A
 ### 引用スタイルの変更 {#change-citation-style}
 
 システム管理者は、**エディター設定** の **一般設定** タブにある **引用** ドロップダウンから引用のスタイルを変更できます。
-これらのスタイルによって、プレビューペインまたはネイティブPDF出力での引用文献の表示方法が決まります。
+これらのスタイルによって、プレビューペインまたはネイティブのPDF出力での引用文献の表示方法が決まります。
 
 ドロップダウンでは、次のオプションを使用できます。
 
@@ -212,7 +214,7 @@ AEM Guidesは、Modern Language Association （MLA）、American Psychological A
 1. **引用** ダイアログから、挿入する引用を選択します。
 1. 「**完了**」を選択して、トピックに追加します。
 
-トピックに引用文献を挿入したら、Web エディタで引用文献をプレビューできます。 ネイティブPDFを使用して、引用のあるコンテンツを公開することもできます。
+トピックに引用文献を挿入したら、Web エディタで引用文献をプレビューできます。 また、Native PDFを使用して、引用付きのコンテンツを公開することもできます。
 
 
 
@@ -253,14 +255,14 @@ AEM Guidesは、Modern Language Association （MLA）、American Psychological A
 
 ## 引用を含んだコンテンツ出力の生成
 
-トピックに引用文を挿入したら、ネイティブPDFを使用して引用文を含むコンテンツを公開できます。
+トピックに引用文を挿入したら、Native PDFを使用して引用文を含むコンテンツを公開できます。
 
-ネイティブPDF出力では、引用文は挿入先のコンテンツ内に表示されます。 参考文献ページを作成することもできます。 引用文献をクリックすると、文献目録ページにリダイレクトされます。
+ネイティブ PDF出力では、引用文は、引用文を挿入したコンテンツ内に表示されます。 参考文献ページを作成することもできます。 引用文献をクリックすると、文献目録ページにリダイレクトされます。
 
-PDFテンプレートで **引用** ページレイアウトを作成し、ドキュメントに含めます。 本で使用されているすべての引用は、PDF出力に表示される 1 つのページにリストされます。 ページレイアウトの作成について詳しくは、[ ページレイアウトの作成 ](/help/product-guide/native-pdf/components-pdf-template.md#create-page-layout) を参照してください。
+PDF テンプレートで **引用** ページレイアウトを作成し、ドキュメントに含めます。 本で使用されているすべての引用は、PDFの出力に表示される 1 ページにリストされます。 ページレイアウトの作成について詳しくは、[ ページレイアウトの作成 ](/help/product-guide/native-pdf/components-pdf-template.md#create-page-layout) を参照してください。
 
 
-引用文献ページの表示と操作性を変更するには、[PDF テンプレートのカスタマイズ ](/help/product-guide/native-pdf/pdf-template.md) を表示します。
+引用文献ページの表示と操作性を変更するには、[[PDF テンプレートのカスタマイズ ](/help/product-guide/native-pdf/pdf-template.md)] をクリックします。
 
 
 
@@ -268,7 +270,7 @@ PDFテンプレートで **引用** ページレイアウトを作成し、ド�
 
 トピックに追加された引用文献に書式を適用します。
 
-1. ネイティブPDF出力プリセットの **テンプレート** パネルで **スタイルシート** を選択します。   すべてのスタイルオプションを含む **スタイル** パネルが開きます。
+1. ネイティブ PDF出力プリセットの **テンプレート** パネルで **スタイルシート** を選択します。   すべてのスタイルオプションを含む **スタイル** パネルが開きます。
 
 1. 検索パネルで `<cite>` を検索します。
 

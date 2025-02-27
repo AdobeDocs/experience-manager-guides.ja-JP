@@ -3,7 +3,9 @@ title: 基本的なトラブルシューティング
 description: AEM Guidesの基本的なトラブルシューティングの問題を解決します。 テキストエディターでログファイルを表示、コピー、確認し、JSP コンパイルエラーを解決する方法について説明します。
 feature: Publishing, Troubleshooting
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: f85fee0f-30d1-453f-8700-781e0be8f616
+source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%

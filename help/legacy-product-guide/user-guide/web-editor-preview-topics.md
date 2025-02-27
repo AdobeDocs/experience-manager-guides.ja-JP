@@ -3,7 +3,9 @@ title: トピックのプレビュー
 description: AEM Guidesでトピックをプレビューする方法を説明します。 プレビューモードで使用できる機能について説明します。 AEM ガイドでのブランチ、元に戻す、後続のバージョン管理。
 feature: Authoring
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: c2c24b6f-08e8-47be-be33-b3e9fb50052e
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1859'
 ht-degree: 0%

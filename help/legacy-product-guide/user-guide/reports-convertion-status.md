@@ -3,7 +3,9 @@ title: コンバージョンステータスレポート
 description: AEM Guidesで異なるフォーマットの文書を DITA に変換します。 フィルターを追加する方法、およびコンバージョンステータスレポートを表示する方法について説明します。
 feature: Report Generation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: f6bf1033-9c2f-42c7-9ad5-e1060e2c9770
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%

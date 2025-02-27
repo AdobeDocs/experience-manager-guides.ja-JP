@@ -3,7 +3,9 @@ title: ファイルをダウンロード
 description: AEM Guidesの DITA マップコンソールからファイルをダウンロードする方法と、AEM リポジトリに DITA マップファイルを書き出す方法を説明します。
 feature: Content Management
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: b04a0abe-a029-44ac-b8f4-138d78908d44
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 0%
@@ -12,11 +14,11 @@ ht-degree: 0%
 
 # ファイルをダウンロード {#id216MC0H0BE8}
 
-DITA ファイルと非 DITA ファイルを含むアセットをダウンロードできます。 アセットをダウンロードする方法は複数あります。AEMにネイティブな方法もあれば、AEM Guidesでサポートされている方法もあります。 AEM Assets のネイティブなダウンロード情報については、AEM ドキュメントの [Adobe Experience Managerからのアセットのダウンロード ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html) を参照してください。 次の節では、AEM Guidesで DITA マップコンソールを使用してファイルをダウンロードする仕組みについて説明します。
+DITA ファイルと非 DITA ファイルを含むアセットをダウンロードできます。 アセットをダウンロードする方法は複数あります。AEMにネイティブな方法もあれば、AEM Guidesでサポートされている方法もあります。 AEMのネイティブアセットのダウンロード情報については、AEM ドキュメントの [Adobe Experience Managerからのアセットのダウンロード ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html) を参照してください。 次の節では、AEM Guidesで DITA マップコンソールを使用してファイルをダウンロードする仕組みについて説明します。
 
 ## DITA マップファイルのエクスポート
 
-AEM リポジトリに DITA マップファイルを作成したら、マップファイルとその依存ファイルをダウンロードできます。 これにより、オフラインでの編集、検証、レビュー、または単にバックアップを作成するために、完全なマップ ファイルを柔軟に共有できます。
+DITA マップファイルをAEM リポジトリに格納したら、マップファイルとその依存ファイルをダウンロードできます。 これにより、オフラインでの編集、検証、レビュー、または単にバックアップを作成するために、完全なマップ ファイルを柔軟に共有できます。
 
 次の手順を実行して、DITA マップファイルとその依存ファイルをダウンロードします。
 
@@ -50,7 +52,7 @@ AEM リポジトリに DITA マップファイルを作成したら、マップ�
 
    >[!NOTE]
    >
-   > デフォルトでは、ダウンロードされたマップはAEM通知インボックスに 5 日間残ります。
+   > デフォルトでは、ダウンロードされたマップはAEMの通知インボックスに 5 日間残ります。
 
 ![](images/download-map-inbox.png){width="300" align="left"}
 

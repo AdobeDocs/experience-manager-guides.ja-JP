@@ -3,7 +3,9 @@ title: DITA コンテンツの一括タグ付け
 description: AEM Guidesのコンテンツの一括タグ付けを使用して、DITA コンテンツの検出性を向上させます。 1 つまたは複数のトピックにバルクタグを適用、削除、表示、非表示にする方法を説明します。
 feature: Metadata Management
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: b320e34f-ee0a-4cc3-b4f6-d322fbb29844
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -16,7 +18,7 @@ ht-degree: 0%
 
 AEM Guidesを使用すると、数回クリックで DITA コンテンツにタグを付けることができます。 一括タグ付け機能を使用して、複数のトピック、DITA マップ、またはサブマップに複数のタグを適用できます。 または、個々のトピックにタグを適用することもできます。 タグ付けはAEMのネイティブ機能です。タグの作成と管理について詳しくは、AEM ドキュメントの [ タグの管理 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) 節を参照してください。
 
-デフォルトでは、AEM Guidesは、AEM リポジトリ内のすべてのタグが保存されるフォルダーのユーザーに読み取りアクセス権を付与しません。 AEM リポジトリで定義されているタグを使用するには、タグが格納されているフォルダーへのアクセス権の付与をシステム管理者に依頼する必要があります。
+デフォルトでは、AEM Guides リポジトリー内のすべてのタグが保存されているフォルダーの読み取りアクセス権は、AEMによって付与されません。 AEM リポジトリで定義されているタグを使用するには、タグが格納されているフォルダーへのアクセス権の付与をシステム管理者に依頼する必要があります。
 
 ## 一括タグを適用
 

@@ -3,7 +3,9 @@ title: Web エディターからのベースラインの作成と管理
 description: AEM Guidesの web エディターからベースラインを作成および管理します。 ラベルに基づいてベースラインを作成し、ベースラインにフィルターを適用する方法を説明します。
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: f43bc3ae-b7b6-4a8c-b42d-28ec02d0d1d6
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1699'
 ht-degree: 0%
@@ -14,7 +16,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> AEM Guidesの 3 月as a Cloud Serviceリリース以降にアップグレードした場合は、web エディターからこのベースライン機能を使用することをお勧めします。
+> AEM Guides as a Cloud Service 3 月リリース以降にアップグレードした場合は、web エディターからこのベースライン機能を使用することをお勧めします。
 
 AEM Guidesは、Web エディター内で統合されたベースライン機能を提供し、ユーザーがベースラインを作成して、それを使用して様々なバージョンのトピックを公開または翻訳できるようにします。 また、同じ DITA マップの複数の出力プリセットを並行して公開することもできます。
 
@@ -153,4 +155,3 @@ AEM Guidesは、Web エディター内で統合されたベースライン機能
 ベースラインを編集したら、上部の「**保存**」ボタンをクリックして、ベースラインの変更を保存します。 変更を保存せずにベースラインをリセットする場合は、「**リセット**」ボタンをクリックします。 **リセット** ボタンをクリックすると、保存されていない変更が失われることを示す警告が表示されます。
 
 **親トピック：**[ Web エディタの操作 ](web-editor.md)
-

@@ -3,7 +3,9 @@ title: コンテンツの管理
 description: AEM Guidesでコンテンツを管理し、役割と権限を特定します。 コンテンツ管理の主要概念と、グローバルプロファイルまたはフォルダーレベルのプロファイルの操作について説明します。
 feature: Content Management
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 54b960cf-fb00-4d4a-a836-9de4738c49a8
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 10%
@@ -20,7 +22,7 @@ AEMのコンテンツ管理に関する主要な概念を次に示します。
 
 **アセット管理**
 
-AEM Guidesでは、AEM デジタルアセット管理\（DAM\）を使用して DITA ファイルを管理します。 DAM にアップロードまたはチェックインするファイルは、デジタルアセットとして保存されます。 AEM Assetsでアセットを管理および編集できます。 アセット管理について詳しくは、「[ アセットの管理 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=ja)」を参照してください。
+AEM Guidesは、AEMのデジタルアセット管理\（DAM\）を使用して DITA ファイルを管理します。 DAM にアップロードまたはチェックインするファイルは、デジタルアセットとして保存されます。 AEM Assetsでアセットを管理および編集できます。 アセット管理について詳しくは、「[ アセットの管理 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=ja)」を参照してください。
 
 **リンク管理**
 
@@ -98,4 +100,4 @@ AEM Guidesでは、エンタープライズ \（global\） レベルおよびフ
 
 また、フォルダー固有の設定を部門または製品管理者に委任して、管理を分散させることもできます。
 
-グローバルプロファイルおよびフォルダーレベルのプロファイルの設定について詳しくは、「Adobe Experience Manager Guidesのas a Cloud Serviceのインストールおよび設定」の *グローバルプロファイルまたはフォルダーレベルのプロファイルの設定* を参照してください。
+グローバルプロファイルおよびフォルダーレベルのプロファイルの設定について詳しくは、「Adobe Experience Manager Guides as a Cloud Serviceのインストールと設定」の *グローバルプロファイルまたはフォルダーレベルのプロファイルの設定* を参照してください。

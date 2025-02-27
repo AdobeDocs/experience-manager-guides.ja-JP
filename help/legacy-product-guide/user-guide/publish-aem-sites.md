@@ -1,16 +1,17 @@
 ---
-title: AEM Sites ページへのトピックのPublish
-description: トピックまたはトピック内の要素をAdobe Experience Manager Sites出力にPublishします。  トピックに存在するExperience Manager Sites ページを表示して再公開する方法を説明します。
+title: AEM Sites ページへのトピックの公開
+description: トピックまたはトピック内の要素をAdobe Experience Manager Sites出力に公開します。  トピックに存在するExperience Manager Sites ページを表示して再公開する方法を説明します。
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '638'
 ht-degree: 0%
 
 ---
 
-# Publish Adobe Experience Manager Sitesのページ
+# Adobe Experience Manager Sitesページの公開
 
 
 Experience Manager Sitesページとは、Adobe Experience Manager web サイトで公開されるコンテンツを指します。 Experience Manager Guidesでは、スタンドアロントピックを Sites ページに公開できます。

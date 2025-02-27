@@ -1,9 +1,11 @@
 ---
 title: ファイルのアップロード
-description: ファイルをAEM リポジトリにアップロードし、エラーを処理する方法について説明します。 Assets コンソールのユーザーインターフェイス、AEM デスクトップアプリ、アセットの一括取得、一括アップロードでのFrameMakerの使用について説明します。
+description: ファイルをAEM リポジトリにアップロードし、エラーを処理する方法について説明します。 Assets コンソールのユーザーインターフェイス、AEM デスクトップアプリ、アセットの一括取得、FrameMakerの一括アップロードの使用について説明します。
 feature: Content Management
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: fcb2cc43-6a36-42f2-a695-7a50ae1031a0
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 1%
@@ -16,7 +18,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
-> AEMでサポートされるコンテンツアップロード方法について詳しくは、[Adobe Experience Manager as a Cloud Service Assetsへのデジタルアセットの追加 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html) を参照してください。
+> Adobe Experience Manager as a Cloud ServiceAssetsでサポートされるコンテンツアップロード方法について詳しくは、[AEMへのデジタルアセットの追加 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html) を参照してください。
 
 ## Assets コンソールのユーザーインターフェイス
 
@@ -30,11 +32,11 @@ ht-degree: 1%
 
 大規模な移行が行われ、一括で取り込みを行うことがある場合は、アセットの一括取得を使用してコンテンツをアップロードします。 このツールを使用すると、Azure や S3 などのサポートされているデータストアから一括コンテンツをアップロードできます。 詳しくは、[ アセット一括取得 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=en#asset-bulk-ingestor) を参照してください。
 
-## バルクアップロードにFrameMakerを使用
+## FrameMakerを使用したバルクアップロード
 
 Adobe FrameMakerには強力なAEM コネクタが付属しており、既存の DITA やその他のFrameMaker文書\（`.book` and `.fm`\）をAEMに簡単にアップロードできます。 単一ファイルのアップロード、依存関係の有無を問わず完全なフォルダーのアップロード\（コンテンツ参照、相互参照、グラフィックなど\）など、様々なファイルアップロード機能を使用できます。
 
-FrameMakerでのバルクアップロード機能の使用について詳しくは、『FrameMakerユーザーガイド』の *CRX フォルダーの作成とファイルのアップロード* を参照してください。
+FrameMakerでのバルクアップロード機能の使用について詳しくは、『FrameMaker ユーザーガイド』の *CRX フォルダーの作成とファイルのアップロード* を参照してください。
 
 ## コンテンツのアップロード中のエラー処理 {#id201MI0I04Y4}
 

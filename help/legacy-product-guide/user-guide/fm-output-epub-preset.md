@@ -1,9 +1,11 @@
 ---
 title: EPUB
-description: AEM GuidesでFrameMakerドキュメントのEPUB出力を生成および設定します。
+description: AEM GuidesでFrameMaker ドキュメント用のEPUB出力を生成および設定します。
 feature: Publishing FrameMaker Documents
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: b8d16ae9-5cbd-4fa1-b231-f06307e8ee17
+source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 5%
@@ -16,7 +18,7 @@ ePub出力には、次のオプションを使用できます。
 
 >[!NOTE]
 >
-> ePubの出力プリセットを開くには、FrameMakerの\（`.fm` または `.book`\）ファイルをクリックしてから「出力プリセット」をクリックし、「EPUB」オプションをクリックします。
+> ePubの出力プリセットを開くには、FrameMaker \（`.fm` または `.book`\）ファイルをクリックし、「出力プリセット」をクリックして、「EPUB」オプションをクリックします。
 
 | 「ePub」オプション | 説明 |
 |-----------|-----------|
@@ -26,4 +28,4 @@ ePub出力には、次のオプションを使用できます。
 | 宛先のパス | ePub出力が保存されるAEM リポジトリ内のパス。 |
 | 生成後ワークフローを実行 | このオプションを選択すると、新しいポスト生成ワークフローのドロップダウンリストが表示され、AEMで設定されたすべてのワークフローが表示されます。 出力生成ワークフローの完了後に実行するワークフローを選択する必要があります。 |
 
-**親トピック：**[ FrameMakerドキュメントの出力を生成 ](fm-output-generatation.md)
+**親トピック：**[ FrameMaker ドキュメントの出力を生成 ](fm-output-generatation.md)

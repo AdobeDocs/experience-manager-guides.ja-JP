@@ -3,7 +3,8 @@ title: 免責事項
 description: これは、Adobe Experience ManagerからAEM GuidesへのXML Documentationの商品名変更に対する免責事項です
 feature: Disclaimer
 role: User, Leader, Admin, Developer
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 3%

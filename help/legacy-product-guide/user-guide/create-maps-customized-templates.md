@@ -3,7 +3,9 @@ title: カスタマイズしたテンプレートに基づいてマップを作�
 description: カスタマイズしたテンプレートを作成し、それらを使用して新しいマップファイルを作成し、定義したタイトルをAEM Guidesの DITA マップに渡す方法について説明します。
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
+hide: true
+exl-id: 0f86ac98-7ba4-4e15-8a1f-83456afa7570
+source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
 workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 0%
@@ -54,7 +56,7 @@ AEM Guidesでは、dita-templates フォルダからカスタマイズされた�
    > ファイル名の拡張子は.dita である必要があります。
 
 1. \（オプション\）説明を追加します。
-1. 「**作成**」をクリックします。トピックテンプレートが作成されましたメッセージが表示されます。 その後、トピックテンプレートを開いて編集できます。
+1. 「**作成**」をクリックします。 トピックテンプレートが作成されましたメッセージが表示されます。 その後、トピックテンプレートを開いて編集できます。
 
 **マップ テンプレート**
 
@@ -96,7 +98,7 @@ AEM Guidesでは、dita-templates フォルダからカスタマイズされた�
 <details>
     <summary> クラウドサービス </summary>
 
-[ カスタム DITA テンプレートフォルダーパスを設定する ](/help/product-guide/install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) 方法については、『Cloud Serviceインストールおよび設定ガイド』を参照してください。
+[ カスタム DITA テンプレートフォルダーパスの設定 ](/help/product-guide/install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) 方法については、Cloud Services インストールおよび設定ガイドを参照してください。
 </details>
 
 <details>
@@ -156,7 +158,7 @@ The resultant DITA map with title "Rootmap1" will look like as follows:
 
 >[!NOTE]
 >
-> マップテンプレートを設定し、管理者がオーサリングできるようにする必要があります。 詳しくは、『Adobe Experience Manager Guidesas a Cloud Serviceのインストールと設定』の *オーサリングテンプレートの設定* 節を参照してください。
+> マップテンプレートを設定し、管理者がオーサリングできるようにする必要があります。 詳しくは、「Adobe Experience Manager Guides as a Cloud Serviceのインストールと設定」の *オーサリングテンプレートの設定* 節を参照してください。
 
 カスタムマップテンプレートを使用してマップを作成するには、次の手順を実行します。
 
@@ -170,7 +172,7 @@ The resultant DITA map with title "Rootmap1" will look like as follows:
    >
    > ファイル名の拡張子は.ditamap である必要があります。
 
-1. 「**作成**」をクリックします。マップが作成されたことを示すメッセージが表示されます。
+1. 「**作成**」をクリックします。 マップが作成されたことを示すメッセージが表示されます。
 
 
 マップは、テンプレートフォルダー内で参照されるすべてのアセットを生成します。 マップで参照されるアセットには、次のようなタイプがあります。

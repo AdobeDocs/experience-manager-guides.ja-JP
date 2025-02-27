@@ -3,7 +3,9 @@ title: グローバルプロファイルおよびフォルダープロファイ�
 description: AEM Guidesの管理者ユーザーとして、グローバルプロファイルとフォルダープロファイルの出力プリセットを作成、編集、名前変更、複製、削除する方法について説明します。
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 4e9cd1d5-1c28-4363-917d-f58511c4f809
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 0%
@@ -39,7 +41,7 @@ AEM Guidesの管理者は、グローバルプロファイルとフォルダー�
 
 >[!NOTE]
 >
-> AEM Guidesには、DITA マップの出力を生成するためのPDF出力プリセットも用意されています。
+> AEM Guidesには、DITA マップの出力を生成するための標準提供のPDF出力プリセットも用意されています。
 
 **オプションメニューからのその他の操作**
 

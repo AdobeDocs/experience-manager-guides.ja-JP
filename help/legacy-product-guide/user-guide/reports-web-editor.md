@@ -3,7 +3,9 @@ title: Web エディタからの DITA マップレポート
 description: AEM Guidesの Web エディタから DITA マップレポートを生成します。 トピックリスト、マルチメディア、メタデータ、リンク切れレポートの CSV を生成する方法を説明します。
 feature: Report Generation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: d0fc902a-0b50-4af5-9e24-5564d216396c
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '2366'
 ht-degree: 0%

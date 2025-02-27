@@ -3,7 +3,9 @@ title: 変更したトピックを翻訳
 description: AEM Guidesで変更されたトピックを再翻訳する方法を説明します。
 feature: Translation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: b623b109-8695-40e5-9e28-78f78cf57ad6
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 0%

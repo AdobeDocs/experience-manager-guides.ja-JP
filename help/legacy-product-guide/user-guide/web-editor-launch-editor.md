@@ -1,9 +1,11 @@
 ---
 title: Web エディターの起動
-description: AEM GuidesのAEM ナビゲーションページ、AEM Assets UI、DITA マップコンソールから Web エディタを起動する方法を説明します。
+description: AEM GuidesのAEM ナビゲーションページ、AEM Assets UI、DITA マップコンソールから Web エディタを起動する方法について説明します。
 feature: Authoring, Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 374042e4-0f1c-44cf-926c-c9fefa4b1de0
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 0%
@@ -14,13 +16,13 @@ ht-degree: 0%
 
 次の場所から Web エディタを起動できます。
 
-- [AEM ナビゲーションページ](#id2056BG00RZJ)
+- [AEMのナビゲーションページ](#id2056BG00RZJ)
 - [AEM ASSETS UI](#id2056BG0307U)
 - [DITA マップコンソール](#id2056BG090BF)
 
 以下の節では、様々な場所から web エディターにアクセスして起動する方法について詳しく説明します。
 
-## AEM ナビゲーションページ {#id2056BG00RZJ}
+## AEMのナビゲーションページ {#id2056BG00RZJ}
 
 AEMにログインすると、ナビゲーション ページが表示されます。
 
@@ -30,9 +32,9 @@ AEMにログインすると、ナビゲーション ページが表示されま�
 
 ![](images/web-editor-launch-page.png){width="800" align="left"}
 
-ファイルを選択せずに Web エディタを起動すると、空白の Web エディタ画面が表示されます。 AEM リポジトリまたはお気に入りコレクションから、編集用にファイルを開くことができます。
+ファイルを選択せずに Web エディタを起動すると、空白の Web エディタ画面が表示されます。 AEMのリポジトリまたはお気に入りコレクションから、ファイルを開いて編集できます。
 
-- **ガイド** アイコン（![](images/aem-guides-icon.png)）をクリックして、AEM ナビゲーション ページに戻ります。
+- **ガイド** アイコン（![](images/aem-guides-icon.png)）をクリックして、AEMのナビゲーションページに戻ります。
 
 - 「**閉じる** ボタンをクリックすると、設定に応じた宛先に移動します。
 
@@ -42,7 +44,7 @@ AEMにログインすると、ナビゲーション ページが表示されま�
 
   <summary> クラウドサービス </summary>
 
-  Cloud Serviceを使用している場合は、「**閉じる**」ボタンをクリックしてAEM ナビゲーションページに戻ります。
+  Cloud Services を使用している場合は、「**閉じる**」ボタンをクリックしてAEMのナビゲーションページに戻ります。
   </details>
 
   <details>

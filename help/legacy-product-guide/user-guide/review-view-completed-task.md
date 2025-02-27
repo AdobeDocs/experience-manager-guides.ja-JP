@@ -3,7 +3,9 @@ title: 完了したレビュータスクの表示
 description: AEM Guidesでレビュー担当者または作成者として完了したレビュータスクを表示する方法を理解する。
 feature: Reviewing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: f74269fe-a7a9-4bb3-b476-f8214387ffd0
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 0%

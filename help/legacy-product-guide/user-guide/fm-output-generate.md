@@ -3,7 +3,9 @@ title: .book ファイルまたは.fm ファイルの出力を生成する
 description: AEM Guidesで.book または.fm ファイルの出力を生成する方法を説明します。
 feature: Publishing FrameMaker Documents
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 9b5760bd-817c-4d8d-ab37-ab8699ac62fa
+source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 # .book ファイルまたは.fm ファイルの出力を生成する {#generating_output_fm_docs}
 
-FrameMakerドキュメントの出力を生成するには、以下の手順を実行します。
+次の手順を実行して、FrameMaker ドキュメントの出力を生成します。
 
 1. Assetsの UI で、公開する `.book` ファイルまたは `.fm` ファイルに移動し、そのファイルをクリックします。
 
@@ -29,4 +31,4 @@ FrameMakerドキュメントの出力を生成するには、以下の手順を�
 >
 > 「出力」をクリックすると、出力生成リクエストの現在のステータスを表示できます。 詳しくは、[ 出力生成タスクのステータスの表示 ](fm-output-view-status.md) を参照してください。
 
-**親トピック：**[ FrameMakerドキュメントの出力を生成 ](fm-output-generatation.md)
+**親トピック：**[ FrameMaker ドキュメントの出力を生成 ](fm-output-generatation.md)

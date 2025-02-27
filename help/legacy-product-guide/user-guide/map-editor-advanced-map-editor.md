@@ -3,8 +3,9 @@ title: 高度なマップエディターの操作
 description: AEM Guidesの高度なマップエディターの操作方法について説明します。 高度なマップエディターの機能を理解する。 DITA マップを使用してトピックを編集し、レイアウトビュー、オーサービュー、プレビューモードを使用します。
 feature: Authoring, Map Editor
 role: User
+hide: true
 exl-id: b63d7c0f-9c29-4fb4-b8fe-9790b16f8726
-source-git-commit: ae49df3912a5a7a3a01e5eaa08fb9f05249da29f
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '3788'
 ht-degree: 0%
@@ -272,7 +273,7 @@ Web エディタから直接マップ ファイルを編集する以外に、マ
 
 >[!NOTE]
 >
-> 管理者は、マップに追加するすべての参照ファイルに `@navtitle` 属性の自動追加を設定できます。 `@navtitle` 属性の自動追加の設定について詳しくは、「Adobe Experience Manager Guidesのas a Cloud Serviceのインストールと設定」の *@navtitle 属性をデフォルトで含める* を参照してください。
+> 管理者は、マップに追加するすべての参照ファイルに `@navtitle` 属性の自動追加を設定できます。 `@navtitle` 属性の自動追加の設定について詳しくは、『Adobe Experience Manager Guides as a Cloud Serviceのインストールと設定』の *@navtitle 属性をデフォルトで含める* を参照してください。
 
 ナビゲーションタイトル属性を更新アイコンをクリックして、`title` 要素と `@navtitle` 属性の値を同期します。
 

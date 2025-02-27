@@ -3,7 +3,9 @@ title: DITA-OT を使用してメタデータを出力に渡す
 description: AEM Guidesでの DITA-OT 公開を使用してメタデータを出力に渡す方法を説明します。
 feature: Publishing, Metadata Management
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 55d70c6d-feb0-43f7-9f18-6d1ccdd1e728
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 # DITA-OT を使用してメタデータを出力に渡す {#id21BJ00QD0XA}
 
-メタデータは、出力に関する追加情報です。 AEM Guidesでは、既存のメタデータを渡したり、カスタムメタデータタグを作成したりできます。 DITA-OT パブリッシングを使用して、メタデータをAEM、PDF、HTML5、EPUB、およびカスタムフォーマットの出力に渡すことができます。
+メタデータは、出力に関する追加情報です。 AEM Guidesでは、既存のメタデータを渡したり、カスタムメタデータタグを作成したりできます。 DITA-OT パブリッシングを使用して、AEM、PDF、HTML5、EPUB、およびカスタム形式の出力にメタデータを渡すことができます。
 
 次の手順を実行し、DITA-OT 発行を使用してメタデータを出力に渡します。
 
@@ -32,7 +34,7 @@ ht-degree: 0%
 
    このファイルは、`/apps/fmdita/config/metadataList` でオーバーレイできます。
 
-   値を定義済みのカスタムプロパティを渡すには、[DITA-OT PDF出力でのAEM メタデータの使用 ](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880) を参照してください。
+   値を既に定義したカスタムプロパティを渡すには、[DITA-OT PDF出力でのAEM メタデータの使用 ](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880) を参照してください。
 
 1. **プロパティ** ドロップダウンから、必要なカスタムプロパティとデフォルトのプロパティを選択します。 例えば、「`author`」、「`dc:title`」、「`dc:description`」を選択します。 これらは、ファイルを作成すると作成される標準 `metadata/properties` です。 選択したプロパティがドロップボックスの下に表示されます。
 

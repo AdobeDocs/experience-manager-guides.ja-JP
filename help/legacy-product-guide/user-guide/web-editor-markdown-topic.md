@@ -3,7 +3,9 @@ title: Markdown ドキュメントの作成
 description: Web エディターから Markdown ドキュメントを作成します。 AEM Guidesで Markdown トピックを作成、オーサリング、プレビューする方法について説明します。
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: fe7b3b8d-a4bd-43d2-ad20-49fa6c258b7d
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 0%

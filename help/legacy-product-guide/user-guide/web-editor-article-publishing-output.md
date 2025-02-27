@@ -3,7 +3,9 @@ title: リポジトリーパネルからの出力を生成
 description: AEM Guidesのリポジトリーパネルまたはマップビューパネルから出力を生成します。 1 つまたは複数の DITA マップで使用されるトピックをパブリッシュする方法、または複数のトピックの出力を生成する方法について説明します。
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: ffdc2426-dc78-4deb-93cc-3292fd4fcbd8
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 0%
@@ -22,7 +24,7 @@ ht-degree: 0%
 
 - マップビューパネル内の **出力を生成** 機能を使用して、選択した複数のトピックの出力を生成します。
 
-## Publish 1 つ以上の DITA マップで使用されるトピック
+## 1 つまたは複数の DITA マップで使用されるトピックをパブリッシュする
 
 次の手順を実行して、DITA マップ内の 1 つ以上のトピックの出力を生成します。
 

@@ -3,7 +3,9 @@ title: データソースからコンテンツスニペットを挿入する
 description: AEM Guidesのデータソースのデータを使用します。 データソースからコンテンツスニペットを挿入する方法を説明します。 トピックジェネレーターを使用してトピックを作成します。
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
+hide: true
+exl-id: ca557b73-8608-4fdd-8e11-adc6de2ad82a
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '2389'
 ht-degree: 0%
@@ -26,9 +28,9 @@ ht-degree: 0%
 <summary> クラウドサービス </summary>
 
 
-- 2023 年 10 月リリース以降を使用している場合は、Cloud Service インストールおよび設定ガイドの [ ユーザーインターフェイスからのデータソースコネクタの設定 ](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) の方法を参照してください。
+- 2023 年 10 月リリース以降を使用している場合は、クラウドサービスのインストールおよび設定ガイドで、[ ユーザーインターフェイスからのデータソースコネクタの設定 ](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) の方法を参照してください。
 
-- 2023 年 7 月または 2023 年 9 月のリリースを使用している場合は、Cloud Service インストールおよび設定ガイドで [ データソースコネクタの設定 ](/help/product-guide/cs-install-guide/conf-data-source-connector.md) の方法を参照してください。
+- 2023 年 7 月または 2023 年 9 月のリリースを使用している場合は、クラウドサービスのインストールおよび設定ガイドで [ データソースコネクタの設定 ](/help/product-guide/cs-install-guide/conf-data-source-connector.md) の方法を参照してください。
 
 </details>
 
@@ -279,7 +281,7 @@ AEM Guidesは、データソースに接続する機能を提供します。 デ
 
 ## データソーステンプレートでの Velocity ツールの使用 {#use-velocity-tools}
 
-Experience Managerテンプレートは Velocity ツール（バージョン 2.0）もサポートしています。 これらのツールを使用すると、データソースから取得したデータに様々な機能を適用できます。 [Velocity ツール ](https://velocity.apache.org/tools/2.0/generic.html) の使用方法と、適用できる関数について説明します。
+Experience Manager テンプレートは Velocity ツール（バージョン 2.0）もサポートしています。 これらのツールを使用すると、データソースから取得したデータに様々な機能を適用できます。 [Velocity ツール ](https://velocity.apache.org/tools/2.0/generic.html) の使用方法と、適用できる関数について説明します。
 
 テンプレートで速度ツールを使用するには、次の手順を実行します。
 1. Web エディターで Velocity テンプレートを編集します。

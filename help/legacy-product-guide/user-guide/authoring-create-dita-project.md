@@ -3,7 +3,9 @@ title: DITA プロジェクトの作成
 description: AEM Guidesでテンプレートを使用して DITA プロジェクトを作成します。 DITA プロジェクトを使用してレビューを開始する方法を説明します。
 feature: Reviewing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 1b29c50a-04d0-4052-b893-44fb8bcc3c97
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -20,7 +22,7 @@ DITA プロジェクトを作成し、それを使用してレビューを開始
 
 DITA プロジェクトを作成したら、Web エディタまたはAssets UI からレビューを開始できます。 詳しくは、[ レビュー用のトピックの送信 ](review-send-topics-for-review.md#) を参照してください。
 
-同様に、作成者がレビューワークフローを開始するたびに、プロジェクトの選択されたメンバーにメール通知が届きます。 メール通知を設定するには、Adobe Experience Manager Guidesのas a Cloud Serviceのインストールおよび設定の *メールテンプレートのカスタマイズ* を参照してください。
+同様に、作成者がレビューワークフローを開始するたびに、プロジェクトの選択されたメンバーにメール通知が届きます。 メール通知を設定するには、Adobe Experience Manager Guides as a Cloud Serviceのインストールと設定の *メールテンプレートのカスタマイズ* を参照してください。
 
 DITA プロジェクトを作成するには、以下の手順を実行します。
 

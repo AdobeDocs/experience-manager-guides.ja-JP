@@ -3,7 +3,9 @@ title: 公開済みコンテンツの一括アクティベーション
 description: 公開済みコンテンツの一括アクティベーションについて説明します。 AEM ガイドの一括アクティベーション機能のメリットについて説明します。
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 4b60bf50-f6c2-4e87-8af6-fd1c26d4898f
+source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 0%
@@ -16,13 +18,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> AEMでのオーサーインスタンスとパブリッシュインスタンスの設定方法について詳しくは、[ オーサーとPublishのアーキテクチャの概要 ](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites) を参照してください。
+> AEMでのオーサーインスタンスとパブリッシュインスタンスの設定方法について詳しくは、[ オーサーとパブリッシュのアーキテクチャの概要 ](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites) を参照してください。
 
 AEM Guidesの一括アクティベーション機能を使用すると、オーサリングからパブリッシュインスタンスまで、コンテンツをすばやく簡単にアクティベーションできます。 一括アクティベーション機能では、次の機能を柔軟に使用できます。
 
 - 1 つまたは複数のマップ \（マップ コレクション\）を 1 つのアクティブ化タスクに追加します
 
-- 公開する 1 つまたは複数の出力プリセットを選択します。 AEM サイト、PDF、ネイティブPDF、HTML 5、カスタムおよび
+- 公開する 1 つまたは複数の出力プリセットを選択します。 AEM サイト、PDF、ネイティブ PDF、HTML5、カスタムおよび
 JSON 出力プリセット。
 
 

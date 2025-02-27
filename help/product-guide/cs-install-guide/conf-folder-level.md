@@ -5,9 +5,9 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: e1d6123991ddd8d25f76ee03befeb95f020a9834
+source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
 workflow-type: tm+mt
-source-wordcount: '4755'
+source-wordcount: '4756'
 ht-degree: 0%
 
 ---
@@ -508,7 +508,7 @@ AI を活用したスマートな **ヘルプ** を設定すると、作成者�
 
 この設定を使用すると、`ui_config.json` ファイルに加えられた変更を反映する JSON 拡張子を作成できます。 これらの拡張機能は、フォルダープロファイルレベルで個別にアップロードできるので、柔軟性とカスタマイズが向上しています。 例えば、ボタンを更新するなど、**XML エディター設定** に変更を加えると、システムによって違いが自動的に識別されます。 これらの変更を **XML エディターの UI 設定にアップロードし** 「**UI 設定を JSON に変換**」ボタンを使用して JSON 拡張機能に変換すると、システムは新しい機能を組み込む拡張機能を生成します。
 
-詳しくは、**JSON 設定のカスタマイズと、新しいAEM Guides エディター用の UI 設定の変換** を参照してください。
+詳しくは、[JSON 設定のカスタマイズと、新しいAEM Guides エディター用の UI 設定の変換 ](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config) を参照してください。
 
 **XML エディターのページレイアウト**
 

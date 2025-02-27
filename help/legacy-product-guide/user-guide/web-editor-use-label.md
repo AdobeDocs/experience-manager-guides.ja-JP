@@ -3,7 +3,9 @@ title: ラベルを使用
 description: AEM Guidesでのファイルの様々なバージョンに対するラベルの使用について説明します。 トピックのバージョンにラベルを追加または削除する方法を説明します。
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: bd488298-57d7-46fb-9820-cec8d0db8bd5
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 0%

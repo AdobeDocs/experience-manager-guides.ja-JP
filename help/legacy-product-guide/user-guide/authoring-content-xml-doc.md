@@ -3,7 +3,9 @@ title: AEM Guidesを使用したコンテンツのオーサリング
 description: AEM Guidesを使用してコンテンツを効率的に作成します。 AEM Guidesでドキュメントを作成、編集、公開する方法について説明します。
 feature: Authoring
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 6d898419-b8f9-4a22-a6be-8b7b0e96a461
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 0%

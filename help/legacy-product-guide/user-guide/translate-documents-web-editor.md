@@ -3,7 +3,9 @@ title: Web エディターからのドキュメントの翻訳
 description: Web エディターからコンテンツを複数の言語に翻訳します。 AEM Guidesで翻訳プロジェクトを作成する方法、ルールを追加する方法、バージョンを表示する方法および非同期ファイルを閉じる方法について説明します。
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: a288a4d5-5c24-4021-8bfa-4b68cecf630f
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '2343'
 ht-degree: 1%
@@ -14,15 +16,15 @@ ht-degree: 1%
 
 >[!TIP]
 >
-> 2022 年 2 月リリース以降にAEM Guidesas a Cloud Serviceにアップグレードした場合は、web エディターからこの翻訳機能を使用することをお勧めします。
+> 2022 年 2 月リリース以降のAEM Guides as a Cloud Serviceにアップグレードした場合は、web エディターからこの翻訳機能を使用することをお勧めします。
 
 AEM Guidesには、コンテンツを複数の言語に翻訳できる Web エディターの強力な機能が付属しています。 新しい翻訳プロジェクトを作成し、後で既存の翻訳プロジェクトに翻訳ジョブを追加できます。 また、選択したすべての言語の翻訳ジョブを含む多言語翻訳プロジェクトを作成することもできます。
 
 >[!NOTE]
 >
-> 管理者は、Web エディターで「管理」タブ \（翻訳に使用\）を設定できます。 詳しくは、Adobe Experience Manager Guidesのas a Cloud Serviceのインストールと設定の *Web エディターでの翻訳機能の設定* 節を参照してください。
+> 管理者は、Web エディターで「管理」タブ \（翻訳に使用\）を設定できます。 詳しくは、Adobe Experience Manager Guides as a Cloud Serviceのインストールと設定の *Web エディターでの翻訳機能の設定* 節を参照してください。
 
-## 事前準備
+## 始める前に
 
 この手順を実行する前に、必要な言語ルートおよびターゲットフォルダーを作成したことを確認してください
 
@@ -138,7 +140,7 @@ SRX ファイルの名前は `<language-code>.srx` にする必要がありま�
 >[!NOTE]
 >タイトルでは大文字と小文字が区別されないので、「en-US」、「en-us」、「EN-us」を指定できます。 また、AEM ガイドでは「–」（ハイフン）や「_」（アンダースコア）を解決できます。 そのため、「en-US」または「en_US」を使用できます。
 
-また、これらのファイルは、`./content/dam` のAEM assets ルートの下の任意のフォルダー内に配置できます。
+また、これらのファイルは、`./content/dam` しいAEM assets ルートの下の任意のフォルダー内に配置できます。
 
 
 
@@ -150,7 +152,7 @@ SRX ファイルを含むフォルダーを作成したら、フォルダープ�
 AEM Guidesでは、翻訳プロジェクトのソース言語に従って SRX ルールが選択されます。 言語のカスタム SRX ファイルを探し、カスタム SRX ファイルを定義しない場合は、標準の翻訳ルールに従ってルールが選択されます。
 
 
-グローバルプロファイルおよびフォルダーレベルのプロファイルの設定について詳しくは、「Adobe Experience Manager Guidesのas a Cloud Serviceのインストールと設定」の *オーサリングテンプレートの設定* を参照してください。
+グローバルプロファイルおよびフォルダーレベルのプロファイルの設定について詳しくは、「Adobe Experience Manager Guides as a Cloud Serviceのインストールと設定」の *オーサリングテンプレートの設定* を参照してください。
 
 ## バージョンラベルをターゲットバージョンに渡します
 
@@ -205,7 +207,7 @@ AEM Guidesには、選択したバージョンとトピックの最新の翻訳�
 
 >[!NOTE]
 >
-> 2023 年 2 月リリース以降にAEM Guidesで作成された翻訳済みプロジェクトのas a Cloud Serviceリンクを確認できます。
+> 2023 年 2 月リリース以降にAEM Guides as a Cloud Serviceで作成された翻訳済みプロジェクトの進行中リンクを確認できます。
 
 ダイアログで参照の名前をクリックして、プレビューモードで開きます。 また、翻訳プロジェクトをクリックして翻訳を開始することもできます。
 

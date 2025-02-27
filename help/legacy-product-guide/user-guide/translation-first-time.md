@@ -3,7 +3,9 @@ title: コンテンツ翻訳のベストプラクティス
 description: AEM Guidesのコンテンツ翻訳のベストプラクティスについて説明します。 翻訳サービスの設定方法、新しい翻訳プロジェクトの作成方法、翻訳ジョブの開始方法について説明します。
 feature: Translation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 09e813fd-ec22-4d2e-9ee7-098d562ad44f
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1295'
 ht-degree: 2%
@@ -38,9 +40,9 @@ ht-degree: 2%
 
 1. Assets UI で、ソース言語フォルダーを選択します。
 
-1. フォルダーのプロパティを開き、「**Cloud Service**」タブに移動します。
+1. フォルダーのプロパティを開き、「**クラウドサービス**」タブに移動します。
 
-1. 「**0}Cloud Service」タブで、使用する翻訳サービスを設定します。**
+1. 「**クラウドサービス**」タブで、使用する翻訳サービスを設定します。
 
    機械翻訳または人間翻訳を設定できます。
 

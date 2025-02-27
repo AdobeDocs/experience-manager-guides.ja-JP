@@ -3,7 +3,9 @@ title: 一括アクティベーションマップコレクションの作成
 description: AEM ガイドで一括アクティベーションマップコレクションを作成する方法を説明します。
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: a242efde-2b29-4d2b-8a50-fd4ae7e8f239
+source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
 workflow-type: tm+mt
 source-wordcount: '735'
 ht-degree: 0%
@@ -18,7 +20,7 @@ ht-degree: 0%
 
 1. 上部の「Adobe Experience Manager」リンクを選択し、「**ツール**」を選択します。
 
-1. **一括Publish ダッシュボード** タイルを選択します。
+1. **一括公開ダッシュボード** タイルを選択します。
 
    初めて、空のコレクションページが表示されます。 以前に一括アクティベーションコレクションを作成した場合は、このページに表示されます。
 
@@ -75,7 +77,7 @@ DITA マップファイルが一括有効化マップコレクションに追加
 - **言語**: DITA マップの言語コードを表示します。
 - **プリセット**：マップファイルに設定された出力プリセットのタイトルを表示します。 また、出力プリセットのタイプに基づいてアイコンも表示されます。
 - **ステータス**：アクティベーションのステータスが成功または失敗として表示されます。
-- **出力先**：出力をExperience Manager Guidesのas a Cloud Serviceで生成する場合、出力の出力先をPublishまたはプレビューとして表示できます。
+- **出力先**:Experience Manager Guides as a Cloud Serviceで出力を生成する場合、出力の出力先をパブリッシュまたはプレビューとして表示できます。
 
   >[!NOTE]
   >

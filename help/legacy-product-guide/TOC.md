@@ -4,9 +4,9 @@ user-guide-description: 古いユーザーインターフェイスを使用し�
 breadcrumb-title: AEM Guides ドキュメント
 hide: true
 badgeAll: label="古い UI ガイド – 詳細情報" type="Informative" url="/help/legacy-product-guide/disclaimer.md" tooltip="古い UI ガイド"
-source-git-commit: 293d2fd9c015a4ec516080b9e5dfed32b96639b7
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '573'
 ht-degree: 4%
 
 ---
@@ -46,6 +46,8 @@ ht-degree: 4%
                - [Web エディタービュー](./user-guide/web-editor-views.md)
                - [Schematron ファイルのサポート](./user-guide/support-schematron-file.md)
                - [コンテンツを作成するための AI を活用したスマートな提案](./user-guide/authoring-ai-based-smart-suggestions.md)
+               - [コンテンツを検索するための AI を活用したスマートヘルプ](./user-guide/ai-based-smart-help.md)
+               - [AI アシスタントで効率よくドキュメントを作成](./user-guide/ai-assistant-right-panel.md)
                - [Web エディターからの Markdown ドキュメントの作成](./user-guide/web-editor-markdown-topic.md)
                - [コンテンツへの引用文献の追加](./user-guide/web-editor-apply-citations.md)
                - [データソースからのデータの使用](./user-guide/web-editor-content-snippet.md)
@@ -117,6 +119,7 @@ ht-degree: 4%
       - [基本的なトラブルシューティング](./user-guide/generate-output-basic-troubleshooting.md)
       - [コンテンツフラグメントの公開](./user-guide/publish-content-fragment.md)
       - [エクスペリエンスフラグメントの公開](./user-guide/publish-experience-fragment.md)
+      - [AEM Sitesページの公開](./user-guide/publish-aem-sites.md)
       - コンテンツア {#bulk-activation} ットの一括アクティベーション
          - [公開済みコンテンツの一括アクティベーション](./user-guide/conf-bulk-activation.md)
          - [一括アクティベーションマップコレクションの作成](./user-guide/conf-bulk-activation-create-map-collection.md)

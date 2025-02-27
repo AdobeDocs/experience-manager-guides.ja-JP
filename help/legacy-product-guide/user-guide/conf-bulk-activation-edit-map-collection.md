@@ -3,7 +3,9 @@ title: 一括アクティベーションマップコレクションを編集
 description: AEM Guidesの一括公開ダッシュボードを使用します。 マップ ファイルを追加または削除して、一括有効化マップ コレクションを編集する方法を説明します。
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: a15ee164-ec60-483e-8760-b1c290625415
+source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 2%
@@ -18,7 +20,7 @@ ht-degree: 2%
 
 1. 上部の「Adobe Experience Manager」リンクをクリックし、「**ツール**」を選択します。
 
-1. **Publishの一括ダッシュボード** タイルをクリックします。
+1. **一括公開ダッシュボード** タイルをクリックします。
 
    一括アクティベーションマップコレクションのリストが表示されます。
 
@@ -27,7 +29,7 @@ ht-degree: 2%
 1. 「**編集**」をクリックします。
 
    一括有効化マップの収集ページが表示され、使用可能な各ロケールに対応する事前設定済みのプリセットと共にマップが表示されます。
-AEM サイト、PDF、ネイティブPDF、HTML 5、カスタム、JSON 出力などのアイコンと共に、様々なタイプの出力プリセットを確認できます
+AEM Site、PDF、ネイティブ PDF、HTML5、カスタム、JSON 出力などのアイコンと共に、様々なタイプの出力プリセットを表示できます
 .
 
    >[!NOTE]

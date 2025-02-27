@@ -1,7 +1,8 @@
 ---
 title: コンテンツを検索するための AI を活用したスマートヘルプ
 description: Web エディターで AI を利用したスマートヘルプを表示および利用する方法について説明します。
-source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
+hide: true
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 Experience Manager Guidesは、[Adobe Experience Manager Guides ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview) から関連コンテンツを見つけるのに役立つ会話型検索機能である、GenAI ベースのスマートヘルプを提供します。
 あなたはあなたの質問をし、有益な方法で答えを得ることができます。 クエリに対する回答は、製品ドキュメントのコンテンツに基づいています。 この検索は完全に対話型です。 あなたは質問をすることができ、そして応答に基づいて、あなたはさらに質問をすることができます。 応答には、ソースドキュメントへのリンクも含まれています。詳しくは、ソースドキュメントを参照してください。
 
-例えば、ドキュメントにExperience Manager Guidesのトピックを作成したい場合があります。 *トピックを作成するにはどうすればよいですか？* 返信と関連記事のリンクが表示されます。 次に、ドキュメントのPDF出力の生成方法を知りたい場合は、ドキュメントに関する質問を実行できます。 例：*トピックをPDFに公開するにはどうすればよいですか？* または *トピックのPDF出力を生成するにはどうすればよいですか？*
+例えば、ドキュメントにExperience Manager Guidesのトピックを作成したい場合があります。 *トピックを作成するにはどうすればよいですか？* 返信と関連記事のリンクが表示されます。 次に、ドキュメントのPDF出力の生成方法を確認したい場合は、それに関する質問を行うことができます。 例：*トピックをPDFに公開するには？* または *トピックのPDF出力を生成する方法を教えてください。*
 
 
 
@@ -25,7 +26,7 @@ Web エディターを開くと、右側に **スマートヘルプ** パネル�
 
 >[!NOTE]
 >
-> 管理者が **スマートヘルプ** 機能を設定する必要があります。 詳しくは、Cloud Service向けのインストールおよび設定ガイドの [ コンテンツを検索するための AI を利用したスマートヘルプの設定 ](/help/product-guide/cs-install-guide/conf-smart-help.md) の節を参照してください。
+> 管理者が **スマートヘルプ** 機能を設定する必要があります。 詳しくは、Cloud Services のインストールおよび設定ガイドの [ コンテンツを検索するための AI を利用したスマートヘルプの設定 ](/help/product-guide/cs-install-guide/conf-smart-help.md) の節を参照してください。
 
 ![ スマートヘルプパネル ](images/smart-help-panel.png){width="300" align="left"}
 
