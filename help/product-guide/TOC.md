@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: 7252254443b5f1fee8c51e49efe23da418e46d50
+source-git-commit: 48f5e2693cae093cf19f8254d1c222536642498e
 workflow-type: tm+mt
-source-wordcount: '2040'
+source-wordcount: '2043'
 ht-degree: 7%
 
 ---
@@ -464,6 +464,7 @@ ht-degree: 7%
       - [AEM Sites出力のバリエーション](./knowledge-base/expert-sessions/aem-site-output-variations-jun2024.md)
       - [デプロイメントオプションとクラウドへの移行](./knowledge-base/expert-sessions/migration-uuid-onprem-to-cloud.md)
       - [コンテンツを非 uuid から UUID に移行します](./knowledge-base/expert-sessions/migration-non-uuid-to-uuid.md)
+      - [差分コンテンツ移行](./knowledge-base/expert-sessions/migration-delta-content.md)
    - 第 {#kb-articles} 条
       - オーサリング {#authoring}
          - Web エディター {#webeditor}
