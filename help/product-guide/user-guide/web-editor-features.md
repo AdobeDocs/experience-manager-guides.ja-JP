@@ -4,9 +4,9 @@ description: Adobe Experience Manager Guidesのエディターの機能を確認
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+source-git-commit: 236947dc7dd01d4f232058a98dcd2db99031c267
 workflow-type: tm+mt
-source-wordcount: '18656'
+source-wordcount: '18661'
 ht-degree: 0%
 
 ---
@@ -1265,7 +1265,7 @@ DAM 内で必要なファイルに簡単に移動し、エディターで開く�
 
 マップファイルの「オプション」 メニューを使用して、次のアクションを実行できます。
 
-![](images/options-menu-map-view_cs.png){width="800" align="left"}
+![ マップ ビューのオプション メニュー ](images/options-menu-map-view_cs.png){width="800" align="left"}
 
 - **編集**：編集するマップ ファイルをマップ エディタで開きます。
 
