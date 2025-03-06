@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: 48f5e2693cae093cf19f8254d1c222536642498e
+source-git-commit: 5ae05935d254b03ad99221bd5f65dbb6a3580c5f
 workflow-type: tm+mt
-source-wordcount: '2043'
-ht-degree: 7%
+source-wordcount: '2052'
+ht-degree: 8%
 
 ---
 
@@ -86,6 +86,10 @@ ht-degree: 7%
             - [1 月リリースノート](./release-info/release-notes-2022-1-0.md)
       - オンプレミス/Managed Services {#on-prem-release-notes}
          - [[!DNL AEM Guides] リリース](./release-info/latest-release-info.md)
+         - 5.0.0 リリース {#500-release}
+            - [新機能](./release-info/whats-new-5-0-0.md)
+            - [修正された問題](./release-info/fixed-issues-5-0-0.md)
+            - [アップグレード手順](./release-info/upgrade-instructions-5-0-0.md)
          - 4.6.0 SP3 リリース {#460-sp3-release}
             - [ 修正された問題 ](./release-info/fixed-issues-4-6-0-sp2.md)
             - [アップグレード手順](./release-info/upgrade-instructions-4-6-0-sp2.md)
