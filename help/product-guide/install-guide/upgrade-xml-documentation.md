@@ -5,9 +5,9 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: de79a2d63328fc6142b475a776dafd7e6d12f911
+source-git-commit: fec62d9c14acbbfc632f08af003f386aa2a6ab35
 workflow-type: tm+mt
-source-wordcount: '8018'
+source-wordcount: '8021'
 ht-degree: 0%
 
 ---
@@ -1298,7 +1298,7 @@ Experience Manager Guidesには、クロスマップ（2 つの異なるマッ�
 
 ## damAssetLucene の再インデックス化手順
 
-ガイドを含む damAssetLucene のインデックス定義が更新されました。 https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460を参照して、5.0.0 バージョンにアップグレードした後に damAssetLucene を再インデックスします。
+ガイドを含む damAssetLucene のインデックス定義が更新されました。 5.0.0 バージョンへのアップグレード後に damAssetLucene のインデックスを再作成する方法については、[ この記事 ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) を参照してください。
 
 >[!NOTE]
 >

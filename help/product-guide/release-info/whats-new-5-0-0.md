@@ -2,7 +2,8 @@
 title: リリースノート | Adobe Experience Manager Guides 5.0.0 リリースの新機能
 description: Adobe Experience Manager Guides 5.0.0 リリースの新機能および機能強化について説明します
 role: Leader
-source-git-commit: a5c18c228f68db9a3282a004dc56c8a0735e4926
+exl-id: 523667d9-fed4-4798-9554-2a27033c8027
+source-git-commit: 14641e72c4b488251c10318f4661e31b5d811cef
 workflow-type: tm+mt
 source-wordcount: '1706'
 ht-degree: 0%
@@ -27,7 +28,7 @@ Adobe Experience Manager Guidesのデザインと機能が刷新され、以前�
 
   詳しくは、[Adobe Experience Manager Guidesのホームページエクスペリエンス ](../user-guide/intro-home-page.md) を参照してください。
 
-  ![](assets/aem-home-page-new.png){width="800" align="left"}
+  ![](assets/aem-home-page-whats-new.png){width="800" align="left"}
 
 
 - **新しいエディターのエクスペリエンス**：エディターの新しいルックアンドフィールを体験してください。 刷新されたエディターインターフェイスは、よりクリーンで整理されたツールバー、シームレスなナビゲーション、全体的な直感的なエクスペリエンスを備えており、ドキュメントをより迅速かつ効率的に作成するのに役立ちます。
@@ -54,7 +55,7 @@ Experience Manager GuidesはAdobe Workfrontとシームレスに統合される�
 
 詳しくは、[Workfrontの統合 ](../user-guide/workfront-integration.md) を参照してください。
 
-![](assets/workfront-new-ui-whats-new.png){width="800" align="left"}
+![](assets/workfront-new.png){width="800" align="left"}
 
 
 ## より高速でスケーラブルな新しいAEM Sites パブリッシングエンジン
