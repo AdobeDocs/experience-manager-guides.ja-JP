@@ -1,13 +1,13 @@
 ---
 title: Adobe Experience Manager Guidesについて
-description: エンタープライズグレードの DITA ベースのコンポーネントコンテンツ管理ソリューションである Adobe Experience Manager Guides について説明します。 Experience Manager Guidesのメリットを理解する。
+description: エンタープライズグレードの DITA ベースのコンポーネントコンテンツ管理ソリューションである Adobe Experience Manager Guides について説明します。Experience Manager Guides のメリットを理解します。
 exl-id: 474e7eab-3474-4362-9f1d-17cc98e53184
 feature: Introduction
 role: User
 source-git-commit: afa77e42eec4ea900efff14f1ae5f79464591505
 workflow-type: tm+mt
 source-wordcount: '263'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
