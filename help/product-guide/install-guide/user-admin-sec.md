@@ -5,22 +5,22 @@ exl-id: 1269a652-5261-413d-9ea0-b4f75003e9d8
 feature: User Management
 role: Admin
 level: Experienced
-source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
+source-git-commit: 9b657b0530db8fafe3bb6d30a9002791acf8f226
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '710'
 ht-degree: 10%
 
 ---
 
 # ユーザー管理とセキュリティ {#id181AED00G5Z}
 
-AEM Guidesの機能にアクセスして設定するには、ユーザーを作成する必要があります。 その後、これらのユーザーには、AEM Guidesのすべての機能または特定の機能にアクセスする権限を割り当てることができます。 ユーザー認証を設定および管理する方法と、AEMでの認証と認証の仕組みの背景にある理論について説明します。
+AEM Guidesの機能にアクセスして設定するには、ユーザーを作成する必要があります。 その後、これらのユーザーには、AEM Guidesのすべての機能または特定の機能にアクセスする権限を割り当てることができます。 AEMでユーザー認証を設定および管理する方法と、認証と認証がどのように機能するかという背景にある理論について説明します。
 
 AEM ドキュメントの次のトピックは、ユーザー管理およびセキュリティ関連の概念と機能を理解するのに役立ちます。
 
 - [AEMのユーザーとグループ ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)
 
-- [AEMでの権限 ](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)
+- [AEMにおける権限 ](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)
 
 - [ ユーザーとグループの管理 ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)
 
@@ -29,7 +29,7 @@ AEM ドキュメントの次のトピックは、ユーザー管理およびセ�
 
 ## AEM Guidesで作成されたユーザーグループ {#id181TF0K0MHT}
 
-AEM Guidesには、DITA プロジェクト内の異なるタスクを管理するための 3 つの標準グループが用意されています。 これらのグループは、*作成者*、*レビュー担当者* および *公開者* です。 ユーザーが関連付けられているグループに応じて、特定のタスクを実行できます。 例えば、公開タスクを実行できるのは公開者のみであり、作成者やレビュー担当者は実行できません。 同様に、作成者は新しいトピックを作成でき、レビュアーはトピックのみをレビューできます。
+AEM Guidesには、3 つの標準グループが用意されています。 これらのグループは、*作成者*、*レビュー担当者* および *公開者* です。 ユーザーが関連付けられているグループに応じて、特定のタスクを実行できます。 例えば、公開タスクを実行できるのは公開者のみであり、作成者やレビュー担当者は実行できません。 同様に、作成者は新しいトピックを作成でき、レビュアーはトピックのみをレビューできます。
 
 >[!TIP]
 >
@@ -45,7 +45,7 @@ AEM Guidesには、DITA プロジェクト内の異なるタスクを管理す�
 | レビュータスクを作成 | はい |   | はい |
 | トピック [1](#fntarg_1) を確認 | はい | はい | はい |
 | キーの解決 | はい |   | はい |
-| FrameMakerーで開く | はい |   | はい |
+| FrameMakerで開く | はい |   | はい |
 | チェックアウト/チェックイン | はい |   | はい |
 | トピックを編集 | はい |   | はい |
 | トピックの移動 | はい |   | はい |
