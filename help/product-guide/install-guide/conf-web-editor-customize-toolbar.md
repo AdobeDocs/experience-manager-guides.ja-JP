@@ -5,9 +5,9 @@ exl-id: 14a82c7e-5c07-43a8-bd9e-b221d80f6d05
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 5778ed2855287d1010728e689abbe6020ad56574
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '951'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 # ツールバーのカスタマイズ {#id172FB00L0V6}
 
 デフォルトでは、Web エディタには、DITA エディタに必要な最も一般的な編集機能が付属しています。 エディターでは、リストタイプ \（番号付きまたは箇条書き\）の要素の挿入、相互参照、コンテンツ参照、テーブル、段落、文字の書式設定などの機能を使用できます。 これらの基本要素に加えて、Web エディターをカスタマイズして、オーサリング環境で使用する要素を挿入できます。
+
+>[!NOTE]
+>
+> 古い UI から新しいAEM Guides UI に移行する際（AEM Guides 2502 および 5.0 リリースから適用）、`ui_config` の更新はより柔軟なモジュール型 UI 設定に変換する必要があります。 このフレームワークは、editor_toolbar や他のターゲットウィジェット（該当する場合）に変更をシームレスに導入するのに役立ちます。 詳しくは、[ 変換 UI 設定の概要 ](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config) を参照してください。
 
 Web エディタのツールバーをカスタマイズする方法は 2 つあります。
 
@@ -31,7 +35,7 @@ Web エディターへの機能の追加には、主に 2 つのタスクが必�
 
 Web エディターのツールバーに機能を追加するには、以下の手順を実行します。
 
-1. AEMにログインし、CRXDE Liteモードを開きます。
+1. AEMにログインし、CRXDE Lite モードを開きます。
 
 1. 次の場所にあるデフォルトの設定ファイルに移動します。
 
@@ -208,7 +212,7 @@ JavaScript ファイルに次のコードを追加します。
 
 ツールバーから不要な機能を削除するには、次の手順を実行します。
 
-1. AEMにログインし、CRXDE Liteモードを開きます。
+1. AEMにログインし、CRXDE Lite モードを開きます。
 
 1. 次の場所にあるデフォルトの設定ファイルに移動します。
 

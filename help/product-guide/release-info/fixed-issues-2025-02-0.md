@@ -2,9 +2,9 @@
 title: リリースノート | Adobe Experience Manager Guides、2025.02.0 リリースの問題を修正しました
 description: Adobe Experience Manager Guides as a Cloud Service 2025.02.0 リリースのバグ修正について説明します。
 exl-id: e7dec4a2-e11a-4b78-8111-a331d20ce73d
-source-git-commit: 09283ab7c76eca669b30ec92923456c11d53a10b
+source-git-commit: 71971c25094b842cb7a0bd1f5bd2acbca4212a66
 workflow-type: tm+mt
-source-wordcount: '1311'
+source-wordcount: '1325'
 ht-degree: 1%
 
 ---
@@ -102,3 +102,4 @@ Adobeでは、2025.02.0 リリースの次の既知の問題を特定しまし�
 - 画像を `<keyref>` として使用する場合、画像の **参照タイプ** が **マルチメディアレポート** に表示されません。
 - CSS ファイルのロック機能が期待どおりに動作しない場合があり、他のユーザーがファイルを編集および保存できることがあります。これは、別のユーザーによってロックされている場合でも同様です。
 - プリセット名に大文字が含まれている場合、プリセット設定の変更を適用しても、マップ内で既に作成されているプリセットには反映されません。
+- 統合シェルを有効にして DITA マップを開くと、エディタが断続的に更新されます。
