@@ -3,7 +3,8 @@ title: Workfrontの統合
 description: WorkfrontをAdobe Experience Manager Guidesと統合し、オーサリング、公開、レビューおよび翻訳のワークフローに関するタスクの作成を開始する方法について説明します。
 feature: Authoring
 role: User
-source-git-commit: aa50c63588f18f2aabc03d8b81edca4281258876
+exl-id: fd988434-3ebd-40ac-a776-e62359dcb6ef
+source-git-commit: dea9876cf0afa615f3719637c909bbda0d1d40b5
 workflow-type: tm+mt
 source-wordcount: '2436'
 ht-degree: 0%
@@ -40,7 +41,7 @@ Experience Manager GuidesとAdobe Workfrontの統合により、以下が可能�
 
    **Workfront タスク** ページが表示されます。
 
-   ![](./images/workfront-sign-in.png){width="800" align="left"}
+   ![](./images/workfront-sign-in.png){align="left"}
 3. **ログイン** を選択します。
 
    Adobe Workfrontのログインページにリダイレクトされます。
@@ -48,7 +49,7 @@ Experience Manager GuidesとAdobe Workfrontの統合により、以下が可能�
 
    Experience Manager Guidesの **Workfront タスク** ページに自動的にリダイレクトされます。
 
-   ![](./images/workfront-tasks-page.png){width="800" align="left"}
+   ![](./images/workfront-tasks-page.png){align="left"}
 
 ## Workfront タスクページで使用できる機能
 
@@ -72,7 +73,7 @@ Adobe Workfront タスクページの **新規タスク** ボタンを使用し�
 
    **タスクを作成** ダイアログボックスが表示されます。
 
-   ![](./images/workfront-create-task.png){width="650" align="left"}
+   ![](./images/workfront-create-task.png){align="left"}
 2. 「**一般**」タブで、次のタスクの詳細を入力します。
 
    * **タスクタイプ**：作成するタスクタイプを選択します。 使用できるオプションは、**オーサリング**、**レビュー**、**公開**、**翻訳** です。
@@ -83,20 +84,20 @@ Adobe Workfront タスクページの **新規タスク** ボタンを使用し�
    * **担当者**：タスクの担当者を選択します。
 3. 「**Assets**」タブで、「**追加** を選択して、このタスクにアセットを追加します。
 
-   ![](./images/workfront-create-tasks-asset.png){width="650" align="left"}
+   ![](./images/workfront-create-tasks-asset.png){align="left"}
 
    * オーサリング、パブリッシュ、および翻訳のタスクの場合は、「パスの選択 **ダイアログボックスで必要なファイルの場所を選択する** う求められます。 **作成** ボタンを選択するとすぐに、選択したファイル（オーサリング用のトピックと、公開および翻訳用のマップ）がタスクに追加されます。
 
-     ![](./images/attach-asset.png){width="650" align="left"}
+     ![](./images/attach-asset.png){align="left"}
 
    * レビュータスクの場合、最初にアセットタイプ（マップまたはトピック）を選択するように求められ、次に、選択したファイルが次のように表示されます。
 
 
-     ![ レビュータスクへのマップの追加 ](./images/attach-asset-topics.png){width="650" align="left"}
+     ![ レビュータスクへのマップの追加 ](./images/attach-asset-topics.png){align="left"}
 
      *レビュータスクへのトピックの追加*
 
-     ![ レビュータスクへのマップの追加 ](./images/attach-asset-maps.png){width="650" align="left"}
+     ![ レビュータスクへのマップの追加 ](./images/attach-asset-maps.png){align="left"}
 
      *レビュータスクへのマップの追加*
 
@@ -125,7 +126,7 @@ Adobe Workfront タスクページの **新規タスク** ボタンを使用し�
 
 自分が作成し、まだアクティブなすべてのタスクは、Workfront タスクページの **作成済み** タブに表示され、プロジェクト名、担当者、タスク作成日、タスク完了日、タスクのステータスなどの主要なタスクの詳細が表示されます。
 
-![](./images/workfront-tasks-created-by-you.png){width="800" align="left"}
+![](./images/workfront-tasks-created-by-you.png){align="left"}
 
 次のオプションは、「作成者」タブに表示されているタスクにポインタを合わせると使用できます。
 
@@ -147,7 +148,7 @@ Adobe Workfront タスクページの **新規タスク** ボタンを使用し�
 
 自分に割り当てられていて、まだアクティブなすべてのタスクは、Workfront タスクページの **自分に割り当て済み** タブに表示され、プロジェクト名、担当者、期限、タスクステータスなどの主要なタスクの詳細が表示されます。
 
-![](./images/workfront-tasks-assigned-to-you.png){width="800" align="left"}
+![](./images/workfront-tasks-assigned-to-you.png){align="left"}
 
 「割り当て先」タブに表示されているタスクにマウスポインターを置くと、次のオプションを使用できます。
 
@@ -159,7 +160,7 @@ Adobe Workfront タスクページの **新規タスク** ボタンを使用し�
 
 タスクの作成時に入力した詳細、タスクのステータス、追加されたアセットなどのタスク情報を表示します。
 
-![](images/task-details.png){width="800" align="left"}
+![](images/task-details.png){align="left"}
 
 #### 「概要」セクションから割り当てられたタスクへのアクセス
 
@@ -167,7 +168,7 @@ Adobe Workfront タスクページの **新規タスク** ボタンを使用し�
 
 **タスク** は、自分に割り当てられ、まだアクティブなAdobe Workfront タスクのリストが、タスクの名前、関連プロジェクト、期限、現在のステータスなどの主要なタスクの詳細と共に表示されるウィジェットの 1 つです。
 
-![](./images/workfront-your-tasks-widget.png){width="800" align="left"}
+![](./images/workfront-your-tasks-widget.png){align="left"}
 
 「自分に割り当て済み」タブと同様に、タスク ウィジェットにも、タスクの上にカーソルを置くと **開く** および **タスクの詳細** を表示するオプションがあります。
 
@@ -194,11 +195,11 @@ Adobe Workfront タスクには 4 つのタイプがあり、Experience Manager 
 
 1. 「[ 概要 ](#accessing-assigned-tasks-from-overview-section)」セクションまたは [ 自分に割り当て済み ](#managing-tasks-assigned-to-you) タブからタスクにアクセスします。
 
-   ![ 「割り当て先」タブでのタスクのオーサリング ](./images/authoring-task-access.png){width="650" align="left"}
+   ![ 「割り当て先」タブでのタスクのオーサリング ](./images/authoring-task-access.png){align="left"}
 
    *「割り当て先」タブのオーサリングタスク*
 
-   ![ タスクウィジェットでのタスクのオーサリング ](./images/authoring-task-access-your-tasks.png){width="650" align="left"}
+   ![ タスクウィジェットでのタスクのオーサリング ](./images/authoring-task-access-your-tasks.png){align="left"}
 
    *タスクウィジェットのオーサリングタスク*
 2. 作業対象のタスクの上にマウスポインターを置いて、次を選択します  ![](images/Smock_OpenIn_18_N.svg)  をクリックして開きます。 タスクを選択するだけでタスクを開くこともできます。
@@ -206,7 +207,7 @@ Adobe Workfront タスクには 4 つのタイプがあり、Experience Manager 
    すべてのオーサリングタスクがエディターで開きます。
 3. **詳細** タブでタスクの詳細を確認し、**アセット** ファイルを選択して開きます。
 
-   ![](./images/authoring-task-review-details-editor.png){width="650" align="left"}
+   ![](./images/authoring-task-review-details-editor.png){align="left"}
 
 4. 必要な編集を行い、「完了としてマーク **を選択し** す。
 5. 「**コメント**」タブに切り替えて、このタスクにコメントを追加します。 タスクレベルで追加されたこれらのコメントは、Adobe Workfront プロジェクトダッシュボードにも反映されます。
@@ -223,18 +224,18 @@ Adobe Workfront タスクには 4 つのタイプがあり、Experience Manager 
 
 1. 「[ 概要 ](#accessing-assigned-tasks-from-overview-section)」セクションまたは [ 自分に割り当て済み ](#managing-tasks-assigned-to-you) タブからタスクにアクセスします。
 
-   ![ 「自分に割り当て済み」タブでタスクを確認する ](./images/review-task-access.png){width="650" align="left"}
+   ![ 「自分に割り当て済み」タブでタスクを確認する ](./images/review-task-access.png){align="left"}
 
    *「割り当て先」タブのレビュータスク*
 
-   ![ タスクウィジェットでのタスクのレビュー ](./images/review-task-access-your-tasks.png){width="650" align="left"}
+   ![ タスクウィジェットでのタスクのレビュー ](./images/review-task-access-your-tasks.png){align="left"}
 
    *タスクウィジェットのオーサリングタスク*
 2. 作業対象のタスクの上にマウスポインターを置いて、次を選択します  ![](images/Smock_OpenIn_18_N.svg)  をクリックして開きます。 タスクを選択するだけでタスクを開くこともできます。
 
    レビュー担当者の場合、**レビュー UI** でレビュータスクが開きます。
 
-   ![](./images/review-task-access-review-ui.png){width="650" align="left"}
+   ![](./images/review-task-access-review-ui.png){align="left"}
 
 3. 必要なレビューを実行します。 トピックのレビュー方法について詳しくは、[ トピックのレビュー ](./review-topics.md) を参照してください。
 4. レビューが完了したら、「**完了としてマーク**」を選択します。
@@ -248,13 +249,13 @@ Adobe Workfront タスクには 4 つのタイプがあり、Experience Manager 
 
 作成者/作成者に再割り当てされたレビュータスクは、レビュー組み込みのために [ 概要 ](#accessing-assigned-tasks-from-overview-section) セクションまたは [ 自分に割り当て ](#managing-tasks-assigned-to-you) タブからアクセスできます。
 
-![ オーサーモードでのタスクのレビュー ](./images/review-task-author-mode.png){width="800" align="left"}
+![ オーサーモードでのタスクのレビュー ](./images/review-task-author-mode.png){align="left"}
 
 *作成者に割り当てられたレビュータスク*
 
 このようなタスクの場合、担当者のタスクの状態は **オーサリング** に変わりますが、タスクタイプは **レビュー** のままです。 この状態の変更は、すべてのレビュー担当者がレビューを完了したときに発生します。
 
-![](./images/review-tasks-with-authoring-doc-state.png){width="300" align="left"}
+![](./images/review-tasks-with-authoring-doc-state.png){align="left"}
 
 
 タスクまたは「開く」アイコンを選択す ![](images/Smock_OpenIn_18_N.svg) と、エディターでタスクが開き、作成者は [ レビューコメントに対処 ](../user-guide/review-address-review-comments.md) し、トピックのバージョンを更新してタスクを編集してから、必要に応じてレビュー担当者にタスクを再割り当てすることができます。
@@ -271,21 +272,21 @@ Adobe Workfront タスクには 4 つのタイプがあり、Experience Manager 
 
 1. 「[ 概要 ](#accessing-assigned-tasks-from-overview-section)」セクションまたは [ 自分に割り当て済み ](#managing-tasks-assigned-to-you) タブからタスクにアクセスします。
 
-   ![ 「割り当て先」タブの翻訳タスク ](./images/translation-tasks-access.png){width="650" align="left"}
+   ![ 「割り当て先」タブの翻訳タスク ](./images/translation-tasks-access.png){align="left"}
 
    *「割り当て先」タブの翻訳タスク*
 
-   ![ タスクウィジェットの翻訳タスク ](./images/translation-tasks-access-your-tasks.png){width="650" align="left"}
+   ![ タスクウィジェットの翻訳タスク ](./images/translation-tasks-access-your-tasks.png){align="left"}
 
    *タスク ウィジェットの翻訳タスク*
 
 2. 作業対象のタスクの上にマウスポインターを置いて、次を選択します  ![](images/Smock_OpenIn_18_N.svg)  をクリックして **Map コンソール** で開きます。 タスクを選択するだけでタスクを開くこともできます。
 3. タスクの詳細と、翻訳用に追加されたファイルを確認します。
 
-   ![](./images/translation-tasks-review-details.png){width="650" align="left"}
+   ![](./images/translation-tasks-review-details.png){align="left"}
 4. 様々な翻訳オプションの「**翻訳**」タブに移動します。 Experience Manager Guidesで [ コンテンツの翻訳 ](../user-guide/translation.md) を行う方法を説明します。
 5. 必要な翻訳を実行し、「**翻訳用に送信**」を選択します。
-   ![](./images/translation-tasks-send-translation.png){width="650" align="left"}
+   ![](./images/translation-tasks-send-translation.png){align="left"}
 6. 「**Workfront**」セクションに移動し、「**完了としてマーク**」を選択して、タスクが完了したことを示します。
 7. 「**コメント**」タブに切り替えて、このタスクにコメントを追加します。 これらのコメントはタスクレベルで追加され、Adobe Workfront プロジェクトダッシュボードに反映されます。
 
@@ -301,17 +302,17 @@ Adobe Workfront タスクには 4 つのタイプがあり、Experience Manager 
 
 1. 「[ 概要 ](#accessing-assigned-tasks-from-overview-section)」セクションまたは [ 自分に割り当て済み ](#managing-tasks-assigned-to-you) タブからタスクにアクセスします。
 
-   ![ 「割り当て先」タブでのタスクの公開 ](./images/publishing-tasks-access.png){width="650" align="left"}
+   ![ 「割り当て先」タブでのタスクの公開 ](./images/publishing-tasks-access.png){align="left"}
 
    *「割り当て先」タブの公開タスク*
 
-   ![ タスクウィジェットでのタスクの公開 ](./images/publishing-tasks-access-your-tasks.png){width="650" align="left"}
+   ![ タスクウィジェットでのタスクの公開 ](./images/publishing-tasks-access-your-tasks.png){align="left"}
 
    *タスクウィジェットでのタスクの公開*
 2. 作業対象のタスクの上にマウスポインターを置いて、次を選択します  ![](images/Smock_OpenIn_18_N.svg)  をクリックして **Map コンソール** で開きます。 タスクを選択するだけでタスクを開くこともできます。
 3. タスクの詳細と、公開用に追加されたファイルを確認します。
 
-   ![](./images/publishing-tasks-review-details.png){width="650" align="left"}
+   ![](./images/publishing-tasks-review-details.png){align="left"}
 4. **出力プリセット** に移動して、タスクの公開に必要な公開アクションを実行します。 詳しくは、[ 出力プリセットについて ](../user-guide/generate-output-understand-presets.md/) を参照してください。
 5. 公開が完了したら、「**Workfront**」セクションに移動し、「**完了としてマーク**」を選択して、タスクが完了したことを示します。
 6. 「**コメント**」タブに切り替えて、このタスクにコメントを追加します。 これらのコメントはタスクレベルで追加され、Workfrontのプロジェクトダッシュボードに反映されます。
