@@ -4,7 +4,7 @@ description: Adobe Experience Manager Guidesでカスタムテンプレートを
 exl-id: 84e9cfdf-e188-487f-9181-68708029c101
 feature: Authoring
 role: User
-source-git-commit: 67d6b6f59e5d8c37389a181949ce4527760576e2
+source-git-commit: c6709ffb8e415c88931e732456e2f2a5e6b63729
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Experience Manager Guidesでトピックを作成するには、次の 2 つの�
 
 1. リポジトリパネルで「**新規ファイル**」アイコンを選択し、ドロップダウンメニューから「**トピック**」を選択します。
 
-   ![](create-topic-option.png){width="500" align="left"}
+   ![](images/create-topic-option.png){width="500" align="left"}
 
    このオプションには、[Experience Manager Guidesのホームページ ](./intro-home-page.md) およびリポジトリ ビューのフォルダーのオプション メニューからもアクセスできます。
 
@@ -49,7 +49,7 @@ Experience Manager Guidesでトピックを作成するには、次の 2 つの�
 
 指定したパスにトピックが作成されます。 また、エディターでトピックが開いて編集できます。
 
-![](images/new-topic-editor.png){width="800" align="left"}
+![](images/new-topic-editor.png){align="left"}
 
 ## Assets UI からのトピックの作成
 
@@ -61,7 +61,7 @@ Assets UI からトピックを作成するには、次の手順を実行しま�
 
 1. 「ブループリント」ページで、作成する DITA 文書のタイプを選択し、「**次へ**」を選択します。
 
-   ![](images/create_dita_topic.png){width="800" align="left"}
+   ![](images/create_dita_topic.png){align="left"}
 
    デフォルトでは、Experience Manager Guidesは最もよく使用される DITA トピックテンプレートを提供します。 組織の要件に応じて、より多くのトピックテンプレートを設定できます。また、*オーサリングテンプレートを設定* のインストールで、設定に合わせてAdobe Experience Manager Guidesを設定できます。
 
