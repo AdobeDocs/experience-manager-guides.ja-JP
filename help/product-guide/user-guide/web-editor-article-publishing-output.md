@@ -4,7 +4,7 @@ description: AEM Guidesのリポジトリーパネルまたはマップビュー
 exl-id: f7a4be54-9c51-44e6-96bb-f25e3a6155da
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: a02a7310f5e332f88827a9d5a05034abec05b43a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 0%
@@ -52,7 +52,7 @@ ht-degree: 0%
    - **マップ**：選択したトピックを含む DITA マップが一覧表示されます。
    - **ステータス**：各トピックの公開ステータスを表示します。
 出力を表示するには、トピックの上にマウスポインターを置き、「出力を表示」をクリックします。
-     ![](images/output-multiple-maps_cs.png){width="800" align="left"}
+     ![](images/output-multiple-maps_cs.png){align="left"}
 
 
 ## Web エディタからの DITA マップの出力の生成

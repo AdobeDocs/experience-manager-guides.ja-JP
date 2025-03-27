@@ -4,7 +4,7 @@ description: トピックをレビューする方法、およびAEM Guidesのレ
 exl-id: fc87fc37-f1cd-4a19-96c2-3a08a8222002
 feature: Reviewing
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2423'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 
    DITA マップを使用してレビューワークフローを開始すると、次の画面が表示されます。
 
-   ![](images/multiple-topics-review.png){width="800" align="left"}
+   ![](images/multiple-topics-review.png){align="left"}
 
    この画面では、次のオプションを使用できます。
 
@@ -63,13 +63,13 @@ ht-degree: 0%
 
    マップ内のすべてのトピックは、単一の複合ドキュメントとして表示されます。 レビュー担当者がレビューできるトピックは通常どおり表示されます。 レビューでレビューが許可されていないトピックは表示されません。
 
-   ![](images/review-read-only.png){width="800" align="left"}
+   ![](images/review-read-only.png){align="left"}
 
    上のスクリーンショットでは、一般的な説明のトピックが現在のレビュー担当者とレビュー用に共有されており、通常どおりに表示されています。 ただし、次のトピック「フライトコンテンツの履歴」は、レビュー用には共有されず、読み取り専用モードで表示されます。 現在フォーカスされているトピックは、目次でもハイライト表示されます。
 
    次の画面は、1 つまたは複数のトピックを選択し、レビュー用に共有すると表示されます。
 
-   ![](images/review-composite-view.png){width="800" align="left"}
+   ![](images/review-composite-view.png){align="left"}
 
    >[!NOTE]
    >
@@ -92,7 +92,7 @@ ht-degree: 0%
 
 1 つのトピックを表示すると、ドキュメントビューに戻す追加のオプションが表示されます。 次のスクリーンショットでは、マップ ファイルの特定のトピックがレビュー用に開かれています。 ハイライト表示されたオプション **ドキュメントビューを表示** を使用すると、マップファイルのドキュメントビューに戻すことができます。
 
-![](images/switch-document-view.png){width="800" align="left"}
+![](images/switch-document-view.png){align="left"}
 
 **様々なタイプのコメントツールの操作** - テキストのハイライト表示、テキストの取り消し、テキストの挿入、コメントメモの追加を行うことで、インラインコメントを追加できます。 コメントツールバーには、様々なタイプのコメントツールが用意されています。以下にその例を示します。
 
@@ -159,7 +159,7 @@ ht-degree: 0%
 
 任意のコメントを挿入すると、コメント用のポップアップが表示されます。 ポップアップに追加のコメントや情報を入力したら、Enter キーを押して送信します。 コメントを追加したら、そのコメントに添付ファイルを追加するオプションを使用できます。
 
-![](images/comment-pop-up-panel.png){width="800" align="left"}
+![](images/comment-pop-up-panel.png){align="left"}
 
 上のスクリーンショットでは、ドキュメントにハイライト表示のコメントのポップアップが含まれており、コメントはコメントパネルにも追加されています。 添付ファイルアイコン ![](images/file-attach-review.svg) は、両方の場所のコメントと共に使用できます。
 
@@ -227,7 +227,7 @@ ht-degree: 0%
 
 - 期限切れのコメント アイコン \（![](images/outdated-comment-icon.svg)\）を選択すると、ドキュメントの最新バージョンとコメントされたバージョンの違いが表示されます。 バージョン番号\（比較中のバージョンの\）がドキュメントの上部に表示されます。
 
-  ![](images/comments-page-review-mode.png){width="800" align="left"}
+  ![](images/comments-page-review-mode.png){align="left"}
 
   >[!NOTE]
   >

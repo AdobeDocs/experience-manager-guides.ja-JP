@@ -4,7 +4,7 @@ description: AEM Guidesのレビューダッシュボードからレビュータ
 exl-id: 4fef5653-1c73-4b68-adf2-b24145555142
 feature: Reviewing
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1298'
 ht-degree: 0%
@@ -25,13 +25,13 @@ ht-degree: 0%
 
    タスクタイルを含むプロジェクトパネルが表示されます。
 
-   ![](images/review-management.png){width="800" align="left"}
+   ![](images/review-management.png){align="left"}
 
 1. **レビュー** タイルの 3 ドットを選択します。
 
    レビューダッシュボードが表示されます。 ダッシュボードには、作成したすべてのレビュータスクが一覧表示されます。
 
-   ![](images/review-dashboard.png){width="800" align="left"}
+   ![](images/review-dashboard.png){align="left"}
 
    レビューダッシュボードには、タスク名、レビューを開始したユーザー、レビューが開始された日付、期限、ステータス、作成者が承認または却下していない新しいコメントの数、レビュー担当者の名前など、レビュータスクに関する詳細が表示されます。 タスクは、古いタスクに対して新しく作成されたタスクの順序で一覧表示されます。
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 ## 「タスク」タブ
 
-![](images/review-task-page.png){width="800" align="left"}
+![](images/review-task-page.png){align="left"}
 
 「**タスク**」タブで、次のアクションを実行できます。
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 ## 「コンテンツ」タブ
 
-![](images/review-content-page.png){width="800" align="left"}
+![](images/review-content-page.png){align="left"}
 
 「**コンテンツ**」タブで、次のアクションを実行できます。
 
@@ -90,7 +90,7 @@ ht-degree: 0%
 
 ## 「レビュー担当者」タブ {#reviewer-tab-id199RF0N0MUI}
 
-![](images/reviewers-tab.png){width="800" align="left"}
+![](images/reviewers-tab.png){align="left"}
 
 「**レビュー担当者** タブでは、次の操作を実行できます。
 
@@ -111,7 +111,7 @@ ht-degree: 0%
 
 レビュータスクを選択して **ステータス** を選択した場合、レビュータスクのステータスレポートが表示されます。
 
-![](images/review-status-report.png){width="800" align="left"}
+![](images/review-status-report.png){align="left"}
 
 レビュータスクのステータスレポートには、次の詳細が含まれます。
 

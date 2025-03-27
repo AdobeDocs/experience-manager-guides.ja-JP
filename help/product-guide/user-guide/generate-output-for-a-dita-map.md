@@ -4,7 +4,7 @@ description: AEM Guidesのマップコンソールとマップダッシュボー
 exl-id: d6cbd44c-e74c-4192-bcc4-fb7752c59508
 feature: Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
@@ -54,7 +54,7 @@ DITA マップの出力を生成する方法は 2 つあります。
 
 1. 出力の生成に使用する 1 つまたは複数の出力プリセットを選択します。
 
-   ![](images/generate-multiple-outputs-uuid.png){width="800" align="left"}
+   ![](images/generate-multiple-outputs-uuid.png){align="left"}
 
 1. 「**生成**」アイコンを選択して、出力生成プロセスを開始します。
 

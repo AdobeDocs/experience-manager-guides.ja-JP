@@ -4,7 +4,7 @@ description: Adobe Experience Manager Guidesのエディターの機能を確認
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 1e3a957dffc7296210eea89814cf6ca83ff1200e
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '18659'
 ht-degree: 0%
@@ -299,7 +299,7 @@ ht-degree: 0%
 
 **検索と置換** 機能は、オーサーモードとSourceビューモードで使用できます。 有効にすると、[ 検索と置換 ] テキスト バーがトピック編集領域の下部に表示されます。 ショートカットキー **Ctrl**+**F** を使用して、「検索と置換」バーを呼び出すことができます。
 
-![](images/find-replace-bar.png){width="800" align="left"}
+![](images/find-replace-bar.png){align="left"}
 
 設定アイコン\（![](images/settings-find-replace-icon.svg)\）を使用して、「大文字と小文字を区別しない **検索オプションと** 単語全体のみ **検索オプションを切り替えるこ** ができます。 大文字と小文字を区別しない検索を実行するには、「**大文字と小文字を区別しない** オプションをオン（またはオン）にします。 大文字と小文字を区別して検索を実行する場合は、「**大文字と小文字を区別しない**」オプションをオフ（または選択解除）にします。 単語全体を検索することもできます。
 
@@ -365,7 +365,7 @@ Source ビューでは、**検索と置換** 機能は、特定の要素や属�
 
    以前のバージョンに戻すと、現在作業中のバージョンが最新バージョンでないことを示す視覚的なキューが表示されます。
 
-   ![](images/older-version-visual-cue.png){width="800" align="left"}
+   ![](images/older-version-visual-cue.png){align="left"}
 
 **バージョンラベル**
 
@@ -544,7 +544,7 @@ Experience Manager Guidesには、ドキュメント内で行われた更新に�
 
 `note` のようなブロック要素内で作業している場合は、「要素を挿入」アイコンを使用して、`note` 要素の後に新しい要素を挿入します。 次のスクリーンショットでは、注記要素が p \（paragraph\）要素内に挿入されています。
 
-![ ブロック要素に要素を挿入する ](images/note-in-para-insert-element_cs.png){width="800" align="left"}
+![ ブロック要素に要素を挿入する ](images/note-in-para-insert-element_cs.png){align="left"}
 
 注記要素で [Enter] を押すと、注記要素自体の中に新しい段落が作成されます。 注記外に新しい要素を挿入するには、要素パンくずリストの p 要素\（スクリーンショットでハイライト表示）を選択して、要素アイコンを選択するか、***Alt***+***Enter*** キーを押して、要素を挿入ダイアログボックスを開きます。 次に、目的の要素を選択し、[Enter] を押して、選択した要素を注記要素の後に挿入します。
 
@@ -613,7 +613,7 @@ Experience Manager Guidesには、ドキュメント内で行われた更新に�
 1. 値ドロップダウンリストから、選択したテーブルのセルに適用するテキストの整列を選択します。
 1. 「**追加**」を選択します。
 
-![](images/align-table-cell_cs.png){width="800" align="left"}
+![](images/align-table-cell_cs.png){align="left"}
 
 **画像** - ![](images/Image_icon.svg)
 
@@ -636,7 +636,7 @@ Experience Manager Guidesには、ドキュメント内で行われた更新に�
 
 画像を挿入したら、コンテンツのプロパティパネルで高さ、幅、配置および属性を変更できます。 画像ファイルを選択し、右側のパネルのコンテンツのプロパティパネルで変更を加えます。
 
-![](images/image-properties.png){width="800" align="left"}
+![](images/image-properties.png){align="left"}
 
 Source フィールドには、挿入した画像ファイルの UUID が表示されます。 挿入された画像ファイルの完全なパスを見つけるには、Source フィールドにカーソルを合わせます。 パスがツールチップに表示されます。
 
@@ -713,7 +713,7 @@ Source フィールドには、挿入した画像ファイルの UUID が表示�
 
 管理者が *XMLEditorConfig* で UUIDs オプションを有効にしている場合は、参照されたコンテンツの UUID を **Link** プロパティに表示します。
 
-![](images/ref-link-uuid_cs.png){width="800" align="left"}
+![](images/ref-link-uuid_cs.png){align="left"}
 
 >[!NOTE]
 >
@@ -816,12 +816,12 @@ DITA マップで定義されたキーワードを挿入します。 [ キーワ
 
   トピックまたはマップ ファイルに対して新しいバージョンが作成されるたびに、バージョン番号が変わります。 新しく作成したドキュメントで作業している場合、バージョン情報は **なし** と表示されます。
 
-  ![](images/version-information.png){width="800" align="left"}
+  ![](images/version-information.png){align="left"}
 
 
 - **新規バージョンとして保存** は、トピックに加えた変更を保存し、トピックの新しいバージョンも作成するボタンです。
 
-  ![](images/save-as-new-version.png){width="800" align="left"}
+  ![](images/save-as-new-version.png){align="left"}
 
 
 **新しいバージョンとして保存** を使用してトピックまたはマップを保存すると、次のダイアログ ボックスが表示されます。
@@ -842,7 +842,7 @@ DITA マップで定義されたキーワードを挿入します。 [ キーワ
 
 トピックのタイトルの上にポインタを合わせると、ファイルのタイトル、ファイルのパス、バージョン番号が表示されます。
 
-![](images/mouse-hover-on-title_cs.png){width="800" align="left"}
+![](images/mouse-hover-on-title_cs.png){align="left"}
 
 >[!NOTE]
 >
@@ -852,7 +852,7 @@ DITA マップで定義されたキーワードを挿入します。 [ キーワ
 
 現在のファイルをロックまたはロック解除します。 ファイルをロックすると、そのファイルへの排他的な書き込みアクセスが可能になります。 これにより、他のユーザーがファイルを編集できなくなります。 他のユーザーに編集アクセスを与える場合は、ファイルのロックを解除します。 ファイルのロックが解除されると、変更内容は現在のバージョンのファイルに保存されます。
 
-![](images/web-editor-lock-button.png){width="800" align="left"}
+![](images/web-editor-lock-button.png){align="left"}
 
 マップ ビューを開き、親マップを展開すると、1 回のクリックでマップ内のすべてのファイルをロックできます。 親マップ ファイルを展開して親ファイルを選択するだけで、マップ内のすべてのファイルが選択されます。 次に、[**ロック**]![](images/LockClosed_icon.svg) を選択して、マップ内のすべてのファイルをロックできます。
 
@@ -935,7 +935,7 @@ Adobe Workfrontが設定されている場合、「**Workfront**」というラ�
 
 - エディターでファイルのタブを右クリックして、コンテキストメニューを開きます。 **追加先**/**コレクション** を選択して、ファイルをお気に入りリストに追加します。
 
-  ![](images/favorite-add-from-file-context-menu_cs.png){width="800" align="left"}
+  ![](images/favorite-add-from-file-context-menu_cs.png){align="left"}
 
 
 >[!NOTE]
@@ -1098,7 +1098,7 @@ DAM 内で必要なファイルに簡単に移動し、エディターで開く�
 
   管理者が *XMLEditorConfig* で UUIDs オプションを有効にしている場合、アップロードされた画像の UUID が **Source** プロパティに表示されます。
 
-  ![](images/uuid-in-source-upload-image_cs.png){width="800" align="left"}
+  ![](images/uuid-in-source-upload-image_cs.png){align="left"}
 
 - **フォルダー内のファイルを検索**：検索語句を入力できるリポジトリ検索にフォーカスを移動します。 検索は、リポジトリで選択したフォルダーに対して実行されます。 フィルタを適用して、DITA ファイル、イメージファイル、またはその両方を返すこともできます。
 
@@ -1150,7 +1150,7 @@ DAM 内で必要なファイルに簡単に移動し、エディターで開く�
 
 - **プレビュー**：ファイル（.dita、.xml、audio、video、または image）を開かずにすばやくプレビューします。 プレビューウィンドウのサイズを変更できます。 コンテンツに `<xref>` または `<conref>` が含まれている場合は、そのコンテンツを選択して新しいタブで開くことができます。 ウィンドウにファイルのタイトルが表示されます。 タイトルが存在しない場合は、ファイル名が表示されます。 **プレビュー** パネルを閉じるには、閉じるアイコンを選択するか、パネルの外側の任意の場所を選択します。
 
-  ![](images/quick-preview_cs.png){width="800" align="left"}
+  ![](images/quick-preview_cs.png){align="left"}
 
 - **名前変更**：選択したファイルの名前を変更するには、このオプションを使用します。 **アセット名を変更** ダイアログで新しいファイルの名前を入力します。
    - 任意のタイプのファイル名を変更できます。
@@ -1270,7 +1270,7 @@ DAM 内で必要なファイルに簡単に移動し、エディターで開く�
 
 マップファイルの「オプション」 メニューを使用して、次のアクションを実行できます。
 
-![ マップ ビューのオプション メニュー ](images/options-menu-map-view_cs.png){width="800" align="left"}
+![ マップ ビューのオプション メニュー ](images/options-menu-map-view_cs.png){align="left"}
 
 - **編集**：編集するマップ ファイルをマップ エディタで開きます。
 
@@ -1326,7 +1326,7 @@ DAM 内で必要なファイルに簡単に移動し、エディターで開く�
 
 次のスクリーンショットは、マップ ビュー内のファイルのオプション メニューを示しています。
 
-![](images/options-menu-file_cs.PNG){width="800" align="left"}
+![](images/options-menu-file_cs.PNG){align="left"}
 
 オプションメニューを使用して、次のアクションを実行できます。
 
@@ -1436,11 +1436,11 @@ DITA の主な機能の 1 つは、コンテンツを再利用する機能です
 
 - 要素をドラッグ&amp;ドロップします。 別の要素をドロップすることで、要素を簡単に置き換えることができます。 要素を別の要素の上にドラッグ&amp;ドロップし、その要素の周りに破線の長方形ボックスを表示すると、要素が置き換えられることを示します。 要素がドロップされた要素を置き換えます。
 
-  ![](images/replace-element-outline-view_cs.png){width="800" align="left"}
+  ![](images/replace-element-outline-view_cs.png){align="left"}
 
   要素をドラッグ アンド ドロップすると、要素が現在の位置に配置できることを示す破線の長方形が表示されます。 ドラッグ&amp;ドロップが無効な場合は、操作が許可されていないことを示すエラーメッセージが表示されます。
 
-  ![](images/drop-element-outline-view_cs.png){width="800" align="left"}
+  ![](images/drop-element-outline-view_cs.png){align="left"}
 
 - *アウトライン* ビューの **オプション** メニューを使用すると、切り取り、コピー、削除、ID の生成、現在の要素の前後の要素の挿入、要素の名前変更または置換、要素の折り返し、要素の展開、選択した要素からのスニペットの作成などの一般的な操作を実行できます。
 
@@ -1523,7 +1523,7 @@ Experience Manager Guidesでは、用語集型のドキュメントを簡単に�
 
 また、要素に複数の条件をドラッグ&amp;ドロップして、要素に複数の条件を適用することもできます。 1 つの要素に複数の条件を適用すると、プロパティパネルに適用された条件がコンマで区切られて表示されます。
 
-![](images/multiple-conditions-applied_cs.png){width="800" align="left"}
+![](images/multiple-conditions-applied_cs.png){align="left"}
 
 ただし、コードビューでは、条件はスペース区切り文字を使用して区切られます。 コードビューで条件を追加または編集する場合は、複数の条件がスペースで区切られていることを確認してください。
 
@@ -1531,7 +1531,7 @@ Experience Manager Guidesでは、用語集型のドキュメントを簡単に�
 >
 > 次のスクリーンショットは、管理者権限を持つユーザーを示しています。 管理者権限を持つユーザーは、条件を追加、編集および削除できます。 それ以外の場合は、通常の作成者として、条件を適用するオプションのみが表示されます。
 
-![](images/conditional-content-through-panel_cs.png){width="800" align="left"}
+![](images/conditional-content-through-panel_cs.png){align="left"}
 
 条件を追加または定義するには、条件パネルの横にある「+」アイコンを選択すると、条件を定義ダイアログボックスが表示されます。
 
@@ -1761,7 +1761,7 @@ Source ビューの属性のドロップダウンから値を変更すること�
 >
 > 次のスクリーンショットは、管理者権限を持つユーザーを示しています。 管理者権限を持つユーザーは、スニペットを追加、編集および削除できます。 それ以外の場合は、通常の作成者には、スニペットをプレビューして挿入するオプションのみが表示されます。
 
-![](images/snippets-panel_cs.png){width="800" align="left"}
+![](images/snippets-panel_cs.png){align="left"}
 
 スニペットを追加するには、次のいずれかの方法を使用します。
 
@@ -1826,7 +1826,7 @@ Experience Manager Guidesでは、PDFのネイティブ公開用の変数を作�
 
 検索と置換アイコンは、左側のパネルの下部にあります。 「検索と置換」パネルを使用すると、リポジトリー内のマップまたはフォルダー内のファイル全体でテキストを検索して置換できます。 マップのすべてのトピックと、マップ内のサブマップに存在するトピックを検索および置換できます。
 
-![](images/map-find-replace.png){width="800" align="left"}
+![](images/map-find-replace.png){align="left"}
 
 デフォルトでは、タイトル別にファイルを表示できます。 ファイルの上にマウスポインターを置くと、ファイルのタイトルとファイルパスがツールチップとして表示されます。
 
@@ -1919,7 +1919,7 @@ Experience Manager Guidesには、プロジェクト内のすべてのレビュ�
 1. 検索する検索語句やテキストをトピックのタイトルまたはファイルパスに入力することもできます。 タイトルまたはファイルパスに語句を含むトピックが一覧表示されます。
 1. 任意のトピックをダブルクリックして、オーサービューで開きます。 コメントは、**コメント** パネルに表示されます。
 
-   ![](images/active-review-task-comments.png){width="800" align="left"}
+   ![](images/active-review-task-comments.png){align="left"}
 
    >[!NOTE]
    > 
@@ -1935,7 +1935,7 @@ Experience Manager Guidesには、プロジェクト内のすべてのレビュ�
 
 コンテンツ編集領域の左下には、現在のカーソルの場所に要素のパンくずリストがあります。 右下隅に、使用可能なエディタービューが表示されます。
 
-![](images/content-editing-area.png){width="800" align="left"}
+![](images/content-editing-area.png){align="left"}
 
 コンテンツ編集領域でトピック ファイルに使用可能なエディタ ビューの詳細を表示するには、[ エディタ ビュー ](./web-editor-views.md) を表示します。
 

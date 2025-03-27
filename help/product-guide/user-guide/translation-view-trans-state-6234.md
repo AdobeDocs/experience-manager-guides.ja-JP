@@ -4,7 +4,7 @@ description: AEM Guidesの DITA マップで、各トピックの翻訳ステー
 exl-id: 6ed30bc6-3030-40fd-987a-928fd5b06ee6
 feature: Translation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%
@@ -26,6 +26,6 @@ DITA マップの翻訳ステータスを表示するには、以下の手順を
    >
    > さらに、翻訳ステータス \（Out of Sync Missing Copy、In Progress、または In sync\）、Sourceタイプ \（as All、DITA、DITA map、または Resource\）、および変更日に基づいて、コンテンツをフィルタリングできます。 さらに、キーワードを入力して、特定のトピックを検索できます。 **更新** を使用すると、変更があった場合にステータスを更新できます。
 
-   ![](images/translation-status-new.png){width="800" align="left"}
+   ![](images/translation-status-new.png){align="left"}
 
 **親トピック：**[ コンテンツ翻訳の概要 ](translation.md)

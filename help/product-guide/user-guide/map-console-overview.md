@@ -3,23 +3,23 @@ title: Adobe Experience Manager Guidesのマップコンソール
 description: マップコンソールと、Adobe Experience Manager Guidesでマップを公開および管理できる様々な機能について説明します。
 feature: Publishing
 role: User
-source-git-commit: 4c13d0dab23c19fe2340128aaa05803bb711a486
+exl-id: b273b1ae-fbb2-4b35-abce-0df78eeb2e11
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 0%
 
 ---
 
-
 # マップコンソールの概要
 
 Adobe Experience Manager Guidesには、**マップコンソール** と呼ばれる専用のコンソールが用意されており、すべてのマップ管理タスクと公開タスクを効率化できます。 この一元化されたインタフェースにより、出力の生成、コンテンツの翻訳、レポートへのアクセスなどを 1 か所で行えるオプションが提供されるため、マップ関連アクティビティの生産性と精度が向上します。
 
-![[ ファイル プロパティ ] の [ オプション ] タブ ](./images/map-console-screen.png){width="800" align="left"}
+![[ ファイル プロパティ ] の [ オプション ] タブ ](./images/map-console-screen.png){align="left"}
 
 マップ コンソール インターフェイスは、主に 2 つのセクション **ナビゲーション バー** および **左パネル** に分かれています。
 
-![ 新規 ](images/map-console-sections.png){width="800" align="left"}
+![ 新規 ](images/map-console-sections.png){align="left"}
 
 - （**A**） **ナビゲーションバー**：ナビゲーションバーには、ナビゲーションの切り替え、ページビューの調整、選択したマップファイルの名前の表示を行うためのツールが表示されます。
 

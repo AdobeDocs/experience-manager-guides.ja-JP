@@ -4,7 +4,7 @@ description: AEM Guidesでの条件プリセットの使用を理解している
 exl-id: f6865a34-abdd-4d23-b903-0211bebd13b7
 feature: Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1152'
 ht-degree: 2%
@@ -25,7 +25,7 @@ DITA トピックで属性を定義し、条件プリセットを使用して、
 
 Experience Manager Guidesでは、マップコンソールから条件プリセットを作成および管理し、それらのプリセットを **出力プリセット** 内で使用して、最終的な条件付き出力を生成できます。
 
-<img src="images/manage-condtions-presets.png" alt= "Map Console の条件プリセット" width="800" border="1px">
+<img src="images/manage-condtions-presets.png" alt= "Map Console の条件プリセット" border="1px">
 
 ### 条件プリセットの作成
 

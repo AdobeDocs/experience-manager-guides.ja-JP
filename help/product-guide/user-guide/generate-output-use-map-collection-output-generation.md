@@ -4,7 +4,7 @@ description: マップコレクションを作成および削除し、DITA マ�
 exl-id: 41152fa4-f739-44d2-9ccd-74072f53e31b
 feature: Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1251'
 ht-degree: 0%
@@ -54,7 +54,7 @@ Map コレクションを作成し、そのコレクションに DITA マップ�
 
    DITA マップファイルがマップコレクションに追加されます。
 
-   ![ コレクションのマッピング ダッシュボード ](./images/map-collection-dashboard.png){width="800" align="left"}
+   ![ コレクションのマッピング ダッシュボード ](./images/map-collection-dashboard.png){align="left"}
 
 **フィルターオプション**
 
@@ -95,7 +95,7 @@ Map コレクションを作成し、そのコレクションに DITA マップ�
    - DITA マップの **すべてのプリセット** を有効にして、すべてのプリセットを一度に選択します。 このオプションは、デフォルトでは無効になっています。
    - DITA マップに対して **フォルダープロファイルプリセット** を有効にして、そのすべてのフォルダープロファイルプリセットを選択します。 このオプションは、デフォルトでは無効になっています。
 
-![cloud services で map コレクションを編集する ](images/edit-map-collection-cs.png){width="800" align="left"}
+![cloud services で map コレクションを編集する ](images/edit-map-collection-cs.png){align="left"}
 
 
 
@@ -112,7 +112,7 @@ Map コレクションを作成し、そのコレクションに DITA マップ�
 
 マップ コレクションでは、DITA マップのメタデータ プロパティを一括で設定できます。 **メタデータを設定** を選択して **アセットメタデータ** ページを開きます。 **アセットメタデータ** ページには、コレクションに存在するすべてのマップが左側に一覧表示されます。
 
-![ メタデータの設定 ](images/map-collection-asset-metadata.png){width="800" align="left"}
+![ メタデータの設定 ](images/map-collection-asset-metadata.png){align="left"}
 
 メタデータプロパティを設定するには、次の手順を実行します。
 
@@ -147,6 +147,6 @@ Map コレクションを作成し、そのコレクションに DITA マップ�
 
 [DITA マップコンソール ](generate-output-for-a-dita-map.md#id2061H100T5Z) または [ パブリッシュダッシュボード ](generate-output-publish-dashboard.md#) から出力生成タスクをキャンセルする場合と同様に、マップコレクションから出力生成タスクをキャンセルできます。 [ マップ コレクション ] の [ 出力 ] タブにアクセスし、キャンセルするパブリッシュ タスクに移動し、**このジョブをキャンセル** アイコンを選択してパブリッシュ タスクをキャンセルします。
 
-![](images/cancel-publish-task-map-collection.png){width="800" align="left"}
+![](images/cancel-publish-task-map-collection.png){align="left"}
 
 **親トピック：**[ 出力生成 ](generate-output.md)

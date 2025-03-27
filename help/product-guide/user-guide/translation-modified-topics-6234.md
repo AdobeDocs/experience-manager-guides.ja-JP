@@ -4,7 +4,7 @@ description: AEM Guidesで変更されたトピックを再翻訳する方法を
 exl-id: b3228ea9-24a8-44aa-8ba4-e8f44754ffe4
 feature: Translation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 
    矢印を選択して詳細を表示すると、同期されていない特定の言語コピーを表示できます。
 
-   ![](images/out-of-sync-uuid-new.png){width="800" align="left"}
+   ![](images/out-of-sync-uuid-new.png){align="left"}
 
 1. チェックボックスをオンにして、再翻訳用に送信するトピックを選択します。
 

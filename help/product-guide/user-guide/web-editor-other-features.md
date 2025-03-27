@@ -4,7 +4,7 @@ description: Adobe Experience Manager Guidesのエディターのその他の機
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 594e348fc1188e66cf2f4648702ed2b17f1f8f33
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2406'
 ht-degree: 0%
@@ -222,7 +222,7 @@ XML では、空白にはスペース、タブ、改行、空白行が含まれ�
 
 改行とスペースを含む DITA エレメントは、オーサーモード、Sourceモード、プレビューモード、および最終的な公開出力で、定義に従ってサポートおよびレンダリングされます。 次のスクリーンショットは、改行とスペース\（インデント\）が保持された `msgblock` 要素内のコンテンツを示しています。
 
-![](images/new-line-support_cs.png){width="800" align="left"}
+![](images/new-line-support_cs.png){align="left"}
 
 
 

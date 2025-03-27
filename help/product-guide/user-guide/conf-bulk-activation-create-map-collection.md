@@ -4,7 +4,7 @@ description: AEM ガイドで一括アクティベーションマップコレク
 exl-id: ea0bd465-a2d9-488f-83e9-62b336233eb1
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: a00674a98e4ba87dbc5ddac3412cedca15a205bd
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 0%
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 DITA マップファイルが一括有効化マップコレクションに追加されます。
 
-一括有効化コレクションを作成しまし ![](images/bulk-activation-collection-created.png){width="800" align="left"}
+一括有効化コレクションを作成しまし ![](images/bulk-activation-collection-created.png){align="left"}
 
 ## 「マップとプリセット」タブ
 
@@ -87,7 +87,7 @@ DITA マップファイルが一括有効化マップコレクションに追加
 
 - **Modified**：最後の公開後に DITA マップが更新されたかどうかを示します。 この情報に基づいて、この DITA マップの出力を有効にするかどうかを指定できます。
 - **公開済み**：最後に公開（またはアクティブ化）された出力の日時を表示します。 リンクを選択すると、アクティベーションの結果ページが表示されます。このページには、コンテンツがアクティベートされたルートパスに関する情報を含むログが表示されます。
-  ![ 作成された一括アクティベーションコレクションの「監査履歴」タブ ](images/bulk-collection-audit-history.png){width="800" align="left"}
+  ![ 作成された一括アクティベーションコレクションの「監査履歴」タブ ](images/bulk-collection-audit-history.png){align="left"}
 
   *アクティブ化されたマップ出力に関する情報は、「監査履歴&#x200B;**タブに表示**れます。*
 

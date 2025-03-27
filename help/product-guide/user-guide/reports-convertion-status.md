@@ -4,7 +4,7 @@ description: AEM Guidesで異なるフォーマットの文書を DITA に変換
 exl-id: 0a4699e5-865f-40e1-a17f-5e1a248ea955
 feature: Report Generation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Adobe Experience Manager Guidesには、様々なフォーマットの文書を 
 
    コンバージョンステータスレポートは、システムで実行されるすべてのコンバージョンタスクに対して表示されます。
 
-   ![](images/conversion-status-report-new.png){width="800" align="left"}
+   ![](images/conversion-status-report-new.png){align="left"}
 
 1. レポートページは次の 2 つの部分に分かれています。
 
@@ -35,7 +35,7 @@ Adobe Experience Manager Guidesには、様々なフォーマットの文書を 
 
      次のスクリーンショットは、成功ステータスを持つコンバージョンタスクのレポートデータを示しています。
 
-     ![](images/conversion-report-failed-active-queued-new.png){width="800" align="left"}
+     ![](images/conversion-report-failed-active-queued-new.png){align="left"}
 
    - **レポートデータ：**
 

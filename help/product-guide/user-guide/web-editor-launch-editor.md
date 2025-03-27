@@ -4,7 +4,7 @@ description: Adobe Experience Manager GuidesのAEM ナビゲーションペー�
 exl-id: cdde7c29-ee49-4e17-902e-1e2bd6f32e8a
 feature: Authoring, Web Editor
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -25,11 +25,11 @@ ht-degree: 0%
 
 Experience Managerにログインすると、ナビゲーション ページが表示されます。
 
-![](images/web-editor-from-navigation-page.png){width="800" align="left"}
+![](images/web-editor-from-navigation-page.png){align="left"}
 
 **ガイド** リンクを選択すると、[Adobe Experience Manager Guides ホームページ ](./intro-home-page.md) に移動します。
 
-![](images/aem-home-page.png){width="800" align="left"}
+![](images/aem-home-page.png){align="left"}
 
 エディターを起動するには、ナビゲーションバーに移動し、ドロップダウンから **エディター** を選択します。 デフォルトでは、「ホームページ」が選択されています。
 
@@ -37,7 +37,7 @@ Experience Managerにログインすると、ナビゲーション ページが�
 
 ファイルを選択せずにエディタを起動すると、空のエディタ画面が表示されます。 ファイルを開いて編集するには、Experience Manager **リポジトリ** または自分の **コレクション** から行います。
 
-![](images/web-editor-launch-page.png){width="800" align="left"}
+![](images/web-editor-launch-page.png){align="left"}
 
 または、[Adobe Experience Manager Guidesのホームページエクスペリエンス **の** 最近のファイル **ウィジェットおよび ](./intro-home-page.md) コレクション** ウィジェットに存在する既存のファイルを開いて、エディターを起動することもできます。
 
@@ -57,7 +57,7 @@ Experience Manager ナビゲーション ページに戻るには、上部のヘ
    >
    > また、トピックの UUID を表示することもできます。
 
-   ![](images/assets_ui_with_uuid_cs.png){width="800" align="left"}
+   ![](images/assets_ui_with_uuid_cs.png){align="left"}
 
    >[!IMPORTANT]
    >
@@ -79,15 +79,15 @@ Experience Manager ナビゲーション ページに戻るには、上部のヘ
    >
    > 複数のトピックを開いて編集する場合は、アセット UI から目的のトピックを選択し、「**編集**」を選択します。 ブラウザーでポップアップブロッカーが有効になっていないことを確認してください。有効になっていない場合は、選択したリストの最初のトピックのみが編集用に開かれます。
 
-   ![](images/edit-from-preview_cs.png){width="800" align="left"}
+   ![](images/edit-from-preview_cs.png){align="left"}
 
    トピックをプレビューせずに、エディターで直接開く場合は、カード表示からクイックアクションメニューの **編集** アイコンを選択します。
 
-   ![](images/edit-topic-from-quick-action_cs.png){width="800" align="left"}
+   ![](images/edit-topic-from-quick-action_cs.png){align="left"}
 
    エディターにトピックが表示されます。
 
-   ![](images/edit-mode.png){width="800" align="left"}
+   ![](images/edit-mode.png){align="left"}
 
 また、Assets UI でマップファイルを開き、エディターを起動してマップファイルのトピックを編集することもできます。
 
@@ -98,7 +98,7 @@ Experience Manager ナビゲーション ページに戻るには、上部のヘ
 1. 編集するトピック ファイルを選択します。
 1. **トピックを編集** を選択します。
 
-   ![](images/edit-topics-map-console_cs.png){width="800" align="left"}
+   ![](images/edit-topics-map-console_cs.png){align="left"}
 
 1. エディターにトピックが表示されます。
 
@@ -122,11 +122,11 @@ Experience Manager ナビゲーション ページに戻るには、上部のヘ
 1. マップ ファイルがあるパスを選択します。 選択したマップ ファイルがマップ コンソールに追加されます。
 1. マップファイルに移動し、ドロップダウンから **エディターで開く** を選択します。
 
-   ![](images/map-console-open-in-editor.png){width="800" align="left"}
+   ![](images/map-console-open-in-editor.png){align="left"}
 
    トピックを含むマップ ファイルがエディタで編集用に開きます。
 
-   ![](images/map-console-edit-topics.png){width="800" align="left"}
+   ![](images/map-console-edit-topics.png){align="left"}
 
 
 

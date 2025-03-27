@@ -1,10 +1,10 @@
 ---
 title: 出力生成タスクのステータスの表示
-description: FrameMakerドキュメントの出力生成キューを表示します。 出力生成タスクのステータスを表示する方法について説明します。
+description: FrameMaker ドキュメントの出力生成キューを表示します。 出力生成タスクのステータスを表示する方法について説明します。
 exl-id: c358f747-f0a5-4d9e-a96f-20f30663101f
 feature: Publishing FrameMaker Documents
 role: User
-source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%
@@ -13,15 +13,15 @@ ht-degree: 0%
 
 # 出力生成タスクのステータスの表示 {#viewing_output_history}
 
-FrameMakerドキュメントの出力生成タスクを開始すると、AEM Guidesはこのタスクを出力生成キューに送信します。 このキューはリアルタイムで更新され、キュー内の各出力生成タスクのステータスを示します。
+FrameMaker ドキュメントの出力生成タスクを開始すると、AEM Guidesはこのタスクを出力生成キューに送信します。 このキューはリアルタイムで更新され、キュー内の各出力生成タスクのステータスを示します。
 
 出力生成キューを表示するには、次の手順を実行します。
 
-1. Assets UI で、出力の生成ステータスを確認するFrameMakerドキュメントに移動してクリックします。
+1. Assets UI で、出力の生成ステータスを確認するFrameMaker ドキュメントに移動してクリックします。
 
 1. 「出力」をクリックします。
 
-   ![](images/output-queued-fm.png){width="800" align="left"}
+   ![](images/output-queued-fm.png){align="left"}
 
 1. 出力ページは、次の 2 つの部分に分かれています。
 
@@ -36,4 +36,4 @@ FrameMakerドキュメントの出力生成タスクを開始すると、AEM Gui
      このリストには、正常に実行されたタスクまたは失敗したタスクが表示されます。 正常に完了したタスクの場合、公開プロセスによってログファイル \（logs.txt\）が作成されます。このログファイルにアクセスするには、「生成場所」列のリンクをクリックします。
 
 
-**親トピック：**[ FrameMakerドキュメントの出力を生成 ](fm-output-generatation.md)
+**親トピック：**[ FrameMaker ドキュメントの出力を生成 ](fm-output-generatation.md)

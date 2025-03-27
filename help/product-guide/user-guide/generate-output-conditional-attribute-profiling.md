@@ -4,7 +4,7 @@ description: AEM Guidesで条件属性を作成する方法を説明します。
 exl-id: 5ec7666e-df6b-4b0d-b6c2-cdc395fcccc5
 feature: Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 1%
@@ -45,7 +45,7 @@ Adobe Experience Manager Guidesでは、関連する DITA 属性を使用して�
 
    次のスクリーンショットは、値が `unix` でラベルが `Red Hat Linux` の `platform` 属性の定義を示しています。
 
-   ![](images/add-profile-new.png){width="800" align="left"}
+   ![](images/add-profile-new.png){align="left"}
 
 1. 同じ属性にさらに値を追加する場合は、「**+**」アイコンを選択して、追加の値とラベルを入力します。
 

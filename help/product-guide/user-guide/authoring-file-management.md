@@ -4,7 +4,7 @@ description: AEM Guidesでファイルとフォルダーを管理する方法に
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: 99e42091490b28b5d5ee73472a7655e3feeafd25
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '3131'
 ht-degree: 0%
@@ -310,7 +310,7 @@ Adobe Experience Manager リポジトリからのファイルの削除は制限�
 1. 左側のパネルで「**バージョン履歴**」を選択し、バージョンを選択します。
 1. また、バージョン履歴の下に様々なバージョンのサムネールを表示することもできます。
 
-   ![](images/media-version-history-icon.png){width="800" align="center"}
+   ![](images/media-version-history-icon.png){align="center"}
 
 1. リストに表示されたバージョンから、ベースバージョンとして使用するバージョンを選択し、「**バージョンをプレビュー**」を選択します。 選択したバージョンのプレビューがバージョンのプレビューウィンドウに表示されます。
 

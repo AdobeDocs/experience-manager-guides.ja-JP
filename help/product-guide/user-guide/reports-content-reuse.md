@@ -4,7 +4,7 @@ description: AEM Guidesのコンテンツ再利用レポートを表示する方
 exl-id: ccae4303-75b1-4077-829a-7ef6a14fd8ad
 feature: Report Generation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 1. **レポートを生成** を選択して、コンテンツ再利用レポートを取得します。
 
-   ![](images/content-reuse-uuid.png){width="800" align="left"}
+   ![](images/content-reuse-uuid.png){align="left"}
 
    レポートページは次の 2 つの部分に分かれています。
 

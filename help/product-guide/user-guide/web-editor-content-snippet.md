@@ -4,7 +4,7 @@ description: AEM Guidesのデータソースのデータを使用します。 �
 exl-id: fbd5eff2-451b-49d6-ba77-6eb271e94349
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2386'
 ht-degree: 0%
@@ -154,7 +154,7 @@ Adobe Experience Manager Guidesは、データソースに接続する機能を�
 
 ツールバーの **データをクエリ**![](images/data-sources-new-icon.svg) を使用して、データスニペットをトピックに挿入することもできます。  ドロップダウンからジェネレーターを選択したり、クエリを編集したり、テンプレートを変更してトピックにデータを挿入したりできます。
 
-![](images/add-content-snippet-generator.png){width="800" align="left"}
+![](images/add-content-snippet-generator.png){align="left"}
 
 *データスニペットを編集して挿入します*。
 
@@ -248,7 +248,7 @@ Adobe Experience Manager Guidesは、データソースに接続する機能を�
 
 
 
-   ![](images/add-topic-generator.png){width="800" align="left"}
+   ![](images/add-topic-generator.png){align="left"}
 
    *既存のトピックジェネレーターから新しいトピックを生成*
 

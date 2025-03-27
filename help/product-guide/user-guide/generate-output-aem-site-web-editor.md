@@ -4,7 +4,7 @@ description: 複合コンポーネントマッピングと従来のコンポー�
 feature: Publishing
 role: User
 exl-id: f3657268-9dee-43af-b643-499dbc3ca948
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '3533'
 ht-degree: 0%
@@ -122,7 +122,7 @@ You can configure the Out-of-the-box Sites template  in two ways:
 
 「**トピックリスト**」タブには、DITA マップの現在の作業コピーに存在するトピックのリストが表示されます。 デフォルトでは、すべてのトピックが含まれています。 特定のトピックを選択し、そのトピックに対してのみAEM Sites出力を生成できます。 たとえば、一部のトピックを更新した場合、DITA マップ全体を公開するのではなく、それらのトピックのみを公開できます。
 
-![aem sites トピックリスト ](images/aem-presets-topic-list.png) {width="800" align="left"}
+![aem sites トピックリスト ](images/aem-presets-topic-list.png) {align="left"}
 
 
 >[!NOTE]

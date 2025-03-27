@@ -4,7 +4,7 @@ description: AEM Guidesでの DITA-OT 公開を使用してメタデータを出
 exl-id: 70ca32dc-56c3-45ee-b6b9-0efb8cc79ea1
 feature: Publishing, Metadata Management
 role: User
-source-git-commit: e1d6123991ddd8d25f76ee03befeb95f020a9834
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 0%
@@ -28,7 +28,7 @@ DITA-OT を使用して出力にメタデータを渡す方法は 2 つありま
 1. メタデータフィールドを渡す出力プリセットを選択して開きます。 例えば、「PDF出力プリセット」を選択します。 **DITA-OT** オプションを使用して作成してください。
 1. **File properties** ドロップダウンから、DITA-OT パブリッシングに渡すメタデータを選択します。
 
-   ![](images/custom-metadata-output-preset-new.png){width="800" align="left"}
+   ![](images/custom-metadata-output-preset-new.png){align="left"}
 
    「プロパティ」ドロップダウンリストには、カスタムプロパティとデフォルトプロパティの両方が表示されます。 例えば、上記のスクリーンショットでは、`dc:description`、`dc:language`、`dc:title` および `docstate` がデフォルトのプロパティです。
 
@@ -61,7 +61,7 @@ DITA-OT を使用して出力にメタデータを渡す方法は 2 つありま
 1. メタデータフィールドを渡す出力プリセットを選択して編集します。 例えば、「PDF出力プリセット」を選択します。
 1. 選択した出力プリセットで「**DITA-OT**」オプションを選択します。
 
-   ![](images/custom-meta-data-output-preset.png){width="800" align="left"}
+   ![](images/custom-meta-data-output-preset.png){align="left"}
 
 1. プロパティ ドロップダウンから、DITA-OT パブリッシングに渡すメタデータを選択します。
 

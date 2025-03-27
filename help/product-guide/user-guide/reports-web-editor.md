@@ -4,7 +4,7 @@ description: AEM Guidesのマップコンソールから DITA マップレポー
 exl-id: 2f202b41-85d9-4a5a-aa28-e25715ce5e2e
 feature: Report Generation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2568'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Adobe Experience Manager Guidesにはマップ コンソールの機能が付属
 
 **レポート** パネルから 4 つのレポートをすべて見つけることができます。 要件に基づいて、次に示すように任意のレポートを選択できます。
 
-![](images/reports-demo.png){width="800" align="left"}
+![](images/reports-demo.png){align="left"}
 
 レポートパネルでは、4 種類のレポートにアクセスできます。 各レポートとそのアクセシビリティおよび機能については、以下で詳しく説明します。
 
@@ -44,7 +44,7 @@ Adobe Experience Manager Guidesにはマップ コンソールの機能が付属
 
 1. レポートパネルから **トピックリスト** を選択します。 DITA マップに存在するトピックのリストが表示されます。
 
-   ![](images/web-editor-topiclist-panel-new.png){width="800" align="left"}
+   ![](images/web-editor-topiclist-panel-new.png){align="left"}
 
 1. **フィルター** パネルでは、トピックを **参照タイプ** \（直接または間接\）、**ドキュメントの状態** \（トピックが編集中、レビュー中またはレビュー済みの状態の場合は、リスト\）または **作成者** に基づいてフィルタリングできます。
 
@@ -78,7 +78,7 @@ Adobe Experience Manager Guidesにはマップ コンソールの機能が付属
 1. レポートパネルから **メタデータ** を選択します。 マップのすべての参照のリストが、そのメタデータ（タグ、ドキュメントの状態、カスタムメタデータなど）と共に表示されます。 新しいカスタムメタデータ列を追加するには、[ カスタムメタデータ列の追加 ](#add-custom-metadata-columns) の節を参照してください。
 
 
-   ![](images/web-editor-metadata-panel-new.png){width="800" align="left"}
+   ![](images/web-editor-metadata-panel-new.png){align="left"}
 
 
 1. **フィルター** パネルでは、**ドキュメントの状態** \（例えば、トピックが編集、レビュー中またはレビュー済みの状態の場合、これらはリスト\）、**参照** \（直接または間接\）、**ファイルタイプ** \（Map, Topic, Document, Image, Video and Others\）に基づいてトピックをフィルタリングできます。
@@ -127,7 +127,7 @@ Adobe Experience Manager Guidesにはマップ コンソールの機能が付属
    >
    > チェックアウトしたファイルは選択できません。 チェックアウト済みファイルのタイトルの近くに、チェックアウト済みアイコンも表示されます。 アイコンの上にマウスポインターを置くと、ユーザーの名前が表示されます。
 
-   ![](images/all-selection.png){width="800" align="left"}
+   ![](images/all-selection.png){align="left"}
 
 
 1. 上部の「**管理**」を選択します。
@@ -225,13 +225,13 @@ Adobe Experience Manager Guidesにはマップ コンソールの機能が付属
    - **壊れたリンク** で並べ替えると、壊れたリンクのパスが最初の列に表示され、それらが使用されているすべての参照の名前が別の行の別の列に表示されます。 同じ壊れたリンクが複数のファイルで使用されている場合は、1 行に表示され、グループ化またはサブ行として表示されます。 例えば、次のスクリーンショットは、最初の列と `m_ElectricalSpecs_900.ditamap` れらが使用される参照で 2 つの壊れたリンクを示しており、3 番目の列で 2 つの異なる行に表示されています。
 
 
-   ![](images/broken-link-report-new.png){width="800" align="left"}
+   ![](images/broken-link-report-new.png){align="left"}
 
 
    - **Used in** 列で並べ替えると、リンク切れを使用した参照の名前が最初の列にリストされ、リンク切れが同じ行の別の列にリストされる転置ビューが表示されます。 例えば、次のスクリーンショットは、（壊れたリンクが使用されている）参照 `m_ElectricalSpecs_900.ditamap` 最初の列に表示され、壊れたリンクは同じ行の 3 番目の列に表示されます。
 
 
-   ![](images/broken-link-filter-usedin-new.png){width="800" align="left"}
+   ![](images/broken-link-filter-usedin-new.png){align="left"}
 
 
 1. **ファイルタイプ** と **リンクタイプ** に基づいて、壊れたリンクをフィルタリングできます。 ドロップダウンでの選択に基づいて、壊れたリンクのリストが表示されます。 たとえば、DITA マップ内のコンテンツ参照のみを表示するように選択できます。また、ファイルには、そのファイルで使用されている壊れたコンテンツ参照のみが表示されます。

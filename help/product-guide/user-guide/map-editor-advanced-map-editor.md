@@ -4,7 +4,7 @@ description: Adobe Experience Manager Guidesのマップエディターの機能
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: e1d6123991ddd8d25f76ee03befeb95f020a9834
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2570'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 トピック検索ダイアログを表示します。 挿入するトピック/マップ ファイルに移動し、[**選択**] を選択してマップに追加します。
 
-![](images/insert-topic-reference-dialog.png){width="800" align="left"}
+![](images/insert-topic-reference-dialog.png){align="left"}
 
 
 **トピック グループ** - ![](images/topic-group.svg)
@@ -140,7 +140,7 @@ ht-degree: 0%
 
 **オーサー** ビューを使用すると、エディタで DITA マップを編集できます。 これにより、マップエディタのWYSIWYG ビューが表示され、オーサービューに表示されるアイコンの一部がレイアウトビューと同じになります。
 
-![](images/map-editor-author-view.png){width="800" align="left"}
+![](images/map-editor-author-view.png){align="left"}
 
 さらに、以下のアイコンを表示し、オーサービューで関連タスクを実行することができます。
 
@@ -243,7 +243,7 @@ XML タグの表示/非表示を切り替えます。 タグは、要素の境�
 
 このビューを使用すると、コンテンツを生の形式で編集して、構造と書式設定を完全に制御できます。
 
-![](images/map-editor-source-view.png){width="800" align="left"}
+![](images/map-editor-source-view.png){align="left"}
 
 
 この表示では、ツールバーには、**メニュー** ドロップダウンで使用できる、基本的なコンテンツ編集および挿入オプションが用意されています（切り取り、コピー、取り消し、やり直し、削除、検索と置換、バージョンラベル、結合、新しいバージョンとして保存、ロックとロック解除など）。
@@ -254,7 +254,7 @@ XML タグの表示/非表示を切り替えます。 タグは、要素の境�
 
 マップ内の各トピック ファイルの位置を表示できることに加えて、マップ コンテンツを 1 つの連続したフローで表示することが望ましいです。 マップのプレビュー機能を使用すると、1 回のクリックでマップ ファイルのコンテンツ全体を表示できます。 マップ ファイルの出力を生成して、パブリッシュ後のマップ全体の表示を確認する必要はありません。 マップのプレビューにアクセスするだけで、すべてのトピックとサブマップがブックの形式でレンダリングされます。
 
-![](images/map-editor-preview.png){width="800" align="left"}
+![](images/map-editor-preview.png){align="left"}
 
 >[!NOTE]
 >
@@ -315,7 +315,7 @@ DITA マップを使用してトピックを編集するには、次の手順を
 
    エディターで複数のトピックを開くことができ、各トピックはエディターの新しいタブで開きます。 DITA マップにサブマップが含まれている場合でも、サブマップのトピックは新しいタブで開いて編集できます。 サブマップの下のトピックを表示する場合は、サブマップを選択して展開できます。
 
-   ![](images/web-editor-multiple-topics.png){width="800" align="left"}
+   ![](images/web-editor-multiple-topics.png){align="left"}
 
    マップ ファイルを選択すると、マップはエディタの新しいタブで開きます。
 

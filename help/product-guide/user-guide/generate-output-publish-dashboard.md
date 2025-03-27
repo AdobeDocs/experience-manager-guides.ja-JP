@@ -4,7 +4,7 @@ description: AEM Guidesの公開ダッシュボードを使用して、公開タ
 exl-id: d9e25e52-ba9d-4088-ac95-8df76b69f5d3
 feature: Publishing
 role: User
-source-git-commit: ff75aca9ddd7b405501a62e055fb99bd5ea2291c
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 公開ダッシュボードには、システムで現在実行中のすべての公開タスクの完全な概要が表示されます。
 
-![](images/publish-dashboard.png){width="800" align="left"}
+![](images/publish-dashboard.png){align="left"}
 
 公開ダッシュボードには、次の詳細が含まれます。
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 - **出力プリセット** – 現在アクティブな公開タスクを表示する 1 つ以上の出力プリセットを選択します。 次のスクリーンショットでは、公開タスクがフィルタリングされ、AEM サイト出力プリセットを使用するタスクのみが表示されます。
 
-  ![](images/publish-dashboard-preset-filter.png){width="800" align="left"}
+  ![](images/publish-dashboard-preset-filter.png){align="left"}
 
 - **開始者** - リストからユーザー名を選択して、選択したユーザーによって開始された公開タスクを表示します。
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
    「ファイル名」 リンクを選択すると、選択したマップの DITA マップダッシュボードが表示されます。
 
-   ![](images/publish-dashboard-click-filename-link.png){width="800" align="left"}
+   ![](images/publish-dashboard-click-filename-link.png){align="left"}
 
 
 >[!NOTE]
@@ -80,13 +80,13 @@ ht-degree: 0%
 
 1. アクティブな公開タスクのリストから、キャンセルするタスクの削除アイコンを選択します。
 
-   ![](images/publish-dashboard-cancel-task.png){width="800" align="left"}
+   ![](images/publish-dashboard-cancel-task.png){align="left"}
 
 1. **キャンセルを確認** メッセージプロンプトで **はい** を選択します。
 
    キャンセル コマンドは受け入れられ、タスクがアクティブである限りキャンセルが試行されます。 タスクが正常に終了されると、現在アクティブなタスクリストから削除されます。 タスクのステータスは、DITA マップダッシュボードでも「キャンセル」として更新されます。 次のスクリーンショットでは、*HTML5* タスクがパブリッシュダッシュボードからキャンセルされ、そのステータスも DITA マップダッシュボードで変更されています。
 
-   ![](images/cancelled-output-task.png){width="800" align="left"}
+   ![](images/cancelled-output-task.png){align="left"}
 
 
 **親トピック：**[ 出力生成 ](generate-output.md)

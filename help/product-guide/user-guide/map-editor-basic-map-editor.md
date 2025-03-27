@@ -4,7 +4,7 @@ description: AEM Guidesで基本マップエディターを使用する方法に
 exl-id: 13da729d-e8f7-46ae-873a-1bfc32da974f
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 126cecdaa481b9da1add4ba3664c26c2bc5da068
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1471'
 ht-degree: 0%
@@ -44,7 +44,7 @@ ht-degree: 0%
 
    マップ ファイルがマップ エディタで編集用に開かれます。 マップエディタを使用して、参照パネルに表示されている現在使用可能なトピックを使用してマップを作成します。
 
-   ![](images/dita-map-01.png){width="800" align="left"}
+   ![](images/dita-map-01.png){align="left"}
 
 1. **参照** パネルを使用して、追加するトピックまたはサブマップを含むフォルダーに移動します。
 
@@ -73,13 +73,13 @@ ht-degree: 0%
 
 基本マップ・エディタのメイン・ツールバーを使用すると、次のタスクを実行できます。
 
-![](images/ditamap-toolbar-actions.png){width="800" align="left"}
+![](images/ditamap-toolbar-actions.png){align="left"}
 
 **A：検索**
 
 DAM から必要なトピックを検索して含めることができます。 このアイコンをクリックすると、検索ダイアログが表示されます。
 
-![](images/search-dita-map.png){width="800" align="left"}
+![](images/search-dita-map.png){align="left"}
 
 検索するキーワードを入力すると、これらのキーワードはトピックのファイル名、コンテンツ、さらには属性値で一致します。 検索結果を使用できるようになったら、目的のトピック\（s\）を選択し、[ チェック ] ボタンをクリックして、選択したファイルをマップ構造の最後に追加します。 「変更日」パラメーターを指定すると、検索結果をフィルタリングできます。
 

@@ -4,7 +4,7 @@ description: Adobe Experience Manager Guidesで DIVATAL Editor を使用して D
 exl-id: f3901a4f-1925-42aa-b773-0d6f18175ce8
 feature: Authoring, DITAVAL Editor
 role: User
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 0%
@@ -30,7 +30,7 @@ DITAVAL ファイルを作成するには、以下の手順を実行します。
 
 1. リポジトリパネルで「**新規ファイル**」アイコンを選択し、ドロップダウンメニューから「**トピック**」を選択します。
 
-   ![](images/new-file-option.png){width="800" align="left"}
+   ![](images/new-file-option.png){align="left"}
 
    このオプションには、[Experience Manager Guidesのホームページ ](./intro-home-page.md) およびリポジトリビューのフォルダーのオプションメニューからもアクセスできます。
 
@@ -49,7 +49,7 @@ DITAVAL ファイルを作成するには、以下の手順を実行します。
 
 指定したパスにトピックが作成されます。 また、エディターでトピックが開いて編集できます。
 
-![](images/ditaval-file-editor.png){width="800" align="left"}
+![](images/ditaval-file-editor.png){align="left"}
 
 ## DITAVAL ファイルの編集
 

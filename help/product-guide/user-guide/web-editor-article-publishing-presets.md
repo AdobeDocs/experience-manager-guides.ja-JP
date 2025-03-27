@@ -4,7 +4,7 @@ description: Web エディターから出力プリセットを作成します。
 exl-id: cd38b039-ef91-45c9-a226-433e57b09873
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 5011481c25b4888a3e72b0e2238b10d8e2fbc191
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 0%
@@ -41,21 +41,21 @@ ht-degree: 0%
    ナレッジベースのプリセットが作成されます。
 
 
-   ![ 新しい ](images/knowledge-base-preset-dialog-box.png){width="800" align="left"}
+   ![ 新しい ](images/knowledge-base-preset-dialog-box.png){align="left"}
 
 プリセットを作成したら、特定のナレッジベース記事の出力を生成できます。 これをおこなうには、「**記事**」タブに移動し、出力を生成するトピックを選択します。
 1. 上部の「**出力を生成**」を選択して、出力を生成します。
 
-   ![](images/add-preset-articles-tab_cs.png){width="800" align="left"}
+   ![](images/add-preset-articles-tab_cs.png){align="left"}
 
 1. **公開用にファイルを確認** プロンプトで、公開するファイルを選択し、「**公開**」を選択して確認します。
 
-   ![ 新しい ](images/knowledge-base-confirm-files-for-publishing.png){width="800" align="left"}
+   ![ 新しい ](images/knowledge-base-confirm-files-for-publishing.png){align="left"}
 
 出力生成プロセスのステータスを確認します。 **トピック** 列には、出力が生成されているトピックがリストされ、**ステータス** 列には、各トピックの公開ステータスが表示されます。
 
 
-![](images/add-preset-output-generated_cs.png){width="800" align="left"}
+![](images/add-preset-output-generated_cs.png){align="left"}
 
 出力を表示するには、生成された出力ダイアログボックスを閉じ、プリセットページで **出力を表示** を選択します。
 

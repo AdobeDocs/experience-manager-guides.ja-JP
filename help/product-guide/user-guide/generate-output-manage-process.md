@@ -3,7 +3,8 @@ title: 出力生成
 description: DITA-OT プラグイン、Native PDF公開、AEM Guidesの FMPS を使用して、AEM Sites、PDF、HTML5、EPUB、カスタムおよび JSON の出力生成プロセスを管理します。
 feature: Publishing
 role: User
-source-git-commit: b061bcbcefba1700665bed33f017a962e84a0433
+exl-id: 11bb3604-f45c-4df7-be74-588dbf8594af
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 0%
@@ -26,7 +27,7 @@ Adobe Experience Manager Guidesでは、生成された出力に対して次の�
 
 1. **出力** を選択します。
 
-   ![](images/output-queued.png){width="800" align="left"}
+   ![](images/output-queued.png){align="left"}
 
    出力ページは、次の 2 つの部分に分かれています。
 
@@ -63,17 +64,17 @@ Experience Manager Guidesを使用すると、パブリッシャーは、進行�
 
 1. **このジョブをキャンセル** アイコンを選択します。
 
-   ![](images/cancel-publish-task-map-console.png){width="800" align="left"}
+   ![](images/cancel-publish-task-map-console.png){align="left"}
 
 1. **キャンセルを確認** メッセージプロンプトで **はい** を選択します。
 
-   ![](images/confirm-cancel-output-map-console.png){width="800" align="left"}
+   ![](images/confirm-cancel-output-map-console.png){align="left"}
 
    タスクがまだ開始されていない場合は、キャンセルコマンドがタスクに対して実行されます。 キャンセル中のタスクの場合、ステータスはキャンセルに設定されます。
 
    タスクが正常にキャンセルされると、そのタスクは「キャンセル **ステータスで** 生成された出力 **リストに移動** れます。 キャンセルされたタスクにポインタを合わせると、タスクをキャンセルしたユーザーの名前が表示されます。 次のスクリーンショットでは、*HTML5* タスクがキャンセルされています。
 
-   ![](images/cancelled-output-task.png){width="800" align="left"}
+   ![](images/cancelled-output-task.png){align="left"}
 
 
 ## 出力タスクの削除
@@ -90,9 +91,8 @@ DITA マップに対して複数の出力を生成すると、時間の経過と
 
 1. 削除アイコンを選択します。
 
-   ![](images/delete-output-task.png){width="800" align="left"}
+   ![](images/delete-output-task.png){align="left"}
 
 1. **削除を確認** メッセージプロンプトで **はい** を選択します。
 
    生成された出力リストからタスクが削除されます。
-

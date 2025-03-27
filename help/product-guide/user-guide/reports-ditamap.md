@@ -4,7 +4,7 @@ description: AEM Guidesのマップダッシュボードから DITA マップレ
 exl-id: 7fe52ee0-e940-467b-9b8d-3d2371de7a84
 feature: Report Generation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '759'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Adobe Experience Manager Guidesでは、ドキュメントがプッシュされ�
 
 1. **レポート** を選択します。
 
-   ![](images/reports-page-uuid-new.png){width="800" align="left"}
+   ![](images/reports-page-uuid-new.png){align="left"}
 
    レポートページは次の 2 つの部分に分かれています。
 
@@ -37,7 +37,7 @@ Adobe Experience Manager Guidesでは、ドキュメントがプッシュされ�
 
      トピックを選択すると、選択したトピックの詳細レポートが表示されます。
 
-     ![](images/detailed-report-uuid-new.png){width="800" align="left"}
+     ![](images/detailed-report-uuid-new.png){align="left"}
 
      **A**、**B**、**C** および **D** の下でハイライト表示された項目は次のとおりです。
 
@@ -82,7 +82,7 @@ DITA マップレポートの CSV をダウンロードしてエクスポート�
 
 1. 左上の「**レポートを生成**」を選択して、DITA マップレポートを生成します。
 
-   ![](images/generate-DITA-map-report-new.png){width="800" align="left"}
+   ![](images/generate-DITA-map-report-new.png){align="left"}
 
 1. レポートのダウンロード準備が整うと、通知が届きます。 生成されたレポートの CSV をダウンロードするには、「**ダウンロード**」を選択します。
 

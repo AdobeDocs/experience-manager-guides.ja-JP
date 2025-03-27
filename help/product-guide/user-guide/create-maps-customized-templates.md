@@ -4,7 +4,7 @@ description: カスタマイズしたテンプレートを作成し、それら�
 exl-id: 9cb0035f-bf81-4ab5-a575-53851bbff494
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 594e348fc1188e66cf2f4648702ed2b17f1f8f33
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 0%
@@ -85,7 +85,7 @@ Assets UI からマップまたはトピックのテンプレートを作成す�
 
 1. **Assets UI** で、dita-templates フォルダーに移動します。
 
-   ![](images/dita-templates.png){width="800" align="left"}
+   ![](images/dita-templates.png){align="left"}
 
 1. **トピック** テンプレートを作成する場合は、**topics** フォルダーを開きます。 **マップ** テンプレートを作成する場合は、**マップ** フォルダーを開きます。
 1. **作成\> DITA テンプレート** を選択します。

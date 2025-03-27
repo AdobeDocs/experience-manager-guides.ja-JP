@@ -4,7 +4,7 @@ description: マップコンソールから 1 つ以上の記事を公開する�
 exl-id: d89ce69d-8d4c-4265-bfca-60763f561afd
 feature: Publishing
 role: User
-source-git-commit: 4fbc9c8e28f2b68af0307255eb842065e93fbc83
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 0%
@@ -27,16 +27,16 @@ DITA マップの一部のトピックのコンテンツのみを更新した場
 1. 「**記事**」タブに移動し、出力を生成するトピックを選択します。
 1. 上部の「**出力を生成**」を選択して、出力を生成します。
 
-   ![](images/add-preset-articles-tab_cs.png){width="800" align="left"}
+   ![](images/add-preset-articles-tab_cs.png){align="left"}
 
 1. **公開用にファイルを確認** プロンプトで、公開するファイルを選択し、「**公開**」を選択して確認します。
 
-   ![ 新しい ](images/knowledge-base-confirm-files-for-publishing.png){width="800" align="left"}
+   ![ 新しい ](images/knowledge-base-confirm-files-for-publishing.png){align="left"}
 
    出力生成プロセスのステータスを確認します。 **トピック** 列には、出力が生成されているトピックがリストされ、**ステータス** 列には、各トピックの公開ステータスが表示されます。
 
 
-   ![](images/add-preset-output-generated_cs.png){width="800" align="left"}
+   ![](images/add-preset-output-generated_cs.png){align="left"}
 
    出力を表示するには、**生成された出力** ダイアログボックスを閉じて、プリセットページで **出力を表示** を選択します。
 

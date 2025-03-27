@@ -3,7 +3,8 @@ title: Adobe Experience Manager Guidesのホームページエクスペリエン
 description: Adobe Experience Manager Guidesのホームページを理解します。
 feature: Authoring
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1853'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 ホームページは、Experience Manager Guidesにログインしたときに表示される最初の画面です。 最近アクセスしたファイルやコレクションなどのクイックビューを含む、統一された直感的なスタートアップスクリーンエクスペリエンスが提供されます。
 
-![](images/aem-home-page.png){width="800" align="left"}
+![](images/aem-home-page.png){align="left"}
 
 Experience Manager Guidesのホームページは次のセクションに分かれています。
 
@@ -26,7 +27,7 @@ Experience Manager Guidesのホームページは次のセクションに分か�
 
 ヘッダーバーは、Adobe Experience Manager ロゴ（統合シェルをExperience Manager Guides UI として使用している場合は、統合シェル）を表示するホームページの上部バーです。 ロゴを選択すると、Experience Managerのナビゲーションページに移動します。
 
-![](images/aem-home-header.png){width="800" align="left"}
+![](images/aem-home-header.png){align="left"}
 
 ## ナビゲーションバー
 
@@ -36,7 +37,7 @@ Experience Manager Guidesのホームページは次のセクションに分か�
 >
 > Adobe Experience Manager Guides as a Cloud Serviceを使用している場合、**AI アシスタント** というラベルの付いた追加機能がナビゲーションバーに表示されます。
 
-![](images/aem-home-nav-bar.png){width="800" align="left"}
+![](images/aem-home-nav-bar.png){align="left"}
 
 ナビゲーションバーで使用できる機能の説明は次のとおりです。
 
@@ -88,11 +89,11 @@ Experience Manager Guidesのホームページは次のセクションに分か�
 
 - **最近使用したファイル**：このウィジェットには、最近開いたファイルのスナップショット（エディターでアクセスしたファイルのリスト）と、タイトル、ファイル名、ファイルタイプ、ファイルパス、日付にアクセス済みなどの主要なファイルの詳細が表示されます。
 
-  ![](images/aem-home-recent-files.png){width="800" align="left"}
+  ![](images/aem-home-recent-files.png){align="left"}
 
   列のドロップダウンメニューからオプションを選択して、列の並べ替えとサイズ変更を行うことができます。 デフォルトでは、最後にアクセスした日時に基づいてデータが並べ替えられます。
 
-  ![](images/aem-home-recent-files-sort-resize-options.png){width="800" align="left"}
+  ![](images/aem-home-recent-files-sort-resize-options.png){align="left"}
 
 
   [ ユーザー環境設定 ](#user-preferences) から、このウィジェットに表示できるファイルの最大数を設定できます。 デフォルトでは、この制限は **20** に設定されています。
@@ -110,11 +111,11 @@ Experience Manager Guidesのホームページは次のセクションに分か�
 - **コレクション**：一連のファイルまたはフォルダーで作業する場合は、このウィジェットに追加すると、すばやくアクセスできます。 追加したら、所有者や作成日など、その他の主要な詳細と共に、タイトル別にファイルを表示できます。 列ドロップダウンを選択すると、列の並べ替えやサイズ変更を行うためのオプションを表示できます。
 
 
-  ![](images/aem-home-collections.png){width="800" align="left"}
+  ![](images/aem-home-collections.png){align="left"}
 
   選択したコレクションのパンくずリストは、コレクション ウィジェットの上部に表示されます。 階層内の特定のフォルダーに戻るように選択できます。
 
-  ![](images/aem-home-collections-breadcrumbs.png){width="800" align="left"}
+  ![](images/aem-home-collections-breadcrumbs.png){align="left"}
 
   コレクションの上にマウスポインターを置いて「詳細」アイコンを選択すると、次のオプショ ![](images/Smock_MoreSmallList_18_N.svg) を利用できます。
 
@@ -158,7 +159,7 @@ Experience Manager Guidesでは、「コレクションをマッピング **と�
 
 - **一般**:「一般」タブでは、次の設定を行うことができます。
 
-  ![](images/user_preference_editor.PNG){width="800" align="left"}
+  ![](images/user_preference_editor.PNG){align="left"}
 
    - **フォルダープロファイル**：フォルダープロファイルは、条件属性、オーサリングテンプレート、出力プリセット、エディター設定に関連する様々な設定を制御します。 グローバルプロファイルがデフォルトで表示されます。 さらに、管理者がシステムでフォルダープロファイルを設定している場合、それらのフォルダープロファイルもフォルダープロファイルリストに表示されます。
    - **ベースパス**: デフォルトでは、エディターからExperience Manager Guides リポジトリーにアクセスすると、/content/dam の場所からアセットが表示されます。 作業フォルダーは、/content/dam/ フォルダー内のいくつかのフォルダーである可能性が高いでしょう。 作業フォルダーへのベースパスを設定すると、リポジトリ表示にその場所のコンテンツが事前に表示されます。 これにより、作業フォルダーへのアクセスに要する時間が短縮されます。 また、トピックに参照ファイルまたはメディア ファイルを挿入すると、ファイルの参照場所は、ベース パスに設定されたフォルダから始まります。
@@ -168,7 +169,7 @@ Experience Manager Guidesでは、「コレクションをマッピング **と�
 
 - **外観**:「外観」タブには、アプリケーションのテーマおよびコンテンツ編集領域のソースビューを選択するオプションが用意されています。 このタブを使用して、次の設定を行います。
 
-  ![](images/user_preference_editor_appearance.png){width="800" align="left"}
+  ![](images/user_preference_editor_appearance.png){align="left"}
 
    - **エディターファイルの表示設定**: エディターでファイルを表示するデフォルトの方法を選択します。 オーサービューの様々なパネルから、タイトルまたはファイル名でファイルのリストを表示できます。 デフォルトでは、エディターにファイルがタイトル順に表示されます。
    - **アプリケーションテーマとSource表示**：アプリケーションビューとソースビューのテーマを、明るいテーマと暗いテーマの中から選択できます。 ライトテーマの場合、ツールバーとパネルは明るいグレーの背景を使用します。 ダークテーマの場合、ツールバーとパネルは黒色の背景を使用します。 **デバイスを使用** テーマを選択すると、Experience Manager Guidesでデバイスのテーマに基づいて明るいテーマと暗いテーマを選択できるようになります。

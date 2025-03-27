@@ -4,7 +4,7 @@ description: AEM Guidesの通知を使用してレビュータスクを再割り
 exl-id: 6cd01564-aa26-4773-9c95-9dc519706f27
 feature: Reviewing
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
    >
    > レビュー担当者は、再割り当ての権限を持ち、ユーザー管理者グループの一員である必要があります。
 
-   ![](images/reassign-user-inbox.png){width="800" align="left"}
+   ![](images/reassign-user-inbox.png){align="left"}
 
 1. 「**再割り当て**」を選択します。
 

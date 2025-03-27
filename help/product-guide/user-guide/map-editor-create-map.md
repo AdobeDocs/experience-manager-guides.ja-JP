@@ -4,7 +4,7 @@ description: Experience Manager Guidesでマップエディターを使用して
 exl-id: b9cda118-ab6f-4d6b-9616-a083180ba069
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1555'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Adobe Experience Manager Guidesには、2 つの標準提供マップテンプ�
 
 1. リポジトリパネルで「**新規ファイル**」アイコンを選択し、ドロップダウンメニューから「**DITA Map**」を選択します。
 
-   ![](images/create-map-options.png){width="800" align="left"}
+   ![](images/create-map-options.png){align="left"}
 
    このオプションには、[Experience Manager Guidesのホームページ ](./intro-home-page.md) およびリポジトリビューのフォルダーのオプションメニューからもアクセスできます。
 
@@ -38,7 +38,7 @@ Adobe Experience Manager Guidesには、2 つの標準提供マップテンプ�
 
 指定したパスにマップが作成されます。 また、マップはマップ エディタで開いて編集できます。
 
-![](images/map-file-in-map-editor.png){width="800" align="left"}
+![](images/map-file-in-map-editor.png){align="left"}
 
 ## マップ ファイルにトピックを追加する
 
@@ -53,7 +53,7 @@ Adobe Experience Manager Guidesには、2 つの標準提供マップテンプ�
 
 1. マップ エディタにマップ ファイルが表示されます。 新しいマップ ファイルを開いた場合は、マップのタイトルのみがエディタに表示されます。
 
-   ![](images/new-map-file-in-editor.png){width="800" align="left"}
+   ![](images/new-map-file-in-editor.png){align="left"}
 
 
    - **A** - \（*タブバー*\）：これはエディターのタブバーに似ています。 詳しくは、エディターの [ タブバー ](./web-editor-features.md#tab-bar) を参照してください。
@@ -76,7 +76,7 @@ Adobe Experience Manager Guidesには、2 つの標準提供マップテンプ�
 
    トピックがマップに追加されます。
 
-   ![ マップ エディタにトピックを追加 ](images/map-editor-add-topic.png){width="800" align="left"}
+   ![ マップ エディタにトピックを追加 ](images/map-editor-add-topic.png){align="left"}
 
 1. 後続のトピックまたはサブマップを追加するには、トピックまたはサブマップをマップ内の必要な場所にドラッグ アンド ドロップします。
 
@@ -84,7 +84,7 @@ Adobe Experience Manager Guidesには、2 つの標準提供マップテンプ�
 
    - ファイルは、マップ編集領域で破線の長方形バーが表示される場所に追加されます。 次のスクリーンショットでは、*Smart Suggest 1* トピックと *Smart Suggest 2* トピックの間に *サンプルトピック* トピックが追加されています。
 
-     ![](images/horizontal-line-in-adv-map-editor.png){width="800" align="left"}
+     ![](images/horizontal-line-in-adv-map-editor.png){align="left"}
 
    - トピックを置き換えるには、置き換えるトピックの上に新しいトピックをドラッグ&amp;ドロップします。 そしてそれをドロップすると、その上にドロップされているトピックに置き換えられることを示します。
 
@@ -94,7 +94,7 @@ Adobe Experience Manager Guidesには、2 つの標準提供マップテンプ�
 
    - トピックの位置を変更するには、トピック \（トピック アイコン\を選択して）を選択し、マップ ファイル内の目的の場所にドラッグ アンド ドロップします。 次のスクリーンショットでは、トピック *Smart Suggest 1* を *A サンプルトピック* の後に移動しています。
 
-     ![](images/move-topic-adv-map-editor.png){width="800" align="left"}
+     ![](images/move-topic-adv-map-editor.png){align="left"}
 
    - マップ ファイルのプロパティを確認するには、マップ編集領域の任意の場所を右クリックし、コンテキスト メニューから **プロパティ** を選択します。 Adobe Experience Managerのバージョンに応じて、メタデータ、\（de\）アクティベーションのスケジュール、参照、ドキュメントの状態などのプロパティを表示できます。
 
@@ -116,7 +116,7 @@ Assets UI からマップを作成するには、次の手順を実行します�
    >
    > マップ ファイル内でのトピックの参照方法は、マップ テンプレートによって異なります。 たとえば、マップ テンプレートを選択した場合、トピック参照\（`topicref`\）はトピックを参照するために使用されます。 ブックマップの場合、トピック参照は DITA の `chapter` 要素を使用して作成されます。
 
-   ![](images/map-template.png){width="800" align="left"}
+   ![](images/map-template.png){align="left"}
 
 1. プロパティページで、マップ **タイトル** を指定します。
 
@@ -132,7 +132,7 @@ Assets UI からマップを作成するには、次の手順を実行します�
 
    Assets UI またはエディターから作成するすべての新しいマップファイルには、一意のマップ ID が割り当てられます。 また、新しいマップは最新の作業コピーとして DAM に保存されます。 新しく作成したマップのリビジョンを保存するまで、[ バージョン履歴 ] にはバージョン番号は表示されません。 編集用にマップを開くと、マップ ファイルのタブの右上隅にバージョン情報が表示されます。
 
-   ![](images/first-version-map-none.png){width="800" align="left"}
+   ![](images/first-version-map-none.png){align="left"}
 
    新しく作成されたマップのバージョン情報は *none* と表示されます。 新しいバージョンを保存すると、そのバージョンには 1.0 というバージョン番号が割り当てられます。新しいバージョンの保存の詳細については、「[ 新しいバージョンとして保存 ](web-editor-features.md#save-as-new-version)」を参照してください。
 
@@ -160,11 +160,11 @@ Assets UI からマップを作成するには、次の手順を実行します�
 
 1. マップ ファイルを選択した状態で、[**トピックを編集**] を選択します。
 
-   ![](images/edit-map-main-menu.png){width="800" align="left"}
+   ![](images/edit-map-main-menu.png){align="left"}
 
    または、マップ ファイルのアクション メニューから [**トピックを編集**] オプションを選択することもできます。
 
-   ![](images/edit-map-action-menu.png){width="800" align="left"}
+   ![](images/edit-map-action-menu.png){align="left"}
 
    マップ ファイルがエディタで編集用に開かれます。 マップ ファイルにトピックを追加するには、[ マップ ファイルにトピックを追加する ](#add-topics-to-a-map-file) の手順（4-8）に従います。
 

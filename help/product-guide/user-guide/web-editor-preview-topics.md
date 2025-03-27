@@ -4,7 +4,7 @@ description: Adobe Experience Manager Guidesでトピックをプレビューす
 exl-id: f4013ac6-226a-4e66-bd7b-604ac7c361ae
 feature: Authoring
 role: User
-source-git-commit: 67d6b6f59e5d8c37389a181949ce4527760576e2
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1988'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Experience Manager Guidesでは、次の 2 つの方法でトピックをプレ�
 
    トピックのプレビューが表示されます。
 
-   ![](images/preview-pop-up.png){width="800" align="left"}
+   ![](images/preview-pop-up.png){align="left"}
 
 **プレビューモードでトピックをプレビューする**
 
@@ -61,7 +61,7 @@ Experience Manager Guidesでは、次の 2 つの方法でトピックをプレ�
 
 Assets UI からプレビュー機能を使用する場合、ツールバーで次の操作を使用できます。
 
-![](images/preview-screen.png){width="800" align="left"}
+![](images/preview-screen.png){align="left"}
 
 
 **プロパティ**
@@ -78,7 +78,7 @@ Assets UI からプレビュー機能を使用する場合、ツールバーで�
 
 **使用されている場所** 参照セクションの\（+\） アイコンを使用すると、そのトピックが使用されている、または参照されている場所を探すために上に移動できます。
 
-![](images/used-in-dialog_cs.png){width="800" align="left"}
+![](images/used-in-dialog_cs.png){align="left"}
 
 ドキュメントの横にある ![](images/right-arrow-used-in-dialog.svg) アイコンを選択すると、そのドキュメントがさらに参照されているマップ ファイルまたはトピック ファイルが表示されます。
 
@@ -108,7 +108,7 @@ Assets UI からプレビュー機能を使用する場合、ツールバーで�
   >
   > DITA マップファイルのソースコードビューを取得するには、Assets UI でファイルを選択し、「Source」を選択します。
 
-  ![](images/xml-source-code-view-from-preview_cs.png){width="800" align="left"}
+  ![](images/xml-source-code-view-from-preview_cs.png){align="left"}
 
 **UUID リンクを共有**
 
@@ -120,7 +120,7 @@ Assets UI からプレビュー機能を使用する場合、ツールバーで�
 
 新しいオプション **UUID リンクを共有** が、上記の領域のツールバーに表示されます。 次のスクリーンショットは、トピックのプレビューモードの **UUID リンクを共有** オプションを示しています。
 
-![](images/share-uuid-link_cs.png){width="800" align="left"}
+![](images/share-uuid-link_cs.png){align="left"}
 
 Asset UI では、このオプションはファイルを選択すると表示されます。 プレビューモードの間、このオプションはデフォルトでメインツールバーで使用できます。 DITA マップコンソールでは、このオプションは「出力プリセット」セクションに表示されます。
 
@@ -148,7 +148,7 @@ DITA マップコンソールまたはファイルのプレビューモードか
 
 「チェックアウト」列が表示されない場合は、「**リスト表示**」の **表示設定** を選択し、「**列を設定** ダイアログで **チェックアウト** ステータスを選択します。
 
-![](images/list-view-settings-check-out_cs.png){width="800" align="left"}
+![](images/list-view-settings-check-out_cs.png){align="left"}
 
 >[!TIP]
 >
@@ -166,17 +166,17 @@ DITA マップコンソールまたはファイルのプレビューモードか
 
    1. 左側のパネルで「**バージョン履歴**」を選択し、バージョンを選択します。
 
-      ![](images/timeline-versions62_cs.png){width="800" align="left"}
+      ![](images/timeline-versions62_cs.png){align="left"}
 
    1. リストに表示されたバージョンから、ベースバージョンとして使用するバージョンを選択し、「**バージョンをプレビュー**」を選択します。 選択したバージョンのプレビューがバージョンのプレビューウィンドウに表示されます。
 
    1. **差分を表示** リストから、ベースバージョンの比較に使用するバージョンを選択します。
 
-      ![](images/show-diff-list-cropped.png){width="800" align="left"}
+      ![](images/show-diff-list-cropped.png){align="left"}
 
       トピックのプレビューで、変更されたコンテンツがハイライト表示されます。 緑色でハイライト表示されたコンテンツは新しく追加されたコンテンツを示し、赤色のコンテンツは削除されたコンテンツを示します。
 
-      ![](images/version-difference.png){width="800" align="left"}
+      ![](images/version-difference.png){align="left"}
 
 
 ## ブランチ、元に戻す、後続のバージョン管理

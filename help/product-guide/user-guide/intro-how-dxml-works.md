@@ -4,7 +4,7 @@ description: Experience Manager GuidesがAEMやその他の DITA エディター
 exl-id: 7c76fa01-63dc-4017-af15-c1e62b1849d1
 feature: Introduction
 role: User
-source-git-commit: afa77e42eec4ea900efff14f1ae5f79464591505
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 次の図は、Experience Manager GuidesがAEMおよび任意の DITA Editor と連携して、大規模法人シナリオでコンテンツ管理、再利用、翻訳、レビューを可能にする仕組みを示しています。
 
-![](images/xml-add-on-how-it-works.png){width="800" align="center"}
+![](images/xml-add-on-how-it-works.png){align="center"}
 
 
 **親トピック：**[ Adobe Experience Manager Guides as a Cloud Serviceについて ](intro.md)

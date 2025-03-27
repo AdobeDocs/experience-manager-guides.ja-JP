@@ -4,7 +4,7 @@ description: AEM Guidesで、マップ ダッシュボードからAEM サイト�
 feature: Publishing
 role: User
 exl-id: 641c98ca-b815-4176-abf5-a12c31ff4496
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2404'
 ht-degree: 0%
@@ -47,7 +47,7 @@ AEM Sites出力には、次のオプションを使用できます。
 
 コンテンツをリンクするもう 1 つの方法は、`peer` `@scope` を使用してリンクを作成することです。 このようなコンテンツの場合、リンクは実行時に DITA マップの公開コンテキストからファイルのタイトルとリンクトピックの設定済みコンテキストを選択して解決されます。 次のスクリーンショットは、`peer` の `@scope` を持つリンクのプロパティパネルを示しています。
 
-![](images/peer-link-scope-link-new.png){width="800" align="left"}
+![](images/peer-link-scope-link-new.png){align="left"}
 
 他のマップ内の他のトピックにリンクする複雑なマップやトピックの公開を簡単にするために、Adobe Experience Manager Guidesでは、各出力プリセットの公開コンテキストを設定できます。
 
@@ -65,7 +65,7 @@ AEM Sites出力には、次のオプションを使用できます。
 
    「AEM プリセット設定」タブと「公開コンテキスト」タブが表示されます。
 
-   ![](images/aem-site-publish-settings.png){width="800" align="left"}
+   ![](images/aem-site-publish-settings.png){align="left"}
 
 1. 「**公開コンテキスト**」タブを開きます。
 
@@ -77,7 +77,7 @@ AEM Sites出力には、次のオプションを使用できます。
 
    デフォルトでは、リンクされているすべてのトピックで、最新の出力プリセットおよびマップが選択されます。
 
-   ![](images/default-publish-context.png){width="800" align="left"}
+   ![](images/default-publish-context.png){align="left"}
 
 1. DITA マップとプリセットのデフォルトの選択を変更するには、メインのツールバーで **編集** \）を選択します。
 

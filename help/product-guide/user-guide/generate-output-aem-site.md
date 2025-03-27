@@ -4,7 +4,7 @@ description: AEM GuidesにおけるAEM Sitesの増分出力生成の仕組みを
 exl-id: 019d9fbf-2f23-4669-8022-d693be75c1c3
 feature: Publishing
 role: User
-source-git-commit: b061bcbcefba1700665bed33f017a962e84a0433
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 1%
@@ -36,7 +36,7 @@ DITA マップの一部のトピックのみを更新し、更新されたトピ
 1. 増分出力を生成するAEM Sites プリセットを選択します。
 1. 「**トピック**」タブで、公開するトピックを選択します。
 
-   ![aem sites トピックリスト ](images/aem-presets-topic-list.png) {width="800" align="left"}
+   ![aem sites トピックリスト ](images/aem-presets-topic-list.png) {align="left"}
 
    >[!NOTE]
    >
@@ -64,7 +64,7 @@ DITA マップの一部のトピックのみを更新し、更新されたトピ
    >
    > DITA マップに新しいトピックを追加した場合、ここから新しいトピックを生成することはできません。 最初に、DITA マップ公開機能を使用して、新しく追加されたトピックを公開する必要があります。
 
-   ![](images/regenerate-topics.png){width="800" align="left"}
+   ![](images/regenerate-topics.png){align="left"}
 
 1. 「**再生成**」を選択します。
 

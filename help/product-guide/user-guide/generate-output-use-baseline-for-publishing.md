@@ -4,7 +4,7 @@ description: AEM Guidesでのベースラインの使用について説明しま
 exl-id: 0554947f-3038-4fd2-8a62-ac0d4b858e94
 feature: Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1790'
 ht-degree: 0%
@@ -81,7 +81,7 @@ Experience Manager Guidesでは、ベースラインを作成して、様々な�
 1. ベースラインに必要な変更を加えます。 トピックまたは参照コンテンツの名前とバージョンを変更できます。
 1. 1 つ以上のトピックに異なるバージョンを使用する場合は、それらのトピックを手動で選択します。 「**トピックを参照**」を選択し、別のバージョンを使用するトピックを選択します。 選択したトピックの「バージョンを選択」ドロップダウンリストから、ベースラインで使用するトピックのバージョンを選択し、「**OK**」を選択します。
 
-   ![](images/baseline-select-version-drop-down.png){width="800" align="left"}
+   ![](images/baseline-select-version-drop-down.png){align="left"}
 
    トピックと選択したバージョンに関する情報がバックエンドに保存されます。 この手順を繰り返して、複数のトピックの選択したバージョンを変更できます。
 
@@ -128,7 +128,7 @@ Experience Manager Guidesでは、ベースラインを作成して、様々な�
 
 1. **ラベルを追加** を選択します。
 
-   ![](images/add-label-baseline-uuid.png){width="800" align="left"}
+   ![](images/add-label-baseline-uuid.png){align="left"}
 
 1. **ラベルを追加** ダイアログで、このベースラインに関連付ける一意のラベルを指定します。
 
@@ -158,7 +158,7 @@ Experience Manager Guidesでは、ベースラインを作成して、様々な�
 
 1. 「**翻訳**」タブで、左側のパネルにある「**ベースライン**」オプションを展開します。
 
-   ![](images/export-baseline-new.png){width="800" align="left"}
+   ![](images/export-baseline-new.png){align="left"}
 
 1. 「**ベースラインを使用**」オプションを選択し、エクスポートするベースラインを選択します。
 

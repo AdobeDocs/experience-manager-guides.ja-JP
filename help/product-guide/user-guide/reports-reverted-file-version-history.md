@@ -4,7 +4,7 @@ description: AEM Guidesで、復元されたファイルのバージョン履歴
 exl-id: 74bef625-acd6-49a6-b983-881a782f68d6
 feature: Report Generation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Adobe Experience Manager Guidesでは、個々のファイルまたはフォル�
 
 1. 「**ログを表示**」を選択して、選択したファイルまたはフォルダーのレポートを生成します。
 
-   ![](images/revert-version-history-report.png){width="800" align="left"}
+   ![](images/revert-version-history-report.png){align="left"}
 
    このレポートには、次の詳細が含まれます。
 

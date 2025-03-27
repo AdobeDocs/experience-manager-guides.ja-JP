@@ -4,7 +4,7 @@ description: Adobe Experience Manager Guidesでのファイルの様々なバー
 exl-id: d116906d-b469-4a97-b0af-4fadbe15222b
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Adobe Experience Manager Guidesでは、ファイルの様々なバージョン�
 
 トピックからバージョンラベルを削除するには、バージョンラベル管理ダイアログで追加された各ラベルに対して提供されている **削除** アイコンを使用します。
 
-![](images/remove-version-label.png){width="800" align="left"}
+![](images/remove-version-label.png){align="left"}
 
 
 ## Assets UI からのラベルの操作
