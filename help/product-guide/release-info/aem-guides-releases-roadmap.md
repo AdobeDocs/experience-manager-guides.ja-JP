@@ -3,10 +3,10 @@ title: Adobe Experience Manager Guides リリースロードマップ 2024
 description: Adobe Experience Manager Guides オンプレミスおよびAdobe Experience Manager Guides as a Cloud Serviceのライブリリースと今後のリリースについて説明します
 role: Admin, Leader, Developer, User
 exl-id: cb6709ce-2732-45d0-adfd-5aeca520240e
-source-git-commit: 18f15390fa26229f5d14552835a3c7e645b3e81d
+source-git-commit: c87f343fd8010c375d46ca8c8f50d81f6a0a2c53
 workflow-type: tm+mt
 source-wordcount: '366'
-ht-degree: 31%
+ht-degree: 32%
 
 ---
 
@@ -27,7 +27,7 @@ Experience Manager Guides as a Cloud Serviceのリリースは次のように予
 
 | リリース | イベント | スケジュール | 新機能 | アップグレード手順 | 修正された問題 | ステータス |
 |---|---|---|---|---|---|---|
-| Adobe Experience Manager Guides 2025.04.0 | 自動アップデート | 2025 年 4 月 21～23 日 |  |  |  | ターゲット |
+| Adobe Experience Manager Guides 2025.04.0 | 自動アップデート | 2025年4月21～23日（PT） |  |  |  | ターゲット |
 
 ### ライブリリース
 
@@ -53,7 +53,7 @@ Experience Manager Guides as a Cloud Serviceのリリースは次のように予
 
 | リリース | イベント | スケジュール | 新機能 | アップグレード手順 | ステータス |
 |---|---|---|---|---|---|
-| Adobe Experience Manager Guides 4.6.0 | サービスパック 4 | 2025年4月4日（PT） |  |  | ターゲット |
+| Adobe Experience Manager Guides 4.6.0 | サービスパック 4 | 2025年4月11日（PT） |  |  | ターゲット |
 | Adobe Experience Manager Guides 5.1.0 | リリース | ～ 2025 年 8 月 |  |  | ターゲット |
 
 ### ライブリリース
