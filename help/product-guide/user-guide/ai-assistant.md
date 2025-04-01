@@ -1,7 +1,8 @@
 ---
 title: AI アシスタントを使用して、スマートにドキュメントをオーサリングします。
 description: AI アシスタントを使用して、Adobe Experience Manager Guidesでスマートにドキュメントを検索およびオーサリングする方法を説明します。
-source-git-commit: d51b460610617cafec07124c4fdb091aa4e37a09
+exl-id: c18e8761-333e-40ef-9e16-e71a194a754a
+source-git-commit: aab7bc0c79d3c98f062d230d1d21ec7f4e6a01c3
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 0%
@@ -20,14 +21,14 @@ AI アシスタントの **オーサリング** 機能により、オーサリ�
 
 詳しくは、[ オーサリング ](./ai-assistant-right-panel.md) を参照してください。
 
-![ai アシスタント ](./images/ai-assistant-panel.png){width="300" align="left"}
+![ai アシスタント ](./images/ai-assistant-panel.png){align="left"}
 
 AI アシスタントの **ヘルプ** 機能は、Adobe Experience Manager Guidesをより深く理解し、問題をトラブルシューティングし、Experience Manager Guides ドキュメント内の情報を検索するのに役立つように設計された、直感的なチャットベースのツールです。 ユーザーガイドやリファレンスドキュメントを検索する代わりに、**ヘルプ** 機能を使用して、クエリに対して関連性の高い回答をすばやく見つけることができます。 これにより、時間を節約し、コンテンツの作成に集中できるので、生産性と効率が向上します。
 
 詳細については、[ ヘルプ ](./ai-based-smart-help.md) を参照してください。
 
 
-![ スマートヘルプパネル ](images/smart-help-panel.png){width="300" align="left"}
+![ スマートヘルプパネル ](images/smart-help-panel.png){align="left"}
 
 ## AI アシスタントの基本を学ぶ
 
@@ -40,7 +41,7 @@ AI アシスタントを起動するには、次の手順を実行します。
 
    AI アシスタントのページが表示され、主要な機能、ユーザーガイドラインリンク、および **開始** ボタンがハイライト表示されます。
 
-   ![ スマートヘルプパネル ](images/get-started-ai.png){width="300" align="left"}
+   ![ スマートヘルプパネル ](images/get-started-ai.png){align="left"}
 
 1. ユーザーガイドラインをよくお読みになり、「**使用を開始**」を選択して AI アシスタントを起動してください。
 
@@ -51,8 +52,3 @@ AI アシスタントを起動するには、次の手順を実行します。
 [Adobe Experience Manager Guides ジェネレーティブ AI の開示](./adobe-generative-ai-disclosures.md)
 
 [スマートヘルプとオーサリングのための AI アシスタントの設定](../cs-install-guide/conf-smart-suggestions.md)
-
-
-
-
-
