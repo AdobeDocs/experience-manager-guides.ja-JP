@@ -4,9 +4,9 @@ description: Adobe Experience Manager Guidesのエディターのその他の機
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 9e84617dcfc8bf596bdf0863883284b660cde2f1
 workflow-type: tm+mt
-source-wordcount: '2406'
+source-wordcount: '2399'
 ht-degree: 0%
 
 ---
@@ -213,9 +213,9 @@ MathMLエディターを使用して数式を挿入すると、構文に問題�
 
 XML では、空白にはスペース、タブ、改行、空白行が含まれます。 Experience Manager Guidesは、結果として生成される複数の空白を 1 つのスペースに変換します。 これにより、エディターのWYSIWYG ビューを保持できます。
 
-    >[!NOTE]
-    >
-    >DITA 規則に従って空白を保持する必要がある一部の要素では、結果として生成される複数の空白が保持されます。 例えば、「&lt;pre>」要素と「&lt;codeblock>」要素です。
+>[!NOTE]
+>
+> DITA 規則に従って空白を保持する必要があるエレメントでは、結果として複数の空白が保持されます。 例えば、`<pre>` 要素と `<codeblock>` 要素です。
 
 
 **改行とインデントの保持**

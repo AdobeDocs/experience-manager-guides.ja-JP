@@ -4,7 +4,9 @@ description: Adobe Experience Manager Guidesのエディターの機能を確認
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+hidefromtoc: true
+hide: true
+source-git-commit: 9e84617dcfc8bf596bdf0863883284b660cde2f1
 workflow-type: tm+mt
 source-wordcount: '18659'
 ht-degree: 0%
