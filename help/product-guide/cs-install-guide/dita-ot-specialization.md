@@ -5,9 +5,9 @@ exl-id: 4d3e0fc1-b684-44f9-ab0d-411033024019
 feature: DITA-OT Configuration
 role: Admin
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 3119ef32a753afac9405af31a241ae508f922ea7
 workflow-type: tm+mt
-source-wordcount: '1697'
+source-wordcount: '1701'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ DITA Open Toolkit \（DITA-OT\）は、DITA マップとトピックコンテン
 
 >[!NOTE]
 >
-> AEM Guidesは DITA-OT バージョン 3.3.2 に付属しています。ただし、AEM Guidesは DITA-OT version 1.7 以降をサポートしています。 DITA-OT バージョンの完全なリストについては、[DITA-OT バージョン ](http://www.dita-ot.org/download) を参照してください。
+> AEM Guidesには DITA-OT version 3.3.2 が付属していますが、DITA-OT 1.7 から DITA-OT 4.x までの様々なバージョンがサポートされています。DITA-OT バージョンの一覧については、[DITA-OT バージョン ](http://www.dita-ot.org/download) を参照してください。
 
 >[!TIP]
 >
@@ -30,9 +30,9 @@ DITA Open Toolkit \（DITA-OT\）は、DITA マップとトピックコンテン
 
 カスタム DITA-OT プラグインをAEM リポジトリにアップロードすることで、カスタム DITA-OT プラグインを公開用に使用できます。 デフォルトでは、AEM Guidesには、コンテンツの編集と公開に使用するデフォルトテンプレートの設定を含む、事前設定済みのプロファイルが付属しています。 文書やカスタム DITA-OT プラグインを編集してコンテンツを公開するときに使用するカスタムテンプレートを使用して、カスタムプロファイルを作成できます。
 
-AEM Guidesで使用可能なデフォルトの DITA-OT パッケージには、MathML 方程式のレンダリングをサポートしない Apache FOP XSL-FO プロセッサーが付属しています。 コンテンツで MathML 式を使用する場合は、Apache FOP 用の MathML レンダリングエンジンプラグインが組み込まれているか、別の XSL-FO プロセッサーが使用されていることを確認します。
+AEM Guidesで使用可能なデフォルトの DITA-OT パッケージには、MathML式のレンダリングをサポートしない Apache FOP XSL-FO プロセッサーが付属しています。 コンテンツでMathMLの数式を使用している場合は、MathML Apache FOP 用レンダリングエンジンプラグインが統合されているか、別の XSL-FO プロセッサーが使用されていることを確認します。
 
-カスタム DITA-OT プラグインをAEM リポジトリにアップロードするには、次の手順を実行します。
+次の手順を実行して、カスタム DITA-OT プラグインをAEM リポジトリにアップロードします。
 
 1. ウェルカムメールで共有されたリンクから DITA-OT.zip ファイルをダウンロードします。
 
@@ -48,11 +48,11 @@ AEM Guidesで使用可能なデフォルトの DITA-OT パッケージには、M
 
    - Mac/Linux OS でインテグレーター\（カスタムプラグインをインストールするには\）を実行して、ファイルセパレーターの問題を回避します。Windows と Linux OS ではファイルセパレーターが異なるので、Mac/Linux OS に統合されたプラグインは、Windows と Linux の両方のセットアップと互換性があります。
    - `DITA-OT.ZIP` ファイルに「DITA-OT」という名前のフォルダが含まれ、関連するすべてのプラグインとファイルが含まれていることを確認します。
-   - 作成 `DITA-OT.ZIP` るファイルの mimeType が&quot;nt:file&quot; \（AEMにアップロードされる際の ZIP ファイルのプライマリタイプに対応します\）であることを確認します。 WebDAV ツールまたはコードデプロイメントを使用して、この ZIP ファイルをAEMの目的のパスにアップロードします。 \（この ZIP はAEM コンテンツパッケージではなく、アーカイブファイルのみなので、この ZIP ファイルのデプロイにAEM パッケージマネージャーを使用しないでください。\）
+   - 作成 `DITA-OT.ZIP` るファイルの mimeType が&quot;nt:file&quot; \（AEMにアップロードされる際の ZIP ファイルのプライマリタイプに対応します\）であることを確認します。 WebDAV ツールまたはコードデプロイメントを使用して、この ZIP ファイルをAEMの目的のパスにアップロードします。 \（この ZIP ファイルはAEM コンテンツパッケージではなく、アーカイブファイルのみなので、この ZIP ファイルのデプロイにAEMのパッケージマネージャーを使用しないでください。\）
 
    >[!NOTE]
    >
-   > デフォルトの DITA-OT パッケージを上書きしないことをお勧めします。 プラグイン /var/dxml/dita\_resources/dita-ot フォルダを含むカスタム DITA-OT パッケージをアップロードする必要があります。 また、Cloud Manager パイプラインを使用して実行することもできます。詳しくは、AEM ドキュメントの [AEM as a Cloud Serviceへのデプロイ ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=ja) を参照してください。
+   > デフォルトの DITA-OT パッケージを上書きしないことをお勧めします。 プラグイン /var/dxml/dita\_resources/dita-ot フォルダを含むカスタム DITA-OT パッケージをアップロードする必要があります。 Cloud Manager パイプラインを使用して実行することもできます。詳しくは、AEM ドキュメントの [AEM as a Cloud Serviceへのデプロイ ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=ja) を参照してください。
 
 1. デフォルトプロファイルを編集したり、新しいプロファイルを作成したり、デフォルトプロファイルの設定を複製して新しいプロファイルを作成したりできます。
 
@@ -72,15 +72,15 @@ AEM Guidesで使用可能なデフォルトの DITA-OT パッケージには、M
    | **DITA-OT プロパティ** |
    | DITA-OT タイムアウト | \（*オプション*\） DITA-OT プラグインからの応答をAEM Guidesが待機する時間を秒単位で指定します。 指定した時間内に応答がない場合、AEM Guidesは公開タスクを終了し、タスクには失敗とフラグが付けられます。 また、失敗ログは、出力生成ログファイルで利用できるようになります。 <br> デフォルト値：300 秒\（5 分\） |
    | DITA-OT PDF引数 | カスタム DITA-OT プラグインがPDF出力を生成するために処理するコマンドライン引数を指定します。 すべてのカスタム DITA-OT プロファイルに対して、次のコマンドライン引数を指定します。`-lib plugins/org.dita.pdf2.fop/lib/` |
-   | DITA-OT AEM引数 | \（*Optional*\） AEM Site 出力を生成するためにカスタム DITA-OT プラグインによって処理されるカスタムのコマンドライン引数を指定します。 |
+   | DITA-OT AEM引数 | \（*Optional*\）カスタム DITA-OT プラグインがAEM Site 出力を生成するために処理するカスタムコマンドライン引数を指定します。 |
    | DITA-OT ライブラリパス | \（*オプション*\） DITA-OT プラグインの追加ライブラリパスを指定します。 |
    | DITA-OT Build XML | \（*Optional*\） カスタマイズされた DITA-OT プラグインにバンドルされているカスタム Ant ビルドスクリプトのパスを指定します。 このパスは、ファイルシステム上の DITA-OT ディレクトリからの相対パスです。 |
    | DITA-OT Ant スクリプトフォルダ | \（オプション\） DITA-OT Ant スクリプトフォルダのパスを指定します。 このパスは、ファイルシステム上の DITA-OT ディレクトリからの相対パスです。 |
-   | DITA-OT 環境変数 | *\（オプション\）* DITA-OT プロセスに渡す環境変数を指定します。 デフォルトでは、AEM Guidesによって 4 つの変数（`ANT_OPTS`、`ANT_HOME`、`PATH`、`CLASSPATH`）が追加されます。 <br> 既存のシステム環境変数またはプロパティを再利用して、新しい環境変数を作成できます。 例えば、システム内でシステム変数 `JAVA_HOME` 定義しており、`JAVA_HOME` を使用して構築された `JAVA_BIN` という新しい環境変数を定義するとします。 次に、`JAVA_BIN` の定義を <br> のように追加 `JAVA_BIN= ${JAVA_HOME}/bin` ます。 **メモ：** Java システムプロパティを使用して環境変数を作成することもできます。 例えば、AEM start スクリプトで Java システムプロパティ `java.io.tmpdir` を一時ディレクトリに定義する場合、このプロパティを使用して新しい変数を `${java.io.tmpdir}/fmdita/dita_ot` として定義できます。<br> **重要：** 既存のシステム変数またはプロパティを再利用するには、`${}` で囲む必要があります。 |
+   | DITA-OT 環境変数 | *\（オプション\）* DITA-OT プロセスに渡す環境変数を指定します。 デフォルトでは、AEM Guidesによって 4 つの変数（`ANT_OPTS`、`ANT_HOME`、`PATH`、`CLASSPATH`）が追加されます。 <br> 既存のシステム環境変数またはプロパティを再利用して、新しい環境変数を作成できます。 例えば、システム内でシステム変数 `JAVA_HOME` 定義しており、`JAVA_HOME` を使用して構築された `JAVA_BIN` という新しい環境変数を定義するとします。 次に、`JAVA_BIN` の定義を <br> のように追加 `JAVA_BIN= ${JAVA_HOME}/bin` ます。 **メモ：** Java システムプロパティを使用して環境変数を作成することもできます。 例えば、AEM開始スクリプトで Java システムプロパティ `java.io.tmpdir` を一時ディレクトリに定義する場合、このプロパティを使用して新しい変数を `${java.io.tmpdir}/fmdita/dita_ot` として定義できます。<br> **重要：** 既存のシステム変数またはプロパティを再利用するには、`${}` で囲む必要があります。 |
    | DITA-OT 出力を上書き | DITA-OT 出力を上書きするかどうかを選択します。 このオプションを選択したままにします。 |
    | AEM DITA-OT Zip パス | カスタム DITA-OT.zip ファイルがAEM リポジトリに格納されている場所のフルパスを指定します。 |
    | DITA-OT プラグインパス | カスタムプラグインのパス。 このプラグインは、メインの DITA-OT パッケージと自動的に統合されます。 |
-   | カタログの統合 | \（*オプション*\） AEM リポジトリ内のカスタム DTD および XSD catalog.xml ファイルのパス。 これは、カタログが DITA-OT パッケージにない場合にのみ指定してください。 これらのカタログは、メインの DITA-OT とプラグインとして自動的に統合されます。 |
+   | カタログの統合 | \（*オプション*\）AEM リポジトリ内のカスタム DTD および XSD catalog.xml ファイルのパス。 これは、カタログが DITA-OT パッケージにない場合にのみ指定してください。 これらのカタログは、メインの DITA-OT とプラグインとして自動的に統合されます。 |
    | システム ID カタログの追加 | \（*オプション*\）このオプションは、カタログにパブリック ID エントリがない場合、または DITA ファイルでアップロード元のサーバーパスに対する相対システム ID のみを使用する場合にのみ選択します。 |
    | DITA-OT 一時パス | DITA ファイルをコピーして処理する一時的な場所。 DITA-OT がファイルを処理する前に、ファイルはこの一時的な場所にコピーされます。 デフォルトでは、一時ストレージの場所は <br> です。 `<*AEM-Install*>/crx-quickstart/profiles/ditamaps` <br> **重要：** デフォルトパスは変更しないでください。 |
 

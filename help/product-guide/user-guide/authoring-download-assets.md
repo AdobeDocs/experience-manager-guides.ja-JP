@@ -4,7 +4,7 @@ description: AEM Guidesの DITA マップコンソールからファイルをダ
 exl-id: ae9eb355-d3ac-446a-958b-5f2da43f5533
 feature: Content Management
 role: User
-source-git-commit: f3858b1694837c7a3fa7bb222ed8ff31ce7103f8
+source-git-commit: 632b253a36822b4b5b93766153f0fc3a1116b616
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 0%
@@ -36,7 +36,10 @@ DITA マップファイルをAdobe Experience Manager リポジトリに格納�
 1. 「**ダウンロード**」を選択します。 マップをダウンロード ダイアログでは、次のオプションを選択できます。
 
    - **ベースラインを使用**:DITA マップ用に作成されたベースラインのリストを取得するには、このオプションを選択します。 特定のベースラインに基づいてマップ・ファイルとそのコンテンツをダウンロードする場合は、ドロップダウン・リストから「ベースライン」を選択します。 ベースラインの操作の詳細については、「[ ベースラインの操作 ](generate-output-use-baseline-for-publishing.md#)」を参照してください。
+
    - **ファイル階層を統合**：参照されるすべてのトピックおよびメディアファイルを 1 つのフォルダーに保存するには、このオプションを選択します。
+
+
    >[!NOTE]
    >
    > オプションを選択せずにマップ ファイルをダウンロードすることもできます。 その場合、参照されるトピックおよびメディア ファイルの最後の永続バージョンがダウンロードされます。

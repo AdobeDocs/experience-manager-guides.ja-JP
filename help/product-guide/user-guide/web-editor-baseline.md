@@ -4,9 +4,9 @@ description: Adobe Experience Manager Guidesのマップコンソールからベ
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: 154d4cb2c4c51581590048e1d368f4c744402847
 workflow-type: tm+mt
-source-wordcount: '1815'
+source-wordcount: '1831'
 ht-degree: 0%
 
 ---
@@ -137,7 +137,7 @@ ht-degree: 0%
   > ラベルの追加や削除のプロセスは非同期で行われるので、他のファイルで作業を続行できます。 ラベルが追加または削除されると、ラベルが追加または削除されたことを確認するポップアップメッセージが表示され、そのインボックス通知も受信されます。
 
 - ベースラインの作成時に設定した既存の静的ベースラインの **プロパティの編集**。
-- 「ベースラインのエクスポート **オプションを使用して、Microsoft Excel ファイルのベースラインのスナップショットをエクスポー** します。
+- **ベースラインを書き出し** オプションでは、ベースラインのスナップショットをMicrosoft Excel ファイルに書き出します。これには、タイトル、ファイル名、ファイルタイプ、バージョン番号、ドキュメントステート、その他の関連情報など、重要なすべての詳細が含まれます。
 
 
 ### ラベルのリスト {#labels-list}

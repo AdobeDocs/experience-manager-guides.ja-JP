@@ -4,22 +4,22 @@ description: FrameMaker ドキュメントの出力生成キューを表示し�
 exl-id: c358f747-f0a5-4d9e-a96f-20f30663101f
 feature: Publishing FrameMaker Documents
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: b78a34430476c15cadacb23d65bd978b3c25bd23
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
 
 # 出力生成タスクのステータスの表示 {#viewing_output_history}
 
-FrameMaker ドキュメントの出力生成タスクを開始すると、AEM Guidesはこのタスクを出力生成キューに送信します。 このキューはリアルタイムで更新され、キュー内の各出力生成タスクのステータスを示します。
+FrameMaker ドキュメントの出力生成タスクを開始すると、Adobe Experience Manager Guidesはこのタスクを出力生成キューに送信します。 このキューはリアルタイムで更新され、キュー内の各出力生成タスクのステータスを示します。
 
 出力生成キューを表示するには、次の手順を実行します。
 
-1. Assets UI で、出力の生成ステータスを確認するFrameMaker ドキュメントに移動してクリックします。
+1. Assets UI で、出力生成ステータスを確認するFrameMaker ドキュメントに移動して選択します。
 
-1. 「出力」をクリックします。
+1. 「出力」を選択します。
 
    ![](images/output-queued-fm.png){align="left"}
 
@@ -33,7 +33,7 @@ FrameMaker ドキュメントの出力生成タスクを開始すると、AEM Gu
 
      完了済みの出力タスクを一覧表示します。 この例で示されている情報は、出力の生成時間の唯一の違いを除いて、「キューイングされた出力」セクションに似ています。
 
-     このリストには、正常に実行されたタスクまたは失敗したタスクが表示されます。 正常に完了したタスクの場合、公開プロセスによってログファイル \（logs.txt\）が作成されます。このログファイルにアクセスするには、「生成場所」列のリンクをクリックします。
+     このリストには、正常に実行されたタスクまたは失敗したタスクが表示されます。 正常に完了したタスクについて、公開プロセスによってログファイル \（logs.txt\）が作成されます。このログファイルにアクセスするには、「生成場所」列のリンクを選択します。
 
 
 **親トピック：**[ FrameMaker ドキュメントの出力を生成 ](fm-output-generatation.md)

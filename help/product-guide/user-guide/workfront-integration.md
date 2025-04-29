@@ -1,17 +1,17 @@
 ---
-title: Workfrontの統合
+title: Workfront の統合
 description: WorkfrontをAdobe Experience Manager Guidesと統合し、オーサリング、公開、レビューおよび翻訳のワークフローに関するタスクの作成を開始する方法について説明します。
 feature: Authoring
 role: User
 exl-id: fd988434-3ebd-40ac-a776-e62359dcb6ef
-source-git-commit: dea9876cf0afa615f3719637c909bbda0d1d40b5
+source-git-commit: 62b1abd012f4bbf532480e2625505cdea1c70bc7
 workflow-type: tm+mt
-source-wordcount: '2436'
+source-wordcount: '2482'
 ht-degree: 0%
 
 ---
 
-# Workfrontの統合
+# Workfront の統合
 
 Adobe Workfrontは、チームや組織が作業を効率的に計画、追跡、管理するのに役立つ、クラウドベースの作業管理ソリューションです。 Experience Manager GuidesとAdobe Workfrontの統合により、Experience Manager Guidesのコア CCMS 機能に加えて堅牢なプロジェクト管理機能にアクセスできるため、タスクの計画、割り当て、追跡を効率的に行うことができます。
 
@@ -85,6 +85,8 @@ Adobe Workfront タスクページの **新規タスク** ボタンを使用し�
 3. 「**Assets**」タブで、「**追加** を選択して、このタスクにアセットを追加します。
 
    ![](./images/workfront-create-tasks-asset.png){align="left"}
+
+   **パスを選択** ダイアログが表示されます。 必要なアセットへのパスを選択します。 パスブラウザーで有効なパスを選択することで、複数のアセットを追加できます。 選択したパスは保持されるので、ダイアログを再度開いたときに、パスを簡単に確認または変更できます。
 
    * オーサリング、パブリッシュ、および翻訳のタスクの場合は、「パスの選択 **ダイアログボックスで必要なファイルの場所を選択する** う求められます。 **作成** ボタンを選択するとすぐに、選択したファイル（オーサリング用のトピックと、公開および翻訳用のマップ）がタスクに追加されます。
 
