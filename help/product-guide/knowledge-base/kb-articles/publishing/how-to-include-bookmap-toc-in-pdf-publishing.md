@@ -93,13 +93,13 @@ Ditamap を公開している場合、Native PDFが目次とブックリスト�
 
 ## その他のリソース :
 
-- [ ネイティブPDFデザインページレイアウトのドキュメント ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/design-page-layout)
-- [ ネイティブPDFの要点を事前に記録したエキスパートセッション ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
+- [ ネイティブPDFデザインページレイアウトのドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/design-page-layout)
+- [ ネイティブPDFの要点を事前に記録したエキスパートセッション ](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
 
 <br>
 <br>
 
-クエリがある場合は、AEM Guides Community [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) でPostしてください。
+クエリがある場合は、AEM Guides Community [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=ja) でPostしてください。
 
 
 

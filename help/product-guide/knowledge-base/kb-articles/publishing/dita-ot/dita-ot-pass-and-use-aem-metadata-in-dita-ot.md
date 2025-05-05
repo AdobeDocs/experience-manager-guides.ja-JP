@@ -166,7 +166,7 @@ DITA-OT プラグインで使用可能な _metadata.xml_ とプロパティを�
 
 ### デプロイメント
 
-DITA-OT プラグインを開発したら、DITA-OT ディレクトリの下で _dita —install_ コマンドを使用して DITA-OT に組み込み、AEM サーバーに配備できます [ 詳細は、この記事を参照してください ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/steps-to-setup-a-custom-dita-ot/td-p/407659)
+DITA-OT プラグインを開発したら、DITA-OT ディレクトリの下で _dita —install_ コマンドを使用して DITA-OT に組み込み、AEM サーバーに配備できます [ 詳細は、この記事を参照してください ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/steps-to-setup-a-custom-dita-ot/td-p/407659?profile.language=ja)
 
 
 ## リソース

@@ -26,6 +26,6 @@ ht-degree: 2%
 
 ## その他のリソース
 
-* [[!DNL AEM Guides]  ユーザーガイド（新しい UI） ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)
-* [[!DNL AEM Guides]  ラーニングとサポート ](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
+* [[!DNL AEM Guides]  ユーザーガイド（新しい UI） ](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/overview)
+* [[!DNL AEM Guides]  ラーニングとサポート ](https://helpx.adobe.com/jp/support/xml-documentation-for-experience-manager.html)
 * [Experience League - AEM に関する情報](https://business.adobe.com/jp/products/experience-manager/adobe-experience-manager.html)

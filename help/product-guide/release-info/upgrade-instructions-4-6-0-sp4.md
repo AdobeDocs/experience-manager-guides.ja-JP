@@ -68,7 +68,7 @@ You can easily upgrade your current version of Guides to 4.6.0 Service Pack 4. B
 - バージョン 4.2、4.2.1 (ホットフィックス 4.2.1.3)、4.1、または 4.1.x を使用している場合は、バージョン 4.6.0 にアップグレードする前にバージョン 4.4 にアップグレードする必要があります。
 - バージョン 4.0 を使用している場合は、バージョン 4.2 にアップグレードしてからバージョン 4.3.x にアップグレードする必要があります。
 - バージョン 3.8.5 を使用している場合は、バージョン 4.0 にアップグレードしてからバージョン 4.2 にアップグレードする必要があります。
-- If you are on a version prior to 3.8.5, refer to the Upgrade Experience Manager Guides section in the product-specific installation guide available on [Adobe Experience Manager Guides help PDF archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+- If you are on a version prior to 3.8.5, refer to the Upgrade Experience Manager Guides section in the product-specific installation guide available on [Adobe Experience Manager Guides help PDF archive](https://helpx.adobe.com/jp/xml-documentation-for-experience-manager/archive.html).
 
 >[!NOTE]
 >

@@ -125,5 +125,5 @@ ht-degree: 1%
 ![ 移行の「システムアップグレードを検証」タブ ](assets/migration-validate-system-upgrade.png){width="800" align="left"}
 
 
-1. 移行が完了したら、コンパクションを実行することで、ディスク領域のほとんどを再利用できます（`https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en` を参照）。
+1. 移行が完了したら、コンパクションを実行することで、ディスク領域のほとんどを再利用できます（`https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=ja` を参照）。
 

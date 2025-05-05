@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 既存の DITA コンテンツのアップロード {#id176FF000JUI}
 
-ほとんどの場合、AEM Guidesで使用する既存の DITA コンテンツのリポジトリがあります。 このような既存のコンテンツの場合、[Adobe Experience Manager as a Cloud Service Assetsへのデジタルアセットの追加 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html) で説明されている、サポートされている任意の方法を使用することができます。
+ほとんどの場合、AEM Guidesで使用する既存の DITA コンテンツのリポジトリがあります。 このような既存のコンテンツの場合、[Adobe Experience Manager as a Cloud Service Assetsへのデジタルアセットの追加 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=ja) で説明されている、サポートされている任意の方法を使用することができます。
 
 ## UUID ファイル名パターンの設定
 

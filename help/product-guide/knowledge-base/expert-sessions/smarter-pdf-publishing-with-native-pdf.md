@@ -55,7 +55,7 @@ In this session, we covered:
 
 ### Community Forum
 
-- For session-specific community interactions on Experience League, visit  [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- For session-specific community interactions on Experience League, visit  [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=ja).
 
 
 

@@ -57,7 +57,7 @@ JIRA ID を含む「change-request-id」要素は、API から取得する必要
 }
 ```
 
-[ フォルダープロファイルと ui_config.json の設定について詳しくは、このリンクを使用してください ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en)
+[ フォルダープロファイルと ui_config.json の設定について詳しくは、このリンクを使用してください ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=ja)
 
 
 ### 新しいボタンのクリックイベントを処理

@@ -51,11 +51,11 @@ ht-degree: 1%
 
 ## 関連リソース
 
-- **特集ビデオ** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/folder-profiles.html)
+- **特集ビデオ** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/folder-profiles.html?lang=ja)
 
 - **ユーザーガイド** - [ コンテンツの作成 ](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
 
-- **コミュニティフォーラム** - Experience Leagueに関するセッション固有のコミュニティのやり取りについては、[AEM Guides フォーラム ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions) にアクセスしてください。
+- **コミュニティフォーラム** - Experience Leagueに関するセッション固有のコミュニティのやり取りについては、[AEM Guides フォーラム ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=ja) にアクセスしてください。
 
 >[!NOTE]
 >

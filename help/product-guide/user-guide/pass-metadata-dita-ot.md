@@ -38,7 +38,7 @@ DITA-OT を使用して出力にメタデータを渡す方法は 2 つありま
 
    このファイルは、`/apps/fmdita/config/metadataList` でオーバーレイできます。
 
-   値を既に定義したカスタムプロパティを渡すには、[DITA-OT PDF出力でAEM メタデータを使用 ](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880) を参照してください。
+   値を既に定義したカスタムプロパティを渡すには、[DITA-OT PDF出力でAEM メタデータを使用 ](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880?profile.language=ja) を参照してください。
 
 1. 選択したプロパティがドロップダウンの下に一覧表示されます。
 
@@ -73,7 +73,7 @@ DITA-OT を使用して出力にメタデータを渡す方法は 2 つありま
 
    このファイルは、`/apps/fmdita/config/metadataList` でオーバーレイできます。
 
-   値を既に定義したカスタムプロパティを渡すには、[DITA-OT PDF出力でAEM メタデータを使用 ](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880) を参照してください。
+   値を既に定義したカスタムプロパティを渡すには、[DITA-OT PDF出力でAEM メタデータを使用 ](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880?profile.language=ja) を参照してください。
 
 1. **プロパティ** ドロップダウンから、必要なカスタムプロパティとデフォルトのプロパティを選択します。 例えば、「`author`」、「`dc:title`」、「`dc:description`」を選択します。 これらは、ファイルを作成すると作成される標準 `metadata/properties` です。 選択したプロパティがドロップボックスの下に表示されます。
 

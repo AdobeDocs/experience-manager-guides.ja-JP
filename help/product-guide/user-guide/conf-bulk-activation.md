@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> Adobe Experience Managerでのオーサーインスタンスとパブリッシュインスタンスの設定方法について詳しくは、[ オーサーとパブリッシュのアーキテクチャの概要 ](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites) を参照してください。
+> Adobe Experience Managerでのオーサーインスタンスとパブリッシュインスタンスの設定方法について詳しくは、[ オーサーとパブリッシュのアーキテクチャの概要 ](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=ja#prerequisites) を参照してください。
 
 Experience Manager Guidesの一括アクティベーション機能を使用すると、オーサリングからパブリッシュインスタンスまで、コンテンツをすばやく簡単にアクティベーションできます。 一括アクティベーション機能では、次の機能を柔軟に使用できます。
 

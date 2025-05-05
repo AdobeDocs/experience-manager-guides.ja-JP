@@ -184,7 +184,7 @@ PDFのネイティブ公開を使用したPDFの生成には、次の 2 つの�
 | **インタラクティブ PDF フォームの作成** | 生成されたPDF出力に、強化されたユーザー入力用のインタラクティブでカスタマイズ可能なPDF フォームフィールドを含める場合は、このオプションを選択します。 |
 | **トラック変更を含める** | 生成されたPDFにトラッキングされた変更内容を含めて、確認や比較を簡単にする場合は、このオプションを選択します。 |
 | **一時ファイルを保持** | PDFのネイティブ出力の生成時に作成された暫定HTML ファイルを保持する場合は、このオプションを選択します。 後で出力の生成後に一時ファイルをダウンロードできます。 |
-| **PDF準拠** | これは、PDFを保存して準拠を確認する標準です。 ドロップダウンから選択して、使用可能なPDF標準のリストから選択します。 サポートされている標準の詳細については、「[PDF標準について ](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards) を参照してください。 |
+| **PDF準拠** | これは、PDFを保存して準拠を確認する標準です。 ドロップダウンから選択して、使用可能なPDF標準のリストから選択します。 サポートされている標準の詳細については、「[PDF標準について ](https://helpx.adobe.com/jp/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards) を参照してください。 |
 | **ファイルのプロパティ** | Native PDF公開に渡すメタデータを選択します。 ドロップダウンリストには、カスタムプロパティとデフォルトプロパティの両方が表示されます。 例えば、`dc:description`、`dc:language`、`dc:title`、`docstate` はデフォルトのプロパティですが、カスタムプロパティとして `author` を指定できます。 選択したメタデータプロパティは、Native PDFを使用して生成されたPDF ファイルに渡されます。 <br> これらのプロパティは、`/libs/fmdita/config/metadataList` に用意されている `metadataList` ファイルから選択されます。 <br> このファイルは `/apps/fmdita/config/metadataList` でオーバーレイできます。 |
 
 

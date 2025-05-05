@@ -18,11 +18,11 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
-> Adobe Experience Manager as a Cloud ServiceAssetsでサポートされるコンテンツアップロード方法について詳しくは、[AEMへのデジタルアセットの追加 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html) を参照してください。
+> Adobe Experience Manager as a Cloud ServiceAssetsでサポートされるコンテンツアップロード方法について詳しくは、[AEMへのデジタルアセットの追加 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=ja) を参照してください。
 
 ## Assets コンソールのユーザーインターフェイス
 
-デスクトップ上でコンテンツを選択し、AEM ユーザーインターフェイス\（web ブラウザー\）を目的のフォルダーにドラッグできます。 詳しくは、AEM ドキュメントの [ アセットのアップロード ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#upload-assets) を参照してください。
+デスクトップ上でコンテンツを選択し、AEM ユーザーインターフェイス\（web ブラウザー\）を目的のフォルダーにドラッグできます。 詳しくは、AEM ドキュメントの [ アセットのアップロード ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=ja#upload-assets) を参照してください。
 
 ## AEM デスクトップアプリケーション
 
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 ## アセットの一括取得
 
-大規模な移行が行われ、一括で取り込みを行うことがある場合は、アセットの一括取得を使用してコンテンツをアップロードします。 このツールを使用すると、Azure や S3 などのサポートされているデータストアから一括コンテンツをアップロードできます。 詳しくは、[ アセット一括取得 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=en#asset-bulk-ingestor) を参照してください。
+大規模な移行が行われ、一括で取り込みを行うことがある場合は、アセットの一括取得を使用してコンテンツをアップロードします。 このツールを使用すると、Azure や S3 などのサポートされているデータストアから一括コンテンツをアップロードできます。 詳しくは、[ アセット一括取得 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=ja#asset-bulk-ingestor) を参照してください。
 
 ## FrameMakerを使用したバルクアップロード
 

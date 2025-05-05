@@ -185,4 +185,4 @@ CRX リポジトリの/var/dxml/profiles/b1aad0a7-9079-e56c-1ed8-6fcabababe8166/
 
 
 
-上記の手順のいずれかを実行中に問題が発生した場合は、AEM Guides Community [ フォーラム ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) で質問を投稿してください。
+上記の手順のいずれかを実行中に問題が発生した場合は、AEM Guides Community [ フォーラム ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=ja) で質問を投稿してください。

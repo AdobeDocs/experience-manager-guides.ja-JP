@@ -16,7 +16,7 @@ ht-degree: 0%
 
 DITAVAL ファイルは、条件付き出力の生成に使用されます。 単一のトピックで、要素の属性を使用してコンテンツの条件を設定する条件を追加できます。 次に、DITAVAL ファイルを作成します。このファイルでは、コンテンツを生成するために取得する必要がある条件と、最終的な出力から除外する必要がある条件を指定します。
 
-AEM Guidesでは、DITAVAL エディタを使用して DITAVAL ファイルを簡単に作成および編集できます。 DITAVAL エディタは、システムで定義されている属性\（またはタグ\）を取得し、それらを使用して DITAVAL ファイルを作成または編集できます。 AEMでのタグの作成および管理について詳しくは、AEM ドキュメントの [ タグの管理 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) の節を参照してください。
+AEM Guidesでは、DITAVAL エディタを使用して DITAVAL ファイルを簡単に作成および編集できます。 DITAVAL エディタは、システムで定義されている属性\（またはタグ\）を取得し、それらを使用して DITAVAL ファイルを作成または編集できます。 AEMでのタグの作成および管理について詳しくは、AEM ドキュメントの [ タグの管理 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=ja) の節を参照してください。
 
 ## DITAVAL ファイルの作成
 

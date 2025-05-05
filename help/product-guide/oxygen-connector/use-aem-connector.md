@@ -44,7 +44,7 @@ AEM Guides用 Oxygen プラグインは、Adobeソフトウェア配布ポータ
 
 >[!IMPORTANT]
 >
->古いバージョンのプラグインがシステムにインストールされている場合は、必ずアンインストールしてからインストール処理を開始してください。 アンインストール手順については、[ パッケージの操作方法 **の記事の** パッケージのアンインストール ](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) の節を参照してください。
+>古いバージョンのプラグインがシステムにインストールされている場合は、必ずアンインストールしてからインストール処理を開始してください。 アンインストール手順については、[ パッケージの操作方法 **の記事の** パッケージのアンインストール ](https://helpx.adobe.com/jp/experience-manager/6-4/sites/administering/using/package-manager.html) の節を参照してください。
 
 Oxygen XML Author がインストールされているシステムで、次の手順を実行します。
 
@@ -78,7 +78,7 @@ Oxygen XML Author がインストールされているシステムで、次の�
 
 >[!IMPORTANT]
 >
->古いバージョンのプラグインがシステムにインストールされている場合は、必ずアンインストールしてからインストール処理を開始してください。 [ パッケージの操作方法 **記事アンインストール手順の** パッケージのアンインストール ](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) の節を参照してください。
+>古いバージョンのプラグインがシステムにインストールされている場合は、必ずアンインストールしてからインストール処理を開始してください。 [ パッケージの操作方法 **記事アンインストール手順の** パッケージのアンインストール ](https://helpx.adobe.com/jp/experience-manager/6-4/sites/administering/using/package-manager.html) の節を参照してください。
 
 Oxygen XML Author がインストールされているシステムで、次の手順を実行します。
 
@@ -117,7 +117,7 @@ AEM管理者は、次の手順を実行してパッケージをインストー�
 
    `http://<server name>:<port>/crx/packmgr/index.jsp`
 
-   パッケージマネージャーは、ローカル AEM インストール上のパッケージを管理します。 パッケージマネージャーの操作について詳しくは、AEM ドキュメントの [ パッケージの操作方法 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=en) を参照してください。
+   パッケージマネージャーは、ローカル AEM インストール上のパッケージを管理します。 パッケージマネージャーの操作について詳しくは、AEM ドキュメントの [ パッケージの操作方法 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=ja) を参照してください。
 
    ![ パッケージマネージャー ](images/package-manager.png) {width="650" align="left"}
 

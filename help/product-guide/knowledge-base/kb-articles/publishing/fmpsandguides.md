@@ -19,9 +19,9 @@ ht-degree: 0%
 
 ## FMPS とAEM Guidesの互換性
 
-- 4.1 AEM Guidesとの互換性：[4.1 互換性マトリックス ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=en/#compatibility-matrix)
+- 4.1 AEM Guidesとの互換性：[4.1 互換性マトリックス ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=ja/#compatibility-matrix)
 - 4.0 AEM Guidesとの互換性：[4.0 互換性マトリックス ](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html/#Compatibility%20matrix)
-- 最新リリース：[ 最新リリース情報 ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=en)
+- 最新リリース：[ 最新リリース情報 ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=ja)
 
 ## インストール
 
@@ -91,10 +91,10 @@ FMPS プリセットを選択し、さらにカスタム設定やAEMから別の
 
 ## その他のリソース：
 
-[FMPS のラーニングとサポート ](https://helpx.adobe.com/support/framemaker-publishing-server.html)
+[FMPS のラーニングとサポート ](https://helpx.adobe.com/jp/support/framemaker-publishing-server.html)
 
 [AEM Guidesのラーニングとサポート ](https://helpx.adobe.com/in/support/xml-documentation-for-experience-manager.html)
 
 [FrameMakerおよび FMPS コミュニティ ](https://community.adobe.com/t5/framemaker/ct-p/ct-framemaker?page=1&amp;sort=latest_replies&amp;lang=all&amp;tabid=all)
 
-[AEM Guides コミュニティ ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)
+[AEM Guides コミュニティ ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=ja)

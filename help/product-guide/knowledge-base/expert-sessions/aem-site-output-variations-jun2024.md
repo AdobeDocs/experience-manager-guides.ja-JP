@@ -46,7 +46,7 @@ Web エクスペリエンスのレイアウトを明確に定義すると、一�
 
 - [AEM テンプレート ](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/developing/platform/templates/templates)
 
-- **コミュニティフォーラム** - Experience Leagueに関するセッション固有のコミュニティのやり取りについては、[AEM Guides フォーラム ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions) にアクセスしてください。
+- **コミュニティフォーラム** - Experience Leagueに関するセッション固有のコミュニティのやり取りについては、[AEM Guides フォーラム ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=ja) にアクセスしてください。
 
 >[!NOTE]
 >

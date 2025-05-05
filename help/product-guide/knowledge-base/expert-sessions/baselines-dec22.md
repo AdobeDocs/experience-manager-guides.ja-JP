@@ -40,11 +40,11 @@ AEM Guidesのリリース管理は、トピックとアセットのバージョ�
 
 ## 関連リソース
 
-- **特集ビデオ** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
+- **特集ビデオ** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=ja)
 
 - **ユーザーガイド** - [ ベースラインの操作 ](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html)
 
-- **コミュニティフォーラム** - Experience Leagueに関するセッション固有のコミュニティのやり取りについては、[AEM Guides フォーラム ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions) にアクセスしてください。
+- **コミュニティフォーラム** - Experience Leagueに関するセッション固有のコミュニティのやり取りについては、[AEM Guides フォーラム ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=ja) にアクセスしてください。
 
 >[!NOTE]
 >

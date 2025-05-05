@@ -22,7 +22,7 @@ AEM Guidesをインストールしたら、インストールが成功したか�
 
 1. AEMで OSGi バンドルのリストにアクセスします。
 
-   バンドルへのアクセスについて詳しくは、AEM ドキュメントの [ バンドル ](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=en#bundles) を参照してください。
+   バンドルへのアクセスについて詳しくは、AEM ドキュメントの [ バンドル ](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=ja#bundles) を参照してください。
 
 1. バンドルのリストで fmdita を検索し、そのステータスを確認します。
 

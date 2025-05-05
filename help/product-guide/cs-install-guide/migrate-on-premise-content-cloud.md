@@ -41,7 +41,7 @@ Experience Manager as a Cloud Service を使用すると、チームは製品ア
 
 ![ コンテンツ転送ツールのダウンロード ](./assets/content-transfer-tool-software-portal.png)
 **パッケージマネージャー** を使用して、このパッケージをソース Adobe Experience Manager インスタンスにインストールします。 必ず最新バージョンをダウンロードしてください。
-最新バージョンについて詳しくは、[ リリースノート ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=en) を参照してください。
+最新バージョンについて詳しくは、[ リリースノート ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=ja) を参照してください。
 
 >[!NOTE]
 > 

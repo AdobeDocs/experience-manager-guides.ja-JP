@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # AI アシスタント（Beta）のスマートヘルプで効率を向上
 
-Experience Manager Guidesは、[Adobe Experience Manager Guides ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview) から関連コンテンツを見つけるのに役立つ会話型検索機能である、GenAI ベースのスマートヘルプを提供します。
+Experience Manager Guidesは、[Adobe Experience Manager Guides ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/overview) から関連コンテンツを見つけるのに役立つ会話型検索機能である、GenAI ベースのスマートヘルプを提供します。
 
 あなたはあなたの質問をし、有益な方法で答えを得ることができます。 クエリに対する回答は、製品ドキュメントのコンテンツに基づいています。 この検索は完全に対話型です。 Experience Manager Guidesの様々な機能について質問したり、トラブルシューティングの質問をしたりできます。 回答に基づいて、さらに質問することもできます。 応答には、ソースドキュメントへのリンクも含まれています。詳しくは、ソースドキュメントを参照してください。
 

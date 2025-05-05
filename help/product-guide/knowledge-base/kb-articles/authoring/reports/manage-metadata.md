@@ -46,7 +46,7 @@ DITA コンテンツにタグを追加する方法は様々ですが、ここで
 
 ### 管理/メタデータのリストが空か不完全です
 
-`If list is empty or  incomplete then you may need to run the indexing on your ditamap, You can refer` [ アップグレード手順（コンテンツのインデックス作成） ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/download-install-upgrade-aemg/upgrade-xml-documentation.html?lang=en#steps-to-index-the-existing-content-to-use-the-new-find-and-replace%3A)
+`If list is empty or  incomplete then you may need to run the indexing on your ditamap, You can refer` [ アップグレード手順（コンテンツのインデックス作成） ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/download-install-upgrade-aemg/upgrade-xml-documentation.html?lang=ja#steps-to-index-the-existing-content-to-use-the-new-find-and-replace%3A)
 
 ### カスタムメタデータがリストに表示されない
 
@@ -59,7 +59,7 @@ DITA コンテンツにタグを追加する方法は様々ですが、ここで
 
 - [ マップダッシュボードを使用した一括タグ付け（Assets UI） ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/manaege-metadata/map-editor-bulk-tagging.html?lang=en)
 - [Web エディター内の Ditamap レポート ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/reports-aem-guide/reports-web-editor.html?lang=en)
-- [AEMでのタグ付け ](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/configuring/tagging.html?lang=en)
+- [AEMでのタグ付け ](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/configuring/tagging.html?lang=ja)
 
 
 **その他の質問については、担当の CSM にお問い合わせください**

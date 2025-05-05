@@ -16,9 +16,9 @@ ht-degree: 0%
 
 AEM Guidesは、Adobe Experience Managerにインストールされるプラグインです。 AEMをインストールするには、AEMのいくつかの基本的な概念と推奨されるデプロイメントシナリオに関する理解が必要です。 次のリンクは、AEMのインストールを開始する際に役立ちます。
 
-- [AEMの基本概念 ](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/deploy.html#BasicConcepts)
+- [AEMの基本概念 ](https://helpx.adobe.com/jp/experience-manager/6-5/sites/deploying/using/deploy.html#BasicConcepts)
 
-- [ 推奨されるAEM デプロイメント ](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/recommended-deploys.html)
+- [ 推奨されるAEM デプロイメント ](https://helpx.adobe.com/jp/experience-manager/6-5/sites/deploying/using/recommended-deploys.html)
 
 
 >[!IMPORTANT]

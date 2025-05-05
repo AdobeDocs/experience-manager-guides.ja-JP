@@ -50,7 +50,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   > サードパーティの翻訳サービスとの統合について詳しくは、AEM ドキュメントの [ 翻訳統合フレームワークの設定 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) を参照してください。
+   > サードパーティの翻訳サービスとの統合について詳しくは、AEM ドキュメントの [ 翻訳統合フレームワークの設定 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=ja) を参照してください。
 
 1. **保存して閉じる** をクリックして、更新したフォルダープロパティを保存します。
 

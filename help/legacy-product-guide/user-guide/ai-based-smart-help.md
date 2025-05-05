@@ -13,7 +13,7 @@ ht-degree: 0%
 
 
 
-Experience Manager Guidesは、[Adobe Experience Manager Guides ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview) から関連コンテンツを見つけるのに役立つ会話型検索機能である、GenAI ベースのスマートヘルプを提供します。
+Experience Manager Guidesは、[Adobe Experience Manager Guides ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/overview) から関連コンテンツを見つけるのに役立つ会話型検索機能である、GenAI ベースのスマートヘルプを提供します。
 あなたはあなたの質問をし、有益な方法で答えを得ることができます。 クエリに対する回答は、製品ドキュメントのコンテンツに基づいています。 この検索は完全に対話型です。 あなたは質問をすることができ、そして応答に基づいて、あなたはさらに質問をすることができます。 応答には、ソースドキュメントへのリンクも含まれています。詳しくは、ソースドキュメントを参照してください。
 
 例えば、ドキュメントにExperience Manager Guidesのトピックを作成したい場合があります。 *トピックを作成するにはどうすればよいですか？* 返信と関連記事のリンクが表示されます。 次に、ドキュメントのPDF出力の生成方法を確認したい場合は、それに関する質問を行うことができます。 例：*トピックをPDFに公開するには？* または *トピックのPDF出力を生成する方法を教えてください。*

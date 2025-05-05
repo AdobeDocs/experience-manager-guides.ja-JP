@@ -66,16 +66,16 @@ Adobe Experience Manager Guides \（後で *AEM Guides*\と呼ばれます）は
 
 [Adobe Experience Manager \（AEM\） ](https://business.adobe.com/jp/products/experience-manager/adobe-experience-manager.html) は、Web サイト、モバイル アプリ、フォームを構築するための包括的なコンテンツ管理ソリューションです。 AEMは、マーケティングコンテンツとアセットの管理に役立ちます。 AEMはas a Cloud Serviceで使用できます。 AEM as a Cloud Serviceは、AEM Content Management System の機能とAEM Digital Asset Management を組み合わせて、パーソナライズされたコンテンツ主導のエクスペリエンスを顧客に提供するのに役立ちます。AEM as a Cloud Serviceを使い始めてデプロイするのに役立つ主なリソースを次に示します。
 
-- [Experience Managerのas a Cloud Serviceの概要 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=en)
-- [AEM as a Cloud Serviceへの移行ジャーニーの概要 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/getting-started.html?lang=en)
-- [Experience Managerのオンボーディングのas a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/home.html?lang=enhttps://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/home.html?lang=en)
+- [Experience Managerのas a Cloud Serviceの概要 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=ja)
+- [AEM as a Cloud Serviceへの移行ジャーニーの概要 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/getting-started.html?lang=ja)
+- [Experience Managerのオンボーディングのas a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/home.html?lang=jahttps://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/home.html?lang=en)
 - [AEM as a Cloud Service のアプリケーションの実装](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/home.html?lang=ja)
 - [AEM as a Cloud Service へのデプロイ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/overview.html?lang=ja)
 - [Assetsas a Cloud Serviceガイド ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html?lang=ja)
 
 ## その他のリソース
 
-次に、AEM Guidesに関するその他の役立つリソースのリストを示します。これらのリソースは、[ ラーニングとサポート ](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html) ページで利用できます。
+次に、AEM Guidesに関するその他の役立つリソースのリストを示します。これらのリソースは、[ ラーニングとサポート ](https://helpx.adobe.com/jp/support/xml-documentation-for-experience-manager.html) ページで利用できます。
 
 - ユーザーガイド
 - API リファレンスガイド

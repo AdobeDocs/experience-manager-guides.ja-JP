@@ -52,7 +52,7 @@ ht-degree: 0%
 
 
 **AEMG** には、次のコンポーネントが含まれています。
-- 英語（en）用のフォルダーが **AEMG** フォルダーにあります。 必要に応じて、類似の言語コピーを作成できます。 例えば、多言語の Web サイトに英語（en）、ドイツ語（de）およびフランス語（fr）の言語コピーが含まれているとします。  [ 言語コピーウィザード ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/introduction/tc-wizard) を使用して言語コピーを作成する方法について説明します。
+- 英語（en）用のフォルダーが **AEMG** フォルダーにあります。 必要に応じて、類似の言語コピーを作成できます。 例えば、多言語の Web サイトに英語（en）、ドイツ語（de）およびフランス語（fr）の言語コピーが含まれているとします。  [ 言語コピーウィザード ](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/sites/administering/introduction/tc-wizard) を使用して言語コピーを作成する方法について説明します。
 - Experience Manager Guidesでは、英語（en）の言語フォルダー内に、**検索**、**ログイン**、**ドキュメント**、**サポート** など、多くの標準サンプルページが用意されています。
 
 - **ドキュメント** は、サンプルドキュメントのホームページです。 これは、すべての製品関連ドキュメントの一元的な場所として機能します
@@ -97,7 +97,7 @@ AEM Sites用にトピックテンプレートをカスタマイズすること�
 1. 編集するテンプレートを選択します。
 1. 上部の **編集** アイコンを選択します。
 
-AEM テンプレートエディターが開きます。 トピックテンプレートを編集できます。 詳しくは、[ ページテンプレートの作成 ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/siteandpage/templates#editing-a-template-structure-template-author) を参照してください。
+AEM テンプレートエディターが開きます。 トピックテンプレートを編集できます。 詳しくは、[ ページテンプレートの作成 ](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/sites/authoring/siteandpage/templates#editing-a-template-structure-template-author) を参照してください。
 
 
 ## 既存のAEM Sites テンプレートのカスタマイズ

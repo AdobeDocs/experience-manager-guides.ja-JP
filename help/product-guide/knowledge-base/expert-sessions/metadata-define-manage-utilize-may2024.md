@@ -40,17 +40,17 @@ Adobe Experience Manager Guidesを使用すると、システム内で管理さ�
 
 ### ドキュメント化
 
-- [ メタデータスキーマ ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/metadata-schemas)
-- [ メタデータプロファイル ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/metadata-profiles)
-- [DITA アセットでのメタデータの管理 ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/authoring/reports/manage-metadata)
-- [DITA メタをメタデータとして抽出 ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/cs-ig/aem-asset-search-cs/conf-dita-search#id192SF0G10YK)
-- [DITA-OT 出力でのメタデータの使用 ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/conf-output-generation#id191LF0U0TY4)
+- [ メタデータスキーマ ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/manage/metadata-schemas)
+- [ メタデータプロファイル ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/manage/metadata-profiles)
+- [DITA アセットでのメタデータの管理 ](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/knowledge-base/kb-articles/authoring/reports/manage-metadata)
+- [DITA メタをメタデータとして抽出 ](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/install-guide/cs-ig/aem-asset-search-cs/conf-dita-search#id192SF0G10YK)
+- [DITA-OT 出力でのメタデータの使用 ](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/conf-output-generation#id191LF0U0TY4)
 - [ ネイティブPDFでのメタデータの使用 ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/web-editor/native-pdf-web-editor#native-pdf-publishing)
 
 
 ### コミュニティフォーラム
 
-- Experience Leagueに関するセッション固有のコミュニティのやり取りについては、[AEM Guides フォーラム ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions) を参照してください。
+- Experience Leagueに関するセッション固有のコミュニティのやり取りについては、[AEM Guides フォーラム ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=ja) を参照してください。
 
 
 >[!NOTE]

@@ -167,4 +167,4 @@ AEM Guidesには、コンテンツ参照をワンクリックで追加できる�
 <br>
 
 
-クエリについては、AEM Guides コミュニティ [ フォーラム ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) に投稿してください。
+クエリについては、AEM Guides コミュニティ [ フォーラム ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=ja) に投稿してください。

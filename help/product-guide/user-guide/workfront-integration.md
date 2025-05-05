@@ -25,10 +25,10 @@ Experience Manager GuidesとAdobe Workfrontの統合により、以下が可能�
 
 * 複数の統合されていないツールに依存せずに、個々のタスクやプロジェクトの進捗を計画、割り当て、追跡します。
 * コンテンツのオーサリング、レビュー、公開、翻訳など、すべてのExperience Manager Guides ワークフローをより効率的に管理します。
-* 新しいタスクが割り当てられるとAdobe Workfrontからメール通知が届きます。 詳しくは、[ 通知の概要 ](https://experienceleague.adobe.com/en/docs/workfront/using/basics/use-notifications/wf-notifications) を参照してください。
+* 新しいタスクが割り当てられるとAdobe Workfrontからメール通知が届きます。 詳しくは、[ 通知の概要 ](https://experienceleague.adobe.com/ja/docs/workfront/using/basics/use-notifications/wf-notifications) を参照してください。
 * Adobe Workfrontの直感的なダッシュボードを使用してプロジェクトの正常性を監視し、プロジェクトのパフォーマンスに関するリアルタイムのインサイトを提供します。
 
-  Experience Manager Guidesのプロジェクト管理者が使用できるAdobe Workfrontの堅牢なプロジェクト管理機能については、[ プロジェクトの概要を計画 ](https://experienceleague.adobe.com/en/docs/workfront/using/manage-work/projects/plan-a-project/plan-project) を参照してください。
+  Experience Manager Guidesのプロジェクト管理者が使用できるAdobe Workfrontの堅牢なプロジェクト管理機能については、[ プロジェクトの概要を計画 ](https://experienceleague.adobe.com/ja/docs/workfront/using/manage-work/projects/plan-a-project/plan-project) を参照してください。
 
 ## 今すぐ始める
 
@@ -61,7 +61,7 @@ Workfrontのタスクページでは、次の機能を使用できます。
 
 Workfront タスクページには、リンクアウトアイコン ![](./images/Smock_LinkOut_18_N.svg) も含まれています。このアイコンを選択すると、Adobe Workfront プロジェクトページに移動します。 ここでは、Adobe Workfront アカウントにマッピングされている権限に基づいて、タスクの詳細の表示、コメントの表示、コメントの追加およびその他の機能へのアクセスを行うことができます。
 
-詳しくは、[Workfrontでのプロジェクト、タスク、問題の日付の概要 ](https://experienceleague.adobe.com/en/docs/workfront/using/basics/navigate/definitions-pti-dates) を参照してください。
+詳しくは、[Workfrontでのプロジェクト、タスク、問題の日付の概要 ](https://experienceleague.adobe.com/ja/docs/workfront/using/basics/navigate/definitions-pti-dates) を参照してください。
 
 ### Workfront タスクの作成
 
@@ -122,7 +122,7 @@ Adobe Workfront タスクページの **新規タスク** ボタンを使用し�
 
 >[!NOTE]
 >
-> プロジェクト管理者は、この新しく作成されたタスクを、他の主要なタスクの詳細と共にAdobe Workfront ダッシュボードで確認できます。 詳しくは、[ ダッシュボードについて ](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/dashboards/understand-dashboards/understand-dashboards) を参照してください。
+> プロジェクト管理者は、この新しく作成されたタスクを、他の主要なタスクの詳細と共にAdobe Workfront ダッシュボードで確認できます。 詳しくは、[ ダッシュボードについて ](https://experienceleague.adobe.com/ja/docs/workfront/using/reporting/dashboards/understand-dashboards/understand-dashboards) を参照してください。
 
 ### 作成したタスクの管理
 

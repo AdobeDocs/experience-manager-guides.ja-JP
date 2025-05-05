@@ -41,11 +41,11 @@ AEM Guidesには、PDF形式のコンテンツを作成、開発および公開�
 
 ## 関連リソース
 
-- **特集ビデオ** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
+- **特集ビデオ** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=ja)
 
 - **ユーザーガイド** - [ ネイティブPDFの公開 ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/configuring/config-native-pdf-publish/pdf-template.html?lang=en)
 
-- **コミュニティフォーラム** - Experience Leagueに関するセッション固有のコミュニティのやり取りについては、[AEM Guides フォーラム ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions) にアクセスしてください。
+- **コミュニティフォーラム** - Experience Leagueに関するセッション固有のコミュニティのやり取りについては、[AEM Guides フォーラム ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=ja) にアクセスしてください。
 
 >[!NOTE]
 >

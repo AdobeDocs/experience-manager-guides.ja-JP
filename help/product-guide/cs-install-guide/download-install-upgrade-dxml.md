@@ -25,7 +25,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> CI/CD パイプラインの使用について詳しくは、[Cloud Manager Adobeでの CI/CD パイプラインの使用 ](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/cloud-manager/use-the-cicd-pipeline-in-cloud-manager-for-aem.html) を参照してください。
+> CI/CD パイプラインの使用について詳しくは、[Cloud Manager Adobeでの CI/CD パイプラインの使用 ](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/cloud-manager/use-the-cicd-pipeline-in-cloud-manager-for-aem.html?lang=ja) を参照してください。
 
 ## ブラウザーキャッシュのクリア
 

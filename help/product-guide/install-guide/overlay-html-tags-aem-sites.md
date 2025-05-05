@@ -143,4 +143,4 @@ Web エディターのコアコンポーネントマッピングに基づくAEM 
 
 
 
-[ セキュリティ ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/security) のベストプラクティスについて詳しく説明します。
+[ セキュリティ ](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/developing/introduction/security) のベストプラクティスについて詳しく説明します。
