@@ -2,7 +2,7 @@
 title: スマートヘルプとオーサリングのための AI アシスタントの設定
 description: Experience Manager Guidesで AI アシスタントを設定する方法を説明します
 exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
-source-git-commit: 7b217cfd52dbf716b626e66373fffcc1b9eff695
+source-git-commit: 018bd7c7bc3bb9161e5bedd42d50a5c501ca2919
 workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 0%
@@ -84,7 +84,7 @@ OAuth 認証の詳細を設定し、JSON サービスの詳細をダウンロー
 
 ## 環境で AI フラグを有効にする
 
-Experience Manager Guides UI で AI アシスタント機能を有効にするには、環境で `ENABLES_GUIDES_AI` フラグを追加します。
+Experience Manager Guides UI で AI アシスタント機能を有効にするには、環境で `ENABLE_GUIDES_AI` フラグを追加します。
 
 次のスクリーンショットで示したのと同じ名前と設定を使用していることを確認してください。
 
