@@ -31,4 +31,4 @@ ht-degree: 0%
 >
 > 「出力」をクリックすると、出力生成リクエストの現在のステータスを表示できます。 詳しくは、[ 出力生成タスクのステータスの表示 ](fm-output-view-status.md) を参照してください。
 
-**親トピック：**[ FrameMaker ドキュメントの出力を生成 ](fm-output-generatation.md)
+**親トピック：**&#x200B;[ FrameMaker ドキュメントの出力を生成 ](fm-output-generatation.md)

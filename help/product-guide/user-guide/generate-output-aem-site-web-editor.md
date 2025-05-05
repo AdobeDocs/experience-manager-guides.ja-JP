@@ -27,7 +27,7 @@ ht-degree: 0%
 複合コンポーネントマッピングは、従来のコンポーネントマッピングと比較して、AEM Sitesへの公開を迅速かつスケーラブルに行えます。 標準の編集可能なテンプレートが付属しており、AEM テンプレートエディターを使用して要件に応じてカスタマイズできます。 テンプレートでは、WCM コアコンポーネントと専用 `guides-components` ンポーネントを組み合わせて使用し、エンドユーザーがAEM Sites ページで最高のエクスペリエンスを得られるようにします。 複合コンポーネントマッピングメソッドを使用して、既存のテンプレートをカスタマイズすることもできます。
 
 Experience Manager Guidesには、AEM Sitesを作成するための事前定義済みのテンプレートが用意されています。 これらのテンプレートにより、コンテンツのレイアウトと構造の一貫性を確保できます。
-- これらの定義済みテンプレートに基づいて ](../cs-install-guide/download-install-aem-sites-templates-cs.md#create-a-home-page-using-the-template) ホームページを作成 [ します。
+- これらの定義済みテンプレートに基づいて [&#128279;](../cs-install-guide/download-install-aem-sites-templates-cs.md#create-a-home-page-using-the-template) ホームページを作成  します。
 - 必要に応じて、[ トピックテンプレートを編集 ](../cs-install-guide/download-install-aem-sites-templates-cs.md#package-installation) し、スタイルを適用できます。
 - また、[ 既存のAEM Sites テンプレートをカスタマイズする ](../cs-install-guide/download-install-aem-sites-templates-cs.md#customize-existing-aem-sites-templates) こともできます。
 
@@ -38,7 +38,7 @@ Experience Manager Guidesには、AEM Sitesを作成するための事前定義�
 
 1. [ マップコンソールで DITA マップファイルを開きます ](./open-files-map-console.md)。
 1. **出力プリセット** パネルで、「+」アイコンを選択して出力プリセットを作成します。
-1. **新規出力プリセット** ダイアログボックスの **タイプ** ドロップダウンから **** AEM Sites} を選択します。
+1. **新規出力プリセット** ダイアログボックスの **タイプ** ドロップダウンから **&#x200B;**&#x200B;AEM Sites&rbrace; を選択します。
 1. 「**レガシーコンポーネントマッピングを使用** オプションの選択を解除します。
 1. 「**現在のフォルダープロファイルに追加**」オプションを選択して、現在のフォルダープロファイル内に出力プリセットを作成します。 ![ フォルダープロファイルアイコン ](images/global-preset-icon.svg) は、フォルダープロファイルレベルのプリセットを示します。
 
@@ -232,4 +232,4 @@ Experience Manager Guidesでは、`peer @scope` を使用してトピック参�
 
 
 
-**親トピック：**[ 出力プリセットについて ](generate-output-understand-presets.md)
+**親トピック：**&#x200B;[ 出力プリセットについて ](generate-output-understand-presets.md)

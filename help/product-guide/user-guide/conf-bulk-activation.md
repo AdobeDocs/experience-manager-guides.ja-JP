@@ -41,4 +41,4 @@ JSON 出力プリセット。
 - **[一括有効化マップコレクションを削除](conf-bulk-activation-delete-map-collection.md)**
 
 
-**親トピック：**[ 出力生成 ](generate-output.md)
+**親トピック：**&#x200B;[ 出力生成 ](generate-output.md)

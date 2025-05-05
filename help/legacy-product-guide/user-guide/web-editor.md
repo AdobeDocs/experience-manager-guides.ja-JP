@@ -47,4 +47,4 @@ AEM Guidesには、構造化ドキュメントを作成および編集するた�
 - **[ラベルを使用](web-editor-use-label.md)**
 
 
-**親トピック：**[ AEM Guidesを使用してコンテンツを作成する ](authoring-content-xml-doc.md)
+**親トピック：**&#x200B;[ AEM Guidesを使用してコンテンツを作成する ](authoring-content-xml-doc.md)

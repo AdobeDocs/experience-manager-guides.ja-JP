@@ -99,7 +99,7 @@ AEM Guidesは、Modern Language Association （MLA）、American Psychological A
 
    >[!NOTE]
    > <ol><li> AEM Guidesでは、一意で既に存在しない引用のみを読み込みます。
-    &gt; <li> AEM Guidesでは、書籍、ジャーナルまたは web サイトから引用文を読み込むことができます。 現在、他のソースからの引用はサポートされていません。
+   > &gt; <li> AEM Guidesでは、書籍、ジャーナルまたは web サイトから引用文を読み込むことができます。 現在、他のソースからの引用はサポートされていません。
 
 ## 引用の管理
 

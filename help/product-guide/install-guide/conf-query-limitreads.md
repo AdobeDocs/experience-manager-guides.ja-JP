@@ -33,4 +33,4 @@ ht-degree: 2%
 
 この属性値を増やすと、より大きな DITA マップのレポートを生成できます。
 
-**親トピック：**[ Web エディタのカスタマイズ ](conf-web-editor.md)
+**親トピック：**&#x200B;[ Web エディタのカスタマイズ ](conf-web-editor.md)

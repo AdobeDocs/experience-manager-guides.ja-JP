@@ -37,4 +37,4 @@ AEM インスタンスをアップグレードする場合は、次の順序に�
 >
 > システムパフォーマンスを向上させるために検討できるパフォーマンス最適化の推奨事項が多数あります。 詳しくは、[ パフォーマンスの最適化のRecommendations](download-install-recommend-perf-optimiz.md#) を参照してください。
 
-**親トピック：**[ ダウンロードとインストール ](download-install.md)
+**親トピック：**&#x200B;[ ダウンロードとインストール ](download-install.md)

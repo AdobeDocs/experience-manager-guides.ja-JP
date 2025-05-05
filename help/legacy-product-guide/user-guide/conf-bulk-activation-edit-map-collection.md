@@ -50,4 +50,4 @@ AEM Site、PDF、ネイティブ PDF、HTML5、カスタム、JSON 出力など�
 1. 「**完了**」をクリックします。
 
 
-**親トピック：**[ 公開済みコンテンツの一括アクティベーション ](conf-bulk-activation.md)
+**親トピック：**&#x200B;[ 公開済みコンテンツの一括アクティベーション ](conf-bulk-activation.md)

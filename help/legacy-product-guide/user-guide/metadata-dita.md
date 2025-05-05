@@ -18,4 +18,4 @@ Adobe Experience Manager Assetsには、アセットを作成し、それらに�
 
 AEMのメタデータ管理について詳しくは、[ デジタルアセットのメタデータの管理 ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/metadata.html?lang=ja) を参照してください。
 
-**親トピック：**[ メタデータを管理 ](manage-metadata.md)
+**親トピック：**&#x200B;[ メタデータを管理 ](manage-metadata.md)

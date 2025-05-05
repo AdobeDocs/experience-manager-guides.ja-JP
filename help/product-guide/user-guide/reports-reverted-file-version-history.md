@@ -57,4 +57,4 @@ Adobe Experience Manager Guidesでは、個々のファイルまたはフォル�
    - **コメント**：ファイルを元に戻したユーザーが指定したコメント。
 
 
-**親トピック：**[ レポートの概要 ](reports-intro.md)
+**親トピック：**&#x200B;[ レポートの概要 ](reports-intro.md)

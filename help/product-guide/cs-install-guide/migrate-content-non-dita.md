@@ -84,7 +84,7 @@ Word ドキュメントを正常に変換するには、ドキュメントが適
 
      >[!NOTE]
      >
-     > ファイルの構造とカスタマイズ方法 `word-builtin-styles-style2tagmap.xml` ついて詳しくは、『 *DITA For Publishers ユーザガイド ](http://www.dita4publishers.org/docs/repo/org.dita4publishers.word2dita/word2dita/style-to-tag-map-overview.html) の [ スタイルからタグマッピング* を参照してください。
+     > ファイルの構造とカスタマイズ方法 `word-builtin-styles-style2tagmap.xml` ついて詳しくは、『 *DITA For Publishers ユーザガイド [&#128279;](http://www.dita4publishers.org/docs/repo/org.dita4publishers.word2dita/word2dita/style-to-tag-map-overview.html) の  スタイルからタグマッピング* を参照してください。
 
    - props2Propagate エレメントで、DITA マップに渡すプロパティを指定します。 このプロパティは、文書メタデータから変換後の DITA アセットに dc:title、dc:subject、dam:keywords、dam:category などのデフォルトのメタデータを渡すために必要です。
 
@@ -128,7 +128,7 @@ AEM Guidesでは、InDesignドキュメントを変換できます。 FrameMaker
 - 個々の DITA トピックと DITA マップファイルの作成と検証。
 - 一時ファイルの削除。
 
-大まかに言えば、コンバージョンプロセスでは [ コンバージョン用のInDesignInDesign ファイルを準備する ](appendix.md#id195DBF0045Z)[appendix.md\#id195DBF0045Z](appendix.md#id195DBF0045Z) と [DITA マイグレーション用のマッピングファイルを準備する ](appendix.md#id194AF0003HT)[appendix.md\#id194AF0003HT](appendix.md#id194AF0003HT) の手順に従う必要があります。
+大まかに言えば、コンバージョンプロセスでは [ コンバージョン用のInDesignInDesign ファイルを準備する ](appendix.md#id195DBF0045Z) [appendix.md\#id195DBF0045Z](appendix.md#id195DBF0045Z) と [DITA マイグレーション用のマッピングファイルを準備する ](appendix.md#id194AF0003HT) [appendix.md\#id194AF0003HT](appendix.md#id194AF0003HT) の手順に従う必要があります。
 
 次の手順を実行して、既存のInDesign文書を DITA トピック型文書に変換します。
 
@@ -396,4 +396,4 @@ AEM Guidesを使用すると、既存の構造化文書を有効な DITA 文書�
 
 `<config> </config>` ブロックを使用すると、変換用の設定の 1 つまたは複数のブロックを定義できます。 変換ワークフローが実行され、DITA トピック形式の最終出力が `outputDir` エレメントで指定した場所に保存されます。
 
-**親トピック：**[ 既存のコンテンツを移行 ](migrate-content.md)
+**親トピック：**&#x200B;[ 既存のコンテンツを移行 ](migrate-content.md)

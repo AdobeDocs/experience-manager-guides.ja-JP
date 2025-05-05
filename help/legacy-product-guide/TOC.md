@@ -16,7 +16,7 @@ ht-degree: 4%
 
 - [免責事項](disclaimer.md)
 - [[!DNL AEM Guides] の概要](overview.md)
-- [ リリース情報 ](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/release-info/aem-guides-releases-roadmap){target="_blank"}
+- [ リリース情報](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/release-info/aem-guides-releases-roadmap){target="_blank"}
 - ユーザーガイド（古い UI） {#user-guide}
    - 概要 {#about-aem-guide}
       - [概要  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -70,7 +70,7 @@ ht-degree: 4%
                - [マップ エディタのその他の機能](./user-guide/map-editor-other-features.md)
             - DITAVAL エディタ {#ditaval-editor}
                - [DITAVAL エディタの操作](./user-guide/ditaval-editor.md)
-         - コンテンツ {#author-using-desktop-tools} ータをオーサリングするためのデスクトップツール
+         - コンテンツ ータをオーサリングするためのデスクトップツール {#author-using-desktop-tools}
             - [デスクトップツールを使用したコンテンツの作成](./user-guide/author-desktop-tools.md)
             - [FrameMakerの操作](./user-guide/author-desktop-framemaker.md)
             - [酸素の操作](./user-guide/author-desktop-oxygen.md)
@@ -84,7 +84,7 @@ ht-degree: 4%
          - [住所レビューのコメント](./user-guide/review-address-review-comments.md)
       - [レビューダッシュボードを使用したレビュータスクの管理](./user-guide/review-manage-tasks-review-dashboard.md)
       - [完了したレビュータスクの表示](./user-guide/review-view-completed-task.md)
-   - AEM Guides {#manaege-metadata} のメタデータ
+   - AEM Guides のメタデータ {#manaege-metadata}
       - [メタデータを管理](./user-guide/manage-metadata.md)
       - [AEMでのメタデータの操作](./user-guide/metadata-dita.md)
       - [スマートタグ付け](./user-guide/web-editor-smart-tagging.md)
@@ -97,7 +97,7 @@ ht-degree: 4%
    - 出力生成 {#output-gen}
       - [出力生成の基本](./user-guide/generate-output.md)
       - [出力プリセットの概要](./user-guide/generate-output-understand-presets.md)
-      - AEM Guides {#output-presets-aemg} の出力プリセット
+      - AEM Guides の出力プリセット {#output-presets-aemg}
          - [AEM サイト](./user-guide/generate-output-aem-site.md)
          - [マップダッシュボードのAEM Sites プリセット](./user-guide/generate-output-aem-site-map-dashboard.md)
          - [Web エディターでのAEM Sites プリセット](./user-guide/generate-output-aem-site-web-editor.md)
@@ -120,7 +120,7 @@ ht-degree: 4%
       - [コンテンツフラグメントの公開](./user-guide/publish-content-fragment.md)
       - [エクスペリエンスフラグメントの公開](./user-guide/publish-experience-fragment.md)
       - [AEM Sitesページの公開](./user-guide/publish-aem-sites.md)
-      - コンテンツア {#bulk-activation} ットの一括アクティベーション
+      - コンテンツア ットの一括アクティベーション {#bulk-activation}
          - [公開済みコンテンツの一括アクティベーション](./user-guide/conf-bulk-activation.md)
          - [一括アクティベーションマップコレクションの作成](./user-guide/conf-bulk-activation-create-map-collection.md)
          - [出力を有効化](./user-guide/conf-bulk-activation-publish-map-collection.md)
@@ -135,7 +135,7 @@ ht-degree: 4%
          - [EPUB](./user-guide/fm-output-epub-preset.md)
       - [.book ファイルまたは.fm ファイルの出力を生成する](./user-guide/fm-output-generate.md)
       - [出力生成タスクのステータスの表示](./user-guide/fm-output-view-status.md)
-   - AEM Guides {#reports-aem-guide} のレポート
+   - AEM Guides のレポート {#reports-aem-guide}
       - [レポートの概要](./user-guide/reports-intro.md)
       - [Web エディタからの DITA マップレポート](./user-guide/reports-web-editor.md)
       - [マップダッシュボードからの DITA マップレポート](./user-guide/reports-ditamap.md)

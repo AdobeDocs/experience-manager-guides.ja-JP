@@ -24,14 +24,14 @@ ht-degree: 5%
 
 **手順 1**
 
-[!UICONTROL  フォルダープロファイル ] のドキュメントに関連する条件を定義します。
+[!UICONTROL &#x200B; フォルダープロファイル &#x200B;] のドキュメントに関連する条件を定義します。
 『インストールと設定ガイド』の **69 ページ** にある「グローバルプロファイルまたはフォルダーレベルのプロファイルの条件属性の設定 [ の節を参照してください ](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf)
 
 ![ フォルダープロファイルでの条件の設定 ](assets/conditions-in-profiles.png)
 
 **手順 2**
 
-**ユーザー環境設定]** の手順 1 で定義した **[!UICONTROL フォルダープロファイル** を XML エディターで選択します。
+**ユーザー環境設定** の手順 1 で定義した **フォルダープロファイル** を XML エディターで選択します。
 『ユーザガイド』の **41 ページ** の節 [ ユーザー環境設定 ](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf) を参照してください
 
 

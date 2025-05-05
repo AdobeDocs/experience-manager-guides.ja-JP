@@ -79,4 +79,4 @@ FrameMakerのAEM コネクタを使用すると、FrameMaker ファイルを管�
 * クイックスタートガイド
 * [ ヘルプ* アーカイブページ ](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) （古いリリースドキュメントにアクセス）
 
-**親トピック：**[ Adobe Experience Manager Guides as a Cloud Serviceについて ](intro.md)
+**親トピック：**&#x200B;[ Adobe Experience Manager Guides as a Cloud Serviceについて ](intro.md)

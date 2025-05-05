@@ -52,4 +52,4 @@ ht-degree: 0%
    - **オンプレミスソフトウェア**:Adobe Experience Manager Guides（4.2.1 以降）を使用している場合は、「**Assets**」オプションを選択すると、Assets UI の現在のファイルパスに移動します。
 - **設定**：エディター設定ダイアログに移動します。 詳しくは、[ エディター設定の操作 ](./web-editor-settings.md) を参照してください。
 
-**親トピック：**[ エディターの概要 ](web-editor.md)
+**親トピック：**&#x200B;[ エディターの概要 ](web-editor.md)

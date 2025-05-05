@@ -42,4 +42,4 @@ Experience Manager Guidesは、AEM Sites、PDF、ナレッジベース、HTML5�
 
 Experience Manager Guidesの管理者は、グローバルプロファイルとフォルダープロファイルの出力プリセットを作成および管理できます。 詳しくは、[ グローバルプロファイルおよびフォルダープロファイル出力プリセットの管理 ](./web-editor-manage-output-presets.md) を参照してください。
 
-**親トピック：**[ 出力生成 ](generate-output.md)
+**親トピック：**&#x200B;[ 出力生成 ](generate-output.md)

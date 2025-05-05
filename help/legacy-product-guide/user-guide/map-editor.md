@@ -37,4 +37,4 @@ AEM Guidesのマップエディタを使用すると、マップファイルを�
 - **[マップ エディタのその他の機能](map-editor-other-features.md)**
 
 
-**親トピック：**[ AEM Guidesを使用してコンテンツを作成する ](authoring-content-xml-doc.md)
+**親トピック：**&#x200B;[ AEM Guidesを使用してコンテンツを作成する ](authoring-content-xml-doc.md)

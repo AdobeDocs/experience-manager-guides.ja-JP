@@ -105,7 +105,7 @@ AEM GuidesでこのネイティブPDFを設定する手順は、オペレーテ�
 
 10. unzip コマンドがインストール/認識されていない場合は、次のコマンドを使用してインストールできます
 
-   **yum install unzip**
+    **yum install unzip**
 
 11. fontconfig パッケージをインストールします。
 コマンド：yum install fontconfig

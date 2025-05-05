@@ -76,7 +76,7 @@ scope=&quot;peer&quot;を使用して、他の DITA マップで使用可能な�
 
 ![ 従来のAEM Sites プリセット ](assets/aem-sites-legacy.png)
 
-***AEM Sites**プリセットの「**クロスマップ参照**タブから、リンクされたトピックの公開コンテキストを指定します。*
+***AEM Sites**&#x200B;プリセットの「**クロスマップ参照**&#x200B;タブから、リンクされたトピックの公開コンテキストを指定します。*
 
 [AEM Sites プリセット ](../user-guide/generate-output-aem-site.md) の詳細情報。
 

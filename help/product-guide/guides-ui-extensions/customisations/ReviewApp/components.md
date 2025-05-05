@@ -35,12 +35,15 @@ xml エディター側でコメントを確認します。
 
 - コメント返信を確認：`id: comment_reply`
    - 各レビューコメント返信のウィジェット。
+
      ![ レビューのコメントの返信のスクリーンショット ](./imgs/reply.png)
 
 - 新しいレビューコメントの返信：`id: comment_new_reply`
    - 新しいレビューコメント返信のウィジェット。
+
      ![ 新規レビューコメント返信のスクリーンショット ](./imgs/new_reply.png)
 
 - 注釈ツールボックス：`id: annotation_toolbox`
    - レビューアプリの右上のツールバー
+
      ![ 注釈ツールボックスのスクリーンショット ](./imgs/annotation_toolbox.png)

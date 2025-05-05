@@ -122,7 +122,7 @@ public static void applyLabel(Session session,
 | `session` | javax.jcr.Session | 有効な JCR セッション。 |
 | `sourcePath` | 文字列 | AEM リポジトリの DITA マップファイルの絶対パス。 |
 | ``baselineName`` | 文字列 | ラベルを適用する必要があるベースラインノードの名前。 ベースラインノードの名前を取得するには、[\#id185NFF0085Z](#id185NFF0085Z) メソッドを使用するか、CRXDE<br> で DITA マップのベースラインノードを確認します。 **メモ：** ラベルは、ベースラインのマップファイルから直接参照されるファイルのバージョンに適用されます。 |
-| `label` | 文字列 | ベースラインのファイルに適用されるラベル。 ラベルに次の文字が含まれていないことを確認します：&amp;sol; &amp;comma; &amp;colon; &amp;comma; &amp;lbrack; &amp;comma; rbrack; &amp;comma; &amp;vert; &amp;comma;ast; <br> 複数のラベルを設定する場合は、ラベルをコンマで区切ります（例：Label1, Label2）。 |
+| `label` | 文字列 | ベースラインのファイルに適用されるラベル。 ラベルに次の文字が含まれていないことを確認します：&sol; &comma; &colon; &comma; &lbrack; &comma; rbrack; &comma; &vert; &comma;ast; <br> 複数のラベルを設定する場合は、ラベルをコンマで区切ります（例：Label1, Label2）。 |
 
 **例外**:
 `RepositoryException` をスローします。

@@ -61,4 +61,4 @@ ht-degree: 0%
 
 ![](images/edit-preset_cs.png){width="550" align="left"}
 
-**親トピック：**[ Web エディターからの記事ベースの公開 ](web-editor-article-publishing.md)
+**親トピック：**&#x200B;[ Web エディターからの記事ベースの公開 ](web-editor-article-publishing.md)

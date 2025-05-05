@@ -240,4 +240,4 @@ JavaScript ファイルに次のコードを追加します。
 1. *ui\_config.json* ファイルを保存し、web エディターをリロードします。
 
 
-**親トピック：**[ Web エディタのカスタマイズ ](conf-web-editor.md)
+**親トピック：**&#x200B;[ Web エディタのカスタマイズ ](conf-web-editor.md)

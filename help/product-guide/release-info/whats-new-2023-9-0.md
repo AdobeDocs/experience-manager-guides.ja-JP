@@ -118,7 +118,7 @@ PDF出力の特定のセクションを表示しない場合は、切り替え�
 
 現在のページからチャプターを開始することもできます。 これを選択すると、すべてのチャプターが連続して公開され、改ページは一切行われません。 例えば、チャプターが 15 ページの途中で終了する場合、次のチャプターも 15 ページ目から開始します。
 
-詳細については、[PDFの詳細設定 **の [ 全般**] タブの説明を参照してください [](../native-pdf/components-pdf-template.md#advanced-pdf-settings-advanced-pdf-settings)。
+詳細については、&lbrack;PDFの詳細設定 **の [ 全般**] タブの説明を参照してください [&#128279;](../native-pdf/components-pdf-template.md#advanced-pdf-settings-advanced-pdf-settings)。
 
 ### 静的ページ
 

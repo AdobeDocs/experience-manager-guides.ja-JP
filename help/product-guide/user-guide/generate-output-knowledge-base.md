@@ -20,7 +20,7 @@ ht-degree: 1%
    また、「概要」セクションの **最近のファイル** ウィジェットからマップファイルにアクセスす [ こともでき ](./intro-home-page.md#overview) す。 選択したマップ ファイルは、マップ コンソールで開きます。
 1. 「**出力プリセット**」タブで、「+」アイコンを選択して出力プリセットを作成します。
 1. **新規出力プリセット** ダイアログボックスの「タイプ」ドロップダウンから **ナレッジベース** を選択します。
-1. 「**ターゲット**」フィールドで、生成された出力のターゲットを選択します。 使用可能なオプションは、**Adobe Experience Manager**、**Salesforce**、{ServiceNow **で**。
+1. 「**ターゲット**」フィールドで、生成された出力のターゲットを選択します。 使用可能なオプションは、**Adobe Experience Manager**、**Salesforce**、&lbrace;ServiceNow **で**。
 
    ![](./images/knowledge-base-preset-dialog-box.png){width="350" align="left"}
 
@@ -116,4 +116,4 @@ ht-degree: 1%
 
 
 
-**親トピック：**[ 出力プリセットについて ](generate-output-understand-presets.md)
+**親トピック：**&#x200B;[ 出力プリセットについて ](generate-output-understand-presets.md)

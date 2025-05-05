@@ -58,4 +58,4 @@ AEM Guidesでは、個々のファイルまたはフォルダー内のすべて�
    - **コメント**：ファイルを元に戻したユーザーが指定したコメント。
 
 
-**親トピック：**[ Reports](reports-intro.md)
+**親トピック：**&#x200B;[ Reports](reports-intro.md)

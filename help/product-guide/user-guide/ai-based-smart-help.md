@@ -21,7 +21,7 @@ Experience Manager Guidesは、[Adobe Experience Manager Guides ドキュメン�
 
 ![ スマートヘルプパネル ](images/smart-help-panel.png){width="300" align="left"}
 
-***ヘルプ**パネルを表示します。*
+***ヘルプ**&#x200B;パネルを表示します。*
 
 次の手順を実行してヘルプパネルを使用し、適切なコンテンツを見つけてクエリを解決します。
 

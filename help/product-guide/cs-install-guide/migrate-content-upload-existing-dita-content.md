@@ -81,4 +81,4 @@ curl --user <username>:<password> -F<attribute name>=<value> <metadata node path
 - `<metadata node path>`：ファイル名とそのメタデータノードを含む完全なフォルダーパス。 例えば、パスに `http://192.168.1.1:4502/content/dam/projects/AEM-Guides/intro.xml/jcr:content/metadata` を指定した場合、指定したメタデータ情報がファイルに設定 `intro.xml` れます。
 
 
-**親トピック：**[ 既存のコンテンツを移行 ](migrate-content.md)
+**親トピック：**&#x200B;[ 既存のコンテンツを移行 ](migrate-content.md)

@@ -58,4 +58,4 @@ Adobe Experience Manager Guidesでは、関連する DITA 属性を使用して�
 
 ![](images/properties-tab.png){width="350" align="left"}
 
-**親トピック：**[ 出力生成 ](generate-output.md)
+**親トピック：**&#x200B;[ 出力生成 ](generate-output.md)

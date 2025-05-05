@@ -89,6 +89,7 @@ Map コレクションを作成し、そのコレクションに DITA マップ�
    - 個々のプリセットを有効にします。
    - DITA マップの **すべてのプリセット** を有効にして、すべてのプリセットを一度に選択します。 このオプションは、デフォルトでは無効になっています。
    - DITA マップに対して **フォルダープロファイルプリセット** を有効にして、そのすべてのフォルダープロファイルプリセットを選択します。 このオプションは、デフォルトでは無効になっています。
+
      ![cloud services で map コレクションを編集する ](images/edit-map-collection-cs.png){width="800" align="left"}
 
 
@@ -143,4 +144,4 @@ Map コレクションを作成し、そのコレクションに DITA マップ�
 
 ![](images/cancel-publish-task-map-collection.png){width="800" align="left"}
 
-**親トピック：**[ 出力生成 ](generate-output.md)
+**親トピック：**&#x200B;[ 出力生成 ](generate-output.md)

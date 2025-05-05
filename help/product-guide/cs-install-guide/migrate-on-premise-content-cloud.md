@@ -22,7 +22,7 @@ Experience Manager as a Cloud Service を使用すると、チームは製品ア
 
 * Adobe Experience Manager 6.4 以降のバージョン
 * Experience Manager Guidesは、UUID バージョンである必要があります。 非 UUID バージョンのAdobe Experience Manager Guidesを使用している場合は、最初に [ 非 DITA コンテンツの移行 ](../install-guide/migrate-uuid-non-uuid.md) の手順を実行して UUID に移行します。
-* コンテンツの移行先のクラウドインスタンスの **0}Cloud Acceleration Manager} にアクセスします**
+* コンテンツの移行先のクラウドインスタンスの **0&rbrace;Cloud Acceleration Manager&rbrace; にアクセスします**
 * 最大 20 TB のリポジトリサイズがサポートされます
 * 25 GB の Lucene インデックスの合計サイズ
 * ノード名の長さは 150 バイト未満にする必要があります
@@ -58,7 +58,7 @@ Experience Manager GuidesのコンテンツをExperience Manager as a cloud serv
    ![experience manager](./assets/migration-experience-manager.png)
 
 
-1. **2}Cloud Acceleration Manager** タイルの「{ ローンチ **」をクリックします。**
+1. **2&rbrace;Cloud Acceleration Manager** タイルの「&lbrace; ローンチ **」をクリックします。**
    ![cloud acceleration manager](./assets/migration-experience-manager-cloud.png)
 
 1. 最初のプロジェクトを作成します。
@@ -84,7 +84,7 @@ Experience Manager GuidesのコンテンツをExperience Manager as a cloud serv
 1. **クリップボードにコピー** をクリックします。 最初のプロジェクトを作成します。
    ![ 抽出キー ](./assets/migration-copy-to-clipboard.png)
 
-1. 上部の **0}Adobe Experience Manager} を選択し、「ソフトウェア配布**」タイルを選択し **す。**
+1. 上部の **0&rbrace;Adobe Experience Manager&rbrace; を選択し、「ソフトウェア配布**」タイルを選択し **す。**
    ![ ソフトウェア配布ポータル ](./assets/migration-software-portal.png)
 
 

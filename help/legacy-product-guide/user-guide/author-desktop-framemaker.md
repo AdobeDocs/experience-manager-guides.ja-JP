@@ -16,4 +16,4 @@ ht-degree: 0%
 
 FrameMakerでは、AEM Guidesでのコンテンツのオーサリングと公開をサポートしています。 FrameMakerには、Adobe Experience Managerに対する標準のコネクタが付属しています。 また、FrameMakerには、分散した共同作業環境でドキュメントのバージョンを管理できる、使いやすいインターフェイスも用意されています。 FrameMakerでコンテンツをオーサリングし、様々な形式（PDF、HTML5、EPUB、DITA）で公開できます。 また、チェックアウト、扶養家族とのチェックアウト、チェックイン、更新など、様々なファイル管理操作を実行できます。 詳しくは、[FrameMaker ヘルプ ](https://help.adobe.com/en_US/framemaker/using/index.html) を参照してください。
 
-**親トピック：**[ デスクトップツールを使用したコンテンツのオーサリング ](author-desktop-tools.md)
+**親トピック：**&#x200B;[ デスクトップツールを使用したコンテンツのオーサリング ](author-desktop-tools.md)

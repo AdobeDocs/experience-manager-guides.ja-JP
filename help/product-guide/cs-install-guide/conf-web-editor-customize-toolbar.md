@@ -62,6 +62,7 @@ Web エディターのツールバーに機能を追加するには、以下の�
        &quot;label&quot;: &quot;Left Controls&quot;,
        &quot;items&quot;: [
        ```
+
    
    `items` コレクション内で、1 つ以上のツールバーアイコンの定義を指定する必要があります。
 
@@ -80,6 +81,7 @@ Web エディターのツールバーに機能を追加するには、以下の�
        ```Javascript
        &quot;on-click&quot;: {&quot;name&quot;: &quot;AUTHOR_INSERT_ELEMENT&quot;, &quot;args&quot;: &quot;simpletable&quot;}
        ```
+
    
    **表示/非表示**:   `show` プロパティを定義する場合は、アイコンを表示するモードを指定します。 使用可能な値は、- `@isAuthorMode`、`@isSourceMode`、`@isPreviewMode`、`true` \（すべてのモードで表示\）、または `false` \（すべてのモードで非表示\）です。
 
@@ -145,4 +147,4 @@ Web エディターのツールバーに機能を追加するには、以下の�
 1. *ui\_config.json* ファイルを保存し、web エディターをリロードします。
 
 
-**親トピック：**[ Web エディタのカスタマイズ ](conf-web-editor.md)
+**親トピック：**&#x200B;[ Web エディタのカスタマイズ ](conf-web-editor.md)

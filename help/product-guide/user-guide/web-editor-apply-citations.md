@@ -96,7 +96,7 @@ Experience Manager Guidesは、Modern Language Association （MLA）、American 
 
    >[!NOTE]
    > <ol><li> Experience Manager Guidesでは、一意で既に存在しない引用のみを読み込みます。
-    &gt; <li> Experience Manager Guidesでは、書籍、ジャーナルまたは web サイトから引用文を読み込むことができます。 現在、他のソースからの引用はサポートされていません。
+   > &gt; <li> Experience Manager Guidesでは、書籍、ジャーナルまたは web サイトから引用文を読み込むことができます。 現在、他のソースからの引用はサポートされていません。
 
 ## 引用の管理
 

@@ -27,4 +27,4 @@ AEM Guidesには、3 つの標準エディターが付属しています。 こ�
 - **[DITAVAL エディタ](ditaval-editor.md)**
 
 
-**親トピック：**[ コンテンツを作成 ](authoring-content.md)
+**親トピック：**&#x200B;[ コンテンツを作成 ](authoring-content.md)

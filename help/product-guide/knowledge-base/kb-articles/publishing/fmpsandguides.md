@@ -41,7 +41,7 @@ FrameMaker Publishing Server（FMPS）を使用して DITA コンテンツを生
 
 Web コンソールを開くには、URL Access http://\&lt;server name\>:\&lt;port\>/system/console/configMgr に移動します。
 
-**設定プロパティとその説明**[4.1 のインストールと設定 ](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-1-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf#page=89)
+**設定プロパティとその説明**&#x200B;[4.1 のインストールと設定 ](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-1-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf#page=89)
 
 ## テストを実行中：
 
@@ -86,8 +86,7 @@ FMPS プリセットを選択し、さらにカスタム設定やAEMから別の
 
 >FMPS2020.0.2 以降のバージョンは、ベースライン公開と互換性があります。
 >ベースラインが正しく作成されていることを確認します。確認するには、マップ ダッシュボード – トピック – ダウンロードに移動します。  「ベースラインを使用」をマッピングして選択します。
-- ### FMPS からのPublish タスクは、他のエンジンよりも時間がかかる
-
+>- ### FMPS からのPublish タスクは、他のエンジンよりも時間がかかる
 >FMPS から公開する場合、理想的な固定ヘッダー時間は約 3～4 分です。それ以上になると思われる場合は、FMPS 管理者に確認するか、Adobeサポートにお問い合わせください。
 
 ## その他のリソース：

@@ -40,7 +40,7 @@ Cloud Publishing Service はAdobe IMSの OAuth ベースの認証で保護され
 
    <img src="assets/projects-tab.png" alt="「プロジェクト」タブ" width="500">
 
-   ***Adobe Developer Consoleの「**プロジェクト&#x200B;**」タブを選択***
+   ***Adobe Developer Consoleの「**&#x200B;プロジェクト&#x200B;**」タブを選択***
 
 1. 新しい空のプロジェクトを作成するには、「**新しいプロジェクトを作成**」ドロップダウンから **空のプロジェクト** を選択します。
 

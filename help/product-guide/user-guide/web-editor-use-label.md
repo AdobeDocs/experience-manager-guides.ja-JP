@@ -81,4 +81,4 @@ Assets UI からトピックにラベルを追加するには、次の手順を�
 ![](images/delete-labels.png){width="300" align="left"}
 
 
-**親トピック：**[ エディターの概要 ](web-editor.md)
+**親トピック：**&#x200B;[ エディターの概要 ](web-editor.md)

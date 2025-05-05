@@ -74,7 +74,7 @@ Generic REST Client、Salsify、Akeneo、Microsoft Azure DevOps Boards （ADO）
 
 リソースを作成するには、以下の手順を実行します。
 
-1. **URL リソース ](assets/Add_icon.svg) セクションの ![ 追加アイコン** を選択して、各 URL のリソースを追加します。
+1. **URL リソース ![&#128279;](assets/Add_icon.svg) セクションの  追加アイコン** を選択して、各 URL のリソースを追加します。
 1. **リソースを追加** ダイアログボックスですべての詳細を設定します。
 1. 「**追加**」をクリックします。
 1. URL リソースリストで、リソースの編集 ![ 編集アイコン ](assets/edit_pencil_icon.svg) または削除 ![ 削除 ](assets/Delete_icon.svg) を行うことができます。
@@ -111,8 +111,8 @@ Generic REST Client、Salsify、Akeneo、Microsoft Azure DevOps Boards （ADO）
        &lt;target>/apps/aemdoxonaemcsstageprogram-vendor-packages/content/install&lt;/target>
        &lt;/embedded>
        ```
-   
-1. パイプラインを実行してCloud Serviceに変更を適用します。
+
+   1. パイプラインを実行してCloud Serviceに変更を適用します。
 コネクタは環境にインストールされています。
 
 

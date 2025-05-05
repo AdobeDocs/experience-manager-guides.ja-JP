@@ -25,4 +25,4 @@ ht-degree: 1%
 | `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.autosave` | ブール値\（true/false\）.<br> **デフォルト値**:false |
 | `xmleditor.autosaveinterval` | 自動保存機能をトリガーにする時間間隔を秒単位で指定します。 |
 
-**親トピック：**[ Web エディタのカスタマイズ ](conf-web-editor.md)
+**親トピック：**&#x200B;[ Web エディタのカスタマイズ ](conf-web-editor.md)

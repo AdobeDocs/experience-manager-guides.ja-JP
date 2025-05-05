@@ -37,7 +37,7 @@ ht-degree: 0%
 </map>
 ```
 
-ここでは、上記のように、_Adobe Experience Manager[!UICONTROL  テキストに対して {keyref] を_ AEM _として指定する 2 つの定義を定義し_ す。
+ここでは、上記のように、_Adobe Experience Manager[!UICONTROL &#x200B; テキストに対して &lbrace;keyref] を_ AEM _として指定する 2 つの定義を定義し_ す。
 
 ## 手順 2：このマップを公開マップに追加する
 

@@ -35,4 +35,4 @@ ht-degree: 0%
 1. 「**保存**」をクリックします。
 
 
-**親トピック：**[ Web エディタのカスタマイズ ](conf-web-editor.md)
+**親トピック：**&#x200B;[ Web エディタのカスタマイズ ](conf-web-editor.md)

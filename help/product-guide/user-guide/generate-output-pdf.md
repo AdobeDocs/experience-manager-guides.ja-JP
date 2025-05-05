@@ -41,4 +41,4 @@ FMPS の設定について詳しくは、[FrameMaker ドキュメントからの
 
 
 
-**親トピック：**[ 出力プリセットについて ](generate-output-understand-presets.md)
+**親トピック：**&#x200B;[ 出力プリセットについて ](generate-output-understand-presets.md)

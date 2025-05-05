@@ -114,8 +114,10 @@ AEM テンプレートエディターが開きます。 トピックテンプレ
   ![ セクションページテンプレート ](assets/customize-existing-aem-templates-section.png)
    - 詳細ページまたはトピック ページ テンプレート：マップのトピックのコンテンツに使用します。 DITA/XML コンテンツのすべての Sites ページは、トピックページテンプレートを使用して作成されます。 これらのテンプレートを作成するには、次の 2 つの前提条件があります。
       - 必須プロパティを使用して、コンテナコンポーネントに含まれるテキストコンポーネントをテンプレートに追加します。`text="$topic.content$"`。
+
         ![ コンテナページテンプレート ](assets/customize-existing-aem-templates-container.png)
       - 次のスクリーンショットに示すように、同じテンプレートの構造に同じコンテナおよびテキストコンポーネントを反映します。
+
         ![ コンテナテンプレートの構造 ](assets/customize-existing-aem-templates-structure.png)
 
 ### ドキュメントコンテナとしてのタグカテゴリページ

@@ -23,4 +23,4 @@ Dispatcher は、Adobe Experience Manager のキャッシュやロードバラ�
 >
 > AEM as a cloud service は、オーサーインスタンスの dispatcher をサポートしていません。
 
-**親トピック：**[ ダウンロードとインストール ](download-install.md)
+**親トピック：**&#x200B;[ ダウンロードとインストール ](download-install.md)

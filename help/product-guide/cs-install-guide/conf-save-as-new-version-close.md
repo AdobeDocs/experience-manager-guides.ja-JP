@@ -26,4 +26,4 @@ ht-degree: 1%
 
 詳しくは、『Adobe Experience Manager Guidesの使用as a Cloud Serviceガイド』の *ファイルの閉じるシナリオと保存シナリオ* 節を参照してください。
 
-**親トピック：**[ Web エディタのカスタマイズ ](conf-web-editor.md)
+**親トピック：**&#x200B;[ Web エディタのカスタマイズ ](conf-web-editor.md)

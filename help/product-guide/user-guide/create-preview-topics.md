@@ -20,4 +20,4 @@ Adobe Experience Manager Guidesには、DITA トピックを作成およびプ�
 - **[トピックのプレビュー](web-editor-preview-topics.md)**
 
 
-**親トピック：**[ エディターの概要 ](web-editor.md)
+**親トピック：**&#x200B;[ エディターの概要 ](web-editor.md)

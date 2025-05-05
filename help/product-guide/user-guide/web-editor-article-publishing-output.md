@@ -89,4 +89,4 @@ ht-degree: 0%
 1. 出力生成プロセスのステータスが表示されます。出力を表示するには、トピックの上にマウスポインターを置いて、「出力を表示」をクリックします。
 
 
-**親トピック：**[ Web エディターからの記事ベースの公開 ](web-editor-article-publishing.md)
+**親トピック：**&#x200B;[ Web エディターからの記事ベースの公開 ](web-editor-article-publishing.md)

@@ -51,7 +51,7 @@ JVM 開始パラメーターは、インフラストラクチャとディスク�
 
 - JVM ヒープサイズを、使用可能な合計メモリの 1/4 以上に設定します。 パラメーター `-Xmx<size>` を使用して、ヒープメモリサイズを設定します。 -`Xms` の値を `-Xmx` に設定します。
 
-- `-XX:+HeapDumpOnOutOfMemoryError` を有効にして、`-XX:HeapDumpPath=</path/to/folder``>` のパスを設定します。
+- `-XX:+HeapDumpOnOutOfMemoryError` を有効にして、`-XX:HeapDumpPath=</path/to/folder` `>` のパスを設定します。
 
 - Java GC ログを次のように有効にします。
 
@@ -115,4 +115,4 @@ AEM Sites出力を生成する場合は、この変更が必要です。
 **ヒープ内のAEM サイトページを制限** プロパティの数が増えると、AEM サイト出力生成プロセスが最適化されます。
 
 
-**親トピック：**[ ダウンロードとインストール ](download-install.md)
+**親トピック：**&#x200B;[ ダウンロードとインストール ](download-install.md)
