@@ -1,9 +1,10 @@
 ---
 title: AEM Guidesの新しい UX および AI 機能
 description: AEM Guidesの再設計されたユーザーエクスペリエンスと AI アシスタントが、オーサリングを合理化し、ナビゲーションを強化し、コンテンツワークフローにリアルタイムのインテリジェンスを取り込む方法を説明します。
-source-git-commit: 87d1ff16daea5d40924ebb59669a3474ec5bafca
+exl-id: 26daaae5-1f10-42bf-91b5-93cdb6df6625
+source-git-commit: 1b41b2eb7e917c389c6f15ff73037f89353e8269
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '271'
 ht-degree: 1%
 
 ---
@@ -27,9 +28,9 @@ ht-degree: 1%
 ## 重要ポイント
 
 このセッションでは、以下について説明しました。
-- 最新のファイル、コレクションおよび workfront にすばやくアクセスできるように、再設計されたパーソナライズされたランディングページ。
+- 最新のファイル、コレクション、workfront タスクにすばやくアクセスできるように、再設計されたパーソナライズされたランディングページ。
 - オーサリング、公開およびコンテンツ管理を切り替えるためのナビゲーションを簡素化しました。
-- 公開、翻訳、レポートのタスクを 1 か所に統合する専用のマップコンソールです。
+- 公開、翻訳、レポートの機能を 1 か所に統合する専用のマップコンソール。
 - AI を活用した提案により、コンテンツの再利用をスマートに。
 - 翻訳、概要、オーサリング中のリアルタイムコンテンツ改善などのコンテンツ機能強化。
 - オーサリング環境内でコンテキストに応じた支援を提供する、AI 駆動のヘルプパネル。
@@ -37,11 +38,11 @@ ht-degree: 1%
 
 ## 関連リソース
 
-- [ 新しいホームページエクスペリエンス ](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/user-guide/home-page/intro-home-page)
+- [ 新しいホームページエクスペリエンス ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/home-page/intro-home-page)
 
-- [AI 機能 ](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/user-guide/ai-assistant-aem/ai-assistant)
+- [AEM Guidesの AI 機能 ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/ai-assistant-aem/ai-assistant)
 
-- [ 新しいホームページエクスペリエンス ](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-smart-suggestions)
+- [AI アシスタントの設定 ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-smart-suggestions)
 
 
 
@@ -54,7 +55,7 @@ ht-degree: 1%
 
 ### コミュニティフォーラム
 
-- Experience Leagueに関するセッション固有のコミュニティのやり取りについては、[AEM Guides フォーラム ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=ja) を参照してください。
+- Experience Leagueに関するセッション固有のコミュニティのやり取りについては、[AEM Guides フォーラム ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions) を参照してください。
 
 
 ## お問い合わせ
