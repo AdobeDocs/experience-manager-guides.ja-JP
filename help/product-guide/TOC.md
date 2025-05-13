@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: b78a34430476c15cadacb23d65bd978b3c25bd23
+source-git-commit: fd20f8d8dffd9ab566128ace61cb923279aa2d8b
 workflow-type: tm+mt
-source-wordcount: '2098'
+source-wordcount: '2106'
 ht-degree: 9%
 
 ---
@@ -129,8 +129,8 @@ ht-degree: 9%
                - [リリースノート（4.2.1）](./release-info/release-notes-4-2-1.md)
                - [4.2 リリースノート](./release-info/release-notes-4-2.md)
          - [4.1.x リリースノート](./release-info/release-notes-4-1.md)
-         - [4.0.x リリースノート ](https://helpx.adobe.com/jp/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x リリースノート ](https://helpx.adobe.com/jp/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x リリースノート ](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x リリースノート ](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - ユーザーガイド （新しい UI） {#user-guide}
    - はじめに {#about-aemg}
       - [概要  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -277,7 +277,7 @@ ht-degree: 9%
          - [ファイルとフォルダーの管理](./user-guide/authoring-file-management.md)
          - [ファイルをダウンロード](./user-guide/authoring-download-assets.md)
 - ユーザーガイド（古い UI） {#user-guide-old-ui}
-   - [AEM Guidesの概要](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guidesの概要 ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - インストールと設定 {#install-guide}
    - オンプレミス {#on-prem-ig}
       - [オンプレミスの基本](./install-guide/introduction.md)
@@ -485,6 +485,7 @@ ht-degree: 9%
       - [コンテンツを非 uuid から UUID に移行します](./knowledge-base/expert-sessions/migration-non-uuid-to-uuid.md)
       - [差分コンテンツ移行](./knowledge-base/expert-sessions/migration-delta-content.md)
       - [Native PDFを使用した、よりスマートなPDF公開](./knowledge-base//expert-sessions/smarter-pdf-publishing-with-native-pdf.md)
+      - [AEM Guidesの新しい UX および AI 機能](./knowledge-base/expert-sessions/new-ux-and-ai-capabilities.md)
    - 記事 {#kb-articles}
       - オーサリング {#authoring}
          - Web エディター {#webeditor}
