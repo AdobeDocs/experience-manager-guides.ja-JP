@@ -2,9 +2,10 @@
 title: リリースノート | Adobe Experience Manager Guides 2025.04.0 リリースの新機能
 description: Adobe Experience Manager Guides 2025.04.0 リリースの新機能と機能強化について説明します
 role: Leader
-source-git-commit: 2d0be1a3b3d4b625333e5b8c93e6b01f38e00b39
+exl-id: 5d28119b-641f-402b-833c-6f7554e7c273
+source-git-commit: f4ed3c8b70c47beb1f97c6703ade4d4f49fa814e
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '569'
 ht-degree: 2%
 
 ---
@@ -51,6 +52,6 @@ Experience Manager Guidesでは、再利用可能なコンテンツパネルの�
 詳しくは、[ 再利用可能なコンテンツ ](../user-guide/web-editor-features.md#reusable-content) を参照してください。
 
 
-## マイクロサービスコンテナの DITA OT バージョンの更新
+## マイクロサービスコンテナの Java バージョンのアップグレード
 
 マイクロサービス対応クラウド環境の場合は、Java 21 を使用するように移行し、既存の DITA-OT およびネイティブのPDF生成プロセスが影響を受けないようにします。 DITA-OT 3 の既存のワークフローは、Java 21 と引き続きシームレスに機能します。  さらに、DITA-OT 4 は完全に動作し、DITA-OT とネイティブのPDFを使用して PDF を生成し、ネイティブのAEM サイトやその他のフォーマットの出力を生成できます。
