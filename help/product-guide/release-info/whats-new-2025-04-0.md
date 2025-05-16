@@ -3,10 +3,10 @@ title: リリースノート | Adobe Experience Manager Guides 2025.04.0 リリ�
 description: Adobe Experience Manager Guides 2025.04.0 リリースの新機能と機能強化について説明します
 role: Leader
 exl-id: 5d28119b-641f-402b-833c-6f7554e7c273
-source-git-commit: f4ed3c8b70c47beb1f97c6703ade4d4f49fa814e
+source-git-commit: fe7d81f1826fe4ee0c716df36daabe3c5efd8994
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 2%
+source-wordcount: '436'
+ht-degree: 3%
 
 ---
 
@@ -27,17 +27,6 @@ Adobe Experience Manager Guidesに、エディター内の参照リンクの **f
 - **.dita** または **.ditamap** ファイルを含むファイルの場合、フォーマットは **dita** に設定されます
 
 また、拡張子が **.xml** のファイルのフォーマットも **dita** に設定されます。 拡張子のないファイルの場合、形式は空白のままになります。 さらに、スコープが **external** に設定されている参照リンクの場合、参照リンクのファイル拡張子にかかわらず、形式は **html** に設定されます。
-
-
-## エディター内の大きなファイルに対する正確な通信
-
-Experience Manager Guidesは、ファイルが大きなファイルとして分類されており、取り消し、やり直し、アウトラインパネル、ダーティマーカーなどの特定の機能が期待どおりに動作しない場合があることを通知するようになりました。 大きなファイルの場合、インターフェイスの上部に、次のスニペットに示すようにアラートメッセージが表示され、**uiconfig.json** ファイルの **largeFileTagCount** パラメーターに基づいた要素数が示されます。
-
-また、下部のバーにタグ数が表示され、その上にカーソルを置くとツールチップが表示されます。 「**詳細情報**」タブを選択すると、大きなファイルの処理に関する詳細情報が表示されます。 このアラートは DITA ファイルでのみ使用でき、すべてのビュー（Author、Source、Layout）で表示されます。
-
-詳しくは、[ エディターでの大きなファイルの処理 ](../user-guide/web-editor-other-features.md#handling-large-files-in-the-editor) を参照してください。
-
-![](assets/add-toast-tag-count.png){width="800" align="left"}
 
 ## エクスポートされたベースラインにドキュメントの状態が含まれるようになりました
 
