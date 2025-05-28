@@ -1,0 +1,49 @@
+---
+title: リリースノート | Adobe Experience Manager Guides 2025.06.0 リリースの新機能
+description: Adobe Experience Manager Guides 2025.06.0 リリースの新機能と機能強化について説明します
+role: Leader
+source-git-commit: 147bd8cce875178f94dae5742bc6573b51f24d3a
+workflow-type: tm+mt
+source-wordcount: '467'
+ht-degree: 3%
+
+---
+
+# 2025.06.0 リリースの新機能（2025 年 6 月）
+
+この記事では、Adobe Experience Manager Guides as a Cloud Service 2025.06.0 リリースで導入された新機能と機能強化について説明します。
+
+このリリースで修正された問題の一覧については、[2025.06.0リリースで修正された問題](fixed-issues-2025-06-0.md)を参照してください。
+
+[2025.06.0 リリースのアップグレード手順 ](../release-info/upgrade-instructions-2025-06-0.md) について説明します。
+
+## 公開済み出力用の一時ファイルに、オーサー URL とパブリッシュ URL が新しい設定ファイルに含まれるようになりました
+
+Experience Manager Guidesの最新の公開機能強化により、DITA-OT を使用してHTML、PDF、JSON 出力を公開する際に生成された一時ファイルと、ネイティブのPDF出力に、新しい `system_config.json` ファイルが追加されるようになりました。 このファイルは公開ジョブに自動的に含まれ、プリセットの **一時ファイルを保持** オプションを有効にして出力を生成すると、一時ファイルを通じてアクセスすることもできます。
+
+`system_config.json` ファイルには、オーサー URL、ローカル URL、公開 URL など、主要なインスタンスの詳細が含まれています。これにより、コンテキストが明確になり、ダウンロードした URL のトレーサビリティが向上します。
+
+詳しくは、[ 出力プリセットについて ](../user-guide/generate-output-understand-presets.md) を参照してください。
+
+## コンテンツが誤って失われるのを防ぐためのセッションタイムアウトプロンプト
+
+Adobe Experience Manager セッションの有効期限が切れ、無操作状態が原因でログアウトされたことを知らせるポップアップメッセージが表示されるようになりました。 このメッセージは、セッションが終了した後に、Experience Manager Guidesでコンテンツを編集しようとするとトリガーされます。 この機能により、未保存の作業が失われるリスクが軽減され、操作がない期間でもエクスペリエンスの全体的な信頼性と流動性が向上します。
+
+![](assets/sign-out-prompt.png)
+
+詳しくは、Experience Manager Guidesの [ セッションタイムアウトプロンプト ](../user-guide/session-timeout-prompt.md) を参照してください。
+
+## エディターの強化されたマップダウンロードオプション
+
+Experience Manager Guidesの **マップをダウンロード** ダイアログに、新しい **実際のファイル名を使用** オプションが導入されました。 マップ ファイルをダウンロードするときに、既定の UUID の代わりに元のファイル名を保持するように選択できるようになりました。これにより、ファイルの認識と管理がはるかに容易になります。 このオプションは、[**ファイル階層を保持**] を選択した場合にのみ使用でき、[**ファイル階層をフラット化**] を選択した場合は使用できません。これにより、ダウンロードしたマップをより柔軟に編成できます。
+
+詳しくは、[ ファイルのダウンロード ](../user-guide/authoring-download-assets.md#download-a-dita-map-file-from-the-editor) を参照してください。
+
+![](assets/download-map-dialog-new.png){width="300" align="left"}
+
+
+## エディターでの `navref` 処理の強化
+
+エディタの最新の機能強化により、DITA マップ内のエレメント `navref` 処理が改善されました。 `navref` 要素をマップに追加すると、[**パスを選択** ダイアログが開き、マップにナビゲーション リンクとして含めるマップ参照を簡単に選択できます。 追加されたマップのタイトルは、オーサービューとレイアウトビューの両方に表示されるため、オーサリング中に含まれるナビゲーションをより明確に把握できます。  さらに、追加された `navref` 要素は自動的に解決され、エディターに参照マップが表示されます。
+
+詳しくは、[ ナビゲーション参照を追加 ](../user-guide/map-editor-other-features.md#add-navigation-references) を参照してください。

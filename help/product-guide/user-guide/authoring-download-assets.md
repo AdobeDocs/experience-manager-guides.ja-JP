@@ -4,18 +4,69 @@ description: AEM Guidesの DITA マップコンソールからファイルをダ
 exl-id: ae9eb355-d3ac-446a-958b-5f2da43f5533
 feature: Content Management
 role: User
-source-git-commit: 632b253a36822b4b5b93766153f0fc3a1116b616
+source-git-commit: e413a49a8ec5e2e129b86b50bc5750f41c101e5d
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '764'
 ht-degree: 0%
 
 ---
 
 # ファイルをダウンロード {#id216MC0H0BE8}
 
-DITA ファイルと非 DITA ファイルを含むアセットをダウンロードできます。 アセットをダウンロードする方法は複数あります。Adobe Experience Managerにネイティブな方法もあれば、Adobe Experience Manager Guidesでサポートされている方法もあります。 Adobe Experience Managerのネイティブなアセットのダウンロード情報については、Adobe Experience Manager ドキュメントの [Adobe Experience Managerからのアセットのダウンロード ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html?lang=ja) を参照してください。 次の節では、Experience Manager Guidesで DITA マップコンソールを使用してファイルをダウンロードする仕組みについて説明します。
+DITA ファイルと非 DITA ファイルを含むアセットをダウンロードできます。 アセットをダウンロードする方法は複数あります。Adobe Experience Managerにネイティブな方法もあれば、Adobe Experience Manager Guidesでサポートされている方法もあります。 Adobe Experience Managerのネイティブなアセットのダウンロード情報については、Adobe Experience Manager ドキュメントの [Adobe Experience Managerからのアセットのダウンロード ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html) を参照してください。 次の節では、Experience Manager Guidesでのファイルのダウンロードのしくみについて説明します。
 
-## DITA マップファイルのエクスポート
+## エディタから DITA マップファイルをダウンロードします
+
+エディタから DITA マップファイルをダウンロードするには、次の手順を実行します。
+
+1. ダウンロードする DITA マップに移動します。
+1. DITA マップを選択して、エディタで開きます。
+
+1. マップビューで「**オプション**」アイコンを選択し、リストから「**マップをダウンロード**」を選択します。
+
+   ![](images/download-map-option-editor.png)
+
+   **マップをダウンロード** ダイアログが表示されます。
+
+   ![](images/download-map-dialog-new.png){width="300" align="left"}
+
+1. マップをダウンロード ダイアログでは、次のオプションを選択できます。
+
+   - **ベースラインを使用**:DITA マップ用に作成されたベースラインのリストを取得するには、このオプションを選択します。 特定のベースラインに基づいてマップ・ファイルとそのコンテンツをダウンロードする場合は、ドロップダウン・リストから「ベースライン」を選択します。 ベースラインの操作の詳細については、「[ ベースラインの操作 ](generate-output-use-baseline-for-publishing.md#)」を参照してください。
+
+   - **ファイル階層オプション**: ファイル階層ドロップダウンを使用して、ダウンロードしたマップファイルのフォルダー構造を処理する方法を選択することもできます。 使用できるオプションは以下のとおりです。
+
+      - **ファイル階層を保持**：ダウンロードしたファイルの既存のフォルダー構造を保持するには、ドロップダウンからこのオプションを選択します。
+
+        この方法で使用できるオプションは次のとおりです。
+
+         - **GUID ファイル名を使用** - GUID をファイル名としてマップ ファイルをダウンロードします。
+
+         - **実際のファイル名を使用** – 元のファイル名でマップ ファイルをダウンロードします。
+
+      - **ファイル階層を統合**：参照されるすべてのトピックおよびメディアファイルを 1 つのフォルダーにダウンロードするには、ドロップダウンからこのオプションを選択します。 このメソッドを使用する場合、マップ ファイルには [**GUID ファイル名を使用**] オプションのみを使用できます。
+
+   >[!NOTE]
+   >
+   > オプションを選択せずにマップ ファイルをダウンロードすることもできます。 その場合、参照されるトピックおよびメディア ファイルの最後の永続バージョンがダウンロードされます。
+
+1. 「**ダウンロード**」を選択します。
+
+   マップのダウンロード要求はキューに入れられます。
+
+   ![](images/download-map-notification.png)
+
+   マップをダウンロードする準備が整うと、次の通知が届きます。
+
+   ![](images/download-map-success-message.png){width="550" align="left"}
+
+1. 「**ダウンロード**」を選択して、`.zip` 形式のマップファイルをダウンロードします。 または、後でAEM インボックスからダウンロードします。
+
+   >[!NOTE]
+   >
+   > デフォルトでは、ダウンロードされたマップはAdobe Experience Managerの通知インボックスに 5 日間残ります。
+
+## Map ダッシュボードから DITA マップファイルをダウンロードします
 
 DITA マップファイルをAdobe Experience Manager リポジトリに格納したら、マップファイルとその依存ファイルをダウンロードできます。 これにより、オフラインでの編集、検証、レビュー、または単にバックアップを作成するために、完全なマップ ファイルを柔軟に共有できます。
 
@@ -60,4 +111,4 @@ DITA マップファイルをAdobe Experience Manager リポジトリに格納�
 
 マップがダウンロードされたら、マップを選択し、上部の「開く」アイコンを使用して、選択したレポートを開くことができます。
 
-**親トピック：**&#x200B;[ コンテンツの管理 ](authoring.md)
+**親トピック：**[ コンテンツの管理 ](authoring.md)

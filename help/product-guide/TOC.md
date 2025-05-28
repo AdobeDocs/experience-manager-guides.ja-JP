@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: fd20f8d8dffd9ab566128ace61cb923279aa2d8b
+source-git-commit: b80737d6066008104ceea103edbc828bc8e632cb
 workflow-type: tm+mt
-source-wordcount: '2106'
+source-wordcount: '2122'
 ht-degree: 9%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 9%
       - クラウドサービス {#cloud-release-notes}
          - [デプロイメントの手順](./release-info/deploy-xml-on-aemaacs.md)
          - 2025 年リリース {#2025-releases}
+            - 2025.06.0 リリース {#2506-release}
+               - [新機能](./release-info/whats-new-2025-06-0.md)
+               - [修正された問題](./release-info/fixed-issues-2025-06-0.md)
+               - [アップグレード手順](./release-info/upgrade-instructions-2025-06-0.md)
             - 2025.04.0 リリース {#2504-release}
                - [新機能](./release-info/whats-new-2025-04-0.md)
                - [修正された問題](./release-info/fixed-issues-2025-04-0.md)
@@ -129,8 +133,8 @@ ht-degree: 9%
                - [リリースノート（4.2.1）](./release-info/release-notes-4-2-1.md)
                - [4.2 リリースノート](./release-info/release-notes-4-2.md)
          - [4.1.x リリースノート](./release-info/release-notes-4-1.md)
-         - [4.0.x リリースノート ](https://helpx.adobe.com/jp/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x リリースノート ](https://helpx.adobe.com/jp/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x リリースノート ](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x リリースノート ](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - ユーザーガイド （新しい UI） {#user-guide}
    - はじめに {#about-aemg}
       - [概要  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -173,6 +177,7 @@ ht-degree: 9%
          - [マップの作成](./user-guide/map-editor-create-map.md)
          - [カスタマイズしたテンプレートに基づいてマップを作成する](./user-guide/create-maps-customized-templates.md)
          - [マップ エディタの機能](./user-guide/map-editor-advanced-map-editor.md)
+         - [ファイルをダウンロード](./user-guide/authoring-download-assets.md)
          - [マップ エディタのその他の機能](./user-guide/map-editor-other-features.md)
       - DITAVAL エディター {#ditaval-editor}
          - [DITAVAL エディタの使用](./user-guide/ditaval-editor.md)
@@ -275,9 +280,11 @@ ht-degree: 9%
          - [主な概念、役割と権限、前提条件](./user-guide/authoring.md)
          - [ファイルのアップロード](./user-guide/authoring-upload-existing-files.md)
          - [ファイルとフォルダーの管理](./user-guide/authoring-file-management.md)
-         - [ファイルをダウンロード](./user-guide/authoring-download-assets.md)
+         - [アセットの処理または再処理](./user-guide/asset-processor.md)
+      - トラブルシューティング {#troubleshooting}
+         - [セッションタイムアウト](./user-guide/session-timeout-prompt.md)
 - ユーザーガイド（古い UI） {#user-guide-old-ui}
-   - [AEM Guidesの概要](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guidesの概要 ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - インストールと設定 {#install-guide}
    - オンプレミス {#on-prem-ig}
       - [オンプレミスの基本](./install-guide/introduction.md)

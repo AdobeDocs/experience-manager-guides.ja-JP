@@ -4,9 +4,9 @@ description: Experience Manager GuidesがAEMやその他の DITA エディター
 exl-id: 7c76fa01-63dc-4017-af15-c1e62b1849d1
 feature: Introduction
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 288375d153ff805af05a60eb9c58ae1af4dd8744
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
@@ -17,5 +17,7 @@ ht-degree: 0%
 
 ![](images/xml-add-on-how-it-works.png){align="center"}
 
+ワークフローの処理中にセッションが非アクティブな状態が長時間続くと、コンテンツの損失を防ぐためにセッションタイムアウトプロンプトがトリガーされます。 詳しくは、[ セッションタイムアウト ](./session-timeout-prompt.md) を参照してください。
 
-**親トピック：**&#x200B;[ Adobe Experience Manager Guides as a Cloud Serviceについて ](intro.md)
+
+**親トピック：**[ Adobe Experience Manager Guides as a Cloud Serviceについて ](intro.md)

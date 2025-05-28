@@ -5,9 +5,9 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: 8ee4863470f69bca52a9b36cde52703e4d6643bc
+source-git-commit: 10c0a105c09f5a20b5bf2ef9b3201e7747048a8a
 workflow-type: tm+mt
-source-wordcount: '4756'
+source-wordcount: '4794'
 ht-degree: 0%
 
 ---
@@ -456,7 +456,7 @@ Web エディターでのオーサリング中にコンテンツ参照を追加�
 
 ![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Serviceの場合。
 
-AI を活用したスマートな **ヘルプ** を設定すると、作成者が質問したり、[Experience Manager Guides ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/overview) から必要なコンテンツを簡単に見つけたりするのに役立ちます。
+AI を活用したスマートな **ヘルプ** を設定すると、作成者が質問したり、[Experience Manager Guides ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview) から必要なコンテンツを簡単に見つけたりするのに役立ちます。
 
 「**XML エディター設定**」タブでは、「**ヘルプ** パネルのデフォルトの質問を設定できます。
 
@@ -508,7 +508,11 @@ AI を活用したスマートな **ヘルプ** を設定すると、作成者�
 
 この設定を使用すると、`ui_config.json` ファイルに加えられた変更を反映する JSON 拡張子を作成できます。 これらの拡張機能は、フォルダープロファイルレベルで個別にアップロードできるので、柔軟性とカスタマイズが向上しています。 例えば、ボタンを更新するなど、**XML エディター設定** に変更を加えると、システムによって違いが自動的に識別されます。 これらの変更を **XML エディターの UI 設定にアップロードし** 「**UI 設定を JSON に変換**」ボタンを使用して JSON 拡張機能に変換すると、システムは新しい機能を組み込む拡張機能を生成します。
 
-詳しくは、[JSON 設定のカスタマイズと、新しいAEM Guides エディター用の UI 設定の変換 ](https://experienceleague.adobe.com/ja/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config) を参照してください。
+詳しくは、[JSON 設定のカスタマイズと、新しいAEM Guides エディター用の UI 設定の変換 ](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config) を参照してください。
+
+>[!NOTE]
+>
+> 拡張機能フレームワークを使用してアプリをカスタマイズする場合は、デプロイメント中の問題を回避するために、サポートされている基本的な React スペクトル コンポーネント（ツリー、テーブル、チェックボックス、ラジオボタン、ラジオグループなど）のみを使用することをお勧めします。
 
 **XML エディターのページレイアウト**
 

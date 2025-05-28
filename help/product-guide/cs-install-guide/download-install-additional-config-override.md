@@ -5,9 +5,9 @@ exl-id: dc5f81f7-5b0a-4d12-a944-ba66b0239d5c
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: dae38cf948b99c8b89c61472938ce97b571f9366
+source-git-commit: e4b213b5f0efda18fb24f100f3ee8237947890bf
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Adobe Experience Manager Guidesの 2025.02.0 リリースでは、UI の改訂�
 
 >[!IMPORTANT]
 >
-> 新しい UI と古い UI を切り替えるためのこの設定オプションは、2025.4.0 リリースまで使用できます。 その後、新しい UI がデフォルトになり、以前の UI に戻すオプションはサポートされなくなります。
+> 新しい UI と古い UI を切り替えるこの設定オプションは、2025.4.0 リリースまでサポートされていました。 2025.6.0 リリースでは、この設定は非推奨（廃止予定）となり、古い UI に戻すために使用できなくなりました。
 
 Experience Manager Guides UI を設定するには、次の手順を実行します。
 
@@ -65,4 +65,4 @@ Experience Manager Guides UI を設定するには、次の手順を実行しま
 
 
 
-**親トピック：**&#x200B;[ ダウンロードとインストール ](download-install.md)
+**親トピック：**[ ダウンロードとインストール ](download-install.md)

@@ -2,9 +2,9 @@
 title: スマートヘルプとオーサリングのための AI アシスタントの設定
 description: Experience Manager Guidesで AI アシスタントを設定する方法を説明します
 exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
-source-git-commit: 018bd7c7bc3bb9161e5bedd42d50a5c501ca2919
+source-git-commit: b80737d6066008104ceea103edbc828bc8e632cb
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,10 @@ AI アシスタントを設定するには、次の手順を実行します。
 1. [Adobe Developer Consoleで IMS 設定を作成します ](#create-ims-configurations-in-adobe-developer-console)。
 2. [環境への IMS 設定の追加](#add-ims-configuration-to-the-environment)
 3. [環境で AI フラグを有効にする](#enable-ai-flag-in-the-environment)
-4. [環境への変更の適用](#apply-changes-to-the-environment)
-5. [フォルダープロファイルで AI アシスタントを有効にする](#enable-ai-assistant-in-folder-profile)
-6. [フォルダープロファイルでのスマート候補の設定](./conf-folder-level.md#configure-ai-assistant-for-smart-help-and-authoring)
+4. [環境に GUIDES_AI_SITE_ID 変数を追加します](#add-the-guides_ai_site_id-variable-in-the-environment)
+5. [環境への変更の適用](#apply-changes-to-the-environment)
+6. [フォルダープロファイルで AI アシスタントを有効にする](#enable-ai-assistant-in-folder-profile)
+7. [フォルダープロファイルでのスマート候補の設定](./conf-folder-level.md#configure-ai-assistant-for-smart-help-and-authoring)
 
 ## Adobe Developer Consoleでの IMS 設定の作成
 
@@ -92,6 +93,14 @@ Experience Manager Guides UI で AI アシスタント機能を有効にする�
 
 フラグを **true** に設定すると機能が有効になり、**false** に設定すると無効になります。
 
+## 環境に GUIDES_AI_SITE_ID 変数を追加します
+
+`GUIDES_AI_SITE_ID` 変数を環境（Cloud Manager）に追加し、値を `id_f651abc807c84f52b425737bb93f87ba` に設定して有効にします。
+
+次のスクリーンショットで示したのと同じ名前と設定を使用していることを確認してください。
+
+![](assets/conf-folder-guides-site-id.png){width="800" align="left"}
+
 ## 環境への変更の適用
 
 IMS 設定を追加し、AI Assistant フラグを環境に有効にしたら、次の手順を実行して、OSGi を使用してこれらのプロパティをAEM Guidesにリンクします。
@@ -143,8 +152,8 @@ AI アシスタント機能を有効にした後、フォルダープロファ�
   "related.link.threshold":0.5,
   "emerald.url":"https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1",
   "instance.type":"prod",
-  "chat.url":"https://aem-guides-ai.adobe.io"
-}
+  "chat.url":"https://aem-guides-ai-v2.adobe.io"
+  }
 ```
 
 ## AI アシスタントの設定の詳細
@@ -154,7 +163,7 @@ AI アシスタント機能を有効にした後、フォルダープロファ�
 | conref.inline.threshold | ユーザーが現在入力しているタグに対して取得した候補の精度/呼び出しを制御するしきい値。 | -1.0 から 1.0 までの任意の値。 | 0.6 |
 | conref.block.threshold | ファイル全体でタグに対して取得された候補の精度/呼び出しを制御するしきい値。 | -1.0 から 1.0 までの任意の値。 | 0.7 |
 | emerald.url | スマート提案ベクターデータベースのエンドポイント | [https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1) | [https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1) |
-| chat.url | AI アシスタントサービスのエンドポイント | [https://aem-guides-ai.adobe.io](https://aem-guides-ai.adobe.io) | [https://aem-guides-ai.adobe.io](https://aem-guides-ai.adobe.io) |
+| chat.url | AI アシスタントサービスのエンドポイント | [https://aem-guides-ai-v2.adobe.io](https://aem-guides-ai-v2.adobe.io) | [https://aem-guides-ai-v2.adobe.io](https://aem-guides-ai-v2.adobe.io) |
 | instance.type | AEM インスタンスのタイプ。 スマート候補が設定されているAEM インスタンスごとに、これが一意であることを確認してください。 ユースケースは、「instance.type」=「stage」を使用してステージング環境で機能をテストすると同時に、「prod」でも機能を設定することです。 | 環境を識別する一意のキー。 *英数字* の値のみを使用できます。 &quot;dev&quot;/&quot;stage&quot;/&quot;prod&quot;/&quot;test1&quot;/&quot;stage2&quot; | 「prod」 |
 
 設定すると、「AI アシスタント」アイコンがExperience Manager Guidesのホームページおよびエディターに表示されます。 詳しくは、『Experience Manager ユーザーガイド』の [AI アシスタント ](../user-guide/ai-assistant.md) の節を参照してください。

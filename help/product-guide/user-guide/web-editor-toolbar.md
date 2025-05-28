@@ -4,7 +4,7 @@ description: エディターのツールバーについて説明します。 Ado
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
-source-git-commit: e49fde64cbbb2544afe23b820af6477ed1e900fc
+source-git-commit: b80737d6066008104ceea103edbc828bc8e632cb
 workflow-type: tm+mt
 source-wordcount: '5909'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 **アクションの編集**
 
-エディターでトピックを編集する場合は、様々な編集アクション（**カット** または ***Ctrl***+***X***、**コピー** または ***Ctrl***+***C***、**取り消し** または ***Ctrl***+***Z***、**やり直し** または Ctrl を+**&#x200B;**&#x200B;**&#x200B; **&#x200B;**&#x200B;** **&#x200B;**&#x200B;X など）にアクセスします。
+エディターでトピックを編集する場合は、様々な編集アクション（**カット** または ***Ctrl***+***X***、**コピー** または ***Ctrl***+***C***、**取り消し** または ***Ctrl***+***Z***、**やり直し** または Ctrl を+****** ****** **** X など）にアクセスします。
 
 
 **検索と置換**
@@ -380,7 +380,7 @@ Experience Manager Guidesには、ドキュメント内で行われた更新に�
 > また、画像をローカルシステムから記事にドラッグ&amp;ドロップして追加することもできます。 この場合、画像ファイルは **Assetsをアップロード** ワークフローを使用して追加されます。  詳しくは、「左パネル **セクションの** Assetsをアップロード [ ワークフローを参照し ](./web-editor-left-panel.md) ください。
 
 
-![](images/insert-image.png){width="300" align="left"}
+![](images/insert-image-new-dialog.png){width="300" align="left"}
 
 [ イメージを挿入 ] ダイアログ ボックスで、イメージのイメージ/図形のタイトルと代替テキストを追加できます。
 
@@ -621,4 +621,4 @@ DITA マップで定義されたキーワードを挿入します。 [ キーワ
 管理者は、他のユーザーによってロックされているファイルのロックを解除できる **ロック解除を強制** 機能にもアクセスできます。 他のユーザーによってロックされているファイルの編集権限にアクセスするには、この機能を使用します。
 
 ![](images/web-editor-force-unlock-new.png){width="350" align="left"}
-**親トピック：**&#x200B;[ エディターの概要 ](web-editor.md)
+**親トピック：**[ エディターの概要 ](web-editor.md)
