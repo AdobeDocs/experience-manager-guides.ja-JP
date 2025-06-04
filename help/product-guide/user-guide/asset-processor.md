@@ -4,7 +4,8 @@ description: アセットの処理方法を学ぶ
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: b0e744baeb6867bfc9e7d212ec53e581812d8f63
+exl-id: 27786098-119c-4b7a-8275-8a89d435294f
+source-git-commit: 851dafc1f17864bf6a295de7be12ffe513c3af57
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 0%
@@ -27,7 +28,7 @@ ht-degree: 0%
 1. **ツール** パネルで「**ガイド**」を選択します。
 1. **アセットプロセッサー** タイルを選択します。
 
-   ![flow-asset-processor](images/flow-asset-processor.png){width="550" align="left"}
+   ![flow-asset-processor](images/flow-asset-processor.png){align="left"}
 
 1. Guides Asset Processor ウィンドウが開き、以下に詳細が表示されます。 また、このウィンドウには、最後の 5 つの移行に関する情報のみが表示されます。
 
@@ -43,7 +44,7 @@ ht-degree: 0%
 
    - **ステータス**：再処理のステータス（処理中、完了またはキャンセル）を指します。
 
-   ![Guides-asset-processor](images/guides-asset-processor.png){width="550" align="left"}
+   ![Guides-asset-processor](images/guides-asset-processor.png){align="left"}
 
 1. ウィンドウの右上隅にある「**新しいプロセス**」タブを選択して、新しい処理タスクを開始します。
 
@@ -66,20 +67,16 @@ ht-degree: 0%
 
 - **再起動**：以前に成功したアセット処理タスクを再開します。
 
-  ![restart-asset-processor](images/restart-asset-processor.png){width="550" align="left"}
+  ![restart-asset-processor](images/restart-asset-processor.png){align="left"}
 
 - **再開**：以前にキャンセルされた、または失敗したアセット処理タスクを再開します。
 
-  ![resume-asset-processor](images/resume-asset-processor.png){width="550" align="left"}
+  ![resume-asset-processor](images/resume-asset-processor.png){align="left"}
 
 - **キャンセル**：現在進行中のアセット処理タスクをキャンセルします。
 
-  ![cancel-asset-processor](images/cancel-asset-processor.png){width="550" align="left"}
+  ![cancel-asset-processor](images/cancel-asset-processor.png){align="left"}
 
 - **ログを表示**：アセット処理タスクのログを表示します。 進行中のタスクの場合、ログには、推定残り時間やアセットのステータスなどの詳細な処理情報が表示されます。 このログリストには、最新の 500 エントリまで表示されます。 完全なログをダウンロードできます。
 
-  ![logs-asset-processor](images/logs-asset-processor.png){width="550" align="left"}
-
-
-
-
+  ![logs-asset-processor](images/logs-asset-processor.png){align="left"}
