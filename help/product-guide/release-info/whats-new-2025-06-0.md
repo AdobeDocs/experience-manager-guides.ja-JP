@@ -2,9 +2,10 @@
 title: リリースノート | Adobe Experience Manager Guides 2025.06.0 リリースの新機能
 description: Adobe Experience Manager Guides 2025.06.0 リリースの新機能と機能強化について説明します
 role: Leader
-source-git-commit: 147bd8cce875178f94dae5742bc6573b51f24d3a
+exl-id: 48f27aa6-d870-4228-8e62-db81699a25f7
+source-git-commit: 158c2a99ac43fd70726bedf30f4de1a970a48864
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '523'
 ht-degree: 3%
 
 ---
@@ -44,6 +45,16 @@ Experience Manager Guidesの **マップをダウンロード** ダイアログ�
 
 ## エディターでの `navref` 処理の強化
 
-エディタの最新の機能強化により、DITA マップ内のエレメント `navref` 処理が改善されました。 `navref` 要素をマップに追加すると、&lbrack;**パスを選択** ダイアログが開き、マップにナビゲーション リンクとして含めるマップ参照を簡単に選択できます。 追加されたマップのタイトルは、オーサービューとレイアウトビューの両方に表示されるため、オーサリング中に含まれるナビゲーションをより明確に把握できます。  さらに、追加された `navref` 要素は自動的に解決され、エディターに参照マップが表示されます。
+エディタの最新の機能強化により、DITA マップ内のエレメント `navref` 処理が改善されました。 `navref` 要素をマップに追加すると、[**パスを選択** ダイアログが開き、マップにナビゲーション リンクとして含めるマップ参照を簡単に選択できます。 追加されたマップのタイトルは、オーサービューとレイアウトビューの両方に表示されるため、オーサリング中に含まれるナビゲーションをより明確に把握できます。  さらに、追加された `navref` 要素は自動的に解決され、エディターに参照マップが表示されます。
 
 詳しくは、[ ナビゲーション参照を追加 ](../user-guide/map-editor-other-features.md#add-navigation-references) を参照してください。
+
+## AI アシスタントのパフォーマンスの強化
+
+このリリースでは、AI Assistant バックエンド エンジンの機能強化が導入され、パフォーマンスの向上と安定性の向上が実現しています。 この更新を有効にして AI アシスタント ヘルプを引き続き使用するには：
+
+- `chat.url` 設定を更新して、新しいエンドポイント URL を反映します。
+- Cloud Managerで新しい環境変数 `GUIDES_AI_SITE_ID` を追加します。
+
+詳しくは、[AI アシスタントの設定 ](../cs-install-guide/conf-smart-suggestions.md) を参照してください。
+
