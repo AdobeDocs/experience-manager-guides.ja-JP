@@ -45,7 +45,7 @@ Adobe Experience Manager Guidesを使用すると、システム内で管理さ�
 - [DITA アセットでのメタデータの管理 ](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/knowledge-base/kb-articles/authoring/reports/manage-metadata)
 - [DITA メタをメタデータとして抽出 ](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/install-guide/cs-ig/aem-asset-search-cs/conf-dita-search#id192SF0G10YK)
 - [DITA-OT 出力でのメタデータの使用 ](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/conf-output-generation#id191LF0U0TY4)
-- [ ネイティブPDFでのメタデータの使用 ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/web-editor/native-pdf-web-editor#native-pdf-publishing)
+- [ ネイティブPDFでのメタデータの使用 ](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/user-guide/output-gen/web-editor/native-pdf-web-editor#native-pdf-publishing)
 
 
 ### コミュニティフォーラム

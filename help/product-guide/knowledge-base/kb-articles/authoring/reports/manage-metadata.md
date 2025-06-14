@@ -57,8 +57,8 @@ DITA コンテンツにタグを追加する方法は様々ですが、ここで
 
 ## その他の役立つリソース
 
-- [ マップダッシュボードを使用した一括タグ付け（Assets UI） ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/manaege-metadata/map-editor-bulk-tagging.html?lang=en)
-- [Web エディター内の Ditamap レポート ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/reports-aem-guide/reports-web-editor.html?lang=en)
+- [ マップダッシュボードを使用した一括タグ付け（Assets UI） ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/manaege-metadata/map-editor-bulk-tagging.html?lang=ja)
+- [Web エディター内の Ditamap レポート ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/reports-aem-guide/reports-web-editor.html?lang=ja)
 - [AEMでのタグ付け ](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/configuring/tagging.html?lang=ja)
 
 

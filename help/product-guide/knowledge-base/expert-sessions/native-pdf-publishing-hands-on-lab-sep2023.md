@@ -48,7 +48,7 @@ ht-degree: 1%
 
 ## 関連リソース
 
-- **ネイティブPDF設定手順** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.html?lang=en)
+- **ネイティブPDF設定手順** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.html?lang=ja)
 
 - **ネイティブPDFパブリッシングの機能の概要** - [ オンExperience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23.html?lang=ja)
 

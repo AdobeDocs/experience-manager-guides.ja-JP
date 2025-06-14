@@ -40,9 +40,9 @@ Web エクスペリエンスのレイアウトを明確に定義すると、一�
 ## 関連リソース
 
 
-- [AEM サイト出力の公開 ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-aem-site#:~:text=To%20open%20output%20presets%20for,configurations%2C%20and%20then%20click%20Save.)
+- [AEM サイト出力の公開 ](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-aem-site#:~:text=To%20open%20output%20presets%20for,configurations%2C%20and%20then%20click%20Save.)
 
-- [KB 出力の公開 ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-knowledge-base)
+- [KB 出力の公開 ](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-knowledge-base)
 
 - [AEM テンプレート ](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/developing/platform/templates/templates)
 
