@@ -4,9 +4,9 @@ description: Adobe Experience Manager Guidesで DIVATAL Editor を使用して D
 exl-id: f3901a4f-1925-42aa-b773-0d6f18175ce8
 feature: Authoring, DITAVAL Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: a49234698e040c7441ea0f82265f4b7936a95dfc
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1501'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 DITAVAL ファイルは、条件付き出力の生成に使用されます。 単一のトピックで、要素の属性を使用してコンテンツの条件を設定する条件を追加できます。 次に、DITAVAL ファイルを作成します。このファイルでは、コンテンツを生成するために取得する必要がある条件と、最終的な出力から除外する必要がある条件を指定します。
 
-Adobe Experience Manager Guidesでは、DITAVAL エディタを使用して DITAVAL ファイルを簡単に作成および編集できます。 DITAVAL エディタは、システムで定義されている属性\（またはタグ\）を取得し、それらを使用して DITAVAL ファイルを作成または編集できます。 Adobe Experience Managerでのタグの作成と管理について詳しくは、Adobe Experience Manager ドキュメントの [ タグの管理 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=ja) の節を参照してください。
+Adobe Experience Manager Guidesでは、DITAVAL エディタを使用して DITAVAL ファイルを簡単に作成および編集できます。 DITAVAL エディタは、システムで定義されている属性（条件として使用できる）を取得し、これらを使用して DITAVAL ファイルを作成または編集できます。 Adobe Experience Managerでの条件の作成と管理について詳しくは、Adobe Experience Manager ドキュメントの [ タグの管理 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) の節を参照してください。
 
 以下の節では、Experience Manager Guidesの DITAVAL ファイルで使用できるオプションについて説明します。
 
@@ -30,7 +30,7 @@ DITAVAL ファイルを作成するには、以下の手順を実行します。
 
 1. リポジトリパネルで「**新規ファイル**」アイコンを選択し、ドロップダウンメニューから「**トピック**」を選択します。
 
-   ![](images/new-file-option.png){align="left"}
+   ![](images/new-file-option.png){width="300" align="left"}
 
    このオプションには、[Experience Manager Guidesのホームページ ](./intro-home-page.md) およびリポジトリビューのフォルダーのオプションメニューからもアクセスできます。
 
@@ -55,41 +55,113 @@ DITAVAL ファイルを作成するには、以下の手順を実行します。
 
 DITAVAL トピックを作成すると、エディタで開いて編集できます。 既存の DITAVAL トピックを編集するには、DITAVAL トピックが存在するフォルダまたはマップに移動し、**オプション** メニューから **編集** を選択します。
 
-DITAVAL エディタでは、次のタスクを実行できます。
+DITAVAL エディタでは、エディタのツールバーのオプションを使用して、以下に示すように複数のタスクを実行できます。
 
-- 左パネルを切り替え
+### エディターツールバーオプション
 
-  左側のパネルビューを切り替えます。 DITA マップを使用して DITAVAL ファイルを開いた場合、マップとリポジトリがこのパネルに表示されます。 DITA マップを使用してファイルを開く方法の詳細については、[DITA マップを使用してトピックを編集 ](map-editor-advanced-map-editor.md#id17ACJ0F0FHS) を参照してください。
+#### メニュードロップダウン
 
-- 保存
+メニュードロップダウンから、編集アクション、検索と置換、バージョン履歴、バージョンラベル、結合、レビュータスクの作成、変更の追跡、タグ機能にアクセスできます。
+詳しくは、「[ メニュー」ドロップダウンオプション ](./web-editor-toolbar.md#menu-dropdown) を参照してください。
 
-  ファイルへの変更を保存します。 すべての変更は、ファイルの現在のバージョンに保存されます。
+#### Prop を追加
 
-- Prop を追加
+DITAVAL ファイルに 1 つのプロパティを追加します。
 
-  DITAVAL ファイルに 1 つのプロパティを追加します。
+![](images/ditaval-editor-props-new.png){width="650" align="left"}
 
-  ![](images/ditaval-editor-props-new.png)
+最初のドロップダウンには、DITAVAL ファイルで使用できる DITA 属性が表示されます。
 
-  最初のドロップダウンには、DITAVAL ファイルで使用できる DITA 属性が表示されます。 サポートされている属性は、`audience`、`platform`、`product`、`props` および `otherprops` の 5 つです。
+2 つ目のドロップダウンリストには、選択した属性に設定された値が表示されます。 次に、選択した属性に対して設定できるアクションが次のドロップダウンリストに表示されます。 アクションドロップダウンで使用できる値は、`include`、`exclude`、`passthrough`、`flag` です。 これらの値について詳しくは、OASIS DITA 文書の [prop](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop) 要素の定義を参照してください。 属性に追加されたプロパティのアクションの詳細については、[ プロパティのアクション ](#actions-for-property) を参照してください。
 
-  2 つ目のドロップダウンリストには、選択した属性に設定された値が表示されます。 次に、選択した属性に対して設定できるアクションが次のドロップダウンリストに表示されます。 アクションドロップダウンで使用できる値は、`include`、`exclude`、`passthrough`、`flag` です。 これらの値について詳しくは、OASIS DITA 文書の [prop](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop) 要素の定義を参照してください
+#### 収益プロパティを追加
 
-- すべてのプロパティを追加
+XML のタグに特定のリビジョン番号を追加するには、Add rev prop オプションを使用します。 rev 属性がタグに追加され、その値は、プロパティに対して選択したアクションと共に、「値」フィールドで定義された値となります。 このリビジョン属性は、後で出力の生成時に、指定されたリビジョン番号に基づいて関連する XML コンテンツをフィルタリングするために使用できます。
 
-  システム内で定義されているすべての条件付きプロパティまたは属性を 1 回のクリックで追加する場合は、「すべてのプロパティを追加」機能を使用します。
+![](images/ditaval-rev-props.png){width="650" align="left"}
 
-  >[!NOTE]
-  >
-  > 定義済みの条件付きプロパティがすべて DITAVAL ファイルに存在する場合、プロパティを追加することはできません。 このシナリオでは、エラーメッセージが表示されます。
+#### すべての Prop を追加
 
-  ![](images/ditaval-all-props-new.png)
-
-DITAVAL ファイルの編集が完了したら、「**保存**」を選択します。
+システムで定義されているすべての条件付きプロパティまたは属性を 1 回のクリックで追加する場合は、すべての prop の追加機能を使用します。 アクションドロップダウンで使用できる値は、`include`、`exclude`、`passthrough`、`flag` です。 これらのアクションの詳細については、以下で説明します。
 
 >[!NOTE]
 >
-> 保存せずにファイルを閉じると、変更内容は失われます。 変更内容をAdobe Experience Manager リポジトリにコミットしない場合は、「**未保存の変更内容** ダイアログで「**&#x200B;** 閉じる **」を選択したあと、「保存せずに閉じる** を選択します。
+> 定義済みの条件付きプロパティがすべて DITAVAL ファイルに存在する場合、プロパティを追加することはできません。 このシナリオでは、エラーメッセージが表示されます。
+
+
+![](images/ditaval-all-props-new.png){width="650" align="left"}
+
+
+
+##### プロパティのアクション
+
+特定のプロパティで使用できるアクションは主に 4 つあり、次のようにリストされています。
+
+**Include:** 出力にコンテンツを含めます。 特に設定しない限り、これはデフォルトの動作です。
+
+**除外：** コンテンツを出力から除外します（特定の属性のすべての値が除外される場合）。
+
+**パススルー：** 出力に内容を含め、属性値を出力ストリームの一部として保持して、実行時エンジンによるさらに処理（個々のユーザー設定に基づく実行時フィルタリングなど）を行います。
+
+**フラグの追加：** 出力内のコンテンツにフラグを立てるには、ファイル内の目的の属性のアクションとしてフラグを設定します。 また、以下のスニペットに示すように、**フラグスタイル** ドロップダウンを使用して、様々なフラグスタイルを適用することもできます。
+
+
+![](images/ditaval-flag-style.png){width="650" align="left"}
+
+
+- **背景色**：背景色から色相、彩度、コントラストを選択します。 対応する 16 進数値は、選択に基づいて自動的に更新されます。 また、ドロップダウンを使用してカラースペースの形式を切り替え、16 進数、RGB、HSB から選択することもできます。
+
+
+![](images/ditaval-background-color.png){width="650" align="left"}
+
+
+
+- **テキストカラー**：テキストのカラーから、色相、彩度、コントラストを選択します。 対応する 16 進数値は、選択に基づいて自動的に更新されます。 また、ドロップダウンを使用してカラースペースの形式を切り替え、16 進数、RGB、HSB から選択することもできます。
+
+
+![](images/ditaval-text-color.png){width="650" align="left"}
+
+
+
+- **スタイル設定オプション**：太字、斜体、下線、上線、二重下線など、いくつかのスタイル設定オプションを追加できます。
+
+
+![](images/ditaval-styling-option.png){width="650" align="left"}
+
+
+
+- **開始フラグと終了フラグ**:「**フラグの追加** ボタンを使用して、開始フラグと終了フラグとして画像を挿入できます。 画像を選択するには、**Assetsを参照** を使用して Guides リポジトリーから選択するか、**ファイルを追加** を使用してローカルシステムからアップロードします。 さらに、画像の代替テキストを指定できます。
+
+
+![](images/ditaval-start-end-flags.png){width="650" align="left"}
+
+
+
+- **スタイルの競合**:1 つの要素に、異なるフラグスタイルを持つ複数のプロパティが含まれている場合に発生する競合を解決します。 このような場合、スタイルの競合プロパティで定義された値が選択され、背景色とテキストカラーのデフォルト値ピッカーとして効果的に機能します。
+
+
+![](images/ditaval-style-conflict.png){width="650" align="left"}
+
+
+#### バージョン情報と新しいバージョンとして保存
+
+バージョン情報と新しいバージョンとして保存機能は、バージョントラッキングとコンテンツ保存を 1 つの機能に統合したものです。
+詳しくは、「新しいバージョンとして保存 [ を参照してください ](./web-editor-toolbar.md#version-information-and-save-as-new-version)
+
+
+#### ロック/ロック解除
+
+現在のファイルをロックまたはロック解除します。 ファイルをロックすると、そのファイルへの排他的な書き込みアクセスが可能になります。
+詳しくは、[ ファイルのロック解除 ](./web-editor-toolbar.md#lockunlock) を参照してください
+
+
+### コンテンツを保存
+
+DITAVAL ファイルの編集が完了したら、タブバーの **保存** を選択します。
+
+>[!NOTE]
+>
+> 保存せずにファイルを閉じると、変更内容は失われます。 変更内容をAdobe Experience Manager リポジトリにコミットしない場合は、「**未保存の変更内容** ダイアログで「**** 閉じる **」を選択したあと、「保存せずに閉じる** を選択します。
 
 ## DITAVAL エディタ ビュー
 
