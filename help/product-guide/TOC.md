@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: 0cbeef94aa1c2300feae33ad3bc53bef82ebec47
+source-git-commit: b114cbcc0f637a71a9d9b7458686a06070179983
 workflow-type: tm+mt
-source-wordcount: '2139'
+source-wordcount: '2277'
 ht-degree: 9%
 
 ---
@@ -140,8 +140,8 @@ ht-degree: 9%
                - [リリースノート（4.2.1）](./release-info/release-notes-4-2-1.md)
                - [4.2 リリースノート](./release-info/release-notes-4-2.md)
          - [4.1.x リリースノート](./release-info/release-notes-4-1.md)
-         - [4.0.x リリースノート ](https://helpx.adobe.com/jp/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x リリースノート ](https://helpx.adobe.com/jp/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x リリースノート ](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x リリースノート ](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - ユーザーガイド （新しい UI） {#user-guide}
    - はじめに {#about-aemg}
       - [概要  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -282,6 +282,47 @@ ht-degree: 9%
       - [ ドキュメントをスマートにオーサリングするための AI アシスタントオーサリング ](./user-guide/ai-assistant-right-panel.md)
       - [コンテンツを作成するための AI を活用したスマートな提案](./user-guide/authoring-ai-based-smart-suggestions.md)
       - [よくある質問](./user-guide/ai-assistant-faq.md)
+   - 学習コンテンツの管理 {#learning-training-content}
+      - はじめる前に {#get-started}
+         - はじめに {#intro-lc}
+            - [学習およびトレーニングコンテンツの概要](./learning-content/intro.md)
+            - [学習およびトレーニングコンテンツインターフェイスへのアクセス](./learning-content/access-lc-interface.md)
+         - コースを設定 {#setup-course}
+            - [コース概要](./learning-content/course-overview.md)
+            - [最初のコースを作成](./learning-content/create-first-course.md)
+            - [コースマネージャーの基本について](./learning-content/course-manager-basics.md)
+            - [コースの管理](./learning-content/manage-course.md)
+         - 学習コンテンツの作成とカスタマイズ {#customize-lc}
+            - [学習コンテンツの概要](./learning-content/lc-overview.md)
+            - [学習コンテンツを作成](./learning-content/create-content.md)
+            - [学習コンテンツを編集](./learning-content/edit-content.md)
+            - [基本的な構築ブロックの追加](./learning-content/lc-basic-blocks.md)
+            - [インタラクティブウィジェットの使用](./learning-content/lc-widgets.md)
+            - [インラインスタイルの使用](./learning-content/lc-inline-styles.md)
+         - クイズの作成と管理 {#quiz}
+            - [クイズの概要](./learning-content/quiz-overview.md)
+            - [クイズを作成](./learning-content/create-quiz.md)
+            - [クイズを編集](./learning-content/edit-quiz.md)
+            - [クイズへの質問の挿入](./learning-content/quiz-insert-questions.md)
+            - 質問バンク {#question-bank}
+               - [質問バンクの作成](./learning-content/create-qb.md)
+               - [質問バンクから質問を挿入](./learning-content/insert-questions.md)
+            - [ クイズのプロパティ ](./learning-content/quiz-properties.md)
+         - コースを公開する {#publish-course}
+            - [コースの公開について](./learning-content/publish-overview.md)
+            - [サポートされるプリセット](./learning-content/course-presets.md)
+            - SCORM 形式でのコースのパブリッシュ {#scorm-output}
+               - [SCORM 出力プリセットの作成](./learning-content/create-scorm-preset.md)
+               - [SCORM 出力プリセットの構成](./learning-content/config-scorm-preset.md)
+               - [SCORM 出力の生成](./learning-content/generate-scorm-output.md)
+            - コースをPDF形式で公開 {#pdf-output}
+               - [PDF出力プリセットの作成](./learning-content/create-course-pdf-preset.md)
+               - [PDF出力プリセットの設定](./learning-content/config-course-pdf-preset.md)
+               - [PDF の生成](./learning-content/generate-course-pdf.md)
+      - 設定ガイド {#config-lc}
+         - [このガイドについて](./lc-config-guide/introduction.md)
+         - [フォルダープロファイルの設定](./lc-config-guide/lc-folder-profile.md)
+         - [ その他の設定 ](./lc-config-guide/lc-other-settings.md)
    - 付録 {#appendix}
       - コンテンツを管理 {#manage-content}
          - [主な概念、役割と権限、前提条件](./user-guide/authoring.md)
@@ -291,7 +332,7 @@ ht-degree: 9%
       - トラブルシューティング {#troubleshooting}
          - [セッションタイムアウト](./user-guide/session-timeout-prompt.md)
 - ユーザーガイド（古い UI） {#user-guide-old-ui}
-   - [AEM Guidesの概要](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guidesの概要 ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - インストールと設定 {#install-guide}
    - オンプレミス {#on-prem-ig}
       - [オンプレミスの基本](./install-guide/introduction.md)
@@ -461,8 +502,7 @@ ht-degree: 9%
          - [コンテンツの翻訳](./cs-install-guide/translation.md)
       - AEM Assets検索の操作 {#aem-asset-search-cs}
          - [AEM Assets UI の検索の設定](./cs-install-guide/conf-dita-search.md)
-      - [付録](./cs-install-guide/appendix.md)
-
+      - [ 付録 ](./cs-install-guide/appendix.md)
 - API リファレンス {#api-reference}
    - [はじめに](./api-reference/introduction.md)
    - [出力管理用の REST API](./api-reference/output-management.md)
