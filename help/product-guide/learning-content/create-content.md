@@ -3,7 +3,8 @@ title: 学習コンテンツを作成
 description: 学習およびトレーニングコンテンツ内で学習コンテンツを作成する方法について説明します。
 feature: Authoring
 role: User
-source-git-commit: 110082f38f170d277dfd745a4fce77ad030707c3
+exl-id: a08a165d-801b-4b35-9626-b27471349327
+source-git-commit: 57ddd498cd06d7d8cb511b0c3108591280a35bdb
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 2%
@@ -19,7 +20,7 @@ ht-degree: 2%
    ![](assets/workflow-learning-content.png){width="650" align="left"}
 
 1. **学習コンテンツ** を選択します。
-新しい学習コンテンツ ダイアログが表示されます。
+**新しい学習コンテンツ** ダイアログが表示されます。
 
    ![](assets/learning-content-dialog.png){width="350" align="left"}
 
@@ -35,4 +36,3 @@ ht-degree: 2%
 >[!NOTE]
 >
 > 新しい学習コンテンツを作成すると、そのコンテンツにバージョン 1.0 が自動的に割り当てられます。
-

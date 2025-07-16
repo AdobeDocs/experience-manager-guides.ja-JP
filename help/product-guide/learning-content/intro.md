@@ -3,7 +3,8 @@ title: 学習およびトレーニングコンテンツの概要
 description: Adobe Experience Manager Guidesに存在するラーニングコンテンツおよびトレーニングコンテンツ機能について説明します。
 feature: Authoring
 role: User
-source-git-commit: fe7c2b0baf18ce834f0b805a883d2d5552e317ef
+exl-id: d00bc88c-e6ec-4aa3-971a-e9fbabe9a965
+source-git-commit: 57ddd498cd06d7d8cb511b0c3108591280a35bdb
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 学習コンテンツとトレーニングコンテンツがサポートされるので、エンタープライズ環境でインタラクティブな e ラーニングコンテンツを簡単に作成および管理できます。 テンプレートを使用してコースを作成したり、インタラクティブな要素（アコーディオン、カルーセル、マルチメディアなど）を追加したり、様々な質問タイプまたは質問バンクを使用してクイズを追加したり、サポートされている出力形式でコースを公開したりできます。
 
-![](assets/learning-and-training-content-components.jpg)
+![](assets/learning-and-training-content-components.png)
 
 ## コア機能の概要
 
@@ -26,7 +27,3 @@ ht-degree: 0%
 - クイズの作成と管理
 - 業界をリードする翻訳管理
 - 標準搭載の SCORM およびPDF出力フォーマットを使用したマルチチャネルパブリッシング
-
-
-
-

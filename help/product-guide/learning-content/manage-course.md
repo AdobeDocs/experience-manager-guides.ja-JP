@@ -3,7 +3,8 @@ title: 学習およびトレーニングコンテンツでのコースの管理
 description: コースを効率的に管理するためにExperience Manager Guidesに用意されている様々な機能について説明します。
 feature: Authoring
 role: User
-source-git-commit: 5f42540a32da6e85a5c8aa0831582ce871c9088a
+exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
+source-git-commit: 57ddd498cd06d7d8cb511b0c3108591280a35bdb
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 0%
@@ -36,24 +37,24 @@ ht-degree: 0%
 
 1. **オプション** メニュー/**既存を追加** を選択します。
 2. 作成するコースコンテンツのタイプを選択します。
-3. パスを選択ダイアログで、コンテンツの場所に移動し、目的の学習コンテンツを選択します。
+3. **パスを選択** ダイアログで、コンテンツの場所に移動し、目的の学習コンテンツを選択します。
 
    ![](assets/add-existing-learning-content.png)
 4. **選択** を選択します。
 
-選択した学習コンテンツがリポジトリからコースに追加されます。
+選択したコースコンテンツがリポジトリからコースに追加されます。
 
 ## コンテンツを削除
 
 次に示すように、特定のトピックの **オプション** メニューを選択し、「**削除**」を選択すると、コースから任意のトピックを削除できます。
 
-![](assets/remove-learning-content.png){width="350" align="left"}
+![](assets/remove-learning-content.png)
 
 ## コースバージョンの作成
 
 コースのバージョン管理を制御するには、**オプション** メニュー/**バージョン管理** を選択します。
 
-![](assets/course-versioning.png){width="650" align="left"}
+![](assets/course-versioning.png)
 
 コースのバージョン管理には、次のオプションがあります。
 
@@ -70,7 +71,3 @@ ht-degree: 0%
 > これらの表示設定はコースマネージャー内でのみ適用され、公開済みの出力には影響しません。
 
 ![](assets/course-display-settings.png)
-
-
-
-

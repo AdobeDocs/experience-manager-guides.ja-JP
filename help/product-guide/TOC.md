@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: b114cbcc0f637a71a9d9b7458686a06070179983
+source-git-commit: cc57af80f2556a9be9a7cc610ae0efa50e0e086b
 workflow-type: tm+mt
-source-wordcount: '2277'
+source-wordcount: '2283'
 ht-degree: 9%
 
 ---
@@ -140,8 +140,8 @@ ht-degree: 9%
                - [リリースノート（4.2.1）](./release-info/release-notes-4-2-1.md)
                - [4.2 リリースノート](./release-info/release-notes-4-2.md)
          - [4.1.x リリースノート](./release-info/release-notes-4-1.md)
-         - [4.0.x リリースノート ](https://helpx.adobe.com/jp/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x リリースノート ](https://helpx.adobe.com/jp/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x リリースノート ](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x リリースノート ](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - ユーザーガイド （新しい UI） {#user-guide}
    - はじめに {#about-aemg}
       - [概要  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -323,6 +323,9 @@ ht-degree: 9%
          - [このガイドについて](./lc-config-guide/introduction.md)
          - [フォルダープロファイルの設定](./lc-config-guide/lc-folder-profile.md)
          - [ その他の設定 ](./lc-config-guide/lc-other-settings.md)
+      - ビデオチュートリアル {#lc-video}
+         - [オーサーワークフロー](./lc-video-tutorials/author-workflow.md)
+         - [管理者ワークフロー](./lc-video-tutorials/admin-workflow.md)
    - 付録 {#appendix}
       - コンテンツを管理 {#manage-content}
          - [主な概念、役割と権限、前提条件](./user-guide/authoring.md)
@@ -332,7 +335,7 @@ ht-degree: 9%
       - トラブルシューティング {#troubleshooting}
          - [セッションタイムアウト](./user-guide/session-timeout-prompt.md)
 - ユーザーガイド（古い UI） {#user-guide-old-ui}
-   - [AEM Guidesの概要](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guidesの概要 ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - インストールと設定 {#install-guide}
    - オンプレミス {#on-prem-ig}
       - [オンプレミスの基本](./install-guide/introduction.md)
