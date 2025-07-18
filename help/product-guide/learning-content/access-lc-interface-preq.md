@@ -3,7 +3,7 @@ title: インターフェイスと前提条件を確認します
 description: Adobe Experience Manager Guidesでラーニングおよびトレーニングコンテンツを使用する際のインターフェイスと前提条件を確認します。
 feature: Authoring
 role: User
-source-git-commit: 200aae4c5d05531da5413c80a1cf254d2c0f0ec3
+source-git-commit: eda6c57d80359b1c70266708dc444f4880e1bf6c
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 2%
@@ -28,7 +28,7 @@ ht-degree: 2%
 
    詳しくは、[Adobe Experience Manager Guidesのホームページエクスペリエンス ](../user-guide/intro-home-page.md) を参照してください。
 
-   ![](assets/aem-navigation-switcher.png){width="300" align="left"}
+   ![](assets/aem-navigation-switcher.png){width="350" align="left"}
 
 ## 前提条件
 
