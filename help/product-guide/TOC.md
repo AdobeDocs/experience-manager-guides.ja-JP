@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: cc57af80f2556a9be9a7cc610ae0efa50e0e086b
+source-git-commit: 200aae4c5d05531da5413c80a1cf254d2c0f0ec3
 workflow-type: tm+mt
-source-wordcount: '2283'
+source-wordcount: '2282'
 ht-degree: 9%
 
 ---
@@ -140,8 +140,8 @@ ht-degree: 9%
                - [リリースノート（4.2.1）](./release-info/release-notes-4-2-1.md)
                - [4.2 リリースノート](./release-info/release-notes-4-2.md)
          - [4.1.x リリースノート](./release-info/release-notes-4-1.md)
-         - [4.0.x リリースノート ](https://helpx.adobe.com/jp/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x リリースノート ](https://helpx.adobe.com/jp/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x リリースノート ](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x リリースノート ](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - ユーザーガイド （新しい UI） {#user-guide}
    - はじめに {#about-aemg}
       - [概要  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -285,10 +285,10 @@ ht-degree: 9%
    - 学習コンテンツの管理 {#learning-training-content}
       - はじめる前に {#get-started}
          - はじめに {#intro-lc}
-            - [学習およびトレーニングコンテンツの概要](./learning-content/intro.md)
-            - [学習およびトレーニングコンテンツインターフェイスへのアクセス](./learning-content/access-lc-interface.md)
+            - [ ラーニングおよびトレーニングの内容の概要 ](./learning-content/intro.md)
          - コースを設定 {#setup-course}
             - [コース概要](./learning-content/course-overview.md)
+            - [インターフェイスと前提条件を確認します](./learning-content/access-lc-interface-preq.md)
             - [最初のコースを作成](./learning-content/create-first-course.md)
             - [コースマネージャーの基本について](./learning-content/course-manager-basics.md)
             - [コースの管理](./learning-content/manage-course.md)
@@ -335,7 +335,7 @@ ht-degree: 9%
       - トラブルシューティング {#troubleshooting}
          - [セッションタイムアウト](./user-guide/session-timeout-prompt.md)
 - ユーザーガイド（古い UI） {#user-guide-old-ui}
-   - [AEM Guidesの概要](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guidesの概要 ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - インストールと設定 {#install-guide}
    - オンプレミス {#on-prem-ig}
       - [オンプレミスの基本](./install-guide/introduction.md)
