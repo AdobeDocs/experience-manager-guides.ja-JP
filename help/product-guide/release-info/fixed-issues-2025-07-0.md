@@ -1,9 +1,10 @@
 ---
 title: リリースノート | Adobe Experience Manager Guides、2025.07.0 リリースの問題を修正しました
 description: Adobe Experience Manager Guides as a Cloud Service 2025.07.0 リリースのバグ修正について説明します。
-source-git-commit: bf8b295444a1e21fc19bfbc04efaa20fe78f71bb
+exl-id: 0744e821-5aee-432b-a6c8-7ed6538935db
+source-git-commit: c4d3cdd2a0a98b7c9c937c66c5c3130bf4c5c164
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '527'
 ht-degree: 4%
 
 ---
@@ -50,6 +51,6 @@ ht-degree: 4%
 Adobeでは、2025.07.0 リリースの次の既知の問題を特定しました。
 
 - Markdown トピックを操作する場合、エディターツールバーに **トピック参照** ボタンが表示されますが、機能しません。 （GUIDES-31038）
-- Adobe Experience Manager デスクトップアプリケーションを使用して大文字の名前のフォルダーをアップロードすると、大文字と小文字が区別されず、エディターで名前が小文字で表示されます。 （GUIDES-30909）
+- エディターで、フォルダータイトルの代わりにフォルダーノード名が正しく表示されません。 （GUIDES-30909）
 - **結合** ダイアログで、ドロップダウンリストに、選択したトピックの使用可能なバージョンが表示されるのではなく **メインコンテンツ** と誤って表示されます。 （GUIDES-30820）
 - 統合シェルを有効にして DITA マップを開くと、エディタが断続的に更新されます。（GUIDES-26919）
