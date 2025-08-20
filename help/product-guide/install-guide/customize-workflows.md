@@ -110,7 +110,7 @@ workflowdata.getMetaDataMap().put("ditamapHierarchy", ditamapHierarchy);
 | `reviewType` | 文字列 | 静的値「AEM」。 |
 | `versionJson` | JSON オブジェクト | versionJson は、各トピックオブジェクトが次の構造を持つ、レビュー中のトピックのリストです [ { &quot;path&quot;: &quot;/content/dam/1-topic.dita&quot;, &quot;version&quot;: &quot;1.1&quot;, &quot;review&quot;: true, &quot;reviewers&quot;: [&quot;projects-we_retail-editor&quot;] } ] |
 | `isDitamap` | ブーリアン | false/true |
-| `ditamapHierarchy` | JSON オブジェクト | マップが確認用に送信される場合、ここにある値は次のようになります。[ { &quot;path&quot;: &quot;GUID-f0df1513-fe07-473f-9960-477d4df29c87.ditamap&quot;, &quot;items&quot;: [ { &quot;path&quot;: &quot;GUID-9747e8ab-8cf1-45dd-9e20-d47d482f67d.d.dita&quot;, &quot;title&quot;: &quot;&quot;, &quot;items&quot;: [] } } ]。 |
+| `ditamapHierarchy` | JSON オブジェクト | マップが確認用に送信される場合、ここにある値は次のようになります。&lbrack; { &quot;path&quot;: &quot;GUID-f0df1513-fe07-473f-9960-477d4df29c87.ditamap&quot;, &quot;items&quot;: [ { &quot;path&quot;: &quot;GUID-9747e8ab-8cf1-45dd-9e20-d47d482f67d.d.dita&quot;, &quot;title&quot;: &quot;&quot;, &quot;items&quot;: [] } } ]。 |
 | `ditamap` | 文字列 | レビュータスクの ditamap のパスを指定します |
 | `allowAllReviewers` | ブーリアン | false/true |
 | `notifyViaEmail` | ブーリアン | false/true |
@@ -122,7 +122,7 @@ workflowdata.getMetaDataMap().put("ditamapHierarchy", ditamapHierarchy);
 
 ワークフローエンジンのパフォーマンスを向上させるために、完了したワークフローインスタンスをAEM リポジトリーから定期的に削除することができます。 デフォルトのAEM設定を使用している場合は、完了したすべてのワークフローインスタンスが、指定した期間の後にクリーンアップされます。 これにより、すべてのレビューワークフローがAEM リポジトリからパージされます。
 
-自動パージ設定からレビューワークフローモデル \（情報\）を削除することで、レビューワークフローが自動パージされないようにすることができます。 レビューワークフローモデルを自動パージリストから削除するには **** Adobe Granite のワークフローパージ設定を使用する必要があります。
+自動パージ設定からレビューワークフローモデル \（情報\）を削除することで、レビューワークフローが自動パージされないようにすることができます。 レビューワークフローモデルを自動パージリストから削除するには **&#x200B;**&#x200B;Adobe Granite のワークフローパージ設定を使用する必要があります。
 
 「**Adobe Granite のワークフローのパージ設定**」で、安全にパージできるワークフローを少なくとも 1 つリストしていることを確認します。 例えば、AEM Guidesで作成された次のワークフローのいずれかを使用できます。
 
