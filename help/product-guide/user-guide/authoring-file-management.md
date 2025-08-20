@@ -4,9 +4,9 @@ description: AEM Guidesでファイルとフォルダーを管理する方法に
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: 717d300c6e879bad573f67e3eb91dd266ab203c6
+source-git-commit: 14bbb3a055d8b528b6ed657be797c5fa96dd3e7e
 workflow-type: tm+mt
-source-wordcount: '3201'
+source-wordcount: '3263'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,6 @@ ht-degree: 0%
 - *宛先フォルダーに同じ名前のファイルが存在しない場合*：ファイルの新しいコピーが作成され、新しい場所に新しい UUID も割り当てられます。 ここで、ファイル名は UUID と同じです。
 - *同じ名前のファイルが既に保存先フォルダーに存在する場合*：ファイルの新しいコピーが作成され、新しい UUID も割り当てられます。 ファイル名は UUID と同じです。
 
-
 ## フォルダーのコピー&amp;ペースト
 
 **フォルダーを同じ場所にコピー&amp;ペースト**
@@ -43,6 +42,16 @@ ht-degree: 0%
 - *フォルダーには、人間が判読できるファイル名のファイルが含まれています*：フォルダーの新しいコピーが作成され、新しい UUID も新しい場所にあるフォルダー内のすべてのファイルに割り当てられます。 ここでは、フォルダー名やファイル名は変更されません。
 
 - *フォルダーには、UUID パターンに基づいたファイル名を持つファイルがあります*：フォルダーの新しいコピーが、元のフォルダーと同じ名前で作成されます。 また、新しいフォルダー内のすべてのファイルに新しい UUID が割り当てられます。 ファイル名も変更されます。ファイル名は新しい UUID と同じです。
+
+**成功メッセージと通知**
+
+Assets UI のフォルダーに対するコピー&amp;ペースト操作は、バックグラウンドで非同期に実行されるので、システムがリクエストを処理している間も作業を続けることができます。 プロセスが開始されたことを示すポップアップメッセージが表示されます。
+
+![](images/copy-folders-success-popup.png){width="350" align="left"}
+
+操作が完了すると、成功または失敗の通知がトリガーされ、操作が成功したか失敗したかが示されます。
+
+![](images/copy-folders-success-notification.png){width="650" align="left"}
 
 
 ## ファイルのドラッグ&amp;ドロップ
@@ -317,4 +326,4 @@ Adobe Experience Manager リポジトリからのファイルの削除は制限�
    ![](images/media-version-preview.png){width="650" align="center"}
 
 
-**親トピック：**&#x200B;[ コンテンツの管理 ](authoring.md)
+**親トピック：**[ コンテンツの管理 ](authoring.md)

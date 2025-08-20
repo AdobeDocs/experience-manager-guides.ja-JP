@@ -5,10 +5,10 @@ exl-id: 38711c0c-efa8-461a-92e1-ecfcdcdd36d3
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: a3c7973868549c72e868c05a3fc6ca8bdce9bce3
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 1%
+source-wordcount: '327'
+ht-degree: 0%
 
 ---
 
@@ -47,6 +47,7 @@ ht-degree: 1%
    "required": {"navtitle": true}
    ```
 
+   `true` に設定すると、「**ナビゲーションタイトル属性の更新** ボタンが有効になり、エディターツールバーに表示されます。 `false` に設定するか、空のままにすると、ボタンはエディターで非表示のままになります。
 1. ファイルを保存します。
 
 1. 対応するプロファイル \（グローバルまたはフォルダー\）にファイルをアップロードします。
@@ -54,4 +55,6 @@ ht-degree: 1%
 
 この設定では、マップに追加するすべての参照ファイルに、デフォルトで `@navtitle` 属性が含まれます。
 
-**親トピック：**&#x200B;[ Web エディタのカスタマイズ ](conf-web-editor.md)
+
+
+**親トピック：**[ Web エディタのカスタマイズ ](conf-web-editor.md)

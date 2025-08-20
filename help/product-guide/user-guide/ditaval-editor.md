@@ -4,7 +4,7 @@ description: Adobe Experience Manager Guidesで DIVATAL Editor を使用して D
 exl-id: f3901a4f-1925-42aa-b773-0d6f18175ce8
 feature: Authoring, DITAVAL Editor
 role: User
-source-git-commit: a49234698e040c7441ea0f82265f4b7936a95dfc
+source-git-commit: cbc9cd59e36dad63b25866b2d5c52a7380dc7d26
 workflow-type: tm+mt
 source-wordcount: '1501'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 DITAVAL ファイルは、条件付き出力の生成に使用されます。 単一のトピックで、要素の属性を使用してコンテンツの条件を設定する条件を追加できます。 次に、DITAVAL ファイルを作成します。このファイルでは、コンテンツを生成するために取得する必要がある条件と、最終的な出力から除外する必要がある条件を指定します。
 
-Adobe Experience Manager Guidesでは、DITAVAL エディタを使用して DITAVAL ファイルを簡単に作成および編集できます。 DITAVAL エディタは、システムで定義されている属性（条件として使用できる）を取得し、これらを使用して DITAVAL ファイルを作成または編集できます。 Adobe Experience Managerでの条件の作成と管理について詳しくは、Adobe Experience Manager ドキュメントの [ タグの管理 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=ja) の節を参照してください。
+Adobe Experience Manager Guidesでは、DITAVAL エディタを使用して DITAVAL ファイルを簡単に作成および編集できます。 DITAVAL エディタは、システムで定義されている属性（条件として使用できる）を取得し、これらを使用して DITAVAL ファイルを作成または編集できます。 Adobe Experience Managerでの条件の作成と管理について詳しくは、Adobe Experience Manager ドキュメントの [ タグの管理 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) の節を参照してください。
 
 以下の節では、Experience Manager Guidesの DITAVAL ファイルで使用できるオプションについて説明します。
 
@@ -30,7 +30,7 @@ DITAVAL ファイルを作成するには、以下の手順を実行します。
 
 1. リポジトリパネルで「**新規ファイル**」アイコンを選択し、ドロップダウンメニューから「**トピック**」を選択します。
 
-   ![](images/new-file-option.png){width="300" align="left"}
+   ![](images/new-file-option.png){width="350" align="left"}
 
    このオプションには、[Experience Manager Guidesのホームページ ](./intro-home-page.md) およびリポジトリビューのフォルダーのオプションメニューからもアクセスできます。
 
@@ -42,7 +42,7 @@ DITAVAL ファイルを作成するには、以下の手順を実行します。
    - トピックの基になるテンプレート。 DITAVAL ファイルの場合は、ドロップダウンリストから「**Ditaval**」を選択します。
    - トピック ファイルを保存するパス。 デフォルトでは、リポジトリで現在選択されているフォルダーのパスが「パス」フィールドに表示されます。
 
-   ![](images/new-topic-dialog-ditaval.png){width="300" align="left"}
+   ![](images/new-topic-dialog-ditaval.png){width="350" align="left"}
 
 
 4. 「**作成**」を選択します。
@@ -112,35 +112,35 @@ XML のタグに特定のリビジョン番号を追加するには、Add rev pr
 - **背景色**：背景色から色相、彩度、コントラストを選択します。 対応する 16 進数値は、選択に基づいて自動的に更新されます。 また、ドロップダウンを使用してカラースペースの形式を切り替え、16 進数、RGB、HSB から選択することもできます。
 
 
-![](images/ditaval-background-color.png){width="650" align="left"}
+  ![](images/ditaval-background-color.png){width="350" align="left"}
 
 
 
 - **テキストカラー**：テキストのカラーから、色相、彩度、コントラストを選択します。 対応する 16 進数値は、選択に基づいて自動的に更新されます。 また、ドロップダウンを使用してカラースペースの形式を切り替え、16 進数、RGB、HSB から選択することもできます。
 
 
-![](images/ditaval-text-color.png){width="650" align="left"}
+  ![](images/ditaval-text-color.png){width="350" align="left"}
 
 
 
 - **スタイル設定オプション**：太字、斜体、下線、上線、二重下線など、いくつかのスタイル設定オプションを追加できます。
 
 
-![](images/ditaval-styling-option.png){width="650" align="left"}
+  ![](images/ditaval-styling-option.png){width="350" align="left"}
 
 
 
 - **開始フラグと終了フラグ**:「**フラグの追加** ボタンを使用して、開始フラグと終了フラグとして画像を挿入できます。 画像を選択するには、**Assetsを参照** を使用して Guides リポジトリーから選択するか、**ファイルを追加** を使用してローカルシステムからアップロードします。 さらに、画像の代替テキストを指定できます。
 
 
-![](images/ditaval-start-end-flags.png){width="650" align="left"}
+  ![](images/ditaval-start-end-flags.png){width="350" align="left"}
 
 
 
 - **スタイルの競合**:1 つの要素に、異なるフラグスタイルを持つ複数のプロパティが含まれている場合に発生する競合を解決します。 このような場合、スタイルの競合プロパティで定義された値が選択され、背景色とテキストカラーのデフォルト値ピッカーとして効果的に機能します。
 
 
-![](images/ditaval-style-conflict.png){width="650" align="left"}
+  ![](images/ditaval-style-conflict.png){width="650" align="left"}
 
 
 #### バージョン情報と新しいバージョンとして保存
@@ -161,7 +161,7 @@ DITAVAL ファイルの編集が完了したら、タブバーの **保存** を
 
 >[!NOTE]
 >
-> 保存せずにファイルを閉じると、変更内容は失われます。 変更内容をAdobe Experience Manager リポジトリにコミットしない場合は、「**未保存の変更内容** ダイアログで「**&#x200B;** 閉じる **」を選択したあと、「保存せずに閉じる** を選択します。
+> 保存せずにファイルを閉じると、変更内容は失われます。 変更内容をAdobe Experience Manager リポジトリにコミットしない場合は、「**未保存の変更内容** ダイアログで「**** 閉じる **」を選択したあと、「保存せずに閉じる** を選択します。
 
 ## DITAVAL エディタ ビュー
 

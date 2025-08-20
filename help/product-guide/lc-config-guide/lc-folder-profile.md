@@ -4,9 +4,10 @@ description: Experience Manager Guidesの学習およびトレーニングコン
 feature: Authoring
 role: Admin
 level: Experienced
-source-git-commit: b114cbcc0f637a71a9d9b7458686a06070179983
+exl-id: dc26ae48-c953-492c-823a-5f65157b6902
+source-git-commit: f14ee85ccc49abd662a046b2bd4e7be2eece4902
 workflow-type: tm+mt
-source-wordcount: '1296'
+source-wordcount: '1451'
 ht-degree: 0%
 
 ---
@@ -17,12 +18,23 @@ ht-degree: 0%
 
 学習およびトレーニングコンテンツのフォルダープロファイル設定を開始するには、次が必要です。
 
-1. [ フォルダープロファイルの作成 ](../cs-install-guide/conf-folder-level.md#create-and-configure-a-folder-level-profile)。
-2. **設定するフォルダープロファイルを選択する**：フォルダープロファイルを作成したら、[ ユーザー環境設定 ](../user-guide/intro-home-page.md#user-preferences) ページでフォルダープロファイルを選択して、作成者と公開者が正しいテンプレートにアクセスできるようにする必要があります。
+1. **オーサリングおよび出力テンプレートを管理するための様々なフォルダーの作成**：企業内の異なる部門や製品で働く作成者や公開者のためのフォルダーを作成できます。 これらのフォルダーは特定のフォルダープロファイルにマッピングできます。各プロファイルには異なるオーサリングおよび出力テンプレートが設定され、部門固有の学習コースの作成と分散管理をサポートしています。
+
+   新しいフォルダーは、リポジトリーパネルから作成できます。
+
+   ![](assets/create-new-folder.png){width="350" align="left"}
+2. **翻訳を管理するための言語フォルダーの作成**：コンテンツを異なる言語に翻訳する場合、各言語に対応するフォルダーを作成する必要があります。 これらの各言語フォルダーには、その言語に対応するコンテンツが含まれます。
+
+   詳しくは、[ コンテンツ翻訳のベストプラクティス ](../user-guide/translation-first-time.md) を参照してください。
+3. **Assetsを管理するフォルダーを作成**：フォルダーと同様に、異なる部署のニーズに応じて、異なるAssets フォルダーを作成することもできます。 また、作成者と公開者がテンプレート、画像、その他のアセットに設定された正しい CSS にアクセスできるようにします。
+
+   ![](assets/configure-assets-folder.png){width="350" align="left"}
+4. [ フォルダープロファイルを作成 ](../cs-install-guide/conf-folder-level.md#create-and-configure-a-folder-level-profile) して、様々なフォルダーをマッピングします。
+5. **設定するフォルダープロファイルを選択する**：フォルダープロファイルを作成したら、[ ユーザー環境設定 ](../user-guide/intro-home-page.md#user-preferences) ページでフォルダープロファイルを選択して、作成者と公開者が正しいテンプレートにアクセスできるようにする必要があります。
 
    ![](assets/folder-profile.png){width="650" align="left"}
 
-3. **フォルダープロファイル設定の指定**：学習コンテンツとトレーニングコンテンツの場合、次の設定をフォルダーレベルで設定できます。
+6. **フォルダープロファイル設定の指定**：学習コンテンツとトレーニングコンテンツの場合、次の設定をフォルダーレベルで設定できます。
    - [パネル](#configure-panels)
    - [テンプレート](#configure-templates)
    - [出力プリセット](#configure-output-presets)

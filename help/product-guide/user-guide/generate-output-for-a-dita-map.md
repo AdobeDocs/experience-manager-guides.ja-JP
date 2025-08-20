@@ -4,9 +4,9 @@ description: AEM Guidesのマップコンソールとマップダッシュボー
 exl-id: d6cbd44c-e74c-4192-bcc4-fb7752c59508
 feature: Publishing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 358d38ca761661eaee7aeac2cc7d46c53105c543
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,15 @@ DITA マップの出力を生成する方法は 2 つあります。
 
 1 つ以上のトピックのAEM Sites出力や、DITA マップ全体をマップコンソールから生成することもできます。 詳しくは、[ ナレッジベース出力の生成 ](web-editor-article-publishing.md#id218CK0U019I) を参照してください。
 
+## `chunk` 属性を使用した DITA マップ内の異なるトピックのマージ
+
+DITA マップには、参照、概念、タスクなど、様々なトピックタイプを含めることができます。 `chunk=to-content` 属性を使用すると、これらのトピックを結合して、1 つのページ出力をAEM Sitesで生成できます。 ただし、マージしたトピックを適切に公開するには、管理者が DITA プロファイルに正しい XML カタログを設定していることを確認してください。
+
+適切な DTD ルールを正しく識別して適用するには、XML カタログ内で `composite` キーワードを持つパブリック ID が必要です。
+この設定は、標準の XML カタログにデフォルトで含まれています。 ただし、カスタム XML カタログを使用している場合は、この公開 ID が設定に管理者によって追加されていることを確認してください。 これがないと、結合されたトピックが正しく公開されない場合があります。
+
+カスタム DTD/XSD でパブリック ID とシステム ID を使用する方法については、「[DITA 特殊化の統合 ](../cs-install-guide/dita-ot-specialization.md#integrate-dita-specialization-id211mb0e00xa)」を参照してください。
 
 
 
-**親トピック：**&#x200B;[ 出力生成 ](generate-output.md)
+**親トピック：**[ 出力生成 ](generate-output.md)

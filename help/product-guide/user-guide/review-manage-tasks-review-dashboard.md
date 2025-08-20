@@ -4,9 +4,9 @@ description: AEM Guidesのレビューダッシュボードからレビュータ
 exl-id: 4fef5653-1c73-4b68-adf2-b24145555142
 feature: Reviewing
 role: User
-source-git-commit: 717d300c6e879bad573f67e3eb91dd266ab203c6
+source-git-commit: 19e521ed790a7ac25afab88e8878250f943d9bff
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1348'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,10 @@ ht-degree: 0%
    タスクタイルを含むプロジェクトパネルが表示されます。
 
    ![](images/review-management.png){align="left"}
+
+   >[!NOTE]
+   >
+   > または、エディターの左側のパネルからプロジェクトダッシュボードに直接アクセスすることもできます。 [ レビューパネル ](./web-editor-left-panel.md#review) を開き、レビューパネルにリストされている各レビュープロジェクトに配置されている **プロジェクトダッシュボードを開く** アイコンを使用します。
 
 1. **レビュー** タイルの 3 ドットを選択します。
 
@@ -126,4 +130,4 @@ ht-degree: 0%
 - すべてのトピックに対して行われたコメントの合計数。 評価中のトピックが複数ある場合、各トピックのコメント数がトピック名に対して\（括弧で\）で示されます。
 - レビュー担当者がトピックに最後にアクセスした日付。
 
-**親トピック：**&#x200B;[ レビューの概要 ](review.md)
+**親トピック：**[ レビューの概要 ](review.md)

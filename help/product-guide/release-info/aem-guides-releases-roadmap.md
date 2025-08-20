@@ -3,9 +3,9 @@ title: Adobe Experience Manager Guides リリースロードマップ 2024
 description: Adobe Experience Manager Guides オンプレミスおよびAdobe Experience Manager Guides as a Cloud Serviceのライブリリースと今後のリリースについて説明します
 role: Admin, Leader, Developer, User
 exl-id: cb6709ce-2732-45d0-adfd-5aeca520240e
-source-git-commit: ff74fa80826eec9fffb06c84b1dd6fa8678f4fc3
+source-git-commit: bbc5b5eb2dbd002ac387e333fc63edf808c69587
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '463'
 ht-degree: 30%
 
 ---
@@ -27,7 +27,6 @@ Experience Manager Guides as a Cloud Serviceのリリースは次のように予
 
 | リリース | イベント | スケジュール | 新機能 | アップグレード手順 | 修正された問題 | ステータス |
 |---|---|---|---|---|---|---|
-| Adobe Experience Manager Guides 2025.08.0 | 自動更新 | 2025年8月25～27日 |  |  |  | ターゲット |
 | Adobe Experience Manager Guides 2025.10.0 | 自動更新 | 2025 年 10 月 6～8 日 |  |  |  | ターゲット |
 | Adobe Experience Manager Guides 2025.11.0 | 自動更新 | 2025 年 11 月 17～19 日 |  |  |  | ターゲット |
 
@@ -35,7 +34,8 @@ Experience Manager Guides as a Cloud Serviceのリリースは次のように予
 
 | リリース | イベント | スケジュール | 新機能 | アップグレード手順 | 修正された問題 | ステータス |
 |---|---|---|---|---|---|---|
-| Adobe Experience Manager Guides 2025.07.0 <br> [ （AEMリリース - 21570） ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/maintenance/2025/2025-7-0?lang=en#21570) | 自動更新 | 2025 年 7 月 14～16 日  (PT） | [ こちら ](whats-new-2025-07-0.md) | [ こちら ](upgrade-instructions-2025-07-0.md) | [ こちら ](fixed-issues-2025-07-0.md) | 更新済み |
+| Adobe Experience Manager Guides 2025.08.0 <br> [ （AEMリリース - 21994） ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | 自動更新 | 2025年8月25～27日 | [ こちら ](whats-new-2025-08-0.md) | [ こちら ](upgrade-instructions-2025-08-0.md) | [ こちら ](fixed-issues-2025-08-0.md) | 更新済み |
+| Adobe Experience Manager Guides 2025.07.0 <br> [ （AEMリリース - 21570） ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2025/2025-7-0?lang=en#21570) | 自動更新 | 2025 年 7 月 14～16 日  (PT） | [ こちら ](whats-new-2025-07-0.md) | [ こちら ](upgrade-instructions-2025-07-0.md) | [ こちら ](fixed-issues-2025-07-0.md) | 更新済み |
 | Adobe Experience Manager Guides 2025.6.0 | 自動更新 | 2025 年 6 月 2～4 日 | [ こちら ](whats-new-2025-06-0.md) | [ こちら ](upgrade-instructions-2025-06-0.md) | [ こちら ](fixed-issues-2025-06-0.md) | 更新済み |
 | Adobe Experience Manager Guides 2025.4.0 | 自動更新 | 2025 年 5 月 5～7 日 | [ こちら ](whats-new-2025-04-0.md) | [ こちら ](upgrade-instructions-2025-04-0.md) | [ こちら ](fixed-issues-2025-04-0.md) | 更新済み |
 | Adobe Experience Manager Guides 2025.2.0 | 自動更新 | 2025年3月10～12日（PT） | [ こちら ](whats-new-2025-02-0.md) | [ こちら ](upgrade-instructions-2025-02-0.md) | [ こちら ](fixed-issues-2025-02-0.md) | 更新済み |
@@ -58,7 +58,7 @@ Experience Manager Guides as a Cloud Serviceのリリースは次のように予
 
 | リリース | イベント | スケジュール | 新機能 | アップグレード手順 | ステータス |
 |---|---|---|---|---|---|
-| Adobe Experience Manager Guides 5.1.0 | リリース | ～ 2025 年 8 月 |  |  | ターゲット |
+| Adobe Experience Manager Guides 5.1.0 | リリース | 2025年9月5日（PT） |  |  | ターゲット |
 
 ### ライブリリース
 

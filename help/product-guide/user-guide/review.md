@@ -4,9 +4,9 @@ description: AEM Guidesのトピックやマップを効率的にレビューし
 exl-id: 81ea0b52-52b0-4764-a6d8-a96d5c7693bf
 feature: Reviewing
 role: User
-source-git-commit: 38ea2eb35ebd75c1202c86d598ad953db3894d40
+source-git-commit: b7648fe1d36de3c243ca5a55f42a41f7523056ce
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Adobe Experience Manager Guidesから *イニシエータ\（または作成者\
 - レビューダッシュボードで、トピックの更新バージョンをレビュー用に共有します。
 
 - トピックの異なるバージョンで共有されているコメントにアクセスする。
-
+- 特定のレビュータスクのユーザーにコメントや返信で簡単にタグ付けし、迅速なアクションとフォローアップを実現します。 タグ付けされたユーザーには、AEMとメール通知の両方で直ちに通知されます。
 - トピックのバージョンに基づいてコメントをグループ化およびフィルタリングします。
 
 - レビュー用に共有されたトピックの様々なバージョン間の違いを並べて表示します。
@@ -41,6 +41,7 @@ Adobe Experience Manager Guidesから *イニシエータ\（または作成者\
 - 複合ビューと個々のトピック ビューを切り替えます。
 - コメント作成ツール（テキストの挿入、削除、ハイライト表示、メモ/コメントなど）を使用して、フィードバックを提供します。
 - レビューコメントに 1 つまたは複数のファイルを添付します。
+- 同じレビュータスクに関与しているユーザーをタグ付けすることで、コメントに返信します。
 - コメントからの添付ファイルのダウンロード。
 - レビューパネルを使用して、コメントを追加したり、他のユーザーからのコメントに返信したりします。
 - レビュー中のトピックのバージョンを簡単に知ることができます。
@@ -57,10 +58,18 @@ Adobe Experience Manager Guidesから *イニシエータ\（または作成者\
 
 - **[レビュー用のトピックの送信](review-send-topics-for-review.md)**
 
+- **[トピックを確認](review-topics.md)**
+
 - **[通知を使用したレビュータスクの再割り当て](reassign-review-using-notification.md)**
 
-- **[トピックを確認](review-topics.md)**
+- **[レビュアーとしてレビュータスクを完了する](review-complete-review-tasks.md)**
 
 - **[アドレス確認コメント](review-address-review-comments.md)**
 
+- **[レビュータスクのクローズまたは再レビューのリクエスト](review-close-review-task.md)**
+
 - **[レビューダッシュボードを使用したレビュータスクの管理](review-manage-tasks-review-dashboard.md)**
+
+- **[完了したレビュータスクの表示](review-view-completed-task.md)**
+
+- **[レビュー通知について](review-understanding-review-notifications.md)**

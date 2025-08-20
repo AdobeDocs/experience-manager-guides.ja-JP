@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: 200aae4c5d05531da5413c80a1cf254d2c0f0ec3
+source-git-commit: 3b306a873f3b71078256407d977e8bdd5af1180b
 workflow-type: tm+mt
-source-wordcount: '2282'
+source-wordcount: '2323'
 ht-degree: 9%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 9%
       - クラウドサービス {#cloud-release-notes}
          - [デプロイメントの手順](./release-info/deploy-xml-on-aemaacs.md)
          - 2025 年リリース {#2025-releases}
+            - 2025.08.0 リリース {#2508-release}
+               - [新機能](./release-info/whats-new-2025-08-0.md)
+               - [修正された問題](./release-info/fixed-issues-2025-08-0.md)
+               - [アップグレード手順](./release-info/upgrade-instructions-2025-08-0.md)
             - 2025.07.0 リリース {#2507-release}
                - [新機能](./release-info/whats-new-2025-07-0.md)
                - [修正された問題](./release-info/fixed-issues-2025-07-0.md)
@@ -140,8 +144,8 @@ ht-degree: 9%
                - [リリースノート（4.2.1）](./release-info/release-notes-4-2-1.md)
                - [4.2 リリースノート](./release-info/release-notes-4-2.md)
          - [4.1.x リリースノート](./release-info/release-notes-4-1.md)
-         - [4.0.x リリースノート ](https://helpx.adobe.com/jp/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x リリースノート ](https://helpx.adobe.com/jp/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x リリースノート ](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x リリースノート ](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - ユーザーガイド （新しい UI） {#user-guide}
    - はじめに {#about-aemg}
       - [概要  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -193,12 +197,15 @@ ht-degree: 9%
    - コンテンツをレビュー {#review}
       - [レビューの概要](./user-guide/review.md)
       - [DITA プロジェクトの作成](./user-guide/authoring-create-dita-project.md)
-      - [レビュー用にトピックを送信](./user-guide/review-send-topics-for-review.md)
-      - [通知を使用したレビュータスクの再割り当て](./user-guide/reassign-review-using-notification.md)
+      - [ レビュー用のトピックの送信 ](./user-guide/review-send-topics-for-review.md)
       - [トピックを確認](./user-guide/review-topics.md)
+      - [通知を使用したレビュータスクの再割り当て](./user-guide/reassign-review-using-notification.md)
+      - [レビュアーとしてレビュータスクを完了する](./user-guide/review-complete-review-tasks.md)
       - [住所レビューのコメント](./user-guide/review-address-review-comments.md)
+      - [レビュータスクのクローズまたは再レビューのリクエスト](./user-guide/review-close-review-task.md)
       - [レビューダッシュボードを使用したレビュータスクの管理](./user-guide/review-manage-tasks-review-dashboard.md)
       - [完了したレビュータスクの表示](./user-guide/review-view-completed-task.md)
+      - [レビュー通知について](./user-guide/review-understanding-review-notifications.md)
    - Adobe Workfrontを使用した共同作業 {#workfront-integration}
       - [WorkfrontとExperience Manager Guidesの統合](./user-guide/workfront-integration.md)
    - メタデータとタグ設定 {#manage-metadata}
@@ -335,7 +342,7 @@ ht-degree: 9%
       - トラブルシューティング {#troubleshooting}
          - [セッションタイムアウト](./user-guide/session-timeout-prompt.md)
 - ユーザーガイド（古い UI） {#user-guide-old-ui}
-   - [AEM Guidesの概要](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guidesの概要 ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - インストールと設定 {#install-guide}
    - オンプレミス {#on-prem-ig}
       - [オンプレミスの基本](./install-guide/introduction.md)
@@ -421,6 +428,7 @@ ht-degree: 9%
                - [JavaScriptを使用してコンテンツやスタイルを操作する](./native-pdf/use-javascript-content-style.md)
                - [脚注へのスタイルの適用](./native-pdf/footnote-number-style.md)
          - [PDFのネイティブ公開用の JVM フラグの設定](./native-pdf/configure-jvm-flags.md)
+         - [出力を公開するためのベース出力の場所の設定](./native-pdf/configure-base-output-location.md)
          - カスタムワークフローの操作 {#custom-workflow}
          - [ワークフローの設定とカスタマイズ](./install-guide/customize-workflows.md)
       - 翻訳設定の操作 {#translate-config}
@@ -499,6 +507,7 @@ ht-degree: 9%
          - [PDFのネイティブ公開用にノードプロセスを設定](./native-pdf/configure-node-options.md)
          - [トピックとコンテンツフラグメント間のマッピングの作成](./cs-install-guide/conf-content-fragment-mapping-cs.md)
          - [トピックとエクスペリエンスフラグメント間のマッピングの作成](./cs-install-guide/conf-experience-fragment-mapping-cs.md)
+         - [出力を公開するためのベース出力の場所の設定](./native-pdf/configure-base-location-cs.md)
       - カスタムワークフローの操作 {#custom-workflow-cs}
          - [ワークフローの設定とカスタマイズ](./cs-install-guide/customize-workflows.md)
       - 翻訳設定の操作 {#translate-config-cs}

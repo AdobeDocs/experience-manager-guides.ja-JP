@@ -4,9 +4,10 @@ description: Experience Manager Guidesの様々な部署に対してフォルダ
 feature: Authoring
 role: Admin
 level: Experienced
-source-git-commit: 5f42540a32da6e85a5c8aa0831582ce871c9088a
+exl-id: 15a0cd40-45be-4631-8d60-4a9474bc431c
+source-git-commit: f14ee85ccc49abd662a046b2bd4e7be2eece4902
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
@@ -15,18 +16,6 @@ ht-degree: 0%
 
 管理者は、学習コースの作成者と公開者に対して、次の設定を行うこともできます。
 
-- **フォルダー設定**
-   - **異なるフォルダーの作成**：企業内の異なる部門や製品で作業する作成者や公開者のためのフォルダーを作成できます。 これらのフォルダーは特定のフォルダープロファイルにマッピングできます。各プロファイルには異なるオーサリングおよび出力テンプレートが設定され、部門固有の学習コースの作成と分散管理をサポートしています。
-
-     新しいフォルダーは、リポジトリーパネルから作成できます。
-
-     ![](assets/create-new-folder.png){width="350" align="left"}
-   - **言語フォルダーの作成**: コンテンツを異なる言語に翻訳する場合、各言語に対応するフォルダーを作成する必要があります。 これらの各言語フォルダーには、その言語に対応するコンテンツが含まれます。
-
-     詳しくは、[ コンテンツ翻訳のベストプラクティス ](../user-guide/translation-first-time.md) を参照してください。
-   - **Assets管理**: フォルダーと同様に、異なる部署のニーズに応じて、異なるAssets フォルダーを作成することもできます。 また、作成者と公開者がテンプレート、画像、その他のアセットに設定された正しい CSS にアクセスできるようにします。
-
-     ![](assets/configure-assets-folder.png){width="350" align="left"}
 - **スニペット**：作成者が正しいスニペットにアクセスできるように、スニペットをフォルダーレベルで設定できます。 Experience Manager Guidesでスニペットを作成できるのは管理者のみです。このスニペットは、作成者がエディターで使用できます。
 
   エディターの左パネルからスニペットにアクセスできます。

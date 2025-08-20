@@ -5,9 +5,9 @@ feature: Authoring
 role: Admin
 level: Experienced
 exl-id: 1f72642c-e694-47cd-9182-f4f4aaf69655
-source-git-commit: d5068ac73748ec7bc047450a947924b40977748f
+source-git-commit: 4ac91ae3be8a7eda99389288c4a70a2047456071
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '532'
 ht-degree: 3%
 
 ---
@@ -23,12 +23,12 @@ Experience Manager Guidesでの [Adobe Workfront統合 ](../user-guide/workfront
 開始する前に、次のことを確認します。
 
 1. Adobe Workfrontへの標準アクセス権とExperience Manager Guidesへの管理者アクセス権があります。
-2. 以下のフィールドを使用して、Experience Manager Guidesに必要な [Adobe Workfrontで新しいカスタムフォームを作成 ](https://experienceleague.adobe.com/ja/docs/workfront/using/administration-and-setup/customize/custom-forms/design-a-form/design-a-form) します。
+2. 以下のフィールドを使用して、Experience Manager Guidesに必要な [Adobe Workfrontで新しいカスタムフォームを作成 ](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/customize/custom-forms/design-a-form/design-a-form) します。
 
    | フィールドタイプ | ラベル | 名前 | 選択肢（値を表示が有効） |
    |------------|------|------|-------------------------------|
    | 単一選択ドロップダウン | タスクのタイプ | タスクタイプ | オーサリング （値=作成者）、パブリッシュ （値= パブリッシュ）、翻訳（値= トランスレーション）、レビュー（値= レビュー） |
-   | 単一選択ドロップダウン | タスクの状態 | タスクの状態 | オーサリング （値=作成者）、レビュー（値= レビュー） |
+   | 単一選択ドロップダウン | タスクの状態 | タスクの状態 | オーサリング （値=作成者）、パブリッシュ （値= パブリッシュ）、翻訳（値= トランスレーション）、レビュー（値= レビュー） |
    | 書式付きテキスト | 作成者リスト | author-list | - |
    | 書式付きテキスト | レビュアーリスト | reviewer-list | - |
    | 1 行のテキスト | レビュー URL | review-url | - |
@@ -39,6 +39,8 @@ Experience Manager Guidesでの [Adobe Workfront統合 ](../user-guide/workfront
 >
 > * 上記の表では、選択肢は「**タスクタイプ** フィールドで使用できるオプションを表しています。 各オプションに対して、**タスク名** と **タスク値** を指定する必要があります。 各タスクタイプの名前と値は、上記の表で説明されたものとまったく同じである必要があります。 例えば、タスクタイプがオーサーの場合は、名前として **オーサリング** を指定し、対応する値として **オーサー** を指定します。
 > * オンプレミスのサービスを扱う場合は必ず、メール通知で解決されたタスクリンクを適切に受け取るために、`localhost` を **Day CQ Link Externalizer** 設定の正しいサーバーアドレスに置き換えてください。
+> * Workfrontでレビュータスクを作成する場合、ユーザー（作成者またはレビュー担当者）は **workflow-users** グループに属している必要があります。 さらに、**作成者** は **content-authors** グループと **authors** グループに属している必要がありますが、**レビュー担当者** は **レビュー担当者** グループに属している必要があります。
+
 
 ## 今すぐ始める
 
@@ -55,7 +57,7 @@ Experience Manager GuidesでAdobe Workfrontを設定するには、次の手順�
 
    Adobe Workfrontの設定で設定された **クライアント ID** および **クライアント秘密鍵** キーにアクセスするには、`Setup >> Systems>> oAuth2 Applications` に移動します。
 
-   Adobe Workfront ドメインの設定について詳しくは、[Workfront統合用の OAuth2 アプリケーションの作成 ](https://experienceleague.adobe.com/ja/docs/workfront/using/administration-and-setup/configure-integrations/create-oauth-application#create-an-oauth2-application-using-user-credentials-authorization-code-flow) の認証コードフローの節を参照してください。
+   Adobe Workfront ドメインの設定について詳しくは、[Workfront統合用の OAuth2 アプリケーションの作成 ](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/configure-integrations/create-oauth-application#create-an-oauth2-application-using-user-credentials-authorization-code-flow) の認証コードフローの節を参照してください。
 
 4. **ログインして確認** を選択します。
 
@@ -67,4 +69,4 @@ Experience Manager GuidesでAdobe Workfrontを設定するには、次の手順�
 6. カスタムフォーム ドロップダウンリストで、Experience Manager Guides用に作成したAdobe Workfront カスタムフォームを選択します。 [ 前提条件 ](#prerequisites) を表示します。
 7. **保存して閉じる** を選択し、Workfront設定の変更内容を適用して保存します。
 
-設定が完了したら、Experience Manager Guidesと同じメールアドレスを使用して [Adobe Workfrontにユーザーを追加 ](https://experienceleague.adobe.com/ja/docs/workfront/using/administration-and-setup/add-users/create-manage-users/add-users) します。
+設定が完了したら、Experience Manager Guidesと同じメールアドレスを使用して [Adobe Workfrontにユーザーを追加 ](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/add-users/create-manage-users/add-users) します。
