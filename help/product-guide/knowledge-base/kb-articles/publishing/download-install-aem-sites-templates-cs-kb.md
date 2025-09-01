@@ -73,7 +73,7 @@ ht-degree: 1%
    1. AEM Sitesページ（servername/sites.html/content）に移動します。
    2. テンプレートから **作成**/**サイト** を選択します。
    3. **Import** オプションを使用して、サイトテンプレート aemg-docs-1.x.x.zip を読み込みます。
-2. **テンプレートを選択：****AEMG ドキュメント 1.x.x** を選択してから「**次へ**」を選択します。
+2. **テンプレートを選択：**&#x200B;**AEMG ドキュメント 1.x.x** を選択してから「**次へ**」を選択します。
 3. **サイトの詳細を入力：** **サイトのタイトル** および **サイト名** を入力します。
 
    ![サイトの作成](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-site.png){width="350" align="left"}

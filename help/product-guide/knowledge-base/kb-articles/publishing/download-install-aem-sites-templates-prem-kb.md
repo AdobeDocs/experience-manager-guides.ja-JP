@@ -19,7 +19,7 @@ ht-degree: 0%
 
 設定を進める前に、次の前提条件が満たされていることを確認します。
 
-- **Adobe Experience Manager（AEM）:****サービスパック** 21、20、19 および **AEM 4.6.0} 以降がインストールされた** 2}AEM Guides 6.5 **の実行中のインスタンス。**
+- **Adobe Experience Manager（AEM）:**&#x200B;**サービスパック** 21、20、19 および **AEM 4.6.0&rbrace; 以降がインストールされた** 2&rbrace;AEM Guides 6.5 **の実行中のインスタンス。**
 
 - **必要な権限**：次の権限があることを確認します。
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 ## CRX パッケージマネージャーを使用したパッケージインストール
 
 1. **コンポーネントパッケージをインストールします。**
-   1. [**CRX パッケージマネージャー**](http://<your-aem-instance>/crx/packmgr) に移動します。
+   1. [**CRX パッケージマネージャー**](http://&lt;your-aem-instance>/crx/packmgr) に移動します。
    2. on-prem-guides-components.all-1.x.0.zip パッケージをアップロードしてインストールします。
 
 2. **Sites パッケージのインストール：** CRX パッケージマネージャーを使用して、aemg-docs.all-1.x.0.zip パッケージをアップロードしてインストールします。
