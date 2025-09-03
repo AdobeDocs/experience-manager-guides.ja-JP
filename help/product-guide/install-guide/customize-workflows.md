@@ -5,9 +5,9 @@ exl-id: 3be387b9-6ac2-4b61-afdf-fbe9d8b6cc1e
 feature: Workflow Configuration
 role: Admin
 level: Experienced
-source-git-commit: 01efb1f17b39fcbc48d78dd1ae818ece167f4fe5
+source-git-commit: 439be49e8f4c8cfacb16679257352f4197574365
 workflow-type: tm+mt
-source-wordcount: '1854'
+source-wordcount: '2126'
 ht-degree: 4%
 
 ---
@@ -18,20 +18,20 @@ ht-degree: 4%
 
 AEMのワークフローについて詳しくは、以下を参照してください。
 
-- [ワークフローの管理](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/workflows.html)
+- [ワークフローの管理](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)
 
-- ワークフローの適用とワークフローへの参加：[ワークフローの操作](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/workflows.html)。
+- ワークフローの適用とワークフローへの参加：[ワークフローの操作](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/workflows.html)。
 
-- ワークフローモデルの作成とワークフロー機能の拡張：[ワークフローの開発と拡張](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/workflows.html)。
+- ワークフローモデルの作成とワークフロー機能の拡張：[ワークフローの開発と拡張](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/workflows.html)。
 
-- 重要なサーバーリソースを使用するワークフローのパフォーマンスの向上：[ワークフローの同時処理](https://helpx.adobe.com/jp/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance)
+- 重要なサーバーリソースを使用するワークフローのパフォーマンスの向上：[ワークフローの同時処理](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance)
 
 
 このトピックの節では、AEM Guidesに付属しているデフォルトのワークフローで実行できる様々なカスタマイズについて説明します。
 
 ## レビューワークフローのカスタマイズ {#id176NE0C00HS}
 
-すべての組織のコンテンツオーサリングチームは、ビジネス要件を満たすために特定の方法で作業します。 組織によっては、専用のエディターがあるのに対して、他の組織では、自動編集審査システムを導入している場合があります。 例えば、組織では、一般的なオーサリングと公開のワークフローに、のようなタスクを含めることができます。作成者がコンテンツのオーサリングを完了すると、自動的にレビュー担当者に送信され、レビューが完了すると、最終出力を生成するために公開者に送信されます。 AEMでは、コンテンツやアセットに対して実行するアクティビティを、プロセスの形式で組み合わせて、AEMのワークフローにマッピングできます。 AEMのワークフローについて詳しくは、AEM ドキュメントの [ ワークフローの管理 ](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/workflows.html) を参照してください。
+すべての組織のコンテンツオーサリングチームは、ビジネス要件を満たすために特定の方法で作業します。 組織によっては、専用のエディターがあるのに対して、他の組織では、自動編集審査システムを導入している場合があります。 例えば、組織では、一般的なオーサリングと公開のワークフローに、のようなタスクを含めることができます。作成者がコンテンツのオーサリングを完了すると、自動的にレビュー担当者に送信され、レビューが完了すると、最終出力を生成するために公開者に送信されます。 AEMでは、コンテンツやアセットに対して実行するアクティビティを、プロセスの形式で組み合わせて、AEMのワークフローにマッピングできます。 AEMのワークフローについて詳しくは、AEM ドキュメントの [ ワークフローの管理 ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html) を参照してください。
 
 AEM Guidesでは、デフォルトのレビューワークフローをカスタマイズできます。 他のオーサリングワークフローまたは公開ワークフローで、次の 4 つのカスタムレビュー関連のプロセスを使用できます。
 
@@ -64,6 +64,7 @@ workflowdata.getMetaDataMap().put("startTime", System.currentTimeMillis());
 workflowdata.getMetaDataMap().put("reviewType", "AEM");
 workflowdata.getMetaDataMap().put("versionJson", "[{\"path\":\"GUID-ca6ae229-889a-4d98-a1c6-60b08a820bb3.dita\",\"review\":true,\"version\":\"1.0\",\"reviewers\":[\"projects-samplereviewproject-owner\"]}]");
 workflowdata.getMetaDataMap().put("isDitamap","false");
+workflowdata.getMetaDataMap().put("reviewVersion","3.0");
 ```
 
 **マップ用**
@@ -90,6 +91,7 @@ workflowdata.getMetaDataMap().put("isDitamap", "true");
 workflowdata.getMetaDataMap().put("ditamap", "GUID-17feb385-acf3-4113-b838-77b11fd6988d.ditamap");
 var ditamapHierarchy = "[{\"path\":\"GUID-17feb385-acf3-4113-b838-77b11fd6988d.ditamap\",\"items\":[{\"path\":\"GUID-db5787bb-5467-4dc3-b3e5-cfde562ee745.ditamap\",\"items\":[{\"path\":\"GUID-ae42f13c-7201-4453-9a3a-c87675a5868e.dita\",\"items\":[],\"title\":\"\"},{\"path\":\"GUID-28a6517b-1b62-4d3a-b7dc-0e823225b6a5.dita\",\"items\":[],\"title\":\"\"}],\"title\":\"\"},{\"path\":\"GUID-dd699e10-118d-4f1b-bf19-7f1973092227.dita\",\"items\":[],\"title\":\"\"}]}]";
 workflowdata.getMetaDataMap().put("ditamapHierarchy", ditamapHierarchy);
+workflowdata.getMetaDataMap().put("reviewVersion","3.0");
 ```
 
 `/etc/workflows/scripts` ノードにこのスクリプトを作成できます。 次の表に、この ECMA スクリプトによって割り当てられるプロパティを示します。
@@ -110,10 +112,11 @@ workflowdata.getMetaDataMap().put("ditamapHierarchy", ditamapHierarchy);
 | `reviewType` | 文字列 | 静的値「AEM」。 |
 | `versionJson` | JSON オブジェクト | versionJson は、各トピックオブジェクトが次の構造を持つ、レビュー中のトピックのリストです [ { &quot;path&quot;: &quot;/content/dam/1-topic.dita&quot;, &quot;version&quot;: &quot;1.1&quot;, &quot;review&quot;: true, &quot;reviewers&quot;: [&quot;projects-we_retail-editor&quot;] } ] |
 | `isDitamap` | ブーリアン | false/true |
-| `ditamapHierarchy` | JSON オブジェクト | マップが確認用に送信される場合、ここにある値は次のようになります。&lbrack; { &quot;path&quot;: &quot;GUID-f0df1513-fe07-473f-9960-477d4df29c87.ditamap&quot;, &quot;items&quot;: [ { &quot;path&quot;: &quot;GUID-9747e8ab-8cf1-45dd-9e20-d47d482f67d.d.dita&quot;, &quot;title&quot;: &quot;&quot;, &quot;items&quot;: [] } } ]。 |
+| `ditamapHierarchy` | JSON オブジェクト | マップが確認用に送信される場合、ここにある値は次のようになります。[ { &quot;path&quot;: &quot;GUID-f0df1513-fe07-473f-9960-477d4df29c87.ditamap&quot;, &quot;items&quot;: [ { &quot;path&quot;: &quot;GUID-9747e8ab-8cf1-45dd-9e20-d47d482f67d.d.dita&quot;, &quot;title&quot;: &quot;&quot;, &quot;items&quot;: [] } } ]。 |
 | `ditamap` | 文字列 | レビュータスクの ditamap のパスを指定します |
 | `allowAllReviewers` | ブーリアン | false/true |
 | `notifyViaEmail` | ブーリアン | false/true |
+| `reviewVersion` | 文字列 | レビューワークフローの現在のバージョンを指定します。 デフォルト値は `3.0` に設定されています。<br> [ 作成者 ](../user-guide/review-close-review-task.md) および [ レビュー担当者 ](../user-guide/review-complete-review-tasks.md) の新しいレビューワークフロー機能を有効にするには、`reviewVersion` が `3.0` に設定されていることを確認します。 |
 
 
 スクリプトを作成したら、ワークフローで作成レビュープロセスを呼び出す前に呼び出します。 その後、要件に応じて、他のレビューワークフロープロセスを呼び出すことができます。
@@ -122,7 +125,7 @@ workflowdata.getMetaDataMap().put("ditamapHierarchy", ditamapHierarchy);
 
 ワークフローエンジンのパフォーマンスを向上させるために、完了したワークフローインスタンスをAEM リポジトリーから定期的に削除することができます。 デフォルトのAEM設定を使用している場合は、完了したすべてのワークフローインスタンスが、指定した期間の後にクリーンアップされます。 これにより、すべてのレビューワークフローがAEM リポジトリからパージされます。
 
-自動パージ設定からレビューワークフローモデル \（情報\）を削除することで、レビューワークフローが自動パージされないようにすることができます。 レビューワークフローモデルを自動パージリストから削除するには **&#x200B;**&#x200B;Adobe Granite のワークフローパージ設定を使用する必要があります。
+自動パージ設定からレビューワークフローモデル \（情報\）を削除することで、レビューワークフローが自動パージされないようにすることができます。 レビューワークフローモデルを自動パージリストから削除するには **** Adobe Granite のワークフローパージ設定を使用する必要があります。
 
 「**Adobe Granite のワークフローのパージ設定**」で、安全にパージできるワークフローを少なくとも 1 つリストしていることを確認します。 例えば、AEM Guidesで作成された次のワークフローのいずれかを使用できます。
 
@@ -133,29 +136,58 @@ workflowdata.getMetaDataMap().put("ditamapHierarchy", ditamapHierarchy);
 
 **Adobe Granite のワークフローのパージ設定の指定について詳しくは** AEM ドキュメントの *ワークフローインスタンスの管理* を参照してください。
 
-### メールテンプレートのカスタマイズ
+### メールとAEM通知のカスタマイズ
 
 メール通知は、多数のAEM Guides ワークフローで利用されます。 例えば、レビュータスクを開始すると、レビュー担当者にメール通知が送信されます。 ただし、メール通知が送信されるようにするには、AEMでこの機能を有効にする必要があります。 AEMでメール通知を有効にするには、AEM ドキュメントの [ メール通知の設定 ](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=ja) を参照してください。
 
-AEM Guidesには、カスタマイズ可能な一連のメールテンプレートが含まれています。 これらのテンプレートをカスタマイズするには、次の手順を実行します。
+AEM Guidesには、カスタマイズ可能なメールおよびAEM通知のセットが含まれています。 これらの通知をカスタマイズするには、次の手順を実行します。
 
-1. AEMにログインし、CRXDE Lite モードを開きます。
-
-1. 「ナビゲータ」タブで、次の場所に移動します。
-
-   `/libs/fmdita/mail`
+1. パッケージマネージャーを使用してフォルダー `/libs/fmdita/mail/review` ダウンロードします。
 
    >[!NOTE]
    >
    > ``libs`` ノードでデフォルトの設定ファイルをカスタマイズする必要はありません。 ``libs`` ノードに ``apps`` ノードのオーバーレイを作成し、``apps`` ノードでのみ必要なファイルを更新する必要があります。
 
-1. メールフォルダーには、以下のカスタマイズ可能なテンプレートが含まれています。
+1. `review` フォルダーには、次のサブフォルダーが含まれます。
 
-   | テンプレート ファイル名 | 説明 |
+   - `aem-notification`
+   - `CSS`
+   - `email-notification`
+
+   これらのサブフォルダーについて詳しくは、以下で説明します。
+
+   | サブフォルダーの確認 | 説明 |
    |-----------------|-----------|
-   | closereview.html | このメールテンプレートは、レビュータスクが終了したときに使用されます。 |
-   | createreview.html | このメールテンプレートは、新しいレビュータスクが作成されるときに使用されます。 |
-   | reviewapproval.css | この CSS ファイルには、メールテンプレートのスタイル設定が含まれています。 |
+   | `aem-notification` | カスタマイズ可能な様々なAEM通知タイプが含まれます。<br> `closed` <br> `content-updated` <br> `feedback-addressed` <br> `feedback-provided` <br> `requested` <br> `reviewer-removed` <br> `tag-mention` <br> これらのサブフォルダー内に `primary.vm` ファイルと `secondary.vm` ファイルがあり、これを使用してAEM通知のタイトルと説明をそれぞれカスタマイズできます。 |
+   | `CSS` | メール通知のスタイル設定をカスタマイズするための `email-notification.css` ファイルが含まれています。 |
+   | `email-notification` | カスタマイズ可能な様々なメール通知タイプが含まれます。<br> `closed` <br> `content-updated` <br> `feedback-addressed` <br> `feedback-provided` <br> `requested` <br> `reviewer-removed` <br> `tag-mention` <br> これらのサブフォルダー内に、`primary.vm` ファイルと `secondary.vm` ファイルがあり、それぞれメール通知の件名と本文をカスタマイズできます。 |
+
+各通知タイプの定義の概要を次に示します。
+
+- `closed`：レビュータスクが閉じられたときのトリガー。
+- `content-updated`：作成者またはイニシエーターがコンテンツを更新する際のトリガー。
+- `feedback-addressed`：作成者またはイニシエーターがコメントに対処し、レビュー担当者に再検討をリクエストする際のトリガー。
+- レビュー担当者がタスクに完了のマークを付けるときに、レビュータスクの作成者または開始者にタスクレベルのコメントを提供して、トリガーを `feedback-provided` します。
+- `requested`：作成者またはイニシエーターがレビュータスクを作成する際にトリガーが発生します。
+- `reviewer-removed`：レビュータスクからレビュー担当者が割り当て解除されたときのトリガー。
+- `tag-mention`：レビューのコメントでユーザーがメンションされたり、タグ付けされたりした場合のトリガー。
+
+メールまたはAEM通知をカスタマイズする際は、`primary.vm` ファイルと `secondary.vm` ファイルで使用する、次の事前定義済みの変数セットのみを使用してください。
+
+
+| **変数名** | **説明** | **データタイプ** |
+|-------------------------|---------------------------------------------------------------|---------------|
+| `projectPath` | レビュータスクを含むプロジェクトへのパス | 文字列 |
+| `reviewTitle` | レビュータスクのタイトル | 文字列 |
+| `projectName` | プロジェクト名 | 文字列 |
+| `commentator` | コメントを追加したユーザーの名前 | 文字列 |
+| `commentExcerpt` | 追加されたコメントのスニペット | 文字列 |
+| `taskLink` | レビュータスクへの直接リンク | URL |
+| `authorName` | レビュータスクを作成または更新した作成者の名前 | 文字列 |
+| `dueDate` | レビュータスクの期限 | 日付 |
+| `reviewerName` | タスクに割り当てられたレビュー担当者の名前 | 文字列 |
+| `user` | レビュータスクに関与するユーザー（作成者、レビュー担当者、管理者など）。 | 文字列 |
+| `recipient` | 通知を受信する特定のユーザー | 文字列 |
 
 
 ## 出力後生成ワークフローのカスタマイズ {#id17A6GI004Y4}

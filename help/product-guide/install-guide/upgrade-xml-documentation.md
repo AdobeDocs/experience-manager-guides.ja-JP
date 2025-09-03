@@ -5,9 +5,9 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 579be351210f8a32d9cb66950b935bfad039f51b
+source-git-commit: c9ea64eb0445ec5767ba62ac6f9c1871dc3e98a3
 workflow-type: tm+mt
-source-wordcount: '8041'
+source-wordcount: '9118'
 ht-degree: 0%
 
 ---
@@ -18,14 +18,14 @@ ht-degree: 0%
 >
 > 製品のライセンス済みバージョンに固有のアップグレード手順に従います。
 
-Experience Manager Guidesの現在のバージョンを 5.0.0 サービスパック 1 にアップグレードできます。
+Experience Manager Guidesの現在のバージョンをバージョン 5.1.0 にアップグレードするには、次の手順を実行します。
 
-
-- バージョン 5.0.0、4.6.x、4.6、または 4.4 を使用している場合は、バージョン 5.0.0 サービスパック 1 に直接アップグレードできます。
+- バージョン 4.6.3、4.6.4、5.0.0、または 5.0.0 Service Pack 1 を使用している場合は、バージョン 5.1.0 に直接アップグレードできます。
+- バージョン 4.6.0、4.6.1 を使用している場合は、バージョン 5.1.0 にアップグレードする前にバージョン 4.6.3、4.6.4 または 5.0.0 にアップグレードする必要があります。
 - バージョン 4.3.x、4.2、4.2.1 （ホットフィックス 4.2.1.3）、4.1、または 4.1.x を使用している場合は、バージョン 5.0.0 にアップグレードする前にバージョン 4.4 にアップグレードする必要があります。
 - バージョン 4.0 を使用している場合、バージョン 4.3.x にアップグレードする前にバージョン 4.2 にアップグレードする必要があります。
 - バージョン 3.8.5 を使用している場合、バージョン 4.2 にアップグレードする前にバージョン 4.0 にアップグレードする必要があります。
-- バージョン 3.8.5 より前のバージョンを使用している場合は、[Experience Manager Guides ヘルプ PDF アーカイブ ](https://helpx.adobe.com/jp/xml-documentation-for-experience-manager/archive.html) にある製品固有のインストールガイドのAdobe Experience Manager Guidesのアップグレードの節を参照してください。
+- バージョン 3.8.5 より前のバージョンを使用している場合は、[Experience Manager Guides ヘルプ PDF アーカイブ ](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) にある製品固有のインストールガイドのAdobe Experience Manager Guidesのアップグレードの節を参照してください。
 
 
 >[!NOTE]
@@ -43,6 +43,7 @@ Experience Manager Guidesの現在のバージョンを 5.0.0 サービスパッ
 - [バージョン 4.4.0 へのアップグレード](#upgrade-to-version-440)
 - [バージョン 4.6.0 へのアップグレード](#upgrade-to-version-460)
 - [バージョン 5.0.0 へのアップグレード](#upgrade-to-version-500)
+- [バージョン 5.1.0 へのアップグレード](#upgrade-to-version-510)
 
 
 
@@ -58,11 +59,11 @@ Experience Manager Guides バージョン 3.8.5 を使用している場合は�
 
 >[!NOTE]
 >
-> このアップグレードプロセスは、バージョン 3.8.5 からバージョン 4.0 までの場合にのみ適用されます。バージョン 3.4 以降から 3.8.5 へのアップグレードのプロセスについては、[Adobe Experience Manager Guides ヘルプのExperience Manager Guides アーカイブ *にある製品固有のインストールガイドの* PDFのアップグレード ](https://helpx.adobe.com/jp/xml-documentation-for-experience-manager/archive.html) の節を参照してください。
+> このアップグレードプロセスは、バージョン 3.8.5 からバージョン 4.0 までの場合にのみ適用されます。バージョン 3.4 以降から 3.8.5 へのアップグレードのプロセスについては、*Adobe Experience Manager Guides ヘルプのExperience Manager Guides アーカイブ* にある製品固有のインストールガイドの [PDFのアップグレード ](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) の節を参照してください。
 
 
 
-**&#x200B;**&#x200B;前提条件&#x200B;**&#x200B;**
+****前提条件****
 
 Experience Manager Guidesのアップグレードプロセスを開始する前に、次のことを確認します。
 
@@ -135,13 +136,13 @@ CRX パッケージマネージャーを使用して、パッケージを既存�
 
 バージョン 4.0、4.1 または 4.1.x を使用している場合は、バージョン 4.2 に直接アップグレードできます。
 
-**&#x200B;**&#x200B;前提条件&#x200B;**&#x200B;**
+****前提条件****
 
 Experience Manager Guides 4.2 のアップグレードプロセスを開始する前に、次のことを確認してください。
 
 1. Experience Manager Guides バージョン 4.0、4.1 または 4.1.x へのアップグレード。
 1. すべての翻訳タスクを終了しました。
-1. `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` のクラスのログレベルを **INFO** に変更し、これらのログを新しいログファイル（例：`logs/translation_upgrade.log.`）に追加しました
+1. **のクラスのログレベルを** INFO`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` に変更し、これらのログを新しいログファイル（例：`logs/translation_upgrade.log.`）に追加しました
 
 >[!NOTE]
 >
@@ -222,14 +223,14 @@ Experience Manager Guidesをインストールした後、新しくインスト�
 
    **DAM アセットの更新」ワークフローに対応する次の 2 つのランチャー\（アクティブである必要があります\）を検索して変更し** す。
 
-1. **DAM アセットの更新ワークフロー」の「*ノードが作成されました*」のランチャー** – 条件 `"jcr:content/jcr:mimeType!=video"` の場合、「グロビング」値は次のようになります。
+1. *DAM アセットの更新ワークフロー」の「* ノードが作成されました **」のランチャー** – 条件 `"jcr:content/jcr:mimeType!=video"` の場合、「グロビング」値は次のようになります。
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
    ```
 
    - 「excludeList」には `"event-user-data:changedByWorkflowProcess"` が必要です。
-   - **DAM アセットの更新ワークフロー –** 条件「`jcr:content/jcr:mimeType!=video`」の「*ノードが変更されました*」のランチャー
+   - *DAM アセットの更新ワークフロー –* 条件「**」の「** ノードが変更されました `jcr:content/jcr:mimeType!=video`」のランチャー
    - 「グロビング」値は次のようになります。
 
    ```json
@@ -264,7 +265,7 @@ Experience Manager Guidesをインストールした後、新しくインスト�
 
 これは、アップグレードで使用されるクエリに対してインデックスが正しく設定されていないことが原因で発生する可能性があります。 次の回避策を試すことができます。
 
-1. damAssetLucene oak インデックスで、ノードに `true` のようにブール値プロパティ `indexNodeName` を追加します。
+1. damAssetLucene oak インデックスで、ノードに `indexNodeName` のようにブール値プロパティ `true` を追加します。
    `/oak:index/damAssetLucene/indexRules/dam:Asset`
 1. ノードの下に、抜粋という名前の新しいノードを追加します。
 
@@ -311,13 +312,13 @@ Experience Manager Guidesをインストールした後、新しくインスト�
 >
 >後処理とインデックス作成には数時間かかる場合があります。 アップグレードプロセスは、ピーク時を避けて開始することをお勧めします。
 
-**&#x200B;**&#x200B;前提条件&#x200B;**&#x200B;**
+****前提条件****
 
 Experience Manager Guides 4.2.1 のアップグレードプロセスを開始する前に、次のことを確認してください。
 
 1. Experience Manager Guides バージョン 4.1、4.1.x、または 4.2 にアップグレードしました。
 1. すべての翻訳タスクを終了しました。
-1. `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` のクラスのログレベルを **INFO** に変更し、これらのログを新しいログファイル（例：`logs/translation_upgrade.log.`）に追加しました
+1. **のクラスのログレベルを** INFO`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` に変更し、これらのログを新しいログファイル（例：`logs/translation_upgrade.log.`）に追加しました
 
 >[!NOTE]
 >
@@ -439,14 +440,14 @@ Experience Manager Guidesをインストールした後、新しくインスト�
 
    **DAM アセットの更新」ワークフローに対応する次の 2 つのランチャー\（アクティブである必要があります\）を検索して変更し** す。
 
-1. **DAM アセットの更新ワークフロー」の「*ノードが作成されました*」のランチャー** – 条件 `"jcr:content/jcr:mimeType!=video"` の場合、「グロビング」値は次のようになります。
+1. *DAM アセットの更新ワークフロー」の「* ノードが作成されました **」のランチャー** – 条件 `"jcr:content/jcr:mimeType!=video"` の場合、「グロビング」値は次のようになります。
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
    ```
 
    - 「excludeList」には `"event-user-data:changedByWorkflowProcess"` が必要です。
-   - **DAM アセットの更新ワークフロー」の「*ノードが変更されました*」のランチャー –** 条件「`jcr:content/jcr:mimeType!=video`」の場合、「グロビング」の値は次のようになります。
+   - *DAM アセットの更新ワークフロー」の「* ノードが変更されました **」のランチャー –** 条件「`jcr:content/jcr:mimeType!=video`」の場合、「グロビング」の値は次のようになります。
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
@@ -488,7 +489,7 @@ Experience Manager Guidesをインストールした後、新しくインスト�
 >
 >後処理とインデックス作成には数時間かかる場合があります。 アップグレードプロセスは、ピーク時を避けて開始することをお勧めします。
 
-**&#x200B;**&#x200B;前提条件&#x200B;**&#x200B;**
+****前提条件****
 
 Experience Manager Guides 4.3.0 のアップグレードプロセスを開始する前に、次のことを確認してください。
 
@@ -502,7 +503,7 @@ Experience Manager Guides 4.3.0 のアップグレードプロセスを開始す
 1. [Adobe ソフトウェア配布ポータル ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) から 4.3.0 バージョン パッケージをダウンロードします。
 1. バージョン 4.3.0 パッケージをインストールします。
 1. パッケージのインストール後にブラウザーのキャッシュをクリアします。
-1. フォルダープロファイルの「**XML エディター設定**」タブから `ui_config.json` ファイルをアップグレードします。
+1. フォルダープロファイルの「`ui_config.json`XML エディター設定 **」タブから** ファイルをアップグレードします。
 
 
 ## バージョン 4.3.0 のインストール後
@@ -514,7 +515,7 @@ Experience Manager Guidesをインストールした後、新しくインスト�
 
 既存のコンテンツを後処理し、新しい壊れたリンクのレポートを使用するには、次の手順を実行します。
 
-1. （オプション）システムに 100,000 個を超える Dita ファイルがある場合は、`org.apache.jackrabbit.oak.query.QueryEngineSettingsService` の `queryLimitReads` を大きい値（存在するアセットの数を超える値は、たとえば 200,000）に変更してから再デプロイします。
+1. （オプション）システムに 100,000 個を超える Dita ファイルがある場合は、`queryLimitReads` の `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` を大きい値（存在するアセットの数を超える値は、たとえば 200,000）に変更してから再デプロイします。
 
    | PID | プロパティキー | プロパティの値 |
    |---|---|---|
@@ -546,13 +547,13 @@ Experience Manager Guidesをインストールした後、新しくインスト�
 >
 >後処理とインデックス作成には数時間かかる場合があります。 アップグレードプロセスは、ピーク時を避けて開始することをお勧めします。
 
-**&#x200B;**&#x200B;前提条件&#x200B;**&#x200B;**
+****前提条件****
 
 Experience Manager Guides 4.3.1 のアップグレードプロセスを開始する前に、次のことを確認します。
 
 1. Experience Manager Guides バージョン 4.3.0、4.2 または 4.2.1 にアップグレードして、それぞれのインストール手順を完了しました。
 1. （任意）すべての翻訳タスクを終了しました。
-1. `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` のクラスのログレベルを **INFO** に変更し、これらのログを新しいログファイル（例：`logs/translation_upgrade.log`）に追加しました。
+1. **のクラスのログレベルを** INFO`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` に変更し、これらのログを新しいログファイル（例：`logs/translation_upgrade.log`）に追加しました。
 
 
 ## バージョン 4.3.1 のインストール
@@ -667,14 +668,14 @@ Experience Manager Guidesをインストールした後、新しくインスト�
 
    **DAM アセットの更新」ワークフローに対応する次の 2 つのランチャー\（アクティブである必要があります\）を検索して変更し** す。
 
-1. **DAM アセットの更新ワークフロー」の「*ノードが作成されました*」のランチャー** – 条件 `"jcr:content/jcr:mimeType!=video"` の場合、「グロビング」値は次のようになります。
+1. *DAM アセットの更新ワークフロー」の「* ノードが作成されました **」のランチャー** – 条件 `"jcr:content/jcr:mimeType!=video"` の場合、「グロビング」値は次のようになります。
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
    ```
 
    - 「excludeList」には `"event-user-data:changedByWorkflowProcess"` が必要です。
-   - **DAM アセットの更新ワークフロー」の「*ノードが変更されました*」のランチャー –** 条件「`jcr:content/jcr:mimeType!=video`」の場合、「グロビング」の値は次のようになります。
+   - *DAM アセットの更新ワークフロー」の「* ノードが変更されました **」のランチャー –** 条件「`jcr:content/jcr:mimeType!=video`」の場合、「グロビング」の値は次のようになります。
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
@@ -715,7 +716,7 @@ Experience Manager Guidesをインストールした後、新しくインスト�
 
 既存のコンテンツを後処理し、新しい壊れたリンクのレポートを使用するには、次の手順を実行します。
 
-1. （オプション）システムに 100,000 個を超える Dita ファイルがある場合は、`org.apache.jackrabbit.oak.query.QueryEngineSettingsService` の `queryLimitReads` を大きい値（存在するアセットの数を超える値は、たとえば 200,000）に変更してから再デプロイします。
+1. （オプション）システムに 100,000 個を超える Dita ファイルがある場合は、`queryLimitReads` の `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` を大きい値（存在するアセットの数を超える値は、たとえば 200,000）に変更してから再デプロイします。
 
    | PID | プロパティキー | プロパティの値 |
    |---|---|---|
@@ -747,7 +748,7 @@ Experience Manager Guidesをインストールした後、新しくインスト�
 
 ## バージョン 4.3.1.5 のインストール
 
-1. [Adobe ソフトウェア配布ポータル ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) から 4.3.1.5 のバージョン パッケージをダウンロードします。
+1. 4.3.1.5Adobe ソフトウェア配布ポータル [ から ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) のバージョン パッケージをダウンロードします。
 1. パッケージのバージョン 4.3.1.5 インストールします。
 
 1. インストールプロセスが正常に完了するまで待ちます。
@@ -787,13 +788,13 @@ Experience Manager Guidesをインストールした後、新しくインスト�
 >
 >後処理とインデックス作成には数時間かかる場合があります。 アップグレードプロセスは、ピーク時を避けて開始することをお勧めします。
 
-**&#x200B;**&#x200B;前提条件&#x200B;**&#x200B;**
+****前提条件****
 
 Experience Manager Guides 4.4.0 のアップグレードプロセスを開始する前に、次のことを確認してください。
 
 1. Experience Manager Guides バージョン 4.3.1、4.3.0、4.2.1 （ホットフィックス 4.2.1.3）にアップグレードして、それぞれのインストール手順を完了しました。
 1. （任意）すべての翻訳タスクを終了しました。
-1. `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` のクラスのログレベルを **INFO** に変更し、これらのログを新しいログファイル（例：`logs/translation_upgrade.log`）に追加しました。
+1. **のクラスのログレベルを** INFO`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` に変更し、これらのログを新しいログファイル（例：`logs/translation_upgrade.log`）に追加しました。
 
 
 ## バージョン 4.4.0 のインストール
@@ -870,14 +871,14 @@ Experience Manager Guidesをインストールした後、新しくインスト�
 
    **DAM アセットの更新」ワークフローに対応する次の 2 つのランチャー\（アクティブである必要があります\）を検索して変更し** す。
 
-1. **DAM アセットの更新ワークフロー」の「*ノードが作成されました*」のランチャー** – 条件 `"jcr:content/jcr:mimeType!=video"` の場合、「グロビング」値は次のようになります。
+1. *DAM アセットの更新ワークフロー」の「* ノードが作成されました **」のランチャー** – 条件 `"jcr:content/jcr:mimeType!=video"` の場合、「グロビング」値は次のようになります。
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
    ```
 
    - 「excludeList」には `"event-user-data:changedByWorkflowProcess"` が必要です。
-   - **DAM アセットの更新ワークフロー」の「*ノードが変更されました*」のランチャー –** 条件「`jcr:content/jcr:mimeType!=video`」の場合、「グロビング」の値は次のようになります。
+   - *DAM アセットの更新ワークフロー」の「* ノードが変更されました **」のランチャー –** 条件「`jcr:content/jcr:mimeType!=video`」の場合、「グロビング」の値は次のようになります。
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
@@ -916,7 +917,7 @@ Experience Manager Guidesをインストールした後、新しくインスト�
 
 既存のコンテンツを後処理し、新しい壊れたリンクのレポートを使用するには、次の手順を実行します。
 
-1. （オプション）システムに 100,000 個を超える Dita ファイルがある場合は、`org.apache.jackrabbit.oak.query.QueryEngineSettingsService` の `queryLimitReads` を大きい値（存在するアセットの数を超える値は、たとえば 200,000）に変更してから再デプロイします。
+1. （オプション）システムに 100,000 個を超える Dita ファイルがある場合は、`queryLimitReads` の `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` を大きい値（存在するアセットの数を超える値は、たとえば 200,000）に変更してから再デプロイします。
 
    | PID | プロパティキー | プロパティの値 |
    |---|---|---|
@@ -980,7 +981,7 @@ Experience Manager Guidesには、クロスマップ（2 つの異なるマッ�
 このアップグレード中に、`'order'` の値が 1000 から 50 に変更されるので、既存のカスタムリライターがある場合は `'fmdita-rewriter'` と結合する必要があります。
 
 
-**親トピック：**&#x200B;[ ダウンロードとインストール ](download-install.md)
+**親トピック：**[ ダウンロードとインストール ](download-install.md)
 
 
 ## バージョン 4.6.0 へのアップグレード
@@ -995,13 +996,13 @@ Experience Manager Guidesには、クロスマップ（2 つの異なるマッ�
 >
 > 後処理とインデックス作成には数時間かかる場合があります。 アップグレードプロセスは、ピーク時を避けて開始することをお勧めします。
 
-**&#x200B;**&#x200B;前提条件&#x200B;**&#x200B;**
+****前提条件****
 
 Experience Manager Guides 4.6.0 のアップグレードプロセスを開始する前に、次のことを確認してください。
 
 1. Experience Manager Guides バージョン 4.3.1、4.3.0、4.2.1 （ホットフィックス 4.2.1.3）にアップグレードして、それぞれのインストール手順を完了しました。
 1. （任意）すべての翻訳タスクを終了しました。
-1. `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` のクラスのログレベルを **INFO** に変更し、これらのログを新しいログファイル（例：`logs/translation_upgrade.log`）に追加しました。
+1. **のクラスのログレベルを** INFO`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` に変更し、これらのログを新しいログファイル（例：`logs/translation_upgrade.log`）に追加しました。
 
 
 ## バージョン 4.6.0 のインストール
@@ -1076,14 +1077,14 @@ Experience Manager Guidesをインストールした後、新しくインスト�
 
    **DAM アセットの更新」ワークフローに対応する次の 2 つのランチャー\（アクティブである必要があります\）を検索して変更し** す。
 
-1. **DAM アセットの更新ワークフロー」の「*ノードが作成されました*」のランチャー** – 条件 `"jcr:content/jcr:mimeType!=video"` の場合、「グロビング」値は次のようになります。
+1. *DAM アセットの更新ワークフロー」の「* ノードが作成されました **」のランチャー** – 条件 `"jcr:content/jcr:mimeType!=video"` の場合、「グロビング」値は次のようになります。
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
    ```
 
    - 「excludeList」には `"event-user-data:changedByWorkflowProcess"` が必要です。
-   - **DAM アセットの更新ワークフロー」の「*ノードが変更されました*」のランチャー –** 条件「`jcr:content/jcr:mimeType!=video`」の場合、「グロビング」の値は次のようになります。
+   - *DAM アセットの更新ワークフロー」の「* ノードが変更されました **」のランチャー –** 条件「`jcr:content/jcr:mimeType!=video`」の場合、「グロビング」の値は次のようになります。
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
@@ -1150,13 +1151,13 @@ Experience Manager Guidesには、クロスマップ（2 つの異なるマッ�
 >
 > 後処理とインデックス作成には数時間かかる場合があります。 アップグレードプロセスは、ピーク時を避けて開始することをお勧めします。
 
-**&#x200B;**&#x200B;前提条件&#x200B;**&#x200B;**
+****前提条件****
 
 Experience Manager Guides 5.0.0 のアップグレードプロセスを開始する前に、次のことを確認してください。
 
 1. Experience Manager Guides バージョン 4.6.3、4.6.1、4.6.0、4.4 にアップグレードして、それぞれのインストール手順を完了します。
 1. （任意）すべての翻訳タスクを終了しました。
-1. `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` のクラスのログレベルを **INFO** に変更し、これらのログを新しいログファイル（例：`logs/translation_upgrade.log`）に追加しました。
+1. **のクラスのログレベルを** INFO`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` に変更し、これらのログを新しいログファイル（例：`logs/translation_upgrade.log`）に追加しました。
 
 
 ## バージョン 5.0.0 のインストール
@@ -1231,14 +1232,14 @@ Experience Manager Guidesをインストールした後、新しくインスト�
 
    **DAM アセットの更新」ワークフローに対応する次の 2 つのランチャー\（アクティブである必要があります\）を検索して変更し** す。
 
-1. **DAM アセットの更新ワークフロー」の「*ノードが作成されました*」のランチャー** – 条件 `"jcr:content/jcr:mimeType!=video"` の場合、「グロビング」値は次のようになります。
+1. *DAM アセットの更新ワークフロー」の「* ノードが作成されました **」のランチャー** – 条件 `"jcr:content/jcr:mimeType!=video"` の場合、「グロビング」値は次のようになります。
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
    ```
 
    - 「excludeList」には `"event-user-data:changedByWorkflowProcess"` が必要です。
-   - **DAM アセットの更新ワークフロー」の「*ノードが変更されました*」のランチャー –** 条件「`jcr:content/jcr:mimeType!=video`」の場合、「グロビング」の値は次のようになります。
+   - *DAM アセットの更新ワークフロー」の「* ノードが変更されました **」のランチャー –** 条件「`jcr:content/jcr:mimeType!=video`」の場合、「グロビング」の値は次のようになります。
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
@@ -1298,11 +1299,176 @@ Experience Manager Guidesには、クロスマップ（2 つの異なるマッ�
 
 ## damAssetLucene の再インデックス化手順
 
-ガイドを含む damAssetLucene のインデックス定義が更新されました。 5.0.0 バージョンへのアップグレード後に damAssetLucene のインデックスを再作成する方法については、[ この記事 ](https://experienceleague.adobe.com/ja/docs/experience-cloud-kcs/kbarticles/ka-16460) を参照してください。
+ガイドを含む damAssetLucene のインデックス定義が更新されました。 5.0.0 バージョンへのアップグレード後に damAssetLucene のインデックスを再作成する方法については、[ この記事 ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) を参照してください。
+
+>[!NOTE]
+>
+> ドキュメントに従いながら、保存操作で両方のプロパティ（reindex=true および/oak:index/damAssetLucene の reindex-async=true）が同時に更新されていることを確認します。
+
+## バージョン 5.1.0 へのアップグレード
+
+>[!TIP]
+>
+> バージョン 5.1.0 へのアップグレードは、Experience Manager Guidesの現在のバージョンによって異なります。 バージョン 4.6.3、4.6.4、5.0.0、または 5.0.0 Service Pack 1 を使用している場合は、バージョン 5.1.0 に直接アップグレードできます。
+
+>[!NOTE]
+>
+> 後処理とインデックス作成には数時間かかる場合があります。 アップグレードプロセスは、ピーク時を避けて開始することをお勧めします。
+
+****前提条件****
+
+Experience Manager Guides 5.1.0 のアップグレードプロセスを開始する前に、次のことを確認してください。
+
+1. Experience Manager Guides バージョン 4.6.3、4.6.4、5.0.0、または 5.0.0 サービスパック 1 にアップグレードして、それぞれのインストール手順を完了しました。
+1. （任意）すべての翻訳タスクを終了しました。
+1. **のクラスのログレベルを** INFO`com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` に変更し、これらのログを新しいログファイル（例：`logs/translation_upgrade.log`）に追加しました。
+
+
+## バージョン 5.1.0 のインストール
+
+1. [Adobe ソフトウェア配布ポータル ](https://experience.adobe.com/#/downloads/content/software-distribution/ja/aem.html) から 5.1.0 バージョンのパッケージをダウンロードします。
+1. バージョン 5.1.0 パッケージをインストールします。
+1. トリガーをヒットして、翻訳マップのアップグレードジョブを開始することもできます。 詳しくは、[ サーブレットを使用したスクリプトのトリガーを有効にする ](#enable-trigger-of-script-via-a-servlet) を参照してください。
+
+1. パッケージのインストールが完了したら、次のメッセージがログに表示されるまで待ちます。
+
+   `Completed the post deployment setup script`
+
+   上記のメッセージは、インストールのすべての手順が完了したことを示しています。
+
+   次のエラープレフィックスのいずれかが発生した場合は、カスタマーサクセスチームに報告してください。
+
+   - デプロイメント後セットアップスクリプトのエラー
+   - 翻訳マップの移行中の例外
+   - プロパティの翻訳マップを v1 から v2 にポートできません
+1. バージョン 5.1.0 でリリースされた酸素コネクタプラグインをアップグレードします\（必要に応じて\）。
+1. パッケージのインストール後にブラウザーのキャッシュをクリアします。
+
+## バージョン 5.1.0 のインストール後
+
+Experience Manager Guidesをインストールした後、新しくインストールしたバージョンから適用できる様々な設定をセットアップに結合できます。
+
+>[!NOTE]
+>
+> dam-update-asset モデルはカスタマイズできます。 そのため、カスタマイズが完了している場合は、カスタマイズとExperience Manager Guidesをモデルの作業用コピーに同期する必要があります。
+
+1. **DAM アセットの更新ワークフロー\（変更の後処理\）:**
+
+1. 次の URL を開きます。
+
+   ```
+   http://localhost:4502/libs/cq/workflow/admin/console/content/models.html 
+   ```
+
+1. **DAM アセットの更新ワークフロー** を選択します。
+1. 「**編集**」を選択します。
+1. **DXML 後処理イニシエーター** コンポーネントが存在する場合は、カスタマイズが同期されていることを確認します。
+1. **DXML Post Process Initiator** コンポーネントがない場合は、次の手順を実行して挿入します。
+
+1. **コンポーネントを挿入**\（プロセスの最後の手順としてExperience Manager Guidesの後処理を担当\）を選択します。
+1. 以下の詳細を使用して **プロセスステップ** を設定します。
+
+   **「共通」タブ**
+
+   **タイトル：** DXML 後処理イニシエーター
+
+   **説明**：変更または作成されたアセットの DXML 後処理のための Sling ジョブをトリガーする DXML 後処理イニシエーターステップ
+
+   **「プロセス」タブ**
+
+   - **プロセス** ドロップダウンから「**DXML 後処理イニシエーター**」を選択します
+
+   - **ハンドラー処理の設定** を選択します
+
+   - 「**完了**」を選択します。
+
+1. 変更を完了した後、右上の「**同期**」を選択します。 成功通知が届きます。
+
+   >[!NOTE]
+   >
+   > カスタマイズした変更内容およびExperience Manager Guides後処理ステップが最終的なワークフローモデルに存在することを更新して確認します。
+
+1. **DAM アセットの更新ワークフロー** を検証したら、対応するランチャー設定を確認します。 これを行うには、AEM ワークフローインターフェイスに移動し、ランチャーを開きます。
+
+   ```http
+   http://localhost:4502/libs/cq/workflow/content/console.html
+   ```
+
+   **DAM アセットの更新」ワークフローに対応する次の 2 つのランチャー\（アクティブである必要があります\）を検索して変更し** す。
+
+1. *DAM アセットの更新ワークフロー」の「* ノードが作成されました **」のランチャー** – 条件 `"jcr:content/jcr:mimeType!=video"` の場合、「グロビング」値は次のようになります。
+
+   ```json
+   /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
+   ```
+
+   - 「excludeList」には `"event-user-data:changedByWorkflowProcess"` が必要です。
+   - *DAM アセットの更新ワークフロー」の「* ノードが変更されました **」のランチャー –** 条件「`jcr:content/jcr:mimeType!=video`」の場合、「グロビング」の値は次のようになります。
+
+   ```json
+   /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
+   ```
+
+   - `excludeList` は `"event-user-data:changedByWorkflowProcess"` を持っているはずです。
+
+1. アップグレードが完了したら、カスタマイズやオーバーレイが検証され、新しいアプリケーションコードに一致するように更新されます。 以下に例をいくつか示します。
+   - /libs/fmditaor/libsor からオーバーレイされたコンポーネントは、新しい製品コードと比較する必要があり、更新は/apps の下のオーバーレイされたファイルで行う必要があります。
+   - 製品で使用される clientlib カテゴリについては、変更の有無を確認する必要があります。 オーバーライドされた設定は、最新の機能を取得するために、\（以下の例\）最新の設定と比較する必要があります。
+   - elementmapping.xml
+   - ui\_config.json\（フォルダープロファイルで設定されている可能性があります\）
+   - 修正 `com.adobe.fmdita.config.ConfigManager`
+
+1. damAssetLucene にカスタマイズを追加した場合は、必要に応じて再度適用します。 これらの変更を行ったら、reindex を true に設定します。 これにより、カスタマイズを含む既存のノードがすべて再インデックスされます。 完了すると、再インデックスフラグは再度 false に設定されます。 システム内のアセットの数によっては、この処理に数時間かかる場合があります。
+
+## Experience Manager Guides インデックスの再作成手順
+
+1. `crx/de` を開き、インデックスパス `/oak:index/guidesAssetProperties` に移動します。
+2. reindex プロパティを `true` に設定し（デフォルトでは `false`）、「**すべて保存**」をクリックします。
+3. 再インデックスが完了すると、再インデックスプロパティが再度 `false` に設定され、再インデックスのカウントが 1 増分されます。
+
+   >[!NOTE]
+   >
+   > データの量によっては、この処理に数分かかる場合があります。
+4. その他の追加または変更されたインデックスにも、`guidesBulkActivation`、`guidesPeerLinkIndex`、`guidesKonnectTemplateIndex` と同じ手順に従います。
+
+## 既存のコンテンツのインデックス作成手順
+
+
+
+既存のコンテンツのインデックスを作成するには、次の手順を実行します。
+
+- サーバー\（正しい認証\） - `http://<server:port\>/bin/guides/map-find/indexing` に対して POST リクエストを実行します。 （オプション：マップの特定のパスを渡してインデックスを作成できます。デフォルトでは、すべてのマップにインデックスが作成されます ||例：`https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`）
+
+- API は jobId を返します。 ジョブのステータスを確認するには、同じエンドポイント `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\（例：` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）にジョブ ID を含むGET リクエストを送信します。
+
+- ジョブが完了すると、上記のGET リクエストが成功を返し、失敗したマップがあるかどうかを示します。 正常にインデックス化されたマップは、サーバ ログから確認できます。
+
+
+>[!NOTE]
+>
+> カスタムスキーマを使用している場合は、「**カタログの統合**」オプションで、カスタム DTD ファイルと XSD catalog.xml ファイルのパスをAEM リポジトリに定義する必要があります。
+
+
+
+
+## `'fmdita rewriter'` の競合を処理する手順
+
+Experience Manager Guidesには、クロスマップ（2 つの異なるマップのトピック間のリンク）の場合に生成されるリンクを処理する [**custom sling rewriter**](../cs-install-guide/conf-output-generation.md#custom-rewriter) モジュールがあります。
+
+コードベースに別のカスタム sling rewriter がある場合は、Experience Manager Guides sling rewriter が 50 を使用するように、50 より大きい `'order'` 値を使用し `'order'` す。  これを上書きするには、50 より大きい値が必要です。 詳しくは、[ 出力の書き換えパイプライン ](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html) を参照してください。
+
+このアップグレード中に、`'order'` の値が 1000 から 50 に変更されるので、既存のカスタムリライターがある場合は `'fmdita-rewriter'` と結合する必要があります。
+
+
+
+## damAssetLucene の再インデックス化手順
+
+ガイドを含む damAssetLucene のインデックス定義が更新されました。 5.1.0 バージョンにアップグレードした後に damAssetLucene のインデックスを再作成する方法については、[ この記事 ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) を参照してください。
 
 >[!NOTE]
 >
 > ドキュメントに従いながら、保存操作で両方のプロパティ（reindex=true および/oak:index/damAssetLucene の reindex-async=true）が同時に更新されていることを確認します。
 
 
-**親トピック：**&#x200B;[ ダウンロードしてインストール ](download-install.md)
+
+**親トピック：**[ ダウンロードしてインストール ](download-install.md)
