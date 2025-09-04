@@ -1,9 +1,9 @@
 ---
 title: リリースノート | Adobe Experience Manager Guides, 5.1.0 リリースで修正された問題
 description: Adobe Experience Manager Guides 5.1.0 リリースのバグ修正について説明します。
-source-git-commit: 64df76f371867469d738f59a174e7931176e8591
+source-git-commit: 6c29d5540f48c850416db279b4392b6042c8ca2c
 workflow-type: tm+mt
-source-wordcount: '1796'
+source-wordcount: '1789'
 ht-degree: 1%
 
 ---
@@ -109,7 +109,6 @@ Adobeでは、5.1.0 リリースに関する次の既知の問題が特定され
 
 - レビュー担当者がコメントを追加せずにタスクを完了した場合、最新のタスクレベルのコメントがメール通知でタスク開始者に表示されます。 （GUIDES-33590）
 - 結合ダイアログで、ドロップダウンリストに、選択したトピックの使用可能なバージョンが表示されるのではなく、メインコンテンツが誤って表示されます。 （GUIDES-30820）
-リンクが動作する。 （GUIDES-30820）
 - 同じベースラインを使用するプリセットを切り替えると、現在のプリセットの「保存」ボタンが無効になります。 （GUIDES-28025）
 - コードブロック要素内の新しい行に新しいコンテンツを貼り付けると、空の行が自動的に挿入されます。（GUIDES-27842）
 - DITA マップ内のトピックが、サブマップ内で keydef と topicref の両方として使用されている場合、AEM Sites出力で公開できない。 （GUIDES-22269）
