@@ -5,9 +5,9 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: c9ea64eb0445ec5767ba62ac6f9c1871dc3e98a3
+source-git-commit: 1ef7379c71adcb73757ddc6d1fe34dc2f33fdc22
 workflow-type: tm+mt
-source-wordcount: '9118'
+source-wordcount: '9119'
 ht-degree: 0%
 
 ---
@@ -20,12 +20,12 @@ ht-degree: 0%
 
 Experience Manager Guidesの現在のバージョンをバージョン 5.1.0 にアップグレードするには、次の手順を実行します。
 
-- バージョン 4.6.3、4.6.4、5.0.0、または 5.0.0 Service Pack 1 を使用している場合は、バージョン 5.1.0 に直接アップグレードできます。
+- バージョン 4.6.3、4.6.4、5.0.0、5.0.0 サービスパック 1、または 5.0.0 サービスパック 2 を使用している場合は、バージョン 5.1.0 に直接アップグレードできます。
 - バージョン 4.6.0、4.6.1 を使用している場合は、バージョン 5.1.0 にアップグレードする前にバージョン 4.6.3、4.6.4 または 5.0.0 にアップグレードする必要があります。
 - バージョン 4.3.x、4.2、4.2.1 （ホットフィックス 4.2.1.3）、4.1、または 4.1.x を使用している場合は、バージョン 5.0.0 にアップグレードする前にバージョン 4.4 にアップグレードする必要があります。
 - バージョン 4.0 を使用している場合、バージョン 4.3.x にアップグレードする前にバージョン 4.2 にアップグレードする必要があります。
 - バージョン 3.8.5 を使用している場合、バージョン 4.2 にアップグレードする前にバージョン 4.0 にアップグレードする必要があります。
-- バージョン 3.8.5 より前のバージョンを使用している場合は、[Experience Manager Guides ヘルプ PDF アーカイブ ](https://helpx.adobe.com/jp/xml-documentation-for-experience-manager/archive.html) にある製品固有のインストールガイドのAdobe Experience Manager Guidesのアップグレードの節を参照してください。
+- バージョン 3.8.5 より前のバージョンを使用している場合は、[Experience Manager Guides ヘルプ PDF アーカイブ ](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) にある製品固有のインストールガイドのAdobe Experience Manager Guidesのアップグレードの節を参照してください。
 
 
 >[!NOTE]
@@ -59,11 +59,11 @@ Experience Manager Guides バージョン 3.8.5 を使用している場合は�
 
 >[!NOTE]
 >
-> このアップグレードプロセスは、バージョン 3.8.5 からバージョン 4.0 までの場合にのみ適用されます。バージョン 3.4 以降から 3.8.5 へのアップグレードのプロセスについては、*Adobe Experience Manager Guides ヘルプのExperience Manager Guides アーカイブ* にある製品固有のインストールガイドの [PDFのアップグレード ](https://helpx.adobe.com/jp/xml-documentation-for-experience-manager/archive.html) の節を参照してください。
+> このアップグレードプロセスは、バージョン 3.8.5 からバージョン 4.0 までの場合にのみ適用されます。バージョン 3.4 以降から 3.8.5 へのアップグレードのプロセスについては、*Adobe Experience Manager Guides ヘルプのExperience Manager Guides アーカイブ* にある製品固有のインストールガイドの [PDFのアップグレード ](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) の節を参照してください。
 
 
 
-**&#x200B;**&#x200B;前提条件&#x200B;**&#x200B;**
+****前提条件****
 
 Experience Manager Guidesのアップグレードプロセスを開始する前に、次のことを確認します。
 
@@ -136,7 +136,7 @@ CRX パッケージマネージャーを使用して、パッケージを既存�
 
 バージョン 4.0、4.1 または 4.1.x を使用している場合は、バージョン 4.2 に直接アップグレードできます。
 
-**&#x200B;**&#x200B;前提条件&#x200B;**&#x200B;**
+****前提条件****
 
 Experience Manager Guides 4.2 のアップグレードプロセスを開始する前に、次のことを確認してください。
 
@@ -312,7 +312,7 @@ Experience Manager Guidesをインストールした後、新しくインスト�
 >
 >後処理とインデックス作成には数時間かかる場合があります。 アップグレードプロセスは、ピーク時を避けて開始することをお勧めします。
 
-**&#x200B;**&#x200B;前提条件&#x200B;**&#x200B;**
+****前提条件****
 
 Experience Manager Guides 4.2.1 のアップグレードプロセスを開始する前に、次のことを確認してください。
 
@@ -489,7 +489,7 @@ Experience Manager Guidesをインストールした後、新しくインスト�
 >
 >後処理とインデックス作成には数時間かかる場合があります。 アップグレードプロセスは、ピーク時を避けて開始することをお勧めします。
 
-**&#x200B;**&#x200B;前提条件&#x200B;**&#x200B;**
+****前提条件****
 
 Experience Manager Guides 4.3.0 のアップグレードプロセスを開始する前に、次のことを確認してください。
 
@@ -547,7 +547,7 @@ Experience Manager Guidesをインストールした後、新しくインスト�
 >
 >後処理とインデックス作成には数時間かかる場合があります。 アップグレードプロセスは、ピーク時を避けて開始することをお勧めします。
 
-**&#x200B;**&#x200B;前提条件&#x200B;**&#x200B;**
+****前提条件****
 
 Experience Manager Guides 4.3.1 のアップグレードプロセスを開始する前に、次のことを確認します。
 
@@ -788,7 +788,7 @@ Experience Manager Guidesをインストールした後、新しくインスト�
 >
 >後処理とインデックス作成には数時間かかる場合があります。 アップグレードプロセスは、ピーク時を避けて開始することをお勧めします。
 
-**&#x200B;**&#x200B;前提条件&#x200B;**&#x200B;**
+****前提条件****
 
 Experience Manager Guides 4.4.0 のアップグレードプロセスを開始する前に、次のことを確認してください。
 
@@ -981,7 +981,7 @@ Experience Manager Guidesには、クロスマップ（2 つの異なるマッ�
 このアップグレード中に、`'order'` の値が 1000 から 50 に変更されるので、既存のカスタムリライターがある場合は `'fmdita-rewriter'` と結合する必要があります。
 
 
-**親トピック：**&#x200B;[ ダウンロードとインストール ](download-install.md)
+**親トピック：**[ ダウンロードとインストール ](download-install.md)
 
 
 ## バージョン 4.6.0 へのアップグレード
@@ -996,7 +996,7 @@ Experience Manager Guidesには、クロスマップ（2 つの異なるマッ�
 >
 > 後処理とインデックス作成には数時間かかる場合があります。 アップグレードプロセスは、ピーク時を避けて開始することをお勧めします。
 
-**&#x200B;**&#x200B;前提条件&#x200B;**&#x200B;**
+****前提条件****
 
 Experience Manager Guides 4.6.0 のアップグレードプロセスを開始する前に、次のことを確認してください。
 
@@ -1145,13 +1145,13 @@ Experience Manager Guidesには、クロスマップ（2 つの異なるマッ�
 
 >[!TIP]
 >
-> バージョン 5.0.0 サービスパック 1 へのアップグレードは、Experience Manager Guidesの現在のバージョンによって異なります。 バージョン 5.0.0、4.6.4、4.6.3、4.6.1、4.6.0、または 4.4 を使用している場合は、バージョン 5.0.0 サービスパック 1 に直接アップグレードできます。
+> バージョン 5.0.0 サービスパック 2 へのアップグレードは、Experience Manager Guidesの現在のバージョンによって異なります。 バージョン 5.0.0 Service Pack 1 または 5.0.0 を使用している場合は、バージョン 5.0.0 Service Pack 2 に直接アップグレードできます。
 
 >[!NOTE]
 >
 > 後処理とインデックス作成には数時間かかる場合があります。 アップグレードプロセスは、ピーク時を避けて開始することをお勧めします。
 
-**&#x200B;**&#x200B;前提条件&#x200B;**&#x200B;**
+****前提条件****
 
 Experience Manager Guides 5.0.0 のアップグレードプロセスを開始する前に、次のことを確認してください。
 
@@ -1299,7 +1299,7 @@ Experience Manager Guidesには、クロスマップ（2 つの異なるマッ�
 
 ## damAssetLucene の再インデックス化手順
 
-ガイドを含む damAssetLucene のインデックス定義が更新されました。 5.0.0 バージョンへのアップグレード後に damAssetLucene のインデックスを再作成する方法については、[ この記事 ](https://experienceleague.adobe.com/ja/docs/experience-cloud-kcs/kbarticles/ka-16460) を参照してください。
+ガイドを含む damAssetLucene のインデックス定義が更新されました。 5.0.0 バージョンへのアップグレード後に damAssetLucene のインデックスを再作成する方法については、[ この記事 ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) を参照してください。
 
 >[!NOTE]
 >
@@ -1315,7 +1315,7 @@ Experience Manager Guidesには、クロスマップ（2 つの異なるマッ�
 >
 > 後処理とインデックス作成には数時間かかる場合があります。 アップグレードプロセスは、ピーク時を避けて開始することをお勧めします。
 
-**&#x200B;**&#x200B;前提条件&#x200B;**&#x200B;**
+****前提条件****
 
 Experience Manager Guides 5.1.0 のアップグレードプロセスを開始する前に、次のことを確認してください。
 
@@ -1463,7 +1463,7 @@ Experience Manager Guidesには、クロスマップ（2 つの異なるマッ�
 
 ## damAssetLucene の再インデックス化手順
 
-ガイドを含む damAssetLucene のインデックス定義が更新されました。 5.1.0 バージョンにアップグレードした後に damAssetLucene のインデックスを再作成する方法については、[ この記事 ](https://experienceleague.adobe.com/ja/docs/experience-cloud-kcs/kbarticles/ka-16460) を参照してください。
+ガイドを含む damAssetLucene のインデックス定義が更新されました。 5.1.0 バージョンにアップグレードした後に damAssetLucene のインデックスを再作成する方法については、[ この記事 ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) を参照してください。
 
 >[!NOTE]
 >
@@ -1471,4 +1471,4 @@ Experience Manager Guidesには、クロスマップ（2 つの異なるマッ�
 
 
 
-**親トピック：**&#x200B;[ ダウンロードしてインストール ](download-install.md)
+**親トピック：**[ ダウンロードしてインストール ](download-install.md)
