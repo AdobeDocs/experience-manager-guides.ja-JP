@@ -2,9 +2,9 @@
 title: スマートヘルプとオーサリングのための AI アシスタントの設定
 description: Experience Manager Guidesで AI アシスタントを設定する方法を説明します
 exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
-source-git-commit: b5b4c5484593a2f7d9121da1c7bfb28dd2c36a57
+source-git-commit: 7d0ae0f13ab77a10beb89fcb0d8592b05c3828bd
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '937'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ OAuth 認証の詳細を設定し、JSON サービスの詳細をダウンロー
 1. 「**環境**」タブに切り替えます。
 1. 設定する環境名を選択します。 これにより、**環境情報** ページに移動します。
 1. 「**設定**」タブに切り替えます。
-1. JSON フィールド `SERVICE_ACCOUNT_DETAILS` を更新します。 次のスクリーンショットで示したのと同じ名前と設定を使用していることを確認してください。
+1. JSON サービスの詳細（前の節でダウンロードしたもの）を、**に対応する** 値 `SERVICE_ACCOUNT_DETAILS` フィールドに貼り付けます。 次のスクリーンショットに示したのと同じ名前と設定を使用していることを確認してください。
 
    ![ims サービスアカウントの設定 ](assets/ims-service-account-config.png){width="800" align="left"}
 
