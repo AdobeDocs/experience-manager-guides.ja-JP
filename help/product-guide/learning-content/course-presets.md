@@ -1,11 +1,12 @@
 ---
 title: サポートされるプリセット
-description: 学習およびトレーニングコンテンツでコースを公開するためにサポートされているプリセットを紹介します
+description: 製品トレーニングおよびラーニングでコースを公開するためにサポートされているプリセットを紹介します
 feature: Authoring
 role: User
-source-git-commit: 54956963caf6384e129da97ed0f2100913893977
+exl-id: 32f30bba-4600-4d75-b0bb-1093490ec11e
+source-git-commit: 37eeecfa5683ce9de95f576b185e98bf180fab18
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
@@ -18,6 +19,4 @@ ht-degree: 0%
 
 - **PDF:** PDF出力プリセットを使用すると、プロフェッショナルな印刷対応フォーマットでコースコンテンツを公開できます。 PDF形式は、レビューやアーカイブの目的でコンテンツを共有する場合に最適です。
 
-
-
-
+プリセットの出力を作成、設定、生成する方法に関する概要ビデオについては、「[ プリセットの作成と設定 ](https://video.tv.adobe.com/v/3469529/aem-guides-learning-content)」を参照してください。

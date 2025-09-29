@@ -1,10 +1,10 @@
 ---
 title: PDF プリセットを作成
-description: 学習およびトレーニングコンテンツでのPDF プリセットの作成
+description: 製品のトレーニングとラーニングでのPDF プリセットの作成
 feature: Authoring
 role: User
 exl-id: c353cee7-eee1-4e6d-92b4-73016cb8cfa3
-source-git-commit: 57ddd498cd06d7d8cb511b0c3108591280a35bdb
+source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
    ![](assets/open-in-map-console.png){width="350" align="left"}
 
 1. **出力プリセット** パネルで、「+」アイコンを選択して出力プリセットを作成します。
-1. 新しい出力プリセット ダイアログの **タイプ** ドロップダウンから **0&rbrace;PDF&rbrace; を選択します。**
+1. 新しい出力プリセット ダイアログの **タイプ** ドロップダウンから **0}PDF} を選択します。**
 1. 「**名前**」フィールドに、このプリセットの名前を入力します。
 1. **次を使用してPDFを生成** フィールドで「**ネイティブPDF**」を選択します。
 1. 「**現在のフォルダープロファイルに追加**」オプションを選択して、現在のフォルダープロファイル内に出力プリセットを作成します。

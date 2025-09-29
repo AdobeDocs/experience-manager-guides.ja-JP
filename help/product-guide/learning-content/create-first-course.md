@@ -3,19 +3,26 @@ title: 最初のコースを作成
 description: Adobe Experience Manager Guidesの最初の学習コースを開始する方法を説明します。
 feature: Authoring
 role: User
-source-git-commit: 33b6080ec0a98e85f96e0ccb46c91bbffb882d2a
+exl-id: 8680482d-5688-4bb5-890f-c5a7e4bfdba1
+source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
 
 # 最初のコースを作成
 
+Experience Manager Guidesのコースは、様々な学習目標に合わせて設計できます。 通常の学習コースには、トピック、クイズ、概要が含まれる場合がありますが、主に評価に焦点を当てたコースを作成することもできます。 例えば、クイズのみのコースや、概要トピックを 1 つだけ含むクイズを設定して、理解を素早く確認できます。 また、評価前のクイズ、メインコースのコンテンツ、最終クイズを使用して、構造化パスを作成することもできます。 これらのオプションは、ターゲットを絞った学習体験を提供すると同時に、学習者の進歩を効果的に測定するのに役立ちます。
+
+ステップごとのプロセスに進む前に、最初のコースの作成方法とコースへのコンポーネントの追加について説明する短いチュートリアルビデオを視聴してください。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on)
+
+
 最初のコースを作成するには、次の手順を実行します。
 
 1. コースを作成するフォルダーに移動し、**オプション** メニューから **新規/コース** を選択します。
-
    ![](assets/create-new-course.png)
 
    **新規コースダイアログ** が表示されます。
@@ -33,6 +40,3 @@ ht-degree: 0%
 選択したテンプレートに基づいて、指定したパスにコースが作成されます。 また、コースマネージャーでコースが開き、編集できるようになります。
 
    ![](assets/course-manager-read-only-mode.png)
-
-
-

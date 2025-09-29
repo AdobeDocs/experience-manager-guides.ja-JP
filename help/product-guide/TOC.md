@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: a437256345b923bbcdbfb3fcdd79d1e0f67bc9f7
+source-git-commit: fc250384e887f28ab22248e787d1b003d1fa966c
 workflow-type: tm+mt
-source-wordcount: '2370'
+source-wordcount: '2373'
 ht-degree: 9%
 
 ---
@@ -151,8 +151,8 @@ ht-degree: 9%
                - [リリースノート（4.2.1）](./release-info/release-notes-4-2-1.md)
                - [4.2 リリースノート](./release-info/release-notes-4-2.md)
          - [4.1.x リリースノート](./release-info/release-notes-4-1.md)
-         - [4.0.x リリースノート ](https://helpx.adobe.com/jp/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x リリースノート ](https://helpx.adobe.com/jp/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x リリースノート ](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x リリースノート ](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - ユーザーガイド （新しい UI） {#user-guide}
    - はじめに {#about-aemg}
       - [概要  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -307,9 +307,9 @@ ht-degree: 9%
             - [コースマネージャーの基本について](./learning-content/course-manager-basics.md)
             - [コースの管理](./learning-content/manage-course.md)
          - 学習コンテンツの作成とカスタマイズ {#customize-lc}
-            - [学習コンテンツの概要](./learning-content/lc-overview.md)
-            - [学習コンテンツを作成](./learning-content/create-content.md)
-            - [学習コンテンツを編集](./learning-content/edit-content.md)
+            - [概要](./learning-content/lc-overview.md)
+            - [トピックを作成](./learning-content/create-content.md)
+            - [トピックを編集](./learning-content/edit-content.md)
             - [基本的な構築ブロックの追加](./learning-content/lc-basic-blocks.md)
             - [インタラクティブウィジェットの使用](./learning-content/lc-widgets.md)
             - [インラインスタイルの使用](./learning-content/lc-inline-styles.md)
@@ -318,10 +318,10 @@ ht-degree: 9%
             - [クイズを作成](./learning-content/create-quiz.md)
             - [クイズを編集](./learning-content/edit-quiz.md)
             - [クイズへの質問の挿入](./learning-content/quiz-insert-questions.md)
+            - [ クイズのプロパティ ](./learning-content/quiz-properties.md)
             - 質問バンク {#question-bank}
                - [質問バンクの作成](./learning-content/create-qb.md)
-               - [質問バンクから質問を挿入](./learning-content/insert-questions.md)
-            - [ クイズのプロパティ ](./learning-content/quiz-properties.md)
+               - [ 質問バンクから質問を挿入 ](./learning-content/insert-questions.md)
          - コースを公開する {#publish-course}
             - [コースの公開について](./learning-content/publish-overview.md)
             - [サポートされるプリセット](./learning-content/course-presets.md)
@@ -336,6 +336,7 @@ ht-degree: 9%
       - 設定ガイド {#config-lc}
          - [このガイドについて](./lc-config-guide/introduction.md)
          - [フォルダープロファイルの設定](./lc-config-guide/lc-folder-profile.md)
+         - [フォルダー構造を設定するためのベストプラクティス](./lc-config-guide/best-practices-folder-structure.md)
          - [ その他の設定 ](./lc-config-guide/lc-other-settings.md)
       - ビデオチュートリアル {#lc-video}
          - [オーサーワークフロー](./lc-video-tutorials/author-workflow.md)
@@ -349,7 +350,7 @@ ht-degree: 9%
       - トラブルシューティング {#troubleshooting}
          - [セッションタイムアウト](./user-guide/session-timeout-prompt.md)
 - ユーザーガイド（古い UI） {#user-guide-old-ui}
-   - [AEM Guidesの概要](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guidesの概要 ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - インストールと設定 {#install-guide}
    - オンプレミス {#on-prem-ig}
       - [オンプレミスの基本](./install-guide/introduction.md)

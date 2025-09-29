@@ -1,11 +1,12 @@
 ---
 title: コース概要の公開
-description: 学習およびトレーニングコンテンツでのコース公開の概要を説明します
+description: 製品トレーニングおよびラーニングでのコース公開の概要を説明します
 feature: Authoring
 role: User
-source-git-commit: 4b581043d2577545b69773d33869dcd873a2ea3b
+exl-id: cb3c17bb-9585-4234-a747-88d38d6da01c
+source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '82'
 ht-degree: 0%
 
 ---
@@ -14,6 +15,6 @@ ht-degree: 0%
 
 コースを公開することは、対象オーディエンスが学習コンテンツにアクセスできるようにする最後のステップです。 現在、コースは、提供方法に応じて、SCORM （共有可能なコンテンツオブジェクト参照モデル）形式またはPDF形式で公開できます。
 
+次に、SCORM およびPDF出力の作成、設定および生成方法を視覚化するのに役立つ概要ビデオを示します。
 
-
-
+>[!VIDEO](https://video.tv.adobe.com/v/3469529/aem-guides-learning-content)

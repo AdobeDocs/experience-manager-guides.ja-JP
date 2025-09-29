@@ -5,9 +5,9 @@ feature: Authoring
 role: Admin
 level: Experienced
 exl-id: dc26ae48-c953-492c-823a-5f65157b6902
-source-git-commit: f14ee85ccc49abd662a046b2bd4e7be2eece4902
+source-git-commit: 64adc89966e60823f6b46fb062b7659ed150cfc3
 workflow-type: tm+mt
-source-wordcount: '1451'
+source-wordcount: '1453'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 0%
 # フォルダープロファイルの設定
 
 企業内の様々な部門や製品の設定を分離するには、フォルダープロファイルが必要です。 学習コンテンツとトレーニングコンテンツの場合、フォルダーレベルのプロファイルを作成および設定して、オーサリングテンプレート、出力テンプレート、出力プリセットおよびその他のフォルダーレベルの設定を管理できます。
+
+[ フォルダー構造を設定するためのベストプラクティス ](best-practices-folder-structure.md) について説明します。
 
 学習およびトレーニングコンテンツのフォルダープロファイル設定を開始するには、次が必要です。
 
@@ -25,7 +27,6 @@ ht-degree: 0%
    ![](assets/create-new-folder.png){width="350" align="left"}
 2. **翻訳を管理するための言語フォルダーの作成**：コンテンツを異なる言語に翻訳する場合、各言語に対応するフォルダーを作成する必要があります。 これらの各言語フォルダーには、その言語に対応するコンテンツが含まれます。
 
-   詳しくは、[ コンテンツ翻訳のベストプラクティス ](../user-guide/translation-first-time.md) を参照してください。
 3. **Assetsを管理するフォルダーを作成**：フォルダーと同様に、異なる部署のニーズに応じて、異なるAssets フォルダーを作成することもできます。 また、作成者と公開者がテンプレート、画像、その他のアセットに設定された正しい CSS にアクセスできるようにします。
 
    ![](assets/configure-assets-folder.png){width="350" align="left"}

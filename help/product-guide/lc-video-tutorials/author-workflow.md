@@ -4,9 +4,9 @@ description: Experience Manager Guidesのコンテンツの学習とトレーニ
 feature: Authoring
 role: User
 exl-id: 18b7e018-287c-4e52-a05e-5472eedf1c54
-source-git-commit: 98a520a255c5587ac0de82685391c0fc153bc8d1
+source-git-commit: 2cb5d104c9a02feb2148018975ca51edda593634
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '461'
 ht-degree: 1%
 
 ---
@@ -21,8 +21,10 @@ ht-degree: 1%
 | リポジトリとコレクションの管理 | リポジトリ内のナビゲーションと、AEM Guides内のコレクション（ファイルアクション、検索、コンテンツ編成など）の管理の概要です。 | [ ビデオを起動 ](https://video.tv.adobe.com/v/3469539/learning-content-aem-guides){target="_blank"} |
 | AEM Guidesでのコース作成 | テンプレート、コンテンツ階層、クイズ、バージョン管理、コース構造など、AEM Guidesでコースを作成および管理する方法について説明します。 | [ ビデオを起動 ](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content){target="_blank"} |
 | 学習コンテンツの作成と編集 | AEM Guidesでの構造化コンテンツのオーサリングに関する実践チュートリアルで、テンプレート、書式設定、メディア、ハイパーリンク、テーブルおよびコンテンツのプロパティについて説明します。 | [ ビデオを起動 ](https://video.tv.adobe.com/v/3469535/learning-content-aem-guides){target="_blank"} |
-| クイズの作成と編集 | テンプレート、質問タイプ、リッチコンテンツ、フィードバック、クイズプロパティに対応した、AEM Guidesでクイズを作成するためのステップバイステップのガイドです。 | [ ビデオを起動 ](https://video.tv.adobe.com/v/3469541/aem-guides-learning-content){target="_blank"} |
-| 問題バンクの使用 | 一意の ID の挿入、編集動作、ランダム化、ベストプラクティスなど、AEM Guidesでクエスチョンバンクを作成して再利用する方法の概要を説明します。 | [ ビデオを起動 ](https://video.tv.adobe.com/v/3469313/aem-guides-learning-content){target="_blank"} |
+| 学習トピックの追加 | AEM Guidesのコースに新しいトピックを追加するデモ。 | [ ビデオを起動 ](https://video.tv.adobe.com/v/3475211/learning-content-aem-guides){target="_blank"} |
+| トピックの削除と表示設定の詳細 | コースからトピックを削除し、「設定を表示」オプションを検討する概要です。 | [ ビデオを起動 ](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides){target="_blank"} |
+| クイズの作成と編集 | テンプレート、質問タイプ、リッチコンテンツ、フィードバック、クイズプロパティに対応した、AEM Guidesでクイズを作成するためのステップバイステップのガイドです。 | [ ビデオを起動 ](https://video.tv.adobe.com/v/3475209/aem-guides-learning-content){target="_blank"} |
+| 問題バンクの使用 | 一意の ID の挿入、編集動作、ランダム化、ベストプラクティスなど、AEM Guidesでクエスチョンバンクを作成して再利用する方法の概要を説明します。 | [ ビデオを起動 ](https://video.tv.adobe.com/v/3475212/learning-content-aem-guides){target="_blank"} |
 | ファイルプロパティについて | ドキュメントの状態、タグ、ラーニングコンテンツの属性、参照、コンテンツのプロパティなど、AEM Guidesのファイルレベルのメタデータの概要です。 | [ ビデオを起動 ](https://video.tv.adobe.com/v/3469538/learning-content-aem-guides){target="_blank"} |
 | 学習コンテンツと CSS 管理のスタイル設定 | CSS エディターを使用して、学習コンテンツにインラインスタイルやパネルベースのスタイルを適用する方法、クイズスタイルの制限を管理する方法およびスタイルを設定する方法を示します。 | [ ビデオを起動 ](https://video.tv.adobe.com/v/3469533/aem-guides-learning-content){target="_blank"} |
 | 高度なコンテンツ編集 | ウィジェット（アコーディオン、カルーセル、ホットスポット）、マルチメディア、iframe、コードブロック、ブロック引用など、AEM Guidesの詳細要素を挿入および設定する方法について説明します。 | [ ビデオを起動 ](https://video.tv.adobe.com/v/3469531/learning-content-aem-guides){target="_blank"} |

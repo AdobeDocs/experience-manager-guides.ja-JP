@@ -1,10 +1,10 @@
 ---
 title: SCORM プリセットの作成
-description: ラーニングコンテンツとトレーニングコンテンツで SCORM プリセットを作成する方法を説明します
+description: 製品トレーニングおよびラーニングで SCORM プリセットを作成する方法を説明します
 feature: Authoring
 role: User
 exl-id: 4a433b9d-594d-42b5-8c59-f246eda7e631
-source-git-commit: 57ddd498cd06d7d8cb511b0c3108591280a35bdb
+source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 1%

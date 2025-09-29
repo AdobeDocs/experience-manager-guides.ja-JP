@@ -1,12 +1,13 @@
 ---
 title: インラインスタイルの使用
-description: 学習およびトレーニングコンテンツで学習コンテンツを作成する際に、様々なインラインスタイルを使用する方法を説明します
+description: 製品トレーニングおよび学習で学習コンテンツを作成する際の様々なインラインスタイルの使用方法について説明します
 feature: Authoring
 role: User
-source-git-commit: 4b581043d2577545b69773d33869dcd873a2ea3b
+exl-id: 78b62eb3-bc61-4c39-96b2-c0511d659ebf
+source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 1%
+source-wordcount: '261'
+ht-degree: 0%
 
 ---
 
@@ -18,9 +19,14 @@ ht-degree: 1%
 >
 > これらのスタイルオプションは、管理者が有効にした場合にのみ表示されます。
 
+
+>[!VIDEO](https://video.tv.adobe.com/v/3469533/aem-guides-learning-content)
+
+
+次のオプションのインラインスタイルオプションを使用できます。
+
 ![](assets/content-properties-learning-content.png){width="350" align="left"}
 
-以下のオプションが利用できます。
 
 - **フォント：** フォントファミリー、フォントの太さ、テキストの装飾、フォントサイズなど、様々なオプションを使用して、テキストの外観をカスタマイズできます。 これらの設定は、次の例に示すように、コンテンツのスタイル設定に役立ちます。
 

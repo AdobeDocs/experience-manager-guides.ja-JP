@@ -1,9 +1,10 @@
 ---
 title: Course manager basics
-description: Adobe Experience Manager Guidesで学習およびトレーニングコンテンツを扱う際には、コースマネージャーの基本を理解します。
+description: Adobe Experience Manager Guidesで製品トレーニングと学習を扱う際は、コースマネージャーの基本を理解します。
 feature: Authoring
 role: User
-source-git-commit: 33b6080ec0a98e85f96e0ccb46c91bbffb882d2a
+exl-id: 091cd47e-558b-49d7-ae47-b600fc8fe79d
+source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 0%

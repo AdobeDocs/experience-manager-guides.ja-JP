@@ -1,9 +1,10 @@
 ---
 title: インターフェイスと前提条件を確認します
-description: Adobe Experience Manager Guidesでラーニングおよびトレーニングコンテンツを使用する際のインターフェイスと前提条件を確認します。
+description: Adobe Experience Manager Guidesの製品トレーニングおよびラーニングを利用する際のインターフェイスと前提条件について説明します。
 feature: Authoring
 role: User
-source-git-commit: eda6c57d80359b1c70266708dc444f4880e1bf6c
+exl-id: b55af490-ebd5-4aa0-a5f3-84d835175dc9
+source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 2%
@@ -44,13 +45,3 @@ ht-degree: 2%
 - **外観**：学習コンテンツのアプリケーションおよびソースビューのテーマを選択するオプションが用意されています。
 
 詳しくは、Experience Manager Guidesの [ ユーザー環境設定 ](../user-guide/intro-home-page.md#user-preferences) を参照してください。
-
-
-
-
-
-
-
-
-
-
