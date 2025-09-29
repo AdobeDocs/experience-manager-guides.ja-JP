@@ -73,5 +73,5 @@ User Management ページで「**作成**」を選択して、新しいユーザ
 
 これらの権限により、ユーザーが指定されたフォルダー内でのみコンテンツを作成または変更できるようになります。
 
-詳しくは、[AEMの権限 ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/security#permissions-in-aem) を参照してください。
+詳しくは、[AEMの権限 ](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/security/security#permissions-in-aem) を参照してください。
 
