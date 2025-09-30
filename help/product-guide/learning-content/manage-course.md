@@ -4,7 +4,7 @@ description: コースを効率的に管理するためにExperience Manager Gui
 feature: Authoring
 role: User
 exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
-source-git-commit: 0c3cb192391248adcca4b845b5e4237531fc0ab7
+source-git-commit: 6a61f404892dee8256e969a0b3433b8425f84c6c
 workflow-type: tm+mt
 source-wordcount: '567'
 ht-degree: 1%
@@ -48,7 +48,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->**Add Existing**>**File （Resource only zip）** オプションを使用して、解凍されて最終的な SCORM 出力のフォルダ構造に統合される zip ファイルを含めることもできます。 これにより、コースの公開中にリソースのパッケージ化を合理化できます。
+>**既存の追加**/**ファイル（リソースのみの zip）** オプションを使用して、解凍されて最終的な SCORM 出力のフォルダ構造に統合される zip ファイルを含めることもできます。 これにより、コースの公開中にリソースのパッケージ化を合理化できます。
 
 ビデオの概要については、[ コースに既存のコンテンツを追加する ](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on) を参照してください。
 
