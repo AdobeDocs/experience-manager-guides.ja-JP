@@ -25,11 +25,11 @@ ht-degree: 11%
 
 ## 新機能
 
-* **[[!DNL Experience Manager Guides] はじめる前に ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/getting-started/overview.html){target="blank"}** コース
+* **[[!DNL Experience Manager Guides] はじめる前に &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/getting-started/overview.html){target="blank"}** コース
 
   _[!DNL Adobe Experience Manager Guides] でコンテンツを作成、整理、オーサリングおよび公開する方法について説明します_。
 
-* **[[!DNL Experience Manager Guides] ビルトインエディターでのオーサリング ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html){target="blank"}**
+* **[[!DNL Experience Manager Guides] ビルトインエディターでのオーサリング &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html){target="blank"}**
 
   _[!DNL Adobe Experience Manager Guides] でネイティブ web エディターを使用してコンテンツを作成する方法を説明します。 ユーザーの環境設定、エディターの設定、設定、ツールバーなどについて完全に理解できます。_
 
@@ -40,7 +40,7 @@ ht-degree: 11%
 
 ## その他のリソース
 
-* [[!DNL Experience Manager Guides]  ユーザーガイド（古い UI） ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
-* [[!DNL AEM Guides]  ラーニングとサポート ](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
+* [[!DNL Experience Manager Guides]  ユーザーガイド（古い UI） &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+* [[!DNL AEM Guides]  ラーニングとサポート &#x200B;](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
 * [Experience League - AEM に関する情報](https://business.adobe.com/jp/products/experience-manager/adobe-experience-manager.html)
 
