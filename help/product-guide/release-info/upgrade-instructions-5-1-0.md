@@ -1,10 +1,11 @@
 ---
 title: リリースノート | Adobe Experience Manager Guides 5.1.0 リリースのアップグレード手順
 description: 互換性マトリックスとAdobe Experience Manager Guides 5.1.0 リリースへのアップグレード方法について説明します。
-source-git-commit: 5809c93b86955c25296daaed42eea444fc98d8f0
+exl-id: 4b7b6756-d260-4baf-a9cb-d99fc02f020f
+source-git-commit: 6bcfed792036a51aa0c11498e4cb489199280a56
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 5%
+source-wordcount: '520'
+ht-degree: 7%
 
 ---
 
@@ -20,11 +21,10 @@ ht-degree: 5%
 
 この節では、Experience Manager Guides 5.1.0 リリースでサポートされるソフトウェアアプリケーションの互換表を示します。
 
-### Adobe Experience Manager
-
-**5.1.0 UUID**
-
-バージョン 6.5 サービスパック 23、サービスパック 22、サービスパック 21
+| AEM ガイド | AEM のバージョン | サービスパック |
+| --- | --- | --- |
+| 5.1.0 （UUID） | 6.5 LTS | 1 |
+| 5.1.0 （UUID） | 6.5 | 23、22、21 |
 
 詳しくは、『オンプレミスのインストールおよび設定ガイド』の [ 技術要件 ](../install-guide/download-install-technical-requirements.md) の節を参照してください。
 
@@ -49,24 +49,32 @@ ht-degree: 5%
 ### 新しいバージョンのAEM サイトテンプレート
 
 
-| コンポーネントのバージョン | サイトバージョン |
-|---|---|
-| guides-components.all-1.4.0 | aemg-docs.all-1.2.0 |
+| AEM ガイド | AEM バージョン | コンポーネントのバージョン | サイトバージョン |
+|---|---|---| ---|
+| 5.1.0 UUID | 6.5 LTS | guides-components.all-1.4.1 | aemg-docs.all-1.2.0 |
+| 5.1.0 UUID | 6.5 | guides-components.all-1.4.0 | aemg-docs.all-1.2.0 |
 
+## Experience Manager Guides 5.1.0 へのアップグレード
 
-## Experience Manager Guidesの 5.1.0 リリースへのアップグレード
+**AEM 6.5 または** AEM 6.5 LTS} の現在のExperience Manager Guidesをバージョン 5.1.0 **簡単にアップグレ** ドできます。
 
-Guides の現在のバージョンをバージョン 5.1.0 に簡単にアップグレードできます。Experience Manager Guidesのバージョン 5.1.0 へのアップグレードを行う前に、次の点を考慮する必要があります。
+>[!NOTE]
+>
+> 現在AEM 6.5 を使用していて、AEM 6.5 LTS への移行を計画している場合は、まずAEMのアップグレードを完了してから、Experience Manager Guides 5.1.0 のアップグレードを進めてください。 詳しくは、[Adobe Experience Manager（AEM） 6.5 LTS へのアップグレード ](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade) を参照してください。
+
+Experience Manager Guidesのバージョン 5.1.0 へのアップグレードを行う前に、次の点を考慮する必要があります。
 
 - バージョン 4.6.3、4.6.4、5.0.0、または 5.0.0 Service Pack 1 を使用している場合は、バージョン 5.1.0 に直接アップグレードできます。
 - バージョン 4.6.0、4.6.1 を使用している場合は、バージョン 5.1.0 にアップグレードする前にバージョン 4.6.3、4.6.4 または 5.0.0 にアップグレードする必要があります。
 - バージョン 4.3.x、4.2、4.2.1 （ホットフィックス 4.2.1.3）、4.1、または 4.1.x を使用している場合は、バージョン 5.1.0 にアップグレードする前にバージョン 4.4 にアップグレードする必要があります。
 - バージョン 4.0 を使用している場合、バージョン 4.3.x にアップグレードする前にバージョン 4.2 にアップグレードする必要があります。
 - バージョン 3.8.5 を使用している場合、バージョン 4.2 にアップグレードする前にバージョン 4.0 にアップグレードする必要があります。
-- バージョン 3.8.5 より前のバージョンを使用している場合は、[Experience Manager Guides ヘルプ PDF アーカイブ ](https://helpx.adobe.com/jp/xml-documentation-for-experience-manager/archive.html) にある製品固有のインストールガイドのAdobe Experience Manager Guidesのアップグレードの節を参照してください。
+- バージョン 3.8.5 より前のバージョンを使用している場合は、[Experience Manager Guides ヘルプ PDF アーカイブ ](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) にある製品固有のインストールガイドのAdobe Experience Manager Guidesのアップグレードの節を参照してください。
 
 >[!NOTE]
 >
 >Experience Manager Guides版をアップグレードする前に、AEM サービスパックをインストールする必要があります。
 
 詳しくは、Experience Manager Guidesの [ オンプレミスリリースのアップグレード手順 ](../install-guide/upgrade-xml-documentation.md) を参照してください。
+
+
