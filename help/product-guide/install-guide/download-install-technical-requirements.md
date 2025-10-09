@@ -5,7 +5,7 @@ exl-id: d69245b0-bf20-43c1-b46e-b6c220319690
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: a288462d4e17a2f5d1d1072d8e6a7221f1431884
+source-git-commit: 339fc84c2c3232dbe9946c0063c13a8bbef131a5
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 1%
@@ -23,7 +23,7 @@ Adobe Experience Manager Guidesをインストールする前に、お使いの�
 
 >[!NOTE]
 >
-> [Experience Manager Guides リリースの詳細についての説明とビルドのダウンロード &#x200B;](../release-info/latest-release-info.md)。
+> [Experience Manager Guides リリースの詳細についての説明とビルドのダウンロード ](../release-info/latest-release-info.md)。
 
 
 | [!DNL AEM Guides] リリース | 技術仕様 |
@@ -38,4 +38,4 @@ Adobe Experience Manager Guidesをインストールする前に、お使いの�
 | **AEM Guides 3.8.5** <br> 3.8.5 は、3.8 に加えて SP リリースになりました。3.8.5 SP に重大な修正が含まれているため、<br>3.8 リリースはスタンドアロンでインストールしないでください。 <br> お客様は、まず 3.8 をインストールし、次に SP 3.8.5 をインストールする必要があります。 | **非 UUID** <br> <ul><li>AEM 6.5 SP9 または SP8 <br> AEM 6.4 SP8 <br> AEM 6.3 SP3   <br><br> <li>オペレーティングシステム： <ul><li>Windows Server 2012 R2 <br> <li> Red Hat Linux 7 および 6</ul><br> **UUID** <br><li> AEM 6.5 SP9 または SP8 <br><br> <li> オペレーティングシステム： <ul><li>Windows Server 2012 R2 <br> <li>Red Hat Linux 7 および 6 |
 
 
-**親トピック：**&#x200B;[&#x200B; ダウンロードしてインストール &#x200B;](download-install.md)
+**親トピック：**[ ダウンロードしてインストール ](download-install.md)
