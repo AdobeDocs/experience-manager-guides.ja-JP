@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: f8a8dfd3-19de-49ff-b4d4-265b3ac09488
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: 1e08dce0bd64d1a15d42baf4c9720405a9eec146
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Experience Manager Guidesでは、トピックやその要素をコンテンツ�
    ![ フォルダープロパティにクラウド設定の詳細を追加する ](images/fragment-folder-cloud-configuration.png){width="650" align="left"}
    *フォルダープロパティにクラウド設定を追加し、フラグメントモデルと接続します。*
 
-1. コンテンツフラグメントを生成するには、トピックの **ファイルのプロパティ** にある ![ 出力 **セクションから** 新しい出力 ](./images/Add_icon.svg)**新しい出力アイコン** を選択します。
+1. コンテンツフラグメントを生成するには、トピックの **ファイルのプロパティ** にある ![ 出力 ](./images/Add_icon.svg) セクションから **新しい出力****新しい出力アイコン** を選択します。
 1. 「**コンテンツフラグメント**」を選択します。\
    ![[ ファイル プロパティ ] の [ オプション ] タブ ](./images/file-properties-outputs-tab.png) {width="300" align="left"}
 
@@ -50,7 +50,6 @@ Experience Manager Guidesでは、トピックやその要素をコンテンツ�
    * **名前**：コンテンツフラグメントの名前を入力します。 デフォルトでは、名前にはトピックのタイトルが設定され、スペースは「_」に置き換えられます。 例えば、*sample_content_fragment* と指定します。 編集できます。  この名前は、コンテンツフラグメントの URL の生成に使用されます。
 
    * 様々な条件を選択して、コンテンツフラグメントのバリアントを作成できます。 次のいずれかのオプションを選択します。
-
      >[!NOTE]
      > 
      > 条件は、トピックで条件属性が定義されている場合にのみ有効になります。
@@ -113,4 +112,4 @@ Experience Manager Guidesでは、トピックやその要素をコンテンツ�
 
 新しい UUID コンテンツ移行スクリプトは、大幅に最適化され、非 UUID から UUID へのコンテンツの移行が、以前のスクリプトよりも 30 倍高速になりました。 チェックポイントからの再開、ライブインサイト、推定完了時間、詳細なレポートなどの機能が含まれ、調和のとれた移行プロセスを確保します。 特に、移行プロセスでは、アセットのメタデータが変更されずに保持されます。 このスクリプトは、300 万のアセットの大規模なデータセットでテストおよび検証され、大規模な移行に対する効率と信頼性が確認されています。
 
-詳しくは、[UUID から UUID へのコンテンツの移行 ](/help/product-guide/install-guide/migrate-non-uuid-uuid.md) を参照してください。
+詳しくは、[UUID から UUID へのコンテンツの移行 ](/help/product-guide/install-guide/migrate-non-uuid-4-3.md) を参照してください。

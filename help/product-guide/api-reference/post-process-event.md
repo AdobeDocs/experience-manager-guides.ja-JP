@@ -5,9 +5,9 @@ exl-id: 3b105ff5-02d4-40e3-a713-206a7fcf18b2
 feature: Post-Processing Event Handler
 role: Developer
 level: Experienced
-source-git-commit: 8c992afc1cc56052e6c07ac3cea6e7d3412259b2
+source-git-commit: 8e57d4048f4aa13d7f77f25082d4e7aa329ee355
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '414'
 ht-degree: 5%
 
 ---
@@ -22,6 +22,9 @@ Adobe Experience Manager Guidesは `com/adobe/guides/postprocess/complete` 後�
 - 作成
 - 変更
 
+>[!NOTE]
+>
+> 後処理イベントは、`fire.processing.events` の設定パラメーターである `fmdita config manager` フラグを有効にすることによってトリガーされます。 true に設定した場合は、イベント（com/adobe/guides/postprocess/complete）をトリガーして、後処理の完了を追跡します。 デフォルトでは、false （無効）に設定されています。
 
 このイベントで使用可能なプロパティを読み取り、さらに処理を行うには、Adobe Experience Manager イベントハンドラーを作成する必要があります。
 

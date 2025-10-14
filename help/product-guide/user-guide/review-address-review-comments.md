@@ -4,9 +4,9 @@ description: AEM Guidesで作成者としてのレビューコメントに対処
 exl-id: 4c969788-f700-4fd6-8afa-8e5b411b59f3
 feature: Reviewing
 role: User
-source-git-commit: f8320d0e0b5982d932c9df46f8ccf35d5f44dbac
+source-git-commit: 35480e842f6c05811333a14e80c0e9b6431e9176
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1228'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
   リストからレビュータスクを選択すると、レビュー担当者がタスクで作成したコメントを表示できます。 レビューのコメントはタスク内で個別に扱うことができます。つまり、コメントに対する更新は、それぞれのタスクのレビュー担当者にのみ表示されます。
 
-- **B:** **コメント** パネルの ![](images/active-review-info-icon.svg) レビューの詳細 **&#x200B;**&#x200B;を選択すると、レビュータスクに関する詳細情報が表示されます。
+- **B:** **コメント** パネルの ![](images/active-review-info-icon.svg) レビューの詳細 **** を選択すると、レビュータスクに関する詳細情報が表示されます。
 
    - **名前**: レビュータスクの名前です。
    - **レビューバージョン**：選択したレビュータスクに関連付けられているバージョンが表示されます。 これにより、レビュー用に共有したバージョンを追跡できます
@@ -69,9 +69,10 @@ ht-degree: 0%
 - **G**：コメント内のテキストを検索します。
 - **H**：コメントを承認または却下します。
 
-- **I**：コメントにフィルターを適用します。 注釈は、レビュータイプ \（all, highlighted, deleted, inserted, or sticky note\）、レビューステータス \（all, accepted, rejected, or none\）、レビュー担当者\（all or specific reviewer\（s\）\）、またはトピックのバージョンに基づいて表示するようにフィルタリングできます。
+- **I**：コメントにフィルターを適用します。 注釈は、レビュータイプ \（all, highlighted, deleted, inserted, or sticky note\）、レビューステータス \（all, accepted, rejected, or none\）、レビュー担当者\（all or specific reviewer\（s\）\）、またはトピックのバージョンに基づいて表示するようにフィルタリングできます。 デフォルトでは、どのフィルターも選択されていません。
 
-**他のユーザーをタグ付けしてコメントに返信する**
+  ![](images/review-comments-author-filter.png){width="350" align="left"}
+  **他のユーザーをタグ付けしてコメントに返信する**
 
 レビュータスクの作成者および開始者は、返信してレビュータスクのコメントを確認し、同じレビュータスクに関係する他のユーザーにタグを付けて、注意を促したり、フォローアップを割り当てたりできます。 この機能は、アクティブなレビュータスクでのみ使用できます。
 
@@ -90,4 +91,4 @@ ht-degree: 0%
 
 ![](images/review-comments-toolbar-disabled.png){width="350" align="left"}
 
-**親トピック：**&#x200B;[ レビューの概要 ](review.md)
+**親トピック：**[ レビューの概要 ](review.md)

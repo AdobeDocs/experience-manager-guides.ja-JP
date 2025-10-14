@@ -3,17 +3,16 @@ title: Experience Manager GuidesでのWorkspaceの設定
 description: Experience Manager Guidesのエディターインターフェイスで使用できる様々な設定について説明します。
 feature: Authoring, Features of Web Editor
 role: User
-exl-id: fad2874f-dab5-4538-8502-f7112c51d941
-source-git-commit: a1e0571e596a44ee67d49658a718e24d9ab3b467
+source-git-commit: 1e08dce0bd64d1a15d42baf4c9720405a9eec146
 workflow-type: tm+mt
-source-wordcount: '2113'
+source-wordcount: '2132'
 ht-degree: 0%
 
 ---
 
 # Workspace設定
 
-エディターの **タブバー** にある [Workspace設定 ](./web-editor-tab-bar.md) オプションは、管理者およびフォルダープロファイル管理者のみが使用でき、次の設定を行うことができます。
+エディターの **タブバー** にある [Workspace設定 ](../user-guide/web-editor-tab-bar.md) オプションは、管理者およびフォルダープロファイル管理者のみが使用でき、次の設定を行うことができます。
 
 - [一般](#general)
 - [パネル](#panels)
@@ -29,20 +28,21 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> デフォルトの設定を更新する場合は、変更を有効にするためにドキュメントを再度開く必要があります。
+> - オンプレミス設定でAdobe Experience Manager Guidesを使用している場合、「Workspace設定」オプションは「その他のアクション」メニューの下に **設定** として引き続き表示されます。
+> - デフォルトの設定を更新する場合は、変更を有効にするためにドキュメントを再度開く必要があります。
 
 ## 一般
 
 一般設定では、エディターを使用するための設定を指定できます。 このタブには、[**AI アシスタント**]、[**オーサリング**]、[**引用文献**]、[**条件**]、[**スペル チェック** の 5 つのセクションがあります。
 
-![](images/editor-setting-general.png){width="350" align="left"}
+![](../user-guide/images/editor-setting-general.png){width="350" align="left"}
 
 - **AI アシスタント**
-これを選択して、Experience Manager Guidesで [AI アシスタント ](./ai-assistant.md) 機能を有効にします。 この機能を無効にするには、選択を解除します。
+これを選択して、Experience Manager Guidesで [AI アシスタント ](../user-guide/ai-assistant.md) 機能を有効にします。 この機能を無効にするには、選択を解除します。
 
   **AI アシスタント** 切り替えスイッチを有効にした後、以下に示すように、**クイックアクションのオーサリング** メニューを使用して、作成者に **「オーサリング」タブ** に表示するオプションを設定できます。\
   これらの変更は、使用している特定のフォルダープロファイルに適用されます。 新しいフォルダープロファイルを作成すると、デフォルトで **グローバル** フォルダープロファイルで定義されたWorkspace設定が継承されます。 必要に応じて、**Workspace設定を使用してこれらの設定を変更し** 更新された設定を保存できます。\
-  AI アシスタントを使用したオーサリングで利用可能なオプションの詳細な概要については、[AI アシスタントでスマートにドキュメントを作成する ](./ai-assistant-right-panel.md) を参照してください。
+  AI アシスタントを使用したオーサリングで利用可能なオプションの詳細な概要については、[AI アシスタントでスマートにドキュメントを作成する ](../user-guide/ai-assistant-right-panel.md) を参照してください。
 
   **クイックアクションのオーサリング** メニューから、次の操作を実行できます。
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
    - オプションの表示順序を変更し、必要に応じてドラッグ&amp;ドロップします。
 
-  ![](images/authoring-quick-actions-new.png){width="350" align="left"}
+  ![](../user-guide/images/authoring-quick-actions-new.png){width="350" align="left"}
 
 
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 - **引用**
 
-  引用のスタイルを変更します。 プロジェクトで使用する引用スタイルをドロップダウンから選択します。 詳細については、[ 引用スタイルの変更 ](./web-editor-apply-citations.md#change-citation-style) を参照してください。
+  引用のスタイルを変更します。 プロジェクトで使用する引用スタイルをドロップダウンから選択します。 詳細については、[ 引用スタイルの変更 ](../user-guide/web-editor-apply-citations.md#change-citation-style) を参照してください。
 
 - **条件**
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
    - **件名スキーム パネルにタイトルと共にキーを表示**：件名スキームのタイトルと共にキーを表示するには、これを選択します。 このオプションを選択しない場合は、タイトルのみが表示されます。 例えば、ここでは「os」、「audience」、「other」のキーもタイトルと共に表示されます。
 
-     ![](images/subject-scheme-title.png){width="550" align="left"}
+     ![](../user-guide/images/subject-scheme-title.png){width="550" align="left"}
 
    - **条件パネルに件名スキームを表示**：条件パネルに件名スキームを表示するには、これを選択します。 選択を解除すると、定義された条件が条件パネルに表示されます。
 
@@ -82,11 +82,11 @@ ht-degree: 0%
 
 この設定は、エディターコンソールとマップコンソールの左右のパネルに表示されるパネルを制御します。 ボタンを切り替えて、目的のパネルの表示と非表示を切り替えることができます。
 
-![](images/editor-setting-panel.png){width="650" align="left"}
+![](../user-guide/images/editor-setting-panel.png){width="650" align="left"}
 
 また、パネル内に存在するフィーチャの表示順序を定義することもできます。 パネル内の使用可能なフィーチャの既定の順序を変更するには、点線のバーを選択して、フィーチャ タブを目的の位置にドラッグ アンド ドロップします。 機能は、要件に応じて、**その他** セクションからパネルのメインセクションに、またはその逆に移動することもできます。 並べ替え後、各左右のパネルで同じ順序で機能が表示されます。
 
-![](images/panels-screen.png){width="650" align="left"}
+![](../user-guide/images/panels-screen.png){width="650" align="left"}
 
 
 一度に最大 8 つのパネルを表示できます。 パネル設定に加えられた変更は、すぐに適用されます。
@@ -100,23 +100,23 @@ ht-degree: 0%
 
 管理者は、作成者がファイルに挿入できる要素のリストを制御したり、要素の表示名を定義したりできます。 「エレメント」 リスト設定では、DITA 仕様に従ってエレメントの名前を指定し、DITA 定義のエレメント名の代わりに使用するラベルを指定できます。
 
-![](images/editor-setting-element-list.png){width="650" align="left"}
+![](../user-guide/images/editor-setting-element-list.png){width="650" align="left"}
 
 上のスクリーンショットでは、`p` 要素には Paragraph というラベルが付けられ、`codeblock` には他の要素と共に Code Block というラベルが付けられています。 「**上の要素のみを使用**」オプションを選択すると、このリストの有効な要素\（現在の挿入ポイント\）のみが **要素を挿入** ダイアログボックスに表示されます。
 
 次のスクリーンショットでは、以前のスクリーンショットで設定された 4 つの要素のうち、現在のコンテキストで 3 つの要素のみが表示されます。
 
-![](images/editor-setting-insert-element-list.PNG){width="300" align="left"}
+![](../user-guide/images/editor-setting-insert-element-list.PNG){width="300" align="left"}
 
 ## 属性リスト
 
 要素リストと同様に、要素の属性リストに表示する属性とその表示名のリストを制御できます。 次のスクリーンショットでは、要素の属性リストに表示されるように設定されている属性は 3 つだけです。
 
-![](images/editor-setting-attributes-list.png){width="650" align="left"}
+![](../user-guide/images/editor-setting-attributes-list.png){width="650" align="left"}
 
 この設定では、要素に属性を追加しようとすると、リストで設定された属性のリストのみが表示されます。
 
-![](images/editor-setting-add-attributes-list.png){width="300" align="left"}
+![](../user-guide/images/editor-setting-add-attributes-list.png){width="300" align="left"}
 
 
 ## カラー
@@ -148,7 +148,7 @@ ht-degree: 0%
 
    - Salesforce プロファイルを作成するには、「{ サーバータイプ **」ドロップダウンから** 0}Salesforce **ナレッジベースを選択します。**&#x200B;プロファイル名を入力します。 **サイト URL** に、出力の公開に使用するコンシューマーサイトを入力し、Salesforce コンシューマーサイトから提供される **コンシューマーキー** と **コンシューマーシークレット** を追加します。 次に、新しく作成したプロファイルを **検証** および **保存** します。
 
-     ![workspace 設定での salesforce 公開プロファイル ](./images/salesforce-publish-profile.png){width="550" align="left"}
+     ![workspace 設定での salesforce 公開プロファイル ](../user-guide/images/salesforce-publish-profile.png){width="550" align="left"}
 
      >[!NOTE]
      >
@@ -173,7 +173,7 @@ ht-degree: 0%
 
 - プロファイルを作成するには、「**サーバータイプ**」ドロップダウンから ServiceNow ナレッジベースを選択します。 プロファイル **名前** を入力します。 **ServiceNow URL** に、出力の公開に使用するコンシューマーサイトを入力し、ServiceNow コンシューマーサイトから提供される **ユーザー名** と **パスワード** を追加します。 次に、新しく作成したプロファイルを **検証** および **保存** します。
 
-  ![ServiceNow 公開プロファイル ](./images/service-now-publish-profile.png){width="550" align="left"}
+  ![ServiceNow 公開プロファイル ](../user-guide/images/service-now-publish-profile.png){width="550" align="left"}
 
   検証後、DITA Map の出力プリセットで公開プロファイルを選択し、それを使用して、選択した **Salesforce** または **ServiceNow** サーバーへの出力を生成できます。
 
@@ -190,7 +190,7 @@ ht-degree: 0%
   >
   > 選択したスキーマトロンファイルは、選択したフォルダープロファイルに対して保持されます。
 
-  ![ ワークスペース設定での検証 ](./images/editor-setting-validation.png){width="550" align="left"}
+  ![ ワークスペース設定での検証 ](../user-guide/images/editor-setting-validation.png){width="550" align="left"}
 
   これにより、ユーザーは、選択されたスキーマトロンファイルで定義されたルールを破るファイルを保存できなくなります。 これを選択しない場合、ファイルは変更を保存する前に検証されません。
 
@@ -203,13 +203,13 @@ ht-degree: 0%
 
 要素に定義されている属性は、レイアウトビューとアウトラインビューに表示されます。
 
-![](images/editor-settings-display-attributes.png){width="550" align="left"}
+![](../user-guide/images/editor-settings-display-attributes.png){width="550" align="left"}
 
 ## 翻訳
 
 このタブには、言語グループの作成、ソースラベルのターゲットバージョンへの反映、翻訳プロジェクトのクリーンアップを行うためのオプションが含まれています。
 
-![](images/editor-setting-translation.png){width="550" align="left"}
+![](../user-guide/images/editor-setting-translation.png){width="550" align="left"}
 
 - **言語グループ**：管理者は、言語グループを作成し、それらをセットとして使用してコンテンツを翻訳できます。
 
@@ -227,7 +227,7 @@ ht-degree: 0%
       >
       > **詳細を表示** を **表示を減らす** に切り替えて、いくつかの言語のみを表示します。
 
-   1. グループ内の言語にポインタを合わせて、言語グループを編集 ![ 編集アイコン ](images/edit_pencil_icon.svg) または削除 ![ 削除 ](images/Delete_icon.svg) します。
+   1. グループ内の言語にポインタを合わせて、言語グループを編集 ![ 編集アイコン ](../user-guide/images/edit_pencil_icon.svg) または削除 ![ 削除 ](../user-guide/images/Delete_icon.svg) します。
    1. **設定** を保存します。
 
       >[!NOTE]
@@ -250,7 +250,7 @@ ht-degree: 0%
 メタデータパスが空白の場合は、エラーが表示されます。 ラベルを空白のままにすると、最後の要素がラベルとして選択されます。
 
 
-![ ワークスペース設定の「メタデータ」タブ ](images/editor-setting-metadata.png){width="550" align="left"}
+![ ワークスペース設定の「メタデータ」タブ ](../user-guide/images/editor-setting-metadata.png){width="550" align="left"}
 
 *「バージョン履歴&#x200B;**ダイアログボックスのメタデータ**設定*
 
@@ -259,4 +259,4 @@ ht-degree: 0%
 また、これらのメタデータタグの表示順序を定義することもできます。 これらのタグのデフォルトの順序を変更するには、点線のバーを選択して、目的の場所にタグをドラッグ&amp;ドロップします。
 メタデータラベルは、エディターの **バージョン履歴** ダイアログボックスで同じ順序で表示されます。
 
-**親トピック：**[ エディターの概要 ](web-editor.md)
+

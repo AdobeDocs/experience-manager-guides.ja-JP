@@ -2,7 +2,8 @@
 title: リリースノート | Adobe Experience Manager Guides 2025.08.0 リリースの新機能
 description: Adobe Experience Manager Guides 2025.08.0 リリースの新機能および機能強化について説明します
 role: Leader
-source-git-commit: d418ffb254b11430509609b91e0174690815cf73
+exl-id: c3461d0a-6394-4275-9d54-b2b1545d7c18
+source-git-commit: 1a44af3522060ebc531393d4d01b1cd00eb02c10
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 2%
@@ -39,7 +40,7 @@ ht-degree: 2%
 
 **AI アシスタント** 切り替えスイッチが有効になると、管理者は、**オーサリング** タブに表示するクイックアクションを選択して選択でき、作成者の操作を効率化できます。 これらの表示設定は、各フォルダープロファイルに固有です。
 
-Experience Manager Guidesの [ 編集者設定の AI アシスタント ](../user-guide/web-editor-settings.md#general) について詳しく説明します。
+Experience Manager Guidesの [ 編集者設定の AI アシスタント ](../cs-install-guide/workspace-settings.md#general) について詳しく説明します。
 
 ![](assets/authoring-quick-actions.png){width="350" align="left"}
 
@@ -93,9 +94,3 @@ Experience Manager Guidesの最新の公開機能強化により、DITA-OT を�
 さらに、エディターツールバーで、変更履歴、タグ、改行なしスペースを有効または無効にするためのクイックアクセス切り替えのいくつかが、メニューのドロップダウン内の **表示** オプションの下にグループ化され、使いやすくなりました。
 
 詳しくは、[ エディターのツールバー ](../user-guide/web-editor-toolbar.md#menu-dropdown) を参照してください。
-
-
-
-
-
-

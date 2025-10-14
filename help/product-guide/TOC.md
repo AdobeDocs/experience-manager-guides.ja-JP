@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: fc250384e887f28ab22248e787d1b003d1fa966c
+source-git-commit: fc262885e33f7874dd4a9a09cf3c90d3e6b805d5
 workflow-type: tm+mt
-source-wordcount: '2373'
+source-wordcount: '2401'
 ht-degree: 9%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 9%
       - クラウドサービス {#cloud-release-notes}
          - [デプロイメントの手順](./release-info/deploy-xml-on-aemaacs.md)
          - 2025 年リリース {#2025-releases}
+            - 2025.10.0 リリース {#2510-release}
+               - [新機能](./release-info/whats-new-2025-10-0.md)
+               - [修正された問題](./release-info/fixed-issues-2025-10-0.md)
+               - [アップグレード手順](./release-info/upgrade-instructions-2025-10-0.md)
             - 2025.08.0 リリース {#2508-release}
                - [新機能](./release-info/whats-new-2025-08-0.md)
                - [修正された問題](./release-info/fixed-issues-2025-08-0.md)
@@ -151,8 +155,8 @@ ht-degree: 9%
                - [リリースノート（4.2.1）](./release-info/release-notes-4-2-1.md)
                - [4.2 リリースノート](./release-info/release-notes-4-2.md)
          - [4.1.x リリースノート](./release-info/release-notes-4-1.md)
-         - [4.0.x リリースノート ](https://helpx.adobe.com/jp/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x リリースノート ](https://helpx.adobe.com/jp/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x リリースノート ](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x リリースノート ](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - ユーザーガイド （新しい UI） {#user-guide}
    - はじめに {#about-aemg}
       - [概要  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -180,8 +184,7 @@ ht-degree: 9%
             - [左パネル](./user-guide/web-editor-left-panel.md)
             - [コンテンツ編集領域](./user-guide/web-editor-content-editing-area.md)
             - [右側のパネル](./user-guide/web-editor-right-panel.md)
-         - [エディターのその他の機能](./user-guide/web-editor-other-features.md)
-         - [エディター設定の操作](./user-guide/web-editor-settings.md)
+         - [ エディターのその他の機能 ](./user-guide/web-editor-other-features.md)
          - [エディターのキーボードショートカット](./user-guide/web-editor-keyboard-shortcuts.md)
          - [エディタービュー](./user-guide/web-editor-views.md)
          - [Schematron ファイルのサポート](./user-guide/support-schematron-file.md)
@@ -350,7 +353,7 @@ ht-degree: 9%
       - トラブルシューティング {#troubleshooting}
          - [セッションタイムアウト](./user-guide/session-timeout-prompt.md)
 - ユーザーガイド（古い UI） {#user-guide-old-ui}
-   - [AEM Guidesの概要](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guidesの概要 ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - インストールと設定 {#install-guide}
    - オンプレミス {#on-prem-ig}
       - [オンプレミスの基本](./install-guide/introduction.md)
@@ -369,8 +372,8 @@ ht-degree: 9%
       - コンテンツの移行 {#content-migration}
          - [非 UUID から UUID へのコンテンツの移行](./install-guide/migrate-uuid-non-uuid.md)
          - 移行プロセス {#migration-process}
-            - [非 UUID コンテンツとバージョンの移行](./install-guide/migrate-non-uuid-uuid.md)
-            - [ バージョンを持つ非 UUID コンテンツの移行（レガシー） ](./install-guide/migrate-non-uuid-uuid-with-versions-legacy.md)
+            - [4.3.1 非 UUID から 4.3.2 UUID コンテンツへの移行](./install-guide/migrate-non-uuid-4-3.md)
+            - [4.6.0 非 UUID から 4.6.1 UUID コンテンツへの移行 ](./install-guide/migrate-non-uuid-uuid-4-6.md)
          - [既存のコンテンツを移行](./install-guide/migrate-content.md)
          - [既存の DITA コンテンツのアップロード](./install-guide/migrate-content-upload-existing-dita-content.md)
          - [DITA 以外のコンテンツの移行](./install-guide/migrate-content-non-dita.md)
@@ -475,6 +478,8 @@ ht-degree: 9%
          - [カスタム DITA マップテンプレートの設定](./cs-install-guide/conf-template-tags-custom-dita-map-templates.md)
       - ドキュメントの状態の操作 {#doc-state-cs}
          - [ドキュメントの状態の設定](./cs-install-guide/customize-doc-state.md)
+      - Workspaceの設定 {#workspace-configs}
+         - [Workspaceの設定 ](./cs-install-guide/workspace-settings.md)
       - Web エディター設定の操作 {#web-editor-configs-cs}
          - [Web エディターのカスタマイズ](./cs-install-guide/conf-web-editor.md)
          - [ツールバーのカスタマイズ](./cs-install-guide/conf-web-editor-customize-toolbar.md)
@@ -538,6 +543,7 @@ ht-degree: 9%
    - [フォルダープロファイルを操作するための Java ベースの API](./api-reference/folder-profile-java.md)
    - [パッケージを作成してアクティブ化するための Java ベースの API](./api-reference/create-activate-package-java.md)
    - [後処理イベントハンドラー](./api-reference/post-process-event.md)
+   - [フォルダーまたはアセットの後処理ステータスを追跡する API](./api-reference/track-post-processing-status.md)
    - [一括有効化の完了イベントハンドラー](./api-reference/bulk-activation-complete-event.md)
    - [変換処理イベントハンドラー](./api-reference/conversion-complete-event.md)
 - ナレッジベース {#knowledge-base}

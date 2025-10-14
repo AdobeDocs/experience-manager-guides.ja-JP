@@ -4,9 +4,9 @@ description: Adobe Experience Manager Guidesのホームページを理解しま
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
-source-git-commit: 03f117381bda7d31b50085b83f309e24f9a75210
+source-git-commit: f9b879d6d374334a08a1d3b0a47b0cb419f02140
 workflow-type: tm+mt
-source-wordcount: '1824'
+source-wordcount: '1966'
 ht-degree: 0%
 
 ---
@@ -50,6 +50,18 @@ Experience Manager Guidesのホームページは次のセクションに分か�
   [AI アシスタント ](./ai-assistant.md) 機能は現在、Adobe Experience Manager as Cloud Serviceでのみ使用できます。
 - **「概要セクションをカスタマイズ**:「ウィジェット」セクションでウィジェットの表示/非表示を切り替えることができます。
 - **使用中のフォルダープロファイル**：現在使用中のフォルダープロファイルを表示します。
+- **その他のアクション**：追加のオプションへのアクセスを提供します。 このボタンを選択すると、次のオプションを含むメニューが開きます。
+
+   - **Assets**：設定に基づいて移動先に移動します。
+      - **クラウドサービス**: クラウドサービスを使用している場合、「**Assets**」オプションを選択すると、AEMのナビゲーションページに移動します。
+
+      - **オンプレミスソフトウェア**:Adobe Experience Manager Guides（4.2.1 以降）を使用している場合は、「**Assets**」オプションを選択すると、Assets UI の現在のファイルパスに移動します。
+   - **Workspace設定**: **Workspace設定** ダイアログが表示されます。 詳しくは、「Workspaceの設定 [ を参照してください ](../cs-install-guide/workspace-settings.md)。
+
+     >[!NOTE]
+     >
+     > ホームページでは、「Workspace設定」オプションは、クラウドサービスの設定でのみ使用できます。 オンプレミス設定では、ホームページで「その他のアクション」オプションを使用できません。 ただし、その他のオプション /設定に移動すると、エディターインターフェイスとマップコンソールを使用して、関連する設定にアクセスできます。
+
 - **ビューを展開**:「**展開** アイコンを使用してページビューを展開できます。 この表示では、ヘッダーバーは非表示になり、コンテンツスペースが最大化されます。 標準ビューに戻るには、「**展開ビューを終了** アイコンを使用します。
 
 ## 左パネル
@@ -169,7 +181,7 @@ Experience Manager Guidesでは、「コレクションをマッピング **と�
 
 - **外観**:「外観」タブには、アプリケーションのテーマおよびコンテンツ編集領域のソースビューを選択するオプションが用意されています。 このタブを使用して、次の設定を行います。
 
-  ![](images/user_preference_editor_appearance-new.png){align="left"}
+  ![](images/user_preference_editor_appearance.png){align="left"}
 
    - **アプリケーションテーマとSource表示**：アプリケーションビューとソースビューのテーマを、明るいテーマと暗いテーマの中から選択できます。 ライトテーマの場合、ツールバーとパネルは明るいグレーの背景を使用します。 ダークテーマの場合、ツールバーとパネルは黒色の背景を使用します。 **デバイスを使用** テーマを選択すると、Experience Manager Guidesでデバイスのテーマに基づいて明るいテーマと暗いテーマを選択できるようになります。
 

@@ -3,9 +3,10 @@ title: エディターのタブバー
 description: エディターのタブバーについて説明します。 Adobe Experience Manager Guidesのエディターインターフェイスと機能について説明します。
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: b3597cac602cf5a22aff9d8db108e3652591d662
+exl-id: 02e45d34-898f-411c-bd80-bd4f2364b7d7
+source-git-commit: e14b19ff7c128899b4536d5b8c4290c476991bef
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -50,6 +51,10 @@ ht-degree: 0%
    - **クラウドサービス**: クラウドサービスを使用している場合、「**Assets**」オプションを選択すると、AEMのナビゲーションページに移動します。
 
    - **オンプレミスソフトウェア**:Adobe Experience Manager Guides（4.2.1 以降）を使用している場合は、「**Assets**」オプションを選択すると、Assets UI の現在のファイルパスに移動します。
-- **設定**：エディター設定ダイアログに移動します。 詳しくは、[ エディター設定の操作 ](./web-editor-settings.md) を参照してください。
+- **Workspace設定**: Workspace設定ダイアログに移動します。 詳しくは、「Workspaceの設定 [ を参照してください ](../cs-install-guide/workspace-settings.md)。
 
-**親トピック：**&#x200B;[ エディターの概要 ](web-editor.md)
+>[!NOTE]
+>
+> オンプレミス設定でAdobe Experience Manager Guidesを使用している場合、「Workspace設定」オプションは「その他のアクション」メニューの下に **設定** として引き続き表示されます。
+
+**親トピック：**[ エディターの概要 ](web-editor.md)
