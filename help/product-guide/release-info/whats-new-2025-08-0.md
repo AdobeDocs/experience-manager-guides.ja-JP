@@ -16,7 +16,7 @@ ht-degree: 2%
 
 このリリースで修正された問題の一覧については、[2025.08.0リリースで修正された問題](fixed-issues-2025-08-0.md)を参照してください。
 
-[2025.08.0 リリースのアップグレード手順 ](../release-info/upgrade-instructions-2025-08-0.md) について説明します。
+[2025.08.0 リリースのアップグレード手順 &#x200B;](../release-info/upgrade-instructions-2025-08-0.md) について説明します。
 
 
 ## レビューワークフローの強化
@@ -32,7 +32,7 @@ ht-degree: 2%
 - 効率的でタイムリーなレビューサイクル
 - フィードバック交換の際の手作業の削減
 
-詳しくは、「レビューの概要 [ を参照してください ](../user-guide/review.md)
+詳しくは、「レビューの概要 [&#x200B; を参照してください &#x200B;](../user-guide/review.md)
 
 ## エディター設定で設定可能な AI アシスタントのアクション
 
@@ -40,7 +40,7 @@ ht-degree: 2%
 
 **AI アシスタント** 切り替えスイッチが有効になると、管理者は、**オーサリング** タブに表示するクイックアクションを選択して選択でき、作成者の操作を効率化できます。 これらの表示設定は、各フォルダープロファイルに固有です。
 
-Experience Manager Guidesの [ 編集者設定の AI アシスタント ](../cs-install-guide/workspace-settings.md#general) について詳しく説明します。
+Experience Manager Guidesの [&#x200B; 編集者設定の AI アシスタント &#x200B;](../cs-install-guide/workspace-settings.md#general) について詳しく説明します。
 
 ![](assets/authoring-quick-actions.png){width="350" align="left"}
 
@@ -52,7 +52,7 @@ Experience Manager Guidesの [ 編集者設定の AI アシスタント ](../cs-
 主なハイライトは次のとおりです。
 
 - **DITAVAL ファイルのオーサリングにおける強化されたフラグ設定のサポート：** Experience Manager Guidesでは、DITAVAL ファイルでの強化されたフラグ設定のサポートを通じて、コンテンツの公開をカスタマイズする新機能を提供します。 画像などの特定のコンテンツに関する開始フラグと終了フラグを適用したり、フラグの付いたセクションを太字、斜体などの書式設定オプションで強化したりできるようになりました。 条件の重複を処理するには、デフォルトの背景色やテキスト色の設定など、**スタイルの競合** を設定し、出力を明確にし一貫性を保つことができます。 これらのフラグは、Native PDFの生成で完全にサポートされており、結果の出力は、適用されているすべてのスタイル設定要素を正確かつ包括的に反映します。
-詳細については、[DITAVAL エディタの使用 ](../user-guide/ditaval-editor.md) を参照してください。
+詳細については、[DITAVAL エディタの使用 &#x200B;](../user-guide/ditaval-editor.md) を参照してください。
 
   ![](assets/ditaval-flag-style-new.png){width="350" align="left"}
 
@@ -60,13 +60,13 @@ Experience Manager Guidesの [ 編集者設定の AI アシスタント ](../cs-
 
   さらに、この更新により、複数の形式をまたいで編集可能な DITAVAL フィールドが有効になり、ユーザーが DITAVAL パスを手動で指定できるようになり、出力プリセットの作成が強化されます。
 
-  詳しくは、Experience Manager Guidesの [ 出力プリセットについて ](../user-guide/generate-output-understand-presets.md) を参照してください。
+  詳しくは、Experience Manager Guidesの [&#x200B; 出力プリセットについて &#x200B;](../user-guide/generate-output-understand-presets.md) を参照してください。
 
 ## 出力生成ログのフィルタリングの改善
 
 このリリースでは、出力生成ログのフィルタリング機能に対する UI の改善が行われています。 出力生成ログを 4 つの異なるレベル（**Info**、**Warn**、**Error** （エラーと例外の両方を含む）、**Fatal**）すべてでより適切にフィルタリングできるようになりました。改善された直感的な色分けされたインジケーターにより、分析が簡素化され、ログストリーム全体での表示が鮮明になります。 この機能強化により、ログをより効率的に移動し、重要な問題を正確に特定できるようになります。
 
-詳しくは、[ 基本トラブルシューティング ](../user-guide/generate-output-basic-troubleshooting.md) を参照してください。
+詳しくは、[&#x200B; 基本トラブルシューティング &#x200B;](../user-guide/generate-output-basic-troubleshooting.md) を参照してください。
 
 ![](./assets/log-file-new.png){align="left"}
 
@@ -77,7 +77,7 @@ Experience Manager Guidesの最新の公開機能強化により、DITA-OT を�
 
 `system_config.xml` ファイルには、オーサー URL、ローカル URL、公開 URL など、AEM インスタンスの詳細が含まれています。これにより、コンテキストが明確になり、ダウンロードした URL のトレーサビリティが向上します。
 
-詳しくは、[ 出力プリセットについて ](../user-guide/generate-output-understand-presets.md) を参照してください。
+詳しくは、[&#x200B; 出力プリセットについて &#x200B;](../user-guide/generate-output-understand-presets.md) を参照してください。
 
 ## 出力生成用の新しい出力パス変数のサポート
 
@@ -85,7 +85,7 @@ Experience Manager Guidesの最新の公開機能強化により、DITA-OT を�
 
 グローバルフォルダープロファイルプリセットに関連付けられているすべての出力パスは、新しいベース出力パス変数を利用するように自動的に移行されます。 ただし、カスタムフォルダープロファイルの場合は、移行は自動的には行われないので、カスタマーサクセスチームにお問い合わせください。
 
-詳しくは、[ 出力プリセットについて ](../user-guide/generate-output-understand-presets.md) を参照してください。
+詳しくは、[&#x200B; 出力プリセットについて &#x200B;](../user-guide/generate-output-understand-presets.md) を参照してください。
 
 ## エディターツールバーとユーザーの環境設定の UI の改善
 
@@ -93,4 +93,4 @@ Experience Manager Guidesの最新の公開機能強化により、DITA-OT を�
 
 さらに、エディターツールバーで、変更履歴、タグ、改行なしスペースを有効または無効にするためのクイックアクセス切り替えのいくつかが、メニューのドロップダウン内の **表示** オプションの下にグループ化され、使いやすくなりました。
 
-詳しくは、[ エディターのツールバー ](../user-guide/web-editor-toolbar.md#menu-dropdown) を参照してください。
+詳しくは、[&#x200B; エディターのツールバー &#x200B;](../user-guide/web-editor-toolbar.md#menu-dropdown) を参照してください。

@@ -24,7 +24,7 @@ ht-degree: 2%
 >   1. すべてのアクティブなレビューをクローズしました。
 >   1. すべての翻訳タスクを終了しました。
 > * コンテンツを UUID サーバーに移行する前に、UUID 以外のサーバーに互換性のあるAEM Guides バージョンがインストールされていることを確認します。
-> * 4.3.1 より前のバージョンを使用している場合は、バージョン 4.3.1 にアップグレードします。製品のライセンス済みバージョンに固有の [ アップグレード手順 ](./upgrade-xml-documentation.md) に従います。
+> * 4.3.1 より前のバージョンを使用している場合は、バージョン 4.3.1 にアップグレードします。製品のライセンス済みバージョンに固有の [&#x200B; アップグレード手順 &#x200B;](./upgrade-xml-documentation.md) に従います。
 > * 現在、4.3.1 より後のバージョンの移行はサポートされていません。
 
 
@@ -60,7 +60,7 @@ ht-degree: 2%
    * エラーのあるファイルの数
    * GUID ファイル名を含むファイル
 
-   ![ 移行の「互換性の評価」タブ ](assets/migration-compatibility-assessment-4-3-1.png)
+   ![&#x200B; 移行の「互換性の評価」タブ &#x200B;](assets/migration-compatibility-assessment-4-3-1.png)
 
 
 1. エラーが表示された場合は、ログを分析し、それらのエラーを修正します。 エラーを修正した後、互換性マトリックスを再実行できます。
@@ -69,7 +69,7 @@ ht-degree: 2%
 
    複数および大きな DITA マップを選択することで、すべてのコンテンツが問題なく正常に移行されたことを検証できます。 ベースラインの含まれるプリセットを選択すると、ベースラインとバージョンが正常に移行されます。
 
-   ![ 移行の「検証」タブの設定 ](assets/migration-configure-validation-4-3-1.png)
+   ![&#x200B; 移行の「検証」タブの設定 &#x200B;](assets/migration-configure-validation-4-3-1.png)
 
 
 1. （オプション）コンテンツに対してバージョンのパージを実行して、不要なバージョンを削除し、移行プロセスを高速化します。 バージョンのパージを実行するには、移行画面から「**バージョンのパージ**」オプションを選択し、URL `http://<server- name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html` を使用してユーザーインターフェイスに移動します。
@@ -77,7 +77,7 @@ ht-degree: 2%
    >
    >このユーティリティは、ベースラインやレビューで使用されているバージョンを削除したり、ラベルを持ったりしません。
 
-詳しくは、「[ 古いバージョンのパージ ](../install-guide/version-management.md#purge-older-versions-of-dita-files)」を参照してください。
+詳しくは、「[&#x200B; 古いバージョンのパージ &#x200B;](../install-guide/version-management.md#purge-older-versions-of-dita-files)」を参照してください。
 
 
 ## 移行の前提条件
@@ -126,7 +126,7 @@ ht-degree: 2%
 
 1. `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html` を起動します。
 
-   ![ 移行の「システムアップグレード」タブ ](assets/migration-system-upgrade-4-3-1.png)
+   ![&#x200B; 移行の「システムアップグレード」タブ &#x200B;](assets/migration-system-upgrade-4-3-1.png)
    >[!NOTE]
    >
    > 「DITA アセットバックアップを有効にする」を選択すると、一時バックアップファイルが `/content/uuid-upgrade` に保存され、ファイルのマイグレーションが完了すると DITA ファイルバックアップが削除されます。
@@ -156,7 +156,7 @@ ht-degree: 2%
 
 1. すべてのファイルが移行されたら、左側のパネルから **ベースライン/レビューアップグレード** を選択して、ベースラインを移行し、フォルダーレベルでレビューします。
 
-![ 移行の「ベースライン」タブと「レビュー」タブ ](assets/migration-baseline-review-upgrade-4-3-1.png)
+![&#x200B; 移行の「ベースライン」タブと「レビュー」タブ &#x200B;](assets/migration-baseline-review-upgrade-4-3-1.png)
 
 >[!NOTE]
 >
@@ -190,7 +190,7 @@ ht-degree: 2%
 
 1. 移行が完了したら、左側のパネルから **システムアップグレードの検証** を選択し、移行前と移行後に出力ファイルを検証して、移行が成功したことを確認します。
 
-   ![ 移行の「システムアップグレードを検証」タブ ](assets/migration-validate-system-upgrade-4-3-1.png)
+   ![&#x200B; 移行の「システムアップグレードを検証」タブ &#x200B;](assets/migration-validate-system-upgrade-4-3-1.png)
 
 1. サーバーの移行が成功したら、次のワークフローと設定（移行中に最初に無効にしたその他すべてのワークフローを含む）を有効にして、サーバーで作業を続行します。
 

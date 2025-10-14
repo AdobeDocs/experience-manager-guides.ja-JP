@@ -50,11 +50,11 @@ ht-degree: 0%
 
    - **レビューを閉じる**：レビュータスクを閉じます。 レビューパネルの下部にある「**タスクを更新**」ボタンが **閉じられた** に変わり、レビュータスクに関係するすべてのユーザーに、完了を示す通知が送信されます。
 
-   通知トリガーのレビュー方法について詳しくは、[ レビュー通知について ](./review-understanding-review-notifications.md) を参照してください。
+   通知トリガーのレビュー方法について詳しくは、[&#x200B; レビュー通知について &#x200B;](./review-understanding-review-notifications.md) を参照してください。
 
    ![](images/update-task-dialog.png){width="350" align="left"}
 
-   また、[ レビュータスクのステータスを確認 ](./review-manage-tasks-review-dashboard.md#check-the-status-of-a-review-task) オプションを使用して **レビュータスクのステータスを更新** することもできます。 このオプションを選択すると、レビュータスクのステータスレポートが表示されるレビューダッシュボードに移動します。
+   また、[&#x200B; レビュータスクのステータスを確認 &#x200B;](./review-manage-tasks-review-dashboard.md#check-the-status-of-a-review-task) オプションを使用して **レビュータスクのステータスを更新** することもできます。 このオプションを選択すると、レビュータスクのステータスレポートが表示されるレビューダッシュボードに移動します。
 
    ![](images/check-review-status-icon.png){width="650" align="left"}
 

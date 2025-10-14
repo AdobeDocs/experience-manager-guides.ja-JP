@@ -42,11 +42,11 @@ ht-degree: 0%
    ![](images/complete-task-dialog.png){width="350" align="left"}
 
 
-タスクを完了として正常にマークし、その状態が **完了** に設定されました。 タスクが完了とマークされると、以降のアクションは許可されません。 レビュータスクの作成者または開始者に、すぐに注意を引くための通知が送信されます。 通知のレビュートリガーの方法について詳しくは、[ レビュー通知について ](./review-understanding-review-notifications.md) を参照してください。
+タスクを完了として正常にマークし、その状態が **完了** に設定されました。 タスクが完了とマークされると、以降のアクションは許可されません。 レビュータスクの作成者または開始者に、すぐに注意を引くための通知が送信されます。 通知のレビュートリガーの方法について詳しくは、[&#x200B; レビュー通知について &#x200B;](./review-understanding-review-notifications.md) を参照してください。
 
 ![](images/task-completed-status.png){width="350" align="left"}
 
-フィードバックに基づいて、タスクの作成者または開始者が [ レビュータスクを閉じる ](./review-close-review-task.md) を決定した場合、レビュー UI のタスクのステータスは **閉じる** に変更されます。
+フィードバックに基づいて、タスクの作成者または開始者が [&#x200B; レビュータスクを閉じる &#x200B;](./review-close-review-task.md) を決定した場合、レビュー UI のタスクのステータスは **閉じる** に変更されます。
 
 ![](images/review-status-closed-review-ui.png){width="350" align="left"}
 

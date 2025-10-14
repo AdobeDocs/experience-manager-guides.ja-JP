@@ -23,7 +23,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 管理者は、タブでファイル名ごとにファイルのリストを表示することもできます。 **ユーザー環境設定** の **エディターファイル表示設定** セクションの [ ファイル名 ](./intro-home-page.md#user-preferences) オプションを選択します。
+> 管理者は、タブでファイル名ごとにファイルのリストを表示することもできます。 **ユーザー環境設定** の **エディターファイル表示設定** セクションの [&#x200B; ファイル名 &#x200B;](./intro-home-page.md#user-preferences) オプションを選択します。
 
 「ファイル」タブを選択すると、コンテキストメニューが開き、「新規バージョンとして保存」、「コピー」、「検索先」、「追加先」、「プロパティ」、「分割」、「PDFとしてダウンロード」、「閉じる」が表示されます。
 
@@ -51,10 +51,10 @@ ht-degree: 0%
    - **クラウドサービス**: クラウドサービスを使用している場合、「**Assets**」オプションを選択すると、AEMのナビゲーションページに移動します。
 
    - **オンプレミスソフトウェア**:Adobe Experience Manager Guides（4.2.1 以降）を使用している場合は、「**Assets**」オプションを選択すると、Assets UI の現在のファイルパスに移動します。
-- **Workspace設定**: Workspace設定ダイアログに移動します。 詳しくは、「Workspaceの設定 [ を参照してください ](../cs-install-guide/workspace-settings.md)。
+- **Workspace設定**: Workspace設定ダイアログに移動します。 詳しくは、「Workspaceの設定 [&#x200B; を参照してください &#x200B;](../cs-install-guide/workspace-settings.md)。
 
 >[!NOTE]
 >
 > オンプレミス設定でAdobe Experience Manager Guidesを使用している場合、「Workspace設定」オプションは「その他のアクション」メニューの下に **設定** として引き続き表示されます。
 
-**親トピック：**[ エディターの概要 ](web-editor.md)
+**親トピック：**&#x200B;[&#x200B; エディターの概要 &#x200B;](web-editor.md)
