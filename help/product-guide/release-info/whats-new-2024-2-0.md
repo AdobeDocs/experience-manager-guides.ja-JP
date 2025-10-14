@@ -16,7 +16,7 @@ ht-degree: 2%
 このリリースで修正された問題の一覧については、[2024.2.0リリースで修正された問題](fixed-issues-2024-2-0.md)を参照してください。
 
 
-[2024.2.0 リリースのアップグレード手順 ](upgrade-instructions-2024-2-0.md) について説明します。
+[2024.2.0 リリースのアップグレード手順 &#x200B;](upgrade-instructions-2024-2-0.md) について説明します。
 
 
 
@@ -27,7 +27,7 @@ ht-degree: 2%
 
 コンテンツを正確かつ一貫性を保つために、検索と提案は組織が所有するコンテンツに限定され、検索するキーワードと密接に一致します。
 
-![Web エディターの ](assets/web-editor-smart-suggestion.png) {width="800" align="left"} のスマート候補パネル
+![Web エディターの &#x200B;](assets/web-editor-smart-suggestion.png) {width="800" align="left"} のスマート候補パネル
 
 
 *スマート候補を表示して、コンテンツリポジトリから一致するコンテンツ参照を検索および追加します。*
@@ -36,17 +36,17 @@ ht-degree: 2%
 
 このインテリジェントな機能により、関連コンテンツを手動で検索する手間が軽減され、新しいコンテンツの作成に集中できるようになります。  また、一貫性を維持し、チームの共同作業を促進します。
 
-詳しくは、[ コンテンツを作成するための AI を利用したスマートな提案 ](../user-guide/authoring-ai-based-smart-suggestions.md) を参照してください。
+詳しくは、[&#x200B; コンテンツを作成するための AI を利用したスマートな提案 &#x200B;](../user-guide/authoring-ai-based-smart-suggestions.md) を参照してください。
 
 ## Web エディターのバージョン履歴機能を改訂しました。
 
 Experience Manager Guidesには、ドキュメントに加えられた変更を時間の経過と共に比較できる、拡張バージョン履歴機能が追加されました。 新しい並列表示では、現在のバージョンのコンテンツやメタデータを、同じドキュメントの以前のバージョンと簡単に比較できます。 また、比較したバージョンのラベルとコメントを表示することもできます。 管理者は、トピックのバージョンメタデータとその値を **バージョン履歴** ダイアログボックスに表示されるように制御できます。
 
-![ バージョン履歴ダイアログボックス ](assets/version-history-dialog-web-editor.png){width="800" align="left"}
+![&#x200B; バージョン履歴ダイアログボックス &#x200B;](assets/version-history-dialog-web-editor.png){width="800" align="left"}
 *トピックの異なるバージョンでの変更をプレビューします。*
 
 
-**左側のパネル** の節で、[ バージョン履歴 ](../user-guide/web-editor-features.md#id2051EA0M0HS) 機能の説明について詳しく説明します。
+**左側のパネル** の節で、[&#x200B; バージョン履歴 &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS) 機能の説明について詳しく説明します。
 
 ## 翻訳パネルのユーザーエクスペリエンスの向上
 
@@ -56,7 +56,7 @@ Experience Manager Guidesには、ドキュメントに加えられた変更を�
 
 *プロジェクトを翻訳するロケールを選択します。 翻訳するファイルの既定、ベースライン、または最新バージョンを選択します。*
 
-詳細情報：[ コンテンツの翻訳 ](../user-guide/translation.md)。
+詳細情報：[&#x200B; コンテンツの翻訳 &#x200B;](../user-guide/translation.md)。
 
 
 ## 要素を挿入ダイアログボックスの検索ロジックの改善
@@ -67,12 +67,12 @@ Experience Manager Guidesには、ドキュメントに加えられた変更を�
 &#39;t&#39;で始まるすべての有効な要素。
 
 
-![ 挿入ダイアログボックス ](assets/insert-element.png){width="300" align="left"}
+![&#x200B; 挿入ダイアログボックス &#x200B;](assets/insert-element.png){width="300" align="left"}
 
 *文字を入力すると、その文字で始まるすべての有効な要素が検索されます。*
 
 
-詳しくは、「左パネル **セクションの [ 要素を挿入** 機能の説明を参照し ](../user-guide/web-editor-features.md#id2051EA0M0HS) ください。
+詳しくは、「左パネル **セクションの [&#x200B; 要素を挿入** 機能の説明を参照し &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS) ください。
 
 
 ## 現在のリストを分割し、同じレベルの新しいリスト項目から開始する機能
@@ -83,13 +83,13 @@ Experience Manager Guidesには、ドキュメントに加えられた変更を�
 
 *現在のリストを分割するオプションを選択します。*
 
-詳しくは、「左パネル **セクションの** リストを挿入 [ 機能の説明を参照し ](../user-guide/web-editor-features.md#id2051EA0M0HS) ください。
+詳しくは、「左パネル **セクションの** リストを挿入 [&#x200B; 機能の説明を参照し &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS) ください。
 
 ## ソースモードのオーサリングでのファイルプロパティへのアクセス
 
 レイアウト、オーサー、Source、プレビューの 4 つのモードまたはビューすべてで、右側のパネルの **ファイルプロパティ** 機能にアクセスできるようになりました。  これにより、異なるモードに切り替えた場合でも、ファイルのプロパティを表示できます。
 
-詳しくは、「右パネル **セクションの「[ ファイルプロパティ** 機能の説明 ](../user-guide/web-editor-features.md#id2051EB003YK) を参照してください。
+詳しくは、「右パネル **セクションの「[&#x200B; ファイルプロパティ** 機能の説明 &#x200B;](../user-guide/web-editor-features.md#id2051EB003YK) を参照してください。
 
 ## 動的ベースラインを含む複数の出力プリセットを並行して公開できる機能。
 
@@ -107,7 +107,7 @@ Experience Managerでは、アセットのメタデータプロパティを DITA
 
 この機能は、作成者、作成日、ドキュメントタイトルなどのアセットプロパティの一貫性を維持するのに役立つので便利です。 これにより、ドキュメントの整理、検索、分類が容易になります。
 
-詳しくは、[PublishPDF出力の **詳細** 設定を参照してください ](../web-editor/native-pdf-web-editor.md)。
+詳しくは、[PublishPDF出力の **詳細** 設定を参照してください &#x200B;](../web-editor/native-pdf-web-editor.md)。
 
 
 ### `topicmeta` 要素に追加されたメタデータをPDF出力に使用
@@ -121,4 +121,4 @@ Experience Manager Guidesには、DITA マップの `topicmeta` 要素に追加�
 
 この機能により、ドキュメント管理が向上し、一貫性が確保され、ドキュメントが検索可能になります。
 
-詳しくは、[PublishPDF出力 **の「** メタデータ ](../web-editor/native-pdf-web-editor.md)」タブを参照してください。
+詳しくは、[PublishPDF出力 **の「** メタデータ &#x200B;](../web-editor/native-pdf-web-editor.md)」タブを参照してください。

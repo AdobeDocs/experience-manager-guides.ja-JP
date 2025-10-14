@@ -24,8 +24,8 @@ ht-degree: 0%
 
 **Source コンテンツ**
 
-![Source コンテンツ ](assets/source-content.jpg)
+![Source コンテンツ &#x200B;](assets/source-content.jpg)
 
 **スペイン語の翻訳済みコンテンツ**
 
-![ スペイン語の翻訳済みコンテンツ ](assets/trans-content.jpg)
+![&#x200B; スペイン語の翻訳済みコンテンツ &#x200B;](assets/trans-content.jpg)

@@ -156,7 +156,7 @@ Experience Manager Guidesでは、選択した言語に存在する言語変数�
 
    >[!NOTE]
    >
-   > ページレイアウトを開いてカスタマイズや編集をおこなうための「[ ページレイアウトをカスタマイズ ](../native-pdf/components-pdf-template.md#customize-a-page-layout-customize-page-layout)」セクションを表示します。
+   > ページレイアウトを開いてカスタマイズや編集をおこなうための「[&#x200B; ページレイアウトをカスタマイズ &#x200B;](../native-pdf/components-pdf-template.md#customize-a-page-layout-customize-page-layout)」セクションを表示します。
 
 1. ヘッダーを選択してアクティブにし、変数を挿入します。
 1. 「**変数を挿入**」を選択します。  ツールバーのを <img src="./assets/insert-language-variable.svg" width="25"> きます。
@@ -185,7 +185,7 @@ Experience Manager Guidesでは、選択した言語に存在する言語変数�
   タミル語の値：
   `<span data-field="page-number" data-format="tamil">1</span>`
 
-同様に、ページレイアウトのフィールドの挿入機能にリストされている言語変数を追加し、その他のフィールドを書式設定することができます。 フィールドの追加について詳しくは、[ フィールドとメタデータの追加 ](../native-pdf/design-page-layout.md#add-fields-metadata) を参照してください。
+同様に、ページレイアウトのフィールドの挿入機能にリストされている言語変数を追加し、その他のフィールドを書式設定することができます。 フィールドの追加について詳しくは、[&#x200B; フィールドとメタデータの追加 &#x200B;](../native-pdf/design-page-layout.md#add-fields-metadata) を参照してください。
 
 - また、値にローカライズされた画像を追加することもできます。 例えば、チャプター番号言語で画像アイコンを追加すると、PDF出力でそのアイコンのローカライズされた画像を取得できます。
 

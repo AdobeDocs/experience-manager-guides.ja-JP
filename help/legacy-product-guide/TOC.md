@@ -16,12 +16,12 @@ ht-degree: 4%
 
 - [免責事項](disclaimer.md)
 - [[!DNL AEM Guides] の概要](overview.md)
-- [ リリース情報](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/release-info/aem-guides-releases-roadmap){target="_blank"}
+- [&#x200B; リリース情報](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/release-info/aem-guides-releases-roadmap){target="_blank"}
 - ユーザーガイド（古い UI） {#user-guide}
    - 概要 {#about-aem-guide}
       - [概要  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides] の作業と主な機能 {#aemg-works-features}
-         - [仕組  [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
+         - [仕組  [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
          - [主  [!DNL AEM Guides]  機能](./user-guide/intro-dxml-features.md)
    - Manage Content {#manage-content}
       - [主な概念、役割と権限、前提条件](./user-guide/authoring.md)
@@ -142,5 +142,5 @@ ht-degree: 4%
       - [コンテンツ再利用レポート](./user-guide/reports-content-reuse.md)
       - [コンバージョンステータスレポート](./user-guide/reports-convertion-status.md)
       - [元に戻したファイルのバージョン履歴レポート](./user-guide/reports-reverted-file-version-history.md)
-- [ ユーザーガイド （新しい UI） ](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/user-guide/about-aemg/intro)
+- [&#x200B; ユーザーガイド （新しい UI） &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/user-guide/about-aemg/intro)
 

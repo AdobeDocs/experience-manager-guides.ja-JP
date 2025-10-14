@@ -93,7 +93,7 @@ Assets UI でテンプレートを表示する場合は、このオプション�
 
 カスタムテンプレートを作成したら、PDF出力プリセットのページレイアウトから選択できます。
 
-[PDF出力の公開 ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=ja) 方法を説明します。
+[PDF出力の公開 &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=ja) 方法を説明します。
 
 >[!NOTE]
 >
@@ -103,13 +103,13 @@ Assets UI でテンプレートを表示する場合は、このオプション�
 
 +++ クラウドサービス
 
-グローバルプロファイルおよびフォルダーレベルのプロファイルの設定について詳しくは、『インストールおよび設定ガイド』の [Cloud Serviceの設定 ](../cs-install-guide/conf-folder-level.md#id1889D0IL0Y4) の節を参照してください。
+グローバルプロファイルおよびフォルダーレベルのプロファイルの設定について詳しくは、『インストールおよび設定ガイド』の [Cloud Serviceの設定 &#x200B;](../cs-install-guide/conf-folder-level.md#id1889D0IL0Y4) の節を参照してください。
 
 +++
 
 +++ オンプレミスソフトウェア
 
-グローバルプロファイルおよびフォルダーレベルのプロファイルの設定について詳しくは、オンプレミスのインストールおよび設定ガイドの [ オーサリングテンプレートの設定 ](../install-guide/conf-folder-level.md#create-custom-authoring-template-id1917d0eg0hj) の節を参照してください。
+グローバルプロファイルおよびフォルダーレベルのプロファイルの設定について詳しくは、オンプレミスのインストールおよび設定ガイドの [&#x200B; オーサリングテンプレートの設定 &#x200B;](../install-guide/conf-folder-level.md#create-custom-authoring-template-id1917d0eg0hj) の節を参照してください。
 
 +++
 
@@ -141,20 +141,20 @@ PDFテンプレートをカスタマイズするには、次の手順を実行�
 
    カスタマイズできる様々なテンプレートコンポーネントは、次のセクションに分類されます。
 
-   * ページレイアウト：一般的なPDFには、表紙やタイトルページ、目次、チャプター、インデックス、引用文など、様々なページが含まれます。 「ページレイアウト」セクションでは、PDFを構成する様々なページのルックアンドフィールをデザインできます。 詳しくは、[ ページレイアウト ](../native-pdf/components-pdf-template.md#page-layouts) を参照してください。
+   * ページレイアウト：一般的なPDFには、表紙やタイトルページ、目次、チャプター、インデックス、引用文など、様々なページが含まれます。 「ページレイアウト」セクションでは、PDFを構成する様々なページのルックアンドフィールをデザインできます。 詳しくは、[&#x200B; ページレイアウト &#x200B;](../native-pdf/components-pdf-template.md#page-layouts) を参照してください。
 
-     外観に加えて、ページ上のヘッダー、フッター、コンテンツ領域などのページ要素の配置を定義することもできます。 ページのレイアウトのカスタマイズについて詳しくは、[ ページレイアウトの作成とカスタマイズ ](components-pdf-template.md#create-customize-page-layout) を参照してください。
+     外観に加えて、ページ上のヘッダー、フッター、コンテンツ領域などのページ要素の配置を定義することもできます。 ページのレイアウトのカスタマイズについて詳しくは、[&#x200B; ページレイアウトの作成とカスタマイズ &#x200B;](components-pdf-template.md#create-customize-page-layout) を参照してください。
 
-   * スタイルシート：「スタイルシート」セクションの設定を使用すると、目次、インデックス、用語集、引用文などのページレイアウトコンポーネントのルックアンドフィールをカスタマイズできます。 さらに、見出し、段落、リストなど、DITA コンテンツのスタイルをカスタマイズすることもできます。 スタイルシートの使用について詳しくは、[ スタイルシートを使用してPDFをカスタマイズする ](components-pdf-template.md#stylesheet-customization) を参照してください。
+   * スタイルシート：「スタイルシート」セクションの設定を使用すると、目次、インデックス、用語集、引用文などのページレイアウトコンポーネントのルックアンドフィールをカスタマイズできます。 さらに、見出し、段落、リストなど、DITA コンテンツのスタイルをカスタマイズすることもできます。 スタイルシートの使用について詳しくは、[&#x200B; スタイルシートを使用してPDFをカスタマイズする &#x200B;](components-pdf-template.md#stylesheet-customization) を参照してください。
    * リソース：PDFテンプレートをカスタマイズまたはデザインする必要があるアセットファイルを格納します。 ロゴ、カスタムフォント、背景画像などのAssetsは、リソースに保存されます。
 リポジトリ内の他の場所にあるリソースを使用することもできます。 テンプレートごとに重複するリソースを作成する必要はありません。共有フォルダーに保存して、すべてのネイティブPDFテンプレートで使用できます。
 
-     リソースの利用について詳しくは、[ リソースの操作 ](components-pdf-template.md#work-with-resources) を参照してください。
+     リソースの利用について詳しくは、[&#x200B; リソースの操作 &#x200B;](components-pdf-template.md#work-with-resources) を参照してください。
 
    * 設定：テンプレートを使用してPDFを生成するための出力設定を行います。 このセクションでは、PDF内の様々なページ、チャプターの開始ページ、印刷マーカー、引用文献などのテンプレートマッピングを定義できます。
 
    最終的なPDF出力での表示順を調整することもできます。
-設定の適用について詳しくは、[PDFの詳細設定 ](components-pdf-template.md#advanced-pdf-settings) を参照してください。
+設定の適用について詳しくは、[PDFの詳細設定 &#x200B;](components-pdf-template.md#advanced-pdf-settings) を参照してください。
 
 
 1. テンプレートコンポーネントをカスタマイズするには、テンプレートコンポーネントをダブルクリックするか、その前の > アイコンを選択します。

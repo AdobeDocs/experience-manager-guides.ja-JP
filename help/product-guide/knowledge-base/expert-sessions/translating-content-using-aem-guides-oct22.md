@@ -42,9 +42,9 @@ AEM Guidesは、堅牢な翻訳機能を備えた、多言語コンテンツ作�
 
 - **特集ビデオ** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=ja)
 
-- **ユーザーガイド** - [ コンテンツの翻訳 ](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ftranslation.html)
+- **ユーザーガイド** - [&#x200B; コンテンツの翻訳 &#x200B;](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ftranslation.html)
 
-- **コミュニティフォーラム** - Experience Leagueに関するセッション固有のコミュニティのやり取りについては、[AEM Guides フォーラムにアクセスしてください ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=ja)
+- **コミュニティフォーラム** - Experience Leagueに関するセッション固有のコミュニティのやり取りについては、[AEM Guides フォーラムにアクセスしてください &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=ja)
 
 >[!NOTE]
 >

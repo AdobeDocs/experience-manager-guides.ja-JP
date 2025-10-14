@@ -26,7 +26,7 @@ JUI-React-Spectrum  ライブラリには、Adobe React Spectrum コンポー�
 
 ### MVC UI デザイン
 
-![JUI MVC フロー ](./imgs/jui-mvc-flow.png)
+![JUI MVC フロー &#x200B;](./imgs/jui-mvc-flow.png)
 
 ### ウィジェット
 
@@ -38,7 +38,7 @@ JUI-React-Spectrum  ライブラリには、Adobe React Spectrum コンポー�
 - 他のウィジェットを使用できる
 - アプリはウィジェットです
 
-![JUI ウィジェット ](./imgs/jui-widget.png)
+![JUI ウィジェット &#x200B;](./imgs/jui-widget.png)
 
 ### 要素
 
@@ -79,4 +79,4 @@ JUI-React-Spectrum  ライブラリには、Adobe React Spectrum コンポー�
 
 ### サンプルアプリデザイン
 
-![ サンプルアプリ ](./imgs/jui-sample-app.png)
+![&#x200B; サンプルアプリ &#x200B;](./imgs/jui-sample-app.png)

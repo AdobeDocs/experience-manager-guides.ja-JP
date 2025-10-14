@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> Adobe Experience Managerでのオーサーインスタンスとパブリッシュインスタンスの設定方法について詳しくは、[ オーサーとパブリッシュのアーキテクチャの概要 ](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=ja#prerequisites) を参照してください。
+> Adobe Experience Managerでのオーサーインスタンスとパブリッシュインスタンスの設定方法について詳しくは、[&#x200B; オーサーとパブリッシュのアーキテクチャの概要 &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=ja#prerequisites) を参照してください。
 
 Experience Manager Guidesの一括アクティベーション機能を使用すると、オーサリングからパブリッシュインスタンスまで、コンテンツをすばやく簡単にアクティベーションできます。 一括アクティベーション機能では、次の機能を柔軟に使用できます。
 
@@ -41,4 +41,4 @@ JSON 出力プリセット。
 - **[一括有効化マップコレクションを削除](conf-bulk-activation-delete-map-collection.md)**
 
 
-**親トピック：**&#x200B;[ 出力生成 ](generate-output.md)
+**親トピック：**&#x200B;[&#x200B; 出力生成 &#x200B;](generate-output.md)

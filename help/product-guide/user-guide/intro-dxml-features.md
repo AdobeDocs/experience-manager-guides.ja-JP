@@ -72,11 +72,11 @@ FrameMakerのAEM コネクタを使用すると、FrameMaker ファイルを管�
 
 ## その他のリソース
 
-次に、Experience Manager Guidesに関するその他の役立つリソースのリストを示します。これらのリソースは、[ ラーニングとサポート ](https://helpx.adobe.com/jp/support/xml-documentation-for-experience-manager.html) ページで利用できます。
+次に、Experience Manager Guidesに関するその他の役立つリソースのリストを示します。これらのリソースは、[&#x200B; ラーニングとサポート &#x200B;](https://helpx.adobe.com/jp/support/xml-documentation-for-experience-manager.html) ページで利用できます。
 
 * ユーザーガイド
 * API リファレンスガイド
 * クイックスタートガイド
-* [ ヘルプ* アーカイブページ ](https://helpx.adobe.com/jp/xml-documentation-for-experience-manager/archive.html) （古いリリースドキュメントにアクセス）
+* [&#x200B; ヘルプ* アーカイブページ &#x200B;](https://helpx.adobe.com/jp/xml-documentation-for-experience-manager/archive.html) （古いリリースドキュメントにアクセス）
 
-**親トピック：**&#x200B;[ Adobe Experience Manager Guides as a Cloud Serviceについて ](intro.md)
+**親トピック：**&#x200B;[&#x200B; Adobe Experience Manager Guides as a Cloud Serviceについて &#x200B;](intro.md)

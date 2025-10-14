@@ -19,4 +19,4 @@ AEM Guidesは、Adobe FrameMakerや Oxygen XML Editor などのデスクトッ�
 - **[酸素の操作](author-desktop-oxygen.md)**
 
 
-**親トピック：**&#x200B;[ コンテンツを作成 ](authoring-content.md)
+**親トピック：**&#x200B;[&#x200B; コンテンツを作成 &#x200B;](authoring-content.md)

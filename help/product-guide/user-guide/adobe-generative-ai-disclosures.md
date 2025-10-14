@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Adobe Experience Manager Guides ジェネレーティブ AI ユーザーの開示
 
-Experience Manager Guides AI アシスタントのアクセスおよび使用に関するユーザーガイドラインは、[ こちら ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) を参照してください。
+Experience Manager Guides AI アシスタントのアクセスおよび使用に関するユーザーガイドラインは、[&#x200B; こちら &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) を参照してください。
 
 AI アシスタント「ベータ版」（「Beta」）を使用することにより、お客様は、Betaの使用が「現状のまま」でいかなる保証もなく提供されていることを承諾します。 Adobeは、Betaを維持、修正、更新、変更、修正、またはその他の方法でサポートする義務を負いません。 このようなBetaおよび付属の資料の正しい機能やパフォーマンスに対して、注意を払い、いかなる形でも依存しないことをお勧めします。 BetaはAdobeの機密情報と見なされます。 Adobeは、Betaに入力または読み込まれるプロンプト、コンテンツ、データ、その他の資料、および製品の改善と開発のために提供される回答を使用する場合があります。 お客様がAdobeに提供するあらゆる「フィードバック」（Betaの使用中に発生した問題や欠陥、提案、改善点、推奨事項を含むがこれに限定されないBetaに関する情報）は、かかるフィードバックに関するすべての権利、所有権、利益を含め、Adobeに帰属します。 
 

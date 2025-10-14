@@ -34,7 +34,7 @@ ht-degree: 0%
 
    このファイルは、`/apps/fmdita/config/metadataList` でオーバーレイできます。
 
-   値を既に定義したカスタムプロパティを渡すには、[DITA-OT PDF出力でのAEM メタデータの使用 ](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880?profile.language=ja) を参照してください。
+   値を既に定義したカスタムプロパティを渡すには、[DITA-OT PDF出力でのAEM メタデータの使用 &#x200B;](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880?profile.language=ja) を参照してください。
 
 1. **プロパティ** ドロップダウンから、必要なカスタムプロパティとデフォルトのプロパティを選択します。 例えば、「`author`」、「`dc:title`」、「`dc:description`」を選択します。 これらは、ファイルを作成すると作成される標準 `metadata/properties` です。 選択したプロパティがドロップボックスの下に表示されます。
 
@@ -45,4 +45,4 @@ ht-degree: 0%
 
 選択したメタデータプロパティは、DITA-OT を使用して生成された出力に渡されます。
 
-**親トピック：**&#x200B;[ 出力生成 ](generate-output.md)
+**親トピック：**&#x200B;[&#x200B; 出力生成 &#x200B;](generate-output.md)

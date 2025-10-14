@@ -74,7 +74,7 @@ API JAR をローカル Maven リポジトリにインストールした後、�
 
    >[!IMPORTANT]
    >
-   > 次のコードスニペットでは、X.x を実際のバージョン番号と API JAR のファイル名に置き換える必要があります。 この情報は、[ インストールプロセス ](#install-jar-local) の手順 3 で示した情報と同じです。
+   > 次のコードスニペットでは、X.x を実際のバージョン番号と API JAR のファイル名に置き換える必要があります。 この情報は、[&#x200B; インストールプロセス &#x200B;](#install-jar-local) の手順 3 で示した情報と同じです。
 
    ```XML
    <plugin>
@@ -231,9 +231,9 @@ Experience Manager Guidesで使用可能な Java ベースの API を使用し�
 
 ## その他のリソース
 
-次に、AEM Guidesに関するその他の役立つリソースのリストを示します。これらのリソースは、[ ラーニングとサポート ](https://helpx.adobe.com/jp/support/xml-documentation-for-experience-manager.html) ページで利用できます。
+次に、AEM Guidesに関するその他の役立つリソースのリストを示します。これらのリソースは、[&#x200B; ラーニングとサポート &#x200B;](https://helpx.adobe.com/jp/support/xml-documentation-for-experience-manager.html) ページで利用できます。
 
 - ユーザーガイド
 - インストールおよび設定ガイド
 - クイックスタートガイド
-- [ ヘルプのアーカイブページ ](https://helpx.adobe.com/jp/xml-documentation-for-experience-manager/archive.html) \（以前のリリースドキュメントにアクセス\）
+- [&#x200B; ヘルプのアーカイブページ &#x200B;](https://helpx.adobe.com/jp/xml-documentation-for-experience-manager/archive.html) \（以前のリリースドキュメントにアクセス\）

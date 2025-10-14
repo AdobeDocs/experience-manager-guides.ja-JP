@@ -15,7 +15,7 @@ ht-degree: 0%
 
 この記事では、Adobe Experience Manager Guides バージョン 4.3.0 （後で *AEM Guides* と呼ばれます）の新機能および拡張機能について説明します。
 
-アップグレード手順、互換性マトリックス、このリリースで修正された問題について詳しくは、[ リリースノート ](./release-notes-4-3.md) を参照してください。
+アップグレード手順、互換性マトリックス、このリリースで修正された問題について詳しくは、[&#x200B; リリースノート &#x200B;](./release-notes-4-3.md) を参照してください。
 
 
 ## データソースに接続し、トピックにデータを挿入する
@@ -31,7 +31,7 @@ AEM Guidesを使用すると、管理者は、JIRA および SQL （MySQL、Post
 
 また、接続されたデータソースからトピックを作成できるようになりました。 トピックには、テーブル、リスト、段落など、様々な形式のデータを含めることができます。 また、すべてのトピックに対して DITA マップを作成することもできます。 データソースから取り込む際に、トピックにメタデータを関連付けることができます。
 
-詳しくは、[ データソースのデータを使用 ](../user-guide/web-editor-content-snippet.md) を参照してください。
+詳しくは、[&#x200B; データソースのデータを使用 &#x200B;](../user-guide/web-editor-content-snippet.md) を参照してください。
 
 ## コンテンツへの引用文献の追加
 
@@ -41,10 +41,10 @@ AEM Guidesでは、引用文を追加したり、引用文を読み込んでコ�
 
 トピックに引用文を挿入した後、Web エディターでプレビューできます。 ネイティブPDFを使用して、引用のあるコンテンツを公開することもできます。
 
-![ 合議体に掲げる引用 ](assets/citation-panel.png){width="300" align="left"}
+![&#x200B; 合議体に掲げる引用 &#x200B;](assets/citation-panel.png){width="300" align="left"}
 
 
-詳しくは、[ コンテンツでの引用の追加と管理 ](../user-guide/web-editor-apply-citations.md) を参照してください。
+詳しくは、[&#x200B; コンテンツでの引用の追加と管理 &#x200B;](../user-guide/web-editor-apply-citations.md) を参照してください。
 
 ## コンテンツフラグメントへのPublish
 
@@ -54,7 +54,7 @@ AEM Guidesでは、トピックまたはトピック内の要素をコンテン�
 
 AEM Guidesとコンテンツフラグメントの機能を最大限に活用して、任意のAEM サイトでコンテンツフラグメントを使用します。 また、コンテンツフラグメントでサポートされている API を使用して詳細を抽出することもできます。
 
-![ コンテンツフラグメントを公開するオプション ](assets/content-fragment-publish.png){width="550" align="left"}
+![&#x200B; コンテンツフラグメントを公開するオプション &#x200B;](assets/content-fragment-publish.png){width="550" align="left"}
 
 
 ## 機能強化の確認
@@ -67,7 +67,7 @@ AEM Guidesは、レビューをよりシームレスにします。 Web エデ�
 
 この機能を使用すると、作成者はレビュータスクを簡単に開いてコメントを表示し、一元的なビューでコメントにすばやく対処できます。
 ![](assets/active-review-task-comments.png){width="800" align="left"}
-詳しくは、「左パネル **セクション内の** レビュー [ 機能の説明を参照し ](../user-guide/web-editor-features.md#id2051EA0M0HS) ください。
+詳しくは、「左パネル **セクション内の** レビュー [&#x200B; 機能の説明を参照し &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS) ください。
 
 ### レビュートピックを検索
 
@@ -75,9 +75,9 @@ AEM Guidesは、レビューをよりシームレスにします。 Web エデ�
 これで、レビュー・パネルのトピック・ビューの検索バーにタイトルまたはファイル・パスのテキストの一部を入力して、トピックを検索できます。 すべてのトピックを表示するか、コメント付きのトピックを表示するかを選択することもできます。 デフォルトでは、レビュータスクに存在するすべてのトピックを表示できます。
 
 
-![ レビュートピック パネルでの検索 ](assets/review-search-topic.png){width="800" align="left"}
+![&#x200B; レビュートピック パネルでの検索 &#x200B;](assets/review-search-topic.png){width="800" align="left"}
 
-詳しくは、「トピックを確認 [ を参照してください ](../user-guide/review-topics.md)。
+詳しくは、「トピックを確認 [&#x200B; を参照してください &#x200B;](../user-guide/review-topics.md)。
 
 ## Guides 拡張機能フレームワーク
 
@@ -108,13 +108,13 @@ PDF出力および出力テンプレートの適切なセクションに、言�
 様々な言語でPDF出力を作成する場合は、言語ごとにローカライズされたテキストを含む様々なPDFテンプレートを作成する必要がありました。 現在は、言語変数機能を使用して、テンプレートを作成する必要があるのは 1 回だけです。 次に、ローカライズが必要な静的テキストについて、対応する言語変数を作成し、テンプレートで使用できます。
 文全体や段落など、長いテキストに対して言語変数を作成できます。 また、スタイルを適用し、HTMLマークアップを使用してこれらの言語変数の書式を設定することもできます。
 
-詳しくは、[ 言語変数のサポート ](../native-pdf/native-pdf-language-variables.md) を参照してください。
+詳しくは、[&#x200B; 言語変数のサポート &#x200B;](../native-pdf/native-pdf-language-variables.md) を参照してください。
 
 ### 下書き文書のPDF出力に透かしを追加する
 
 まだ承認されていないドキュメントのPDF出力に透かしを追加できるようになりました。 この透かしは、「承認済み」ドキュメント状態のドキュメントのPDFを生成した場合には表示されません。 例えば、PDF出力に透かしドラフトを追加できます。
 
-詳しくは、「[ ドラフトドキュメントの透かしをPDF出力に追加 ](../native-pdf/use-javascript-content-style.md#watermark-draft-document) を参照してください。
+詳しくは、「[&#x200B; ドラフトドキュメントの透かしをPDF出力に追加 &#x200B;](../native-pdf/use-javascript-content-style.md#watermark-draft-document) を参照してください。
 
 ### PDFレイアウトでAEM メタデータを使用する機能
 
@@ -123,13 +123,13 @@ PDF出力および出力テンプレートの適切なセクションに、言�
 AEM Guidesで、アセットのメタデータプロパティを選択して、ページレイアウトに追加することもできます。 次に、AEM Guidesはアセットのこれらのメタデータプロパティを選択し、PDF出力に公開します。
 
 
-![ ネイティブ pdf のメタデータの追加 ](assets/native-pdf-metadata-asset.png){width="300" align="left"}
+![&#x200B; ネイティブ pdf のメタデータの追加 &#x200B;](assets/native-pdf-metadata-asset.png){width="300" align="left"}
 
 >[!NOTE]
 >
 > AEM Guidesは、DITA マップのメタデータプロパティもサポートします。
 
-詳しくは、[ フィールドとメタデータを追加 ](../native-pdf/design-page-layout.md#add-fields-metadata) を参照してください。
+詳しくは、[&#x200B; フィールドとメタデータを追加 &#x200B;](../native-pdf/design-page-layout.md#add-fields-metadata) を参照してください。
 
 
 ### PDF出力でのページの順序付け
@@ -147,19 +147,19 @@ PDF内の以下のセクションの表示/非表示を切り替えたり、最�
 
 PDF出力の特定のセクションを表示しない場合は、切り替えスイッチをオフにして非表示にできます。
 
-詳しくは、「ページ順序 [ を参照してくだ ](../native-pdf/components-pdf-template.md#page-order) い。
+詳しくは、「ページ順序 [&#x200B; を参照してくだ &#x200B;](../native-pdf/components-pdf-template.md#page-order) い。
 
 ### ページの結合
 
 ネイティブPDF出力では、デフォルトで、すべてのセクションが新しいページから始まります。 これで、セクションを前のページまたは次のページに結合できます。 これにより、PDF出力で選択されたページに続くセクションが公開され、ページ区切りはなくなります。
 
-詳しくは、「ページの順序 [ のページの結合機能の説明を参照し ](../native-pdf/components-pdf-template.md#page-order) ください。
+詳しくは、「ページの順序 [&#x200B; のページの結合機能の説明を参照し &#x200B;](../native-pdf/components-pdf-template.md#page-order) ください。
 
 ### 静的ページ
 
 カスタムページレイアウトを作成して、PDF出力で静的ページとして公開することもできます。 これにより、メモや空白のページなどの静的コンテンツを追加できます。
 
-詳しくは、静的ページの機能の説明 [ ページ順序 ](../native-pdf/components-pdf-template.md#page-order) の節を参照してください。
+詳しくは、静的ページの機能の説明 [&#x200B; ページ順序 &#x200B;](../native-pdf/components-pdf-template.md#page-order) の節を参照してください。
 
 
 ### クロスリファレンスの変数
@@ -171,7 +171,7 @@ PDF出力の特定のセクションを表示しない場合は、切り替え�
 
 {table} を使用して、テーブル番号に相互参照を追加します。 キャプションに対して定義した自動番号スタイルからテーブル番号が選択されます。
 
-詳しくは、[ 相互参照 ](../native-pdf/components-pdf-template.md##cross-references) を参照してください。
+詳しくは、[&#x200B; 相互参照 &#x200B;](../native-pdf/components-pdf-template.md##cross-references) を参照してください。
 
 ### 現在のページからチャプターを開始
 
@@ -186,9 +186,9 @@ AEM Guidesで、ネイティブPDF出力の生成時に作成された一時HTML
 
 この機能により、暫定スタイルおよびレイアウトにアクセスして、生成プロセスに関するより優れたインサイトを得ることができます。また、要件に従って CSS スタイルを修正または変更するのに役立ちます。
 
-![ ネイティブ pdf の詳細設定ダイアログ ](assets/native-pdf-advanced-settings.png){width="800" align="left"}
+![&#x200B; ネイティブ pdf の詳細設定ダイアログ &#x200B;](assets/native-pdf-advanced-settings.png){width="800" align="left"}
 
-詳しくは、[PDF出力プリセットの作成 ](../web-editor/native-pdf-web-editor.md#create-output-preset) を参照してください。
+詳しくは、[PDF出力プリセットの作成 &#x200B;](../web-editor/native-pdf-web-editor.md#create-output-preset) を参照してください。
 
 
 ### CSS エディターの再設計
@@ -199,7 +199,7 @@ CSS エディターのデザインを一新し、セレクターとスタイル�
 
 カスタムセレクターを使用して、複雑なスタイルを追加できるようになりました。 新しいセレクターフィールドは、クラス、タグ、疑似クラスの組み合わせ以外のカスタムセレクターを追加するのに役立ちます。 例えば、テーブル内のすべて `table a.link` ハイパーリンクにスタイルを作成できます。
 
-![ ネイティブ pdf テンプレートへのスタイルの追加 ](assets/add-styles-native-pdf.png){width="300" align="left"}
+![&#x200B; ネイティブ pdf テンプレートへのスタイルの追加 &#x200B;](assets/add-styles-native-pdf.png){width="300" align="left"}
 
 #### スタイルのプロパティのカスタマイズ
 
@@ -210,18 +210,18 @@ AEM Guidesでは、スタイルの「プレビュー」セクションに新し�
 
 リポジトリパネルからファイルの名前を変更または移動できるようになりました。 この機能は便利で、リポジトリーパネルからファイルを簡単に管理するのに役立ちます。 ファイルを選択し、選択したファイルの **オプション** メニューを使用して、ファイルの名前を変更したり移動したりできます。 ファイルを移動または名前変更すると、AEM Guidesに成功メッセージが表示されます。
 
-![ ファイルのオプション メニュー ](assets/rename-move-assets.png){width="550" align="left"}
+![&#x200B; ファイルのオプション メニュー &#x200B;](assets/rename-move-assets.png){width="550" align="left"}
 
-ファイルのオプションメニューについて詳しくは、「左パネル **セクションの** リポジトリ表示 [ 機能の説明を参照してくだ ](../user-guide/web-editor-features.md#id2051EA0M0HS) い。
+ファイルのオプションメニューについて詳しくは、「左パネル **セクションの** リポジトリ表示 [&#x200B; 機能の説明を参照してくだ &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS) い。
 
 ## Web エディターのリンク切れレポート
 
 AEM Guidesでは、技術文書の全体的な完全性を確認し、web エディターからレポートを生成できます。 2023 年 6 月リリースに、AEM Guidesで壊れたリンクを表示および修正する機能が追加されました。 これは、壊れたリンクの管理に役立つ便利なレポートです。 DITA マップに存在する壊れたリンクを簡単に表示して修正できます。
-![ 壊れたリンクのレポート ](assets/broken-link-report.png){width="800" align="left"}
+![&#x200B; 壊れたリンクのレポート &#x200B;](assets/broken-link-report.png){width="800" align="left"}
 
 リンクを修正すると、壊れたリンクのリストの下に表示されなくなります。
 
-詳しくは、[ 壊れたリンクの表示と修正 ](../user-guide/reports-web-editor.md#report-broken-links) を参照してください。
+詳しくは、[&#x200B; 壊れたリンクの表示と修正 &#x200B;](../user-guide/reports-web-editor.md#report-broken-links) を参照してください。
 
 ## スキーマトロンの機能強化
 
@@ -229,13 +229,13 @@ AEM Guidesでは、技術文書の全体的な完全性を確認し、web エデ
 
 AEM Guidesでは、スキーマトロンを含むレポートステートメントもサポートするようになりました。 テストステートメントが true と評価されると、report ステートメントがメッセージを生成します。 たとえば、簡単な説明を 150 文字以下にする場合、レポート ステートメントを定義して、簡単な説明が 150 文字を超えるトピックをチェックできます。
 
-詳しくは、[ アサートステートメントとレポートステートメントを使用してルールをチェックする ](../user-guide/support-schematron-file.md#schematron-assert-report) を参照してください。
+詳しくは、[&#x200B; アサートステートメントとレポートステートメントを使用してルールをチェックする &#x200B;](../user-guide/support-schematron-file.md#schematron-assert-report) を参照してください。
 
 ### 正規表現式の使用
 
 正規表現を使用して、matches （）関数を含むルールを定義し、Schematron ファイルを使用して検証を実行することもできます。
 
-詳しくは、[ 正規表現式の使用 ](../user-guide/support-schematron-file.md#schematron-assert-report) を参照してください。
+詳しくは、[&#x200B; 正規表現式の使用 &#x200B;](../user-guide/support-schematron-file.md#schematron-assert-report) を参照してください。
 
 
 ### 抽象パターンの定義
@@ -243,15 +243,15 @@ AEM Guidesでは、スキーマトロンを含むレポートステートメン�
 AEM Guidesは Schematron の抽象パターンもサポートしています。 一般的な抽象パターンを定義し、これらの抽象パターンを再利用できます。 抽象パターンを使用すると、スキーマを簡略化でき、検証ロジックの管理と更新にも役立ちます。
 
 
-詳しくは、[ 抽象パターンの定義 ](../user-guide/support-schematron-file.md#schematron-abstract-patterns) を参照してください。
+詳しくは、[&#x200B; 抽象パターンの定義 &#x200B;](../user-guide/support-schematron-file.md#schematron-abstract-patterns) を参照してください。
 
 ## 翻訳での XLIFF 形式のサポート
 
 AEM Guidesでは、翻訳機能で XML Localization Interchange File Format （XLIFF）形式もサポートされています。 また、**新しい XLIFF 翻訳プロジェクトを作成** を選択して、XML コンテンツを XLIFF 形式に変換できるようになりました。 AEM Guidesは、XLIFF バージョン 1.2 をサポートしています。
 
-この形式を使用すると、コンテンツを業界標準の XLIFF 形式に書き出し、それを翻訳ベンダーに提供できます。 詳しくは、[ 翻訳プロジェクトの作成 ](../user-guide/translate-documents-web-editor.md#create-translation-project) を参照してください。
+この形式を使用すると、コンテンツを業界標準の XLIFF 形式に書き出し、それを翻訳ベンダーに提供できます。 詳しくは、[&#x200B; 翻訳プロジェクトの作成 &#x200B;](../user-guide/translate-documents-web-editor.md#create-translation-project) を参照してください。
 
-![ 翻訳プロジェクトの種類 ](assets/translation-project-types.png){width="350" align="left"}
+![&#x200B; 翻訳プロジェクトの種類 &#x200B;](assets/translation-project-types.png){width="350" align="left"}
 
 
 ## マップコレクションの機能強化
@@ -261,39 +261,39 @@ AEM Guidesでは、翻訳機能で XML Localization Interchange File Format （X
 * これで、ネイティブPDF出力プリセットをマップコレクションに追加し、それらを使用してPDF出力を生成できるようになりました。
 * 管理者が作成したグローバルプロファイルプリセットとフォルダープロファイルプリセットを表示し、それらを使用してPDF出力を生成できます。
 * 個々のプリセットを選択できるだけでなく、DITA マップのすべてのフォルダープロファイルプリセットを一度に有効にすることもできます。
-  ![ マップ コレクションを編集する ](assets/edit-map-collection.png){width="800" align="left"}
+  ![&#x200B; マップ コレクションを編集する &#x200B;](assets/edit-map-collection.png){width="800" align="left"}
 
-詳しくは、[ 出力生成にマップ コレクションを使用 ](../user-guide/generate-output-use-map-collection-output-generation.md) を参照してください。
+詳しくは、[&#x200B; 出力生成にマップ コレクションを使用 &#x200B;](../user-guide/generate-output-use-map-collection-output-generation.md) を参照してください。
 
 ## 一括Publish ダッシュボードでのネイティブPDFのサポート
 
 
 AEM Guidesの一括アクティベーション機能を使用すると、オーサリングからパブリッシュインスタンスまで、コンテンツをすばやく簡単にアクティベーションできます。 一括有効化マップには、ネイティブPDF出力プリセット、AEM サイト、PDF、HTML 5、カスタム、JSON 出力を含めることができます。
-詳しくは、[ 公開済みコンテンツの一括アクティベーション ](../user-guide/conf-bulk-activation.md) を参照してください。
+詳しくは、[&#x200B; 公開済みコンテンツの一括アクティベーション &#x200B;](../user-guide/conf-bulk-activation.md) を参照してください。
 
 ## 改良された一括移動ツール
 
 管理者は、改善された一括移動ツールを使用して、多数のファイルがあるフォルダーを別の場所に移動できるようになりました。
-ファイルを参照ダイアログを使用して、移動するソースフォルダーを選択できます。 また、ソースフォルダーを移動する宛先の場所を参照して選択することもできます。 フィールドの近くにある ![ 情報アイコン ](assets/info-icon.svg) {width="25" align="left"} を選択して、そのフィールドに関する詳細を表示します。
+ファイルを参照ダイアログを使用して、移動するソースフォルダーを選択できます。 また、ソースフォルダーを移動する宛先の場所を参照して選択することもできます。 フィールドの近くにある ![&#x200B; 情報アイコン &#x200B;](assets/info-icon.svg) {width="25" align="left"} を選択して、そのフィールドに関する詳細を表示します。
 
-詳しくは、[ ファイルを一括で移動 ](../user-guide/authoring-file-management.md#move-files-bulk) を参照してください。
+詳しくは、[&#x200B; ファイルを一括で移動 &#x200B;](../user-guide/authoring-file-management.md#move-files-bulk) を参照してください。
 
 ## お気に入りパネルの改善
 
 AEM Guidesを使用すると、ファイルやフォルダーのコレクションやお気に入りのリストを作成し、それらを簡単に使用できます。 **お気に入り** パネルで **オプション** メニューも使用できるようになりました。 選択したコレクションの名前を変更したり、**オプション** メニューから削除したりできます。 「**更新**」オプションを選択すると、リポジトリからファイルまたはフォルダーの新しいリストを取得できます。 フォルダーのコンテンツは、Assets UI でも表示できます。
 
-![ お気に入りパネル ](assets/favorites-options.png){width="650" align="left"}
+![&#x200B; お気に入りパネル &#x200B;](assets/favorites-options.png){width="650" align="left"}
 
 >[!NOTE]
 >
 > 上部の「**更新** アイコンを使用してリストを更新することもできます。
 
-お気に入りコレクションの **オプション** メニューについて詳しくは、**左パネル [ セクションの** お気に入り ](../user-guide/web-editor-features.md#id2051EA0M0HS) 機能の説明を参照してください。
+お気に入りコレクションの **オプション** メニューについて詳しくは、**左パネル [&#x200B; セクションの** お気に入り &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS) 機能の説明を参照してください。
 
 ## システムテーマに切り替える
 
 また、デバイステーマを使用できるようになりました。 **ユーザーの環境設定** を使用して、デバイスのテーマに基づいて明るいテーマと暗いテーマを自動的に切り替えるようにAEM Guidesを設定できます。
 
-![ ユーザー環境設定 ](assets/device-theme-user-preferences.png){width="550" align="left"}
+![&#x200B; ユーザー環境設定 &#x200B;](assets/device-theme-user-preferences.png){width="550" align="left"}
 
-詳しくは、「メインツールバー **セクションの** ユーザー環境設定 [ 機能の説明を参照し ](../user-guide/web-editor-features.md#id2051EA0G05Z) ください。
+詳しくは、「メインツールバー **セクションの** ユーザー環境設定 [&#x200B; 機能の説明を参照し &#x200B;](../user-guide/web-editor-features.md#id2051EA0G05Z) ください。

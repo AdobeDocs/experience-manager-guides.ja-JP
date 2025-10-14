@@ -34,7 +34,7 @@ AEM Guidesをすべてのコンテンツ（AEM Sites、PDF、HTML5 など）の�
    - **ACS AEM Commons** がAEM インスタンスにインストールされていることを確認します。 これは、CCVAR を使用する場合に必要です。
 
 2. **コンテキストコンテンツ変数の設定**:
-   - **公式ドキュメント** を使用して、AEMで [ コンテキストコンテンツ変数 ](https://adobe-consulting-services.github.io/acs-aem-commons/features/contextual-content-variables/index.html) の設定を行います。 変更してはいけないものの一例は、次のとおりです。
+   - **公式ドキュメント** を使用して、AEMで [&#x200B; コンテキストコンテンツ変数 &#x200B;](https://adobe-consulting-services.github.io/acs-aem-commons/features/contextual-content-variables/index.html) の設定を行います。 変更してはいけないものの一例は、次のとおりです。
       - **プロパティの集計** を有効にします。
       - **HTMLの書き換え** を構成しています（HTML出力を使用する場合）。
       - **JSON の書き換え** の設定（JSON 出力を使用する場合）。
@@ -119,4 +119,4 @@ AEM Guidesをすべてのコンテンツ（AEM Sites、PDF、HTML5 など）の�
 ### リソース
 
 **コンテキストコンテンツ変数** について詳しくは、次の公式ドキュメントを参照してください。\
-[AEM Commons のコンテキストコンテンツ変数 ](https://adobe-consulting-services.github.io/acs-aem-commons/features/contextual-content-variables/index.html)
+[AEM Commons のコンテキストコンテンツ変数 &#x200B;](https://adobe-consulting-services.github.io/acs-aem-commons/features/contextual-content-variables/index.html)

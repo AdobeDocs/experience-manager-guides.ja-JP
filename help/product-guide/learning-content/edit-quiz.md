@@ -26,6 +26,6 @@ ht-degree: 0%
 
    ![](assets/quiz-lock.png){width="650" align="left"}
 
-1. [ クイズに質問を追加 ](./quiz-insert-questions.md) したり、[ 質問バンクから質問を挿入 ](./insert-questions.md) したりできます。
+1. [&#x200B; クイズに質問を追加 &#x200B;](./quiz-insert-questions.md) したり、[&#x200B; 質問バンクから質問を挿入 &#x200B;](./insert-questions.md) したりできます。
 1. 作業内容を保存するには、「**新しいバージョンとして保存** を使用して新しいバージョンを作成するか、`Ctrl+S` キーを押して既存のファイルを上書きします。
 1. クイズを保存した後、他のユーザーが編集できるトピックを **ロック解除** できます。

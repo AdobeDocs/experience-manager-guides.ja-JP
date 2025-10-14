@@ -23,7 +23,7 @@ AEM Guidesでは、出力後の生成ワークフローを柔軟に指定でき�
 
 生成された出力に対して操作を実行する Java または ECMA ベースのワークフロープロセスを作成します。 例えば、ソースから生成されたコンテンツに一部のメタデータをコピーしたり、生成された出力のメタデータを操作したりする場合です。
 - ECMA スクリプトを使用してプロセスを作成する例を示します（添付パッケージを参照できます）
-- Java ベースのワークフロープロセスについては、『インストールおよび設定ガイド [ の「*出力後の生成ワークフローのカスタマイズ*」の節を参照してください ](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_Installation-Configuration-Guide_EN.pdf#page=119)
+- Java ベースのワークフロープロセスについては、『インストールおよび設定ガイド [&#x200B; の「*出力後の生成ワークフローのカスタマイズ*」の節を参照してください &#x200B;](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_Installation-Configuration-Guide_EN.pdf#page=119)
 
 
 ### ワークフローモデルの作成
@@ -33,14 +33,14 @@ AEM Guidesでは、出力後の生成ワークフローを柔軟に指定でき�
 
 以下に示すサンプルワークフローモデルを参照してください。
 
-![Post生成ワークフローモデル ](../assets/workflows/pgwf-workflow-model.png)
+![Post生成ワークフローモデル &#x200B;](../assets/workflows/pgwf-workflow-model.png)
 
 
 ### この生成後のワークフローをマップ上で使用
 
 Post生成ワークフローは、AEM Guides公開メカニズム内の任意の出力プリセットに対して設定できるプロパティです。 例：
 
-![ 出力プリセットのPost生成ワークフロー ](../assets/workflows/pgwf-preset-settings.png)
+![&#x200B; 出力プリセットのPost生成ワークフロー &#x200B;](../assets/workflows/pgwf-preset-settings.png)
 
 
 選択したモデルが既に作成されている場合。

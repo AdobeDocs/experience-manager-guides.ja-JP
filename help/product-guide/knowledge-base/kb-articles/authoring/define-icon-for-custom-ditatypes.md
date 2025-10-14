@@ -16,7 +16,7 @@ ht-degree: 0%
 
 AEM Guidesで使用されるカスタムスキーマを使用すると、カスタムトピックまたはマップの種類を作成でき、カスタムトピックまたはマップの種類が web エディターまたはAssets UI にアイコンが表示されないことがあります。 参照については、以下のスクリーンショットを参照してください
 
-![ 参照用のスクリーンショット ](../assets/authoring/custom-ditatype-icon-notshown.png)
+![&#x200B; 参照用のスクリーンショット &#x200B;](../assets/authoring/custom-ditatype-icon-notshown.png)
 
 
 カスタムのトピックまたはマップのタイプにアイコンを割り当てるには、次の手順を実行する必要があります。
@@ -33,7 +33,7 @@ _手順 1:_ カスタム dita トピック/ap の dita タイプを決定する
 - Web エディターでリポジトリ表示を開く/ ブラウザーで開発者コンソールを開きます。
 - リストされたトピック/マップの横にあるアイコンスペースをInspectします
 - カスタムトピックに割り当てられているクラスを確認します
-- 詳しくは、以下のスクリーンショットを参照してください ![ スクリーンショットを参照 ](../assets/authoring/custom-ditatype-icon-knowditatype.png)
+- 詳しくは、以下のスクリーンショットを参照してください ![&#x200B; スクリーンショットを参照 &#x200B;](../assets/authoring/custom-ditatype-icon-knowditatype.png)
 - このクラスを使用してアイコンを割り当て、CSS を記述します
 
 _手順 2:_ css を作成し、この dita タイプにアイコンを割り当てる
@@ -58,10 +58,10 @@ _手順 2:_ css を作成し、この dita タイプにアイコンを割り当�
 - これらの変更を保存/デプロイ
 
 詳しくは、以下のスクリーンショットを参照してください。
-![ スクリーンショットを参照 ](../assets/authoring/custom-ditatype-icon-define-webeditor-styles.png)
+![&#x200B; スクリーンショットを参照 &#x200B;](../assets/authoring/custom-ditatype-icon-define-webeditor-styles.png)
 
 最終的な出力は次のスクリーンショットに示されます。
-![ スクリーンショットに示す ](../assets/authoring/custom-ditatype-icon-webeditor-showstyles.png)
+![&#x200B; スクリーンショットに示す &#x200B;](../assets/authoring/custom-ditatype-icon-webeditor-showstyles.png)
 
 
 ## Assets UI のカスタムトピック/マップのアイコンを表示しています
@@ -80,6 +80,6 @@ _手順 2:_ Javacscript を作成して、カスタムのトピック/マップ�
 - クライアントライブラリフォルダーに js.txt という名前のファイルを作成し、「topic_type.js」への参照を追加します。
 - これらの変更を保存/デプロイ
 詳しくは、以下のスクリーンショットを参照してください。
-  ![ スクリーンショットを参照 ](../assets/authoring/custom-ditatype-icon-define-assetsui-styles.png)
+  ![&#x200B; スクリーンショットを参照 &#x200B;](../assets/authoring/custom-ditatype-icon-define-assetsui-styles.png)
 
-最終的な出力はスクリーンショットのように表示されます ![ スクリーンショットのように ](../assets/authoring/custom-ditatype-icon-assetsui-showstyles.png)
+最終的な出力はスクリーンショットのように表示されます ![&#x200B; スクリーンショットのように &#x200B;](../assets/authoring/custom-ditatype-icon-assetsui-showstyles.png)

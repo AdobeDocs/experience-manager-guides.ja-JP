@@ -15,4 +15,4 @@ ht-degree: 2%
 
 *Adobe Experience Manager Guides* は、以前、Adobe Experience Manager *の* XML Documentationとしてブランド化されていました。 ドキュメント内の特定のリファレンスは、以前のブランディングを引き続き参照する場合がありますが、現在の製品にはそのまま適用されます。
 
-AI アシスタント機能は、現在、Adobe Experience Manager Guides as a Cloud Serviceでのみ使用できます。 Experience Manager Guidesで AI を利用した機能を使用する場合は、追加の条件が適用されます。 詳しくは、[Adobe Experience Manager Guides ジェネレーティブ AI ユーザーの開示 ](adobe-generative-ai-disclosures.md) の記事を参照してください。
+AI アシスタント機能は、現在、Adobe Experience Manager Guides as a Cloud Serviceでのみ使用できます。 Experience Manager Guidesで AI を利用した機能を使用する場合は、追加の条件が適用されます。 詳しくは、[Adobe Experience Manager Guides ジェネレーティブ AI ユーザーの開示 &#x200B;](adobe-generative-ai-disclosures.md) の記事を参照してください。

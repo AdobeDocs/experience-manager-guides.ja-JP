@@ -47,7 +47,7 @@ ht-degree: 0%
 
 ## 公開ダッシュボードへのアクセス
 
-**公開ダッシュボード** には、[Experience Manager Guides ホームページ ](./intro-home-page.md) から直接アクセスできます。 ホームページを開き、左パネルの **公開キュー**」オプションを選択します。
+**公開ダッシュボード** には、[Experience Manager Guides ホームページ &#x200B;](./intro-home-page.md) から直接アクセスできます。 ホームページを開き、左パネルの **公開キュー**」オプションを選択します。
 
 >[!NOTE]
 >
@@ -70,13 +70,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> マップダッシュボードから出力を生成する際に、「**出力**」タブからパブリッシュダッシュボードにアクセスすることもできます。 詳しくは、[ 出力生成タスクのステータスの表示 ](generate-output-for-a-dita-map.md#viewing_output_history) を参照してください。
+> マップダッシュボードから出力を生成する際に、「**出力**」タブからパブリッシュダッシュボードにアクセスすることもできます。 詳しくは、[&#x200B; 出力生成タスクのステータスの表示 &#x200B;](generate-output-for-a-dita-map.md#viewing_output_history) を参照してください。
 
 ## 公開タスクのキャンセル
 
 次の手順を実行して、パブリッシュダッシュボードから出力生成タスクをキャンセルします。
 
-1. [ パブリッシュダッシュボードにアクセスします ](#access-the-publish-dashboard)。
+1. [&#x200B; パブリッシュダッシュボードにアクセスします &#x200B;](#access-the-publish-dashboard)。
 
 1. アクティブな公開タスクのリストから、キャンセルするタスクの削除アイコンを選択します。
 
@@ -89,4 +89,4 @@ ht-degree: 0%
    ![](images/cancelled-output-task.png){align="left"}
 
 
-**親トピック：**&#x200B;[ 出力生成 ](generate-output.md)
+**親トピック：**&#x200B;[&#x200B; 出力生成 &#x200B;](generate-output.md)

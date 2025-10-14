@@ -20,11 +20,11 @@ ht-degree: 0%
 >
 > AEM Guidesと共に Livefyre を使用する場合は、AEM Guidesをインストールする前に 3.0 より前のバージョンの Livefyre をインストールしてください。 Livefyre バージョン 3.0 以降を使用している場合、そのような制限はありません。
 
-1. [Adobeソフトウェア配布ポータル ](https://experience.adobe.com/#/downloads/content/software-distribution/ja/aem.html) からAEM Guidesをダウンロードします。
+1. [Adobeソフトウェア配布ポータル &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/ja/aem.html) からAEM Guidesをダウンロードします。
 
    >[!NOTE]
    >
-   >Experience Manager Guidesをインストールする前に、お使いのシステムが [ 技術要件 ](../install-guide/download-install-technical-requirements.md) を満たしていることを確認してください。
+   >Experience Manager Guidesをインストールする前に、お使いのシステムが [&#x200B; 技術要件 &#x200B;](../install-guide/download-install-technical-requirements.md) を満たしていることを確認してください。
 
 1. AEM インスタンスにログインし、CRX パッケージマネージャーに移動します。 パッケージマネージャーにアクセスするデフォルトの URL は次のとおりです。
 
@@ -32,7 +32,7 @@ ht-degree: 0%
    http://<server name>:<port>/crx/packmgr/index.jsp
    ```
 
-   パッケージマネージャーは、ローカル AEM インストール上のパッケージを管理します。 パッケージマネージャーの操作について詳しくは、AEM ドキュメントの [ パッケージの操作方法 ](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/package-manager.html) を参照してください。
+   パッケージマネージャーは、ローカル AEM インストール上のパッケージを管理します。 パッケージマネージャーの操作について詳しくは、AEM ドキュメントの [&#x200B; パッケージの操作方法 &#x200B;](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/package-manager.html) を参照してください。
 
    ![](assets/package-manager.png){width="650" align="left"}
 
@@ -55,4 +55,4 @@ ht-degree: 0%
 >
 > 設定したAEM サーバーのすべてのインスタンスでインストール手順を実行します。
 
-**親トピック：**&#x200B;[ ダウンロードとインストール ](download-install.md)
+**親トピック：**&#x200B;[&#x200B; ダウンロードとインストール &#x200B;](download-install.md)

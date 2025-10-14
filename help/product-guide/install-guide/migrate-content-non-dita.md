@@ -33,7 +33,7 @@ AEM Guidesを使用すると、既存の Word 文書\（`.docx`\）を DITA ト�
 
 Word ドキュメントを正常に変換するには、ドキュメントが適切に構造化されている必要があります。 例えば、ドキュメントにはタイトルが必要で、その後に見出し 1、見出し 2 などが必要です。 各見出しには、いくつかのコンテンツが含まれている必要があります。 ドキュメントが適切に構造化されていない場合、プロセスが期待どおりに動作しない可能性があります。
 
-デフォルトでは、AEM Guidesは [Word-to-DITA \（Word2DITA\）変換フレームワーク ](http://www.dita4publishers.org/docs/repo/org.dita4publishers.word2dita/word2dita/word2dita-intro.html) を使用します。 この変換は、[ スタイルからタグへのマッピング ](http://www.dita4publishers.org/docs/repo/org.dita4publishers.word2dita/word2dita/style-to-tag-map-overview.html) 設定ファイルによって異なります。 Word2DITA 変換を正常に使用するには、変換用の Word 文書を準備する際に、次のガイドラインを考慮する必要があります。
+デフォルトでは、AEM Guidesは [Word-to-DITA \（Word2DITA\）変換フレームワーク &#x200B;](http://www.dita4publishers.org/docs/repo/org.dita4publishers.word2dita/word2dita/word2dita-intro.html) を使用します。 この変換は、[&#x200B; スタイルからタグへのマッピング &#x200B;](http://www.dita4publishers.org/docs/repo/org.dita4publishers.word2dita/word2dita/style-to-tag-map-overview.html) 設定ファイルによって異なります。 Word2DITA 変換を正常に使用するには、変換用の Word 文書を準備する際に、次のガイドラインを考慮する必要があります。
 
 >[!NOTE]
 >
@@ -98,7 +98,7 @@ Word ドキュメントを正常に変換するには、ドキュメントが適
 
 1. 入力フォルダーの場所\（`wordtodita`\）に移動します。
 
-1. ソースの Word ドキュメントをこのフォルダーにアップロードします。 DAM へのコンテンツのアップロードについては、[ 既存の DITA コンテンツのアップロード ](migrate-content-upload-existing-dita-content.md#) を参照してください。
+1. ソースの Word ドキュメントをこのフォルダーにアップロードします。 DAM へのコンテンツのアップロードについては、[&#x200B; 既存の DITA コンテンツのアップロード &#x200B;](migrate-content-upload-existing-dita-content.md#) を参照してください。
 
 
 `config` `/config` ブロックを使用すると、変換用の設定の 1 つまたは複数のブロックを定義できます。 変換ワークフローが実行され、DITA トピック形式の最終出力が `outputDir` エレメントで指定した場所に保存されます。
@@ -120,7 +120,7 @@ AEM Guidesでは、InDesignドキュメントを変換できます。 FrameMaker
 - 個々の DITA トピックと DITA マップファイルの作成と検証。
 - 一時ファイルの削除。
 
-大まかに言えば、コンバージョンプロセスでは [ コンバージョン用のInDesignファイルを準備する ](appendix.md#id195DBF0045Z) および [DITA マイグレーションへのInDesign用のマッピングファイルを準備する ](appendix.md#id194AF0003HT) 必要があります。次に、コンバージョンプロセスを実行するための手順に従う必要があります。
+大まかに言えば、コンバージョンプロセスでは [&#x200B; コンバージョン用のInDesignファイルを準備する &#x200B;](appendix.md#id195DBF0045Z) および [DITA マイグレーションへのInDesign用のマッピングファイルを準備する &#x200B;](appendix.md#id194AF0003HT) 必要があります。次に、コンバージョンプロセスを実行するための手順に従う必要があります。
 
 次の手順を実行して、既存のInDesign文書を DITA トピック型文書に変換します。
 
@@ -165,7 +165,7 @@ AEM Guidesでは、InDesignドキュメントを変換できます。 FrameMaker
 
 >[!NOTE]
 >
-> ファイルの構造とカスタマイズ方法 `stmap.adobeidml.xml` ついて詳しくは、[ 付録 *の* DITA マイグレーションへのInDesign用のマッピング ファイルを準備する ](appendix.md#id194AF0003HT) の節を参照してください。
+> ファイルの構造とカスタマイズ方法 `stmap.adobeidml.xml` ついて詳しくは、[&#x200B; 付録 *の* DITA マイグレーションへのInDesign用のマッピング ファイルを準備する &#x200B;](appendix.md#id194AF0003HT) の節を参照してください。
 
 1. `idml2dita_io.xml` ファイルを保存します。
 
@@ -173,7 +173,7 @@ AEM Guidesでは、InDesignドキュメントを変換できます。 FrameMaker
 
 1. 入力フォルダーの場所\（`indesigntodita`\）に移動します。
 
-1. ソースInDesignドキュメントをこのフォルダーにアップロードします。 DAM へのコンテンツのアップロードについては、[ 既存の DITA コンテンツのアップロード ](migrate-content-upload-existing-dita-content.md#) を参照してください。
+1. ソースInDesignドキュメントをこのフォルダーにアップロードします。 DAM へのコンテンツのアップロードについては、[&#x200B; 既存の DITA コンテンツのアップロード &#x200B;](migrate-content-upload-existing-dita-content.md#) を参照してください。
 
 
 ## XHTML ドキュメントの移行 {#id1949B04L0Y4}
@@ -277,7 +277,7 @@ ZIP ファイルを作成する際の考慮事項とは別に、XHTML ドキュ�
    4. ファイルを保存して閉じます。
 1. 入力フォルダーの場所\（`xhtmltodita`\）に移動します。
 
-1. ソース XHTML ドキュメントをこのフォルダーにアップロードします。 DAM へのコンテンツのアップロードについては、[ 既存の DITA コンテンツのアップロード ](migrate-content-upload-existing-dita-content.md#) を参照してください。
+1. ソース XHTML ドキュメントをこのフォルダーにアップロードします。 DAM へのコンテンツのアップロードについては、[&#x200B; 既存の DITA コンテンツのアップロード &#x200B;](migrate-content-upload-existing-dita-content.md#) を参照してください。
 
 
 `<config> </config>` ブロックを使用すると、変換用の設定の 1 つまたは複数のブロックを定義できます。 変換ワークフローが実行され、DITA トピック形式の最終出力が `outputDir` エレメントで指定した場所に保存されます。
@@ -385,9 +385,9 @@ AEM Guidesを使用すると、既存の構造化文書を有効な DITA 文書�
 
 1. 入力フォルダーの場所\（`xsltodita`\）に移動します。
 
-1. ソースの構造化ドキュメントをこのフォルダーにアップロードします。 DAM へのコンテンツのアップロードについては、[ 既存の DITA コンテンツのアップロード ](migrate-content-upload-existing-dita-content.md#) を参照してください。
+1. ソースの構造化ドキュメントをこのフォルダーにアップロードします。 DAM へのコンテンツのアップロードについては、[&#x200B; 既存の DITA コンテンツのアップロード &#x200B;](migrate-content-upload-existing-dita-content.md#) を参照してください。
 
 
 `<config> </config>` ブロックを使用すると、変換用の設定の 1 つまたは複数のブロックを定義できます。 変換ワークフローが実行され、DITA トピック形式の最終出力が `outputDir` エレメントで指定した場所に保存されます。
 
-**親トピック：**&#x200B;[ 既存のコンテンツを移行 ](migrate-content.md)
+**親トピック：**&#x200B;[&#x200B; 既存のコンテンツを移行 &#x200B;](migrate-content.md)

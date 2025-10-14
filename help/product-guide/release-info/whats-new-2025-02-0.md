@@ -21,20 +21,20 @@ Adobe Experience Manager Guidesのデザインと機能が刷新され、以前�
 
 - **ホームページの概要**:Experience Manager Guidesに、最近アクセスしたファイルやコレクションなどのクイックビューを含む、直感的なスタートアップスクリーンエクスペリエンスを提供するホームページが追加されました。
 
-  詳しくは、[Adobe Experience Manager Guidesのホームページエクスペリエンス ](../user-guide/intro-home-page.md) を参照してください。
+  詳しくは、[Adobe Experience Manager Guidesのホームページエクスペリエンス &#x200B;](../user-guide/intro-home-page.md) を参照してください。
 
   ![](assets/aem-home-page.png){width="800" align="left"}
 
 
 - **新しいエディターのエクスペリエンス**：エディターの新しいルックアンドフィールを体験してください。 刷新されたエディターインターフェイスは、よりクリーンで整理されたツールバー、シームレスなナビゲーション、全体的な直感的なエクスペリエンスを備えており、ドキュメントをより迅速かつ効率的に作成するのに役立ちます。
 
-  [ エディターの機能について ](../user-guide/web-editor-features.md) 説明します。
+  [&#x200B; エディターの機能について &#x200B;](../user-guide/web-editor-features.md) 説明します。
 
   ![](assets/editor-new-ui.png){width="800" align="left"}
 
 - **専用マップコンソール**：すべてのマップ管理および公開機能をまとめた専用コンソールであるマップコンソールが導入されました。 出力の生成、コンテンツの翻訳、レポートの作成などのオプションをすべて 1 つのインターフェイス内で利用できるようになりました。
 
-  詳しくは、[ マップ管理と公開 ](../user-guide/map-console-overview.md) を参照してください。
+  詳しくは、[&#x200B; マップ管理と公開 &#x200B;](../user-guide/map-console-overview.md) を参照してください。
 
   ![](assets/map-console-new-ui.png){width="800" align="left"}
 
@@ -48,7 +48,7 @@ Experience Manager GuidesはAdobe Workfrontとシームレスに統合される�
 
 また、統合により、作業キューを監視して、整理された状態を維持し、すべてのタスク（割り当てられたタスク）を常に把握できるようになります。 また、プロジェクト管理者は、Adobe Workfrontの機能を活用して、Experience Manager Guides内の詳細なプロジェクト管理を行うこともできます。
 
-詳しくは、[Workfrontの統合 ](../user-guide/workfront-integration.md) を参照してください。
+詳しくは、[Workfrontの統合 &#x200B;](../user-guide/workfront-integration.md) を参照してください。
 
 ![](assets/workfront-integration-ui.png){width="800" align="left"}
 
@@ -57,7 +57,7 @@ Experience Manager GuidesはAdobe Workfrontとシームレスに統合される�
 
 AI を活用したExperience Manager Guidesのスマートオーサリングおよびヘルプ機能で、生産性が向上しました。 AI アシスタントを使用すると、既存のリポジトリからコンテンツを再利用するためのスマート オーサリング機能およびスマート提案によって、効率を向上させることができます。 スマートヘルプを使用すると、Experience Manager Guidesの機能やそのワークフローなどに関するクエリに対して、関連性の高い回答をすばやく見つけることができます。
 
-詳しくは、[Experience Manager Guidesの AI アシスタント ](../user-guide/ai-assistant.md) を参照してください。
+詳しくは、[Experience Manager Guidesの AI アシスタント &#x200B;](../user-guide/ai-assistant.md) を参照してください。
 
 ![](assets/ai-assistant-panel.png){width="300" align="left"}
 
@@ -65,7 +65,7 @@ AI を活用したExperience Manager Guidesのスマートオーサリングお�
 
 新しいパブリッシングエンジンは、ページの作成とレンダリングを高速化する複合コンポーネントマッピングで最適化されており、AEM Sitesへのより迅速でスケーラブルなパブリッシングを実現します。 すぐに使用できる編集可能な新しいテンプレートが用意されており、AEM テンプレートエディターを使用して要件に応じてカスタマイズできます。 テンプレートでは、WCM コアコンポーネントと専用のガイドコンポーネントを組み合わせて使用し、エンドユーザーがAEM Sites ページで最高のエクスペリエンスを得られるようにします。 また、この新しい公開エンジンの機能を活用するように既存のテンプレートをカスタマイズすることもできます。
 
-[AEM Sitesの公開の詳細 ](../user-guide/generate-output-aem-site-web-editor.md)。
+[AEM Sitesの公開の詳細 &#x200B;](../user-guide/generate-output-aem-site-web-editor.md)。
 
 ![](assets/new-aem-sites-preset.png){width="500" align="left"}
 
@@ -74,7 +74,7 @@ AI を活用したExperience Manager Guidesのスマートオーサリングお�
 
 AEM Sites ページへの単一トピックの公開を導入しました。これにより、マップ全体を公開する必要なく、個々のトピックをAEM Sites ページに直接公開できます。  これにより、公開プロセスが合理化され、マーケティングコンテンツ、技術速報、その他のスタンドアロンコンテンツなど、スタンドアロンコンテンツを操作する際の効率が向上します。 また、単一のトピックを公開するためのマップを作成する必要がなくなるので、コンテンツのメンテナンスも簡単になります。
 
-詳しくは、[AEM Sitesページの公開 ](../user-guide/publish-aem-sites.md) を参照してください。
+詳しくは、[AEM Sitesページの公開 &#x200B;](../user-guide/publish-aem-sites.md) を参照してください。
 
 ![](assets/aem-sites-page-generate.png){width="500" align="left"}
 
@@ -84,7 +84,7 @@ AEM Sites ページへの単一トピックの公開を導入しました。こ�
 
 これで、Markdown トピックをオーサリングする、よりクリーンで効率的かつ強力な方法を体験できます。 Experience Manager Guidesでは、よく整理されたツールバーと、コンテンツを同時に作成およびプレビューするための **並べて表示** のビューなどの高度な機能を備えた、新しい Markdown エディターインターフェイスを導入しました。 また、マップの一部である Markdown トピックを複数のチャネルにシームレスに公開できます。
 
-詳しくは、[Markdown オーサリング ](../user-guide/web-editor-markdown-topic.md) を参照してください。
+詳しくは、[Markdown オーサリング &#x200B;](../user-guide/web-editor-markdown-topic.md) を参照してください。
 
 ![](assets/markdown-topic-side-by-side.png){width="800" align="left"}
 
@@ -97,7 +97,7 @@ AEM Sites ページへの単一トピックの公開を導入しました。こ�
 - テーブルまたはシンプルな挿入ダイアログで、ヘッダー行、ボディ行および列のデフォルト値を設定できます。
 - テーブル設定を設定して、外部ソースからコピーしたテーブルを簡略表またはテーブルとして貼り付ける機能。
 
-  詳しくは、[ エディターの機能について ](../user-guide/web-editor-features.md#content-insertion-options) のテーブルの節を参照してください。
+  詳しくは、[&#x200B; エディターの機能について &#x200B;](../user-guide/web-editor-features.md#content-insertion-options) のテーブルの節を参照してください。
 
 **DITA エレメントのフレンドリ名機能の拡張**
 
@@ -115,7 +115,7 @@ Adobe Experience Manager Guides リポジトリー内のフィルター適用済
 
 次に、**相互参照** 用のカスタムツールバーボタンを作成して、メニューオプションの 1 つに直接アクセスします。 例えば、web リンク、メールリンク、ファイル参照、または要件に応じてその他の使用可能なオプションに直接ジャンプするように、このオプションを設定できます。
 
-詳しくは、[ トップバーとツールバーのカスタマイズ ](../guides-ui-extensions/customisations/toolbar-topbar.md) を参照してください。
+詳しくは、[&#x200B; トップバーとツールバーのカスタマイズ &#x200B;](../guides-ui-extensions/customisations/toolbar-topbar.md) を参照してください。
 
 ## 機能強化の確認
 
@@ -125,11 +125,11 @@ Adobe Experience Manager Guides リポジトリー内のフィルター適用済
 
 - エディターとレビューの UI で、レビュー **返信** ボックスが複数行のエントリをサポートするようになりました。 **Shift**+**Enter** を使用すると、次の行に移動できます。 コメントの書き込み中にコメントボックスを展開することもできます。
 
-  詳しくは、「トピックを確認 [ を参照してください ](../user-guide/review-topics.md)。
+  詳しくは、「トピックを確認 [&#x200B; を参照してください &#x200B;](../user-guide/review-topics.md)。
 
 - これで、作成者は、レビュータスクがクローズドとマークされている場合でも、エディターでレビューコメントにアクセスできるようになりました。 最新の機能強化では、レビューパネルには、エディター内の各プロジェクトのアクティブなレビュータスクと閉じられたレビュータスクの両方が含まれています。 閉じられたレビュータスクを選択すると、対応するコメントが右側のコメントパネルに表示され、タスクが閉じた後も重要なレビュータスクに継続的にアクセスできるようになります。
 
-  詳しくは、[ エディターの機能について ](../user-guide/web-editor-features.md) のレビューの節を参照してください。
+  詳しくは、[&#x200B; エディターの機能について &#x200B;](../user-guide/web-editor-features.md) のレビューの節を参照してください。
 
 ## 公開機能の強化
 
@@ -139,24 +139,24 @@ Adobe Experience Manager Guides リポジトリー内のフィルター適用済
 
 - Native PDF出力の生成時に、トピックの `prolog` 要素（著作権、作成者、その他の詳細など）のメタデータをページレイアウトに含める機能。 これにより、生成される PDF がより詳細になり、重要なコンテキストが提供されるので、読者にとって情報が多くなります。
 
-  詳しくは、[ ページレイアウトへのフィールドやメタデータの追加 ](../native-pdf/design-page-layout.md#add-fields-and-metadata-add-fields-metadata) を参照してください。
+  詳しくは、[&#x200B; ページレイアウトへのフィールドやメタデータの追加 &#x200B;](../native-pdf/design-page-layout.md#add-fields-and-metadata-add-fields-metadata) を参照してください。
 
   ![](assets/metadata-topic-content.png){width="300" align="left"}
 
 
 - ネイティブ PDF出力用の DITA-OT 前処理を有効または無効にするオプションが導入されました。 コンテンツの処理中に DITA-OT ベースの正規化またはカスタム DITA-OT プラグインが必要な場合は、このオプションを有効にします。 これにより、PDF生成に向けたコンテンツの処理方法をより詳細に制御できます。 デフォルトでは、この設定は **有効** に設定されています。
 
-  詳しくは、「PDF出力プリセットの操作 [ を参照してください ](../user-guide/generate-output-pdf.md)
+  詳しくは、「PDF出力プリセットの操作 [&#x200B; を参照してください &#x200B;](../user-guide/generate-output-pdf.md)
 
   ![](assets/ditaot-setting-enabled.png){width="500" align="left"}
 
 - ネイティブPDF出力生成の印刷設定が、使いやすくするために **テンプレート** 設定から **ネイティブPDF出力プリセット** に変更されました。 カラープロファイルなど、異なる印刷設定を持つオンライン PDF と印刷 PDF に同じテンプレートを使用できるようになりました。
 
-  詳しくは、[ ネイティブのPDF出力プリセット ](../web-editor/native-pdf-web-editor.md) を参照してください
+  詳しくは、[&#x200B; ネイティブのPDF出力プリセット &#x200B;](../web-editor/native-pdf-web-editor.md) を参照してください
 
 - 特に長い PDF で、シームレスなページナビゲーションを行うために、ネイティブ PDF出力に TOC ページのブックマークを追加する機能。
 
-  詳しくは、[PDF出力へのカスタムブックマークの追加 ](../native-pdf/add-custom-bookmark.md) を参照してください。
+  詳しくは、[PDF出力へのカスタムブックマークの追加 &#x200B;](../native-pdf/add-custom-bookmark.md) を参照してください。
 
 ## コンテンツ管理の機能強化
 
@@ -166,7 +166,7 @@ Adobe Experience Manager Guides リポジトリー内のフィルター適用済
 
 この機能を使用すると、**設定** を通じて、レポートのカスタムメタデータフィールドを設定できます。 設定が完了すると、これらのフィールドは、レポートのフィルターパネルの **列** の下に表示されます。ここで選択または選択解除して、表示を制御できます。
 
-詳細は、[Map Console の DITA マップレポート ](../user-guide/reports-web-editor.md) を参照してください。
+詳細は、[Map Console の DITA マップレポート &#x200B;](../user-guide/reports-web-editor.md) を参照してください。
 
 **翻訳 UI の更新ボタン**
 
@@ -176,7 +176,7 @@ Adobe Experience Manager Guides リポジトリー内のフィルター適用済
 
 Asset の後処理のサポートは、REST API および API SDKを介して提供されています。 これで、アセット処理イベントがトリガーされ、リッスンして詳細なワークフローを定義できるようになります。
 
-詳しくは、[ 後処理イベントハンドラー ](../api-reference/post-process-event.md) を参照してください。
+詳しくは、[&#x200B; 後処理イベントハンドラー &#x200B;](../api-reference/post-process-event.md) を参照してください。
 
 
 ## 廃止される機能
@@ -187,7 +187,7 @@ Experience Manager Guidesでは、リポジトリビューまたはマップビ�
 
 この機能は、リポジトリとマップの表示パネルの両方から削除されています。 すべてのマップ管理および公開関連のアクションに **マップコンソール** を使用することをお勧めします。
 
-詳しくは、[ マップの管理と公開 ](../user-guide/map-console-overview.md) を参照してください。
+詳しくは、[&#x200B; マップの管理と公開 &#x200B;](../user-guide/map-console-overview.md) を参照してください。
 
 **ルートマップメタデータ引数を DITA-OT コマンドラインに渡す**
 
@@ -195,5 +195,5 @@ DITA-OT コマンドラインを使用してルートマップメタデータ引
 
 DITA-OT コマンドラインでメタデータを引き続き渡すには、`Config.Manager` でメタデー `pass.metadata.args.cmd.line` を更新する必要があります。
 
-詳しくは、[ 出力生成設定の指定 ](../cs-install-guide/conf-output-generation.md#configure-the-dita-ot-command-line-argument-field-to-accept-root-map-metadata) を参照してください。
+詳しくは、[&#x200B; 出力生成設定の指定 &#x200B;](../cs-install-guide/conf-output-generation.md#configure-the-dita-ot-command-line-argument-field-to-accept-root-map-metadata) を参照してください。
 

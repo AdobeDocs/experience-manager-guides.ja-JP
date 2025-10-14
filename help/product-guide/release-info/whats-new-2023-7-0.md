@@ -15,7 +15,7 @@ ht-degree: 0%
 
 この記事では、Adobe Experience Manager Guides 2023 年 7 月バージョン（後の *AEM Guides as a Cloud Service*）の新機能および拡張機能について説明します。
 
-アップグレード手順、互換性マトリックス、このリリースで修正された問題について詳しくは、[ リリースノート ](release-notes-2023-7-0.md) を参照してください。
+アップグレード手順、互換性マトリックス、このリリースで修正された問題について詳しくは、[&#x200B; リリースノート &#x200B;](release-notes-2023-7-0.md) を参照してください。
 
 ## データソースに接続し、トピックにデータを挿入する
 
@@ -29,7 +29,7 @@ AEM Guidesでは、管理者が、JIRA および SQL （MySQL、PostgreSQL、SQL
 
 コンテンツスニペットジェネレーターを作成して、接続されたデータソースからデータを取得できます。 その後、データをトピックに挿入し、編集できます。
 
-コンテンツスニペットジェネレーターを作成したら、それを再利用して任意のトピックにデータを挿入できます。 詳しくは、[ データソースからコンテンツスニペットを挿入する ](../user-guide/web-editor-content-snippet.md) を参照してください。
+コンテンツスニペットジェネレーターを作成したら、それを再利用して任意のトピックにデータを挿入できます。 詳しくは、[&#x200B; データソースからコンテンツスニペットを挿入する &#x200B;](../user-guide/web-editor-content-snippet.md) を参照してください。
 
 
 
@@ -39,7 +39,7 @@ AEM Guidesは、レビューをよりシームレスにします。 Web エデ�
 
 この機能を使用すると、作成者はレビュータスクを簡単に開いてコメントを表示し、一元的なビューでコメントにすばやく対処できます。
 ![](assets/active-review-task-comments.png){width="800" align="left"}
-詳しくは、「左パネル **セクション内の** レビュー [ 機能の説明を参照し ](../user-guide/web-editor-features.md#id2051EA0M0HS) ください。
+詳しくは、「左パネル **セクション内の** レビュー [&#x200B; 機能の説明を参照し &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS) ください。
 
 
 ## マップコレクションの機能強化
@@ -51,7 +51,7 @@ AEM Guidesは、レビューをよりシームレスにします。 Web エデ�
 - 個々のプリセットを選択できるだけでなく、DITA マップのすべてのフォルダープロファイルプリセットを一度に有効にすることもできます。
   ![](assets/edit-map-collection.png){width="800" align="left"}
 
-詳しくは、[ 出力生成にマップ コレクションを使用 ](../user-guide/generate-output-use-map-collection-output-generation.md) を参照してください。
+詳しくは、[&#x200B; 出力生成にマップ コレクションを使用 &#x200B;](../user-guide/generate-output-use-map-collection-output-generation.md) を参照してください。
 
 ## ネイティブのHTML出力の生成中に、一時PDF ファイルにアクセスする機能
 
@@ -61,13 +61,13 @@ AEM Guidesで、ネイティブ PDF出力の生成時に作成された一時HTM
 
 ![](assets/native-pdf-advanced-settings.png){width="800" align="left"}
 
-詳しくは、[PDF出力プリセットの作成 ](../web-editor/native-pdf-web-editor.md#create-output-preset) を参照してください。
+詳しくは、[PDF出力プリセットの作成 &#x200B;](../web-editor/native-pdf-web-editor.md#create-output-preset) を参照してください。
 
 ## HTML5 とカスタム出力を生成するマイクロサービスベースのパブリッシング
 
 新しいパブリッシングマイクロサービスを使用すると、AEM Guides as a Cloud Serviceで大規模なパブリッシングワークロードを同時に実行し、業界をリードするAdobe I/O Runtime サーバーレスプラットフォームを活用できます。 マイクロサービスを使用すれば、HTML5 とカスタム出力を生成することもできます。
 複数の公開リクエストを実行し、パフォーマンスを向上させてこれらの出力形式を生成できます。
-詳しくは、[AEM Guides as a Cloud Serviceのマイクロサービスベースの公開を設定する ](../knowledge-base/publishing/configure-microservices.md) を参照してください。
+詳しくは、[AEM Guides as a Cloud Serviceのマイクロサービスベースの公開を設定する &#x200B;](../knowledge-base/publishing/configure-microservices.md) を参照してください。
 
 ## AEM Guidesのバージョンの詳細を詳細情報に表示します。
 

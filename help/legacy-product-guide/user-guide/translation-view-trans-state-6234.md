@@ -26,4 +26,4 @@ DITA マップの翻訳ステータスを表示するには、以下の手順を
    >
    > さらに、翻訳ステータス \（Out of Sync Missing Copy、In Progress、または In sync\）、Sourceタイプ \（as All、DITA、DITA map、または Resource\）、変更日に基づいてコンテンツをフィルタリングできます。 キーワードを入力して、特定のトピックを検索することもできます。
 
-**親トピック：**&#x200B;[ コンテンツを翻訳 ](translation.md)
+**親トピック：**&#x200B;[&#x200B; コンテンツを翻訳 &#x200B;](translation.md)

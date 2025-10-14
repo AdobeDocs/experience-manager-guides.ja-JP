@@ -20,7 +20,7 @@ AEM Guidesには、出力生成プロセスをカスタマイズするための�
 
 DITA マップダッシュボードで「ベースライン」 タブを非表示にするには、次の手順を実行します。
 
-1. [ 設定の上書き ](download-install-additional-config-override.md#) の手順に従って、設定ファイルを作成します。
+1. [&#x200B; 設定の上書き &#x200B;](download-install-additional-config-override.md#) の手順に従って、設定ファイルを作成します。
 1. 設定ファイルで、マップダッシュボードの「ベースライン」タブを設定するために、次の\（property\）詳細を指定します。
 
 | PID | プロパティキー | プロパティの値 |
@@ -128,7 +128,7 @@ AEM Guidesに付属しているデフォルトのデザインテンプレート�
 >
 > カスタムデザインテンプレートノードを作成したら、AEM サイト出力プリセットのデザインオプションを更新して、カスタムデザインテンプレートノードを使用する必要があります。
 
-詳しくは、[ 最初のAdobe Experience Manager Web サイトの作成 ](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=ja) および [ 基本 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=ja) 「AEMでの独自 Web サイトの開発」を参照してください。
+詳しくは、[&#x200B; 最初のAdobe Experience Manager Web サイトの作成 &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=ja) および [&#x200B; 基本 &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=ja) 「AEMでの独自 Web サイトの開発」を参照してください。
 
 ### AEM サイト出力の生成にドキュメントタイトルを使用
 
@@ -136,9 +136,9 @@ AEM Site 出力を生成する場合、URL の生成方法は、コンテンツ�
 
 >[!NOTE]
 >
-> さらに、AEM Site 出力の URL に一連の文字のみを含めるルールを設定することもできます。 詳しくは、[ トピックを作成し、AEM サイトの出力を公開するためのファイル名のサニタイズルールの設定 ](#id2164D0KD0XA) を参照してください。
+> さらに、AEM Site 出力の URL に一連の文字のみを含めるルールを設定することもできます。 詳しくは、[&#x200B; トピックを作成し、AEM サイトの出力を公開するためのファイル名のサニタイズルールの設定 &#x200B;](#id2164D0KD0XA) を参照してください。
 
-[ 設定の上書き ](download-install-additional-config-override.md#) の手順に従って、設定ファイルを作成します。 設定ファイルで、次の\（property\）の詳細を指定して、AEM サイト出力での URL 生成を設定します。
+[&#x200B; 設定の上書き &#x200B;](download-install-additional-config-override.md#) の手順に従って、設定ファイルを作成します。 設定ファイルで、次の\（property\）の詳細を指定して、AEM サイト出力での URL 生成を設定します。
 
 | PID | プロパティキー | プロパティの値 |
 |---|------------|--------------|
@@ -151,7 +151,7 @@ AEM Site 出力の URL にドキュメントタイトルを使用できます。
 
 ページ名を設定するには、次の手順を実行します。
 
-1. [ 設定の上書き ](download-install-additional-config-override.md#) の手順に従って、設定ファイルを作成します。
+1. [&#x200B; 設定の上書き &#x200B;](download-install-additional-config-override.md#) の手順に従って、設定ファイルを作成します。
 1. 設定ファイルで、次の（プロパティ）の詳細を指定して、トピックのページ名を設定します。
 
 | PID | プロパティキー | プロパティの値 |
@@ -173,7 +173,7 @@ AEM Site 出力の URL にドキュメントタイトルを使用できます。
 >
 > 有効な特殊文字リストを設定しないと、ファイル作成プロセスで予期しない結果が生じる場合があります。
 
-[ 設定の上書き ](download-install-additional-config-override.md#) の手順に従って、設定ファイルを作成します。 設定ファイルで、次の\（property\）の詳細を指定して、ファイル名とAEM サイト出力に有効な特殊文字を設定します。
+[&#x200B; 設定の上書き &#x200B;](download-install-additional-config-override.md#) の手順に従って、設定ファイルを作成します。 設定ファイルで、次の\（property\）の詳細を指定して、ファイル名とAEM サイト出力に有効な特殊文字を設定します。
 
 | PID | プロパティキー | プロパティの値 |
 |---|------------|--------------|
@@ -227,7 +227,7 @@ AEMサイトのノード構造を統合するには、次の手順を実行し�
    >
    > デフォルトでは、`p` 要素に flatten ノードプロパティが設定されています。
 
-1. [ 設定の上書き ](download-install-additional-config-override.md#) の手順に従って、設定ファイルを作成します。
+1. [&#x200B; 設定の上書き &#x200B;](download-install-additional-config-override.md#) の手順に従って、設定ファイルを作成します。
 1. 設定ファイルで、次の\（property\）の詳細を指定します。
 
    | PID | プロパティキー | プロパティの値 |
@@ -273,7 +273,7 @@ AEM サイト出力を統合するノードを指定する場合と同様に、�
 
 次の手順を実行して、削除するページ\（s\）のバージョンの作成を停止します。
 
-1. [ 設定の上書き ](download-install-additional-config-override.md#) の手順に従って、設定ファイルを作成します。
+1. [&#x200B; 設定の上書き &#x200B;](download-install-additional-config-override.md#) の手順に従って、設定ファイルを作成します。
 1. 設定ファイルで、「**削除されたページのバージョンを作成しない**」オプションを設定するために、次の\（property\）の詳細を指定します。
 
    | PID | プロパティキー | プロパティの値 |
@@ -288,7 +288,7 @@ AEM サイト出力を統合するノードを指定する場合と同様に、�
 
 Experience Manager Guidesには、クロスマップ（2 つの異なるマップのトピック間のリンク）の場合に生成されるリンクを処理するカスタム sling [**rewriter**](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html) モジュールがあります。 このリライター設定は、次のパスにインストールされています：<br> `/apps/fmdita/config/rewriter/fmdita-crossmap-link-patcher`。
 
-コードベースに別のカスタム sling rewriter がある場合は、Experience Manager Guides sling rewriter が 50 を使用するように、50 より大きい `'order'` 値を使用し `'order'` す。  これを上書きするには、>50 の値が必要です。 詳しくは、[ 出力の書き換えパイプライン ](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html) を参照してください。
+コードベースに別のカスタム sling rewriter がある場合は、Experience Manager Guides sling rewriter が 50 を使用するように、50 より大きい `'order'` 値を使用し `'order'` す。  これを上書きするには、>50 の値が必要です。 詳しくは、[&#x200B; 出力の書き換えパイプライン &#x200B;](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html) を参照してください。
 
 
 ## DITA-OT 経由での出力の公開でのメタデータの使用 {#id191LF0U0TY4}
@@ -428,7 +428,7 @@ DITA-OT に渡されたメタデータ値を検証するには、クラウド対
 
 DITA-OT コマンドライン引数フィールドを使用してルートマップメタデータを渡すには、次の手順を実行します。
 
-1. [ 設定の上書き ](download-install-additional-config-override.md#) の手順に従って、設定ファイルを作成します。
+1. [&#x200B; 設定の上書き &#x200B;](download-install-additional-config-override.md#) の手順に従って、設定ファイルを作成します。
 1. 設定ファイルで、次の\（property\）詳細を指定して、プリセットの DITA-OT コマンドライン引数フィールドを設定します。
 
 | PID | プロパティキー | プロパティの値 |
@@ -630,11 +630,11 @@ AEM Guidesには、マップコンソールをカスタマイズするための 
 
 >[!NOTE]
 >
-> AEM クライアントライブラリの作成について詳しくは、[ クライアントサイドライブラリの使用 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=ja) を参照してください。
+> AEM クライアントライブラリの作成について詳しくは、[&#x200B; クライアントサイドライブラリの使用 &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=ja) を参照してください。
 
 ## 出力生成時の画像レンディションの処理 {#id177BF0G0VY4}
 
-AEMには、アセットの処理に使用するデフォルトのワークフローとメディアハンドルのセットが付属しています。 AEMには、最も一般的な MIME タイプのアセット処理を処理するための事前定義済みワークフローがあります。 通常、アップロードする画像ごとに、AEMによって同じ画像の複数のレンディションがバイナリ形式で作成されます。 これらのレンディションは、サイズ、解像度、透かしの追加、その他の変更された特性が異なる場合があります。 AEMでのアセットの処理方法について詳しくは、AEM ドキュメントの [ メディアハンドラーとワークフローを使用したAssetsの処理 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=ja) を参照してください。
+AEMには、アセットの処理に使用するデフォルトのワークフローとメディアハンドルのセットが付属しています。 AEMには、最も一般的な MIME タイプのアセット処理を処理するための事前定義済みワークフローがあります。 通常、アップロードする画像ごとに、AEMによって同じ画像の複数のレンディションがバイナリ形式で作成されます。 これらのレンディションは、サイズ、解像度、透かしの追加、その他の変更された特性が異なる場合があります。 AEMでのアセットの処理方法について詳しくは、AEM ドキュメントの [&#x200B; メディアハンドラーとワークフローを使用したAssetsの処理 &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=ja) を参照してください。
 
 AEM Guidesでは、ドキュメントの出力を生成する際に使用する画像レンディションを設定できます。 例えば、デフォルトの画像レンディションの 1 つから選択するか、画像レンディションを作成し、それを使用してドキュメントを公開することができます。 ドキュメントを公開するための画像レンディションマッピングは、`/libs/fmdita/config/ **renditionmap.xml**` ファイルに保存されます。 ファイルのスニペ `renditionmap.xml` トを次に示します。
 
@@ -682,7 +682,7 @@ AEM Guidesでは、ドキュメントの出力を生成する際に使用する�
 >
 > ログファイルと出力生成履歴を削除しても、生成された出力には影響しません。
 
-[ 設定の上書き ](download-install-additional-config-override.md#) の手順に従って、設定ファイルを作成します。 設定ファイルで、次の\（property\）詳細を指定して、出力履歴とログをパージする日時を設定します。
+[&#x200B; 設定の上書き &#x200B;](download-install-additional-config-override.md#) の手順に従って、設定ファイルを作成します。 設定ファイルで、次の\（property\）詳細を指定して、出力履歴とログをパージする日時を設定します。
 
 | PID | プロパティキー | プロパティの値 |
 |---|------------|--------------|
@@ -693,7 +693,7 @@ AEM Guidesでは、ドキュメントの出力を生成する際に使用する�
 
 DITA マップの「出力」 タブに表示される出力の最大数を変更できます。
 
-[ 設定の上書き ](download-install-additional-config-override.md#) の手順に従って、設定ファイルを作成します。 設定ファイルで、次の\（property\）の詳細を指定して、リストに表示する出力数を変更します。
+[&#x200B; 設定の上書き &#x200B;](download-install-additional-config-override.md#) の手順に従って、設定ファイルを作成します。 設定ファイルで、次の\（property\）の詳細を指定して、リストに表示する出力数を変更します。
 
 | PID | プロパティキー | プロパティの値 |
 |---|------------|--------------|

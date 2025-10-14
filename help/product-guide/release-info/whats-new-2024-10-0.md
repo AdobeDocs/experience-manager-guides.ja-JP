@@ -15,7 +15,7 @@ ht-degree: 1%
 
 このリリースで修正された問題の一覧については、[2024.10.0リリースで修正された問題](fixed-issues-2024-10-0.md)を参照してください。
 
-[2024.10.0 リリースのアップグレード手順 ](../release-info/upgrade-instructions-2024-10-0.md) について説明します。
+[2024.10.0 リリースのアップグレード手順 &#x200B;](../release-info/upgrade-instructions-2024-10-0.md) について説明します。
 
 
 ## 公開機能の強化
@@ -40,16 +40,16 @@ Experience Manager Guidesでは、コンテンツフラグメントにいくつ�
 
 現在は、コンテンツフラグメントを公開すると、完全なコンテンツフラグメントが上書きされるのではなく、マッピングされたコンテンツのみが置き換えられます。 この機能を使用すると、複数のトピックやコンテンツフラグメントエディターなど、複数のソースからのデータをコンテンツフラグメントに含めることができます。
 
-![ フラグメントモデルとマッピングの詳細を、コンテンツフラグメントとしてPublishダイアログに追加 ](assets/content-fragment-mapping.png)
+![&#x200B; フラグメントモデルとマッピングの詳細を、コンテンツフラグメントとしてPublishダイアログに追加 &#x200B;](assets/content-fragment-mapping.png)
 
-詳しくは、[Publish コンテンツフラグメント ](../user-guide/publish-content-fragment.md) を参照してください。
+詳しくは、[Publish コンテンツフラグメント &#x200B;](../user-guide/publish-content-fragment.md) を参照してください。
 
 
 ### 条件フィルターに基づくPublish エクスペリエンスフラグメントのバリアント
 
 Experience Manager Guidesでは、トピックまたはその要素をエクスペリエンスフラグメントに公開できます。 条件または DITAVAL フィルターを使用してエクスペリエンスフラグメントのバリアントを作成し、それらを様々なチャネルや様々なオーディエンスで再利用することもできます。
 
-[Publishエクスペリエンスフラグメント ](../user-guide/publish-experience-fragment.md) の使用方法の詳細情報。
+[Publishエクスペリエンスフラグメント &#x200B;](../user-guide/publish-experience-fragment.md) の使用方法の詳細情報。
 
 
 ### AEM Sites プリセットが使いやすいように再編成されました
@@ -74,11 +74,11 @@ scope=&quot;peer&quot;を使用して、他の DITA マップで使用可能な�
 
 同じトピックがファイル内で複数回参照される場合は、インスタンスごとに異なる公開コンテキストを追加できます。 これにより、コンテンツの柔軟性と制御が向上します。 たとえば、Topic 3 は Map B と Map C の両方に存在します。Topic 1 には、Topic 3 への 2 つの参照が含まれています。 最初のリンクの親マップとしてマップ B を選択し、2 番目のリンクの親としてマップ C を選択できます。
 
-![ 従来のAEM Sites プリセット ](assets/aem-sites-legacy.png)
+![&#x200B; 従来のAEM Sites プリセット &#x200B;](assets/aem-sites-legacy.png)
 
 ***AEM Sites**&#x200B;プリセットの「**クロスマップ参照**&#x200B;タブから、リンクされたトピックの公開コンテキストを指定します。*
 
-[AEM Sites プリセット ](../user-guide/generate-output-aem-site.md) の詳細情報。
+[AEM Sites プリセット &#x200B;](../user-guide/generate-output-aem-site.md) の詳細情報。
 
 ### HTML5 出力のフラットまたはネストされたファイル階層を選択するオプション
 
@@ -86,7 +86,7 @@ Experience Manager Guidesでは、コンテンツ全体がHTML5 出力フォー�
 ファイル階層をフラット化しない場合、HTML5 の出力はネストされたフォルダー階層で生成されます。 つまり、ファイルがサブフォルダーに整理されたコンテンツの元のフォルダー構造が出力にレプリケートされます。 このネストされたフォルダー階層により、ファイルの編成と分類がより複雑になり、大量のデータの管理と移動が容易になります。
 
 
-詳しくは、[HTML 5 出力の生成 ](../user-guide/generate-output-html5.md) を参照してください。
+詳しくは、[HTML 5 出力の生成 &#x200B;](../user-guide/generate-output-html5.md) を参照してください。
 
 
 ## エディターの機能強化
@@ -103,20 +103,20 @@ DITA または Markdown ファイルが別のユーザーによってロック�
 >
 > オーサーモード、Source モード、レイアウトモードで読み取り専用ファイルに調和してアクセスできるように、フォルダープロファイル管理者が *ui_config.json* を更新する必要があります。
 
-![ ロックされたファイル エディタ ](./assets/locked-file-editor.png)
+![&#x200B; ロックされたファイル エディタ &#x200B;](./assets/locked-file-editor.png)
 *ロックされているファイルをオーサーモードおよびSource モードで表示します。*
 
 
-[ ロックされているファイルをオーサーモードとSource モードで開く ](../user-guide/web-editor-edit-topics.md#open-locked-files-in-author-and-source-modes) 方法を説明します。
+[&#x200B; ロックされているファイルをオーサーモードとSource モードで開く &#x200B;](../user-guide/web-editor-edit-topics.md#open-locked-files-in-author-and-source-modes) 方法を説明します。
 
 
 ### 強化されたコンテンツ組織のグループ化された条件
 
 Experience Manager Guidesで、条件をグループ化し、ネストされた階層内に表示して、1 つのグループに複数の条件を追加できるようになりました。 条件をグループ化すると、コンテンツ全体で条件を整理および適用しやすくなります。
 
-![ ネストされた階層で整理された条件 ](assets/conditions-nested-hierarchy.png){width="300" align="left"}
+![&#x200B; ネストされた階層で整理された条件 &#x200B;](assets/conditions-nested-hierarchy.png){width="300" align="left"}
 
-**条件** 機能の説明について詳しくは、[ 左パネル ](../user-guide/web-editor-features.md#id2051EA0M0HS) セクションを参照してください。
+**条件** 機能の説明について詳しくは、[&#x200B; 左パネル &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS) セクションを参照してください。
 
 
 

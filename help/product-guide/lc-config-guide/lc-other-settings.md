@@ -28,8 +28,8 @@ ht-degree: 0%
   ![](assets/create-conditions.png){width="350" align="left"}
 - **変数**：変数を定義することで、コンテンツの移植性、一貫性、更新のしやすさを向上させることができます。 出力生成時に、変数は選択した変数セットの値に置き換えられるので、カスタマイズされた出力を効率的に生成できます。
 
-  詳しくは、[ 新しい変数の作成 ](../native-pdf/native-pdf-variables.md#create-a-new-variable) を参照してください
+  詳しくは、[&#x200B; 新しい変数の作成 &#x200B;](../native-pdf/native-pdf-variables.md#create-a-new-variable) を参照してください
 
 - **エディターツールバー**：組織のニーズに応じて、エディターツールバーをカスタマイズできます。 例えば、ツールバーボタンの名前や位置などを変更することができます。
 
-  詳しくは、[XML エディターの設定とカスタマイズ ](../cs-install-guide/conf-folder-level.md#configure-and-customize-the-xml-editor-id2065g300o5z) を参照してください。
+  詳しくは、[XML エディターの設定とカスタマイズ &#x200B;](../cs-install-guide/conf-folder-level.md#configure-and-customize-the-xml-editor-id2065g300o5z) を参照してください。

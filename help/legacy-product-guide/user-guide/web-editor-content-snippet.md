@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## データソースパネル
 
-左側のパネルで「**データソース** ![ データソース ](images/data-source-icon.svg)」を選択し、接続されているデータソースを表示します。 データソースパネルが開き、接続されているすべてのデータソースが表示されます。
+左側のパネルで「**データソース** ![&#x200B; データソース &#x200B;](images/data-source-icon.svg)」を選択し、接続されているデータソースを表示します。 データソースパネルが開き、接続されているすべてのデータソースが表示されます。
 
 管理者は、設定に基づいて、データソースコネクタを設定できます。
 
@@ -28,18 +28,18 @@ ht-degree: 0%
 <summary> クラウドサービス </summary>
 
 
-- 2023 年 10 月リリース以降を使用している場合は、クラウドサービスのインストールおよび設定ガイドで、[ ユーザーインターフェイスからのデータソースコネクタの設定 ](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) の方法を参照してください。
+- 2023 年 10 月リリース以降を使用している場合は、クラウドサービスのインストールおよび設定ガイドで、[&#x200B; ユーザーインターフェイスからのデータソースコネクタの設定 &#x200B;](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) の方法を参照してください。
 
-- 2023 年 7 月または 2023 年 9 月のリリースを使用している場合は、クラウドサービスのインストールおよび設定ガイドで [ データソースコネクタの設定 ](/help/product-guide/cs-install-guide/conf-data-source-connector.md) の方法を参照してください。
+- 2023 年 7 月または 2023 年 9 月のリリースを使用している場合は、クラウドサービスのインストールおよび設定ガイドで [&#x200B; データソースコネクタの設定 &#x200B;](/help/product-guide/cs-install-guide/conf-data-source-connector.md) の方法を参照してください。
 
 </details>
 
 <details>    
 <summary>  オンプレミスソフトウェア </summary>
 
-- 4.3.1 リリース以降を使用している場合は、オンプレミスのインストールおよび設定ガイドの [ ユーザーインターフェイスからのデータソースコネクタの設定 ](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) 方法を参照してください。
+- 4.3.1 リリース以降を使用している場合は、オンプレミスのインストールおよび設定ガイドの [&#x200B; ユーザーインターフェイスからのデータソースコネクタの設定 &#x200B;](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) 方法を参照してください。
 
-- 4.3 リリースを使用している場合は、オンプレミスのインストールおよび設定ガイドで [ データソースコネクタの設定 ](/help/product-guide/cs-install-guide/conf-data-source-connector.md) を参照してください。
+- 4.3 リリースを使用している場合は、オンプレミスのインストールおよび設定ガイドで [&#x200B; データソースコネクタの設定 &#x200B;](/help/product-guide/cs-install-guide/conf-data-source-connector.md) を参照してください。
 </details>
 
 
@@ -107,7 +107,7 @@ AEM Guidesは、データソースに接続する機能を提供します。 デ
    >  
    > 管理者がカスタマイズしたテンプレートを設定している場合は、（管理者が行ったテンプレートパス設定に基づいて）それらのテンプレートもドロップダウンリストに表示されます。
    >   
-   >テンプレートで Velocity ツールを使用することもできます。 詳細情報 [Velocity ツールの使用 ](#use-velocity-tools)。
+   >テンプレートで Velocity ツールを使用することもできます。 詳細情報 [Velocity ツールの使用 &#x200B;](#use-velocity-tools)。
 
 1. **Resource** ドロップダウンが、REST Client、Salsify、Akeneo、Microsoft ADO などの一部のコネクタに対して表示されます。  ドロップダウンから任意のリソースを選択し、そのリソースに接続して、ジェネレーターを使用してコンテンツスニペットまたはトピックを作成します。
 
@@ -282,7 +282,7 @@ AEM Guidesは、データソースに接続する機能を提供します。 デ
 
 ## データソーステンプレートでの Velocity ツールの使用 {#use-velocity-tools}
 
-Experience Manager テンプレートは Velocity ツール（バージョン 2.0）もサポートしています。 これらのツールを使用すると、データソースから取得したデータに様々な機能を適用できます。 [Velocity ツール ](https://velocity.apache.org/tools/2.0/generic.html) の使用方法と、適用できる関数について説明します。
+Experience Manager テンプレートは Velocity ツール（バージョン 2.0）もサポートしています。 これらのツールを使用すると、データソースから取得したデータに様々な機能を適用できます。 [Velocity ツール &#x200B;](https://velocity.apache.org/tools/2.0/generic.html) の使用方法と、適用できる関数について説明します。
 
 テンプレートで速度ツールを使用するには、次の手順を実行します。
 1. Web エディターで Velocity テンプレートを編集します。

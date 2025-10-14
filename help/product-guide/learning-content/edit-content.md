@@ -20,7 +20,7 @@ ht-degree: 1%
 
    ![](assets/lock-learning-content.png){width="650" align="left"}
 
-1. トピックにコンテンツを追加するには、[ テキスト、マルチメディアなどの基本的な構成要素を ](./lc-basic-blocks.md) 様々な [ インタラクティブウィジェット ](./lc-widgets.md) と共に追加します。
+1. トピックにコンテンツを追加するには、[&#x200B; テキスト、マルチメディアなどの基本的な構成要素を &#x200B;](./lc-basic-blocks.md) 様々な [&#x200B; インタラクティブウィジェット &#x200B;](./lc-widgets.md) と共に追加します。
 1. 作業内容を保存するには、「**新しいバージョンとして保存** を使用して新しいバージョンを作成するか、`Ctrl+S` キーを押して既存のファイルを上書きします。
 
    ![](assets/saving-learning-content.png){width="650" align="left"}

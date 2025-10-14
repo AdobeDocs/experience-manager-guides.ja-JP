@@ -16,6 +16,6 @@ ht-degree: 0%
 
 次の記事を参照して、必要なパッケージをインストールし、プリセットを作成および設定し、AEM Sitesを生成し、オンプレミスサービス用のAEM サイトテンプレートをカスタマイズすることができます。
 
-- AEM Sites テンプレートの作成と設定については、[ 最新のAEM Guides テンプレート（オンプレミスサービス）を使用するための設定手順） ](../knowledge-base/kb-articles/publishing/download-install-aem-sites-templates-prem-kb.md) を参照してください。
-- AEM Sitesのテンプレートをカスタマイズする場合は、[AEM Guides用の既存のAEM サイトテンプレートをカスタマイズするための一般的な手順 ](../knowledge-base/kb-articles/publishing/customize-exsisting-site-template-kb.md) を参照してください。
+- AEM Sites テンプレートの作成と設定については、[&#x200B; 最新のAEM Guides テンプレート（オンプレミスサービス）を使用するための設定手順） &#x200B;](../knowledge-base/kb-articles/publishing/download-install-aem-sites-templates-prem-kb.md) を参照してください。
+- AEM Sitesのテンプレートをカスタマイズする場合は、[AEM Guides用の既存のAEM サイトテンプレートをカスタマイズするための一般的な手順 &#x200B;](../knowledge-base/kb-articles/publishing/customize-exsisting-site-template-kb.md) を参照してください。
 

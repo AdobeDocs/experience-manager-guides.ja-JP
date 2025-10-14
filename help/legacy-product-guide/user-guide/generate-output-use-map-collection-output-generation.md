@@ -50,7 +50,7 @@ Map コレクションを作成し、そのコレクションに DITA マップ�
 
    DITA マップファイルがマップコレクションに追加されます。
 
-   ![ コレクションのマッピング ダッシュボード ](./images/map-collection-dashboard.png){width="800" align="left"}
+   ![&#x200B; コレクションのマッピング ダッシュボード &#x200B;](./images/map-collection-dashboard.png){width="800" align="left"}
 
 次のフィルタリングオプションとマップの詳細がコレクションページに表示されます。
 
@@ -90,7 +90,7 @@ Map コレクションを作成し、そのコレクションに DITA マップ�
    - DITA マップの **すべてのプリセット** を有効にして、すべてのプリセットを一度に選択します。 このオプションは、デフォルトでは無効になっています。
    - DITA マップに対して **フォルダープロファイルプリセット** を有効にして、そのすべてのフォルダープロファイルプリセットを選択します。 このオプションは、デフォルトでは無効になっています。
 
-     ![cloud services で map コレクションを編集する ](images/edit-map-collection-cs.png){width="800" align="left"}
+     ![cloud services で map コレクションを編集する &#x200B;](images/edit-map-collection-cs.png){width="800" align="left"}
 
 
 
@@ -107,7 +107,7 @@ Map コレクションを作成し、そのコレクションに DITA マップ�
 
 マップ コレクションでは、DITA マップのメタデータ プロパティを一括で設定できます。 **メタデータを設定** を選択して **アセットメタデータ** ページを開きます。 **アセットメタデータ** ページには、コレクションに存在するすべてのマップが左側に一覧表示されます。
 
-![ メタデータの設定 ](images/map-collection-asset-metadata.png){width="800" align="left"}
+![&#x200B; メタデータの設定 &#x200B;](images/map-collection-asset-metadata.png){width="800" align="left"}
 
 メタデータプロパティを設定するには、次の手順を実行します。
 
@@ -140,8 +140,8 @@ Map コレクションを作成し、そのコレクションに DITA マップ�
 
 ## マップ コレクションからの出力生成タスクをキャンセルします
 
-[DITA マップコンソール ](generate-output-for-a-dita-map.md#id2061H100T5Z) または [ パブリッシュダッシュボード ](generate-output-publish-dashboard.md#) から出力生成タスクをキャンセルする場合と同様に、マップコレクションから出力生成タスクをキャンセルできます。 [ マップ コレクション ] の [ 出力 ] タブにアクセスし、キャンセルするパブリッシュ タスクに移動し、**このジョブをキャンセル** アイコンをクリックしてパブリッシュ タスクをキャンセルします。
+[DITA マップコンソール &#x200B;](generate-output-for-a-dita-map.md#id2061H100T5Z) または [&#x200B; パブリッシュダッシュボード &#x200B;](generate-output-publish-dashboard.md#) から出力生成タスクをキャンセルする場合と同様に、マップコレクションから出力生成タスクをキャンセルできます。 [ マップ コレクション ] の [ 出力 ] タブにアクセスし、キャンセルするパブリッシュ タスクに移動し、**このジョブをキャンセル** アイコンをクリックしてパブリッシュ タスクをキャンセルします。
 
 ![](images/cancel-publish-task-map-collection.png){width="800" align="left"}
 
-**親トピック：**&#x200B;[ 出力生成 ](generate-output.md)
+**親トピック：**&#x200B;[&#x200B; 出力生成 &#x200B;](generate-output.md)

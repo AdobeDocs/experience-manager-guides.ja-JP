@@ -14,9 +14,9 @@ ht-degree: 0%
 
 この記事では、Adobe Experience Manager Guides バージョン 4.4.0 の新機能と機能強化について説明します。
 
-このリリースで修正された問題のリストについては、[4.4.0 リリースで修正された問題 ](../release-info/fixed-issues-4-4.md) を参照してください。
+このリリースで修正された問題のリストについては、[4.4.0 リリースで修正された問題 &#x200B;](../release-info/fixed-issues-4-4.md) を参照してください。
 
-[4.4.0 リリースのアップグレード手順 ](../release-info/upgrade-instructions-4-4.md) について説明します。
+[4.4.0 リリースのアップグレード手順 &#x200B;](../release-info/upgrade-instructions-4-4.md) について説明します。
 
 
 
@@ -24,29 +24,29 @@ ht-degree: 0%
 
 Experience Manager Guidesには、ドキュメントに加えられた変更を時間の経過と共に比較できる、拡張バージョン履歴機能が追加されました。 新しい並列表示では、現在のバージョンのコンテンツやメタデータを、同じドキュメントの以前のバージョンと簡単に比較できます。 また、比較したバージョンのラベルとコメントを表示することもできます。 管理者は、トピックのバージョンメタデータとその値を **バージョン履歴** ダイアログボックスに表示されるように制御できます。
 
-![ バージョン履歴ダイアログボックス ](assets/version-history-dialog-web-editor.png){width="800" align="left"}
+![&#x200B; バージョン履歴ダイアログボックス &#x200B;](assets/version-history-dialog-web-editor.png){width="800" align="left"}
 *トピックの異なるバージョンでの変更をプレビューします。*
 
-**バージョン履歴** 機能の説明について詳しくは、[ 左パネル（レガシー） ](/help/legacy-product-guide/user-guide/web-editor-features.md#id2051EA0M0HS) の節を参照してください。
+**バージョン履歴** 機能の説明について詳しくは、[&#x200B; 左パネル（レガシー） &#x200B;](/help/legacy-product-guide/user-guide/web-editor-features.md#id2051EA0M0HS) の節を参照してください。
 
 ## 条件プリセットの管理
 
 DITA トピックで条件属性を定義できます。 次に、条件プリセット内の条件属性を使用して、DITA マップにコンテンツを公開します。 Experience Manager Guidesの web エディターには、条件プリセットをより効率的に作成および管理するのに役立つ高度なエクスペリエンスが用意されています。 また、簡単に編集、複製または削除できます。
 
-![Web エディター ](assets/web-editor-manage-condition-presets.png){width="550" align="left"} ージの「管理」タブの状態プリセット
+![Web エディター &#x200B;](assets/web-editor-manage-condition-presets.png){width="550" align="left"} ージの「管理」タブの状態プリセット
 
-詳しくは、[ 条件プリセットの使用 ](../user-guide/generate-output-use-condition-presets.md) を参照してください。
+詳しくは、[&#x200B; 条件プリセットの使用 &#x200B;](../user-guide/generate-output-use-condition-presets.md) を参照してください。
 
 ## 属性を編集するエクスペリエンスを改善しました
 
 これで、web エディターの **コンテンツのプロパティ** パネルで、要素の属性を追加または編集するエクスペリエンスが刷新されました。
 
-![ 属性パネル ](assets/attributes-multiple-properties.png){width="300" align="left"}
+![&#x200B; 属性パネル &#x200B;](assets/attributes-multiple-properties.png){width="300" align="left"}
 
 *コンテンツのプロパティパネルからの属性の追加*
 
 また、属性の編集や削除も簡単にできます。
-詳しくは、**右パネル [ の節にある** コンテンツのプロパティ ](../user-guide/web-editor-features.md#id2051EB003YK) 機能の説明を参照してください。
+詳しくは、**右パネル [&#x200B; の節にある** コンテンツのプロパティ &#x200B;](../user-guide/web-editor-features.md#id2051EB003YK) 機能の説明を参照してください。
 
 ## オーサリング時のメタデータの編集
 
@@ -56,35 +56,35 @@ DITA トピックで条件属性を定義できます。 次に、条件プリ�
 
 *右側のパネルからメタデータを更新してファイルプロパティを編集します。*
 
-詳しくは、**右パネル [ の節にある** ファイルプロパティ ](../user-guide/web-editor-features.md#id2051EB003YK) 機能の説明を参照してください。
+詳しくは、**右パネル [&#x200B; の節にある** ファイルプロパティ &#x200B;](../user-guide/web-editor-features.md#id2051EB003YK) 機能の説明を参照してください。
 
 ## マップ ビューで主要なアトリビュートを表示する
 
 トピックまたはマップ参照のキー属性を定義する場合は、タイトル、対応するアイコン、左側のパネルのキーも表示できます。 キーは `key=<key-name>` のように表示されます。
 
-![ マップ ビューのキー ](assets/view-key-title-map-view.png) {width="300" align="left"}
+![&#x200B; マップ ビューのキー &#x200B;](assets/view-key-title-map-view.png) {width="300" align="left"}
 
 *マップ ビューでキー属性を表示します。*
 
 
-詳しくは、「[ 左パネル ](../user-guide/web-editor-features.md#id2051EA0M0HS)」セクションの **マップビュー** 機能の説明を参照してください。
+詳しくは、「[&#x200B; 左パネル &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS)」セクションの **マップビュー** 機能の説明を参照してください。
 
 ## ラベルに基づくベースラインの複製機能
 
 Experience Manager Guidesでは、web エディターからベースラインを作成する際のユーザーエクスペリエンスが強化されました。
 **手動更新** および **自動更新** オプションはより直感的で、静的ベースラインの作成と、ラベルに従った自動でのベースラインの更新を簡単に選択できます。
 
-![ 新しいベースラインの作成 ](assets/dynamic-baseline-4-4.png) {width="300" align="left"}
+![&#x200B; 新しいベースラインの作成 &#x200B;](assets/dynamic-baseline-4-4.png) {width="300" align="left"}
 *Web エディターからベースラインを作成します。*
 
 また、ラベルに基づいてベースラインを複製することもできます。 参照バージョンは、複製中に指定のラベル（存在する場合）に基づいて選択されます。存在しない場合は、複製されたベースラインからバージョンが選択されます。
 
 
-![ ベースライン ](assets/duplicate-baseline.png) 複製 {width="300" align="left"}
+![&#x200B; ベースライン &#x200B;](assets/duplicate-baseline.png) 複製 {width="300" align="left"}
 
 *ラベルに基づいてベースラインを複製するか、正確なコピーを作成します。*
 
-Web エディターからベースラインを作成および管理 [ する方法について詳しく説明し ](../user-guide/web-editor-baseline.md) す。
+Web エディターからベースラインを作成および管理 [&#x200B; する方法について詳しく説明し &#x200B;](../user-guide/web-editor-baseline.md) す。
 
 ## マップ コレクション ダッシュボードの強化
 
@@ -92,11 +92,11 @@ Experience Manager Guidesは、拡張されたマップコレクションダッ�
 
 これで、DITA マップのファイル名を表示できます。 ベースラインを表示することもできます。 これにより、プリセットに使用するベースラインをすばやく見つけることができます。
 
-![ コレクションのマッピング ダッシュボード ](assets/map-collection-dashboard.png){width="800" align="left"}
+![&#x200B; コレクションのマッピング ダッシュボード &#x200B;](assets/map-collection-dashboard.png){width="800" align="left"}
 
 *マップ・コレクション・ダッシュボードからの出力の表示、編集、生成*
 
-方法を説明します [ 出力生成にマップ コレクションを使用する ](../user-guide/generate-output-use-map-collection-output-generation.md)。
+方法を説明します [&#x200B; 出力生成にマップ コレクションを使用する &#x200B;](../user-guide/generate-output-use-map-collection-output-generation.md)。
 
 ## 翻訳パネルの強化
 
@@ -108,7 +108,7 @@ Experience Manager Guidesは、拡張されたマップコレクションダッ�
 
 *プロジェクトを翻訳するロケールを選択します。 翻訳するファイルの既定、ベースライン、または最新バージョンを選択します。*
 
-詳細情報：[ コンテンツの翻訳 ](../user-guide/translation.md)。
+詳細情報：[&#x200B; コンテンツの翻訳 &#x200B;](../user-guide/translation.md)。
 
 ## 要素を挿入ダイアログボックスの検索ロジックの改善
 
@@ -118,12 +118,12 @@ Experience Manager Guidesは、拡張されたマップコレクションダッ�
 &#39;t&#39;で始まるすべての有効な要素。
 
 
-![ 挿入ダイアログボックス ](assets/insert-element.png){width="300" align="left"}
+![&#x200B; 挿入ダイアログボックス &#x200B;](assets/insert-element.png){width="300" align="left"}
 
 *文字を入力すると、その文字で始まるすべての有効な要素が検索されます。*
 
 
-詳しくは、「左パネル **セクションの [ 要素を挿入** 機能の説明を参照し ](../user-guide/web-editor-features.md#id2051EA0M0HS) ください。
+詳しくは、「左パネル **セクションの [&#x200B; 要素を挿入** 機能の説明を参照し &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS) ください。
 
 
 ## 同じレベルでリストを分割する機能
@@ -134,39 +134,39 @@ Experience Manager Guidesは、拡張されたマップコレクションダッ�
 
 *現在のリストを分割するオプションを選択します。*
 
-詳しくは、「左パネル **セクションの** リストを挿入 [ 機能の説明を参照し ](../user-guide/web-editor-features.md#id2051EA0M0HS) ください。
+詳しくは、「左パネル **セクションの** リストを挿入 [&#x200B; 機能の説明を参照し &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS) ください。
 
 ## DITA エレメントを簡単に展開
 
 Web エディター内の要素のコンテキストメニューのオプションを使用して、要素を簡単に展開できるようになりました。 これにより、要素のテキストを親要素と簡単に結合できます。
-詳しくは、**Web エディターのその他の機能** の「要素を展開 [ の節を参照してくだ ](../user-guide/web-editor-other-features.md) い。
+詳しくは、**Web エディターのその他の機能** の「要素を展開 [&#x200B; の節を参照してくだ &#x200B;](../user-guide/web-editor-other-features.md) い。
 
 ## ソースモードのオーサリングでのファイルプロパティへのアクセス
 
 レイアウト、オーサー、Source、プレビューの 4 つのモードまたはビューすべてで、右側のパネルの **ファイルプロパティ** 機能にアクセスできるようになりました。  これにより、異なるモードに切り替えた場合でも、ファイルのプロパティを表示できます。
 
-詳しくは、「右パネル **セクションの「[ ファイルプロパティ** 機能の説明 ](../user-guide/web-editor-features.md#id2051EB003YK) を参照してください。
+詳しくは、「右パネル **セクションの「[&#x200B; ファイルプロパティ** 機能の説明 &#x200B;](../user-guide/web-editor-features.md#id2051EB003YK) を参照してください。
 
 
 ## タイトルまたはファイル名でファイルを表示
 
 Web エディターでファイルを表示するデフォルトの方法を選択できるようになりました。 オーサービューの様々なパネルから、タイトルまたはファイル名でファイルのリストを表示できます。
 
-![User Preferences ダイアログ ](assets/user-preferences-2311.png){width="550" align="left"}
+![User Preferences ダイアログ &#x200B;](assets/user-preferences-2311.png){width="550" align="left"}
 
 ***ユーザー環境設定**&#x200B;ダイアログからファイルを表示するデフォルトの方法を変更します。*
 
 
 ## ブラウザーの更新時にファイルタブを復元
 
-Experience Manager Guidesは、ブラウザーを更新すると、web エディターで開かれたファイルタブのステータスを復元します。 詳細については、「[Web エディターのトピックの編集 ](../user-guide/web-editor-edit-topics.md) の「**ファイルの編集中にブラウザーを更新**」セクションを参照してください。
+Experience Manager Guidesは、ブラウザーを更新すると、web エディターで開かれたファイルタブのステータスを復元します。 詳細については、「[Web エディターのトピックの編集 &#x200B;](../user-guide/web-editor-edit-topics.md) の「**ファイルの編集中にブラウザーを更新**」セクションを参照してください。
 
 
 ## キーボードショートカットを使用して移動する機能
 
 Experience Manager Guidesでは、キーボードショートカットを使用して web エディター内でカーソルを動かすこともできます。 キーボードショートカットを使用して、1 つの単語を左右にすばやく移動できます。 キーボードショートカットを使用して、行の先頭または末尾に移動することもできます。
 現在は、キーボードショートカットを使用して、カーソルを次の要素の先頭または前の要素の末尾に移動することもできます。
-[Web エディターのキーボードショートカット ](../user-guide/web-editor-keyboard-shortcuts.md) について詳しく説明します。
+[Web エディターのキーボードショートカット &#x200B;](../user-guide/web-editor-keyboard-shortcuts.md) について詳しく説明します。
 
 
 ## AEM Site 出力でのクロスマップリンクの解決
@@ -176,14 +176,14 @@ AEM Site 出力でレンダリングされるクロスマップリンク（ス�
 
 ## ドキュメントタイトルを使用するようにAEM サイト出力の URL を設定します
 
-Experience Manager Guidesを使用すると、管理者としてAEM サイト出力の URL を設定できます。 ファイル名が存在しない場合や、ファイル名にすべての特殊文字が含まれる場合は、を設定して、AEM サイト出力の URL で区切り文字に置き換えることができます。 最初の子トピックの名前に置き換えることもできます。 詳細情報 [ ドキュメントタイトルを使用するようにAEM サイト出力の URL を設定する ](../cs-install-guide/conf-output-generation.md#configure-the-url-of-the-aem-site-output-to-use-the-document-title)
+Experience Manager Guidesを使用すると、管理者としてAEM サイト出力の URL を設定できます。 ファイル名が存在しない場合や、ファイル名にすべての特殊文字が含まれる場合は、を設定して、AEM サイト出力の URL で区切り文字に置き換えることができます。 最初の子トピックの名前に置き換えることもできます。 詳細情報 [&#x200B; ドキュメントタイトルを使用するようにAEM サイト出力の URL を設定する &#x200B;](../cs-install-guide/conf-output-generation.md#configure-the-url-of-the-aem-site-output-to-use-the-document-title)
 
 
 ## 並行した複数の出力プリセットのPublish
 
 Experience Managerでは、適用されるラベルに従ってトピックを自動的に選択し、ベースラインを作成する機能を提供しています。 同じ DITA マップの自動ベースラインを使用して、複数の出力プリセットをシームレスに公開することもできます。 一度に 1 つのプリセットのみを公開する必要はありませんが、複数の出力プリセットを並行して簡単に公開できます。
 
-Web エディターからベースラインを作成および管理 [ する方法について詳しく説明し ](../user-guide/web-editor-baseline.md) す。
+Web エディターからベースラインを作成および管理 [&#x200B; する方法について詳しく説明し &#x200B;](../user-guide/web-editor-baseline.md) す。
 
 ## ネイティブPDFの機能強化
 
@@ -193,7 +193,7 @@ Web エディターからベースラインを作成および管理 [ する方�
 
 変数を使用して、再利用可能な情報を動的に挿入および管理できます。 Experience Manager Guidesは、PDF出力を生成する際に、変数を作成、編集およびプレビューするのに役立ちます。 変数の値をすばやく変更して、ドキュメントを移植可能かつ簡単に更新できます。
 
-![ ネイティブ pdf 変数 ](assets/add-variable-default.png){width="800" align="left"}
+![&#x200B; ネイティブ pdf 変数 &#x200B;](assets/add-variable-default.png){width="800" align="left"}
 
 *Web エディターで変数を作成および管理します。*
 
@@ -220,7 +220,7 @@ Web エディターからベースラインを作成および管理 [ する方�
 スタイルを適用し、HTMLのマークアップを使用して変数の書式を設定できます。  また、必要に応じて任意の変数の値をすばやく更新し、出力を再生成することもできます。 例えば、バージョンの詳細を更新する必要がある場合、VersionNumber 変数のバージョンの値を編集して、出力を再生成できます。
 
 
-[PDF出力の変数 ](../native-pdf/native-pdf-variables.md) の使用方法について説明します。
+[PDF出力の変数 &#x200B;](../native-pdf/native-pdf-variables.md) の使用方法について説明します。
 
 
 ### アセットのメタデータのPDF出力への反映
@@ -230,7 +230,7 @@ Experience Managerでは、アセットのメタデータプロパティを DITA
 
 この機能は、作成者、作成日、ドキュメントタイトルなどのアセットプロパティの一貫性を維持するのに役立つので便利です。 これにより、ドキュメントの整理、検索、分類が容易になります。
 
-詳しくは、[PublishPDF出力の **詳細** 設定を参照してください ](../web-editor/native-pdf-web-editor.md)。
+詳しくは、[PublishPDF出力の **詳細** 設定を参照してください &#x200B;](../web-editor/native-pdf-web-editor.md)。
 
 ### `topicmeta` 要素に追加されたメタデータをPDF出力に使用
 
@@ -243,31 +243,31 @@ Experience Manager Guidesには、DITA マップの `topicmeta` 要素に追加�
 
 この機能により、ドキュメント管理が向上し、一貫性が確保され、ドキュメントが検索可能になります。
 
-詳しくは、[PublishPDF出力 **の「** メタデータ ](../web-editor/native-pdf-web-editor.md)」タブを参照してください。
+詳しくは、[PublishPDF出力 **の「** メタデータ &#x200B;](../web-editor/native-pdf-web-editor.md)」タブを参照してください。
 
 ### 標準のPDFテンプレートの使用と複製
 
 Experience Manager Guidesには、標準または出荷時のPDFテンプレートが用意されています。 ファクトリPDFテンプレートを複製して、カスタムPDFテンプレートを作成します。
 
 テンプレートの作成および複製時に、テンプレートのサムネール画像をプレビューできるようになりました。 この画像を編集または削除することもできます。 この機能は、類似の名前を持つテンプレートをブランディングしたり、区別したりする場合に役立ちます。
-[PDFテンプレート ](../native-pdf/pdf-template.md) の詳細情報。
+[PDFテンプレート &#x200B;](../native-pdf/pdf-template.md) の詳細情報。
 
-![PDFテンプレートを複製ダイアログ ](assets/duplicate-template.png){width="550" align="left"}
+![PDFテンプレートを複製ダイアログ &#x200B;](assets/duplicate-template.png){width="550" align="left"}
 
 *既存のPDFテンプレートを複製*
 
 
 ### ページの順序を変更し、1 枚のシートに複数のページを公開する
 
-ソースドキュメントに従ってページを公開する以外に、複数ページのドキュメントを公開する際に、PDF内のページの順序を変更することもできます。  これにより、奇数ページから偶数ページまで、様々な順序でページを柔軟に公開できます。 また、小冊子として公開して、本のようにページを読むこともできます。 また、1 枚の用紙に印刷するページの数を指定することもできます。 詳しくは、「[ ページ組織 ](../native-pdf/components-pdf-template.md#page-organization)」の節を参照してください。
+ソースドキュメントに従ってページを公開する以外に、複数ページのドキュメントを公開する際に、PDF内のページの順序を変更することもできます。  これにより、奇数ページから偶数ページまで、様々な順序でページを柔軟に公開できます。 また、小冊子として公開して、本のようにページを読むこともできます。 また、1 枚の用紙に印刷するページの数を指定することもできます。 詳しくは、「[&#x200B; ページ組織 &#x200B;](../native-pdf/components-pdf-template.md#page-organization)」の節を参照してください。
 
 ### ソートキーに基づいて用語集の用語を並べ替える
 
 これで、ソートキーに基づいて用語集の用語を並べ替えることもできます。 タグ「sort-as」を使用して、用語集の用語のソートキーを定義できます。 その後、用語の代わりにソートキーに基づいて並べ替えることができます。 これにより、様々な言語で使用されている用語に従って用語集の用語を並べ替えることができます。 また、語句や単語のグループを使用して、用語集の用語に対して 1 つのソートキーを定義することもできます。
-詳細については、[ 詳細なPDF設定 ](../native-pdf/components-pdf-template.md#advanced-pdf-settings) を参照してください。
+詳細については、[&#x200B; 詳細なPDF設定 &#x200B;](../native-pdf/components-pdf-template.md#advanced-pdf-settings) を参照してください。
 
 
 ### ネイティブPDFテンプレートのリソース管理の向上
 
 Experience Manager Guidesは、ネイティブPDFテンプレートのリソース管理を改善しました。 画像、CSS ファイル、フォントファイルなどのリソースを、複数のネイティブPDFテンプレートで共有および再利用できるようになりました。 この改善により、大規模なテンプレートセット用のリソースの管理がはるかに簡単になりました。 テンプレートごとに重複するリソースを作成する必要はありません。共有フォルダーに保存して、すべてのネイティブPDFテンプレートで使用できます。
-詳しくは、[PDFテンプレート ](../native-pdf/pdf-template.md) を参照してください。
+詳しくは、[PDFテンプレート &#x200B;](../native-pdf/pdf-template.md) を参照してください。

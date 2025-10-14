@@ -16,10 +16,10 @@ ht-degree: 1%
 
 DITA トピックに使用できる有効なファイル名文字の一覧と同様に、AEM Site 出力に有効なファイル名文字の一覧を構成することもできます。 URL で使用できない既知の文字の一部は次のとおりです。``'<>`@$`` AEM Site 出力ファイル名の生成中に見つかると、自動的にアンダースコア「`_`」に変換されます。
 
-[ 設定の上書き ](download-install-additional-config-override.md#) の手順に従って、設定ファイルを作成します。 設定ファイルで、次の\（property\）の詳細を指定して、AEM Site 出力に有効な文字を設定します。
+[&#x200B; 設定の上書き &#x200B;](download-install-additional-config-override.md#) の手順に従って、設定ファイルを作成します。 設定ファイルで、次の\（property\）の詳細を指定して、AEM Site 出力に有効な文字を設定します。
 
 | PID | プロパティキー | プロパティの値 |
 |---|------------|--------------|
 | `com.adobe.fmdita.common.SanitizeNodeNameImpl` | `aemsite.DisallowedFileNameChars` | AEM Site 出力ファイル名に、アンダースコアに置き換える文字を追加します。<br> **デフォルト値**: ``'<\>\`@$`` |
 
-**親トピック：**&#x200B;[ ファイル名の設定 ](conf-file-names.md)
+**親トピック：**&#x200B;[&#x200B; ファイル名の設定 &#x200B;](conf-file-names.md)

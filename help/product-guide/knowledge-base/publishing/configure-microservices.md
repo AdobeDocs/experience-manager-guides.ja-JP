@@ -17,13 +17,13 @@ ht-degree: 2%
 
 >[!NOTE]
 >
-> サービスアカウント（JWT）資格情報は、OAuth サーバー間認証情報に代わって非推奨（廃止予定）になりました。サービスアカウント（JWT）資格情報を使用するアプリケーションは、2025 年 1 月 1 日（PT）以降は機能しなくなります。 アプリケーションが引き続き機能するように、2025 年 1 月 1 日までに新しい資格情報に移行する必要があります。 詳しくは、[ サービスアカウント（JWT）資格情報から OAuth サーバー間資格情報への移行 ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/) を参照してください。
+> サービスアカウント（JWT）資格情報は、OAuth サーバー間認証情報に代わって非推奨（廃止予定）になりました。サービスアカウント（JWT）資格情報を使用するアプリケーションは、2025 年 1 月 1 日（PT）以降は機能しなくなります。 アプリケーションが引き続き機能するように、2025 年 1 月 1 日までに新しい資格情報に移行する必要があります。 詳しくは、[&#x200B; サービスアカウント（JWT）資格情報から OAuth サーバー間資格情報への移行 &#x200B;](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/) を参照してください。
 
 
 
 Adobe Experience Manager Guidesas a Cloud Service向けののマイクロサービスベースの公開では、PDF（ネイティブと DITA-OT ベースの両方）、HTML 5、JSON、カスタムの各種類の出力プリセットがサポートされています。
 
-サービスアカウント（JWT）資格情報は非推奨になったので、Adobe IMS OAuth ベースの認証を使用することをお勧めします。 [OAuth 認証を使用してマイクロサービスベースの公開を設定する ](configure-microservices-imt-config.md) 方法を説明します。
+サービスアカウント（JWT）資格情報は非推奨になったので、Adobe IMS OAuth ベースの認証を使用することをお勧めします。 [OAuth 認証を使用してマイクロサービスベースの公開を設定する &#x200B;](configure-microservices-imt-config.md) 方法を説明します。
 
 Adobe IMSの JWT ベースの認証で保護された Cloud Publishing サービスの場合、以下の手順に従って環境をAdobeのセキュアトークンベースの認証ワークフローと統合し、新しいクラウドベースのスケーラブルな公開ソリューションの使用を開始する必要があります。
 
@@ -86,7 +86,7 @@ Adobe Developer Consoleで IMS 設定を作成するには、次の手順を実�
 
 IMS 設定を環境に追加したら、次の手順を実行して、OSGi を使用してこれらのプロパティをExperience Manager Guidesにリンクします。
 
-1. Cloud Manager Git プロジェクトコードで、以下の 2 つのファイルを指定して追加します（ファイルの内容については、「[ 付録 ](#appendix)」を参照してください）。
+1. Cloud Manager Git プロジェクトコードで、以下の 2 つのファイルを指定して追加します（ファイルの内容については、「[&#x200B; 付録 &#x200B;](#appendix)」を参照してください）。
 
    * `com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
    * `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`

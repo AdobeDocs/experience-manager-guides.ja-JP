@@ -24,7 +24,7 @@ Adobe Developer Consoleで IMS 設定を作成するには、次の手順を実�
 1. [Adobe Developer Console](https://developer.adobe.com/console) を起動します。
 1. Developer Consoleに正常にログインしたら、**ホーム** 画面が表示されます。 **ホーム** 画面では、情報や、プロジェクトおよびダウンロードへのトップナビゲーションリンクなどのクイックリンクを簡単に見つけることができます。
 1. 空のプロジェクトを新規作成するには、「**クイックスタート** リンクから **新規プロジェクトを作成** を選択します。
-   ![ クイックスタートリンク ](assets/conf-ss-quick-start.png) {width="550" align="left"}
+   ![&#x200B; クイックスタートリンク &#x200B;](assets/conf-ss-quick-start.png) {width="550" align="left"}
    *新規プロジェクトの作成*
 
 1. **プロジェクト** 画面から **API を追加** を選択します。  **API の追加** 画面が表示されます。 この画面には、アプリケーションの開発に使用できるAdobe製品およびテクノロジに対して使用可能なすべての API、イベント、およびサービスが表示されます。
@@ -34,14 +34,14 @@ Adobe Developer Consoleで IMS 設定を作成するには、次の手順を実�
    *I/O Management API をプロジェクトに追加します*。
 
 1. 新しい **OAuth 認証情報** を作成して保存します。
-   ![API 設定の OAuth 認証情報タイル ](assets/conf-ss-OAuth-credential.png) {width="3000" align="left"}
+   ![API 設定の OAuth 認証情報タイル &#x200B;](assets/conf-ss-OAuth-credential.png) {width="3000" align="left"}
    *API に OAuth 認証情報を設定します。*
 
 1. 「**プロジェクト**」タブで「**OAuth サーバーからサーバーへ**」オプションを選択し、新しく作成した資格情報を選択します。
 
 1. **OAuth サーバー間** リンクを選択して、プロジェクトの資格情報の詳細を表示します。
 
-   ![ 接続された資格情報 ](assets/conf-ss-connected-credentials.png) {width="800" align="left"}
+   ![&#x200B; 接続された資格情報 &#x200B;](assets/conf-ss-connected-credentials.png) {width="800" align="left"}
 
    *プロジェクトに接続して、資格情報の詳細を表示します。*
 
@@ -69,7 +69,7 @@ OAuth 認証の詳細を設定し、JSON サービスの詳細をダウンロー
 1. 「**設定**」タブに切り替えます。
 1. SERVICE_ACCOUNT_DETAILS JSON フィールドを更新します。 次のスクリーンショットで示したのと同じ名前と設定を使用していることを確認してください。
 
-![ims サービスアカウントの設定 ](assets/ims-service-account-config.png){width="800" align="left"}
+![ims サービスアカウントの設定 &#x200B;](assets/ims-service-account-config.png){width="800" align="left"}
 
 
 *環境設定の詳細を追加します*。
@@ -79,7 +79,7 @@ OAuth 認証の詳細を設定し、JSON サービスの詳細をダウンロー
 
 IMS 設定を環境に追加したら、次の手順を実行して、OSGi を使用してこれらのプロパティをAEM Guidesにリンクします。
 
-1. Cloud Manager Git プロジェクトコードに、以下の 2 つのファイルを追加します（ファイルの内容については、「付録 [ を参照 ](#appendix)。
+1. Cloud Manager Git プロジェクトコードに、以下の 2 つのファイルを追加します（ファイルの内容については、「付録 [&#x200B; を参照 &#x200B;](#appendix)。
 
    * `com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
 
@@ -105,5 +105,5 @@ IMS 設定を環境に追加したら、次の手順を実行して、OSGi を�
 ```
 
 
-設定が完了すると、Web エディターの右側のパネルに「**スマートヘルプ**![ スマートヘルプ ](assets/smart-help-icon.svg)」アイコンが表示されます。 アイコンを選択して、**スマートヘルプ** パネルを表示します。
-詳しくは、Experience Managerユーザーガイドの [ コンテンツを検索するための AI を利用したスマートヘルプ ](../user-guide/ai-based-smart-help.md) の節を参照してください。
+設定が完了すると、Web エディターの右側のパネルに「**スマートヘルプ**![&#x200B; スマートヘルプ &#x200B;](assets/smart-help-icon.svg)」アイコンが表示されます。 アイコンを選択して、**スマートヘルプ** パネルを表示します。
+詳しくは、Experience Managerユーザーガイドの [&#x200B; コンテンツを検索するための AI を利用したスマートヘルプ &#x200B;](../user-guide/ai-based-smart-help.md) の節を参照してください。

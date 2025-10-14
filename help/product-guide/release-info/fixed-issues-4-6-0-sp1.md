@@ -15,7 +15,7 @@ ht-degree: 0%
 
 この記事では、Adobe Experience Manager Guides 4.6.0 サービスパック 1 リリースの様々な領域で修正されたバグについて説明します。
 
-[4.6.0 サービスパック 1 リリースのアップグレード手順 ](upgrade-instructions-4-6-0-sp1.md) について説明します。
+[4.6.0 サービスパック 1 リリースのアップグレード手順 &#x200B;](upgrade-instructions-4-6-0-sp1.md) について説明します。
 
 ## オーサリング
 

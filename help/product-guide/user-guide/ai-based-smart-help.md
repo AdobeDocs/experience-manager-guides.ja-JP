@@ -11,15 +11,15 @@ ht-degree: 0%
 
 # AI アシスタント（Beta）のスマートヘルプで効率を向上
 
-Experience Manager Guidesは、[Adobe Experience Manager Guides ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/overview) から関連コンテンツを見つけるのに役立つ会話型検索機能である、GenAI ベースのスマートヘルプを提供します。
+Experience Manager Guidesは、[Adobe Experience Manager Guides ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/overview) から関連コンテンツを見つけるのに役立つ会話型検索機能である、GenAI ベースのスマートヘルプを提供します。
 
 あなたはあなたの質問をし、有益な方法で答えを得ることができます。 クエリに対する回答は、製品ドキュメントのコンテンツに基づいています。 この検索は完全に対話型です。 Experience Manager Guidesの様々な機能について質問したり、トラブルシューティングの質問をしたりできます。 回答に基づいて、さらに質問することもできます。 応答には、ソースドキュメントへのリンクも含まれています。詳しくは、ソースドキュメントを参照してください。
 
 例えば、*マップを公開するにはどうすればよいですか？* 返信と関連記事のリンクが表示されます。 次に、特定の方法を使用して出力を公開する方法を学びたい場合は、その方法について質問できます。 例えば、*PDFにマップを公開するにはどうすればよいですか？* などです。
 
-ホームページ、マップコンソール、またはエディターで **AI アシスタント** を開くと、右側に **ヘルプ** パネルが開きます。 エディターの場合は、オーサリング パネルも表示され、スマートオーサリング機能を利用できます。 詳しくは、[AI アシスタントを使用してスマートにドキュメントを作成する ](./ai-assistant-right-panel.md) を参照してください。
+ホームページ、マップコンソール、またはエディターで **AI アシスタント** を開くと、右側に **ヘルプ** パネルが開きます。 エディターの場合は、オーサリング パネルも表示され、スマートオーサリング機能を利用できます。 詳しくは、[AI アシスタントを使用してスマートにドキュメントを作成する &#x200B;](./ai-assistant-right-panel.md) を参照してください。
 
-![ スマートヘルプパネル ](images/smart-help-panel.png){width="300" align="left"}
+![&#x200B; スマートヘルプパネル &#x200B;](images/smart-help-panel.png){width="300" align="left"}
 
 ***ヘルプ**&#x200B;パネルを表示します。*
 
@@ -29,15 +29,15 @@ Experience Manager Guidesは、[Adobe Experience Manager Guides ドキュメン�
 
    >[!NOTE]
    >
-   > [ グローバルプロファイルまたはフォルダーレベルのプロファイル ](../cs-install-guide/conf-folder-level.md#conf-ai-guides-assistant) では、管理者がパネルに表示されるデフォルトの質問を定義する必要があります。
+   > [&#x200B; グローバルプロファイルまたはフォルダーレベルのプロファイル &#x200B;](../cs-install-guide/conf-folder-level.md#conf-ai-guides-assistant) では、管理者がパネルに表示されるデフォルトの質問を定義する必要があります。
 
 1. 質問を入力して、Experience Manager Guides ドキュメントで関連コンテンツを検索します。 パネルでデフォルトの質問を選択するか、テキストボックスに質問を入力できます。
 
-1. **送信**![ 送信アイコン ](images/send-icon.svg) を選択するか、**Enter** キーを押して、質問に対する回答を表示します。
+1. **送信**![&#x200B; 送信アイコン &#x200B;](images/send-icon.svg) を選択するか、**Enter** キーを押して、質問に対する回答を表示します。
 
    質問に応じて、コンテンツ、適用可能な画像、記事へのリンクを表示できます。
 
-   ![ スマートヘルプパネルの応答 ](images/smart-help-panel-response.png){width="300" align="left"}
+   ![&#x200B; スマートヘルプパネルの応答 &#x200B;](images/smart-help-panel-response.png){width="300" align="left"}
 
 
    *サンプルの質問を選択し、応答してコンテンツと画像を表示します。*
@@ -45,7 +45,7 @@ Experience Manager Guidesは、[Adobe Experience Manager Guides ドキュメン�
 1. 最後の記事へのリンクを選択し、質問に対する回答に関する詳細情報を表示します。
 
 
-1. **会話をクリア**![ 会話をクリア ](images/clear-conversation-icon.svg) を選択して、パネルから会話履歴を削除します。 その後、新しい会話を開始し、関連するコンテンツを見つけることができます。
+1. **会話をクリア**![&#x200B; 会話をクリア &#x200B;](images/clear-conversation-icon.svg) を選択して、パネルから会話履歴を削除します。 その後、新しい会話を開始し、関連するコンテンツを見つけることができます。
 
 ユーザーガイドやリファレンスドキュメントを検索する代わりに、**ヘルプ** 機能を使用して、クエリに対して関連性の高い回答をすばやく見つけることができます。 これにより、時間を節約し、コンテンツの作成に集中できるので、生産性と効率が向上します。
 

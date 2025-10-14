@@ -85,7 +85,7 @@ Kyc_procedure.dita は、引き続き唯一の情報ソースです。 規制の
 AEM Guidesを使用した、2 回のクリック
 
 手順 1:「再利用可能なコンテンツを挿入」をクリックする
-![ ツールバー ](../../assets/publishing/content-reusability_image1.png)
+![&#x200B; ツールバー &#x200B;](../../assets/publishing/content-reusability_image1.png)
 
 <br>
 
@@ -129,7 +129,7 @@ AEM Guidesを使用した、2 回のクリック
 AEM Guidesを使用した、2 回のクリック
 
 手順 1:「再利用可能なコンテンツを挿入」をクリックする
-![ ツールバー ](../../assets/publishing/content-reusability_image1.png)
+![&#x200B; ツールバー &#x200B;](../../assets/publishing/content-reusability_image1.png)
 
 手順 2：再利用が必要なルートマップ（オプション）、キー、フラグメントを選択する。
 ![conkeyref](../../assets/publishing/content-reusability_image3.png)
@@ -143,11 +143,11 @@ AEM Guidesには、コンテンツ参照をワンクリックで追加できる�
 
 手順 1：再利用可能なコンテンツに汎用トピックを追加する
 
-![ 再利用可能なコンテンツを追加 ](../../assets/publishing/content-reusability_image4.png)
+![&#x200B; 再利用可能なコンテンツを追加 &#x200B;](../../assets/publishing/content-reusability_image4.png)
 
 手順 2：追加したら、宛先トピックで再利用するフラグメントをドラッグ&amp;ドロップします。
 
-![ 再利用可能なコンテンツ GIF を追加 ](../../assets/publishing/content-reusability_image5.gif)
+![&#x200B; 再利用可能なコンテンツ GIF を追加 &#x200B;](../../assets/publishing/content-reusability_image5.gif)
 
 
 
@@ -167,4 +167,4 @@ AEM Guidesには、コンテンツ参照をワンクリックで追加できる�
 <br>
 
 
-クエリについては、AEM Guides コミュニティ [ フォーラム ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=ja) に投稿してください。
+クエリについては、AEM Guides コミュニティ [&#x200B; フォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=ja) に投稿してください。

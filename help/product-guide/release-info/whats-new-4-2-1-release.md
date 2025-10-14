@@ -15,7 +15,7 @@ ht-degree: 0%
 
 この記事では、Adobe Experience Manager Guides（後で *AEM Guides* と呼ばれます）のバージョン 4.2.1 の新機能および拡張機能について説明します。
 
-アップグレードの手順、互換性マトリックス、およびこのリリースで修正された問題について詳しくは、[ リリースノート ](release-notes-4-2-1.md) の記事を参照してください。
+アップグレードの手順、互換性マトリックス、およびこのリリースで修正された問題について詳しくは、[&#x200B; リリースノート &#x200B;](release-notes-4-2-1.md) の記事を参照してください。
 
 ## Web エディターからAEM ホームページに移動します。
 
@@ -26,7 +26,7 @@ Web エディターからAEM ナビゲーションページに簡単に移動で
 * **ガイド** アイコン（![](assets/aem-guides-icon.png)）をクリックして、AEM ナビゲーション ページに戻ります。
 
 
-詳しくは、[AEMのナビゲーションページ ](../user-guide/web-editor-launch-editor.md#id2056BG00RZJ) を参照してください。
+詳しくは、[AEMのナビゲーションページ &#x200B;](../user-guide/web-editor-launch-editor.md#id2056BG00RZJ) を参照してください。
 
 ## PDF公開での高度なメタデータのサポート
 
@@ -36,7 +36,7 @@ AEM Guidesでは、PDF出力のメタデータにマッピングされるメタ�
 
 XMP ファイルを読み込むと、AEM Guidesがファイルから情報を選択できます。 また、ドロップダウンを使用してメタデータの名前と値を指定することもできます。 名前フィールドに直接入力してカスタムメタデータを追加することもできます。
 
-詳しくは、「**PDF出力プリセットの作成 [ の** メタデータ ](../web-editor/native-pdf-web-editor.md) 機能説明を参照してください。
+詳しくは、「**PDF出力プリセットの作成 [&#x200B; の** メタデータ &#x200B;](../web-editor/native-pdf-web-editor.md) 機能説明を参照してください。
 
 ### [ アウトライン ビューの拡張 ] パネル
 
@@ -50,7 +50,7 @@ AEM Guidesでは、改善されたアウトラインビューパネルが提供�
 
 * 検索機能を使用して、名前、ID、テキスト、属性値で要素を検索できます。
 
-詳しくは、「左パネル [ セクションのアウトラインビュー機能の説明を参照し ](../user-guide/web-editor-features.md#id2051EA0M0HS) ください。
+詳しくは、「左パネル [&#x200B; セクションのアウトラインビュー機能の説明を参照し &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS) ください。
 
 ## Web エディターからのマルチメディアレポートの生成
 
@@ -61,7 +61,7 @@ CSV を生成して、DITA マップで使用されているマルチメディ�
 
 <img src="assets/web-editor-reports-multimedia.png" alt="マルチメディアレポート" width="600">
 
-詳細については、「Web エディタの [DITA マップレポート ](../user-guide/reports-web-editor.md)」の「マルチメディアレポートの生成機能の説明」を参照してください。
+詳細については、「Web エディタの [DITA マップレポート &#x200B;](../user-guide/reports-web-editor.md)」の「マルチメディアレポートの生成機能の説明」を参照してください。
 
 ## ネイティブPDF |目次に変更されたトピックを示す変更バー
 
@@ -69,7 +69,7 @@ AEM Guidesで、PDF出力の目次で、変更されたトピックをすばや�
 
 <img src="assets/change-marker-toc.png" alt="目次のマーカーを変更 " width="500">
 
-詳細については、「[ カスタム変更バーのスタイルを使用する ](../native-pdf/change-bar-style.md)」を参照してください。
+詳細については、「[&#x200B; カスタム変更バーのスタイルを使用する &#x200B;](../native-pdf/change-bar-style.md)」を参照してください。
 
 
 
@@ -77,7 +77,7 @@ AEM Guidesで、PDF出力の目次で、変更されたトピックをすばや�
 
 これで、フットノートのページマーカーのスタイルを設定できます。 例えば、角括弧を追加したり、色を変更したりできます。 これらのスタイルにより、ユーザーはドキュメント内のページマーカーを簡単に識別できるようになります。
 
-詳しくは、[ 脚注でのカスタムスタイルの使用 ](../native-pdf/footnote-number-style.md) を参照してください。
+詳しくは、[&#x200B; 脚注でのカスタムスタイルの使用 &#x200B;](../native-pdf/footnote-number-style.md) を参照してください。
 
 ## Web エディターでビデオファイルまたはオーディオファイルを開いて再生する
 
@@ -85,4 +85,4 @@ AEM Guidesには、オーディオまたはビデオファイルを web エデ�
 
 <img src="assets/video-web-editor.png" alt="動画を再生" width="600">
 
-詳しくは、[ 左パネル ](../user-guide/web-editor-features.md#id2051EA0M0HS) セクションのリポジトリビュー機能の説明を参照してください。
+詳しくは、[&#x200B; 左パネル &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS) セクションのリポジトリビュー機能の説明を参照してください。

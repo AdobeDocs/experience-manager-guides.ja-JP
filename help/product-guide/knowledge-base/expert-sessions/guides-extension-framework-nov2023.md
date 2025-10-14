@@ -49,7 +49,7 @@ ht-degree: 1%
 
 - **ドキュメント** - [on Experience League](../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)
 
-- **ドキュメント化された一般的なユースケース** - [Experience League時 ](../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
+- **ドキュメント化された一般的なユースケース** - [Experience League時 &#x200B;](../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
 
 - **サンプルを使用した公開リポジトリ** - [on GIT](https://github.com/adobe/guides-extension/tree/sc-expert-session)。 ブランチ sc-expert-session を参照します
 

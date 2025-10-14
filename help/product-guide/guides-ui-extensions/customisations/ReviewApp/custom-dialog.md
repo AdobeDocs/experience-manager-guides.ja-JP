@@ -119,7 +119,7 @@ const acceptWithModification = {
 
 この例では、カスタムダイアログを開くためのボタンを追加する方法に関する情報について説明します。
 このためのパネル `review_comment` 考えてみましょう。 完全な拡張機能については、次を参照してください。
-[ レビューのコメント ](../../examples/review_app_examples/review_comment.ts)
+[&#x200B; レビューのコメント &#x200B;](../../examples/review_app_examples/review_comment.ts)
 
 ```typescript
 const reviewComment = {

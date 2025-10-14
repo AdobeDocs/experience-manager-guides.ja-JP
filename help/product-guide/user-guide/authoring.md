@@ -21,7 +21,7 @@ Adobe Experience Managerのコンテンツ管理に関する主要な概念を�
 
 **アセット管理**
 
-Experience Manager Guidesは、Adobe Experience Managerのデジタルアセット管理\（DAM\）を使用して DITA ファイルを管理します。 DAM にアップロードまたはチェックインするファイルは、デジタルアセットとして保存されます。 Adobe Experience Manager Assetsでアセットを管理および編集できます。 アセット管理について詳しくは、[ アセットの管理 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=ja) を参照してください。
+Experience Manager Guidesは、Adobe Experience Managerのデジタルアセット管理\（DAM\）を使用して DITA ファイルを管理します。 DAM にアップロードまたはチェックインするファイルは、デジタルアセットとして保存されます。 Adobe Experience Manager Assetsでアセットを管理および編集できます。 アセット管理について詳しくは、[&#x200B; アセットの管理 &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=ja) を参照してください。
 
 **リンク管理**
 
@@ -31,7 +31,7 @@ Experience Manager Guidesは、Adobe Experience Managerのデジタルアセッ�
 
 Experience Manager Guidesでは、デジタルアセットのバージョン管理を行えます。 この機能は、任意の DITA オーサリングアプリケーションから簡単に有効化できます。 ライターに対して、チェックインやチェックアウトなどの標準バージョン管理機能の実行を許可します。
 
-バージョンの作成または特定のバージョンへの復帰について詳しくは、[ 分岐、復帰、後続のバージョン管理 ](web-editor-preview-topics.md#branch-revert-and-subsequent-versioning) を参照してください。
+バージョンの作成または特定のバージョンへの復帰について詳しくは、[&#x200B; 分岐、復帰、後続のバージョン管理 &#x200B;](web-editor-preview-topics.md#branch-revert-and-subsequent-versioning) を参照してください。
 
 **ネイティブ DITA 処理**
 

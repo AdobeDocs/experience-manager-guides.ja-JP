@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # 免責事項
 
-2502 リリース以降、Experience Manager Guidesでは、新しい UI と更新されたユーザーガイドを使用して操作性とワークフローを強化しています。 最新バージョンを使用している場合は、[ 新しいユーザーガイド ](../product-guide/overview.md) を参照して最新情報を確認してください。
+2502 リリース以降、Experience Manager Guidesでは、新しい UI と更新されたユーザーガイドを使用して操作性とワークフローを強化しています。 最新バージョンを使用している場合は、[&#x200B; 新しいユーザーガイド &#x200B;](../product-guide/overview.md) を参照して最新情報を確認してください。
 
 <!-- If you are using a previous version of Experience Manager Guides, the legacy documentation remains available to support your ongoing needs. You can continue to access the [Old User Guide](overview.md) for detailed information on previous UI workflows and features.
 -->

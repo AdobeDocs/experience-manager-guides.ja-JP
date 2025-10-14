@@ -35,7 +35,7 @@ const listJSON =  {
 },
 ```
 
-通常、itemConfig は `widget` です。 ウィジェットについて詳しくは、[ ウィジェット ](../Widgets/basic-widget.md) を参照してください
+通常、itemConfig は `widget` です。 ウィジェットについて詳しくは、[&#x200B; ウィジェット &#x200B;](../Widgets/basic-widget.md) を参照してください
 
 レンダリングされたリストは次のようになります。
 

@@ -16,7 +16,7 @@ ht-degree: 4%
 
 このリリースで修正された問題の一覧については、[2025.06.0リリースで修正された問題](fixed-issues-2025-06-0.md)を参照してください。
 
-[2025.06.0 リリースのアップグレード手順 ](../release-info/upgrade-instructions-2025-06-0.md) について説明します。
+[2025.06.0 リリースのアップグレード手順 &#x200B;](../release-info/upgrade-instructions-2025-06-0.md) について説明します。
 
 ## コンテンツが誤って失われるのを防ぐためのセッションタイムアウトプロンプト
 
@@ -24,13 +24,13 @@ Adobe Experience Manager セッションの有効期限が切れ、無操作状�
 
 ![](assets/sign-out-prompt.png)
 
-詳しくは、Experience Manager Guidesの [ セッションタイムアウトプロンプト ](../user-guide/session-timeout-prompt.md) を参照してください。
+詳しくは、Experience Manager Guidesの [&#x200B; セッションタイムアウトプロンプト &#x200B;](../user-guide/session-timeout-prompt.md) を参照してください。
 
 ## エディターの強化されたマップダウンロードオプション
 
 Experience Manager Guidesの **マップをダウンロード** ダイアログに、新しい **実際のファイル名を使用** オプションが導入されました。 マップ ファイルをダウンロードするときに、既定の UUID の代わりに元のファイル名を保持するように選択できるようになりました。これにより、ファイルの認識と管理がはるかに容易になります。 このオプションは、[**ファイル階層を保持**] を選択した場合にのみ使用でき、[**ファイル階層をフラット化**] を選択した場合は使用できません。これにより、ダウンロードしたマップをより柔軟に編成できます。
 
-詳しくは、[ ファイルのダウンロード ](../user-guide/authoring-download-assets.md#download-a-dita-map-file-from-the-editor) を参照してください。
+詳しくは、[&#x200B; ファイルのダウンロード &#x200B;](../user-guide/authoring-download-assets.md#download-a-dita-map-file-from-the-editor) を参照してください。
 
 ![](assets/download-map-dialog-new.png){width="300" align="left"}
 
@@ -39,7 +39,7 @@ Experience Manager Guidesの **マップをダウンロード** ダイアログ�
 
 エディタの最新の機能強化により、DITA マップ内のエレメント `navref` 処理が改善されました。 `navref` 要素をマップに追加すると、&lbrack;**パスを選択** ダイアログが開き、マップにナビゲーション リンクとして含めるマップ参照を簡単に選択できます。 追加されたマップのタイトルは、オーサービューとレイアウトビューの両方に表示されるため、オーサリング中に含まれるナビゲーションをより明確に把握できます。  さらに、追加された `navref` 要素は自動的に解決され、エディターに参照マップが表示されます。
 
-詳しくは、[ ナビゲーション参照を追加 ](../user-guide/map-editor-other-features.md#add-navigation-references) を参照してください。
+詳しくは、[&#x200B; ナビゲーション参照を追加 &#x200B;](../user-guide/map-editor-other-features.md#add-navigation-references) を参照してください。
 
 ## AI アシスタントのパフォーマンスの強化
 
@@ -48,5 +48,5 @@ Experience Manager Guidesの **マップをダウンロード** ダイアログ�
 - `chat.url` 設定を更新して、新しいエンドポイント URL を反映します。
 - Cloud Managerで新しい環境変数 `GUIDES_AI_SITE_ID` を追加します。
 
-詳しくは、[AI アシスタントの設定 ](../cs-install-guide/conf-smart-suggestions.md) を参照してください。
+詳しくは、[AI アシスタントの設定 &#x200B;](../cs-install-guide/conf-smart-suggestions.md) を参照してください。
 

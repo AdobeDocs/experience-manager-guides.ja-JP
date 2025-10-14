@@ -19,7 +19,7 @@ Experience Manager Guidesでは、PDF プリセットを作成して、個々の
 
 この方法を使用して、マップ・コンソールまたはマップ・ダッシュボードからマップのPDF出力を生成します。 PDFを生成する前に、マップコンソールまたはマップダッシュボードで開くマップの出力プリセットを作成して公開プロパティを設定できます。
 
-DITA-OT メソッドを使用してPDF出力プリセットを作成する方法については、[DITA-OT PDF出力プリセットの作成 ](./generate-output-pdf-dita-ot.md) を参照してください。
+DITA-OT メソッドを使用してPDF出力プリセットを作成する方法については、[DITA-OT PDF出力プリセットの作成 &#x200B;](./generate-output-pdf-dita-ot.md) を参照してください。
 
 **FrameMaker Publishing Server（FMPS）**
 
@@ -27,18 +27,18 @@ DITA-OT メソッドを使用してPDF出力プリセットを作成する方法
 >
 > FMPS 公開オプションは、マップダッシュボードでのみ使用できます。
 
-この方法を使用すると、DITA コンテンツだけでなく、AEM リポジトリで使用可能なFrameMaker文書（.book と.fm）からもPDF出力を生成できます。 PDFは、出力プリセットを設定することで作成でき、FrameMaker Publishing Server（FMPS）を使用して公開できます。 PDFやその他の形式に対応する出力のルックアンドフィールをデザインして設定し、設定ファイル（.sts）に保存できます。 この設定ファイルは、FMPS で DITA マップまたは.book ファイルの出力を生成するために使用されます。 出力プリセットを作成または編集するには、[ 出力プリセットについて ](../user-guide/generate-output-understand-presets.md) を表示します。
+この方法を使用すると、DITA コンテンツだけでなく、AEM リポジトリで使用可能なFrameMaker文書（.book と.fm）からもPDF出力を生成できます。 PDFは、出力プリセットを設定することで作成でき、FrameMaker Publishing Server（FMPS）を使用して公開できます。 PDFやその他の形式に対応する出力のルックアンドフィールをデザインして設定し、設定ファイル（.sts）に保存できます。 この設定ファイルは、FMPS で DITA マップまたは.book ファイルの出力を生成するために使用されます。 出力プリセットを作成または編集するには、[&#x200B; 出力プリセットについて &#x200B;](../user-guide/generate-output-understand-presets.md) を表示します。
 
-FMPS の設定について詳しくは、[FrameMaker ドキュメントからの出力の生成 ](../user-guide/fm-output-generatation.md) を参照してください。
+FMPS の設定について詳しくは、[FrameMaker ドキュメントからの出力の生成 &#x200B;](../user-guide/fm-output-generatation.md) を参照してください。
 
 **ネイティブ PDF**
 
 この手法を使用して、W3C CSS3 および CSS ページメディア標準に基づいた、機能豊富なPDF出力を生成します。 PDFのネイティブパブリッシングを使用すると、テンプレートを使用してコンテンツのレイアウトとスタイルを設定し、様々な設定を適用してPDFを微調整できます。 さらに、テンプレートエディターを使用して独自のテンプレートを変更および作成できます。
 
-ネイティブのPDF プリセットの作成について詳しくは、[ ネイティブのPDF出力プリセットの作成 ](../web-editor/native-pdf-web-editor.md) を参照してください。
+ネイティブのPDF プリセットの作成について詳しくは、[&#x200B; ネイティブのPDF出力プリセットの作成 &#x200B;](../web-editor/native-pdf-web-editor.md) を参照してください。
 
 
 
 
 
-**親トピック：**&#x200B;[ 出力プリセットについて ](generate-output-understand-presets.md)
+**親トピック：**&#x200B;[&#x200B; 出力プリセットについて &#x200B;](generate-output-understand-presets.md)

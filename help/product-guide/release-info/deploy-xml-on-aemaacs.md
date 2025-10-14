@@ -32,7 +32,7 @@ ht-degree: 0%
 
 Experience Manager Guides ソリューションの自動プロビジョニング用のプログラムが正常に設定されました。
 
-![Experience Manager Guides ソリューションの設定 ](assets/addon-configuration.png)
+![Experience Manager Guides ソリューションの設定 &#x200B;](assets/addon-configuration.png)
 
 >[!NOTE]
 >

@@ -15,9 +15,9 @@ ht-degree: 0%
 
 この記事では、Adobe Experience Manager Guides 4.4.0 リリースの様々な領域で修正されたバグについて説明します。
 
-新機能と機能強化について詳しくは、[4.4.0 リリースの新機能 ](./whats-new-4-4.md) を参照してください。
+新機能と機能強化について詳しくは、[4.4.0 リリースの新機能 &#x200B;](./whats-new-4-4.md) を参照してください。
 
-[4.4.0 リリースのアップグレード手順 ](../release-info/upgrade-instructions-4-4.md) について説明します。
+[4.4.0 リリースのアップグレード手順 &#x200B;](../release-info/upgrade-instructions-4-4.md) について説明します。
 
 
 ## オーサリング

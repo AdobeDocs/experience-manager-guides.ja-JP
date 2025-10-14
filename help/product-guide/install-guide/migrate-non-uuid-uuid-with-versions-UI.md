@@ -49,12 +49,12 @@ ht-degree: 1%
 
 
 
-![ 移行の「互換性の評価」タブ ](assets/migration-compatibility-assessment.png){width="800" align="left"}
+![&#x200B; 移行の「互換性の評価」タブ &#x200B;](assets/migration-compatibility-assessment.png){width="800" align="left"}
 
 
 1. 左側のパネルから **検証を設定** を選択します。 次に、マップの **マップを選択** および **プリセットを選択** して設定します。 現在の出力検証リストには移行前の出力ファイルが表示され、後で移行後に生成された出力ファイルと照合して検証できます。
 
-![ 移行の「検証」タブの設定 ](assets/migration-configure-validation.png){width="800" align="left"}
+![&#x200B; 移行の「検証」タブの設定 &#x200B;](assets/migration-configure-validation.png){width="800" align="left"}
 
 
 
@@ -63,7 +63,7 @@ ht-degree: 1%
 
 ### 手順 1：設定の更新
 
-1. 使用可能な空き領域が、移行中にAEM（crx-quickstart directory）で使用される領域の 10 倍以上あることを確認します。 移行が完了したら、コンパクションを実行して、ディスク領域のほとんどを再利用できます（[ リビジョンクリーンアップ ](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=ja) を参照）。
+1. 使用可能な空き領域が、移行中にAEM（crx-quickstart directory）で使用される領域の 10 倍以上あることを確認します。 移行が完了したら、コンパクションを実行して、ディスク領域のほとんどを再利用できます（[&#x200B; リビジョンクリーンアップ &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=ja) を参照）。
 
 1. `com.adobe.fmdita.config.ConfigManager` で *Post処理ワークフローランチャーを有効にする* を有効にする *および `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation.` でバージョンの後処理を有効にする*
 
@@ -87,7 +87,7 @@ ht-degree: 1%
 
 #### 移行パッケージのインストール
 
-![ 移行の「システムアップグレード」タブ ](assets/migration-system-upgrade.png){width="800" align="left"}
+![&#x200B; 移行の「システムアップグレード」タブ &#x200B;](assets/migration-system-upgrade.png){width="800" align="left"}
 
 * 左側のパネルから **システムアップグレード** を選択して、移行を実行します。 `/content/dam` で実行する前に、データが小さいフォルダーから開始します。
 
@@ -104,7 +104,7 @@ ht-degree: 1%
 
 左側のパネルから「**ベースライン/レビューアップグレード**」を選択してベースラインを移行し、フォルダーレベルでレビューします。
 
-![ 移行の「ベースライン」タブと「レビュー」タブ ](assets/migration-baseline-review-upgrade.png){width="800" align="left"}
+![&#x200B; 移行の「ベースライン」タブと「レビュー」タブ &#x200B;](assets/migration-baseline-review-upgrade.png){width="800" align="left"}
 
 
 ### 手順 3：設定の復元
@@ -122,7 +122,7 @@ ht-degree: 1%
 
 移行が完了したら、左側のパネルから **システムアップグレードの検証** を選択し、移行前と移行後に出力ファイルを検証して、移行が成功したことを確認します。
 
-![ 移行の「システムアップグレードを検証」タブ ](assets/migration-validate-system-upgrade.png){width="800" align="left"}
+![&#x200B; 移行の「システムアップグレードを検証」タブ &#x200B;](assets/migration-validate-system-upgrade.png){width="800" align="left"}
 
 
 1. 移行が完了したら、コンパクションを実行することで、ディスク領域のほとんどを再利用できます（`https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=ja` を参照）。

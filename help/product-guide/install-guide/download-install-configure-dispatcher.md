@@ -18,7 +18,7 @@ AEM オーサーインスタンス上のDispatcherをAEM Guidesと共に使用�
 
 >[!NOTE]
 >
-> Dispatcher は、Adobe Experience Manager のキャッシュやロードバランシングを管理するツールです。Dispatcherの使用について詳しくは、[Dispatcherの概要 ](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=ja) を参照してください。
+> Dispatcher は、Adobe Experience Manager のキャッシュやロードバランシングを管理するツールです。Dispatcherの使用について詳しくは、[Dispatcherの概要 &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=ja) を参照してください。
 
 ## URL で AllowEncodedSlashes を有効にする
 
@@ -81,4 +81,4 @@ AEM GuidesでDispatcherを使用する際に、オーサーインスタンスに
                 }
 ```
 
-**親トピック：**&#x200B;[ ダウンロードとインストール ](download-install.md)
+**親トピック：**&#x200B;[&#x200B; ダウンロードとインストール &#x200B;](download-install.md)

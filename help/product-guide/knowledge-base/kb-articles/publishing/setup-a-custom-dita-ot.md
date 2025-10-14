@@ -19,12 +19,12 @@ ht-degree: 0%
 
 + 基本的な DITA-OT の取得
    + 標準提供の DITA-OT のコピーを [!DNL AEM Guides] から取得する場合は、パス `/etc/fmdita/dita_resources/DITA-OT.zip` からダウンロードします
-   + 別のバージョンを入手したい場合は、[dita-ot repo からダウンロードしてください ](https://www.dita-ot.org/download)
-+ [ 新しいプラグインの追加 ](https://www.dita-ot.org/dev/topics/plugins-installing.html)、既存のプラグインのカスタマイズなど、DITA-OT への変更を行います（以下の関連リンクの節の例を参照）。
+   + 別のバージョンを入手したい場合は、[dita-ot repo からダウンロードしてください &#x200B;](https://www.dita-ot.org/download)
++ [&#x200B; 新しいプラグインの追加 &#x200B;](https://www.dita-ot.org/dev/topics/plugins-installing.html)、既存のプラグインのカスタマイズなど、DITA-OT への変更を行います（以下の関連リンクの節の例を参照）。
 + 受信 `DITA-OT.zip` を `/apps/<project-folder>/dita_resources` にアップロードします（カスタムプロジェクトフォルダーの作成をお勧めします）
 + **[!UICONTROL Tools]** > **[!UICONTROL Guides]** > **[!UICONTROL DITA Profiles]** を使用して DITA プロファイルを追加します（カスタム DITA-OT がアップロードされる DITA-OT パスを使用します。以下のスクリーンショットを参照）。
-  ![DITA プロファイル ](assets/dita-profile.png)
+  ![DITA プロファイル &#x200B;](assets/dita-profile.png)
 
 >[!MORELIKETHIS]
 >
->+ [DITA-OT プラグインサンプルのカスタマイズ ](https://www.dita-ot.org/dev/topics/pdf-customization.html)
+>+ [DITA-OT プラグインサンプルのカスタマイズ &#x200B;](https://www.dita-ot.org/dev/topics/pdf-customization.html)

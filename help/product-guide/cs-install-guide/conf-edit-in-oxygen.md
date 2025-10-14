@@ -16,7 +16,7 @@ ht-degree: 1%
 
 AEM Guidesでは、Oxygen コネクタプラグインで DITA トピックと DITA マップを編集することもできます。
 
-[ 設定の上書き ](download-install-additional-config-override.md#) の手順に従って、設定ファイルを作成します。 設定ファイルで、「**酸素で編集** オプションを設定するために、次の（プロパティ）の詳細を指定します。
+[&#x200B; 設定の上書き &#x200B;](download-install-additional-config-override.md#) の手順に従って、設定ファイルを作成します。 設定ファイルで、「**酸素で編集** オプションを設定するために、次の（プロパティ）の詳細を指定します。
 
 
 
@@ -28,4 +28,4 @@ AEM Guidesでは、Oxygen コネクタプラグインで DITA トピックと DI
 >
 > この設定はデフォルトで無効になっており、オプションは web エディターでは使用できません。
 
-**親トピック：**&#x200B;[ Web エディタのカスタマイズ ](conf-web-editor.md)
+**親トピック：**&#x200B;[&#x200B; Web エディタのカスタマイズ &#x200B;](conf-web-editor.md)

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 この記事では、Adobe Experience Manager Guides 5.0.0 サービスパック 2 リリースの様々な領域で修正されたバグについて説明します。
 
-[5.0.0 サービスパック 2 リリースのアップグレード手順 ](upgrade-instructions-5-0-0-sp2.md) について説明します。
+[5.0.0 サービスパック 2 リリースのアップグレード手順 &#x200B;](upgrade-instructions-5-0-0-sp2.md) について説明します。
 
 ## プラットフォーム
 

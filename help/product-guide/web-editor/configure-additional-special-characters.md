@@ -16,7 +16,7 @@ ht-degree: 0%
 Web エディターツールバーには、作成者が既に特殊文字を挿入できるショートカットオプションがあります。
 同じことが以下のスクリーンショットに示されています。
 
-![ 特殊文字 ](assets/special-chars.png)
+![&#x200B; 特殊文字 &#x200B;](assets/special-chars.png)
 
 
 これらの文字リストは、ここで設定できます。 これに文字を追加する必要がある場合は、次の手順に従います。
@@ -55,10 +55,10 @@ symbols.json ファイルの構造を以下に説明します。
 
 これにより、特殊文字ダイアログに別のカテゴリが追加されます。
 
-![ 特殊記号の分類 ](assets/special-char-category.png)
+![&#x200B; 特殊記号の分類 &#x200B;](assets/special-char-category.png)
 
-![ 特殊文字を挿入 ](assets/insert-special-char.png)
+![&#x200B; 特殊文字を挿入 &#x200B;](assets/insert-special-char.png)
 
 >[!MORELIKETHIS]
 >
->+ [ インストールおよび設定ガイド ](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/3-6/XML-Documentation-for-Adobe-Experience-Manager_Installation-Configuration-Guide_EN.pdf)
+>+ [&#x200B; インストールおよび設定ガイド &#x200B;](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/3-6/XML-Documentation-for-Adobe-Experience-Manager_Installation-Configuration-Guide_EN.pdf)

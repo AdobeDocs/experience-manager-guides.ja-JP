@@ -25,18 +25,18 @@ ht-degree: 0%
 - 翻訳が完了して承認されると、すべてのプロジェクトを「非アクティブ」とマークします。プロジェクトはレビュー可能なままであり、単に非アクティブとマークされます。
    - これらの手順に従うと、翻訳の全体的なパフォーマンスを良好に維持できます。
 
-     ![ 非アクティブな翻訳プロジェクト ](../assets/translation/translation-project-image1.png)
+     ![&#x200B; 非アクティブな翻訳プロジェクト &#x200B;](../assets/translation/translation-project-image1.png)
 
 - 非アクティブとマークされている古いプロジェクトフォルダーの場合、承認済みおよびレビューは削除する必要があります
    - これらの手順に従うと、このプロジェクトフォルダーに関連付けられた一時的な翻訳ファイルとユーザーグループがクリーンアップされるので、翻訳の全体的なパフォーマンスを良好に維持できます。
 
-     ![ 翻訳プロジェクトとフォルダーの ](../assets/translation/translation-project-image2.png) を削除
+     ![&#x200B; 翻訳プロジェクトとフォルダーの &#x200B;](../assets/translation/translation-project-image2.png) を削除
 
 
 ## 使用している場合は、ビルド 4.6 または 2404 以降：
 
 引き続き上記と同じ手順に従うことができます。 バージョン 4.6/2404 以降、AEM Guidesでは、管理者が翻訳プロジェクトの自動削除を無効にするためのエディター設定を導入しました。
 
-参照：[ 完了した翻訳プロジェクトの自動的な削除または無効化 ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/translate-documents-web-editor#automatically-delete-or-disable-a-completed-translation-project)
+参照：[&#x200B; 完了した翻訳プロジェクトの自動的な削除または無効化 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/translate-documents-web-editor#automatically-delete-or-disable-a-completed-translation-project)
 
-![AEM Guides ](../assets/translation/translation-project-image3.png) で翻訳プロジェクトを削除/無効化する自動設定
+![AEM Guides &#x200B;](../assets/translation/translation-project-image3.png) で翻訳プロジェクトを削除/無効化する自動設定

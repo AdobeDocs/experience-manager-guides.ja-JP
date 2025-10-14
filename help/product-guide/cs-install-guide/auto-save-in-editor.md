@@ -18,11 +18,11 @@ ht-degree: 1%
 
 自動保存機能はデフォルトでは有効になっていないので、設定ファイルを使用して有効にする必要があります。
 
-[ 設定の上書き ](download-install-additional-config-override.md#) の手順に従って、設定ファイルを作成します。 設定ファイルで、ファイルの自動保存と自動保存時間間隔を設定するために、次の\（property\）の詳細を指定します。
+[&#x200B; 設定の上書き &#x200B;](download-install-additional-config-override.md#) の手順に従って、設定ファイルを作成します。 設定ファイルで、ファイルの自動保存と自動保存時間間隔を設定するために、次の\（property\）の詳細を指定します。
 
 | PID | プロパティキー | プロパティの値 |
 |---|------------|--------------|
 | `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.autosave` | ブール値\（true/false\）.<br> **デフォルト値**:false |
 | `xmleditor.autosaveinterval` | 自動保存機能をトリガーにする時間間隔を秒単位で指定します。 |
 
-**親トピック：**&#x200B;[ Web エディタのカスタマイズ ](conf-web-editor.md)
+**親トピック：**&#x200B;[&#x200B; Web エディタのカスタマイズ &#x200B;](conf-web-editor.md)

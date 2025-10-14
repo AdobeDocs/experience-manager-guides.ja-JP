@@ -25,24 +25,24 @@ ht-degree: 5%
 **手順 1**
 
 [!UICONTROL &#x200B; フォルダープロファイル &#x200B;] のドキュメントに関連する条件を定義します。
-『インストールと設定ガイド』の **69 ページ** にある「グローバルプロファイルまたはフォルダーレベルのプロファイルの条件属性の設定 [ の節を参照してください ](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf)
+『インストールと設定ガイド』の **69 ページ** にある「グローバルプロファイルまたはフォルダーレベルのプロファイルの条件属性の設定 [&#x200B; の節を参照してください &#x200B;](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf)
 
-![ フォルダープロファイルでの条件の設定 ](assets/conditions-in-profiles.png)
+![&#x200B; フォルダープロファイルでの条件の設定 &#x200B;](assets/conditions-in-profiles.png)
 
 **手順 2**
 
 **ユーザー環境設定** の手順 1 で定義した **フォルダープロファイル** を XML エディターで選択します。
-『ユーザガイド』の **41 ページ** の節 [ ユーザー環境設定 ](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf) を参照してください
+『ユーザガイド』の **41 ページ** の節 [&#x200B; ユーザー環境設定 &#x200B;](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf) を参照してください
 
 
 **手順 3**
 
 条件を使用して、コンテンツのセクションに条件を付けます。
-『ユーザガイド』の [90 ページ **の節** 条件 ](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf) を参照してください
+『ユーザガイド』の [90 ページ **の節** 条件 &#x200B;](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf) を参照してください
 
-![Web エディターでの条件の使用 ](assets/conditions-in-web-editor.png)
+![Web エディターでの条件の使用 &#x200B;](assets/conditions-in-web-editor.png)
 
 **手順 4**
 
 マップレベルで条件プリセットを定義して、出力で有効にする条件を選択します。
-ユーザーガイドの [249 ページ **の節** 条件プリセットの使用 ](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf) を参照してください
+ユーザーガイドの [249 ページ **の節** 条件プリセットの使用 &#x200B;](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf) を参照してください

@@ -33,7 +33,7 @@ Experience Manager Guidesでトピックを作成するには、次の 2 つの�
 
    ![](images/create-topic-option.png){width="500" align="left"}
 
-   このオプションには、[Experience Manager Guidesのホームページ ](./intro-home-page.md) およびリポジトリ ビューのフォルダーのオプション メニューからもアクセスできます。
+   このオプションには、[Experience Manager Guidesのホームページ &#x200B;](./intro-home-page.md) およびリポジトリ ビューのフォルダーのオプション メニューからもアクセスできます。
 
 2. **新規トピック** ダイアログボックスが表示されます。
 
@@ -93,4 +93,4 @@ Assets UI からトピックを作成するには、次の手順を実行しま�
 
 4. DITA トピックを作成したら、作業コピーへの変更を保存し続け、トピックの更新が完了したら新しいバージョンを作成します。
 
-**親トピック：**&#x200B;[ トピックの作成とプレビュー ](create-preview-topics.md)
+**親トピック：**&#x200B;[&#x200B; トピックの作成とプレビュー &#x200B;](create-preview-topics.md)

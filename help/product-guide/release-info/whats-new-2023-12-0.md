@@ -15,14 +15,14 @@ ht-degree: 0%
 
 この記事では、Adobe Experience Manager Guidesの 2023 年 12 月バージョン（後で *Experience Manager Guidesas a Cloud Service* と呼ばれます）の新機能および機能強化について説明します。
 
-アップグレード手順、互換性マトリックス、およびこのリリースで修正された問題について詳しくは、[ リリースノート ](release-notes-2023-12-0.md) を参照してください。
+アップグレード手順、互換性マトリックス、およびこのリリースで修正された問題について詳しくは、[&#x200B; リリースノート &#x200B;](release-notes-2023-12-0.md) を参照してください。
 
 
 ## PDF出力での変数の使用
 
 変数を使用して、再利用可能な情報を動的に挿入および管理できます。 Experience Manager Guidesは、PDF出力を生成する際に、変数を作成、編集およびプレビューするのに役立ちます。 変数の値をすばやく変更して、ドキュメントを移植可能かつ簡単に更新できます。
 
-![ ネイティブ pdf 変数 ](assets/add-variable-default.png){width="800" align="left"}
+![&#x200B; ネイティブ pdf 変数 &#x200B;](assets/add-variable-default.png){width="800" align="left"}
 
 *Web エディターで変数を作成および管理します。*
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 スタイルを適用し、HTMLのマークアップを使用して変数の書式を設定できます。  また、必要に応じて任意の変数の値をすばやく更新し、出力を再生成することもできます。 例えば、バージョンの詳細を更新する必要がある場合、VersionNumber 変数のバージョンの値を編集して、出力を再生成できます。
 
 
-[PDF出力の変数 ](../native-pdf/native-pdf-variables.md) の使用方法について説明します。
+[PDF出力の変数 &#x200B;](../native-pdf/native-pdf-variables.md) の使用方法について説明します。
 
 
 
@@ -59,13 +59,13 @@ ht-degree: 0%
 
 これで、web エディターの **コンテンツのプロパティ** パネルで、要素の属性を追加または編集するエクスペリエンスが刷新されました。
 
-![ 属性パネル ](assets/attributes-multiple-properties.png){width="300" align="left"}
+![&#x200B; 属性パネル &#x200B;](assets/attributes-multiple-properties.png){width="300" align="left"}
 
 *コンテンツのプロパティパネルからの属性の追加*
 
 また、属性の編集や削除も簡単にできます。
 
-詳しくは、**右パネル [ の節にある** コンテンツのプロパティ ](../user-guide/web-editor-features.md#id2051EB003YK) 機能の説明を参照してください。
+詳しくは、**右パネル [&#x200B; の節にある** コンテンツのプロパティ &#x200B;](../user-guide/web-editor-features.md#id2051EB003YK) 機能の説明を参照してください。
 
 
 ## オーサリング時のメタデータの編集
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 *右側のパネルからメタデータを更新してファイルプロパティを編集します。*
 
-詳しくは、**右パネル [ の節にある** ファイルプロパティ ](../user-guide/web-editor-features.md#id2051EB003YK) 機能の説明を参照してください。
+詳しくは、**右パネル [&#x200B; の節にある** ファイルプロパティ &#x200B;](../user-guide/web-editor-features.md#id2051EB003YK) 機能の説明を参照してください。
 
 ## ServiceNow ナレッジベースにコンテンツを公開する機能
 
@@ -91,7 +91,7 @@ ht-degree: 0%
 
 *ServiceNow ナレッジベースの出力プリセットを作成します*。
 
-[ ナレッジベース ](../user-guide/generate-output-knowledge-base.md) 出力プリセットの詳細情報。
+[&#x200B; ナレッジベース &#x200B;](../user-guide/generate-output-knowledge-base.md) 出力プリセットの詳細情報。
 
 ## マップ コレクション ダッシュボードの強化
 
@@ -99,36 +99,36 @@ Experience Manager Guidesは、拡張されたマップコレクションダッ�
 
 これで、DITA マップのファイル名を表示できます。 ベースラインを表示することもできます。 これにより、プリセットに使用するベースラインをすばやく見つけることができます。
 
-![ コレクションのマッピング ダッシュボード ](assets/map-collection-dashboard.png){width="800" align="left"}
+![&#x200B; コレクションのマッピング ダッシュボード &#x200B;](assets/map-collection-dashboard.png){width="800" align="left"}
 
 *マップ・コレクション・ダッシュボードからの出力の表示、編集、生成*
 
-方法を説明します [ 出力生成にマップ コレクションを使用する ](../user-guide/generate-output-use-map-collection-output-generation.md)。
+方法を説明します [&#x200B; 出力生成にマップ コレクションを使用する &#x200B;](../user-guide/generate-output-use-map-collection-output-generation.md)。
 
 ## マップ ビューで主要なアトリビュートを表示する
 
 トピックまたはマップ参照のキー属性を定義する場合は、タイトル、対応するアイコン、左側のパネルのキーも表示できます。 キーは `key=<key-name>` のように表示されます。
 
-詳しくは、「[ 左パネル ](../user-guide/web-editor-features.md#id2051EA0M0HS)」セクションの **マップビュー** 機能の説明を参照してください。
+詳しくは、「[&#x200B; 左パネル &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS)」セクションの **マップビュー** 機能の説明を参照してください。
 
-![ マップ ビューのキー ](assets/view-key-title-map-view.png) {width="300" align="left"}
+![&#x200B; マップ ビューのキー &#x200B;](assets/view-key-title-map-view.png) {width="300" align="left"}
 
 *マップ ビューでキー属性を表示します。*
 
 ## ラベルに基づくベースラインの複製機能
 
 Experience Manager Guidesでは、web エディターからベースラインを作成する際のユーザーエクスペリエンスが強化されました。\
-![ 新しいベースラインの作成 ](assets/create-new-baseline.png) {width="300" align="left"}
+![&#x200B; 新しいベースラインの作成 &#x200B;](assets/create-new-baseline.png) {width="300" align="left"}
 *Web エディターからベースラインを作成します。*
 
 また、ラベルに基づいてベースラインを複製することもできます。 参照バージョンは、複製中に指定のラベル（存在する場合）に基づいて選択されます。存在しない場合は、複製されたベースラインからバージョンが選択されます。
 
 
-![ ベースライン ](assets/duplicate-baseline.png) 複製 {width="300" align="left"}
+![&#x200B; ベースライン &#x200B;](assets/duplicate-baseline.png) 複製 {width="300" align="left"}
 
 *ラベルに基づいてベースラインを複製するか、正確なコピーを作成します。*
 
-Web エディターからベースラインを作成および管理 [ する方法について詳しく説明し ](../user-guide/web-editor-baseline.md) す。
+Web エディターからベースラインを作成および管理 [&#x200B; する方法について詳しく説明し &#x200B;](../user-guide/web-editor-baseline.md) す。
 
 ## AEM Site 出力でのクロスマップリンクの解決
 
@@ -137,4 +137,4 @@ AEM Site 出力でレンダリングされるクロスマップリンク（ス�
 
 ## ドキュメントタイトルを使用するようにAEM サイト出力の URL を設定します
 
-Experience Manager Guidesを使用すると、管理者としてAEM サイト出力の URL を設定できます。 ファイル名が存在しない場合や、ファイル名にすべての特殊文字が含まれる場合は、を設定して、AEM サイト出力の URL で区切り文字に置き換えることができます。 最初の子トピックの名前に置き換えることもできます。 詳細情報 [ ドキュメントタイトルを使用するようにAEM サイト出力の URL を設定する ](../cs-install-guide/conf-output-generation.md#configure-the-url-of-the-aem-site-output-to-use-the-document-title)
+Experience Manager Guidesを使用すると、管理者としてAEM サイト出力の URL を設定できます。 ファイル名が存在しない場合や、ファイル名にすべての特殊文字が含まれる場合は、を設定して、AEM サイト出力の URL で区切り文字に置き換えることができます。 最初の子トピックの名前に置き換えることもできます。 詳細情報 [&#x200B; ドキュメントタイトルを使用するようにAEM サイト出力の URL を設定する &#x200B;](../cs-install-guide/conf-output-generation.md#configure-the-url-of-the-aem-site-output-to-use-the-document-title)

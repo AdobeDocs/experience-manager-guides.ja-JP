@@ -17,7 +17,7 @@ ht-degree: 0%
 ## データストアの設定\（必須\）
 
 **変更点は何ですか？**
-設定 `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.` の `minRecordLength` プロパティの値を `100` に設定します。ファイルの日付保存と S3 データストアについて詳しくは、「AEM 6 でのノードストアとデータストアの設定 [ を参照してください ](https://helpx.adobe.com/jp/experience-manager/6-5/sites/deploying/using/data-store-config.html)。
+設定 `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.` の `minRecordLength` プロパティの値を `100` に設定します。ファイルの日付保存と S3 データストアについて詳しくは、「AEM 6 でのノードストアとデータストアの設定 [&#x200B; を参照してください &#x200B;](https://helpx.adobe.com/jp/experience-manager/6-5/sites/deploying/using/data-store-config.html)。
 
 >[!NOTE]
 >
@@ -115,4 +115,4 @@ AEM Sites出力を生成する場合は、この変更が必要です。
 **ヒープ内のAEM サイトページを制限** プロパティの数が増えると、AEM サイト出力生成プロセスが最適化されます。
 
 
-**親トピック：**&#x200B;[ ダウンロードとインストール ](download-install.md)
+**親トピック：**&#x200B;[&#x200B; ダウンロードとインストール &#x200B;](download-install.md)

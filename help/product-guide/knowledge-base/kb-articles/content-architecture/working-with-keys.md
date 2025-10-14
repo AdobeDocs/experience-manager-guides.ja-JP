@@ -57,8 +57,8 @@ ht-degree: 0%
 
 + トピックを編集し、[!UICONTROL keyref] を使用してキー値を追加します。
 + スクリーンショットに示すように、キーワードを選択できる小さなウィンドウが表示されます。 「keyword」要素を追加すると、これが表示されます。
-  ![ 要素を挿入 ](assets/insert_element.png)
-  ![ キー参照 ](assets/key_ref.png)
+  ![&#x200B; 要素を挿入 &#x200B;](assets/insert_element.png)
+  ![&#x200B; キー参照 &#x200B;](assets/key_ref.png)
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>

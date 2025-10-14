@@ -13,9 +13,9 @@ ht-degree: 5%
 
 この記事では、Adobe Experience Manager Guides 4.6.0 リリースのアップグレード手順と互換性マトリックスについて説明します。
 
-新機能と機能強化について詳しくは、[ 4.6.0リリースの新機能](../release-info/whats-new-4-6.md)を参照してください。
+新機能と機能強化について詳しくは、[&#x200B; 4.6.0リリースの新機能](../release-info/whats-new-4-6.md)を参照してください。
 
-このリリースで修正された問題のリストについては、[4.6.0 リリースで修正された問題 ](../release-info/fixed-issues-4-6-0.md) を参照してください。
+このリリースで修正された問題のリストについては、[4.6.0 リリースで修正された問題 &#x200B;](../release-info/fixed-issues-4-6-0.md) を参照してください。
 
 ## 互換性マトリックス
 
@@ -29,7 +29,7 @@ ht-degree: 5%
 **4.6.0 UUID**
 バージョン 6.5 サービスパック 21、20、19
 
-詳しくは、『オンプレミスのインストールおよび設定ガイド』の [ 技術要件 ](../install-guide/download-install-technical-requirements.md) の節を参照してください。
+詳しくは、『オンプレミスのインストールおよび設定ガイド』の [&#x200B; 技術要件 &#x200B;](../install-guide/download-install-technical-requirements.md) の節を参照してください。
 
 ### FrameMakerとFrameMaker Publishing Server
 
@@ -70,10 +70,10 @@ Guides の現在のバージョンをバージョン 4.6.0 に簡単にアップ
 - バージョン 4.2、4.2.1 （ホットフィックス 4.2.1.3）、4.1、または 4.1.x を使用している場合は、バージョン 4.6.0 にアップグレードする前にバージョン 4.4 にアップグレードする必要があります。
 - バージョン 4.0 を使用している場合、バージョン 4.3.x にアップグレードする前にバージョン 4.2 にアップグレードする必要があります。
 - バージョン 3.8.5 を使用している場合、バージョン 4.2 にアップグレードする前にバージョン 4.0 にアップグレードする必要があります。
-- バージョン 3.8.5 より前のバージョンを使用している場合は、[Experience Manager Guides ヘルプPDFアーカイブ ](https://helpx.adobe.com/jp/xml-documentation-for-experience-manager/archive.html) にある製品固有のインストールガイドのAdobe Experience Manager Guidesのアップグレードの節を参照してください。
+- バージョン 3.8.5 より前のバージョンを使用している場合は、[Experience Manager Guides ヘルプPDFアーカイブ &#x200B;](https://helpx.adobe.com/jp/xml-documentation-for-experience-manager/archive.html) にある製品固有のインストールガイドのAdobe Experience Manager Guidesのアップグレードの節を参照してください。
 
 >[!NOTE]
 >
 >Experience Manager Guides版をアップグレードする前に、AEM サービスパックをインストールする必要があります。
 
-詳しくは、Experience Manager Guidesの [ オンプレミスリリースのアップグレード手順 ](../install-guide/upgrade-xml-documentation.md) を参照してください。
+詳しくは、Experience Manager Guidesの [&#x200B; オンプレミスリリースのアップグレード手順 &#x200B;](../install-guide/upgrade-xml-documentation.md) を参照してください。

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 企業内の様々な部門や製品の設定を分離するには、フォルダープロファイルが必要です。 学習コンテンツとトレーニングコンテンツの場合、フォルダーレベルのプロファイルを作成および設定して、オーサリングテンプレート、出力テンプレート、出力プリセットおよびその他のフォルダーレベルの設定を管理できます。
 
-[ フォルダー構造を設定するためのベストプラクティス ](best-practices-folder-structure.md) について説明します。
+[&#x200B; フォルダー構造を設定するためのベストプラクティス &#x200B;](best-practices-folder-structure.md) について説明します。
 
 学習およびトレーニングコンテンツのフォルダープロファイル設定を開始するには、次が必要です。
 
@@ -30,8 +30,8 @@ ht-degree: 0%
 3. **Assetsを管理するフォルダーを作成**：フォルダーと同様に、異なる部署のニーズに応じて、異なるAssets フォルダーを作成することもできます。 また、作成者と公開者がテンプレート、画像、その他のアセットに設定された正しい CSS にアクセスできるようにします。
 
    ![](assets/configure-assets-folder.png){width="350" align="left"}
-4. [ フォルダープロファイルを作成 ](../cs-install-guide/conf-folder-level.md#create-and-configure-a-folder-level-profile) して、様々なフォルダーをマッピングします。
-5. **設定するフォルダープロファイルを選択する**：フォルダープロファイルを作成したら、[ ユーザー環境設定 ](../user-guide/intro-home-page.md#user-preferences) ページでフォルダープロファイルを選択して、作成者と公開者が正しいテンプレートにアクセスできるようにする必要があります。
+4. [&#x200B; フォルダープロファイルを作成 &#x200B;](../cs-install-guide/conf-folder-level.md#create-and-configure-a-folder-level-profile) して、様々なフォルダーをマッピングします。
+5. **設定するフォルダープロファイルを選択する**：フォルダープロファイルを作成したら、[&#x200B; ユーザー環境設定 &#x200B;](../user-guide/intro-home-page.md#user-preferences) ページでフォルダープロファイルを選択して、作成者と公開者が正しいテンプレートにアクセスできるようにする必要があります。
 
    ![](assets/folder-profile.png){width="650" align="left"}
 
@@ -39,8 +39,8 @@ ht-degree: 0%
    - [パネル](#configure-panels)
    - [テンプレート](#configure-templates)
    - [出力プリセット](#configure-output-presets)
-   - [HTML エディター ](#html-editor-settings)
-   - [ プロファイルの公開 ](#manage-publish-profiles)
+   - [HTML エディター &#x200B;](#html-editor-settings)
+   - [&#x200B; プロファイルの公開 &#x200B;](#manage-publish-profiles)
 
 これらの設定にアクセスするには、エディタービューに切り替えて、以下に示すように、**オプション** メニューから **設定** を選択します。
 
@@ -92,7 +92,7 @@ ht-degree: 0%
 
 ## テンプレートの設定
 
-この設定を使用すると、[ エディターの左側のパネル ](../user-guide/web-editor-left-panel.md) にあるオーサリングおよび公開テンプレートを管理できます。 オーサリングおよび出力テンプレートを追加、削除または並べ替えて、作成者や公開者からアクセスできるようにします。
+この設定を使用すると、[&#x200B; エディターの左側のパネル &#x200B;](../user-guide/web-editor-left-panel.md) にあるオーサリングおよび公開テンプレートを管理できます。 オーサリングおよび出力テンプレートを追加、削除または並べ替えて、作成者や公開者からアクセスできるようにします。
 
 ![](assets/templates-settings.png){width="350" align="left"}
 
@@ -124,7 +124,7 @@ ht-degree: 0%
 
 別のマップまたはトピックのテンプレートを使用するには、エディターのテンプレート パネルから新しいオーサリングテンプレートを作成します。 マップテンプレートを使用すると、学習コンテンツ、クイズ、または学習サマリー用の学習コースおよびトピックテンプレートを作成できます。
 
-詳しくは、[ エディターからカスタマイズされたテンプレートを作成する ](../user-guide/create-maps-customized-templates.md) を参照してください。
+詳しくは、[&#x200B; エディターからカスタマイズされたテンプレートを作成する &#x200B;](../user-guide/create-maps-customized-templates.md) を参照してください。
 
 ![](assets/authoring-templates-editor.png){width="350" align="left"}
 

@@ -45,6 +45,6 @@ AEM Guides 3.8 リリース以降、管理者は、ファイル名で使用で�
 
 >[!NOTE]
 >
-> 有効なファイル名文字のリストと同様に、AEM Site 出力の有効なファイル名文字のリストも指定できます。 詳しくは、[AEM サイト出力に有効なファイル名を設定する ](conf-file-names-valid-regx-aem-site-output.md#) を参照してください。
+> 有効なファイル名文字のリストと同様に、AEM Site 出力の有効なファイル名文字のリストも指定できます。 詳しくは、[AEM サイト出力に有効なファイル名を設定する &#x200B;](conf-file-names-valid-regx-aem-site-output.md#) を参照してください。
 
-**親トピック：**&#x200B;[ ファイル名の設定 ](conf-file-names.md)
+**親トピック：**&#x200B;[&#x200B; ファイル名の設定 &#x200B;](conf-file-names.md)

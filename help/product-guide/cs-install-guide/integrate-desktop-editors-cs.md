@@ -22,7 +22,7 @@ FrameMakerまたはその他の DITA エディタを使用して、DITA コン�
 
 デフォルトでは、AEM ツールバーに「**FrameMakerで開く** ボタンは表示されません。 次の手順を実行して、このボタンをAEM ツールバーに追加します。
 
-[ 設定の上書き ](download-install-additional-config-override.md#) の手順に従って、設定ファイルを作成します。 設定ファイルで、次の\（property\）の詳細を指定して、AEM ツールバーにこのボタンを追加します。
+[&#x200B; 設定の上書き &#x200B;](download-install-additional-config-override.md#) の手順に従って、設定ファイルを作成します。 設定ファイルで、次の\（property\）の詳細を指定して、AEM ツールバーにこのボタンを追加します。
 
 
 | PID | プロパティキー | プロパティの値 |

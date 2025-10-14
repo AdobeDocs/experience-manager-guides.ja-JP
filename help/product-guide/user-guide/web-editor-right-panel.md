@@ -41,11 +41,11 @@ ht-degree: 1%
 
 1. 「**追加**」を選択します。
 
-   ![ コンテンツプロパティの属性 ](images/properties-tab-attributes_cs.png){width="300" align="left"}
+   ![&#x200B; コンテンツプロパティの属性 &#x200B;](images/properties-tab-attributes_cs.png){width="300" align="left"}
 
 1. **属性** ドロップダウンパネルで、ドロップダウンリストから属性を選択し、属性の値を指定します。  次に、「**追加**」を選択します。
 
-   ![複数の属性を持つ属性パネル ](images/attributes-multiple-properties.png){width="300" align="left"}
+   ![複数の属性を持つ属性パネル &#x200B;](images/attributes-multiple-properties.png){width="300" align="left"}
 
 1. 属性を編集するには、その上にカーソルを移動し、 **編集** ![編集アイコン](images/edit_pencil_icon.svg)を選択します。
 
@@ -82,7 +82,7 @@ ht-degree: 1%
 - **作成日**: トピックが作成された日時を表示します。
 - **変更**&#x200B;日: トピックが変更された日時を表示します。
 - **ロック者**：トピックをロックしたユーザーを表示します。
-- **ドキュメントの状態**：現在開いているトピックのドキュメントの状態を選択および更新できます。 詳しくは、[ ドキュメントの状態 ](web-editor-document-states.md#) を参照してください。
+- **ドキュメントの状態**：現在開いているトピックのドキュメントの状態を選択および更新できます。 詳しくは、[&#x200B; ドキュメントの状態 &#x200B;](web-editor-document-states.md#) を参照してください。
 
 >[!NOTE]
 >
@@ -123,7 +123,7 @@ ht-degree: 1%
 >
 > コメントボックスと返信ボックスは複数行のエントリをサポートし、ユーザーは必要に応じてコメントを展開して、包括的なコメントとコメントに対する詳細な返信を提供できます。 コメントや返信を書いている間に次の行に移動するには、**Shift**+**Enter** を使用します。
 
-詳細については、[ アドレス確認のコメント ](review-address-review-comments.md#) を参照してください。
+詳細については、[&#x200B; アドレス確認のコメント &#x200B;](review-address-review-comments.md#) を参照してください。
 
 ## 変更の追跡
 
@@ -137,8 +137,8 @@ ht-degree: 1%
 
 「Schematron」は、XMLファイルのテストを定義するために使用されるルールベースの検証言語を指します。 エディターは Schematron ファイルをサポートしています。 Schematron ファイルを読み込んで、エディターで編集することもできます。 Schematron ファイルを使用すると、特定の規則を定義し、DITA トピックまたはマップに対して検証できます。
 
-Experience Manager Guidesでスキーマトロンファイルを使用する方法については、[ スキーマトロンファイルのサポート ](./support-schematron-file.md) を参照してください。
+Experience Manager Guidesでスキーマトロンファイルを使用する方法については、[&#x200B; スキーマトロンファイルのサポート &#x200B;](./support-schematron-file.md) を参照してください。
 
 
 
-**親トピック：**&#x200B;[ エディターの概要 ](web-editor.md)
+**親トピック：**&#x200B;[&#x200B; エディターの概要 &#x200B;](web-editor.md)

@@ -20,7 +20,7 @@ ht-degree: 0%
 
 変数を作成するには、次の手順を実行します。
 
-![ 新しい変数の作成 ](assets/add-variable-default.png){width="800" align="left"}
+![&#x200B; 新しい変数の作成 &#x200B;](assets/add-variable-default.png){width="800" align="left"}
 
 *変数の作成と変数の値の定義*
 
@@ -82,7 +82,7 @@ ht-degree: 0%
 1. **変数** パネルで変数を選択します。
 1. 変数にポインタを合わせて **オプション** メニューを表示し、「**プレビュー**」オプションを選択します。
 
-   ![ 変数パネルからの変数プレビュー ](assets/variables-panel-preview-default.png){width="550" align="left"}
+   ![&#x200B; 変数パネルからの変数プレビュー &#x200B;](assets/variables-panel-preview-default.png){width="550" align="left"}
 
 *変数のデフォルト値をプレビューします。*
 
@@ -126,7 +126,7 @@ Adobe Experience Managerガイドは、変数に代替値を割り当てるこ�
 変数セットには、変数を追加する前に設定する必要があります。
 
 1. 選択 **設定** **変数セットの設定** ダイアログボックスを開く <img alt= "設定アイコン" src="./assets/settings-icon.svg" width="25"> 法は次のとおりです。
-   ![ 変数セットの設定 ](assets/configure-variable-set.png){width="550" align="left"}
+   ![&#x200B; 変数セットの設定 &#x200B;](assets/configure-variable-set.png){width="550" align="left"}
 1. **名前** 列に変数セット名を入力します。
 1. 「**変数を追加**」を選択します。 新しい変数セットを追加で <img alt= "アイコンを追加" src="./assets/add-icon.svg" width="25"> ません。 変数セットはアルファベット順に表示されます。
 1. 「**削除**」を選択して、変数セットを削除できます。
@@ -158,7 +158,7 @@ Adobe Experience Managerガイドは、変数に代替値を割り当てるこ�
 変数セットの値をプレビューすることもできます。
 例えば、変数セット *Adobe-Set1* の場合、ProductName 変数の値を「ProductA」と定義しており、この値が変数エディターのプレビューに表示されます。
 
-![ 変数エディターからの変数プレビュー ](assets/variables-editor-preview.png){width="550" align="left"}
+![&#x200B; 変数エディターからの変数プレビュー &#x200B;](assets/variables-editor-preview.png){width="550" align="left"}
 
 *選択した変数セットで定義した値をプレビューします*。
 
@@ -179,7 +179,7 @@ ProductName などの変数をヘッダー領域に挿入するには、次の�
 
    >[!NOTE]
    >
-   > ページレイアウトを開いてカスタマイズや編集をおこなうための「[ ページレイアウトをカスタマイズ ](../native-pdf/components-pdf-template.md#customize-a-page-layout-customize-page-layout)」セクションを表示します。
+   > ページレイアウトを開いてカスタマイズや編集をおこなうための「[&#x200B; ページレイアウトをカスタマイズ &#x200B;](../native-pdf/components-pdf-template.md#customize-a-page-layout-customize-page-layout)」セクションを表示します。
 
 1. ヘッダーを選択してアクティブにし、変数を挿入します。
 
@@ -201,7 +201,7 @@ ProductName などの変数をヘッダー領域に挿入するには、次の�
 
 異なる変数の値を使用してPDF出力を生成できます。 レイアウトを生成する前に、出力プリセットの **変数セット** ドロップダウンリストから変数セットを選択し、値を選択します。
 
-![ 変数セットドロップダウン ](assets/output-preset-variable-dropdown.png){width="550" align="left"}
+![&#x200B; 変数セットドロップダウン &#x200B;](assets/output-preset-variable-dropdown.png){width="550" align="left"}
 
 *PDF 出力の生成に使用する変数セットを出力プリセットのドロップダウンから選択します。*
 

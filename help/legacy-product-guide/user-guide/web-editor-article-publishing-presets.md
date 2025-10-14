@@ -26,7 +26,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > 高度なマップ エディタを使用して、マップから任意のトピックを追加または削除できます。 詳細については、[ 詳細マップ エディタを使用する ](map-editor-advanced-map-editor.md#) を参照してください。
+   > 高度なマップ エディタを使用して、マップから任意のトピックを追加または削除できます。 詳細については、[&#x200B; 詳細マップ エディタを使用する &#x200B;](map-editor-advanced-map-editor.md#) を参照してください。
 
 1. 「**出力**」タブで「+」アイコンを選択して、DITA マップの出力プリセットを作成します。
 
@@ -61,4 +61,4 @@ ht-degree: 0%
 
 ![](images/edit-preset_cs.png){width="550" align="left"}
 
-**親トピック：**&#x200B;[ Web エディターからの記事ベースの公開 ](web-editor-article-publishing.md)
+**親トピック：**&#x200B;[&#x200B; Web エディターからの記事ベースの公開 &#x200B;](web-editor-article-publishing.md)

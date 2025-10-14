@@ -89,12 +89,12 @@ Ditamaps 自体は、ブックマップのように目次（TOC）を直接持�
 
 Ditamap を公開している場合、Native PDFが目次とブックリストを自動的に生成する機能を提供します。Native PDF設定から ditamap で目次の生成を有効/無効にできます。
 
-![ 目次を有効にする ](../assets/publishing/pageorder.png)
+![&#x200B; 目次を有効にする &#x200B;](../assets/publishing/pageorder.png)
 
 ## その他のリソース :
 
-- [ ネイティブPDFデザインページレイアウトのドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/design-page-layout)
-- [ ネイティブPDFの要点を事前に記録したエキスパートセッション ](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
+- [&#x200B; ネイティブPDFデザインページレイアウトのドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/design-page-layout)
+- [&#x200B; ネイティブPDFの要点を事前に記録したエキスパートセッション &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
 
 <br>
 <br>

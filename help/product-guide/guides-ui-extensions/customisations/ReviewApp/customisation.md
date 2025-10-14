@@ -19,7 +19,7 @@ ht-degree: 0%
 - id: `review_comment`
 - フック：`this.next('updateExtraProps')`:
 
-[ こちら ](../../aem_guides_framework/basic-customisation.md) で説明しているように、カスタマイズ中に追加された新しい属性は `this.model.extraProps` の下に置かれます。 メソッド `updateExtraProps` を使用すると、レビューコメントに属性を追加し、追加した属性のサーバー上での更新と保存も処理できます。
+[&#x200B; こちら &#x200B;](../../aem_guides_framework/basic-customisation.md) で説明しているように、カスタマイズ中に追加された新しい属性は `this.model.extraProps` の下に置かれます。 メソッド `updateExtraProps` を使用すると、レビューコメントに属性を追加し、追加した属性のサーバー上での更新と保存も処理できます。
 
 ### 使用例
 

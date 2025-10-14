@@ -15,7 +15,7 @@ ht-degree: 0%
 
 この記事では、Adobe Experience Manager Guides 2023 年 4 月バージョン（後で *AEM Guidesas a Cloud Service*）の新機能および拡張機能について説明します。
 
-アップグレードの手順、互換性マトリックス、およびこのリリースで修正された問題について詳しくは、[ リリースノート ](release-notes-2023-4-0.md) の記事を参照してください。
+アップグレードの手順、互換性マトリックス、およびこのリリースで修正された問題について詳しくは、[&#x200B; リリースノート &#x200B;](release-notes-2023-4-0.md) の記事を参照してください。
 
 ## PDF公開での高度なメタデータのサポート
 
@@ -44,4 +44,4 @@ AEM Guidesでは、改善されたアウトラインビューパネルが提供�
 AEM Guides as a Cloud Serviceは、大規模なパブリッシングワークロードをマイクロサービスベースのパブリッシングと同時に実行し、業界をリードするAdobe I/O Runtime サーバーレスプラットフォームを活用する機能を提供します。
 
 4 月のリリースで、複数の公開リクエストを同時に実行し、マイクロサービスベースのネイティブPDF公開を使用して一括PDF出力を非常に効率的に生成できるようになりました。
-詳しくは、[AEM Guidesas a Cloud Serviceの新しいマイクロサービスベースの公開を設定する ](../knowledge-base/publishing/configure-microservices.md) を参照してください。
+詳しくは、[AEM Guidesas a Cloud Serviceの新しいマイクロサービスベースの公開を設定する &#x200B;](../knowledge-base/publishing/configure-microservices.md) を参照してください。

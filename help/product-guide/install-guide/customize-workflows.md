@@ -31,7 +31,7 @@ AEMのワークフローについて詳しくは、以下を参照してくだ�
 
 ## レビューワークフローのカスタマイズ {#id176NE0C00HS}
 
-すべての組織のコンテンツオーサリングチームは、ビジネス要件を満たすために特定の方法で作業します。 組織によっては、専用のエディターがあるのに対して、他の組織では、自動編集審査システムを導入している場合があります。 例えば、組織では、一般的なオーサリングと公開のワークフローに、のようなタスクを含めることができます。作成者がコンテンツのオーサリングを完了すると、自動的にレビュー担当者に送信され、レビューが完了すると、最終出力を生成するために公開者に送信されます。 AEMでは、コンテンツやアセットに対して実行するアクティビティを、プロセスの形式で組み合わせて、AEMのワークフローにマッピングできます。 AEMのワークフローについて詳しくは、AEM ドキュメントの [ ワークフローの管理 ](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/workflows.html) を参照してください。
+すべての組織のコンテンツオーサリングチームは、ビジネス要件を満たすために特定の方法で作業します。 組織によっては、専用のエディターがあるのに対して、他の組織では、自動編集審査システムを導入している場合があります。 例えば、組織では、一般的なオーサリングと公開のワークフローに、のようなタスクを含めることができます。作成者がコンテンツのオーサリングを完了すると、自動的にレビュー担当者に送信され、レビューが完了すると、最終出力を生成するために公開者に送信されます。 AEMでは、コンテンツやアセットに対して実行するアクティビティを、プロセスの形式で組み合わせて、AEMのワークフローにマッピングできます。 AEMのワークフローについて詳しくは、AEM ドキュメントの [&#x200B; ワークフローの管理 &#x200B;](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/workflows.html) を参照してください。
 
 AEM Guidesでは、デフォルトのレビューワークフローをカスタマイズできます。 他のオーサリングワークフローまたは公開ワークフローで、次の 4 つのカスタムレビュー関連のプロセスを使用できます。
 
@@ -116,7 +116,7 @@ workflowdata.getMetaDataMap().put("reviewVersion","3.0");
 | `ditamap` | 文字列 | レビュータスクの ditamap のパスを指定します |
 | `allowAllReviewers` | ブーリアン | false/true |
 | `notifyViaEmail` | ブーリアン | false/true |
-| `reviewVersion` | 文字列 | レビューワークフローの現在のバージョンを指定します。 デフォルト値は `3.0` に設定されています。<br> [ 作成者 ](../user-guide/review-close-review-task.md) および [ レビュー担当者 ](../user-guide/review-complete-review-tasks.md) の新しいレビューワークフロー機能を有効にするには、`reviewVersion` が `3.0` に設定されていることを確認します。 |
+| `reviewVersion` | 文字列 | レビューワークフローの現在のバージョンを指定します。 デフォルト値は `3.0` に設定されています。<br> [&#x200B; 作成者 &#x200B;](../user-guide/review-close-review-task.md) および [&#x200B; レビュー担当者 &#x200B;](../user-guide/review-complete-review-tasks.md) の新しいレビューワークフロー機能を有効にするには、`reviewVersion` が `3.0` に設定されていることを確認します。 |
 
 
 スクリプトを作成したら、ワークフローで作成レビュープロセスを呼び出す前に呼び出します。 その後、要件に応じて、他のレビューワークフロープロセスを呼び出すことができます。
@@ -138,7 +138,7 @@ workflowdata.getMetaDataMap().put("reviewVersion","3.0");
 
 ### メールとAEM通知のカスタマイズ
 
-メール通知は、多数のAEM Guides ワークフローで利用されます。 例えば、レビュータスクを開始すると、レビュー担当者にメール通知が送信されます。 ただし、メール通知が送信されるようにするには、AEMでこの機能を有効にする必要があります。 AEMでメール通知を有効にするには、AEM ドキュメントの [ メール通知の設定 ](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=ja) を参照してください。
+メール通知は、多数のAEM Guides ワークフローで利用されます。 例えば、レビュータスクを開始すると、レビュー担当者にメール通知が送信されます。 ただし、メール通知が送信されるようにするには、AEMでこの機能を有効にする必要があります。 AEMでメール通知を有効にするには、AEM ドキュメントの [&#x200B; メール通知の設定 &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=ja) を参照してください。
 
 AEM Guidesには、カスタマイズ可能なメールおよびAEM通知のセットが含まれています。 これらの通知をカスタマイズするには、次の手順を実行します。
 

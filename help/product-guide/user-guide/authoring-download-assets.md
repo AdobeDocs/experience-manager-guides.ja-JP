@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # ファイルをダウンロード {#id216MC0H0BE8}
 
-DITA ファイルと非 DITA ファイルを含むアセットをダウンロードできます。 アセットをダウンロードする方法は複数あります。Adobe Experience Managerにネイティブな方法もあれば、Adobe Experience Manager Guidesでサポートされている方法もあります。 Adobe Experience Managerのネイティブなアセットのダウンロード情報については、Adobe Experience Manager ドキュメントの [Adobe Experience Managerからのアセットのダウンロード ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html?lang=ja) を参照してください。 次の節では、Experience Manager Guidesでのファイルのダウンロードのしくみについて説明します。
+DITA ファイルと非 DITA ファイルを含むアセットをダウンロードできます。 アセットをダウンロードする方法は複数あります。Adobe Experience Managerにネイティブな方法もあれば、Adobe Experience Manager Guidesでサポートされている方法もあります。 Adobe Experience Managerのネイティブなアセットのダウンロード情報については、Adobe Experience Manager ドキュメントの [Adobe Experience Managerからのアセットのダウンロード &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html?lang=ja) を参照してください。 次の節では、Experience Manager Guidesでのファイルのダウンロードのしくみについて説明します。
 
 ## エディタから DITA マップファイルをダウンロードします
 
@@ -32,7 +32,7 @@ DITA ファイルと非 DITA ファイルを含むアセットをダウンロー
 
 1. マップをダウンロード ダイアログでは、次のオプションを選択できます。
 
-   - **ベースラインを使用**:DITA マップ用に作成されたベースラインのリストを取得するには、このオプションを選択します。 特定のベースラインに基づいてマップ・ファイルとそのコンテンツをダウンロードする場合は、ドロップダウン・リストから「ベースライン」を選択します。 ベースラインの操作の詳細については、「[ ベースラインの操作 ](generate-output-use-baseline-for-publishing.md#)」を参照してください。
+   - **ベースラインを使用**:DITA マップ用に作成されたベースラインのリストを取得するには、このオプションを選択します。 特定のベースラインに基づいてマップ・ファイルとそのコンテンツをダウンロードする場合は、ドロップダウン・リストから「ベースライン」を選択します。 ベースラインの操作の詳細については、「[&#x200B; ベースラインの操作 &#x200B;](generate-output-use-baseline-for-publishing.md#)」を参照してください。
 
    - **ファイル階層オプション**: ファイル階層ドロップダウンを使用して、ダウンロードしたマップファイルのフォルダー構造を処理する方法を選択することもできます。 使用できるオプションは以下のとおりです。
 
@@ -86,7 +86,7 @@ DITA マップファイルをAdobe Experience Manager リポジトリに格納�
 
 1. 「**ダウンロード**」を選択します。 マップをダウンロード ダイアログでは、次のオプションを選択できます。
 
-   - **ベースラインを使用**:DITA マップ用に作成されたベースラインのリストを取得するには、このオプションを選択します。 特定のベースラインに基づいてマップ・ファイルとそのコンテンツをダウンロードする場合は、ドロップダウン・リストから「ベースライン」を選択します。 ベースラインの操作の詳細については、「[ ベースラインの操作 ](generate-output-use-baseline-for-publishing.md#)」を参照してください。
+   - **ベースラインを使用**:DITA マップ用に作成されたベースラインのリストを取得するには、このオプションを選択します。 特定のベースラインに基づいてマップ・ファイルとそのコンテンツをダウンロードする場合は、ドロップダウン・リストから「ベースライン」を選択します。 ベースラインの操作の詳細については、「[&#x200B; ベースラインの操作 &#x200B;](generate-output-use-baseline-for-publishing.md#)」を参照してください。
 
    - **ファイル階層を統合**：参照されるすべてのトピックおよびメディアファイルを 1 つのフォルダーに保存するには、このオプションを選択します。
 
@@ -111,4 +111,4 @@ DITA マップファイルをAdobe Experience Manager リポジトリに格納�
 
 マップがダウンロードされたら、マップを選択し、上部の「開く」アイコンを使用して、選択したレポートを開くことができます。
 
-**親トピック：**&#x200B;[ コンテンツの管理 ](authoring.md)
+**親トピック：**&#x200B;[&#x200B; コンテンツの管理 &#x200B;](authoring.md)

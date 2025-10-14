@@ -49,7 +49,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > サードパーティの翻訳サービスとの統合について詳しくは、Adobe Experience Manager ドキュメントの [ 翻訳統合フレームワークの設定 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=ja) を参照してください。
+   > サードパーティの翻訳サービスとの統合について詳しくは、Adobe Experience Manager ドキュメントの [&#x200B; 翻訳統合フレームワークの設定 &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=ja) を参照してください。
 
 1. **保存して閉じる** を選択して、更新したフォルダープロパティを保存します。
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 1. 翻訳ジョブのステータスを表示するには、「**翻訳ジョブ**」タイルの一番下にある省略記号を選択します。
 
 
-翻訳が完了すると、翻訳ジョブのステータスが *レビューへの準備完了* に変わります。 翻訳プロセスを完了するには、プロジェクトコンソールの翻訳ジョブタイルから翻訳済みコピーとアセットメタデータを承認する必要があります。 新しい翻訳プロジェクトを開始する場合は、「[ 翻訳プロジェクトの作成 ](translate-documents-web-editor.md#create-a-translation-project)」を表示します。
+翻訳が完了すると、翻訳ジョブのステータスが *レビューへの準備完了* に変わります。 翻訳プロセスを完了するには、プロジェクトコンソールの翻訳ジョブタイルから翻訳済みコピーとアセットメタデータを承認する必要があります。 新しい翻訳プロジェクトを開始する場合は、「[&#x200B; 翻訳プロジェクトの作成 &#x200B;](translate-documents-web-editor.md#create-a-translation-project)」を表示します。
 
 >[!NOTE]
 >
@@ -79,4 +79,4 @@ ht-degree: 0%
 >- （任意のプロジェクトの）複数のプロジェクトに存在するトピックの翻訳ジョブを拒否、削除またはキャンセルした場合、トピックの **進行中** 翻訳ステータスは元に戻りませんが、そのプロジェクトは、指定されたアセットの **進行中** プロジェクトリストから削除されます。
 >- さらに、翻訳ジョブをキャンセルまたは削除した場合、またはプロジェクト全体を削除した場合、翻訳のステータス **処理中** は元のステータスに戻ります。
 
-**親トピック：**&#x200B;[ コンテンツ翻訳の概要 ](translation.md)
+**親トピック：**&#x200B;[&#x200B; コンテンツ翻訳の概要 &#x200B;](translation.md)

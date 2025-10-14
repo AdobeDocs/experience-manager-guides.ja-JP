@@ -15,7 +15,7 @@ ht-degree: 0%
 
 この記事では、Adobe Experience Manager Guides 2023 年 2 月バージョン（後で *AEM Guidesas a Cloud Service*）の新機能および拡張機能について説明します。
 
-アップグレードの手順、互換性マトリックス、およびこのリリースで修正された問題について詳しくは、[ リリースノート ](release-notes-2023-2-0.md) の記事を参照してください。
+アップグレードの手順、互換性マトリックス、およびこのリリースで修正された問題について詳しくは、[&#x200B; リリースノート &#x200B;](release-notes-2023-2-0.md) の記事を参照してください。
 
 
 ## Web エディターからのレポートの生成
@@ -126,7 +126,7 @@ AEM Guidesで、「設定」から「**エディターでタイトルを使用�
 
 公開リクエストごとに、AEM Guidesas a Cloud Serviceは個別のコンテナを実行し、ユーザーリクエストに応じて水平方向に拡大・縮小します。 これにより、複数の公開リクエストを実行し、パフォーマンスを向上させることができます。
 
-詳しくは、[AEM Guidesas a Cloud Serviceの新しいマイクロサービスベースの公開を設定する ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/publishing/configure-microservices.md) を参照してください。
+詳しくは、[AEM Guidesas a Cloud Serviceの新しいマイクロサービスベースの公開を設定する &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/publishing/configure-microservices.md) を参照してください。
 
 ## ネイティブPDF | PDF出力へのカスタムブックマークの追加
 

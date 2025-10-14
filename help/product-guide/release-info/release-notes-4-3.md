@@ -15,7 +15,7 @@ ht-degree: 1%
 
 このリリースノートでは、Adobe Experience Manager Guidesのバージョン 4.3.0 （以降は *AEM Guides*）で修正されたアップグレード手順、互換性マトリックスおよび問題について説明します。
 
-新機能と機能強化について詳しくは、[Adobe Experience Manager Guides 4.3.0 リリースの新機能 ](./whats-new-4-3-release.md) を参照してください。
+新機能と機能強化について詳しくは、[Adobe Experience Manager Guides 4.3.0 リリースの新機能 &#x200B;](./whats-new-4-3-release.md) を参照してください。
 
 ## AEM Guidesの 4.3.0 リリースへのアップグレード
 
@@ -35,7 +35,7 @@ AEM Guidesはバージョン 4.3.0 へアップグレードできます。
 >
 >AEM Guides版をアップグレードする前に、AEM サービスパックをインストールする必要があります。
 
-詳しくは、[ アップグレードの手順 ](../install-guide/upgrade-xml-documentation.md) を参照してください。
+詳しくは、[&#x200B; アップグレードの手順 &#x200B;](../install-guide/upgrade-xml-documentation.md) を参照してください。
 
 ## 互換性マトリックス
 

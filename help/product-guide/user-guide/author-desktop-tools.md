@@ -17,7 +17,7 @@ Experience Manager Guidesは、Adobe FrameMakerや Oxygen XML Editor などの�
 
 **FrameMakerの操作**
 
-FrameMakerでは、Experience Manager Guidesでのコンテンツのオーサリングと公開をサポートしています。 FrameMakerには、Adobe Experience Managerに対する標準のコネクタが付属しています。 また、FrameMakerには、分散した共同作業環境でドキュメントのバージョンを管理できる、使いやすいインターフェイスも用意されています。 FrameMakerでコンテンツをオーサリングし、様々な形式（PDF、HTML5、EPUB、DITA）で公開できます。 また、チェックアウト、扶養家族とのチェックアウト、チェックイン、更新など、様々なファイル管理操作を実行できます。 詳細については、[FrameMaker ヘルプ ](https://help.adobe.com/en_US/framemaker/using/index.html) を参照してください。
+FrameMakerでは、Experience Manager Guidesでのコンテンツのオーサリングと公開をサポートしています。 FrameMakerには、Adobe Experience Managerに対する標準のコネクタが付属しています。 また、FrameMakerには、分散した共同作業環境でドキュメントのバージョンを管理できる、使いやすいインターフェイスも用意されています。 FrameMakerでコンテンツをオーサリングし、様々な形式（PDF、HTML5、EPUB、DITA）で公開できます。 また、チェックアウト、扶養家族とのチェックアウト、チェックイン、更新など、様々なファイル管理操作を実行できます。 詳細については、[FrameMaker ヘルプ &#x200B;](https://help.adobe.com/en_US/framemaker/using/index.html) を参照してください。
 
 **酸素の操作**
 
@@ -27,4 +27,4 @@ Oxygen XML Author には、使いやすいオーサリング機能が付属し�
 
 *環境内でこの機能を有効にするには、カスタマーサクセスチームにお問い合わせください。 これは、標準のサポートの一部として有効になっていません。*
 
-**親トピック：**&#x200B;[ コンテンツを作成 ](authoring-content.md)
+**親トピック：**&#x200B;[&#x200B; コンテンツを作成 &#x200B;](authoring-content.md)

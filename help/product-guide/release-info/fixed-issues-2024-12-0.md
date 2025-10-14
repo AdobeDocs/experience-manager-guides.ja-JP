@@ -13,7 +13,7 @@ ht-degree: 1%
 
 この記事では、Adobe Experience Manager Guidesas a Cloud Serviceの 2024.12.0 リリースの様々な領域で修正されたバグについて説明します。
 
-[2024.12.0 リリースのアップグレード手順 ](./upgrade-instructions-2024-12-0.md) について説明します。
+[2024.12.0 リリースのアップグレード手順 &#x200B;](./upgrade-instructions-2024-12-0.md) について説明します。
 
 ## オーサリング
 

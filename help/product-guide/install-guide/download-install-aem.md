@@ -16,16 +16,16 @@ ht-degree: 0%
 
 AEM Guidesは、Adobe Experience Managerにインストールされるプラグインです。 AEMをインストールするには、AEMのいくつかの基本的な概念と推奨されるデプロイメントシナリオに関する理解が必要です。 次のリンクは、AEMのインストールを開始する際に役立ちます。
 
-- [AEMの基本概念 ](https://helpx.adobe.com/jp/experience-manager/6-5/sites/deploying/using/deploy.html#BasicConcepts)
+- [AEMの基本概念 &#x200B;](https://helpx.adobe.com/jp/experience-manager/6-5/sites/deploying/using/deploy.html#BasicConcepts)
 
-- [ 推奨されるAEM デプロイメント ](https://helpx.adobe.com/jp/experience-manager/6-5/sites/deploying/using/recommended-deploys.html)
+- [&#x200B; 推奨されるAEM デプロイメント &#x200B;](https://helpx.adobe.com/jp/experience-manager/6-5/sites/deploying/using/recommended-deploys.html)
 
 
 >[!IMPORTANT]
 >
 > AEM 6.5.x で Java 11 を使用している場合は、問題が発生する可能性があります。*JDK 11 が原因`NoClassDefFoundError`* す。 この問題を解決するには、[JDK 11 が原因で NoClassDefFoundError \| AEM 6.5](https://helpx.adobe.com/experience-manager/kb/jdk-11-causes-noclassdeffounderror---aem-6-5.html) の記事を参照してください。
 
-組織に最適なデプロイメント方法を特定したら、AEM ドキュメントの *[はじめに ](https://helpx.adobe.com/jp/experience-manager/6-5/sites/deploying/using/deploy.html#GettingStarted)* の節に従ってインストールプロセスを実行します。
+組織に最適なデプロイメント方法を特定したら、AEM ドキュメントの *[はじめに &#x200B;](https://helpx.adobe.com/jp/experience-manager/6-5/sites/deploying/using/deploy.html#GettingStarted)* の節に従ってインストールプロセスを実行します。
 
 AEM インスタンスをアップグレードする場合は、次の順序に従う必要があります。
 
@@ -35,6 +35,6 @@ AEM インスタンスをアップグレードする場合は、次の順序に�
 
 >[!IMPORTANT]
 >
-> システムパフォーマンスを向上させるために検討できるパフォーマンス最適化の推奨事項が多数あります。 詳しくは、[ パフォーマンスの最適化のRecommendations](download-install-recommend-perf-optimiz.md#) を参照してください。
+> システムパフォーマンスを向上させるために検討できるパフォーマンス最適化の推奨事項が多数あります。 詳しくは、[&#x200B; パフォーマンスの最適化のRecommendations](download-install-recommend-perf-optimiz.md#) を参照してください。
 
-**親トピック：**&#x200B;[ ダウンロードとインストール ](download-install.md)
+**親トピック：**&#x200B;[&#x200B; ダウンロードとインストール &#x200B;](download-install.md)

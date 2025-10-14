@@ -33,4 +33,4 @@ DITA マップの一部のトピックのコンテンツのみを更新した場
 - **[リポジトリパネルまたはマップビューパネルからの出力を生成する](web-editor-article-publishing-output.md)**
 
 
-**親トピック：**&#x200B;[ Web エディタの操作 ](web-editor.md)
+**親トピック：**&#x200B;[&#x200B; Web エディタの操作 &#x200B;](web-editor.md)

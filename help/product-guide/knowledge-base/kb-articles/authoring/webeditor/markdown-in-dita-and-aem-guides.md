@@ -30,7 +30,7 @@ AEM Guidesで Markdown ファイルを使用する方法には、次の 2 つの
 
 サンプルファイル :[Markdown Ditamap](https://acrobat.adobe.com/id/urn:aaid:sc:AP:da31137e-be84-44fb-8974-d038eeff0283)
 
-![ 参照用のスクリーンショット ](../../assets/authoring/markdown_map.png)
+![&#x200B; 参照用のスクリーンショット &#x200B;](../../assets/authoring/markdown_map.png)
 
 
 #### PublishからPDFおよび web への出力
@@ -44,14 +44,14 @@ AEM Guidesには、Markdown コンテンツを使用して ditamap を公開す�
 Markdown から DITA への変換は、Adobe FrameMakerや DITA-OT などの外部ツールを使用して行うことができます。
 
 
-Adobe FrameMakerについては、[Markdown の読み込み ](https://www.adobe.com/in/products/framemaker/features.html#import-markdown) を参照してください。
+Adobe FrameMakerについては、[Markdown の読み込み &#x200B;](https://www.adobe.com/in/products/framemaker/features.html#import-markdown) を参照してください。
 
 DITA-OT については、[Markdown as Input](https://www.dita-ot.org/dev/topics/markdown-input.html) を参照してください。
 
-Adobe FrameMakerを使用して変換されたサンプルファイル : [Markdown から DITA サンプルへ ](https://acrobat.adobe.com/id/urn:aaid:sc:AP:874881f3-ba43-410c-abc6-2df899536d79)
+Adobe FrameMakerを使用して変換されたサンプルファイル : [Markdown から DITA サンプルへ &#x200B;](https://acrobat.adobe.com/id/urn:aaid:sc:AP:874881f3-ba43-410c-abc6-2df899536d79)
 
 #### PublishからPDFおよび web への出力
 
 Markdown ファイルを DITA に変換すると、AEM Guidesで使用可能な任意のフォーマットに出力をシームレスに公開できます。
 
-AEM Guidesで使用可能な形式：[ 出力形式 ](../../../../user-guide/generate-output-understand-presets.md)
+AEM Guidesで使用可能な形式：[&#x200B; 出力形式 &#x200B;](../../../../user-guide/generate-output-understand-presets.md)

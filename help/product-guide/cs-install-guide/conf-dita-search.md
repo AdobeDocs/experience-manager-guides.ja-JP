@@ -24,7 +24,7 @@ DITA コンテンツ検索を設定するには、次のタスクを実行しま
 1. [検索でのカスタム要素または属性の追加](#id192SF0G10YK)
 1. [既存のコンテンツからのメタデータの抽出](#id192SF0GA0HT)
 
-検索機能の追加に加えて、検索に含めないフォルダーを設定することもできます。 詳しくは、[ 検索結果から一時ファイルを除外する ](#id197AHI0035Z) を参照してください。
+検索機能の追加に加えて、検索に含めないフォルダーを設定することもできます。 詳しくは、[&#x200B; 検索結果から一時ファイルを除外する &#x200B;](#id197AHI0035Z) を参照してください。
 
 ## Assets UI での DITA Element 検索コンポーネントの追加 {#id192SF0F50HS}
 
@@ -182,7 +182,7 @@ XPath クエリには、ドキュメントタイプのクラス名が含まれ�
 1. configMgr でのメタデータ抽出オプションの有効化
 1. メタデータ抽出ワークフローの実行
 
-[ 設定の上書き ](download-install-additional-config-override.md#) の手順に従って、設定ファイルを作成します。 メタデータ抽出オプションを設定するには、設定ファイルに次の\（property\）の詳細を入力します。
+[&#x200B; 設定の上書き &#x200B;](download-install-additional-config-override.md#) の手順に従って、設定ファイルを作成します。 メタデータ抽出オプションを設定するには、設定ファイルに次の\（property\）の詳細を入力します。
 
 | PID | プロパティキー | プロパティの値 |
 |---|------------|--------------|
@@ -219,7 +219,7 @@ AEM Guidesが一時的な翻訳フォルダーの場所を検索しないよう�
 
 >[!NOTE]
 >
-> この手順を使用して、除外リストにその他のフォルダーの場所を追加できます。 インデックスの操作について詳しくは、[ コンテンツの検索とインデックス作成 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html?lang=ja) を参照してください。
+> この手順を使用して、除外リストにその他のフォルダーの場所を追加できます。 インデックスの操作について詳しくは、[&#x200B; コンテンツの検索とインデックス作成 &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html?lang=ja) を参照してください。
 
 1. カスタム damAssetLucene インデックスに次のプロパティを追加します。
 

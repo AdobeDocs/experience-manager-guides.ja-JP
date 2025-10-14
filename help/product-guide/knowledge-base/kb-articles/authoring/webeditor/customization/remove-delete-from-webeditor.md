@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Webeditor のファイルコンテキストメニューから「削除」オプションを削除
 
-この記事では、特定のユーザーまたはグループに対して、AEM Guides web エディターのファイルコンテキストメニューから「削除」オプションを非表示にする方法について説明します。 ファイルコンテキストメニューオプションのその他のカスタマイズについては、Guides Extension フレームワークを参照してください。 詳しくは、[ こちら ](https://github.com/adobe/guides-extension/tree/main) を参照してください。
+この記事では、特定のユーザーまたはグループに対して、AEM Guides web エディターのファイルコンテキストメニューから「削除」オプションを非表示にする方法について説明します。 ファイルコンテキストメニューオプションのその他のカスタマイズについては、Guides Extension フレームワークを参照してください。 詳しくは、[&#x200B; こちら &#x200B;](https://github.com/adobe/guides-extension/tree/main) を参照してください。
 
 以下のスニペットからわかるように、ファイルのコンテキストメニューには、この特定のユーザーに対して「削除」オプションが用意されています。
 
@@ -28,9 +28,9 @@ ht-degree: 0%
 - 権限「jcr:removeChildNodes」および「jcr:removeNode」を含めます。
 - 「権限タイプ」を「拒否」として選択し、「追加」をクリックします（下図を参照）。
 
-![ ユーザー権限による ACE の拒否 ](../../../assets/authoring/permission-ACE-Delete.png)
+![&#x200B; ユーザー権限による ACE の拒否 &#x200B;](../../../assets/authoring/permission-ACE-Delete.png)
 
-![ 権限のアクセス制御リスト ](../../../assets/authoring/delete-acl.png)
+![&#x200B; 権限のアクセス制御リスト &#x200B;](../../../assets/authoring/delete-acl.png)
 
 ### テスト
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 ファイルのコンテキストメニューは次のようになります。
 
-![ 削除なしのファイル contextmenu](../../../assets/authoring/file-contextmenu-Delete-removed.png)
+![&#x200B; 削除なしのファイル contextmenu](../../../assets/authoring/file-contextmenu-Delete-removed.png)
 
 ```
 Please note that these steps would also remove 'move' and 'rename' options from the Web Editor as they are also tied to delete process at the backend.

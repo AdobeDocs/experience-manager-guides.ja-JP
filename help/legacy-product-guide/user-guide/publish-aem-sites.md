@@ -32,7 +32,7 @@ Sites ページを生成するには、次の手順を実行します。
 
 
 1. **サイトのページを生成** ダイアログボックスで、次の詳細を入力します。
-   ![ サイトを生成ページでパスとテンプレートの詳細を追加する ](images/aem-sites-page-generate.png){width="500" align="left"}
+   ![&#x200B; サイトを生成ページでパスとテンプレートの詳細を追加する &#x200B;](images/aem-sites-page-generate.png){width="500" align="left"}
 
    *パス、タイトル、名前、テンプレートの詳細を追加して、トピックまたはその要素を Sites ページとして公開します。 *
 
@@ -58,7 +58,7 @@ Sites ページを生成するには、次の手順を実行します。
 1. 「**生成**」をクリックして、Sites ページを公開します。
 1. トピックの Sites ページは、「**ファイルのプロパティ** の「**出力**」セクションで確認できます。 サイトページは、公開の日時に応じて、最新のページが最初に表示されます。
 
-   ![ トピックの Sites ページを表示 ](images/aem-sites-outputs.png){width=300 align=&quot;left&quot;}
+   ![&#x200B; トピックの Sites ページを表示 &#x200B;](images/aem-sites-outputs.png){width=300 align=&quot;left&quot;}
 
    *トピックに関して存在する Sites ページを表示し、それらを再公開します*。
 

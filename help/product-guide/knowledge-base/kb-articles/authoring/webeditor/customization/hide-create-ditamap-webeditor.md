@@ -17,13 +17,13 @@ ht-degree: 0%
 ## 前提条件
 
 AEM Guides拡張機能パッケージを利用して、必要に応じてアプリの UI をカスタマイズできます。
-Guides 拡張機能フレームワークの仕組みについて詳しくは、この [ ドキュメント ](https://github.com/adobe/guides-extension/tree/main) を参照してください。
+Guides 拡張機能フレームワークの仕組みについて詳しくは、この [&#x200B; ドキュメント &#x200B;](https://github.com/adobe/guides-extension/tree/main) を参照してください。
 
 それでは、それでは、フォルダーコンテキストメニューをカスタマイズして、オーサー以外のすべてのユーザーに対してこのオプションを非表示にする方法について説明します。
 
 以下のスニペットからわかるように、「DitaMap を作成」オプションは作成者ユーザーに対して表示されます。
 
-![DitaMap 作成オプションを表示 ](../../../assets/authoring/ditamap-show-author.png)
+![DitaMap 作成オプションを表示 &#x200B;](../../../assets/authoring/ditamap-show-author.png)
 
 次に、Guides 拡張機能フレームワークを使用してこのオプションを非表示にする方法を見てみましょう。
 
@@ -122,7 +122,7 @@ controller: {
 - 作成者グループに属していないユーザーでAEMにログインします。 「DitaMap を作成」オプションは、以下に示すように、どのフォルダのコンテキストメニューでも非表示になります。
 このユースケースは GIT に追加されました。以下の関連リソースを参照してください。
 
-![ 作成 DitaMap オプションを非表示 ](../../../assets/authoring/ditamap-hide-non-author.png)
+![&#x200B; 作成 DitaMap オプションを非表示 &#x200B;](../../../assets/authoring/ditamap-hide-non-author.png)
 
 ### 関連リソース
 
@@ -130,7 +130,7 @@ controller: {
 
 - **ドキュメント** - [on Experience League](../../../../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)
 
-- **ドキュメント化された一般的なユースケース** - [Experience League時 ](../../../../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
+- **ドキュメント化された一般的なユースケース** - [Experience League時 &#x200B;](../../../../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
 
 - **サンプルを使用した公開リポジトリ** - [on GIT](https://github.com/adobe/guides-extension/tree/sc-expert-session)。 ブランチ sc-expert-session を参照します
 

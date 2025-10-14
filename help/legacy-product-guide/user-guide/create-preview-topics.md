@@ -21,4 +21,4 @@ AEM Guidesには、Assets UI から DITA トピックを作成する強力な機
 - **[トピックのプレビュー](web-editor-preview-topics.md)**
 
 
-**親トピック：**&#x200B;[ コンテンツを作成 ](authoring-content.md)
+**親トピック：**&#x200B;[&#x200B; コンテンツを作成 &#x200B;](authoring-content.md)

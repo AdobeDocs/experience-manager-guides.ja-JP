@@ -39,6 +39,6 @@ AEM Guidesは、AEM Site、PDF、ナレッジベース、HTML5、EPUB、JSON な
 
 - **[JSON](generate-output-json.md)**
 
-Experience Manager Guidesの管理者は、グローバルプロファイルとフォルダープロファイルの出力プリセットを作成および管理できます。 詳しくは、[ グローバルプロファイルおよびフォルダープロファイル出力プリセットの管理 ](./web-editor-manage-output-presets.md) を参照してください。
+Experience Manager Guidesの管理者は、グローバルプロファイルとフォルダープロファイルの出力プリセットを作成および管理できます。 詳しくは、[&#x200B; グローバルプロファイルおよびフォルダープロファイル出力プリセットの管理 &#x200B;](./web-editor-manage-output-presets.md) を参照してください。
 
-**親トピック：**&#x200B;[ 出力生成 ](generate-output.md)
+**親トピック：**&#x200B;[&#x200B; 出力生成 &#x200B;](generate-output.md)

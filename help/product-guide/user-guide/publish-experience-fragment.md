@@ -37,11 +37,11 @@ Experience Manager Guidesを使用すると、トピックまたはその要素�
      フォルダーに許可されたテンプレートを定義しない場合、デフォルトでは、親フォルダーまたは templates フォルダーからテンプレートが選択されます。
    * **並べ替え可能**：フォルダー内のアセットの順序を変更できます。
 
-     ![ フォルダープロパティにクラウド設定の詳細を追加する ](images/experience-fragment-folder-properties.png){width="650" align="left"}
+     ![&#x200B; フォルダープロパティにクラウド設定の詳細を追加する &#x200B;](images/experience-fragment-folder-properties.png){width="650" align="left"}
      *フォルダープロパティにクラウド設定を追加し、フラグメントテンプレートと接続します。*
-1. エクスペリエンスフラグメントを生成するには、トピックの **ファイルのプロパティ** にある ![ 出力 **セクションから** 新しい出力 ](./images/Add_icon.svg)**新しい出力アイコン** を選択します。
+1. エクスペリエンスフラグメントを生成するには、トピックの **ファイルのプロパティ** にある ![&#x200B; 出力 **セクションから** 新しい出力 &#x200B;](./images/Add_icon.svg)**新しい出力アイコン** を選択します。
 1. 「**エクスペリエンスフラグメント**」を選択します。\
-   ![[ ファイル プロパティ ] の [ オプション ] タブ ](./images/file-properties-outputs-new.png){width="300" align="left"}
+   ![[ ファイル プロパティ ] の [ オプション ] タブ &#x200B;](./images/file-properties-outputs-new.png){width="300" align="left"}
 
    *トピックのファイルのプロパティから新しいエクスペリエンスフラグメントを追加します*。
 
@@ -50,7 +50,7 @@ Experience Manager Guidesを使用すると、トピックまたはその要素�
    > **リポジトリ表示** からエクスペリエンスフラグメントを公開することもできます。 エクスペリエンスフラグメントとして公開するトピックを選択します。 次に、**オプション** メニューから **公開形式**/**エクスペリエンスフラグメント** を選択します。
 
 1. **エクスペリエンスフラグメントを生成** ダイアログボックスで、次の詳細を入力します。
-   ![ エクスペリエンスフラグメントとして公開ダイアログでフラグメントモデルとマッピングの詳細を追加 ](images/experience-fragment-generate.png){width="500" align="left"}
+   ![&#x200B; エクスペリエンスフラグメントとして公開ダイアログでフラグメントモデルとマッピングの詳細を追加 &#x200B;](images/experience-fragment-generate.png){width="500" align="left"}
 
    *パス、テンプレート、マッピングの詳細を追加して、トピックまたはその要素をエクスペリエンスフラグメントとして公開します。 既存のエクスペリエンスフラグメントを上書きできます。*
 
@@ -62,7 +62,7 @@ Experience Manager Guidesを使用すると、トピックまたはその要素�
 
 
 
-     管理者は、マッピングを *experienceFragmentMapping.json* ファイルに追加できます。  [ トピックとエクスペリエンスフラグメント間のマッピングを作成する ](../cs-install-guide/conf-experience-fragment-mapping-cs.md) 方法について詳しくは、インストールおよび設定ガイドを参照してください。
+     管理者は、マッピングを *experienceFragmentMapping.json* ファイルに追加できます。  [&#x200B; トピックとエクスペリエンスフラグメント間のマッピングを作成する &#x200B;](../cs-install-guide/conf-experience-fragment-mapping-cs.md) 方法について詳しくは、インストールおよび設定ガイドを参照してください。
 
    * また、様々な条件を選択してコンテンツを公開することもできます。  次のいずれかのオプションを選択します。
 
@@ -80,7 +80,7 @@ Experience Manager Guidesを使用すると、トピックまたはその要素�
 1. 「**生成**」を選択して、エクスペリエンスフラグメントを公開します。
 1. **ファイルのプロパティ** の「**出力**」セクションで、トピックのエクスペリエンスフラグメントを表示できます。 エクスペリエンスフラグメントは、公開の日時に応じて、最新のを最初に表示します。
 
-   ![ トピックのエクスペリエンスフラグメントを表示 ](images/experience-fragment-outputs-new.png){width=300 align=&quot;left&quot;}
+   ![&#x200B; トピックのエクスペリエンスフラグメントを表示 &#x200B;](images/experience-fragment-outputs-new.png){width=300 align=&quot;left&quot;}
 
    *トピックに存在するエクスペリエンスフラグメントを表示し、再公開します*。
 

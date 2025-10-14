@@ -23,17 +23,17 @@ ht-degree: 10%
 
 コンテンツの翻訳には次の手順が含まれます。
 
-1. AEMを [ 翻訳サービスプロバイダー ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=ja) に接続し、翻訳統合フレームワーク設定を作成します。
+1. AEMを [&#x200B; 翻訳サービスプロバイダー &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=ja) に接続し、翻訳統合フレームワーク設定を作成します。
 
 1. 翻訳サービスとフレームワークの設定に言語マスターのページを関連付けます。
 
-1. [ 翻訳するコンテンツ ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/rules.html?lang=ja) のタイプを特定します。
+1. [&#x200B; 翻訳するコンテンツ &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/rules.html?lang=ja) のタイプを特定します。
 
 1. [翻訳するコンテンツを準備](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html?lang=ja)します。そのためには、言語マスターをオーサリングして、言語コピーのルートページを作成します。
 
-1. [ 翻訳プロジェクト ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=ja) を作成して、翻訳するコンテンツを収集し、翻訳プロセスを準備します。
+1. [&#x200B; 翻訳プロジェクト &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=ja) を作成して、翻訳するコンテンツを収集し、翻訳プロセスを準備します。
 
-1. 翻訳プロジェクトを使用して [ コンテンツの翻訳の管理 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=ja) プロセスを実行します。
+1. 翻訳プロジェクトを使用して [&#x200B; コンテンツの翻訳の管理 &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=ja) プロセスを実行します。
 
 
 AEMとの統合のためのコネクタが翻訳サービスプロバイダーに用意されていない場合、AEMでは翻訳済みコンテンツ（XML 形式）の手動による書き出しと読み込みがサポートされます。
@@ -46,7 +46,7 @@ AEMとの統合のためのコネクタが翻訳サービスプロバイダー�
 
 DITA マップダッシュボードの「翻訳」 タブを非表示にするには、次の手順を実行します。
 
-1. [ 設定の上書き ](download-install-additional-config-override.md#) の手順に従って、設定ファイルを作成します。
+1. [&#x200B; 設定の上書き &#x200B;](download-install-additional-config-override.md#) の手順に従って、設定ファイルを作成します。
 1. 設定ファイルで、次の\（property\）の詳細を指定して、マップダッシュボードの「翻訳」タブを設定します。
 
    | PID | プロパティキー | プロパティの値 |
@@ -62,7 +62,7 @@ DITA マップダッシュボードの「翻訳」 タブを非表示にする�
 
 翻訳ベンダーのコネクタが DITA コンテンツをサポートしていない場合は、コンポーネントベースの翻訳ワークフローを有効にする必要があります。 有効にすると、翻訳可能コンテンツがアセットメタデータとして送信されます。 ただし、このワークフローを機能させるには、コネクタがアセットメタデータの翻訳をサポートしている必要があります。
 
-設定で使用した翻訳ワークフローに基づいて、コンポーネントベースの翻訳ワークフローオプションを設定する必要があります。 [ 設定の上書き ](download-install-additional-config-override.md#) の手順に従って、設定ファイルを作成します。 設定ファイルで、コンポーネントベースの翻訳ワークフローを設定するために、次の\（property\）の詳細を指定します。
+設定で使用した翻訳ワークフローに基づいて、コンポーネントベースの翻訳ワークフローオプションを設定する必要があります。 [&#x200B; 設定の上書き &#x200B;](download-install-additional-config-override.md#) の手順に従って、設定ファイルを作成します。 設定ファイルで、コンポーネントベースの翻訳ワークフローを設定するために、次の\（property\）の詳細を指定します。
 
 | PID | プロパティキー | プロパティの値 |
 |---|------------|--------------|
@@ -76,7 +76,7 @@ DITA マップダッシュボードの「翻訳」 タブを非表示にする�
 >
 > パフォーマンスを向上させるには、AEM Guides 2024.06.0 以降で利用可能な最新の翻訳ワークフローを使用することをお勧めします。 ただし、翻訳プロセスのカスタマイズを有効にして、新しいワークフローの影響を受ける場合は、回避策として従来の翻訳ワークフローに戻すことを検討してください。
 
-[ 設定の上書き ](download-install-additional-config-override.md#) の手順に従って、設定ファイルを作成します。 設定ファイルで、レガシー翻訳ワークフローを設定するために、次の（プロパティ）の詳細を指定します。
+[&#x200B; 設定の上書き &#x200B;](download-install-additional-config-override.md#) の手順に従って、設定ファイルを作成します。 設定ファイルで、レガシー翻訳ワークフローを設定するために、次の（プロパティ）の詳細を指定します。
 
 
 | PID | プロパティキー | プロパティの値 |
@@ -88,7 +88,7 @@ DITA マップダッシュボードの「翻訳」 タブを非表示にする�
 
 >[!NOTE]
 >
-> 翻訳コネクタを使用している場合は、Adobe Experience Manager ドキュメントの *[翻訳統合フレームワークの設定 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=ja)* トピックの説明に従ってコネクタが設定されていることを確認してください。
+> 翻訳コネクタを使用している場合は、Adobe Experience Manager ドキュメントの *[翻訳統合フレームワークの設定 &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=ja)* トピックの説明に従ってコネクタが設定されていることを確認してください。
 
 >[!IMPORTANT]
 >
@@ -98,7 +98,7 @@ DITA マップダッシュボードの「翻訳」 タブを非表示にする�
 
 翻訳ワークフローを開始すると、ソースコンテンツの一時的な言語コピーが作成されます。 これらの一時ファイルに対する後処理操作を有効または無効にすることができます。 後処理操作では、ファイルからの着信および発信参照が解決され、他の操作と共にドキュメントの状態が設定されます。 これらの一時ファイルの後処理を有効にすると、翻訳プロセスの完了に時間がかかる可能性があります。 そのため、後処理オプションは無効にしておくことをお勧めします。
 
-[ 設定の上書き ](download-install-additional-config-override.md#) の手順に従って、設定ファイルを作成します。 設定ファイルで、一時的な言語コピーの後処理を設定するために、次の\（property\）の詳細を指定します。
+[&#x200B; 設定の上書き &#x200B;](download-install-additional-config-override.md#) の手順に従って、設定ファイルを作成します。 設定ファイルで、一時的な言語コピーの後処理を設定するために、次の\（property\）の詳細を指定します。
 
 | PID | プロパティキー | プロパティの値 |
 |---|------------|--------------|

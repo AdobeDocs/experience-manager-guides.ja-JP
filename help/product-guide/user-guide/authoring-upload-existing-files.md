@@ -17,21 +17,21 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
-> Adobe Experience Managerでサポートされるコンテンツアップロード方法について詳しくは、[Adobe Experience Manager as a Cloud Service Assetsへのデジタルアセットの追加 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=ja) を参照してください。
+> Adobe Experience Managerでサポートされるコンテンツアップロード方法について詳しくは、[Adobe Experience Manager as a Cloud Service Assetsへのデジタルアセットの追加 &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=ja) を参照してください。
 
 ## Assets コンソールのユーザーインターフェイス
 
-Assets Console ユーザーインターフェイスを使用してAdobe Experience Manager as a Cloud Service Assetsにデジタルアセットを [ 追加 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=ja#filename-handling?lang=ja#upload-assets) するには、デスクトップ上で必要なアセットを選択し、Adobe Experience Manager ユーザーインターフェイス\（web ブラウザー\）上の目的のフォルダーにドラッグします。 アセットをアップロードする際は、ファイル名にサポートされていない文字や禁止されている文字が含まれていないことを確認します。
+Assets Console ユーザーインターフェイスを使用してAdobe Experience Manager as a Cloud Service Assetsにデジタルアセットを [&#x200B; 追加 &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=ja#filename-handling?lang=ja#upload-assets) するには、デスクトップ上で必要なアセットを選択し、Adobe Experience Manager ユーザーインターフェイス\（web ブラウザー\）上の目的のフォルダーにドラッグします。 アセットをアップロードする際は、ファイル名にサポートされていない文字や禁止されている文字が含まれていないことを確認します。
 
-詳しくは、Adobe Experience Manager ドキュメントの [ ファイル名の処理と禁止文字 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=ja#filename-handling) 節を参照してください。
+詳しくは、Adobe Experience Manager ドキュメントの [&#x200B; ファイル名の処理と禁止文字 &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=ja#filename-handling) 節を参照してください。
 
 ## Adobe Experience Manager デスクトップアプリケーション
 
-クリエイティブ専門家で、ローカルデスクトップでアセットを管理する必要がある場合は、Adobe Experience Manager デスクトップアプリケーションを使用します。 これらのアセットを開いて、デスクトップアプリケーションで編集できます。 また、バージョンを管理し、他のユーザーとファイルを共有することもできます。 詳しくは、[Adobe Experience Manager デスクトップアプリケーション ](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html?lang=ja) を参照してください。
+クリエイティブ専門家で、ローカルデスクトップでアセットを管理する必要がある場合は、Adobe Experience Manager デスクトップアプリケーションを使用します。 これらのアセットを開いて、デスクトップアプリケーションで編集できます。 また、バージョンを管理し、他のユーザーとファイルを共有することもできます。 詳しくは、[Adobe Experience Manager デスクトップアプリケーション &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html?lang=ja) を参照してください。
 
 ## アセットの一括取得
 
-大規模な移行が行われ、一括で取り込みを行うことがある場合は、アセットの一括取得を使用してコンテンツをアップロードします。 このツールを使用すると、Azure や S3 などのサポートされているデータストアから一括コンテンツをアップロードできます。 詳しくは、[ アセット一括取得 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=ja#asset-bulk-ingestor) を参照してください。
+大規模な移行が行われ、一括で取り込みを行うことがある場合は、アセットの一括取得を使用してコンテンツをアップロードします。 このツールを使用すると、Azure や S3 などのサポートされているデータストアから一括コンテンツをアップロードできます。 詳しくは、[&#x200B; アセット一括取得 &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=ja#asset-bulk-ingestor) を参照してください。
 
 ## FrameMakerを使用したバルクアップロード
 
@@ -45,8 +45,8 @@ FrameMakerでのバルクアップロード機能の使用について詳しく�
 
 ![](images/uuid-files-failed-to-upload_cs.png){width="650" align="center"}
 
-様々なファイルアップロードシナリオの機能について詳しくは、[ ファイルとフォルダーの管理 ](authoring-file-management.md#) を参照してください。
+様々なファイルアップロードシナリオの機能について詳しくは、[&#x200B; ファイルとフォルダーの管理 &#x200B;](authoring-file-management.md#) を参照してください。
 
 Adobe Experience Manager デスクトップアプリケーションやアセット一括取得などのツールを使用する場合、重複するファイルに対して実行するアクションはAdobe Experience Manager サーバーの設定によって制御されます。 この設定については、システム管理者にお問い合わせください。
 
-**親トピック：**&#x200B;[ コンテンツの管理 ](authoring.md)
+**親トピック：**&#x200B;[&#x200B; コンテンツの管理 &#x200B;](authoring.md)

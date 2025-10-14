@@ -34,4 +34,4 @@ Experience Manager Guidesには、構造化ドキュメントを作成および�
 - **[ラベルを使用](web-editor-use-label.md)**
 
 
-**親トピック：**&#x200B;[ Experience Manager Guidesを使用してコンテンツを作成する ](authoring-content-xml-doc.md)
+**親トピック：**&#x200B;[&#x200B; Experience Manager Guidesを使用してコンテンツを作成する &#x200B;](authoring-content-xml-doc.md)

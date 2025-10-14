@@ -15,7 +15,7 @@ ht-degree: 0%
 
 DITAVAL ファイルは、条件付き出力の生成に使用されます。 単一のトピックで、要素の属性を使用してコンテンツの条件を設定する条件を追加できます。 次に、DITAVAL ファイルを作成します。このファイルでは、コンテンツを生成するために取得する必要がある条件と、最終的な出力から除外する必要がある条件を指定します。
 
-Adobe Experience Manager Guidesでは、DITAVAL エディタを使用して DITAVAL ファイルを簡単に作成および編集できます。 DITAVAL エディタは、システムで定義されている属性（条件として使用できる）を取得し、これらを使用して DITAVAL ファイルを作成または編集できます。 Adobe Experience Managerでの条件の作成と管理について詳しくは、Adobe Experience Manager ドキュメントの [ タグの管理 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=ja) の節を参照してください。
+Adobe Experience Manager Guidesでは、DITAVAL エディタを使用して DITAVAL ファイルを簡単に作成および編集できます。 DITAVAL エディタは、システムで定義されている属性（条件として使用できる）を取得し、これらを使用して DITAVAL ファイルを作成または編集できます。 Adobe Experience Managerでの条件の作成と管理について詳しくは、Adobe Experience Manager ドキュメントの [&#x200B; タグの管理 &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=ja) の節を参照してください。
 
 以下の節では、Experience Manager Guidesの DITAVAL ファイルで使用できるオプションについて説明します。
 
@@ -32,7 +32,7 @@ DITAVAL ファイルを作成するには、以下の手順を実行します。
 
    ![](images/new-file-option.png){width="350" align="left"}
 
-   このオプションには、[Experience Manager Guidesのホームページ ](./intro-home-page.md) およびリポジトリビューのフォルダーのオプションメニューからもアクセスできます。
+   このオプションには、[Experience Manager Guidesのホームページ &#x200B;](./intro-home-page.md) およびリポジトリビューのフォルダーのオプションメニューからもアクセスできます。
 
 2. **新規トピック** ダイアログボックスが表示されます。
 
@@ -62,7 +62,7 @@ DITAVAL エディタでは、エディタのツールバーのオプションを
 #### メニュードロップダウン
 
 メニュードロップダウンから、編集アクション、検索と置換、バージョン履歴、バージョンラベル、結合、レビュータスクの作成、変更の追跡、タグ機能にアクセスできます。
-詳しくは、「[ メニュー」ドロップダウンオプション ](./web-editor-toolbar.md#menu-dropdown) を参照してください。
+詳しくは、「[&#x200B; メニュー」ドロップダウンオプション &#x200B;](./web-editor-toolbar.md#menu-dropdown) を参照してください。
 
 #### Prop を追加
 
@@ -72,7 +72,7 @@ DITAVAL ファイルに 1 つのプロパティを追加します。
 
 最初のドロップダウンには、DITAVAL ファイルで使用できる DITA 属性が表示されます。
 
-2 つ目のドロップダウンリストには、選択した属性に設定された値が表示されます。 次に、選択した属性に対して設定できるアクションが次のドロップダウンリストに表示されます。 アクションドロップダウンで使用できる値は、`include`、`exclude`、`passthrough`、`flag` です。 これらの値について詳しくは、OASIS DITA 文書の [prop](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop) 要素の定義を参照してください。 属性に追加されたプロパティのアクションの詳細については、[ プロパティのアクション ](#actions-for-property) を参照してください。
+2 つ目のドロップダウンリストには、選択した属性に設定された値が表示されます。 次に、選択した属性に対して設定できるアクションが次のドロップダウンリストに表示されます。 アクションドロップダウンで使用できる値は、`include`、`exclude`、`passthrough`、`flag` です。 これらの値について詳しくは、OASIS DITA 文書の [prop](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop) 要素の定義を参照してください。 属性に追加されたプロパティのアクションの詳細については、[&#x200B; プロパティのアクション &#x200B;](#actions-for-property) を参照してください。
 
 #### 収益プロパティを追加
 
@@ -146,13 +146,13 @@ XML のタグに特定のリビジョン番号を追加するには、Add rev pr
 #### バージョン情報と新しいバージョンとして保存
 
 バージョン情報と新しいバージョンとして保存機能は、バージョントラッキングとコンテンツ保存を 1 つの機能に統合したものです。
-詳しくは、「新しいバージョンとして保存 [ を参照してください ](./web-editor-toolbar.md#version-information-and-save-as-new-version)
+詳しくは、「新しいバージョンとして保存 [&#x200B; を参照してください &#x200B;](./web-editor-toolbar.md#version-information-and-save-as-new-version)
 
 
 #### ロック/ロック解除
 
 現在のファイルをロックまたはロック解除します。 ファイルをロックすると、そのファイルへの排他的な書き込みアクセスが可能になります。
-詳しくは、[ ファイルのロック解除 ](./web-editor-toolbar.md#lockunlock) を参照してください
+詳しくは、[&#x200B; ファイルのロック解除 &#x200B;](./web-editor-toolbar.md#lockunlock) を参照してください
 
 
 ### コンテンツを保存

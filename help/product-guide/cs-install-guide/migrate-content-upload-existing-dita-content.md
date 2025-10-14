@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # 既存の DITA コンテンツのアップロード {#id176FF000JUI}
 
-ほとんどの場合、AEM Guidesで使用する既存の DITA コンテンツのリポジトリがあります。 このような既存のコンテンツの場合、[Adobe Experience Manager as a Cloud Service Assetsへのデジタルアセットの追加 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=ja) で説明されている、サポートされている任意の方法を使用することができます。
+ほとんどの場合、AEM Guidesで使用する既存の DITA コンテンツのリポジトリがあります。 このような既存のコンテンツの場合、[Adobe Experience Manager as a Cloud Service Assetsへのデジタルアセットの追加 &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=ja) で説明されている、サポートされている任意の方法を使用することができます。
 
 ## UUID ファイル名パターンの設定
 
 コンテンツを読み込む場合、ファイル名が UUID に基づいている必要はありません。 UUID ベースのファイル名を使用するシステムでは、元のファイル名ではなく、すべてのファイルを UUID を使用して参照する必要があります。 読み込んだファイルが UUID ベースのファイル名を持たない場合は、そのファイルプロパティに UUID を追加するようにシステムを設定できます。 次に、この UUID は、そのようなファイルを参照するために使用されます。UUID は、ファイルの命名には使用されません。
 
-[ 設定の上書き ](download-install-additional-config-override.md#) の手順に従って、設定ファイルを作成します。 UUID ファイルパターンを設定するには、設定ファイルで、次の\（property\）の詳細を指定します。
+[&#x200B; 設定の上書き &#x200B;](download-install-additional-config-override.md#) の手順に従って、設定ファイルを作成します。 UUID ファイルパターンを設定するには、設定ファイルで、次の\（property\）の詳細を指定します。
 
 | PID | プロパティキー | プロパティの値 |
 |---|------------|--------------|
@@ -81,4 +81,4 @@ curl --user <username>:<password> -F<attribute name>=<value> <metadata node path
 - `<metadata node path>`：ファイル名とそのメタデータノードを含む完全なフォルダーパス。 例えば、パスに `http://192.168.1.1:4502/content/dam/projects/AEM-Guides/intro.xml/jcr:content/metadata` を指定した場合、指定したメタデータ情報がファイルに設定 `intro.xml` れます。
 
 
-**親トピック：**&#x200B;[ 既存のコンテンツを移行 ](migrate-content.md)
+**親トピック：**&#x200B;[&#x200B; 既存のコンテンツを移行 &#x200B;](migrate-content.md)

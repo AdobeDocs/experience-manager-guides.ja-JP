@@ -20,7 +20,7 @@ Experience Manager Guidesは、AEM Sites、PDF、ナレッジベース、HTML5�
 - **マップコンソールから**:AEM Sites、PDF、ナレッジベース、HTML5、カスタムおよび JSON 出力プリセットを作成し、それぞれの出力を生成できます。
 - **マップダッシュボードから**:AEM Sites、PDF、HTML5、EPUBおよびカスタム出力プリセットを作成し、それぞれの出力を生成できます。
 
-詳しくは、出力プリセットの作成 [ 編集、複製、削除 ](./generate-output-create-edit-preset.md) を参照してください。
+詳しくは、出力プリセットの作成 [&#x200B; 編集、複製、削除 &#x200B;](./generate-output-create-edit-preset.md) を参照してください。
 
 ## Experience Manager Guidesでサポートされている出力プリセットのタイプ
 
@@ -40,6 +40,6 @@ Experience Manager Guidesは、AEM Sites、PDF、ナレッジベース、HTML5�
 
 - **[JSON](generate-output-json.md)**
 
-Experience Manager Guidesの管理者は、グローバルプロファイルとフォルダープロファイルの出力プリセットを作成および管理できます。 詳しくは、[ グローバルプロファイルおよびフォルダープロファイル出力プリセットの管理 ](./web-editor-manage-output-presets.md) を参照してください。
+Experience Manager Guidesの管理者は、グローバルプロファイルとフォルダープロファイルの出力プリセットを作成および管理できます。 詳しくは、[&#x200B; グローバルプロファイルおよびフォルダープロファイル出力プリセットの管理 &#x200B;](./web-editor-manage-output-presets.md) を参照してください。
 
-**親トピック：**&#x200B;[ 出力生成 ](generate-output.md)
+**親トピック：**&#x200B;[&#x200B; 出力生成 &#x200B;](generate-output.md)

@@ -15,7 +15,7 @@ ht-degree: 2%
 
 このリリースで修正された問題の一覧については、[2024.06.0リリースで修正された問題](fixed-issues-2024-06-0.md)を参照してください。
 
-[2024.06.0 リリースのアップグレード手順 ](upgrade-instructions-2024-06-0.md) について説明します。
+[2024.06.0 リリースのアップグレード手順 &#x200B;](upgrade-instructions-2024-06-0.md) について説明します。
 
 
 ## エクスペリエンスフラグメントへのトピックまたはその要素のPublish
@@ -28,7 +28,7 @@ Experience Manager Guidesで、トピックまたはその要素をエクスペ�
 
 
 
-詳しくは、[Publish エクスペリエンスフラグメント ](../user-guide/publish-experience-fragment.md) を参照してください。
+詳しくは、[Publish エクスペリエンスフラグメント &#x200B;](../user-guide/publish-experience-fragment.md) を参照してください。
 
 
 ## コンテンツフラグメントの公開の機能強化
@@ -38,39 +38,39 @@ Experience Manager Guidesでは、コンテンツフラグメントにいくつ�
 - DITAVAL ファイルまたは条件付き属性を使用して、コンテンツフラグメントに公開する際に条件でコンテンツを簡単にフィルタリングできます。
 - また、「ファイルのプロパティ **の「** 出力 **」セクションでは、トピックのコンテンツフラグメントを公開して表示す** こともできます。
 
-![[ ファイル プロパティ ] の [ オプション ] タブ ](./assets/file-properties-outputs-tab.png){width="300" align="left"}
+![[ ファイル プロパティ ] の [ オプション ] タブ &#x200B;](./assets/file-properties-outputs-tab.png){width="300" align="left"}
 
-詳しくは、[Publish コンテンツフラグメント ](../user-guide/publish-content-fragment.md) を参照してください。
+詳しくは、[Publish コンテンツフラグメント &#x200B;](../user-guide/publish-content-fragment.md) を参照してください。
 
 
 ## トピックファイルプロパティからネイティブPDF出力にメタデータを渡す機能
 
 Experience Manager Guidesでは、ネイティブPDF出力の生成時に、トピックのファイルプロパティからページレイアウトにメタデータを追加できるようになりました。 この機能を使用して、タイトル、タグ、説明などトピック固有のメタデータをページレイアウトに追加します。 また、トピックのメタデータに基づいて、公開済みのPDFをカスタマイズすることもできます（トピックのドキュメントのステータスに基づいて、トピックの背景に透かしを追加するなど）。
 
-![ メタデータネイティブ pdf の追加 ](./assets/add-metadata-native-pdf.png) {width="300" align="left"}
+![&#x200B; メタデータネイティブ pdf の追加 &#x200B;](./assets/add-metadata-native-pdf.png) {width="300" align="left"}
 
 *ページレイアウトのフィールドにメタデータを追加します。*
 
-ページレイアウトで [ フィールドとメタデータを追加 ](../native-pdf/design-page-layout.md#add-fields-metadata) する方法を説明します。
+ページレイアウトで [&#x200B; フィールドとメタデータを追加 &#x200B;](../native-pdf/design-page-layout.md#add-fields-metadata) する方法を説明します。
 
 ## 操作の要素全体で部分的なコンテンツを選択
 
 Experience Manager Guidesを使用すると、web エディターのすべての要素のコンテンツを選択するエクスペリエンスが向上します。 様々な要素のコンテンツを簡単に選択し、太字、斜体、下線などの操作を実行できます。 この機能を使用すると、部分的に選択したコンテンツの書式設定をシームレスに適用または削除できます。 また、要素間で選択したコンテンツをすばやく削除することもできます。 コンテンツが削除されると、必要に応じて、残りのコンテンツが単一の有効な要素に自動的に結合されます。
 
 エレメント間で部分的なコンテンツを選択し、有効な DITA エレメントの下でコンテンツを囲むこともできます。
-![ サラウンド要素ダイアログボックス ](./assets/surround-element.png) {width="300" align="left"}
+![&#x200B; サラウンド要素ダイアログボックス &#x200B;](./assets/surround-element.png) {width="300" align="left"}
 
 *選択したコンテンツを有効な要素で囲みます。*
 
 全体的に、これらの機能強化によりエクスペリエンスが向上し、ドキュメントの編集中に効率を向上させることができます。
 
-詳しくは、[ 要素全体のコンテンツの部分選択 ](../user-guide/web-editor-edit-topics.md#partial-selection-of-content-across-elements) を参照してください。
+詳しくは、[&#x200B; 要素全体のコンテンツの部分選択 &#x200B;](../user-guide/web-editor-edit-topics.md#partial-selection-of-content-across-elements) を参照してください。
 
 ## ネイティブPDF公開での Markdown ドキュメントのサポート
 
 Experience Manager Guidesは、ネイティブPDFでの公開における Markdown ドキュメントもサポートします。 この機能は便利で、DITA マップ内の Markdown ファイルのPDFを作成するのに役立ちます。 ネイティブPDFへの公開における Markdown のサポートにより、ドキュメントを簡単に作成、管理、共有できます。
 
-詳しくは、[Markdown ドキュメントのサポート ](../web-editor/native-pdf-web-editor.md#support-for-markdown-documents) を参照してください。
+詳しくは、[Markdown ドキュメントのサポート &#x200B;](../web-editor/native-pdf-web-editor.md#support-for-markdown-documents) を参照してください。
 
 
 ## 大規模な翻訳プロジェクトのパフォーマンスと拡張性の向上
@@ -79,4 +79,4 @@ Experience Manager Guidesは、ネイティブPDFでの公開における Markdo
 
 この改善は、生産性と全体的なエクスペリエンスを向上させるため、非常に有益です。
 
-詳しくは、[Web エディターからドキュメントを翻訳 ](../user-guide/translate-documents-web-editor.md) する方法を参照してください。
+詳しくは、[Web エディターからドキュメントを翻訳 &#x200B;](../user-guide/translate-documents-web-editor.md) する方法を参照してください。

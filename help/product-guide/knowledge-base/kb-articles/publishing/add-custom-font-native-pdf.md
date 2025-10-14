@@ -26,11 +26,11 @@ ht-degree: 0%
 
 ## 手順 1：カスタムフォントをテンプレートのリソースフォルダーにアップロードします
 
-![ カスタムフォントのアップロードと読み込 ](../assets/publishing/custom-font1.png)
+![&#x200B; カスタムフォントのアップロードと読み込 &#x200B;](../assets/publishing/custom-font1.png)
 
 ## 手順 2 :PDFテンプレートのスタイルシートで必要な変更を行う
 
-![PDFのテンプレートのスタイルシート ](../assets/publishing/custom-font2.png) のフォント書体
+![PDFのテンプレートのスタイルシート &#x200B;](../assets/publishing/custom-font2.png) のフォント書体
 
 ## 手順 3 （オプション）：使用フォントをPDFに埋め込む
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 >
 > コンテンツ CSS に貼り付け、CSS ファイルで必要な変更を行います。
 
-![DITAPDFでの Adobe フォントの使用 ](../assets/publishing/custom-font4.png)
+![DITAPDFでの Adobe フォントの使用 &#x200B;](../assets/publishing/custom-font4.png)
 
 
 - ### PDFにフォントが表示されない

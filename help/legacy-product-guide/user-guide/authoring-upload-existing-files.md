@@ -18,19 +18,19 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
-> Adobe Experience Manager as a Cloud ServiceAssetsでサポートされるコンテンツアップロード方法について詳しくは、[AEMへのデジタルアセットの追加 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=ja) を参照してください。
+> Adobe Experience Manager as a Cloud ServiceAssetsでサポートされるコンテンツアップロード方法について詳しくは、[AEMへのデジタルアセットの追加 &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=ja) を参照してください。
 
 ## Assets コンソールのユーザーインターフェイス
 
-デスクトップ上でコンテンツを選択し、AEM ユーザーインターフェイス\（web ブラウザー\）を目的のフォルダーにドラッグできます。 詳しくは、AEM ドキュメントの [ アセットのアップロード ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=ja#upload-assets) を参照してください。
+デスクトップ上でコンテンツを選択し、AEM ユーザーインターフェイス\（web ブラウザー\）を目的のフォルダーにドラッグできます。 詳しくは、AEM ドキュメントの [&#x200B; アセットのアップロード &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=ja#upload-assets) を参照してください。
 
 ## AEM デスクトップアプリケーション
 
-クリエイティブ専門家で、ローカルデスクトップでアセットを管理する必要がある場合は、AEM デスクトップアプリケーションを使用します。 これらのアセットを開いて、デスクトップアプリケーションで編集できます。 また、バージョンを管理し、他のユーザーとファイルを共有することもできます。 詳しくは、[AEM デスクトップアプリケーション ](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html?lang=ja) を参照してください。
+クリエイティブ専門家で、ローカルデスクトップでアセットを管理する必要がある場合は、AEM デスクトップアプリケーションを使用します。 これらのアセットを開いて、デスクトップアプリケーションで編集できます。 また、バージョンを管理し、他のユーザーとファイルを共有することもできます。 詳しくは、[AEM デスクトップアプリケーション &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html?lang=ja) を参照してください。
 
 ## アセットの一括取得
 
-大規模な移行が行われ、一括で取り込みを行うことがある場合は、アセットの一括取得を使用してコンテンツをアップロードします。 このツールを使用すると、Azure や S3 などのサポートされているデータストアから一括コンテンツをアップロードできます。 詳しくは、[ アセット一括取得 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=ja#asset-bulk-ingestor) を参照してください。
+大規模な移行が行われ、一括で取り込みを行うことがある場合は、アセットの一括取得を使用してコンテンツをアップロードします。 このツールを使用すると、Azure や S3 などのサポートされているデータストアから一括コンテンツをアップロードできます。 詳しくは、[&#x200B; アセット一括取得 &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=ja#asset-bulk-ingestor) を参照してください。
 
 ## FrameMakerを使用したバルクアップロード
 
@@ -44,8 +44,8 @@ FrameMakerでのバルクアップロード機能の使用について詳しく�
 
 ![](images/uuid-files-failed-to-upload_cs.png){width="650" align="center"}
 
-様々なファイルのアップロードシナリオについて詳しくは、[DITA コンテンツのアップロード ](authoring-file-management.md#) を参照してください。
+様々なファイルのアップロードシナリオについて詳しくは、[DITA コンテンツのアップロード &#x200B;](authoring-file-management.md#) を参照してください。
 
 AEM デスクトップアプリケーションやアセット一括取得などのツールを使用する場合、重複するファイルに対して実行するアクションはAEM サーバーの設定によって制御されます。 この設定については、システム管理者にお問い合わせください。
 
-**親トピック：**&#x200B;[ コンテンツの管理 ](authoring.md)
+**親トピック：**&#x200B;[&#x200B; コンテンツの管理 &#x200B;](authoring.md)

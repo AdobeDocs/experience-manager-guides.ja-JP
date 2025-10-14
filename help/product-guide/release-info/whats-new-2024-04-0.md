@@ -15,7 +15,7 @@ ht-degree: 28%
 
 このリリースで修正された問題の一覧については、[2024.4.0リリースで修正された問題](fixed-issues-2024-04-0.md)を参照してください。
 
-[2024.4.0 リリースのアップグレード手順 ](upgrade-instructions-2024-04-0.md) について説明します。
+[2024.4.0 リリースのアップグレード手順 &#x200B;](upgrade-instructions-2024-04-0.md) について説明します。
 
 ## 事前設定済みの言語グループを使用してコンテンツを複数の言語に翻訳する機能
 
@@ -39,7 +39,7 @@ Experience Manager Guides では、言語グループを作成し、コンテン
 全体として、言語グループを作成すると、翻訳プロジェクトの効率と生産性が向上し、最終的には複数の言語にわたるローカライゼーションプロセスが向上します。
 
 
-[Web エディターからドキュメントを翻訳 ](../user-guide/translate-documents-web-editor.md) する方法を説明します。
+[Web エディターからドキュメントを翻訳 &#x200B;](../user-guide/translate-documents-web-editor.md) する方法を説明します。
 
 
 
@@ -57,7 +57,7 @@ Experience Manager Guides では、言語グループを作成し、コンテン
 *翻訳プロジェクトの言語グループとクリーンアップ設定の指定*
 
 
-[ 翻訳プロジェクトを自動的に削除または無効にする ](../user-guide/translate-documents-web-editor.md#automatically-delete-or-disable-a-completed-translation-project) 方法について説明します。
+[&#x200B; 翻訳プロジェクトを自動的に削除または無効にする &#x200B;](../user-guide/translate-documents-web-editor.md#automatically-delete-or-disable-a-completed-translation-project) 方法について説明します。
 
 
 ## プレビューインスタンスの一括有効化コレクションでマップの出力を有効化します
@@ -68,12 +68,12 @@ Experience Manager Guides では、言語グループを作成し、コンテン
 この機能を使用すると、コンテンツをプレビューインスタンスに対してアクティブ化できるので、**Publish** インスタンスに対してアクティブ化する前に、コンテンツの外観と動作を確認できます。
 
 
-![ 作成された一括アクティベーションコレクションの「監査履歴」タブ ](assets/bulk-collection-audit-history.png){width="800" align="left"}
+![&#x200B; 作成された一括アクティベーションコレクションの「監査履歴」タブ &#x200B;](assets/bulk-collection-audit-history.png){width="800" align="left"}
 
 *アクティブ化されたマップ出力に関する情報は、「監査履歴&#x200B;**タブに表示**&#x200B;れます。*
 
 
-詳しくは、[ 一括アクティベーション ](../user-guide/conf-bulk-activation-publish-map-collection.md) を参照してください。
+詳しくは、[&#x200B; 一括アクティベーション &#x200B;](../user-guide/conf-bulk-activation-publish-map-collection.md) を参照してください。
 
 ## データソースコネクタの機能強化
 
@@ -104,7 +104,7 @@ Experience Manager Guides では、言語グループを作成し、コンテン
 
 次に、作成者は、ジェネレーターを使用してデータソースに接続し、コンテンツスニペットまたはトピックを作成します。この機能は、URL ごとにデータソースを作成する必要がないので便利です。これにより、単一のコンテンツスニペットまたはトピック内の特定のデータソースについて、任意のリソースからデータをすばやく取得できます。
 
-データソースコネクタの詳細と、[ ユーザーインターフェイスからデータソースコネクタを設定する ](../cs-install-guide/conf-data-source-connector-tools.md) 方法を表示します。
+データソースコネクタの詳細と、[&#x200B; ユーザーインターフェイスからデータソースコネクタを設定する &#x200B;](../cs-install-guide/conf-data-source-connector-tools.md) 方法を表示します。
 
 [データソースからデータを使用](../user-guide/web-editor-content-snippet.md)する方法を参照してください。
 
@@ -114,11 +114,11 @@ Web エディターの **ユーザーの環境設定** ダイアログボック�
 
 タイトルまたはファイル名でファイルを表示するようにを設定したり、アプリケーションのテーマやソースビューを変更したりできます。 また、リポジトリビューで開いているファイルを見つけたり、改行しないスペースを処理したりするための設定を指定する場合にも役立ちます。
 
-![ ユーザーの環境設定の「外観」タブ ](assets/user_preference_editor_appearance.png){width="550" align="left"}
+![&#x200B; ユーザーの環境設定の「外観」タブ &#x200B;](assets/user_preference_editor_appearance.png){width="550" align="left"}
 
 *好みに応じて外観をカスタマイズします。*
 
-**ユーザー環境設定** 機能の説明について詳しくは、「[ 左パネル ](../user-guide/web-editor-features.md#id2051EA0M0HS)」セクションを参照してください。
+**ユーザー環境設定** 機能の説明について詳しくは、「[&#x200B; 左パネル &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS)」セクションを参照してください。
 
 ## Web エディターのリポジトリ表示で、開いているファイルを見つけます
 
@@ -126,7 +126,7 @@ Web エディターの **ユーザーの環境設定** ダイアログボック�
 
 また、編集時には、リポジトリ階層内のファイルの場所を簡単に確認できます。
 
-詳しくは、[ リポジトリ表示で開いているファイルを見つける ](../user-guide/web-editor-edit-topics.md#locate-an-open-file-in-the-repository-view) を参照してください。
+詳しくは、[&#x200B; リポジトリ表示で開いているファイルを見つける &#x200B;](../user-guide/web-editor-edit-topics.md#locate-an-open-file-in-the-repository-view) を参照してください。
 
 
 ## Web エディターでの非改行スペースの処理を改善しました
@@ -135,7 +135,7 @@ Experience Manager Guidesを使用すると、Web エディターでドキュメ
 Web エディターでドキュメントの WYSIWYG 表示を保持するために、複数の連続する空白が 1 つのスペースに変換されます。 また、この機能は、ドキュメントの全体的な外観とプロフェッショナリズムを向上させるのに役立ちます。
 
 
-詳しくは、[Web エディターのその他の機能 ](../user-guide/web-editor-other-features.md) を参照してください。
+詳しくは、[Web エディターのその他の機能 &#x200B;](../user-guide/web-editor-other-features.md) を参照してください。
 
 
 
@@ -147,7 +147,7 @@ Web エディターでドキュメントの WYSIWYG 表示を保持するため�
 
 フォルダーの後処理を無効にすると、そのすべての子フォルダーにも影響します。 ただし、Experience Manager Guidesには、無視されたフォルダー内の個々の子フォルダーに対して後処理を選択的に有効にする機能が追加されました。
 
-[ フォルダーの後処理を無効にする ](../cs-install-guide/conf-folder-post-processing.md) 方法を説明します。
+[&#x200B; フォルダーの後処理を無効にする &#x200B;](../cs-install-guide/conf-folder-post-processing.md) 方法を説明します。
 
 ## リポジトリビューでのファイルの検索とフィルタリングのエクスペリエンスを改善しました
 
@@ -160,7 +160,7 @@ Web エディターでドキュメントの WYSIWYG 表示を保持するため�
 
 関連ファイルへの迅速なアクセスや、より直感的なユーザーインターフェイスなどのメリットが得られ、検索エクスペリエンスがよりスムーズかつ効率的になります。
 
-![ クイック検索フィルター ](assets/repository-filter-search-quick.png) {width="300" align="left"}
+![&#x200B; クイック検索フィルター &#x200B;](assets/repository-filter-search-quick.png) {width="300" align="left"}
 
 *クイックフィルターを使用して、DITA ファイルと非 DITA ファイルを検索します。*
 
@@ -173,14 +173,14 @@ Web エディターでドキュメントを編集する際に、現在の場所�
 * **現在の位置にある有効な要素** 現在のカーソル位置に挿入できます。
 * **現在の場所以外の有効な要素** 要素階層内の現在の要素の親の後に挿入できます。
 
-![ 要素を挿入ダイアログ ](assets/insert-element-dialog.png){width="300" align="left"}
+![&#x200B; 要素を挿入ダイアログ &#x200B;](assets/insert-element-dialog.png){width="300" align="left"}
 
 *有効な要素の分類リストを表示して、現在の場所に要素を挿入します。*
 
 
 この有効なエレメントの分割リストを使用すると、コンテンツ構造を維持し、DITA 標準に準拠することができます。
 
-**要素の挿入** 機能については、[セカンダリツールバー ](../user-guide/web-editor-features.md#2051ea0j0y4) の節を参照してください。
+**要素の挿入** 機能については、[セカンダリツールバー &#x200B;](../user-guide/web-editor-features.md#2051ea0j0y4) の節を参照してください。
 
 
 ## コンテンツプロパティタイプは、ドロップダウンメニューとして表示されます
@@ -190,11 +190,11 @@ Web エディターでドキュメントを編集する際に、現在の場所�
 このドロップダウンメニューを使用すると、階層構造内の関連するタグにすばやくアクセスできます。
 
 
-![ コンテンツのプロパティのドロップダウンメニューを入力 ](assets/content-properties-type.png){width="300" align="left"}
+![&#x200B; コンテンツのプロパティのドロップダウンメニューを入力 &#x200B;](assets/content-properties-type.png){width="300" align="left"}
 
 *現在のタグの階層からタグを選択します。*
 
-**コンテンツのプロパティ** 機能について詳しくは、「[ 右パネル ](../user-guide/web-editor-features.md#id2051eb003yk)」の節を参照してください。
+**コンテンツのプロパティ** 機能について詳しくは、「[&#x200B; 右パネル &#x200B;](../user-guide/web-editor-features.md#id2051eb003yk)」の節を参照してください。
 
 
 
@@ -203,18 +203,18 @@ Web エディターでドキュメントを編集する際に、現在の場所�
 Experience Manager Guidesでは、マップエディタからのバルクファイルのチェックイン機能のパフォーマンスと操作性が向上しています。 この機能強化により、ファイルを一括でより迅速にチェックインできるようになりました。
 ファイルのチェックイン操作の進行状況は、&lbrack; 新しいバージョンとして保存してロック解除 **ダイアログ ボックスからも確認** きます。 最後に、操作が完了し、選択したすべてのチェックアウト済みファイルがチェックインされると、成功メッセージが表示されます。
 
-![ 新しいバージョンとして保存してロックを解除 ](./assets/save-version-lock.png){width="300" align="left"} ダイアログボックス
+![&#x200B; 新しいバージョンとして保存してロックを解除 &#x200B;](./assets/save-version-lock.png){width="300" align="left"} ダイアログボックス
 
 *マップエディタから一括でチェックインされたファイルのリストとステータスを表示します。*
 
-詳細な [ 高度なマップエディターの操作 ](../user-guide/map-editor-advanced-map-editor.md) 方法
+詳細な [&#x200B; 高度なマップエディターの操作 &#x200B;](../user-guide/map-editor-advanced-map-editor.md) 方法
 
 ## DITA-OT による出力の生成時に一時ファイルをダウンロード
 
 また、DITA-OT を使用してAEM サイト、HTML、カスタム、JSON、またはPDF出力を公開する際に生成された一時ファイルをダウンロードすることもできます。 この機能は、出力生成プロセス中に発生する可能性のある問題を分析し、効果的なトラブルシューティングを行うのに役立ちます。  
 DITA-OT を使用して生成された出力に渡されたメタデータプロパティを選択した場合は、metadata.xml ファイルをダウンロードすることもできます。 
 
-プリセットについて詳しくは、[ 出力プリセットについて ](../user-guide/generate-output-understand-presets.md) を参照してください。
+プリセットについて詳しくは、[&#x200B; 出力プリセットについて &#x200B;](../user-guide/generate-output-understand-presets.md) を参照してください。
 
 
 ## マイクロサービスベースの公開用に IMS JWT 資格情報を IMS OAuth 資格情報に置き換えます。
@@ -223,4 +223,4 @@ DITA-OT を使用して生成された出力に渡されたメタデータプロ
 サービスアカウント（JWT）資格情報は、**OAuth サーバー間** 資格情報に置き換わるものとして、非推奨になりました。 サービスアカウント（JWT）資格情報を使用するアプリケーションは、2025 年 1 月 1 日（PT）以降は機能しなくなります。 アプリケーションが引き続き機能するように、2025 年 1 月 1 日までに新しい資格情報に移行する必要があります。
 
 
-Experience Manager Guidesの Cloud Publishing サービスが、Adobe IMSの OAuth ベースの認証で保護されるようになりました。 [OAuth 認証を使用してマイクロサービスベースの公開を設定する ](../knowledge-base/publishing/configure-microservices-imt-config.md) 方法を説明します。
+Experience Manager Guidesの Cloud Publishing サービスが、Adobe IMSの OAuth ベースの認証で保護されるようになりました。 [OAuth 認証を使用してマイクロサービスベースの公開を設定する &#x200B;](../knowledge-base/publishing/configure-microservices-imt-config.md) 方法を説明します。

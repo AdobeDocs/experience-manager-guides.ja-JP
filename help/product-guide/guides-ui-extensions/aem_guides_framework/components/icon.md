@@ -15,7 +15,7 @@ ht-degree: 6%
 アイコンを表示するには、コンポーネント、アイコンを使用します。
 JUI のテキスト領域コンポーネントは HTML `<icon/>` を表します。
 
-[Adobe スペクトラム アイコン ](https://spectrum.adobe.com/page/icons/) で利用できるアイコンは、アプリと互換性があります。
+[Adobe スペクトラム アイコン &#x200B;](https://spectrum.adobe.com/page/icons/) で利用できるアイコンは、アプリと互換性があります。
 
 ```js title="icon.js"
 const iconJSON =  {

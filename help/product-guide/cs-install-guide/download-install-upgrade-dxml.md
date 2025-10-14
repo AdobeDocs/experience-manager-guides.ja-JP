@@ -25,10 +25,10 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> CI/CD パイプラインの使用について詳しくは、[Cloud Manager Adobeでの CI/CD パイプラインの使用 ](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/cloud-manager/use-the-cicd-pipeline-in-cloud-manager-for-aem.html?lang=ja) を参照してください。
+> CI/CD パイプラインの使用について詳しくは、[Cloud Manager Adobeでの CI/CD パイプラインの使用 &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/cloud-manager/use-the-cicd-pipeline-in-cloud-manager-for-aem.html?lang=ja) を参照してください。
 
 ## ブラウザーキャッシュのクリア
 
 アップグレードプロセスが完了したら、すべてのユーザーは、アップグレードされたバージョンのAEM Guidesを使用する前に、ブラウザーキャッシュをクリアする必要があります。
 
-**親トピック：**&#x200B;[ ダウンロードとインストール ](download-install.md)
+**親トピック：**&#x200B;[&#x200B; ダウンロードとインストール &#x200B;](download-install.md)

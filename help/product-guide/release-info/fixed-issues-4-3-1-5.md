@@ -17,7 +17,7 @@ ht-degree: 2%
 
 
 
-[4.3.1.5 リリースのアップグレード手順 ](../release-info/upgrade-instructions-4-3-1-5.md) について説明します。
+[4.3.1.5 リリースのアップグレード手順 &#x200B;](../release-info/upgrade-instructions-4-3-1-5.md) について説明します。
 
 
 ## オーサリング

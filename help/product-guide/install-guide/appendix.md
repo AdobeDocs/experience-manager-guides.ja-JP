@@ -22,7 +22,7 @@ DITA エディタで DITA コンテンツを正しい順番に編集すること
 
 ***テキストフレームのスレッド化***
 
-InDesignでは、あるフレームを別のフレームにリンクするプロセスに *「スレッド*」という用語を使用します。 テキストフレームのスレッド化の詳細については、InDesignドキュメントの *[スレッド化テキスト ](https://helpx.adobe.com/in/indesign/using/threading-text.html)* を参照してください。
+InDesignでは、あるフレームを別のフレームにリンクするプロセスに *「スレッド*」という用語を使用します。 テキストフレームのスレッド化の詳細については、InDesignドキュメントの *[スレッド化テキスト &#x200B;](https://helpx.adobe.com/in/indesign/using/threading-text.html)* を参照してください。
 
 ***重なり合うフレーム***
 

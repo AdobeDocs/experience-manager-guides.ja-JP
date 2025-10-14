@@ -130,7 +130,7 @@ JWT （非推奨）を使用して公開するために、既にマイクロサ�
 
 IMS 設定を環境に追加したら、次の手順を実行して、OSGi を使用してこれらのプロパティをExperience Manager Guidesにリンクします。
 
-1. Cloud Manager Git プロジェクトコードで、次の 2 つのファイルを `/apps/fmditaCustom/config` に追加します（ファイルの内容については、[ 付録 ](#appendix) を参照）。
+1. Cloud Manager Git プロジェクトコードで、次の 2 つのファイルを `/apps/fmditaCustom/config` に追加します（ファイルの内容については、[&#x200B; 付録 &#x200B;](#appendix) を参照）。
 
    * `com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
    * `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`

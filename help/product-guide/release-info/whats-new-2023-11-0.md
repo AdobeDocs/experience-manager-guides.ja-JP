@@ -15,7 +15,7 @@ ht-degree: 0%
 
 この記事では、Adobe Experience Manager Guides 2023 年 11 月バージョン（後で *Experience Manager Guidesas a Cloud Service* と呼ばれます）の新機能および機能強化について説明します。
 
-アップグレード手順、互換性マトリックス、およびこのリリースで修正された問題について詳しくは、[ リリースノート ](release-notes-2023-11-0.md) を参照してください。
+アップグレード手順、互換性マトリックス、およびこのリリースで修正された問題について詳しくは、[&#x200B; リリースノート &#x200B;](release-notes-2023-11-0.md) を参照してください。
 
 ## ネイティブPDFの機能強化
 
@@ -26,27 +26,27 @@ ht-degree: 0%
 Experience Manager Guidesには、標準または出荷時のPDFテンプレートが用意されています。 ファクトリPDFテンプレートを複製して、カスタムPDFテンプレートを作成します。
 
 テンプレートの作成および複製時に、テンプレートのサムネール画像をプレビューできるようになりました。 この画像を編集または削除することもできます。 この機能は、類似の名前を持つテンプレートをブランディングしたり、区別したりする場合に役立ちます。
-[PDFテンプレート ](../native-pdf/pdf-template.md) の詳細情報。
+[PDFテンプレート &#x200B;](../native-pdf/pdf-template.md) の詳細情報。
 
-![PDFテンプレートを複製ダイアログ ](assets/duplicate-template.png){width="550" align="left"}
+![PDFテンプレートを複製ダイアログ &#x200B;](assets/duplicate-template.png){width="550" align="left"}
 
 *既存のPDFテンプレートを複製*
 
 
 ### ページの順序を変更し、1 枚のシートに複数のページを公開する
 
-ソースドキュメントに従ってページを公開する以外に、複数ページのドキュメントを公開する際に、PDF内のページの順序を変更することもできます。  これにより、奇数ページから偶数ページまで、様々な順序でページを柔軟に公開できます。 また、小冊子として公開して、本のようにページを読むこともできます。 また、1 枚の用紙に印刷するページの数を指定することもできます。 詳しくは、「[ ページ組織 ](../native-pdf/components-pdf-template.md#page-organization)」の節を参照してください。
+ソースドキュメントに従ってページを公開する以外に、複数ページのドキュメントを公開する際に、PDF内のページの順序を変更することもできます。  これにより、奇数ページから偶数ページまで、様々な順序でページを柔軟に公開できます。 また、小冊子として公開して、本のようにページを読むこともできます。 また、1 枚の用紙に印刷するページの数を指定することもできます。 詳しくは、「[&#x200B; ページ組織 &#x200B;](../native-pdf/components-pdf-template.md#page-organization)」の節を参照してください。
 
 ### ソートキーに基づいて用語集の用語を並べ替える
 
 これで、ソートキーに基づいて用語集の用語を並べ替えることもできます。 タグ「sort-as」を使用して、用語集の用語のソートキーを定義できます。 その後、用語の代わりにソートキーに基づいて並べ替えることができます。 これにより、様々な言語で使用されている用語に従って用語集の用語を並べ替えることができます。 また、語句や単語のグループを使用して、用語集の用語に対して 1 つのソートキーを定義することもできます。
-詳細については、[ 詳細なPDF設定 ](../native-pdf/components-pdf-template.md#advanced-pdf-settings) を参照してください。
+詳細については、[&#x200B; 詳細なPDF設定 &#x200B;](../native-pdf/components-pdf-template.md#advanced-pdf-settings) を参照してください。
 
 
 ### ネイティブPDFテンプレートのリソース管理の向上
 
 Experience Manager Guidesは、ネイティブPDFテンプレートのリソース管理を改善しました。 画像、CSS ファイル、フォントファイルなどのリソースを、複数のネイティブPDFテンプレートで共有および再利用できるようになりました。 この改善により、大規模なテンプレートセット用のリソースの管理がはるかに簡単になりました。 テンプレートごとに重複するリソースを作成する必要はありません。共有フォルダーに保存して、すべてのネイティブPDFテンプレートで使用できます。
-詳しくは、[PDFテンプレート ](../native-pdf/pdf-template.md) を参照してください。
+詳しくは、[PDFテンプレート &#x200B;](../native-pdf/pdf-template.md) を参照してください。
 
 ## Web エディターの機能強化
 
@@ -57,7 +57,7 @@ Experience Manager Guidesは、ネイティブPDFテンプレートのリソー�
 
 Web エディターでファイルを表示するデフォルトの方法を選択できるようになりました。 オーサービューの様々なパネルから、タイトルまたはファイル名でファイルのリストを表示できます。
 
-![User Preferences ダイアログ ](assets/user-preferences-2311.png){width="550" align="left"}
+![User Preferences ダイアログ &#x200B;](assets/user-preferences-2311.png){width="550" align="left"}
 
 ***ユーザー環境設定**&#x200B;ダイアログからファイルを表示するデフォルトの方法を変更します。*
 
@@ -66,21 +66,21 @@ Web エディターでファイルを表示するデフォルトの方法を選�
 
 DITA トピックで条件属性を定義できます。 次に、条件プリセット内の条件属性を使用して、DITA マップにコンテンツを公開します。 また、Experience Manager Guidesでは、web エディターから条件プリセットを作成および管理できるようになりました。 また、簡単に編集、複製または削除できます。
 
-![Web エディター ](assets/web-editor-manage-condition-presets.png){width="550" align="left"} ージの「管理」タブの状態プリセット
+![Web エディター &#x200B;](assets/web-editor-manage-condition-presets.png){width="550" align="left"} ージの「管理」タブの状態プリセット
 
-詳しくは、[ 条件プリセットの使用 ](../user-guide/generate-output-use-condition-presets.md) を参照してください。
+詳しくは、[&#x200B; 条件プリセットの使用 &#x200B;](../user-guide/generate-output-use-condition-presets.md) を参照してください。
 
 ### ブラウザーの更新時にファイルタブを復元
 
-Experience Manager Guidesは、ブラウザーを更新すると、web エディターで開かれたファイルタブのステータスを復元します。 詳細については、「[Web エディターのトピックの編集 ](../user-guide/web-editor-edit-topics.md) の「**ファイルの編集中にブラウザーを更新**」セクションを参照してください。
+Experience Manager Guidesは、ブラウザーを更新すると、web エディターで開かれたファイルタブのステータスを復元します。 詳細については、「[Web エディターのトピックの編集 &#x200B;](../user-guide/web-editor-edit-topics.md) の「**ファイルの編集中にブラウザーを更新**」セクションを参照してください。
 
 ### 要素を簡単に展開
 
 Web エディター内の要素のコンテキストメニューのオプションを使用して、要素を簡単に展開できるようになりました。 これにより、要素のテキストを親要素と簡単に結合できます。
-詳しくは、**Web エディターのその他の機能** の「要素を展開 [ の節を参照してくだ ](../user-guide/web-editor-other-features.md) い。
+詳しくは、**Web エディターのその他の機能** の「要素を展開 [&#x200B; の節を参照してくだ &#x200B;](../user-guide/web-editor-other-features.md) い。
 
 ### カーソルを移動するためのキーボードショートカット
 
 Experience Manager Guidesでは、キーボードショートカットを使用して web エディター内でカーソルを動かすこともできます。 キーボードショートカットを使用して、1 つの単語を左右にすばやく移動できます。 キーボードショートカットを使用して、行の先頭または末尾に移動することもできます。
 現在は、キーボードショートカットを使用して、カーソルを次の要素の先頭または前の要素の末尾に移動することもできます。
-[Web エディターのキーボードショートカット ](../user-guide/web-editor-keyboard-shortcuts.md) について詳しく説明します。
+[Web エディターのキーボードショートカット &#x200B;](../user-guide/web-editor-keyboard-shortcuts.md) について詳しく説明します。

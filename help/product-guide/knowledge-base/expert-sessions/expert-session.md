@@ -17,7 +17,7 @@ ht-degree: 0%
 
 これらのセッションでは、エキスパートが製品の詳細な機能、機能、メリットについて話し合い、製品を最大限に活用するための実践的なヒントとベストプラクティスを共有します。 新規ユーザーでも経験豊富なプロでも、これらのセッションでは、AEM Guidesを最大限に使用するために必要な情報を提供します。
 
-お客様の時間は貴重であると理解しています。そのため、これらのエキスパートセッションを簡単かつアクセス可能にしました。 [ コミュニティフォーラム ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=ja) にアクセスするか、送信されたメールを通じて、今後のセッションに登録できます。
+お客様の時間は貴重であると理解しています。そのため、これらのエキスパートセッションを簡単かつアクセス可能にしました。 [&#x200B; コミュニティフォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=ja) にアクセスするか、送信されたメールを通じて、今後のセッションに登録できます。
 
 以前のセッションを見逃した場合は、このセクションの録画にアクセスできます。
 

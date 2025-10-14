@@ -76,8 +76,8 @@ Experience Manager Guidesには、データソース用の標準のコネクタ�
 * **削除**：選択したコネクタを削除します。
 
 
-データソースを設定すると、コネクタが Web エディターの **データソース** パネルの下に表示されます。 その後、データソースに接続し、トピックにコンテンツスニペットを挿入できます。 詳しくは、[ データソースのデータを使用 ](../user-guide/web-editor-content-snippet.md) を参照してください。
+データソースを設定すると、コネクタが Web エディターの **データソース** パネルの下に表示されます。 その後、データソースに接続し、トピックにコンテンツスニペットを挿入できます。 詳しくは、[&#x200B; データソースのデータを使用 &#x200B;](../user-guide/web-editor-content-snippet.md) を参照してください。
 
 >[!NOTE]
 >
->また、カスタムコネクタを作成して、様々なデータソースで使用することもできます。 方法について説明します [ カスタムコネクタの設定 ](../knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)。
+>また、カスタムコネクタを作成して、様々なデータソースで使用することもできます。 方法について説明します [&#x200B; カスタムコネクタの設定 &#x200B;](../knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)。

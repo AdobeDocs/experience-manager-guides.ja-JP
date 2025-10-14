@@ -13,9 +13,9 @@ ht-degree: 0%
 
 この記事では、Adobe Experience Manager Guides バージョン 5.1.0 で導入された新機能と機能強化について説明します。
 
-このリリースで修正された問題のリストについては、[5.1.0 リリースで修正された問題 ](fixed-issues-5-1-0.md) を参照してください。
+このリリースで修正された問題のリストについては、[5.1.0 リリースで修正された問題 &#x200B;](fixed-issues-5-1-0.md) を参照してください。
 
-[5.1.0 リリースのアップグレード手順 ](../release-info/upgrade-instructions-5-1-0.md) について説明します。
+[5.1.0 リリースのアップグレード手順 &#x200B;](../release-info/upgrade-instructions-5-1-0.md) について説明します。
 
 
 ## レビューワークフローの強化
@@ -31,7 +31,7 @@ ht-degree: 0%
 - 効率的でタイムリーなレビューサイクル
 - フィードバック交換の際の手作業の削減
 
-詳しくは、「レビューの概要 [ を参照してください ](../user-guide/review.md)
+詳しくは、「レビューの概要 [&#x200B; を参照してください &#x200B;](../user-guide/review.md)
 
 ## DITAVAL ファイルの作成と使用の操作性が向上しました。
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 主なハイライトは次のとおりです。
 
 - **DITAVAL ファイルのオーサリングにおける強化されたフラグ設定のサポート：** Experience Manager Guidesでは、DITAVAL ファイルでの強化されたフラグ設定のサポートを通じて、コンテンツの公開をカスタマイズする新機能を提供します。 画像などの特定のコンテンツに関する開始フラグと終了フラグを適用したり、フラグの付いたセクションを太字、斜体などの書式設定オプションで強化したりできるようになりました。 条件の重複を処理するには、デフォルトの背景色やテキスト色の設定など、**スタイルの競合** を設定し、出力を明確にし一貫性を保つことができます。 これらのフラグは、Native PDFの生成で完全にサポートされており、結果の出力は、適用されているすべてのスタイル設定要素を正確かつ包括的に反映します。
-詳細については、[DITAVAL エディタの使用 ](../user-guide/ditaval-editor.md) を参照してください。
+詳細については、[DITAVAL エディタの使用 &#x200B;](../user-guide/ditaval-editor.md) を参照してください。
 
   ![](assets/ditaval-flag-style-new.png){width="350" align="left"}
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
   さらに、この更新により、複数の形式をまたいで編集可能な DITAVAL フィールドが有効になり、ユーザーが DITAVAL パスを手動で指定できるようになり、出力プリセットの作成が強化されます。
 
-  詳しくは、Experience Manager Guidesの [ 出力プリセットについて ](../user-guide/generate-output-understand-presets.md) を参照してください。
+  詳しくは、Experience Manager Guidesの [&#x200B; 出力プリセットについて &#x200B;](../user-guide/generate-output-understand-presets.md) を参照してください。
 
 ## 公開機能の強化
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 このリリースでは、出力生成ログのフィルタリング機能に対する UI の改善が行われています。 出力生成ログを 4 つの異なるレベル（**Info**、**Warn**、**Error** （エラーと例外の両方を含む）、**Fatal**）すべてでより適切にフィルタリングできるようになりました。改善された直感的な色分けされたインジケーターにより、分析が簡素化され、ログストリーム全体での表示が鮮明になります。 この機能強化により、ログをより効率的に移動し、重要な問題を正確に特定できるようになります。
 
-詳しくは、[ 基本トラブルシューティング ](../user-guide/generate-output-basic-troubleshooting.md) を参照してください。
+詳しくは、[&#x200B; 基本トラブルシューティング &#x200B;](../user-guide/generate-output-basic-troubleshooting.md) を参照してください。
 
 ![](./assets/log-file-new.png){align="left"}
 
@@ -69,7 +69,7 @@ Experience Manager Guidesの最新の公開機能強化により、DITA-OT を�
 
 `system_config.xml` ファイルには、オーサー URL、ローカル URL、公開 URL など、AEM インスタンスの詳細が含まれています。これにより、コンテキストが明確になり、ダウンロードした URL のトレーサビリティが向上します。
 
-詳しくは、[ 出力プリセットについて ](../user-guide/generate-output-understand-presets.md) を参照してください。
+詳しくは、[&#x200B; 出力プリセットについて &#x200B;](../user-guide/generate-output-understand-presets.md) を参照してください。
 
 ### 出力生成用の新しい出力パス変数のサポート
 
@@ -77,19 +77,19 @@ Experience Manager Guidesの最新の公開機能強化により、DITA-OT を�
 
 グローバルフォルダープロファイルプリセットに関連付けられているすべての出力パスは、新しいベース出力パス変数を利用するように自動的に移行されます。 ただし、カスタムフォルダープロファイルの場合は、移行は自動的には行われないので、カスタマーサクセスチームにお問い合わせください。
 
-詳しくは、[ 出力プリセットについて ](../user-guide/generate-output-understand-presets.md) を参照してください。
+詳しくは、[&#x200B; 出力プリセットについて &#x200B;](../user-guide/generate-output-understand-presets.md) を参照してください。
 
 ### エクスポートされたベースラインにドキュメントの状態が含まれるようになりました
 
 ベースラインの書き出し機能に、ベースラインスナップショットのタイトル、ファイル名、ファイルタイプ、バージョン番号などの重要な詳細と共に **ドキュメントの状態** が含まれるようになりました。 この機能強化により、ベースラインの概要をより包括的に提供することで、ベースライン管理が向上します。
 
-詳しくは、[ マップコンソールからのベースラインの作成と管理 ](../user-guide/web-editor-baseline.md#manage-baselines) を参照してください。
+詳しくは、[&#x200B; マップコンソールからのベースラインの作成と管理 &#x200B;](../user-guide/web-editor-baseline.md#manage-baselines) を参照してください。
 
 ### 従来のコンポーネントマッピングを使用したAEM Sites出力のマップダッシュボードを介したベースライン駆動型の増分公開のサポート
 
 増分出力生成プロセスが強化され、レガシーコンポーネントマッピングを使用してAEM Sites 用に選択したベースラインで定義されたトピックの特定のバージョンを公開できるようになり、出力に含まれるコンテンツが正確に反映されるようになりました。
 
-詳しくは、[ 増分出力の生成 ](../user-guide/generate-output-aem-site.md) を参照してください。
+詳しくは、[&#x200B; 増分出力の生成 &#x200B;](../user-guide/generate-output-aem-site.md) を参照してください。
 
 ## エディターの機能強化
 
@@ -99,7 +99,7 @@ Experience Manager Guidesの最新の公開機能強化により、DITA-OT を�
 
 Experience Manager Guidesでは、再利用可能なコンテンツパネルの検索エクスペリエンスが強化されました。 この更新により、キーワードを検索する際に、開いているコンテンツだけでなく、再利用可能なコンテンツとして追加されたすべてのファイルをスキャンするようになり、コンテナが開いているか折りたたまれているかに関わらず、すべてのオカレンスにわたるキーワードの正確な位置を確実に見つけることができます。 さらに、検索バーをクリアしても、すべてのコンテナの元の状態が保持されるので、より効率的で使いやすい検索機能が提供されます。
 
-詳しくは、[ 再利用可能なコンテンツ ](../user-guide/web-editor-features.md#reusable-content) を参照してください。
+詳しくは、[&#x200B; 再利用可能なコンテンツ &#x200B;](../user-guide/web-editor-features.md#reusable-content) を参照してください。
 
 ### 参照リンクに「Format」属性が追加されました
 
@@ -115,7 +115,7 @@ Adobe Experience Manager Guidesに、エディター内の参照リンクの **f
 
 Experience Manager Guidesの **マップをダウンロード** ダイアログに、新しい **実際のファイル名を使用** オプションが導入されました。 マップ ファイルをダウンロードするときに、既定の UUID の代わりに元のファイル名を保持するように選択できるようになりました。これにより、ファイルの認識と管理がはるかに容易になります。 このオプションは、[**ファイル階層を保持**] を選択した場合にのみ使用でき、[**ファイル階層をフラット化**] を選択した場合は使用できません。これにより、ダウンロードしたマップをより柔軟に編成できます。
 
-詳しくは、[ ファイルのダウンロード ](../user-guide/authoring-download-assets.md#download-a-dita-map-file-from-the-editor) を参照してください。
+詳しくは、[&#x200B; ファイルのダウンロード &#x200B;](../user-guide/authoring-download-assets.md#download-a-dita-map-file-from-the-editor) を参照してください。
 
 ![](assets/download-map-dialog-new.png){width="300" align="left"}
 
@@ -125,13 +125,13 @@ Adobe Experience Manager セッションの有効期限が切れ、無操作状�
 
 ![](assets/sign-out-prompt.png)
 
-詳しくは、Experience Manager Guidesの [ セッションタイムアウトプロンプト ](../user-guide/session-timeout-prompt.md) を参照してください。
+詳しくは、Experience Manager Guidesの [&#x200B; セッションタイムアウトプロンプト &#x200B;](../user-guide/session-timeout-prompt.md) を参照してください。
 
 ### エディターでの `navref` 処理の強化
 
 エディタの最新の機能強化により、DITA マップ内のエレメント `navref` 処理が改善されました。 `navref` 要素をマップに追加すると、&lbrack;**パスを選択** ダイアログが開き、マップにナビゲーション リンクとして含めるマップ参照を簡単に選択できます。 追加されたマップのタイトルは、オーサービューとレイアウトビューの両方に表示されるため、オーサリング中に含まれるナビゲーションをより明確に把握できます。  さらに、追加された `navref` 要素は自動的に解決され、エディターに参照マップが表示されます。
 
-詳しくは、[ ナビゲーション参照を追加 ](../user-guide/map-editor-other-features.md#add-navigation-references) を参照してください。
+詳しくは、[&#x200B; ナビゲーション参照を追加 &#x200B;](../user-guide/map-editor-other-features.md#add-navigation-references) を参照してください。
 
 
 ### エディターツールバーとユーザーの環境設定の UI の改善
@@ -140,7 +140,7 @@ Adobe Experience Manager セッションの有効期限が切れ、無操作状�
 
 さらに、エディターツールバーで、変更履歴、タグ、改行なしスペースを有効または無効にするためのクイックアクセス切り替えのいくつかが、メニューのドロップダウン内の **表示** オプションの下にグループ化され、使いやすくなりました。
 
-詳しくは、[ エディターのツールバー ](../user-guide/web-editor-toolbar.md#menu-dropdown) を参照してください。
+詳しくは、[&#x200B; エディターのツールバー &#x200B;](../user-guide/web-editor-toolbar.md#menu-dropdown) を参照してください。
 
 
 

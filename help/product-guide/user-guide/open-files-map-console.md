@@ -17,17 +17,17 @@ Map コンソールで DITA マップファイルを開くには、次の手順�
 
 1. ホームページから **Map コンソール** を開きます。
 
-   ![ 新しい ](images/map-console-home-page.png){width="800"align="left"}
+   ![&#x200B; 新しい &#x200B;](images/map-console-home-page.png){width="800"align="left"}
 
 2. マップ ファイルが選択されていないので、マップ管理およびパブリッシュ機能を使用するマップ ファイルを選択するよう求められます。
 
-   ![ 新規 ](images/empty-screen-map-console.png)
+   ![&#x200B; 新規 &#x200B;](images/empty-screen-map-console.png)
 
 3. **マップを選択** を選択し、DITA マップファイルがあるパスを選択します。
 
    マップコンソールにマップファイルが開きます。 デフォルトでは、「**出力プリセット**」タブが選択されています。
 
-   ![ 新規 ](images/map-console-screen.png){width="800"align="left"}
+   ![&#x200B; 新規 &#x200B;](images/map-console-screen.png){width="800"align="left"}
 
    >[!NOTE]
    >
@@ -45,4 +45,4 @@ Map コンソールで DITA マップファイルを開くには、次の手順�
 
    マップコンソールにマップファイルが開きます。
 
-   ![ 新しい ](images/map-console.png){align="left"}
+   ![&#x200B; 新しい &#x200B;](images/map-console.png){align="left"}

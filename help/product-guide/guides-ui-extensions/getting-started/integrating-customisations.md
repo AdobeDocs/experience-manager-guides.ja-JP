@@ -42,7 +42,7 @@ npx @adobe/create-guides-extension
    - `guides-extension.js`
    - `guides-extension.umd.cjs`
 
-![ ビルド出力 ](./../imgs/build_output.png)
+![&#x200B; ビルド出力 &#x200B;](./../imgs/build_output.png)
 
 ## AEMへのカスタマイズの追加
 
@@ -61,7 +61,7 @@ npx @adobe/create-guides-extension
 > 最後から 2 番目の UI の場合、値は `apps.fmdita.penultimate.xml_editor.page_overrides` および `apps.fmdita.review_overrides` になります
 
 
-![ フォルダーのプロパティ ](./../imgs/crxde_folder_properties.png)
+![&#x200B; フォルダーのプロパティ &#x200B;](./../imgs/crxde_folder_properties.png)
 
 - ビルドされた js を追加するには、新しいファイル（例：上記で作成されたノードの `tcx1.js`）を作成します。 ここでは、`dist/guides-extension.umd.cjs` または `dist/guides-extension.js` からコードを追加します。 次に、`js.txt` という新しいファイルを作成します。ここでは、js ファイルの名前を追加します。この場合、名前は次のようになります。
 

@@ -27,7 +27,7 @@ Experience Managerにログインすると、ナビゲーション ページが�
 
 ![](images/web-editor-from-navigation-page.png){align="left"}
 
-**ガイド** リンクを選択すると、[Adobe Experience Manager Guides ホームページ ](./intro-home-page.md) に移動します。
+**ガイド** リンクを選択すると、[Adobe Experience Manager Guides ホームページ &#x200B;](./intro-home-page.md) に移動します。
 
 ![](images/aem-home-page.png){align="left"}
 
@@ -39,7 +39,7 @@ Experience Managerにログインすると、ナビゲーション ページが�
 
 ![](images/web-editor-launch-page.png){align="left"}
 
-または、[Adobe Experience Manager Guidesのホームページエクスペリエンス **の** 最近のファイル **ウィジェットおよび ](./intro-home-page.md) コレクション** ウィジェットに存在する既存のファイルを開いて、エディターを起動することもできます。
+または、[Adobe Experience Manager Guidesのホームページエクスペリエンス **の** 最近のファイル **ウィジェットおよび &#x200B;](./intro-home-page.md) コレクション** ウィジェットに存在する既存のファイルを開いて、エディターを起動することもできます。
 
 
 Experience Manager ナビゲーション ページに戻るには、上部のヘッダーの左上隅にあるAdobe Experience Manager ロゴを選択します。
@@ -133,4 +133,4 @@ Experience Manager ナビゲーション ページに戻るには、上部のヘ
 
 
 
-**親トピック**: [ エディターの概要 ](web-editor.md)
+**親トピック**: [&#x200B; エディターの概要 &#x200B;](web-editor.md)

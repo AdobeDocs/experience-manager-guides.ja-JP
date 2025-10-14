@@ -18,15 +18,15 @@ AEM Guidesをインストールしたら、インストールが成功したか�
 
 1. Cloud ServiceのDeveloper Consoleにアクセスします。
 
-   Developer Consoleへのアクセスについて詳しくは、AEM ドキュメントの [Developer Console アクセス ](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=ja) を参照してください。
+   Developer Consoleへのアクセスについて詳しくは、AEM ドキュメントの [Developer Console アクセス &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=ja) を参照してください。
 
 1. AEMで OSGi バンドルのリストにアクセスします。
 
-   バンドルへのアクセスについて詳しくは、AEM ドキュメントの [ バンドル ](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=ja#bundles) を参照してください。
+   バンドルへのアクセスについて詳しくは、AEM ドキュメントの [&#x200B; バンドル &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=ja#bundles) を参照してください。
 
 1. バンドルのリストで fmdita を検索し、そのステータスを確認します。
 
    正常にデプロイされたバンドルのステータスが *アクティブ* になります。 バンドルのステータスがアクティブでない場合は、AEM ログを確認してインストールの問題のトラブルシューティングを行ってください。
 
 
-**親トピック：**&#x200B;[ ダウンロードとインストール ](download-install.md)
+**親トピック：**&#x200B;[&#x200B; ダウンロードとインストール &#x200B;](download-install.md)

@@ -30,4 +30,4 @@ AEM Sitesまたは PDF で出力を生成する際には、変数を使用して
 | `${system_time}` | 宛先パスの作成に現在のサーバー時間を使用します。 | **DITA マップファイル名：** <br>`SampleDita.ditamap` <br> <br> **DITA マップファイルパス：** <br>`/content/dam/projects/AEM-Guides/en/user-guide/` <br><Br>**宛先パス** が <br> として設定されている `/content/output/sites/${system_time}`<br><br>**最終的な出力先：**<br>`/content/output/sites/055612/SampleDita.html` |
 
 さらに、DITA マップまたはブックマップファイル用に定義したメタデータを変数として使用することもできます。 メタデータは、DITA マップまたはブックマップファイルの `/jcr:content/metadata` ノードにあります。 例えば、`/jcr:content/metadata` ノードに定義されているメタデータプロパティの 1 つは `dc:title` です。 `${dc:title}` を指定でき、タイトル値が最終的な出力で使用されます。
-**親トピック：**&#x200B;[ 出力生成 ](generate-output.md)
+**親トピック：**&#x200B;[&#x200B; 出力生成 &#x200B;](generate-output.md)

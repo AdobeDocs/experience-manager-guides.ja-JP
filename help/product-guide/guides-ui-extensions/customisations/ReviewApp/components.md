@@ -17,33 +17,33 @@ ht-degree: 0%
 - インラインレビューパネル：`id: inline_review_panel`
    - レビューコメントが XML エディター側にレンダリングされる右側のパネル。
 
-![ インラインレビューパネルのスクリーンショット ](./imgs/inline_review.png)
+![&#x200B; インラインレビューパネルのスクリーンショット &#x200B;](./imgs/inline_review.png)
 
 - トピックのレビュー：`id: topic_reviews`
    - レビューアプリでコメントがレンダリングされる右パネル。
 
-![ トピックのレビューパネルのスクリーンショット ](./imgs/topic_reviews.png)
+![&#x200B; トピックのレビューパネルのスクリーンショット &#x200B;](./imgs/topic_reviews.png)
 
 - コメントを確認：`id: review_comment`
    - 各レビューコメントのウィジェット。
 
 レビューアプリでコメントをレビュー：
-![ レビューのコメントのスクリーンショット ](./imgs/review_comment.png)
+![&#x200B; レビューのコメントのスクリーンショット &#x200B;](./imgs/review_comment.png)
 
 xml エディター側でコメントを確認します。
-![ レビューのコメントのスクリーンショット ](./imgs/review_comment_xmleditor.png)
+![&#x200B; レビューのコメントのスクリーンショット &#x200B;](./imgs/review_comment_xmleditor.png)
 
 - コメント返信を確認：`id: comment_reply`
    - 各レビューコメント返信のウィジェット。
 
-     ![ レビューのコメントの返信のスクリーンショット ](./imgs/reply.png)
+     ![&#x200B; レビューのコメントの返信のスクリーンショット &#x200B;](./imgs/reply.png)
 
 - 新しいレビューコメントの返信：`id: comment_new_reply`
    - 新しいレビューコメント返信のウィジェット。
 
-     ![ 新規レビューコメント返信のスクリーンショット ](./imgs/new_reply.png)
+     ![&#x200B; 新規レビューコメント返信のスクリーンショット &#x200B;](./imgs/new_reply.png)
 
 - 注釈ツールボックス：`id: annotation_toolbox`
    - レビューアプリの右上のツールバー
 
-     ![ 注釈ツールボックスのスクリーンショット ](./imgs/annotation_toolbox.png)
+     ![&#x200B; 注釈ツールボックスのスクリーンショット &#x200B;](./imgs/annotation_toolbox.png)

@@ -111,7 +111,7 @@ AEM GuidesでこのネイティブPDFを設定する手順は、オペレーテ�
 コマンド：yum install fontconfig
 12. Web エディターのプリセットからネイティブPDFを生成する。
 
-**注意**:node_modules.zip パッケージは [ こちら ](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:295d8f03-41e1-429b-8465-2761ce3c2fb3) からダウンロードできます。
+**注意**:node_modules.zip パッケージは [&#x200B; こちら &#x200B;](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:295d8f03-41e1-429b-8465-2761ce3c2fb3) からダウンロードできます。
 
 ダウンロードした Linux オペレーティング・システムのノード・モジュールを手動でインポートすると、Guides 4.1 以前のバージョンを使用しているユーザーに対して回避策が実行されます（手順 6-12）
 
@@ -165,7 +165,7 @@ AEM GuidesでこのネイティブPDFを設定する手順は、オペレーテ�
 
 ### Windows/Mac OS でのヌルポインターの例外
 
-![null ポインター例外 ](../assets/publishing/null-pointer-exception.png)
+![null ポインター例外 &#x200B;](../assets/publishing/null-pointer-exception.png)
 
 Java 環境設定を修正しても問題が解決しない場合は、次の点を再検証してください。
 
@@ -175,14 +175,14 @@ Java 環境設定を修正しても問題が解決しない場合は、次の点
 
 ### RHEL 7 Linux OS でライブラリが見つからない
 
-![ ライブラリがありません ](../assets/publishing/missing-libraries.png)
+![&#x200B; ライブラリがありません &#x200B;](../assets/publishing/missing-libraries.png)
 
 ### Publish プロセスのタイムアウト。 指定された時間（0 ms）でプロセスが完了しませんでした
 
-![ 公開プロセスのタイムアウト ](../assets/publishing/publish-process-timeout.png)
+![&#x200B; 公開プロセスのタイムアウト &#x200B;](../assets/publishing/publish-process-timeout.png)
 
 CRX リポジトリの/var/dxml/profiles/b1aad0a7-9079-e56c-1ed8-6fcabababe8166/nodejs にある nodejs ノードの timeout プロパティ値を検証します。 デフォルト値は 300 です。
 
 
 
-上記の手順のいずれかを実行中に問題が発生した場合は、AEM Guides Community [ フォーラム ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=ja) で質問を投稿してください。
+上記の手順のいずれかを実行中に問題が発生した場合は、AEM Guides Community [&#x200B; フォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=ja) で質問を投稿してください。

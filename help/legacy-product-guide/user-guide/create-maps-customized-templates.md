@@ -32,7 +32,7 @@ AEM Guidesでは、dita-templates フォルダからカスタマイズされた�
 
 
 マップとトピックのテンプレートは、次の方法で作成できます。
-1. [ 左パネル ](./web-editor-features.md#left-panel-id2051ea0m0hs) のテンプレートパネル
+1. [&#x200B; 左パネル &#x200B;](./web-editor-features.md#left-panel-id2051ea0m0hs) のテンプレートパネル
 1. [Assets UI のテンプレート](#templates-assets-ui)
 1. [オプションメニュー](#templates-in-assets-ui)
 
@@ -98,13 +98,13 @@ AEM Guidesでは、dita-templates フォルダからカスタマイズされた�
 <details>
     <summary> クラウドサービス </summary>
 
-[ カスタム DITA テンプレートフォルダーパスの設定 ](/help/product-guide/install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) 方法については、Cloud Services インストールおよび設定ガイドを参照してください。
+[&#x200B; カスタム DITA テンプレートフォルダーパスの設定 &#x200B;](/help/product-guide/install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) 方法については、Cloud Services インストールおよび設定ガイドを参照してください。
 </details>
 
 <details>
     <summary> オンプレミスソフトウェア</summary>
 
-[ カスタム DITA テンプレートフォルダーパスを設定する ](/help/product-guide/cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) 方法については、『オンプレミスインストールおよび設定ガイド』を参照してください。
+[&#x200B; カスタム DITA テンプレートフォルダーパスを設定する &#x200B;](/help/product-guide/cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) 方法については、『オンプレミスインストールおよび設定ガイド』を参照してください。
 </details>
 
 ## テンプレートで定義されたタイトルを渡します
@@ -190,4 +190,4 @@ The resultant DITA map with title "Rootmap1" will look like as follows:
 
 - フォルダー内の同じレベルに別のマップまたはトピックを作成した場合は、新しく作成されたアセットの名前に 0、1、2 などが追加されます。 編集のためにマップを開くか、マップ ファイルをリポジトリに保存するかを選択できます。
 
-**親トピック：**&#x200B;[ マップ エディタの操作 ](map-editor.md)
+**親トピック：**&#x200B;[&#x200B; マップ エディタの操作 &#x200B;](map-editor.md)

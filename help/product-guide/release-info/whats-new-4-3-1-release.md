@@ -15,7 +15,7 @@ ht-degree: 0%
 
 この記事では、Adobe Experience Manager Guides（後で *Experience Manager Guides* と呼ばれます）のバージョン 4.3.1 の新機能および拡張機能について説明します。
 
-アップグレード手順、互換性マトリックス、このリリースで修正された問題について詳しくは、[ リリースノート ](./release-notes-4-3-1.md) を参照してください。
+アップグレード手順、互換性マトリックス、このリリースで修正された問題について詳しくは、[&#x200B; リリースノート &#x200B;](./release-notes-4-3-1.md) を参照してください。
 
 ## データ ソースに接続してトピックを挿入する
 
@@ -31,27 +31,27 @@ Experience Manager Guidesには、データソースとの接続に役立つ標�
 
 また、接続されたデータソースからトピックを作成できるようになりました。 トピックには、テーブル、リスト、段落など、様々な形式のデータを含めることができます。 また、すべてのトピックに対して DITA マップを作成することもできます。 データソースから取り込む際に、トピックにメタデータを関連付けることができます。
 
-詳しくは、[ データソースのデータを使用 ](../user-guide/web-editor-content-snippet.md) を参照してください。
+詳しくは、[&#x200B; データソースのデータを使用 &#x200B;](../user-guide/web-editor-content-snippet.md) を参照してください。
 
 ## ユーザーインターフェイスからのデータソースコネクタの設定
 
 Experience Manager Guidesには、データソースに標準搭載されたコネクタを設定するのに役立つ **データソース** ツールも用意されるようになりました。 JIRA、SQL （MySQL、PostgreSQL、Microsoft SQL Server、SQLite、MariaDB、H2DB）、AdobeCommerce およびElasticsearchデータベース用のコネクタを簡単に作成できます。
 
-また、データソースコネクタの編集、再接続、複製、削除を簡単に行うこともできます。 詳しくは、[ ユーザーインターフェイスからデータソースコネクタを簡単に設定できる ](../install-guide/conf-data-source-connector-tools.md) 方法を参照してください。
+また、データソースコネクタの編集、再接続、複製、削除を簡単に行うこともできます。 詳しくは、[&#x200B; ユーザーインターフェイスからデータソースコネクタを簡単に設定できる &#x200B;](../install-guide/conf-data-source-connector-tools.md) 方法を参照してください。
 
-![ データソースパネルに表示されるデータソースコネクタ ](assets/data-sources-create-window.png){width="550" align="left"}
+![&#x200B; データソースパネルに表示されるデータソースコネクタ &#x200B;](assets/data-sources-create-window.png){width="550" align="left"}
 
 *データソースパネルでデータソースコネクタを作成および表示します。*
 
 ## トピックジェネレーターのログの表示
 
-また、コンテンツ生成ログファイルも表示できるようになりました。 このログファイルは、警告、エラー、例外を確認するのに役立ちます。  トピック ジェネレータの [ オプション ](../user-guide/web-editor-content-snippet.md#options-for-a-topic-generator) を使用して、トピック ジェネレータを簡単に生成および管理する方法を説明します。
+また、コンテンツ生成ログファイルも表示できるようになりました。 このログファイルは、警告、エラー、例外を確認するのに役立ちます。  トピック ジェネレータの [&#x200B; オプション &#x200B;](../user-guide/web-editor-content-snippet.md#options-for-a-topic-generator) を使用して、トピック ジェネレータを簡単に生成および管理する方法を説明します。
 
 ## データソーステンプレートでの Velocity ツールのサポート
 
 Experience Manager Guides テンプレートで Velocity ツールを使用できるようになりました。 これらのツールを使用すると、データソースから取得したデータに様々な機能を適用できます。 テンプレートは、コンテンツスニペットやトピックの作成時に使用できます。 この機能により、各データセットに同じ機能を手動で適用する時間と労力を節約できます。  また、正確な結果が得られます。
 たとえば、$mathTool を使用して数学関数を実行できます。
-詳しくは、[ データソーステンプレートでの Velocity ツールの使用 ](../user-guide/web-editor-content-snippet.md#use-velocity-tools) を参照してください。
+詳しくは、[&#x200B; データソーステンプレートでの Velocity ツールの使用 &#x200B;](../user-guide/web-editor-content-snippet.md#use-velocity-tools) を参照してください。
 
 
 ## ネイティブPDFの機能強化
@@ -61,20 +61,20 @@ Experience Manager Guides テンプレートで Velocity ツールを使用で�
 ### レイアウトの最初のページのページ番号をリセットする
 
 ネイティブPDF出力では、ページ番号を再開し、番号付けの開始位置を指定できます。 これで、セクションの最初のオカレンスに対してのみ番号付けを開始することもできます。
-[ ページレイアウトのページプロパティの操作 ](../native-pdf/design-page-layout.md#page-props-page-layout) 方法について詳しく説明します。
+[&#x200B; ページレイアウトのページプロパティの操作 &#x200B;](../native-pdf/design-page-layout.md#page-props-page-layout) 方法について詳しく説明します。
 
 
 ### 目次に自動番号のないチャプターを表示
 
-Experience Manager Guidesには、目次（TOC）のチャプター名と共にチャプター番号が表示されます。 これで、チャプター番号を含まないチャプター名のみを公開するように選択できます。 [ テンプレートのPDFの詳細設定 ](../native-pdf/components-pdf-template.md#advanced-pdf-settings) の設定方法について詳しく説明します。
+Experience Manager Guidesには、目次（TOC）のチャプター名と共にチャプター番号が表示されます。 これで、チャプター番号を含まないチャプター名のみを公開するように選択できます。 [&#x200B; テンプレートのPDFの詳細設定 &#x200B;](../native-pdf/components-pdf-template.md#advanced-pdf-settings) の設定方法について詳しく説明します。
 
 ## Web エディターからのマップのダウンロード
 
 これで、Web エディターのマップビューでマップを編集できるだけでなく、ダウンロードすることもできます。 特定のベースラインを使用してマップをダウンロードするように選択できます。 また、階層を統合して、すべてのファイルとフォルダーを 1 つのフォルダーに保存するオプションもあります。
 
-詳しくは、「**左パネル [」セクション内の** マップビュー ](../user-guide/web-editor-features.md#id2051EA0M0HS) 機能の説明を参照してください。
+詳しくは、「**左パネル [」セクション内の** マップビュー &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS) 機能の説明を参照してください。
 
-![ リポジトリ表示でのファイルのオプションメニュー ](assets/options-menu-repo-view-file-level-2310.png){width="550" align="left"}
+![&#x200B; リポジトリ表示でのファイルのオプションメニュー &#x200B;](assets/options-menu-repo-view-file-level-2310.png){width="550" align="left"}
 
 *リポジトリビューでファイルを選択し、ファイルに対してアクションを実行するオプションを選択します*。
 
@@ -85,7 +85,7 @@ Experience Manager Guidesには、目次（TOC）のチャプター名と共に�
 
 また、条件を定義して、トピック内の特定の要素に適用できるようになりました。  これらの条件は、特定の要素に対してのみ表示され、その他のすべての要素に対しては表示されません。
 
-サブジェクト定義と列挙の階層定義の処理の詳細については、[ 左パネル ](../user-guide/web-editor-features.md#id2051EA0M0HS) セクションのサブジェクト スキーム機能の説明を参照してください。
+サブジェクト定義と列挙の階層定義の処理の詳細については、[&#x200B; 左パネル &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS) セクションのサブジェクト スキーム機能の説明を参照してください。
 
 
 
@@ -94,27 +94,27 @@ Experience Manager Guidesには、目次（TOC）のチャプター名と共に�
 
 コンテキストメニューを使用すると、ファイル （.dita、.xml、.audio、video、または image）を開かずにすばやくプレビューできます。 プレビューペインのサイズを変更できるようになりました。コンテンツに参照リンクが含まれている場合は、その参照リンクを選択して新しいタブで開くことができます。
 
-![ プレビューウィンドウ ](assets/quick-preview_cs.png){width="800" align="left"}
+![&#x200B; プレビューウィンドウ &#x200B;](assets/quick-preview_cs.png){width="800" align="left"}
 
 *ペインでファイルをプレビューします。*
 
-コンテキストメニューの詳細については、**左パネル [ セクションの** ファイルのオプション ](../user-guide/web-editor-features.md#id2051EA0M0HS) 機能の説明を参照してください。
+コンテキストメニューの詳細については、**左パネル [&#x200B; セクションの** ファイルのオプション &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS) 機能の説明を参照してください。
 
 ## 酸素コネクタプラグインでのファイルの編集
 
 Experience Manager Guidesでは、web エディターでファイルを選択し、Oxygen コネクタプラグインでファイルを編集できるようになりました。 このオプションは、標準サポートの一部として有効になっていません。
 
-詳しくは、**左パネル [ の節にある** ファイルのオプション ](../user-guide/web-editor-features.md#id2051EA0M0HS) 機能の説明を参照してください。
+詳しくは、**左パネル [&#x200B; の節にある** ファイルのオプション &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS) 機能の説明を参照してください。
 
 ## 宛先のパス、サイト名、ファイル名の各オプションで、現在の日時の変数を使用する
 
 AEM Site またはPDFで出力を生成する際に、変数を使用して **Destination Path**、**Site Name**、または **File Name** オプションを設定できます。 `${system_date}` 変数と `${system_time}` 変数も使用できるようになりました。 これらの変数を使用すると、これらのオプションに現在の日付と時刻を追加できます。
 
-[ 宛先パス、サイト名、ファイル名のオプションを設定するための変数を使用する ](../user-guide/generate-output-use-variables.md) 方法を説明します。
+[&#x200B; 宛先パス、サイト名、ファイル名のオプションを設定するための変数を使用する &#x200B;](../user-guide/generate-output-use-variables.md) 方法を説明します。
 
 
 ## Web エディターでカーソルを移動するためのキーボードショートカット
 
 Experience Manager Guidesでは、キーボードショートカットを使用して web エディター内でカーソルを動かすこともできます。 キーボードショートカットを使用して、1 つの単語を左右にすばやく移動できます。 キーボードショートカットを使用して、行の先頭または末尾に移動することもできます。
 
-[Web エディターのキーボードショートカット ](../user-guide/web-editor-keyboard-shortcuts.md) について詳しく説明します。
+[Web エディターのキーボードショートカット &#x200B;](../user-guide/web-editor-keyboard-shortcuts.md) について詳しく説明します。

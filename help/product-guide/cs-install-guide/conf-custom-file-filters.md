@@ -68,4 +68,4 @@ Web エディターで作業している間は、ファイル参照ダイアロ�
    ![](assets/file-browse-custom-filters.png)
 
 
-**親トピック：**&#x200B;[ Web エディタのカスタマイズ ](conf-web-editor.md)
+**親トピック：**&#x200B;[&#x200B; Web エディタのカスタマイズ &#x200B;](conf-web-editor.md)
