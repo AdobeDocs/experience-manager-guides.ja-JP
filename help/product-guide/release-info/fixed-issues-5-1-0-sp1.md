@@ -14,7 +14,7 @@ ht-degree: 1%
 
 この記事では、Adobe Experience Manager Guides 5.1.0 サービスパック 1 リリースの様々な領域で修正されたバグについて説明します。
 
-[5.1.0 サービスパック 1 リリースのアップグレード手順 ](upgrade-instructions-5-1-0-sp1.md) について説明します。
+[5.1.0 サービスパック 1 リリースのアップグレード手順 &#x200B;](upgrade-instructions-5-1-0-sp1.md) について説明します。
 
 
 ## プラットフォーム
