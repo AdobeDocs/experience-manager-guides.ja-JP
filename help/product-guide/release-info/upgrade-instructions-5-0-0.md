@@ -1,7 +1,8 @@
 ---
 title: リリースノート | Adobe Experience Manager Guides 5.0.0 リリースのアップグレード手順
 description: 互換表と、Adobe Experience Manager Guidesの 5.0.0 リリースにアップグレードする方法について説明します。
-source-git-commit: 5ae05935d254b03ad99221bd5f65dbb6a3580c5f
+exl-id: 763db247-133e-40c0-807a-2f965b1ddb2f
+source-git-commit: ef8de789f8d6cf0cabc55f4d12c72b164619231c
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 6%
@@ -12,13 +13,13 @@ ht-degree: 6%
 
 この記事では、Adobe Experience Manager Guides 5.0.0 リリースのアップグレード手順と互換性マトリックスについて説明します。
 
-新機能と機能強化について詳しくは、[&#x200B; 5.0.0リリースの新機能](../release-info/whats-new-5-0-0.md)を参照してください。
+新機能と機能強化について詳しくは、[ 5.0.0リリースの新機能](../release-info/whats-new-5-0-0.md)を参照してください。
 
-このリリースで修正された問題のリストについては、[5.0.0 リリースで修正された問題 &#x200B;](../release-info/fixed-issues-5-0-0.md) を参照してください。
+このリリースで修正された問題のリストについては、[5.0.0 リリースで修正された問題 ](../release-info/fixed-issues-5-0-0.md) を参照してください。
 
 ## 互換性マトリックス
 
-この節では、Experience Manager Guides 4.6.0 リリースでサポートされるソフトウェアアプリケーションの互換表を示します。
+この節では、Experience Manager Guides 5.0.0 リリースでサポートされるソフトウェアアプリケーションの互換表を示します。
 
 ### Adobe Experience Manager
 
@@ -26,7 +27,7 @@ ht-degree: 6%
 
 バージョン 6.5 サービスパック 22、サービスパック 21、サービスパック 20
 
-詳しくは、『オンプレミスのインストールおよび設定ガイド』の [&#x200B; 技術要件 &#x200B;](../install-guide/download-install-technical-requirements.md) の節を参照してください。
+詳しくは、『オンプレミスのインストールおよび設定ガイド』の [ 技術要件 ](../install-guide/download-install-technical-requirements.md) の節を参照してください。
 
 ### FrameMakerとFrameMaker Publishing Server
 
@@ -62,10 +63,10 @@ Guides の現在のバージョンをバージョン 5.0.0 に簡単にアップ
 - バージョン 4.3.x、4.2、4.2.1 （ホットフィックス 4.2.1.3）、4.1、または 4.1.x を使用している場合は、バージョン 5.0.0 にアップグレードする前にバージョン 4.4 にアップグレードする必要があります。
 - バージョン 4.0 を使用している場合、バージョン 4.3.x にアップグレードする前にバージョン 4.2 にアップグレードする必要があります。
 - バージョン 3.8.5 を使用している場合、バージョン 4.2 にアップグレードする前にバージョン 4.0 にアップグレードする必要があります。
-- バージョン 3.8.5 より前のバージョンを使用している場合は、[Experience Manager Guides ヘルプ PDF アーカイブ &#x200B;](https://helpx.adobe.com/jp/xml-documentation-for-experience-manager/archive.html) にある製品固有のインストールガイドのAdobe Experience Manager Guidesのアップグレードの節を参照してください。
+- バージョン 3.8.5 より前のバージョンを使用している場合は、[Experience Manager Guides ヘルプ PDF アーカイブ ](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) にある製品固有のインストールガイドのAdobe Experience Manager Guidesのアップグレードの節を参照してください。
 
 >[!NOTE]
 >
 >Experience Manager Guides版をアップグレードする前に、AEM サービスパックをインストールする必要があります。
 
-詳しくは、Experience Manager Guidesの [&#x200B; オンプレミスリリースのアップグレード手順 &#x200B;](../install-guide/upgrade-xml-documentation.md) を参照してください。
+詳しくは、Experience Manager Guidesの [ オンプレミスリリースのアップグレード手順 ](../install-guide/upgrade-xml-documentation.md) を参照してください。
