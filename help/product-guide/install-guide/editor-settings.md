@@ -17,10 +17,10 @@ ht-degree: 0%
 **エディター設定** で使用できる既存の設定オプションはすべて変更されません。
 
 
-![ オンプレミスのエディター設定 ](assets/editor-settings-on-prem.png){width="650" align="left"}
+![&#x200B; オンプレミスのエディター設定 &#x200B;](assets/editor-settings-on-prem.png){width="650" align="left"}
 
 
-使用可能な設定オプションについては、[Workspace設定の指定 ](../cs-install-guide/workspace-settings.md) を参照してください。
+使用可能な設定オプションについては、[Workspace設定の指定 &#x200B;](../cs-install-guide/workspace-settings.md) を参照してください。
 
 
 
