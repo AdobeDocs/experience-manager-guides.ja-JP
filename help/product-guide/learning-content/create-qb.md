@@ -4,9 +4,9 @@ description: 製品のトレーニングと学習で質問バンクを作成す�
 feature: Authoring
 role: User
 exl-id: c658af49-b0e6-4188-b3ba-8f3223b12632
-source-git-commit: 6f0643ca4b43f88ead42bbeade4e3e7252263f32
+source-git-commit: b914c69f9d29884382ce43f163a8f766567b10bf
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 0%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3475212/learning-content-aem-guides)
 
-質問バンクを作成するには、次の手順を実行します。
+**質問バンクの作成手順**
 
->[!VIDEO](https://video.tv.adobe.com/v/3469321)
+質問バンクを作成するには、次の手順を実行します。
 
 1. **コースマネージャー** でコースを開き、**オプションメニュー** から **新規追加** を選択します。
 1. **質問バンク** を選択します。
@@ -32,4 +32,4 @@ ht-degree: 0%
 
 1. 「**作成**」を選択します。
 質問バンクがコースの一部として追加され、コースマネージャパネルに表示されます。
-1. クイズと同じ方法で質問バンクに質問を追加できます。また、プロセス中に各質問のプロパティを柔軟に設定することもできます。 詳しくは、[&#x200B; クイズに質問を挿入する &#x200B;](./quiz-insert-questions.md) を参照してください。
+1. クイズと同じ方法で質問バンクに質問を追加できます。また、プロセス中に各質問のプロパティを柔軟に設定することもできます。 詳しくは、[ クイズに質問を挿入する ](./quiz-insert-questions.md) を参照してください。
