@@ -4,9 +4,9 @@ description: 製品トレーニングおよびラーニングでコースを公�
 feature: Authoring
 role: User
 exl-id: 32f30bba-4600-4d75-b0bb-1093490ec11e
-source-git-commit: 40ce03adef1b9a50afd6698de49c09b65e565b3e
+source-git-commit: 26fe86ea790432dfef40ca404ff497722164b593
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
@@ -19,4 +19,4 @@ ht-degree: 0%
 
 - **PDF:** PDF出力プリセットを使用すると、プロフェッショナルな印刷対応フォーマットでコースコンテンツを公開できます。 PDF形式は、レビューやアーカイブの目的でコンテンツを共有する場合に最適です。
 
-プリセットの出力を作成、設定および生成する方法に関する概要ビデオについては、[![](assets/Smock_VideoCheckedOut_18_N.svg)](https://video.tv.adobe.com/v/3469529/aem-guides-learning-content) を参照してください。
+プリセットの出力を作成、設定、生成する方法に関する概要ビデオについては、「[ サポートされているプリセット ](https://video.tv.adobe.com/v/3469529/aem-guides-learning-content)」 ![](assets/Smock_VideoCheckedOut_18_N.svg) を参照してください。
