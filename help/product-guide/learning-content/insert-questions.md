@@ -38,4 +38,4 @@ ht-degree: 0%
    ![](assets/inserted-question.png){width="650" align="left"}
 
 
-ビデオの概要については、[ 質問バンクから質問を挿入 ](https://video.tv.adobe.com/v/3475212/learning-content-aem-guides)![](assets/Smock_VideoCheckedOut_18_N.svg) を参照してください。
+ビデオの概要については、[&#x200B; 質問バンクから質問を挿入 &#x200B;](https://video.tv.adobe.com/v/3475212/learning-content-aem-guides)![](assets/Smock_VideoCheckedOut_18_N.svg) を参照してください。
