@@ -4,7 +4,7 @@ description: カスタマイズしたテンプレートを作成し、それら�
 exl-id: 9cb0035f-bf81-4ab5-a575-53851bbff494
 feature: Authoring, Map Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
 workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Adobe Experience Manager Guidesでは、dita-templates フォルダからカス�
 
 ### エディターからのカスタマイズされたテンプレートの作成
 
-**テンプレート** 機能は、エディター [&#x200B; インターフェイスの左側のパネルにあり &#x200B;](./web-editor-features.md#left-panel) 管理者のみが使用できます。 このパネルを使用すると、管理者は、作成者が使用できるテンプレートを簡単に作成および管理できます。 デフォルトでは、テンプレートは *map* タイプと *topic* タイプのテンプレートに分類されます。
+**テンプレート** 機能は、エディター [ インターフェイスの左側のパネルにあり ](./web-editor-left-panel.md) 管理者のみが使用できます。 このパネルを使用すると、管理者は、作成者が使用できるテンプレートを簡単に作成および管理できます。 デフォルトでは、テンプレートは *map* タイプと *topic* タイプのテンプレートに分類されます。
 
 ![](images/templates-panel_cs.png){width="300" align="left"}
 
@@ -124,13 +124,13 @@ Assets UI のオプションメニューを使用してマップまたはトピ�
 <details>
     <summary> クラウドサービス </summary>
 
-[&#x200B; カスタム DITA テンプレートフォルダーパスの設定 &#x200B;](../install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) 方法については、Cloud Services インストールおよび設定ガイドを参照してください。
+[ カスタム DITA テンプレートフォルダーパスの設定 ](../install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) 方法については、Cloud Services インストールおよび設定ガイドを参照してください。
 </details>
 
 <details>
     <summary> オンプレミスソフトウェア</summary>
 
-[&#x200B; カスタム DITA テンプレートフォルダーパスを設定する &#x200B;](../cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) 方法については、『オンプレミスインストールおよび設定ガイド』を参照してください。
+[ カスタム DITA テンプレートフォルダーパスを設定する ](../cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) 方法については、『オンプレミスインストールおよび設定ガイド』を参照してください。
 </details>
 
 ## テンプレートで定義されたタイトルを渡します
@@ -230,4 +230,4 @@ The resultant DITA map with title "Rootmap1" will look like as follows:
 
 - フォルダー内の同じレベルに別のマップまたはトピックを作成した場合は、新しく作成されたアセットの名前に 0、1、2 などが追加されます。 編集のためにマップを開くか、マップ ファイルをリポジトリに保存するかを選択できます。
 
-**親トピック：**&#x200B;[&#x200B; マップ エディタの概要 &#x200B;](map-editor.md)
+**親トピック：**[ マップ エディタの概要 ](map-editor.md)
