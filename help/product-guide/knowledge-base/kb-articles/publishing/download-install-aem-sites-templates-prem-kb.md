@@ -20,7 +20,7 @@ ht-degree: 0%
 
 設定を進める前に、次の前提条件が満たされていることを確認します。
 
-- **Adobe Experience Manager（AEM）:****サービスパック** 21、20、19 および **AEM 4.6.0} 以降がインストールされた** 2}AEM Guides 6.5 **の実行中のインスタンス。**
+- **Adobe Experience Manager（AEM）:**&#x200B;**サービスパック** 21、20、19 および **AEM 4.6.0&rbrace; 以降がインストールされた** 2&rbrace;AEM Guides 6.5 **の実行中のインスタンス。**
 
 - **必要な権限**：次の権限があることを確認します。
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 ## CRX パッケージマネージャーを使用したパッケージインストール
 
 1. **コンポーネントパッケージをインストールします。**
-   1. [**CRX パッケージマネージャー**](http://<your-aem-instance>/crx/packmgr) に移動します。
+   1. [**CRX パッケージマネージャー**](http://&lt;your-aem-instance>/crx/packmgr) に移動します。
    2. on-prem-guides-components.all-1.x.0.zip パッケージをアップロードしてインストールします。
 
 2. **Sites パッケージのインストール：** CRX パッケージマネージャーを使用して、aemg-docs.all-1.x.0.zip パッケージをアップロードしてインストールします。
@@ -52,7 +52,7 @@ ht-degree: 0%
    5. 「**従来のコンポーネントマッピングを使用**」設定をオフにします。
    6. 「**追加**」を選択して、プリセットを作成します。
 
-      ![ 新しい出力プリセットダイアログ ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/new-output-preset.png){width="350" align="left"}
+      ![&#x200B; 新しい出力プリセットダイアログ &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/new-output-preset.png){width="350" align="left"}
 
 
 2. **AEM サイトプリセットを設定する：** 標準提供（OOTB）サイトを設定するには、次の 2 つのオプションがあります。
@@ -64,14 +64,14 @@ ht-degree: 0%
       - 公開パス：`aemg-docs/en/docs/product1`
       - トピックページテンプレート：トピックページ。
 
-      ![ サイトドロップダウンを使用 ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown.png){width="350" align="left"}
+      ![&#x200B; サイトドロップダウンを使用 &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown.png){width="350" align="left"}
 
    **オプション 2：サイトパスの使用**
 
    1. 必要に応じて **サイトパス** を手動で設定 `/content/aemg-docs/en/docs/product1` ます。
    2. **トピック ページ テンプレート** が自動的にトピック ページに設定されていることを確認します。
 
-      ![ サイトパスを使用 ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path.png){width="350" align="left"}
+      ![&#x200B; サイトパスを使用 &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path.png){width="350" align="left"}
 
 3. **プリセットを保存：** プリセットに加えた変更を保存します。
 
@@ -86,11 +86,11 @@ ht-degree: 0%
    2. OOTB サイト構造の下に新しい製品ページを作成します。
    3. **AEMG Docs**/**English**/**Docs** に移動します。
 
-      ![AEM サイト構造でページを作成 ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-page.png){width="350" align="left"}
+      ![AEM サイト構造でページを作成 &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-page.png){width="350" align="left"}
 
    4. **ホームページ** タイルを選択してから、「**次へ**」を選択します。
 
-      ![ ホームページタイルを選択 ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-page-tile.png){width="350" align="left"}
+      ![&#x200B; ホームページタイルを選択 &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-page-tile.png){width="350" align="left"}
 
    5. ページの **タイトル** と **名前** を入力します。
    6. 「**作成**」を選択します。

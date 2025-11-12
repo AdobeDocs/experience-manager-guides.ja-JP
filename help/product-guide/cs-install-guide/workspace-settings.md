@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Workspace設定
 
-エディターの **タブバー** にある [Workspace設定 ](../user-guide/web-editor-tab-bar.md) オプションは、管理者およびフォルダープロファイル管理者のみが使用でき、次の設定を行うことができます。
+エディターの **タブバー** にある [Workspace設定 &#x200B;](../user-guide/web-editor-tab-bar.md) オプションは、管理者およびフォルダープロファイル管理者のみが使用でき、次の設定を行うことができます。
 
 - [一般](#general)
 - [パネル](#panels)
@@ -33,16 +33,16 @@ ht-degree: 0%
 
 ## 一般
 
-一般設定では、エディターを使用するための設定を指定できます。 このタブには、[**AI アシスタント**]、[**オーサリング**]、[**引用文献**]、[**条件**]、[**スペル チェック** の 5 つのセクションがあります。
+一般設定では、エディターを使用するための設定を指定できます。 このタブには、[**AI アシスタント**]、[**オーサリング**]、[**引用文献**]、[**条件**]、&lbrack;**スペル チェック** の 5 つのセクションがあります。
 
 ![](../user-guide/images/editor-setting-general.png){width="350" align="left"}
 
 - **AI アシスタント**
-これを選択して、Experience Manager Guidesで [AI アシスタント ](../user-guide/ai-assistant.md) 機能を有効にします。 この機能を無効にするには、選択を解除します。
+これを選択して、Experience Manager Guidesで [AI アシスタント &#x200B;](../user-guide/ai-assistant.md) 機能を有効にします。 この機能を無効にするには、選択を解除します。
 
   **AI アシスタント** 切り替えスイッチを有効にした後、以下に示すように、**クイックアクションのオーサリング** メニューを使用して、作成者に **「オーサリング」タブ** に表示するオプションを設定できます。\
   これらの変更は、使用している特定のフォルダープロファイルに適用されます。 新しいフォルダープロファイルを作成すると、デフォルトで **グローバル** フォルダープロファイルで定義されたWorkspace設定が継承されます。 必要に応じて、**Workspace設定を使用してこれらの設定を変更し** 更新された設定を保存できます。\
-  AI アシスタントを使用したオーサリングで利用可能なオプションの詳細な概要については、[AI アシスタントでスマートにドキュメントを作成する ](../user-guide/ai-assistant-right-panel.md) を参照してください。
+  AI アシスタントを使用したオーサリングで利用可能なオプションの詳細な概要については、[AI アシスタントでスマートにドキュメントを作成する &#x200B;](../user-guide/ai-assistant-right-panel.md) を参照してください。
 
   **クイックアクションのオーサリング** メニューから、次の操作を実行できます。
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 - **引用**
 
-  引用のスタイルを変更します。 プロジェクトで使用する引用スタイルをドロップダウンから選択します。 詳細については、[ 引用スタイルの変更 ](../user-guide/web-editor-apply-citations.md#change-citation-style) を参照してください。
+  引用のスタイルを変更します。 プロジェクトで使用する引用スタイルをドロップダウンから選択します。 詳細については、[&#x200B; 引用スタイルの変更 &#x200B;](../user-guide/web-editor-apply-citations.md#change-citation-style) を参照してください。
 
 - **条件**
 
@@ -75,7 +75,7 @@ ht-degree: 0%
    - **条件パネルに件名スキームを表示**：条件パネルに件名スキームを表示するには、これを選択します。 選択を解除すると、定義された条件が条件パネルに表示されます。
 
 - **スペルチェック**
-**AEMのスペルチェック** と **ブラウザーのスペルチェック** の 2 つのオプションがあります。 デフォルトでは、エディターはブラウザーのスペルチェック機能を使用し、スペルチェックはブラウザーの組み込み辞書を使用して実行されます。 AEMのスペルチェック機能に切り替えて、Adobe Experience Managerの辞書を使用することができます。また、この辞書をカスタマイズして、カスタムの単語リストを追加することもできます。 Adobe Experience Manager Guides辞書のカスタマイズについて詳しくは、AEM as a Cloud Serviceのインストールと設定の [AEMのデフォルト辞書のカスタマイズ ](../cs-install-guide/customize-aem-custom-dictionary.md) 節を参照してください。
+**AEMのスペルチェック** と **ブラウザーのスペルチェック** の 2 つのオプションがあります。 デフォルトでは、エディターはブラウザーのスペルチェック機能を使用し、スペルチェックはブラウザーの組み込み辞書を使用して実行されます。 AEMのスペルチェック機能に切り替えて、Adobe Experience Managerの辞書を使用することができます。また、この辞書をカスタマイズして、カスタムの単語リストを追加することもできます。 Adobe Experience Manager Guides辞書のカスタマイズについて詳しくは、AEM as a Cloud Serviceのインストールと設定の [AEMのデフォルト辞書のカスタマイズ &#x200B;](../cs-install-guide/customize-aem-custom-dictionary.md) 節を参照してください。
 
 
 ## パネル
@@ -131,7 +131,7 @@ ht-degree: 0%
 
 **前提条件**
 
-- Salesforce用に接続アプリケーションを作成します。 詳しくは、[API 統合のための OAuth 設定の有効化 ](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&type=5) を参照してください。
+- Salesforce用に接続アプリケーションを作成します。 詳しくは、[API 統合のための OAuth 設定の有効化 &#x200B;](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&type=5) を参照してください。
 
 - 接続アプリケーションを設定する際は、次の点を確認します。
 
@@ -148,11 +148,11 @@ ht-degree: 0%
 
    - Salesforce プロファイルを作成するには、「{ サーバータイプ **」ドロップダウンから** 0}Salesforce **ナレッジベースを選択します。**&#x200B;プロファイル名を入力します。 **サイト URL** に、出力の公開に使用するコンシューマーサイトを入力し、Salesforce コンシューマーサイトから提供される **コンシューマーキー** と **コンシューマーシークレット** を追加します。 次に、新しく作成したプロファイルを **検証** および **保存** します。
 
-     ![workspace 設定での salesforce 公開プロファイル ](../user-guide/images/salesforce-publish-profile.png){width="550" align="left"}
+     ![workspace 設定での salesforce 公開プロファイル &#x200B;](../user-guide/images/salesforce-publish-profile.png){width="550" align="left"}
 
      >[!NOTE]
      >
-     >AEMでSalesforceのプロキシを設定するには、Experience Manager Guidesで Apache HTTP Components Proxy Configuration を使用します。 方法について説明します [AEM リンクチェッカーのプロキシを設定する ](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html)。
+     >AEMでSalesforceのプロキシを設定するには、Experience Manager Guidesで Apache HTTP Components Proxy Configuration を使用します。 方法について説明します [AEM リンクチェッカーのプロキシを設定する &#x200B;](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html)。
 
 
 **ServiceNow プロファイルの作成**
@@ -173,11 +173,11 @@ ht-degree: 0%
 
 - プロファイルを作成するには、「**サーバータイプ**」ドロップダウンから ServiceNow ナレッジベースを選択します。 プロファイル **名前** を入力します。 **ServiceNow URL** に、出力の公開に使用するコンシューマーサイトを入力し、ServiceNow コンシューマーサイトから提供される **ユーザー名** と **パスワード** を追加します。 次に、新しく作成したプロファイルを **検証** および **保存** します。
 
-  ![ServiceNow 公開プロファイル ](../user-guide/images/service-now-publish-profile.png){width="550" align="left"}
+  ![ServiceNow 公開プロファイル &#x200B;](../user-guide/images/service-now-publish-profile.png){width="550" align="left"}
 
   検証後、DITA Map の出力プリセットで公開プロファイルを選択し、それを使用して、選択した **Salesforce** または **ServiceNow** サーバーへの出力を生成できます。
 
-  [ ナレッジベース ](../user-guide/generate-output-knowledge-base.md) 出力プリセットの詳細情報。
+  [&#x200B; ナレッジベース &#x200B;](../user-guide/generate-output-knowledge-base.md) 出力プリセットの詳細情報。
 
 
 ## 検証
@@ -191,13 +191,13 @@ ht-degree: 0%
   >- 選択したスキーマトロンファイルは、選択したフォルダープロファイルに対して保持されます。
   >- 無効な Schematron ファイルが追加されると、次のようなエラーメッセージが表示されます。
 
-  ![ ワークスペース設定での検証 ](../user-guide/images/editor-setting-validation-error.png){width="550" align="left"}
+  ![&#x200B; ワークスペース設定での検証 &#x200B;](../user-guide/images/editor-setting-validation-error.png){width="550" align="left"}
 
   これにより、ユーザーは、選択されたスキーマトロンファイルで定義されたルールを破るファイルを保存できなくなります。 これを選択しない場合、ファイルは変更を保存する前に検証されません。
 
 - **検証パネルですべてのユーザーがスキーマトロンファイルを追加できるようにする**：エディターの検証パネルでユーザーが任意のスキーマトロンファイルを追加できるようにするには、これを選択します。 これにより、ユーザーは Schematron ファイルを追加し、トピックを Schematron ファイルに対して検証できます。 これが選択されていない場合、スキーマトロンファイルを追加するオプション **スキーマトロンファイルを追加** ボタンは、エディターの **検証パネル** のユーザーには使用できません。
 
-  ![ ワークスペース設定での検証 ](../user-guide/images/editor-setting-validation.png){width="550" align="left"}
+  ![&#x200B; ワークスペース設定での検証 &#x200B;](../user-guide/images/editor-setting-validation.png){width="550" align="left"}
 
 
 ## 属性を表示
@@ -230,7 +230,7 @@ ht-degree: 0%
       >
       > **詳細を表示** を **表示を減らす** に切り替えて、いくつかの言語のみを表示します。
 
-   1. グループ内の言語にポインタを合わせて、言語グループを編集 ![ 編集アイコン ](../user-guide/images/edit_pencil_icon.svg) または削除 ![ 削除 ](../user-guide/images/Delete_icon.svg) します。
+   1. グループ内の言語にポインタを合わせて、言語グループを編集 ![&#x200B; 編集アイコン &#x200B;](../user-guide/images/edit_pencil_icon.svg) または削除 ![&#x200B; 削除 &#x200B;](../user-guide/images/Delete_icon.svg) します。
    1. **設定** を保存します。
 
       >[!NOTE]
@@ -253,9 +253,9 @@ ht-degree: 0%
 メタデータパスが空白の場合は、エラーが表示されます。 ラベルを空白のままにすると、最後の要素がラベルとして選択されます。
 
 
-![ ワークスペース設定の「メタデータ」タブ ](../user-guide/images/editor-setting-metadata.png){width="550" align="left"}
+![&#x200B; ワークスペース設定の「メタデータ」タブ &#x200B;](../user-guide/images/editor-setting-metadata.png){width="550" align="left"}
 
-*「バージョン履歴&#x200B;**ダイアログボックスのメタデータ**設定*
+*「バージョン履歴&#x200B;**ダイアログボックスのメタデータ**&#x200B;設定*
 
 
 

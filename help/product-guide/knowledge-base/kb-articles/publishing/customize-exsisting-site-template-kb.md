@@ -53,11 +53,11 @@ AEM サイトから 2 つの編集可能なテンプレートを選択して設�
 - これは、特定のドキュメントセット（製品マニュアルやガイドなど）のエントリポイントまたはホームページとして機能します。
 - テンプレートの最初のノードの jcr:content に id=&quot;category-page&quot; プロパティを追加します。 これにより、このテンプレートから作成されたすべてのページが、AEM Guidesでドキュメントコンテナとして自動的に扱われます。
 
-  ![id=&quot;category-page&quot;の追加 ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-id-category-page.png){width="650" align="left"}
+  ![id=&quot;category-page&quot;の追加 &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-id-category-page.png){width="650" align="left"}
 
 - 必須プロパティ text=&quot;$category.html$&quot;を持つテキストコンポーネントを追加します。
 
-  ![ テキストコンポーネントの追加 ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component.png){width="650" align="left"}
+  ![&#x200B; テキストコンポーネントの追加 &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component.png){width="650" align="left"}
 
 - 通常、ナビゲーション要素（ドキュメント内のセクションやトピックへのリンクなど）が含まれます。
 - ブランディング、ヘッダー、フッターおよびその他のデザイン要素を含めるようにカスタマイズできます。
@@ -71,7 +71,7 @@ AEM サイトから 2 つの編集可能なテンプレートを選択して設�
 - DITA マップ内の各トピックは、このテンプレートを使用して個別のページとしてレンダリングされます。
 - 必須のプロパティ **text=&quot;$topic.content$&quot;を持つ** テキストコンポーネント」が含まれます。
 
-  ![ 必須プロパティを持つテキストコンポーネントの追加 ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component-mandatory-property.png){width="650" align="left"}
+  ![&#x200B; 必須プロパティを持つテキストコンポーネントの追加 &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component-mandatory-property.png){width="650" align="left"}
 
 - このプレースホルダーは、サイト生成時に DITA トピックの実際のコンテンツに置き換えられます。
    - テキストコンポーネントは、適切なレイアウトとスタイル設定を確保するために、通常は **コンテナ コンポーネント** 内に配置されます。
@@ -82,7 +82,7 @@ AEM サイトから 2 つの編集可能なテンプレートを選択して設�
 
 **コンテナコンポーネント：**
 
-![ コンテナコンポーネントの追加 ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-component.png){width="650" align="left"}
+![&#x200B; コンテナコンポーネントの追加 &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-component.png){width="650" align="left"}
 
 >[!NOTE]
 >
@@ -90,7 +90,7 @@ AEM サイトから 2 つの編集可能なテンプレートを選択して設�
 
 同じテンプレートの構造に同じ（コンテナとテキストコンポーネント）を追加します。
 
-![ コンテナとテキストコンポーネントの追加 ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-and-text-component.png){width="650" align="left"}
+![&#x200B; コンテナとテキストコンポーネントの追加 &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-and-text-component.png){width="650" align="left"}
 
 ## カスタマイズされたテンプレートでのガイド コンポーネントのレンダリング
 
@@ -135,7 +135,7 @@ AEM サイトから 2 つの編集可能なテンプレートを選択して設�
 
 3. **変更を保存：** 必要なクライアントライブラリを追加した後にテンプレートを保存します。
 
-   ![ クライアントライブラリの追加 ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-client-libraries.png){width="650" align="left"}
+   ![&#x200B; クライアントライブラリの追加 &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-client-libraries.png){width="650" align="left"}
 
 
 >[!NOTE]
