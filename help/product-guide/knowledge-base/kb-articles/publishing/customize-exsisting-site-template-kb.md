@@ -4,9 +4,10 @@ description: AEM Guides用の既存のAEM サイトテンプレートをカス�
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 1cec8975e8aad56184793a023d066aa467d8cec5
+exl-id: d48709b8-f5b2-4545-ac65-838c5d8b1bae
+source-git-commit: 4c564a0ffaa8f287bcaf012634d49dbf1e0682b4
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '919'
 ht-degree: 1%
 
 ---
@@ -32,9 +33,9 @@ ht-degree: 1%
 
 テンプレート名は、プロジェクト設定に応じて異なります。 例えば、OOTB AEMG ドキュメント設定では次のようになります。
 
-- ドキュメントコンテナページ：/conf/AEMG-Docs-Site/settings/wcm/templates/kb-content
+- ドキュメントコンテナページ：`/conf/AEMG-Docs-Site/settings/wcm/templates/kb-content`
 
-- トピックページ：/conf/AEMG-Docs-Site/settings/wcm/templates/topic-content
+- トピック ページ：`/conf/AEMG-Docs-Site/settings/wcm/templates/topic-content`
 
 **カスタマイズ：** カスタマイズプロセスには、次の 2 つの主な手順が含まれます。
 
@@ -52,11 +53,11 @@ AEM サイトから 2 つの編集可能なテンプレートを選択して設�
 - これは、特定のドキュメントセット（製品マニュアルやガイドなど）のエントリポイントまたはホームページとして機能します。
 - テンプレートの最初のノードの jcr:content に id=&quot;category-page&quot; プロパティを追加します。 これにより、このテンプレートから作成されたすべてのページが、AEM Guidesでドキュメントコンテナとして自動的に扱われます。
 
-  ![id=&quot;category-page&quot;の追加 &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-id-category-page.png){width="650" align="left"}
+  ![id=&quot;category-page&quot;の追加 ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-id-category-page.png){width="650" align="left"}
 
 - 必須プロパティ text=&quot;$category.html$&quot;を持つテキストコンポーネントを追加します。
 
-  ![&#x200B; テキストコンポーネントの追加 &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component.png){width="650" align="left"}
+  ![ テキストコンポーネントの追加 ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component.png){width="650" align="left"}
 
 - 通常、ナビゲーション要素（ドキュメント内のセクションやトピックへのリンクなど）が含まれます。
 - ブランディング、ヘッダー、フッターおよびその他のデザイン要素を含めるようにカスタマイズできます。
@@ -70,7 +71,7 @@ AEM サイトから 2 つの編集可能なテンプレートを選択して設�
 - DITA マップ内の各トピックは、このテンプレートを使用して個別のページとしてレンダリングされます。
 - 必須のプロパティ **text=&quot;$topic.content$&quot;を持つ** テキストコンポーネント」が含まれます。
 
-  ![&#x200B; 必須プロパティを持つテキストコンポーネントの追加 &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component-mandatory-property.png){width="650" align="left"}
+  ![ 必須プロパティを持つテキストコンポーネントの追加 ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component-mandatory-property.png){width="650" align="left"}
 
 - このプレースホルダーは、サイト生成時に DITA トピックの実際のコンテンツに置き換えられます。
    - テキストコンポーネントは、適切なレイアウトとスタイル設定を確保するために、通常は **コンテナ コンポーネント** 内に配置されます。
@@ -81,15 +82,15 @@ AEM サイトから 2 つの編集可能なテンプレートを選択して設�
 
 **コンテナコンポーネント：**
 
-![&#x200B; コンテナコンポーネントの追加 &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-component.png){width="650" align="left"}
+![ コンテナコンポーネントの追加 ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-component.png){width="650" align="left"}
 
 >[!NOTE]
 >
-> wcm/foundation/components の下にある sling:resourceType を使用しているコンポーネントが、対応する core/wcm/components に移行されていることを確認します。
+> :resourceType の下で sling`wcm/foundation/components` を使用しているコンポーネントが、対応する `core/wcm/components` に移行されていることを確認します。
 
 同じテンプレートの構造に同じ（コンテナとテキストコンポーネント）を追加します。
 
-![&#x200B; コンテナとテキストコンポーネントの追加 &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-and-text-component.png){width="650" align="left"}
+![ コンテナとテキストコンポーネントの追加 ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-and-text-component.png){width="650" align="left"}
 
 ## カスタマイズされたテンプレートでのガイド コンポーネントのレンダリング
 
@@ -134,9 +135,9 @@ AEM サイトから 2 つの編集可能なテンプレートを選択して設�
 
 3. **変更を保存：** 必要なクライアントライブラリを追加した後にテンプレートを保存します。
 
-   ![&#x200B; クライアントライブラリの追加 &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-client-libraries.png){width="650" align="left"}
+   ![ クライアントライブラリの追加 ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-client-libraries.png){width="650" align="left"}
 
 
 >[!NOTE]
 >
-> 実稼動環境にデプロイする前に、非実稼動環境でテンプレートがテストされていることを確認します。<br><br> 詳しくは、[AEM Guides](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/overview) および [AEM Sites](https://experienceleague.adobe.com/ja/docs/experience-manager-core-components/using/get-started/authoring) の公式ドキュメントを参照してください。
+> 実稼動環境にデプロイする前に、非実稼動環境でテンプレートがテストされていることを確認します。<br><br> 詳しくは、[AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview) および [AEM Sites](https://experienceleague.adobe.com/ja/docs/experience-manager-core-components/using/get-started/authoring) の公式ドキュメントを参照してください。

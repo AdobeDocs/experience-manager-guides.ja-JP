@@ -4,9 +4,9 @@ description: DITA トピックをインポートして検証する方法、asser
 exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: ee784edcbaef0641784cd1eb18748fc12a4f90bb
+source-git-commit: 64d2f0027c35396a549d11a0186e218dd513b22a
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
@@ -45,10 +45,19 @@ Schematron ファイルを読み込んだ後、エディターで編集できま
 
 1. スケマトロンアイコン（）を選択して、スケマトロンパネルを開きます。
 1. **Add Schematron File** を使用してスキーマトロンファイルを追加します。
+
+   >[!NOTE]
+   >
+   > 無効なスキーマトロンファイルが追加されると、検証パネルにエラーメッセージが表示されます。
+
+   ![](images/schematron-panel-error.png){width="300" align="left"}
+
 1. Schematron ファイルにエラーがない場合は、追加されて検証パネルに表示されます。 エラーを含む Schematron ファイルに対してエラーメッセージが表示されます。
+
    >[!NOTE]
    >
    >Schematron ファイル名の近くにあるクロスアイコンを使用して、削除できます。
+
 1. 「**スキーマトロンで検証**」を選択して、トピックを検証します。
 
    * トピックが規則を破らない場合、ファイルの検証成功メッセージが表示されます。

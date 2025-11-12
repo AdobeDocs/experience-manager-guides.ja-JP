@@ -1,37 +1,37 @@
 ---
-title: リリースノート | Adobe Experience Manager Guides 2025.10.0 リリースのアップグレード手順と修正された問題
-description: 互換性マトリックスと、Adobe Experience Manager Guides as a Cloud Serviceの 2025.10.0 リリースにアップグレードする方法について説明します。
-source-git-commit: 25bfa20f469930b3b683e4753812227abdf36f24
+title: リリースノート | Adobe Experience Manager Guides 2025.11.0 リリースのアップグレード手順と修正された問題
+description: 互換性マトリックスと、Adobe Experience Manager Guides as a Cloud Serviceの 2025.11.0 リリースにアップグレードする方法について説明します。
+source-git-commit: b33f9385cd0364009a70c1a5fddcc1a5c118b08b
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1039'
 ht-degree: 3%
 
 ---
 
-# 2025.10.0 リリースのアップグレード手順
+# 2025.11.0 リリースのアップグレード手順
 
-この記事では、Adobe Experience Manager Guides as a Cloud Service 2025.10.0 リリースのアップグレード手順と互換性マトリックスについて説明します。
+この記事では、Adobe Experience Manager Guides as a Cloud Service 2025.11.0 リリースのアップグレード手順と互換性マトリックスについて説明します。
 
-新機能と機能強化について詳しくは、[ 2025.10.0リリースの新機能](whats-new-2025-10-0.md)を参照してください。
+新機能と機能強化について詳しくは、[ 2025.11.0リリースの新機能](whats-new-2025-11-0.md)を参照してください。
 
-このリリースで修正された問題の一覧については、[2025.10.0リリースで修正された問題](fixed-issues-2025-10-0.md)を参照してください。
+このリリースで修正された問題の一覧については、[2025.11.0リリースで修正された問題](fixed-issues-2025-11-0.md)を参照してください。
 
 ## 互換性マトリックス
 
-この節では、Experience Manager Guides as a Cloud Service 2025.10.0 リリースでサポートされているソフトウェアアプリケーションの互換表について説明します。
+この節では、Experience Manager Guides as a Cloud Service 2025.11.0 リリースでサポートされているソフトウェアアプリケーションの互換表について説明します。
 
 ### FrameMakerとFrameMaker Publishing Server
 
 | Experience Manager Guides as a Cloud リリース | FMPS | FrameMaker |
 | --- | --- | --- |
-| 2025.10.0 | 互換性がありません | 2022 以上 |
+| 2025.11.0 | 互換性がありません | 2022 以上 |
 
 
 ### 酸素コネクタ
 
 | Experience Manager Guides as a Cloud リリース | 酸素コネクタウィンドウ | 酸素コネクタMac | 酸素ウィンドウで編集 | Oxygen Macで編集 |
 | --- | --- | --- | --- | --- |
-| 2025.10.0 | 3.8 -uuid 1 | 3.8 -uuid 1 | 2.3 | 2.3 |
+| 2025.11.0 | 3.8 -uuid 1 | 3.8 -uuid 1 | 2.3 | 2.3 |
 
 
 ### ナレッジベーステンプレートバージョン
@@ -48,13 +48,9 @@ ht-degree: 3%
 | guides-components.all-1.4.0 | aemg-sites-template-1.3.0 |
 
 
-## 2025.10.0 リリースへのアップグレード
+## 2025.11.0 リリースへのアップグレード
 
 Experience Manager Guidesは、Experience Manager as a Cloud Serviceの最新リリースにアップグレードすると、自動的にアップグレードされます。
-
->[!NOTE]
->
-> このリリースには、フォルダープロファイル設定（ui_config.json）の更新が含まれています。 カスタム設定を使用している場合は、アップグレードの前にこれらの設定を必ずバックアップしてください。 更新後、最新バージョンで導入された変更に合わせて設定を確認および調整します。
 
 既存のリリースでExperience Manager Guides as a Cloud Serviceを早く実行していない場合は、次の手順を実行します。
 
@@ -177,7 +173,7 @@ http://<aem_domain>/var/dxml/executor-locks/cf-reference-store-btree-migration/1
 
 ### すべての出力プリセットの DITAVAL ファイルに検索フィルターを適用する手順
 
-検索フィルタが DITAVAL ファイルに対して正しく機能するようにするには、「`ui_config.json`Non-DITA files **」セクション内の「** browseFilters **」フィールドに次の更新を適用して、** ファイルを修正します。
+フィルターが正しく機能するようにするには、ui_config.json を更新します。 以下のように、**browseFilters**/**Non-DITA files**/**Ditaval Files** の下にリストされているプロパティを変更します。
 
 ```
 {
