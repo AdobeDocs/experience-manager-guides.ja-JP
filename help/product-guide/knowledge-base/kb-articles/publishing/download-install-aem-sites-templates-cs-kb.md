@@ -134,4 +134,4 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> 実稼動環境にデプロイする前に、すべての設定が実稼動以外の環境でテストされていることを確認します。 <br><br> 詳しくは、公式の [AEM as a Cloud Serviceへのデプロイ ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview) を参照してください。
+> 実稼動環境にデプロイする前に、すべての設定が実稼動以外の環境でテストされていることを確認します。 <br><br> 詳しくは、公式の [AEM as a Cloud Serviceへのデプロイ ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/implementing/deploying/overview) を参照してください。
