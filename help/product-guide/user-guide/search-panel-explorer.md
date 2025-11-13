@@ -3,7 +3,7 @@ title: エディターインターフェイスの検索パネル
 description: エディターインターフェイスで検索パネルを使用する方法について説明します。
 feature: Authoring
 role: User
-source-git-commit: bdf838da24d7e426c34265cdad454d52f657cfae
+source-git-commit: 5b4aebce91d6cad7c99bf97e3d6d592ad38fa373
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 0%
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 検索パネルには、次の場所からアクセスできます。
 
-- **エディターインターフェイス**:**エクスプローラーパネル** から **検索アイコン** を選択するか、**コンテンツ編集領域** の左下隅にある **検索アイコン** を使用します。 詳しくは、[&#x200B; エクスプローラーパネルからの検索 &#x200B;](#search-from-the-explorer-panel) を参照してください。
+- **エディターインターフェイス**:**エクスプローラーパネル** から **検索アイコン** を選択するか、**コンテンツ編集領域** の左下隅にある **検索アイコン** を使用します。 詳しくは、[ エクスプローラーパネルからの検索 ](#search-from-the-explorer-panel) を参照してください。
 
   ![](images/search-icon-editor.png){align="left"}
 
-- **ホームページ**：ホームページでリポジトリーインターフェイスから移動する際に **検索パネルに表示** オプションを使用します。 詳細表示については、[&#x200B; リポジトリから検索 &#x200B;](#search-from-repository-interface-on-the-home-page) してください。
+- **ホームページ**：ホームページでリポジトリーインターフェイスから移動する際に **検索パネルに表示** オプションを使用します。 詳細表示については、[ リポジトリから検索 ](#search-from-the-repository-interface-on-the-home-page) してください。
 
   ![](images/search-panel-repo.png){align="left"}
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
    ![](images/search-repo-dialog.png){align="left"}
 
-2. 検索を実行し、必要に応じてフィルターを適用します。 検索およびフィルターオプションの詳細な手順については、[&#x200B; 検索とフィルターエクスペリエンス &#x200B;](./home-page-repository-view.md#search-and-filter-experience) を参照してください。
+2. 検索を実行し、必要に応じてフィルターを適用します。 検索およびフィルターオプションの詳細な手順については、[ 検索とフィルターエクスペリエンス ](./home-page-repository-view.md#search-and-filter-experience) を参照してください。
 
 3. 検索が完了したら、「**検索パネルに表示**」を選択します。 最近の検索が、エディターの下部にある検索パネルに表示されます。
 
