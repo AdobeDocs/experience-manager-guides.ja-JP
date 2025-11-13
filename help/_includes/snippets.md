@@ -1,14 +1,14 @@
 ---
-source-git-commit: a7a7cf93770ea491709059b06babf050daa15aa9
+source-git-commit: 1789c6c420e1e5c7f6c3efc5992178cb0c3c589b
 workflow-type: tm+mt
-source-wordcount: '25'
-ht-degree: 4%
+source-wordcount: '26'
+ht-degree: 3%
 
 ---
 # スニペット
 
 ## テストスニペット {#test}
 
-このスニペットをテストするには、`{{test}}` を記事に追加します。
+このスニペットをテストするには、これを記事に追加します。
 
 このスニペットセクションを自由に削除し、実際のスニペットに置き換えてください。
