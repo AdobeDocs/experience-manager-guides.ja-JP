@@ -5,7 +5,7 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: c787947a-b235-4c12-a9cc-eac5136d31db
-source-git-commit: b511f12dab6c4980091aabe57446cbbd84d79080
+source-git-commit: 67c4458180ff7e5690bc1ee51fe9e46bce57c9d5
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -17,6 +17,8 @@ ht-degree: 0%
 複数の作成者と共に複数の同時リリースに取り組んでいる場合、コンテンツは複数のバージョンにバインドされます。 複数のリリースに共通する情報が複数あり、異なる作成者がプロジェクトで使用する場合があります。 このような作業の割り当てを処理するために、作成者は複数のバージョンのファイルを使用することになります。 このようなバージョンは、単にファイルの新しいバージョンである場合や、以前のバージョンに戻す場合があります。 ファイルが戻されたタイミングとその理由を特定するのは複雑な作業です。
 
 AEM Guidesでは、個々のファイルまたはフォルダー内のすべてのファイルのバージョン履歴レポートを生成できます。 このバージョン履歴では、元に戻されたファイルのすべてのバージョンと、それらのバージョンを作成したユーザー、およびそれらのバージョンを作成した理由が示されます。
+
+{{$include /help/_includes/overview.md}}
 
 このレポートには、次の場所からアクセスできます。
 
@@ -57,6 +59,6 @@ AEM Guidesでは、個々のファイルまたはフォルダー内のすべて�
 
    - **コメント**：ファイルを元に戻したユーザーが指定したコメント。
 
-{{$include /help/_includes/overview.md}}
 
-**親トピック：**&#x200B;[&#x200B; Reports](reports-intro.md)
+
+**親トピック：**[ Reports](reports-intro.md)
