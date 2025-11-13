@@ -13,7 +13,7 @@ ht-degree: 11%
 
 # テストの概要
 
-[!DNL Experience Manager Guides] （以下 _[!DNL AEM Guides]_参照）は、強力なエンタープライズグレードのコンポーネントコンテンツ管理ソリューション（CCMS）です。 これにより、Experience Managerでのネイティブ DITA サポートが可能になり、AEMが DITA ベースのコンテンツの作成と配信を処理できるようになります。 これにより、作成者は、Adobe FrameMakerや使いやすい組み込み web エディターなど、オフラインの DITA オーサリングツールを使用してコンテンツを作成できます。
+[!DNL Experience Manager Guides] （以下 _[!DNL AEM Guides]_&#x200B;参照）は、強力なエンタープライズグレードのコンポーネントコンテンツ管理ソリューション（CCMS）です。 これにより、Experience Managerでのネイティブ DITA サポートが可能になり、AEMが DITA ベースのコンテンツの作成と配信を処理できるようになります。 これにより、作成者は、Adobe FrameMakerや使いやすい組み込み web エディターなど、オフラインの DITA オーサリングツールを使用してコンテンツを作成できます。
 
 [!DNL AEM Guides] のソリューションは、DITA コンテンツのコラボレーション、レビュー、翻訳、検索、レポートなど、すべての主要な CCMS 機能を提供します。これにより、作成者は効率的なコンテンツの再利用と強力なワークフローを通じて、より短い時間でより多くの作業を行うことができます。 さらに、クラス最高のシングルクリック公開機能を活用して、最も一般的なフォーマット（Experience Manager Sites、PDF、HTML5、EPUB、DITA-OT を通じたカスタム出力）用の DITA ベースの出力を生成できます。
 
