@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 600 130"
+     width="600" height="130"
+     role="img" aria-label="Table: Applies To and Version"
+     preserveAspectRatio="xMidYMid meet">
+  <title>Applies To / Version table</title>
+
+  <style>
+    .border { stroke: #d3d3d3; fill: none; stroke-width: 1; }
+    .label { font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; font-size: 13px; font-weight: 600; fill: #333; }
+    .value { font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; font-size: 13px; fill: #111; }
+  </style>
+
+  <rect x="0.5" y="0.5" width="599" height="129" rx="6" ry="6" class="border" />
+  <line x1="160.5" y1="0.5" x2="160.5" y2="129.5" class="border" />
+  <line x1="0.5" y1="65.5" x2="599.5" y2="65.5" class="border" />
+
+  <text x="16" y="40" class="label">Applies To:</text>
+  <text x="16" y="95" class="label">Version:</text>
+
+  <text x="180" y="30" class="value">
+    <tspan x="180" dy="0">Experience Manager Guides Cloud Service,</tspan>
+    <tspan x="180" dy="18">Experience Manager Guides On-Premise</tspan>
+  </text>
+
+  <text x="180" y="95" class="value">4.6</text>
+</svg>
