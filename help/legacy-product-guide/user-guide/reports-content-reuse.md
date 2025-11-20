@@ -5,31 +5,14 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: 1a61fc05-b2b4-4665-a15a-0058fbbc2942
-source-git-commit: f867f2deceddf46b5242163c6ea0b4cc1c4f1ca2
+source-git-commit: 5081aa032c13ca684c6882149448b05c77028a90
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
 
 # コンテンツ再利用レポート {#id205BB900OQD}
-
-<table style="border-collapse: collapse;">
-  <tr>
-    <td style="width:150px; white-space: nowrap;">適用先：</td>
-    <td style="width:500px; white-space: nowrap;">Experience Manager Guides as a Cloud Service、Experience Manager Guides オンプレミス</td>
-  </tr>
-  <tr>
-    <td style="width:150px; white-space: nowrap;">バージョン :</td>
-    <td style="width:500px; white-space: nowrap;">2025.11.0、2025.12.0</td>
-  </tr>
-  <tr>
-    <td style="width:150px; white-space: nowrap;">バージョン :</td>
-    <td style="width:500px; white-space: nowrap;">4.6.0、5.1.0</td>
-  </tr>
-</table>
-
-![](./images/test-version-info-table.svg)
 
 生成できるもう 1 つの便利なレポートは、コンテンツ再利用レポートです。 このレポートは、コンテンツの平均使用率を計算します。これは、プロジェクトマネージャーやビジネスオーナーが、再利用されているコンテンツの量を確認するのに非常に役立ちます。
 
@@ -80,4 +63,4 @@ ht-degree: 0%
 >
 > コンテンツ再利用レポートを CSV 形式で書き出すこともできます。 これを行うには、画面の左上隅にある「CSV に書き出し」リンクをクリックし、CSV ファイルを保存する場所を選択します。 その後、この CSV ファイルを任意の CSV エディターで開くことができます。
 
-**親トピック：**&#x200B;[&#x200B; Reports](reports-intro.md)
+**親トピック：**[ Reports](reports-intro.md)
