@@ -5,9 +5,9 @@ exl-id: d8ee9cf7-1d67-4b4a-aa80-64e893a99463
 feature: API Introduction
 role: Developer
 level: Experienced
-source-git-commit: 67e844faece8b6bb8988bb0e67f357cda1db9a4d
+source-git-commit: bf7838690d7632cd74fef0db3aaf7bdc48a50a2c
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Experience Manager Guidesで使用可能な Java ベースの API を使用し�
 
 >[!INFO]
 >
->Experience Manager Guides as a Cloud Service用 Java ベース API の使用に関する最新および詳細なドキュメントについては、[![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-dox-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-dox-sdk-api/latest/index.html) を参照してください。
+>Experience Manager Guides as a Cloud Service用 Java ベース API の使用に関する最新および詳細なドキュメントについては、[![javadoc](./images/javadoc-cs-icon.svg)](https://javadoc.io/doc/com.adobe.aem/aem-dox-sdk-api/latest/index.html) を参照してください。
 
 Maven リポジトリのサービス API JAR をプロジェクトで設定して使用するには、以下に示すように、API SDKをプロジェクトの `pom.xml` ファイルにプロジェクトの依存関係として追加します。
 
@@ -122,9 +122,9 @@ API の使用方法、パラメーター、リクエスト例について詳し�
 
 ## その他のリソース
 
-次に、AEM Guidesに関するその他の役立つリソースのリストを示します。これらのリソースは、[&#x200B; ラーニングとサポート &#x200B;](https://helpx.adobe.com/jp/support/xml-documentation-for-experience-manager.html) ページで利用できます。
+次に、AEM Guidesに関するその他の役立つリソースのリストを示します。これらのリソースは、[ ラーニングとサポート ](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html) ページで利用できます。
 
 - ユーザーガイド
 - インストールおよび設定ガイド
 - クイックスタートガイド
-- [&#x200B; ヘルプのアーカイブページ &#x200B;](https://helpx.adobe.com/jp/xml-documentation-for-experience-manager/archive.html) \（以前のリリースドキュメントにアクセス\）
+- [ ヘルプのアーカイブページ ](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \（以前のリリースドキュメントにアクセス\）
