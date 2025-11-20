@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # ダウンロードとインストール {#id1645E0O04MK}
 
-AEM Guidesは、Adobeソフトウェア配布ポータルを通じて利用できるようになります。 Adobeソフトウェア配布ポータルアカウントからAEM Guidesをダウンロードして、設定したすべてのAdobe Experience Manager \（AEM\） インスタンスにインストールすることができます。 通常、AEMのオーサーインスタンスと実稼動インスタンスは、異なるサーバーでホストされます。 使用するすべてのAEM インスタンスにAEM Guidesをインストールする必要があります。
+AEM Guidesは、Adobe ソフトウェア配布ポータルを通じて利用できるようになります。 Adobe ソフトウェア配布ポータルアカウントからAEM Guidesをダウンロードして、設定したすべてのAdobe Experience Manager \（AEM\） インスタンスにインストールすることができます。 通常、AEMのオーサーインスタンスと実稼動インスタンスは、異なるサーバーでホストされます。 使用するすべてのAEM インスタンスにAEM Guidesをインストールする必要があります。
 
 ダウンロードおよびインストールプロセスを開始する前に、お使いのシステムがAEM Guidesをインストールするための技術要件を満たしていることを確認する必要があります。
 
@@ -32,4 +32,4 @@ AEM Guidesは、Adobeソフトウェア配布ポータルを通じて利用で�
 
 - **[AEM Guidesをアンインストール](download-install-unistall-aemg.md)**
 
-- **[パフォーマンス最適化のためのRecommendations](download-install-recommend-perf-optimiz.md)**
+- **[パフォーマンスの最適化に関する推奨事項](download-install-recommend-perf-optimiz.md)**
