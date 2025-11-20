@@ -13,7 +13,7 @@ ht-degree: 11%
 
 # テストの概要
 
-[!DNL Experience Manager Guides] （以下 _[!DNL AEM Guides]_参照）は、強力なエンタープライズグレードのコンポーネントコンテンツ管理ソリューション（CCMS）です。 これにより、Experience Managerでのネイティブ DITA サポートが可能になり、AEMが DITA ベースのコンテンツの作成と配信を処理できるようになります。 これにより、作成者は、Adobe FrameMakerや使いやすい組み込み web エディターなど、オフラインの DITA オーサリングツールを使用してコンテンツを作成できます。
+[!DNL Experience Manager Guides] （以下 _[!DNL AEM Guides]_&#x200B;参照）は、強力なエンタープライズグレードのコンポーネントコンテンツ管理ソリューション（CCMS）です。 これにより、Experience Managerでのネイティブ DITA サポートが可能になり、AEMが DITA ベースのコンテンツの作成と配信を処理できるようになります。 これにより、作成者は、Adobe FrameMakerや使いやすい組み込み web エディターなど、オフラインの DITA オーサリングツールを使用してコンテンツを作成できます。
 
 [!DNL AEM Guides] のソリューションは、DITA コンテンツのコラボレーション、レビュー、翻訳、検索、レポートなど、すべての主要な CCMS 機能を提供します。これにより、作成者は効率的なコンテンツの再利用と強力なワークフローを通じて、より短い時間でより多くの作業を行うことができます。 さらに、クラス最高のシングルクリック公開機能を活用して、最も一般的なフォーマット（Experience Manager Sites、PDF、HTML5、EPUB、DITA-OT を通じたカスタム出力）用の DITA ベースの出力を生成できます。
 
@@ -25,11 +25,11 @@ ht-degree: 11%
 
 ## 新機能
 
-- **[[!DNL Experience Manager Guides] はじめる前に ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/getting-started/overview.html){target="blank"}** コース
+- **[[!DNL Experience Manager Guides] はじめる前に &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/getting-started/overview.html){target="blank"}** コース
 
   _[!DNL Adobe Experience Manager Guides] でコンテンツを作成、整理、オーサリングおよび公開する方法について説明します_。
 
-- **[[!DNL Experience Manager Guides] ビルトインエディターでのオーサリング ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html){target="blank"}**
+- **[[!DNL Experience Manager Guides] ビルトインエディターでのオーサリング &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html){target="blank"}**
 
   _[!DNL Adobe Experience Manager Guides] でネイティブ web エディターを使用してコンテンツを作成する方法を説明します。 ユーザーの環境設定、エディターの設定、設定、ツールバーなどについて完全に理解できます。_
 
@@ -40,8 +40,8 @@ ht-degree: 11%
 
 ## その他のリソース
 
-- [[!DNL Experience Manager Guides]  ユーザーガイド（古い UI） ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
-- [[!DNL AEM Guides]  ラーニングとサポート ](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
+- [[!DNL Experience Manager Guides]  ユーザーガイド（古い UI） &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+- [[!DNL AEM Guides]  ラーニングとサポート &#x200B;](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
 - [Experience League - AEM に関する情報](https://business.adobe.com/jp/products/experience-manager/adobe-experience-manager.html)
 
 
