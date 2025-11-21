@@ -20,7 +20,7 @@ AEMのワークフローについて詳しくは、以下を参照してくだ�
 
 - [&#x200B; ワークフローインスタンスの管理 &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html?lang=ja)
 
-- ワークフローの適用とワークフローへの参加：[&#x200B; プロジェクトワークフローの操作 &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/projects/workflows.html)。
+- ワークフローの適用とワークフローへの参加：[&#x200B; プロジェクトワークフローの操作 &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/projects/workflows.html?lang=ja)。
 
 
 このトピックの節では、AEM Guidesに付属しているデフォルトのワークフローで実行できる様々なカスタマイズについて説明します。
