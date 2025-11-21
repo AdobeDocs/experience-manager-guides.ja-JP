@@ -32,19 +32,19 @@ Experience Manager Guidesは、Modern Language Association （MLA）、American 
 
 引用を追加するには、次の手順に従います。
 
-1. 左側のパネルで「**引用文献** ![ 引用文献アイコン ](images/citations-icon.svg) アイコンを選択します。
+1. 左側のパネルで「**引用文献** ![&#x200B; 引用文献アイコン &#x200B;](images/citations-icon.svg) アイコンを選択します。
 
    **引用** パネルが開きます。
 
    ![](images/citation-panel.png){width="350" align="left"}
 
-1. **引用** パネルで、「![ アイコンを追加 ](images/Add_icon.svg)」を選択します。 ドロップダウンから、新しい引用を追加するか、引用を読み込むかを選択できます。
+1. **引用** パネルで、「![&#x200B; アイコンを追加 &#x200B;](images/Add_icon.svg)」を選択します。 ドロップダウンから、新しい引用を追加するか、引用を読み込むかを選択できます。
 
 1. **新しい引用** を選択して、新しい引用を追加します。
 
    **引用文献を追加** ダイアログボックスが開きます。
 
-   ![web エディターの引用パネル ](images/citation-add.png) {width="300" align="left"}
+   ![web エディターの引用パネル &#x200B;](images/citation-add.png) {width="300" align="left"}
 
 
 1. **引用を追加** ダイアログボックスのフィールドに入力します。
@@ -81,11 +81,11 @@ Experience Manager Guidesは、Modern Language Association （MLA）、American 
 
 引用を読み込むには、次の手順に従います。
 
-1. 左側のパネルで、「**引用** ![ 引用アイコン ](images/citations-icon.svg)」を選択します。
+1. 左側のパネルで、「**引用** ![&#x200B; 引用アイコン &#x200B;](images/citations-icon.svg)」を選択します。
 
    **引用** パネルが開きます。
 
-1. **引用** パネルで、「![ 追加アイコン ](images/Add_icon.svg)」を選択し、ドロップダウンから「**読み込み**」を選択します。
+1. **引用** パネルで、「![&#x200B; 追加アイコン &#x200B;](images/Add_icon.svg)」を選択し、ドロップダウンから「**読み込み**」を選択します。
 1. システムから.bib ファイルを参照して読み込みます。
 
    >[!TIP]
@@ -96,7 +96,7 @@ Experience Manager Guidesは、Modern Language Association （MLA）、American 
 
    >[!NOTE]
    > <ol><li> Experience Manager Guidesでは、一意で既に存在しない引用のみを読み込みます。
-    &gt; <li> Experience Manager Guidesでは、書籍、ジャーナルまたは web サイトから引用文を読み込むことができます。 現在、他のソースからの引用はサポートされていません。
+   > &gt; <li> Experience Manager Guidesでは、書籍、ジャーナルまたは web サイトから引用文を読み込むことができます。 現在、他のソースからの引用はサポートされていません。
 
 ## 引用の管理
 
@@ -186,9 +186,9 @@ Experience Manager Guidesは、Modern Language Association （MLA）、American 
 
 ### メインツールバーから
 
-1. メインツールバーの「**引用文献** ![ アイコン ](images/citations-icon.svg) アイコンを選択します。
+1. メインツールバーの「**引用文献** ![&#x200B; アイコン &#x200B;](images/citations-icon.svg) アイコンを選択します。
 1. **引用** ダイアログボックスで、引用を選択します。 複数の引用を選択することもできます。
-   ![ 引用対話 ](images/citation-dialog-main-toolbar.png){width="300" align="left"}
+   ![&#x200B; 引用対話 &#x200B;](images/citation-dialog-main-toolbar.png){width="300" align="left"}
 1. 引用文献をフィルターするには、[ 引用文献 **] ダイアログ ボックスの検索パネルで最初の数文字を入力し** す。
 
 1. 「**完了**」を選択します。
@@ -201,12 +201,12 @@ Experience Manager Guidesは、Modern Language Association （MLA）、American 
 > 
 >左側のパネルから **引用** アイコンを表示するには、システム管理者が **設定** の **パネル** タブで **引用** オプションを有効にする必要があります。
 
-1. 左側のパネルで **Citations** ![citations アイコン ](images/citations-icon.svg) アイコンを選択します。
+1. 左側のパネルで **Citations** ![citations アイコン &#x200B;](images/citations-icon.svg) アイコンを選択します。
 1. **引用文献** パネルから引用文献をドラッグし、トピック内の適切な場所にドロップします。
 
    また、「**オプション**」から「![](images/options.svg) 挿入 **」** 選択して、引用文を挿入することもできます。
 
-   ![ 引用文献の挿入 ](images/citation-panel-insert.png)
+   ![&#x200B; 引用文献の挿入 &#x200B;](images/citation-panel-insert.png)
 1. 複数の引用を選択するには、トピック内の引用を右クリックし、ショートカット メニューから **引用を修正** を選択します。
 1. **引用** ダイアログから、挿入する引用を選択します。
 1. 「**完了**」を選択して、トピックに追加します。
@@ -239,7 +239,7 @@ Experience Manager Guidesは、Modern Language Association （MLA）、American 
 トピックで、引用の最後にカーソルを置きます。
 
 1. トピック内の引用を右クリックし、ショートカット メニューから **引用を修正** を選択します。 引用ダイアログが開きます。
-   ![ 引用文献のショートカット メニュー ](./images/modify-citation.png)
+   ![&#x200B; 引用文献のショートカット メニュー &#x200B;](./images/modify-citation.png)
 
 1. ドキュメントに挿入する引用文献を選択できます。
 
@@ -256,10 +256,10 @@ Experience Manager Guidesは、Modern Language Association （MLA）、American 
 
 ネイティブ PDF出力では、引用文は、引用文を挿入したコンテンツ内に表示されます。 参考文献ページを作成することもできます。 引用文献を選択すると、文献目録ページにリダイレクトされます。
 
-PDF テンプレートで **引用** ページレイアウトを作成し、ドキュメントに含めます。 本で使用されているすべての引用は、PDFの出力に表示される 1 ページにリストされます。 ページレイアウトの作成について詳しくは、[ ページレイアウトの作成 ](../native-pdf/components-pdf-template.md#create-page-layout) を参照してください。
+PDF テンプレートで **引用** ページレイアウトを作成し、ドキュメントに含めます。 本で使用されているすべての引用は、PDFの出力に表示される 1 ページにリストされます。 ページレイアウトの作成について詳しくは、[&#x200B; ページレイアウトの作成 &#x200B;](../native-pdf/components-pdf-template.md#create-page-layout) を参照してください。
 
 
-引用文献ページの表示と操作性を変更するには、[[PDF テンプレートのカスタマイズ ](../native-pdf/pdf-template.md)] をクリックします。
+引用文献ページの表示と操作性を変更するには、[[PDF テンプレートのカスタマイズ &#x200B;](../native-pdf/pdf-template.md)] をクリックします。
 
 
 ### 引用に対するコンテンツスタイルの適用
@@ -270,4 +270,4 @@ PDF テンプレートで **引用** ページレイアウトを作成し、ド�
 
 1. 検索パネルで `<cite>` を検索します。
 
-スタイルについて詳しくは、[ 共通のコンテンツスタイルの操作 ](../native-pdf/stylesheet.md) を参照してください。
+スタイルについて詳しくは、[&#x200B; 共通のコンテンツスタイルの操作 &#x200B;](../native-pdf/stylesheet.md) を参照してください。

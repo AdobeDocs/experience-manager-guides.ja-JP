@@ -19,9 +19,9 @@ ht-degree: 0%
 
 ## FMPS とAEM Guidesの互換性
 
-- 4.1 AEM Guidesとの互換性：[4.1 互換性マトリックス ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=en/#compatibility-matrix)
-- 4.0 AEM Guidesとの互換性：[4.0 互換性マトリックス ](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html/#Compatibility%20matrix)
-- 最新リリース：[ 最新リリース情報 ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=en)
+- 4.1 AEM Guidesとの互換性：[4.1 互換性マトリックス &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=en/#compatibility-matrix)
+- 4.0 AEM Guidesとの互換性：[4.0 互換性マトリックス &#x200B;](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html/#Compatibility%20matrix)
+- 最新リリース：[&#x200B; 最新リリース情報 &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=en)
 
 ## インストール
 
@@ -29,11 +29,11 @@ AEM Guidesおよび FMPS のインストールと設定については、次を�
 
 ### AEM ガイド
 
-インストールと設定については、[4.1 のインストールと設定を参照してください ](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-1-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf)
+インストールと設定については、[4.1 のインストールと設定を参照してください &#x200B;](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-1-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf)
 
 ### FMPS
 
-FMPS のインストールについては、[YouTube リンク ](https://www.youtube.com/watch?v=2deelyM5VA8&t) または [FMPS のインストールと設定 ](https://help.adobe.com/en_US/framemaker/server/index.html#t=fmps-user-guide%2Finstall_config_fmps.html%23install_config_fmps&rhtocid=_2) を参照してください。
+FMPS のインストールについては、[YouTube リンク &#x200B;](https://www.youtube.com/watch?v=2deelyM5VA8&t) または [FMPS のインストールと設定 &#x200B;](https://help.adobe.com/en_US/framemaker/server/index.html#t=fmps-user-guide%2Finstall_config_fmps.html%23install_config_fmps&rhtocid=_2) を参照してください。
 
 ## 必要な設定
 
@@ -41,7 +41,7 @@ FrameMaker Publishing Server（FMPS）を使用して DITA コンテンツを生
 
 Web コンソールを開くには、URL Access http://\&lt;server name\>:\&lt;port\>/system/console/configMgr に移動します。
 
-**設定プロパティとその説明**[4.1 のインストールと設定 ](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-1-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf#page=89)
+**設定プロパティとその説明**&#x200B;[4.1 のインストールと設定 &#x200B;](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-1-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf#page=89)
 
 ## テストを実行中：
 
@@ -62,7 +62,7 @@ FMPS プリセットを選択し、さらにカスタム設定やAEMの ditaval 
 
 作成済みのベースラインを FMPS2020.0.2 以降のバージョンで公開できます。
 
-**サンプル FMPS 設定ファイル（.sts ファイル）:** [ サンプル FMPS 設定ファイル ](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:ef750752-7a7e-4e51-923e-6b7d9861ed54) （このファイルを解凍）
+**サンプル FMPS 設定ファイル（.sts ファイル）:** [&#x200B; サンプル FMPS 設定ファイル &#x200B;](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:ef750752-7a7e-4e51-923e-6b7d9861ed54) （このファイルを解凍）
 
 ## FAQ とトラブルシューティング：
 
@@ -93,10 +93,10 @@ FMPS プリセットを選択し、さらにカスタム設定やAEMの ditaval 
 
 ## その他のリソース：
 
-[FMPS のラーニングとサポート ](https://helpx.adobe.com/support/framemaker-publishing-server.html)
+[FMPS のラーニングとサポート &#x200B;](https://helpx.adobe.com/support/framemaker-publishing-server.html)
 
-[AEM Guidesのラーニングとサポート ](https://helpx.adobe.com/in/support/xml-documentation-for-experience-manager.html)
+[AEM Guidesのラーニングとサポート &#x200B;](https://helpx.adobe.com/in/support/xml-documentation-for-experience-manager.html)
 
-[FrameMakerおよび FMPS コミュニティ ](https://community.adobe.com/t5/framemaker/ct-p/ct-framemaker?page=1&sort=latest_replies&lang=all&tabid=all)
+[FrameMakerおよび FMPS コミュニティ &#x200B;](https://community.adobe.com/t5/framemaker/ct-p/ct-framemaker?page=1&sort=latest_replies&lang=all&tabid=all)
 
-[AEM Guides コミュニティ ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)
+[AEM Guides コミュニティ &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)

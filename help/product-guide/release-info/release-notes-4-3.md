@@ -15,7 +15,7 @@ ht-degree: 1%
 
 このリリースノートでは、Adobe Experience Manager Guidesのバージョン 4.3.0 （以降は *AEM Guides*）で修正されたアップグレード手順、互換性マトリックスおよび問題について説明します。
 
-新機能と機能強化について詳しくは、[Adobe Experience Manager Guides 4.3.0 リリースの新機能 ](./whats-new-4-3-release.md) を参照してください。
+新機能と機能強化について詳しくは、[Adobe Experience Manager Guides 4.3.0 リリースの新機能 &#x200B;](./whats-new-4-3-release.md) を参照してください。
 
 ## AEM Guidesの 4.3.0 リリースへのアップグレード
 
@@ -35,7 +35,7 @@ AEM Guidesはバージョン 4.3.0 へアップグレードできます。
 >
 >AEM Guides版をアップグレードする前に、AEM サービスパックをインストールする必要があります。
 
-詳しくは、[ アップグレードの手順 ](../install-guide/upgrade-xml-documentation.md) を参照してください。
+詳しくは、[&#x200B; アップグレードの手順 &#x200B;](../install-guide/upgrade-xml-documentation.md) を参照してください。
 
 ## 互換性マトリックス
 
@@ -120,7 +120,7 @@ AEM Guidesはバージョン 4.3.0 へアップグレードできます。
 - ネイティブ PDF | Xref は、Xref ラベルの代わりに href トピック タイトルの内容を印刷しています。 （11322）
 - ネイティブ PDF | PDF テンプレート設定を保存できません。 （10751）
 - ネイティブ PDF |複数の外部参照を含むの列の幅を超えて、テキストが延長されます。 （10876）
-- ネイティブ PDF |`<note>``</note>` 要素で、そのタイプの追加の span タイトルが生成されない。 （10549）
+- ネイティブ PDF |`<note>` `</note>` 要素で、そのタイプの追加の span タイトルが生成されない。 （10549）
 - JSON 出力 | JSON の jcr`fmUuid` ノードの :content プロパティが、JSON 内の「id」と異なる。 （11564）
 - JSON 出力 | ファイル名が同じマップとトピックが存在する場合、マップの JSON は削除されます。 （11524）
 

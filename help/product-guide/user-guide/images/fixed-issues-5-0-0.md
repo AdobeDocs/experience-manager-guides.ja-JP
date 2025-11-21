@@ -12,9 +12,9 @@ ht-degree: 1%
 
 この記事では、Adobe Experience Manager Guides 5.0.0 リリースの様々な領域で修正されたバグについて説明します。
 
-新機能と機能強化について詳しくは、[ 5.0.0リリースの新機能](/help/product-guide/release-info/whats-new-5-0-0.md)を参照してください。
+新機能と機能強化について詳しくは、[&#x200B; 5.0.0リリースの新機能](/help/product-guide/release-info/whats-new-5-0-0.md)を参照してください。
 
-[5.0.0 リリースのアップグレード手順 ](upgrade-instructions-5-0-0.md) について説明します。
+[5.0.0 リリースのアップグレード手順 &#x200B;](upgrade-instructions-5-0-0.md) について説明します。
 
 
 ## オーサリング

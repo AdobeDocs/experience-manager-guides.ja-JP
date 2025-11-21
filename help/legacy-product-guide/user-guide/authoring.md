@@ -22,7 +22,7 @@ AEMのコンテンツ管理に関する主要な概念を次に示します。
 
 **アセット管理**
 
-AEM Guidesは、AEMのデジタルアセット管理\（DAM\）を使用して DITA ファイルを管理します。 DAM にアップロードまたはチェックインするファイルは、デジタルアセットとして保存されます。 AEM Assetsでアセットを管理および編集できます。 アセット管理について詳しくは、「[ アセットの管理 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=ja)」を参照してください。
+AEM Guidesは、AEMのデジタルアセット管理\（DAM\）を使用して DITA ファイルを管理します。 DAM にアップロードまたはチェックインするファイルは、デジタルアセットとして保存されます。 AEM Assetsでアセットを管理および編集できます。 アセット管理について詳しくは、「[&#x200B; アセットの管理 &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=ja)」を参照してください。
 
 **リンク管理**
 
@@ -32,7 +32,7 @@ AEM Guidesは、AEMのデジタルアセット管理\（DAM\）を使用して D
 
 AEM Guidesでは、デジタルアセットのバージョン管理を行えます。 この機能は、任意の DITA オーサリングアプリケーションから簡単に有効化できます。 ライターに対して、チェックインやチェックアウトなどの標準バージョン管理機能の実行を許可します。
 
-バージョンの作成または特定のバージョンへの復帰について詳しくは、[ ブランチ、復帰、後続のバージョン管理 ](web-editor-preview-topics.md#id193PG0Y051X) を参照してください。
+バージョンの作成または特定のバージョンへの復帰について詳しくは、[&#x200B; ブランチ、復帰、後続のバージョン管理 &#x200B;](web-editor-preview-topics.md#id193PG0Y051X) を参照してください。
 
 **ネイティブ DITA 処理**
 

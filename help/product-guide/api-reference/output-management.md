@@ -87,7 +87,7 @@ http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/publishlistener
 |----|----|--------|-----------|
 | `:operation` | 文字列 | はい | 呼び出される操作の名前。 このパラメーターの値は ``saveoutput`` です。<br> **メモ：** この値では、大文字と小文字が区別されません。 |
 | `sourcePath` | 文字列 | はい | DITA マップファイルの絶対パス。 |
-| `outputObj` | 文字列 | はい | 更新される出力プリセットのプロパティを含む JSON オブジェクト。 `outputObj.outputName` プロパティには、更新する出力プリセットの名前が含まれています。 JSON オブジェクトの形式については、**DITA マップのすべての出力プリセットの取得** の表 [ 応答値 ](#get-output-presets-dita-map) を参照してください。 |
+| `outputObj` | 文字列 | はい | 更新される出力プリセットのプロパティを含む JSON オブジェクト。 `outputObj.outputName` プロパティには、更新する出力プリセットの名前が含まれています。 JSON オブジェクトの形式については、**DITA マップのすべての出力プリセットの取得** の表 [&#x200B; 応答値 &#x200B;](#get-output-presets-dita-map) を参照してください。 |
 
 **応答値**:
 HTTP 200 \（成功\）応答を返します。

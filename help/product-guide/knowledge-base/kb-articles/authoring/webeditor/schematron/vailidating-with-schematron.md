@@ -27,14 +27,14 @@ DITA ルールのサポートに加えて、web エディタは「*Schematron*�
 
 ### スキーマトロンルールの設定
 
-[ ユーザガイド ](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=148) の「スキーマトロンファイルのサポート」の節を参照してください
+[&#x200B; ユーザガイド &#x200B;](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=148) の「スキーマトロンファイルのサポート」の節を参照してください
 
 
 ### ファイル保存時に検証ルールを適用
 
-Webeditor 設定を使用すると、パワーユーザーは、ユーザーがコンテンツを更新するたびに実行される Schematron ルール/ファイルを設定できます。 詳しくは、『ユーザーガイド [ の「検証」の節を参照してください ](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=58)
+Webeditor 設定を使用すると、パワーユーザーは、ユーザーがコンテンツを更新するたびに実行される Schematron ルール/ファイルを設定できます。 詳しくは、『ユーザーガイド [&#x200B; の「検証」の節を参照してください &#x200B;](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=58)
 
-![Web エディター設定からルールを設定 ](../../../assets/authoring/schematron-editorsettings-validation-tab.png)
+![Web エディター設定からルールを設定 &#x200B;](../../../assets/authoring/schematron-editorsettings-validation-tab.png)
 
 
 ### 検証を手動で実行できますか？
@@ -43,13 +43,13 @@ Webeditor 設定を使用すると、パワーユーザーは、ユーザーが�
 
 これを機能させるには、フォルダープロファイル管理者が、すべてのユーザーが検証パネルで Schemtron ファイルを追加できるようにする必要があります。 エディター設定を参照してください（上のスクリーンショット）
 
-![Schematron ファイルを選択 ](../../../assets/authoring/schematron-rightpanel-validation-addsch.png)
-![ 検証の実行 ](../../../assets/authoring/schematron-rightpanel-validation-runsch.png)
+![Schematron ファイルを選択 &#x200B;](../../../assets/authoring/schematron-rightpanel-validation-addsch.png)
+![&#x200B; 検証の実行 &#x200B;](../../../assets/authoring/schematron-rightpanel-validation-runsch.png)
 
 
 ### サポートされるルール
 
-現在のAEM Guidesのバージョンでは、「アサーション」ベースのルールのみを使用した検証をサポートしています。 （[ アセットとレポート ](https://schematron.com/document/205.html) を参照）。
+現在のAEM Guidesのバージョンでは、「アサーション」ベースのルールのみを使用した検証をサポートしています。 （[&#x200B; アセットとレポート &#x200B;](https://schematron.com/document/205.html) を参照）。
 「レポート」に基づくルールは、まだサポートされていません。
 
 
@@ -101,6 +101,6 @@ Webeditor 設定を使用すると、パワーユーザーは、ユーザーが�
 
 #### リソース
 
-- 理解 [ スキーマトロンの基本 ](https://da2022.xatapult.com/#what-is-schematron)
-- [Schematron のアサーションルール ](https://www.xml.com/pub/a/2003/11/12/schematron.html#Assertions) の詳細
+- 理解 [&#x200B; スキーマトロンの基本 &#x200B;](https://da2022.xatapult.com/#what-is-schematron)
+- [Schematron のアサーションルール &#x200B;](https://www.xml.com/pub/a/2003/11/12/schematron.html#Assertions) の詳細
 - [サンプルスキーマトロンファイル](../../../assets/authoring/sample_schematron.sch)

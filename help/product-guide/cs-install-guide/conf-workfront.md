@@ -16,14 +16,14 @@ ht-degree: 3%
 
 Adobe Workfrontは、チームや組織が作業を効率的に計画、追跡、管理するのに役立つ、クラウドベースの作業管理ソリューションです。 Experience Manager GuidesとAdobe Workfrontの統合により、Experience Manager Guidesのコア CCMS 機能に加えて堅牢なプロジェクト管理機能にアクセスできるため、タスクの計画、割り当て、追跡を効率的に行うことができます。
 
-Experience Manager Guidesでの [Adobe Workfront統合 ](../user-guide/workfront-integration.md) について詳しくは、こちらを参照してください。
+Experience Manager Guidesでの [Adobe Workfront統合 &#x200B;](../user-guide/workfront-integration.md) について詳しくは、こちらを参照してください。
 
 ## 前提条件
 
 開始する前に、次のことを確認します。
 
 1. Adobe Workfrontへの標準アクセス権とExperience Manager Guidesへの管理者アクセス権があります。
-2. 以下のフィールドを使用して、Experience Manager Guidesに必要な [Adobe Workfrontで新しいカスタムフォームを作成 ](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/customize/custom-forms/design-a-form/design-a-form) します。
+2. 以下のフィールドを使用して、Experience Manager Guidesに必要な [Adobe Workfrontで新しいカスタムフォームを作成 &#x200B;](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/customize/custom-forms/design-a-form/design-a-form) します。
 
    | フィールドタイプ | ラベル | 名前 | 選択肢（値を表示が有効） |
    |------------|------|------|-------------------------------|
@@ -57,7 +57,7 @@ Experience Manager GuidesでAdobe Workfrontを設定するには、次の手順�
 
    Adobe Workfrontの設定で設定された **クライアント ID** および **クライアント秘密鍵** キーにアクセスするには、`Setup >> Systems>> oAuth2 Applications` に移動します。
 
-   Adobe Workfront ドメインの設定について詳しくは、[Workfront統合用の OAuth2 アプリケーションの作成 ](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/configure-integrations/create-oauth-application#create-an-oauth2-application-using-user-credentials-authorization-code-flow) の認証コードフローの節を参照してください。
+   Adobe Workfront ドメインの設定について詳しくは、[Workfront統合用の OAuth2 アプリケーションの作成 &#x200B;](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/configure-integrations/create-oauth-application#create-an-oauth2-application-using-user-credentials-authorization-code-flow) の認証コードフローの節を参照してください。
 
 4. **ログインして確認** を選択します。
 
@@ -66,7 +66,7 @@ Experience Manager GuidesでAdobe Workfrontを設定するには、次の手順�
 
    Experience Manager GuidesのWorkfront設定ページに自動的にリダイレクトされます。
 
-6. カスタムフォーム ドロップダウンリストで、Experience Manager Guides用に作成したAdobe Workfront カスタムフォームを選択します。 [ 前提条件 ](#prerequisites) を表示します。
+6. カスタムフォーム ドロップダウンリストで、Experience Manager Guides用に作成したAdobe Workfront カスタムフォームを選択します。 [&#x200B; 前提条件 &#x200B;](#prerequisites) を表示します。
 7. **保存して閉じる** を選択し、Workfront設定の変更内容を適用して保存します。
 
-設定が完了したら、Experience Manager Guidesと同じメールアドレスを使用して [Adobe Workfrontにユーザーを追加 ](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/add-users/create-manage-users/add-users) します。
+設定が完了したら、Experience Manager Guidesと同じメールアドレスを使用して [Adobe Workfrontにユーザーを追加 &#x200B;](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/add-users/create-manage-users/add-users) します。

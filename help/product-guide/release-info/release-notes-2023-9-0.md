@@ -15,7 +15,7 @@ ht-degree: 0%
 
 このリリースノートでは、2023 年 9 月バージョンのAdobe Experience Manager Guides（後の *AEM Guides as a Cloud Service*）で修正されたアップグレード手順、互換性マトリックスおよび問題について説明します。
 
-新機能と機能強化について詳しくは、[2023 年 9 月リリースのAEM Guides as a Cloud Serviceの新機能 ](whats-new-2023-9-0.md) を参照してください。
+新機能と機能強化について詳しくは、[2023 年 9 月リリースのAEM Guides as a Cloud Serviceの新機能 &#x200B;](whats-new-2023-9-0.md) を参照してください。
 
 ## 2023 年 9 月リリースへのアップグレード
 
