@@ -4,7 +4,7 @@ description: エディターから Markdown ドキュメントを作成します
 exl-id: def14e35-27c5-4b90-bc3d-eef7e8f317d2
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 639cd235778f31b139889d615f93bde3334e4988
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1197'
 ht-degree: 2%
@@ -31,7 +31,7 @@ Markdown は、プレーンテキストドキュメントに書式設定要素�
 
    >[!NOTE]
    >
-   > アップグレードの場合、使用中の現在のフォルダープロファイルに Markdown テンプレートを追加する必要があります。 エディターから [&#x200B; 新しいマークダウンテンプレートを作成 &#x200B;](./web-editor-features.md#templates) するか、マークダウンオーサリングに既存のテンプレートを使用できます。 Experience Manager Guidesにオーサリングテンプレートを追加する方法について詳しくは、[&#x200B; グローバルプロファイルまたはフォルダーレベルのプロファイルの設定 &#x200B;](../cs-install-guide/conf-folder-level.md) を参照してください。
+   > アップグレードの場合、使用中の現在のフォルダープロファイルに Markdown テンプレートを追加する必要があります。 エディターから [ 新しいマークダウンテンプレートを作成 ](./web-editor-features.md#templates) するか、マークダウンオーサリングに既存のテンプレートを使用できます。 Experience Manager Guidesにオーサリングテンプレートを追加する方法について詳しくは、[ グローバルプロファイルまたはフォルダーレベルのプロファイルの設定 ](../cs-install-guide/conf-folder-level.md) を参照してください。
 1. 「**作成**」を選択します。
 
    Markdown トピックが選択したパスに作成され、編集用に開かれます。
@@ -67,7 +67,7 @@ Features available in the tab bar are explained as follows:
 
 * **Topic tab**: Displays the currently opened topics in a tab. By default, you can view the file titles in the tab. As you hover over a file, you can view the file title and the file path as a tooltip.
 
-    >![NOTE]
+    >[!NOTE]
     >
     > As an administrator, you can also choose to view the list of files by filenames in the tabs. View [User preferences](./intro-home-page.md#user-preferences) for details.
 * **Save all**: Saves the changes you have made in all opened topics. If you have multiple topics opened in the Editor, selecting **Save all** or pressing `Crtl+S` shortcut keys saves all documents in one click. You do not have to individually save each document.
@@ -147,7 +147,7 @@ Markdown オーサリングの場合、エディターは、コンテンツの�
 * **作成日**: トピックが作成された日時を表示します。
 * **変更日**: トピックが変更された日時を表示します。
 * **ロック済み**: トピックをチェックアウトしたユーザーを表示します。
-* **ドキュメントの状態**：現在開いているトピックのドキュメントの状態を選択および更新できます。 詳しくは、[&#x200B; ドキュメントの状態 &#x200B;](./web-editor-document-states.md) を参照してください。
+* **ドキュメントの状態**：現在開いているトピックのドキュメントの状態を選択および更新できます。 詳しくは、[ ドキュメントの状態 ](./web-editor-document-states.md) を参照してください。
 * **タグ**：トピックのメタデータタグです。 これらは、プロパティ ページのタグ フィールドから設定します。 ドロップダウンから入力または選択できます。 タグがドロップダウンの下に表示されます。 タグを削除するには、タグの横にある十字アイコンを選択します。
 * **その他のプロパティを編集**：ファイルのプロパティページから、その他のプロパティを編集できます。
 
@@ -175,4 +175,4 @@ Markdown オーサリングの場合、エディターは、コンテンツの�
 
 
 
-**親トピック：**&#x200B;[&#x200B; エディターの概要 &#x200B;](web-editor.md)
+**親トピック：**[ エディターの概要 ](web-editor.md)

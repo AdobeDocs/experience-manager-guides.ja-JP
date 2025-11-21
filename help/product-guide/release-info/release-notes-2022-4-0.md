@@ -1,28 +1,28 @@
 ---
-title: リリースノート | Adobe Experience Manager Guidesのas a Cloud Service、2022 年 4 月リリース
-description: Adobe Experience Manager Guidesas a Cloud Serviceの 4 月リリース
+title: リリースノート | Adobe Experience Manager Guidesas a Cloud Service、2022 年 4 月リリース
+description: Adobe Experience Manager Guides as a Cloud Serviceの 4 月リリース
 exl-id: c735ba24-a803-454b-8723-57dacf90061b
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '809'
 ht-degree: 0%
 
 ---
 
-# Adobe Experience Manager Guidesas a Cloud Serviceの 4 月リリース
+# Adobe Experience Manager Guides as a Cloud Serviceの 4 月リリース
 
 ## 4 月のリリースへのアップグレード
 
-次の手順を実行して、現在の [!DNL Adobe Experience Manager Guides] のas a Cloud Service（後で *[!DNL AEM Guides]のas a Cloud Service*）設定をアップグレードします。
-1. Cloud Serviceの Git コードをチェックアウトし、アップグレードする環境に対応する、Cloud Serviceパイプラインで設定されたブランチに切り替えます。
-1. Cloud Service`<dox.version>`Git コード `/dox/dox.installer/pom.xml` ファイルのプロパティを 2022.4.133 に更新します。
-1. 変更内容をコミットし、Cloud Serviceパイプラインを実行して、as a Cloud Serviceの 4 月のリリースにアップグレード [!DNL AEM Guides] ます。
+次の手順を実行して、現在の [!DNL Adobe Experience Manager Guides] as a Cloud Service（後でas a Cloud Service *[!DNL AEM Guides]）* 設定をアップグレードします。
+1. Cloud Services の Git コードをチェックアウトし、アップグレードする環境に対応する、Cloud Services パイプラインで設定されたブランチに切り替えます。
+1. Cloud Services Git コ `<dox.version>` ド `/dox/dox.installer/pom.xml` ファイルのプロパティを 2022.4.133 に更新します。
+1. 変更内容をコミットし、Cloud Services パイプラインを実行して、4 月リリースのas a Cloud Serviceにアップグレード [!DNL AEM Guides] ます。
 
 ## 互換性マトリックス
 
-このセクションでは、2022 年 4 月のas a Cloud Serviceリリースでサポートされるソフトウェアアプリケーション [!DNL AEM Guides] 互換表を示します。
+この節では、2022 年 4 月リリースのas a Cloud Serviceでサポートされるソフトウェアアプリケーション [!DNL AEM Guides] 互換性マトリックスを示します。
 
 ### FrameMakerとFrameMaker Publishing Server
 
@@ -49,7 +49,7 @@ Web エディターに多くの機能強化と新機能が追加されました�
 
 DITA コンテンツキー参照は、あるトピックから別のトピックにコンテンツの一部を挿入します。 キーを使用してコンテンツを検索します。 DITA トピックに関連付けられたキー参照を解決する必要があります。 キー参照を解決する場合、選択したルートマップが最も優先されます。
 
-![&#x200B; ユーザー環境設定ダイアログ &#x200B;](assets/user-preferences.png)
+![ ユーザー環境設定ダイアログ ](assets/user-preferences.png)
 
 これで、次の優先順位で設定されたルート マップに基づいて、キー参照が解決されます。
 
@@ -67,13 +67,13 @@ DITA コンテンツキー参照は、あるトピックから別のトピック
 
 これで、DITA マップ内で選択したトピックの文書状態を簡単に変更できます。 DITA マップ内の選択したトピックのプロパティを、「マップビュー」パネルの下部にある **その他のオプション** メニューから開いて編集することもできます。
 
-![&#x200B; 選択したトピックのプロパティ &#x200B;](assets/map-view-properties.png)
+![ 選択したトピックのプロパティ ](assets/map-view-properties.png)
 
 ### プレビューモードで表示されるバージョン情報
 
 Web エディターは、バージョンの管理に役立ちます。 トピックのプレビューモードで、トピックの「ファイル」タブの右上隅にアクティブなトピックのバージョンまたは DITA マップが表示されるようになりました。
 
-![&#x200B; プレビューバージョン &#x200B;](assets/preview-version.png)
+![ プレビューバージョン ](assets/preview-version.png)
 
 ## 修正された問題
 
@@ -86,21 +86,21 @@ Web エディターは、バージョンの管理に役立ちます。 トピッ
 * 入力中に検索すると、リポジトリー表示に不要な検索リクエストが発生する。 （9307）
 * 問題は、「」タブのタイトルに任意のキーワードが使用されると発生します。 （9318）
 * スペースを含むラベルを追加すると、ベースラインが失敗します。 （9362）
-* AEM サイト出力にグロスセグメント要素が正しく表示されません。 （8936）
+* AEM サイト出力にグロススセグメント要素が正しく表示されません。 （8936）
 * Web エディターで「**出力**」タブを開くと、コンソールエラーが発生します。 （8715）
-* Salesforce を使用した手動レコードタイプの公開時に表示されるエラーメッセージが直感的ではありません。 （8952）
+* Salesforceを使用して手動レコードタイプを公開する際に表示されるエラーメッセージが直感的ではありません。 （8952）
 * 条件属性を使用して検証の設定は直ちに開かれず、検証を確認するためにユーザーがファイルを再度開く必要があります。 （9300）
 * DITA マップがメタデータとともにパブリッシュされると、メタデータは削除できません。  （9178）
 * マップ エディタで DITA マップを開いた場合でも、移動パネルが表示されます。 （9053）
 * ユーザーが定義したカスタム DTD は、DITA-OT に埋め込まれた標準の DITA DTD より優先されません。 （9104）
-* ネイティブPDF機能では、非 DITA ファイルおよび非イメージファイルのテンプレートのアップロードが失敗します。 （9070）
+* Native PDF機能では、非 DITA ファイルおよび非イメージファイルの場合、テンプレート内のアップロードが失敗します。 （9070）
 * 承認メカニズムは、特殊なシナリオで、1 つではなく 2 つのクエリを実行します。 （9221）
 * カスタム DTD を使用すると、AEM サイト出力の公開が失敗する。 （9243）
-* 参照脚注を使用しても、AEM サイト出力の脚注セクションまでスクロールしない。 （9234）
+* 参照脚注を使用しても、AEM サイト出力の脚注セクションにスクロールされない。 （9234）
 
 ## 既知の問題
 
-Adobeas a Cloud Serviceでは、4 月 [!DNL AEM Guides] 日のリリースで次の既知の問題を特定しました。
+Adobeは、[!DNL AEM Guides] as a Cloud Serviceの 4 月のリリースで、次の既知の問題を特定しました。
 
 * 同じ名前でスペースや大文字と小文字の違いのある 2 つ以上のベースラインが作成されても、Web エディターはエラーをレポートしません。 例えば、「adobe」と「Adobe」、「Adobe」などです。
 * 酸素コネクタが、頻繁なログインやログアウト、または異なる認証タイプ間の切り替え中に断続的にハングする。

@@ -1,7 +1,8 @@
 ---
 title: リリースノート | Adobe Experience Manager Guides 2025.02.0 リリースのアップグレード手順と修正された問題
 description: 互換性マトリックスと、Adobe Experience Manager Guides as a Cloud Serviceの 2025.02.0 リリースにアップグレードする方法について説明します。
-source-git-commit: b180621b54fa5c7390aa798e66ed91e5e738ab28
+exl-id: 7b01be4c-031f-4153-8d6d-d6352e94be65
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 3%
@@ -12,7 +13,7 @@ ht-degree: 3%
 
 この記事では、Adobe Experience Manager Guides as a Cloud Service 2025.02.0 リリースのアップグレード手順と互換性マトリックスについて説明します。
 
-新機能と機能強化について詳しくは、[&#x200B; 2025.02.0リリースの新機能](whats-new-2025-02-0.md)を参照してください。
+新機能と機能強化について詳しくは、[ 2025.02.0リリースの新機能](whats-new-2025-02-0.md)を参照してください。
 
 このリリースで修正された問題の一覧については、[2025.02.0リリースで修正された問題](fixed-issues-2025-02-0.md)を参照してください。
 
@@ -33,7 +34,7 @@ ht-degree: 3%
 | Experience Manager Guides as a Cloud リリース | 酸素コネクタウィンドウ | 酸素コネクタMac | 酸素ウィンドウで編集 | Oxygen Macで編集 |
 | --- | --- | --- | --- | --- |
 | 2025.02.0 | 3.8 -uuid 1 | 3.8 -uuid 1 | 2.3 | 2.3 |
-|  |  |  |  |
+|  |  |  |  |  |
 
 
 ### ナレッジベーステンプレートバージョン
@@ -103,7 +104,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 既存のコンテンツを後処理し、新しい壊れたリンクのレポートを使用するには、次の手順を実行します。
 
-1. （オプション）システムに 100,000 個を超える DITA ファイルがある場合は、`org.apache.jackrabbit.oak.query.QueryEngineSettingsService` 下の `queryLimitReads` および `queryLimitInMemory` を大きい値（存在するアセットの数を超える値は、たとえば 200,000）に変更してから再デプロイします。
+1. （オプション）システムに 100,000 個を超える DITA ファイルがある場合は、`queryLimitReads` 下の `queryLimitInMemory` および `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` を大きい値（存在するアセットの数を超える値は、たとえば 200,000）に変更してから再デプロイします。
 
    - Adobe Experience Manager Guides as a Cloud Serviceのインストールと設定の *設定の上書き* の節で説明した手順に従って、設定ファイルを作成します。
    - 設定ファイルで、`queryLimitReads` と `queryLimitInMemory` オプションを設定するために、次の（プロパティ）の詳細を指定します。
@@ -140,7 +141,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 Experience Manager Guidesには、クロスマップ（2 つの異なるマップのトピック間のリンク）の場合に生成されるリンクを処理する [**custom sling rewriter**](../cs-install-guide/conf-output-generation.md#custom-rewriter) モジュールがあります。
 
-コードベースに別のカスタム sling rewriter がある場合は、Experience Manager Guides sling rewriter が 50 を使用するように、50 より大きい `'order'` 値を使用し `'order'` す。 これを上書きするには、50 より大きい値が必要です。 詳しくは、[&#x200B; 出力の書き換えパイプライン &#x200B;](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html) を参照してください。
+コードベースに別のカスタム sling rewriter がある場合は、Experience Manager Guides sling rewriter が 50 を使用するように、50 より大きい `'order'` 値を使用し `'order'` す。 これを上書きするには、50 より大きい値が必要です。 詳しくは、[ 出力の書き換えパイプライン ](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html) を参照してください。
 
 このアップグレード中に、`'order'` の値が 1000 から 50 に変更されるので、既存のカスタムリライターがある場合は `fmdita-rewriter` と結合する必要があります。
 

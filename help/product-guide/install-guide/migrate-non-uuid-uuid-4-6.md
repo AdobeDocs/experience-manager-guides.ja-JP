@@ -4,7 +4,7 @@ description: 非 UUID を UUID コンテンツに移行する方法を説明し�
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: e38cd858201ea657ce276eb4b358b0d4eff502b2
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1568'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 >   1. すべてのアクティブなレビューをクローズしました。
 >   1. すべての翻訳タスクを終了しました。
 > * コンテンツを UUID サーバーに移行する前に、UUID 以外のサーバーに互換性のあるAEM Guides バージョンがインストールされていることを確認します。
-> * 4.6.0 サービスパック 4 より前にリリースされたバージョンを使用している場合は、まずバージョン 4.6.0 サービスパック 4 にアップグレードする必要があります。 製品のライセンス済みバージョンに固有の [&#x200B; アップグレード手順 &#x200B;](./upgrade-xml-documentation.md) に従います。
+> * 4.6.0 サービスパック 4 より前にリリースされたバージョンを使用している場合は、まずバージョン 4.6.0 サービスパック 4 にアップグレードする必要があります。 製品のライセンス済みバージョンに固有の [ アップグレード手順 ](./upgrade-xml-documentation.md) に従います。
 > * 4.6.0 サービスパック 4 以降にリリースされた特定のサービスパックを使用している場合は、そのサービスパックをアンインストールして 4.6.0 サービスパック 4 に戻す必要があります。
 
 ## パッケージのインストール
@@ -57,7 +57,7 @@ ht-degree: 2%
    * エラーのあるファイルの数
    * GUID ファイル名を含むファイル
 
-   ![&#x200B; 移行の「互換性の評価」タブ &#x200B;](assets/migration-compatibility-assessment.png)
+   ![ 移行の「互換性の評価」タブ ](assets/migration-compatibility-assessment.png)
 
 
 1. エラーが表示された場合は、ログを分析し、それらのエラーを修正します。 エラーを修正した後、互換性マトリックスを再実行できます。
@@ -66,7 +66,7 @@ ht-degree: 2%
 
    複数および大きな DITA マップを選択することで、すべてのコンテンツが問題なく正常に移行されたことを検証できます。 ベースラインの含まれるプリセットを選択すると、ベースラインとバージョンが正常に移行されます。
 
-   ![&#x200B; 移行の「検証」タブの設定 &#x200B;](assets/migration-configure-validation.png)
+   ![ 移行の「検証」タブの設定 ](assets/migration-configure-validation.png)
 
 
 1. （オプション）コンテンツに対してバージョンのパージを実行して、不要なバージョンを削除し、移行プロセスを高速化します。 バージョンのパージを実行するには、移行画面から「**バージョンのパージ**」オプションを選択し、URL `http://<server- name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html` を使用してユーザーインターフェイスに移動します。
@@ -74,7 +74,7 @@ ht-degree: 2%
    >
    >このユーティリティは、ベースラインやレビューで使用されているバージョンを削除したり、ラベルを持ったりしません。
 
-詳しくは、「[&#x200B; 古いバージョンのパージ &#x200B;](../install-guide/version-management.md#purge-older-versions-of-dita-files)」を参照してください。
+詳しくは、「[ 古いバージョンのパージ ](../install-guide/version-management.md#purge-older-versions-of-dita-files)」を参照してください。
 
 
 ## 移行の前提条件
@@ -86,7 +86,7 @@ ht-degree: 2%
    * このアクティビティを開始する前に、**オフライン Tar 圧縮** を実行してください。
    * この移行期間中に、インデックス作成やシステムメンテナンスが計画されていないことを確認してください。
 
-1. サポートされているリリースの UUID バージョンを非 UUID バージョンよりも先にインストールします。 例えば、4.6.0 サービスパック 4 の非 UUID ビルドを使用している場合は、UUID バージョン 4.6.1 [com.adobe.fmdita.feature-uuid-4.6.1.4850.zip をインストールして &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F4-0%2Fcom.adobe.fmdita-6.5-uuid-4.6.1.4850.zip) 移行を実行する必要があります。
+1. サポートされているリリースの UUID バージョンを非 UUID バージョンよりも先にインストールします。 例えば、4.6.0 サービスパック 4 の非 UUID ビルドを使用している場合は、UUID バージョン 4.6.1 [com.adobe.fmdita.feature-uuid-4.6.1.4850.zip をインストールして ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F4-0%2Fcom.adobe.fmdita-6.5-uuid-4.6.1.4850.zip) 移行を実行する必要があります。
 
 
 1. uuid 移行アップグレードパッケージ [com.adobe.guides.uuid-upgrade-2.0.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F4-0%2Fcom.adobe.guides.uuid-upgrade-2.0.zip) をインストールします。
@@ -123,7 +123,7 @@ ht-degree: 2%
 
 1. `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html` を起動します。
 
-   ![&#x200B; 移行の「システムアップグレード」タブ &#x200B;](assets/migration-system-upgrade.png)
+   ![ 移行の「システムアップグレード」タブ ](assets/migration-system-upgrade.png)
    >[!NOTE]
    >
    > 「DITA アセットバックアップを有効にする」を選択すると、一時バックアップファイルが `/content/uuid-upgrade` に保存され、ファイルのマイグレーションが完了すると DITA ファイルバックアップが削除されます。
@@ -153,7 +153,7 @@ ht-degree: 2%
 
 1. すべてのファイルが移行されたら、左側のパネルから **ベースライン/レビューアップグレード** を選択して、ベースラインを移行し、フォルダーレベルでレビューします。
 
-![&#x200B; 移行の「ベースライン」タブと「レビュー」タブ &#x200B;](assets/migration-baseline-review-upgrade-4-6-0.png)
+![ 移行の「ベースライン」タブと「レビュー」タブ ](assets/migration-baseline-review-upgrade-4-6-0.png)
 
 >[!NOTE]
 >
@@ -178,9 +178,9 @@ ht-degree: 2%
 
 | プロセス完了後の概要 | どのように解釈するか？ | アクション |
 |---|---|---|
-| ファイルの総数：288 | ベースラインが 1 つ以上の DITA マップの数。 |
-| 正常に移行されたファイルの数：13 | すべてのベースラインで正常にアップグレードされた DITA マップの数。 |
-| スキップされたファイル数：275 | ベースラインのない DITA マップの数。 |
+| ファイルの総数：288 | ベースラインが 1 つ以上の DITA マップの数。 |  |
+| 正常に移行されたファイルの数：13 | すべてのベースラインで正常にアップグレードされた DITA マップの数。 |  |
+| スキップされたファイル数：275 | ベースラインのない DITA マップの数。 |  |
 | アップグレードに失敗したファイルの数：0 | 無効な（空の）ベースラインオブジェクトの数がレポート （Excel）に表示されます。 | `baselineObj not found on` 以外のエラーがあるかどうかを確認します。 |
 
 さらに、移行プロセス中に **エラーでアップグレードされたファイル** および **失敗したファイル** のリストに、レポートの概要表でアクセスできます。
@@ -189,7 +189,7 @@ ht-degree: 2%
 
 1. 移行が完了したら、左側のパネルから **システムアップグレードの検証** を選択し、移行前と移行後に出力ファイルを検証して、移行が成功したことを確認します。
 
-   ![&#x200B; 移行の「システムアップグレードを検証」タブ &#x200B;](assets/migration-validate-system-upgrade.png)
+   ![ 移行の「システムアップグレードを検証」タブ ](assets/migration-validate-system-upgrade.png)
 
 1. サーバーの移行が成功したら、次のワークフローと設定（移行中に最初に無効にしたその他すべてのワークフローを含む）を有効にして、サーバーで作業を続行します。
 
@@ -219,5 +219,5 @@ ht-degree: 2%
    > 移行前に **内のプロパティ** AEM サイトページ名にタイトルを使用 `com.adobe.fmdita.config.ConfigManager` を *False* に設定した場合、移行後にこのプロパティを更新する必要があります。
 
 
-1. 検証が完了したら、コンパクションを実行することで、ディスク領域のほとんどを再利用できます（`https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=ja` を参照）。
+1. 検証が完了したら、コンパクションを実行することで、ディスク領域のほとんどを再利用できます（`https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en` を参照）。
 

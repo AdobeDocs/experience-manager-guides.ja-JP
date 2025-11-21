@@ -5,9 +5,9 @@ exl-id: ba82af48-9357-4f29-90ce-6793366ab432
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 5778ed2855287d1010728e689abbe6020ad56574
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '989'
 ht-degree: 0%
 
 ---
@@ -18,12 +18,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 古い UI から新しいAEM Guides UI に移行する際（AEM Guides 2502 および 5.0 リリースから適用）、`ui_config` の更新はより柔軟なモジュール型 UI 設定に変換する必要があります。 このフレームワークは、editor_toolbar や他のターゲットウィジェット（該当する場合）に変更をシームレスに導入するのに役立ちます。 詳しくは、[&#x200B; 変換 UI 設定の概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config) を参照してください。
+> 古い UI から新しいAEM Guides UI に移行する際（AEM Guides 2502 および 5.0 リリースから適用）、`ui_config` の更新はより柔軟なモジュール型 UI 設定に変換する必要があります。 このフレームワークは、editor_toolbar や他のターゲットウィジェット（該当する場合）に変更をシームレスに導入するのに役立ちます。 詳しくは、[ 変換 UI 設定の概要 ](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config) を参照してください。
 
 Web エディタのツールバーをカスタマイズする方法は 2 つあります。
 
 - ツールバーへの新しい機能の追加
-
 - ツールバーから既存の機能を削除します
 
 
@@ -44,45 +43,43 @@ Web エディターのツールバーに機能を追加するには、以下の�
 
    通常は、新しいツールバーボタン グループを作成し、そのグループに 1 つまたは複数のツールバーボタンを追加します。 または、既存のツールバーグループ内に新しいツールバーボタンを追加できます。 新しいツールバーグループを作成するには、次の詳細が必要です。
 
-   **タイプ**:   `type` 値として `blockGroup` を指定します。 この値は、1 つまたは複数のツールバーグループを含むブロック グループを作成していることを示しています。
+   **タイプ**:   `blockGroup` 値として `type` を指定します。 この値は、1 つまたは複数のツールバーグループを含むブロック グループを作成していることを示しています。
 
    **エクストラクラス**:   クラスまたはクラスの名前（スペース区切り）。
 
-   **items**:   ツールバーですべてのグループの定義を指定します。 各グループには、1 つまたは複数のツールバーアイコンを含めることができます。 ツールバーグループ内でアイコンを定義するには、`items` ールバー内で `type` 属性を再度定義し、その値を `buttonGroup` に設定する必要があります。 `extraclass` プロパティに 1 つ以上のクラス名を指定します。 `label` プロパティでフィーチャー名を指定します。 `ui_config.json` ファイルの次のスニペットは、メインのツールバーブロックの定義と、`buttonGroup` の定義を示しています。
+   **items**:   ツールバーですべてのグループの定義を指定します。 各グループには、1 つまたは複数のツールバーアイコンを含めることができます。 ツールバーグループ内でアイコンを定義するには、`type` ールバー内で `items` 属性を再度定義し、その値を `buttonGroup` に設定する必要があります。 `extraclass` プロパティに 1 つ以上のクラス名を指定します。 `label` プロパティでフィーチャー名を指定します。 `ui_config.json` ファイルの次のスニペットは、メインのツールバーブロックの定義と、`buttonGroup` の定義を示しています。
 
-       ```
-       &quot;ツールバー&quot;: {
-       &quot;type&quot;: &quot;blockGroup&quot;,
-       &quot;extraclass&quot;:
-       &quot;ツールバー操作&quot;,
-       &quot;items&quot;: [
-       {
-       &quot;type&quot;: &quot;buttonGroup&quot;,
-       &quot;extraclass&quot;: &quot;left-controls&quot;,
-       &quot;label&quot;: &quot;Left Controls&quot;,
-       &quot;items&quot;: [
-       ```
+   ```
+   "toolbar": {    
+   "type": "blockGroup",    
+   "extraclass": 
+   "toolbar operations",    
+   "items": [      
+   {        
+       "type": "buttonGroup",        
+       "extraclass": "left-controls",        
+       "label": "Left Controls",        
+       "items": [
+   ```
 
-   
    `items` コレクション内で、1 つ以上のツールバーアイコンの定義を指定する必要があります。
 
    ツールバーアイコンを追加するには、次のプロパティを定義する必要があります。
 
-   **タイプ**:   `type` 値として `button` を指定します。 この値は、ツールバーボタンを追加していることを示します。
+   **タイプ**:   `button` 値として `type` を指定します。 この値は、ツールバーボタンを追加していることを示します。
 
    **アイコン**:   ツールバーで使用する Coral アイコンの名前を指定します。
 
-   **バリアント**:   `variant` 値として `quiet` を指定します。
+   **バリアント**:   `quiet` 値として `variant` を指定します。
 
    **タイトル**:   アイコンのツールチップを指定します。
 
    **クリック時**:   フィーチャーに定義したコマンド名をJavaScript ファイルで指定します。 コマンドに入力パラメーターが必要な場合は、コマンド名を次のように指定します。
 
-       ```Javascript
-       &quot;on-click&quot;: {&quot;name&quot;: &quot;AUTHOR_INSERT_ELEMENT&quot;, &quot;args&quot;: &quot;simpletable&quot;}
-       ```
+   ```Javascript
+   "on-click": {"name": "AUTHOR_INSERT_ELEMENT", "args": "simpletable"}
+   ```
 
-   
    **表示/非表示**:   `show` プロパティを定義する場合は、アイコンを表示するモードを指定します。 使用可能な値は、- `@isAuthorMode`、`@isSourceMode`、`@isPreviewMode`、`true` \（すべてのモードで表示\）、または `false` \（すべてのモードで非表示\）です。
 
    `show` の代わりに、`hide` プロパティを定義することもできます。 使用できる値は、プロパティの場合と同じ `show` すが、指定したモードではアイコンが表示されないという違いしかありません。
@@ -136,7 +133,7 @@ Web エディターのツールバーに機能を追加するには、以下の�
 
    1. **ショートカット**:   このセクションでは、エディタの特定の機能に割り当てられたキーボード ショートカットの定義について説明します。
 
-   1. **テンプレート**:   このセクションには、文書で使用できる DITA エレメントの構造が事前に定義されています。 既定では、[ テンプレート ] セクションには、段落、簡易テーブル、テーブル、および本文の各要素に対するテンプレート定義が含まれています。 目的の要素に対して有効な XML 構造を追加することで、任意の要素のテンプレート定義を作成できます。 例えば、リスト内の新しい `li` 要素ごとに `p` 要素を追加する場合は、「テンプレート」セクションの最後に次のコードを追加して、これを行うことができます。
+   1. **テンプレート**:   このセクションには、文書で使用できる DITA エレメントの構造が事前に定義されています。 既定では、[ テンプレート ] セクションには、段落、簡易テーブル、テーブル、および本文の各要素に対するテンプレート定義が含まれています。 目的の要素に対して有効な XML 構造を追加することで、任意の要素のテンプレート定義を作成できます。 例えば、リスト内の新しい `p` 要素ごとに `li` 要素を追加する場合は、「テンプレート」セクションの最後に次のコードを追加して、これを行うことができます。
 
    ```css
    "li": "<li><p></p></li>"
@@ -147,4 +144,4 @@ Web エディターのツールバーに機能を追加するには、以下の�
 1. *ui\_config.json* ファイルを保存し、web エディターをリロードします。
 
 
-**親トピック：**&#x200B;[&#x200B; Web エディタのカスタマイズ &#x200B;](conf-web-editor.md)
+**親トピック：**[ Web エディタのカスタマイズ ](conf-web-editor.md)

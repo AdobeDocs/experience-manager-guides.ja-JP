@@ -5,7 +5,7 @@ exl-id: 10ab0f3c-97dc-4293-ab73-75b438c03d99
 feature: User Management
 role: Admin
 level: Experienced
-source-git-commit: 6aaa5c1eeb9b74ababc7ebf427babfff101acc70
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 10%
@@ -18,9 +18,9 @@ AEM Guidesの機能にアクセスして設定するには、ユーザーを作�
 
 AEM ドキュメントの次のトピックは、ユーザー管理およびセキュリティ関連の概念と機能を理解するのに役立ちます。
 
-- [AEMのユーザー、グループ、権限 &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html?lang=ja)
+- [AEMのユーザー、グループ、権限 ](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html)
 
-- [&#x200B; ユーザー管理とセキュリティ &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=ja)
+- [ ユーザー管理とセキュリティ ](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=ja)
 
 
 ## AEM Guidesで作成されたユーザーグループ {#id181TF0K0MHT}
@@ -48,27 +48,27 @@ AEM Guidesには、3 つの標準グループが用意されています。 こ�
 | コピー | はい |   | はい |
 | 削除 | はい |   | はい |
 | 共有 | はい |   | はい |
-| **ドキュメントの状態** |
+| **ドキュメントの状態** |  |  |  |
 | ドキュメント状態プロファイルの作成/編集 |   |   | はい |
 | ドキュメントの状態の変更 [2](#fntarg_2) | はい | はい | はい |
-| **DITA マップコンソールで使用可能な機能\（「出力プリセット」タブ\）** |
+| **DITA マップコンソールで使用可能な機能\（「出力プリセット」タブ\）** |  |  |  |
 | 生成 |   |   | はい |
 | 編集 |   |   | はい |
 | 複製 |   |   | はい |
 | 作成 |   |   | はい |
 | プリセットを削除 |   |   | はい |
-| **DITA マップコンソールで使用できる機能\（出力タブ\）** |
+| **DITA マップコンソールで使用できる機能\（出力タブ\）** |  |  |  |
 | 生成された出力を表示 | はい |   | はい |
-| **DITA マップコンソールで使用できる機能\（トピックタブ\）** |
+| **DITA マップコンソールで使用できる機能\（トピックタブ\）** |  |  |  |
 | レビュータスクを作成 | はい |   | はい |
 | 編集 | はい |   | はい |
-| **DITA マップコンソールで使用できる機能\（「ベースライン」タブ\）** |
+| **DITA マップコンソールで使用できる機能\（「ベースライン」タブ\）** |  |  |  |
 | 作成 |   |   | はい |
 | 編集 |   |   | はい |
 | 複製 |   |   | はい |
 | 削除 |   |   | はい |
 | DITA マップコンソール \（「レポート」タブ\） | はい |   | はい |
-| **DITA マップコンソールで使用できる機能\（条件プリセット\）** |
+| **DITA マップコンソールで使用できる機能\（条件プリセット\）** |  |  |  |
 | 条件プリセットを作成/編集 |   |   | はい |
 
 ## ユーザーグループに関するその他のメモ

@@ -1,28 +1,28 @@
 ---
-title: リリースノート | Adobe Experience Manager Guidesのas a Cloud Service、2022 年 8 月リリース
-description: Adobe Experience Manager Guidesas a Cloud Serviceの 8 月リリース
+title: リリースノート | Adobe Experience Manager Guidesas a Cloud Service、2022 年 8 月リリース
+description: Adobe Experience Manager Guides as a Cloud Serviceの 8 月リリース
 exl-id: a01bfe8a-4715-438c-bb94-aa1d31f6662d
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 0%
 
 ---
 
-# Adobe Experience Manager Guidesas a Cloud Serviceの 8 月リリース
+# Adobe Experience Manager Guides as a Cloud Serviceの 8 月リリース
 
 ## 8 月のリリースへのアップグレード
 
-次の手順を実行して、現在のAdobe Experience Manager Guidesのas a Cloud Service（後で *AEM Guidesのas a Cloud Service* と呼ばれます）のセットアップをアップグレードします。
-1. Cloud Serviceの Git コードをチェックアウトし、アップグレードする環境に対応する、Cloud Serviceパイプラインで設定されたブランチに切り替えます。
-1. Cloud Service`<dox.version>`Git コード `/dox/dox.installer/pom.xml` ファイルのプロパティを 2022.8.167 に更新します。
-1. 変更内容をコミットし、Cloud Serviceパイプラインを実行して、8 月のリリースのAEM Guidesas a Cloud Serviceにアップグレードします。
+次の手順を実行して、現在のAdobe Experience Manager Guides as a Cloud Service（後の *AEM Guides as a Cloud Service*）のセットアップをアップグレードします。
+1. Cloud Services の Git コードをチェックアウトし、アップグレードする環境に対応する、Cloud Services パイプラインで設定されたブランチに切り替えます。
+1. Cloud Services Git コ `<dox.version>` ド `/dox/dox.installer/pom.xml` ファイルのプロパティを 2022.8.167 に更新します。
+1. 変更内容をコミットし、Cloud Services パイプラインを実行して、8 月リリースのAEM Guides as a Cloud Serviceにアップグレードします。
 
 ## 互換性マトリックス
 
-この節では、2022 年 8 月リリースのAEM Guidesas a Cloud Serviceでサポートされているソフトウェアアプリケーションの互換性マトリックスを示します。
+この節では、2022 年 8 月リリースのAEM Guides as a Cloud Serviceでサポートされているソフトウェアアプリケーションの互換性マトリックスを示します。
 
 ### FrameMakerとFrameMaker Publishing Server
 
@@ -43,13 +43,13 @@ ht-degree: 0%
 
 ## 新機能と機能強化
 
-AEM Guidesのas a Cloud Serviceは、8 月のリリースで多くの機能強化と新機能を提供します。
+AEM Guides as a Cloud Serviceは、8 月のリリースで多くの機能強化と新機能を提供します。
 
 ### マップ エディタのレイアウト ビュー
 
 これで、DITA マップの完全なレイアウトをマップエディタで表示できます。 編集用にマップを開くと、マップ エディタの **レイアウト** ビューが開きます。 このビューでは、マップ階層をツリービューで表示できます。また、マップ内のトピックを整理または構造化することもできます。
 
-![&#x200B; レイアウト ビュー &#x200B;](assets/layout-view-map.png)
+![ レイアウト ビュー ](assets/layout-view-map.png)
 
 レイアウト ビューには、マップ内に存在するトピックに関する多くのタスクを実行するのに役立つ個別のツール バーが含まれています。
 トピック参照、トピック グループ、キー定義をマップに挿入できます。 マップ内に存在するトピックを上下、左右に移動して再編成できます。 トピックをドラッグ&amp;ドロップして、マップ内で移動することもできます。 マップ エディタには、ファイルのロックまたはロック解除、バージョン履歴の確認、バージョン ラベル管理を行うためのアイコンもあります。
@@ -68,16 +68,16 @@ AEM Guidesのas a Cloud Serviceは、8 月のリリースで多くの機能強�
 
 これで、トピックまたはマップのメタデータ情報を設定することもできます。 選択したトピックまたはマップのナビゲーション タイトル、リンク テキスト、簡単な説明、およびキーワードを定義できます。
 
-![&#x200B; レイアウトビューの右パネル &#x200B;](assets/layout-inline-attributes.png)
+![ レイアウトビューの右パネル ](assets/layout-inline-attributes.png)
 
-詳しくは、「Adobe Experience Manager Guidesのas a Cloud Serviceの使用」の *レイアウトビュー* の節を参照してください。
+詳しくは、「Adobe Experience Manager Guides as a Cloud Serviceの使用」の *レイアウトビュー* の節を参照してください。
 
 ### エディター設定のインライン属性
 
 AEM Guidesでは、管理者が **エディター設定** から **インライン属性** を設定できるようになりました。 エディター設定の「**インライン属性**」タブで、新しいインライン属性を追加したり、既存の属性を削除したりすることもできます。
 トピックに対して定義された設定済みインライン属性は、レイアウトビューのトピックに対して表示されます。
 
-![&#x200B; エディター設定 &#x200B;](assets/editor-settings-inline-attributes.png)
+![ エディター設定 ](assets/editor-settings-inline-attributes.png)
 
 
 ### リポジトリ表示での追加フィルター
@@ -86,7 +86,7 @@ AEM Guidesでは、管理者が **エディター設定** から **インライ�
 * **最終変更**：選択した日付より後、選択した日付より前に最終変更されたファイルを検索できます。 また、定義済みの条件を使用して、過去 2 時間、先週、先月、昨年に最終変更されたファイルを検索するオプションもあります。
 * **タグ**：特定のタグが適用されているファイルを検索することもできます。 タグを入力するか、ドロップダウンリストから選択します。
 
-![&#x200B; リポジトリ表示フィルター &#x200B;](assets/repo-filter-search.png)
+![ リポジトリ表示フィルター ](assets/repo-filter-search.png)
 
 
 ## 修正された問題
@@ -97,10 +97,10 @@ AEM Guidesでは、管理者が **エディター設定** から **インライ�
 * 更新された Node.js は、公開には使用されません。 （9835）
 * **プロパティ** ページで行った変更に伴って、DITA トピックが自動的に更新されることはありません。 （8745）
 * DITA ブックマップに追加した前線要素が正しく機能しない。 （9507）
-* ネイティブPDF |空のPDFが選択されていると、複数のファイルに対して **クイック生成** を使用したときに空白の要素が生成される。 （9822）
-* ネイティブPDF |付録は、PDF出力のチャプターとして公開されます。 （9829）
-* ネイティブPDF | SVG画像が編集されても、ページレイアウトに更新されて表示されない。 （9069）
-* **特殊文字の挿入** ダイアログを使用して `Nonbreaking Hyphen` 文字を挿入すると、通常のハイフン文字が挿入されます。 （8919）
+* ネイティブ PDF |空の要素が選択されていると、複数のファイルに対して **クイック生成** を使用したときに空のPDFが生成される。 （9822）
+* ネイティブ PDF |付録は、PDF出力のチャプターとして公開されています。 （9829）
+* ネイティブ PDF | SVG画像が編集されても、ページレイアウトに更新されて表示されない。 （9069）
+* `Nonbreaking Hyphen` 特殊文字の挿入 **ダイアログを使用して** 文字を挿入すると、通常のハイフン文字が挿入されます。 （8919）
 * XML エディターが編集されている場合、トピック内に更新された画像が表示されない。 （9500）
 * エディターを使用して出力を公開している間は、「**出力**」タブからプリセットを削除することはできません。 （9100）
 * 省略記号メニューの「**すべてを選択**」オプションを使用しても、DITA マップのサブマップはチェックアウトされません。 （9814）
@@ -114,7 +114,7 @@ AEM Guidesでは、管理者が **エディター設定** から **インライ�
 
 ## 既知の問題
 
-Adobeでは、2022 年 8 月のAEM Guidesas a Cloud Serviceリリースについて、次の既知の問題を特定しました。
+Adobeでは、AEM Guides as a Cloud Service 2022 年 8 月リリースの次の既知の問題を特定しました。
 
 ### 回避策に関する既知の問題
 

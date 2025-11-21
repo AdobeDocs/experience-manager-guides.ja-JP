@@ -4,25 +4,25 @@ description: ' [!DNL Adobe Experience Manager Guides] as a Cloud Serviceの 3 �
 exl-id: 885edbb5-dfe4-4bdc-bb66-0df64addb094
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 1%
 
 ---
 
-# [!DNL Adobe Experience Manager Guides]as a Cloud Serviceの 3 月リリース
+# [!DNL Adobe Experience Manager Guides] as a Cloud Serviceの 3 月リリース
 
 ## 3 月のリリースへのアップグレード
 
-次の手順を実行して、現在の [!DNL Adobe Experience Manager Guides] のas a Cloud Service（後で *[!DNL AEM Guides]のas a Cloud Service*）設定をアップグレードします。
-1. Cloud Serviceの Git コードをチェックアウトし、アップグレードする環境に対応する、Cloud Serviceパイプラインで設定されたブランチに切り替えます。
-1. Cloud Service`<dox.version>`Git コード `/dox/dox.installer/pom.xml` ファイルのプロパティを 2022.3.123 に更新します。
-1. 変更内容をコミットし、Cloud Serviceパイプラインを実行して、as a Cloud Serviceの 3 月のリリースにアップグレード [!DNL AEM Guides] ます。
+次の手順を実行して、現在の [!DNL Adobe Experience Manager Guides] as a Cloud Service（後でas a Cloud Service *[!DNL AEM Guides]）* 設定をアップグレードします。
+1. Cloud Services の Git コードをチェックアウトし、アップグレードする環境に対応する、Cloud Services パイプラインで設定されたブランチに切り替えます。
+1. Cloud Services Git コ `<dox.version>` ド `/dox/dox.installer/pom.xml` ファイルのプロパティを 2022.3.123 に更新します。
+1. 変更内容をコミットし、Cloud Services パイプラインを実行して、3 月リリースの [!DNL AEM Guides] as a Cloud Serviceにアップグレードします。
 
 ## 互換性マトリックス
 
-このセクションでは、2022 年 3 月のas a Cloud Serviceリリースでサポートされるソフトウェアアプリケーション [!DNL AEM Guides] 互換表を示します。
+この節では、2022 年 3 月リリースのas a Cloud Serviceでサポートされるソフトウェアアプリケーション [!DNL AEM Guides] 互換性マトリックスを示します。
 
 ### FrameMakerとFrameMaker Publishing Server
 
@@ -45,17 +45,17 @@ ht-degree: 1%
 
 ### 新規ベースラインダッシュボード
 
-3 月 [!DNL AEM Guides]as a Cloud Serviceリリースでは、web エディター内に統合されたベースライン機能が提供されています。 Web エディターからベースラインを作成し、それらを使用して、様々なバージョンのトピックを公開または翻訳できるようになりました。
+as a Cloud Service[!DNL AEM Guides]3 月のリリースでは、web エディター内に統合されたベースライン機能が提供されています。 Web エディターからベースラインを作成し、それらを使用して、様々なバージョンのトピックを公開または翻訳できるようになりました。
 
 メモ：アップグレードしたシステムの場合、フォルダープロファイルの最新の **ui_config.json** を更新してください。
 
 この機能を使用すると、特定の日時に使用可能なトピックの特定のバージョンでベースラインを作成できます。 また、API サポートを受けて、トピックのバージョン用に定義されたラベルでベースラインを作成または更新できます。
 
-![&#x200B; ベースライン管理タブ &#x200B;](assets/baseline-manage.png)
+![ ベースライン管理タブ ](assets/baseline-manage.png)
 
 ファイル名またはファイルの場所に基づいてファイルを検索できます。 また、ベースライン編集ウィンドウに表示されるトピックをフィルタリングし、特定の列に基づいて並べ替えることもできます。
 
-![&#x200B; ベースライン管理タブ &#x200B;](assets/baseline-filter.png)
+![ ベースライン管理タブ ](assets/baseline-filter.png)
 
 ベースライン作成プロセスのパフォーマンスがさらに向上しました。 ベースラインを作成するプロセスは非同期なので、ベースラインの作成中に Web エディタで他のファイルを編集し続けることができます。 詳細については、『ユーザーガイド』の *Web エディターからのベースラインの作成と管理* を参照してください。
 
@@ -75,11 +75,11 @@ web エディターのコンテンツ。 ブラウザーの更新アイコンを
 
 ### 公開機能の強化
 
-公開プロセスは、[!DNL AEM Guides] のas a Cloud Serviceの 3 月のリリースでさらに改善されました。
+公開プロセスは、[!DNL AEM Guides] as a Cloud Serviceの 3 月のリリースでさらに改善されました。
 
-* AEM サイト出力のメタデータのベースラインが尊重されるようになりました。 ベースラインバージョンのプロパティをメタデータとして処理することもできます。 ベースラインが定義されていない場合、最新バージョンのプロパティはメタデータとして処理されます。
+* ベースラインは、AEM サイト出力のメタデータで考慮されています。 ベースラインバージョンのプロパティをメタデータとして処理することもできます。 ベースラインが定義されていない場合、最新バージョンのプロパティはメタデータとして処理されます。
 
-* HTML5、EPUB、カスタム出力の各プリセットに、**File Name** オプションと **DITA-OT Command Line Arguments** オプションが追加されました。 これで、出力を保存するファイル名を指定できます。 出力の生成時に DITA-OT で処理する追加の引数を指定することもできます。
+* HTML5、EPUB、およびカスタム出力プリセットに対して、「**File Name**」および「**DITA-OT Command Line Arguments**」オプションが追加されました。 これで、出力を保存するファイル名を指定できます。 出力の生成時に DITA-OT で処理する追加の引数を指定することもできます。
 
 ## 修正された問題
 
@@ -95,7 +95,7 @@ web エディターのコンテンツ。 ブラウザーの更新アイコンを
 
 ## 既知の問題
 
-Adobeas a Cloud Serviceでは、3 月 [!DNL AEM Guides] 日のリリースで次の既知の問題を特定しました。
+Adobeは、[!DNL AEM Guides] as a Cloud Serviceの 3 月のリリースで、次の既知の問題を特定しました。
 
 * 直接参照のラベルを削除すると、間接参照のラベルも削除されます。
 

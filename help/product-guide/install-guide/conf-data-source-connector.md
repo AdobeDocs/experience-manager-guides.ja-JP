@@ -5,7 +5,7 @@ exl-id: bd1188e1-0e1d-4e70-928a-10251c3d529d
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 0%
@@ -26,17 +26,17 @@ JSON ファイルをアップロードすることで、標準のコネクタを
 
 ```
 {
-	"connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.rest.JiraConnector",
-	"configName": "Jira",
-	"templateFolders": ["/content/dam/dita-templates/konnect/jira"],
-	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthRestConfig",
-		"configData": {
-			"username": "jirausername",
-			"password": "jirapassword",
-			"url": "https://jira.corp.adobe.com/rest/api/latest/search"
-		}
-	}
+    "connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.rest.JiraConnector",
+    "configName": "Jira",
+    "templateFolders": ["/content/dam/dita-templates/konnect/jira"],
+    "connectionConfig": {
+        "configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthRestConfig",
+        "configData": {
+            "username": "jirausername",
+            "password": "jirapassword",
+            "url": "https://jira.corp.adobe.com/rest/api/latest/search"
+        }
+    }
 }
 ```
 
@@ -46,16 +46,16 @@ JSON ファイルをアップロードすることで、標準のコネクタを
 
 ```
 {
-	"connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.rest.JiraConnector",
-	"configName": "Jira",
-	"templateFolders": ["/content/dam/dita-templates/konnect/jira"],
-	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthRestConfig",
-		"configData": {
-			"token": "jiraauthtoken",
-			"url": "https://jira.corp.adobe.com/rest/api/latest/search"
-		}
-	}
+    "connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.rest.JiraConnector",
+    "configName": "Jira",
+    "templateFolders": ["/content/dam/dita-templates/konnect/jira"],
+    "connectionConfig": {
+        "configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthRestConfig",
+        "configData": {
+            "token": "jiraauthtoken",
+            "url": "https://jira.corp.adobe.com/rest/api/latest/search"
+        }
+    }
 }
 ```
 
@@ -65,16 +65,16 @@ Jira の基本認証のサンプル設定ファイルで、トークンには「
 
 ```
 {
-	"connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.rest.JiraConnector",
-	"configName": "Jira",
-	"templateFolders": ["/content/dam/dita-templates/konnect/jira"],
-	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthRestConfig",
-		"configData": {
-			"token": "Basic jiraauthtoken",
-			"url": "https://jira.corp.adobe.com/rest/api/latest/search"
-		}
-	}
+    "connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.rest.JiraConnector",
+    "configName": "Jira",
+    "templateFolders": ["/content/dam/dita-templates/konnect/jira"],
+    "connectionConfig": {
+        "configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthRestConfig",
+        "configData": {
+            "token": "Basic jiraauthtoken",
+            "url": "https://jira.corp.adobe.com/rest/api/latest/search"
+        }
+    }
 }
 ```
 
@@ -84,18 +84,18 @@ MySql の基本認証の設定例を次に示します。
 
 ```
 {
-	"connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.sql.MySqlConnector",
-	"configName": "MySQL",
-	"templateFolders": ["/content/dam/dita-templates/konnect/sql"],
-	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.sql.UserPassSqlConfig",
-		"configData": {
-			"username": "admin",
-			"password": "admin",
-			"driver": "com.mysql.jdbc.Driver",
-			"connectionString": "jdbc:mysql://host.corp.adobe.com:3306/plm"
-		}
-	}
+    "connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.sql.MySqlConnector",
+    "configName": "MySQL",
+    "templateFolders": ["/content/dam/dita-templates/konnect/sql"],
+    "connectionConfig": {
+        "configClazz": "com.adobe.guides.konnect.definitions.ootb.config.sql.UserPassSqlConfig",
+        "configData": {
+            "username": "admin",
+            "password": "admin",
+            "driver": "com.mysql.jdbc.Driver",
+            "connectionString": "jdbc:mysql://host.corp.adobe.com:3306/plm"
+        }
+    }
 }
 ```
 
@@ -105,18 +105,18 @@ PostgreSQL の基本認証用の設定例を次に示します。
 
 ```
 {
-	"connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.sql.PostgreSqlConnector",
-	"configName": "PostgreSQL",
-	"templateFolders": ["/content/dam/dita-templates/konnect/sql"],
-	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.sql.UserPassSqlConfig",
-		"configData": {
-			"username": "admin",
-			"password": "admin",
-			"driver": "org.postgresql.Driver",
-			"connectionString": "jdbc:postgresql://host:port/database"
-		}
-	}
+    "connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.sql.PostgreSqlConnector",
+    "configName": "PostgreSQL",
+    "templateFolders": ["/content/dam/dita-templates/konnect/sql"],
+    "connectionConfig": {
+        "configClazz": "com.adobe.guides.konnect.definitions.ootb.config.sql.UserPassSqlConfig",
+        "configData": {
+            "username": "admin",
+            "password": "admin",
+            "driver": "org.postgresql.Driver",
+            "connectionString": "jdbc:postgresql://host:port/database"
+        }
+    }
 }
 ```
 
@@ -126,18 +126,18 @@ MS SQL Server の基本認証用のサンプル セットアップ ファイル�
 
 ```
 {
-	"connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.sql.MsSqlServerConnector",
-	"configName": "MSSQLServer",
-	"templateFolders": ["/content/dam/dita-templates/konnect/sql"],
-	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.sql.UserPassSqlConfig",
-		"configData": {
-			"username": "admin",
-			"password": "admin",
-			"driver": "com.microsoft.sqlserver.jdbc.SQLServerDriver",
-			"connectionString": "jdbc:sqlserver://10.10.10.10\\SQLEXPRESS01:1433;database=TutorialDB;encrypt=false;trustServerCertificate=true"
-		}
-	}
+    "connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.sql.MsSqlServerConnector",
+    "configName": "MSSQLServer",
+    "templateFolders": ["/content/dam/dita-templates/konnect/sql"],
+    "connectionConfig": {
+        "configClazz": "com.adobe.guides.konnect.definitions.ootb.config.sql.UserPassSqlConfig",
+        "configData": {
+            "username": "admin",
+            "password": "admin",
+            "driver": "com.microsoft.sqlserver.jdbc.SQLServerDriver",
+            "connectionString": "jdbc:sqlserver://10.10.10.10\\SQLEXPRESS01:1433;database=TutorialDB;encrypt=false;trustServerCertificate=true"
+        }
+    }
 }
 ```
 
@@ -147,18 +147,18 @@ SQLite の基本認証用のサンプル セットアップ ファイル：
 
 ```
 {
-	"connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.sql.SqliteConnector",
-	"configName": "SQLiteServer",
-	"templateFolders": ["/content/dam/dita-templates/konnect/sql"],
-	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.sql.UserPassSqlConfig",
-		"configData": {
-			"username": "admin",
-			"password": "admin",
-			"driver": "org.sqlite.JDBC",
-			"connectionString": "jdbc:sqlite:sample.db"
-		}
-	}
+    "connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.sql.SqliteConnector",
+    "configName": "SQLiteServer",
+    "templateFolders": ["/content/dam/dita-templates/konnect/sql"],
+    "connectionConfig": {
+        "configClazz": "com.adobe.guides.konnect.definitions.ootb.config.sql.UserPassSqlConfig",
+        "configData": {
+            "username": "admin",
+            "password": "admin",
+            "driver": "org.sqlite.JDBC",
+            "connectionString": "jdbc:sqlite:sample.db"
+        }
+    }
 }
 ```
 
@@ -185,4 +185,4 @@ AEM Assetsの任意の場所にファイルをアップロードします。
 
 REST API を使用して、設定を登録できます。 詳しくは、『Adobe Experience Manager Guides API リファレンス』の *REST API を参照して、データソースコネクタを登録し* ください。
 
-データソースを設定すると、コネクタが Web エディターのデータソース パネルの下に表示されます。 その後、データソースに接続し、トピックにコンテンツスニペットを挿入できます。 詳しくは、[&#x200B; データソースからコンテンツスニペットを挿入する &#x200B;](../user-guide/web-editor-content-snippet.md) を参照してください。
+データソースを設定すると、コネクタが Web エディターのデータソース パネルの下に表示されます。 その後、データソースに接続し、トピックにコンテンツスニペットを挿入できます。 詳しくは、[ データソースからコンテンツスニペットを挿入する ](../user-guide/web-editor-content-snippet.md) を参照してください。

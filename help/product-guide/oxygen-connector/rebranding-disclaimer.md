@@ -1,11 +1,13 @@
 ---
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+title: 免責事項
+description: Adobe Experience Manager Guidesの免責事項
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 2%
+source-wordcount: '43'
+ht-degree: 4%
 
 ---
+
 # 免責事項 {#id2263D0P0TYU}
 
 *Adobe Experience Manager Guides* は、以前、Adobe Experience Manager *の* XML Documentationとしてブランド化されていました。 ドキュメント内の特定のリファレンスは、以前のブランディングを引き続き参照する場合がありますが、現在の製品にはそのまま適用されます。
-

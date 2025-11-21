@@ -5,7 +5,7 @@ exl-id: 4d99c3d8-cf6a-4cf3-aaec-9009a0376c1e
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 1%
@@ -18,11 +18,11 @@ ht-degree: 1%
 
 自動保存機能はデフォルトでは有効になっていないので、設定ファイルを使用して有効にする必要があります。
 
-[&#x200B; 設定の上書き &#x200B;](download-install-additional-config-override.md#) の手順に従って、設定ファイルを作成します。 設定ファイルで、ファイルの自動保存と自動保存時間間隔を設定するために、次の\（property\）の詳細を指定します。
+[ 設定の上書き ](download-install-additional-config-override.md#) の手順に従って、設定ファイルを作成します。 設定ファイルで、ファイルの自動保存と自動保存時間間隔を設定するために、次の\（property\）の詳細を指定します。
 
 | PID | プロパティキー | プロパティの値 |
 |---|------------|--------------|
 | `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.autosave` | ブール値\（true/false\）.<br> **デフォルト値**:false |
-| `xmleditor.autosaveinterval` | 自動保存機能をトリガーにする時間間隔を秒単位で指定します。 |
+| `xmleditor.autosaveinterval` | 自動保存機能をトリガーにする時間間隔を秒単位で指定します。 |  |
 
-**親トピック：**&#x200B;[&#x200B; Web エディタのカスタマイズ &#x200B;](conf-web-editor.md)
+**親トピック：**[ Web エディタのカスタマイズ ](conf-web-editor.md)

@@ -4,9 +4,9 @@ description: Webeditor ツールバーに新しいカスタムボタンを追加
 exl-id: 34999db6-027a-4d93-944f-b285b4a44288
 feature: Web Editor
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '527'
 ht-degree: 0%
 
 ---
@@ -24,19 +24,19 @@ ht-degree: 0%
 
 作成者がトピックのプロローグセクションに jira 参照を追加する例を使用して、これを理解しましょう。 jira reference-id が埋め込まれた prolog セクションは、次のようになります。
 
-![JIRA ID リファレンスを含むプロローグセクション &#x200B;](../../../assets/authoring/webeditor-add-customtoolbarbutton-prolog-sample.png)
+![JIRA ID リファレンスを含むプロローグセクション ](../../../assets/authoring/webeditor-add-customtoolbarbutton-prolog-sample.png)
 
 JIRA ID を含む「change-request-id」要素は、API から取得する必要があります（アプリケーションで表示される特定の JIRA クエリに基づいたなど）。 ユーザーがプロローグセクションをオーサリングする際、次のように、ボタンをクリックし、web エディターツールバーから jira 参照 id を挿入できるはずです。
 
-![&#x200B; プロローグセクション - JIRA 参照を追加 &#x200B;](../../../assets/authoring/webeditor-add-customtoolbarbutton-prolog-insertjirareference.png)
+![ プロローグセクション - JIRA 参照を追加 ](../../../assets/authoring/webeditor-add-customtoolbarbutton-prolog-insertjirareference.png)
 
 また、ユーザーがボタンをクリックすると、可能なオプションを取り込み、ユーザーが目的の JIRA ID を選択できるダイアログが表示されます。次に例を示します。
 
-![&#x200B; プロローグセクションの JIRA ID を追加ダイアログ &#x200B;](../../../assets/authoring/webeditor-add-customtoolbarbutton-prolog-insertjirareference-dialog.png)
+![ プロローグセクションの JIRA ID を追加ダイアログ ](../../../assets/authoring/webeditor-add-customtoolbarbutton-prolog-insertjirareference-dialog.png)
 
 すると、プロローグに「change-request-id」が追加されます。
 
-![JIRA ID リファレンスを含むプロローグセクション &#x200B;](../../../assets/authoring/webeditor-add-customtoolbarbutton-prolog-sample.png)
+![JIRA ID リファレンスを含むプロローグセクション ](../../../assets/authoring/webeditor-add-customtoolbarbutton-prolog-sample.png)
 
 
 
@@ -57,16 +57,16 @@ JIRA ID を含む「change-request-id」要素は、API から取得する必要
 }
 ```
 
-[&#x200B; フォルダープロファイルと ui_config.json の設定について詳しくは、このリンクを使用してください &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=ja)
+[ フォルダープロファイルと ui_config.json の設定について詳しくは、このリンクを使用してください ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en)
 
 
 ### 新しいボタンのクリックイベントを処理
 
-     注意：以下に説明するステップは、この投稿に添付されているパッケージとして利用できます 
+メモ：以下に説明する手順は、この投稿に添付されているパッケージとして利用できます。
 
 
-- フォルダープロファイルを保存したら、プロジェクトディレクトリ（*/apps* の下など）の下に「cq:ClientLibraryFolder」を作成し、次のスクリーンショットに示すようにプロパティを追加します。
-  ![webeditor のクライアントライブラリ設定 &#x200B;](../../../assets/authoring/webeditor-add-customtoolbarbutton-clientlibrarysettings.png)
+- フォルダープロファイルを保存したら、プロジェクトディレクトリ（:ClientLibraryFolder/apps *の下など）の下に「cq*」を作成し、次のスクリーンショットに示すようにプロパティを追加します。
+  ![webeditor のクライアントライブラリ設定 ](../../../assets/authoring/webeditor-add-customtoolbarbutton-clientlibrarysettings.png)
 
 ```
 This example uses "coralui3" library to show a dialog as it is used in the Javascript sample we presented.
@@ -102,12 +102,12 @@ You may use different library of your choice.
 
 どのように表示されるかについては、以下のスクリーンショットを参照してください。
 
-![&#x200B; 「新規テスト」ボタン &#x200B;](../../../assets/authoring/webeditor-add-customtoolbarbutton-testing.png)
+![ 「新規テスト」ボタン ](../../../assets/authoring/webeditor-add-customtoolbarbutton-testing.png)
 
 
 ### 添付ファイル
 
-- ツールバーボタンアクションの JavaScript コードを持つ webeditor クライアントライブラリをインストールするサンプル clientlibs パッケージ：[&#x200B; このリンクを使用してダウンロードしてください &#x200B;](../../../assets/authoring/webeditor-addbuttonontoolbar-insertjira-clientlib.zip)
+- ツールバーボタンアクションの JavaScript コードを持つ webeditor クライアントライブラリをインストールするサンプル clientlibs パッケージ：[ このリンクを使用してダウンロードしてください ](../../../assets/authoring/webeditor-addbuttonontoolbar-insertjira-clientlib.zip)
 - フォルダープロファイルにアップロードできるサンプル *ui_config.json*: [download sample ui_config.json](../../../assets/authoring/sample_ui_config_Guides4.2-InsertJiraReference.json)
 
 ```

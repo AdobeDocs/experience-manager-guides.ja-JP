@@ -4,9 +4,9 @@ description: バグ修正と、Adobe Experience Manager Guides 4.3.1 リリー�
 exl-id: 3fb6dc31-ec6e-40f5-ab3f-a6e591da315e
 feature: Release Notes
 role: Leader
-source-git-commit: 1b25f1df67fa2442ab79830dc2ac5a6eabd0394c
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1307'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 このリリースノートでは、Adobe Experience Manager Guidesのバージョン 4.3.1 （以降は *Experience Manager Guides*）で修正されたアップグレード手順、互換性マトリックスおよび問題について説明します。
 
-新機能と機能強化について詳しくは、[Adobe Experience Manager Guides 4.3.1 リリースの新機能 &#x200B;](./whats-new-4-3-1-release.md) を参照してください。
+新機能と機能強化について詳しくは、[Adobe Experience Manager Guides 4.3.1 リリースの新機能 ](./whats-new-4-3-1-release.md) を参照してください。
 
 ## Experience Manager Guidesの 4.3.1 リリースへのアップグレード
 
@@ -35,7 +35,7 @@ Experience Manager Guidesの現在のバージョンを 4.3.1 に簡単にアッ
 >
 >Experience Manager Guides版をアップグレードする前に、AEM サービスパックをインストールする必要があります。
 
-詳しくは、[&#x200B; アップグレードの手順 &#x200B;](../install-guide/upgrade-xml-documentation.md) を参照してください。
+詳しくは、[ アップグレードの手順 ](../install-guide/upgrade-xml-documentation.md) を参照してください。
 
 ## 互換性マトリックス
 
@@ -57,7 +57,7 @@ Experience Manager Guidesの現在のバージョンを 4.3.1 に簡単にアッ
 | --- | --- | --- | --- | --- |
 | 4.3.1 （非 UUID） | 2022 以上 | 2020.2 以上* | 2022 以上 | 2020.3 以上 |
 | 4.3.1 （UUID） | 2022 以上 | 2020.2 以上* | 2022 以上 | 2020.4 以上 |
-| | | | |
+| | | | | |
 
 *AEMで作成されたベースラインと条件は、2020.2 以降の FMPS リリースでサポートされます。
 
@@ -67,7 +67,7 @@ Experience Manager Guidesの現在のバージョンを 4.3.1 に簡単にアッ
 | --- | --- | --- |--- |--- |
 | 4.3.1 （非 UUID） | 2.3-regular-5 | 2.3-regular-5 | 1.6 | 1.6 |
 | 4.3.1 （UUID） | 3.2-uuid-5 | 3.2-uuid-5 | 2.3 | 2.3 |
-|  |  |   |
+|  |  |   | | |
 
 
 
@@ -107,25 +107,25 @@ Experience Manager Guidesの現在のバージョンを 4.3.1 に簡単にアッ
 
 ### 公開
 
-- ネイティブPDF | PDF出力が生成される際、トピックの順序は固定されません。 （13157）
-- ネイティブPDF| `<p>`element で使用できるデフォルトのスタイルタグはありません。 （12559）
-- ネイティブPDF | コンテンツ領域に適用されたインラインスタイルは、前面と背面のトピックには適用されません。 （13510）
+- ネイティブ PDF | トピックの順序は、PDF出力の生成時には固定されません。 （13157）
+- ネイティブのPDF| `<p>`element で使用できるデフォルトのスタイルタグはありません。 （12559）
+- ネイティブ PDF | コンテンツ領域に適用されたインラインスタイルは、前面と背面のトピックには適用されません。 （13510）
 - `DeliveryTarget` 属性は、AEM サイト出力の生成時には反映されません。  （13132）
-- 特定のエラーが発生したコンテンツのAEM サイト出力を生成している間に **0&rbrace;Publish&rbrace; ワークフローが停止します。**（12000）
+- 特定のエラーを含むコンテンツのAEM サイト出力を生成する際に、**公開** ワークフローが停止します。 （12000）
 
-- ネイティブPDF |複数の外部参照を含めると、列の幅を超えてテキストが拡張されます。 （13004）
-- ネイティブPDF | トピックとタイトルの ID が同じ場合、PDF出力の生成が正しくありません。 （12644）
-- ネイティブPDF | DITA マップの親 `<topicref>` 要素に outputclass を追加し、カスタムスタイルを outputclass に適用すると、トピック本文内の要素（セクションタイトルを含む）にスタイル設定が適用されます。 （12166）
+- ネイティブ PDF |複数の外部参照を含めると、列の幅を超えてテキストが拡張されます。 （13004）
+- ネイティブ PDF | トピックとタイトルの ID が同じ場合、PDF出力の生成が正しくありません。 （12644）
+- ネイティブ PDF | DITA マップの親 `<topicref>` 要素に outputclass を追加し、カスタムスタイルを outputclass に適用すると、トピック本文内の要素（セクションタイトルを含む）にスタイル設定が適用されます。 （12166）
 - DITA マップに複数の ditavalrefs がある場合、増分公開は機能しません。 （12117）
 - AEM サイト | keydef がトピックを変数として指すマップを作成し、processing-role=resource-only を追加すると、予期しないページがいくつか作成される。 （12099）
-- AEM DAM のアセットがAEM サイト以外の出力で使用されている場合、メタデータ「jcr:createdBy」には公開者の名前または DITA マップまたはトピックを最後に変更したユーザーの名前は反映されません。 （12090）
+- AEMの DAM 内のアセットがAEM サイト以外の出力で使用されている場合、メタデータ「jcr:createdBy」には、公開者の名前または DITA マップまたはトピックを最後に変更したユーザーの名前は反映されません。 （12090）
 - AEM Sites | DITA マップのナビゲーションに topichead が含まれる（サポートされていない文字を含む）と、不正なページ URL が表示される。 （11978）
-- ネイティブPDF | Frontmatter と Backmatter で topichead/topicmeta/navtitle をサポートする際に問題が発生する。 （11969）
-- ネイティブPDF |大きなドキュメントに対するPDFの生成には時間がかかります。 （11955）
-- ネイティブPDF | プリセット名を変更すると、PDF出力の生成中に NullPointerException がスローされる。 （11889）
-- `<conref>` のコンテンツは、PDF出力には表示されません。 （11131）
+- ネイティブ PDF | Frontmatter と Backmatter で topichead/topicmeta/navtitle をサポートする際に問題が発生する。 （11969）
+- ネイティブ PDF |大きなドキュメントの PDF 生成には時間がかかります。 （11955）
+- ネイティブ PDF | プリセット名を変更すると、PDF出力の生成中に NullPointerException がスローされる。 （11889）
+- `<conref>` コンテンツは、PDF出力には表示されません。 （11131）
 - ページレイアウトエディターでオーサービューとSourceビューを切り替えると、`<div>` 要素内にスペースが追加されます。 （10750）
-- AEM Cloud Manager でレプリケートされたコンテンツは、Publish インスタンスには表示されません。 （9564）
+- AEM Cloud Manager でレプリケートされたコンテンツは、パブリッシュインスタンスには表示されません。 （9564）
 
 
 ### 管理

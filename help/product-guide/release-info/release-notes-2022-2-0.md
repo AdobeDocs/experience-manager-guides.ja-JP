@@ -4,25 +4,25 @@ description: ' [!DNL Adobe Experience Manager Guides] as a Cloud Serviceの 2 �
 exl-id: eb7ff475-bb5b-4d32-b291-024147fbfed1
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '974'
 ht-degree: 0%
 
 ---
 
-# as a Cloud Service [!DNL Adobe Experience Manager Guides] 年 2 月リリース
+# [!DNL Adobe Experience Manager Guides] as a Cloud Serviceの 2 月リリース
 
 ## 2 月リリースへのアップグレード
 
-次の手順を実行して、現在の [!DNL Adobe Experience Manager Guides] のas a Cloud Service（後でas a Cloud Serviceと呼ばれます） [!DNL AEM Guides] 設定をアップグレードします。
-1. Cloud Serviceの Git コードをチェックアウトし、アップグレードする環境に対応する、Cloud Serviceパイプラインで設定されたブランチに切り替えます。
-1. Cloud Service`<dox.version>`Git コード `/dox/dox.installer/pom.xml` ファイルのプロパティを 2022.2.114 に更新します。
-1. 変更内容をコミットし、Cloud Serviceパイプラインを実行して、2 月リリースの [!DNL AEM Guides]as a Cloud Serviceにアップグレードします。
+次の手順を実行して、現在の [!DNL Adobe Experience Manager Guides] as a Cloud Service（後でas a Cloud Service[!DNL AEM Guides] 呼びます）のセットアップをアップグレードします。
+1. Cloud Services の Git コードをチェックアウトし、アップグレードする環境に対応する、Cloud Services パイプラインで設定されたブランチに切り替えます。
+1. Cloud Services Git コ `<dox.version>` ド `/dox/dox.installer/pom.xml` ファイルのプロパティを 2022.2.114 に更新します。
+1. 変更内容をコミットし、Cloud Services パイプラインを実行して、[!DNL AEM Guides] as a Cloud Serviceの 2 月リリースにアップグレードします。
 
 ## 互換性マトリックス
 
-このセクションでは、2022 年 2 月のas a Cloud Serviceリリースでサポートされるソフトウェア アプリケーション [!DNL AEM Guides] 互換表を示します。
+この節では、as a Cloud Service 2022 年 2 月リリースでサポートされるソフトウェアアプリケーション [!DNL AEM Guides] 互換性マトリックスを示します。
 
 ### FrameMakerとFrameMaker Publishing Server
 
@@ -42,17 +42,17 @@ ht-degree: 0%
 
 ## 新機能と機能強化
 
-### ネイティブPDF公開
+### PDFのネイティブ公開
 
-ネイティブPDFの作成のサポートは、[!DNL AEM Guides] のas a Cloud Serviceの 2 月のリリースでも追加されました。 次の機能を備えた新しいパブリッシュエンジンが導入されました。
+ネイティブ PDFの作成のサポートは、[!DNL AEM Guides] as a Cloud Serviceの 2 月のリリースでも追加されました。 次の機能を備えた新しいパブリッシュエンジンが導入されました。
 * CSS テンプレートの作成
 * 様々なページテンプレートの作成
-* CSS とページテンプレートで構成されるデザインPDFテンプレート
-* PDF形式のPublishのマップとトピックコンテンツ
+* CSS とページテンプレートで構成されるPDF テンプレートのデザイン
+* PDF形式でのマップおよびトピックコンテンツの公開
 
 ### 記事ベースの公開でのナレッジベースサイトパスのサポート
 
-[!DNL AEM Guides] のas a Cloud Serviceは、記事ベースの公開機能を提供して、1 つ以上のトピックの出力を増分的に生成したり、コンテンツをナレッジベースプラットフォームに公開したりします。 2 月のリリースでは、トピック/マップを公開する必要があるナレッジ・ベース・サイトのパスを選択する追加オプションがあります。 パスを選択すると、指定したパスに出力が生成されます。
+[!DNL AEM Guides] as a Cloud Serviceには、1 つ以上のトピックの出力を増分的に生成したり、コンテンツをナレッジベースプラットフォームに公開したりするための記事ベースの公開機能が用意されています。 2 月のリリースでは、トピック/マップを公開する必要があるナレッジ・ベース・サイトのパスを選択する追加オプションがあります。 パスを選択すると、指定したパスに出力が生成されます。
 
 ### Web エディターの機能強化
 
@@ -60,15 +60,15 @@ Web エディターに多くの機能強化と新機能が追加されました�
 
 * **ファイルを閉じるときのダイアログを改善しました**
 
-Web エディタ [!DNL AEM Guides] 開いているファイルを閉じようとすると、変更内容を保存し、ロックされているファイルのロックを解除するように求めるプロンプトがas a Cloud Serviceに表示されます。 プロンプトは、管理者が設定した **閉じるときにチェックインを要求する** および **閉じるときに新しいバージョンを要求する** の設定に基づいて表示されます。
+[!DNL AEM Guides] as a Cloud Serviceでは、Web エディターで開いたファイルを閉じようとすると、変更内容を保存し、ロックされているファイルのロックを解除するように求められます。 プロンプトは、管理者が設定した **閉じるときにチェックインを要求する** および **閉じるときに新しいバージョンを要求する** の設定に基づいて表示されます。
 
 設定に基づいて、変更を保存し、ドキュメントの新しいバージョンを作成するオプションを使用できます。 または、ファイルをチェックインして、変更内容を現在のバージョンに保存することもできます。
 
-![&#x200B; ファイルを閉じる &#x200B;](assets/file-close-save-changes-unlock.png)
+![ ファイルを閉じる ](assets/file-close-save-changes-unlock.png)
 
 詳細については、『ユーザ ガイド』の *ファイルを閉じてシナリオを保存する* を参照してください。
 
-* 文字パレットに改行なしスペースが追加されました。  **改行なし** スペースは、HTMLドキュメント内の特定のポイントでの自動改行を防ぎます。 Web エディターでは、AEM Site 出力とHTML5 出力の両方で改行なしスペースをサポートしています。
+* 文字パレットに改行なしスペースが追加されました。  **改行なし** スペースは、HTML ドキュメントの特定のポイントで改行が自動的に行われるのを防ぎます。 Web エディターでは、AEM Site とHTML5 の両方の出力に改行なしスペースをサポートしています。
 
 * Web エディターから画像をアップロードすると、同じ名前の画像が既に存在する場合は、確認ダイアログが表示されます。 既存のファイルと新しいファイルの両方を保持するか、既存のファイルを上書きして新しいファイルのみを保存できます。
 
@@ -78,7 +78,7 @@ Web エディタ [!DNL AEM Guides] 開いているファイルを閉じようと
 
 DITA マップのダウンロードを選択すると、リクエストはキューに入れられ、マップのダウンロード準備が整うと通知が届きます。 マップファイルを直ちにダウンロードするか、AEM通知インボックスに表示されるリンクから後でダウンロードするかを選択できます。
 
-![&#x200B; マップのダウンロード &#x200B;](assets/download-map-prompt.png)
+![ マップのダウンロード ](assets/download-map-prompt.png)
 
 ### レビュー
 
@@ -92,7 +92,7 @@ DITA マップのダウンロードを選択すると、リクエストはキュ
 
 * 記事ベースの公開では、選択したベースラインに基づいて記事を公開しません。 （8771）
 * 記事ベースの公開では、DITAVAL ファイルは使用されません。 （8770）
-* レコードタイプが FAQ で、記事フィールドコンテンツが質問の場合、Salesforce プロファイルの記事ベースの公開を実行できない。 （8448）
+* レコードタイプが FAQ で、記事フィールドのコンテンツが質問の場合、Salesforce プロファイルの記事ベースの公開を行えない。 （8448）
 * レコードタイプが手動の場合、Salesforce プロファイルの記事ベースの公開を行うことができない。 （8447）
 
 ### Web エディター

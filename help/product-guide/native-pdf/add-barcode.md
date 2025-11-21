@@ -1,10 +1,10 @@
 ---
-title: ネイティブPDFのPublish機能 | バーコードを追加
+title: ネイティブのPDF公開機能 | バーコードを追加
 description: バーコードの追加方法を説明します。
 exl-id: 206bdcf9-2bcd-4bf1-815a-c97cdf0dc415
-source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '778'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 ### テンプレートの CSS を更新してバーコード値をレンダリングする
 
-PDFの生成時にバーコードをレンダリングするように、`layout.css` ファイルを変更します。 「qrcode」や「pdf417」など、様々なバーコードタイプがサポートされています。  詳しくは、[&#x200B; バーコードの種類 &#x200B;](#barcode-types) を参照してください。
+PDFの生成時にバーコードをレンダリングするように、`layout.css` ファイルを変更します。 「qrcode」や「pdf417」など、様々なバーコードタイプがサポートされています。  詳しくは、[ バーコードの種類 ](#barcode-types) を参照してください。
 
 
 
@@ -64,15 +64,15 @@ margin-top: 2mm;
 
 ページレイアウトを含むテンプレートを使用して出力PDFを生成すると、バーコードを表示できます。 前の手順を実行したら、バーコードを含むPDF出力を生成できます。
 
-次のスクリーンショットは、PDF出力内のサンプルバーコードを示しています。
+次のスクリーンショットは、PDF出力にサンプルバーコードを示しています。
 
 <img src="./assets/barcode-output-sample.png" alt="バーコードを含むサンプル出力" width="700" border="2px">
 
 **例 2**
 
-**基本** テンプレートの `Common.plt` ファイルを変更して、プロジェクトタイトルの後にバーコードを追加します。
+`Common.plt` 基本 **テンプレートの** ファイルを変更して、プロジェクトタイトルの後にバーコードを追加します。
 
-ISBN 番号のバーコードを作成するには、ISBN 番号を追加します。 次に、ISBN 番号を使用してバーコードを生成します。
+ISBN番号のバーコードを作成するには、ISBN番号を追加します。 次に、ISBN番号を使用してバーコードを生成します。
 
 ```html
 ...
@@ -89,7 +89,7 @@ ISBN 番号のバーコードを作成するには、ISBN 番号を追加しま�
 
 マップのメタデータを使用してバーコードを作成するには：
 
-DITA マップの `<topicmeta>` 要素に存在する任意のメタデータをバーコードとして表示します。 正しい XPath を使用していることを確認します。 たとえば、DITA マップの `<topicmeta>` に `<resourceid>` を追加できます。
+DITA マップの `<topicmeta>` 要素に存在する任意のメタデータをバーコードとして表示します。 正しい XPath を使用していることを確認します。 たとえば、DITA マップの `<resourceid>` に `<topicmeta>` を追加できます。
 
 次の例では、リソース ID がバーコードを生成するためのメイン入力として機能します。
 
@@ -133,26 +133,26 @@ DITA マップの `<topicmeta>` 要素に存在する任意のメタデータを
 | コード 11 | code11 |                            |
 | Code 93 | code93 |                            |
 | Code16k | code16k |                            |
-| PDF417 | pdf417 | PDF417/MicroPDF417 バーコード コード コード コード コードは、ISO/IEC 15438:2006 および ISO/IEC 24728:2006 に準拠しています。 |
+| PDF417 | pdf417 | PDF417/MicroPDF417 バーコードは、ISO/IEC 15438:2006 および ISO/IEC 24728:2006 に準拠したコードです。 |
 | コード 3 / 9 | code39 | ISO/IEC 16388:2007 に準拠した 9 のバーコードのコード 3。 |
 | MSI プレッシー | msiplessey |                            |
 | チャネルコード | channelcode | ANSI/AIM BC12-1998 に準拠したチャネル コード。 |
-| Codabar | codabar | BS EN 798:1996 に準拠した Codabar バーコードのコード体系。 |
-| EAN-8 | ean-8 | BS EN 797:1996 に準拠した EAN バーコードのコード。 |
-| EAN-13 | ean-13 | BS EN 797:1996 に準拠した EAN バーコードのコード。 |
-| UPC-A | upc-a | BS EN 797:1996 に従った UPC バーコードのコードのコード。 |
-| UPC-E | upc-e | BS EN 797:1996 に従った UPC バーコードのコードのコード。 |
+| Codabar | codabar | BS EN 798:1996 に準拠した Codabar バーコード記号。 |
+| EAN-8 | ean-8 | BS EN 797:1996 による EAN バーコードのコード。 |
+| EAN-13 | ean-13 | BS EN 797:1996 による EAN バーコードのコード。 |
+| UPC-A | upc-a | BS EN 797:1996 による UPC バーコードのコードのコード。 |
+| UPC-E | upc-e | BS EN 797:1996 による UPC バーコードのコードのコード。 |
 | Ean/UPC アドオン | アドオン | BS EN 797:1996 に準拠した EAN/UPC アドオンのバーコードのコード。 |
-| テレペン | テレペン | テレペンAlphaとも呼ばれます。 |
+| テレペン | テレペン | テレペンAlphaとしても知られています。 |
 | GS1 データバー/データバー 14 | データバー | ISO/IEC 24724:2011 準拠の GS1 DataBar。 |
-| GS1 データバー拡張/データバー 14 拡張 | databar-expanded | GS1 DataBar ISO/IEC 24724:2011 に準拠して拡張。 |
+| GS1 データバー拡張/データバー 14 拡張 | databar-expanded | GS1 DataBar ISO/IEC 24724:2011 に準拠した拡張。 |
 | GS1 Databar Limited | databar-limited | ISO/IEC 24724:2011 に準拠した GS1 DataBar Limited。 |
 | POSTNET （郵便数値エンコーディングの手法） | postnet | United States Postal Service で使用される POSTNET （郵便数値エンコーディング技術）バーコードコード。 |
 | Pharmazentralnummer （PZN-8） | pzn8 | ドイツの製薬業界で使用されている Code 39 ベースのコード。 |
 | Pharmacode | ファーマコード |                            |
 | Codablock F | codablockf | AIM Europe 「Uniform Symbology Specification Codablock F」（1995 年）によるシンボロジ。 |
 | ログ | ログ | 米国国防総省が使用している LOGMARS （Logistics Applications of Automated Marking and Reading Symbols：自動標識および読み取りシンボルのロジスティクス用途）規格。 |
-| アステカ ルーン | アステカ・ルーン | ISO/IEC 24778:2008 Annex A に準拠した Aztec Runes バーコードのコードのコード。 |
-| Aztec コード | aztec-code | Aztec Code ISO/IEC 24778:2008 に準拠したバーコードのコードのコード。 |                            |
-| DataMatrix | data-matrix | ISO/IEC 16022:2006 に準拠したデータ・マトリックス ECC 200 バーコード・コードのコード・コード。 |
+| アステカ ルーン | アステカ・ルーン | ISO/IEC 24778:2008 附属書 A に準拠した Aztec Runes バーコードのコードのコード。 |
+| Aztec コード | aztec-code | Aztec Code ISO/IEC 24778:2008 に準拠したバーコードのコードのコード。 |
+| DataMatrix | data-matrix | ISO/IEC 16022:2006 に準拠したデータ・マトリックス ECC 200 バーコード・コードのコード・コード |
 | コード 1 | code-one |                            |

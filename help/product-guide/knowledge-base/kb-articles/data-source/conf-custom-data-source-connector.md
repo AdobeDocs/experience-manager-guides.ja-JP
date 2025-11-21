@@ -4,7 +4,8 @@ description: データソースのカスタムコネクタを設定する方法�
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: fdd19363c6768860ffa2f70c934b6f71c811c08b
+exl-id: ef7ab117-7541-4e89-9ba4-22254a17efc0
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 0%
@@ -63,7 +64,7 @@ konnect-definitions については、[![javadoc](https://javadoc.io/badge2/com.
 | getName | はい | <ul><li>このメソッドは、コネクタに割り当てられた一意の名前を取得する方法を提供します。 <li>返される名前は、特にコネクタの設定で名前が明示的に指定されていない場合に、ユーザーインターフェイス（UI）コンテキスト内でコネクタを識別するために重要です。 <li>この名前は、様々な UI コンポーネントで使用され、使いやすい方法でコネクタを表示または管理します。 |
 | getGroup | はい | <ul> <li>このメソッドは、コネクタに関連付けられたグループ名を取得する方法を提供します。 <li>グループ名は、通常、機能、目的、またはタイプに基づいて、コネクタを論理グループに整理または分類するために使用されます。 <li> これにより、設定 UI 内でのコネクタの管理と表示が容易になります。 |
 | getDefaultTemplatePath |  | <ul><li> このメソッドは、このコネクタに関連付けられたテンプレートのデフォルトパスを返します。 <li> デフォルトでは、空の文字列を返します。これは、上書きされない限りデフォルトパスが設定されないことを示します。 |
-| getLogoSvg |  | <ul><li>コネクタのロゴのSVG表現を返すには、このメソッドを使用します。 <li> デフォルトでは、このメソッドは空の文字列を返します。これは、上書きされない限り、SVGデータが提供されないことを示します。 |
+| getLogoSvg |  | <ul><li>コネクタのロゴのSVG表現を返すには、このメソッドを使用します。 <li> デフォルトでは、空の文字列を返します。これは、上書きされない限り、SVG データが提供されないことを示します。 |
 | getMaxNoRowsForPreviewQuery | | <ul><li>このメソッドは、UI プレビューでクエリまたは表示される最大行数を返します。 <li> デフォルトでは、DEFAULT_LIMIT_PREVIEW の値を返します。これは、プレビュー行のデフォルトの制限を表す定数です。 |
 | getConfigclass | はい | <ul><li>このメソッドは、Config インターフェイスを実装し、このコネクタでサポートされているクラスに関する情報を提供します。 <li> これにより、アプリケーションまたはフレームワークは、コネクタと互換性のある設定を動的に検出し、操作できます。 |
 
@@ -120,6 +121,6 @@ konnect-definitions については、[![javadoc](https://javadoc.io/badge2/com.
 コネクタで使用できるようにするには、次のコネクタ関数を実装する必要があります。
 
 
-- `getLogoSvg` - ロゴのSVGを文字列として返します。
+- `getLogoSvg` - ロゴ SVGを文字列として返します。
 
 - `getTemplates` – 指定された形式のテンプレートのリストを返します。
