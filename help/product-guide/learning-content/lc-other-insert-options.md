@@ -37,7 +37,7 @@ ht-degree: 0%
 
   ![](assets/insert-h5p-lc.png)
 
-  システムから H5P コンテンツを使用する場合は、まず [ アセットをアップロード ](../user-guide/authoring-upload-existing-files.md) オプションを使用して **DAM にファイルをアップロード** してから、リポジトリビュー/Assetsに含めます。
+  システムから H5P コンテンツを使用する場合は、まず [&#x200B; アセットをアップロード &#x200B;](../user-guide/authoring-upload-existing-files.md) オプションを使用して **DAM にファイルをアップロード** してから、リポジトリビュー/Assetsに含めます。
 
   ![](assets/upload-assets-option.png)
 
@@ -52,14 +52,14 @@ ht-degree: 0%
 
   ![](./assets/insert-mathml.png){width="350" align="left"}
 
-  数式は、明るい灰色の背景で挿入されます。 既存の数式を右クリックし、コンテキストメニューから **数式を編集** を選択することで、いつでも数式を更新できます。 MathMLでのMathML式の検証について詳しくは、[Experience Manager Guides エディターでの式の検証 ](../user-guide/web-editor-other-features.md#validation-of-equations-in-the-mathml-editor) を参照してください。
+  数式は、明るい灰色の背景で挿入されます。 既存の数式を右クリックし、コンテキストメニューから **数式を編集** を選択することで、いつでも数式を更新できます。 MathMLでのMathML式の検証について詳しくは、[Experience Manager Guides エディターでの式の検証 &#x200B;](../user-guide/web-editor-other-features.md#validation-of-equations-in-the-mathml-editor) を参照してください。
 
 - **ナレッジチェック：** 利用可能な形式（単正解、複数正解、正解/正解/正解、以下に一致、質問バンクから挿入）で質問をトピックに追加して、レビューし、評価やレポートを行わずに理解を確認できます。 これらの質問は、標準的な形式を反映しており、スコアリングを除外しているので、自己評価に最適です。必要に応じて、クイズや評価の前に、コースコンテンツまたはトピックの一部として使用できます。
 
   ![](assets/knowledge-check-topic.png){width="650" align="left"}
 
 
-  **コンテンツのプロパティ** パネルを使用して、正解およびその他の必須フィールドを設定できます。 詳しくは、[ 質問のタイプ ](./quiz-insert-questions.md) を参照してください。 以下に示すように、ナレッジチェックオプションを使用して、様々な質問タイプを追加できます。
+  **コンテンツのプロパティ** パネルを使用して、正解およびその他の必須フィールドを設定できます。 詳しくは、[&#x200B; 質問のタイプ &#x200B;](./quiz-insert-questions.md) を参照してください。 以下に示すように、ナレッジチェックオプションを使用して、様々な質問タイプを追加できます。
 
   ![](assets/knowledge-check-content-properties.png){width="650" align="left"}
 
