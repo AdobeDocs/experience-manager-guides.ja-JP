@@ -5,9 +5,9 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 140def886ff52d361d3c76a5e47607ab58408f04
+source-git-commit: 7ecf29537ddfbfcff644c4f6e3dff32750868282
 workflow-type: tm+mt
-source-wordcount: '9151'
+source-wordcount: '9155'
 ht-degree: 0%
 
 ---
@@ -18,15 +18,15 @@ ht-degree: 0%
 >
 > 製品のライセンス済みバージョンに固有のアップグレード手順に従います。
 
-Experience Manager Guidesの現在のバージョンを 5.1.0 サービスパック 1 にアップグレードできます。
+現在のExperience Manager Guidesのバージョンを 5.1.0 サービスパック 3 にアップグレードできます。
 
-- バージョン 5.1.0 を使用している場合は、バージョン 5.1.0 サービスパック 1 に直接アップグレードできます。
+- バージョン 5.1.0 または 5.1.x を使用している場合は、バージョン 5.1.0 サービスパック 3 に直接アップグレードできます。
 - バージョン 4.6.0、4.6.x、5.0.0 または 5.0.x を使用している場合は、バージョン 5.1.0 にアップグレードする必要があります。
 - バージョン 4.6.3、4.6.1、4.6 または 4.4 を使用している場合は、バージョン 5.0.0 にアップグレードする必要があります。
 - バージョン 4.3.x、4.2、4.2.1 （ホットフィックス 4.2.1.3）、4.1、または 4.1.x を使用している場合は、バージョン 5.0.0 にアップグレードする前にバージョン 4.4 にアップグレードする必要があります。
 - バージョン 4.0 を使用している場合、バージョン 4.3.x にアップグレードする前にバージョン 4.2 にアップグレードする必要があります。
 - バージョン 3.8.5 を使用している場合、バージョン 4.2 にアップグレードする前にバージョン 4.0 にアップグレードする必要があります。
-- バージョン 3.8.5 より前のバージョンを使用している場合は、[Experience Manager Guides ヘルプ PDF アーカイブ &#x200B;](https://helpx.adobe.com/jp/xml-documentation-for-experience-manager/archive.html) にある製品固有のインストールガイドのAdobe Experience Manager Guidesのアップグレードの節を参照してください。
+- バージョン 3.8.5 より前のバージョンを使用している場合は、[Experience Manager Guides ヘルプ PDF アーカイブ ](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) にある製品固有のインストールガイドのAdobe Experience Manager Guidesのアップグレードの節を参照してください。
 
 
 >[!NOTE]
@@ -59,11 +59,11 @@ Experience Manager Guides バージョン 3.8.5 を使用している場合は�
 
 >[!NOTE]
 >
-> このアップグレードプロセスは、バージョン 3.8.5 からバージョン 4.0 までの場合にのみ適用されます。バージョン 3.4 以降から 3.8.5 へのアップグレードのプロセスについては、*Adobe Experience Manager Guides ヘルプのExperience Manager Guides アーカイブ* にある製品固有のインストールガイドの [PDFのアップグレード &#x200B;](https://helpx.adobe.com/jp/xml-documentation-for-experience-manager/archive.html) の節を参照してください。
+> このアップグレードプロセスは、バージョン 3.8.5 からバージョン 4.0 までの場合にのみ適用されます。バージョン 3.4 以降から 3.8.5 へのアップグレードのプロセスについては、*Adobe Experience Manager Guides ヘルプのExperience Manager Guides アーカイブ* にある製品固有のインストールガイドの [PDFのアップグレード ](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) の節を参照してください。
 
 
 
-**&#x200B;**&#x200B;前提条件&#x200B;**&#x200B;**
+****前提条件****
 
 Experience Manager Guidesのアップグレードプロセスを開始する前に、次のことを確認します。
 
@@ -77,7 +77,7 @@ Experience Manager Guidesのアップグレードプロセスを開始する前�
 バージョン 4.0 をインストールする前に、次の手順を実行します。
 
 1. この時点で、Experience Manager Guidesがバージョン 3.8.5 であることを確認します。
-1. アップグレードスクリプトパッケージをダウンロードします。 これを行うには、[Adobe ソフトウェア配布ポータルで「XML Documentation solution 4.0 Upgrade Package」を検索します。これにより &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)zip ファイルがダウンロードされます。
+1. アップグレードスクリプトパッケージをダウンロードします。 これを行うには、[Adobe ソフトウェア配布ポータルで「XML Documentation solution 4.0 Upgrade Package」を検索します。これにより ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)zip ファイルがダウンロードされます。
 1. パッケージマネージャーを介してこのパッケージをAEMにアップロードし、このパッケージをインストールします。
 1. アップグレードパッケージがインストールされたら、以下のスクリプトを同じ順序で実行し、以下の手順に従います。
 
@@ -113,7 +113,7 @@ Experience Manager Guidesのアップグレードプロセスを開始する前�
 ## バージョン 4.0 のインストール {#id23598G006XA}
 
 1. アップグレード手順が正常に完了した場合にのみ、バージョン 4.0 をインストールします。
-1. [Adobe ソフトウェア配布ポータル &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) から 4.0 バージョン パッケージをダウンロードします：
+1. [Adobe ソフトウェア配布ポータル ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) から 4.0 バージョン パッケージをダウンロードします：
 
    - UUID 版のソフトウェアを使用している場合は、「4.0 UUID Release for XML Documentation solution for AEM 6.5」を検索してください。
    - 非 UUID 版のソフトウェアを使用している場合は、「4.0 Non-UUID Release for XML Documentation solution for AEM 6.5」を検索します。
@@ -136,7 +136,7 @@ CRX パッケージマネージャーを使用して、パッケージを既存�
 
 バージョン 4.0、4.1 または 4.1.x を使用している場合は、バージョン 4.2 に直接アップグレードできます。
 
-**&#x200B;**&#x200B;前提条件&#x200B;**&#x200B;**
+****前提条件****
 
 Experience Manager Guides 4.2 のアップグレードプロセスを開始する前に、次のことを確認してください。
 
@@ -150,7 +150,7 @@ Experience Manager Guides 4.2 のアップグレードプロセスを開始す�
 
 ## バージョン 4.2 のインストール {#id2245IK0E0EV}
 
-1. [Adobe ソフトウェア配布ポータル &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) から 4.2 バージョン パッケージをダウンロードします。
+1. [Adobe ソフトウェア配布ポータル ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) から 4.2 バージョン パッケージをダウンロードします。
 1. バージョン 4.2 パッケージをインストールします。
 1. パッケージのインストールが完了したら、次のメッセージがログに表示されるまで待ちます。
 
@@ -244,8 +244,8 @@ Experience Manager Guidesをインストールした後、新しくインスト�
    - elementmapping.xml
    - ui\_config.json\（フォルダープロファイルで設定されている可能性があります\）
    - 修正 `com.adobe.fmdita.config.ConfigManager`
-   - [&#x200B; 移行マッピング &#x200B;](#id2244LE040XA) の節\で説明したように）カスタムコードのいずれかが古いパスを使用していたかどうかを確認します。カスタマイズが期待どおりに機能するように、新しいパスに更新する必要があります。
-1. 現在のリリースで導入された新しい設定について確認し（[&#x200B; リリースノート &#x200B;](../release-info/release-notes-4-3.md)\）、機能に影響があるかどうかを確認してから適切なアクションを実行します。 例えば、バージョン 4.0 で導入された「ファイルとバージョンの処理の改善」を利用するには、設定を有効にする必要があります。
+   - [ 移行マッピング ](#id2244LE040XA) の節\で説明したように）カスタムコードのいずれかが古いパスを使用していたかどうかを確認します。カスタマイズが期待どおりに機能するように、新しいパスに更新する必要があります。
+1. 現在のリリースで導入された新しい設定について確認し（[ リリースノート ](../release-info/release-notes-4-3.md)\）、機能に影響があるかどうかを確認してから適切なアクションを実行します。 例えば、バージョン 4.0 で導入された「ファイルとバージョンの処理の改善」を利用するには、設定を有効にする必要があります。
 
 ## 新しい検索と置換を使用するために、既存のコンテンツのインデックスを作成する手順は次のとおりです。
 
@@ -312,7 +312,7 @@ Experience Manager Guidesをインストールした後、新しくインスト�
 >
 >後処理とインデックス作成には数時間かかる場合があります。 アップグレードプロセスは、ピーク時を避けて開始することをお勧めします。
 
-**&#x200B;**&#x200B;前提条件&#x200B;**&#x200B;**
+****前提条件****
 
 Experience Manager Guides 4.2.1 のアップグレードプロセスを開始する前に、次のことを確認してください。
 
@@ -326,9 +326,9 @@ Experience Manager Guides 4.2.1 のアップグレードプロセスを開始す
 
 ## バージョン 4.2.1 のインストール
 
-1. [Adobe ソフトウェア配布ポータル &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) から 4.2.1 バージョン パッケージをダウンロードします。
+1. [Adobe ソフトウェア配布ポータル ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) から 4.2.1 バージョン パッケージをダウンロードします。
 1. バージョン 4.2.1 パッケージをインストールします。
-1. トリガーをヒットして、翻訳マップのアップグレードジョブを開始することもできます。 詳しくは、[&#x200B; サーブレットを使用したスクリプトのトリガーを有効にする &#x200B;](#enable-trigger-of-script-via-a-servlet-for-421) を参照してください。
+1. トリガーをヒットして、翻訳マップのアップグレードジョブを開始することもできます。 詳しくは、[ サーブレットを使用したスクリプトのトリガーを有効にする ](#enable-trigger-of-script-via-a-servlet-for-421) を参照してください。
 
 
 1. パッケージのインストールが完了したら、次のメッセージがログに表示されるまで待ちます。
@@ -461,8 +461,8 @@ Experience Manager Guidesをインストールした後、新しくインスト�
    - elementmapping.xml
    - ui\_config.json\（フォルダープロファイルで設定されている可能性があります\）
    - 修正 `com.adobe.fmdita.config.ConfigManager`
-   - [&#x200B; 移行マッピング &#x200B;](#id2244LE040XA) の節\で説明したように）カスタムコードのいずれかが古いパスを使用していたかどうかを確認します。カスタマイズが期待どおりに機能するように、新しいパスに更新する必要があります。
-1. 現在のリリースで導入された新しい設定について確認し（[&#x200B; リリースノート &#x200B;](../release-info/release-notes-4-2-1.md)\）、機能に影響があるかどうかを確認してから適切なアクションを実行します。 例えば、バージョン 4.0 で導入された「ファイルとバージョンの処理の改善」を利用するには、設定を有効にする必要があります。
+   - [ 移行マッピング ](#id2244LE040XA) の節\で説明したように）カスタムコードのいずれかが古いパスを使用していたかどうかを確認します。カスタマイズが期待どおりに機能するように、新しいパスに更新する必要があります。
+1. 現在のリリースで導入された新しい設定について確認し（[ リリースノート ](../release-info/release-notes-4-2-1.md)\）、機能に影響があるかどうかを確認してから適切なアクションを実行します。 例えば、バージョン 4.0 で導入された「ファイルとバージョンの処理の改善」を利用するには、設定を有効にする必要があります。
 
 ## 新しい検索と置換を使用するために、既存のコンテンツのインデックスを作成する手順は次のとおりです。
 
@@ -489,7 +489,7 @@ Experience Manager Guidesをインストールした後、新しくインスト�
 >
 >後処理とインデックス作成には数時間かかる場合があります。 アップグレードプロセスは、ピーク時を避けて開始することをお勧めします。
 
-**&#x200B;**&#x200B;前提条件&#x200B;**&#x200B;**
+****前提条件****
 
 Experience Manager Guides 4.3.0 のアップグレードプロセスを開始する前に、次のことを確認してください。
 
@@ -500,7 +500,7 @@ Experience Manager Guides 4.3.0 のアップグレードプロセスを開始す
 
 ## バージョン 4.3.0 のインストール
 
-1. [Adobe ソフトウェア配布ポータル &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) から 4.3.0 バージョン パッケージをダウンロードします。
+1. [Adobe ソフトウェア配布ポータル ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) から 4.3.0 バージョン パッケージをダウンロードします。
 1. バージョン 4.3.0 パッケージをインストールします。
 1. パッケージのインストール後にブラウザーのキャッシュをクリアします。
 1. フォルダープロファイルの「`ui_config.json`XML エディター設定 **」タブから** ファイルをアップグレードします。
@@ -547,7 +547,7 @@ Experience Manager Guidesをインストールした後、新しくインスト�
 >
 >後処理とインデックス作成には数時間かかる場合があります。 アップグレードプロセスは、ピーク時を避けて開始することをお勧めします。
 
-**&#x200B;**&#x200B;前提条件&#x200B;**&#x200B;**
+****前提条件****
 
 Experience Manager Guides 4.3.1 のアップグレードプロセスを開始する前に、次のことを確認します。
 
@@ -558,9 +558,9 @@ Experience Manager Guides 4.3.1 のアップグレードプロセスを開始す
 
 ## バージョン 4.3.1 のインストール
 
-1. [Adobe ソフトウェア配布ポータル &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) から 4.3.1 バージョン パッケージをダウンロードします。
+1. [Adobe ソフトウェア配布ポータル ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) から 4.3.1 バージョン パッケージをダウンロードします。
 1. バージョン 4.3.1 パッケージをインストールします。
-1. トリガーをヒットして、翻訳マップのアップグレードジョブを開始することもできます。 詳しくは、[&#x200B; サーブレットを使用したスクリプトのトリガーを有効にする &#x200B;](#enable-trigger-of-script-via-a-servlet-for-431) を参照してください。
+1. トリガーをヒットして、翻訳マップのアップグレードジョブを開始することもできます。 詳しくは、[ サーブレットを使用したスクリプトのトリガーを有効にする ](#enable-trigger-of-script-via-a-servlet-for-431) を参照してください。
 
 
 1. パッケージのインストールが完了したら、次のメッセージがログに表示されるまで待ちます。
@@ -748,7 +748,7 @@ Experience Manager Guidesをインストールした後、新しくインスト�
 
 ## バージョン 4.3.1.5 のインストール
 
-1. 4.3.1.5Adobe ソフトウェア配布ポータル [&#x200B; から &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) のバージョン パッケージをダウンロードします。
+1. 4.3.1.5Adobe ソフトウェア配布ポータル [ から ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) のバージョン パッケージをダウンロードします。
 1. パッケージのバージョン 4.3.1.5 インストールします。
 
 1. インストールプロセスが正常に完了するまで待ちます。
@@ -788,7 +788,7 @@ Experience Manager Guidesをインストールした後、新しくインスト�
 >
 >後処理とインデックス作成には数時間かかる場合があります。 アップグレードプロセスは、ピーク時を避けて開始することをお勧めします。
 
-**&#x200B;**&#x200B;前提条件&#x200B;**&#x200B;**
+****前提条件****
 
 Experience Manager Guides 4.4.0 のアップグレードプロセスを開始する前に、次のことを確認してください。
 
@@ -799,9 +799,9 @@ Experience Manager Guides 4.4.0 のアップグレードプロセスを開始す
 
 ## バージョン 4.4.0 のインストール
 
-1. [Adobe ソフトウェア配布ポータル &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) から 4.4.0 バージョン パッケージをダウンロードします。
+1. [Adobe ソフトウェア配布ポータル ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) から 4.4.0 バージョン パッケージをダウンロードします。
 1. バージョン 4.4.0 パッケージをインストールします。
-1. トリガーをヒットして、翻訳マップのアップグレードジョブを開始することもできます。 詳しくは、[&#x200B; サーブレットを使用したスクリプトのトリガーを有効にする &#x200B;](#enable-trigger-of-script-via-a-servlet) を参照してください。
+1. トリガーをヒットして、翻訳マップのアップグレードジョブを開始することもできます。 詳しくは、[ サーブレットを使用したスクリプトのトリガーを有効にする ](#enable-trigger-of-script-via-a-servlet) を参照してください。
 
 1. パッケージのインストールが完了したら、次のメッセージがログに表示されるまで待ちます。
 
@@ -976,12 +976,12 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 
 Experience Manager Guidesには、クロスマップ（2 つの異なるマップのトピック間のリンク）の場合に生成されるリンクを処理する [**custom sling rewriter**](../cs-install-guide/conf-output-generation.md#custom-rewriter) モジュールがあります。
 
-コードベースに別のカスタム sling rewriter がある場合は、Experience Manager Guides sling rewriter が 50 を使用するように、50 より大きい `'order'` 値を使用し `'order'` す。  これを上書きするには、50 より大きい値が必要です。 詳しくは、[&#x200B; 出力の書き換えパイプライン &#x200B;](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html) を参照してください。
+コードベースに別のカスタム sling rewriter がある場合は、Experience Manager Guides sling rewriter が 50 を使用するように、50 より大きい `'order'` 値を使用し `'order'` す。  これを上書きするには、50 より大きい値が必要です。 詳しくは、[ 出力の書き換えパイプライン ](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html) を参照してください。
 
 このアップグレード中に、`'order'` の値が 1000 から 50 に変更されるので、既存のカスタムリライターがある場合は `'fmdita-rewriter'` と結合する必要があります。
 
 
-**親トピック：**&#x200B;[&#x200B; ダウンロードとインストール &#x200B;](download-install.md)
+**親トピック：**[ ダウンロードとインストール ](download-install.md)
 
 
 ## バージョン 4.6.0 へのアップグレード
@@ -996,7 +996,7 @@ Experience Manager Guidesには、クロスマップ（2 つの異なるマッ�
 >
 > 後処理とインデックス作成には数時間かかる場合があります。 アップグレードプロセスは、ピーク時を避けて開始することをお勧めします。
 
-**&#x200B;**&#x200B;前提条件&#x200B;**&#x200B;**
+****前提条件****
 
 Experience Manager Guides 4.6.0 のアップグレードプロセスを開始する前に、次のことを確認してください。
 
@@ -1007,9 +1007,9 @@ Experience Manager Guides 4.6.0 のアップグレードプロセスを開始す
 
 ## バージョン 4.6.0 のインストール
 
-1. [Adobe ソフトウェア配布ポータル &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/ja/aem.html) から 4.6.0 バージョンのパッケージをダウンロードします。
+1. [Adobe ソフトウェア配布ポータル ](https://experience.adobe.com/#/downloads/content/software-distribution/ja/aem.html) から 4.6.0 バージョンのパッケージをダウンロードします。
 1. バージョン 4.6.0 パッケージをインストールします。
-1. トリガーをヒットして、翻訳マップのアップグレードジョブを開始することもできます。 詳しくは、[&#x200B; サーブレットを使用したスクリプトのトリガーを有効にする &#x200B;](#enable-trigger-of-script-via-a-servlet) を参照してください。
+1. トリガーをヒットして、翻訳マップのアップグレードジョブを開始することもできます。 詳しくは、[ サーブレットを使用したスクリプトのトリガーを有効にする ](#enable-trigger-of-script-via-a-servlet) を参照してください。
 
 1. パッケージのインストールが完了したら、次のメッセージがログに表示されるまで待ちます。
 
@@ -1136,7 +1136,7 @@ Experience Manager Guidesをインストールした後、新しくインスト�
 
 Experience Manager Guidesには、クロスマップ（2 つの異なるマップのトピック間のリンク）の場合に生成されるリンクを処理する [**custom sling rewriter**](../cs-install-guide/conf-output-generation.md#custom-rewriter) モジュールがあります。
 
-コードベースに別のカスタム sling rewriter がある場合は、Experience Manager Guides sling rewriter が 50 を使用するように、50 より大きい `'order'` 値を使用し `'order'` す。  これを上書きするには、50 より大きい値が必要です。 詳しくは、[&#x200B; 出力の書き換えパイプライン &#x200B;](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html) を参照してください。
+コードベースに別のカスタム sling rewriter がある場合は、Experience Manager Guides sling rewriter が 50 を使用するように、50 より大きい `'order'` 値を使用し `'order'` す。  これを上書きするには、50 より大きい値が必要です。 詳しくは、[ 出力の書き換えパイプライン ](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html) を参照してください。
 
 このアップグレード中に、`'order'` の値が 1000 から 50 に変更されるので、既存のカスタムリライターがある場合は `'fmdita-rewriter'` と結合する必要があります。
 
@@ -1151,7 +1151,7 @@ Experience Manager Guidesには、クロスマップ（2 つの異なるマッ�
 >
 > 後処理とインデックス作成には数時間かかる場合があります。 アップグレードプロセスは、ピーク時を避けて開始することをお勧めします。
 
-**&#x200B;**&#x200B;前提条件&#x200B;**&#x200B;**
+****前提条件****
 
 Experience Manager Guides 5.0.0 のアップグレードプロセスを開始する前に、次のことを確認してください。
 
@@ -1162,9 +1162,9 @@ Experience Manager Guides 5.0.0 のアップグレードプロセスを開始す
 
 ## バージョン 5.0.0 のインストール
 
-1. [Adobe ソフトウェア配布ポータル &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/ja/aem.html) から 5.0.0 バージョンのパッケージをダウンロードします。
+1. [Adobe ソフトウェア配布ポータル ](https://experience.adobe.com/#/downloads/content/software-distribution/ja/aem.html) から 5.0.0 バージョンのパッケージをダウンロードします。
 1. バージョン 5.0.0 パッケージをインストールします。
-1. トリガーをヒットして、翻訳マップのアップグレードジョブを開始することもできます。 詳しくは、[&#x200B; サーブレットを使用したスクリプトのトリガーを有効にする &#x200B;](#enable-trigger-of-script-via-a-servlet) を参照してください。
+1. トリガーをヒットして、翻訳マップのアップグレードジョブを開始することもできます。 詳しくは、[ サーブレットを使用したスクリプトのトリガーを有効にする ](#enable-trigger-of-script-via-a-servlet) を参照してください。
 
 1. パッケージのインストールが完了したら、次のメッセージがログに表示されるまで待ちます。
 
@@ -1291,7 +1291,7 @@ Experience Manager Guidesをインストールした後、新しくインスト�
 
 Experience Manager Guidesには、クロスマップ（2 つの異なるマップのトピック間のリンク）の場合に生成されるリンクを処理する [**custom sling rewriter**](../cs-install-guide/conf-output-generation.md#custom-rewriter) モジュールがあります。
 
-コードベースに別のカスタム sling rewriter がある場合は、Experience Manager Guides sling rewriter が 50 を使用するように、50 より大きい `'order'` 値を使用し `'order'` す。  これを上書きするには、50 より大きい値が必要です。 詳しくは、[&#x200B; 出力の書き換えパイプライン &#x200B;](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html) を参照してください。
+コードベースに別のカスタム sling rewriter がある場合は、Experience Manager Guides sling rewriter が 50 を使用するように、50 より大きい `'order'` 値を使用し `'order'` す。  これを上書きするには、50 より大きい値が必要です。 詳しくは、[ 出力の書き換えパイプライン ](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html) を参照してください。
 
 このアップグレード中に、`'order'` の値が 1000 から 50 に変更されるので、既存のカスタムリライターがある場合は `'fmdita-rewriter'` と結合する必要があります。
 
@@ -1299,7 +1299,7 @@ Experience Manager Guidesには、クロスマップ（2 つの異なるマッ�
 
 ## damAssetLucene の再インデックス化手順
 
-ガイドを含む damAssetLucene のインデックス定義が更新されました。 5.0.0 バージョンへのアップグレード後に damAssetLucene のインデックスを再作成する方法については、[&#x200B; この記事 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-cloud-kcs/kbarticles/ka-16460) を参照してください。
+ガイドを含む damAssetLucene のインデックス定義が更新されました。 5.0.0 バージョンへのアップグレード後に damAssetLucene のインデックスを再作成する方法については、[ この記事 ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) を参照してください。
 
 >[!NOTE]
 >
@@ -1309,13 +1309,13 @@ Experience Manager Guidesには、クロスマップ（2 つの異なるマッ�
 
 >[!IMPORTANT]
 >
-> 現在AEM 6.5 を使用していて、AEM 6.5 LTS への移行を計画している場合は、まずAEMのアップグレードを完了してから、Experience Manager Guides 5.1.0 のアップグレードを進めてください。 詳しくは、[Adobe Experience Manager（AEM） 6.5 LTS へのアップグレード &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade) を参照してください。
+> 現在AEM 6.5 を使用していて、AEM 6.5 LTS への移行を計画している場合は、まずAEMのアップグレードを完了してから、Experience Manager Guides 5.1.0 のアップグレードを進めてください。 詳しくは、[Adobe Experience Manager（AEM） 6.5 LTS へのアップグレード ](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade) を参照してください。
 
 **前提条件**
 
 >[!NOTE]
 >
->5.1.0 サービスパック 1 にアップグレードする場合は、Experience Manager Guidesのバージョン 5.1.0 を使用している必要があります。
+>5.1.0 サービスパック 3 にアップグレードする場合は、Experience Manager Guidesのバージョン 5.1.0 または 5.1.x を使用している必要があります。
 
 Experience Manager Guides 5.1.0 のアップグレードプロセスを開始する前に、次のことを確認してください。
 
@@ -1329,9 +1329,9 @@ Experience Manager Guides 5.1.0 のアップグレードプロセスを開始す
 
 ## バージョン 5.1.0 のインストール
 
-1. [Adobe ソフトウェア配布ポータル &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/ja/aem.html) から 5.1.0 バージョンのパッケージをダウンロードします。
+1. [Adobe ソフトウェア配布ポータル ](https://experience.adobe.com/#/downloads/content/software-distribution/ja/aem.html) から 5.1.0 バージョンのパッケージをダウンロードします。
 1. バージョン 5.1.0 パッケージをインストールします。
-1. トリガーをヒットして、翻訳マップのアップグレードジョブを開始することもできます。 詳しくは、[&#x200B; サーブレットを使用したスクリプトのトリガーを有効にする &#x200B;](#enable-trigger-of-script-via-a-servlet) を参照してください。
+1. トリガーをヒットして、翻訳マップのアップグレードジョブを開始することもできます。 詳しくは、[ サーブレットを使用したスクリプトのトリガーを有効にする ](#enable-trigger-of-script-via-a-servlet) を参照してください。
 
 1. パッケージのインストールが完了したら、次のメッセージがログに表示されるまで待ちます。
 
@@ -1458,7 +1458,7 @@ Experience Manager Guidesをインストールした後、新しくインスト�
 
 Experience Manager Guidesには、クロスマップ（2 つの異なるマップのトピック間のリンク）の場合に生成されるリンクを処理する [**custom sling rewriter**](../cs-install-guide/conf-output-generation.md#custom-rewriter) モジュールがあります。
 
-コードベースに別のカスタム sling rewriter がある場合は、Experience Manager Guides sling rewriter が 50 を使用するように、50 より大きい `'order'` 値を使用し `'order'` す。  これを上書きするには、50 より大きい値が必要です。 詳しくは、[&#x200B; 出力の書き換えパイプライン &#x200B;](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html) を参照してください。
+コードベースに別のカスタム sling rewriter がある場合は、Experience Manager Guides sling rewriter が 50 を使用するように、50 より大きい `'order'` 値を使用し `'order'` す。  これを上書きするには、50 より大きい値が必要です。 詳しくは、[ 出力の書き換えパイプライン ](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html) を参照してください。
 
 このアップグレード中に、`'order'` の値が 1000 から 50 に変更されるので、既存のカスタムリライターがある場合は `'fmdita-rewriter'` と結合する必要があります。
 
@@ -1466,7 +1466,7 @@ Experience Manager Guidesには、クロスマップ（2 つの異なるマッ�
 
 ## damAssetLucene の再インデックス化手順
 
-ガイドを含む damAssetLucene のインデックス定義が更新されました。 5.1.0 バージョンにアップグレードした後に damAssetLucene のインデックスを再作成する方法については、[&#x200B; この記事 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-cloud-kcs/kbarticles/ka-16460) を参照してください。
+ガイドを含む damAssetLucene のインデックス定義が更新されました。 5.1.0 バージョンにアップグレードした後に damAssetLucene のインデックスを再作成する方法については、[ この記事 ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) を参照してください。
 
 >[!NOTE]
 >
@@ -1474,4 +1474,4 @@ Experience Manager Guidesには、クロスマップ（2 つの異なるマッ�
 
 
 
-**親トピック：**&#x200B;[&#x200B; ダウンロードしてインストール &#x200B;](download-install.md)
+**親トピック：**[ ダウンロードしてインストール ](download-install.md)
