@@ -219,5 +219,5 @@ ht-degree: 2%
    > 移行前に **内のプロパティ** AEM サイトページ名にタイトルを使用 `com.adobe.fmdita.config.ConfigManager` を *False* に設定した場合、移行後にこのプロパティを更新する必要があります。
 
 
-1. 検証が完了したら、コンパクションを実行することで、ディスク領域のほとんどを再利用できます（`https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en` を参照）。
+1. 検証が完了したら、コンパクションを実行することで、ディスク領域のほとんどを再利用できます（`https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=ja` を参照）。
 
