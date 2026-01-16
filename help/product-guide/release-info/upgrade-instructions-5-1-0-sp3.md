@@ -61,7 +61,7 @@ Experience Manager Guidesの現在のバージョンを、**AEM 6.5 または** 
 
 >[!NOTE]
 >
-> 現在AEM 6.5 を使用していて、AEM 6.5 LTS への移行を計画している場合は、[Adobe Experience Manager （AEM） 6.5 LTS へのアップグレード &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade) を参照してください。
+> 現在AEM 6.5 を使用していて、AEM 6.5 LTS への移行を計画している場合は、[Adobe Experience Manager （AEM） 6.5 LTS へのアップグレード &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade) を参照してください。
 
 Experience Manager Guides 5.1.0 サービスパック 3 へのアップグレードを行う前に、次の点を考慮する必要があります。
 
@@ -71,7 +71,7 @@ Experience Manager Guides 5.1.0 サービスパック 3 へのアップグレー
 - バージョン 4.3.x、4.2、4.2.1 （ホットフィックス 4.2.1.3）、4.1、または 4.1.x を使用している場合は、バージョン 5.0.0 にアップグレードする前にバージョン 4.4 にアップグレードする必要があります。
 - バージョン 4.0 を使用している場合、バージョン 4.3.x にアップグレードする前にバージョン 4.2 にアップグレードする必要があります。
 - バージョン 3.8.5 を使用している場合、バージョン 4.2 にアップグレードする前にバージョン 4.0 にアップグレードする必要があります。
-- バージョン 3.8.5 より前のバージョンを使用している場合は、[Experience Manager Guides ヘルプ PDF アーカイブ &#x200B;](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) にある製品固有のインストールガイドのAdobe Experience Manager Guidesのアップグレードの節を参照してください。
+- バージョン 3.8.5 より前のバージョンを使用している場合は、[Experience Manager Guides ヘルプ PDF アーカイブ &#x200B;](https://helpx.adobe.com/jp/xml-documentation-for-experience-manager/archive.html) にある製品固有のインストールガイドのAdobe Experience Manager Guidesのアップグレードの節を参照してください。
 
 >[!NOTE]
 >
