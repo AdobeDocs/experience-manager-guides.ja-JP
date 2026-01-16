@@ -2,10 +2,10 @@
 title: リリースノート | Adobe Experience Manager Guides 5.1.0 サービスパック 3 リリースの問題を修正しました
 description: Adobe Experience Manager Guides 5.1.0 サービスパック 3 リリースのバグ修正について説明します
 role: Leader
-source-git-commit: 64d7e4f8028ade36c4fee9bb3407e70b10da6869
+source-git-commit: 82eb0e18eb285006c66b1fe2b6ecc3ca86fefe61
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 2%
+source-wordcount: '302'
+ht-degree: 1%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 この記事では、Adobe Experience Manager Guides 5.1.0 サービスパック 3 リリースの様々な領域で修正されたバグについて説明します。
 
-[5.1.0 サービスパック 3 リリースのアップグレード手順 &#x200B;](upgrade-instructions-5-1-0-sp3.md) について説明します。
+[5.1.0 サービスパック 3 リリースのアップグレード手順 ](upgrade-instructions-5-1-0-sp3.md) について説明します。
 
 
 ## オーサリング
@@ -40,6 +40,12 @@ ht-degree: 2%
 ## プラットフォーム
 
 - トピックまたはマップ内の DAM コンテンツへの参照に `scope="external"` を使用すると、アセットの相対パスが GUID に置き換えられます。 （GUIDES-35605）
+
+## 既知の問題
+
+Adobeでは、5.1.0 サービスパック 3 リリースに関する次の既知の問題を特定しました。
+
+- タスクの詳細ページでレビュータスクを完了としてマークすると、そのタスクは完了およびクローズされますが、レビューダッシュボードでは、そのステータスは引き続き **進行中** と表示されます。 （GUIDES-39375）
 
 
 
