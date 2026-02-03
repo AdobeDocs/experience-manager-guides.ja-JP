@@ -128,7 +128,7 @@ AEM Guidesに付属しているデフォルトのデザインテンプレート�
 >
 > カスタムデザインテンプレートノードを作成したら、AEM サイト出力プリセットのデザインオプションを更新して、カスタムデザインテンプレートノードを使用する必要があります。
 
-詳しくは、[&#x200B; 最初のAdobe Experience Manager Web サイトの作成 &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=ja) および [&#x200B; 基本 &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=en) 「AEMでの独自 Web サイトの開発」を参照してください。
+詳しくは、[&#x200B; 最初のAdobe Experience Manager Web サイトの作成 &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=ja) および [&#x200B; 基本 &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=ja) 「AEMでの独自 Web サイトの開発」を参照してください。
 
 ### AEM サイト出力の生成にドキュメントタイトルを使用
 
@@ -630,11 +630,11 @@ AEM Guidesには、マップコンソールをカスタマイズするための 
 
 >[!NOTE]
 >
-> AEM クライアントライブラリの作成について詳しくは、[&#x200B; クライアントサイドライブラリの使用 &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=en) を参照してください。
+> AEM クライアントライブラリの作成について詳しくは、[&#x200B; クライアントサイドライブラリの使用 &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=ja) を参照してください。
 
 ## 出力生成時の画像レンディションの処理 {#id177BF0G0VY4}
 
-AEMには、アセットの処理に使用するデフォルトのワークフローとメディアハンドルのセットが付属しています。 AEMには、最も一般的な MIME タイプのアセット処理を処理するための事前定義済みワークフローがあります。 通常、アップロードする画像ごとに、AEMによって同じ画像の複数のレンディションがバイナリ形式で作成されます。 これらのレンディションは、サイズ、解像度、透かしの追加、その他の変更された特性が異なる場合があります。 AEMでのアセットの処理方法について詳しくは、AEM ドキュメントの [&#x200B; メディアハンドラーとワークフローを使用したAssetsの処理 &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=en) を参照してください。
+AEMには、アセットの処理に使用するデフォルトのワークフローとメディアハンドルのセットが付属しています。 AEMには、最も一般的な MIME タイプのアセット処理を処理するための事前定義済みワークフローがあります。 通常、アップロードする画像ごとに、AEMによって同じ画像の複数のレンディションがバイナリ形式で作成されます。 これらのレンディションは、サイズ、解像度、透かしの追加、その他の変更された特性が異なる場合があります。 AEMでのアセットの処理方法について詳しくは、AEM ドキュメントの [&#x200B; メディアハンドラーとワークフローを使用したAssetsの処理 &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=ja) を参照してください。
 
 AEM Guidesでは、ドキュメントの出力を生成する際に使用する画像レンディションを設定できます。 例えば、デフォルトの画像レンディションの 1 つから選択するか、画像レンディションを作成し、それを使用してドキュメントを公開することができます。 ドキュメントを公開するための画像レンディションマッピングは、`/libs/fmdita/config/ **renditionmap.xml**` ファイルに保存されます。 ファイルのスニペ `renditionmap.xml` トを次に示します。
 

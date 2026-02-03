@@ -23,7 +23,7 @@ Experience Manager Guidesから EDS （Beta）に公開できるようにする�
 2. [Experience Manager Guidesでの EDS （Beta）用の公開プロファイルの作成と設定](#create-and-configure-a-publish-profile-for-eds-beta-in-experience-manager)
 3. [EDS ブロックを使用した出力のカスタマイズ](#customize-output-using-eds-blocks)
 
-ビデオの簡単なチュートリアルについては、[AEM Guidesでの公開 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25) を参照してください。
+ビデオの簡単なチュートリアルについては、[AEM Guidesでの公開 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25) を参照してください。
 
 
 
