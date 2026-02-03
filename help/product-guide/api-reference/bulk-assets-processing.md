@@ -4,10 +4,10 @@ description: アセットの一括処理を開始するための API につい�
 feature: Post-Processing Event Handler
 role: Developer
 level: Experienced
-source-git-commit: e2eca63a5dd56e358aeea047b37f4b0f88dc720b
+source-git-commit: 8671a26bfee2d9e3b4e70a8f2615568c08c0a370
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 11%
+source-wordcount: '587'
+ht-degree: 12%
 
 ---
 
@@ -26,6 +26,15 @@ ht-degree: 11%
 | `path` | 文字列 | はい | 処理するAEM リポジトリ内のフォルダーまたはアセットの絶対パス。 |
 | `excludedPaths` | 文字列 | いいえ | 処理から除外するパスのリスト |
 | `type` | 文字列 | はい | 実行する処理のタイプ。 例：ASSET_PROCESSING |
+| `filter` | オブジェクト | いいえ | 選択したアセットに適用されるフィルター |
+
+**オブジェクトフィールドをフィルタリング**
+
+| 名前 | 種類 | 説明 |
+|----|----|-----------|
+| fileTypes | 文字列 | 処理するアセットタイプ。 使用できる値：DITATOPIC、DITAMAP、MARKDOWN、HTML/CSS、DITAVAL、その他。 |
+| startTime | 整数 | アセット作成時間の下限 |
+| 終了時 | 整数 | アセット作成時間の上限 |
 
 **リクエストの例**
 
@@ -35,7 +44,12 @@ ht-degree: 11%
   "excludedPaths": [
     "content/dam/status-fetch1/excluded-folder"
   ],
-  "type": "ASSET_PROCESSING"
+  "type": "ASSET_PROCESSING",
+  "filter": {
+        "fileTypes": ["DITAMAP", "DITATOPIC"],
+        "startTime": 1758876933000
+        "endTime": 1764932039000
+    }
 }
 ```
 

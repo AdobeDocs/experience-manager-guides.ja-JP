@@ -4,7 +4,7 @@ description: AEM Guidesでファイルとフォルダーを管理する方法に
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: 14bbb3a055d8b528b6ed657be797c5fa96dd3e7e
+source-git-commit: 9e4fc7d482b6a37552d31ba2b07fae53018b4dc6
 workflow-type: tm+mt
 source-wordcount: '3263'
 ht-degree: 0%
@@ -104,7 +104,6 @@ Assets UI のフォルダーに対するコピー&amp;ペースト操作は、�
 「**ファイルを新しい場所に移動**」オプションを選択すると、既存のファイルは現在の場所に移動され、アップロード中のファイルで上書きされます。 新しい場所にファイルを移動しても、ファイルの既存の参照は失われません。
 
 ファイルを置換または移動する場合、既存のコピーからバージョンを作成するオプションを選択すると、ドキュメントの作業コピーから新しいバージョンが作成されます。新しいファイルは、既存の場所で置換されるか、新しい場所に移動されます。
-
 
 ## ファイルの一括移動 {#move-files-bulk}
 
@@ -326,4 +325,4 @@ Adobe Experience Manager リポジトリからのファイルの削除は制限�
    ![](images/media-version-preview.png){width="650" align="center"}
 
 
-**親トピック：**&#x200B;[&#x200B; コンテンツの管理 &#x200B;](authoring.md)
+**親トピック：**[ コンテンツの管理 ](authoring.md)

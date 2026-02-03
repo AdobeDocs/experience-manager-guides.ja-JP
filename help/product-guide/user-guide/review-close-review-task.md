@@ -4,9 +4,9 @@ description: Experience Manager Guidesで、レビュータスクを閉じるか
 feature: Reviewing
 role: User
 exl-id: d2119bbe-3a0c-4da3-b4f8-7872496fa61f
-source-git-commit: e38cd858201ea657ce276eb4b358b0d4eff502b2
+source-git-commit: 6f9265b341b4122e7f13a429cc2fecacb14ae39c
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -33,9 +33,9 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > また、タスクダッシュボードでタスクを開いて、より包括的な表示を行うこともできます。 レビューを行うには、アクティブなレビュータスクのオプションメニューから **タスクダッシュボードで開く** を選択します。 これにより、プロジェクトコンソールでタスクの詳細が開きます。
+   > **タスクの詳細** ページにアクセスして、レビュータスクを管理できます。 レビューを行うには、アクティブなレビュータスクのオプションメニューから **タスクの詳細を開く** を選択します。 これにより、プロジェクトコンソールにタスクの詳細が開きます。
 
-   ![](images/task-dashboard-selection-author-view.png)
+   ![](images/task-details-selection-author-view.png)
 3. **タスクコメント** アイコンを選択して、レビュー担当者が追加したタスクレベルのコメントにアクセスして確認します。
 
    ![](images/task-comments-selection-author-view.png)。
@@ -50,11 +50,11 @@ ht-degree: 0%
 
    - **レビューを閉じる**：レビュータスクを閉じます。 レビューパネルの下部にある「**タスクを更新**」ボタンが **閉じられた** に変わり、レビュータスクに関係するすべてのユーザーに、完了を示す通知が送信されます。
 
-   通知トリガーのレビュー方法について詳しくは、[&#x200B; レビュー通知について &#x200B;](./review-understanding-review-notifications.md) を参照してください。
+   通知トリガーのレビュー方法について詳しくは、[ レビュー通知について ](./review-understanding-review-notifications.md) を参照してください。
 
    ![](images/update-task-dialog.png){width="350" align="left"}
 
-   また、[&#x200B; レビュータスクのステータスを確認 &#x200B;](./review-manage-tasks-review-dashboard.md#check-the-status-of-a-review-task) オプションを使用して **レビュータスクのステータスを更新** することもできます。 このオプションを選択すると、レビュータスクのステータスレポートが表示されるレビューダッシュボードに移動します。
+   また、[ レビュータスクのステータスを確認 ](./review-manage-tasks-review-dashboard.md#check-the-status-of-a-review-task) オプションを使用して **レビュータスクのステータスを更新** することもできます。 このオプションを選択すると、レビュータスクのステータスレポートが表示されるレビューダッシュボードに移動します。
 
    ![](images/check-review-status-icon.png){width="650" align="left"}
 

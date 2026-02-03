@@ -4,18 +4,21 @@ description: AEM Guidesのコンテンツの一括タグ付けを使用して、
 exl-id: 4c6639a3-333b-44ad-9aec-735a327c3320
 feature: Metadata Management
 role: User
-source-git-commit: 9898f98d897da4da9ca76a89efd262239606ac2e
+source-git-commit: 4b4abf5958f251da05257d34a68471d5f36969a3
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 1%
 
 ---
 
+
 # DITA コンテンツの一括タグ付け {#id179SG0TN05Z}
+
+![](images/test-version-info-table.svg){width="650" align="left"}
 
 タグを使用すると、コンテンツリポジトリ内および公開済み出力のコンテンツをグループ化または分類できます。 コンテンツにタグを適用した場合は、コンテンツのオーサリングに役立つ関連トピックを DITA マップ内で簡単に見つけることができます。 公開された出力を使用すると、エンドユーザーは適切なタグを配置することで、適切なコンテンツをより迅速に見つけることができます。
 
-Adobe Experience Manager Guidesを使用すると、いくつかの手順で DITA コンテンツにタグを付けることができます。 一括タグ付け機能を使用して、複数のトピック、DITA マップ、またはサブマップに複数のタグを適用できます。 または、個々のトピックにタグを適用することもできます。 タグ付けはAdobe Experience Managerのネイティブ機能です。タグの作成と管理について詳しくは、Adobe Experience Manager ドキュメントの [&#x200B; タグの管理 &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=ja) 節を参照してください。
+Adobe Experience Manager Guidesを使用すると、いくつかの手順で DITA コンテンツにタグを付けることができます。 一括タグ付け機能を使用して、複数のトピック、DITA マップ、またはサブマップに複数のタグを適用できます。 または、個々のトピックにタグを適用することもできます。 タグ付けはAdobe Experience Managerのネイティブ機能です。タグの作成と管理について詳しくは、Adobe Experience Manager ドキュメントの [ タグの管理 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) 節を参照してください。
 
 デフォルトでは、Experience Manager Guides リポジトリー内のすべてのタグが保存されているフォルダーの読み取りアクセス権は、Adobe Experience Managerによって付与されません。 Adobe Experience Manager リポジトリで定義されているタグを使用するには、タグが格納されているフォルダーへのアクセス権の付与をシステム管理者に依頼する必要があります。
 
@@ -107,4 +110,4 @@ Adobe Experience Manager Guidesを使用すると、いくつかの手順で DIT
 
 トピックに適用されるタグのリストが長い場合は、移動が少し面倒になる場合があります。 タグ非表示アイコンを選択すると、DITA マップのコンソールビューでタグを簡単に非表示にすることができます。 同様に、タグが表示されていない場合、「タグを表示」を選択するとすべてのタグが表示されます。
 
-**親トピック：**&#x200B;[&#x200B; メタデータを管理 &#x200B;](manage-metadata.md)
+**親トピック：**[ メタデータを管理 ](manage-metadata.md)
