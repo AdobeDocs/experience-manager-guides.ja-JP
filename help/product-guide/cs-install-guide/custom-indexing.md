@@ -163,7 +163,7 @@ guidesAssetLucene-1-custom-1
 
 ## デプロイメント手順
 
-カスタムインデックスをAEM as a Cloud Serviceにデプロイする手順について詳しくは、[ コンテンツ検索とインデックス作成 – AEM as a Cloud Service](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/operations/indexing) を参照してください。
+カスタムインデックスをAEM as a Cloud Serviceにデプロイする手順について詳しくは、[&#x200B; コンテンツ検索とインデックス作成 – AEM as a Cloud Service](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/operations/indexing) を参照してください。
 
 ### このインデックスの重要事項
 
@@ -211,7 +211,7 @@ guidesAssetLucene-1-custom-1
 
 ## その他のリソース
 
-- [AEM as a Cloud Service インデックス作成ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/operations/indexing)
-- [Apache Jackrabbit Oak インデックスガイド ](https://jackrabbit.apache.org/oak/docs/query/indexing.html)
-- [AEM Guides ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-manager-guides)
+- [AEM as a Cloud Service インデックス作成ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/operations/indexing)
+- [Apache Jackrabbit Oak インデックスガイド &#x200B;](https://jackrabbit.apache.org/oak/docs/query/indexing.html)
+- [AEM Guides ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-guides)
 - [Cloud Manager のドキュメント](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager)

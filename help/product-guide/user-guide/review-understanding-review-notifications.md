@@ -56,9 +56,9 @@ Experience Manager Guidesは、構造化されたレビューワークフロー�
 - コメントでタグ付けされると、タグ付けされたコメントの抜粋がメール通知に表示されます。
 - タスクレベルのコメントが自分が属するレビュータスクに追加されると、そのコメントの抜粋がメール通知に表示されます。
 
-事前定義済みの変数の完全なリストと通知のカスタマイズの確認については、[ ワークフローの設定とカスタマイズ ](../cs-install-guide/customize-workflows.md#customize-email-and-aem-notification-templates) を参照してください。
+事前定義済みの変数の完全なリストと通知のカスタマイズの確認については、[&#x200B; ワークフローの設定とカスタマイズ &#x200B;](../cs-install-guide/customize-workflows.md#customize-email-and-aem-notification-templates) を参照してください。
 
 
 
 
-**親トピック：**[ レビューの概要 ](review.md)
+**親トピック：**&#x200B;[&#x200B; レビューの概要 &#x200B;](review.md)
