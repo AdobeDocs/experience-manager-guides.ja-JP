@@ -17,8 +17,8 @@ ht-degree: 0%
 Experience Manager Guidesには、データソース用の標準のコネクタを設定するのに役立つ **データソース** ツールが付属しています。 JIRA、SQL （MySQL、PostgreSQL、Microsoft SQL Server、SQLite、MariaDB、H2DB）、AdobeCommerce、Elasticsearchおよび汎用 REST クライアントコネクタを設定できます。
 
 
-これらの標準のコネクタに加えて、Experience Manager Guidesには Salsify、Akeneo、およびMicrosoft Azure DevOps Boards （ADO）データソース用のコネクタが用意されています。 これらのオープンソースコネクタは、[Maven Central リポジトリ ](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides) からダウンロードしてインストールできます。 その後、ユーザーはこれらのコネクタを設定できます。
-方法について説明します [ オープンソースコネクタをインストールする ](#install-open-source-connector)。
+これらの標準のコネクタに加えて、Experience Manager Guidesには Salsify、Akeneo、およびMicrosoft Azure DevOps Boards （ADO）データソース用のコネクタが用意されています。 これらのオープンソースコネクタは、[Maven Central リポジトリ &#x200B;](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides) からダウンロードしてインストールできます。 その後、ユーザーはこれらのコネクタを設定できます。
+方法について説明します [&#x200B; オープンソースコネクタをインストールする &#x200B;](#install-open-source-connector)。
 
 
 
@@ -71,10 +71,10 @@ Generic REST Client、Salsify、Akeneo、Microsoft Azure DevOps Boards （ADO）
 
 リソースを作成するには、以下の手順を実行します。
 
-1. ![URL リソース ](assets/Add_icon.svg) セクションの **追加アイコン** を選択して、各 URL のリソースを追加します。
+1. ![URL リソース &#x200B;](assets/Add_icon.svg) セクションの **追加アイコン** を選択して、各 URL のリソースを追加します。
 1. **リソースを追加** ダイアログボックスですべての詳細を設定します。
 1. 「**追加**」をクリックします。
-1. URL リソースリストで、リソースの編集 ![ 編集アイコン ](assets/edit_pencil_icon.svg) または削除 ![ 削除 ](assets/Delete_icon.svg) を行うことができます。
+1. URL リソースリストで、リソースの編集 ![&#x200B; 編集アイコン &#x200B;](assets/edit_pencil_icon.svg) または削除 ![&#x200B; 削除 &#x200B;](assets/Delete_icon.svg) を行うことができます。
 1. また、Salsify、Akeneo、Microsoft ADO などのデータ ソースで使用できる既定のリソースを使用することもできます。 データソースに設定しないリソースのオプションをオフに切り替えます。
 
 これにより、単一のコンテンツスニペットまたはトピック内の特定のデータソースについて、任意のリソースからデータをすばやく取得できます。
@@ -83,7 +83,7 @@ Generic REST Client、Salsify、Akeneo、Microsoft Azure DevOps Boards （ADO）
 
 ## オープンソースコネクタのインストール{#install-open-source-connector}
 
-[Maven Central リポジトリ ](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides) に存在する依存関係を Cloud Services に公開するには、オープンソースコネクタの依存関係を含めて埋め込む必要があります。
+[Maven Central リポジトリ &#x200B;](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides) に存在する依存関係を Cloud Services に公開するには、オープンソースコネクタの依存関係を含めて埋め込む必要があります。
 
 1. Cloud Manager Git プロジェクトコードの `all/pom.xml` に依存関係を追加します。 例えば、Microsoft Azure DevOps Boards データソースコネクタに次の依存関係を追加できます。
 
@@ -133,5 +133,5 @@ Generic REST Client、Salsify、Akeneo、Microsoft Azure DevOps Boards （ADO）
 * **削除**：選択したコネクタを削除します。
 
 
-データソースを設定すると、コネクタが Web エディターの **データソース** パネルの下に表示されます。 その後、データソースに接続し、トピックにコンテンツスニペットを挿入できます。 詳しくは、[ データソースからコンテンツスニペットを挿入する ](../user-guide/web-editor-content-snippet.md) を参照してください。
+データソースを設定すると、コネクタが Web エディターの **データソース** パネルの下に表示されます。 その後、データソースに接続し、トピックにコンテンツスニペットを挿入できます。 詳しくは、[&#x200B; データソースからコンテンツスニペットを挿入する &#x200B;](../user-guide/web-editor-content-snippet.md) を参照してください。
 
