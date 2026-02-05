@@ -128,7 +128,7 @@ ht-degree: 10%
             - [アップグレード手順](./release-info/upgrade-instructions-5-1-0.md)
          - 5.0.0 SP3 リリース {#500-sp3-release}
             - [修正された問題](./release-info/fixed-issues-5-0-0-sp3.md)
-            - [ アップグレード手順 ](./release-info/upgrade-instructions-5-0-0-sp3.md)
+            - [&#x200B; アップグレード手順 &#x200B;](./release-info/upgrade-instructions-5-0-0-sp3.md)
          - 5.0.0 SP2 リリース {#500-sp2-release}
             - [修正された問題](./release-info/fixed-issues-5-0-0-sp2.md)
             - [アップグレード手順](./release-info/upgrade-instructions-5-0-0-sp2.md)
@@ -140,17 +140,17 @@ ht-degree: 10%
             - [修正された問題](./release-info/fixed-issues-5-0-0.md)
             - [アップグレード手順](./release-info/upgrade-instructions-5-0-0.md)
          - 4.6.0 SP4 リリース {#460-sp4-release}
-            - [ 修正された問題 ](./release-info/fixed-issues-4-6-0-sp4.md)
+            - [&#x200B; 修正された問題 &#x200B;](./release-info/fixed-issues-4-6-0-sp4.md)
             - [アップグレード手順](./release-info/upgrade-instructions-4-6-0-sp4.md)
          - 4.6.0 SP3 リリース {#460-sp3-release}
-            - [ 修正された問題 ](./release-info/fixed-issues-4-6-0-sp2.md)
+            - [&#x200B; 修正された問題 &#x200B;](./release-info/fixed-issues-4-6-0-sp2.md)
             - [アップグレード手順](./release-info/upgrade-instructions-4-6-0-sp2.md)
          - 4.6.0 SP1 リリース {#460-sp1-release}
-            - [ 修正された問題 ](./release-info/fixed-issues-4-6-0-sp1.md)
-            - [ アップグレード手順 ](./release-info/upgrade-instructions-4-6-0-sp1.md)
+            - [&#x200B; 修正された問題 &#x200B;](./release-info/fixed-issues-4-6-0-sp1.md)
+            - [&#x200B; アップグレード手順 &#x200B;](./release-info/upgrade-instructions-4-6-0-sp1.md)
          - 4.6.0 リリース {#460-release}
             - [新機能](./release-info/whats-new-4-6.md)
-            - [ 修正された問題 ](./release-info/fixed-issues-4-6-0.md)
+            - [&#x200B; 修正された問題 &#x200B;](./release-info/fixed-issues-4-6-0.md)
             - [アップグレード手順](./release-info/upgrade-instructions-4-6-0.md)
          - 4.4.0 リリース {#440-release}
             - [新機能](./release-info/whats-new-4-4.md)
@@ -174,13 +174,13 @@ ht-degree: 10%
                - [リリースノート（4.2.1）](./release-info/release-notes-4-2-1.md)
                - [4.2 リリースノート](./release-info/release-notes-4-2.md)
          - [4.1.x リリースノート](./release-info/release-notes-4-1.md)
-         - [4.0.x リリースノート ](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x リリースノート ](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x リリースノート &#x200B;](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x リリースノート &#x200B;](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - ユーザーガイド （新しい UI） {#user-guide}
    - はじめに {#about-aemg}
       - [概要  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides] の作業と主な機能 {#aemg-works-features}
-         - [仕組  [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
+         - [仕組  [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
          - [主  [!DNL AEM Guides]  機能](./user-guide/intro-dxml-features.md)
    - ホームページ {#home-page}
       - [[!DNL AEM Guides] のホームページエクスペリエンス](./user-guide/intro-home-page.md)
@@ -206,13 +206,13 @@ ht-degree: 10%
             - [コンテンツ編集領域](./user-guide/web-editor-content-editing-area.md)
             - [右側のパネル](./user-guide/web-editor-right-panel.md)
             - [検索パネル](./user-guide/search-panel-explorer.md)
-         - [ エディターのその他の機能 ](./user-guide/web-editor-other-features.md)
+         - [&#x200B; エディターのその他の機能 &#x200B;](./user-guide/web-editor-other-features.md)
          - [エディターのキーボードショートカット](./user-guide/web-editor-keyboard-shortcuts.md)
          - [エディタービュー](./user-guide/web-editor-views.md)
          - [Schematron ファイルのサポート](./user-guide/support-schematron-file.md)
          - [エディターからの Markdown ドキュメントの作成](./user-guide/web-editor-markdown-topic.md)
          - [コンテンツへの引用文献の追加](./user-guide/web-editor-apply-citations.md)
-         - [ データソースのデータを使用する ](./user-guide/web-editor-content-snippet.md)
+         - [&#x200B; データソースのデータを使用する &#x200B;](./user-guide/web-editor-content-snippet.md)
          - [ドキュメントの状態](./user-guide/web-editor-document-states.md)
          - [ラベルを使用](./user-guide/web-editor-use-label.md)
       - マップ エディタ {#map-editor}
@@ -229,7 +229,7 @@ ht-degree: 10%
    - コンテンツをレビュー {#review}
       - [レビューの概要](./user-guide/review.md)
       - [DITA プロジェクトの作成](./user-guide/authoring-create-dita-project.md)
-      - [ レビュー用のトピックの送信 ](./user-guide/review-send-topics-for-review.md)
+      - [&#x200B; レビュー用のトピックの送信 &#x200B;](./user-guide/review-send-topics-for-review.md)
       - [トピックを確認](./user-guide/review-topics.md)
       - [通知を使用したレビュータスクの再割り当て](./user-guide/reassign-review-using-notification.md)
       - [レビュアーとしてレビュータスクを完了する](./user-guide/review-complete-review-tasks.md)
@@ -254,7 +254,7 @@ ht-degree: 10%
          - [マップダッシュボードからの DITA マップレポート](./user-guide/reports-ditamap.md)
          - [コンテンツ再利用レポート](./user-guide/reports-content-reuse.md)
          - [コンバージョンステータスレポート](./user-guide/reports-convertion-status.md)
-         - [ 元に戻したファイルのバージョン履歴レポート ](./user-guide/reports-reverted-file-version-history.md)
+         - [&#x200B; 元に戻したファイルのバージョン履歴レポート &#x200B;](./user-guide/reports-reverted-file-version-history.md)
       - コンテンツの翻訳 {#translate-content}
          - [コンテンツ翻訳の概要](./user-guide/translation.md)
          - [コンテンツ翻訳のベストプラクティス](./user-guide/translation-first-time.md)
@@ -319,14 +319,14 @@ ht-degree: 10%
       - [Adobe ジェネレーティブ AI ユーザーの開示](./user-guide/adobe-generative-ai-disclosures.md)
       - [AI アシスタントの概要](./user-guide/ai-assistant.md)
       - [コンテンツを検索するための AI を活用したスマートヘルプ](./user-guide/ai-based-smart-help.md)
-      - [ ドキュメントをスマートにオーサリングするための AI アシスタントオーサリング ](./user-guide/ai-assistant-right-panel.md)
+      - [&#x200B; ドキュメントをスマートにオーサリングするための AI アシスタントオーサリング &#x200B;](./user-guide/ai-assistant-right-panel.md)
       - [コンテンツを作成するための AI を活用したスマートな提案](./user-guide/authoring-ai-based-smart-suggestions.md)
       - [よくある質問](./user-guide/ai-assistant-faq.md)
    - 学習コンテンツの管理 {#learning-training-content}
       - はじめる前に {#get-started}
          - はじめに {#intro-lc}
             - [リリースノート](./release-info-lt/release-notes-lt-2025-12-v2.md)
-            - [ ラーニングおよびトレーニングの内容の概要 ](./learning-content/intro.md)
+            - [&#x200B; ラーニングおよびトレーニングの内容の概要 &#x200B;](./learning-content/intro.md)
          - コースを設定 {#setup-course}
             - [コース概要](./learning-content/course-overview.md)
             - [インターフェイスと前提条件を確認します](./learning-content/access-lc-interface-preq.md)
@@ -346,10 +346,10 @@ ht-degree: 10%
             - [クイズを作成](./learning-content/create-quiz.md)
             - [クイズを編集](./learning-content/edit-quiz.md)
             - [クイズへの質問の挿入](./learning-content/quiz-insert-questions.md)
-            - [ クイズのプロパティ ](./learning-content/quiz-properties.md)
+            - [&#x200B; クイズのプロパティ &#x200B;](./learning-content/quiz-properties.md)
             - 質問バンク {#question-bank}
                - [質問バンクの作成](./learning-content/create-qb.md)
-               - [ 質問バンクから質問を挿入 ](./learning-content/insert-questions.md)
+               - [&#x200B; 質問バンクから質問を挿入 &#x200B;](./learning-content/insert-questions.md)
          - コースを公開する {#publish-course}
             - [コースの公開について](./learning-content/publish-overview.md)
             - [サポートされるプリセット](./learning-content/course-presets.md)
@@ -366,7 +366,7 @@ ht-degree: 10%
          - [フォルダープロファイルの設定](./lc-config-guide/lc-folder-profile.md)
          - [フォルダー構造を設定するためのベストプラクティス](./lc-config-guide/best-practices-folder-structure.md)
          - [その他の設定](./lc-config-guide/lc-other-settings.md)
-         - [SCORM 主要指標 ](./lc-config-guide/learning-course-parameters.md)
+         - [SCORM 主要指標 &#x200B;](./lc-config-guide/learning-course-parameters.md)
       - ビデオチュートリアル {#lc-video}
          - [オーサーワークフロー](./lc-video-tutorials/author-workflow.md)
          - [管理者ワークフロー](./lc-video-tutorials/admin-workflow.md)
@@ -379,13 +379,13 @@ ht-degree: 10%
       - トラブルシューティング {#troubleshooting}
          - [セッションタイムアウト](./user-guide/session-timeout-prompt.md)
 - ユーザーガイド（古い UI） {#user-guide-old-ui}
-   - [AEM Guidesの概要 ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guidesの概要](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - インストールと設定 {#install-guide}
    - オンプレミス {#on-prem-ig}
       - [オンプレミスの基本](./install-guide/introduction.md)
       - ダウンロード、インストール、アップグレード {#download-install-upgrade-aemg}
          - [ダウンロードとインストールの概要](./install-guide/download-install.md)
-         - [技術要件 ](./install-guide/download-install-technical-requirements.md)
+         - [技術要件 &#x200B;](./install-guide/download-install-technical-requirements.md)
          - [Adobe Experience Managerのインストール](./install-guide/download-install-aem.md)
          - [AEM Guidesを初めてダウンロードしてインストールする](./install-guide/download-install-aemg-first-time.md)
          - [Dispatcher の設定](./install-guide/download-install-configure-dispatcher.md)
@@ -399,7 +399,7 @@ ht-degree: 10%
          - [非 UUID から UUID へのコンテンツの移行](./install-guide/migrate-uuid-non-uuid.md)
          - 移行プロセス {#migration-process}
             - [4.3.1 非 UUID から 4.3.2 UUID コンテンツへの移行](./install-guide/migrate-non-uuid-4-3.md)
-            - [4.6.0 非 UUID から 4.6.1 UUID コンテンツへの移行 ](./install-guide/migrate-non-uuid-uuid-4-6.md)
+            - [4.6.0 非 UUID から 4.6.1 UUID コンテンツへの移行 &#x200B;](./install-guide/migrate-non-uuid-uuid-4-6.md)
          - [既存のコンテンツを移行](./install-guide/migrate-content.md)
          - [既存の DITA コンテンツのアップロード](./install-guide/migrate-content-upload-existing-dita-content.md)
          - [DITA 以外のコンテンツの移行](./install-guide/migrate-content-non-dita.md)
@@ -417,7 +417,7 @@ ht-degree: 10%
       - ドキュメントの状態の操作 {#doc-state}
          - [ドキュメントの状態の設定](./install-guide/customize-doc-state.md)
       - エディター設定 {#editor-configs}
-         - [ エディター設定の指定 ](./install-guide/editor-settings.md)
+         - [&#x200B; エディター設定の指定 &#x200B;](./install-guide/editor-settings.md)
       - Web エディター設定の操作 {#web-editor-configs}
          - [Web エディターのカスタマイズ](./install-guide/conf-web-editor.md)
          - [ツールバーのカスタマイズ](./install-guide/conf-web-editor-customize-toolbar.md)
@@ -474,11 +474,11 @@ ht-degree: 10%
       - AEM Assets検索の操作 {#aem-asset-search}
          - [AEM Assets UI の検索の設定](./install-guide/conf-dita-search.md)
       - アセット処理の操作 {#asset-processing-on-prem}
-         - [ アセット処理機能の設定 ](./install-guide/configure-asset-processing.md)
+         - [&#x200B; アセット処理機能の設定 &#x200B;](./install-guide/configure-asset-processing.md)
       - B ツリーのクリーンアップの操作{#btree-cleanup}
          - [B-tree クリーンアップの設定](./install-guide/configure-btree-clean-up-job.md)
       - カスタムインデックス作成{#custom-indexing}
-         - [ 検索と置換のためのカスタムインデックスのデプロイ（Source ビュー） ](./install-guide/custom-indexing-prem.md)
+         - [&#x200B; 検索と置換のためのカスタムインデックスのデプロイ（Source ビュー） &#x200B;](./install-guide/custom-indexing-prem.md)
       - [付録](./install-guide/appendix.md)
    - クラウドサービス {#cs-ig}
       - [このガイドについて](./cs-install-guide/introduction.md)
@@ -513,15 +513,15 @@ ht-degree: 10%
          - [ドキュメントの状態の設定](./cs-install-guide/customize-doc-state.md)
          - [ドキュメント状態フィルターの設定](./cs-install-guide/config-doc-state-filters.md)
       - Workspaceの設定 {#workspace-configs}
-         - [Workspaceの設定 ](./cs-install-guide/workspace-settings.md)
+         - [Workspaceの設定 &#x200B;](./cs-install-guide/workspace-settings.md)
       - Web エディター設定の操作 {#web-editor-configs-cs}
          - [Web エディターのカスタマイズ](./cs-install-guide/conf-web-editor.md)
          - [ツールバーのカスタマイズ](./cs-install-guide/conf-web-editor-customize-toolbar.md)
-         - [ オーサリング用に AI を活用してスマートな提案を設定 ](./cs-install-guide/conf-smart-suggestions.md)
+         - [&#x200B; オーサリング用に AI を活用してスマートな提案を設定 &#x200B;](./cs-install-guide/conf-smart-suggestions.md)
          - [AI を活用したスマートヘルプを設定してコンテンツを検索](./cs-install-guide/conf-smart-help.md)
          - [タグビューのデフォルト値の設定](./cs-install-guide/configure-default-value-tags-view.md)
          - [UUID ベースのリンクの表示を設定](./cs-install-guide/conf-uuid-based-links.md)
-         - [ 貼り付けたテーブルの表示の設定 ](./cs-install-guide/conf-pasted-tables.md)
+         - [&#x200B; 貼り付けたテーブルの表示の設定 &#x200B;](./cs-install-guide/conf-pasted-tables.md)
          - [DITA トピックまたはマップファイルを同じタブで開く](./cs-install-guide/open-dita-files-same-tab.md)
          - [左側のパネルでのカスタムパネルの設定](./cs-install-guide/configure-custom-panel.md)
          - [Web エディターでのファイルの自動保存の設定](./cs-install-guide/auto-save-in-editor.md)
@@ -565,10 +565,10 @@ ht-degree: 10%
       - アセット処理の操作 {#asset-processing-cloud}
          - [アセット処理機能の設定](./cs-install-guide/configure-asset-processing-cs.md)
       - B ツリーのクリーンアップの操作{#btree-cleanup-cs}
-         - [B ツリークリーンアップの設定 ](./cs-install-guide/configure-btree-cleanup-cs.md)
+         - [B ツリークリーンアップの設定 &#x200B;](./cs-install-guide/configure-btree-cleanup-cs.md)
       - カスタムインデックス作成{#custom-indexing-cs}
-         - [ 検索と置換のためのカスタムインデックスのデプロイ（Source ビュー） ](./cs-install-guide/custom-indexing.md)
-      - [ 付録 ](./cs-install-guide/appendix.md)
+         - [&#x200B; 検索と置換のためのカスタムインデックスのデプロイ（Source ビュー） &#x200B;](./cs-install-guide/custom-indexing.md)
+      - [&#x200B; 付録 &#x200B;](./cs-install-guide/appendix.md)
 - API リファレンス {#api-reference}
    - [はじめに](./api-reference/introduction.md)
    - [出力管理用の REST API](./api-reference/output-management.md)
@@ -576,7 +576,7 @@ ht-degree: 10%
    - [データソースコネクタを登録するための REST API](./api-reference/data-source-connector.md)
    - [条件付き属性を操作するための REST API](./api-reference/conditional-attribute.md)
    - [コンバージョンワークフロー用の REST API](./api-reference/convert-to-dita.md)
-   - [ パッケージを作成してアクティブ化するための REST API](./api-reference/create-activate-package.md)
+   - [&#x200B; パッケージを作成してアクティブ化するための REST API](./api-reference/create-activate-package.md)
    - [後処理イベントハンドラー](./api-reference/post-process-event.md)
    - [フォルダーまたはアセットの後処理ステータスを追跡する API](./api-reference/track-post-processing-status.md)
    - [アセットの一括処理を開始するための API](./api-reference/bulk-assets-processing.md)
@@ -649,7 +649,7 @@ ht-degree: 10%
                - [カスタムダイアログ](./guides-ui-extensions/customisations/ReviewApp/custom-dialog.md)
       - 外部データソース {#external-data-source}
          - [データソースの統合](../product-guide/knowledge-base/kb-articles/data-source/integrate-data-sources.md)
-         - [ データソースコネクタの設定 ](../product-guide/knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)
+         - [&#x200B; データソースコネクタの設定 &#x200B;](../product-guide/knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)
       - 公開 {#publishing}
          - ネイティブ PDF {#native-pdf}
             - [DITA Native PDFへのカスタムフォントの追加](./knowledge-base/kb-articles/publishing/add-custom-font-native-pdf.md)
@@ -663,12 +663,12 @@ ht-degree: 10%
             - [Cloud Services 用のAEM Sites テンプレートのダウンロードとインストール](./knowledge-base/kb-articles/publishing/download-install-aem-sites-templates-cs-kb.md)
             - [オンプレミスサービス用のAEM Sites テンプレートをダウンロードしてインストールする](./knowledge-base/kb-articles/publishing/download-install-aem-sites-templates-prem-kb.md)
             - [既存のAEM Sites テンプレートのカスタマイズ](./knowledge-base/kb-articles/publishing/customize-exsisting-site-template-kb.md)
-         - [FMPS とガイド ](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
+         - [FMPS とガイド &#x200B;](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          - [マイクロサービスのアーキテクチャとパフォーマンス](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          - [JWT 認証を使用したマイクロサービスベースの公開の設定](./knowledge-base/publishing/configure-microservices.md)
          - [OAuth 認証を使用したマイクロサービスベースの公開の設定](./knowledge-base/publishing/configure-microservices-imt-config.md)
          - [Edge Delivery Services（Beta）の設定](./knowledge-base/publishing/configure-eds.md)
-         - [AEM Cloud でのベンチマークの公開 ](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
+         - [AEM Cloud でのベンチマークの公開 &#x200B;](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
       - ワークフロー {#workflows}
          - [生成後のワークフロー](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
       - 翻訳 {#translation}
