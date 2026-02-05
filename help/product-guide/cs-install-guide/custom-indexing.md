@@ -4,7 +4,7 @@ description: コンテンツのカスタムインデックスを作成する方�
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 7d2d0c21001cd53244588f6b700db184a73ffa77
+source-git-commit: 9a4f0391c464d69ea65ecfdaac6ecdcb17d1a3da
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 3%
@@ -52,9 +52,6 @@ guidesAssetLucene-1-custom-1
           compatVersion="{Long}2"
           evaluatePathRestrictions="{Boolean}true"
           includedPaths="[/content/dam]"
-          reindex="{Boolean}false"
-          reindexCount="{Long}1"
-          seed="{Long}958982603885135223"
           selectionPolicy="tag"
           tags="[ditaSearch]"
           type="lucene">
@@ -163,7 +160,7 @@ guidesAssetLucene-1-custom-1
 
 ## デプロイメント手順
 
-カスタムインデックスをAEM as a Cloud Serviceにデプロイする手順について詳しくは、[&#x200B; コンテンツ検索とインデックス作成 – AEM as a Cloud Service](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/operations/indexing) を参照してください。
+カスタムインデックスをAEM as a Cloud Serviceにデプロイする手順について詳しくは、[ コンテンツ検索とインデックス作成 – AEM as a Cloud Service](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/operations/indexing) を参照してください。
 
 ### このインデックスの重要事項
 
@@ -211,7 +208,7 @@ guidesAssetLucene-1-custom-1
 
 ## その他のリソース
 
-- [AEM as a Cloud Service インデックス作成ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/operations/indexing)
-- [Apache Jackrabbit Oak インデックスガイド &#x200B;](https://jackrabbit.apache.org/oak/docs/query/indexing.html)
-- [AEM Guides ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-guides)
+- [AEM as a Cloud Service インデックス作成ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/operations/indexing)
+- [Apache Jackrabbit Oak インデックスガイド ](https://jackrabbit.apache.org/oak/docs/query/indexing.html)
+- [AEM Guides ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-manager-guides)
 - [Cloud Manager のドキュメント](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager)
