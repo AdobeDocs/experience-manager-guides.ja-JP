@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 600 90"
+     width="600" height="90"
+     role="img" aria-label="Table: Applies To and Version (compact)">
+  <title>Applies To / Version table</title>
+
+  <!-- Outer rounded border -->
+  <rect x="0.5" y="0.5" width="599" height="89" rx="6" ry="6"
+        stroke="#d3d3d3" fill="none" stroke-width="1"/>
+
+  <!-- Column divider -->
+  <line x1="160.5" y1="0.5" x2="160.5" y2="89.5" stroke="#d3d3d3" stroke-width="1"/>
+
+  <!-- Row divider -->
+  <line x1="0.5" y1="44.5" x2="599.5" y2="44.5" stroke="#d3d3d3" stroke-width="1"/>
+
+  <!-- Labels (left column) -->
+  <text x="16" y="28" font-family="Segoe UI, Roboto, 'Helvetica Neue', Arial, sans-serif"
+        font-size="13" font-weight="600" fill="#333">Applies To:</text>
+
+  <text x="16" y="72" font-family="Segoe UI, Roboto, 'Helvetica Neue', Arial, sans-serif"
+        font-size="13" font-weight="600" fill="#333">Version:</text>
+
+  <!-- Values (right column) -->
+  <text x="180" y="20" font-family="Segoe UI, Roboto, 'Helvetica Neue', Arial, sans-serif"
+        font-size="13" fill="#111">
+    <tspan x="180" dy="0">Experience Manager Guides Cloud Service,</tspan>
+    <tspan x="180" dy="18">Experience Manager Guides On-Premise</tspan>
+  </text>
+
+  <text x="180" y="72" font-family="Segoe UI, Roboto, 'Helvetica Neue', Arial, sans-serif"
+        font-size="13" fill="#111">4.6</text>
+</svg>
