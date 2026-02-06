@@ -5,22 +5,16 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: 1a61fc05-b2b4-4665-a15a-0058fbbc2942
-source-git-commit: beb1ca15fdfb0e7ea30e6e685ac67a2a398cc064
+source-git-commit: 6050e2667698150df9f76068dce4ca9f9b56a443
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
 
 # コンテンツ再利用レポート {#id205BB900OQD}
 
-![](images/test-version-info-table-new.svg)
-
 ![](images/test-version-info-table-original.svg)
-
-| 適用先 | Experience Manger Guides Cloud Service、<br> Experience Manger Guides オンプレミス |
-| -------- | ---------------------------- |
-| **バージョン** | **460** |
 
 生成できるもう 1 つの便利なレポートは、コンテンツ再利用レポートです。 このレポートは、コンテンツの平均使用率を計算します。これは、プロジェクトマネージャーやビジネスオーナーが、再利用されているコンテンツの量を確認するのに非常に役立ちます。
 
@@ -71,4 +65,4 @@ ht-degree: 0%
 >
 > コンテンツ再利用レポートを CSV 形式で書き出すこともできます。 これを行うには、画面の左上隅にある「CSV に書き出し」リンクをクリックし、CSV ファイルを保存する場所を選択します。 その後、この CSV ファイルを任意の CSV エディターで開くことができます。
 
-**親トピック：**&#x200B;[&#x200B; Reports](reports-intro.md)
+**親トピック：**[ Reports](reports-intro.md)
