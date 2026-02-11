@@ -5,9 +5,9 @@ exl-id: 4597d1be-5426-4eba-8490-e42d0e565427
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 1644bfba3332b0f023aa8d70aefd2680d4220d8a
+source-git-commit: d3b156b8617cab8cf0702a483aef0fde7889e6a7
 workflow-type: tm+mt
-source-wordcount: '2802'
+source-wordcount: '2351'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 - [Microsoft Word](#id1949B040Z5Z)
 
-- [InDesignドキュメント](#id195AD0B0K5Z)
+- [InDesign ドキュメント](#id195AD0B0K5Z)
 
 - [XHTML](#id1949B04L0Y4)
 
-- [構造化されていないFrameMaker文書](#id1949B050VUI)
+- [構造化されていないFrameMaker ドキュメント](#id1949B050VUI)
 
 - [その他の構造化文書](#id1949B0590YK)
 
@@ -33,7 +33,7 @@ AEM Guidesを使用すると、既存の Word 文書\（`.docx`\）を DITA ト�
 
 Word ドキュメントを正常に変換するには、ドキュメントが適切に構造化されている必要があります。 例えば、ドキュメントにはタイトルが必要で、その後に見出し 1、見出し 2 などが必要です。 各見出しには、いくつかのコンテンツが含まれている必要があります。 ドキュメントが適切に構造化されていない場合、プロセスが期待どおりに動作しない可能性があります。
 
-デフォルトでは、AEM Guidesは [Word-to-DITA \（Word2DITA\）変換フレームワーク &#x200B;](http://www.dita4publishers.org/docs/repo/org.dita4publishers.word2dita/word2dita/word2dita-intro.html) を使用します。 この変換は、[&#x200B; スタイルからタグへのマッピング &#x200B;](http://www.dita4publishers.org/docs/repo/org.dita4publishers.word2dita/word2dita/style-to-tag-map-overview.html) 設定ファイルによって異なります。 Word2DITA 変換を正常に使用するには、変換用の Word 文書を準備する際に、次のガイドラインを考慮する必要があります。
+デフォルトでは、AEM Guidesは [Word-to-DITA \（Word2DITA\）変換フレームワーク ](http://www.dita4publishers.org/docs/repo/org.dita4publishers.word2dita/word2dita/word2dita-intro.html) を使用します。 この変換は、[ スタイルからタグへのマッピング ](http://www.dita4publishers.org/docs/repo/org.dita4publishers.word2dita/word2dita/style-to-tag-map-overview.html) 設定ファイルによって異なります。 Word2DITA 変換を正常に使用するには、変換用の Word 文書を準備する際に、次のガイドラインを考慮する必要があります。
 
 >[!NOTE]
 >
@@ -60,13 +60,13 @@ Word ドキュメントを正常に変換するには、ドキュメントが適
 
 次の手順を実行して、既存の Word 文書を DITA トピックタイプの文書に変換します。
 
-1. AEMにログインし、CRXDE Liteモードを開きます。
+1. AEMにログインし、CRXDE Lite モードを開きます。
 
 1. 次の場所にあるデフォルトの設定ファイルに移動します。
 
    `/libs/fmdita/config/w2d_io.xml`
 
-1. `apps` ノード内に `config` フォルダーのオーバーレイノードを作成します。
+1. `config` ノード内に `apps` フォルダーのオーバーレイノードを作成します。
 
 1. `apps` ノードで使用可能な設定ファイルに移動します。
 
@@ -74,7 +74,7 @@ Word ドキュメントを正常に変換するには、ドキュメントが適
 
    `w2d_io.xml` ファイルには、次の設定可能なパラメーターが含まれています。
 
-   - `inputDir` 要素で、ソース Word ドキュメントを使用できる入力フォルダーの場所を指定します。 例えば、Word ドキュメントが `projects` のフォルダーの `wordtodita` という名前のフォルダーに保存されている場合、その場所は `/content/dam/projects/wordtodita/` のように指定します。
+   - `inputDir` 要素で、ソース Word ドキュメントを使用できる入力フォルダーの場所を指定します。 例えば、Word ドキュメントが `wordtodita` のフォルダーの `projects` という名前のフォルダーに保存されている場合、その場所は `/content/dam/projects/wordtodita/` のように指定します。
 
    - `outputDir` エレメントで、出力フォルダの場所を指定するか、変換後の DITA 文書を保存するデフォルトの出力場所を残します。 指定された出力フォルダーが DAM に存在しない場合、変換ワークフローは出力フォルダーを作成します。
 
@@ -88,9 +88,9 @@ Word ドキュメントを正常に変換するには、ドキュメントが適
 
      >[!NOTE]
      >
-     > ファイルの構造とカスタマイズ方法 `word-builtin-styles-style2tagmap.xml` ついて詳しくは、『 *DITA For Publishers ユーザガイド [&#128279;](http://www.dita4publishers.org/docs/repo/org.dita4publishers.word2dita/word2dita/style-to-tag-map-overview.html) の  スタイルからタグマッピング* を参照してください。
+     > ファイルの構造とカスタマイズ方法 `word-builtin-styles-style2tagmap.xml` ついて詳しくは、『 [DITA For Publishers ユーザガイド ](http://www.dita4publishers.org/docs/repo/org.dita4publishers.word2dita/word2dita/style-to-tag-map-overview.html) の *スタイルからタグマッピング* を参照してください。
 
-   - props2Propagate エレメントで、DITA マップに渡すプロパティを指定します。 このプロパティは、文書メタデータから変換後の DITA アセットに dc:title、dc:subject、dam:keywords、dam:category などのデフォルトのメタデータを渡すために必要です。
+   - props2Propagate エレメントで、DITA マップに渡すプロパティを指定します。 このプロパティは、dc:title,dc:subject,dam:keywords,dam:category などのデフォルトのメタデータを文書メタデータから変換後の DITA アセットに渡すために必要です。
 
 1. `w2d_io.xml` ファイルを保存します。
 
@@ -98,21 +98,21 @@ Word ドキュメントを正常に変換するには、ドキュメントが適
 
 1. 入力フォルダーの場所\（`wordtodita`\）に移動します。
 
-1. ソースの Word ドキュメントをこのフォルダーにアップロードします。 DAM へのコンテンツのアップロードについては、[&#x200B; 既存の DITA コンテンツのアップロード &#x200B;](migrate-content-upload-existing-dita-content.md#) を参照してください。
+1. ソースの Word ドキュメントをこのフォルダーにアップロードします。 DAM へのコンテンツのアップロードについては、[ 既存の DITA コンテンツのアップロード ](migrate-content-upload-existing-dita-content.md#) を参照してください。
 
 
 `config` `/config` ブロックを使用すると、変換用の設定の 1 つまたは複数のブロックを定義できます。 変換ワークフローが実行され、DITA トピック形式の最終出力が `outputDir` エレメントで指定した場所に保存されます。
 
 ## Adobe InDesign ドキュメントの移行 {#id195AD0B0K5Z}
 
-AEM Guidesでは、InDesignドキュメントを変換できます。 FrameMakerと同様に、InDesignを使用すれば、非構造化ドキュメントと構造化ドキュメントを作成することもできます。 非構造化ドキュメントでは、段落スタイルと文字スタイルを使用してコンテンツの形式を設定します。 構造化ドキュメントでは、要素と、それに対応する属性を使用します。
+AEM Guidesでは、InDesign ドキュメントを変換できます。 FrameMakerと同様に、InDesignでも、非構造化ドキュメントと構造化ドキュメントを作成できます。 非構造化ドキュメントでは、段落スタイルと文字スタイルを使用してコンテンツの形式を設定します。 構造化ドキュメントでは、要素と、それに対応する属性を使用します。
 
-変換プロセスでは、段落および文字スタイル形式を関連する DITA エレメントにマッピングする必要があります。 同様に、構造化文書の場合、マッピングファイルには、InDesignエレメントと属性と DITA エレメントと属性の 1 対 1 のマッピングが含まれます。
+変換プロセスでは、段落および文字スタイル形式を関連する DITA エレメントにマッピングする必要があります。 同様に、構造化文書の場合、マッピングファイルには、InDesignのエレメントと属性が DITA エレメントと属性に 1 対 1 でマッピングされます。
 
 変換プロセスには、バックエンドの次のアクションが含まれます。
 
-- *InDesign マークアップ言語* \（IDML\） ファイルが作業ディレクトリに展開されています。
-- designmap.xml ファイルが読み込まれ、個々のInDesign ストーリーが検索されます。
+- *InDesign Markup Language* \（IDML\） ファイルが作業ディレクトリに展開されています。
+- designmap.xml ファイルが読み取られ、個々のInDesign ストーリーが検索されます。
 - すべてのストーリーは単一の XML インスタンスに結合され、「空の」ストーリーは破棄されます。
 - すべての埋め込みグラフィックが書き出されます。
 - 表やグラフィックなどの標準構造の DITA 形式への事前変換。
@@ -120,11 +120,11 @@ AEM Guidesでは、InDesignドキュメントを変換できます。 FrameMaker
 - 個々の DITA トピックと DITA マップファイルの作成と検証。
 - 一時ファイルの削除。
 
-大まかに言えば、コンバージョンプロセスでは [&#x200B; コンバージョン用のInDesignファイルを準備する &#x200B;](appendix.md#id195DBF0045Z) および [DITA マイグレーションへのInDesign用のマッピングファイルを準備する &#x200B;](appendix.md#id194AF0003HT) 必要があります。次に、コンバージョンプロセスを実行するための手順に従う必要があります。
+大まかに言えば、変換プロセスでは [ 変換用のInDesign ファイルの準備 ](appendix.md#id195DBF0045Z) および [InDesignから DITA への移行用のマッピングファイルの準備 ](appendix.md#id194AF0003HT) を行う必要があります。その後、変換プロセスを実行するための手順に従う必要があります。
 
 次の手順を実行して、既存のInDesign文書を DITA トピック型文書に変換します。
 
-1. AEMにログインし、CRXDE Liteモードを開きます。
+1. AEMにログインし、CRXDE Lite モードを開きます。
 
 1. 次の場所にあるデフォルトの設定ファイルに移動します。
 
@@ -142,7 +142,7 @@ AEM Guidesでは、InDesignドキュメントを変換できます。 FrameMaker
 
    `/apps/fmdita/config/idml2dita_io.xml`
 
-1. `idml2dita_io.xml` ファイル内の `idml12dita` フォルダーにある設定のマッピングを追加します。
+1. `idml12dita` ファイル内の `idml2dita_io.xml` フォルダーにある設定のマッピングを追加します。
 1. ファイルに次のプロパティ `idml2dita_io.xml` 追加します。
 
    ```
@@ -153,7 +153,7 @@ AEM Guidesでは、InDesignドキュメントを変換できます。 FrameMaker
 
 `idml2dita_io.xml` ファイルで次のパラメーターを設定します。
 
-- `inputDir` 要素で、ソースInDesignドキュメントを使用できる入力フォルダーの場所を指定します。 例えば、InDesignドキュメントが `projects` のフォルダー内の `indesigntodita` という名前のフォルダーに格納されている場合、その場所は `/content/dam/idmlfiles/indesigntodita/` のように指定します。
+- `inputDir` 要素で、ソース InDesign ドキュメントを使用できる入力フォルダーの場所を指定します。 例えば、InDesign ドキュメントが `indesigntodita` のフォルダー内の `projects` という名前のフォルダーに保存されている場合、その場所は `/content/dam/idmlfiles/indesigntodita/` のように指定します。
 
 - `outputDir` エレメントで、出力フォルダの場所を指定するか、変換後の DITA 文書を保存するデフォルトの出力場所を残します。 指定された出力フォルダーが DAM に存在しない場合、変換ワークフローは出力フォルダーを作成します。
 
@@ -165,7 +165,7 @@ AEM Guidesでは、InDesignドキュメントを変換できます。 FrameMaker
 
 >[!NOTE]
 >
-> ファイルの構造とカスタマイズ方法 `stmap.adobeidml.xml` ついて詳しくは、[&#x200B; 付録 *の* DITA マイグレーションへのInDesign用のマッピング ファイルを準備する &#x200B;](appendix.md#id194AF0003HT) の節を参照してください。
+> ファイルの構造とカスタマイズ方法 `stmap.adobeidml.xml` ついて詳しくは、[ 付録 ](appendix.md#id194AF0003HT) の「InDesignから DITA へのマイグレーション用のマッピングファイルを準備する *の節を参照してください*。
 
 1. `idml2dita_io.xml` ファイルを保存します。
 
@@ -173,17 +173,17 @@ AEM Guidesでは、InDesignドキュメントを変換できます。 FrameMaker
 
 1. 入力フォルダーの場所\（`indesigntodita`\）に移動します。
 
-1. ソースInDesignドキュメントをこのフォルダーにアップロードします。 DAM へのコンテンツのアップロードについては、[&#x200B; 既存の DITA コンテンツのアップロード &#x200B;](migrate-content-upload-existing-dita-content.md#) を参照してください。
+1. ソース InDesign ドキュメントをこのフォルダーにアップロードします。 DAM へのコンテンツのアップロードについては、[ 既存の DITA コンテンツのアップロード ](migrate-content-upload-existing-dita-content.md#) を参照してください。
 
 
 ## XHTML ドキュメントの移行 {#id1949B04L0Y4}
 
-AEM Guidesを使用すると、既存の XHTML 文書を DITA トピックタイプの文書に変換できます。 入力フォルダと出力フォルダの場所を他のパラメータと共に指定する必要があり、文書は DITA 形式に変換されます。 構造化HTML文書を変換するには、次の 2 つの方法があります。
+AEM Guidesを使用すると、既存の XHTML 文書を DITA トピックタイプの文書に変換できます。 入力フォルダと出力フォルダの場所を他のパラメータと共に指定する必要があり、文書は DITA 形式に変換されます。 構造化HTML ドキュメントの変換には、次の 2 つの方法を使用できます。
 
 - すべてのドキュメントを入力フォルダーにアップロードする
-- すべてのドキュメントの ZIP をメディアファイルと共に作成し、入力フォルダーにアップロードします。 この方法は、通常、相互にリンクされた一連のHTMLファイルに使用され、目次\（index.html\）があります。 index.html ファイルには、セット内のすべてのHTMLファイルへのリンクが含まれています。
+- すべてのドキュメントの ZIP をメディアファイルと共に作成し、入力フォルダーにアップロードします。 この方法は、通常、相互にリンクしている一連のHTML ファイルに使用され、目次\（index.html\）があります。 index.html ファイルには、セット内のすべてのHTML ファイルへのリンクが含まれています。
 
-すべてのファイルを個別にアップロードする場合でも、ZIP にバンドルする場合でも、変換プロセスによって、HTMLファイルと結果の DITA ファイルとの間に 1 対 1 のマッピングが作成されます。 つまり、入力フォルダ内の.html ファイルごとに.dita ファイルが 1 つ作成されます。
+すべてのファイルを個別にアップロードする場合でも、ZIP にバンドルする場合でも、変換プロセスによって、HTML ファイルと結果の DITA ファイルとの間で 1 対 1 のマッピングが作成されます。 つまり、入力フォルダ内の.html ファイルごとに.dita ファイルが 1 つ作成されます。
 
 ドキュメントを ZIP ファイルでアップロードする際は、次の点を考慮する必要があります。
 
@@ -228,20 +228,20 @@ AEM Guidesを使用すると、既存の XHTML 文書を DITA トピックタイ
 
 - インラインスタイルを使用する場合は、XHTML ファイル内でインラインスタイルを CSS ベースのスタイルクラスに変換します。 次に、スタイル属性マッピングを使用して、これらのクラスベースのスタイルを、変換後の DITA ファイル内の DITA `outputclass` 属性に変換します。
 
-  これらの DITA ファイルからHTMLまたはAEM Site 出力を生成する際に、生成されたHTMLまたはAEM Site にスタイルクラスを適用してソースHTMLのコンテンツと一致させるために、`outputclass` 属性を使用できます。
+  これらの DITA ファイルからHTMLまたはAEM Site 出力を生成する際に、生成されたHTMLまたはAEM Site にスタイルクラスを適用してソースのHTML コンテンツと一致させるために、`outputclass` 属性を使用できます。
 
 
 ZIP ファイルを作成する際の考慮事項とは別に、XHTML ドキュメントも適切に構造化されている必要があります。 例えば、ドキュメントには *タイトル*、その後に *見出し 1*、*見出し 2* などが続く必要があります。 各見出しには、いくつかのコンテンツが含まれている必要があります。 ドキュメントが適切に構造化されていない場合、移行プロセスが期待どおりに動作しない可能性があります。
 
 既存の XHTML 文書を DITA トピックに変換するには、次の手順を実行します。
 
-1. AEMにログインし、CRXDE Liteモードを開きます。
+1. AEMにログインし、CRXDE Lite モードを開きます。
 
 1. 次の場所にあるデフォルトの設定ファイルに移動します。
 
    `/libs/fmdita/config/h2d_io.xml`
 
-1. `apps` ノード内に `config` フォルダーのオーバーレイノードを作成します。
+1. `config` ノード内に `apps` フォルダーのオーバーレイノードを作成します。
 
 1. `apps` ノードで使用可能な設定ファイルに移動します。
 
@@ -249,7 +249,7 @@ ZIP ファイルを作成する際の考慮事項とは別に、XHTML ドキュ�
 
    `h2d_io.xml` ファイルには、次の設定可能なパラメーターが含まれています。
 
-   - `inputDir` 要素で、ソース XHTML ドキュメントを使用できる入力フォルダーの場所を指定します。 例えば、XHTML ドキュメントが `projects` のフォルダー内の `xhtmltodita` という名前のフォルダーに保存されている場合、その場所は `/content/dam/projects/xhtmltodita/` のように指定します。
+   - `inputDir` 要素で、ソース XHTML ドキュメントを使用できる入力フォルダーの場所を指定します。 例えば、XHTML ドキュメントが `xhtmltodita` のフォルダー内の `projects` という名前のフォルダーに保存されている場合、その場所は `/content/dam/projects/xhtmltodita/` のように指定します。
 
    - `outputDir` 要素で、出力フォルダーの場所を指定するか、デフォルトの出力場所のままにします。 指定された出力フォルダーが DAM に存在しない場合、変換ワークフローは出力フォルダーを作成します。
 
@@ -277,75 +277,80 @@ ZIP ファイルを作成する際の考慮事項とは別に、XHTML ドキュ�
    4. ファイルを保存して閉じます。
 1. 入力フォルダーの場所\（`xhtmltodita`\）に移動します。
 
-1. ソース XHTML ドキュメントをこのフォルダーにアップロードします。 DAM へのコンテンツのアップロードについては、[&#x200B; 既存の DITA コンテンツのアップロード &#x200B;](migrate-content-upload-existing-dita-content.md#) を参照してください。
+1. ソース XHTML ドキュメントをこのフォルダーにアップロードします。 DAM へのコンテンツのアップロードについては、[ 既存の DITA コンテンツのアップロード ](migrate-content-upload-existing-dita-content.md#) を参照してください。
 
 
 `<config> </config>` ブロックを使用すると、変換用の設定の 1 つまたは複数のブロックを定義できます。 変換ワークフローが実行され、DITA トピック形式の最終出力が `outputDir` エレメントで指定した場所に保存されます。
 
-## 非構造化FrameMaker・ドキュメントの移行 {#id1949B050VUI}
+## 非構造化FrameMaker ドキュメントの移行 {#id1949B050VUI}
 
-AEM Guidesを使用すると、既存の非構造化FrameMaker\（`.fm` and `.book`\）文書を DITA 文書に変換できます。 最初のステップは、FrameMakerを使用してスタイル マッピングを作成し、それらの設定を.sts ファイルに保存することです。 次に、カスタム DITA を使用している場合は、カスタムFrameMakerを `ditaElems.xml` ファイルのソースエレメントフォーマットにマップできます。 例えば、重要なメモをすべて処理する `impnote` という名前のカスタム要素を作成した場合は、`ditaElems.xml` ファイルでこのカスタム要素を定義できます。 このカスタム要素が定義されると、`impnote` の要素を含むFrameMakerドキュメントの変換中にAEM Guidesでエラーが発生することはありません。
+AEM Guidesを使用すると、既存の非構造化FrameMaker\（`.fm` and `.book`\）文書を DITA 文書に変換できます。 このプロセスの詳細については、[Adobe FrameMakerで技術文書を非構造化から DITA に移行する ](https://migrate-from-unstructured-to-dita-step-by-step-guide.meetus.adobeevents.com/) を参照してください。
 
-また、カスタムまたは有効な DITA 要素を使用して追加の属性を指定する場合は、style2attrMap.xml ファイルでそれらの属性を定義できます。 例えば、`impnote` 要素と共に渡される `important` の値を使用して `type` 属性を指定できます。 この追加情報は、style2attrMap.xml ファイルで指定できます。
+<!-- Deprecated information -
+ //The first step is to create style mappings using FrameMaker and save those settings in a .sts file. Next, if you are using custom DITA, then you can map your custom elements with the source FrameMaker formats in the `ditaElems.xml` file. For example, if you have created a custom element named `impnote` to handle all important notes, then you can define this custom element in the `ditaElems.xml` file. Once this custom element is defined, AEM Guides would not raise an error while converting FrameMaker document containing `impnote` element.
 
-指定に加えて
+Also, If you want to specify some additional attributes with your custom or valid DITA element, you can define those in the style2attrMap.xml file. For example, you can specify the `type` attribute with the value of `important` to be passed on with the `impnote` element. This additional information can be specified in the style2attrMap.xml file.
 
-既存の非構造化FrameMaker文書を DITA フォーマットに変換するには、次の手順を実行します。
+In addition to specifying
 
-1. FrameMakerでスタイルマッピングを作成し、それらの設定を.sts ファイルに保存します。
+To convert your existing unstructured FrameMaker documents into DITA format, perform the following steps:
 
-1. AEMにログインし、CRXDE Liteモードを開きます。
+1.  Create style mappings in FrameMaker and save those settings in a .sts file.
 
-1. カスタム DITA エレメントがある場合は、次の場所にある `ditaElems.xml` ファイルで定義します。
+1.  Log into AEM and open the CRXDE Lite mode.
 
-   `/libs/fmdita/config/ditaElems.xml`
+1.  If you have custom DITA elements, define those in the `ditaElems.xml` file available at the following location:
 
-1. `apps` ノード内に `config` フォルダーのオーバーレイノードを作成します。
+    `/libs/fmdita/config/ditaElems.xml`
 
-1. `apps` ノードで使用可能な設定ファイルに移動します。
+1.  Create an overlay node of the `config` folder within the `apps` node.
 
-   `/apps/fmdita/config/ditaElems.xml`
+1.  Navigate to the configuration file available in the `apps` node:
 
-   `ditaElems.xml` ファイルには、設定可能なパラメーターが 1 つ含まれています。
+    `/apps/fmdita/config/ditaElems.xml`
 
-   - `elem` パラメータで、変換後の DITA 文書で使用するカスタム要素の名前を指定します。 このエレメントは、生成された DITA 文書にそのまま渡されます。
+    The `ditaElems.xml` file contains a single configurable parameter:
 
-1. 追加の属性を指定する場合は、次の場所にある `style2attrMap.xml` ファイルで追加の属性を定義します。
+    -   In the `elem` parameter, specify the name of the custom element that you want to use in your converted DITA documents. This element would be passed on as is in the generated DITA documents.
 
-   `/libs/fmdita/config/style2attrMap.xml`
+1.  If you want to specify additional attributes, define those in the `style2attrMap.xml` file available at the following location:
 
-1. `apps` ノード内に `config` フォルダーのオーバーレイノードを作成します。
+    `/libs/fmdita/config/style2attrMap.xml`
 
-1. `apps` ノードで使用可能な設定ファイルに移動します。
+1.  Create an overlay node of the `config` folder within the `apps` node.
 
-   `/apps/fmdita/config/style2attrMap.xml`
+1.  Navigate to the configuration file available in the `apps` node:
 
-   `style2attrMap.xml` ファイルには、次の設定可能なパラメーターが含まれています。
+    `/apps/fmdita/config/style2attrMap.xml`
 
-   - `fmStyle` パラメーターで、マッピングするFrameMakerドキュメントで使用されるソースフォーマットを指定します。
+    The `style2attrMap.xml` file contains the following configurable parameters:
 
-   - `ditaAttr` エレメントで、ソースフォーマットにマップする DITA 属性を指定します。
+    -   In the `fmStyle` parameter, specify the source format used in the FrameMaker document that you want to map.
 
-   - `ditaVal` 要素で、マッピングされた属性の値を指定します。 値がない場合は、このエントリを空白のままにできます。
+    -   In the`ditaAttr` element, specify the DITA attribute that you want to map with the source format.
 
-1. `style2attrMap.xml` ファイルを保存します。
+    -   In the `ditaVal` element, specify the value for the mapped attribute. If you don't have any value, you can leave this entry blank.
 
-1. `style2attrMap.xml` ファイルで必要なパラメーターを設定したら、AEMにログインしてAssets UI を開きます。
+1.  Save the `style2attrMap.xml` file.
 
-1. 変換するFrameMakerドキュメントに移動して、クリックします。
+1. After configuring the required parameters in the `style2attrMap.xml` file, log into AEM and open the Assets UI.
 
-   出力の生成に使用できる出力プリセットのリストを示す DITA マップコンソールが表示されます。
+1. Navigate to and click on the FrameMaker document that you want to convert.
 
-1. DITA 出力形式を選択し、必要なパラメータを設定します。
+    The DITA map console appears showing the list of Output Presets available to generate output.
 
-   >[!NOTE]
-   >
-   > FrameMakerで作成したのと同じ設定ファイル \（.sts\）を使用する必要があります。 また、設定名と宛先パスも指定します。
+1. Select DITA output format and configure the required parameters.
 
-1. **生成** アイコンをクリックして、出力生成プロセスを開始します。
+    >[!NOTE]
+    >
+    > You must use the same settings file \(.sts\) that you created in FrameMaker. Also, specify the Settings Name and Destination Path.
+
+1. Click the **Generate** icon to start the output generation process.
 
 
-`<attrMap> </attrMap>` ブロックを使用すると、変換用の設定の 1 つまたは複数のブロックを定義できます。 コンテンツによっては、.dita ファイルと.ditamap ファイルを変換後のファイルとして使用できます。
+Using the `<attrMap> </attrMap>` block, you can define one or multiple blocks of configurations for conversion. Depending on the content, you could have a .dita file and a .ditamap file as the converted files.
+
+-->
 
 ## 他の構造化文書を移行する {#id1949B0590YK}
 
@@ -353,13 +358,13 @@ AEM Guidesを使用すると、既存の構造化文書を有効な DITA 文書�
 
 既存の構造化文書を DITA 形式に変換するには、次の手順を実行します。
 
-1. AEMにログインし、CRXDE Liteモードを開きます。
+1. AEMにログインし、CRXDE Lite モードを開きます。
 
 1. 次の場所にあるデフォルトの設定ファイルに移動します。
 
    `/libs/fmdita/config/XSLConfig.xml`
 
-1. `apps` ノード内に `config` フォルダーのオーバーレイノードを作成します。
+1. `config` ノード内に `apps` フォルダーのオーバーレイノードを作成します。
 
 1. `apps` ノードで使用可能な設定ファイルに移動します。
 
@@ -385,9 +390,9 @@ AEM Guidesを使用すると、既存の構造化文書を有効な DITA 文書�
 
 1. 入力フォルダーの場所\（`xsltodita`\）に移動します。
 
-1. ソースの構造化ドキュメントをこのフォルダーにアップロードします。 DAM へのコンテンツのアップロードについては、[&#x200B; 既存の DITA コンテンツのアップロード &#x200B;](migrate-content-upload-existing-dita-content.md#) を参照してください。
+1. ソースの構造化ドキュメントをこのフォルダーにアップロードします。 DAM へのコンテンツのアップロードについては、[ 既存の DITA コンテンツのアップロード ](migrate-content-upload-existing-dita-content.md#) を参照してください。
 
 
 `<config> </config>` ブロックを使用すると、変換用の設定の 1 つまたは複数のブロックを定義できます。 変換ワークフローが実行され、DITA トピック形式の最終出力が `outputDir` エレメントで指定した場所に保存されます。
 
-**親トピック：**&#x200B;[&#x200B; 既存のコンテンツを移行 &#x200B;](migrate-content.md)
+**親トピック：**[ 既存のコンテンツを移行 ](migrate-content.md)
