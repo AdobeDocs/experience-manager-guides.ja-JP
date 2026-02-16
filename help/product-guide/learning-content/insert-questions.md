@@ -4,7 +4,7 @@ description: 製品トレーニングおよび学習用のクイズの質問バ�
 feature: Authoring
 role: User
 exl-id: dfc247f7-31f9-4bcf-84e2-151993603b89
-source-git-commit: 757582f6bdcb64b004d430679eaf6e8a5fbdc807
+source-git-commit: cb8789b0ee0ebdfb864ecac8b00a22c62faf3823
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 1. 以下に示すように、ツールバーの **質問** ドロップダウンメニューから **質問バンクから挿入** オプションを選択します。
 
-   ![](assets/insert-from-question-bank.png){width="350" align="left"}
+   ![](assets/question-types.png){width="350" align="left"}
 
    **HTML Question Bank から挿入** ダイアログが表示されます。
 
@@ -38,4 +38,4 @@ ht-degree: 0%
    ![](assets/inserted-question.png){width="650" align="left"}
 
 
-ビデオの概要については、[&#x200B; 質問バンクから質問を挿入 &#x200B;](https://video.tv.adobe.com/v/3475212/learning-content-aem-guides)![](assets/Smock_VideoCheckedOut_18_N.svg) を参照してください。
+ビデオの概要については、[ 質問バンクから質問を挿入 ](https://video.tv.adobe.com/v/3475212/learning-content-aem-guides)![](assets/Smock_VideoCheckedOut_18_N.svg) を参照してください。
