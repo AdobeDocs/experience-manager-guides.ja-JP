@@ -5,7 +5,7 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: 726420e0-fe52-4334-b72a-8eb8bcae4d6c
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: e0b0df19b7ec691a894130eb42df827921b4890c
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Web エディターのコアコンポーネントマッピングに基づくHTML
 
 1. 次の場所にある設定ファイルに移動します。
 
-   `/libs/fmdita/cq/xssprotection/config.xml`
+   `/libs/cq/xssprotection/config.xml`
 
 1. apps ノード内に `xssprotection` フォルダーのオーバーレイノードを作成します。
 
@@ -143,4 +143,4 @@ Web エディターのコアコンポーネントマッピングに基づくHTML
 
 
 
-[&#x200B; セキュリティ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/developing/introduction/security) のベストプラクティスについて詳しく説明します。
+[ セキュリティ ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/security) のベストプラクティスについて詳しく説明します。
