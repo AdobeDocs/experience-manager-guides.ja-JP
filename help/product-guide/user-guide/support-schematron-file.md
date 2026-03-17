@@ -4,9 +4,9 @@ description: DITA トピックをインポートして検証する方法、asser
 exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 64d2f0027c35396a549d11a0186e218dd513b22a
+source-git-commit: dd058ef30707716054279f16527adb286a9deb8d
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '982'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,6 @@ ht-degree: 0%
 
 次の手順を実行して、Schematron ファイルをインポートします。
 
-![](images/schematron-panel.png){width="300" align="left"}
-
 1. *リポジトリ* 内の必要なフォルダー（ファイルのアップロード先）に移動します。
 1. **オプション** アイコンを選択してコンテキストメニューを開き、「**アセットをアップロード**」を選択します。
 1. **アセットをアップロード** ダイアログの「**アセットフォルダーを選択**」フィールドで宛先フォルダーを変更できます。
@@ -41,16 +39,16 @@ Schematron ファイルを読み込んだ後、エディターで編集できま
 
 エディターでトピックを開くと、右側にスキーマトロン検証パネルが表示されます。 次の手順を実行して、トピックを追加して検証するか、スキーマトロンファイルを使用してマップします。
 
-![](images/schematron-panel-file-validated.png){width="500" align="left"}
+![](images/schematron-panel.png){width="350" align="left"}
 
-1. スケマトロンアイコン（）を選択して、スケマトロンパネルを開きます。
+1. スケマトロンアイコンを選択し、スケマトロンパネルを開きます。
 1. **Add Schematron File** を使用してスキーマトロンファイルを追加します。
 
    >[!NOTE]
    >
    > 無効なスキーマトロンファイルが追加されると、検証パネルにエラーメッセージが表示されます。
 
-   ![](images/schematron-panel-error.png){width="300" align="left"}
+   ![](images/schematron-panel-error.png){width="350" align="left"}
 
 1. Schematron ファイルにエラーがない場合は、追加されて検証パネルに表示されます。 エラーを含む Schematron ファイルに対してエラーメッセージが表示されます。
 
@@ -58,14 +56,42 @@ Schematron ファイルを読み込んだ後、エディターで編集できま
    >
    >Schematron ファイル名の近くにあるクロスアイコンを使用して、削除できます。
 
-1. 「**スキーマトロンで検証**」を選択して、トピックを検証します。
+1. 「**検証**」を選択して、追加されたスキーマトロンファイルでトピックを検証します。
 
    * トピックが規則を破らない場合、ファイルの検証成功メッセージが表示されます。
    * 例えば、トピックにタイトルが含まれておらず、上記のスキーマトロンで検証されている場合など、トピックがルールに違反すると、検証エラーが表示されます。
 
+   >[!NOTE]
+   >
+   > 検証結果は、Schematron ファイルで定義された役割属性に基づいて表示されます。 詳しくは、[ 検証結果と重大度レベルについて ](#understanding-validation-results-and-serverity-levels) を参照してください。
+
 1. エラーメッセージを選択して、開いているトピック/マップ内のエラーを含む要素をハイライト表示します。
 
 エディターのスキーマトロンのサポートは、一連のルールに対してファイルを検証し、トピック全体で一貫性と正確性を維持するのに役立ちます。
+
+## 検証結果と重大度レベルについて
+
+検証結果は、Schematron ファイルで定義された役割属性に基づいて表示されます。 イシューは `Fatal`、`Error`、`Warn`、`Info` に分類され、検証パネルには各カテゴリのカウントが表示されます。
+
+![](images/schematron-validation-errors.png){width="350" align="left"}
+
+イシューの重大度を判断するには、対応するスキーマトロンファイルで定義されている role 属性の値 _大文字と小文字を区別_ が評価されます。
+
+次のスニペットは、スキーマトロンルールで定義された、サポートされる役割属性値を示しています。
+
+* `<sch:assert role="error" test="@id">Element must have an ID.</sch:assert>`
+* `<sch:report role="info" test="not(@alt)">Image should have an alt attribute.</sch:report>`
+* `<sch:assert role= "fatal" test="b"> Bold must be there in <sch:name/> element</sch:assert>`
+* `<sch:assert role= "warn" test="b"> Recommended formatting is missing in <sch:name/> element</sch:assert>`
+
+role 属性が指定されていない場合、またはサポートされていない値が使用されている場合、イシューは検証パネルで `Error` として分類されます。 この動作は、role 属性が定義されていない既存のスキーマトロンファイルにも適用されます。この場合、すべてのイシューは `Error` の下にグループ化されます。
+
+**ファイルの保存シナリオ**
+
+ファイルを保存するかどうかは、**Workspace設定の** ファイルを保存する前に検証チェックを実行する [ 設定に依存し ](../cs-install-guide/workspace-settings.md#validation) す。
+
+* 有効にすると、`Fatal` または `Error` レベルの問題が解決されなくなるまで、ファイルを保存できなくなります。
+* 無効にすると、検証チェックは実行されず、`Fatal` レベルまたは `Error` レベルの問題が存在する場合でもファイルを保存できます。
 
 ## assert ステートメントと report ステートメントを使用してルールをチェックする{#schematron-assert-report}
 
