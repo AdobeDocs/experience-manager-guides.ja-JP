@@ -15,7 +15,7 @@ ht-degree: 3%
 
 アセット処理機能を設定するには、次の手順を実行します。
 
-1. [ 設定の上書き ](../cs-install-guide/download-install-additional-config-override.md) の手順に従って、設定ファイルを作成します。
+1. [&#x200B; 設定の上書き &#x200B;](../cs-install-guide/download-install-additional-config-override.md) の手順に従って、設定ファイルを作成します。
 
 1. 設定ファイルで、次の（プロパティ）の詳細を指定します。
 

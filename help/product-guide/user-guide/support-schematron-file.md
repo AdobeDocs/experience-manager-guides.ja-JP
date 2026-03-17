@@ -63,7 +63,7 @@ Schematron ファイルを読み込んだ後、エディターで編集できま
 
    >[!NOTE]
    >
-   > 検証結果は、Schematron ファイルで定義された役割属性に基づいて表示されます。 詳しくは、[ 検証結果と重大度レベルについて ](#understanding-validation-results-and-serverity-levels) を参照してください。
+   > 検証結果は、Schematron ファイルで定義された役割属性に基づいて表示されます。 詳しくは、[&#x200B; 検証結果と重大度レベルについて &#x200B;](#understanding-validation-results-and-serverity-levels) を参照してください。
 
 1. エラーメッセージを選択して、開いているトピック/マップ内のエラーを含む要素をハイライト表示します。
 
@@ -88,7 +88,7 @@ role 属性が指定されていない場合、またはサポートされてい
 
 **ファイルの保存シナリオ**
 
-ファイルを保存するかどうかは、**Workspace設定の** ファイルを保存する前に検証チェックを実行する [ 設定に依存し ](../cs-install-guide/workspace-settings.md#validation) す。
+ファイルを保存するかどうかは、**Workspace設定の** ファイルを保存する前に検証チェックを実行する [&#x200B; 設定に依存し &#x200B;](../cs-install-guide/workspace-settings.md#validation) す。
 
 * 有効にすると、`Fatal` または `Error` レベルの問題が解決されなくなるまで、ファイルを保存できなくなります。
 * 無効にすると、検証チェックは実行されず、`Fatal` レベルまたは `Error` レベルの問題が存在する場合でもファイルを保存できます。

@@ -24,14 +24,14 @@ ht-degree: 0%
    ![](assets/learning-course-content.png)
 2. 作成するコンテンツのタイプを選択します。 使用できるオプションは以下のとおりです。
    - **概要**：コースの内容の簡単な紹介を行う、コースの最初のトピックです。
-   - **トピック**：コースのメイン資料は、特定のスキルやアイデアを教える手順、例、説明など、短く焦点を当てた部分で構成されています。 詳しくは、[ トピックの作成とカスタマイズ ](./create-content.md) を参照してください。
+   - **トピック**：コースのメイン資料は、特定のスキルやアイデアを教える手順、例、説明など、短く焦点を当てた部分で構成されています。 詳しくは、[&#x200B; トピックの作成とカスタマイズ &#x200B;](./create-content.md) を参照してください。
    - **概要**：コースチャプターの最後にあるクイックレビューで、学習した重要な点を学習者に思い出させます。
-   - **クイズ**：学習した内容をどの程度理解しているかを確認するために使用される一連の質問です。 詳しくは、[ クイズの作成と管理 ](./create-quiz.md) を参照してください。
-   - **Question bank**：迅速かつ一貫してクイズを作成するために使用できる、再利用可能な質問の共有プール。 詳しくは、[ 質問バンク ](./create-qb.md) を参照してください。
+   - **クイズ**：学習した内容をどの程度理解しているかを確認するために使用される一連の質問です。 詳しくは、[&#x200B; クイズの作成と管理 &#x200B;](./create-quiz.md) を参照してください。
+   - **Question bank**：迅速かつ一貫してクイズを作成するために使用できる、再利用可能な質問の共有プール。 詳しくは、[&#x200B; 質問バンク &#x200B;](./create-qb.md) を参照してください。
    - **グループ**：学習グループは、チャプター、トピック、その他のモジュールなどの関連トピックを論理的な順序に整理し、トレーニング資料の管理と再利用を容易にする明確な階層を構築するのに役立ちます。
 3. 「**作成**」を選択します。
 
-選択したコンテンツが作成され、コースに追加されます。 ビデオの概要については、[ コースに新しいコンテンツを追加する ](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on)![](assets/Smock_VideoCheckedOut_18_N.svg) を参照してください。
+選択したコンテンツが作成され、コースに追加されます。 ビデオの概要については、[&#x200B; コースに新しいコンテンツを追加する &#x200B;](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on)![](assets/Smock_VideoCheckedOut_18_N.svg) を参照してください。
 
 ## 既存のコンテンツを追加
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 >
 >**既存の追加**/**ファイル（リソースのみの zip）** オプションを使用して、解凍されて最終的な SCORM 出力のフォルダ構造に統合される zip ファイルを含めることもできます。 これにより、コースの公開中にリソースのパッケージ化を合理化できます。
 
-ビデオの概要については、[ コースに既存のコンテンツを追加する ](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on)![](assets/Smock_VideoCheckedOut_18_N.svg) を参照してください。
+ビデオの概要については、[&#x200B; コースに既存のコンテンツを追加する &#x200B;](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on)![](assets/Smock_VideoCheckedOut_18_N.svg) を参照してください。
 
 ## コンテンツを削除
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 ![](assets/remove-learning-content.png)
 
-ビデオの概要については、[ コースからコンテンツを削除 ](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides) の ![](assets/Smock_VideoCheckedOut_18_N.svg) を参照してください。
+ビデオの概要については、[&#x200B; コースからコンテンツを削除 &#x200B;](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides) の ![](assets/Smock_VideoCheckedOut_18_N.svg) を参照してください。
 
 
 ## コースバージョンの作成
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 ![](assets/course-display-settings.png)
 
-ビデオの概要については、[ 設定を表示 ](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides) を参照してください ![](assets/Smock_VideoCheckedOut_18_N.svg)。
+ビデオの概要については、[&#x200B; 設定を表示 &#x200B;](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides) を参照してください ![](assets/Smock_VideoCheckedOut_18_N.svg)。
 
 ## レビュータスクを作成
 
@@ -93,6 +93,6 @@ ht-degree: 0%
 
 **レビュータスクを作成** ページに移動します。このページでは、レビュータスクのタイトル、タスクが含まれる DITA プロジェクトの指定、タスクのタイムラインの定義、レビュー担当者の割り当てなどのタスクの詳細を追加する必要があります。 完了すると、レビュー担当者にこのタスクに関する通知が届きます。 レビュー UI では、選択したコーストピックが開き、レビュー担当者はコメントを追加したり、トピックを送信して更新することができます。
 
-Experience Manager Guidesでのレビューワークフローを理解するには、「[ レビュー用にトピックを送信 ](../user-guide/review-send-topics-for-review.md)」を表示します。
+Experience Manager Guidesでのレビューワークフローを理解するには、「[&#x200B; レビュー用にトピックを送信 &#x200B;](../user-guide/review-send-topics-for-review.md)」を表示します。
 
 
