@@ -27,7 +27,7 @@ ht-degree: 10%
             - {hide-from-toc} 2026.03.0 リリース {#2603-release}
                - [新機能](./release-info/whats-new-2026-03-0.md)
                - [修正された問題](./release-info/fixed-issues-2026-03-0.md)
-               - [ アップグレード手順](./release-info/upgrade-instructions-2026-03-0.md)
+               - [&#x200B; アップグレード手順](./release-info/upgrade-instructions-2026-03-0.md)
             - 2026.01.0 リリース {#2601-release}
                - [新機能](./release-info/whats-new-2026-01-0.md)
                - [修正された問題](./release-info/fixed-issues-2026-01-0.md)
@@ -142,7 +142,7 @@ ht-degree: 10%
             - [アップグレード手順](./release-info/upgrade-instructions-5-0-0-sp4.md)
          - 5.0.0 SP3 リリース {#500-sp3-release}
             - [修正された問題](./release-info/fixed-issues-5-0-0-sp3.md)
-            - [ アップグレード手順](./release-info/upgrade-instructions-5-0-0-sp3.md)
+            - [&#x200B; アップグレード手順](./release-info/upgrade-instructions-5-0-0-sp3.md)
          - 5.0.0 SP2 リリース {#500-sp2-release}
             - [修正された問題](./release-info/fixed-issues-5-0-0-sp2.md)
             - [アップグレード手順](./release-info/upgrade-instructions-5-0-0-sp2.md)
@@ -161,7 +161,7 @@ ht-degree: 10%
             - [アップグレード手順](./release-info/upgrade-instructions-4-6-0-sp2.md)
          - 4.6.0 SP1 リリース {#460-sp1-release}
             - [修正された問題](./release-info/fixed-issues-4-6-0-sp1.md)
-            - [ アップグレード手順](./release-info/upgrade-instructions-4-6-0-sp1.md)
+            - [&#x200B; アップグレード手順](./release-info/upgrade-instructions-4-6-0-sp1.md)
          - 4.6.0 リリース {#460-release}
             - [新機能](./release-info/whats-new-4-6.md)
             - [修正された問題](./release-info/fixed-issues-4-6-0.md)
@@ -188,13 +188,13 @@ ht-degree: 10%
                - [リリースノート（4.2.1）](./release-info/release-notes-4-2-1.md)
                - [4.2 リリースノート](./release-info/release-notes-4-2.md)
          - [4.1.x リリースノート](./release-info/release-notes-4-1.md)
-         - [4.0.x リリースノート ](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x リリースノート ](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x リリースノート &#x200B;](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x リリースノート &#x200B;](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - ユーザーガイド（新しいUI） {#user-guide}
    - はじめに {#about-aemg}
       - [約 [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides]の機能と主な機能 {#aemg-works-features}
-         - [ [!DNL AEM Guides] の仕組み](./user-guide/intro-how-dxml-works.md)
+         - [&#x200B; [!DNL AEM Guides] の仕組み](./user-guide/intro-how-dxml-works.md)
          - [主な機能 [!DNL AEM Guides] 個](./user-guide/intro-dxml-features.md)
    - ホームページ {#home-page}
       - [[!DNL AEM Guides] ホームページの体験](./user-guide/intro-home-page.md)
@@ -220,13 +220,13 @@ ht-degree: 10%
             - [コンテンツ編集エリア](./user-guide/web-editor-content-editing-area.md)
             - [右側のパネル](./user-guide/web-editor-right-panel.md)
             - [検索パネル](./user-guide/search-panel-explorer.md)
-         - [ エディターの追加機能](./user-guide/web-editor-other-features.md)
+         - [&#x200B; エディターの追加機能](./user-guide/web-editor-other-features.md)
          - [エディターでのキーボードショートカット](./user-guide/web-editor-keyboard-shortcuts.md)
          - [エディタービュー](./user-guide/web-editor-views.md)
          - [Schematron ファイルのサポート](./user-guide/support-schematron-file.md)
          - [エディターからMarkdown ドキュメントを作成する](./user-guide/web-editor-markdown-topic.md)
          - [コンテンツに引用を追加する](./user-guide/web-editor-apply-citations.md)
-         - [ データソースからのデータを使用](./user-guide/web-editor-content-snippet.md)
+         - [&#x200B; データソースからのデータを使用](./user-guide/web-editor-content-snippet.md)
          - [ドキュメントの状態](./user-guide/web-editor-document-states.md)
          - [ラベルを使用](./user-guide/web-editor-use-label.md)
       - マップエディター {#map-editor}
@@ -243,7 +243,7 @@ ht-degree: 10%
    - コンテンツを見る {#review}
       - [レビューの概要](./user-guide/review.md)
       - [DITA プロジェクトの作成](./user-guide/authoring-create-dita-project.md)
-      - [ レビュー用にトピックを送信](./user-guide/review-send-topics-for-review.md)
+      - [&#x200B; レビュー用にトピックを送信](./user-guide/review-send-topics-for-review.md)
       - [トピックを見る](./user-guide/review-topics.md)
       - [通知を使用したレビュータスクの再割り当て](./user-guide/reassign-review-using-notification.md)
       - [レビューアーとしてのレビュータスクの完了](./user-guide/review-complete-review-tasks.md)
@@ -268,7 +268,7 @@ ht-degree: 10%
          - [マップダッシュボードのDITA マップレポート](./user-guide/reports-ditamap.md)
          - [コンテンツ再利用レポート](./user-guide/reports-content-reuse.md)
          - [コンバージョンステータスレポート](./user-guide/reports-convertion-status.md)
-         - [ ファイルのバージョン履歴レポートを元に戻しました](./user-guide/reports-reverted-file-version-history.md)
+         - [&#x200B; ファイルのバージョン履歴レポートを元に戻しました](./user-guide/reports-reverted-file-version-history.md)
       - コンテンツの翻訳 {#translate-content}
          - [コンテンツ翻訳の概要](./user-guide/translation.md)
          - [コンテンツ翻訳のベストプラクティス](./user-guide/translation-first-time.md)
@@ -298,7 +298,7 @@ ht-degree: 10%
          - ベースラインを使用 {#work-with-baseline}
             - [マップコンソールでのベースラインの作成と管理](./user-guide/web-editor-baseline.md)
             - [マップダッシュボードでのベースラインの作成と管理](./user-guide/generate-output-use-baseline-for-publishing.md)
-            - [ マップコンソールから新しいベースラインを作成および管理](./user-guide/web-editor-baseline-v2.md)
+            - [&#x200B; マップコンソールから新しいベースラインを作成および管理](./user-guide/web-editor-baseline-v2.md)
          - [グローバルおよびフォルダープロファイル出力プリセットの管理](./user-guide/web-editor-manage-output-presets.md)
          - [変数を使用して、宛先パス、サイト名またはファイル名のオプションを設定します](./user-guide/generate-output-use-variables.md)
          - [DITA-OTを使用してメタデータを出力に渡します](./user-guide/pass-metadata-dita-ot.md)
@@ -363,7 +363,7 @@ ht-degree: 10%
             - [クイズの作成](./learning-content/create-quiz.md)
             - [クイズを編集](./learning-content/edit-quiz.md)
             - [クイズへの質問の挿入](./learning-content/quiz-insert-questions.md)
-            - [ クイズプロパティ ](./learning-content/quiz-properties.md)
+            - [&#x200B; クイズプロパティ &#x200B;](./learning-content/quiz-properties.md)
             - 質問銀行 {#question-bank}
                - [質問バンクを作成](./learning-content/create-qb.md)
                - [質問バンクからの質問を挿入](./learning-content/insert-questions.md)
@@ -402,7 +402,7 @@ ht-degree: 10%
       - [オンプレミスの基本](./install-guide/introduction.md)
       - ダウンロード、インストール、アップグレード {#download-install-upgrade-aemg}
          - [ダウンロードとインストールの概要](./install-guide/download-install.md)
-         - [技術要件 ](./install-guide/download-install-technical-requirements.md)
+         - [技術要件 &#x200B;](./install-guide/download-install-technical-requirements.md)
          - [Adobe Experience Managerのインストール](./install-guide/download-install-aem.md)
          - [AEM Guidesを初めてダウンロードしてインストールする](./install-guide/download-install-aemg-first-time.md)
          - [Dispatcher の設定](./install-guide/download-install-configure-dispatcher.md)
@@ -434,7 +434,7 @@ ht-degree: 10%
       - 文書の状態の操作 {#doc-state}
          - [ドキュメントの状態の設定](./install-guide/customize-doc-state.md)
       - エディター設定 {#editor-configs}
-         - [ エディター設定の設定](./install-guide/editor-settings.md)
+         - [&#x200B; エディター設定の設定](./install-guide/editor-settings.md)
       - Web エディター設定の操作 {#web-editor-configs}
          - [Web エディターのカスタマイズ](./install-guide/conf-web-editor.md)
          - [ツールバーをカスタマイズ](./install-guide/conf-web-editor-customize-toolbar.md)
@@ -491,7 +491,7 @@ ht-degree: 10%
       - AEM Assets検索の操作 {#aem-asset-search}
          - [AEM Assets UIの検索の設定](./install-guide/conf-dita-search.md)
       - アセット処理の操作 {#asset-processing-on-prem}
-         - [ アセット処理機能の設定](./install-guide/configure-asset-processing.md)
+         - [&#x200B; アセット処理機能の設定](./install-guide/configure-asset-processing.md)
       - B ツリークリーンアップの操作{#btree-cleanup}
          - [B ツリークリーンアップの設定](./install-guide/configure-btree-clean-up-job.md)
       - カスタムインデックス作成{#custom-indexing}
@@ -537,7 +537,7 @@ ht-degree: 10%
       - Web エディター設定の操作 {#web-editor-configs-cs}
          - [Web エディターのカスタマイズ](./cs-install-guide/conf-web-editor.md)
          - [ツールバーをカスタマイズ](./cs-install-guide/conf-web-editor-customize-toolbar.md)
-         - [ オーサリング用にAIを活用したスマート提案を設定する](./cs-install-guide/conf-smart-suggestions.md)
+         - [&#x200B; オーサリング用にAIを活用したスマート提案を設定する](./cs-install-guide/conf-smart-suggestions.md)
          - [AIを活用したスマートヘルプを設定してコンテンツを検索](./cs-install-guide/conf-smart-help.md)
          - [タグビューのデフォルト値の設定](./cs-install-guide/configure-default-value-tags-view.md)
          - [UUID ベースのリンクの表示の設定](./cs-install-guide/conf-uuid-based-links.md)
@@ -587,7 +587,7 @@ ht-degree: 10%
       - B ツリークリーンアップの操作{#btree-cleanup-cs}
          - [B ツリークリーンアップの設定](./cs-install-guide/configure-btree-cleanup-cs.md)
       - カスタムインデックス作成{#custom-indexing-cs}
-         - [検索と置換のためのカスタムインデックスのデプロイ （Source ビュー） ](./cs-install-guide/custom-indexing.md)
+         - [検索と置換のためのカスタムインデックスのデプロイ （Source ビュー） &#x200B;](./cs-install-guide/custom-indexing.md)
       - DITA アセットレプリケーションの操作{#dita-assets-replication-cs}
          - [DITA アセットレプリケーションの設定](./cs-install-guide/configure-dita-assets-replication.md)
       - [付録](./cs-install-guide/appendix.md)
@@ -598,7 +598,7 @@ ht-degree: 10%
    - [データソースコネクタを登録するためのREST API](./api-reference/data-source-connector.md)
    - [条件付き属性を操作するREST API](./api-reference/conditional-attribute.md)
    - [コンバージョンワークフロー用REST API](./api-reference/convert-to-dita.md)
-   - [ パッケージを作成およびアクティブ化するためのREST API](./api-reference/create-activate-package.md)
+   - [&#x200B; パッケージを作成およびアクティブ化するためのREST API](./api-reference/create-activate-package.md)
    - [後処理イベントハンドラー](./api-reference/post-process-event.md)
    - [フォルダーまたはアセットの後処理ステータスを追跡するAPI](./api-reference/track-post-processing-status.md)
    - [アセットの一括処理を開始するAPI](./api-reference/bulk-assets-processing.md)
@@ -672,7 +672,7 @@ ht-degree: 10%
                - [カスタムダイアログ](./guides-ui-extensions/customisations/ReviewApp/custom-dialog.md)
       - 外部データソース {#external-data-source}
          - [データソースの統合](../product-guide/knowledge-base/kb-articles/data-source/integrate-data-sources.md)
-         - [ データソースコネクタの設定](../product-guide/knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)
+         - [&#x200B; データソースコネクタの設定](../product-guide/knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)
       - 公開 {#publishing}
          - ネイティブ PDF {#native-pdf}
             - [DITA Native PDFにカスタムフォントを追加する](./knowledge-base/kb-articles/publishing/add-custom-font-native-pdf.md)
@@ -686,7 +686,7 @@ ht-degree: 10%
             - [Cloud Services用AEM Sites テンプレートのダウンロードとインストール](./knowledge-base/kb-articles/publishing/download-install-aem-sites-templates-cs-kb.md)
             - [オンプレミスサービス用のAEM Sites テンプレートのダウンロードとインストール](./knowledge-base/kb-articles/publishing/download-install-aem-sites-templates-prem-kb.md)
             - [既存のAEM Sites テンプレートのカスタマイズ](./knowledge-base/kb-articles/publishing/customize-exsisting-site-template-kb.md)
-         - [FMPSとガイド ](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
+         - [FMPSとガイド &#x200B;](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          - [マイクロサービスアーキテクチャとパフォーマンス](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          - [JWT認証によるマイクロサービスベースの公開を設定します](./knowledge-base/publishing/configure-microservices.md)
          - [OAuth認証によるマイクロサービスベースの公開を設定します](./knowledge-base/publishing/configure-microservices-imt-config.md)
