@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 既存のDITA コンテンツのアップロード {#id176FF000JUI}
 
-AEM Guidesで使用する既存のDITA コンテンツのリポジトリがある可能性があります。 このような既存のコンテンツに対しては、[ デジタルアセットをAdobe Experience Manager as a Cloud Service Assetsに追加](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html)で説明されているサポートされている方法のいずれかを使用できます。
+AEM Guidesで使用する既存のDITA コンテンツのリポジトリがある可能性があります。 このような既存のコンテンツに対しては、[&#x200B; デジタルアセットをAdobe Experience Manager as a Cloud Service Assetsに追加](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html)で説明されているサポートされている方法のいずれかを使用できます。
 
 ## UUID ファイル名パターンの設定
 
@@ -82,4 +82,4 @@ curl --user <username>:<password> -F<attribute name>=<value> <metadata node path
 - `<metadata node path>`: ファイル名とそのメタデータノードを含む完全なフォルダーパス。 例えば、パスを`http://192.168.1.1:4502/content/dam/projects/AEM-Guides/intro.xml/jcr:content/metadata`として指定した場合、指定したメタデータ情報は`intro.xml` ファイルに設定されます。
 
 
-**親トピック：**[&#x200B;既存のコンテンツを移行](migrate-content.md)
+**親トピック：**&#x200B;[&#x200B;既存のコンテンツを移行](migrate-content.md)

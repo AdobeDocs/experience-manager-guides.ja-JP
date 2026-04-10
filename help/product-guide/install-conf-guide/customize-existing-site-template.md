@@ -56,7 +56,7 @@ AEM サイトから2つの編集可能なテンプレートを選択して設定
 
 - 必須プロパティを持つテキストコンポーネントを追加します：text=&quot;$category.html$&quot;。
 
-  ![ テキストコンポーネントの追加](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component.png){width="650" align="left"}
+  ![&#x200B; テキストコンポーネントの追加](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component.png){width="650" align="left"}
 
 - 通常は、ドキュメント内のセクションやトピックへのリンクなどのナビゲーション要素が含まれます。
 - ブランディング、ヘッダー、フッター、その他のデザイン要素を含めるようにカスタマイズできます。
@@ -81,7 +81,7 @@ AEM サイトから2つの編集可能なテンプレートを選択して設定
 
 **コンテナコンポーネント：**
 
-![ コンテナコンポーネントの追加](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-component.png){width="650" align="left"}
+![&#x200B; コンテナコンポーネントの追加](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-component.png){width="650" align="left"}
 
 >[!NOTE]
 >
@@ -89,7 +89,7 @@ AEM サイトから2つの編集可能なテンプレートを選択して設定
 
 同じテンプレートの構造に同じ（コンテナとテキストコンポーネント）を追加します。
 
-![ コンテナとテキストコンポーネントの追加](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-and-text-component.png){width="650" align="left"}
+![&#x200B; コンテナとテキストコンポーネントの追加](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-and-text-component.png){width="650" align="left"}
 
 ## カスタマイズされたテンプレートでのGuides コンポーネントのレンダリング
 
@@ -134,7 +134,7 @@ AEM サイトから2つの編集可能なテンプレートを選択して設定
 
 3. **変更を保存：**&#x200B;必要なクライアントライブラリを追加した後にテンプレートを保存します。
 
-   ![ クライアントライブラリを追加](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-client-libraries.png){width="650" align="left"}
+   ![&#x200B; クライアントライブラリを追加](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-client-libraries.png){width="650" align="left"}
 
 
 >[!NOTE]

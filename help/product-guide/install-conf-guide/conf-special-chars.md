@@ -81,4 +81,4 @@ Web エディターでは、特殊文字をすぐに挿入できます。 ただ
 
 >[!ENDTABS]
 
-**親トピック：**[ Web エディターのカスタマイズ ](customize-overview.md)
+**親トピック：**&#x200B;[&#x200B; Web エディターのカスタマイズ &#x200B;](customize-overview.md)

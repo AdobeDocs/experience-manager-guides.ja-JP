@@ -70,7 +70,7 @@ http://<aem_domain>/var/dxml/executor-locks/cf-reference-store-btree-migration/1
 
 Experience Manager Guidesには、クロスマップの場合に生成されるリンク（2つの異なるマップのトピック間のリンク）を処理するための&#x200B;[**カスタム sling rewriter**](../install-conf-guide/conf-output-generation.md#custom-rewriter) モジュールがあります。
 
-コードベースに別のカスタムスリングリライターがある場合は、`'order'`値が50より大きい値を使用します。これは、Experience Manager Guides sling リライターが`'order'` 50を使用するからです。 これを上書きするには、50を超える値が必要です。 詳細については、[出力の書き換えパイプライン ](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html)を参照してください。
+コードベースに別のカスタムスリングリライターがある場合は、`'order'`値が50より大きい値を使用します。これは、Experience Manager Guides sling リライターが`'order'` 50を使用するからです。 これを上書きするには、50を超える値が必要です。 詳細については、[出力の書き換えパイプライン &#x200B;](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html)を参照してください。
 
 このアップグレードでは、`'order'`の値が1000から50に変更されるので、既存のカスタムリライターがある場合は`fmdita-rewriter`と結合する必要があります。
 

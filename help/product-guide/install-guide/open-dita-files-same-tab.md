@@ -45,4 +45,4 @@ ht-degree: 0%
 - DITA マップコンソールの「レポート」タブ
 
 
-**親トピック：**[ Web エディターのカスタマイズ ](conf-web-editor.md)
+**親トピック：**&#x200B;[&#x200B; Web エディターのカスタマイズ &#x200B;](conf-web-editor.md)

@@ -23,4 +23,4 @@ DITA トピックで許可される有効なファイル名文字のリストと
 |---|------------|--------------|
 | `com.adobe.fmdita.common.SanitizeNodeNameImpl` | `aemsite.DisallowedFileNameChars` | AEM サイトの出力ファイル名に、置き換える文字をアンダースコアで追加します。<br> **デフォルト値**: ``'<\>\`@$`` |
 
-**親トピック：**[ ファイル名の設定](conf-file-names.md)
+**親トピック：**&#x200B;[&#x200B; ファイル名の設定](conf-file-names.md)

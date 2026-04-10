@@ -30,13 +30,13 @@ ht-degree: 7%
 
 1. 言語マスターのページを翻訳サービスとフレームワーク設定に関連付けます。
 
-1. 翻訳する[ コンテンツの種類](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/rules.html?lang=en)を特定します。
+1. 翻訳する[&#x200B; コンテンツの種類](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/rules.html?lang=en)を特定します。
 
 1. [翻訳するコンテンツを準備](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html?lang=en)します。そのためには、言語マスターをオーサリングして、言語コピーのルートページを作成します。
 
-1. 翻訳するコンテンツを収集し、翻訳プロセスを準備するために、[翻訳プロジェクト ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en)を作成します。
+1. 翻訳するコンテンツを収集し、翻訳プロセスを準備するために、[翻訳プロジェクト &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en)を作成します。
 
-1. 翻訳プロジェクトを使用して、[ コンテンツ翻訳](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en) プロセスを管理します。
+1. 翻訳プロジェクトを使用して、[&#x200B; コンテンツ翻訳](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en) プロセスを管理します。
 
 
 >[!TAB  オンプレミス ]
@@ -45,13 +45,13 @@ ht-degree: 7%
 
 1. 言語マスターのページを[翻訳サービスとフレームワーク設定](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation)に関連付けます。
 
-1. 翻訳する[ コンテンツの種類](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-rules.html?lang=ja-JP)を特定します。
+1. 翻訳する[&#x200B; コンテンツの種類](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-rules.html?lang=ja-JP)を特定します。
 
 1. [翻訳するコンテンツを準備](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/tc-prep.html)します。そのためには、言語マスターをオーサリングして、言語コピーのルートページを作成します。
 
-1. 翻訳するコンテンツを収集し、翻訳プロセスを準備するために、[翻訳プロジェクト ](https://experienceleague.adobe.com/docs/experience-manager-65/administering/introduction/tc-manage.html?lang=ja)を作成します。
+1. 翻訳するコンテンツを収集し、翻訳プロセスを準備するために、[翻訳プロジェクト &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/administering/introduction/tc-manage.html?lang=ja)を作成します。
 
-1. 翻訳プロジェクトを使用して、[ コンテンツ翻訳](https://experienceleague.adobe.com/docs/experience-manager-65/administering/introduction/tc-manage.html?lang=ja) プロセスを管理します。
+1. 翻訳プロジェクトを使用して、[&#x200B; コンテンツ翻訳](https://experienceleague.adobe.com/docs/experience-manager-65/administering/introduction/tc-manage.html?lang=ja) プロセスを管理します。
 
 >[!ENDTABS]
 

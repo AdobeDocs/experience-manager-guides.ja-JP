@@ -68,7 +68,7 @@ ht-degree: 1%
    1. Cloud Managerの左側のパネルで&#x200B;**Repositories**&#x200B;に移動します。
    2. 「**リポジトリ情報にアクセス**」を選択し、Git clone コマンドをコピーします。
 
-      ![ アクセス リポジトリ情報を選択](/help/product-guide/knowledge-base/kb-articles/assets/publishing/access-repo.png){width="350" align="left"}
+      ![&#x200B; アクセス リポジトリ情報を選択](/help/product-guide/knowledge-base/kb-articles/assets/publishing/access-repo.png){width="350" align="left"}
 
    3. 提供されたユーザー名とパスワードを使用して、リポジトリをローカルシステムに複製します（必要に応じてパスワードを生成します）。
 2. **パッケージをMaven バンドルに追加：**
@@ -86,7 +86,7 @@ ht-degree: 1%
    2. 次のフィルターを追加します：filter root=`/apps/fmdita` mode=`merge`/
 
 
-      ![ フィルターを追加](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-filter-xml.png){width="650" align="left"}
+      ![&#x200B; フィルターを追加](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-filter-xml.png){width="650" align="left"}
 
 
 4. **pom.xmlの設定：**&#x200B;環境要件に従ってpom.xml ファイルを更新します。
@@ -98,7 +98,7 @@ ht-degree: 1%
 >[!TAB  オンプレミス ]
 
 1. **コンポーネントパッケージをインストールします：**
-   1. [**CRX Package Manager**](http://<your-aem-instance>/crx/packmgr)に移動します。
+   1. [**CRX Package Manager**](http://&lt;your-aem-instance>/crx/packmgr)に移動します。
    2. on-prem-guides-components.all-1.x.0.zip パッケージをアップロードしてインストールします。
 
 2. **Sites パッケージをインストール：** CRX Package Managerを使用して、aemg-docs.all-1.x.0.zip パッケージをアップロードしてインストールします。
@@ -140,7 +140,7 @@ ht-degree: 1%
       - 公開パス：Cloud Service: `/content/AEMG-Docs-Site/en/docs/product`およびオンプレミス：`aemg-docs/en/docs/product1`
       - トピックページテンプレート：トピックページ
 
-      ![ サイト ドロップダウンを使用して、AEM サイトを設定します](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown-cs.png){width="350" align="left"}
+      ![&#x200B; サイト ドロップダウンを使用して、AEM サイトを設定します](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown-cs.png){width="350" align="left"}
 
    **オプション 2: サイト パスを使用**
 
@@ -149,11 +149,11 @@ ht-degree: 1%
 
       Cloud Service用：
 
-      ![ サイト パスを使用してAEM サイトを構成する](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path-cs.png){width="650" align="left"}
+      ![&#x200B; サイト パスを使用してAEM サイトを構成する](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path-cs.png){width="650" align="left"}
 
       オンプレミス用：
 
-      ![ サイトパスを使用](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path.png){width="350" align="left"}
+      ![&#x200B; サイトパスを使用](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path.png){width="350" align="left"}
 
 3. **プリセットを保存：** プリセットに加えた変更を保存します。
 
@@ -171,11 +171,11 @@ ht-degree: 1%
 
    4. 「**ホームページ**」タイルを選択し、「**次へ**」を選択します。
 
-      ![ ホームタイルを選択](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-tile-cs.png){width="650" align="left"}
+      ![&#x200B; ホームタイルを選択](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-tile-cs.png){width="650" align="left"}
 
    5. ページの&#x200B;**タイトル**&#x200B;と&#x200B;**名前**&#x200B;を入力します。
    6. 「**作成**」を選択します。
 
 >[!NOTE]
 >
-> Cloud Service設定の場合は、実稼動環境にデプロイする前に、すべての設定が非実稼動環境でテストされていることを確認します。 <br><br>詳細については、[AEM as a Cloud Serviceへのデプロイに関する公式ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview)を参照してください。
+> Cloud Service設定の場合は、実稼動環境にデプロイする前に、すべての設定が非実稼動環境でテストされていることを確認します。 <br><br>詳細については、[AEM as a Cloud Serviceへのデプロイに関する公式ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview)を参照してください。

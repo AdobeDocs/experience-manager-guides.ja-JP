@@ -32,7 +32,7 @@ Experience Manager as a Cloud Service を使用すると、チームは製品ア
 
 ## 移行プロセス
 
-**コンテンツ転送ツール**は、Adobeによって開発されたツールで、ソース Adobe Experience Manager オンプレミスまたはManaged Services インスタンスからターゲット Experience Manager Cloud Service インスタンスへの既存のコンテンツの移行を開始するために使用できます。
+**コンテンツ転送ツール**&#x200B;は、Adobeによって開発されたツールで、ソース Adobe Experience Manager オンプレミスまたはManaged Services インスタンスからターゲット Experience Manager Cloud Service インスタンスへの既存のコンテンツの移行を開始するために使用できます。
 プリンシパル（ユーザーやグループ）も自動的に転送されます。
 
 **コンテンツ転送ツール**&#x200B;をZIP ファイルとして&#x200B;**ソフトウェア配布** ポータルからダウンロードできます。
@@ -41,9 +41,9 @@ Experience Manager as a Cloud Service を使用すると、チームは製品ア
 1. **コンテンツ転送ツール**&#x200B;を検索します。
 1. リストから&#x200B;**コンテンツ転送ツール**&#x200B;を選択してダウンロードします。
 
-![ コンテンツ転送ツールのダウンロード ](./assets/content-transfer-tool-software-portal.png)
-次に、**Package Manager**を介してパッケージをソース Adobe Experience Manager インスタンスにインストールします。 必ず最新バージョンをダウンロードしてください。
-最新バージョンについて詳しくは、[ リリースノート ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=en)を参照してください。
+![&#x200B; コンテンツ転送ツールのダウンロード &#x200B;](./assets/content-transfer-tool-software-portal.png)
+次に、**Package Manager**&#x200B;を介してパッケージをソース Adobe Experience Manager インスタンスにインストールします。 必ず最新バージョンをダウンロードしてください。
+最新バージョンについて詳しくは、[&#x200B; リリースノート &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=en)を参照してください。
 
 >[!NOTE]
 > 
@@ -60,17 +60,17 @@ Experience Manager Guides コンテンツをExperience Manager as a Cloud Servic
    ![experience manager](./assets/migration-experience-manager.png)
 
 
-1. **Cloud Acceleration Manager** タイルの&#x200B;**Launch**をクリックします。
+1. **Cloud Acceleration Manager** タイルの&#x200B;**Launch**&#x200B;をクリックします。
    ![cloud acceleration manager](./assets/migration-experience-manager-cloud.png)
 
 1. 最初のプロジェクトを作成します。
-   ![ プロジェクトを作成](./assets/migration-cloud-create-project.png)
+   ![&#x200B; プロジェクトを作成](./assets/migration-cloud-create-project.png)
 
 1. 名前と説明を追加し、**作成**&#x200B;をクリックします。 プロジェクトが作成されます。
 1. 作成したプロジェクトを選択し、プロジェクト画面を開きます。
 1. 「**コンテンツ転送**」タイルの「**レビュー**」をクリックします。
 
-   ![ コンテンツ転送のレビュー](./assets/migration-content-transfer-review.png)
+   ![&#x200B; コンテンツ転送のレビュー](./assets/migration-content-transfer-review.png)
 
 1. **移行セットの作成**&#x200B;をクリックします。
 
@@ -87,7 +87,7 @@ Experience Manager Guides コンテンツをExperience Manager as a Cloud Servic
    ![抽出キー](./assets/migration-copy-to-clipboard.png)
 
 1. 上部の&#x200B;**Adobe Experience Manager**&#x200B;を選択し、**ソフトウェア配布** タイルを選択します。
-   ![ ソフトウェア配布ポータル ](./assets/migration-software-portal.png)
+   ![&#x200B; ソフトウェア配布ポータル &#x200B;](./assets/migration-software-portal.png)
 
 
 1. **Software Distribution** ポータルで、「**Adobe Experience Manager as the Cloud Service**」タブを選択し、「content transfer tool」を検索して、content transfer tool パッケージをダウンロードします。
@@ -96,8 +96,8 @@ Experience Manager Guides コンテンツをExperience Manager as a Cloud Servic
    >
    >  必ず最新バージョンをダウンロードしてください。
 
-1. オンプレミスインスタンスの`content-transfer.all-3.0.10.zip` パッケージマネージャー&#x200B;**にパッケージ**をアップロードしてインストールします。
-   ![ コンテンツ転送ツールのダウンロード ](./assets/content-transfer-tool-software-portal.png)
+1. オンプレミスインスタンスの`content-transfer.all-3.0.10.zip` パッケージマネージャー&#x200B;**にパッケージ**&#x200B;をアップロードしてインストールします。
+   ![&#x200B; コンテンツ転送ツールのダウンロード &#x200B;](./assets/content-transfer-tool-software-portal.png)
 
 
 1. オンプレミスインスタンスで、**ツール** > **操作** > **コンテンツ移行** > **コンテンツ転送**&#x200B;を選択します。
@@ -108,11 +108,11 @@ Experience Manager Guides コンテンツをExperience Manager as a Cloud Servic
 1. 「**バージョンを含める**」オプションを有効にして、ファイルバージョンを含めます。
    ![](./assets/migration-create-migration-set.png)
 
-1. 移行するパスを指定し、**保存**をクリックします。
+1. 移行するパスを指定し、**保存**&#x200B;をクリックします。
 例：`/content/sites`
 または
    `/content/dam/tech-docs`
-   ![含まれるパス ](./assets/migration-included-paths.png)
+   ![含まれるパス &#x200B;](./assets/migration-included-paths.png)
 
 
 
@@ -130,10 +130,10 @@ Experience Manager Guides コンテンツをExperience Manager as a Cloud Servic
    * `/etc` CTTで`/etc`個のパスを選択できます。
 
 1. 「**保存**」をクリックします。
-1. **移行セット**&#x200B;を選択し、上部の&#x200B;**抽出**を選択します。
+1. **移行セット**&#x200B;を選択し、上部の&#x200B;**抽出**&#x200B;を選択します。
    ![移行セット抽出](./assets/migration-extract.png)
 
-1. 選択したパスと設定の&#x200B;**移行セット抽出** ポップアップで詳細を確認し、**抽出**をクリックします。 抽出には数分かかり、ステータスが更新済みとして表示されます。
+1. 選択したパスと設定の&#x200B;**移行セット抽出** ポップアップで詳細を確認し、**抽出**&#x200B;をクリックします。 抽出には数分かかり、ステータスが更新済みとして表示されます。
    ![移行セット抽出](./assets/migration-set-extraction.png)
 
 1. 抽出が完了し、ステータス `finished`が表示されたら、Cloud Acceleration Managerに移動し、手順18で作成したプロジェクトを選択します。
@@ -145,7 +145,7 @@ Experience Manager Guides コンテンツをExperience Manager as a Cloud Servic
 
 
 1. **取り込みジョブ** > **新しい取り込み**&#x200B;をクリックします。
-1. 必要なチェックマーク値を確認し、**作成**をクリックします。
+1. 必要なチェックマーク値を確認し、**作成**&#x200B;をクリックします。
    ![移行チェックの承認](./assets/migration-new-ingestion-acknowledge.png)
 
 1. 移行セットを選択し、環境に必要なサーバーを選択して、**Ingest**&#x200B;をクリックします。
@@ -183,7 +183,7 @@ Experience Manager Guides コンテンツをExperience Manager as a Cloud Servic
 `casstorageprod.blob.core.windows.net`
 
 
-![ssl ログ ](./assets/migration-ssl-logging.png)
+![ssl ログ &#x200B;](./assets/migration-ssl-logging.png)
 
 
 *SSL ログを有効にします。*

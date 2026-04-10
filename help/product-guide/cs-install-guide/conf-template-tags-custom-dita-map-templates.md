@@ -25,7 +25,7 @@ AEM Guidesには、DITA マップとBookmapという2つのマップテンプレ
 
    >[!NOTE]
    >
-   > トピックまたはマップテンプレートを保存するカスタム場所を設定するには、[ カスタム DITA テンプレートフォルダーパスの設定](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z)を参照してください
+   > トピックまたはマップテンプレートを保存するカスタム場所を設定するには、[&#x200B; カスタム DITA テンプレートフォルダーパスの設定](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z)を参照してください
 
 1. **作成** \> **DITA テンプレート**&#x200B;をクリックします。
 
@@ -72,4 +72,4 @@ DITA マップ内の参照数に基づいて、非同期処理のしきい値を
 
 これを防ぐには、タスクを並行して実行し、より大きなDITA マップの処理時間を短縮できるように、XmlEditorConfigで&#x200B;**非同期DITA マップ作成**&#x200B;を設定します。
 
-**親トピック：** [ トピックとマップテンプレートの設定](conf-template-tags.md)
+**親トピック：** [&#x200B; トピックとマップテンプレートの設定](conf-template-tags.md)

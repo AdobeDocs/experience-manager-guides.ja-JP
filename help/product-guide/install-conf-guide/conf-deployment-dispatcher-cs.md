@@ -17,7 +17,7 @@ ht-degree: 4%
 
 ## Experience Manager Guides as a Cloud Serviceのデプロイ
 
-まず、Cloud Managerを介してExperience Manager Guidesをデプロイします。 モジュールをデプロイするには、[AEM Guides as a Cloud Service デプロイメント ](../release-info/deploy-xml-on-aemaacs.md)に記載されている手順に従います。
+まず、Cloud Managerを介してExperience Manager Guidesをデプロイします。 モジュールをデプロイするには、[AEM Guides as a Cloud Service デプロイメント &#x200B;](../release-info/deploy-xml-on-aemaacs.md)に記載されている手順に従います。
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ Experience Manager Guides ソリューションの自動プロビジョニング
 
 ## Dispatcher を設定します
 
-Dispatcher は、Adobe Experience Manager のキャッシュやロードバランシングを管理するツールです。詳しくは、[ クラウド内のDispatcher](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html?lang=en)を参照してください。
+Dispatcher は、Adobe Experience Manager のキャッシュやロードバランシングを管理するツールです。詳しくは、[&#x200B; クラウド内のDispatcher](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html?lang=en)を参照してください。
 
 1. AMSからCloud ServiceへのDispatcher設定の移行については、[AMSからAEM as a Cloud ServiceへのDispatcher設定の移行](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/ams-aem.html?lang=en)を参照してください。
 1. Dispatcherの設定方法について詳しくは、[Dispatcherの設定](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=ja)を参照してください。

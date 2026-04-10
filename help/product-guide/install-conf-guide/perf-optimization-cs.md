@@ -15,7 +15,7 @@ ht-degree: 0%
 
 パフォーマンスを最適化するには、次の点を考慮する必要があります。
 
-- コンテンツとインデックス作成のエクスペリエンスを最適化するには、AEM ドキュメントの「[ コンテンツ検索とインデックス作成を最適化](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html?lang=ja)」を参照してください。
+- コンテンツとインデックス作成のエクスペリエンスを最適化するには、AEM ドキュメントの「[&#x200B; コンテンツ検索とインデックス作成を最適化](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html?lang=ja)」を参照してください。
 
 - 公開用にカスタム DITA-OTを使用している場合に、Xerces Jarにパッチを適用します。 ユースケースに応じて、これは必須の設定です。 この変更は、出力の公開にカスタム DITA-OTを使用する場合にのみ必要です。
 

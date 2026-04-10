@@ -82,4 +82,4 @@ AEM GuidesでDispatcherを使用する場合、オーサーインスタンスの
                 }
 ```
 
-**親トピック：**[ ダウンロードしてインストール ](download-install.md)
+**親トピック：**&#x200B;[&#x200B; ダウンロードしてインストール &#x200B;](download-install.md)

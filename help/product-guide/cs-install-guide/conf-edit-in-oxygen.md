@@ -29,4 +29,4 @@ AEM Guidesでは、Oxygen コネクタプラグインでDITA トピックとDITA
 >
 > この設定はデフォルトで無効になっており、このオプションはWeb エディターでは使用できません。
 
-**親トピック：**[ Web エディターのカスタマイズ ](conf-web-editor.md)
+**親トピック：**&#x200B;[&#x200B; Web エディターのカスタマイズ &#x200B;](conf-web-editor.md)

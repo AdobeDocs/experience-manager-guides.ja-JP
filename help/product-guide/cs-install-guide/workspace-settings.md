@@ -40,7 +40,7 @@ ht-degree: 0%
 ![](assets/workspace-settings.png){width="350" align="left"}
 
 - **AI アシスタント**
-これを選択して、Experience Manager Guidesの[AI アシスタント ](../user-guide/ai-assistant.md)機能を有効にします。 この機能を無効にするには、選択を解除します。
+これを選択して、Experience Manager Guidesの[AI アシスタント &#x200B;](../user-guide/ai-assistant.md)機能を有効にします。 この機能を無効にするには、選択を解除します。
 
   **AI アシスタント**&#x200B;切り替えスイッチを有効にした後、次に示すように、**オーサリングクイックアクション** メニューを使用して、作成者の&#x200B;**オーサリングタブ**&#x200B;に表示されるオプションを設定できます。\
   これらの変更は、作業中の特定のフォルダープロファイルに適用されます。 新しいフォルダープロファイルを作成すると、デフォルトで&#x200B;**Global** フォルダープロファイルで定義されているWorkspace設定が継承されます。 これらの設定は、**Workspace設定**&#x200B;を使用して必要に応じて変更し、更新された設定を保存できます。\
@@ -77,11 +77,11 @@ ht-degree: 0%
    - **条件パネルで件名スキームを表示**：条件パネルで件名スキームを表示するには、これを選択します。 これを選択解除すると、定義された条件が条件パネルに表示されます。
 
 - **スペルチェック**
-選択肢は2つあります。**AEM スペルチェック**&#x200B;と&#x200B;**ブラウザーのスペルチェック**。 デフォルトでは、エディターはブラウザーのスペルチェック機能を使用します。スペルチェックは、ブラウザーの組み込み辞書を使用して実行されます。 AEM スペルチェックに切り替えて、Adobe Experience Managerの辞書を使用できます。また、カスタム単語リストを追加するようにカスタマイズすることもできます。 AEM ディクショナリのカスタマイズについて詳しくは、「AEM as a Cloud Serviceのインストールと設定」の「[Adobe Experience Manager Guidesのデフォルトディクショナリをカスタマイズ ](../cs-install-guide/customize-aem-custom-dictionary.md)」セクションを参照してください。
+選択肢は2つあります。**AEM スペルチェック**&#x200B;と&#x200B;**ブラウザーのスペルチェック**。 デフォルトでは、エディターはブラウザーのスペルチェック機能を使用します。スペルチェックは、ブラウザーの組み込み辞書を使用して実行されます。 AEM スペルチェックに切り替えて、Adobe Experience Managerの辞書を使用できます。また、カスタム単語リストを追加するようにカスタマイズすることもできます。 AEM ディクショナリのカスタマイズについて詳しくは、「AEM as a Cloud Serviceのインストールと設定」の「[Adobe Experience Manager Guidesのデフォルトディクショナリをカスタマイズ &#x200B;](../cs-install-guide/customize-aem-custom-dictionary.md)」セクションを参照してください。
 
 - **学習コンテンツ**：この設定を使用すると、Experience Manager Guides インスタンスの製品トレーニングおよび学習コンテンツ機能を有効または無効にできます。 フォルダープロファイルレベルで機能を有効または無効にするには、**学習コンテンツを有効にする** トグルを使用します。 デフォルトでは、この機能はすべてのインスタンスで無効のままです。
 
-  [製品トレーニングと学習コンテンツ ](../learning-content/intro.md)機能について詳しく説明します。
+  [製品トレーニングと学習コンテンツ &#x200B;](../learning-content/intro.md)機能について詳しく説明します。
 
   次の機能/オプションは、学習コンテンツ設定が有効になっている場合にのみ使用できます。
 
@@ -91,14 +91,14 @@ ht-degree: 0%
 
 学習コンテンツが無効になっている場合、上記のオプションはすべてExperience Manager Guides インターフェイスで使用できなくなります。
 
-詳しくは、[ フォルダープロファイルの設定](../lc-config-guide/lc-folder-profile.md)を参照してください。
+詳しくは、[&#x200B; フォルダープロファイルの設定](../lc-config-guide/lc-folder-profile.md)を参照してください。
 
 - **HTML エディター**：学習コンテンツの場合、この設定を使用すると、HTML ベースのオーサリング用にエディターを設定できます。 この設定に含まれる主な設定オプションは次のとおりです。
 
    - **インラインスタイル設定を非表示**：作成者がコースコンテンツにインラインフォーマットを適用できないようにするには、このオプションを有効にします。 このオプションを有効にすると、エディターの右側のパネルにあるフォント、境界線、レイアウト、背景、列などのインラインスタイル設定オプションが作成者に対して非表示のままになります。 ただし、作成者は、**スタイル** パネルで使用できるグローバルクラスベースのスタイルオプションを引き続き使用できます。 これにより、組織のスタイルガイドラインとの一貫性を維持できます。
    - **作成者のSource ビューを非表示**:HTML ソースコードへのアクセスを制限するには、このオプションを有効にします。 これは、編集エクスペリエンスを簡素化したり、基礎となるコードを誤って変更しないようにしたりする場合に便利です。
 
-  詳しくは、[学習コンテンツの作成とカスタマイズ ](../learning-content/lc-overview.md)を参照してください。
+  詳しくは、[学習コンテンツの作成とカスタマイズ &#x200B;](../learning-content/lc-overview.md)を参照してください。
 
 ## パネル
 
@@ -170,7 +170,7 @@ ht-degree: 0%
 
    - Salesforce プロファイルを作成するには、**Server type** ドロップダウンから&#x200B;**Salesforce** Knowledge Baseを選択します。 プロファイル名を入力します。 **サイト URL**&#x200B;に、出力の公開に使用するコンシューマーサイトを入力し、Salesforce コンシューマーサイトから提供された&#x200B;**Consumer Key**&#x200B;および&#x200B;**Consumer Secret**&#x200B;を追加します。 次に、**新しく作成したプロファイルを**&#x200B;検証し、**保存**&#x200B;します。
 
-     ![ ワークスペース設定のsalesforce公開プロファイル ](../user-guide/images/salesforce-publish-profile.png){width="550" align="left"}
+     ![&#x200B; ワークスペース設定のsalesforce公開プロファイル &#x200B;](../user-guide/images/salesforce-publish-profile.png){width="550" align="left"}
 
      >[!NOTE]
      >
@@ -195,11 +195,11 @@ ht-degree: 0%
 
 - プロファイルを作成するには、**Server type** ドロップダウンからServiceNow Knowledge Baseを選択します。 プロファイル **名前**&#x200B;を入力します。 **ServiceNow URL**&#x200B;に、出力の公開に使用するコンシューマーサイトを入力し、ServiceNow コンシューマーサイトから提供される&#x200B;**ユーザー名**&#x200B;と&#x200B;**パスワード**&#x200B;を追加します。 次に、**新しく作成したプロファイルを**&#x200B;検証し、**保存**&#x200B;します。
 
-  ![ServiceNow パブリッシュプロファイル ](../user-guide/images/service-now-publish-profile.png){width="550" align="left"}
+  ![ServiceNow パブリッシュプロファイル &#x200B;](../user-guide/images/service-now-publish-profile.png){width="550" align="left"}
 
   検証後、DITA マップの出力プリセットで公開プロファイルを選択し、それを使用して、選択した&#x200B;**Salesforce**&#x200B;または&#x200B;**ServiceNow** サーバーに出力を生成できます。
 
-  [ ナレッジベース ](../user-guide/generate-output-knowledge-base.md)出力プリセットについて詳しく説明します。
+  [&#x200B; ナレッジベース &#x200B;](../user-guide/generate-output-knowledge-base.md)出力プリセットについて詳しく説明します。
 
 
 ## 検証
@@ -213,13 +213,13 @@ ht-degree: 0%
   >- 選択したSchematron ファイルは、選択したフォルダープロファイルに対して保持されます。
   >- 無効なSchematron ファイルが追加されると、次に示すように、エラーメッセージが表示されます。
 
-  ![ ワークスペース設定での検証](../user-guide/images/editor-setting-validation-error.png){width="550" align="left"}
+  ![&#x200B; ワークスペース設定での検証](../user-guide/images/editor-setting-validation-error.png){width="550" align="left"}
 
   これにより、選択したSchematron ファイルで定義されたルールを破るファイルをユーザーが保存できなくなります。 これが選択されていない場合、変更を保存する前にファイルが検証されません。
 
 - **すべてのユーザーが検証パネルにスキーマトロンファイルを追加することを許可する**：これを選択すると、ユーザーはエディターの検証パネルにスキーマトロンファイルを追加できます。 これにより、ユーザーはSchematron ファイルを追加し、Schematron ファイルに対してトピックを検証できます。 これを選択しない場合、エディターの&#x200B;**検証パネル**&#x200B;のユーザーは、スキーマトロンファイル **スキーマトロンファイル**&#x200B;を追加するオプションを利用できません。
 
-  ![ ワークスペース設定での検証](../user-guide/images/editor-setting-validation.png){width="550" align="left"}
+  ![&#x200B; ワークスペース設定での検証](../user-guide/images/editor-setting-validation.png){width="550" align="left"}
 
 
 ## 表示属性
@@ -252,7 +252,7 @@ ht-degree: 0%
       >
       > **表示の切り替え**&#x200B;から&#x200B;**表示の切り替え**&#x200B;の切り替え。一部の言語のみを表示します。
 
-   1. グループ内の言語にカーソルを合わせて![編集アイコン ](../user-guide/images/edit_pencil_icon.svg)を編集するか、言語グループを![削除](../user-guide/images/Delete_icon.svg)します。
+   1. グループ内の言語にカーソルを合わせて![編集アイコン &#x200B;](../user-guide/images/edit_pencil_icon.svg)を編集するか、言語グループを![削除](../user-guide/images/Delete_icon.svg)します。
    1. **設定**&#x200B;を保存します。
 
       >[!NOTE]
@@ -275,11 +275,11 @@ ht-degree: 0%
 メタデータパスが空白の場合は、エラーが表示されます。 ラベルを空白のままにすると、最後の要素がラベルとして選択されます。
 
 
-ワークスペース設定の「![ メタデータ」タブ ](../user-guide/images/editor-setting-metadata.png){width="550" align="left"}
+ワークスペース設定の「![&#x200B; メタデータ」タブ &#x200B;](../user-guide/images/editor-setting-metadata.png){width="550" align="left"}
 
 *バージョン履歴&#x200B;**ダイアログボックスのメタデータを設定します。***
 
 
 
 これらのメタデータタグを表示する順序を定義することもできます。 これらのタグのデフォルトの順序を変更するには、点線バーを選択して、タグを目的の場所にドラッグ&amp;ドロップします。
-メタデータラベルは、エディターの**バージョン履歴** ダイアログボックスに同じ順序で表示されます。
+メタデータラベルは、エディターの&#x200B;**バージョン履歴** ダイアログボックスに同じ順序で表示されます。

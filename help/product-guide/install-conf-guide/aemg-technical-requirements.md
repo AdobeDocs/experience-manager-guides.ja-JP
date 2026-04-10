@@ -24,7 +24,7 @@ AEM Guidesは、Adobe Software Distribution Portalを通じて利用できます
 
 >[!NOTE]
 >
-> [Experience Manager Guides リリースの詳細とビルド ](../release-info/latest-release-info.md)のダウンロード。
+> [Experience Manager Guides リリースの詳細とビルド &#x200B;](../release-info/latest-release-info.md)のダウンロード。
 
 
 | [!DNL AEM Guides] リリース | 技術仕様 |

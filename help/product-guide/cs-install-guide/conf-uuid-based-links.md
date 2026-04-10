@@ -23,4 +23,4 @@ ht-degree: 1%
 |---|------------|--------------|
 | `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.uuid` | ブール値\（true/false\）。 リンクされたコンテンツの相対パスを表示する場合は、このプロパティをfalseに設定します。<br> **デフォルト値**: true |
 
-**親トピック：**[ Web エディターのカスタマイズ ](conf-web-editor.md)
+**親トピック：**&#x200B;[&#x200B; Web エディターのカスタマイズ &#x200B;](conf-web-editor.md)

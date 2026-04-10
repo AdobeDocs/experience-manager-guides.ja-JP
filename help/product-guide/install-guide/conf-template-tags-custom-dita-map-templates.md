@@ -25,7 +25,7 @@ AEM Guidesには、DITA マップとBookmapという2つのマップテンプレ
 
    >[!NOTE]
    >
-   > トピックまたはマップテンプレートを保存するカスタム場所を設定するには、[ カスタム DITA テンプレートフォルダーパスの設定](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z)を参照してください
+   > トピックまたはマップテンプレートを保存するカスタム場所を設定するには、[&#x200B; カスタム DITA テンプレートフォルダーパスの設定](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z)を参照してください
 
 1. **作成** \> **DITA テンプレート**&#x200B;をクリックします。
 
@@ -56,4 +56,4 @@ AEM Guidesには、DITA マップとBookmapという2つのマップテンプレ
 >
 > カスタムマップテンプレートの使用に関するベストプラクティスについては、ベストプラクティスガイドの「*カスタムテンプレート*」の節を参照してください。
 
-**親トピック：** [ トピックとマップテンプレートの設定](conf-template-tags.md)
+**親トピック：** [&#x200B; トピックとマップテンプレートの設定](conf-template-tags.md)

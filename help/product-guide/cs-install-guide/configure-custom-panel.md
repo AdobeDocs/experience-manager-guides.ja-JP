@@ -59,4 +59,4 @@ tcx.ready(function () { //Ready will call the callback after editor code is set 
 });
 ```
 
-**親トピック：**[ Web エディターのカスタマイズ ](conf-web-editor.md)
+**親トピック：**&#x200B;[&#x200B; Web エディターのカスタマイズ &#x200B;](conf-web-editor.md)
