@@ -24,17 +24,17 @@ ht-degree: 10%
 
 コンテンツの翻訳には次の手順が含まれます。
 
-1. AEMを[翻訳サービスプロバイダー](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)に接続し、翻訳統合フレームワーク設定を作成します。
+1. AEMを[翻訳サービスプロバイダー](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=ja)に接続し、翻訳統合フレームワーク設定を作成します。
 
 1. 言語マスターのページを翻訳サービスとフレームワーク設定に関連付けます。
 
-1. 翻訳する[&#x200B; コンテンツの種類](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/rules.html?lang=en)を特定します。
+1. 翻訳する[&#x200B; コンテンツの種類](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/rules.html?lang=ja)を特定します。
 
-1. [翻訳するコンテンツを準備](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html?lang=en)します。そのためには、言語マスターをオーサリングして、言語コピーのルートページを作成します。
+1. [翻訳するコンテンツを準備](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html?lang=ja)します。そのためには、言語マスターをオーサリングして、言語コピーのルートページを作成します。
 
-1. 翻訳するコンテンツを収集し、翻訳プロセスを準備するために、[翻訳プロジェクト &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en)を作成します。
+1. 翻訳するコンテンツを収集し、翻訳プロセスを準備するために、[翻訳プロジェクト &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=ja)を作成します。
 
-1. 翻訳プロジェクトを使用して、[&#x200B; コンテンツ翻訳](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en) プロセスを管理します。
+1. 翻訳プロジェクトを使用して、[&#x200B; コンテンツ翻訳](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=ja) プロセスを管理します。
 
 
 翻訳サービスプロバイダーがAEMとの統合にコネクタを提供しない場合、AEMでは、翻訳されたコンテンツのXML形式での手作業による書き出しと読み込みがサポートされます。
@@ -89,7 +89,7 @@ DITA マップダッシュボードの「翻訳」タブを非表示にするに
 
 >[!NOTE]
 >
-> 翻訳コネクタを使用している場合は、Adobe Experience Manager ドキュメントの「*[Translation Integration Frameworkの設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)*」のトピックで説明されているように、コネクタが設定されていることを確認してください。
+> 翻訳コネクタを使用している場合は、Adobe Experience Manager ドキュメントの「*[Translation Integration Frameworkの設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=ja)*」のトピックで説明されているように、コネクタが設定されていることを確認してください。
 
 >[!IMPORTANT]
 >

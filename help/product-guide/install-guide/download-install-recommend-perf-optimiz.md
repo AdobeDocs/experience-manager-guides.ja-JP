@@ -18,7 +18,7 @@ ht-degree: 0%
 ## データストアの設定\（必須\）
 
 **変更点は何ですか？**
-設定`minRecordLength`の下の`100` プロパティを`org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.`の値に設定します。ファイルの日付ストアとS3 データストアについて詳しくは、「[AEMでのノードストアとデータストアの設定」を参照してください。6](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/data-store-config.html)
+設定`minRecordLength`の下の`100` プロパティを`org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.`の値に設定します。ファイルの日付ストアとS3 データストアについて詳しくは、「[AEMでのノードストアとデータストアの設定」を参照してください。6](https://helpx.adobe.com/jp/experience-manager/6-5/sites/deploying/using/data-store-config.html)
 
 >[!NOTE]
 >

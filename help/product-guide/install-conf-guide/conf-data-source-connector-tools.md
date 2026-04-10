@@ -175,4 +175,4 @@ Generic REST Client、Salsify、Akeneo、Microsoft Azure DevOps Boards （ADO）
 
 データソースを設定すると、コネクタはWeb エディターの&#x200B;**データソースパネル**&#x200B;の下に表示されます。 次に、データソースに接続し、トピックにコンテンツスニペットを挿入します。 詳細については、[&#x200B; データソースからコンテンツスニペットを挿入](../user-guide/web-editor-content-snippet.md)を参照してください。
 
-オンプレミス設定の場合のみ、カスタムコネクタを作成し、様々なデータソースで使用することもできます。 カスタムコネクタを[設定](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/external-data-source/conf-custom-data-source-connector)する方法について説明します。
+オンプレミス設定の場合のみ、カスタムコネクタを作成し、様々なデータソースで使用することもできます。 カスタムコネクタを[設定](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/knowledge-base/kb-articles/external-data-source/conf-custom-data-source-connector)する方法について説明します。

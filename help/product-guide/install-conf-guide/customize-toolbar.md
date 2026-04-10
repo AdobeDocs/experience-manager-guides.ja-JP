@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 古いUIから新しいAEM Guides UI （AEM Guidesの2502および5.0 リリースから適用可能）に移行する場合、`ui_config`への更新を、より柔軟でモジュール化されたUI設定に変換する必要があります。 このフレームワークにより、editor_toolbarやその他のターゲットウィジェットに必要に応じてシームレスに変更を適用できます。 詳しくは、[UI構成の変換](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config)の概要を参照してください。
+> 古いUIから新しいAEM Guides UI （AEM Guidesの2502および5.0 リリースから適用可能）に移行する場合、`ui_config`への更新を、より柔軟でモジュール化されたUI設定に変換する必要があります。 このフレームワークにより、editor_toolbarやその他のターゲットウィジェットに必要に応じてシームレスに変更を適用できます。 詳しくは、[UI構成の変換](https://experienceleague.adobe.com/ja/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config)の概要を参照してください。
 
 Web エディターのツールバーをカスタマイズするには、次の2つの方法があります。
 

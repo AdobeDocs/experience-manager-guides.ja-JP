@@ -15,7 +15,7 @@ ht-degree: 0%
 
 この記事では、**Adobe Experience Manager Guides** バージョン **を4.6.0**&#x200B;より前（最大&#x200B;**4.4.0**&#x200B;を含む）にアップグレードする手順について説明します。
 
-3.8.5 **より前のバージョン**&#x200B;を使用している場合は、**Experience Manager Guides ヘルプのPDF アーカイブ**&#x200B;で入手できる製品固有のインストールガイドの[Adobe Experience Manager Guidesのアップグレード &#x200B;](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)の節を参照してください。
+3.8.5 **より前のバージョン**&#x200B;を使用している場合は、**Experience Manager Guides ヘルプのPDF アーカイブ**&#x200B;で入手できる製品固有のインストールガイドの[Adobe Experience Manager Guidesのアップグレード &#x200B;](https://helpx.adobe.com/jp/xml-documentation-for-experience-manager/archive.html)の節を参照してください。
 
 新しいリリースのアップグレード手順については、[&#x200B; バージョン 4.6.0以降のAdobe Experience Manager Guidesのアップグレード &#x200B;](./upgrade-aemg-latest-version.md)を参照してください。
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> このアップグレードプロセスは、**3.8.5**&#x200B;から&#x200B;**4.0**&#x200B;まで&#x200B;**のみ**&#x200B;適用できます。 **3.4以降**&#x200B;から&#x200B;**3.8.5**&#x200B;へのアップグレードについては、[Adobe Experience Manager Guides ヘルプ PDF アーカイブ &#x200B;](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)で入手できる製品固有のインストールガイドを参照してください。
+> このアップグレードプロセスは、**3.8.5**&#x200B;から&#x200B;**4.0**&#x200B;まで&#x200B;**のみ**&#x200B;適用できます。 **3.4以降**&#x200B;から&#x200B;**3.8.5**&#x200B;へのアップグレードについては、[Adobe Experience Manager Guides ヘルプ PDF アーカイブ &#x200B;](https://helpx.adobe.com/jp/xml-documentation-for-experience-manager/archive.html)で入手できる製品固有のインストールガイドを参照してください。
 
 Experience Manager Guides バージョン **3.8.5**&#x200B;を使用している場合は、以前のバージョンをアンインストールせずにバージョン **4.0**&#x200B;にアップグレードできます。
 

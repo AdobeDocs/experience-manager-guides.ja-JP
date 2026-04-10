@@ -19,20 +19,20 @@ ht-degree: 4%
 
 AEMのワークフローについて詳しくは、次を参照してください。
 
-- [ワークフローの管理](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)
+- [ワークフローの管理](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/workflows.html)
 
-- ワークフローの適用とワークフローへの参加：[ワークフローの操作](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/workflows.html)。
+- ワークフローの適用とワークフローへの参加：[ワークフローの操作](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/workflows.html)。
 
-- ワークフローモデルの作成とワークフロー機能の拡張：[ワークフローの開発と拡張](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/workflows.html)。
+- ワークフローモデルの作成とワークフロー機能の拡張：[ワークフローの開発と拡張](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/workflows.html)。
 
-- 重要なサーバーリソースを使用するワークフローのパフォーマンスの向上：[ワークフローの同時処理](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance)
+- 重要なサーバーリソースを使用するワークフローのパフォーマンスの向上：[ワークフローの同時処理](https://helpx.adobe.com/jp/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance)
 
 
 このトピックでは、AEM Guidesに付属するデフォルトのワークフローで行えるさまざまなカスタマイズについて説明します。
 
 ## レビューワークフローをカスタマイズ {#id176NE0C00HS}
 
-あらゆる企業のコンテンツオーサリングチームは、ビジネス要件に対応するために特定の方法で作業しています。 一部の組織では専用のエディターを導入していますが、別の組織では自動化されたエディトリアルレビューシステムを導入している場合もあります。 例えば、一般的なオーサリングと公開のワークフローでは、作成者がコンテンツのオーサリングを行うたびに、レビュー担当者に自動的に送信され、レビューが完了すると、最終的な出力を生成するためにパブリッシャーに送信されます。 AEMでは、コンテンツとアセットに対して行ったアクティビティを、プロセスの形で組み合わせ、AEM ワークフローにマッピングできます。 AEMのワークフローについて詳しくは、AEM ドキュメントの[&#x200B; ワークフローの管理](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)を参照してください。
+あらゆる企業のコンテンツオーサリングチームは、ビジネス要件に対応するために特定の方法で作業しています。 一部の組織では専用のエディターを導入していますが、別の組織では自動化されたエディトリアルレビューシステムを導入している場合もあります。 例えば、一般的なオーサリングと公開のワークフローでは、作成者がコンテンツのオーサリングを行うたびに、レビュー担当者に自動的に送信され、レビューが完了すると、最終的な出力を生成するためにパブリッシャーに送信されます。 AEMでは、コンテンツとアセットに対して行ったアクティビティを、プロセスの形で組み合わせ、AEM ワークフローにマッピングできます。 AEMのワークフローについて詳しくは、AEM ドキュメントの[&#x200B; ワークフローの管理](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/workflows.html)を参照してください。
 
 AEM Guidesでは、デフォルトのレビューワークフローをカスタマイズできます。 次の4つのカスタムレビュー関連プロセスを、他のオーサリングワークフローまたは公開ワークフローで使用できます。
 

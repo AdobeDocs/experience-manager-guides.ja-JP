@@ -15,9 +15,9 @@ ht-degree: 19%
 
 # Dispatcher の設定 {#id213BCM0M05U}
 
-Dispatcher は、Adobe Experience Manager のキャッシュやロードバランシングを管理するツールです。詳しくは、[&#x200B; クラウド内のDispatcher](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html?lang=en)を参照してください。
+Dispatcher は、Adobe Experience Manager のキャッシュやロードバランシングを管理するツールです。詳しくは、[&#x200B; クラウド内のDispatcher](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html?lang=ja)を参照してください。
 
-1. AMSからCloud ServiceへのDispatcher設定の移行については、[AMSからAEM as a Cloud ServiceへのDispatcher設定の移行](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/ams-aem.html?lang=en)を参照してください。
+1. AMSからCloud ServiceへのDispatcher設定の移行については、[AMSからAEM as a Cloud ServiceへのDispatcher設定の移行](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/ams-aem.html?lang=ja)を参照してください。
 1. Dispatcherの設定方法について詳しくは、[Dispatcherの設定](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=ja)を参照してください。
 
 >[!NOTE]
