@@ -1,26 +1,25 @@
 ---
 title: オンプレミス用Experience Manager Guidesのエディター設定
-description: オンプレミス用Experience Manager Guidesのエディターインターフェイスで使用できる様々な設定について説明します
+description: Experience Manager Guides オンプレミス版のエディターインターフェイスで使用できる様々な設定について説明します
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: a7a9c23f752082115aacd0884193c3aec2d45ba5
+exl-id: c6767c75-0b53-4bde-9c7f-7ae1cd9b5076
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '78'
 ht-degree: 0%
 
 ---
 
-# エディター設定の指定
+# エディターの設定
 
-オンプレミス設定では、「**設定**」オプションがエディターのタブバーに表示されます。 Cloud Serviceの設定で、このオプションの名前は **Workspace settings** に変更されました。
+オンプレミス設定では、エディターのタブバーに「**設定**」オプションが表示されます。 Cloud Service設定では、このオプションの名前が&#x200B;**Workspace settings**&#x200B;に変更されました。
 
-**エディター設定** で使用できる既存の設定オプションはすべて変更されません。
-
-
-![&#x200B; オンプレミスのエディター設定 &#x200B;](assets/editor-settings-on-prem.png){width="650" align="left"}
+**エディター設定**&#x200B;で使用できる既存の設定オプションはすべて変更されません。
 
 
-使用可能な設定オプションについては、[Workspace設定の指定 &#x200B;](../cs-install-guide/workspace-settings.md) を参照してください。
+オンプレミス ![の](assets/editor-settings-on-prem.png){width="650" align="left"} エディター設定
 
 
-
+使用可能な設定オプションについて詳しくは、[Workspace設定の設定](../cs-install-guide/workspace-settings.md)を参照してください。

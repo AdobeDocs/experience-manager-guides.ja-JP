@@ -1,39 +1,40 @@
 ---
-title: 環境へ  [!DNL Experience Manager Guides]  追加方法  [!DNL Experience Manager as a Cloud Service]
-description: 環境に  [!DNL AEM Guides]  を追加する方法を説明  [!DNL AEM as a Cloud Service]  ます
+title: ' [!DNL Experience Manager Guides] 環境に [!DNL Experience Manager as a Cloud Service] を追加する方法'
+description: ' [!DNL AEM Guides] 環境に [!DNL AEM as a Cloud Service] を追加する方法について説明します'
 exl-id: a1e020c2-360c-4d71-b5fd-8179d9ceacda
 feature: Installation
 role: Leader
-source-git-commit: 1b25f1df67fa2442ab79830dc2ac5a6eabd0394c
+hidefromtoc: true
+source-git-commit: 55edd53d1dda7a68352e53b2e59eafd15b677fdd
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Experience Manager Guides] のas a Cloud Serviceな導入
+# [!DNL Adobe Experience Manager Guides] as a Cloud Service デプロイメント
 
-[!DNL Experience Manager as a Cloud Service] 環境に [!DNL Experience Manager Guides] を追加する方法を説明します。
+[!DNL Experience Manager Guides]を[!DNL Experience Manager as a Cloud Service]環境に追加する方法について説明します。
 
 
 >[!NOTE]
 >
-> 2024.2.0 リリース以降、Experience Manager Guidesは、Experience Manageras a Cloud Service向けの自動アドオンとしてのみ使用できます。 Experience Manager Guidesの手動デプロイメントを使用する場合は、プログラムに対してExperience Manager Guidesを有効にする前に、cloud manage git コードベースの行 `<module>dox.installer</module> from file dox/pom.xml` を削除してください。
+> 2024.2.0 リリース以降、Experience Manager GuidesはExperience Manager as a Cloud Serviceの自動アドオンとしてのみ使用できます。 Experience Manager Guidesの手動デプロイメントを使用する場合は、プログラムでExperience Manager Guidesを有効にする前に、Cloud manage Git コードベースの`<module>dox.installer</module> from file dox/pom.xml`行を削除してください。
 
-1. [!UICONTROL Cloud Manager] にログインします。
+1. [!UICONTROL Cloud Manager]にログインします。
 
-1. [!DNL Experience Manager Guides] を設定するプログラムを編集します。
+1. [!DNL Experience Manager Guides]を設定するプログラムを編集します。
 
 1. 「**[!UICONTROL ソリューションとアドオン]**」タブに切り替えます。
 
-1. **[!UICONTROL ソリューションとアドオン]** テーブルで、**[!UICONTROL Assets]** をクリックします。
+1. **[!UICONTROL ソリューションとアドオン]**&#x200B;の表で、**[!UICONTROL Assets]**&#x200B;をクリックします。
 
-1. 「**[!UICONTROL ガイド]**」を選択し、「**[!UICONTROL 保存]**」を選択します。
+1. **[!UICONTROL ガイド]**&#x200B;を選択し、**[!UICONTROL 保存]**&#x200B;を選択します。
 
-Experience Manager Guides ソリューションの自動プロビジョニング用のプログラムが正常に設定されました。
+Experience Manager Guides ソリューションの自動プロビジョニング用にプログラムを正常に設定しました。
 
-![Experience Manager Guides ソリューションの設定 &#x200B;](assets/addon-configuration.png)
+![Experience Manager Guides ソリューションの設定](assets/addon-configuration.png)
 
 >[!NOTE]
 >
->統合プログラムの下の任意の環境に [!DNL Experience Manager Guides] をインストールするには、環境に関連付けられたパイプラインを実行する必要があります。 [!DNL Experience Manager Guides] をインストールするために、CM Git コードベースで追加の設定は必要ありません。
+>統合プログラムの任意の環境に[!DNL Experience Manager Guides]をインストールするには、環境に関連付けられたパイプラインを実行する必要があります。 [!DNL Experience Manager Guides]をインストールするために、CM Git コードベースに追加の設定は必要ありません。

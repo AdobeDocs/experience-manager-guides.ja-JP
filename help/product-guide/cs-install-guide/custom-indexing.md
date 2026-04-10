@@ -1,36 +1,37 @@
 ---
-title: カスタムインデックス作成デプロイメント
-description: コンテンツのカスタムインデックスを作成する方法を学ぶ
+title: カスタムインデックスのデプロイメント
+description: カスタムインデックスコンテンツの方法について説明します
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 682d58df-7404-4e84-9b5f-ab40c46bef84
-source-git-commit: 1bffdade37658bd44128cac9226a349f828abd45
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 3%
 
 ---
 
-# 検索と置換（Sourceビュー）機能のためのカスタムインデックスのデプロイ
+# 検索と置換（Source ビュー）機能のカスタムインデックスのデプロイ
 
 ## 概要
 
-このガイドでは、Adobe Experience Manager（AEM）as a Cloud Serviceに `guidesAssetLucene‑1‑custom‑1` カスタムインデックスをデプロイする手順を説明します。 オーサービューの標準の検索と置換の機能はこのインデックスなしでも機能しますが、Source ビューで検索と置換を有効にするには特にカスタムインデックスが必要です。 検索と置換（Source ビュー）を使用すると、表示されるオーサリング済みコンテンツだけでなく、基になる XML 構造（要素、タグ、属性値など）を検索できます。
+このガイドでは、Adobe Experience Manager（AEM）as a Cloud Serviceに`guidesAssetLucene‑1‑custom‑1` カスタムインデックスをデプロイする手順を説明します。 オーサービューの標準の「検索と置換」機能はこのインデックスなしで機能しますが、Source ビューで「検索と置換」を有効にするには、カスタムインデックスが特に必要です。 検索と置換（Source ビュー）を使用すると、表示されるオーサリング済みコンテンツだけでなく、要素、タグ、属性値などの基になるXML構造も検索できます。
 
 ## 前提条件
 
-インデックスのデプロイメントを進める前に、次が揃っていることを確認します。
+インデックスのデプロイメントを進める前に、次のことを確認してください。
 
-- AEM Guidesがインストールされた **AEM as a Cloud Service環境**
+- AEM Guidesがインストールされた&#x200B;**AEM as a Cloud Service環境**
 - **プロジェクトのコードベースへのアクセス** （Git リポジトリ）
-- **Cloud Manager アクセス** （展開権限あり）
+- デプロイメント権限を持つ&#x200B;**Cloud Manager アクセス**
 
-## インデックスの定義
+## インデックス定義
 
-検索と置換（Source ビュー）機能を有効にするには、**`guidesAssetLucene-1-custom-1`** という名前のカスタムインデックスを AEM Cloud Service 環境にデプロイする必要があります。
+検索と置換（Source ビュー）機能を有効にするには、**`guidesAssetLucene-1-custom-1`**&#x200B;という名前のカスタムインデックスをAEM Cloud Service環境にデプロイする必要があります。
 
-### インデックス名
+### 索引名
 
 ```
 guidesAssetLucene-1-custom-1
@@ -42,7 +43,7 @@ guidesAssetLucene-1-custom-1
 
 ### インデックス定義（.content.xml）
 
-プロジェクト内の次のインデックス定義をに作成します。
+次のインデックス定義を次の場所にプロジェクトに作成します。
 
 `ui.apps/src/main/content/jcr_root/_oak_index/guidesAssetLucene-1-custom-1/.content.xml`
 
@@ -170,55 +171,55 @@ guidesAssetLucene-1-custom-1
 
 ## デプロイメント手順
 
-カスタムインデックスをAEM as a Cloud Serviceにデプロイする手順について詳しくは、[&#x200B; コンテンツ検索とインデックス作成 – AEM as a Cloud Service](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/operations/indexing) を参照してください。
+AEM as a Cloud Serviceへのカスタムインデックスのデプロイについて詳しくは、[Content Search and Indexing - AEM as a Cloud Service](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/operations/indexing)を参照してください。
 
-### このインデックスの重要事項
+### この指数の重要ポイント
 
-デプロイメントガイドに従う場合は、検索と置換のインデックスに以下の詳細を使用します。
+デプロイメントガイドに従う場合は、「検索と置換」インデックスに次の詳細を使用します。
 
 - **インデックス名**: `guidesAssetLucene-1-custom-1`
-- **インデックスタイプ**：完全なカスタムインデックス（OOTB インデックスのカスタマイズではありません）
+- **索引の種類**：完全なカスタム インデックス （OOTB インデックスのカスタマイズではありません）
 - **場所**: `ui.apps/src/main/content/jcr_root/_oak_index/guidesAssetLucene-1-custom-1/.content.xml`
-- **パッケージプロパティは必須です**。
+- **パッケージのプロパティが必要**:
    - `noIntermediateSaves=true`
    - `allowIndexDefinitions=true`
 
 ## インデックス再作成
 
-インデックス再作成は、Cloud Managerの CI/CD パイプラインを通じてインデックスをデプロイする際に、AEM as a Cloud Serviceによって **自動的に** 処理されます。
+インデックスの再作成は、Cloud ManagerのCI/CD パイプラインを使用してインデックスをデプロイすると、AEM as a Cloud Serviceによって&#x200B;**自動的に**&#x200B;処理されます。
 
-インデックス作成は通常、自動的に処理されます。 ただし、正しいデプロイメントとインデックス作成プロセスの完了が完了しても、古いデータが検索不可能な場合は、インデックスの手動によるインデックス再作成を 1 回実行する必要があります。
+インデックス作成は通常、自動的に処理されます。 ただし、正しいデプロイメントとインデックス作成プロセスの完了後でも古いデータが検索できない場合は、インデックスの手動での再インデックス作成を1回実行する必要があります。
 
-### 期待される内容
+### 何を期待するか
 
-- インデックス作成ジョブは、デプロイメント後に自動的に開始されます。
-- 進行状況は、Cloud Manager ビルド ページで監視できます。
-- 環境は、インデックス作成時も完全に機能し続けます。
+- デプロイメント後、インデックス作成ジョブが自動的に開始されます。
+- 進行状況は、Cloud Manager ビルドページで確認できます。
+- インデックス作成中も、環境は完全に動作し続けます。
 
 ## 検証
 
-デプロイメントおよびインデックス作成が完了したら、インデックスが正しく動作していることを確認します。
+デプロイメントとインデックス作成の完了後、インデックスが正しく機能していることを確認します。
 
-### インデックスのデプロイメントの検証
+### インデックスのデプロイメントを確認
 
 開発環境で（CRXDE Liteが使用可能な場合）:
 
 1. `/oak:index/guidesAssetLucene-1-custom-1` に移動します。
-2. ノードが期待された設定で存在することを確認します。
+2. ノードが想定される設定で存在することを確認します。
 
 ### 検索と置換機能のテスト
 
-主な検証は、機能をテストすることです。
+主な検証は機能のテストです。
 
 1. AEM Guidesを開きます。
-2. **ツール**/**ガイド**/**リポジトリ内の検索と置換** に移動します。
-3. DITA ファイルまたは Markdown ファイル内のテキストの検索を設定します。
+2. **ツール** > **ガイド** > **リポジトリ内の検索と置換**&#x200B;に移動します。
+3. DITAまたはMarkdown ファイル内のテキストの検索を設定します。
 4. 検索結果が正しく返されることを確認します。
 5. テストファイルで置換機能をテストします。
 
 ## その他のリソース
 
-- [AEM as a Cloud Service インデックス作成ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/operations/indexing)
-- [Apache Jackrabbit Oak インデックスガイド &#x200B;](https://jackrabbit.apache.org/oak/docs/query/indexing.html)
-- [AEM Guides ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-guides)
+- [AEM as a Cloud Service インデックス作成ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/operations/indexing)
+- [Apache Jackrabbit Oak インデックス ガイド ](https://jackrabbit.apache.org/oak/docs/query/indexing.html)
+- [AEM Guides ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-manager-guides)
 - [Cloud Manager のドキュメント](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager)

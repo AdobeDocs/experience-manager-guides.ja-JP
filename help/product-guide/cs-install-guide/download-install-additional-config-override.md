@@ -1,11 +1,12 @@
 ---
 title: 設定の上書き
-description: 設定の上書き方法を学ぶ
+description: 設定の上書きの方法を説明します
 exl-id: dc5f81f7-5b0a-4d12-a944-ba66b0239d5c
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: e4b213b5f0efda18fb24f100f3ee8237947890bf
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
@@ -14,11 +15,11 @@ ht-degree: 0%
 
 # 設定の上書き {#id216IFC003XA}
 
-設定を更新する場合は、次の一般的なアプローチを使用する必要があります。
+設定を更新する場合は、次の汎用アプローチを使用する必要があります。
 
-1. Cloud Managerの Git リポジトリにアクセスします。
+1. Cloud ManagerのGit リポジトリにアクセスします。
 
-1. 次の場所に新しい JSON ファイルを作成します。
+1. 次の場所に新しいJSON ファイルを作成します。
 
    src/main/content/jcr\_root/apps/fmditaCustom/config/
 
@@ -26,7 +27,7 @@ ht-degree: 0%
 
    $\{PID\}.cfg.json
 
-   ここで、PID は設定のプロセス ID です。
+   ここでは、PIDは設定のプロセス IDです。
 
 1. 次の形式を使用して、JSON ファイルにプロパティを追加します。
 
@@ -38,31 +39,31 @@ ht-degree: 0%
    }
    ```
 
-1. 変更をコミットし、Cloud Manager パイプラインを実行して、更新された設定をデプロイします。
+1. 変更を確定し、Cloud Manager パイプラインを実行して、更新された設定をデプロイします。
 
-## Experience Manager Guides UI の設定
+## Experience Manager Guides UIの設定
 
-Adobe Experience Manager Guidesの 2025.02.0 リリースでは、UI の改訂と機能の強化により、以前よりも迅速かつ効率的に作業できるようになりました。 これには、まったく新しいホームページ、よりクリーンで整理されたエディターツールバー、専用のマップコンソール、拡張機能などが含まれます。
+Adobe Experience Manager Guides 2025.02.0 リリースでは、UIが刷新され、機能が強化され、これまで以上に迅速かつ効率的に作業できるようになりました。 これには、まったく新しいホームページ、よりクリーンで整理されたエディターツールバー、専用のマップコンソール、および強化された機能が含まれます。
 
-スムーズに移行し、中断を最小限に抑えるために、Experience Manager Guidesでは、必要に応じて古い UI に戻すことができる設定オプションを提供しています（逆も同様です）。
+スムーズな移行を実現し、中断を最小限に抑えるために、Experience Manager Guidesには、必要に応じて古いUIに切り替えることができる設定オプションが用意されています（逆も同様です）。
 
 >[!IMPORTANT]
 >
-> 新しい UI と古い UI を切り替えるこの設定オプションは、2025.4.0 リリースまでサポートされていました。 2025.6.0 リリースでは、この設定は非推奨（廃止予定）となり、古い UI に戻すために使用できなくなりました。
+> 新しいUIと古いUIを切り替えるこの設定オプションは、2025.4.0 リリースまでサポートされていました。 2025.6.0 リリースでは、この設定は廃止され、古いUIに戻すために使用できなくなります。
 
-Experience Manager Guides UI を設定するには、次の手順を実行します。
+Experience Manager Guides UIを設定するには、次の手順を実行します。
 
-1. Adobe Experience Managerを開き、設定する環境が含まれているプログラムを選択します。
+1. Adobe Experience Managerを開き、設定する環境を含むプログラムを選択します。
 2. 「**環境**」タブに切り替えます。
 3. 設定する環境名を選択します。 これにより、**環境情報** ページに移動します。
 4. 「**設定**」タブに切り替えます。
 5. 「**追加/更新**」を選択します。
-6. UI 設定の詳細を追加します。 次のスクリーンショットで示したのと同じ名前と設定を使用していることを確認してください。
+6. UI設定の詳細を追加します。 次のスクリーンショットに示すように、同じ名前と設定を使用していることを確認します。
 
    ![](assets/enable-penultimate-ui.png){width="800" align="left"}
 
-   値を **true** に設定すると古い UI が保持され、**false** に設定すると新しい UI がアクティブになります。
+   値を&#x200B;**true**&#x200B;に設定すると、古いUIが保持され、**false**&#x200B;は新しいUIをアクティブにします。
 
 
 
-**親トピック：**&#x200B;[&#x200B; ダウンロードとインストール &#x200B;](download-install.md)
+**親トピック：**[ ダウンロードしてインストール ](download-install.md)

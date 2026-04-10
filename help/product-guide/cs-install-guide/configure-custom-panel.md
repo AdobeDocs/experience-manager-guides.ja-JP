@@ -1,11 +1,12 @@
 ---
 title: 左側のパネルでのカスタムパネルの設定
-description: 左側のパネルでカスタムパネルを設定する方法を説明します
+description: 左側のパネルでカスタムパネルを設定する方法について説明します
 exl-id: 5c25efc1-0976-4554-a186-2ffd5e62f500
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 0%
@@ -14,10 +15,10 @@ ht-degree: 0%
 
 # 左側のパネルでのカスタムパネルの設定 {#id224JI200Y6F}
 
-Web エディターの左側のパネル内にカスタムパネルを追加するには、次の手順を実行します。
+Web エディターの左側のパネルにカスタムパネルを追加するには、次の手順を実行します。
 
-1. *clientlib* フォルダーを作成し、JavaScriptと CSS ファイルをこのフォルダーに追加します。
-1. *apps.fmdita.xml\_editor.page\_overrides* の値を割り当てて、*clientlib* フォルダーのカテゴリプロパティを更新します。
+1. *clientlib* フォルダーを作成し、JavaScriptとCSS ファイルをこのフォルダーに追加します。
+1. *clientlib* フォルダーのcategories プロパティを更新するには、*apps.fmdita.xml\_editor.page\_overrides*&#x200B;の値を割り当てます。
 
 カスタムパネルを設定するサンプルコード：
 
@@ -58,4 +59,4 @@ tcx.ready(function () { //Ready will call the callback after editor code is set 
 });
 ```
 
-**親トピック：**&#x200B;[&#x200B; Web エディタのカスタマイズ &#x200B;](conf-web-editor.md)
+**親トピック：**[ Web エディターのカスタマイズ ](conf-web-editor.md)

@@ -1,11 +1,12 @@
 ---
 title: このガイドについて
-description: このガイドについて学ぶ
+description: このガイドの詳細
 exl-id: cdd40267-3f0c-40d2-acbc-2ebe43633c2f
 feature: Introduction
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '663'
 ht-degree: 3%
@@ -14,68 +15,68 @@ ht-degree: 3%
 
 # このガイドについて {#id175MC0P0S5Z}
 
-Adobe Experience Manager Guides \（後で *AEM Guides*\と呼ばれます）は、強力なクラウドベースのエンタープライズグレードのコンポーネントコンテンツ管理ソリューション \（CCMS\）です。 これにより、Adobe Experience Managerでのネイティブ DITA サポートが可能になり、AEMが DITA ベースのコンテンツの作成と配信を処理できるようになります。 これにより、作成者は、使いやすい組み込みの web エディターを使用してコンテンツを作成し、様々な出力形式に公開できます。
+Adobe Experience Manager Guides \（後に&#x200B;*AEM Guides*\）は、強力なクラウドベースのエンタープライズグレードのコンポーネントコンテンツ管理ソリューション \（CCMS\）です。 Adobe Experience Managerでネイティブ DITA サポートを有効にし、AEMがDITA ベースのコンテンツの制作と配信を処理できるようにします。 これにより、作成者は使いやすい組み込みweb エディターを使用してコンテンツを作成し、さまざまな出力形式に公開できます。
 
-このガイドでは、AEM Guidesのダウンロード、インストール、設定の手順を説明します。 このガイドでは、組織のオーサリングおよび公開のニーズに応じてAEM Guidesを設定する詳細な手順を説明します。
+このガイドでは、AEM Guidesのダウンロード、インストール、設定の手順について説明します。 このガイドでは、組織のオーサリングと公開のニーズに応じて、AEM Guidesを設定するための詳細な手順について説明します。
 
 このガイドは、次のタイプのオーディエンスを対象としています。
 
-- 管理者：AEM Guidesをインストールおよび管理します。
+- AEM Guidesをインストールおよび管理する管理者。
 
-- パブリッシングタスクを実行して、様々な形式の出力を生成するパブリッシャー。
+- 様々な形式で出力を生成するパブリッシングタスクを実行するパブリッシャー。
 
 
 ## コンテンツ構造
 
 このガイドの情報は、次のように構成されています。
 
-- [&#x200B; このガイドについて &#x200B;](#id175MC0P0S5Z)：このトピックでは、このガイドの概要、対象オーディエンス、このガイドでの情報の編成方法を説明します。
+- [このガイドについて](#id175MC0P0S5Z)：このトピックでは、このガイドの概要、対象となるオーディエンス、および情報がこのガイドでどのように整理されるかについて説明します。
 
-- [&#x200B; ダウンロードとインストール &#x200B;](download-install.md#)：このトピックでは、AEM Guidesをダウンロード、インストール、アップグレードする方法について説明します。
+- [ ダウンロードしてインストール ](download-install.md#)：このトピックでは、AEM Guidesのダウンロード、インストール、またはアップグレード方法について説明します。
 
-- [&#x200B; ユーザー管理とセキュリティ &#x200B;](user-admin-sec.md#)：このトピックでは、AEMのユーザーと認証のコア概念と、AEM Guidesで作成されるデフォルトのユーザーグループについて説明します。
+- [ ユーザーの管理とセキュリティ ](user-admin-sec.md#)：このトピックでは、AEMでのユーザーと認証の中核的な概念と、AEM Guidesによって作成されたデフォルトのユーザーグループについて説明します。
 
-- [&#x200B; カスタム DITA-OT および DITA 特殊化の使用 &#x200B;](dita-ot-specialization.md#)：このトピックでは、カスタム DITA-OT プラグインの設定方法と DITA 特殊化の使用方法を説明します。
+- [ カスタム DITA-OTとDITAの特殊化を使用](dita-ot-specialization.md#)：このトピックでは、カスタム DITA-OT プラグインを設定し、DITAの特殊化を使用する方法について説明します。
 
-- [&#x200B; 文書状態の設定 &#x200B;](customize-doc-state.md#)：このトピックでは、DITA 文書のカスタム状態を設定する方法について説明します。
+- [ ドキュメントの状態を設定](customize-doc-state.md#)：このトピックでは、DITA ドキュメントのカスタム状態を設定する方法について説明します。
 
-- [&#x200B; 既存のコンテンツを移行 &#x200B;](migrate-content.md#)：このトピックでは、AEM リポジトリー上の既存のコンテンツをオンボーディングする方法について説明します。
+- [既存のコンテンツを移行](migrate-content.md#)：このトピックでは、AEM リポジトリに既存のコンテンツをオンボードする方法について説明します。
 
-- [&#x200B; ファイル名の設定 &#x200B;](conf-file-names.md#)：このトピックでは、ファイル名を自動的に割り当て、有効なファイル名文字の正規表現を定義する設定の設定方法について説明します。
+- [ ファイル名の設定](conf-file-names.md#)：このトピックでは、ファイル名を自動的に割り当て、有効なファイル名文字の正規表現を定義するように設定する方法について説明します。
 
-- [&#x200B; トピックおよびマップテンプレートの設定 &#x200B;](conf-template-tags.md#)：このトピックでは、オーサリングのニーズに合わせてトピックおよびマップテンプレートを設定する方法について説明します。 AEMのタグ付けシステムと、AEM Guidesと連携するようにタグを設定する方法について説明します。
+- [ トピックとマップテンプレートの設定](conf-template-tags.md#)：このトピックでは、オーサリングのニーズに合わせてトピックとマップテンプレートを設定する方法について説明します。 AEMのタグ付けシステムについて説明し、AEM Guidesで使用するタグを設定する方法について説明します。
 
-- [Web エディターのカスタマイズ &#x200B;](conf-web-editor.md#)：このトピックでは、機能を強化するために Web エディターで実行できる様々なカスタマイズについて説明します。
+- [Web エディターのカスタマイズ ](conf-web-editor.md#)：このトピックでは、Web エディターで機能を向上させるために行うことができるさまざまなカスタマイズについて説明します。
 
-- [&#x200B; デフォルトで@navtitle 属性を含める &#x200B;](auto-add-navtitle.md#)：このトピックでは、`@navtitle` 属性をデフォルトでマップ内の参照ファイルに追加する方法について説明します。
+- [ デフォルトで@navtitle属性を含める](auto-add-navtitle.md#)：このトピックでは、デフォルトでマップ内の参照ファイルに`@navtitle`属性を追加する方法について説明します。
 
-- [&#x200B; グローバルプロファイルまたはフォルダーレベルのプロファイルの設定 &#x200B;](conf-folder-level.md#)：このトピックでは、フォルダープロファイルを作成し、特定のユーザーに権限を付与するプロセスについて説明します。
+- [ グローバルレベルまたはフォルダーレベルのプロファイルを設定](conf-folder-level.md#)：このトピックでは、フォルダープロファイルを作成し、特定のユーザーに権限を付与するプロセスについて説明します。
 
-- [&#x200B; バージョン管理 &#x200B;](version-management.md#)：このトピックでは、Web エディターで編集用に開くファイルの自動ファイルチェックアウトを設定する方法について説明します。
+- [ バージョン管理](version-management.md#)：このトピックでは、Web エディターで編集用に開くファイルの自動チェックアウトを設定する方法について説明します。
 
-- [&#x200B; 出力生成設定の指定 &#x200B;](conf-output-generation.md#)：このトピックでは、デフォルトの出力生成プロセスをカスタマイズするための様々な設定について説明します。
+- [出力生成設定の設定](conf-output-generation.md#)：このトピックでは、デフォルトの出力生成プロセスをカスタマイズするための様々な設定について説明します。
 
-- [&#x200B; ワークフローの設定とカスタマイズ &#x200B;](customize-workflows.md#)：このトピックでは、AEM Guidesに付属するデフォルトのワークフローをカスタマイズするための様々な設定について説明します。
+- [ ワークフローの設定とカスタマイズ ](customize-workflows.md#)：このトピックでは、AEM Guidesに付属するデフォルトのワークフローをカスタマイズするための様々な設定について説明します。
 
-- [&#x200B; コンテンツの翻訳 &#x200B;](translation.md#)：翻訳フレームワークの理解と設定に役立つ関連ヘルプ記事へのリンクが含まれているAEM ドキュメントです。 コンポーネントベースの翻訳ワークフローを有効にする方法についても説明します。
+- [ コンテンツを翻訳](translation.md#)：このトピックでは、翻訳フレームワークの理解と設定に役立つ、AEM ドキュメントの関連するヘルプ記事へのリンクを提供します。 また、コンポーネントベースの翻訳ワークフローを有効にする方法についても説明します。
 
-- [AEM Assets UI の検索の設定 &#x200B;](conf-dita-search.md#)：このトピックでは、Assets UI で DITA コンテンツ検索を設定し、検索にカスタム属性を追加する方法について説明します。
+- [AEM Assets UIの検索を設定](conf-dita-search.md#)：このトピックでは、Assets UIでDITA コンテンツ検索を設定し、検索にカスタム属性を追加する方法について説明します。
 
 
 ## Adobe Experience Managerの概要\（AEM\）
 
-[Adobe Experience Manager \（AEM\） &#x200B;](https://business.adobe.com/jp/products/experience-manager/adobe-experience-manager.html) は、Web サイト、モバイル アプリ、フォームを構築するための包括的なコンテンツ管理ソリューションです。 AEMは、マーケティングコンテンツとアセットの管理に役立ちます。 AEMはas a Cloud Serviceで使用できます。 AEM as a Cloud Serviceは、AEM Content Management System の機能とAEM Digital Asset Management を組み合わせて、パーソナライズされたコンテンツ主導のエクスペリエンスを顧客に提供するのに役立ちます。AEM as a Cloud Serviceを使い始めてデプロイするのに役立つ主なリソースを次に示します。
+[Adobe Experience Manager \（AEM\） ](https://business.adobe.com/jp/products/experience-manager/adobe-experience-manager.html)は、web サイト、モバイルアプリ、フォームを作成するための包括的なコンテンツ管理ソリューションです。 AEMは、マーケティングコンテンツとアセットの管理を支援します。 AEMはas a Cloud Serviceで利用できます。 AEM as a Cloud Serviceは、AEM Content Management SystemとAEM Digital Asset Managementを組み合わせることで、パーソナライズされたコンテンツ主導型のエクスペリエンスをお客様に提供するのに役立ちます。AEM as a Cloud Serviceの導入を開始するのに役立つ主なリソースは次のとおりです。
 
-- [Experience Managerのas a Cloud Serviceの概要 &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=ja)
-- [AEM as a Cloud Serviceへの移行ジャーニーの概要 &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/getting-started.html?lang=ja)
-- [Experience Managerのオンボーディングのas a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/home.html?lang=jahttps://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/home.html?lang=en)
+- [Experience Manager as a Cloud Serviceの概要](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=en)
+- [AEM as a Cloud Serviceへの移行ジャーニーの概要](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/getting-started.html?lang=en)
+- [Experience Manager as a Cloud Serviceへのオンボーディングを開始](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/home.html?lang=enhttps://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/home.html?lang=en)
 - [AEM as a Cloud Service のアプリケーションの実装](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/home.html?lang=ja)
 - [AEM as a Cloud Service へのデプロイ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/overview.html?lang=ja)
-- [Assetsas a Cloud Serviceガイド &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html?lang=ja)
+- [Assets as a Cloud Service ガイド ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html?lang=ja)
 
 ## その他のリソース
 
-次に、AEM Guidesに関するその他の役立つリソースのリストを示します。これらのリソースは、[&#x200B; ラーニングとサポート &#x200B;](https://helpx.adobe.com/jp/support/xml-documentation-for-experience-manager.html) ページで利用できます。
+以下は、[ ラーニングとサポート ](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html) ページで入手できるAEM Guidesのその他の役立つリソースの一覧です。
 
 - ユーザーガイド
 - API リファレンスガイド

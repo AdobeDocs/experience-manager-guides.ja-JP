@@ -1,11 +1,12 @@
 ---
-title: 非従来のHTML出力のAEM Sites タグをオーバーレイします。
-description: コアコンポーネントマッピングに基づいた、aem sites 出力用のビデオおよび画像設定の指定
+title: 従来のAEM Sites以外の出力でのHTML タグのオーバーレイ
+description: コアコンポーネントマッピングに基づいて、aem sites出力のビデオとイメージ設定を設定します
 feature: Installation
 role: Admin
 level: Experienced
 exl-id: 726420e0-fe52-4334-b72a-8eb8bcae4d6c
-source-git-commit: e0b0df19b7ec691a894130eb42df827921b4890c
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%
@@ -14,9 +15,9 @@ ht-degree: 0%
 
 # AEM Sites出力でのHTML タグのオーバーレイ
 
-Web エディターのコアコンポーネントマッピングに基づくHTML プリセットを使用して生成されたAEM Sites出力に、AEM Sites タグを追加しカスタマイズできます。 HTMLのタグをカスタマイズするには、`config.xml` ファイルをオーバーレイします。 例えば、AEM Sites出力にビデオマップと画像マップを設定できます。
+Web エディターのコアコンポーネントマッピングに基づいてAEM Sites プリセットを使用して生成されたAEM Sites出力で、HTML タグを追加およびカスタマイズできます。 HTML タグをカスタマイズするには、`config.xml` ファイルをオーバーレイします。 例えば、AEM Sites出力でビデオマップと画像マップを設定できます。
 
-`config.xml` ファイルをオーバーレイして更新するには、次の手順を実行します。
+次の手順を実行して、`config.xml` ファイルをオーバーレイおよび更新します。
 
 1. AEMにログインし、CRXDE Lite モードを開きます。
 
@@ -24,13 +25,13 @@ Web エディターのコアコンポーネントマッピングに基づくHTML
 
    `/libs/cq/xssprotection/config.xml`
 
-1. apps ノード内に `xssprotection` フォルダーのオーバーレイノードを作成します。
+1. apps ノード内に`xssprotection` フォルダーのオーバーレイノードを作成します。
 
 1. `apps` ノードで使用可能な設定ファイルに移動します。
 
    `/apps/fmdita/config/config.xml`
 
-1. ビデオと画像に対して次のタグを更新します。 次に、ファイルを保存します。
+1. ビデオと画像の次のタグを更新します。 次に、ファイルを保存します。
 
 ビデオ：
 
@@ -143,4 +144,4 @@ Web エディターのコアコンポーネントマッピングに基づくHTML
 
 
 
-[&#x200B; セキュリティ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/developing/introduction/security) のベストプラクティスについて詳しく説明します。
+[ セキュリティ ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/security)のベストプラクティスについて詳しく説明します。

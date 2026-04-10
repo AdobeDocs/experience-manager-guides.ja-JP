@@ -1,11 +1,12 @@
 ---
 title: AEM Guides モジュールのデプロイ
-description: AEM Guides モジュールのデプロイ方法を学ぶ
+description: AEM Guides モジュールのデプロイ方法について説明します
 exl-id: 3bb28304-d8e2-45eb-8297-546eed428b8c
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 1b25f1df67fa2442ab79830dc2ac5a6eabd0394c
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '52'
 ht-degree: 0%
@@ -14,8 +15,8 @@ ht-degree: 0%
 
 # Adobe Experience Manager Guides モジュールのデプロイ {#id213BCL00KEV}
 
-まず、Cloud Managerを介してExperience Manager Guidesをデプロイできます。 モジュールをデプロイするには、[AEM Guidesのas a Cloud Serviceデプロイメントに記載されている手順に従います &#x200B;](../release-info/deploy-xml-on-aemaacs.md)
+まず、Cloud Managerを介してExperience Manager Guidesをデプロイします。 モジュールをデプロイするには、[AEM Guides as a Cloud Service デプロイメント ](../release-info/deploy-xml-on-aemaacs.md)に記載されている手順に従います
 
 
 
-**親トピック：**&#x200B;[&#x200B; ダウンロードとインストール &#x200B;](download-install.md)
+**親トピック：**[ ダウンロードしてインストール ](download-install.md)

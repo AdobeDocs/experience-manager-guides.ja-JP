@@ -1,46 +1,45 @@
 ---
-title: デスクトップベースの XML エディターの統合
-description: デスクトップベースの XML エディターを統合する方法を学ぶ
+title: デスクトップベースのXML エディターの統合
+description: デスクトップベースのXML エディターの統合方法を説明します
 feature: Publishing FrameMaker Documents
 role: Admin
 level: Experienced
-source-git-commit: b3ae1c02d3055fe15257d5de0365d30e7af21afb
+exl-id: 86ba53fa-0e08-4791-9018-09fe974691da
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 1%
 
 ---
 
-# デスクトップベースの XML エディターの統合
+# デスクトップベースのXML エディターの統合
 
-市場には多くの XML エディターが存在しており、既に使用している可能性があります。 Adobe FrameMakerは、AEM コネクタに付属する最も強力な XML エディターの 1 つです。 FrameMakerでAEM コネクタを使用すると、AEM リポジトリとの接続、ファイルのチェックアウトとチェックイン、FrameMakerでの直接編集を簡単に行うことができます。 また、web エディターからFrameMakerを起動するようにExperience Manager Guidesを設定することもできます。 ファイルをFrameMakerで開いたら、ファイルを編集してAEM リポジトリにチェックインできます。
+市場には多くのXML エディターがあり、すでに使用している可能性があります。 Adobe FrameMakerは、AEM コネクタを備えた最も強力なXML エディターの1つです。 FrameMakerのAEM コネクタを使用すると、AEM リポジトリへの接続、ファイルのチェックアウトとチェックイン、FrameMakerでのファイルの直接編集を簡単に行うことができます。 また、Web エディターからFrameMakerを起動するようにExperience Manager Guidesを設定することもできます。 FrameMakerでファイルを開いた後、ファイルを編集してAEM リポジトリに戻すことができます。
 
-## Web エディターからFrameMakerーでのファイル編集を有効にする
+## Web エディターからFrameMakerでのファイル編集を有効にする
 
-FrameMakerまたはその他の DITA エディタを使用して、DITA コンテンツを作成および更新できます。 ただし、FrameMakerを DITA エディタとして使用している場合は、AEMから直接FrameMakerで DITA 文書を開くことができます。
-
-
-デフォルトでは、AEM ツールバーに「**FrameMakerで開く** ボタンは表示されません。 次の手順を実行して、このボタンをAEM ツールバーに追加します。
-
-[&#x200B; 設定の上書き &#x200B;](download-install-additional-config-override.md#) の手順に従って、設定ファイルを作成します。 設定ファイルで、次の\（property\）の詳細を指定して、AEM ツールバーにこのボタンを追加します。
+FrameMakerまたはその他のDITA エディターを使用して、DITA コンテンツを作成および更新できます。 ただし、組織でFrameMakerをDITA エディターとして使用している場合は、AEMからFrameMakerでDITA ドキュメントを直接開くオプションをユーザーに提供できます。
 
 
-| PID | プロパティキー | プロパティの値 |
-|---|------------|--------------|
-| `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.openinframebuttonshow` | ブール \（true/false\） 「**FrameMakerで開く**」ボタンを表示する場合は、このプロパティを true に設定します。<br> **デフォルト値**:false |
+デフォルトでは、AEM ツールバーに「**FrameMakerで開く**」ボタンは表示されません。 AEM ツールバーにこのボタンを追加するには、次の手順を実行します。
 
-
-
-9 月リリースのバージョン 2409 およびFrameMaker 2022 のアップデート 3 を使用している場合、**FrameMaker Version 2022 Update 3 以降** を有効にして、Experience Manager Guides サーバーの詳細をFrameMakerに渡す必要があります。  デフォルトでは無効になっています。
+設定ファイルを作成するには、[設定の上書き](download-install-additional-config-override.md#)の手順を使用します。 設定ファイルで、次の\（property\）詳細を入力して、AEM ツールバーにこのボタンを追加します。
 
 
 | PID | プロパティキー | プロパティの値 |
 |---|------------|--------------|
-| `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.openinframe2022above` | ブール \（true/false\） FrameMaker 2022 年 9 月リリース – アップデート 3 を使用している場合は、このプロパティを true に設定します。<br> **デフォルト値**:false |
+| `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.openinframebuttonshow` | ブール値\（true/false\）。 「**FrameMakerで開く**」ボタンを表示する場合は、このプロパティをtrueに設定します。<br> **デフォルト値**: false |
 
 
 
-*openinframebuttonshow* プロパティを true に設定すると、AEM リポジトリで DITA ファイルを選択するときに「**FrameMakerで開く**」ボタンが表示されます。 このプロパティーが *true* に設定されていない場合、「**FrameMakerで開く**」ボタンは、リポジトリ内の.fm ファイルまたは.book ファイルを選択したときにのみ表示されます。
+バージョン 2409およびFrameMaker 2022年9月リリース – アップデート 3を使用している場合は、ユーザーがFrameMaker サーバーの詳細をFrameMakerに渡すために、**Experience Manager Guides バージョン 2022 アップデート 3以降**&#x200B;の設定を有効にする必要があります。  デフォルトでは無効になっています。
+
+
+| PID | プロパティキー | プロパティの値 |
+|---|------------|--------------|
+| `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.openinframe2022above` | ブール値\（true/false\）。 FrameMaker 2022年9月リリース（アップデート 3）を使用している場合は、このプロパティをtrueに設定します。<br> **デフォルト値**: false |
 
 
 
+*openinframebuttonshow* プロパティをtrueに設定すると、AEM リポジトリ内の任意のDITA ファイルを選択すると、「**FrameMakerで開く**」ボタンが表示されます。 このプロパティが&#x200B;*true*&#x200B;に設定されていない場合、「**FrameMakerで開く**」ボタンは、リポジトリで.fmまたは.book ファイルを選択した場合にのみ表示されます。

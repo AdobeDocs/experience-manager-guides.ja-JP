@@ -1,7 +1,9 @@
 ---
-title: Cloud Service をアップグレードするための追加設定
+title: クラウドサービスをアップグレードするための追加設定
 description: クラウドサービスをアップグレードするための追加設定について説明します
-source-git-commit: 1ded80114aa25761fcca3f540d8b14ad7f5c4a31
+exl-id: 3d60d06b-ce50-4948-b50d-bd373051d055
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 0%
@@ -12,15 +14,15 @@ ht-degree: 0%
 
 >[!INFO]
 >
->この記事は、カスタムフォルダープロファイル設定（`ui_config.json`）を設定している場合に適用されます。 アップグレードのたびに、必要に応じて設定を確認および変更し、最新の変更との互換性を確保します。
+>この記事は、カスタムフォルダープロファイル設定（`ui_config.json`）を設定している場合に適用されます。 アップグレードのたびに、必要に応じて設定を確認して変更し、最新の変更との互換性を確認します。
 
-アップグレード元のバージョンによっては、新しいCloud Service バージョンで導入された変更内容を組み込むために、追加の設定手順が必要になる場合があります。
+アップグレードするバージョンによっては、新しいCloud Service バージョンで導入された変更点を統合するために、追加の設定手順が必要になる場合があります。
 
-一部の設定は、特定のバージョンにのみ適用されます。 必ず以下の設定の節を参照し、お使いの設定に適用できる必要な設定を適用してください。
+一部の設定は、特定のバージョンにのみ適用されます。 以下の設定セクションを参照し、設定に適用できる必要な設定を適用してください。
 
-## すべての出力プリセットの DITAVAL ファイルに検索フィルターを適用する手順
+## すべての出力プリセットに対してDITAVAL ファイルに検索フィルターを適用する手順
 
-フィルターが正しく機能するようにするには、ui_config.json を更新します。 以下のように、**browseFilters**/**Non-DITA files**/**Ditaval Files** の下にリストされているプロパティを変更します。
+フィルターが正しく機能するように、ui_config.jsonを更新します。 次に示すように、**browseFilters** > **非DITA ファイル** > **Ditaval ファイル**&#x200B;にリストされているプロパティを変更します。
 
 ```
 {
@@ -31,7 +33,7 @@ ht-degree: 0%
 }
 ```
 
-## コンテンツフラグメントの B-Tree 移行を実行する手順
+## コンテンツフラグメントのB ツリー移行を実行する手順
 
 コンテンツフラグメントの参照が表示されない場合は、移行ジョブを実行するように選択できます。
 
@@ -52,13 +54,13 @@ http://localhost:4503/bin/guides/script/start?jobType=cf-reference-store-btree-m
 }
 ```
 
-前の応答では、キー `lockNodePath`JSON は、リポジトリで作成されたノードへのパスを保持します。これは、送信されたジョブを指します。 ジョブが完了すると、自動的に削除されます。 ジョブのステータスについては、このノードを参照してください。
+以前の応答であるJSONでは、キー`lockNodePath`は、リポジトリで作成されたノードへのパスを保持し、これは送信されたジョブを指します。 ジョブが完了すると、自動的に削除されます。 ジョブのステータスについては、このノードを参照できます。
 
-このジョブが完了するのを待ってから、次の手順に進みます。
+このジョブが完了するまで待ってから、次の手順に進みます。
 
 >[!NOTE]
 >
->ノードがまだ存在するかどうか、およびジョブのステータスを確認する必要があります。
+>ノードがまだ存在するかどうかを確認し、ジョブのステータスを確認する必要があります。
 
 GET:
 
@@ -66,52 +68,52 @@ GET:
 http://<aem_domain>/var/dxml/executor-locks/cf-reference-store-btree-migration/1683190032886.json
 ```
 
-## `'fmdita rewriter'` の競合を処理する手順
+## `'fmdita rewriter'`競合を処理する手順
 
-Experience Manager Guidesには、クロスマップ（2 つの異なるマップのトピック間のリンク）の場合に生成されるリンクを処理する [**custom sling rewriter**](../cs-install-guide/conf-output-generation.md#custom-rewriter) モジュールがあります。
+Experience Manager Guidesには、クロスマップの場合に生成されるリンク（2つの異なるマップのトピック間のリンク）を処理するための&#x200B;[**カスタム sling rewriter**](../cs-install-guide/conf-output-generation.md#custom-rewriter) モジュールがあります。
 
-コードベースに別のカスタム sling rewriter がある場合は、Experience Manager Guides sling rewriter が 50 を使用するように、50 より大きい `'order'` 値を使用し `'order'` す。 これを上書きするには、50 より大きい値が必要です。 詳しくは、[&#x200B; 出力の書き換えパイプライン &#x200B;](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html) を参照してください。
+コードベースに別のカスタムスリングリライターがある場合は、`'order'`値が50より大きい値を使用します。これは、Experience Manager Guides sling リライターが`'order'` 50を使用するからです。 これを上書きするには、50を超える値が必要です。 詳細については、[出力の書き換えパイプライン ](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html)を参照してください。
 
-このアップグレード中に、`'order'` の値が 1000 から 50 に変更されるので、既存のカスタムリライターがある場合は `fmdita-rewriter` と結合する必要があります。
+このアップグレードでは、`'order'`の値が1000から50に変更されるので、既存のカスタムリライターがある場合は`fmdita-rewriter`と結合する必要があります。
 
-## 2023 年 6 月以前のバージョンに適用される設定
+## 2023年6月以前のバージョンに適用される設定
 
-次の設定は、2023 年 6 月以前にリリースされたバージョンのExperience Manager Guides as a Cloud Serviceを使用する場合にのみ必要です。 以下の関連する節を展開して、必要な設定を適用し、必要な更新との互換性を確保します。
+次の設定は、2023年6月より前にリリースされたExperience Manager Guides as a Cloud Serviceのバージョンを使用している場合にのみ必要です。 以下の関連セクションを展開して、必要な設定を適用し、必要な更新との互換性を確認します。
 
-+++「レポート」タブで新しい検索と置換およびトピックリストを使用するために、既存のコンテンツにインデックスを作成する手順
-既存のコンテンツのインデックスを作成する次の手順を実行し、「レポート」タブの新しい検索と置換のテキストをマップレベルとトピックリストで使用します。
++++既存のコンテンツをインデックス化して、「レポート」タブの新しい検索と置換およびトピックリストを使用する手順
+既存のコンテンツのインデックスを作成するには、次の手順を実行し、「レポート」タブのマップレベルとトピックリストで新しい検索と置換のテキストを使用します。
 
-1. （正しい認証で） サーバーへの POST リクエストを実行します – `http://<server:port>/bin/guides/map-find/indexing`。 （オプション：マップの特定のパスをインデックスを作成するために渡すことができます。デフォルトでは、すべてのマップにインデックスが作成されます||例：`https://<Server:port>/bin/guides/map-find/indexing?paths=<path of the MAP in repository>`）。
+1. サーバーへのPOST リクエストを実行します（正しい認証を使用） - `http://<server:port>/bin/guides/map-find/indexing`。 （オプション：マップの特定のパスを渡してインデックスを作成できます。デフォルトでは、すべてのマップにインデックスが付けられます||例：`https://<Server:port>/bin/guides/map-find/indexing?paths=<path of the MAP in repository>`）
 
-1. ルートフォルダーを渡して、特定のフォルダー（およびそのサブフォルダー）の DITA マップのインデックスを作成することもできます。 例えば、`http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test` のようになります。paths パラメーターと root パラメーターの両方が渡される場合、paths パラメーターのみが考慮されることに注意してください。
+1. ルートフォルダーを渡して、特定のフォルダー（およびそのサブフォルダー）のDITA マップをインデックス化することもできます。 例えば、`http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test` のようになります。パス パラメーターとルート パラメーターの両方が渡された場合は、パス パラメーターのみが考慮されます。
 
-1. API は jobId を返します。 ジョブのステータスを確認するには、同じエンドポイント `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}` （例：`http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）にジョブ ID を含むGET リクエストを送信します
+1. APIはjobIdを返します。 ジョブのステータスを確認するには、ジョブ IDを持つGET リクエストを同じエンドポイント `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`に送信できます（例：`http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）
 
-1. ジョブが完了すると、前のGET リクエストが成功を示して応答し、失敗したマップがあるかどうかに関して言及します。 正常にインデックス化されたマップは、サーバ ログから確認できます。
+1. ジョブが完了すると、以前のGET リクエストは成功して応答し、マップが失敗した場合にメンションします。 正常にインデックス付けされたマップは、サーバーログから確認できます。
 
 +++
 
-+++壊れたリンクレポートを使用するために、既存のコンテンツを後処理する手順 
-既存のコンテンツを後処理し、新しい壊れたリンクのレポートを使用するには、次の手順を実行します。
++++既存のコンテンツを後処理して、壊れたリンクレポートを使用する手順 
+既存のコンテンツを後処理し、新しい壊れたリンクレポートを使用するには、次の手順を実行します。
 
-1. （オプション）システムに 100,000 個を超える DITA ファイルがある場合は、`queryLimitReads` 下の `queryLimitInMemory` および `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` を大きい値（存在するアセットの数を超える値は、たとえば 200,000）に変更してから再デプロイします。
+1. （オプション）システムに100,000個を超えるDITA ファイルがある場合は、`queryLimitReads`の`queryLimitInMemory`と`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`をより大きな値（存在するアセット数より大きな値、例えば200,000個）に更新してから再展開します。
 
-   - Adobe Experience Manager Guides as a Cloud Serviceのインストールと設定の *設定の上書き* の節で説明した手順に従って、設定ファイルを作成します。
-   - 設定ファイルで、`queryLimitReads` と `queryLimitInMemory` オプションを設定するために、次の（プロパティ）の詳細を指定します。
+   - Adobe Experience Manager Guides as a Cloud Serviceの「*設定の上書き*」セクションで指定されている手順を使用して、設定ファイルを作成します。
+   - 設定ファイルで、次の（プロパティ）詳細を指定して、`queryLimitReads`および`queryLimitInMemory` オプションを設定します。
 
      | PID | プロパティキー | プロパティの値 |
      |---|---|---|
      | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitReads | 値：200000 デフォルト値：100000 |
      | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitInMemory | 値：200000 デフォルト値：100000 |
 
-1. （正しい認証で） サーバーへの POST リクエストを実行します – `http://<server>//bin/guides/reports/upgrade`。
+1. サーバーへのPOST リクエストを実行します（正しい認証を使用） - `http://<server>//bin/guides/reports/upgrade`。
 
-1. API は jobId を返します。 ジョブのステータスを確認するには、同じエンドポイント `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}` にジョブ ID を含むGET リクエストを送信します。
+1. APIはjobIdを返します。 ジョブのステータスを確認するには、ジョブ IDを持つGET リクエストを同じエンドポイント `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`に送信できます
 （例：`http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）
 
-1. ジョブが完了すると、前回のGET リクエストが正常に応答します。 何らかの理由でジョブが失敗した場合は、サーバーログに失敗が記録されています。
+1. ジョブが完了すると、以前のGET リクエストは正常に応答します。 何らかの理由でジョブが失敗した場合は、サーバーログからエラーを確認できます。
 
-1. 手順 1 で変更した場合は、デフォルトまたは以前の既存の値 `queryLimitReads` に戻します。
+1. 手順1で変更した場合は、デフォルト値または以前の既存の値`queryLimitReads`に戻します。
 
 +++
 
@@ -134,13 +136,13 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 }
 ```
 
-前の応答 JSON では、キー `lockNodePath` は、送信されたジョブを指す、リポジトリで作成されたノードへのパスを保持します。 ジョブが完了すると自動的に削除されるので、このノードでジョブのステータスを確認できます。
+前の応答JSONでは、キー`lockNodePath`は、送信されたジョブを指すリポジトリで作成されたノードへのパスを保持します。 ジョブが完了すると自動的に削除され、ジョブのステータスについては、このノードを参照できます。
 
-このジョブが完了するのを待ってから、次の手順に進みます。
+このジョブが完了するまで待ってから、次の手順に進みます。
 
 >[!NOTE]
 >
-> ノードがまだ存在するかどうか、およびジョブのステータスを確認する必要があります。
+> ノードがまだ存在するかどうかを確認し、ジョブのステータスを確認する必要があります。
 
 ```
 GET
@@ -148,15 +150,3 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 ```
 
 +++
-
-
-
-
-
-
-
-
-
-
-
-

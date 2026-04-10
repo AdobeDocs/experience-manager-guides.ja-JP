@@ -1,119 +1,121 @@
 ---
-title: 4.6.0 サービスパック 4 の非 UUID から 4.6.1 への UUID コンテンツの移行
-description: 非 UUID を UUID コンテンツに移行する方法を説明します
+title: 4.6.0 サービスパック 4非UUIDから4.6.1 UUID コンテンツへの移行
+description: UUID以外のコンテンツをUUID コンテンツに移行する方法を説明します
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 56f1bd81e74ad9b479b2dcbcf04e1ee82e9a9041
+exl-id: f17a2e02-62de-4ed6-8d1f-4c72e7488437
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '1568'
 ht-degree: 2%
 
 ---
 
-# 4.6.0 サービスパック 4 の非 UUID から 4.6.1 への UUID コンテンツの移行
+# 4.6.0 サービスパック 4非UUIDから4.6.1 UUID コンテンツへの移行
 
-次の手順を実行して、コンテンツを非 UUID バージョン 4.6.0 サービスパック 4 から UUID バージョン 4.6.1 に移行します。
+UUID バージョン 4.6.0以外のサービスパック 4からUUID バージョン 4.6.1にコンテンツを移行するには、次の手順を実行します。
 
 >[!IMPORTANT]
 >
-> * 移行プロセスを開始する前に、次の点を確認します。
+> * 移行プロセスを開始する前に、次のことを確認してください。
 >
->   1. すべてのアクティブなレビューをクローズしました。
->   1. すべての翻訳タスクを終了しました。
-> * コンテンツを UUID サーバーに移行する前に、UUID 以外のサーバーに互換性のあるAEM Guides バージョンがインストールされていることを確認します。
-> * 4.6.0 サービスパック 4 より前にリリースされたバージョンを使用している場合は、まずバージョン 4.6.0 サービスパック 4 にアップグレードする必要があります。 製品のライセンス済みバージョンに固有の [&#x200B; アップグレード手順 &#x200B;](./upgrade-xml-documentation.md) に従います。
-> * 4.6.0 サービスパック 4 以降にリリースされた特定のサービスパックを使用している場合は、そのサービスパックをアンインストールして 4.6.0 サービスパック 4 に戻す必要があります。
+>   1. アクティブなレビューをすべて閉じました。
+>   1. すべての翻訳タスクを閉じました。
+> * UUID サーバーにコンテンツを移行する前に、互換性のあるAEM Guides バージョンがインストールされているUUID以外のサーバーが存在することを確認します。
+> * 4.6.0 サービスパック 4より前にリリースされたバージョンを使用している場合は、最初にバージョン 4.6.0 サービスパック 4にアップグレードする必要があります。 製品のライセンス版に固有の[ アップグレード手順](./upgrade-xml-documentation.md)に従います。
+> * 4.6.0 サービスパック 4以降にリリースされた特定のサービスパックを使用している場合は、そのサービスパックをアンインストールして4.6.0 サービスパック 4に戻す必要があります。
 
-## パッケージのインストール
+## パッケージインストール
 
-お使いのバージョンに応じて、Adobe ソフトウェア配布ポータルから必要なパッケージをダウンロードします。
+お使いのバージョンに応じて、Adobe Software Distribution Portalから必要なパッケージをダウンロードします。
 
 
-1. **Pre-migration**:[com.adobe.guides.pre-uuid-migration-2.0.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F4-0%2Fcom.adobe.guides.pre-uuid-migration-2.0.zip)
-1. **UUID バージョン 4.6.1 をダウンロード**:[com.adobe.fmdita.feature-uuid-4.6.1.5886.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F4-0%2Fcom.adobe.fmdita.feature-uuid-4.6.1.5886.zip)
-1. **移行**:[com.adobe.guides.uuid-upgrade-2.0.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F4-0%2Fcom.adobe.guides.uuid-upgrade-2.0.zip)
+1. **Pre-migration**: [com.adobe.guides.pre-uuid-migration-2.0.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F4-0%2Fcom.adobe.guides.pre-uuid-migration-2.0.zip)
+1. **UUID バージョン 4.6.1**&#x200B;をダウンロード：[com.adobe.fmdita.feature-uuid-4.6.1.5886.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F4-0%2Fcom.adobe.fmdita.feature-uuid-4.6.1.5886.zip)
+1. **移行**: [com.adobe.guides.uuid-upgrade-2.0.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F4-0%2Fcom.adobe.guides.uuid-upgrade-2.0.zip)
 
-## 移行前チェック
+## 移行前の確認
 
-非 UUID バージョン 4.6.0 サービスパック 4 で、次のチェックを実行します。
+非UUID バージョン 4.6.0 サービスパック 4に対して、次のチェックを実行します。
 
-1. バージョン 4.6.0 サービスパック 4 より前の移行前パッケージ [com.adobe.guides.pre-uuid-migration-2.0.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F4-0%2Fcom.adobe.guides.pre-uuid-migration-2.0.zip) をインストールします。
+1. 移行前パッケージ [com.adobe.guides.pre-uuid-migration-2.0.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F4-0%2Fcom.adobe.guides.pre-uuid-migration-2.0.zip)をバージョン 4.6.0 Service Pack 4にインストールします。
 
    >[!NOTE]
    >
    >* 移行を実行するには、管理者権限が必要です。
-   >* 移行を進める前にエラーのあるファイルを修正することをお勧めします。
+   >* 移行を進める前に、エラーのあるファイルを修正することをお勧めします。
 
-1. システムに 100,000 個を超える DITA ファイルがある場合は、スクリプトが機能するようにクエリ制限設定を更新します。
+1. システム内に100,000個を超えるDITA ファイルがある場合は、スクリプトが機能するようにクエリ制限の設定を更新します。
 
-   * `/system/console/configMgr and increase both the configs to more than number of assets - queryLimitInMemory` および `queryLimitReads under org.apache.jackrabbit.oak.query.QueryEngineSettingsService` に移動します。
+   * `/system/console/configMgr and increase both the configs to more than number of assets - queryLimitInMemory`および`queryLimitReads under org.apache.jackrabbit.oak.query.QueryEngineSettingsService`に移動します
 
-1. `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html` を起動します。
-1. 左側のパネルから **互換性評価** を選択し、すべてのアセットの `/content/dam` フォルダーパスを参照します。
+1. `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`を起動します。
+1. 左側のパネルから「**互換性評価**」を選択し、すべてのアセットの`/content/dam` フォルダーパスを参照します。
 1. 互換性を確認して、次の情報を一覧表示します。
    * 合計ファイル数
    * 移行の推定時間
    * エラーのあるファイルの数
-   * GUID ファイル名を含むファイル
+   * GUID ファイル名を持つファイル
 
-   ![&#x200B; 移行の「互換性の評価」タブ &#x200B;](assets/migration-compatibility-assessment.png)
-
-
-1. エラーが表示された場合は、ログを分析し、それらのエラーを修正します。 エラーを修正した後、互換性マトリックスを再実行できます。
-
-1. 左側のパネルから **検証を設定** を選択します。 次に、マップの **マップを選択** および **プリセットを選択** して設定します。 現在の出力検証リストには、移行前の出力ファイルが表示されます。後で移行後に生成された出力ファイルと照合して検証できます。
-
-   複数および大きな DITA マップを選択することで、すべてのコンテンツが問題なく正常に移行されたことを検証できます。 ベースラインの含まれるプリセットを選択すると、ベースラインとバージョンが正常に移行されます。
-
-   ![&#x200B; 移行の「検証」タブの設定 &#x200B;](assets/migration-configure-validation.png)
+   移行![の「](assets/migration-compatibility-assessment.png)互換性評価」タブ
 
 
-1. （オプション）コンテンツに対してバージョンのパージを実行して、不要なバージョンを削除し、移行プロセスを高速化します。 バージョンのパージを実行するには、移行画面から「**バージョンのパージ**」オプションを選択し、URL `http://<server- name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html` を使用してユーザーインターフェイスに移動します。
+1. エラーが表示された場合は、ログを分析してエラーを修正します。 エラーを修正した後、互換性マトリックスを再実行できます。
+
+1. 左側のパネルから「**検証の設定**」を選択します。 次に、**マップを選択**&#x200B;および&#x200B;**マップのプリセット**&#x200B;を選択して設定します。 現在の出力検証リストには、移行前に存在する出力ファイルが表示され、移行後に生成された出力ファイルに対して後で検証できます。
+
+   複数の大きなDITA マップを選択すると、すべてのコンテンツが問題なく正常に移行されたことを検証できます。 ベースラインを含むプリセットを選択すると、ベースラインとバージョンが正常に移行されます。
+
+   ![移行の「検証の設定」タブ ](assets/migration-configure-validation.png)
+
+
+1. （オプション）コンテンツのバージョンのパージを実行して、不要なバージョンを削除し、移行プロセスを高速化します。 バージョンのパージを実行するには、移行画面から「**バージョンのパージ**」オプションを選択し、URL `http://<server- name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`を使用してユーザーインターフェイスに移動します。
    >[!NOTE]
    >
-   >このユーティリティは、ベースラインやレビューで使用されているバージョンを削除したり、ラベルを持ったりしません。
+   >このユーティリティは、ベースラインやレビューで使用されているバージョンを削除したり、ラベルを付けたりすることはありません。
 
-詳しくは、「[&#x200B; 古いバージョンのパージ &#x200B;](../install-guide/version-management.md#purge-older-versions-of-dita-files)」を参照してください。
+詳しくは、[古いバージョンのパージ ](../install-guide/version-management.md#purge-older-versions-of-dita-files)を参照してください。
 
 
 ## 移行の前提条件
 
-1. UUID 移行は、オーサーインスタンスでのみ実行します。
-1. 次のインフラストラクチャへの対応を確認します。
-   * オーサーインスタンスは、CPUとメモリの観点からアップサイズされており、より高速な処理と一括アクティビティに必要な追加メモリをサポートします。 例えば、現在割り当てられているCPUとメモリが 8 vCPU でヒープが 24 GB の場合、このアクティビティの 2 倍のサイズを使用します。
-   * 全体のディスク領域と一時ディスク領域 `(crx-quickstart directory)` には、既に消費されている 10 倍のバッファーが必要です。 移行が完了したら、コンパクションを実行して、ディスク領域のほとんどを再利用できます。
-   * このアクティビティを開始する前に、**オフライン Tar 圧縮** を実行してください。
-   * この移行期間中に、インデックス作成やシステムメンテナンスが計画されていないことを確認してください。
+1. オーサーインスタンスでのみUUID移行を実行します。
+1. 次のインフラストラクチャの準備状態を確認します。
+   * オーサーインスタンスのサイズは、CPUとメモリでアップグレードされ、処理の高速化と一括アクティビティに必要なメモリの追加がサポートされます。 例えば、現在の割り当て済みCPUとメモリが8 vCPUと24 GB ヒープの場合は、このアクティビティに2倍のサイズを使用します。
+   * 全体的なディスク領域と一時ディスク領域`(crx-quickstart directory)`のバッファは、既に消費されているバッファの10倍である必要があります。 移行が完了したら、コンパクションを実行して、ほとんどのディスク領域を再利用できます。
+   * このアクティビティを開始する前に、**オフライン Tar コンパクション**&#x200B;を実行してください。
+   * この移行の期間に、インデックス作成やシステムのメンテナンスが計画されていないことを確認してください。
 
-1. サポートされているリリースの UUID バージョンを非 UUID バージョンよりも先にインストールします。 例えば、4.6.0 サービスパック 4 の非 UUID ビルドを使用している場合は、UUID バージョン 4.6.1 [com.adobe.fmdita.feature-uuid-4.6.1.5886.zip をインストールして &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F4-0%2Fcom.adobe.fmdita.feature-uuid-4.6.1.5886.zip) 移行を実行する必要があります。
+1. サポートされているリリースのUUID バージョンを非UUID バージョンにインストールします。 例えば、4.6.0 Service Pack 4のUUID以外のビルドを使用している場合は、UUID バージョン 4.6.1 [com.adobe.fmdita.feature-uuid-4.6.1.5886.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F4-0%2Fcom.adobe.fmdita.feature-uuid-4.6.1.5886.zip)をインストールして移行を実行する必要があります。
 
 
-1. uuid 移行アップグレードパッケージ [com.adobe.guides.uuid-upgrade-2.0.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F4-0%2Fcom.adobe.guides.uuid-upgrade-2.0.zip) をインストールします。
-1. 次の URL を使用して、次のワークフローのランチャーを無効にします：`http://<server-name>/libs/cq/workflow/content/console.html`。
+1. uuid移行アップグレードパッケージ [com.adobe.guides.uuid-upgrade-2.0.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F4-0%2Fcom.adobe.guides.uuid-upgrade-2.0.zip)をインストールします。
+1. URL `http://<server-name>/libs/cq/workflow/content/console.html`を使用して、次のワークフローのランチャーを無効にします。
 
    * DAM アセットの更新ワークフロー
    * DAM メタデータの書き戻しワークフロー
 
    >[!NOTE]
    >
-   >`content/dam` 内の任意のパスで実行するワークフローランチャーを無効にするのが理想的です。
+   >理想的には、`content/dam`内の任意のパスで実行されるワークフローランチャーは無効にする必要があります。
 
 1. 提案された変更に従って、次の設定を更新します。
 
    | 設定 | プロパティ | 値 |
    |---|---|---|
    | `com.adobe.fmdita.config.ConfigManager` | 後処理ワークフローランチャーの有効化 | Disable（無効） |
-   | `com.adobe.fmdita.config.ConfigManager` | uuid。 正規表現 | `^GUID-(?<id>.*)` |
+   | `com.adobe.fmdita.config.ConfigManager` | uuid: 正規表現 | `^GUID-(?<id>.*)` |
    | `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation` | バージョンの後処理を有効にする | Disable（無効） |
-   | Day CQ タグ付けサービス | 検証を有効にする（validation.enabled） | Disable（無効） |
+   | Day CQ Tagging Service | 検証を有効にする（validation.enabled） | Disable（無効） |
 
-1. 別のロガーを追加します。
+1. 次の別のロガーを追加します。
    * `com.adobe.fmdita.uuid`
    * `com.adobe.guides.uuid`。
 
 
-1. （前の手順で実行しない場合） システムに 100,000 個を超える DITA ファイルがある場合は、`queryLimitReads` の `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` を大きい値（存在するアセットの数を超える値は、たとえば 200,000）に更新します。
+1. （以前に行っていない場合）システムに100,000個を超えるDITA ファイルがある場合は、`queryLimitReads`の`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`を大きな値（存在するアセット数よりも大きい値、例えば200,000）に更新します。
 
    | PID | プロパティキー | プロパティの値 |
    |---|---|---|
@@ -121,103 +123,102 @@ ht-degree: 2%
 
 ## 移行
 
-1. `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html` を起動します。
+1. `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`を起動します。
 
-   ![&#x200B; 移行の「システムアップグレード」タブ &#x200B;](assets/migration-system-upgrade.png)
+   ![移行の「システムのアップグレード」タブ ](assets/migration-system-upgrade.png)
    >[!NOTE]
    >
-   > 「DITA アセットバックアップを有効にする」を選択すると、一時バックアップファイルが `/content/uuid-upgrade` に保存され、ファイルのマイグレーションが完了すると DITA ファイルバックアップが削除されます。
+   > 「DITA アセットバックアップを有効にする」を選択すると、一時バックアップファイルは`/content/uuid-upgrade`に保存され、ファイルの移行が完了するとDITA ファイルバックアップが削除されます。
 
 
-1. 左側のパネルから **システムアップグレード** を選択して、移行を実行します。 システムがバッチ処理を内部で最適に処理するので、すべてのデータを一度に移行することをお勧めします。 DITA アセットではなく、どの DITA アセットでも使用されていないファイルのみをマイグレーションにスキップできます。
+1. 左側のパネルから「**システムのアップグレード**」を選択して、移行を実行します。 システムが内部的にバッチ処理を最適に処理するため、すべてのデータを一度に移行することをお勧めします。 移行のためにスキップできるのは、DITA アセットではなく、DITA アセットで使用されていないファイルのみです。
 
-1. （オプション）移行をスキップするフォルダーを選択します。 これらのフォルダーを後で移行する場合や移行をスキップする場合は、このオプションを使用します。 これらのフォルダーに DITA アセットが含まれていないこと、およびが参照しないこと（および今後は参照されないこと）を確認してください。 例えば、`content/dam/projects` のように指定します。
+1. （オプション）移行をスキップするフォルダーを選択します。 このオプションを使用して、後でこれらのフォルダーを移行するか、移行をスキップします。 これらのフォルダーがDITA アセットを持たず、DITA アセットによって参照されないこと（将来的には参照されないこと）を確認します。 例えば、`content/dam/projects` のように指定します。
 
-1. 移行前にアセットのバックアップを作成するには、「*Dita アセットバックアップを有効にする*」を選択します。 このバックアップは、ファイルの移行でエラーが発生した場合にロールバックするために使用されます。 移行が成功した場合、バックアップは削除されます。 ただし、これにより移行プロセスが遅くなります。
+1. 移行前にアセットのバックアップを作成する場合は、*Dita アセットのバックアップを有効にする*&#x200B;を選択します。 このバックアップは、ファイルの移行時にエラーが発生した場合にロールバックするために使用されます。 移行が成功した場合、バックアップは削除されます。 ただし、これは移行プロセスを遅らせます。
 
 1. 移行を開始します。
    >[!NOTE]
    >
-   > 完全なログをダウンロードし、エラーが発生したかどうかを確認します。 エラーまたは例外が見つかった場合 *続行せず* 最初にエラーを修正します。 一般的なエラーは、この記事の最後に記載しています。
+   > 完全なログをダウンロードし、エラーが発生したかどうかを確認します。 エラーまたは例外が見つかった場合&#x200B;*続行しないでください*。最初にエラーを修正します。 一般的なエラーは、この記事の最後に記載されています。
 
-1. 移行が完了すると、レポートをダウンロードできるようになります。また、ログ全体もダウンロードできます。
+1. 移行が完了すると、レポートのダウンロードが可能になり、ログ全体もダウンロードできます。
 
-1. 移行実行中に「**レポートをダウンロード**」を選択し、フォルダー内のすべてのファイルが正しくアップグレードされているかどうか、およびすべての機能がそのフォルダーでのみ機能するかどうかを確認します。
+1. 移行中に「**レポートをダウンロード**」を選択し、フォルダー内のすべてのファイルが正しくアップグレードされているかどうか、すべての機能がそのフォルダーでのみ機能するかどうかを確認します。
 
 
    >[!NOTE]
    >
-   > コンテンツの移行は、フォルダーレベル、完全な `/content/dam` ージ、または同じフォルダーで実行できます（移行の再実行）。
+   > コンテンツの移行は、フォルダーレベル、完全な`/content/dam`、または同じフォルダー（移行を再実行）で実行できます。
 
-   また、DITA コンテンツで使用したすべてのメディアアセット（画像やグラフィックなど）に対してコンテンツの移行が確実に行われるようにすることが重要です。
+   また、DITA コンテンツで使用した画像やグラフィックなど、すべてのメディアアセットに対してコンテンツの移行を確実に実行することが重要です。
 
-1. すべてのファイルが移行されたら、左側のパネルから **ベースライン/レビューアップグレード** を選択して、ベースラインを移行し、フォルダーレベルでレビューします。
+1. すべてのファイルを移行したら、左側のパネルから「**ベースライン/レビューアップグレード**」を選択して、ベースラインを移行し、フォルダーレベルでレビューします。
 
-![&#x200B; 移行の「ベースライン」タブと「レビュー」タブ &#x200B;](assets/migration-baseline-review-upgrade-4-6-0.png)
+![移行の「ベースラインとレビュー」タブ ](assets/migration-baseline-review-upgrade-4-6-0.png)
 
 >[!NOTE]
 >
->システムを再起動した場合、または移行が中止された場合は、以前と同じパラメーターで再実行すると、スクリプトが再開されます。 シャットダウンが原因で問題が発生した場合は、カスタマーサクセスチームにお問い合わせください。
+>システムを再起動するか、移行を中止すると、以前と同じパラメーターで再実行すると、スクリプトが再開されます。 シャットダウンが原因で問題が発生した場合は、カスタマーサクセスチームにお問い合わせください。
 
-## 各ステップでのレポートの分析
+## 各ステップのレポートの分析
 
-**手順：システムアップグレード**
+**手順：システムのアップグレード**
 
-| プロセス完了後の概要 | どのように解釈するか？ | アクション |
+| プロセス完了後の概要 | どう解釈するか？ | アクション |
 |---|---|---|
-| ファイル総数：488 | 指定されたフォルダーのセットで処理されたファイルの合計数。 | 該当なし |
-| 正常に移行されたファイルの数：488 | ファイル数が UUID に正常に移行されました。 | 該当なし |
-| スキップされたファイル数：0 | DAM リポジトリー内の一部のファイルにはサブアセットが含まれている場合があり、それらのサブアセットは UUID 移行の対象とならないので、スキップされます。 | 該当なし |
-| アップグレードに失敗したファイルの数：0 | カウントが 0 でない場合は、問題がないかログを分析する必要があります。 | 例外を確認します。エラーを修正して、移行を再実行する必要がある場合があります。 |
+| ファイルの総数：488 | 指定されたフォルダーのセットで処理されたファイルの合計数です。 | 該当なし |
+| 正常に移行されたファイルの数：488 | UUIDに移行されたファイルの数。 | 該当なし |
+| スキップされたファイル数：0 | DAM リポジトリー内の一部のファイルにはサブアセットが含まれている場合があり、それらのサブアセットはUUID移行の対象ではないためスキップされます。 | 該当なし |
+| アップグレードに失敗したファイル数：0 | カウントが0でない場合は、ログを分析して問題を特定する必要があります。 | 例外を確認してください。エラーを修正し、移行を再実行する必要がある場合があります。 |
 | 合計所要時間：00:01:18 |  |  |
 
-さらに、移行プロセス中に **エラーでアップグレードされたファイル** および **失敗したファイル** のリストに、レポートの概要表でアクセスできます。
+さらに、移行プロセス中にエラー&#x200B;**および** ファイルが失敗&#x200B;**してアップグレードされた** ファイルのリストには、レポートの概要テーブルでアクセスできます。
 
 
-**手順：ベースラインをアップグレードする**
+**手順：ベースラインのアップグレード**
 
-| プロセス完了後の概要 | どのように解釈するか？ | アクション |
+| プロセス完了後の概要 | どう解釈するか？ | アクション |
 |---|---|---|
-| ファイルの総数：288 | ベースラインが 1 つ以上の DITA マップの数。 |  |
-| 正常に移行されたファイルの数：13 | すべてのベースラインで正常にアップグレードされた DITA マップの数。 |  |
-| スキップされたファイル数：275 | ベースラインのない DITA マップの数。 |  |
-| アップグレードに失敗したファイルの数：0 | 無効な（空の）ベースラインオブジェクトの数がレポート （Excel）に表示されます。 | `baselineObj not found on` 以外のエラーがあるかどうかを確認します。 |
+| ファイルの総数：288 | 少なくとも1つのベースラインがあるDITA マップの数。 |  |
+| 正常に移行されたファイルの数：13 | すべてのベースラインで正常にアップグレードされたDITA マップの数。 |  |
+| スキップされたファイル数：275 | ベースラインのないDITA マップの数。 |  |
+| アップグレードに失敗したファイル数：0 | 有効でない（空だった）ベースラインオブジェクトの数がレポート（Excel）に表示されます。 | 次のエラー以外のエラーがあるかどうかを確認してください：`baselineObj not found on` |
 
-さらに、移行プロセス中に **エラーでアップグレードされたファイル** および **失敗したファイル** のリストに、レポートの概要表でアクセスできます。
+さらに、移行プロセス中にエラー&#x200B;**および** ファイルが失敗&#x200B;**してアップグレードされた** ファイルのリストには、レポートの概要テーブルでアクセスできます。
 
 ## 移行後
 
-1. 移行が完了したら、左側のパネルから **システムアップグレードの検証** を選択し、移行前と移行後に出力ファイルを検証して、移行が成功したことを確認します。
+1. 移行が完了したら、左側のパネルから「**システムアップグレードの検証**」を選択し、移行の前後で出力ファイルを検証して、移行が成功することを確認します。
 
-   ![&#x200B; 移行の「システムアップグレードを検証」タブ &#x200B;](assets/migration-validate-system-upgrade.png)
+   ![移行で「システムのアップグレード」タブを検証](assets/migration-validate-system-upgrade.png)
 
-1. サーバーの移行が成功したら、次のワークフローと設定（移行中に最初に無効にしたその他すべてのワークフローを含む）を有効にして、サーバーで作業を続行します。
+1. サーバーを移行した後、次のワークフローと設定（移行中に最初に無効化されたその他のすべてのワークフローを含む）を正常に有効にして、サーバーでの作業を続行します。
 
    * DAM アセットの更新ワークフロー
    * DAM メタデータワークフロー
 
    >[!NOTE]
    >
-   >移行前に `content/dam` 内の任意のパスで実行していたワークフローランチャーを有効にするのが理想的です。
+   >移行を有効にする前に、`content/dam`内の任意のパスで実行していたワークフローランチャーを使用することをお勧めします。
 
 1. 次の設定を有効にします。
 
    | 設定 | プロパティ | 値 |
    |---|---|---|
-   | `com.adobe.fmdita.config.ConfigManager` | *後処理ワークフローランチャーの有効化* | Enable（有効） |
-   | `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation` | *バージョン後処理を有効にする* | Enable（有効） |
-   | Day CQ タグ付けサービス | *検証を有効にする（validation.enabled）* | Enable（有効） |
+   | `com.adobe.fmdita.config.ConfigManager` | *後処理ワークフローランチャーを有効にする* | Enable（有効） |
+   | `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation` | *バージョンの後処理を有効にする* | Enable（有効） |
+   | Day CQ Tagging Service | *検証を有効にする（validation.enabled）* | Enable（有効） |
 
-1. 移行後に確認するAssetsのプロパティ：
+1. 移行後に確認するAssets プロパティ：
 
-   | 設定 | プロパティ | 非 UUID の事前移行の値 | UUID の移行後の値 |
+   | 設定 | プロパティ | 非UUIDでの移行前の値 | UUIDでの移行後の値 |
    |---|---|---|---|
-   | `com.adobe.fmdita.config.ConfigManager` | **AEM サイトのページ名にタイトルを使用** | False （デフォルト値） | True |
+   | `com.adobe.fmdita.config.ConfigManager` | **AEM サイトのページ名にタイトルを使用** | False （既定値） | True |
 
    >[!NOTE]
    >
-   > 移行前に **内のプロパティ** AEM サイトページ名にタイトルを使用 `com.adobe.fmdita.config.ConfigManager` を *False* に設定した場合、移行後にこのプロパティを更新する必要があります。
+   > 移行前にプロパティ **Use title for AEM Site page names** inside `com.adobe.fmdita.config.ConfigManager`を&#x200B;*False*&#x200B;に設定した場合、移行後にこのプロパティを更新する必要があります。
 
 
-1. 検証が完了したら、コンパクションを実行することで、ディスク領域のほとんどを再利用できます（`https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=ja` を参照）。
-
+1. 検証が完了した後、コンパクションを実行することで、ほとんどのディスク領域を再利用できます（`https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`を参照）。

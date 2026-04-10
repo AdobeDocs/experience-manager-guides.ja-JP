@@ -1,33 +1,34 @@
 ---
-title: 要素 ID の自動生成
-description: 要素 ID を自動生成する方法を学ぶ
+title: エレメント IDの自動生成
+description: 要素IDを自動生成する方法を説明します
 exl-id: a651db7f-228e-4de5-b569-3f1b4f86c418
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 1%
 
 ---
 
-# 要素 ID の自動生成 {#id20CIL40016I}
+# エレメント IDの自動生成 {#id20CIL40016I}
 
-AEM Guidesは、作成する新規ドキュメントのドキュメント ID を生成します。 たとえば、DITA マップを作成すると、`map.ditamap_random_digits` のような ID がマップの ID に割り当てられます。 また、ID が自動的に生成され、割り当てられる要素を定義できます。
+AEM Guidesは、作成した新規ドキュメントのドキュメント IDを生成します。 例えば、DITA マップを作成する場合、`map.ditamap_random_digits`のようなIDがマップのIDに割り当てられます。 IDが自動的に生成され、割り当てられる要素を定義することもできます。
 
-AEM Guidesは、ID が自動生成される要素と ID のパターンを定義する必要がある、設定を簡単に提供します。 デフォルトでは、`section`、`table`、`ul`、`ol` などの一部の要素は、ID の自動生成用に設定されています。 このリストに他のエレメントを加えることで、これらのエレメントが文書に挿入されるたびに、AEM Guidesは指定されたパターンに基づいて ID を生成して割り当てます
+AEM Guidesでは、IDが自動生成される要素とIDのパターンを定義する必要がある、簡単な設定を提供します。 デフォルトでは、`section`、`table`、`ul`、`ol`などの一部の要素は、IDの自動生成用に設定されています。 このリストに他のエレメントを追加すると、これらのエレメントがドキュメントに挿入されるたびに、AEM Guidesが指定されたパターンに基づいてIDを生成して割り当てることができます
 
-[&#x200B; 設定の上書き &#x200B;](download-install-additional-config-override.md#) の手順に従って、設定ファイルを作成します。 自動生成された要素 ID を設定するには、設定ファイルで、次の\（property\）の詳細を指定します。
-
-| PID | プロパティキー | プロパティの値 |
-|---|------------|--------------|
-| `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.classes` | 要素のコンマ区切りリストを指定します。<br> **デフォルト値**: `"topic, section, table, simpletable, fig, image, ul, ol"` |
-
-自動生成された ID のパターンを設定するには、次のプロパティを含む設定ファイルを作成します。
+設定ファイルを作成するには、[設定の上書き](download-install-additional-config-override.md#)の手順を使用します。 設定ファイルで、自動生成された要素IDを設定するために次の\（property\）詳細を指定します。
 
 | PID | プロパティキー | プロパティの値 |
 |---|------------|--------------|
-| `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.pattern` | このフィールドのデフォルト値は `${elementName}_${id}` に設定されています。 `${elementName}` の値は要素の名前に置き換えられます。 `${id}` 変数は、要素の連続番号を生成します。 例えば、段落要素に自動生成された ID を割り当てると、トピックまたはドキュメント内の最初の段落に p\_1 のような ID が割り当てられ、次の段落に p\_2 などが割り当てられます。 ただし、別のドキュメントでは、ID 生成プロセスが再開します。 つまり、別のドキュメントで、p\_1 や p\_2 などの ID を段落要素に割り当てることができます。 **デフォルト値**: ``${elementName}_${id}`` |
+| `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.classes` | エレメントのコンマ区切りリストを指定します。<br> **デフォルト値**: `"topic, section, table, simpletable, fig, image, ul, ol"` |
 
-**親トピック：**&#x200B;[&#x200B; Web エディタのカスタマイズ &#x200B;](conf-web-editor.md)
+自動生成IDのパターンを設定するには、次のプロパティを持つ設定ファイルを作成します。
+
+| PID | プロパティキー | プロパティの値 |
+|---|------------|--------------|
+| `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.pattern` | このフィールドのデフォルト値は`${elementName}_${id}`に設定されています。 `${elementName}`値は、要素の名前に置き換えられます。 `${id}`変数は、要素の連続番号を生成します。 例えば、段落要素に自動生成IDを割り当てると、トピックまたはドキュメントの最初の段落にp\_1などのIDが割り当てられ、次の段落にp\_2などが割り当てられます。 ただし、別の文書では、ID生成プロセスが再開されます。 つまり、別の文書では、p\_1やp\_2などのIDを段落要素に割り当てることができます。 **デフォルト値**: ``${elementName}_${id}`` |
+
+**親トピック：**[ Web エディターのカスタマイズ ](conf-web-editor.md)

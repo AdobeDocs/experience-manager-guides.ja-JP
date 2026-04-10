@@ -1,11 +1,12 @@
 ---
 title: 記事ベースの公開用パッケージのインストール
-description: 記事ベースの公開用パッケージのインストール方法を学ぶ
+description: 記事ベースの公開用パッケージのインストール方法について説明します
 exl-id: d83fc1a9-0822-47f0-8099-22a74b9ced2a
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -14,32 +15,32 @@ ht-degree: 0%
 
 # 記事ベースの公開用パッケージのインストール {#id21BNL02052Z}
 
-AEM Guidesは、Web エディターと統合された、記事ベースの強力な公開機能を提供します。 この機能を使用すると、1 つ以上のトピックを同時に公開できます。 マップエディターでマップを開いたら、「出力」タブに移動してプリセットを作成し、出力を生成する 1 つ以上のトピックを選択します。 記事ベースの公開機能を使用すると、1 つ以上のトピックの出力を増分的に生成したり、記事ごとにナレッジベースプラットフォームにコンテンツを公開したりできます。 詳細については、『ユーザガイド』の *Web エディタからの記事ベースの公開* を参照してください。
+AEM Guidesは、Web エディターと統合された強力な記事ベースの公開機能を提供します。 この機能を使用すると、1つ以上のトピックを同時に公開できます。 マップエディターでマップを開いたら、「出力」タブに移動してプリセットを作成し、1つ以上のトピックを選択して出力を生成できます。 記事ベースの公開機能を使用すると、1つ以上のトピックの出力を段階的に生成したり、記事ごとにコンテンツをナレッジベースプラットフォームに公開したりできます。 詳しくは、ユーザーガイドの「*Web エディターからの記事ベースの公開」セクション*&#x200B;を参照してください。
 
-記事ベースの出力を公開するためのAEM サイトを作成するには、次の手順を実行します。
+記事ベースの出力を公開するAEM サイトを作成するには、次の手順を実行します。
 
-1. **Cloud Service用のXML Documentation コンポーネント コンテンツパッケージを** 2&rbrace;Adobeソフトウェア配布ポータル [&#128279;](https://experience.adobe.com/#/downloads/content/software-distribution/jp/general.html) からダウンロードします。
-1. AEM パッケージマネージャーを開きます。 パッケージマネージャーにアクセスするデフォルトの URL は `https://<hostname>/crx/packmgr/index.jsp` です。
-1. Cloud Service用のXML Documentation コンポーネントコンテンツパッケージをアップロードしてからインストールします。
-1. `Knowledge-base-template-for-article-based-publishing-for-cloud-service.zip` ファイルを [Adobe ソフトウェア配布ポータル &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/jp/general.html) からダウンロードします。
-1. グローバルナビゲーションから「**サイト**」を選択します。
-1. Sites UI 内で、右上隅の **作成** ボタンをクリックします。
-1. **作成** ドロップダウンから **テンプレートのサイト** を選択します。
-1. 「**インポート**」ボタンをクリックし、システムにダウンロードした `Knowledge-base-template-for-article-based-publishing-for-cloud-service.zip` を選択します。 サイトテンプレートが読み込まれると、下部に表示されます。
-
-   >[!NOTE]
-   >
-   > ZIP ファイルは初回のみ読み込む必要があります。 インポートすると、リストでサイトテンプレートを使用できるようになります。
-
-   **記事ベースの公開用のナレッジベーステンプレート** を選択してAEM サイトを作成し、右上隅にある **次へ** をクリックします。
-
-1. **サイトのタイトル** と **サイト名** を入力し、右上隅の **作成** をクリックします。 AEM サイトは、Tragopan サイトテンプレートを使用して作成されます。 \（Tragopan のサイトは、カテゴリページ、セクションページ、記事ページ用のテンプレートを含むナレッジベース AEM サイトのサンプルです。\）
+1. **XML Documentation ソフトウェア配布ポータル**&#x200B;から[Cloud Service コンポーネントコンテンツパッケージ for Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/jp/general.html)をダウンロードします。
+1. AEM Package Managerを開きます。 パッケージマネージャーにアクセスするためのデフォルト URLは`https://<hostname>/crx/packmgr/index.jsp`です
+1. Cloud Service用XML Documentation コンポーネントコンテンツパッケージをアップロードし、インストールします。
+1. `Knowledge-base-template-for-article-based-publishing-for-cloud-service.zip`Adobe Software Distribution Portal[から](https://experience.adobe.com/#/downloads/content/software-distribution/jp/general.html) ファイルをダウンロードします。
+1. グローバルナビゲーションから、**Sites**&#x200B;を選択します。
+1. サイト UIの右上隅にある「**作成**」ボタンをクリックします。
+1. 「**作成**」ドロップダウンから「**テンプレートからサイト**」を選択します。
+1. 「**読み込み**」ボタンをクリックし、システムでダウンロードした`Knowledge-base-template-for-article-based-publishing-for-cloud-service.zip`を選択します。 サイトテンプレートを読み込むと、下部に表示されます。
 
    >[!NOTE]
    >
-   > 同じテンプレートを使用して複数のAEM サイトを作成できます。
+   > ZIP ファイルを初めて読み込む必要があります。 読み込むと、サイトテンプレートがリストに表示されます。
+
+   記事ベースの公開用&#x200B;**ナレッジベーステンプレート**&#x200B;を選択してAEM サイトを作成し、右上隅の&#x200B;**次へ**&#x200B;をクリックします。
+
+1. **サイトのタイトル**&#x200B;と&#x200B;**サイト名**&#x200B;を入力し、右上隅の&#x200B;**作成**&#x200B;をクリックします。 AEM サイトは、Tragopan サイトテンプレートを使用して作成されます。 \（Tragopan サイトは、カテゴリ、セクション、記事ページのテンプレートを含むサンプル ナレッジベース AEM サイトです。\）
+
+   >[!NOTE]
+   >
+   > 同じテンプレートを使用して、複数のAEM サイトを作成できます。
 
 
-AEM サイトでは、Web エディターの出力プリセットを使用して記事を公開できます。
+AEM サイトを使用して、Web エディターの出力プリセットを使用して記事を公開できます。
 
-**親トピック：**&#x200B;[&#x200B; Web エディタのカスタマイズ &#x200B;](conf-web-editor.md)
+**親トピック：**[ Web エディターのカスタマイズ ](conf-web-editor.md)
