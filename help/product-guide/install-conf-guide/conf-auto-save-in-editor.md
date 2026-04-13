@@ -4,9 +4,10 @@ description: Web エディターでファイル自動保存を設定する方法
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 142a588a-3d26-48ee-a3fe-23882922243c
+source-git-commit: 2749c0df3bd5640c9491dce3ab6c96f707625969
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '267'
 ht-degree: 1%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 1%
 
 自動保存機能はデフォルトでは有効になっていません。Cloud Serviceの設定ファイルとオンプレミスの`configMgr`からこれを有効にする必要があります。
 
-次のタブでは、Experience Manager Guidesの設定に基づいてWeb エディターの自動保存機能を有効にする手順を示します。Cloud Serviceまたはオンプレミス。
+次のタブには、Experience Manager Guidesの設定に基づいてWeb エディターで自動保存機能を有効にする手順が表示されます。Cloud Serviceまたはオンプレミス。
 
 >[!BEGINTABS]
 
