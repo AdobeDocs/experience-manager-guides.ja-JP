@@ -3,7 +3,7 @@ title: PDFのネイティブ公開機能| バーコードの追加
 description: バーコードの追加方法を説明します。
 exl-id: 206bdcf9-2bcd-4bf1-815a-c97cdf0dc415
 hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 1%
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 ### テンプレートのCSSを更新して、バーコード値をレンダリングします
 
-PDF生成時に`layout.css` ファイルを変更して、バーコードをレンダリングします。 「qrcode」や「pdf417」など、様々なバーコードタイプがサポートされています。  詳細については、[&#x200B; バーコードタイプ &#x200B;](#barcode-types)を参照してください。
+PDF生成時に`layout.css` ファイルを変更して、バーコードをレンダリングします。 「qrcode」や「pdf417」など、様々なバーコードタイプがサポートされています。  詳細については、[ バーコードタイプ ](#barcode-types)を参照してください。
 
 
 

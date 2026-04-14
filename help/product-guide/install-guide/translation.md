@@ -6,7 +6,7 @@ feature: Translation
 role: Admin
 level: Experienced
 hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 8%
@@ -24,17 +24,17 @@ ht-degree: 8%
 
 コンテンツの翻訳には次の手順が含まれます。
 
-1. AEMを[翻訳サービスプロバイダー](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider)と接続し、[翻訳インテグレーションフレームワーク設定](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration)を作成します。
+1. AEMを[翻訳サービスプロバイダー](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider)と接続し、[翻訳インテグレーションフレームワーク設定](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration)を作成します。
 
-1. 言語マスターのページを[翻訳サービスとフレームワーク設定](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation)に関連付けます。
+1. 言語マスターのページを[翻訳サービスとフレームワーク設定](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation)に関連付けます。
 
-1. 翻訳する[&#x200B; コンテンツの種類](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/tc-rules.html?lang=ja-JP)を特定します。
+1. 翻訳する[ コンテンツの種類](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-rules.html?lang=ja-JP)を特定します。
 
 1. [翻訳するコンテンツを準備](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/tc-prep.html)します。そのためには、言語マスターをオーサリングして、言語コピーのルートページを作成します。
 
-1. 翻訳するコンテンツを収集し、翻訳プロセスを準備するために、[翻訳プロジェクト &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/administering/introduction/tc-manage.html?lang=ja)を作成します。
+1. 翻訳するコンテンツを収集し、翻訳プロセスを準備するために、[翻訳プロジェクト ](https://experienceleague.adobe.com/docs/experience-manager-65/administering/introduction/tc-manage.html?lang=ja)を作成します。
 
-1. 翻訳プロジェクトを使用して、[&#x200B; コンテンツ翻訳](https://experienceleague.adobe.com/docs/experience-manager-65/administering/introduction/tc-manage.html?lang=ja) プロセスを管理します。
+1. 翻訳プロジェクトを使用して、[ コンテンツ翻訳](https://experienceleague.adobe.com/docs/experience-manager-65/administering/introduction/tc-manage.html?lang=ja) プロセスを管理します。
 
 
 翻訳サービスプロバイダーがAEMとの統合にコネクタを提供しない場合、AEMでは、翻訳されたコンテンツのXML形式での手作業による書き出しと読み込みがサポートされます。
@@ -89,7 +89,7 @@ ht-degree: 8%
 
    >[!NOTE]
    >
-   > 翻訳コネクタを使用している場合は、AEM ドキュメントの「*[Translation Integration Frameworkの設定](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/tc-tic.html)*」のトピックで説明されているように、コネクタが設定されていることを確認してください。
+   > 翻訳コネクタを使用している場合は、AEM ドキュメントの「*[Translation Integration Frameworkの設定](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html)*」のトピックで説明されているように、コネクタが設定されていることを確認してください。
 
 1. 「**保存**」をクリックします。
 
@@ -153,7 +153,7 @@ ht-degree: 8%
 
 
 
-<!---
+<!--
 
 This was added for 2406 CS IG
 
@@ -185,7 +185,7 @@ Based on the translation workflow used in your setup, provide the following (pro
 1.  Click **Save**.
 
 
---->
+-->
 
 
 ## 一時的な言語コピーの後処理の設定
