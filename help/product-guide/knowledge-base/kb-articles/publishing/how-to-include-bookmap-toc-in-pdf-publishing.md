@@ -93,13 +93,13 @@ Ditamapを公開している場合、Native PDFでは、目次とブックリス
 
 ## その他のリソース :
 
-- [&#x200B; ネイティブ PDF デザインページレイアウトのドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/design-page-layout)
-- [&#x200B; ネイティブ PDF essentialsの事前録画エキスパートセッション &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
+- [&#x200B; ネイティブ PDF デザインページレイアウトのドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/design-page-layout)
+- [&#x200B; ネイティブ PDF essentialsの事前録画エキスパートセッション &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
 
 <br>
 <br>
 
-質問がある場合は、AEM Guides コミュニティ [&#x200B; フォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)に投稿してください。
+質問がある場合は、AEM Guides コミュニティ [&#x200B; フォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=ja)に投稿してください。
 
 
 

@@ -24,11 +24,11 @@ ht-degree: 8%
 
 コンテンツの翻訳には次の手順が含まれます。
 
-1. AEMを[翻訳サービスプロバイダー](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider)と接続し、[翻訳インテグレーションフレームワーク設定](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration)を作成します。
+1. AEMを[翻訳サービスプロバイダー](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider)と接続し、[翻訳インテグレーションフレームワーク設定](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration)を作成します。
 
-1. 言語マスターのページを[翻訳サービスとフレームワーク設定](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation)に関連付けます。
+1. 言語マスターのページを[翻訳サービスとフレームワーク設定](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation)に関連付けます。
 
-1. 翻訳する[&#x200B; コンテンツの種類](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-rules.html?lang=ja-JP)を特定します。
+1. 翻訳する[&#x200B; コンテンツの種類](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/tc-rules.html?lang=ja-JP)を特定します。
 
 1. [翻訳するコンテンツを準備](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/tc-prep.html)します。そのためには、言語マスターをオーサリングして、言語コピーのルートページを作成します。
 
@@ -89,7 +89,7 @@ ht-degree: 8%
 
    >[!NOTE]
    >
-   > 翻訳コネクタを使用している場合は、AEM ドキュメントの「*[Translation Integration Frameworkの設定](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html)*」のトピックで説明されているように、コネクタが設定されていることを確認してください。
+   > 翻訳コネクタを使用している場合は、AEM ドキュメントの「*[Translation Integration Frameworkの設定](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/tc-tic.html)*」のトピックで説明されているように、コネクタが設定されていることを確認してください。
 
 1. 「**保存**」をクリックします。
 
