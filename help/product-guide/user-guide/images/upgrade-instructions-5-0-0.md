@@ -12,7 +12,7 @@ ht-degree: 6%
 
 この記事では、Adobe Experience Manager Guidesの5.0.0 リリースのアップグレード手順と互換性マトリックスについて説明します。
 
-新機能と機能強化について詳しくは、[ 5.0.0リリースの新機能](/help/product-guide/release-info/whats-new-5-0-0.md)を参照してください。
+新機能と機能強化について詳しくは、[&#x200B; 5.0.0リリースの新機能](/help/product-guide/release-info/whats-new-5-0-0.md)を参照してください。
 
 このリリースで修正された問題のリストについては、「[5.0.0 リリースで修正された問題](/help/product-guide/release-info/fixed-issues-5-0-0.md)」を参照してください。
 
@@ -62,7 +62,7 @@ ht-degree: 6%
 - バージョン 4.2、4.2.1 （ホットフィックス 4.2.1.3）、4.1、または4.1.xを使用している場合は、バージョン 5.0.0にアップグレードする前に、バージョン 4.4にアップグレードする必要があります。
 - バージョン 4.0を使用している場合は、バージョン 4.3.xにアップグレードする前にバージョン 4.2にアップグレードする必要があります。
 - バージョン 3.8.5を使用している場合は、バージョン 4.2にアップグレードする前にバージョン 4.0にアップグレードする必要があります。
-- 3.8.5より前のバージョンを使用している場合は、[Adobe Experience Manager Guides ヘルプ Experience Manager Guides アーカイブ ](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)で入手できる製品固有のインストールガイドの「PDFのアップグレード」セクションを参照してください。
+- 3.8.5より前のバージョンを使用している場合は、[Adobe Experience Manager Guides ヘルプ Experience Manager Guides アーカイブ &#x200B;](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)で入手できる製品固有のインストールガイドの「PDFのアップグレード」セクションを参照してください。
 
 >[!NOTE]
 >

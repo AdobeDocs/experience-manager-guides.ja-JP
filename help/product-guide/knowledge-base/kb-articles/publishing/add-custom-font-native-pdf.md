@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## 手順1：カスタムフォントをテンプレートのリソースフォルダーにアップロードする
 
-![ カスタムフォントのアップロードと](../assets/publishing/custom-font1.png)のインポート
+![&#x200B; カスタムフォントのアップロードと](../assets/publishing/custom-font1.png)のインポート
 
 ## 手順2 :PDF テンプレートのスタイルシートを変更する
 

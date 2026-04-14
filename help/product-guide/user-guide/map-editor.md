@@ -38,4 +38,4 @@ The Map Editor comes in two modes — the Basic Map Editor and the Advanced Map 
 - **[マップエディターの追加機能](map-editor-other-features.md)**
 
 
-**親トピック：**[ AEM Guidesを使用してコンテンツを作成](authoring-content-xml-doc.md)
+**親トピック：**&#x200B;[&#x200B; AEM Guidesを使用してコンテンツを作成](authoring-content-xml-doc.md)
