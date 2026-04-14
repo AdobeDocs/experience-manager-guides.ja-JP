@@ -5,11 +5,11 @@ Below article will help you in Setting up and running FMPS with AEM Guides.**
 
 ## Compatibility of FMPS with AEM Guides :
 
- - ### Compatibility with 4.1 AEM Guides : [Link](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=en/#compatibility-matrix)
+ ### Compatibility with 4.1 AEM Guides : [Link](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=en/#compatibility-matrix)
    
-  - ### Compatibility with 4.0 AEM Guides : [Link](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html/#Compatibility%20matrix)
+  ### Compatibility with 4.0 AEM Guides : [Link](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html/#Compatibility%20matrix)
    
-  - ### Future Release : [Link](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=en)
+  ### Future Release : [Link](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=en)
 
 ## Installation:
 
@@ -53,29 +53,29 @@ You can Publish your already created baselines with FMPS2020.0.2 or higher versi
 
 ## FAQ and Troubleshooting:
 
-- ### FMPS publishing fails with “Timeout Exception”
+### FMPS publishing fails with “Timeout Exception”
  Check and increase value of “FMPS timeout” (Seconds) in
        /system/console/configMgr/com.adobe.fmdita.config.ConfigManager”
        .
 
-- ### Unable to get FMPS Preset in dropdown
+### Unable to get FMPS Preset in dropdown
 
 Make Sure you have pre-defined FMPS Preset created on Server and your connection settings is correct.
 
-- ### I am getting Blank PDF when publishing.
+### I am getting Blank PDF when publishing.
 
 If you are using UUID then make sure you have Checked “Use UUID based referencing” in FrameMaker EditPreferences and vice versa for Non-UUID AEM guides
 
-- ### My settings/Ditaval are not getting applied in final published output
+### My settings/Ditaval are not getting applied in final published output
 
 Make sure you are not selecting both Setting/Ditaval file and FMPS Preset parallelly.Verify output manually using FrameMaker
 
-- ### Baseline not getting published from FMPS
+### Baseline not getting published from FMPS
 
 Baseline publishing is compatible with FMPS2020.0.2 or higher version.  
 Make sure your Baseline is created properly, To verify go to Map Dashboard Topic Download Map and select “Use Baseline “.
 
-- ### Publish Task from FMPS takes more time than other Engines.
+### Publish Task from FMPS takes more time than other Engines.
 
 There will be ideal fixed header of approx. 3-4 min only while publishing from FMPS than other Engines , If you think it is more than that then check with your FMPS administrator or Contact Adobe Support.
 
