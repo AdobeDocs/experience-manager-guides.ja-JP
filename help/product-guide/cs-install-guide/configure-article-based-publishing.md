@@ -18,7 +18,7 @@ AEM Guidesは、Web エディターと統合された強力な記事ベースの
 
 記事ベースの出力を公開するAEM サイトを作成するには、次の手順を実行します。
 
-1. [XML Documentation ソフトウェア配布ポータル ](https://experience.adobe.com/#/downloads/content/software-distribution/jp/general.html)から&#x200B;**Cloud Service コンポーネントコンテンツパッケージ for Adobe**&#x200B;をダウンロードします。
+1. [XML Documentation ソフトウェア配布ポータル &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/jp/general.html)から&#x200B;**Cloud Service コンポーネントコンテンツパッケージ for Adobe**&#x200B;をダウンロードします。
 1. AEM Package Managerを開きます。 パッケージマネージャーにアクセスするためのデフォルト URLは`https://<hostname>/crx/packmgr/index.jsp`です
 1. Cloud Service用XML Documentation コンポーネントコンテンツパッケージをアップロードし、インストールします。
 1. [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/jp/general.html)から`Knowledge-base-template-for-article-based-publishing-for-cloud-service.zip` ファイルをダウンロードします。
@@ -42,4 +42,4 @@ AEM Guidesは、Web エディターと統合された強力な記事ベースの
 
 AEM サイトを使用して、Web エディターの出力プリセットを使用して記事を公開できます。
 
-**親トピック：**[ Web エディターのカスタマイズ ](conf-web-editor.md)
+**親トピック：**&#x200B;[&#x200B; Web エディターのカスタマイズ &#x200B;](conf-web-editor.md)

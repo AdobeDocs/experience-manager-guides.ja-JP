@@ -32,7 +32,7 @@ ht-degree: 7%
    http://<server name>:<port>/crx/packmgr/index.jsp
    ```
 
-   パッケージマネージャーは、ローカルのAEM インストール上のパッケージを管理します。 パッケージマネージャーの操作について詳しくは、AEM ドキュメントの[ パッケージの操作方法](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/package-manager.html)を参照してください。
+   パッケージマネージャーは、ローカルのAEM インストール上のパッケージを管理します。 パッケージマネージャーの操作について詳しくは、AEM ドキュメントの[&#x200B; パッケージの操作方法](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/package-manager.html)を参照してください。
 
    ![](assets/package-manager.png){width="650" align="left"}
 
@@ -55,4 +55,4 @@ ht-degree: 7%
 >
 > セットアップ内のすべてのAEM サーバーのインスタンスに対して、インストール手順を実行します。
 
-**親トピック：**[ ダウンロードしてインストール ](download-install.md)
+**親トピック：**&#x200B;[&#x200B; ダウンロードしてインストール &#x200B;](download-install.md)

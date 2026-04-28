@@ -26,23 +26,23 @@ ht-degree: 0%
 
 - **最終ネガティブスコアリングを有効または無効にする**: クイズのプロパティを設定する際に、**負の最終スコアを許可** オプションを使用してネガティブスコアリングを制御できます。 このオプションを有効にすると、マイナスのマーキングが適用された場合でも、学習者は最終スコアの最小値が0になります。 これにより、スコアがゼロを下回らないようにすることで、学習者のモチベーションを維持できます。
 
-  [ クイズプロパティ ](../learning-content/quiz-properties.md)の詳細をご覧ください。
+  [&#x200B; クイズプロパティ &#x200B;](../learning-content/quiz-properties.md)の詳細をご覧ください。
 
   ![](assets/negative-scores-lc.png)
 
 - **右クリックでウィジェットを削除**: クイズの質問を削除するだけでなく、**右クリック/アイテムを削除**&#x200B;で、アコーディオン、フリップカード、その他のウィジェットなどのウィジェットを削除できるようになりました。 この機能強化により、既存の&#x200B;*質問の削除機能*&#x200B;がウィジェットに拡張され、クリック数やナビゲーション数を最小限に抑えながら削除できるようになりました。
 
-  [ インタラクティブウィジェットの使用](../learning-content/lc-widgets.md)について詳しく見る。
+  [&#x200B; インタラクティブウィジェットの使用](../learning-content/lc-widgets.md)について詳しく見る。
 
   ![](assets/delete-widget-items.png)
 - **回答の選択肢をピン留め**:SCORM出力の生成中に回答がランダム化された場合でも、特定の回答の選択肢をピン留めできるようになりました。これにより、回答の位置が変更されなくなります。 これは、*上記のすべて*&#x200B;または&#x200B;*上記のどれも*&#x200B;のようなオプションでは特に便利です。
 
-  [質問プロパティ ](../learning-content/quiz-insert-questions.md#question-properties)の詳細を表示します。
+  [質問プロパティ &#x200B;](../learning-content/quiz-insert-questions.md#question-properties)の詳細を表示します。
 
   ![](assets/pin-question.png)
 - **簡潔な回答タイプ**：簡潔な回答タイプを使用すると、学習者は定義済みのオプションを選択する代わりに、簡潔で記述的な英数字の回答を使用して回答できます。 この質問タイプは、学習者が自分の言葉で理解を積極的に思い出し、明確にすることを促し、評価をより魅力的なものにします。
 
-  [質問タイプ ](../learning-content/quiz-insert-questions.md#question-types)の詳細を表示します。
+  [質問タイプ &#x200B;](../learning-content/quiz-insert-questions.md#question-types)の詳細を表示します。
 
 
   ![](assets/short-answer.png)
