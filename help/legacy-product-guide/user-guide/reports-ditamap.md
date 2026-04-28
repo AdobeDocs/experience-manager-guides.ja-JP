@@ -1,99 +1,99 @@
 ---
-title: マップダッシュボードからの DITA マップレポート
-description: AEM Guidesのマップダッシュボードから DITA マップレポートを生成します。 DITA マップレポートの CSV を生成する方法を説明します。
+title: DITA map report from the map dashboard
+description: Generate DITA map reports from the map dashboard in AEM Guides. Learn how to generate the CSV of a DITA map report.
 feature: Report Generation
 role: User
 hide: true
 exl-id: 044fb5df-166d-44a2-9ed6-6db47e4f125e
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
 
-# マップダッシュボードからの DITA マップレポート {#id205BB800EEN}
+# DITA map report from the map dashboard {#id205BB800EEN}
 
-AEM Guidesでは、ドキュメントがプッシュされてエンドユーザーに公開される前にドキュメントの全体的な整合性をチェックするレポート機能を管理者に提供しています。 AEM Guidesのマップダッシュボードの DITA マップレポートには、不足しているトピック、不足している要素を含むトピック、参照されているトピックとメディアファイルの UUID、各トピックのレビューステータスなどの重要な情報が提供されます。 詳細な個々のトピックレベルのレポートでは、コンテンツ参照、画像の欠落、相互参照など、DITA コンテンツ関連の情報も提供されます。
+AEM Guides provides your administrators the reporting capabilities to check the overall integrity of the documentation before it is pushed live or made available to end users. DITA map report from the map dashboard in AEM Guides provides valuable information such as the missing topics, topics with missing elements, UUID of referenced topics and media files,and review status of each topic. A detailed individual topic-level report also provides DITA content-related information such as content references and missing images or cross-references.
 
 >[!NOTE]
 >
-> AEM Guidesは、マップファイルに変更が生じるすべてのイベント、またはトピックファイル内の参照が更新されるたびに、このレポートを更新します。
+> AEM Guides refreshes this report on every event that results in a change in your map file or when any reference within your topic file is updated.
 
-次の手順を実行して、DITA マップレポートを表示します。
+Perform the following steps to view the DITA Map Report:
 
-1. Assets UI で、レポートを表示する DITA マップファイルに移動し、そのファイルをクリックします。
+1. In the Assets UI, navigate to and click on the DITA map file for which you want to view the report.
 
-1. **レポート** をクリックします。
+1. Click **Reports**.
 
    ![](images/reports-page-uuid.png){width="800" align="left"}
 
-   レポートページは次の 2 つの部分に分かれています。
+   The Reports page is divided into two parts:
 
-   - **トピックの概要：**
+   - **Topic Summary:**
 
-     選択したマップ ファイルの全体的な概要が一覧表示されます。 概要を見ると、マップ内のトピックの総数、見つからないトピック、要素が見つからないトピックの数、トピックの状態（下書き、レビュー中、レビュー済みの状態）をすばやく把握できます。
+     Lists the overall summary of the selected map file. By looking at the Summary, you can quickly know the total number of topics in the map, missing topics, number of topics that have missing elements, topics&#39; state — In Draft, In Review, or Reviewed state.
 
    - **詳細：**
 
-     トピックをクリックすると、選択したトピックの詳細レポートが表示されます。
+     When you click on a topic, a detailed report of the selected topic is displayed.
 
      ![](images/detailed-report-uuid.png){width="800" align="left"}
 
-     **A**、**B**、**C** および **D** の下でハイライト表示された項目は次のとおりです。
+     Items highlighted under **A**, **B**, **C** and **D** are described below:
 
-      - **トピック**: DITA マップで指定されたトピックのタイトル。 トピックのタイトルの上にマウスポインターを置くと、トピックの完全なパスが表示されます。 参照や画像の欠落など、トピックに問題がある場合、トピックのタイトルの前に赤い点が表示されます。
+      - **Topic**: The title of the topic specified in the DITA map. Hovering the mouse pointer over the topic&#39;s title displays the complete path of the topic. If there are issues in the topic, like missing references or images, then a red dot is shown before the topic&#39;s title.
 
-      - **ファイル名**: ファイルの名前です。
+      - **File Name**: Name of the file.
 
-      - **UUID**: ファイルのユニバーサル固有識別子\（UUID\）。
+      - **UUID**: ファイルのユニバーサル一意の識別子\（UUID\）。
 
-      - **作成者**：このトピックを最後に作業したユーザー。
+      - **Author**: User who worked last on this topic.
 
-      - **ドキュメントの状態**：ドキュメントの現在の状態（ドラフト、レビュー中またはレビュー済み）。
+      - **Document State**: The current state of the document - Draft, In-Review or Reviewed.
 
-      - **見つからないトピック \（B\）**：参照が壊れているトピックがある場合、それらのトピックは「見つからないトピック」リストに表示されます。
+      - **見つからないトピック \（B\）**：参照が壊れているトピックがある場合、それらのトピックは「見つからないトピック」リストの下にリストされます。
 
-      - **見つからない要素**：見つからない画像または壊れた相互参照の数がリストされます（存在する場合）。
+      - **不足している要素**：不足している画像または壊れている相互参照がある場合は、その数を一覧表示します。
 
-      - **エディターで開く\（D\）**：このアイコンをクリックすると、web エディターでトピックが開きます。
+      - **エディターで開く\（D\）**：このアイコンをクリックすると、Web エディターでトピックが開きます。
 
 
-   **E** の下で強調表示されている項目は次のとおりです。
+   **E**&#x200B;で強調表示されている項目は次のとおりです。
 
-   - **マルチメディア**：トピックで使用されている画像のパスが UUID と共に表示されます。 画像のパスをクリックすると、対応する画像がポップアップウィンドウで開きます。 壊れた画像のリンクは赤色で表示されます。
+   - **マルチメディア**: トピックで使用される画像のパスが、そのUUIDと共に表示されます。 画像パスをクリックすると、対応する画像がポップアップウィンドウで開きます。 壊れた画像リンクは赤色で表示されます。
 
-   - **コンテンツ参照**：トピックで参照されているコンテンツのパスが、UUID と共に表示されます。 参照されているコンテンツのタイトルをクリックすると、対応するトピックがプレビューモードで開きます。
+   - **コンテンツ参照**: トピックで参照されているコンテンツのパスが、そのUUIDと共に表示されます。 参照されているコンテンツのタイトルをクリックすると、対応するトピックがプレビューモードで開きます。
 
-   - **相互参照**：相互参照されるコンテンツのパスが、UUID と共に表示されます。 参照されているコンテンツのタイトルをクリックすると、対応するトピックがプレビューモードで開きます。 壊れたクロスリファレンスは赤色で表示されます。
+   - **相互参照**：相互参照されたコンテンツのパスが、そのUUIDと共に表示されます。 参照されているコンテンツのタイトルをクリックすると、対応するトピックがプレビューモードで開きます。 壊れた相互参照は赤色で表示されます。
 
-   - **レビュー**：トピックのレビュータスクのステータスを表示します。 レビュー中のトピックのステータス \（オープンまたはクローズ\）、期限、担当者を確認できます。 トピックのリンクをクリックすると、トピックがレビューモードで開きます。
+   - **レビュー**: トピックのレビュータスクのステータスを表示します。 レビュー中のトピックのステータス \（開封日またはクローズ日）、期日、担当者を確認できます。 トピックリンクをクリックすると、レビューモードでトピックが開きます。
 
-   - **使用されている場所**：トピックが使用されている他のトピックまたはマップのリストを表示します。 これらすべてのトピックおよびマップの UUID も表示されます。
+   - **使用済み**: トピックが使用されている他のトピックまたはマップのリストを表示します。 このようなトピックとマップのUUIDも一覧表示されます。
 
-管理者は、個々のトピックのレポート以外に、DITA マップの発行履歴などの情報にもアクセスできます。 生成された出力の履歴について詳しくは、[&#x200B; 出力生成タスクのステータスの表示 &#x200B;](generate-output-for-a-dita-map.md#viewing_output_history) を参照してください。
+管理者は、個々のトピックのレポートだけでなく、DITA マップの公開履歴などの情報にもアクセスできます。 生成された出力の履歴について詳しくは、[出力生成タスクのステータスの表示](generate-output-for-a-dita-map.md#viewing_output_history)を参照してください。
 
-## DITA マップレポートの CSV の生成
+## DITA マップレポートのCSVを生成
 
-DITA マップレポートの CSV をダウンロードしてエクスポートできます。 CSV には詳細な DITA マップレポートが含まれています。
+DITA マップレポートのCSVをダウンロードしてエクスポートできます。 CSVには、詳細なDITA マップレポートが含まれます。
 
-次の手順を実行して、DITA マップレポートの CSV を生成します。
+DITA マップレポートのCSVを生成するには、次の手順を実行します。
 
 1. 左上の「**レポートを生成**」をクリックして、DITA マップレポートを生成します。
 
    ![](images/generate-DITA-map-report.png){width="800" align="left"}
 
-1. レポートのダウンロード準備が整うと、通知が届きます。 **ダウンロード** をクリックして、生成されたレポートの CSV をダウンロードします。
+1. レポートをダウンロードする準備ができたら、通知が届きます。 Click **Download** to download the CSV of the generated report.
 
    ![](images/download-report-dialog.png){width="550" align="left"}
 
 
-   また、後でAEM通知インボックスから生成されたレポートの CSV をダウンロードすることもできます。
+   You can also download the CSV of the generated report later from the AEM notification Inbox.
 
-   インボックスで生成されたレポートをクリックして、レポートをダウンロードします。
+   Click the generated report in the Inbox to download the report.
 
    ![](images/report-inbox--notification.png){width="300" align="left"}
 
-インボックスにレポートがダウンロードされたら、レポートを選択し、上部の「開く」アイコンを使用して、選択したレポートを開くこともできます。
+Once the report is downloaded in the Inbox you can also select the report and use the Open icon on the top to open the selected report.
 
-**親トピック：**&#x200B;[&#x200B; Reports](reports-intro.md)
+**親トピック：**[ レポート ](reports-intro.md)

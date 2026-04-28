@@ -1,53 +1,53 @@
 ---
-title: 一括アクティベーションマップコレクションを編集
-description: AEM Guidesの一括公開ダッシュボードを使用します。 マップ ファイルを追加または削除して、一括有効化マップ コレクションを編集する方法を説明します。
+title: 一括アクティベーションマップコレクションの編集
+description: Use bulk publish dashboard in AEM Guides. Learn to edit a bulk activation map collection by adding or removing map files.
 feature: Publishing, Bulk Activation
 role: User
 hide: true
 exl-id: a15ee164-ec60-483e-8760-b1c290625415
-source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 2%
 
 ---
 
-# 一括アクティベーションマップコレクションを編集 {#id214GI40B0XA}
+# 一括アクティベーションマップコレクションの編集 {#id214GI40B0XA}
 
-一括アクティベーションマップコレクションを編集するには、マップファイルまたはプリセットをコレクションに追加またはコレクションから削除します。 一括アクティベーションマップコレクションを編集するには、次の手順を実行します。
+You can edit a bulk activation map collection by adding or removing map file or presets from a collection. To edit a bulk activation map collection, perform the following steps:
 
-1. ツールのリストから **ガイド** を選択します。
+1. Select **Guides** from the list of tools.
 
-1. 上部の「Adobe Experience Manager」リンクをクリックし、「**ツール**」を選択します。
+1. Click on the Adobe Experience Manager link at the top and choose **Tools**.
 
-1. **一括公開ダッシュボード** タイルをクリックします。
+1. Click on the **Bulk Publish Dashboard** tile.
 
-   一括アクティベーションマップコレクションのリストが表示されます。
+   A list of bulk activation map collections are displayed.
 
-1. 編集するコレクションを選択し、「**開く** をクリックします。
+1. Select the collection that you want to edit and click **Open**.
 
 1. 「**編集**」をクリックします。
 
-   一括有効化マップの収集ページが表示され、使用可能な各ロケールに対応する事前設定済みのプリセットと共にマップが表示されます。
-AEM Site、PDF、ネイティブ PDF、HTML5、カスタム、JSON 出力などのアイコンと共に、様々なタイプの出力プリセットを表示できます
+   The bulk activation map collection page appears wherein you are shown the maps along with their pre-configured presets for each available locale.
+You can view the various types of output presets along with their icons such as AEM Site, PDF, Native PDF, HTML5, Custom, and JSON output
 .
 
    >[!NOTE]
    >
-   > 小さな ![](images/global-preset-icon.svg) アイコンは、フォルダープロファイルレベルのプリセットを示します。
+   > The small ![](images/global-preset-icon.svg) icon indicates a folder profile level preset.
 
 
-1. スライダーを使用して、アクティベートまたはアクティベート解除する目的の出力プリセットのオン/オフを切り替えます。
+1. Use the slider to turn on of off the desired output preset that you want to activate or deactivate.
 
-1. コレクションからマップを削除する場合は、マップを展開し、「**削除用に選択**」オプションを選択します。
+1. If you want to remove a map from the collection, then expand the map and choose the **Select for Removal** option.
 
 1. 「**削除**」をクリックします。
 
    ![](images/bulk-activation-delete-map.png){width="600" align="left"}
 
-   選択したマップが一括有効化マップ コレクションから削除されます。
+   The selected map is removed from the bulk activation map collection.
 
 1. 「**完了**」をクリックします。
 
 
-**親トピック：**&#x200B;[&#x200B; 公開済みコンテンツの一括アクティベーション &#x200B;](conf-bulk-activation.md)
+**Parent topic:**[ Bulk Activation of published content](conf-bulk-activation.md)

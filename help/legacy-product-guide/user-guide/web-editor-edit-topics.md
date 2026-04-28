@@ -1,110 +1,109 @@
 ---
-title: Web エディターでのトピックの編集
-description: Web エディターでトピックを編集する方法を説明します。 AEM Guidesのトピックファイルを変更するための様々な編集機能について説明します。
+title: Edit topics in the Web Editor
+description: Learn to edit topics in the web editor. Know about various editing features to modify your topic files in AEM Guides.
 feature: Authoring, Web Editor
 role: User
 hide: true
 exl-id: 0341bdec-9635-4ced-b1c6-789b4e1aded8
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
 
-# Web エディターでのトピックの編集 {#id2056B040VUI}
+# Edit topics in the Web Editor {#id2056B040VUI}
 
-Web エディタには、トピック ファイルを簡単に作成または変更できる様々な編集機能が用意されています。 大まかに言えば、次の手順を実行して web エディターでトピックを編集します。
+The Web Editor comes with a range of editing features that let you easily create or modify your topic files. Broadly, you would perform the following steps to edit a topic in the Web Editor.
 
 >[!IMPORTANT]
 >
-> Web エディターの操作中にアプリケーションエラーが発生した場合は、ページを更新して作業を続行します。
+> If you encounter an application error while working on the Web Editor, refresh the page to continue working.
 
-1. トピックを変更するには、必要な要素のテキスト境界内をクリックし、編集を開始します。
+1. To make changes in your topic, click within the text boundary of the required element and start making edits.
 
-1. 特定の要素を挿入するには、新しい要素を挿入する要素の最後のをクリックし、ツールバーの必要な要素アイコンをクリックします。 キーボードショートカット `Alt+Enter` を使用して、「要素を挿入 **ポップアップを呼び出すこともでき** す。
+1. To insert a specific element, click at the end of the element after which you want to insert the new element and click the required element icon in the toolbar. You can also use the keyboard shortcut `Alt+Enter` to invoke the **Insert Element** popup.
 
-   トピックで使用できる要素のリストが表示されます。 AEM Guidesは、トピック内の有効な場所に従って、要素のインテリジェントな配置を実行します。
-
-   >[!NOTE]
-   >
-   > - `/etc/designs/fmdita/clientlibs/xmleditor/` にある `ui_config.json` ファイルを設定することで、ツールバーに表示するアイコンを選択することもできます。 機能のカスタマイズについて詳しくは、システム管理者にお問い合わせください。
-
-1. ドキュメントの編集が完了したら、「**保存**」をクリックします。
+   A list of element appears that can be used in the topic. AEM Guides does an intelligent placing of elements as per their valid location in the topic.
 
    >[!NOTE]
    >
-   > 変更内容をAEM リポジトリにコミットしない場合は、「未保存の変更内容」ダイアログで、「**閉じる**」をクリックしたあと、「**保存せずに閉じる**」をクリックします。
+   > You can also choose which icon to be displayed in the toolbar by configuring the `ui_config.json` file located at - `/etc/designs/fmdita/clientlibs/xmleditor/`. For more information about customizing features, contact your system administrator.
+
+1. Once you have finished editing your document, click **Save**.
+
+   >[!NOTE]
+   >
+   > If you do not wish to commit changes into AEM repository, click **Close**, and then click **Close Without Saving** in the Unsaved Changes dialog.
 
 
-## 要素間でのコンテンツの部分選択
+## Partial selection of content across elements
 
-また、Experience Manager Guidesでは、複数の要素のコンテンツを選択することもできます。 コンテンツを選択したら、次の操作を実行できます。
+Experience Manager Guides also allows you to select content across elements. After selecting the content, you can perform the following operations:
 
-- 書式設定と削除：選択したコンテンツを太字、斜体、下線にしたり、削除したりします。 有効なオープンタグのコンテンツが結合され、1 つの要素の下に表示されます。 例えば、段落内のコンテンツを選択して、選択範囲を別の段落に拡張できます。 次に、選択したコンテンツを太字にすると、開いているタグのすべての太字のコンテンツが結合され、1 つの段落要素の下に表示されます。
+- Formatting and deletion: Make the selected content bold, italics, underline, or even delete the selected content. The content from the valid open tags is then merged and appears under a single element. For example, you can select the content within a paragraph and extend the selection to another paragraph. Then, if you make the selected content bold, all the bold content from the open tags is merged and appears under a single paragraph element.
 
-同様に、選択したコンテンツを削除すると、開いているタグで削除後に残っているコンテンツが結合されます。
+Similarly, if you delete the selected content, the remaining content after the deletion in the open tags is merged.
 
-- コンテンツを有効な要素で囲む：次の手順を実行して、コンテンツを有効な要素で囲みます。
+- Surround the content with a valid element: Perform the following steps to wrap the content with a valid element:
 
-   - 要素内のコンテンツを選択します。
-   - 上部の 2 番目のツールバーから「![&#x200B; 追加 &#x200B;](images/Add_icon.svg)」アイコンを選択し、「**要素で囲む** ダイアログボックスを表示します。 ダイアログボックスには、選択したコンテンツの有効な要素が一覧表示されます。
-
+   - エレメント内のコンテンツを選択します。
+   - 上部のセカンダリツールバーから「![追加](images/Add_icon.svg)」アイコンを選択して、「**要素で囲む**」ダイアログボックスを表示します。 ダイアログボックスには、選択したコンテンツの有効な要素が一覧表示されます。
      >[!NOTE]
      >
-     > 選択したコンテンツのコンテキストメニューを選択して、「要素で囲む」 ダイアログボックスを表示することもできます。
+     > また、選択したコンテンツのコンテキストメニューを選択して、「エレメントで囲む」ダイアログボックスを表示することもできます。
 
-   - ダイアログボックスから要素を選択します。 選択したコンテンツはその要素の下にラップされます。 例えば、段落内のコンテンツを選択し、**要素で囲む** ダイアログボックスで `<note>` 要素を選択すると、選択したコンテンツがメモの下に表示されます。\
-     ![&#x200B; サラウンド要素ダイアログボックス &#x200B;](./images/surround-element.png) {width="300" align="left"}
+   - ダイアログボックスからエレメントを選択します。 選択したコンテンツはその要素の下にラップされます。 例えば、段落内のコンテンツを選択した後、**要素で囲む** ダイアログボックスから`<note>`要素を選択すると、選択したコンテンツがメモの下に表示されます。\
+     ![ サラウンドエレメントダイアログボックス ](./images/surround-element.png) {width="300" align="left"}
 
-## ファイルの編集中にブラウザーを更新
+## ファイルの編集中にブラウザーを更新する
 
-Experience Manager Guidesでは、web エディターでコンテンツを編集している間にブラウザーを更新することができます。 この機能は、作業中にアプリケーションエラーが発生した場合にコンテンツの編集を続行するのに役立ちます。 変更が保存されていない 1 つ以上のファイルを編集用に開いているときにブラウザーの更新をクリックすると、保存されていない変更が失われる可能性があることを示す警告が表示されます。 更新操作をキャンセルし、ファイルを保存して変更を保存するオプションが表示されます。
+Experience Manager Guidesでは、Web エディターでコンテンツを編集する際にブラウザーを更新するサポートが提供されています。 この機能は、作業中にアプリケーションエラーが発生した場合に備えて、コンテンツの編集を続行するのに役立ちます。 未保存の変更を含む1つ以上のファイルを編集用に開いている間にブラウザーの更新を押すと、未保存の変更が失われる可能性があると警告されます。 更新操作をキャンセルし、ファイルを保存して変更を保持するオプションが表示されます。
 
-ブラウザーを更新しても、左右のパネルのビューは web エディターに保持されます。 Experience Manager Guidesでは、ブラウザーを更新したときに、Web エディターで開いたファイルを最後に保存した状態に戻します。 例えば、リポジトリーパネルで開いたファイルは、再び開かれます。 マップ パネルは、以前に開いたマップとともに保持されます。
+ブラウザーを更新しても、左パネルと右パネルのビューはWeb エディターに保持されます。 Experience Manager Guidesは、ブラウザーを更新したときにWeb エディターで開いたファイルの最後に保存された状態を復元します。 例えば、リポジトリパネルで開いたファイルが再度開かれます。 マップパネルは、以前に開いたマップと一緒に保持されます。
 
-アクティブなトピックまたは DITA マップがコンテンツ編集領域で再び開きます。
+アクティブなトピックまたはDITA マップがコンテンツ編集領域で再度開きます。
 
-右側のパネルも再び開き、更新前と同じビューが表示されます。
+右側のパネルも再び開かれ、更新前と同じビューが表示されます。
 
-## 作業コピーインジケーター
+## 作業用コピーインジケーター
 
-AEM Guidesには、ファイルの現在の\（作業用コピー\）が保存済みのバージョンと同期しているかどうかを示す作業用コピーインジケーターが用意されています。 現在のコピーに変更を加え、ファイルを保存していない場合は、トピックの [ ファイル ] タブにタイトルと共に\* マークが表示されます。 このインジケーターは、変更を保存するためのリマインダーとして機能し、ファイルを保存すると消えます。
+AEM Guidesには、ファイルの現在の\（作業コピー\）が保存済みバージョンと同期しているかどうかを示す作業コピーインジケーターが表示されます。 現在のコピーに変更を加え、ファイルを保存していない場合は、トピックの「ファイル」タブにタイトルと共に「*」マークが表示されます。 このインジケーターは、変更を保存するためのリマインダーとして機能し、ファイルを保存すると消えます。
 
-![&#x200B; 作業コピーインジケータ &#x200B;](images/working-copy-text-update-indicator.png){width="550" align="left"}
+![作業中のコピーインジケーター](images/working-copy-text-update-indicator.png){width="550" align="left"}
 
-AEM Guidesは、ファイルの最後に保存された\（working\） コピーが、保存されたバージョンと同期しているかどうかも示します。 作業用コピーと最後に保存したバージョンの間に未保存の変更がある場合は、トピックの [ ファイル ] タブの右上隅にバージョン情報と共に\* マークが表示されます。 このインジケータは、ファイルの現在の\（作業中\） コピーからバージョンを保存して作成するためのリマインダとして機能します。
+AEM Guidesは、ファイルの最後に保存された\（working\）コピーが保存済みのバージョンと同期しているかどうかも示します。 作業コピーと最後に保存されたバージョンの間に保存されていない変更がある場合は、「\*」マークが表示され、トピックの「ファイル」タブの右上隅に表示されるバージョン情報が表示されます。 このインジケーターは、ファイルの現在の\（working\）コピーからバージョンを保存して作成するためのリマインダーとして機能します。
 
-![&#x200B; バージョン更新インジケーター &#x200B;](images/version-update-indicator.png){width="550" align="left"}
+![ バージョン更新インジケーター](images/version-update-indicator.png){width="550" align="left"}
 
 
-## ロックされているファイルをオーサーモードとSource モードで開く
+## ロックされたファイルを作成者モードとSource モードで開く
 
-DITA または Markdown ファイルが別のユーザーによってロックまたはチェックアウトされている場合、コンテンツを編集または修正することはできません。 ただし、**プレビュー** モードに加えて、**オーサー** モードと **Source** モードの両方で、読み取り専用形式でファイルを表示できます。
+DITAまたはMarkdown ファイルが他のユーザーによってロックまたはチェックアウトされている場合、コンテンツの編集または変更はできません。 ただし、**Preview** モードに加えて、**Author**&#x200B;と&#x200B;**Source** モードの両方で、読み取り専用フォーマットでファイルを表示できます。
 
-読み取り専用モードでは、{Author **モードまたは** 2}Source **モード内でコンテンツ、タグ、属性を表示できます。**&#x200B;また、ファイルのプロパティを変更することもできます。
+読み取り専用モードでは、**作成者**&#x200B;または&#x200B;**Source** モード内のコンテンツ、タグ、属性を表示できます。 ファイルのプロパティを変更することもできます。
 
-ツールバーには、読み取り専用アクセス用に次のアイコンが表示されます。
+ツールバーには、読み取り専用アクセス用の次のアイコンが表示されます。
 
 - タグビューを切り替え
 - バージョン履歴
 - バージョンラベル
 
-Experience Manager Guidesでは、バージョン番号の近くに **読み取り専用アクセス** インジケーターも表示されます。
+Experience Manager Guidesでは、バージョン番号の近くに&#x200B;**読み取り専用アクセス** インジケーターも表示されます。
 
-![&#x200B; オーサーモードで読み取り専用ファイルを表示 &#x200B;](images/locked-file-editor.png)
+![作成者モードで読み取り専用ファイルを表示](images/locked-file-editor.png)
 
-読み取り専用 DITA マップの **レイアウト** ビューにアクセスできます。 このビューでは、DITA マップとそのプロパティを表示できますが、編集はできません。
+読み取り専用DITA マップの&#x200B;**レイアウト** ビューにアクセスできます。 このビューでは、DITA マップとそのプロパティを表示できますが、編集は行われません。
 
 >[!NOTE]
 >
-> フォルダーレベルの管理者ユーザーは、*ui_config.json* を更新して、オーサーモード、Source モード、レイアウトモードの読み取り専用ファイルに調和してアクセスできるようにする必要があります。
+> フォルダーレベルの管理ユーザーは、*ui_config.json*&#x200B;を更新して、オーサーモード、Source モード、レイアウトモードの読み取り専用ファイルに調和してアクセスできるようにする必要があります。
 
-## リポジトリ表示で開いているファイルを見つけます。
+## リポジトリビューで開いているファイルを探します
 
-Web エディターでファイルを開いている間、Experience Manager Guidesはリポジトリビューでファイルを見つけるための機能を提供します。 例えば、編集中に現在のトピックを検索します。
+Web エディターでファイルを開くと、Experience Manager Guidesには、リポジトリビューでファイルを検索する機能が用意されています。 例えば、編集中に現在のトピックが検索されます。
 
-この機能をオフにすると、**ユーザー環境設定** の **外観** タブにある **リポジトリ内のファイルを常に見つける** オプションでファイルを検索できます。
+この機能をオフにすると、**ユーザー設定**&#x200B;の「**アピアランス**」タブから「**常にリポジトリ内のファイルを探す**」オプションでファイルを検索できます。
 
 
-**親トピック：**&#x200B;[&#x200B; Web エディタの操作 &#x200B;](web-editor.md)
+**親トピック：**[ Web エディターの操作](web-editor.md)

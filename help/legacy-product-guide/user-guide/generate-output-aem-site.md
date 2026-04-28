@@ -1,13 +1,13 @@
 ---
 title: AEM Sites
-description: AEM GuidesでAEM サイトプリセットを作成し設定します。 AEM サイトサポートを使用して、記事ベースの出力、出力リンクトピック、conref の公開、コンテンツ内の文字列の検索を行います。
+description: AEM GuidesでAEM サイトプリセットを作成および設定します。 AEM サイトサポートを使用して、記事ベースの出力、出力リンクのトピック、conrefの公開、コンテンツ内の文字列の検索を行います。
 feature: Publishing
 role: User
 hide: true
 exl-id: b8e49fd3-1f98-471f-b285-572fd07df33a
-source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '165'
 ht-degree: 2%
 
 ---
@@ -16,22 +16,22 @@ ht-degree: 2%
 
 
 
-AEM Sites プリセットは、web エディターまたはマップダッシュボードから作成および設定できます。
+Web エディターまたはマップダッシュボードからAEM Sites プリセットを作成および設定できます。
 
-**Web エディターから**
+**Web エディター**&#x200B;から
 
-1. リポジトリパネルで、マップビューで DITA マップファイルを開きます。
-1. 「出力」タブで、「+」アイコンを選択して出力プリセットを作成します。
-1. **新しい出力プリセット** ダイアログボックスで、「タイプ」ドロップダウンから「AEM サイト」を選択します。
+1. リポジトリーパネルで、マップビューでDITA マップファイルを開きます。
+1. 「出力」タブで「+」アイコンを選択して、出力プリセットを作成します。
+1. 「**新規出力プリセット**」ダイアログボックスの「タイプ」ドロップダウンから「AEM サイト」を選択します。
 
-[Web エディターのAEM Sites プリセット &#x200B;](generate-output-aem-site-web-editor.md) の詳細情報。
+Web エディター](generate-output-aem-site-web-editor.md)の[AEM Sites プリセットについて詳しく説明します。
 
 
 **マップダッシュボードから**
 
 
-1. AEM Site の出力プリセットを開くには、Assets UI から DITA マップファイル上のを選択します。
-1. 出力プリセットを選択してから、「AEM サイト出力」オプションを選択します。
-1. マップダッシュボードで、上部の **編集** をクリックして様々な設定を更新し、**保存** をクリックします。
+1. AEM サイトの出力プリセットを開くには、Assets UIからDITA マップファイルを選択します。
+1. 「出力プリセット」を選択し、「AEM サイト出力」オプションを選択します。
+1. In the map dashboard, click **Edit** on the top to update the various configurations, and then click **Save**.
 
-[&#x200B; マップダッシュボードのAEM Sites プリセット &#x200B;](generate-output-aem-site-map-dashboard.md) について詳しく説明します。
+マップダッシュボード ](generate-output-aem-site-map-dashboard.md)の[AEM Sites プリセットについて詳しく説明します。

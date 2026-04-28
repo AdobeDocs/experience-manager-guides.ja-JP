@@ -1,51 +1,51 @@
 ---
 title: ファイルのアップロード
-description: ファイルをAEM リポジトリにアップロードし、エラーを処理する方法について説明します。 Assets コンソールのユーザーインターフェイス、AEM デスクトップアプリ、アセットの一括取得、FrameMakerの一括アップロードの使用について説明します。
+description: AEM リポジトリにファイルをアップロードし、エラーを処理する方法について説明します。 アセットコンソールのユーザーインターフェイス、AEM デスクトップアプリ、アセットの一括取り込み、FrameMakerを使用した一括アップロードについて説明します。
 feature: Content Management
 role: User
 hide: true
 exl-id: fcb2cc43-6a36-42f2-a695-7a50ae1031a0
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 1%
+source-wordcount: '451'
+ht-degree: 3%
 
 ---
 
 # ファイルのアップロード {#id176FF000JUI}
 
-ほとんどの場合、AEM Guidesで使用する既存の DITA コンテンツのリポジトリがあります。 このような既存のコンテンツの場合、次のいずれかの方法を使用して、コンテンツをAEM リポジトリに一括アップロードできます。
+AEM Guidesで使用する既存のDITA コンテンツのリポジトリがある可能性があります。 このような既存のコンテンツの場合は、次のいずれかの方法を使用して、コンテンツをAEM リポジトリに一括アップロードできます。
 
 >[!IMPORTANT]
 >
-> Adobe Experience Manager as a Cloud ServiceAssetsでサポートされるコンテンツアップロード方法について詳しくは、[AEMへのデジタルアセットの追加 &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=ja) を参照してください。
+> AEMでサポートされているコンテンツのアップロード方法について詳しくは、[Adobe Experience Manager as a Cloud Service Assetsにデジタルアセットを追加する](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html)を参照してください。
 
-## Assets コンソールのユーザーインターフェイス
+## Assets Console ユーザーインターフェイス
 
-デスクトップ上でコンテンツを選択し、AEM ユーザーインターフェイス\（web ブラウザー\）を目的のフォルダーにドラッグできます。 詳しくは、AEM ドキュメントの [&#x200B; アセットのアップロード &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=ja#upload-assets) を参照してください。
+デスクトップでコンテンツを選択し、AEM ユーザーインターフェイス \（web ブラウザー\）を移動先フォルダーにドラッグできます。 詳しくは、AEM ドキュメントの[ アセットのアップロード ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#upload-assets)を参照してください。
 
 ## AEM デスクトップアプリケーション
 
-クリエイティブ専門家で、ローカルデスクトップでアセットを管理する必要がある場合は、AEM デスクトップアプリケーションを使用します。 これらのアセットを開いて、デスクトップアプリケーションで編集できます。 また、バージョンを管理し、他のユーザーとファイルを共有することもできます。 詳しくは、[AEM デスクトップアプリケーション &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html?lang=ja) を参照してください。
+クリエイターで、ローカルデスクトップでアセットを管理する場合は、AEM デスクトップアプリを使用します。 これらのアセットは、デスクトップアプリケーションで開いて編集できます。 バージョンを管理したり、他のユーザーとファイルを共有したりすることもできます。 詳しくは、[AEM デスクトップアプリ ](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html?lang=ja)を参照してください。
 
-## アセットの一括取得
+## アセットの一括取り込み
 
-大規模な移行が行われ、一括で取り込みを行うことがある場合は、アセットの一括取得を使用してコンテンツをアップロードします。 このツールを使用すると、Azure や S3 などのサポートされているデータストアから一括コンテンツをアップロードできます。 詳しくは、[&#x200B; アセット一括取得 &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=ja#asset-bulk-ingestor) を参照してください。
+大規模な移行や時折の一括取り込みがある場合は、アセットの一括取り込み機能を使用してコンテンツをアップロードします。 このツールを使用すると、AzureやS3などのサポートされているデータストアから一括コンテンツをアップロードできます。 詳しくは、[ アセットの一括インジェスター](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=en#asset-bulk-ingestor)を参照してください。
 
-## FrameMakerを使用したバルクアップロード
+## FrameMakerを使用した一括アップロード
 
-Adobe FrameMakerには強力なAEM コネクタが付属しており、既存の DITA やその他のFrameMaker文書\（`.book` and `.fm`\）をAEMに簡単にアップロードできます。 単一ファイルのアップロード、依存関係の有無を問わず完全なフォルダーのアップロード\（コンテンツ参照、相互参照、グラフィックなど\）など、様々なファイルアップロード機能を使用できます。
+Adobe FrameMakerには、既存のDITAおよびその他のFrameMaker ドキュメント \（`.book`および`.fm`\）をAEMに簡単にアップロードできる強力なAEM コネクタが付属しています。 1つのファイルのアップロード、依存関係の有無にかかわらず完全なフォルダーのアップロード（コンテンツ参照、相互参照、グラフィックなど）など、様々なファイルアップロード機能を使用できます。
 
-FrameMakerでのバルクアップロード機能の使用について詳しくは、『FrameMaker ユーザーガイド』の *CRX フォルダーの作成とファイルのアップロード* を参照してください。
+FrameMakerでのバルクアップロード機能の使用について詳しくは、「CRX フォルダーの作成」および「FrameMaker ユーザーガイドの「*」の節を参照してください。*
 
-## コンテンツのアップロード中のエラー処理 {#id201MI0I04Y4}
+## コンテンツのアップロード中にエラー処理が発生しました {#id201MI0I04Y4}
 
-1 つ以上のファイルのアップロードに失敗した場合は、アップロードプロセスの最後に、アップロードに失敗したファイルのリストを示すプロンプトが表示されます。
+1つ以上のファイルのアップロードに失敗した場合、アップロードプロセスの最後に、アップロードに失敗したファイルのリストを示すプロンプトが表示されます。
 
 ![](images/uuid-files-failed-to-upload_cs.png){width="650" align="center"}
 
-様々なファイルのアップロードシナリオについて詳しくは、[DITA コンテンツのアップロード &#x200B;](authoring-file-management.md#) を参照してください。
+For more details about how the various file uploading scenarios, see [Upload DITA content](authoring-file-management.md#).
 
-AEM デスクトップアプリケーションやアセット一括取得などのツールを使用する場合、重複するファイルに対して実行するアクションはAEM サーバーの設定によって制御されます。 この設定については、システム管理者にお問い合わせください。
+In case you use a tool like AEM desktop app or Asset bulk ingestor, then the action to perform on a duplicate file is controlled by a setting in the AEM server. Contact your system administrator to know about this configuration.
 
-**親トピック：**&#x200B;[&#x200B; コンテンツの管理 &#x200B;](authoring.md)
+**Parent topic:**[ Manage content](authoring.md)

@@ -1,144 +1,144 @@
 ---
 title: コンテンツ翻訳のベストプラクティス
-description: AEM Guidesのコンテンツ翻訳のベストプラクティスについて説明します。 翻訳サービスの設定方法、新しい翻訳プロジェクトの作成方法、翻訳ジョブの開始方法について説明します。
+description: AEM Guidesにおけるコンテンツ翻訳のベストプラクティスを解説します。 翻訳サービスの設定方法、新しい翻訳プロジェクトの作成方法、翻訳ジョブの開始方法について説明します。
 feature: Translation
 role: User
 hide: true
 exl-id: 09e813fd-ec22-4d2e-9ee7-098d562ad44f
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1295'
+source-wordcount: '1315'
 ht-degree: 2%
 
 ---
 
 # コンテンツ翻訳のベストプラクティス {#id1678G0S702F}
 
-コンテンツを翻訳する際は、次の点に注意してください。
+コンテンツを翻訳する際には、次の点を考慮してください。
 
-- フォルダー名とファイル名は、ファイル命名規則（スペース、アポストロフィ、中括弧、等号、特殊文字、非 ASCII 文字など）に従っている必要があります。
+- フォルダー名とファイル名は、次のようなファイル命名規則に準拠している必要があります。スペース、アポストロフィ、中括弧、等号、特殊文字または非ASCII文字を使用しないでください。
 
-- コンテンツを異なる言語で翻訳する場合、各言語に対応するフォルダーを作成する必要があります。 これらの各言語フォルダーには、その言語に対応するコンテンツが含まれます。 例えば、ドイツ語の場合は `de`、フランス語の場合は `fr` などの言語指定子を使用してフォルダーを作成できます。 または、言語と地域識別子（フランス語の場合は `fr-FR`、カナダ語の場合は `fr-CA`）を使用してフォルダーを作成できます。
-- また、ターゲット言語には、インスタンスのターゲット言語フォルダーに従って実際のロケールが選択されている必要があります。
-- クラウド設定はソースフォルダーと同じである必要があり、1 つのフォルダーには 1 つのクラウド設定のみが存在する必要があります。 複数の翻訳コネクタを使用する場合は、/conf に複数のフォルダーを作成できます。
-- フォルダーには 1000 個を超えるファイルを含めないでください。
-- 翻訳プロセスの開始を担当するユーザーが、ソース言語フォルダーとターゲット言語フォルダーに対する読み取り、変更、作成、削除の権限を持っていることを確認します。
-- コンテンツの翻訳には翻訳プロジェクトを作成する必要があるので、AEMでプロジェクトを作成するためのアクセス権が必要です。
-- マップで条件付きプリセットを使用する場合は、翻訳プロセスを開始する前に条件付きプリセットを作成する必要があります。 また、条件付きプリセットは翻訳済みバージョンのマップにバンドルされているので、翻訳プロセスを開始する前にプリセットを作成して、翻訳済みバージョンで使用できるようにします。
-- コンテンツ翻訳プロセスは、AEM Assets UI ではなく、DITA マップコンソールから開始する必要があります。
-- 人間による翻訳でコンテンツを翻訳する場合は、コンポーネントベースの DITA 翻訳ワークフローを使用しないでください。 ただし、このオプションは機械翻訳に使用する必要があります。
-- グローバルに使用されるコンテンツやメディアは、ローカライゼーションが不要なので、言語コピーから除外する必要があります。
-- ローカライズが必要なすべての共通コンテンツは、言語フォルダーの下の共通フォルダーに保存する必要があります。
+- コンテンツを異なる言語で翻訳する場合は、各言語に対応するフォルダーを作成する必要があります。 これらの各言語フォルダーには、その言語に対応するコンテンツが含まれます。 例えば、ドイツ語の`de`、フランス語の`fr`などの言語指定子を使用してフォルダーを作成できます。 または、フランスで使用されるフランス語の場合は`fr-FR`、カナダで使用されるフランス語の場合は`fr-CA`のような言語および地域指定子を使用してフォルダーを作成できます。
+- ターゲット言語には、インスタンス上のターゲット言語フォルダーに従って、実際のロケールも選択する必要があります。
+- クラウド設定はソースフォルダーと同じである必要があり、1つのフォルダーにクラウド設定が1つだけ存在する必要があります。 複数の翻訳コネクタを使用する場合は、/confの下に複数のフォルダーを作成できます。
+- フォルダーには1000個を超えるファイルを含めることはできません。
+- 翻訳プロセスの開始を担当するユーザーに、ソース言語フォルダーとターゲット言語フォルダーに対する読み取り、変更、作成および削除権限があることを確認します。
+- コンテンツを翻訳するには翻訳プロジェクトを作成する必要があるため、ユーザーはAEMでプロジェクトを作成するためのアクセス権を持っている必要があります。
+- コンディショナルプリセットをマップで使用する場合は、翻訳プロセスを開始する前にコンディショナルプリセットを作成する必要があります。 コンディショナルプリセットもマップの翻訳版にバンドルされるため、翻訳プロセスを開始する前にプリセットを作成して、翻訳版で使用できるようにします。
+- コンテンツ翻訳プロセスは、AEM Assets UIではなく、DITA マップコンソールから開始する必要があります。
+- コンポーネントベースのDITA翻訳ワークフローは、人による翻訳を介してコンテンツを翻訳する場合は使用しないでください。 ただし、このオプションは機械翻訳に使用する必要があります。
+- ローカライゼーションを必要としないグローバルに使用されるコンテンツとメディアは、言語コピーから除外する必要があります。
+- ローカライズする必要があるすべての一般的なコンテンツは、言語フォルダーの下の共通フォルダーに保持する必要があります。
 
-次の図は、コンテンツと 3 つの言語コピーをグローバルに使用したAEMのフォルダー構造の例を示しています。
+次の図は、コンテンツと3つの言語コピーをグローバルに使用したAEMのフォルダー構造の例を示しています。
 
 ![](images/aem-directory_structure.png){width="800" align="left"}
 
-## 翻訳サービスの設定
+## Configure translation service
 
-使用する人間による翻訳または機械翻訳サービスを設定するには、次の手順を実行します。
+Perform the following steps to configure the human or machine translation service to use:
 
-1. Assets UI で、ソース言語フォルダーを選択します。
+1. In the Assets UI, select the source language folder.
 
-1. フォルダーのプロパティを開き、「**クラウドサービス**」タブに移動します。
+1. Open the folder properties, and go to **Cloud Services** tab.
 
-1. 「**クラウドサービス**」タブで、使用する翻訳サービスを設定します。
+1. In the **Cloud Services** tab, configure the translation service that you want to use.
 
-   機械翻訳または人間翻訳を設定できます。
+   You can configure machine-based or human translation.
 
-   翻訳コネクタの設定が 1 つのフォルダーに 1 つだけあることを確認します。 複数の翻訳コネクタがある場合は、/conf 下に複数のフォルダーを作成できます。 翻訳プロセスを開始する前に、ソース言語フォルダーのクラウド設定を選択する必要があります。
+   Ensure that there is only one configuration for translation connector in one folder. Multiple folders can be created under /conf, if there are multiple translation connectors. The source language folder must have a cloud configuration selected before starting the translation process.
 
    >[!NOTE]
    >
-   > サードパーティの翻訳サービスとの統合について詳しくは、AEM ドキュメントの [&#x200B; 翻訳統合フレームワークの設定 &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=ja) を参照してください。
+   > See [Configuring the Translation Integration Framework](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) in AEM documentation for details on integrating with third-party translation services.
 
-1. **保存して閉じる** をクリックして、更新したフォルダープロパティを保存します。
+1. Click **Save &amp; Close** to save the updated folder properties.
 
 
 >[!TIP]
 >
-> コンテンツの翻訳に関するベストプラクティスについては、ベストプラクティスガイドの *翻訳* の節を参照してください。
+> See the *Translation* section in the Best practices guide for the best practices around translating content.
 
 ## 新しい翻訳プロジェクトを作成
 
-翻訳プロジェクトを作成するには、次の手順を実行します。
+Perform the following steps to create a translation project:
 
 >[!NOTE]
 >
-> この手順を実行する前に、「コンテンツ翻訳のベストプラクティス [&#x200B; の説明に従って必要な言語ルートとターゲットフォルダーを作成したことを確認してください &#x200B;](#id1678G0S702F)。
+> Before performing steps in this procedure, ensure that you have created the required language root and target folders as described in the [Best practices for content translation](#id1678G0S702F).
 
-1. Assets UI で、DITA マップファイルをクリックします。
+1. In the Assets UI, click on the DITA map file.
 
-1. 「**翻訳**」タブをクリックします。
+1. Click the **Translation** tab.
 
-1. **ターゲット言語** リストから、プロジェクトを翻訳するロケールを選択し、「**完了**」をクリックします。
+1. From the **Target Languages** list, select the locale to which you want to translate your project and click **Done**.
 
-   トピックおよび関連アセットの概要と詳細が表示されます。
+   A Summary and Details of topics and associated assets is shown.
 
    >[!IMPORTANT]
    >
-   > **ターゲット言語** には、ソース言語と並行して言語フォルダーが作成された言語のみが表示されます。 ソース言語フォルダーから 1 レベル下など、他のレベルで作成された言語フォルダーも表示されません。 すべてのターゲット言語フォルダーを、ソース言語フォルダーと同じレベルに作成してください。
+   > The **Target Languages** show only those languages for which a language folder is created parallel to the source language. A language folder created at any other level, such as one level down from the source language folder is also not shown. Ensure that you create all your target language folders at the same level as your source language folder.
 
-1. 翻訳のために送信するトピックを選択します。
+1. Select the topics that you want to send for translation.
 
-   次のトピックのフィルタリングオプションも使用できます。
-
-   >[!NOTE]
-   >
-   > 必要なフィルターを適用した後、フィルターパネルで **完了** をクリックして、選択に基づいてトピックをフィルターします。
-
-   - **翻訳ステータス**：翻訳ステータスに基づいてトピックをフィルタリングする場合に選択します。 使用可能なオプションは、「非同期」、「コピーがない」、「処理中」、「同期中」です。
-   - **検索**：トピックタイトルで検索する用語を 1 つ以上入力します。
-   - **Sourceの種類**: ファイルの種類に基づいてトピックをフィルターします。 使用可能なオプションは、「すべて」、「DITA」、「DITA マップ」、「リソース」です。
-   - **次の後に変更されたSource バージョン**: トピックを変更日時に基づいてフィルター処理します。 指定した日時以降に変更されたすべてのトピックがリストに表示されます。
-   - **ベースライン**:「ベースラインの使用」をクリックし、マップに作成されたベースラインを選択します。 選択したベースラインに含まれるすべてのファイルが翻訳ページに表示されます。 ベースラインから目的のファイルを選択し、翻訳プロセスを続行できます。 コンテンツが翻訳されたら、翻訳済みベースラインを書き出すことができます。 翻訳済みベースラインのエクスポートについて詳しくは、「[&#x200B; 翻訳済みベースラインのエクスポート &#x200B;](generate-output-use-baseline-for-publishing.md#id196SE600GHS)」を参照してください。
-1. フィルターパネルの下部にある **言語コピーを作成/更新** をクリックします。
-
-1. **プロジェクト** リストから「**新しい翻訳プロジェクトを作成**」を選択します。
+   You can also use the following topic filtering options:
 
    >[!NOTE]
    >
-   > 既に翻訳プロジェクトがある場合、そのプロジェクトにトピックを追加できます。 「**プロジェクト**」リストから「**既存の翻訳プロジェクトに追加**」オプションを選択し、「**既存の翻訳プロジェクト**」リストからプロジェクトを選択します。
+   > After applying the required filter, click **Done** in the Filter panel to filter topics based on your selection.
+
+   - **Translation Status**: Choose to filter topics based on their translation status. 使用可能なオプションは、同期なし、コピーなし、処理中、同期中です。
+   - **検索**: トピックタイトルで検索する1つまたは複数の用語を入力します。
+   - **Sourceの種類**：ファイルの種類に基づいてトピックをフィルタリングすることを選択します。 使用可能なオプションは、すべて、DITA、DITA マップ、リソースです。
+   - **Source バージョン変更後**：変更日時に基づいてトピックをフィルタリングすることを選択します。 指定した日時より後に変更されたすべてのトピックがリストに表示されます。
+   - **ベースライン**: 「ベースラインを使用」をクリックし、マップ上に作成されたベースラインを選択します。 選択したベースラインの一部であるすべてのファイルが翻訳ページに表示されます。 ベースラインから目的のファイルを選択し、翻訳プロセスを進めることができます。 コンテンツが翻訳されたら、翻訳されたベースラインを書き出すことができます。 翻訳されたベースラインの書き出しについて詳しくは、[翻訳されたベースラインの書き出し](generate-output-use-baseline-for-publishing.md#id196SE600GHS)を参照してください。
+1. フィルターパネルの下部にある「**言語コピーを作成/更新**」をクリックします。
+
+1. **プロジェクト** リストから、**新しい翻訳プロジェクトの作成**&#x200B;を選択します。
+
+   >[!NOTE]
+   >
+   > 既に翻訳プロジェクトがある場合は、そのプロジェクトにトピックを追加できます。 **プロジェクト** リストから「**既存の翻訳プロジェクトに追加**」オプションを選択し、**既存の翻訳プロジェクト** リストからプロジェクトを選択します。
 
 1. 「**プロジェクトタイトル**」フィールドに、プロジェクトのタイトルを入力します。
 
-1. 「**Include DITA Map**」オプションを選択して、変換用のマップを送信します。
-1. **開始** をクリックして、新しい翻訳プロジェクトを作成します。
+1. 「**DITA マップを含める**」オプションを選択して、翻訳用にマップを送信します。
+1. **開始**&#x200B;をクリックして、新しい翻訳プロジェクトを作成します。
 
-   選択したバージョンのトピックを使用して新しい翻訳プロジェクトが作成されます。 この時点で、翻訳プロジェクトが作成されたことを確認するポップアップメッセージが表示されます。 すべてのターゲット言語コピーが翻訳プロジェクトで使用できるようになると、インボックスに通知が届きます。 翻訳プロジェクトにターゲット言語コピー領域が使用可能になったら、翻訳ジョブを開始できます。
+   選択したバージョンのトピックを含む新しい翻訳プロジェクトが作成されます。 このとき、翻訳プロジェクトが作成されたことを確認するポップアップメッセージが表示されます。 翻訳プロジェクトですべてのターゲット言語コピーを使用できるようになると、インボックスに通知が届きます。 翻訳プロジェクトで使用可能な領域をターゲット言語コピーしたら、翻訳ジョブを開始できます。
 
    ![](images/status-translation-uuid.png){width="800" align="left"}
 
 
 「翻訳」タブには、次のセクションがあります。
 
-- **概要**：参照されるトピックとソース言語の数とそのコードが表示されます。
-- **詳細**：トピックのタイトル、トピックのタイプ、トピックの言語コード、ソース言語、ソーストピックのバージョン、トピックに追加されたラベル、翻訳ステータスが表示されます。
+- **概要**：参照されたトピックの数とソース言語とそのコードを表示します。
+- **詳細**: トピックのタイトル、トピックの種類、トピックの言語コード、ソース言語、ソーストピックのバージョン、トピックに追加されたラベル、翻訳ステータスを表示します。
 
 
 
 
-## 翻訳ジョブの開始 {#id225IK030OE8}
+## 翻訳ジョブを開始 {#id225IK030OE8}
 
-翻訳ジョブを開始するには、次の手順を実行します。
+Perform the following steps to start the translation job:
 
-1. **プロジェクト** コンソールで、ローカライゼーション用に作成したプロジェクトフォルダーに移動します。
+1. In the **Projects** console, navigate to the project folder you created for localization.
 
-1. ローカリゼーションプロジェクトをクリックして詳細ページを開きます。
+1. Click the localization project to open the details page.
 
-1. **翻訳ジョブ** タイルの矢印をクリックし、リストから **開始** を選択して、翻訳ワークフローを開始します。
+1. Click the arrow on the **Translation Job** tile, and select **Start** from the list to start the translation workflow.
 
    >[!NOTE]
    >
-   > 人間による翻訳サービスを使用している場合は、翻訳用にコンテンツを書き出す必要があります。 翻訳済みコンテンツを取得したら、それを翻訳プロジェクトに読み込む必要があります。
+   > 人間による翻訳サービスを使用している場合は、翻訳用にコンテンツを書き出す必要があります。 翻訳されたコンテンツが完成したら、それを翻訳プロジェクトに読み込む必要があります。
 
 1. 翻訳ジョブのステータスを表示するには、「**翻訳ジョブ**」タイルの一番下にある省略記号をクリックします。
 
 
-翻訳が完了すると、翻訳ジョブのステータスが *レビューへの準備完了* に変わります。 翻訳プロセスを完了するには、プロジェクトコンソールの翻訳ジョブタイルから翻訳済みコピーとアセットメタデータを承認する必要があります。
+After the translation completes, the status of the translation job changes to *Ready to Review*. To complete the translation process, you need to accept the translated copy and asset metadata from the Translation Job tile in the Project console.
 
 >[!NOTE]
 >
-> 翻訳ジョブの 1 つ以上のトピックの翻訳を拒否すると、拒否されたすべてのトピックの翻訳ステータス **処理中** が元のステータスに戻ります。 参照されたトピックのステータスは、最新の翻訳状態に従ってチェックされ、元に戻されます。 また、宛先プロジェクトで作成された翻訳ファイルは、翻訳が拒否されても削除されません。
+> If you reject the translation for one or more topics in a translation job, the **In Progress** translation status of all the rejected topics reverts to their original status. The status of the referred topics is checked and reverted according to the latest translation state. Also, the translation files created in the destination project are not deleted even if the translation is rejected for them.
 
-**親トピック：**&#x200B;[&#x200B; コンテンツを翻訳 &#x200B;](translation.md)
+**親トピック：**[ コンテンツを翻訳](translation.md)

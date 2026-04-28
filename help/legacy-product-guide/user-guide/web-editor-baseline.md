@@ -1,146 +1,146 @@
 ---
-title: Web エディターからのベースラインの作成と管理
-description: AEM Guidesの web エディターからベースラインを作成および管理します。 ラベルに基づいてベースラインを作成し、ベースラインにフィルターを適用する方法を説明します。
+title: Web エディターでのベースラインの作成と管理
+description: AEM Guidesのweb エディターで、ベースラインを作成および管理できます。 ラベルに基づいてベースラインを作成し、ベースラインにフィルターを適用する方法を説明します。
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: f43bc3ae-b7b6-4a8c-b42d-28ec02d0d1d6
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1707'
 ht-degree: 0%
 
 ---
 
-# Web エディターからのベースラインの作成と管理 {#id223MB0ZF043}
+# Web エディターでのベースラインの作成と管理 {#id223MB0ZF043}
 
 >[!TIP]
 >
-> AEM Guides as a Cloud Service 3 月リリース以降にアップグレードした場合は、web エディターからこのベースライン機能を使用することをお勧めします。
+> AEM Guides as a Cloud Service 3月リリース以降にアップグレードした場合は、Web エディターのこのベースライン機能を使用することをお勧めします。
 
-AEM Guidesは、Web エディター内で統合されたベースライン機能を提供し、ユーザーがベースラインを作成して、それを使用して様々なバージョンのトピックを公開または翻訳できるようにします。 また、同じ DITA マップの複数の出力プリセットを並行して公開することもできます。
+AEM Guidesには、Web エディター内に統合されたベースライン機能が用意されています。この機能を使用すると、ベースラインを作成し、様々なバージョンのトピックを公開または翻訳できます。 また、同じDITA マップの複数の出力プリセットを並行して公開することもできます。
 
 ## ベースラインの作成
 
-次の手順を実行して、Web エディターからベースラインを作成できます。
+Web エディターからベースラインを作成するには、次の手順を実行します。
 
-1. リポジトリパネルで、マップビューで DITA マップファイルを開きます。
-1. 「**管理** タブをクリックします。 **ベースライン** パネルには、DITA マップのベースラインが表示されます。
+1. リポジトリーパネルで、マップビューでDITA マップファイルを開きます。
+1. 「**管理**」タブをクリックします。 **ベースライン** パネルには、DITA マップのベースラインが表示されます。
 
-   ![&#x200B; ベースライン・パネル &#x200B;](images/baseline-manage.png){width="800" align="left"}
+   ![ ベースラインパネル ](images/baseline-manage.png){width="800" align="left"}
 
 1. **ベースライン** パネルで、右上の「+」アイコンを選択して、ベースラインの作成を開始します。
-1. ベースラインの名前を **名前** に入力します。
-1. **設定** では、「**手動更新**」オプションまたは「**自動更新**」オプションのいずれかを選択できます。
+1. ベースラインの名前を&#x200B;**名前**&#x200B;に入力します。
+1. **構成**&#x200B;では、**手動アップデート** オプションまたは&#x200B;**自動アップデート** オプションのいずれかを選択できます。
 
-   **手動更新**：特定の日時に使用可能なトピックと参照コンテンツの特定のバージョン、またはトピックのバージョン用に定義されたラベルを使用して、静的ベースラインを手動で作成できます。
+   **手動アップデート**：特定の日時に利用可能なトピックと参照コンテンツの特定のバージョン、またはトピックのバージョンに対して定義されたラベルを使用して、静的ベースラインを手動で作成できます。
 
-   - **ベースとなるバージョンを選択** で、次のいずれかのオプションを選択します。
-
-
-      1. **日付** &lt; タイムスタンプ\>：指定された日時にトピックのバージョンを選択します。
-      1. **ラベル**：適用されるラベルに従ってトピックを選択するには、このオプションを選択します。 トピックにラベルが指定されている場合、ドロップダウンにラベルが表示されます。 リストからラベルを選択できます。 テキストボックスにラベルを追加することもできます。
-
-         静的ベースライン内の直接参照の場合、ラベルはマップの最新の保存済みバージョンから取得されます。 たとえば、トピック A のバージョン 1.0 と 1.1 のラベル `Label Release 1.0` と `Label Release 1.1` を作成した場合、バージョン 1.0 として保存されたマップにトピック A を追加します。この場合、静的ベースラインラベルのドロップダウンでラベル `Label Release 1.0` と `Label Release 1.1` を表示できます。
+   - **に基づいてバージョンを選択し、**&#x200B;で次のいずれかのオプションを選択します。
 
 
-         **ラベル** を選択すると、直接参照と間接参照を選択できます。
-         - DITA マップ内の直接参照の場合、指定したラベルが適用されていない最新バージョンのトピックを使用するオプションが提供されます。
+      1. **日付** &lt; タイムスタンプ\>：指定した日時のトピックのバージョンを選択します。
+      1. **ラベル**：適用されたラベルに従ってトピックを選択するには、このオプションを選択します。 トピックにラベルが指定されている場合、そのラベルはドロップダウンに一覧表示されます。 リストからラベルを選択できます。 テキストボックスにラベルを追加することもできます。
+
+         静的ベースラインの直接参照の場合、ラベルは最新の保存済みバージョンのマップから取得されます。 例えば、トピック Aのバージョン 1.0と1.1に対してラベル `Label Release 1.0`と`Label Release 1.1`を作成し、バージョン 1.0として保存されたマップにトピック Aを追加した場合です。 In this case, you can view the labels `Label Release 1.0` and `Label Release 1.1` in the dropdown for static baseline labels.
+
+
+         When you select **Label,** you can choose the direct and indirect references.
+         - For direct references within the DITA map, you are given an option to use the latest version of topics that do not have the specified label applied to them.
 
            >[!NOTE]
            >
-           > 存在しないラベルを入力し、「ベースラインを作成しない **オプションを選択すると** ベースラインの作成は失敗し、「ベースライン」パネルのベースライン名の近くにエラーメッセージが表示されます。
+           > If you enter a label that does not exist and select the option **Do not create a baseline** then the baseline creation fails and gives an error message near the baseline name in the Baseline panel.
 
-         - DITA マップ内の間接参照の場合は、指定したラベルが適用されていない最新バージョンのトピックを使用するオプションが追加で提供されます。 また、参照されるコンテンツに対して **自動的に選択** を選択することもできます。システムは、参照されるコンテンツのバージョンに対応する、参照されるコンテンツのバージョンを自動的に選択します。
+         - For indirect references within the DITA map, you are given an additional option to use the latest version of topics that do not have the specified label applied on them. You can also choose to **Pick Automatically** for the referenced content, and the system automatically picks the version of the referenced content corresponding to the version of the content in which it is referenced.
 
-         日付としてラベルまたはバージョンを選択すると、マップ内の参照されるトピックおよびメディア ファイルがすべて選択されます。 この選択したトピックは、ユーザーインターフェイスには表示されませんが、バックエンドで保存されます。
+         日付としてラベルまたはバージョンを選択すると、マップ内のすべての参照トピックとメディアファイルが適切に選択されます。 このトピックの選択は、ユーザーインターフェイスには表示されませんが、バックエンドに保存されます。
 
-   **自動更新**：ベースラインを作成する場合は、このオプションを選択すると、適用されたラベルに従ってトピックが自動的に選択されます。
+   **Automatic update**: Select this option for baseline creation to automatically pick the topics according to the label applied to them.
 
-   自動更新の構成を使用して作成されたベースラインは、動的に更新されます。 ベースラインの生成、ベースラインのダウンロード、またはベースラインを使用した翻訳プロジェクトの作成を行うと、更新されたラベルに基づいてファイルが動的に選択されます。 例えば、ベースラインにラベルリリース 1.0 のトピックのバージョン 1.2 を使用し、その後でラベルリリース 1.0 のバージョン 1.5 を更新した場合、ベースラインは動的に更新され、バージョン 1.5 が使用されます。
+   Baselines created using the automatic update configuration are updated dynamically. If you generate a baseline, download a baseline, or create a translation project using a baseline, the files are picked dynamically based on the updated labels. For example, if you have used version 1.2 of a topic with Label Release 1.0 for the baseline and later updated version 1.5 with Label Release 1.0, the baseline will be updated dynamically, and version 1.5 will be used.
 
-   ![&#x200B; ベースラインの作成 &#x200B;](images/dynamic-baseline.png){width="300" align="left"}
+   ![Create a baseline](images/dynamic-baseline.png){width="300" align="left"}
 
-   - **ラベル**：トピックにラベルが指定されている場合は、「**ラベル**」ドロップダウンを使用して [&#x200B; リストに表示されたラベル &#x200B;](#labels-list) から選択します。
-最初に選択したラベルは、後で選択したラベルよりも優先されます。
+   - **Labels**: If the topics have labels specified for them,  then use the **Labels** dropdown to choose from the [listed labels](#labels-list).
+The labels selected first are given higher priority over the later ones.
 
      >[!NOTE]
      >
-     >ラベルが取り込まれている間、ローダーが表示され、ドロップダウンが無効になります。
+     >While the labels are being pulled a loader appears, and the dropdown is disabled.
 
-     動的ベースラインの場合、ラベルは最新の保存バージョンとマップの現在の作業コピーから取得されます。 例えば、ラベルを作成したとします   トピック A のバージョン 1.0 および 1.1 の場合は `Label Release A.1.0 ` と `Label Release A.1.1`、トピック B のバージョン 1.0 および 1.1 の場合は `Label Release B.1.0` と `Label Release B.1.1` のラベル。 次に、トピック A をバージョン 1.0 のマップ A に追加し、トピック B を 1.0*のマップ A に追加します（作業用コピー）。 この場合、動的ベースラインラベルのドロップダウンで、`Label Release A.1.0 `、`Label Release A.1.1`、`Label Release B.1.0` および `Label Release B.1.1` を表示できます。
+     For dynamic baselines, the labels are pulled from the latest saved version and the current working copy of the map. For example, if you have created labels   `Label Release A.1.0 ` and `Label Release A.1.1` for versions 1.0 and 1.1 of Topic A and labels `Label Release B.1.0` and `Label Release B.1.1` for versions 1.0 and 1.1 of Topic B . Then you can add Topic A to Map A in version 1.0 and Topic B to Map A in 1.0* (working copy). In this case, you can view  `Label Release A.1.0 `, `Label Release A.1.1`, `Label Release B.1.0`,  and `Label Release B.1.1` in the dropdown of dynamic baseline labels.
 
-1. **間接参照**: DITA マップ内の間接参照には、次のオプションがあります。
+1. **Indirect References**: For indirect references within the DITA map, you are given the following options:
 
-   - **自動的に選択**：参照コンテンツに対して **自動的に選択** を選択できます。また、システムは、参照先のコンテンツのバージョンに対応する参照コンテンツのバージョンを自動的に選択します。
+   - **Pick automatically**: You can choose to **Pick Automatically** for the referenced content, and the system automatically picks the version of the referenced content corresponding to the version of the content in which it is referenced.
 
-   - **選択したラベルを使用**：トピックのバージョンに対して定義された選択したラベルを使用して、ベースラインを作成できます。
-   - **最新バージョンまたは作業コピーを使用**：指定したラベルが適用されていないトピックの最新バージョンを使用します。バージョンが作成されていない場合は、トピックの作業コピーを使用してベースラインを作成します。
+   - **Use selected label**: You can create a baseline with the selected label defined for a version of topics.
+   - **Use the latest version or the working copy**: Use the latest version of topics that do not have the specified label applied on them, or if no version has been created, then use the working copy of the topics to create the baseline.
 1. 「**適用**」をクリックします。
 
-ベースラインが作成されます。 ベースラインの作成は非同期で行われるので、Web エディターで他のファイルの作業を続行できます。 ベースラインが作成されると、ベースラインが作成されたことを確認するポップアップメッセージが表示され、そのインボックス通知も届きます。
+The baseline is created. ベースラインの作成は非同期で行われるので、Web エディター内の他のファイルを引き続き操作できます。 ベースラインを作成すると、ベースラインが作成されたことを確認するポップアップメッセージが表示され、同じベースラインのインボックス通知も受け取ります。
 
 ## ベースラインの管理
 
 ベースラインダッシュボードの様々な機能を使用して、既存のベースラインを管理できます。
 
-- ベースラインパネルのテキストボックスを使用して、既存のベースラインを検索できます。 **フィルターを適用** アイコンを使用して、すべてのベースラインを表示するか、作成ステータスが成功、処理中または失敗のベースラインをリストします。
-- ベースラインパネルの「**更新**」アイコンを使用して、すべてのベースラインを再確認し、マップビューで開いた DITA マップのベースラインの新しいリストを表示します。
-- **ベースライン** パネルのリストでベースラインをダブルクリックすると、既存の静的ベースラインの内容を表示または編集できます。 中央のベースライン編集ウィンドウには、DITA マップファイル、マップのコンテンツまたはトピック、および参照コンテンツが表示されます。
+- ベースラインパネルのテキストボックスを使用して、既存のベースラインを検索できます。 「**フィルターを適用**」アイコンを使用して、すべてのベースラインを表示するか、作成ステータスが「成功」、「進行中」、「失敗」のベースラインを一覧表示します。
+- ベースラインパネルの&#x200B;**更新** アイコンを使用して、すべてのベースラインを再確認し、マップビューで開いたDITA マップのベースラインの新しいリストを表示します。
+- 既存の静的ベースラインの内容を表示または編集するには、**ベースライン** パネルのリストからベースラインをダブルクリックします。 中央のベースライン編集ウィンドウには、DITA マップファイル、マップの内容またはトピック、参照コンテンツが表示されます。
 
   >[!NOTE]
   >
-  >静的ベースラインの編集操作は、少数の参照変更に対してのみ推奨されます。 編集操作は、すべての参照を再計算する必要があるため、メインの DITA マップのバージョンを変更することはお勧めしません。 これにより、大きな DITA マップのベースライン更新が失敗する場合があります。 大きな DITA マップの場合は、新しいベースラインを作成するか、ベースラインのプロパティを編集できます。
+  >静的ベースラインの編集操作は、参照変更が少ない場合にのみ推奨されます。 すべての参照を再計算する必要があるため、メイン DITA マップのバージョンを変更する場合は、編集操作はお勧めしません。 これにより、大規模なDITA マップのベースライン更新エラーが発生する可能性があります。 大きなDITA マップの場合は、新しいベースラインを作成したり、ベースラインのプロパティを編集したりできます。
   >
-  >動的ベースラインの場合の編集操作では、動的ベースラインの参照が実行時にラベルを使用して生成されるので、ベースラインのプロパティを編集できます。
+  >動的ベースラインの場合の編集操作では、動的ベースラインの参照が実行時にラベルを使用して生成されるため、ベースラインのプロパティを編集できます。
 
-  ![&#x200B; ベースラインのオプション &#x200B;](images/baseline-options.png){width="800" align="left"}
+  ベースラインの![ オプション ](images/baseline-options.png){width="800" align="left"}
 
 
 
-  「オプション」 メニューからベースラインに対して次の操作を実行することもできます。
+  オプションメニューから、ベースラインに対して次の操作を実行することもできます。
 
 ### ベースラインの複製
 
 ベースラインを複製し、必要に応じて変更できます。
-![&#x200B; ベースラインの複製 &#x200B;](images/baseline-duplicate.png){width="300" align="left"}
+![ ベースラインの複製](images/baseline-duplicate.png){width="300" align="left"}
 *ラベルに基づいてベースラインを複製するか、正確なコピーを作成します。*
 
-1. ベースラインのオプションメニューから「**複製**」を選択します。 **ベースラインを複製** ダイアログボックスが開きます。
+1. ベースラインのオプションメニューから「**複製**」を選択します。 「**ベースラインを複製**」ダイアログボックスが開きます。
 >[!NOTE]
 >
-> ベースラインのデフォルト名は `<selected baseline name>`_suffix です（sample-baseline_1 と同様）。 必要に応じて名前を変更できます。
+> ベースラインのデフォルト名は`<selected baseline name>`_suffixです（sample-baseline_1など）。 必要に応じて名前を変更できます。
 
-   **基準とするバージョンを選択** で、「**正確なコピー**」オプションまたは「**ラベル**」オプションのいずれかを選択できます。
+   **に基づいてバージョンを選択**&#x200B;すると、**正確なコピー** オプションまたは&#x200B;**ラベル** オプションのいずれかを選択できます。
 
-   - **正確なコピー**:Experience Manager Guidesでは、すべてのトピックの同じバージョンを選択し、複製されたベースラインの正確なコピーを作成します。
-   - **ラベル**：ドロップダウンを使用して、[&#x200B; リストに表示されたラベル &#x200B;](#labels-list) の 1 つを選択できます。 Experience Manager Guidesは、選択したラベルが定義されているトピックのバージョンを選択し、残りのトピックのバージョンは、複製されたベースラインからバージョンを選択します。 例えば、ドロップダウンからラベル「`Release 1.0`」を選択すると、このラベルを定義したトピックのバージョンが選択されます。 その他のすべてのトピックでは、複製されたベースラインからバージョンが選択されます。
-1. **複製** をクリックします。
+   - **正確なコピー**: Experience Manager Guidesは、すべてのトピックの同じバージョンを選択し、複製されたベースラインの正確なコピーを作成します。
+   - **ラベル**: ドロップダウンを使用すると、リストされている[ ラベル ](#labels-list)のいずれかを選択できます。 Experience Manager Guidesは、選択したラベルが定義されているトピックのバージョンを選択し、残りのトピックについては、複製されたベースラインからバージョンを選択します。 例えば、ドロップダウンからラベル `Release 1.0`を選択すると、このラベルを定義したトピックのバージョンが選択されます。 その他のすべてのトピックについては、複製されたベースラインからバージョンを選択します。
+1. 「**複製**」をクリックします。
 
-- 既存のベースラインを **名前変更** または **削除** します。
-- 静的ベースラインの **ラベルを管理** オプションから、既存のラベルを追加、削除、変更します。 管理者が事前定義済みのラベルを設定している場合は、ラベルを追加ドロップダウンリストにこれらのラベルが表示されます。 ラベルの追加について詳しくは、[&#x200B; ラベルの使用 &#x200B;](web-editor-use-label.md#) を参照してください。
+- **既存のベースラインの名前を変更**&#x200B;するか、**削除**&#x200B;します。
+- 静的ベースラインの「**ラベルを管理**」オプションから、既存のラベルを追加、削除、または変更します。 管理者が定義済みのラベルを設定している場合は、ラベルを追加ドロップダウンリストにラベルが表示されます。 ラベルの追加について詳しくは、[ ラベルの使用](web-editor-use-label.md#)を参照してください。
 
   >[!NOTE]
   >
-  > ラベルの追加や削除のプロセスは非同期で行われるので、Web エディターで他のファイルの作業を続行できます。 ラベルが追加または削除されると、ラベルが追加または削除されたことを確認するポップアップメッセージが表示され、そのインボックス通知も受信されます。
+  > ラベルを追加または削除するプロセスは非同期で実行されるため、Web エディター内の他のファイルを引き続き操作できます。 ラベルが追加または削除されると、ラベルが追加または削除されたことを確認するポップアップメッセージが表示され、同じラベルのインボックス通知も受け取ります。
 
-- ベースラインの作成時に設定した既存の静的ベースラインの **プロパティの編集**。
-- 「ベースラインのエクスポート **オプションを使用して、Microsoft Excel ファイルのベースラインのスナップショットをエクスポー** します。
+- ベースラインの作成中に設定した既存の静的ベースラインの&#x200B;**プロパティ**&#x200B;を編集します。
+- **ベースラインの書き出し** オプションを使用して、Microsoft Excel ファイルでベースラインのスナップショットを書き出します。
 
 
 ### ラベルのリスト {#labels-list}
 
-ドロップダウンにリストされるラベルは、次の条件に基づいています。
-- ラベルは、（ベースラインが作成される） DITA マップ内のトピックのバージョンの 1 つに追加する必要があります。
-- また、ラベルの選択時には、DITA マップの第 1 レベルの参照（トピックまたはサブマップ）のみが考慮されます。
+ドロップダウンにリストされているラベルは、次の条件に基づいています。
+- ラベルは、（ベースラインが作成される） DITA マップ内のトピックのいずれかのバージョンに追加する必要があります。
+- また、ラベルの選択には、DITA マップの第1 レベルの参照（トピックまたはサブマップ）のみが考慮されます。
 
 
 
 ## ベースラインフィルター
 
-**ベースラインフィルター** パネルのフィルターアイコンを使用すると、ベースライン編集ウィンドウで開いたベースラインにフィルターを適用できます。
+**ベースラインフィルター** パネルの「フィルター」アイコンを使用すると、ベースライン編集ウィンドウで開いたベースラインにフィルターを適用できます。
 
-![&#x200B; ベースラインフィルター &#x200B;](images/baseline-filter.png){width="300" align="left"}
+![ ベースラインフィルター](images/baseline-filter.png){width="300" align="left"}
 
 - ファイル名またはファイルの場所に基づいてファイルをフィルタリングします。
 - ファイルタイプ、参照タイプなど、様々な列の値に基づいてファイルをフィルタリングします。
@@ -148,10 +148,10 @@ AEM Guidesは、Web エディター内で統合されたベースライン機能
 
 >[!NOTE]
 >
-> 列見出しをクリックすると、ベースライン編集ウィンドウの列に基づいてファイルを並べ替えることができます。
+> 列の見出しをクリックし、ベースライン編集ウィンドウの列に基づいてファイルを並べ替えることができます。
 
 **ベースラインの保存またはリセット**
 
-ベースラインを編集したら、上部の「**保存**」ボタンをクリックして、ベースラインの変更を保存します。 変更を保存せずにベースラインをリセットする場合は、「**リセット**」ボタンをクリックします。 **リセット** ボタンをクリックすると、保存されていない変更が失われることを示す警告が表示されます。
+ベースラインを編集したら、上部の「**保存**」ボタンをクリックして、ベースラインへの変更を保存できます。 変更を保存してベースラインをリセットしない場合は、**リセット** ボタンをクリックできます。 「**リセット**」ボタンをクリックすると、保存されていない変更が失われるという警告が表示されます。
 
-**親トピック：**&#x200B;[&#x200B; Web エディタの操作 &#x200B;](web-editor.md)
+**親トピック：**[ Web エディターの操作](web-editor.md)

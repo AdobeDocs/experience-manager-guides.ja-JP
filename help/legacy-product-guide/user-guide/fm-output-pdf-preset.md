@@ -5,9 +5,9 @@ feature: Publishing FrameMaker Documents
 role: User
 hide: true
 exl-id: 3a8cb163-94ac-48b1-ae6b-1309179f462a
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '384'
 ht-degree: 3%
 
 ---
@@ -41,4 +41,4 @@ PDF出力では、次のオプションを使用できます。
 | 宛先のパス | PDF出力が保存されるAEM リポジトリ内のパス。 |
 | 生成後のワークフローの実行 | このオプションを選択すると、AEMで設定されたすべてのワークフローを含む新しいポストジェネレーションワークフローのドロップダウンリストが表示されます。 出力生成ワークフローの完了後に実行するワークフローを選択する必要があります。 |
 
-**親トピック：**&#x200B;[&#x200B; FrameMaker ドキュメントの出力を生成](fm-output-generatation.md)
+**親トピック：**[ FrameMaker ドキュメントの出力を生成](fm-output-generatation.md)

@@ -1,10 +1,10 @@
 ---
 title: 免責事項
-description: これは、Adobe Experience ManagerからAEM GuidesへのXML Documentationの商品名変更に対する免責事項です
+description: これは、XML Documentation for Adobe Experience ManagerからAEM Guidesへの製品名の変更に対応するための免責事項です
 feature: Disclaimer
 role: User, Leader, Admin, Developer
 hide: true
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 3%
@@ -13,4 +13,4 @@ ht-degree: 3%
 
 # 免責事項 {#id2263D0P0TYU}
 
-*Adobe Experience Manager Guides* は、以前、Adobe Experience Manager *の* XML Documentationとしてブランド化されていました。 ドキュメント内の特定のリファレンスは、以前のブランディングを引き続き参照する場合がありますが、現在の製品にはそのまま適用されます。
+*Adobe Experience Manager Guides*&#x200B;は、以前はAdobe Experience Manager *の* XML Documentationとしてブランド化されていました。 ドキュメント内の特定の参照は、以前のブランディングを参照する場合がありますが、現在のオファーに適用されます。
