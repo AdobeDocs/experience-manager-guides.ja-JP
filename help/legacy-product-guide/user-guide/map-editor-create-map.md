@@ -55,4 +55,4 @@ Perform the following steps to create a map file:
    > 詳細マップエディターを使用するには、Web エディターでマップファイルにアクセスします。 管理者が詳細マップエディターをマップファイルのデフォルトのエディターとして設定している場合、マップファイルは詳細マップエディターで直接開いて編集できます。 Adobe Experience Manager Guides as a Cloud Serviceのインストールと設定の「*高度なマップエディターをデフォルトとして設定する*」セクションを参照してください。
 
 
-**親トピック：**[ マップエディターの操作](map-editor.md)
+**親トピック：**&#x200B;[&#x200B; マップエディターの操作](map-editor.md)

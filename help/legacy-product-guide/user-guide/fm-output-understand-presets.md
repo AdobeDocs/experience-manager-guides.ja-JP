@@ -18,4 +18,4 @@ AEM Guides supports creating output for FrameMaker documents in PDF, HTML5, and 
 
 次の節では、サポートされている出力形式で使用できるオプションについて説明します。
 
-**Parent topic:**[ Generate output of FrameMaker documents](fm-output-generatation.md)
+**Parent topic:**&#x200B;[&#x200B; Generate output of FrameMaker documents](fm-output-generatation.md)

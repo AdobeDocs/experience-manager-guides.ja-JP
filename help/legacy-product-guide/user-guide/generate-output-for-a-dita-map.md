@@ -37,7 +37,7 @@ DITA マップの出力を生成するには、次の手順を実行します。
 >
 > プリセットの出力生成プロセスがキュー内または処理中の場合、同じプリセットに対して別の出力生成タスクを開始することはできません。
 
-Web エディターから、DITA マップ用に作成された1つ以上の出力プリセットのPDF出力を生成できます。 詳細については、[ クイック生成パネルを使用してプリセットの出力を生成および表示する](web-editor-quick-generate-panel.md#)を参照してください。
+Web エディターから、DITA マップ用に作成された1つ以上の出力プリセットのPDF出力を生成できます。 詳細については、[&#x200B; クイック生成パネルを使用してプリセットの出力を生成および表示する](web-editor-quick-generate-panel.md#)を参照してください。
 
 1つ以上のトピックのAEM サイト出力や、Web エディターからDITA マップ全体を生成することもできます。 詳しくは、[Web エディターからの記事ベースの公開](web-editor-article-publishing.md#id218CK0U019I)を参照してください。
 
@@ -169,4 +169,4 @@ Perform the following steps to remove an output task from the Generated Output l
    The task is deleted from the Generated Outputs list.
 
 
-**親トピック：**[&#x200B;出力生成](generate-output.md)
+**親トピック：**&#x200B;[&#x200B;出力生成](generate-output.md)

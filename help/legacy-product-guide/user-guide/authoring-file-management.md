@@ -318,4 +318,4 @@ If your media file has undergone any changes, you can find and preview the files
    ![](images/media-version-preview.png){width="650" align="center"}
 
 
-**Parent topic:**[ Manage content](authoring.md)
+**Parent topic:**&#x200B;[&#x200B; Manage content](authoring.md)

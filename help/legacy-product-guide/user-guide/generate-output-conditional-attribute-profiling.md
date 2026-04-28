@@ -59,4 +59,4 @@ The `platform` attribute is stored in the system. Whenever an author decides to 
 
 ![](images/properties-tab.png){width="350" align="left"}
 
-**親トピック：**[&#x200B;出力生成](generate-output.md)
+**親トピック：**&#x200B;[&#x200B;出力生成](generate-output.md)

@@ -57,7 +57,7 @@ PDF出力では、次のオプションを使用できます。
 | --- | --- |
 | 出力タイプ | 生成する出力のタイプ。 PDF出力を生成するには、「PDF」オプションを選択します。 |
 | 設定名 | 作成するPDF出力設定にわかりやすい名前を付けます。 例えば、_社内ユーザー出力_&#x200B;または&#x200B;_エンドユーザー出力_&#x200B;を指定できます。 |
-| DITA-OT コマンドライン引数 | 出力の生成時にDITA-OTで処理する追加の引数を指定します。 DITA-OTでサポートされているコマンドライン引数について詳しくは、[DITA-OT ドキュメント ](https://www.dita-ot.org/)を参照してください。 |
+| DITA-OT コマンドライン引数 | 出力の生成時にDITA-OTで処理する追加の引数を指定します。 DITA-OTでサポートされているコマンドライン引数について詳しくは、[DITA-OT ドキュメント &#x200B;](https://www.dita-ot.org/)を参照してください。 |
 | を使用した条件の適用 | 次のいずれかのオプションを選択します。<br><br>* **適用なし**：公開された出力に条件を適用しない場合は、このオプションを選択します。<br>* **DITAVal ファイル**：パーソナライズされたコンテンツを生成するには、DITAVal ファイルを選択します。 参照ダイアログまたはファイルパスを入力して、複数のDITAVal ファイルを選択できます。 ファイル名の近くにある十字アイコンを使用して削除します。 DITAVal ファイルは指定された順序で評価されるので、最初のファイルで指定された条件は、後のファイルで指定された一致する条件よりも優先されます。 ファイルを追加または削除することで、ファイルの順序を維持できます。 DITAVal ファイルが別の場所に移動されたり、削除されたりした場合、マップダッシュボードから自動的に削除されることはありません。 ファイルが移動または削除された場合は、場所を更新する必要があります。 ファイル名にカーソルを合わせると、ファイルが保存されているAEM リポジトリ内のパスを確認できます。 DITAVal ファイルのみを選択でき、他のファイルタイプを選択した場合はエラーが表示されます。 FrameMaker Publishing Serverでは、複数のDITAVAL ファイルはサポートされていません。<br>* **条件プリセット**：出力の公開中に条件を適用するには、ドロップダウンから条件プリセットを選択します。 このオプションは、DITA マップコンソールの「条件プリセット」タブに条件を追加した場合に表示されます。 条件プリセットについて詳しくは、[条件プリセットの使用](generate-output-use-condition-presets.md#id1825FL004PN)を参照してください。 |
 | 次を使用したPDFの生成 | DITA-OTを選択して、PDFを生成します。 |
 | 生成後のワークフローの実行 | このオプションを選択すると、AEMで設定されたすべてのワークフローを含む新しいポストジェネレーションワークフローのドロップダウンリストが表示されます。 出力生成ワークフローの完了後に実行するワークフローを選択する必要があります。<br><br>**注**: カスタム出力後生成ワークフローの作成について詳しくは、「Adobe Experience Manager Guides as a Cloud Serviceのインストールと設定」の「出力後生成ワークフローのカスタマイズ」を参照してください。 |
@@ -68,4 +68,4 @@ PDF出力では、次のオプションを使用できます。
 | ベースラインを使用 | If you have created a Baseline for the selected DITA map, select this option to specify the version that you want to publish.<br><br>See [Work with Baseline](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) for more detail. |
 | File Properties | Select the properties that you want to process as metadata. These properties are set from the Properties page of the DITA map or bookmap file. The properties you select from the dropdown list appear under the **File Properties** field. プロパティの横にある十字アイコンを選択して削除します。 <br><br> メモ：DITA-OT パブリッシングを使用して、メタデータを出力に渡すこともできます。 詳しくは、「[DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA)を使用してメタデータを出力に渡す」を参照してください。 |
 
-**親トピック：**[&#x200B;出力プリセットについて](generate-output-understand-presets.md)
+**親トピック：**&#x200B;[&#x200B;出力プリセットについて](generate-output-understand-presets.md)

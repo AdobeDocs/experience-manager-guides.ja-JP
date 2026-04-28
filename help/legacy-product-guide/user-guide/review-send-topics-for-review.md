@@ -74,7 +74,7 @@ To create a review task and send topics for review, perform the following steps:
 
    >[!NOTE]
    >
-   > 期限に達すると、レビュータスクが完了したことを通知する電子メールが開始者に送信されます。 開始者は、[ レビューダッシュボード ](review-manage-tasks-review-dashboard.md#)からレビュータスクの期限を延長できます。
+   > 期限に達すると、レビュータスクが完了したことを通知する電子メールが開始者に送信されます。 開始者は、[&#x200B; レビューダッシュボード &#x200B;](review-manage-tasks-review-dashboard.md#)からレビュータスクの期限を延長できます。
 
 1. **ルートマップパス**&#x200B;からルートマップを選択します。 このロードマップは、レビューコンテンツで使用されるすべての主要な参照と用語集の用語を解決するために使用されます。 ロードマップを選択しない場合、DITA トピックに関連付けられている主要な参照や用語集の用語は、レビュー用にトピックを送信する前に解決されません。
 
@@ -82,7 +82,7 @@ To create a review task and send topics for review, perform the following steps:
 
    >[!NOTE]
    >
-   > 選択したルートマップは、キー参照を解決する際に最も優先されます。 詳しくは、[ キー参照の解決](map-editor-other-features.md#id176GD01H05Z)を参照してください。
+   > 選択したルートマップは、キー参照を解決する際に最も優先されます。 詳しくは、[&#x200B; キー参照の解決](map-editor-other-features.md#id176GD01H05Z)を参照してください。
 
 1. 異なるレビュー担当者を異なるトピックに割り当てることができるので、**担当者に任意のトピックをレビューすることを許可** オプションは、レビュー担当者がレビュータスクのすべてのトピックをレビューできるか、レビューに割り当てられたトピックのみをレビューできるかを制御します。
 
@@ -138,7 +138,7 @@ To create a review task and send topics for review, perform the following steps:
    - **レビュー担当者を編集**: トピックリストの![](images/edit_pencil_icon.svg) アイコンをクリックすると、レビュー担当者を編集ダイアログが表示されます。 選択したトピックのレビュー担当者を、このダイアログから追加または削除できます。
 1. 「**作成**」をクリックして、レビュータスクを作成します。
 
-   レビュータスクが正常に作成されると、確認メッセージが表示されます。 レビュー用に送信されたトピックの[ ドキュメントの状態](web-editor-document-states.md#)は、「レビュー中」に設定されています。
+   レビュータスクが正常に作成されると、確認メッセージが表示されます。 レビュー用に送信されたトピックの[&#x200B; ドキュメントの状態](web-editor-document-states.md#)は、「レビュー中」に設定されています。
 
    >[!NOTE]
    >
@@ -199,7 +199,7 @@ To send one or multiple topics along with the map file for review, perform the f
 
    >[!NOTE]
    >
-   > 期限に達すると、レビュータスクが完了したことを通知する電子メールが開始者に送信されます。 開始者は、[ レビューダッシュボード ](review-manage-tasks-review-dashboard.md#)からレビュータスクの期限を延長できます。
+   > 期限に達すると、レビュータスクが完了したことを通知する電子メールが開始者に送信されます。 開始者は、[&#x200B; レビューダッシュボード &#x200B;](review-manage-tasks-review-dashboard.md#)からレビュータスクの期限を延長できます。
 
 1. 異なるレビュー担当者を異なるトピックに割り当てることができるので、**担当者に任意のトピックをレビューすることを許可** オプションは、レビュー担当者がレビュータスクのすべてのトピックをレビューできるか、レビューに割り当てられたトピックのみをレビューできるかを制御します。
 
@@ -253,7 +253,7 @@ To send one or multiple topics along with the map file for review, perform the f
 
 1. 「**作成**」をクリックして、レビュータスクを作成します。
 
-   レビュータスクが正常に作成されると、確認メッセージが表示されます。 レビュー用に送信されたトピックの[ ドキュメントの状態](web-editor-document-states.md#)は、「レビュー中」に設定されています。
+   レビュータスクが正常に作成されると、確認メッセージが表示されます。 レビュー用に送信されたトピックの[&#x200B; ドキュメントの状態](web-editor-document-states.md#)は、「レビュー中」に設定されています。
 
    >[!NOTE]
    >
@@ -266,4 +266,4 @@ To send one or multiple topics along with the map file for review, perform the f
 
 An email is sent to all the reviewers, notifying that they have been assigned topics for review. このメールには、クリックしてブラウザーウィンドウでトピックにアクセスできる直接リンクが含まれています。 The topics along with the DITA map are opened in the review mode.
 
-**親トピック：**[ トピックまたはマップのレビュー](review.md)
+**親トピック：**&#x200B;[&#x200B; トピックまたはマップのレビュー](review.md)

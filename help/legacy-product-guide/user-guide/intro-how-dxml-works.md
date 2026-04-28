@@ -19,4 +19,4 @@ The following diagram illustrates how AEM Guides works with AEM and any DITA edi
 ![](images/xml-add-on-how-it-works.png){width="800" align="center"}
 
 
-**Parent topic:**[ About Adobe Experience Manager Guides as a Cloud Service](../user-guide/intro.md)
+**Parent topic:**&#x200B;[&#x200B; About Adobe Experience Manager Guides as a Cloud Service](../user-guide/intro.md)

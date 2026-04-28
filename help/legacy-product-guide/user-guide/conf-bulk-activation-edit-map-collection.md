@@ -50,4 +50,4 @@ You can view the various types of output presets along with their icons such as 
 1. 「**完了**」をクリックします。
 
 
-**Parent topic:**[ Bulk Activation of published content](conf-bulk-activation.md)
+**Parent topic:**&#x200B;[&#x200B; Bulk Activation of published content](conf-bulk-activation.md)

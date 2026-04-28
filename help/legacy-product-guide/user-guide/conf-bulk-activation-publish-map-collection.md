@@ -40,7 +40,7 @@ ht-degree: 2%
 <details>
 <summary> クラウドサービス </summary>
 
-![ クラウドサービス上のbulk-collection-publish](images/bulk-activation-collection-quick-publish-CS.png){width="650" align="left"}
+![&#x200B; クラウドサービス上のbulk-collection-publish](images/bulk-activation-collection-quick-publish-CS.png){width="650" align="left"}
 
 **プレビュー**&#x200B;または&#x200B;**公開** インスタンスへの出力をアクティブ化できます。
 
@@ -86,4 +86,4 @@ ht-degree: 2%
 
 選択したマップファイルの出力がアクティブ化されると、「監査履歴」タブが更新され、最新のアクティブ化された出力が上部に表示されます。 **公開済み**&#x200B;列が、公開日時で更新されます。
 
-** 親トピック：**[公開されたコンテンツの一括アクティベーション ](conf-bulk-activation.md)
+**&#x200B; 親トピック：**&#x200B;[公開されたコンテンツの一括アクティベーション &#x200B;](conf-bulk-activation.md)

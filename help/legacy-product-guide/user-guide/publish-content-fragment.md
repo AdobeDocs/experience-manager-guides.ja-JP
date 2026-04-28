@@ -29,19 +29,19 @@ To create a Content Fragment, perform the following steps:
 1. コンテンツフラグメントモデルに基づいて作成したコンテンツフラグメントを保存するフォルダーを作成します。 例えば、「stock-content-fragments」のように指定します。
 1. フォルダーのプロパティ（「stock-content-fragments」など）を編集し、クラウド設定でコンテンツフラグメントモデルを含むフォルダーのパスを追加します。
 例えば、クラウド設定に`/conf/we-retail`を追加します。 This configuration connects all the Content Fragment models with the folder.\
-   ![ フォルダープロパティにクラウド設定の詳細を追加](images/fragment-folder-cloud-configuration.png){width="650" align="left"}
+   ![&#x200B; フォルダープロパティにクラウド設定の詳細を追加](images/fragment-folder-cloud-configuration.png){width="650" align="left"}
    *フォルダープロパティにクラウド設定を追加して、フラグメントモデルに接続します。*
 
 1. To generate a Content Fragment, select **New Output** ![new output icon](./images/Add_icon.svg) from the **Outputs** section in the **File Properties** of a topic.
 1. Select **Content Fragment**.\
-   ![ ファイルのプロパティ オプション タブ ](./images/file-properties-outputs-tab.png) {width="300" align="left"}
+   ![&#x200B; ファイルのプロパティ オプション タブ &#x200B;](./images/file-properties-outputs-tab.png) {width="300" align="left"}
 
    *トピック*&#x200B;のファイル プロパティから新しいコンテンツ フラグメントを追加します。
 
 1. **コンテンツフラグメントを生成** ダイアログボックスで、**一般** タブと&#x200B;**マッピング** タブに次の詳細を入力します。
 
    **一般** タブ
-   ![ コンテンツフラグメントとして公開ダイアログで、フラグメントモデルとマッピングの詳細を追加する](images/generate-content-fragment.png)
+   ![&#x200B; コンテンツフラグメントとして公開ダイアログで、フラグメントモデルとマッピングの詳細を追加する](images/generate-content-fragment.png)
    *トピックまたはその要素をコンテンツフラグメントとして公開するために、パス、名前、タイトル、条件フィルターを追加します。*
 
 
@@ -65,7 +65,7 @@ To create a Content Fragment, perform the following steps:
 
    **マッピング** タブ
 
-   ![ コンテンツフラグメントとして公開ダイアログで、フラグメントモデルとマッピングの詳細を追加](images/content-fragment-mapping.png)
+   ![&#x200B; コンテンツフラグメントとして公開ダイアログで、フラグメントモデルとマッピングの詳細を追加](images/content-fragment-mapping.png)
 
    *コンテンツフラグメントモデルを選択し、マッピングの詳細を追加して、トピックまたはその要素をコンテンツフラグメントとして公開します。*
 
@@ -82,7 +82,7 @@ To create a Content Fragment, perform the following steps:
 
 1. トピックのコンテンツフラグメントは、**ファイルプロパティ**&#x200B;の&#x200B;**出力** セクションで表示できます。
 
-   ![ トピックのコンテンツフラグメントを表示](images/outputs-options-menu.png){width="300" align="left"}
+   ![&#x200B; トピックのコンテンツフラグメントを表示](images/outputs-options-menu.png){width="300" align="left"}
 
    *トピックに存在するコンテンツフラグメントを表示し、再公開します。*
 

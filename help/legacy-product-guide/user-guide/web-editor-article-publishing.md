@@ -33,4 +33,4 @@ DITA マップ用に作成された出力プリセットを使用して、リポ
 - **[リポジトリーパネルまたはマップビューパネルから出力を生成](web-editor-article-publishing-output.md)**
 
 
-**親トピック：**[ Web エディターの操作](web-editor.md)
+**親トピック：**&#x200B;[&#x200B; Web エディターの操作](web-editor.md)

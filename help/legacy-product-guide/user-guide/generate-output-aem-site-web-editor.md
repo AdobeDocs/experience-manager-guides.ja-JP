@@ -18,9 +18,9 @@ ht-degree: 0%
 Web エディターからAEM Sites プリセットを作成し、AEM Sites出力を生成するように設定できます。 AEM Sites出力は、`guides-components`と共に複合コンポーネントマッピングに基づいているため、効率的なコンテンツの作成と管理が容易になります。
 
 Experience Manager Guidesには、AEM Sitesを作成するための定義済みテンプレートが用意されています。 これらのプリセットは、コンテンツのレイアウトと構造の一貫性を確保するのに役立ちます。
-- これらの定義済みテンプレートに基づいて[ ホームページ ](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md#create-a-home-page-using-the-template)を作成します。
-- [ トピックテンプレート ](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md#package-installation)を編集し、要件に応じてスタイルを適用できます。
-- また、既存のAEM Sites テンプレートを[ カスタマイズすることもできます](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md#customize-existing-aem-sites-templates)。
+- これらの定義済みテンプレートに基づいて[&#x200B; ホームページ &#x200B;](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md#create-a-home-page-using-the-template)を作成します。
+- [&#x200B; トピックテンプレート &#x200B;](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md#package-installation)を編集し、要件に応じてスタイルを適用できます。
+- また、既存のAEM Sites テンプレートを[&#x200B; カスタマイズすることもできます](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md#customize-existing-aem-sites-templates)。
 
 
 
@@ -42,15 +42,15 @@ Web エディターからAEM Sites プリセットを作成するには、次の
 >[!NOTE]
 >
 >Experience Manager Guides用のAEM Sites プリセットを設定する前に、管理者はテンプレートを使用してAEM Sites構造を作成する必要があります。
-- **オンプレミスソフトウェア**: オンプレミスソフトウェア用のAEM Sites テンプレート ](/help/product-guide/install-guide/download-install-aem-sites-templates.md)を[ ダウンロードしてインストールする方法について詳しく説明します。
-- **Cloud Service**: [Cloud Service用AEM Sites テンプレート ](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md)をダウンロードしてインストールする方法について詳しく説明します。
+>- **オンプレミスソフトウェア**: オンプレミスソフトウェア用のAEM Sites テンプレート [&#128279;](/help/product-guide/install-guide/download-install-aem-sites-templates.md)を ダウンロードしてインストールする方法について詳しく説明します。
+>- **Cloud Service**: [Cloud Service用AEM Sites テンプレート &#x200B;](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md)をダウンロードしてインストールする方法について詳しく説明します。
 
 
 
 
 ### 現在のフォルダープロファイルにプリセットを追加
 
-Experience Manager Guidesでは、管理者として、グローバルプロファイルとフォルダープロファイルの出力プリセットを作成および管理できます。 現在のフォルダープロファイルの出力プリセットを作成するには、**新規出力プリセット** ダイアログボックスから「**現在のフォルダープロファイルに追加**」オプションを選択します。 ![ フォルダープロファイルアイコン ](images/global-preset-icon.svg) アイコンは、フォルダープロファイルレベルのプリセットを示します。  [ グローバルおよびフォルダープロファイル出力プリセットの管理](./web-editor-manage-output-presets.md)の詳細をご覧ください。
+Experience Manager Guidesでは、管理者として、グローバルプロファイルとフォルダープロファイルの出力プリセットを作成および管理できます。 現在のフォルダープロファイルの出力プリセットを作成するには、**新規出力プリセット** ダイアログボックスから「**現在のフォルダープロファイルに追加**」オプションを選択します。 ![&#x200B; フォルダープロファイルアイコン &#x200B;](images/global-preset-icon.svg) アイコンは、フォルダープロファイルレベルのプリセットを示します。  [&#x200B; グローバルおよびフォルダープロファイル出力プリセットの管理](./web-editor-manage-output-presets.md)の詳細をご覧ください。
 
 ### 従来のコンポーネントマッピングに基づくAEM Sites プリセット
 
@@ -123,18 +123,18 @@ AEM Sites出力には、次のオプションがあります。
 | --- | --- |
 | サイトパスを使用 | Experience Manager サイトにコンテンツを公開するには、このオプションを使用します。 出力を公開するサイト パスが正確にわかっている場合は、このオプションを選択します。 また、「サイトパス」フィールドでフルパスについても説明します。 |
 | サイトパス | このオプションは、**サイトパスを使用** オプションを選択した場合に表示されます。 出力を公開するExperience Manager サイトのパスを正確に参照します。 |
-| サイト | コンテンツを公開するExperience Manager Sitesの名前。 ドロップダウンのオプションは、AEM Sitesで使用可能なサイトのリストに基づいて設定されます。 <br> 「**更新** ![更新アイコン ](images/navtitle-refresh-icon.svg)」を選択して、オプションの新しいリストを取得し、更新されたデータを反映します。 |
+| サイト | コンテンツを公開するExperience Manager Sitesの名前。 ドロップダウンのオプションは、AEM Sitesで使用可能なサイトのリストに基づいて設定されます。 <br> 「**更新** ![更新アイコン &#x200B;](images/navtitle-refresh-icon.svg)」を選択して、オプションの新しいリストを取得し、更新されたデータを反映します。 |
 | パスを公開 | 出力が保存されるAEM リポジトリ内のパス。 公開パスには、ホームページ テンプレートに基づいて作成されたページを含むすべてのパスが入力されます。 DITA マップのAEM Sites出力は、このパスの下に生成されます。  例えば、サイトを`AEMG-Docs`に、公開パスを`aemg-docs-en/docs/product-abc.`に指定した場合、AEM Sites出力は`crx/de`の`aemg-docs-en/docs/product-abc/` ノードの下に生成されます。 |
 | トピックページテンプレート | 複数のドキュメントをまたいで一貫性のあるコンテンツを整理するために使用できる構造コンポーネントです。 これらのテンプレートは、Adobe Experience Manager サイトテンプレートで事前に定義されています。 オプションには、選択したサイトで使用可能なすべてのトピックページテンプレートが入力されます。 すべての出力トピックに適用するテンプレートを選択します。 |
 | に基づいたページ名の生成 | **トピックファイル名**: DITA トピックのファイル名を使用して、サイト URLを作成します。<br> **トピックタイトル**: DITA トピックのタイトルを使用して、Experience Manager サイト名を作成します。 |
-| 以前に生成したページのクリーンアップ | - **マップから削除されたトピックの以前に生成されたページを削除**: DTIA マップの構造が変更された場合、このオプションを使用して、削除されたトピックの以前に生成されたページを削除できます。 この機能は、完全なマップ公開でのみ使用できます。<br><br> トピック a.dita、b.dita、およびc.ditaを含むDITA マップを公開したとします。 マップを再度公開する前に、マップからb.dita トピックを削除しました。 これで、このオプションを選択すると、b.ditaに関連するすべてのコンテンツがAEM Sites出力から削除され、a.ditaとc.ditaのみが公開されます。<br><br>**注意**：削除されたページに関する情報も出力生成ログに取り込まれます。 ログファイルへのアクセスについて詳しくは、[ ログファイルを表示して確認してください](generate-output-basic-troubleshooting.md#id1821I0Y0G0A__id1822G0P0CHS)。 <br><br>**注意**：トピックを削除すると、公開されたサイトからページを使用できなくなります。 トピックが削除される前に、警告が表示されます。 これらのページを削除するには、確認する必要があります。<br><br>- **このパスで他のソースによって作成されたすべてのページを削除**：このオプションを選択すると、他のマップ、個々のトピック、またはその他のソースからこのパスに公開されたすべてのページが削除されます。 ページは、公開されたサイトからも利用できなくなります。 トピックが削除される前に、警告が表示されます。 You must confirm to delete them. |
+| 以前に生成したページのクリーンアップ | - **マップから削除されたトピックの以前に生成されたページを削除**: DTIA マップの構造が変更された場合、このオプションを使用して、削除されたトピックの以前に生成されたページを削除できます。 この機能は、完全なマップ公開でのみ使用できます。<br><br> トピック a.dita、b.dita、およびc.ditaを含むDITA マップを公開したとします。 マップを再度公開する前に、マップからb.dita トピックを削除しました。 これで、このオプションを選択すると、b.ditaに関連するすべてのコンテンツがAEM Sites出力から削除され、a.ditaとc.ditaのみが公開されます。<br><br>**注意**：削除されたページに関する情報も出力生成ログに取り込まれます。 ログファイルへのアクセスについて詳しくは、[&#x200B; ログファイルを表示して確認してください](generate-output-basic-troubleshooting.md#id1821I0Y0G0A__id1822G0P0CHS)。 <br><br>**注意**：トピックを削除すると、公開されたサイトからページを使用できなくなります。 トピックが削除される前に、警告が表示されます。 これらのページを削除するには、確認する必要があります。<br><br>- **このパスで他のソースによって作成されたすべてのページを削除**：このオプションを選択すると、他のマップ、個々のトピック、またはその他のソースからこのパスに公開されたすべてのページが削除されます。 ページは、公開されたサイトからも利用できなくなります。 トピックが削除される前に、警告が表示されます。 You must confirm to delete them. |
 | 生成後のワークフロー | このオプションを選択すると、AEMで設定されたすべてのワークフローを含む新しいポストジェネレーションワークフローのドロップダウンリストが表示されます。 出力生成ワークフローの完了後に実行するワークフローを選択する必要があります。 |
 | ベースラインを使用 | If you have created a Baseline for the selected DITA map, select this option to specify the version that you want to publish.<br><br>**Important**: When you are generating incremental output for the AEM Site, then the output is created using the current version of the files and not the attached Baseline.<br><br>View [Work with Baseline](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) for more details. |
 | 条件付きフィルタリング | Select one of the following options:<br><br>**None**: Select this option if you do not want to apply any condition on the published output.<br>**Using DITAVAL**: Select DITAVal file(s) to generate conditionalized content. 参照ダイアログまたはファイルパスを入力して、複数のDITAVal ファイルを選択できます。 ファイル名の近くにある十字アイコンを使用して削除します。 DITAVal ファイルは指定された順序で評価されるので、最初のファイルで指定された条件は、後のファイルで指定された一致する条件よりも優先されます。 ファイルを追加または削除することで、ファイルの順序を維持できます。 DITAVal ファイルが別の場所に移動されたり、削除されたりした場合、マップダッシュボードから自動的に削除されることはありません。 ファイルが移動または削除された場合は、場所を更新する必要があります。 You can hover over the file name to view the path in the AEM repository where the file is stored. DITAVal ファイルのみを選択でき、他のファイルタイプを選択した場合はエラーが表示されます。<br>**条件プリセット**：出力の公開中に条件を適用するには、ドロップダウンから条件プリセットを選択します。 このオプションは、DITA マップファイルの条件を追加した場合に表示されます。 条件設定は、DITA マップコンソールの「条件プリセット」タブで使用できます。 To know more about condition preset, view [Use condition presets](generate-output-use-condition-presets.md#id1825FL004PN). |
-| Additional DITA-OT Command Line Arguments | 出力の生成時にDITA-OTで処理する追加の引数を指定します。 DITA-OTでサポートされているコマンドライン引数について詳しくは、[DITA-OT ドキュメント ](https://www.dita-ot.org/)を参照してください。 |
+| Additional DITA-OT Command Line Arguments | 出力の生成時にDITA-OTで処理する追加の引数を指定します。 DITA-OTでサポートされているコマンドライン引数について詳しくは、[DITA-OT ドキュメント &#x200B;](https://www.dita-ot.org/)を参照してください。 |
 | メタデータ <br> <br> ファイル（Assets）のプロパティ | メタデータとして処理するプロパティを選択します。 これらのプロパティは、DITA マップまたはブックマップファイルのプロパティページから設定します。 ドロップダウンリストから選択したプロパティは、**ファイルプロパティ** フィールドの下に表示されます。 プロパティの横にある十字アイコンを選択して削除します。 <br><br>**注意**: メタデータのプロパティでは大文字と小文字が区別されます。<br><br>*ベースラインを選択した場合、プロパティの値は、選択したベースラインのバージョンに基づきます。<br>* ベースラインを選択していない場合、プロパティの値は最新バージョンに基づいています。<br><br>DITA-OT パブリッシングを使用して、メタデータを出力に渡すこともできます。 詳細については、[DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA)を使用してメタデータを出力に渡します。<br><br>**注**:「プロパティ」オプションで「`cq:tags`」を定義していない場合、公開用にベースラインを選択した場合でも、`cq:tags`」の値が現在の作業コピーから選択されます。 |
 | メタデータ <br> <br> マッププロパティをフォールバックとして使用 | 選択すると、マップファイルに定義されたプロパティも、プロパティが定義されていないトピックにコピーされます。 このオプションを使用する際は、次の点を考慮してください。<br><br>*文字列、日付、または長い（1つの値と複数値の）プロパティのみをAEM サイトページに渡すことができます。<br>* 文字列型プロパティのメタデータ値は、特殊文字（`@, #, " "`など）をサポートしていません。<br>*このオプションは、`Properties` オプションと共に使用する必要があります。 |
-| 一時ファイルの保持 | DITA-OTで生成された一時ファイルを保持するには、このオプションを選択します。 DITA-OTを使用して出力を生成する際にエラーが発生した場合は、一時ファイルを保持するためにこのオプションを選択します。 その後、これらのファイルを使用して、出力生成エラーのトラブルシューティングを行うことができます。<br> <br>出力を生成したら、**一時ファイルをダウンロード** ![一時ファイルをダウンロード アイコン ](images/download-temp-files-icon.png) アイコンを選択して、一時ファイルを含むZIP フォルダーをダウンロードします。<br><br> **メモ**: ファイルのプロパティが生成中に追加された場合、出力された一時ファイルには、それらのプロパティを含む&#x200B;*metadata.xml* ファイルも含まれます。 |
+| 一時ファイルの保持 | DITA-OTで生成された一時ファイルを保持するには、このオプションを選択します。 DITA-OTを使用して出力を生成する際にエラーが発生した場合は、一時ファイルを保持するためにこのオプションを選択します。 その後、これらのファイルを使用して、出力生成エラーのトラブルシューティングを行うことができます。<br> <br>出力を生成したら、**一時ファイルをダウンロード** ![一時ファイルをダウンロード アイコン &#x200B;](images/download-temp-files-icon.png) アイコンを選択して、一時ファイルを含むZIP フォルダーをダウンロードします。<br><br> **メモ**: ファイルのプロパティが生成中に追加された場合、出力された一時ファイルには、それらのプロパティを含む&#x200B;*metadata.xml* ファイルも含まれます。 |
 
 
 ### テンプレートを使用したAEM Sites出力の生成
@@ -142,7 +142,7 @@ AEM Sites出力には、次のオプションがあります。
 Experience Manager Guidesでは、すぐに使えるテンプレートを使用するか、独自のAEM Sitesテンプレートを追加できます。
 
 AEM Sites プリセットを設定する前に、必ずテンプレートを使用してAEM Sites構造を作成してください。\
-詳しくは、[AEM Sites テンプレートのダウンロードとインストール ](/help/product-guide/install-guide/download-install-aem-sites-templates.md)を参照してください。
+詳しくは、[AEM Sites テンプレートのダウンロードとインストール &#x200B;](/help/product-guide/install-guide/download-install-aem-sites-templates.md)を参照してください。
 
 
 
@@ -206,9 +206,9 @@ Web エディターからAEM Sites プリセットを使用する場合は、新
 
    リンクされたすべてのトピックには、最新の出力プリセットとマップがデフォルトで選択されています。 リンクされたすべてのトピックの公開コンテキストは、デフォルトで`<Most recently generated>` マップに設定されています。
 
-   ![ クロスマップ参照](images/aem-sites-cross-map-references.png)
+   ![&#x200B; クロスマップ参照](images/aem-sites-cross-map-references.png)
 
-1. マップ内の各依存ファイルの最近公開された出力を使用する場合は、**すべての依存トピックに対して最近生成された**公開コンテキストを使用するを選択します。
+1. マップ内の各依存ファイルの最近公開された出力を使用する場合は、**すべての依存トピックに対して最近生成された**&#x200B;公開コンテキストを使用するを選択します。
 リンクされたトピックを含むマップを公開する前に、親マップとして選択したマップを公開する必要があります。 リンクされたトピックを含むマップが公開されていない場合、リンクはAEM Sites出力にハイパーリンクではなく通常のテキストとして表示されます。
 リンクされたトピックに対して、同じ種類のAEM Sites プリセットを選択する必要があります。 例えば、現在のAEM Sites プリセットで従来のコンポーネントマッピングを使用している場合は、リンクされたトピックの同様のAEM Sites プリセットを選択します。
 1. 親マップ ドロップダウンリストで、現在のマップの出力をリンクする出力を含むマップファイルを選択します。

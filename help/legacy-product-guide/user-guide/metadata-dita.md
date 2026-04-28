@@ -16,6 +16,6 @@ ht-degree: 11%
 
 Adobe Experience Manager Assetsには、アセットを作成してメタデータを追加する機能が用意されています。 あらゆるアセットにメタデータを保持できます。 アセットのメタデータを管理したり、メタデータにもとづいてアセットを自動的に整理および処理したりできます。
 
-AEMでのメタデータ管理について詳しくは、[ デジタルアセットのメタデータの管理](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/metadata.html?lang=ja)を参照してください。
+AEMでのメタデータ管理について詳しくは、[&#x200B; デジタルアセットのメタデータの管理](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/metadata.html?lang=ja)を参照してください。
 
-**親トピック：**[ メタデータの管理](manage-metadata.md)
+**親トピック：**&#x200B;[&#x200B; メタデータの管理](manage-metadata.md)

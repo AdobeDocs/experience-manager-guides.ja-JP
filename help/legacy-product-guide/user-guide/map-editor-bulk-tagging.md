@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Tags allow you to group or classify content within your content repository and also in the published output. If you have applied tags on your content, you can easily find related topics within a DITA map that can help you to authoring content. 公開された出力により、エンドユーザーは適切なタグを配置して、適切なコンテンツをより早く見つけることができます。
 
-AEM Guidesでは、数回クリックするだけでDITA コンテンツにタグ付けすることができます。 一括タグ付け機能を使用すると、複数のトピック、DITA マップ、またはサブマップに複数のタグを適用できます。 または、個々のトピックにタグを適用することもできます。 タグ付けはAEMのネイティブ機能です。タグの作成と管理について詳しくは、AEM ドキュメントの「[ タグの管理](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en)」セクションを参照してください。
+AEM Guidesでは、数回クリックするだけでDITA コンテンツにタグ付けすることができます。 一括タグ付け機能を使用すると、複数のトピック、DITA マップ、またはサブマップに複数のタグを適用できます。 または、個々のトピックにタグを適用することもできます。 タグ付けはAEMのネイティブ機能です。タグの作成と管理について詳しくは、AEM ドキュメントの「[&#x200B; タグの管理](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en)」セクションを参照してください。
 
 デフォルトでは、AEM Guidesは、AEM リポジトリ内のすべてのタグが保存されているフォルダー上の任意のユーザーに読み取りアクセス権を付与しません。 To use tags defined in the AEM repository, you must ask your system administrator to grant access on the folder where the tags are stored.
 
@@ -108,4 +108,4 @@ Perform the following steps to remove all tags from one or more topics:
 
 トピックに適用されるタグのリストが長い場合は、移動が少し面倒になる可能性があります。 タグを非表示アイコンをクリックすると、DITA マップコンソールビューからタグを簡単に非表示にできます。 同様に、タグが表示されていない場合は、「タグを表示」をクリックすると、すべてのタグが表示されます。
 
-**親トピック：**[ メタデータの管理](manage-metadata.md)
+**親トピック：**&#x200B;[&#x200B; メタデータの管理](manage-metadata.md)

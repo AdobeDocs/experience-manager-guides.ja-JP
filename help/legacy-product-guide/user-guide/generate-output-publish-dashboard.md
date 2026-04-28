@@ -75,7 +75,7 @@ ht-degree: 0%
 
 パブリッシュダッシュボードから出力生成タスクをキャンセルするには、次の手順を実行します。
 
-1. [公開ダッシュボードにアクセス ](#id205CC100DY4)。
+1. [公開ダッシュボードにアクセス &#x200B;](#id205CC100DY4)。
 
 1. From the list of active publishing tasks, click the delete icon of a task that you want to cancel.
 
@@ -88,4 +88,4 @@ ht-degree: 0%
    ![](images/cancelled-output-task.png){width="800" align="left"}
 
 
-**親トピック：**[&#x200B;出力生成](generate-output.md)
+**親トピック：**&#x200B;[&#x200B;出力生成](generate-output.md)

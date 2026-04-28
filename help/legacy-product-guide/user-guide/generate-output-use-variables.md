@@ -31,4 +31,4 @@ The following table lists the variables that are supported out of the box:
 | `${system_time}` | 現在のサーバー時間を使用して、宛先パスを作成します。 | **DITA マップファイル名：** <br>`SampleDita.ditamap` <br> <br> **DITA マップファイルのパス：** <br>`/content/dam/projects/AEM-Guides/en/user-guide/` <br><Br>**宛先パス**&#x200B;が<br>として設定されました `/content/output/sites/${system_time}`<br><br>**最終的な出力場所：**<br>`/content/output/sites/055612/SampleDita.html` |
 
 さらに、DITA マップファイルまたはブックマップファイルに定義されているメタデータを変数として使用することもできます。 メタデータは、DITA マップまたはブックマップファイルの`/jcr:content/metadata` ノードにあります。 例えば、`/jcr:content/metadata` ノードで定義されているメタデータプロパティの1つは`dc:title`です。 `${dc:title}`を指定すると、タイトルの値が最終的な出力で使用されます。
-**親トピック：**[&#x200B;出力生成](generate-output.md)
+**親トピック：**&#x200B;[&#x200B;出力生成](generate-output.md)

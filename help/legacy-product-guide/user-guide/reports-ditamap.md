@@ -96,4 +96,4 @@ DITA マップレポートのCSVを生成するには、次の手順を実行し
 
 Once the report is downloaded in the Inbox you can also select the report and use the Open icon on the top to open the selected report.
 
-**親トピック：**[ レポート ](reports-intro.md)
+**親トピック：**&#x200B;[&#x200B; レポート &#x200B;](reports-intro.md)
