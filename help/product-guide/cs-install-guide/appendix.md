@@ -5,10 +5,9 @@ exl-id: 71b09039-b220-45f3-b334-c23f5b09dadc
 feature: InDesign File Conversion, Troubleshooting
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '2852'
+source-wordcount: '2866'
 ht-degree: 0%
 
 ---
@@ -241,7 +240,7 @@ InDesignの表スタイルを使用すると、列とセルの罫線を交互の
 </paraRule>
 ```
 
-上記の例では、`paraRule` = &quot;Heading1&quot;に2つの`@style`要素があります。 必要に応じて、`doctypeParaRule`属性が設定された同等の`@mapToDoctype`要素を作成します。
+上記の例では、`@style` = &quot;Heading1&quot;に2つの`paraRule`要素があります。 必要に応じて、`@mapToDoctype`属性が設定された同等の`doctypeParaRule`要素を作成します。
 
 `doctypeParaRule`で使用される属性は次のとおりです。
 
@@ -261,7 +260,7 @@ InDesignの表スタイルを使用すると、列とセルの罫線を交互の
 
 - `@element`：要素名の後にプラス記号を付けると、同じ名前のすべての隣接する要素が、`@wrapper`属性にという名前の要素で折り返されます。
 - `@wrapper`: ラッピング要素の名前。
-- `@context`：特定の要素のラップ方法をさらに絞り込む方法を提供します。 次の例は、順序付きリスト `li`または順序なしリスト `ol`の一連の`ul`要素を、`@context`値\（コンテキストは`paraRule`要素\）に従ってマッピングする方法を示しています。
+- `@context`：特定の要素のラップ方法をさらに絞り込む方法を提供します。 次の例は、順序付きリスト `ol`または順序なしリスト `ul`の一連の`li`要素を、`@context`値\（コンテキストは`paraRule`要素\）に従ってマッピングする方法を示しています。
 
   ```
   <wrap elements="li+" context="number" wrapper="ol">
@@ -273,9 +272,9 @@ InDesignの表スタイルを使用すると、列とセルの罫線を交互の
   ```
 
 
-次の例は、`fig`と`title`要素から`image`要素を作成する方法を示しています。
+次の例は、`title`と`image`要素から`fig`要素を作成する方法を示しています。
 
-- `@elements`: コンマで区切られ、リストされた要素は、`@wrapper`属性にという名前の要素でラップされます。 画像の下に図のタイトルを含めるという一般的な方法により、タイトルは`title`の直後の`image`要素になります。
+- `@elements`: コンマで区切られ、リストされた要素は、`@wrapper`属性にという名前の要素でラップされます。 画像の下に図のタイトルを含めるという一般的な方法により、タイトルは`image`の直後の`title`要素になります。
 
   次のラッピングルール：
 
@@ -306,7 +305,7 @@ InDesignの表スタイルを使用すると、列とセルの罫線を交互の
 
 次の例は、`title`を`table`に移動する方法を示しています。
 
-- `@elements`: `title`の直前または直後にある`table`要素は、`@wrapper`属性にという名前の要素でラップされます。 XPath スタイルの述語では、タイトル要素の位置を`[before]`または`[after]`として識別できます。
+- `@elements`: `table`の直前または直後にある`title`要素は、`@wrapper`属性にという名前の要素でラップされます。 XPath スタイルの述語では、タイトル要素の位置を`[before]`または`[after]`として識別できます。
 
   例：次のラップ規則：
 
@@ -378,7 +377,7 @@ InDesignの表スタイルを使用すると、列とセルの罫線を交互の
 
 >[!NOTE]
 >
-> 事前処理中に削除されるので、`[No character style]`の場合、組み込み文字スタイル `local="0"`のマッピングは行われません。
+> 事前処理中に削除されるので、`local="0"`の場合、組み込み文字スタイル `[No character style]`のマッピングは行われません。
 
 ***`charRule`要素***
 

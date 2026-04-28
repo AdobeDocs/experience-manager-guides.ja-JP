@@ -5,8 +5,7 @@ exl-id: 2f301f6a-0d1c-4194-84c2-0fddaef8d3ec
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: ad12cac61d14bc68bf73dc407a74a22c8248d7b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 1%
@@ -66,7 +65,7 @@ window.addEventListener('DOMContentLoaded', function () {
 >
 >コールバック関数を使用する前に、`window.addEventListener('DOMContentLoaded', function ()`関数を呼び出す必要があります。
 
-次に、このスクリプトをPDF出力の生成に使用するテンプレートファイルから呼び出す必要があります。 この例では、目次テンプレートに追加します。 `<script>` タグが`<div>` タグ内の事前定義された`<body>` タグ内に追加されていることを確認します。 `<head>` タグ内または`<body>` タグ外に追加すると、スクリプトは実行されません。
+次に、このスクリプトをPDF出力の生成に使用するテンプレートファイルから呼び出す必要があります。 この例では、目次テンプレートに追加します。 `<script>` タグが`<body>` タグ内の事前定義された`<div>` タグ内に追加されていることを確認します。 `<head>` タグ内または`<body>` タグ外に追加すると、スクリプトは実行されません。
 
 <img src="./assets/js-added-resources-template.png" width="500">
 

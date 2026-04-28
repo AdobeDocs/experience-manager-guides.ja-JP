@@ -2,10 +2,9 @@
 title: コンテンツを検索するためのスマートヘルプの設定
 description: コンテンツを検索するためのスマートヘルプの設定方法を説明します
 exl-id: b5836c02-027e-459a-a7f0-f7d631f999dc
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
@@ -35,7 +34,7 @@ Adobe Developer ConsoleでIMS設定を作成するには、次の手順を実行
    *I/O Management APIをプロジェクトに追加します。*
 
 1. 新しい&#x200B;**OAuth資格情報**&#x200B;を作成して保存します。
-   configure APIの![OAuth資格情報タイル &#x200B;](assets/conf-ss-OAuth-credential.png) {width="3000" align="left"}
+   configure API![&#128279;](assets/conf-ss-OAuth-credential.png)のOAuth資格情報タイル {width="3000" align="left"}
    *APIにOAuth資格情報を設定します。*
 
 1. 「**プロジェクト**」タブで、「**OAuth サーバーからサーバー**」オプションを選択し、新しく作成した資格情報を選択します。

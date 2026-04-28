@@ -5,10 +5,9 @@ exl-id: 6579812b-caa7-420f-a6e4-36fef7d63d34
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 34687ac8f8877d05e545b23cf0830aa0345a25f7
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---

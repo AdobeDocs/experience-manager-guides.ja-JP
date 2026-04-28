@@ -5,10 +5,9 @@ feature: Publishing FrameMaker Documents
 role: Admin
 level: Experienced
 exl-id: 86ba53fa-0e08-4791-9018-09fe974691da
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '368'
 ht-degree: 1%
 
 ---

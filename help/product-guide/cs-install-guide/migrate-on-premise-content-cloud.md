@@ -5,18 +5,17 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: da3a6f83-b21a-4b19-8b54-ee96f11e7c09
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 4%
+source-wordcount: '1034'
+ht-degree: 6%
 
 ---
 
 # オンプレミスからCloud Serviceへのコンテンツの移行
 
 Experience Manager as a Cloud Serviceは、Experience Manager Guides、Assets、Forms、Screens向けに、拡張性、安全性、俊敏性の高いテクノロジー基盤を提供します。 これにより、マーケターやIT担当者は、インパクトのあるエクスペリエンスを大規模に提供することに注力できます。
-Experience Manager as a Cloud Service を使用すると、チームは製品アップグレード計画ではなく技術革新に専念できます。新機能は徹底的にテストされ、チームに中断されることなく提供されるので、チームは常に最新バージョンのAdobe Experience Managerにアクセスできます。
+Experience Manager as a Cloud Service を使用すると、チームは製品アップグレード計画ではなく技術革新に専念できます。 新機能は徹底的にテストされ、チームに中断されることなく提供されるので、チームは常に最新バージョンのAdobe Experience Managerにアクセスできます。
 
 この記事では、オンプレミスまたはManaged Services Experience Manager GuidesのコンテンツをCloud Servicesに移行するための詳細な手順を説明し、クラウドベースのプラットフォームへのスムーズな移行を実現します。
 
@@ -41,8 +40,8 @@ Experience Manager as a Cloud Service を使用すると、チームは製品ア
 1. **コンテンツ転送ツール**&#x200B;を検索します。
 1. リストから&#x200B;**コンテンツ転送ツール**&#x200B;を選択してダウンロードします。
 
-![&#x200B; コンテンツ転送ツールのダウンロード &#x200B;](./assets/content-transfer-tool-software-portal.png)
-次に、**Package Manager**&#x200B;を介してパッケージをソース Adobe Experience Manager インスタンスにインストールします。 必ず最新バージョンをダウンロードしてください。
+![&#x200B; コンテンツ転送ツールのダウンロード](./assets/content-transfer-tool-software-portal.png)
+次に、**Package Manager**&#x200B;を介してパッケージをソース Adobe Experience Manager インスタンスにインストールします。 最新バージョンをダウンロードしてください。
 最新バージョンについて詳しくは、[&#x200B; リリースノート &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=ja)を参照してください。
 
 >[!NOTE]
@@ -72,7 +71,7 @@ Experience Manager Guides コンテンツをExperience Manager as a Cloud Servic
 
    ![&#x200B; コンテンツ転送のレビュー](./assets/migration-content-transfer-review.png)
 
-1. **移行セットの作成**&#x200B;をクリックします。
+1. 「**移行セットを作成**」をクリックします。
 
 1. 移行セットの名前と説明を入力します。
 
@@ -96,7 +95,7 @@ Experience Manager Guides コンテンツをExperience Manager as a Cloud Servic
    >
    >  必ず最新バージョンをダウンロードしてください。
 
-1. オンプレミスインスタンスの`content-transfer.all-3.0.10.zip` パッケージマネージャー&#x200B;**にパッケージ**&#x200B;をアップロードしてインストールします。
+1. オンプレミスインスタンスの&#x200B;**パッケージマネージャー**&#x200B;にパッケージ `content-transfer.all-3.0.10.zip`をアップロードしてインストールします。
    ![&#x200B; コンテンツ転送ツールのダウンロード &#x200B;](./assets/content-transfer-tool-software-portal.png)
 
 
@@ -109,7 +108,7 @@ Experience Manager Guides コンテンツをExperience Manager as a Cloud Servic
    ![](./assets/migration-create-migration-set.png)
 
 1. 移行するパスを指定し、**保存**&#x200B;をクリックします。
-例：`/content/sites`
+次に例を示します。  `/content/sites`
 または
    `/content/dam/tech-docs`
    ![含まれるパス &#x200B;](./assets/migration-included-paths.png)

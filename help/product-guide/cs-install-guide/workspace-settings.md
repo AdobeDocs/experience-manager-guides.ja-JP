@@ -4,17 +4,16 @@ description: Experience Manager Guidesのエディターインターフェイス
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 3c3880af-8d32-4d8a-9dca-8be12e9a5fd5
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '2440'
-ht-degree: 0%
+source-wordcount: '2470'
+ht-degree: 1%
 
 ---
 
 # Workspaceの設定
 
-エディターの&#x200B;**タブバー**&#x200B;にある[Workspace settings](../user-guide/web-editor-tab-bar.md) オプションは、管理者およびフォルダープロファイル管理者のみが使用でき、次の設定を行うことができます。
+エディターの[&#x200B; タブバー](../user-guide/web-editor-tab-bar.md)にある&#x200B;**Workspace settings** オプションは、管理者およびフォルダープロファイル管理者のみが使用でき、次の設定を行うことができます。
 
 - [一般](#general)
 - [パネル](#panels)
@@ -124,7 +123,7 @@ ht-degree: 0%
 
 ![](../user-guide/images/editor-setting-element-list.png){width="650" align="left"}
 
-上のスクリーンショットでは、`p`要素に段落のラベルが付けられ、`codeblock`には他の要素と共にコードブロックのラベルが付けられています。 **上記のエレメントのみを使用** オプションを選択すると、このリストの有効なエレメント \（現在の挿入ポイント\）のみが&#x200B;**エレメントを挿入** ダイアログボックスに表示されます。
+上のスクリーンショットでは、`p`要素に段落のラベルが付けられ、`codeblock`には他の要素と共にコードブロックのラベルが付けられています。**上記のエレメントのみを使用** オプションを選択すると、このリストの有効なエレメント \（現在の挿入ポイント\）のみが&#x200B;**エレメントを挿入** ダイアログボックスに表示されます。
 
 次のスクリーンショットでは、前のスクリーンショットで設定した4つの要素のうち、現在のコンテキストに表示されているのは3つだけです。
 
@@ -174,7 +173,7 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >AEMでSalesforceのプロキシを設定するには、Experience Manager GuidesでApache HTTP Components Proxy Configurationを使用します。 AEM Link Checker[のプロキシを](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html)設定する方法について説明します。
+     >AEMでSalesforceのプロキシを設定するには、Experience Manager GuidesでApache HTTP Components Proxy Configurationを使用します。 AEM Link Checker[&#128279;](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html)のプロキシを設定する方法について説明します。
 
 
 **ServiceNow プロファイルの作成**

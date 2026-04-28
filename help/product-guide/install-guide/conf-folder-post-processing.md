@@ -5,10 +5,9 @@ feature: Filename Configuration
 role: Admin
 level: Experienced
 exl-id: ff6e1322-9655-42aa-b353-199c70c9de49
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
@@ -58,7 +57,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> OSGi設定で設定された無視および有効なパスに加えて、後処理動作は、`/var/dxml/postprocess/ignoredPaths`にあるリポジトリーレベルのノードからも影響を受けます。 <br> フォルダーが予期せず後処理から除外され、OSGi設定にリストされていない場合は、このリポジトリノードを確認することをお勧めします。 パスがそこに表示され、`true`に設定されている場合、パスは無視されます。 処理を再度有効にするには、対応するプロパティをノードから手動で削除します。
+> OSGi設定で構成された無視および有効なパスに加えて、後処理動作は、`/var/dxml/postprocess/ignoredPaths`にあるリポジトリーレベルのノードからも影響を受けます。<br> フォルダーが予期せず後処理から除外され、OSGi設定にリストされていない場合は、このリポジトリノードを確認することをお勧めします。 パスがそこに表示され、`true`に設定されている場合、パスは無視されます。 処理を再度有効にするには、対応するプロパティをノードから手動で削除します。
 
 ## 後処理を有効または無効にするルール
 

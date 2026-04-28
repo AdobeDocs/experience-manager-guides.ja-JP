@@ -5,10 +5,9 @@ exl-id: 1dde8a29-301f-461e-b598-2a8cab61bf3d
 feature: Migration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '1201'
+source-wordcount: '1209'
 ht-degree: 0%
 
 ---
@@ -61,7 +60,7 @@ FrameMakerのAEM コネクタを使用してコンテンツをアップロード
 
    - **ユーザー名**/**パスワード**: AEM サーバーにアクセスするためのユーザー名とパスワードを入力します。
 
-1. **Connect**&#x200B;をクリックします。
+1. 「**接続**」をクリックします。
 
    接続が正常に確立されると、AEM リポジトリのAssetsがRepository Manager ウィンドウに表示されます。
 

@@ -5,8 +5,7 @@ exl-id: 3ab75101-4c23-4e45-bfcf-76c1f5b92c96
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 0%
@@ -15,7 +14,7 @@ ht-degree: 0%
 
 # タグビューのデフォルト値の設定 {#id223GN0M0NDC}
 
-AEM Guidesでは、Web エディターでタグビューのデフォルトのステートを設定できます。これにより、新規ユーザーのセッションに対してタグビューをデフォルトでオンまたはオフに保つことができます。タグビューのデフォルト値を設定するには、次の手順を実行します。
+AEM Guidesでは、Web エディターでタグビューのデフォルトのステートを設定できます。これにより、新規ユーザーのセッションのタグビューをデフォルトでオンまたはオフに保つことができます。タグビューのデフォルト値を設定するには、次の手順を実行します。
 
 1. 管理者としてAdobe Experience Managerにログインして、UI設定ファイルをダウンロードします。
 1. 上部のAdobe Experience Manager リンクをクリックし、**ツール**&#x200B;を選択します。
@@ -32,7 +31,7 @@ AEM Guidesでは、Web エディターでタグビューのデフォルトのス
                 }
 ```
 
-1.）ファイルを保存してアップロードします。
+1.) ファイルを保存してアップロードします。
 
 >[!NOTE]
 >

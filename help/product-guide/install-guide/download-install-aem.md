@@ -5,11 +5,10 @@ exl-id: 4693b102-b75a-4904-b2d5-914e774305f3
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 0%
+source-wordcount: '215'
+ht-degree: 5%
 
 ---
 
@@ -17,9 +16,9 @@ ht-degree: 0%
 
 AEM Guidesは、Adobe Experience Manager上にインストールされるプラグインです。 AEMをインストールするには、AEMの基本的な概念と推奨されるデプロイメントのシナリオについて理解する必要があります。 次のリンクは、AEMのインストールを開始するのに役立ちます。
 
-- [AEMの基本概念](https://helpx.adobe.com/jp/experience-manager/6-5/sites/deploying/using/deploy.html#BasicConcepts)
+- [AEMの基本コンセプト](https://helpx.adobe.com/jp/experience-manager/6-5/sites/deploying/using/deploy.html#BasicConcepts)
 
-- [推奨されるAEMの展開](https://helpx.adobe.com/jp/experience-manager/6-5/sites/deploying/using/recommended-deploys.html)
+- [AEMの推奨デプロイメント](https://helpx.adobe.com/jp/experience-manager/6-5/sites/deploying/using/recommended-deploys.html)
 
 
 >[!IMPORTANT]

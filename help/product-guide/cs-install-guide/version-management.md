@@ -5,10 +5,9 @@ exl-id: f7638cb3-faca-4170-9a8c-f6362e174c18
 feature: Version Management
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '1514'
+source-wordcount: '1518'
 ht-degree: 0%
 
 ---
@@ -106,7 +105,7 @@ AEM Guides Web エディターでは、DITA トピックを作成および更新
 
 | PID | プロパティキー | プロパティの値 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `block.unsafe.delete` | 使用可能な値：<br> - allow\_unsafe\_delete\_for\_all <br> -   allow\_unsafe\_delete\_for\_delete\_assets\_group <br> - block\_unsafe\_delete\_for\_all <br> **デフォルト値**: `allow_unsafe_delete_for_delete_assets_group` <br>これらの定数の詳細は以下のとおりです。 |
+| `com.adobe.fmdita.config.ConfigManager` | `block.unsafe.delete` | 使用可能な値：<br> - allow\_unsafe\_delete\_for\_all <br> - allow\_unsafe\_delete\_for\_delete\_assets\_group <br> - block\_unsafe\_delete\_for\_all <br> **デフォルト値**: `allow_unsafe_delete_for_delete_assets_group` <br>これらの定数の詳細は以下のとおりです。 |
 
 削除用のアクセス権を付与するユーザーに応じて、次のいずれかの定数を指定します。
 

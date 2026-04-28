@@ -5,10 +5,9 @@ exl-id: d7cd412b-89ea-43a5-97b3-09944863bbee
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '908'
 ht-degree: 0%
 
 ---
@@ -72,7 +71,7 @@ Generic REST Client、Salsify、Akeneo、Microsoft Azure DevOps Boards （ADO）
 
 リソースを作成するには、次の手順を実行します。
 
-1. ![URL リソースセクション &#x200B;](assets/Add_icon.svg)の&#x200B;**追加アイコン**&#x200B;を選択して、各URLのリソースを追加します。
+1. **URL リソースセクション**&#x200B;の![追加アイコン &#x200B;](assets/Add_icon.svg)を選択して、各URLのリソースを追加します。
 1. **リソースを追加** ダイアログボックスのすべての詳細を設定します。
 1. 「**追加**」をクリックします。
 1. ![編集アイコン &#x200B;](assets/edit_pencil_icon.svg)を編集するか、URL リソースリストから![削除](assets/Delete_icon.svg) リソースを削除できます。

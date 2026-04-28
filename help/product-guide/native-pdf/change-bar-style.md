@@ -5,8 +5,7 @@ exl-id: a81ec56c-ccbb-4599-a696-8edef7a73cdd
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -17,7 +16,7 @@ ht-degree: 0%
 
 改訂バーとは、新しいコンテンツや改訂されたコンテンツを視覚的に識別する縦線のことです。 AEM Guidesでは、トピック内の変更されたコンテンツの左側に変更バーを表示し、PDF出力の目次に変更されたトピックを表示できます。
 
-改訂バーの表示について詳しくは、*PDF出力の公開*&#x200B;の「公開済みバージョン [間に改訂バーを使用してPDFを作成する」設定を参照してください。](../web-editor/native-pdf-web-editor.md)
+改訂バーの表示について詳しくは、[PDF出力の公開](../web-editor/native-pdf-web-editor.md)の「公開済みバージョン *間に改訂バーを使用してPDFを作成する」設定を参照してください。*
 
 ## トピック内のコンテンツの変更
 
@@ -66,7 +65,7 @@ ht-degree: 0%
 
 `.inserted-change-bar`および`.deleted-change-bar` スタイルを使用して、更新されたコンテンツの左側に表示される改訂バーの外観を変更できます。
 
-例えば、`-ro-change-bar-color` スタイルの`.inserted-change-bar`属性を使用して、挿入された改訂バーを緑色で表示できます。 `-ro-change-bar-color` スタイルの`.deleted-change-bar`属性を使用して、削除された変更バーを赤色で表示することもできます。
+例えば、`.inserted-change-bar` スタイルの`-ro-change-bar-color`属性を使用して、挿入された改訂バーを緑色で表示できます。 `.deleted-change-bar` スタイルの`-ro-change-bar-color`属性を使用して、削除された変更バーを赤色で表示することもできます。
 
 ```css
 ...
@@ -84,7 +83,7 @@ ht-degree: 0%
 
 ## 目次（TOC）で変更されたトピック
 
-PDF出力の目次で、変更されたトピックの左側に変更バーを追加することもできます。 `-ro-change-bar-color` スタイルの`.changed-topic`属性を使用して、目次リストで更新されたトピックに対して、選択した色の変更バーを追加できます。
+PDF出力の目次で、変更されたトピックの左側に変更バーを追加することもできます。 `.changed-topic` スタイルの`-ro-change-bar-color`属性を使用して、目次リストで更新されたトピックに対して、選択した色の変更バーを追加できます。
 
 例えば、緑色の改訂バーを追加できます。
 

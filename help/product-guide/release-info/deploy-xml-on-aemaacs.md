@@ -1,13 +1,12 @@
 ---
-title: ' [!DNL Experience Manager Guides] 環境に [!DNL Experience Manager as a Cloud Service] を追加する方法'
-description: ' [!DNL AEM Guides] 環境に [!DNL AEM as a Cloud Service] を追加する方法について説明します'
+title: ' [!DNL Experience Manager as a Cloud Service] 環境に [!DNL Experience Manager Guides] を追加する方法'
+description: ' [!DNL AEM as a Cloud Service] 環境に [!DNL AEM Guides] を追加する方法について説明します'
 exl-id: a1e020c2-360c-4d71-b5fd-8179d9ceacda
 feature: Installation
 role: Leader
-hidefromtoc: true
-source-git-commit: 55edd53d1dda7a68352e53b2e59eafd15b677fdd
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---

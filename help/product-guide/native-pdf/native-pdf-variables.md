@@ -5,10 +5,9 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 96e54aee-52df-4af1-97fd-34986f553be4
-hidefromtoc: true
-source-git-commit: 34687ac8f8877d05e545b23cf0830aa0345a25f7
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '1450'
+source-wordcount: '1465'
 ht-degree: 0%
 
 ---
@@ -26,7 +25,7 @@ ht-degree: 0%
 *変数を作成し、その値を定義します。*
 
 
-1. エディターで、左パネルに移動し、**変数**&#x200B;を選択します <img alt= "変数アイコン" src="./assets/variables-icon.svg" width="25"> に移行することで使用を置き換えることができます。 このオプションは、「その他」セクションで使用できます。
+1. エディターで、左パネルに移動し、**変数**&#x200B;を選択します <img alt= "変数アイコン" src="./assets/variables-icon.svg" width="25">. このオプションは、「その他」セクションで使用できます。
 1. **編集**&#x200B;を選択 <img alt= "鉛筆を編集アイコン" src="./assets/edit_pencil_icon.svg" width="25">で&#x200B;**変数** エディターを開きます。
 変数はアルファベット順に表示されます。
 1. **Name**&#x200B;列に変数名を入力し、その値を&#x200B;**Value**&#x200B;列に入力します。
