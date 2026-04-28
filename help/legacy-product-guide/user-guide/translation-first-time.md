@@ -50,7 +50,7 @@ Perform the following steps to configure the human or machine translation servic
 
    >[!NOTE]
    >
-   > See [Configuring the Translation Integration Framework](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) in AEM documentation for details on integrating with third-party translation services.
+   > See [Configuring the Translation Integration Framework](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=ja) in AEM documentation for details on integrating with third-party translation services.
 
 1. Click **Save &amp; Close** to save the updated folder properties.
 
