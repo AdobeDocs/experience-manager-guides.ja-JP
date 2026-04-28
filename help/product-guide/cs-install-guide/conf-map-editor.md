@@ -5,10 +5,9 @@ exl-id: 365264ab-f990-42c1-ab79-61a40ecea42f
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -34,4 +33,4 @@ ht-degree: 0%
 >
 > デフォルトでは、作成者がマップファイルを作成し、編集用に開くことを選択すると、基本マップエディターが起動します。 Assets UIからマップファイルの「編集」オプションを選択すると、基本マップエディターでも開きます。
 
-**親トピック：**&#x200B;[&#x200B; Web エディターのカスタマイズ &#x200B;](conf-web-editor.md)
+**親トピック：**[ Web エディターのカスタマイズ ](conf-web-editor.md)

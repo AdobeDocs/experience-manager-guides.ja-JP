@@ -5,8 +5,7 @@ exl-id: 3def20dc-dd24-4526-ae36-45708249d34a
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 1%
@@ -23,7 +22,7 @@ ht-degree: 1%
 
 1. ui\_config.json ファイルをダウンロードします。
 
-   この変更は、グローバルレベルまたはフォルダーレベルのプロファイルで行うことができます。 この変更を行う場所に応じて、それぞれのui\_config.json ファイルをダウンロードする必要があります。 ui\_config.json ファイルのダウンロードについて詳しくは、[XML Web エディターの設定とカスタマイズ &#x200B;](conf-folder-level.md#id2065G300O5Z)を参照してください。
+   この変更は、グローバルレベルまたはフォルダーレベルのプロファイルで行うことができます。 この変更を行う場所に応じて、それぞれのui\_config.json ファイルをダウンロードする必要があります。 ui\_config.json ファイルのダウンロードについて詳しくは、[XML Web エディターの設定とカスタマイズ ](conf-folder-level.md#id2065G300O5Z)を参照してください。
 
 1. `ditaAttributes`定義を検索します。
 

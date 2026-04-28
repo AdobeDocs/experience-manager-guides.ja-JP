@@ -5,10 +5,9 @@ exl-id: f7638cb3-faca-4170-9a8c-f6362e174c18
 feature: Version Management
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '1514'
+source-wordcount: '1518'
 ht-degree: 0%
 
 ---
@@ -106,7 +105,7 @@ AEM Guides Web エディターでは、DITA トピックを作成および更新
 
 | PID | プロパティキー | プロパティの値 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `block.unsafe.delete` | 使用可能な値：<br> - allow\_unsafe\_delete\_for\_all <br> -   allow\_unsafe\_delete\_for\_delete\_assets\_group <br> - block\_unsafe\_delete\_for\_all <br> **デフォルト値**: `allow_unsafe_delete_for_delete_assets_group` <br>これらの定数の詳細は以下のとおりです。 |
+| `com.adobe.fmdita.config.ConfigManager` | `block.unsafe.delete` | 使用可能な値：<br> - allow\_unsafe\_delete\_for\_all <br> - allow\_unsafe\_delete\_for\_delete\_assets\_group <br> - block\_unsafe\_delete\_for\_all <br> **デフォルト値**: `allow_unsafe_delete_for_delete_assets_group` <br>これらの定数の詳細は以下のとおりです。 |
 
 削除用のアクセス権を付与するユーザーに応じて、次のいずれかの定数を指定します。
 
@@ -143,7 +142,7 @@ AEM Guides Web エディターでは、DITA トピックを作成および更新
 
    ![](assets/preview-purge-report.png)
 
-1. &#x200B;
+1. 
    - **最新バージョンから保持するバージョン数**：保持する必要があり、パージしないバージョン数を入力します。 例えば、5と入力すると、最後の5つのバージョンが保持され、その前のバージョンは、他のパージ条件が満たされた場合にパージされる資格があります。
 - **作成されたバージョンをタイムスパン \（日数\）**&#x200B;内に保持：バージョンの最大有効期間を日数で入力します。 指定された日数より古いバージョンは、他のパージ条件が満たされた場合にパージされる可能性があります。 例えば、「100」と入力すると、他のパージ条件が満たされた場合、100日前に作成されたすべてのバージョンがパージの対象となります。
 - **パス**：パージするファイルまたはフォルダーのパスを選択します。

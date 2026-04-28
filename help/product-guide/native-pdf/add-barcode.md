@@ -2,10 +2,9 @@
 title: PDFのネイティブ公開機能| バーコードの追加
 description: バーコードの追加方法を説明します。
 exl-id: 206bdcf9-2bcd-4bf1-815a-c97cdf0dc415
-hidefromtoc: true
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '792'
 ht-degree: 1%
 
 ---
@@ -25,7 +24,7 @@ ht-degree: 1%
 
 ### テンプレートのCSSを更新して、バーコード値をレンダリングします
 
-PDF生成時に`layout.css` ファイルを変更して、バーコードをレンダリングします。 「qrcode」や「pdf417」など、様々なバーコードタイプがサポートされています。  詳細については、[&#x200B; バーコードタイプ &#x200B;](#barcode-types)を参照してください。
+PDF生成時に`layout.css` ファイルを変更して、バーコードをレンダリングします。 「qrcode」や「pdf417」など、様々なバーコードタイプがサポートされています。  詳細については、[ バーコードタイプ ](#barcode-types)を参照してください。
 
 
 
@@ -55,7 +54,7 @@ margin-top: 2mm;
 1. ページレイアウトを選択します。 例えば、ヘッダーまたはフッターを含むBackCover ページレイアウトを選択できます。
 1. バーコードを挿入する場所に次のスパンを追加します。
 
-   `<span class="barcode">Sample barcode</span></p>`。
+   `<span class="barcode">Sample barcode</span></p>`.
 
    >[!NOTE]
    >
@@ -71,7 +70,7 @@ margin-top: 2mm;
 
 **例 2**
 
-`Common.plt`Basic **テンプレートの** ファイルを変更して、プロジェクトタイトルの後にバーコードを追加します。
+**Basic** テンプレートの`Common.plt` ファイルを変更して、プロジェクトタイトルの後にバーコードを追加します。
 
 ISBN番号のバーコードを作成するには、ISBN番号を追加します。 次に、ISBN番号を使用してバーコードを生成します。
 
@@ -90,7 +89,7 @@ ISBN番号のバーコードを作成するには、ISBN番号を追加します
 
 マップメタデータを使用してバーコードを作成するには：
 
-DITA マップの`<topicmeta>`要素に存在するメタデータを使用して、バーコードとして表示します。 適切なXPathを使用する。 例えば、DITA マップの`<resourceid>`に`<topicmeta>`を追加できます。
+DITA マップの`<topicmeta>`要素に存在するメタデータを使用して、バーコードとして表示します。 適切なXPathを使用する。 例えば、DITA マップの`<topicmeta>`に`<resourceid>`を追加できます。
 
 次の例では、リソース IDがバーコードを生成するためのメイン入力として機能します。
 

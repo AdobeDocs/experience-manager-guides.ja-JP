@@ -2,11 +2,10 @@
 title: リリースノート | Adobe Experience Manager Guides（2026.03.0 リリース）のアップグレード手順と修正された問題
 description: 互換性マトリックスと、Adobe Experience Manager Guides as a Cloud Serviceの2026.03.0 リリースにアップグレードする方法について説明します。
 exl-id: 5700e649-104d-4caf-a195-6e667a71faee
-hidefromtoc: true
-source-git-commit: 22ea3fe3ccb974fe3795299f7815e7aae78d41e7
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 11%
+source-wordcount: '325'
+ht-degree: 1%
 
 ---
 
@@ -14,9 +13,9 @@ ht-degree: 11%
 
 この記事では、Adobe Experience Manager Guides as a Cloud Serviceの2026.03.0 リリースのアップグレード手順と互換性マトリックスについて説明します。
 
-新機能と機能強化について詳しくは、[&#x200B; 2026.03.0リリースの新機能](whats-new-2026-03-0.md)を参照してください。
+新機能と機能強化について詳しくは、[2026.03.0 リリース ](whats-new-2026-03-0.md)の新機能を参照してください。
 
-このリリースで修正された問題の一覧については、[2026.03.0リリースで修正された問題](fixed-issues-2026-03-0.md)を参照してください。
+このリリースで修正された問題のリストについては、[2026.03.0 リリース ](fixed-issues-2026-03-0.md)で修正された問題を参照してください。
 
 ## 互換性マトリックス
 

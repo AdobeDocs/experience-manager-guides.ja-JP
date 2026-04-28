@@ -2,11 +2,10 @@
 title: リリースノート | Adobe Experience Manager Guides（2026.03.0 リリース）で修正された問題
 description: Adobe Experience Manager Guides as a Cloud Service 2026.03.0 リリースのバグ修正について説明します。
 exl-id: 6eca85f5-d7d3-4486-8b32-8af3a6cce4ee
-hidefromtoc: true
-source-git-commit: 22ea3fe3ccb974fe3795299f7815e7aae78d41e7
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
 source-wordcount: '816'
-ht-degree: 3%
+ht-degree: 0%
 
 ---
 
@@ -14,9 +13,9 @@ ht-degree: 3%
 
 この記事では、Adobe Experience Manager Guides as a Cloud Serviceの2026.03.0 リリースの様々な領域で修正されたバグについて説明します。
 
-新機能と機能強化について詳しくは、[&#x200B; 2026.03.0リリースの新機能](whats-new-2026-03-0.md)を参照してください。
+新機能と機能強化について詳しくは、[2026.03.0 リリース ](whats-new-2026-03-0.md)の新機能を参照してください。
 
-2026.03.0 リリース [の](upgrade-instructions-2026-03-0.md) アップグレード手順について説明します。
+2026.03.0 リリース ](upgrade-instructions-2026-03-0.md)の[ アップグレード手順について説明します。
 
 ## オーサリング
 
@@ -29,7 +28,7 @@ ht-degree: 3%
 - マップに対してAEM サイト出力（複合コンポーネントマッピングを使用）を生成すると失敗し、出力パスに`map_title`変数が存在する場合にエラーが発生します。 （GUIDES-36968）
 - ネイティブPDF出力プリセットで末尾にスラッシュが付いた出力パスが指定されると、UIは末尾にスラッシュを自動的に追加します。これにより、一部のシナリオでPDFのアップロードが失敗する原因となるダブルスラッシュパスが作成されます。 （GUIDES-34932）
 - クイック公開または公開管理を介してDITA コンテンツから生成されたAEM Sites ページを公開すると、関連するDITA アセットが意図せず公開されます。 （GUIDES-27967）
-- （従来のコンポーネントマッピングを使用して）AEM Sitesにマップを公開する場合、別のマップ内のトピック（段落など）のサブエレメントをターゲットとする`xrefs`との相互参照（`scope = peer`）は、特定のエレメント IDに解決されず、代わりに親トピックにのみ解決され、目的のセクションにスクロールするのではなく、トピックの開始時にページが読み込まれます。 （GUIDES-21802）
+- （従来のコンポーネントマッピングを使用して）AEM Sitesにマップを公開する場合、別のマップ内のトピック（段落など）のサブエレメントをターゲットとする`scope = peer`との相互参照（`xrefs`）は、特定のエレメント IDに解決されず、代わりに親トピックにのみ解決され、目的のセクションにスクロールするのではなく、トピックの開始時にページが読み込まれます。 （GUIDES-21802）
 
 
 ## 翻訳

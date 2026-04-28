@@ -5,10 +5,9 @@ exl-id: 3dd7752e-0836-480a-b1e1-6fa2099d404f
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
@@ -49,4 +48,4 @@ Web エディターでは、特殊文字をすぐに挿入できます。 ただ
   カテゴリ内で複数の特殊文字の定義を定義できます。
 
 
-**親トピック：**&#x200B;[&#x200B; Web エディターのカスタマイズ &#x200B;](conf-web-editor.md)
+**親トピック：**[ Web エディターのカスタマイズ ](conf-web-editor.md)

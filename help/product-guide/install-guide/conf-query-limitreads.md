@@ -5,10 +5,9 @@ exl-id: f6010cc3-5fec-4ec7-adf7-5ad3c9bd8879
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '98'
 ht-degree: 2%
 
 ---
@@ -34,4 +33,4 @@ ht-degree: 2%
 
 この属性値を増やすと、より大きなDITA マップのレポートを生成するのに役立ちます。
 
-**親トピック：**&#x200B;[&#x200B; Web エディターのカスタマイズ &#x200B;](conf-web-editor.md)
+**親トピック：**[ Web エディターのカスタマイズ ](conf-web-editor.md)
