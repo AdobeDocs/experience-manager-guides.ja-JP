@@ -1,13 +1,13 @@
 ---
 title: 翻訳ステータスの表示
-description: AEM Guidesの DITA マップで、各トピックの翻訳ステータスと翻訳済み言語コピーを表示する方法を説明します。
+description: AEM GuidesでDITA マップ内の各トピックの翻訳ステータスと翻訳済み言語コピーを表示する方法について説明します。
 feature: Translation
 role: User
 hide: true
 exl-id: 261c24f2-be9e-4a6b-9b1f-0850d960d49e
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
@@ -16,14 +16,14 @@ ht-degree: 0%
 
 DITA マップ内の各トピックの翻訳ステータスと翻訳済み言語コピーを表示できます。
 
-DITA マップの翻訳ステータスを表示するには、以下の手順を実行します。
+DITA マップの翻訳ステータスを表示するには、次の手順を実行します。
 
-1. ソース言語コピーの DITA マップファイルに移動します。
+1. ソース言語コピーのDITA マップファイルに移動します。
 1. 「**翻訳**」タブをクリックします。
-1. 左側の **フィルター** パネルで、ステータスを確認する **翻訳言語** を選択し、「**完了**」をクリックします。
+1. 左側の&#x200B;**フィルター** パネルで、ステータスを確認する&#x200B;**言語の翻訳**&#x200B;を選択し、**完了**&#x200B;をクリックします。
 
    >[!NOTE]
    >
-   > さらに、翻訳ステータス \（Out of Sync Missing Copy、In Progress、または In sync\）、Sourceタイプ \（as All、DITA、DITA map、または Resource\）、変更日に基づいてコンテンツをフィルタリングできます。 キーワードを入力して、特定のトピックを検索することもできます。
+   > さらに、翻訳ステータス \（Out of Sync Missing Copy、In Progress、In sync\）、Source Type \（as All、DITA、DITA マップ、またはResource\）、変更日に基づいて、コンテンツをフィルタリングできます。 キーワードを入力して、特定のトピックを検索することもできます。
 
-**親トピック：**&#x200B;[&#x200B; コンテンツを翻訳 &#x200B;](translation.md)
+**親トピック：**&#x200B;[&#x200B; コンテンツを翻訳](translation.md)

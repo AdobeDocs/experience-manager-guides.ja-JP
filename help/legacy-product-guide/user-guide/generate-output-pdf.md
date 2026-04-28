@@ -1,71 +1,71 @@
 ---
 title: PDF の生成
-description: Web エディターとマップダッシュボードからPDF プリセットを作成する方法を説明します。 AEM GuidesでPDF出力プリセットを設定します。
+description: Web エディターとマップダッシュボードからPDF プリセットを作成する方法について説明します。 AEM GuidesでPDF出力プリセットを設定します。
 feature: Publishing
 role: User
 hide: true
 exl-id: fae55104-fef6-4994-911a-139598332b96
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1060'
 ht-degree: 1%
 
 ---
 
 # PDF {#id205BE600HAH}
 
-PDF プリセットは、次の 2 つの方法で作成できます。
+PDF プリセットは、次の2つの方法で作成できます。
 
-**Web エディタから：** リポジトリパネルのマップビューで DITA マップファイルを開き、「出力」タブで「+」アイコンをクリックして出力プリセットを作成します。次に、「プリセットを追加」ダイアログの「タイプ」ドロップダウンから「PDF」を選択します。
+**Web エディターから：** リポジトリーパネルで、マップビューでDITA マップファイルを開き、「出力」タブで「+」アイコンを選択して出力プリセットを作成し、プリセットを追加ダイアログの種類ドロップダウンから「PDF」を選択します。
 
 >[!NOTE]
 >
-> DITA-OT、Native PDF、または FMPS \（システム管理者が設定している場合は\）を使用してPDFを生成する方法を選択できます。
+> DITA-OT、Native PDF、またはFMPS \（システム管理者が設定している場合）を使用してPDFを生成する方法を選択できます。
 
-Web エディターでは、設定は「一般」タブと「詳細」タブに整理されています。
+Web エディターでは、「一般」タブと「詳細」タブの下に設定が整理されています。
 
 **一般**
 
-**一般** タブには、次の設定が含まれます。
+「**一般**」タブには、次の設定が含まれています。
 
 - 出力パス
 - DITA-OT コマンドライン引数
 - 変換名
 - PDF ファイル名
-- \（条件がマップに対して定義されている場合\）を使用して条件を適用します
-- ベースラインの使用\（マップのベースラインが作成された場合\）
+- 条件を適用する\（条件がマップに定義されている場合\）
+- ベースラインを使用\（マップにベースラインが作成されている場合\）
 - 生成後のワークフロー
 
 **詳細**
 
-「詳細」タブには、次の設定が含まれています。
+「詳細」タブには、次の設定が含まれます。
 
-- バージョン管理の有効化
-- 一時ファイルを保持
+- バージョン管理を有効にする
+- 一時ファイルの保持
 
-詳しくは、[PDF設定 &#x200B;](#id231KIM004X1) を参照してください。
+詳しくは、[PDF設定](#id231KIM004X1)を参照してください。
 
 **マップダッシュボードから**
 
-PDFの出力プリセットを開くには、Assets UI で DITA マップファイルをクリックし、「出力プリセット」をクリックして、「PDF」オプションをクリックします。 マップダッシュボードで、上部の **編集** をクリックして様々な設定を更新し、**保存** をクリックします。
+PDFの出力プリセットを開くには、Assets UIからDITA マップファイルをクリックし、「出力プリセット」をクリックしてから、「PDF」オプションをクリックします。 マップダッシュボードで、上部の&#x200B;**編集**&#x200B;をクリックして様々な設定を更新し、**保存**&#x200B;をクリックします。
 
-**PDFの設定**
+**PDF設定**
 
-PDF出力には次のオプションを使用できます。
+PDF出力では、次のオプションを使用できます。
 
 | PDFオプション | 説明 |
 | --- | --- |
 | 出力タイプ | 生成する出力のタイプ。 PDF出力を生成するには、「PDF」オプションを選択します。 |
-| 設定名 | 作成するPDF出力設定にわかりやすい名前を付けます。 例えば、_内部顧客出力_ または _エンドユーザー出力_ を指定できます。 |
-| DITA-OT コマンドライン引数 | 出力の生成時に DITA-OT で処理する追加の引数を指定します。 DITA-OT でサポートされるコマンドライン引数の詳細については、[DITA-OT documentation](https://www.dita-ot.org/) を参照してください。 |
-| 次を使用して条件を適用 | 次のいずれかのオプションを選択します。<br><br>* **適用なし**：公開済みの出力に条件を適用しない場合は、このオプションを選択します。<br>* **DITAVal ファイル**：パーソナライズされたコンテンツを生成する DITAVal ファイルを選択します。 参照ダイアログを使用するか、ファイルパスを入力して、複数の DITAVal ファイルを選択できます。 削除するには、ファイル名の近くにある十字のアイコンを使用します。 DITAVal ファイルは指定された順序で評価されるため、最初のファイルで指定された条件は、後のファイルで指定された一致条件よりも優先されます。 ファイルを追加または削除することで、ファイルの順序を維持できます。 DITAVal ファイルが他の場所に移動された場合や削除された場合は、マップ ダッシュボードから自動的には削除されません。 ファイルが移動または削除された場合は、場所を更新する必要があります。 ファイル名の上にマウスポインターを置くと、AEM リポジトリ内でファイルが格納されているパスが表示されます。 DITAVal ファイルのみを選択できます。他のファイル タイプを選択した場合は、エラーが表示されます。 FrameMaker Publishing Serverは複数の DITAVAL ファイルをサポートしていません。<br>* **条件プリセット**：出力の公開中に条件を適用する条件プリセットをドロップダウンから選択します。 このオプションは、DITA マップコンソールの「条件プリセット」タブに存在する条件を追加した場合に表示されます。 条件プリセットについて詳しくは、「[&#x200B; 条件プリセットの使用 &#x200B;](generate-output-use-condition-presets.md#id1825FL004PN)」を参照してください。 |
-| を使用したPDFの生成 | 「DITA-OT」を選択してPDFを生成します。 |
-| 生成後ワークフローを実行 | このオプションを選択すると、新しいポスト生成ワークフローのドロップダウンリストが表示され、AEMで設定されたすべてのワークフローが表示されます。 出力生成ワークフローの完了後に実行するワークフローを選択する必要があります。<br><br>**注意**：カスタムの出力後生成ワークフローの作成について詳しくは、「Adobe Experience Manager Guides as a Cloud Serviceのインストールと設定」の「出力後生成ワークフローをカスタマイズする」を参照してください。 |
-| 変換名 | 生成する出力のタイプを指定します。 これは、DITA-OT プラグインに統合された独自のカスタムプラグインを使用して出力を生成する場合に必要です。 例えば、XHTML 出力を生成する場合は、`xhtml` を指定します。 DITA-OT で使用可能な変換のリストについては、『 OASIS DITA-OT ユーザーガイド』の [DITA-OT 変換（出力形式） &#x200B;](http://www.dita-ot.org/2.3/user-guide/AvailableTransforms.html) を参照してください。 |
-| ファイル名 | PDFを保存するファイル名を指定します。<br><br>PDF ファイル名を設定する際に、変数を使用することもできます。 変数の使用について詳しくは、[&#x200B; 宛先パス、サイト名、ファイル名のオプションを設定するための変数の使用 &#x200B;](generate-output-use-variables.md#id18BUG70K05Z) を参照してください。<br><br>**注**: ファイル名を指定しない場合、DITA マップのタイトルが使用されて最終的なPDFのファイル名が生成されます。 マップにタイトルがない場合は、DITA マップのファイル名が最後のPDFの名前として使用されます。 ファイル名は、無効な文字を処理するためにシステムで設定されたルールを使用してサニタイズされます。 |
-| 宛先のパス | PDFが格納されているAEM リポジトリ内のパス。<br><br> 宛先パスの設定時に変数を使用することもできます。 変数の使用について詳しくは、[&#x200B; 宛先パス、サイト名、ファイル名のオプションを設定するための変数の使用 &#x200B;](generate-output-use-variables.md#id18BUG70K05Z) を参照してください。 |
-| 一時ファイルを保持 | このオプションを選択すると、DITA-OT によって生成された一時ファイルが保持されます。 DITA-OT 経由で出力を生成するときにエラーが発生した場合は、このオプションを選択して一時ファイルを保持します。 その後、これらのファイルを使用して、出力生成エラーのトラブルシューティングを行うことができます。<br> <br> 出力を生成したら、「**一時ファイルをダウンロード**![&#x200B; 一時ファイルをダウンロード」アイコン &#x200B;](images/download-temp-files-icon.png) アイコンを選択して、一時ファイルを含む ZIP フォルダーをダウンロードします。<br><br> **メモ**：生成中にファイルプロパティが追加された場合、出力一時ファイルには、それらのプロパティを含む *metadata.xml* ファイルも含まれます。 |
-| ベースラインの使用 | 選択した DITA マップにベースラインを作成した場合、このオプションを選択して、公開するバージョンを指定します。<br><br> 詳しくは、「[&#x200B; ベースラインの操作 &#x200B;](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) を参照してください。 |
-| ファイルのプロパティ | メタデータとして処理するプロパティを選択します。 これらのプロパティは、DITA マップまたはブックマップファイルの「プロパティ」 ページから設定されます。 ドロップダウンリストから選択したプロパティが **ファイルプロパティ** フィールドの下に表示されます。 プロパティを削除するには、プロパティの横にある十字アイコンを選択します。 <br><br> 注：DITA-OT 発行を使用して、出力にメタデータを渡すこともできます。 詳しくは、[DITA-OT を使用してメタデータを出力に渡す &#x200B;](pass-metadata-dita-ot.md#id21BJ00QD0XA) を参照してください。 |
+| 設定名 | 作成するPDF出力設定にわかりやすい名前を付けます。 例えば、_社内ユーザー出力_&#x200B;または&#x200B;_エンドユーザー出力_&#x200B;を指定できます。 |
+| DITA-OT コマンドライン引数 | 出力の生成時にDITA-OTで処理する追加の引数を指定します。 DITA-OTでサポートされているコマンドライン引数について詳しくは、[DITA-OT ドキュメント &#x200B;](https://www.dita-ot.org/)を参照してください。 |
+| を使用した条件の適用 | 次のいずれかのオプションを選択します。<br><br>* **適用なし**：公開された出力に条件を適用しない場合は、このオプションを選択します。<br>* **DITAVal ファイル**：パーソナライズされたコンテンツを生成するには、DITAVal ファイルを選択します。 参照ダイアログまたはファイルパスを入力して、複数のDITAVal ファイルを選択できます。 ファイル名の近くにある十字アイコンを使用して削除します。 DITAVal ファイルは指定された順序で評価されるので、最初のファイルで指定された条件は、後のファイルで指定された一致する条件よりも優先されます。 ファイルを追加または削除することで、ファイルの順序を維持できます。 DITAVal ファイルが別の場所に移動されたり、削除されたりした場合、マップダッシュボードから自動的に削除されることはありません。 ファイルが移動または削除された場合は、場所を更新する必要があります。 ファイル名にカーソルを合わせると、ファイルが保存されているAEM リポジトリ内のパスを確認できます。 DITAVal ファイルのみを選択でき、他のファイルタイプを選択した場合はエラーが表示されます。 FrameMaker Publishing Serverでは、複数のDITAVAL ファイルはサポートされていません。<br>* **条件プリセット**：出力の公開中に条件を適用するには、ドロップダウンから条件プリセットを選択します。 このオプションは、DITA マップコンソールの「条件プリセット」タブに条件を追加した場合に表示されます。 条件プリセットについて詳しくは、[条件プリセットの使用](generate-output-use-condition-presets.md#id1825FL004PN)を参照してください。 |
+| 次を使用したPDFの生成 | DITA-OTを選択して、PDFを生成します。 |
+| 生成後のワークフローの実行 | このオプションを選択すると、AEMで設定されたすべてのワークフローを含む新しいポストジェネレーションワークフローのドロップダウンリストが表示されます。 出力生成ワークフローの完了後に実行するワークフローを選択する必要があります。<br><br>**注**: カスタム出力後生成ワークフローの作成について詳しくは、「Adobe Experience Manager Guides as a Cloud Serviceのインストールと設定」の「出力後生成ワークフローのカスタマイズ」を参照してください。 |
+| 変換名 | 生成する出力のタイプを指定します。 This is required if you want to generate output using your own custom plug-in, which is integrated in the DITA-OT plug-in. For example, if you want to generate XHTML output, specify `xhtml`. For a list of transformations available in DITA-OT, see [DITA-OT transformations (output formats)](http://www.dita-ot.org/2.3/user-guide/AvailableTransforms.html) in OASIS DITA-OT User Guide. |
+| ファイル名 | Specify the file name with which you want to save the PDF.<br><br>You can also use variables while setting the PDF File Name. For more details about using variables, see [Use variables for setting the Destination Path, Site Name, or File Name options](generate-output-use-variables.md#id18BUG70K05Z).<br><br>**Note**: If you do not provide a file name, then the DITA map&#39;s title is used to generate the final PDF&#39;s file name. If the map does not have a title, then the DITA map&#39;s file name is used to name is the final PDF. The file name is sanitized using the rules configured in the system to handle any invalid character. |
+| 宛先のパス | The path within your AEM repository where the PDF is stored.<br><br>You can also use variables while setting the Destination Path. For more details about using variables, see [Use variables for setting the Destination Path, Site Name, or File Name options](generate-output-use-variables.md#id18BUG70K05Z). |
+| 一時ファイルの保持 | Select this option to retain the temporary files generated by DITA-OT. If you are experiencing errors while generating output through DITA-OT, select this option to retain the temporary files. You can then use those files to troubleshoot output generation errors.<br> <br>  After generating the output, select the **Download temporary files** ![download temporary files icon](images/download-temp-files-icon.png) icon to download the ZIP folder containing the temporary files. <br><br> **Note**:  If file properties are added during generation, the output temporary files also include a *metadata.xml* file containing those properties. |
+| ベースラインを使用 | If you have created a Baseline for the selected DITA map, select this option to specify the version that you want to publish.<br><br>See [Work with Baseline](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) for more detail. |
+| File Properties | Select the properties that you want to process as metadata. These properties are set from the Properties page of the DITA map or bookmap file. The properties you select from the dropdown list appear under the **File Properties** field. プロパティの横にある十字アイコンを選択して削除します。 <br><br> メモ：DITA-OT パブリッシングを使用して、メタデータを出力に渡すこともできます。 詳しくは、「[DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA)を使用してメタデータを出力に渡す」を参照してください。 |
 
-**親トピック：**&#x200B;[&#x200B; 出力プリセットについて &#x200B;](generate-output-understand-presets.md)
+**親トピック：**&#x200B;[&#x200B;出力プリセットについて](generate-output-understand-presets.md)

@@ -1,79 +1,79 @@
 ---
-title: AEM Guidesの主な機能
-description: AEM Guides、DITA オーサリング、コンテンツ管理、web ベースレビュー、翻訳、ローカリゼーション、マルチチャネルパブリッシング、FrameMakerの統合などの主な機能について説明します。
+title: Key AEM Guides features
+description: Explore the key features in AEM Guides, DITA authoring, content management, web-based review, translation, localization, multichannel publishing, and integration of FrameMaker.
 feature: Introduction
 role: User
 hide: true
 exl-id: b3e17f62-70d0-470e-9e52-73489510c62f
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '985'
 ht-degree: 0%
 
 ---
 
-# AEM Guidesの主な機能 {#id167G9I060SI}
+# Key AEM Guides features {#id167G9I060SI}
 
-**強力な DITA オーサリングとコンテンツ管理**
-モジュール情報の単一ソーシングを通じてオーサリングの生産性を大幅に向上させ、詳細なレベルでの効果的な再利用のために最適化\（モジュール、コンポーネント、単語、グラフィック、マルチメディアおよび翻訳\）。
+**Powerful DITA authoring and content management**
+Significantly improve authoring productivity through single-sourcing of modular information optimized for effective reuse at a granular level \(modules, components, words, graphics, multimedia, and translations\).
 
-組み込みの Web ベースのエディタを使用すると、DITA トピック、マップ、および DITAVAL ファイルを簡単に作成し、効果的に管理できます。 組み込みエディターはシンプルで直感的なワードプロセッシングインターフェイスを備えており、DITA を使用する訓練を受けていない可能性のある分野の専門家、カジュアルなコントリビューター、レビュアーに簡単に入力できます。 インテリジェントなエレメント挿入機能により、エレメントを正しい位置に配置する必要がなくなります。 要素は、常に次に使用可能な有効な場所に挿入されます。
+The built-in web-based editor helps you easily author and effectively manage DITA topics, maps, and DITAVAL files. The built-in editor has a simple and intuitive word-processing interface, which provides an easy entry for subject matter experts, casual contributors, and reviewers who might not be trained to use DITA. With the intelligent Insert Element functionality, you don&#39;t have to worry about placing an element at the correct location. An element is always inserted at the next available valid location.
 
-また、AEM ツールバーおよび web エディターで使用できる新しいオプションからファイルをチェックアウトおよびチェックインすることもできます。
+You can also check-out and check-in files from the new options made available in AEM toolbar and web editor.
 
-組織が特殊な形式の DITA を使用している場合、Web エディタをカスタマイズして特殊な DITA 文書を作成および編集できます。 DITA 特殊化の使用方法について詳しくは、「Adobe Experience Manager Guides as a Cloud Serviceのインストールと設定」の *カスタム DITA-OT および DITA 特殊化の使用* を参照してください。
+If your organization uses a specialized form of DITA, the web editor can be customized to create and edit specialized DITA documents. For more details about using DITA specialization, see *Use custom DITA-OT and DITA specialization* in Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
-現在、組み込みエディタは次の DITA 標準をサポートしています。
+Currently, the built-in editor supports the following DITA standards:
 
 * DITA 1.2
 * DITA 1.3
-* 軽量 DITA
+* Lightweight DITA
 
 
 >[!NOTE]
 >
-> 軽量 DITA はまだ提案中で、まだ DITA 標準にはなっていません。
+> Lightweight DITA is still under the proposal state and has not yet become a DITA standard.
 
-**Web ベースのレビューによる次世代型のコラボレーション**
-強力な web ベースの複合レビューワークフローを使用して、複数の作成者と複数のレビュー担当者が分散しているチームのスムーズな共同作業を可能にし、プロセスでの手動エラーの範囲を最小限に抑えます。
+**Next-gen collaboration through web-based review**
+Ensure that multi-author, multi-reviewer distributed teams collaborate smoothly through powerful web-based composite review workflow, minimizing the scope of manual errors in the process.
 
-AEM Guidesは、強力で使いやすい web ベースのレビュー機能を提供します。 レビュー用に複数の DITA トピックを同時に送信できます。 レビュー機能を使用すると、ドキュメントコンテンツを効率的にレビューできます。 作成者とレビュー担当者は、進行中のレビュー中に変更に関して簡単に共同作業を行うことができます。 レビュー担当者は、以前のバージョンとの違いを監視することで、フィードバックが正しく組み込まれているかどうかを識別できます。 管理者は、機能豊富な管理ダッシュボードを使用して、レビュータスク履歴を追跡できます。
+AEM Guides provides powerful yet easy-to-use web-based review capabilities. You can send multiple DITA topics for review simultaneously. The reviewing capability helps ensure that the document content is reviewed efficiently. Authors and reviewers can effortlessly collaborate on changes during ongoing reviews. レビュー担当者は、以前のバージョンとの違いを監視することで、フィードバックが正しく組み込まれているかどうかを特定できます。 管理者は、豊富な機能を備えた管理ダッシュボードを使用して、レビュータスクの履歴を追跡できます。
 
-DAM 内のすべてのドキュメントが、ドキュメントステータスを取得するようになりました。 ドキュメントのステータスは、ドキュメントがドキュメントプロセスのどの状態にあるかを特定するのに役立ちます。 システムの管理者は、ドキュメントの状態、デフォルトの開始状態と終了状態、およびドキュメントの状態の遷移を定義できます。
+DAM内のあらゆるドキュメントにドキュメントステータスが付与されます。 このドキュメントのステータスは、ドキュメントプロセス内の状態を特定するのに役立ちます。 システムの管理者は、ドキュメントの状態、デフォルトの開始状態と終了状態、ドキュメントの状態遷移を定義できます。
 
-**業界をリードする翻訳管理およびローカリゼーションのサポート**
-翻訳にかかる時間とコストを大幅に削減し、公開済みのコンテンツに翻訳エラーが発生しないようにします。
+**業界をリードする翻訳管理とローカライゼーションサポート**
+翻訳にかかる時間とコストを大幅に削減し、公開されたコンテンツに翻訳エラーがないことを確認します。
 
-Adobe Experience Managerには、主要な翻訳プロバイダー向けのビルトインコネクタが付属しています。 これらのコネクタを活用して、ロケール固有のコンテンツを管理します。 詳細な標準提供の翻訳レポートを最大限に活用して、公開前に未翻訳のコンテンツを特定し、適切な修正を行います。 マスター言語の更新に関する翻訳済みコンテンツのステータスを管理して、更新された DITA ファイルに対してのみ翻訳を実行できます。 翻訳用に送信するファイルを手動で識別する必要がなく、時間がかかる。
+Adobe Experience Managerには、主要な翻訳プロバイダー向けのコネクターが組み込まれています。 これらのコネクタを活用して、ロケール固有のコンテンツを管理します。 すぐに利用できる詳細な翻訳レポートを活用して、未翻訳のコンテンツを特定してから公開し、適切な修正措置を講じることができます。 マスター言語の更新に関する翻訳コンテンツのステータスを管理して、更新されたDITA ファイルに対してのみ翻訳を実行できます。 翻訳用に送信するファイルを手動で識別する必要がなく、時間がかかります。
 
-**DITA コンテンツのクラス最高のマルチチャネルパブリッシング**
-市場投入までの時間を短縮するシームレスなワンタッチアプローチにより、エンタープライズコンテンツのパブリッシングを効率化します。
+**DITA コンテンツのクラス最高のマルチチャネル公開機能**
+シームレスなワンタッチアプローチで企業コンテンツの公開を合理化し、市場投入までの時間を短縮できます。
 
-Experience Managerに追加されたネイティブ DITA サポートを使用して、DITA-OT からExperience Manager Sites、PDF、HTML5、EPUBS、またはカスタム出力の出力を生成します。 完全に設定可能な出力を活用して、エンドユーザーに対して高度にパーソナライズされた、関連性の高い、没入感のあるコンテンツエクスペリエンスを提供できます。 また、バッチ生成を簡単に実行したり、ベースラインを使用してドキュメントの特定のバージョンを公開したりすることもできます。
+Experience Managerにネイティブ DITA サポートが追加された場合、Experience Manager Sites、PDF、HTML5、EPUBS、またはDITA-OTを介したカスタム出力の出力を生成します。 詳細に設定できるアウトプットを活用して、詳細にパーソナライズされた、適切かつ没入感のあるコンテンツエクスペリエンスをエンドユーザーに提供できます。 バッチ生成を簡単に実行したり、ベースラインを使用して特定のバージョンのドキュメントを公開したりすることもできます。
 
-**包括的な検索およびコンテンツ使用状況データ**
-関連するコンテンツをすばやく見つけて選択し、再利用するたびにコンテンツの ROI を最大化します。 DITA オーサリングツール内のシンプルなインタフェースを使用して、リポジトリ全体でコンテンツ属性とトピックメタデータを使用した基本検索とアドバンス検索を実行します。 結果にはコンテンツ使用状況データがタグ付けされるので、最適な再利用のために適切なコンテンツを簡単に識別して選択できます。
+**包括的な検索およびコンテンツ使用データ**
+適切なコンテンツをより迅速に検索して選択し、再利用するたびにコンテンツのROIを最大化。 DITA オーサリングツール内のシンプルなインターフェイスを通じて、リポジトリ全体でコンテンツ属性とトピックメタデータを使用して、基本的かつ高度な検索を実行できます。 結果にコンテンツ使用データのタグ付けをおこなうことで、適切なコンテンツを簡単に特定し、最適に再利用できます。
 
-**公開の準備レポートの詳細**
-公開前にコンテンツを簡単に確認および修正できるので、公開がエラーなしで行えます。 DITA マップレベルで各種レポートに簡単にアクセスして、システムの健全性を常に監視します。 すべてのトピックの欠落しているトピックの数、リンク切れまたは参照の数、レビューのステータスおよび翻訳を確認できます。 また、レポートを使用して、公開前の最終段階で包括的な健全性チェックを実行することもできます。
+**詳細な公開準備状況レポート**
+本番稼働前にコンテンツを簡単に確認および修正することで、公開する際にエラーが発生しないようにします。 DITA マップレベルでさまざまなレポートに簡単にアクセスできるため、システムの健全性を常に監視できます。 すべてのトピックについて、不足しているトピックの数、壊れているリンクまたは参照の数、レビューのステータス、翻訳を確認できます。 また、レポートを使用して、公開前の最終段階で包括的なサニティーチェックを実行することもできます。
 
-**パーソナライズされた出力を実現する広範なタグ管理のサポート**\
-関連性の高いコンテンツエクスペリエンスを通じて、エンドユーザーのエンゲージメントとコンテンツの採用を深めます。 AEM Guidesを使用すると、Experience Managerの広範なタグ管理サポートを活用して、DITA ソースコンテンツに関連するタグを適用できます。 これらのタグを使用して、エンドユーザーに高度にパーソナライズされたコンテンツエクスペリエンスを提供します。
+**パーソナライズされた出力に対する広範なタグ管理のサポート**\
+関連性の高いコンテンツ体験を通じて、エンドユーザーのエンゲージメントとコンテンツの導入を促進します。 AEM Guidesでは、Experience Managerの広範なタグ管理サポートを活用して、DITA ソースコンテンツに関連するタグを適用できます。 これらのタグを使用して、エンドユーザーに高度にパーソナライズされたコンテンツ体験を提供します。
 
 **Adobe FrameMakerとのネイティブ統合**
-Experience ManagerおよびFrameMaker（2015 リリース） Update 4 以降を使用しながら、迅速かつシームレスなエクスペリエンスを実現します。
+Experience ManagerおよびFrameMaker（2015 リリース）アップデート 4以降を使用している場合は、迅速かつシームレスな操作が可能です。
 
-組み込みコネクタを介したExperience ManagerとFrameMakerの緊密な統合により、Experience Manager コンテンツリポジトリとシームレスに連携できます。 コネクタを活用すると、DITA コンテンツのオーサリング、レビュー、検索をすばやく開始できます。
+コネクターを通じてExperience ManagerとFrameMakerを緊密に連携させることで、Experience Manager コンテンツリポジトリーとシームレスに連携することができます。 コネクターを使用すると、DITA コンテンツのオーサリング、レビュー、検索をすばやく開始できます。
 
-FrameMakerのAEM コネクタを使用すると、FrameMaker ファイルを管理できます。 AEM コネクタを使用すると、DITA および他のFrameMaker文書（.book と.fm）をAEMに簡単にアップロードできます。 AEM Guidesでは、AEMから直接FrameMaker ドキュメントを公開することもできます。 FrameMaker ブックファイルに DITA ファイルと.fm ファイルの組み合わせが含まれている場合は、AEM Guidesでも同じように文書を発行できます。 現在、FrameMakerの.book ファイルと.fm ファイルは、PDF、HTML5、EPUBの各形式で公開できます。
+FrameMakerのAEM コネクタを使用すると、FrameMaker ファイルを管理できます。 AEM コネクタを使用すると、DITAおよびその他のFrameMaker ドキュメント（.bookおよび.fm）をAEMに簡単にアップロードできます。 AEM Guidesでは、AEMから直接FrameMaker ドキュメントを公開することもできます。 FrameMaker ブックファイルにDITA ファイルと.fm ファイルの組み合わせが含まれている場合は、AEM Guidesでも同様にドキュメントを公開できます。 現在は、PDFook ファイルと.fm ファイルをPDF、HTML5、およびEPUB形式に公開できます。
 
 ## その他のリソース
 
-次に、AEM Guidesに関するその他の役立つリソースのリストを示します。これらのリソースは、[&#x200B; ラーニングとサポート &#x200B;](https://helpx.adobe.com/jp/support/xml-documentation-for-experience-manager.html) ページで利用できます。
+以下は、[&#x200B; ラーニングとサポート &#x200B;](https://helpx.adobe.com/jp/support/xml-documentation-for-experience-manager.html) ページで入手できるAEM Guidesのその他の役立つリソースの一覧です。
 
 * ユーザーガイド
 * API リファレンスガイド
 * クイックスタートガイド
 * [&#x200B; ヘルプ* アーカイブページ &#x200B;](https://helpx.adobe.com/jp/xml-documentation-for-experience-manager/archive.html) （古いリリースドキュメントにアクセス）
 
-**親トピック：**&#x200B;[&#x200B; Adobe Experience Manager Guides as a Cloud Serviceについて &#x200B;](../user-guide/intro.md)
+**親トピック：**&#x200B;[&#x200B; Adobe Experience Manager Guides as a Cloud Serviceについて](../user-guide/intro.md)

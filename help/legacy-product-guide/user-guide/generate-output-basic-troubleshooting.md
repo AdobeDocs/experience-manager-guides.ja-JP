@@ -5,7 +5,7 @@ feature: Publishing, Troubleshooting
 role: User
 hide: true
 exl-id: f85fee0f-30d1-453f-8700-781e0be8f616
-source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%
@@ -14,82 +14,82 @@ ht-degree: 0%
 
 # 基本的なトラブルシューティング {#id1821I0Y0G0A}
 
-AEM Guidesの操作中に、ドキュメントを公開または開く際にエラーが発生する場合があります。 このようなエラーは、DITA マップ、トピック、またはAEM Guides プロセス自体に発生する可能性があります。 この節では、出力生成ログファイルの情報にアクセスして解析する方法について説明します。 また、DITA トピックが大きすぎる場合は、JSP コンパイルエラーが発生することがあります。 この節では、JSP コンパイルエラーの解決方法についても説明します。
+AEM Guidesの操作中に、ドキュメントを公開または開く際にエラーが発生する可能性があります。 このようなエラーは、DITA マップ、トピック、またはAEM Guides プロセス自体で発生する可能性があります。 この節では、出力生成ログファイルの情報にアクセスして解析する方法について説明します。 また、DITA トピックが大きすぎる場合は、JSP コンパイルエラーが発生する可能性があります。 この節では、JSP コンパイルエラーの解決方法についても説明します。
 
 ## ログファイルの表示と確認 {#id1822G0P0CHS}
 
-次の手順を実行して、出力生成ログファイルを表示して確認します。
+出力生成ログファイルを表示して確認するには、次の手順を実行します。
 
-1. 出力生成プロセスを開始したら、DITA マップコンソールで **出力** をクリックします。
+1. 出力生成プロセスを開始したら、DITA マップコンソールで「**出力**」をクリックします。
 
-   **生成された出力** の **一般** 列には、出力生成の成功または失敗に関するキューを視覚的に提供するアイコンが表示されます。
+   **生成出力**&#x200B;の&#x200B;**General**&#x200B;列には、出力生成の成功または失敗に関する視覚的なヒントを与えるアイコンが表示されます。
 
    ![](images/output-general-settings.png){width="300" align="left"}
 
-   上のスクリーンショットでは、最初と 3 番目のアイコンが失敗した出力の生成を示しています。 2 つ目のアイコンは、正常な出力生成を示していますが、メッセージも含まれています。 最後の 1 つは、メッセージを含まない正常な出力生成です。
+   上記のスクリーンショットでは、1番目と3番目のアイコンに出力の生成に失敗したことが表示されています。 2番目のアイコンは、出力の生成に成功したが、メッセージが表示されていることを示します。 最後の1つは、メッセージのない出力生成の成功です。
 
-1. ジョブが完了したら、「**生成日**」列のリンクをクリックします。
+1. ジョブが完了したら、**生成日時**&#x200B;列のリンクをクリックします。
 
    ログファイルが新しいタブで開きます。
 
    ![](images/log-file.png){width="800" align="left"}
 
-1. 次のフィルターを適用して、ログファイル内のテキストをハイライト表示します。
-   - Fatal: ログファイル内の致命的なエラーをピンク色でハイライトします。
-   - エラー：ログファイル内のエラーをオレンジ色でハイライトします。
-   - 警告：ログファイル内の警告を紫色でハイライト表示します。
-   - 情報：ログファイル内の情報メッセージを青色でハイライトします。
-   - 例外：ログファイル内の例外を黄色でハイライトします。
-1. 上下のナビゲーションボタンを使用して、ログファイル内のハイライトされたテキストにジャンプします。
+1. 次のフィルターを適用して、ログファイル内のテキストを強調表示します。
+   - 致命的：ログファイルの致命的なエラーをピンク色で強調表示します。
+   - エラー：ログファイルのエラーをオレンジ色でハイライト表示します。
+   - 警告：ログファイルの警告を紫色でハイライト表示します。
+   - 情報：ログファイル内の情報メッセージを青色でハイライト表示します。
+   - 例外：ログファイル内の例外を黄色でハイライト表示します。
+1. 上下のナビゲーションボタンを使用して、ログファイル内のハイライト表示されたテキストにジャンプします。
 
-   または、ログファイルをスクロールしてメッセージを確認します。
+   Alternatively, scroll through the log file and check the messages.
 
 
-## テキストエディターでログファイルをコピーして確認する
+## Copy and check the log file in a text editor
 
-次の手順を実行して、テキストエディターで出力生成ログファイルをコピーして確認します。
+Perform the following steps to copy and check the output generation log file in a text editor:
 
-1. 出力生成プロセスを開始したら、DITA マップコンソールで **出力** をクリックします。
+1. 出力生成プロセスを開始したら、DITA マップコンソールで「**出力**」をクリックします。
 
-1. ジョブが完了したら、「**生成日**」列のリンクをクリックします。
+1. ジョブが完了したら、**生成日時**&#x200B;列のリンクをクリックします。
 
    ログファイルが新しいタブで開きます。
 
-1. 「**ログをコピー**」ボタンをクリックします。 ログファイルがクリップボードにコピーされます。
-1. テキストエディターを開き、ログファイルをエディターに貼り付けます。
+1. Click **Copy Log** button. The log file is copied to the clipboard.
+1. Open a text editor and paste the log file in the editor.
 
-1. ログファイルをスクロールして、メッセージを確認します。
+1. Scroll through the log file and check for messages.
 
-   次の情報は、DITA ファイルまたはAEM Guides プロセスでエラーが発生したかどうかを判断する際に役立ちます。
+   The following information will help you determine whether there is an error in the DITA file or AEM Guides process:
 
-   - *DITA マップファイル関連エラー*: DITA マップファイルまたは DITA マップに含まれるその他のファイルにエラーが見つかった場合、ログファイルには「BUILD FAILED」という文字列が含まれます。 ログファイルに記録される情報を確認することで、エラーのあるファイルを特定し、問題を修正することができます。
+   - *DITA map file related error*: In case there is an error found in the DITA map file or any other file contained in the DITA map, the log file will contain a string, &quot;BUILD FAILED&quot;. You can check the information given in the log file to locate the erroneous file and fix the issue.
 
-   次のサンプルログファイルスニペットでは、`BUILD FAILED` メッセージとエラーの理由を確認できます。
+   In the following sample log file snippet, you can see the `BUILD FAILED` message along with the reason for the error.
 
    ![](images/dita-error-in-log-file.png){width="650" align="left"}
 
-   - *AEM Guides関連のエラー*: ログファイルで特定できるその他のタイプのエラーは、AEM Guides プロセス自体に関連しています。 この場合、DITA マップファイルは正常に解析されますが、AEM Guidesの内部エラーが原因で出力生成プロセスが失敗します。 このようなエラーが発生した場合は、テクニカルサポートチームにサポートを求める必要があります。
+   - *AEM Guides-related error*: The other type of error that you can identify in the log file is related to AEM Guides process itself. In this case, the DITA map file is parsed successfully, but the output generation process fails because of some internal error in AEM Guides. For such kind of errors, you have to seek help from the technical support team.
 
-   次のサンプルログファイルスニペットでは、`BUILD SUCCESSFUL` メッセージが表示され、その他の技術的なエラーが表示されています。
+   In the following sample log file snippet, you can see the `BUILD SUCCESSFUL` message, followed by other technical error.
 
    ![](images/process-error-in-log-file.png){width="650" align="left"}
 
 
-## JSP コンパイルエラーを解決
+## Resolve JSP compilation error
 
-DITA トピックが大きすぎる場合は、JSP コンパイルエラー\（`org.apache.sling.api.request.TooManyCallsException`\）がブラウザーに表示されることがあります。 このエラーは、編集、レビュー、または発行のためにトピックを開いたときに表示される場合があります。
+If your DITA topic is too large, then you might see the JSP compilation error \(`org.apache.sling.api.request.TooManyCallsException`\) in your browser. This error might appear when you open a topic for editing, reviewing, or publishing.
 
-この問題を解決するには、次の手順を実行します。
+Perform the following steps to resolve this issue:
 
-1. グローバルナビゲーションから「ツール」を選択し、「操作」 \> 「Web コンソール」を選択します。
+1. From the Global Navigation, select Tools and choose Operations \> Web Console.
 
-   Adobe Experience Manager Web コンソール設定ページが表示されます。
+   The Adobe Experience Manager Web Console Configuration page appears.
 
-1. *Apache Sling Main Servlet* コンポーネントを検索してクリックします。
+1. Search for and click on the *Apache Sling Main Servlet* component.
 
-   Apache Sling Main Servlet の設定可能なオプションが表示されます。
+   Apache Sling Main Servletの設定可能なオプションが表示されます。
 
-1. 必要に応じて、「*リクエストあたりの呼び出し数* パラメーターの値を増やします。
+1. Increase the value for the *Number of Calls per Request* parameter as per your requirements.
 
 
-**親トピック：**&#x200B;[&#x200B; 出力生成 &#x200B;](generate-output.md)
+**親トピック：**&#x200B;[&#x200B;出力生成](generate-output.md)

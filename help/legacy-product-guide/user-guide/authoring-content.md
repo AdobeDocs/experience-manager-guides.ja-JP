@@ -1,27 +1,27 @@
 ---
 title: コンテンツの作成
-description: AEM Guidesでのコンテンツのオーサリング。 ドキュメントのバージョンを作成、プレビュー、編集、保存し、レビュー用に共有する方法について説明します。
+description: Author content in AEM Guides. Learn to create, preview, edit, save the version of your document, and share for reviews.
 feature: Authoring
 role: User
 hide: true
 exl-id: 861b1706-e4d2-488b-b188-a7746eeba082
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '149'
 ht-degree: 2%
 
 ---
 
 # コンテンツの作成 {#id221EAJ0A047}
 
-AEM Guidesは、使いやすいユーザーインターフェイスを使用してコンテンツを作成できるプラットフォームを提供しています。 コンテンツの作成、プレビュー、編集、バージョンの保存を行い、レビュー用に共有できます。
+AEM Guides provides the platform to author content using the easy-to-use user interface. You can create your content, preview it, edit it, save the version, and then share for reviews.
 
-コンテンツをオーサリングするには、組み込みのエディターまたは Easy Desktop ツールを使用します。 組み込みエディタを使用して、構造化文書、DITA マップ、ブックマップファイルを作成および編集できます。 ドキュメントのバージョンを管理し、レビュー用に共有することもできます。
+To author your content you can use the built-in editors or the easy desktop tools. Using the built-in editors, you can create and edit structured documents, DITA maps, and book map files. You can manage the versions of your documents and also share them for reviews.
 
-デスクトップツールを使用してコンテンツを作成することもできます。 これらのツールは、便利なユーザーインターフェイスを使用してドキュメントを編集したり、様々な形式でファイルを公開したりするのに役立ちます。
+You can also use desktop tools to create your content. These tools help you to edit your documents using the convenient user interface and also publish the files in various formats.
 
-- **[トピックの作成とプレビュー](create-preview-topics.md)**
+- **[Create and preview topics](create-preview-topics.md)**
 
-- **[AEM Guidesを使用したコンテンツのオーサリング](authoring-content-xml-doc.md)**
+- **[Author content using AEM Guides](authoring-content-xml-doc.md)**
 
-- **[デスクトップツールを使用したコンテンツのオーサリング](author-desktop-tools.md)**
+- **[Author content using desktop tools](author-desktop-tools.md)**

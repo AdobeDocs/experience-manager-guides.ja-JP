@@ -5,10 +5,10 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: 832dbc5d-85f7-41fd-8f5d-789732b46f80
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1887'
-ht-degree: 0%
+source-wordcount: '1896'
+ht-degree: 1%
 
 ---
 
@@ -46,20 +46,20 @@ AEM Guidesは、Modern Language Association （MLA）、American Psychological A
    web エディターの![引用パネル &#x200B;](images/citation-add.png) {width="300" align="left"}
 
 
-1. **引用を追加** ダイアログボックスのフィールドに入力します。
+1. Fill in the fields in the **Add Citation** dialog box.
 
    >[!NOTE]
    >
-   >ISBN、DOI、PubMed IDを追加することもできます。 AEM Guidesは、その他のフィールドに自動的に入力します。
+   >You can also add the ISBN or DOI or PubMed ID. AEM Guides populates the other fields automatically.
 
    | 書籍 | Web サイト | ジャーナル |
    | --- | ---|---|
-   | **Source** <br> ドロップダウンから、ブックとして引用のソースを選択します。 | **Source**<br> ドロップダウンから、Web サイトとしての引用のソースを選択します。 | **Source** <br> ドロップダウンから、引用のソースをジャーナルとして選択します。 |
-   | **検索方法** <br> ドロップダウンから&#x200B;**ISBN**&#x200B;または&#x200B;**DOI**&#x200B;を選択して、引用にリンクされたデジタル IDを検索します。  <br> DOI: デジタルオブジェクト識別子<br> ISBN：一意の数値書籍識別子 | **検索方法** <br> ドロップダウンから&#x200B;**DOI**&#x200B;を選択して、引用にリンクされたデジタル IDを検索します。 | **検索方法** <br> ドロップダウンから&#x200B;**DOI**&#x200B;またはPubMed IDを選択して、引用にリンクされたデジタル IDを検索します。<br>  <br> |
-   | **作成者** <br>引用の作成者の姓と名を追加します。 ![](images/Add_icon.svg)を選択して、さらに名前を追加します。 | **作成者** <br>引用の作成者の姓と名を追加します。 ![](images/Add_icon.svg)を選択して、さらに名前を追加します。 | **作成者** <br>引用の作成者の姓と名を追加します。 ![](images/Add_icon.svg)を選択して、さらに名前を追加します。 |
-   | **タイトル** <br>本のタイトルを追加します。 | **タイトル** <br> Web ページのタイトルを追加します。 | **タイトル** <br>記事のタイトルを追加します。 |
-   | **編集者** <br>本の編集者を追加します。 | **Web サイト名** <br> Web サイトの名前を追加します。 | **ジャーナルのタイトル** <br>記事が見つかった作品のタイトルを追加します。 |
-   | **エディション** <br>本のエディションを追加します。 | **URL** <br> Web サイトのweb リンクを追加して、コンテンツを参照します。 | **年** <br>記事が公開された年を追加します。 |
+   | **Source** <br> From the drop-down, select the source of the citation as a Book. | **Source**<br> From the drop-down, select the source of the citation as a Website. | **Source** <br> From the drop-down, select the source of the citation as a Journal. |
+   | **Search by** <br> Select **ISBN** or **DOI** from the drop-down to search for the digital ID linked to the citation.  <br> DOI: Digital Object Identifier <br> ISBN: Unique Numeric Book Identifier | **Search by** <br> Select **DOI** from the drop-down to search for the digital ID linked to the citation. | **Search by** <br> Select **DOI** or PubMed ID from the drop-down to search for the digital ID linked to the citation. <br>  <br> |
+   | **Author** <br> Add the first and last name of the author of the citation. Select ![](images/Add_icon.svg) to add more names. | **Author** <br> Add the first and last name of the author of the citation. Select ![](images/Add_icon.svg)  to add more names. | **Author** <br> Add the first and last name of the author of the citation. Select ![](images/Add_icon.svg)to add more names. |
+   | **Title** <br> Add the title of the book. | **Title** <br> Add the title of the web page. | **Title** <br> Add the title of the article. |
+   | **Editor** <br> Add the editor of the book. | **Website Name** <br> Add the name of the website. | **Journal Title** <br> Add the title of the work in which the article is found. |
+   | **Edition** <br> Add the edition of the book. | **URL** <br> Add the web link of the website to browse the content. | **Year** <br> Add the year in which the article is published. |
    | **市区町村** <br>公開の市区町村を追加します。 | **アクセス日**<br> web サイトのコンテンツにアクセスする日付を追加します。 | **Volume** <br> シリーズ内の作業量を追加します。 |
    | **発行者** <br>本の発行者の名前を追加します。 | **公開日** <br> web サイトのコンテンツが公開される日付を追加します。 | **数値** <br>系列のボリュームの数を追加します。 |
    | **年** <br>本が公開された年を追加します。 | **更新日** <br> web サイトのコンテンツが更新される日付を追加します。 | **ページ** <br>記事が見つかったページ番号またはページ範囲を追加します。 |
@@ -136,20 +136,20 @@ AEM Guidesは、Modern Language Association （MLA）、American Psychological A
 | MLA | APA | シカゴ | IEEE | AHA |
 |---|---|---|---|---|
 | 現代言語の関連付けスタイル <br> | アメリカ心理学会スタイル | シカゴ・マニュアル・オブ・スタイル | （社）電気電子技術者協会 | アメリカ心臓協会スタイル |
-| 例：<br> Crawford, Claire, et al. *暗い記憶の感情的な内容*。Edited by Memory, vol 16, 2010, Amsterdam. | 例：<br> Crawford, C., J., &amp; , C. （2010）。 *暗い思い出の感情的な内容* （505-16編）。 10.1080/ 09658210902067289 | 例：<br> Crawford, Claire, et al. *暗い思い出の感情的なコンテンツ*。 505-16 2010年。 | 例：<br> C. Crawford, J.、C.、*暗い記憶の感情的コンテンツ*。 アムステルダム、2010年。 | 例：<br> C. Crawford, J.、C.、*暗い記憶の感情的コンテンツ*。 アムステルダム、2010年。 |
+| 例：<br> Crawford, Claire, et al. *暗い記憶の感情的な内容*。Edited by Memory, vol 16, 2010, Amsterdam. | 例：<br> Crawford, C., J., &amp; , C. (2010). *暗い思い出の感情的な内容* （505-16編）。 10.1080/ 09658210902067289 | 例：<br> Crawford, Claire, et al. *暗い思い出の感情的なコンテンツ*。 505-16, 2010. | 例：<br> C. Crawford, J. 、およびC。 , *暗い記憶の感情的なコンテンツ*. アムステルダム、2010年。 | 例：<br> C. Crawford, J. 、およびC。 , *暗い記憶の感情的なコンテンツ*. アムステルダム、2010年。 |
 
 
 ## 引用の編集
 
 引用を編集するには、次の手順に従います。
 
-1. リストから引用の名前にカーソルを合わせます。 「![](images/options.svg) オプション **」アイコンの「**」を選択します。
+1. リストから引用の名前にカーソルを合わせます。 「**オプション**」アイコンの「![](images/options.svg)」を選択します。
 
 1. **編集**&#x200B;を選択します。
 
 **引用を編集** ダイアログボックスが開きます。
 
-1. 必要な変更を行います。**完了**&#x200B;を選択します。
+1. 必要な変更を行います。 「**完了**」を選択します。
 選択した引用が編集されます。
 
 >[!NOTE]
@@ -207,7 +207,7 @@ AEM Guidesは、Modern Language Association （MLA）、American Psychological A
 1. 左側のパネルで「**引用** ![引用アイコン &#x200B;](images/citations-icon.svg)」アイコンを選択します。
 1. **引用** パネルから引用をドラッグし、トピック内の適切な場所にドロップします。
 
-   **&#x200B;**&#x200B;オプション ![](images/options.svg)から&#x200B;**挿入**&#x200B;を選択して、引用を挿入することもできます。
+   ![](images/options.svg) **オプション**&#x200B;から&#x200B;**挿入**&#x200B;を選択して、引用を挿入することもできます。
 
    ![引用を挿入](images/citation-panel-insert.png)
 1. 複数の引用を選択するには、トピック内の引用を右クリックし、ショートカットメニューから「**引用を変更**」を選択します。
@@ -230,7 +230,7 @@ AEM Guidesは、Modern Language Association （MLA）、American Psychological A
 1. ![](images/options.svg) **オプション** アイコンを選択します。
 1. を選択します   **削除** ![](images/Delete_icon.svg)。
 確認ダイアログボックスが開きます。
-1. **はい**&#x200B;を選択します。
+1. 「**はい**」を選択します。
 選択した引用は、引用パネルから削除されます。
 
 
