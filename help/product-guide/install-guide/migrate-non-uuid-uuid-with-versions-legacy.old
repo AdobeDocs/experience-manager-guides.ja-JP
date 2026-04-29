@@ -70,12 +70,12 @@ Perform the following checks on the non-UUID version (4.1 non-UUID or 4.3.0 non-
     * Estimated time for migration
     * Number of files with errors 
 
-    ![compatibility assessment tab in migration](assets/migration-compatibility-assessment.png){width="800" align="left"}
+    ![compatibility assessment tab in migration](assets/migration-compatibility-assessment.png){width="800"}
 
 
 1. Select **Configure Validations** from the left panel. Then, **Select map** and **Select preset** of the map to configure them. The current output validation list displays the output files present before migration and can be validated against the output files generated post-migration later. 
 
-    ![Configure Validations tab in migration](assets/migration-configure-validation.png){width="800" align="left"}
+    ![Configure Validations tab in migration](assets/migration-configure-validation.png){width="800"}
 
 
 
@@ -110,7 +110,7 @@ Perform the following checks on the non-UUID version (4.1 non-UUID or 4.3.0 non-
 
 1. Launch `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
 
-    ![System upgrade tab in migration](assets/migration-system-upgrade.png){width="800" align="left"}
+    ![System upgrade tab in migration](assets/migration-system-upgrade.png){width="800"}
 
 1. Select **System upgrade** from the left panel to run the migration. Start on a folder with smaller data before running it on `/content/dam`.
 
@@ -127,7 +127,7 @@ Also, it's important to make sure that the content migration is done for all the
 
 Select **Baseline/Review Upgrade** from the left panel to migrate the baselines and review at the folder level.  
 
-![Baseline and review tab in migration](assets/migration-baseline-review-upgrade.png){width="800" align="left"}
+![Baseline and review tab in migration](assets/migration-baseline-review-upgrade.png){width="800"}
 
 
 ### Step 3: Restore the configuration
@@ -145,7 +145,7 @@ After migrating the server successfully, enable post-processing, tagging, and th
 
 1. Once the migration is completed, select **Validate system upgrade** from the left panel and validate the output files before and after the migration to ensure that the migration is successful. 
 
-    ![Validate system upgrade tab in migration](assets/migration-validate-system-upgrade.png){width="800" align="left"}
+    ![Validate system upgrade tab in migration](assets/migration-validate-system-upgrade.png){width="800"}
 
 
 1. After the validation is done, most of the disk space can be reclaimed by running compaction (refer to `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).
