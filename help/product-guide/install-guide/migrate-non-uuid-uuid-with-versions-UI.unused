@@ -44,12 +44,12 @@ If you are using version 4.3.x or later, perform these steps to migrate your non
 
 
 
-![compatibility assessment tab in migration](assets/migration-compatibility-assessment.png){width="800" align="left"}
+![compatibility assessment tab in migration](assets/migration-compatibility-assessment.png){width="800"}
 
 
 1. Select **Configure Validations** from the left panel. Then **Select map** and **Select preset** of the map to configure them. The current output validation list will display the output files present before migration and can be validated against the output files generated post-migration later. 
 
-![Configure Validations tab in migration](assets/migration-configure-validation.png){width="800" align="left"}
+![Configure Validations tab in migration](assets/migration-configure-validation.png){width="800"}
 
 
 
@@ -82,7 +82,7 @@ If you are using version 4.3.x or later, perform these steps to migrate your non
 
 #### Install the migration package
 
-![System upgrade tab in migration](assets/migration-system-upgrade.png){width="800" align="left"}
+![System upgrade tab in migration](assets/migration-system-upgrade.png){width="800"}
 
 * Select **System upgrade** from the left panel to run the migration. Start on a folder with smaller data before running it on `/content/dam`.
 
@@ -99,7 +99,7 @@ Additionally, it's important to make sure that the content migration is also don
 
 Select **Baseline/Review Upgrade** from the left panel to migrate the baselines and review at folder level.  
 
-![Baseline and review tab in migration](assets/migration-baseline-review-upgrade.png){width="800" align="left"}
+![Baseline and review tab in migration](assets/migration-baseline-review-upgrade.png){width="800"}
 
 
 ### Step 3: Restore the configuration
@@ -117,7 +117,7 @@ Once the server is migrated successfully, enable post-processing, tagging, and t
 
 Once the migration is completed, select **Validate system upgrade** from the left panel and validate the output files before and after the migration to ensure the migration is successful. 
 
-![Validate system upgrade tab in migration](assets/migration-validate-system-upgrade.png){width="800" align="left"}
+![Validate system upgrade tab in migration](assets/migration-validate-system-upgrade.png){width="800"}
 
 
 1. Once the migration is completed, most of the disk space can be reclaimed by running compaction (refer to `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).
