@@ -5,7 +5,7 @@ feature: Content Management
 role: User
 hide: true
 exl-id: b04a0abe-a029-44ac-b8f4-138d78908d44
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # ファイルをダウンロード {#id216MC0H0BE8}
 
-DITAおよびDITA以外のファイルを含むアセットをダウンロードできます。 アセットをダウンロードする方法は複数あり、一部の方法はAEMがネイティブで、その他の方法はAEM Guidesでサポートされています。 ネイティブのAEM アセットのダウンロードについて詳しくは、AEM ドキュメントの「[Adobe Experience Managerからアセットをダウンロードする](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html?lang=ja)」を参照してください。 次の節では、AEM GuidesのDITA マップコンソールを使用してファイルをダウンロードする仕組みについて説明します。
+DITAおよびDITA以外のファイルを含むアセットをダウンロードできます。 アセットをダウンロードする方法は複数あり、一部の方法はAEMがネイティブで、その他の方法はAEM Guidesでサポートされています。 ネイティブのAEM アセットのダウンロードについて詳しくは、AEM ドキュメントの「[Adobe Experience Managerからアセットをダウンロードする](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html)」を参照してください。 次の節では、AEM GuidesのDITA マップコンソールを使用してファイルをダウンロードする仕組みについて説明します。
 
 ## DITA マップファイルの書き出し
 
@@ -32,11 +32,11 @@ DITA マップファイルとその依存ファイルをダウンロードする
 
    マップをダウンロード ダイアログが表示されます。
 
-   ![](images/download-map.png){width="300" align="left"}
+   ![](images/download-map.png){width="300"}
 
 1. 「**ダウンロード**」をクリックします。 マップをダウンロード ダイアログで、次のオプションを選択できます。
 
-   - **ベースラインを使用**: DITA マップ用に作成されたベースラインのリストを取得するには、このオプションを選択します。 特定のベースラインに基づいてマップファイルとその内容をダウンロードする場合は、ドロップダウンリストから「ベースライン」を選択します。 ベースラインの操作について詳しくは、[&#x200B; ベースラインの操作](generate-output-use-baseline-for-publishing.md#)を参照してください。
+   - **ベースラインを使用**: DITA マップ用に作成されたベースラインのリストを取得するには、このオプションを選択します。 特定のベースラインに基づいてマップファイルとその内容をダウンロードする場合は、ドロップダウンリストから「ベースライン」を選択します。 ベースラインの操作について詳しくは、[ ベースラインの操作](generate-output-use-baseline-for-publishing.md#)を参照してください。
    - **ファイル階層を統合**：参照されているすべてのトピックとメディアファイルを1つのフォルダーに保存するには、このオプションを選択します。
    >[!NOTE]
    >
@@ -44,7 +44,7 @@ DITA マップファイルとその依存ファイルをダウンロードする
 
 1. 「**ダウンロード**」ボタンをクリックすると、マップのダウンロードリクエストがキューに入れられます。 マップをダウンロードする準備ができたら、次の通知が届きます。
 
-   ![](images/download-map-prompt.png){width="550" align="left"}
+   ![](images/download-map-prompt.png){width="550"}
 
    - 「**ダウンロード**」をクリックして、マップファイルを.zip形式でダウンロードします。
 
@@ -54,8 +54,8 @@ DITA マップファイルとその依存ファイルをダウンロードする
    >
    > デフォルトでは、ダウンロードされたマップはAEM通知インボックスに5日間残ります。
 
-![](images/download-map-inbox.png){width="300" align="left"}
+![](images/download-map-inbox.png){width="300"}
 
 マップをダウンロードしたら、マップを選択し、上部の「開く」アイコンを使用して、選択したレポートを開くことができます。
 
-**親トピック：**&#x200B;[&#x200B; コンテンツの管理](authoring.md)
+**親トピック：**[ コンテンツの管理](authoring.md)

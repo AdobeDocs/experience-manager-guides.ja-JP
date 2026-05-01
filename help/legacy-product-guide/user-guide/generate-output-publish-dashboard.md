@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 9d311979-a7d7-47f5-945c-520eda99798f
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 公開ダッシュボードには、現在システムで実行されているすべての公開タスクの概要が表示されます。
 
-![](images/publish-dashboard.png){width="800" align="left"}
+![](images/publish-dashboard.png){width="800"}
 
 公開ダッシュボードには、次の詳細が含まれます。
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 - **出力プリセット** – 現在アクティブな公開タスクを表示する1つ以上の出力プリセットを選択します。 次のスクリーンショットでは、公開タスクがフィルタリングされ、AEM サイト出力プリセットを使用するタスクのみが表示されます。
 
-  ![](images/publish-dashboard-preset-filter.png){width="800" align="left"}
+  ![](images/publish-dashboard-preset-filter.png){width="800"}
 
 - **開始者** – 選択したユーザーが開始した公開タスクを表示するには、リストからユーザー名を選択します。
 
@@ -56,36 +56,36 @@ ht-degree: 0%
 
 1. 上部のAdobe Experience Manager リンクをクリックし、**ツール**&#x200B;を選択します。
 
-1. Select **Guides** from the list of tools.
+1. ツールのリストから&#x200B;**ガイド**&#x200B;を選択します。
 
 1. 「**公開ダッシュボード**」タイルをクリックします。
 
    公開ダッシュボードが開き、システム内のすべてのアクティブな公開タスクのリストが表示されます。
 
-   If you click on the File Name link, the DITA map console of the selected map is shown.
+   ファイル名リンクをクリックすると、選択したマップのDITA マップコンソールが表示されます。
 
-   ![](images/publish-dashboard-click-filename-link.png){width="800" align="left"}
+   ![](images/publish-dashboard-click-filename-link.png){width="800"}
 
 
 >[!NOTE]
 >
 > マップダッシュボードから出力を生成する際に、「出力」タブから「公開」ダッシュボードにアクセスすることもできます。 詳細については、[出力生成タスクのステータスの表示](generate-output-for-a-dita-map.md#viewing_output_history)を参照してください。
 
-## Cancel a publishing task
+## 公開タスクのキャンセル
 
 パブリッシュダッシュボードから出力生成タスクをキャンセルするには、次の手順を実行します。
 
-1. [公開ダッシュボードにアクセス &#x200B;](#id205CC100DY4)。
+1. [公開ダッシュボードにアクセス ](#id205CC100DY4)。
 
-1. From the list of active publishing tasks, click the delete icon of a task that you want to cancel.
+1. アクティブな公開タスクのリストから、キャンセルするタスクの削除アイコンをクリックします。
 
-   ![](images/publish-dashboard-cancel-task.png){width="800" align="left"}
+   ![](images/publish-dashboard-cancel-task.png){width="800"}
 
-1. Click **Yes** on the Confirm Cancellation message prompt.
+1. キャンセル確認メッセージプロンプトで「**はい**」をクリックします。
 
-   キャンセル コマンドは受け入れられ、タスクがアクティブな状態のままである限り、キャンセルが試行されます。 Once the task is successfully terminated, it is removed from the currently active task list. タスクのステータスも、DITA マップコンソールで「キャンセル済み」として更新されます。 次のスクリーンショットでは、*HTML5* タスクが公開ダッシュボードからキャンセルされ、そのステータスもDITA マップコンソールで変更されています。
+   キャンセル コマンドは受け入れられ、タスクがアクティブな状態のままである限り、キャンセルが試行されます。 タスクが正常に終了すると、現在アクティブなタスクリストから削除されます。 タスクのステータスも、DITA マップコンソールで「キャンセル済み」として更新されます。 次のスクリーンショットでは、*HTML5* タスクが公開ダッシュボードからキャンセルされ、そのステータスもDITA マップコンソールで変更されています。
 
-   ![](images/cancelled-output-task.png){width="800" align="left"}
+   ![](images/cancelled-output-task.png){width="800"}
 
 
-**親トピック：**&#x200B;[&#x200B;出力生成](generate-output.md)
+**親トピック：**[&#x200B;出力生成](generate-output.md)

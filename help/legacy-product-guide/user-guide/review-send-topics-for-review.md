@@ -1,52 +1,52 @@
 ---
-title: Send topics for review
-description: Learn how to create a review task and send topics for review in AEM Guides. Send one or more topics in a DITA map for review.
+title: レビュー用にトピックを送信
+description: AEM Guidesでレビュータスクを作成し、レビュー用にトピックを送信する方法を説明します。 DITA マップ内の1つ以上のトピックをレビュー用に送信します。
 feature: Reviewing
 role: User
 hide: true
 exl-id: 4e47536a-ad78-4c97-9cea-a6af854f6e2f
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '2775'
 ht-degree: 0%
 
 ---
 
-# Send topics for review {#id199RD0S035Z}
+# レビュー用にトピックを送信 {#id199RD0S035Z}
 
-The review workflow creates a multi-reviewer environment wherein the initiator specifies a list of topics for review, add multiple reviewers, and assigns a timeline for the review task. AEM Guides allows users belonging to the Authors and Publishers groups to initiate a review.
+レビューワークフローでは、開始者がレビュー用のトピックのリストを指定し、複数のレビューアーを追加し、レビュータスクのタイムラインを割り当てるマルチレビューアー環境を作成します。 AEM Guidesでは、作成者グループとパブリッシャーグループに属するユーザーがレビューを開始できます。
 
-As the review workflow is project-specific, the initiator of review must be a part of the project team or have rights to create a project. At the time of creating a project, you define the team members for the project and assign them various roles or groups. For more information about projects, see [Create a DITA project](authoring-create-dita-project.md#).
+レビューワークフローはプロジェクト固有であるため、レビューの開始者はプロジェクトチームの一部であるか、プロジェクトを作成する権限を持っている必要があります。 プロジェクトの作成時に、プロジェクトのチームメンバーを定義し、さまざまな役割やグループを割り当てます。 プロジェクトについて詳しくは、[DITA プロジェクトの作成](authoring-create-dita-project.md#)を参照してください。
 
-You can create a review task from:
+次の場所からレビュータスクを作成できます。
 
-- **Web Editor**: Allows you to send an individual topic or DITA map for review. Note that the workflow for creating a review task is common across the Web Editor and Assets UI. Only the method of launching the review workflow differs. For information about launching the review workflow from the Web Editor, see the [Create Review Task](web-editor-features.md#id215OCJ00JXA) feature in the Web Editor.
+- **Web エディター**：個々のトピックまたはDITA マップをレビュー用に送信できます。 レビュータスクを作成するワークフローは、Web エディターとAssets UIで共通することに注意してください。 レビューワークフローを起動する方法のみが異なります。 Web エディターからのレビューワークフローの起動について詳しくは、Web エディターの[ レビュータスクの作成](web-editor-features.md#id215OCJ00JXA)機能を参照してください。
 
-- **Assets UI**: Allows you to send one or multiple topics and DITA map for review. Sharing documents for review from Assets UI workflow is covered under this topic.
+- **Assets UI**: 1つまたは複数のトピックとDITA マップをレビュー用に送信できます。 Assets UI ワークフローからのレビュー用ドキュメントの共有については、このトピックで説明します。
 
 
-From the Assets UI, there are two ways in which an Author/Publisher can create a review task:
+Assets UIから、作成者/発行者がレビュータスクを作成するには、次の2つの方法があります。
 
-- Send one or more topics for review
-- Send multiple topics from a DITA map for review
+- 1つ以上のトピックをレビュー用に送信
+- DITA マップから複数のトピックをレビュー用に送信する
 
-## Send one or more topics for review {#id1721E600FY4}
+## 1つ以上のトピックをレビュー用に送信 {#id1721E600FY4}
 
 >[!IMPORTANT]
 >
-> Before you create a review task, ensure that you have created a project and added reviewers to that project.
+> レビュータスクを作成する前に、プロジェクトを作成し、そのプロジェクトにレビュー担当者を追加したことを確認してください。
 
-To create a review task and send topics for review, perform the following steps:
+レビュータスクを作成し、レビュー用にトピックを送信するには、次の手順を実行します。
 
 >[!NOTE]
 >
-> You can create a review task only if you are an author or publisher in a DITA project.
+> レビュータスクは、DITA プロジェクトの作成者または発行者である場合にのみ作成できます。
 
-1. Navigate to the required folder in the Assets UI.
+1. Assets UIで必要なフォルダーに移動します。
 
-1. Click the Select icon in the quick action and select the topics you want to send for review.
+1. クイックアクションの「選択」アイコンをクリックし、レビュー用に送信するトピックを選択します。
 
-   ![](images/select-asset-62.png){width="300" align="left"}
+   ![](images/select-asset-62.png){width="300"}
 
 1. ツールバーで、**レビュータスクの作成**&#x200B;をクリックします。 レビュータスクの作成ページが表示されます。
 
@@ -54,7 +54,7 @@ To create a review task and send topics for review, perform the following steps:
    >
    > レビュータスクは、リビジョンを持つトピックに対してのみ作成できます。 選択したトピックにリビジョンがない場合、プロンプトが表示されます。
 
-   ![](images/create-review-task-023.png){width="650" align="left"}
+   ![](images/create-review-task-023.png){width="650"}
 
 1. タスクの&#x200B;**タイトル**&#x200B;を入力し、ドロップダウンリストからDITA **プロジェクト**&#x200B;を選択します。
 
@@ -74,7 +74,7 @@ To create a review task and send topics for review, perform the following steps:
 
    >[!NOTE]
    >
-   > 期限に達すると、レビュータスクが完了したことを通知する電子メールが開始者に送信されます。 開始者は、[&#x200B; レビューダッシュボード &#x200B;](review-manage-tasks-review-dashboard.md#)からレビュータスクの期限を延長できます。
+   > 期限に達すると、レビュータスクが完了したことを通知する電子メールが開始者に送信されます。 開始者は、[ レビューダッシュボード ](review-manage-tasks-review-dashboard.md#)からレビュータスクの期限を延長できます。
 
 1. **ルートマップパス**&#x200B;からルートマップを選択します。 このロードマップは、レビューコンテンツで使用されるすべての主要な参照と用語集の用語を解決するために使用されます。 ロードマップを選択しない場合、DITA トピックに関連付けられている主要な参照や用語集の用語は、レビュー用にトピックを送信する前に解決されません。
 
@@ -82,42 +82,42 @@ To create a review task and send topics for review, perform the following steps:
 
    >[!NOTE]
    >
-   > 選択したルートマップは、キー参照を解決する際に最も優先されます。 詳しくは、[&#x200B; キー参照の解決](map-editor-other-features.md#id176GD01H05Z)を参照してください。
+   > 選択したルートマップは、キー参照を解決する際に最も優先されます。 詳しくは、[ キー参照の解決](map-editor-other-features.md#id176GD01H05Z)を参照してください。
 
 1. 異なるレビュー担当者を異なるトピックに割り当てることができるので、**担当者に任意のトピックをレビューすることを許可** オプションは、レビュー担当者がレビュータスクのすべてのトピックをレビューできるか、レビューに割り当てられたトピックのみをレビューできるかを制御します。
 
-   If you want to allow all reviewers to review any topic in the review task, select **Allow Assignees to Review Any Topic**.
+   すべてのレビュー担当者がレビュータスクの任意のトピックをレビューできるようにするには、**担当者が任意のトピックをレビューすることを許可**&#x200B;を選択します。
 
-   If you do not select this option then reviewers added in the **Assign To** field will have access to review only those topics that are assigned to them.
+   このオプションを選択しない場合、**割り当て先** フィールドに追加されたレビュー担当者は、割り当てられたトピックのみをレビューするためのアクセス権を持ちます。
 
 1. 「**次へ**」をクリックします。
 
-   The Content page is displayed.
+   コンテンツページが表示されます。
 
-   ![](images/content_page_review.png){width="800" align="left"}
+   ![](images/content_page_review.png){width="800"}
 
-1. On the Content page, select a version of the topic that you want to share for review.
+1. コンテンツ ページで、レビュー用に共有するトピックのバージョンを選択します。
 
-   You can use one of the following methods to select a version:
+   次のいずれかの方法を使用して、バージョンを選択できます。
 
-   - *\(Default\)* Choose the option **Their Latest Version** to select the last saved revision of the topics.
-   - Choose the **Version On** option and specify the date and time to select a version as on the specified date and time. If there is no version of topic available on the specified date, then a version available immediately after the specified date and time is selected.
-   - Choose the **Select a Label** option and select a label from the drop-down list.
-1. After making your selection for choosing a version, click **Apply**.
+   - *\（Default\）* オプション **最新バージョン**&#x200B;を選択して、トピックの最後に保存されたリビジョンを選択します。
+   - 「**バージョンの日付**」オプションを選択し、指定した日時にバージョンを選択する日時を指定します。 指定した日付に利用可能なトピックのバージョンがない場合は、指定した日時の直後に利用可能なバージョンが選択されます。
+   - 「**ラベルを選択**」オプションを選択し、ドロップダウンリストからラベルを選択します。
+1. バージョンを選択するための選択を行った後、**適用**&#x200B;をクリックします。
 
-   The version based on the selected option is chosen for the topics.
+   選択したオプションに基づくバージョンがトピックに選択されます。
 
    >[!NOTE]
    >
-   > You can also manually select the desired version from the **Version** drop-down list of each topic.
+   > 各トピックの&#x200B;**バージョン** ドロップダウンリストから、目的のバージョンを手動で選択することもできます。
 
 1. 「**次へ**」をクリックします。
 
-   The Reviewers page is displayed wherein you can add or remove reviewers. By default, the reviewers added in the Assign To field are auto-added to each topic selected for the review.
+   レビュー担当者ページが表示され、レビュー担当者を追加または削除できます。 デフォルトでは、「割り当て先」フィールドに追加されたレビュー担当者は、レビュー用に選択された各トピックに自動的に追加されます。
 
-   ![](images/add-reviewers-topics.png){width="650" align="left"}
+   ![](images/add-reviewers-topics.png){width="650"}
 
-1. On the Reviewers page, you can add or remove reviewers. The following operations are available on the Reviewers page:
+1. レビュー担当者ページで、レビュー担当者を追加または削除できます。 レビュー担当者ページでは、次の操作を使用できます。
 
    - **すべてを選択**: トピックリストのすべてのトピックを選択します。 すべてのトピックを選択した後、バッチ操作を簡単に実行できます。
    - **選択範囲をクリア**: トピック リストで選択したトピックの選択を解除します。
@@ -131,14 +131,14 @@ To create a review task and send topics for review, perform the following steps:
 
      >[!NOTE]
      >
-     > You can also remove a review from a topic by clicking the cross sign in the reviewer&#39;s box.
+     > レビュー担当者のボックス内のクロスサインをクリックして、トピックからレビューを削除することもできます。
 
    - **再割り当て**：レビュー担当者を再割り当てダイアログを表示します。 レビュータスクを割り当てるレビューアーまたはユーザーの役割\（またはグループ\）の名前を入力できます。 これにより、選択したトピックから既存のレビュー担当者がすべて削除され、新しく選択したレビュー担当者がそれらのトピックに割り当てられます。
    - **書き出し**: レビュータスクの詳細をCSV ファイルに書き出すことができます。 このファイルには、トピックのパスとタイトル、レビュー担当者の名前、レビュー用に送信されたトピックのバージョンなどの詳細が含まれています。
    - **レビュー担当者を編集**: トピックリストの![](images/edit_pencil_icon.svg) アイコンをクリックすると、レビュー担当者を編集ダイアログが表示されます。 選択したトピックのレビュー担当者を、このダイアログから追加または削除できます。
 1. 「**作成**」をクリックして、レビュータスクを作成します。
 
-   レビュータスクが正常に作成されると、確認メッセージが表示されます。 レビュー用に送信されたトピックの[&#x200B; ドキュメントの状態](web-editor-document-states.md#)は、「レビュー中」に設定されています。
+   レビュータスクが正常に作成されると、確認メッセージが表示されます。 レビュー用に送信されたトピックの[ ドキュメントの状態](web-editor-document-states.md#)は、「レビュー中」に設定されています。
 
    >[!NOTE]
    >
@@ -155,13 +155,13 @@ DITA マップは、ブック内のトピックを論理的に整理したもの
 
 AEM Guidesを使用すると、DITA マップ内の1つ以上のトピックを同時にレビュー用に送信できます。 レビュー担当者は、レビュー用に共有されたトピックと共に、完全なマップファイルを確認できます。 これにより、レビュー担当者は、マップまたはブックファイル内のトピックのコンテキストを簡単に確認できます。
 
-複数のレビュータスクでレビュー用に同じDITA マップを共有できます。 例えば、DITA マップ内にトピック A、B、C、D、Eがある場合、1つのレビュータスクでは、レビュー用にA、B、Cを共有でき、別のレビュータスクでは、レビュー用にトピック C、D、Eを送信できます。 レビュープロセスでは、複数のレビュータスクで同じトピックとマップファイルを共有できます。 For the common topic in multiple review tasks, the comments given in one review task do not overwrite or merge with the comments in the other review tasks.
+複数のレビュータスクでレビュー用に同じDITA マップを共有できます。 例えば、DITA マップ内にトピック A、B、C、D、Eがある場合、1つのレビュータスクでは、レビュー用にA、B、Cを共有でき、別のレビュータスクでは、レビュー用にトピック C、D、Eを送信できます。 レビュープロセスでは、複数のレビュータスクで同じトピックとマップファイルを共有できます。 複数のレビュータスクの共通トピックの場合、1つのレビュータスクで与えられたコメントは、他のレビュータスクのコメントと上書きまたは結合されません。
 
 >[!IMPORTANT]
 >
 > マップファイルのトピックが複数のレビュータスクで共有されている場合、すべてのレビュータスクが完了するまで、そのステータスは「レビュー中」と表示されます。
 
-To send one or multiple topics along with the map file for review, perform the following steps:
+1つまたは複数のトピックをマップファイルと共にレビュー用に送信するには、次の手順を実行します。
 
 >[!IMPORTANT]
 >
@@ -199,7 +199,7 @@ To send one or multiple topics along with the map file for review, perform the f
 
    >[!NOTE]
    >
-   > 期限に達すると、レビュータスクが完了したことを通知する電子メールが開始者に送信されます。 開始者は、[&#x200B; レビューダッシュボード &#x200B;](review-manage-tasks-review-dashboard.md#)からレビュータスクの期限を延長できます。
+   > 期限に達すると、レビュータスクが完了したことを通知する電子メールが開始者に送信されます。 開始者は、[ レビューダッシュボード ](review-manage-tasks-review-dashboard.md#)からレビュータスクの期限を延長できます。
 
 1. 異なるレビュー担当者を異なるトピックに割り当てることができるので、**担当者に任意のトピックをレビューすることを許可** オプションは、レビュー担当者がレビュータスクのすべてのトピックをレビューできるか、レビューに割り当てられたトピックのみをレビューできるかを制御します。
 
@@ -211,7 +211,7 @@ To send one or multiple topics along with the map file for review, perform the f
 
    コンテンツページは、マップファイルから参照されているすべてのトピックで表示されます。 DITA マップにネストされたマップが含まれている場合は、ネストされたマップのトピックもここに一覧表示されます。
 
-   ![](images/content-page-map-review.png){width="800" align="left"}
+   ![](images/content-page-map-review.png){width="800"}
 
 1. コンテンツ ページで、レビュー用に共有するトピックのバージョンを選択します。
 
@@ -249,21 +249,21 @@ To send one or multiple topics along with the map file for review, perform the f
    - **レビュー担当者を編集**: トピックリストの![](images/edit_pencil_icon.svg) アイコンをクリックすると、レビュー担当者を編集ダイアログが表示されます。 選択したトピックのレビュー担当者を、このダイアログから追加または削除できます。
    >[!IMPORTANT]
    >
-   > You must assign at least one reviewer to create the review task.
+   > レビュータスクを作成するには、少なくとも1人のレビューアーを割り当てる必要があります。
 
 1. 「**作成**」をクリックして、レビュータスクを作成します。
 
-   レビュータスクが正常に作成されると、確認メッセージが表示されます。 レビュー用に送信されたトピックの[&#x200B; ドキュメントの状態](web-editor-document-states.md#)は、「レビュー中」に設定されています。
+   レビュータスクが正常に作成されると、確認メッセージが表示されます。 レビュー用に送信されたトピックの[ ドキュメントの状態](web-editor-document-states.md#)は、「レビュー中」に設定されています。
 
    >[!NOTE]
    >
-   > You can also click Notifications panel at the top right of the interface and confirm that the task has been created successfully. In the Notifications panel, you will find one notification each for the reviews who were a part of the review task and one notification for the initiator of the review.
+   > また、インターフェイスの右上にある通知パネルをクリックして、タスクが正常に作成されたことを確認することもできます。 通知パネルには、レビュータスクの一部であったレビューごとに1つの通知と、レビューの開始者に1つの通知が表示されます。
 
    >[!IMPORTANT]
    >
-   > Once you have initiated a review, you must not move or delete the DITA map or topics to a different location. Doing so will result in a break in the review process.
+   > レビューを開始したら、DITA マップまたはトピックを別の場所に移動または削除しないでください。 これにより、レビュープロセスが中断されます。
 
 
-An email is sent to all the reviewers, notifying that they have been assigned topics for review. このメールには、クリックしてブラウザーウィンドウでトピックにアクセスできる直接リンクが含まれています。 The topics along with the DITA map are opened in the review mode.
+すべてのレビュー担当者に、レビュー用のトピックが割り当てられたことを知らせる電子メールが送信されます。 このメールには、クリックしてブラウザーウィンドウでトピックにアクセスできる直接リンクが含まれています。 DITA マップと共にトピックがレビューモードで開きます。
 
-**親トピック：**&#x200B;[&#x200B; トピックまたはマップのレビュー](review.md)
+**親トピック：**[ トピックまたはマップのレビュー](review.md)

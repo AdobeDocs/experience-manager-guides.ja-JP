@@ -1,51 +1,51 @@
 ---
-title: Edit topics in the Web Editor
-description: Learn to edit topics in the web editor. Know about various editing features to modify your topic files in AEM Guides.
+title: Web エディターでのトピックの編集
+description: Web エディターでのトピックの編集について説明します。 AEM Guidesのトピックファイルを変更するための様々な編集機能について説明します。
 feature: Authoring, Web Editor
 role: User
 hide: true
 exl-id: 0341bdec-9635-4ced-b1c6-789b4e1aded8
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 0%
 
 ---
 
-# Edit topics in the Web Editor {#id2056B040VUI}
+# Web エディターでのトピックの編集 {#id2056B040VUI}
 
-The Web Editor comes with a range of editing features that let you easily create or modify your topic files. Broadly, you would perform the following steps to edit a topic in the Web Editor.
+Web エディターには、トピックファイルを簡単に作成または変更できる様々な編集機能が用意されています。 Web エディターでトピックを編集するには、大まかに次の手順を実行します。
 
 >[!IMPORTANT]
 >
-> If you encounter an application error while working on the Web Editor, refresh the page to continue working.
+> Web エディターの作業中にアプリケーションエラーが発生した場合は、ページを更新して作業を続行します。
 
-1. To make changes in your topic, click within the text boundary of the required element and start making edits.
+1. トピックを変更するには、必要な要素のテキスト境界内をクリックし、編集を開始します。
 
-1. To insert a specific element, click at the end of the element after which you want to insert the new element and click the required element icon in the toolbar. You can also use the keyboard shortcut `Alt+Enter` to invoke the **Insert Element** popup.
+1. 特定のエレメントを挿入するには、新しいエレメントを挿入するエレメントの末尾をクリックし、ツールバーの必要なエレメントアイコンをクリックします。 キーボードショートカット `Alt+Enter`を使用して、**エレメントを挿入** ポップアップを呼び出すこともできます。
 
-   A list of element appears that can be used in the topic. AEM Guides does an intelligent placing of elements as per their valid location in the topic.
-
-   >[!NOTE]
-   >
-   > You can also choose which icon to be displayed in the toolbar by configuring the `ui_config.json` file located at - `/etc/designs/fmdita/clientlibs/xmleditor/`. For more information about customizing features, contact your system administrator.
-
-1. Once you have finished editing your document, click **Save**.
+   トピックで使用できる要素のリストが表示されます。 AEM Guidesは、トピック内の有効な場所に従って、エレメントをインテリジェントに配置します。
 
    >[!NOTE]
    >
-   > If you do not wish to commit changes into AEM repository, click **Close**, and then click **Close Without Saving** in the Unsaved Changes dialog.
+   > ツールバーに表示するアイコンを選択するには、- `/etc/designs/fmdita/clientlibs/xmleditor/`にある`ui_config.json` ファイルを設定します。 機能のカスタマイズについて詳しくは、システム管理者にお問い合わせください。
+
+1. ドキュメントの編集が完了したら、**保存**&#x200B;をクリックします。
+
+   >[!NOTE]
+   >
+   > AEM リポジトリに変更を確定しない場合は、**閉じる**&#x200B;をクリックし、保存されていない変更ダイアログで&#x200B;**保存せずに閉じる**&#x200B;をクリックします。
 
 
-## Partial selection of content across elements
+## 要素をまたいだコンテンツの部分的な選択
 
-Experience Manager Guides also allows you to select content across elements. After selecting the content, you can perform the following operations:
+Experience Manager Guidesでは、複数の要素からコンテンツを選択することもできます。 コンテンツを選択したら、次の操作を実行できます。
 
-- Formatting and deletion: Make the selected content bold, italics, underline, or even delete the selected content. The content from the valid open tags is then merged and appears under a single element. For example, you can select the content within a paragraph and extend the selection to another paragraph. Then, if you make the selected content bold, all the bold content from the open tags is merged and appears under a single paragraph element.
+- 書式設定と削除：選択したコンテンツを太字、斜体、下線または削除します。 有効なオープンタグのコンテンツが結合され、1つの要素の下に表示されます。 例えば、段落内のコンテンツを選択し、選択範囲を別の段落に拡張できます。 次に、選択したコンテンツを太字にすると、開いているタグのすべての太字コンテンツが結合され、1つの段落エレメントの下に表示されます。
 
-Similarly, if you delete the selected content, the remaining content after the deletion in the open tags is merged.
+同様に、選択したコンテンツを削除すると、開いているタグの削除後の残りのコンテンツが結合されます。
 
-- Surround the content with a valid element: Perform the following steps to wrap the content with a valid element:
+- コンテンツを有効な要素で囲む：次の手順を実行して、コンテンツを有効な要素でラップします。
 
    - エレメント内のコンテンツを選択します。
    - 上部のセカンダリツールバーから「![追加](images/Add_icon.svg)」アイコンを選択して、「**要素で囲む**」ダイアログボックスを表示します。 ダイアログボックスには、選択したコンテンツの有効な要素が一覧表示されます。
@@ -54,7 +54,7 @@ Similarly, if you delete the selected content, the remaining content after the d
      > また、選択したコンテンツのコンテキストメニューを選択して、「エレメントで囲む」ダイアログボックスを表示することもできます。
 
    - ダイアログボックスからエレメントを選択します。 選択したコンテンツはその要素の下にラップされます。 例えば、段落内のコンテンツを選択した後、**要素で囲む** ダイアログボックスから`<note>`要素を選択すると、選択したコンテンツがメモの下に表示されます。\
-     ![&#x200B; サラウンドエレメントダイアログボックス &#x200B;](./images/surround-element.png) {width="300" align="left"}
+     ![ サラウンドエレメントダイアログボックス ](./images/surround-element.png) {width="300"}
 
 ## ファイルの編集中にブラウザーを更新する
 
@@ -70,11 +70,11 @@ Experience Manager Guidesでは、Web エディターでコンテンツを編集
 
 AEM Guidesには、ファイルの現在の\（作業コピー\）が保存済みバージョンと同期しているかどうかを示す作業コピーインジケーターが表示されます。 現在のコピーに変更を加え、ファイルを保存していない場合は、トピックの「ファイル」タブにタイトルと共に「*」マークが表示されます。 このインジケーターは、変更を保存するためのリマインダーとして機能し、ファイルを保存すると消えます。
 
-![作業中のコピーインジケーター](images/working-copy-text-update-indicator.png){width="550" align="left"}
+![作業中のコピーインジケーター](images/working-copy-text-update-indicator.png){width="550"}
 
 AEM Guidesは、ファイルの最後に保存された\（working\）コピーが保存済みのバージョンと同期しているかどうかも示します。 作業コピーと最後に保存されたバージョンの間に保存されていない変更がある場合は、「\*」マークが表示され、トピックの「ファイル」タブの右上隅に表示されるバージョン情報が表示されます。 このインジケーターは、ファイルの現在の\（working\）コピーからバージョンを保存して作成するためのリマインダーとして機能します。
 
-![&#x200B; バージョン更新インジケーター](images/version-update-indicator.png){width="550" align="left"}
+![ バージョン更新インジケーター](images/version-update-indicator.png){width="550"}
 
 
 ## ロックされたファイルを作成者モードとSource モードで開く
@@ -106,4 +106,4 @@ Web エディターでファイルを開くと、Experience Manager Guidesには
 この機能をオフにすると、**ユーザー設定**&#x200B;の「**アピアランス**」タブから「**常にリポジトリ内のファイルを探す**」オプションでファイルを検索できます。
 
 
-**親トピック：**&#x200B;[&#x200B; Web エディターの操作](web-editor.md)
+**親トピック：**[ Web エディターの操作](web-editor.md)

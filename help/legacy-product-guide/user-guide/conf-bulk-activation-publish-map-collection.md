@@ -5,7 +5,7 @@ feature: Publishing, Bulk Activation
 role: User
 hide: true
 exl-id: de1fd057-60c6-4b1a-9e55-f32969eb0079
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 2%
@@ -26,7 +26,7 @@ ht-degree: 2%
 
 1. 公開するコレクションを選択し、**開く**&#x200B;をクリックします。
 
-   ![](images/bulk-activation-collection-open.png){width="800" align="left"}
+   ![](images/bulk-activation-collection-open.png){width="800"}
 
 1. \（*オプション*\）左側のパネルから必要なフィルターを適用して、変更された\（status\）、出力プリセット、または言語に基づいてマップをフィルタリングします。
 
@@ -40,7 +40,7 @@ ht-degree: 2%
 <details>
 <summary> クラウドサービス </summary>
 
-![&#x200B; クラウドサービス上のbulk-collection-publish](images/bulk-activation-collection-quick-publish-CS.png){width="650" align="left"}
+![ クラウドサービス上のbulk-collection-publish](images/bulk-activation-collection-quick-publish-CS.png){width="650"}
 
 **プレビュー**&#x200B;または&#x200B;**公開** インスタンスへの出力をアクティブ化できます。
 
@@ -75,7 +75,7 @@ ht-degree: 2%
 
 * 選択したマップの出力をアクティブにするには、事前生成されたマップ出力を選択し、**クイック公開**&#x200B;を選択します。
 * すべてのDITA マップの出力を設定されたプリセットでアクティベートするには、マップ（列）の横にあるチェックボックスを選択し、**クイック公開を選択します。**
-  ![bulk-collection-publish](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
+  ![bulk-collection-publish](images/bulk-activation-collection-quick-publish.png){width="650"}
 
   >[!NOTE]
   > 
@@ -86,4 +86,4 @@ ht-degree: 2%
 
 選択したマップファイルの出力がアクティブ化されると、「監査履歴」タブが更新され、最新のアクティブ化された出力が上部に表示されます。 **公開済み**&#x200B;列が、公開日時で更新されます。
 
-**&#x200B; 親トピック：**&#x200B;[公開されたコンテンツの一括アクティベーション &#x200B;](conf-bulk-activation.md)
+** 親トピック：**[公開されたコンテンツの一括アクティベーション ](conf-bulk-activation.md)

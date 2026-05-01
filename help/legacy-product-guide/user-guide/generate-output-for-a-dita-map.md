@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 5c2a8239-e6eb-482b-a11b-3732e667c880
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1421'
 ht-degree: 0%
@@ -22,7 +22,7 @@ DITA マップの出力を生成するには、次の手順を実行します。
 
 1. 出力の生成に使用する1つまたは複数の出力プリセットを選択します。
 
-   ![](images/generate-multiple-outputs-uuid.png){width="800" align="left"}
+   ![](images/generate-multiple-outputs-uuid.png){width="800"}
 
    >[!NOTE]
    >
@@ -37,7 +37,7 @@ DITA マップの出力を生成するには、次の手順を実行します。
 >
 > プリセットの出力生成プロセスがキュー内または処理中の場合、同じプリセットに対して別の出力生成タスクを開始することはできません。
 
-Web エディターから、DITA マップ用に作成された1つ以上の出力プリセットのPDF出力を生成できます。 詳細については、[&#x200B; クイック生成パネルを使用してプリセットの出力を生成および表示する](web-editor-quick-generate-panel.md#)を参照してください。
+Web エディターから、DITA マップ用に作成された1つ以上の出力プリセットのPDF出力を生成できます。 詳細については、[ クイック生成パネルを使用してプリセットの出力を生成および表示する](web-editor-quick-generate-panel.md#)を参照してください。
 
 1つ以上のトピックのAEM サイト出力や、Web エディターからDITA マップ全体を生成することもできます。 詳しくは、[Web エディターからの記事ベースの公開](web-editor-article-publishing.md#id218CK0U019I)を参照してください。
 
@@ -71,7 +71,7 @@ DITA マップ内の少数のトピックのみを更新し、更新されたト
    >
    > DITA マップに新しいトピックを追加した場合、ここから新しいトピックを生成することはできません。 最初に、新しく追加したトピックをDITA マップ公開機能を使用して公開する必要があります。
 
-   ![](images/regenerate-topics.png){width="800" align="left"}
+   ![](images/regenerate-topics.png){width="800"}
 
 1. 「**再生成**」をクリックします。
 
@@ -96,77 +96,77 @@ DITA マップ内の少数のトピックのみを更新し、更新されたト
 
 1. Assets UIで、出力生成ステータスを確認するマップファイルに移動してクリックします。
 
-1. Click **Outputs**.
+1. **出力**&#x200B;をクリックします。
 
-   ![](images/output-queued.png){width="800" align="left"}
+   ![](images/output-queued.png){width="800"}
 
-   The Outputs page is divided into two parts:
+   出力ページは、次の2つの部分に分かれています。
 
-   - **Queued Outputs:**
+   - **キューに入れた出力：**
 
-     Lists the outputs that are either waiting to be generated or are under generation process. The queued or in progress tasks are shown with a blue color icon before the preset name. You can also find the output generation setting or preset used for the queued task, the type, user who initiated the task, time since when the task is queued, and the current status.
+     生成待ち、または生成処理中の出力を一覧表示します。 キュー内または処理中のタスクは、プリセット名の前に青いカラーアイコンで表示されます。 また、キューに入れられたタスクに使用される出力生成設定またはプリセット、タイプ、タスクを開始したユーザー、タスクがキューに入れてからの時間、および現在のステータスを確認することもできます。
 
-     Click on the link to access the **Publish Dashboard** and view the current running status. A list of all active publishing tasks is available in the Publish Dashboard. The **Queued Outputs** and the **Publish Dashboard** link are displayed only when there are outputs that are either waiting to be generated or are under generation process. They don&#39;t appear when the output tasks have been completed.For more details on Publish Dashboard, see [Manage publish tasks using the Publish Dashboard](generate-output-publish-dashboard.md#).
+     リンクをクリックして&#x200B;**公開ダッシュボード**&#x200B;にアクセスし、現在の実行中のステータスを表示します。 アクティブなすべての公開タスクのリストは、公開ダッシュボードで使用できます。 **キュー出力**&#x200B;と&#x200B;**公開ダッシュボード** リンクは、生成待ちまたは生成処理中の出力がある場合にのみ表示されます。 出力タスクが完了した場合は表示されません。公開ダッシュボードについて詳しくは、[公開ダッシュボードを使用した公開タスクの管理](generate-output-publish-dashboard.md#)を参照してください。
 
-   - **Generated Outputs**
+   - **生成された出力**
 
-     Lists the output tasks that have been completed. Again, the information shown here is similar to the Queued Outputs section with a few differences. You have new set of information in the form of output result icon and the output generation time.
+     完了した出力タスクが一覧表示されます。 ここでも、ここに示す情報は、キュー出力セクションと似ていますが、いくつかの違いがあります。 出力結果アイコンと出力生成時間の形式で新しい情報セットが用意されています。
 
-     In this list, you could have tasks that have executed successfully, tasks that have executed with message, or failed tasks. The successful tasks are shown with green color icon, the tasks with a message have an orange color icon, and the failed tasks are shown with red color icon.
+     このリストには、正常に実行されたタスク、メッセージで実行されたタスク、失敗したタスクがある場合があります。 成功したタスクは緑色のアイコンで表示され、メッセージを含むタスクにはオレンジ色のアイコンが表示され、失敗したタスクには赤色のアイコンが表示されます。
 
-     For all the tasks, the publishing process creates a log file \(logs.txt\) that can be accessed by clicking the link in the Generated At column. For tasks that have failed or have messages, you can check the log file, which is explained in the section [View and check the log file](generate-output-basic-troubleshooting.md#id1822G0P0CHS).
+     すべてのタスクに対して、公開プロセスによってログファイル \（logs.txt\）が作成されます。このログファイルには、「生成時」列のリンクをクリックしてアクセスできます。 失敗したタスクやメッセージがあるタスクについては、ログファイルを確認できます。ログファイルについては、[表示とログファイルの確認](generate-output-basic-troubleshooting.md#id1822G0P0CHS)で説明しています。
 
      >[!NOTE]
      >
-     > When you click on a link of the generated PDF output, you are asked to download the PDF. This is the default behavior in AEM 6.5 and 6.4.
+     > 生成されたPDF出力のリンクをクリックすると、PDFのダウンロードを求められます。 これは、AEM 6.5および6.4のデフォルトの動作です。
 
 
-## Cancel an output generation task {#id2061H100T5Z}
+## 出力生成タスクのキャンセル {#id2061H100T5Z}
 
-AEM Guides gives publishers a simple and easy way to cancel any ongoing publishing task. As a publisher, you can cancel an ongoing publishing task from the DITA map console or the [Publish Dashboard](generate-output-publish-dashboard.md#).
+AEM Guidesを使用すると、パブリッシャーは進行中の公開タスクをキャンセルするシンプルで簡単な方法を入手できます。 パブリッシャーは、DITA マップコンソールまたは[公開ダッシュボード ](generate-output-publish-dashboard.md#)から進行中の公開タスクをキャンセルできます。
 
-Perform the following steps to cancel an output generation task from the DITA map console:
+DITA マップコンソールから出力生成タスクをキャンセルするには、次の手順を実行します。
 
-1. In the Assets UI, navigate to and click on the map file for which you want to cancel an ongoing output generation task.
+1. Assets UIで、進行中の出力生成タスクをキャンセルするマップファイルに移動してクリックします。
 
-1. Click **Outputs**.
+1. **出力**&#x200B;をクリックします。
 
-1. In the Queued Outputs list, hover the pointer over a task that you want to cancel.
+1. キュー出力リストで、キャンセルするタスクの上にポインターを置きます。
 
-1. Click the *Cancel This Job* icon.
+1. 「*このジョブをキャンセル*」アイコンをクリックします。
 
-   ![](images/cancel-publish-task-map-console.png){width="800" align="left"}
+   ![](images/cancel-publish-task-map-console.png){width="800"}
 
-1. Click **Yes** on the Confirm Cancellation message prompt.
+1. キャンセル確認メッセージプロンプトで「**はい**」をクリックします。
 
-   ![](images/confirm-cancel-output-map-condole.png){width="800" align="left"}
+   ![](images/confirm-cancel-output-map-condole.png){width="800"}
 
-   If the task has not yet started, the cancel command is executed on the task. For a task that is being canceled, the Status is set to Canceling.
+   タスクがまだ開始されていない場合は、そのタスクに対してキャンセル コマンドが実行されます。 キャンセル中のタスクの場合、ステータスはキャンセルに設定されます。
 
-   Once the task is successfully canceled, it is moved to the **Generated Outputs** list with a **Cancelled** status. When you hover over the canceled task, it shows the name of the user who has canceled the task. In the following screenshot, the *HTML5* task is canceled.
+   タスクが正常にキャンセルされると、タスクは&#x200B;**キャンセル済み**&#x200B;のステータスで&#x200B;**生成出力** リストに移動されます。 キャンセルされたタスクにカーソルを合わせると、タスクをキャンセルしたユーザーの名前が表示されます。 次のスクリーンショットでは、*HTML5* タスクがキャンセルされています。
 
-   ![](images/cancelled-output-task.png){width="800" align="left"}
-
-
-## Delete an output task from DITA map console
-
-When you generate multiple outputs for a DITA map, over a period of time the Generated Outputs list for such a map becomes very long. As a publisher you can clean the output history of any map file by removing the outdated tasks from the *Generated Outputs* list. Note that the output is not removed from the system, only the entry of the generated output is removed from the *Generated Outputs* list.
-
-Perform the following steps to remove an output task from the Generated Output list:
-
-1. In the Assets UI, navigate to and click on the map file from which you want to delete the tasks.
-
-1. Click **Outputs**.
-
-1. In the Generated Outputs list, hover the pointer over a task that you want to delete.
-
-1. Click the delete icon.
-
-   ![](images/delete-output-task.png){width="800" align="left"}
-
-1. Click **Yes** on the Confirm Delete message prompt.
-
-   The task is deleted from the Generated Outputs list.
+   ![](images/cancelled-output-task.png){width="800"}
 
 
-**親トピック：**&#x200B;[&#x200B;出力生成](generate-output.md)
+## DITA マップコンソールから出力タスクを削除する
+
+DITA マップに対して複数の出力を生成すると、そのマップの「生成出力」リストが非常に長くなります。 発行者は、*生成出力* リストから古いタスクを削除することで、任意のマップファイルの出力履歴をクリーニングできます。 出力はシステムから削除されませんが、生成された出力のエントリのみが&#x200B;*生成出力* リストから削除されます。
+
+次の手順を実行して、生成された出力リストから出力タスクを削除します。
+
+1. Assets UIで、タスクを削除するマップファイルに移動してクリックします。
+
+1. **出力**&#x200B;をクリックします。
+
+1. 「生成出力」リストで、削除するタスクにポインターを合わせます。
+
+1. 削除アイコンをクリックします。
+
+   ![](images/delete-output-task.png){width="800"}
+
+1. 「メッセージの削除を確認」プロンプトで「**はい**」をクリックします。
+
+   タスクは、生成出力リストから削除されます。
+
+
+**親トピック：**[&#x200B;出力生成](generate-output.md)

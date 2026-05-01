@@ -5,7 +5,7 @@ feature: Authoring
 role: User
 hide: true
 exl-id: c2c24b6f-08e8-47be-be33-b3e9fb50052e
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1863'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ## プレビューモードで使用できる機能
 
-![](images/preview-screen.png){width="800" align="left"}
+![](images/preview-screen.png){width="800"}
 
 プレビューモードのツールバーから、次の操作を実行できます。
 
@@ -49,53 +49,53 @@ ht-degree: 0%
 
 **使用済み**&#x200B;の参照には、現在のファイルが参照または使用されているドキュメントが一覧表示されます。 **送信の参照**&#x200B;には、現在の文書で参照されている文書が一覧表示されます。
 
-The \(+\) icon in the **Used In** references section allows you to further navigate upwards to find where that topic is being used or referred.
+「**使用**&#x200B;で参照」セクションの\（+\）アイコンを使用すると、さらに上に移動して、そのトピックが使用されている場所や参照されている場所を見つけることができます。
 
-![](images/used-in-dialog_cs.png){width="800" align="left"}
+![](images/used-in-dialog_cs.png){width="800"}
 
-Clicking the ![](images/right-arrow-used-in-dialog.svg)icon next to a document shows the map or topic files where that document is being further referred.
+ドキュメントの横にある![](images/right-arrow-used-in-dialog.svg) アイコンをクリックすると、そのドキュメントをさらに参照しているマップファイルまたはトピックファイルが表示されます。
 
-**Conditional Filtering \(A/B\)**
+**条件付きフィルター\（A/B\）**
 
-If your topic has conditional content, then you will see the A/B icon on the toolbar. Clicking on this icon opens a pop-up that allows you to filter the content as per the available conditions in the topic.
+トピックに条件付きコンテンツがある場合は、ツールバーにA/B アイコンが表示されます。 このアイコンをクリックすると、トピックで使用可能な条件に従ってコンテンツをフィルタリングできるポップアップが開きます。
 
 >[!NOTE]
 >
-> The conditional content is highlighted using light background color in the Web Editor.
+> コンディショナルコンテンツは、Web エディターの明るい背景色を使用してハイライト表示されます。
 
-![](images/conditional-popup_cs.png){width="300" align="left"}
+![](images/conditional-popup_cs.png){width="300"}
 
 **編集**
 
-- Open the topic for editing in the Web Editor. The **Edit** option will not be available if your administrator has enabled the **Disable Edit Without Checkout** option. With the option enabled, you will see the **Edit** option only after checking out a topic file.
+- Web エディターで編集するトピックを開きます。 管理者が「**チェックアウトなしで編集を無効にする**」オプションを有効にしている場合、「**編集**」オプションは使用できません。 このオプションを有効にすると、トピックファイルをチェックアウトした後にのみ&#x200B;**編集** オプションが表示されます。
 
-**Key Resolution**
+**キー解決**
 
-- If you want to use a keyspace file for the topic, click the Key Resolution icon. You can then choose a key space from the Key Resolution pop-up.
+- トピックにキースペースファイルを使用する場合は、キー解決アイコンをクリックします。 次に、キーの解像度ポップアップからキースペースを選択できます。
 
 **ソース**
 
-- Open the XML source code of a file. You can view the underlying XML code of a map, topic or DITAVAL file by opening the file in the Preview mode and clicking the Source icon. The XML Source pop-up displays the XML source code. You can select a specific code from the file or press `Ctrl`+`a` to select the entire content.
+- ファイルのXML ソースコードを開きます。 プレビューモードでファイルを開き、Source アイコンをクリックすると、マップ、トピック、DITAVAL ファイルの基になるXML コードを表示できます。 XML Source ポップアップにXML ソースコードが表示されます。 ファイルから特定のコードを選択するか、`Ctrl`+`a`を押してコンテンツ全体を選択します。
 
   >[!NOTE]
   >
-  > To get the source code view of a DITA map file, select the file in Assets UI and click Source.
+  > DITA マップファイルのソースコードビューを取得するには、Assets UIでファイルを選択し、「Source」をクリックします。
 
-  ![](images/xml-source-code-view-from-preview_cs.png){width="800" align="left"}
+  ![](images/xml-source-code-view-from-preview_cs.png){width="800"}
 
-**Share UUID Link**
+**UUID リンクを共有**
 
-- AEM Guides allows you to share the UUID-based links for DITA maps, topics, and image files from the following places:
+- AEM Guidesでは、DITA マップ、トピック、画像ファイルのUUID ベースのリンクを次の場所から共有できます。
 
-   - Assets UI
-   - DITA map&#39;s console
-   - Topic or image&#39;s Preview
+   - ASSETS UI
+   - DITA マップのコンソール
+   - トピックまたは画像のプレビュー
 
-A new option **Share UUID Link** is shown in the toolbar of the above-mentioned areas. The following screenshot shows the **Share UUID Link** option in the Preview mode of a topic:
+上記の領域のツールバーに、新しいオプション **UUID リンクを共有**&#x200B;が表示されます。 次のスクリーンショットは、トピックのプレビューモードで&#x200B;**UUID リンクを共有** オプションを示しています。
 
-![](images/share-uuid-link_cs.png){width="800" align="left"}
+![](images/share-uuid-link_cs.png){width="800"}
 
-In the Asset UI, this option is visible when you select a file. プレビューモードでは、このオプションはデフォルトでメインツールバーで使用できます。 DITA マップコンソールでは、このオプションは「出力プリセット」セクションに表示されます。
+アセット UIでは、ファイルを選択すると、このオプションが表示されます。 プレビューモードでは、このオプションはデフォルトでメインツールバーで使用できます。 DITA マップコンソールでは、このオプションは「出力プリセット」セクションに表示されます。
 
 URLをコピーしたら、他のユーザーと同じものを共有して、ファイルに直接アクセスできるようにします。 このリンクは、ファイルがリポジトリ内の別の場所に移動された場合でも有効です。 リンクが失敗するのは、ファイルがリポジトリから削除されたときだけです。
 
@@ -113,15 +113,15 @@ DITA マップコンソールまたはファイルのプレビューモードか
 
 カード表示でファイルをチェックアウトしました。
 
-![](images/checkout-card-62.png){width="300" align="left"}
+![](images/checkout-card-62.png){width="300"}
 
 リスト表示でファイルをチェックアウトしました。
 
-![](images/checkout-list-62.png){width="550" align="left"}
+![](images/checkout-list-62.png){width="550"}
 
 チェックアウトされた列が表示されない場合は、**リスト表示**&#x200B;の下の&#x200B;**設定を表示**&#x200B;を選択し、**列を設定** ダイアログで&#x200B;**チェックアウト** ステータスを選択します。
 
-![](images/list-view-settings-check-out_cs.png){width="800" align="left"}
+![](images/list-view-settings-check-out_cs.png){width="800"}
 
 >[!TIP]
 >
@@ -139,17 +139,17 @@ DITA マップコンソールまたはファイルのプレビューモードか
 
    1. 左側のパネルで、**バージョン履歴**&#x200B;をクリックし、バージョンを選択します。
 
-      ![](images/timeline-versions62_cs.png){width="800" align="left"}
+      ![](images/timeline-versions62_cs.png){width="800"}
 
    1. リストされたバージョンから、基本バージョンとして使用するバージョンを選択し、**バージョンのプレビュー**&#x200B;をクリックします。 選択したバージョンのプレビューがバージョンプレビューウィンドウに表示されます。
 
    1. 「**差分を表示**」リストから、基本バージョンと比較するバージョンを選択します。
 
-      ![](images/show-diff-list-cropped.png){width="800" align="left"}
+      ![](images/show-diff-list-cropped.png){width="800"}
 
       変更されたコンテンツは、トピックプレビューでハイライト表示されます。 緑で強調表示されたコンテンツは、新しく追加されたコンテンツを示し、赤で表示されたコンテンツは削除されたコンテンツです。
 
-      ![](images/version-difference.png){width="800" align="left"}
+      ![](images/version-difference.png){width="800"}
 
 
 ### 分岐、元に戻し、その後のバージョン管理 {#id193PG0Y051X}
@@ -186,11 +186,11 @@ DITA マップコンソールまたはファイルのプレビューモードか
 
       >[!NOTE]
       >
-      > A list of versions available for the selected topic is displayed. Each version contains the timestamp, user name, version comment, and [label](web-editor-use-label.md#) information.
+      > 選択したトピックで使用可能なバージョンのリストが表示されます。 各バージョンには、タイムスタンプ、ユーザー名、バージョンコメント、および[ ラベル ](web-editor-use-label.md#)情報が含まれます。
 
-   1. ブランチを作成するバージョンを選択します。 In the following screenshot, version 1.2 is selected for creating a branch.
+   1. ブランチを作成するバージョンを選択します。 次のスクリーンショットでは、ブランチを作成するためにバージョン 1.2が選択されています。
 
-      ![](images/branching.png){width="300" align="left"}
+      ![](images/branching.png){width="300"}
 
       >[!NOTE]
       >
@@ -198,25 +198,25 @@ DITA マップコンソールまたはファイルのプレビューモードか
 
    1. 「**このバージョンに戻す**」をクリックします。
 
-      A message appears asking you to confirm the creation of a new branch.
+      新しいブランチの作成を確認するメッセージが表示されます。
 
    1. *\（Optional\）* メッセージプロンプトで、**現在の作業コピーを新しいバージョンとして保存**&#x200B;を選択するオプションが表示されます。 このオプションの選択に基づいて、次の2つのアクションが可能です。
 
       - このオプションを選択すると、バージョン 1.1からブランチが作成されます。 また、トピックの新しいバージョンもトピックの現在の作業コピーから作成され、次のバージョン - 1.4として保存されます。
 
-        ![](images/next_version_created_over_working_copy.png){width="300" align="left"}
+        ![](images/next_version_created_over_working_copy.png){width="300"}
 
-        Version 1.2 becomes your current working copy of the topic. Any version saved after this is created under the new branch of 1.1. 例えば、このブランチの新しいトピックの後続のバージョンは1.2.0として保存されます。
+        バージョン 1.2は、トピックの現在の作業コピーになります。 この後に保存されたバージョンは、1.1の新しいブランチの下に作成されます。 例えば、このブランチの新しいトピックの後続のバージョンは1.2.0として保存されます。
 
-        ![](images/new_version_in_branch.png){width="300" align="left"}
+        ![](images/new_version_in_branch.png){width="300"}
 
-      - If you do not select this option, then no new version from the current working copy of the topic is created. トピックのバージョン 1.2から新しいブランチが作成されます。 トピックの後続のバージョンは、1.2 ブランチの下に1.2.0、1.2.1などに保存されます。
+      - このオプションを選択しない場合、トピックの現在の作業コピーから新しいバージョンは作成されません。 トピックのバージョン 1.2から新しいブランチが作成されます。 トピックの後続のバージョンは、1.2 ブランチの下に1.2.0、1.2.1などに保存されます。
 
-        ![](images/new_version_without_working_copy.png){width="300" align="left"}
+        ![](images/new_version_without_working_copy.png){width="300"}
 
    1. 「**OK**」をクリックします。
 
 
-  選択したバージョンのトピックから新しいブランチが作成されます。 上記のプロセスは、トピックの特定のバージョンに戻す場合にも適用できます。 特定のバージョンに戻すとは、選択したバージョンから新しいブランチを作成し、そのバージョンをトピックの現在の作業コピーにすることです。 バージョン復元履歴レポートで、復元済みのファイルの履歴を表示することもできます。 このレポートについて詳しくは、[&#x200B; ファイルのバージョン履歴を元に戻すレポート &#x200B;](reports-reverted-file-version-history.md#)を参照してください。
+  選択したバージョンのトピックから新しいブランチが作成されます。 上記のプロセスは、トピックの特定のバージョンに戻す場合にも適用できます。 特定のバージョンに戻すとは、選択したバージョンから新しいブランチを作成し、そのバージョンをトピックの現在の作業コピーにすることです。 バージョン復元履歴レポートで、復元済みのファイルの履歴を表示することもできます。 このレポートについて詳しくは、[ ファイルのバージョン履歴を元に戻すレポート ](reports-reverted-file-version-history.md#)を参照してください。
 
-**親トピック：**&#x200B;[&#x200B; トピックの作成とプレビュー](create-preview-topics.md)
+**親トピック：**[ トピックの作成とプレビュー](create-preview-topics.md)

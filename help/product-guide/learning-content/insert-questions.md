@@ -1,41 +1,41 @@
 ---
-title: 質問バンクから質問を挿入
-description: 製品トレーニングおよび学習用のクイズの質問バンクから質問を挿入する方法を説明します
+title: 質問バンクからの質問の挿入
+description: 製品トレーニングと学習のためにクイズで質問バンクから質問を挿入する方法を説明します
 feature: Authoring
 role: User
 exl-id: dfc247f7-31f9-4bcf-84e2-151993603b89
-source-git-commit: cb8789b0ee0ebdfb864ecac8b00a22c62faf3823
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
 
-# 質問バンクから質問を挿入
+# 質問バンクからの質問の挿入
 
-次の手順を実行して、クイズに質問バンクの質問を挿入します。
+次の手順を実行して、クイズで質問バンクから質問を挿入します。
 
-1. 以下に示すように、ツールバーの **質問** ドロップダウンメニューから **質問バンクから挿入** オプションを選択します。
+1. 以下に示すように、ツールバーの&#x200B;**質問** ドロップダウンメニューから「**質問バンクから挿入**」オプションを選択します。
 
-   ![](assets/question-types.png){width="350" align="left"}
+   ![](assets/question-types.png){width="350"}
 
-   **HTML Question Bank から挿入** ダイアログが表示されます。
+   HTMLの質問バンク **から挿入ダイアログが表示されます。**
 
-1. 次に示すように、リポジトリに格納されている質問バンクへのパスを指定し、クイズに挿入する質問を選択します。 また、**すべてを選択** を使用して、質問バンクのすべての質問を選択できます。
+1. リポジトリに保存されている質問バンクへのパスを指定し、次に示すように、クイズに挿入する質問を選択します。 **すべてを選択**&#x200B;を使用して、質問バンクのすべての質問を選択することもできます。
 
-   ![](assets/question-bank.png){width="650" align="left"}
+   ![](assets/question-bank.png){width="650"}
 
-1. 選択した質問は、編集不可であることを示す青いハイライトでクイズに挿入されます。 ただし、パブリッシュされた出力には通常どおり表示されます。
+1. 選択した質問が青いハイライトでクイズに挿入され、編集できないことを示します。 ただし、パブリッシュされた出力では通常どおりに表示されます。
 
-   ![](assets/specific-questions.png){width="650" align="left"}
+   ![](assets/specific-questions.png){width="650"}
 
-1. さらに、切替スイッチを使用して「**ランダムな質問を選択**」オプションを有効にすることができます。 有効にすると、ランダムに選択する質問の数を定義できます。 2 番目のスクリーンショットに示すように、クイズには、ランダムな質問が挿入されたことを示すプレースホルダーが表示されます。 公開中、システムは質問バンクから指定された数のランダムな質問を自動的に選択して挿入します。
+1. さらに、切り替えスイッチを使用して、**ランダムな質問を選択** オプションを有効にできます。 有効にすると、ランダムに選択する質問の数を定義できます。 次に、2番目のスクリーンショットに示すように、クイズには、ランダムな質問が挿入されたことを示すプレースホルダーが表示されます。 公開中、システムは指定された数のランダムな質問を質問バンクから自動的に選択して挿入します。
 
-   ![](assets/random-question-question-bank.png){width="650" align="left"}
+   ![](assets/random-question-question-bank.png){width="650"}
 
-   以下に示すように、ランダムな質問がクイズに追加されます。
+   以下に示すように、クイズにランダムな質問が追加されます。
 
-   ![](assets/inserted-question.png){width="650" align="left"}
+   ![](assets/inserted-question.png){width="650"}
 
 
-ビデオの概要については、[&#x200B; 質問バンクから質問を挿入 &#x200B;](https://video.tv.adobe.com/v/3475212/learning-content-aem-guides)![](assets/Smock_VideoCheckedOut_18_N.svg) を参照してください。
+簡単なビデオの概要については、[質問バンクからの質問の挿入](https://video.tv.adobe.com/v/3475212/learning-content-aem-guides) ![](assets/Smock_VideoCheckedOut_18_N.svg)を参照してください。

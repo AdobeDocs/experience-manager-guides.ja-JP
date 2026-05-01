@@ -4,9 +4,9 @@ description: Adobe Experience Manager Guidesのマップコンソールから、
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 exl-id: 574806bb-21c5-41fe-b8be-4c6506ce8cce
-source-git-commit: d7e5af83e88de18cd8ac2e849c9d6e1807988099
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '1315'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 0%
 1. **ツール** パネルで、**ガイド**&#x200B;を選択します。
 1. **Bulk Processor** タイルを選択します。
 
-   ![flow-asset-processor](images/flow-asset-processor.png){align="left"}
+   ![flow-asset-processor](images/flow-asset-processor.png)
 
    **Guides Bulk Processor** ページが表示されます。
 
@@ -87,7 +87,7 @@ ht-degree: 0%
    1. **フォルダーとファイルを選択**：移動して、処理する1つまたは複数のフォルダーとファイルを選択します。
    1. **無視するフォルダーを選択**：オプションで、選択した親フォルダー内のサブフォルダーを選択して、移行から除外します。
 
-   ![new-process-baseline](images/new-process-baseline.png){align="left"}
+   ![new-process-baseline](images/new-process-baseline.png)
 
 1. 「**作成**」を選択します。
 
@@ -95,11 +95,11 @@ ht-degree: 0%
 
 **ログを表示**&#x200B;を選択して、移行タスクのログを確認およびダウンロードすることもできます。
 
-![view-logs-baseline](images/view-logs-baseline.png){align="left"}
+![view-logs-baseline](images/view-logs-baseline.png)
 
 ログレポートには、移行されたマップの数、正常に移行されたベースライン、および関連する詳細など、移行の詳細が表示されます。
 
-![logs-detail-baseline](images/logs-detail-baseline.png){align="left"}
+![logs-detail-baseline](images/logs-detail-baseline.png)
 
 >[!NOTE]
 >
@@ -107,7 +107,7 @@ ht-degree: 0%
 
 ## 新しいベースラインの使用
 
-新しいベースラインモデルでは、Experience Manager Guidesの既存のベースラインフィーチャーと同じワークフローとユーザーインターフェイスを使用します。 使用可能なオプションを使用して、[Map コンソール &#x200B;](./web-editor-baseline.md)からベースラインを作成および管理できます。
+新しいベースラインモデルでは、Experience Manager Guidesの既存のベースラインフィーチャーと同じワークフローとユーザーインターフェイスを使用します。 使用可能なオプションを使用して、[Map コンソール ](./web-editor-baseline.md)からベースラインを作成および管理できます。
 
 >[!NOTE]
 >
@@ -131,7 +131,7 @@ ht-degree: 0%
    - **プロパティを編集**：既存のベースラインのプロパティを編集できます。
    - **再構築**：変更が発生するたびに、動的ベースラインを再構築できます。
 
-     ![rebuild-baseline](images/rebuild-baseline.png){align="left"}
+     ![rebuild-baseline](images/rebuild-baseline.png)
 
 - **ダウンロード** アクションは、ページ分割されたダウンロードをサポートしています。 適用されたフィルターに一致するすべてのベースラインコンテンツは、現在のページに表示されるコンテンツだけでなく、ダウンロードに含まれます。
 - ファイル名またはファイルの場所に加えて、GUIDでファイルをフィルタリングします。 ラベルのない&#x200B;**フィルターファイル**&#x200B;に対する追加オプションも使用できます。
@@ -150,13 +150,13 @@ ht-degree: 0%
    - 編集するファイルに移動し、カーソルを合わせます。
    - 「**編集**」アイコンを選択します。
 
-     ![edit-baseline-icon](images/edit-baseline-icon.png){align="left"}
+     ![edit-baseline-icon](images/edit-baseline-icon.png)
 
      **バージョンを編集** ダイアログが表示されます。
    - **バージョン** ドロップダウンから必要なバージョンを選択します（例えば、バージョン 1.0から1.1に変更）。
 
 
-     ![edit-version-baseline](images/edit-version-baseline.png){align="left"}
+     ![edit-version-baseline](images/edit-version-baseline.png)
 
      追加および削除された依存関係が評価され、プレビューとして表示されます。 変更を適用する前に、変更を確認します。
 

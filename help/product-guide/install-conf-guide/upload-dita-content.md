@@ -4,9 +4,10 @@ description: WebDAV ツールとFrameMakerを使用して、Experience Manager G
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 53eb863a-094f-4445-ab4b-d5fca2249c30
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -81,7 +82,7 @@ FrameMakerのAEM コネクタを使用してコンテンツをアップロード
 
 1. **接続マネージャー** ダイアログを開きます。
 
-   ![](assets/fm-aem-connector.png){width="550" align="left"}
+   ![](assets/fm-aem-connector.png){width="550"}
 
 1. AEM リポジトリに接続するには、次の詳細を入力します。
 
@@ -90,11 +91,11 @@ FrameMakerのAEM コネクタを使用してコンテンツをアップロード
 
    - **ユーザー名**/**パスワード**: AEM サーバーにアクセスするためのユーザー名とパスワードを入力します。
 
-1. **Connect**&#x200B;を選択します。
+1. 「**接続**」を選択します。
 
    接続が正常に確立されると、AEM リポジトリのAssetsがRepository Manager ウィンドウに表示されます。
 
-   ![](assets/fm-repo-manager.png){width="550" align="left"}
+   ![](assets/fm-repo-manager.png){width="550"}
 
    任意のファイルまたはフォルダーを右クリックすると、関連する操作を実行できます。 例えば、フォルダーを右クリックすると、ファイルのアップロード、依存関係を持つファイルのアップロード、フォルダー全体のアップロードなどのオプションが表示されます。
 
@@ -103,4 +104,4 @@ FrameMakerのAEM コネクタを使用してコンテンツをアップロード
 
 
 
-**親トピック：**&#x200B;[&#x200B;既存のコンテンツを移行](migrate-content.md)
+**親トピック：**[&#x200B;既存のコンテンツを移行](migrate-content.md)

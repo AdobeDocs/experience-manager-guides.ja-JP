@@ -1,137 +1,137 @@
 ---
-title: Cloud Services 用のAEM Sites テンプレートのダウンロードとインストール
-description: クラウドサービス用のAEM Sites テンプレートをダウンロードしてインストールする方法を説明します
+title: Cloud Services用AEM Sites テンプレートのダウンロードとインストール
+description: クラウドサービス用AEM Sites テンプレートのダウンロードとインストール方法について説明します
 feature: Installation
 role: Admin
 level: Experienced
 exl-id: 67f7ff26-fbc7-426c-aa7d-9bf4debf05d8
-source-git-commit: 4c564a0ffaa8f287bcaf012634d49dbf1e0682b4
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '705'
 ht-degree: 1%
 
 ---
 
-# AEM Sites テンプレート（Cloud Services）のダウンロードとインストール
+# AEM Sites テンプレートのダウンロードとインストール（クラウドサービス）
 
-このガイドでは、クラウド環境でAEM Sites ページを生成するための最新のAEM Guides テンプレートをセットアップおよび設定する手順を説明します。 次の手順に従って、必要なパッケージをインストールし、プリセットを作成および設定して、AEM Sitesを生成します。
+このガイドでは、クラウド環境でAEM Sites ページを生成するための最新のAEM Guides テンプレートを設定および設定する手順を説明します。 必要なパッケージのインストール、プリセットの作成と設定、AEM Sitesの生成を行うには、次の手順に従います。
 
 ## 前提条件
 
-設定を進める前に、次の前提条件が満たされていることを確認します。
+設定に進む前に、次の前提条件が満たされていることを確認します。
 
-- **Adobe Experience Manager （AEM） Cloud**: **AEM as a Cloud Service** の実行中のインスタンスで、**AEM Guides 2502 以降のバージョン** を持ちます。
+- **Adobe Experience Manager （AEM） Cloud**: **AEM Guides 2502以降のバージョン**&#x200B;を含む&#x200B;**AEM as a Cloud Service**&#x200B;の実行中のインスタンス。
 
-- **必要な権限**：次の権限が必要です。
+- **必要な権限**：次の権限が必要です：
 
-   - **Cloud Manager** にアクセスしてパッケージをデプロイします。
-   - 環境に関連付けられた **Git リポジトリー** にアクセスします。
-   - AEM Guidesでプリセットを作成および変更する権限。
+   - パッケージをデプロイするための&#x200B;**Cloud Manager**&#x200B;へのアクセス。
+   - 環境に関連付けられた&#x200B;**Git リポジトリ**&#x200B;へのアクセス。
+   - AEM Guidesでプリセットを作成および変更するための権限。
 
-- **パッケージをダウンロード**：ソフトウェア配布ポータルから次のパッケージをダウンロードします。
+- **パッケージをダウンロード**: ソフトウェア配布ポータルから次のパッケージをダウンロードします。
 
    - コンポーネントパッケージ：guides-components.all-1.x.0.zip
-   - Sites テンプレート：aemg-docs-1.x.0.zip
+   - サイトテンプレート：aemg-docs-1.x.0.zip
 
-## クラウドデプロイメントを介したパッケージのインストール
+## クラウドデプロイメントによるパッケージインストール
 
-**コンポーネントパッケージ（guides-components.all-1.x.x.zip）をインストールして** 次の手順を実行します
+**コンポーネントパッケージ（guides-components.all-1.x.x.zip）**&#x200B;をインストールし、次の手順を実行します
 
-1. **Git リポジトリのクローン：**
-   1. Cloud Managerの左側のパネルで **リポジトリ** に移動します。
-   2. **リポジトリ情報にアクセス** を選択し、Git clone コマンドをコピーします。
+1. **クローン Git リポジトリ：**
+   1. Cloud Managerの左側のパネルで&#x200B;**Repositories**&#x200B;に移動します。
+   2. 「**リポジトリ情報にアクセス**」を選択し、Git clone コマンドをコピーします。
 
-      ![&#x200B; リポジトリ情報にアクセスを選択 &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/access-repo.png){width="350" align="left"}
+      ![ アクセス リポジトリ情報を選択](/help/product-guide/knowledge-base/kb-articles/assets/publishing/access-repo.png){width="350"}
 
-   3. 指定されたユーザー名とパスワード（必要に応じてパスワードを生成）を使用して、リポジトリのクローンをローカルシステムに作成します。
-2. **Maven バンドルにパッケージを追加：**
-   1. ローカルで複製されたリポジトリで、新しい Maven バンドルを作成するか、既存のバンドルに追加します。
-   2. インストールす `/jcr_root/apps/fmdita/` 構造が Maven プロジェクトに存在することを確認します。
+   3. 提供されたユーザー名とパスワードを使用して、リポジトリをローカルシステムに複製します（必要に応じてパスワードを生成します）。
+2. **パッケージをMaven バンドルに追加：**
+   1. ローカルに複製したリポジトリーで、新しいMaven バンドルを作成するか、既存のバンドルに追加します。
+   2. Maven プロジェクトに構造`/jcr_root/apps/fmdita/` インストールが存在することを確認します。
 
-      ![Maven プロジェクトの構造 &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/maven-structure.png){width="650" align="left"}
+      Maven プロジェクトの![構造](/help/product-guide/knowledge-base/kb-articles/assets/publishing/maven-structure.png){width="650"}
 
 
-   3. ダウンロードした guides-components.all-1.x.x.zip ファイルをインストールフォルダーに配置します。
+   3. ダウンロードしたguides-components.all-1.x.x.zip ファイルをインストールフォルダーに配置します。
 
-3. **filters.xml の更新：**
+3. **filters.xmlの更新：**
 
-   1. 親コンテンツディレクトリのMETA-INF フォルダーにある filters.xml ファイルを開きます。
+   1. 親コンテンツディレクトリのMETA-INF フォルダーにあるfilters.xml ファイルを開きます。
    2. 次のフィルターを追加します：filter root=`/apps/fmdita` mode=`merge`/
 
 
-      ![&#x200B; フィルターを追加 &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-filter-xml.png){width="650" align="left"}
+      ![ フィルターを追加](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-filter-xml.png){width="650"}
 
 
-4. **pom.xml を設定：** 環境要件に従って pom.xml ファイルを更新します。
+4. **pom.xmlの設定：**&#x200B;環境要件に従ってpom.xml ファイルを更新します。
 5. **変更をプッシュしてパイプラインを実行：**
-   1. 変更をメイン Git リポジトリにプッシュします。
-   2. Cloud Managerの **パイプライン** に移動し、目的の環境でパイプラインを実行します。
-6. **インストールの確認：** デプロイメントが完了すると、コンポーネントパッケージがAEM Cloud Environment にインストールされます。
+   1. 変更をメインのGit リポジトリにプッシュします。
+   2. Cloud Managerの&#x200B;**パイプライン**&#x200B;に移動し、目的の環境に対してパイプラインを実行します。
+6. **インストールの確認：** デプロイメントが完了すると、コンポーネントパッケージがAEM Cloud環境にインストールされます。
 
-## インストールされたテンプレートを使用してサイトを作成
+## インストール済みテンプレートを使用したサイトの作成
 
-1. **サイトテンプレートを読み込み：**
-   1. AEM Sitesページ（servername/sites.html/content）に移動します。
-   2. テンプレートから **作成**/**サイト** を選択します。
-   3. **Import** オプションを使用して、サイトテンプレート aemg-docs-1.x.x.zip を読み込みます。
-2. **テンプレートを選択：**&#x200B;**AEMG ドキュメント 1.x.x** を選択してから「**次へ**」を選択します。
-3. **サイトの詳細を入力：** **サイトのタイトル** および **サイト名** を入力します。
+1. **サイトテンプレートの読み込み：**
+   1. AEM Sites ページ（servername/sites.html/content）に移動します。
+   2. テンプレートから&#x200B;**Create** > **Site**&#x200B;を選択します。
+   3. **Import** オプションを使用して、サイトテンプレート aemg-docs-1.x.x.zipをインポートします。
+2. **テンプレートを選択：** **AEMG Docs 1.x.x**&#x200B;を選択し、**次へ**&#x200B;を選択します。
+3. **サイトの詳細を入力：** **サイトのタイトル**&#x200B;と&#x200B;**サイト名**&#x200B;を入力します。
 
-   ![サイトの作成](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-site.png){width="350" align="left"}
+   ![サイトの作成](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-site.png){width="350"}
 
 4. 「**作成**」を選択します。
 
-## AEM サイトプリセットを作成
+## AEM サイトプリセットの作成
 
-1. **新しいプリセットを作成する：**
-   1. AEM Guidesで DITA マップを開き、**出力** パネルに移動します。
-   2. **プリセットを作成** を選択します。
-   3. タイプを **AEM Sites** として選択します。
+1. **新しいプリセットを作成：**
+   1. AEM GuidesでDITA マップを開き、**出力** パネルに移動します。
+   2. 「**プリセットを作成**」を選択します。
+   3. 型を&#x200B;**AEM Sites**&#x200B;として選択します。
    4. プリセットの名前を入力します。
-   5. 「**従来のコンポーネントマッピングを使用**」設定をオフにします。
+   5. **従来のコンポーネントマッピングを使用**&#x200B;設定のチェックを外します。
 
-      ![&#x200B; 新しいAEM サイトプリセットの作成 &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-output-preset.png){width="350" align="left"}
+      ![新しいAEM サイトプリセットを作成](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-output-preset.png){width="350"}
 
    6. 「**追加**」を選択して、プリセットを作成します。
-2. **AEM サイトプリセットを設定する：** 標準提供（OOTB）サイトを設定するには、次の 2 つのオプションがあります。
+2. **AEM サイト プリセットの設定：**&#x200B;標準（OOTB）サイトを設定するには、次の2つのオプションがあります。
 
-   **オプション 1：サイトのドロップダウンを使用する**
+   **オプション 1: サイト ドロップダウンの使用**
 
-   1. **サイト** を、上記で作成したものとして選択します（例：AEMG ドキュメントサイト）。
-   2. **公開パス** と **トピックページ** テンプレートが自動的に次のように設定されていることを確認します。
+   1. **サイト**&#x200B;を上記のように選択します（例：AEMG Docs サイト）。
+   2. **公開パス**&#x200B;および&#x200B;**トピックページ** テンプレートが自動的に次のように設定されていることを確認します。
       - 公開パス：`/content/AEMG-Docs-Site/en/docs/product`
       - トピックページテンプレート：トピックページ
 
-      ![&#x200B; サイトドロップダウンを使用して、AEM サイトを設定します &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown-cs.png){width="350" align="left"}
+      ![ サイト ドロップダウンを使用して、AEM サイトを設定します](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown-cs.png){width="350"}
 
-   **オプション 2：サイトパスの使用**
+   **オプション 2: サイト パスを使用**
 
-   1. 必要に応じて **サイトパス** を手動で設定 `/content/AEMG-Docs-Site/en/docs/product` ます。
-   2. **トピック ページ** テンプレートが自動的にトピック ページに設定されていることを確認します。
+   1. **サイトパス**&#x200B;を手動で`/content/AEMG-Docs-Site/en/docs/product`として設定します。
+   2. **トピックページ** テンプレートが自動的にトピックページに設定されていることを確認します。
 
-      ![&#x200B; サイトパスを使用してAEM サイトを設定します &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path-cs.png){width="650" align="left"}
+      ![ サイト パスを使用してAEM サイトを構成する](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path-cs.png){width="650"}
 
 3. **プリセットを保存：** プリセットに加えた変更を保存します。
 
 ## AEM Sitesを生成
 
-1. **サイトの生成：**
-   1. プリセットを設定した状態で、対応する DITA マップのAEM サイトを生成します。
-   2. 生成されたサイトは、次のパスで使用できます。`/content/AEMG-Docs-Site/en/docs/product`
-2. **デフォルトの生成パスを変更（オプション）:** サイト生成のデフォルトパスを変更する場合は、次の手順を実行します。
-   1. **AEM Sites** に移動します。
+1. **サイトを生成：**
+   1. プリセットが設定された状態で、対応するDITA マップのAEM サイトを生成します。
+   2. 生成されたサイトは、次のパスで利用できます：`/content/AEMG-Docs-Site/en/docs/product`。
+2. **既定の生成パスの変更（オプション）:** サイト生成用の既定のパスを変更する場合は、次の手順を実行します。
+   1. **AEM Sites**&#x200B;に移動します。
    2. OOTB サイト構造の下に新しい製品ページを作成します。
-   3. **AEMG Docs**/**English**/**Docs** に移動します。
+   3. **AEMG Docs** > **English** > **Docs**&#x200B;に移動します。
 
-      ![ページを作成](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-page-cs.png){width="650" align="left"}
+      ![ページを作成](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-page-cs.png){width="650"}
 
-   4. **ホームページ** タイルを選択してから、「**次へ**」を選択します。
+   4. 「**ホームページ**」タイルを選択し、「**次へ**」を選択します。
 
-      ![&#x200B; ホームタイルを選択 &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-tile-cs.png){width="650" align="left"}
+      ![ ホームタイルを選択](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-tile-cs.png){width="650"}
 
-   5. ページの **タイトル** と **名前** を入力します。
+   5. ページの&#x200B;**タイトル**&#x200B;と&#x200B;**名前**&#x200B;を入力します。
    6. 「**作成**」を選択します。
 
 >[!NOTE]
 >
-> 実稼動環境にデプロイする前に、すべての設定が実稼動以外の環境でテストされていることを確認します。 <br><br> 詳しくは、公式の [AEM as a Cloud Serviceへのデプロイ ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/implementing/deploying/overview) を参照してください。
+> 本番環境にデプロイする前に、すべての設定が非本番環境でテストされていることを確認します。<br><br> 詳しくは、[AEM as a Cloud Serviceへのデプロイに関する公式ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview)を参照してください。

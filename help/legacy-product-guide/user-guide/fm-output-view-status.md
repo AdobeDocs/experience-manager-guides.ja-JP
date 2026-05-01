@@ -5,7 +5,7 @@ feature: Publishing FrameMaker Documents
 role: User
 hide: true
 exl-id: bf5a4365-0183-43d5-a39a-b9eb8a34b27d
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 0%
@@ -22,7 +22,7 @@ FrameMaker ドキュメントの出力生成タスクを開始すると、AEM Gu
 
 1. 「出力」をクリックします。
 
-   ![](images/output-queued-fm.png){width="800" align="left"}
+   ![](images/output-queued-fm.png){width="800"}
 
 1. 出力ページは、次の2つの部分に分かれています。
 
@@ -37,4 +37,4 @@ FrameMaker ドキュメントの出力生成タスクを開始すると、AEM Gu
      このリストでは、正常に実行されたタスクまたは失敗したタスクがある場合があります。 正常に完了したタスクに対して、公開プロセスによってログファイル \（logs.txt\）が作成されます。このログファイルには、「生成時」列のリンクをクリックしてアクセスできます。
 
 
-**親トピック：**&#x200B;[&#x200B; FrameMaker ドキュメントの出力を生成](fm-output-generatation.md)
+**親トピック：**[ FrameMaker ドキュメントの出力を生成](fm-output-generatation.md)

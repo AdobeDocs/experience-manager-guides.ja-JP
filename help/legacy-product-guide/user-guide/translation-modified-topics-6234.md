@@ -5,7 +5,7 @@ feature: Translation
 role: User
 hide: true
 exl-id: b623b109-8695-40e5-9e28-78f78cf57ad6
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 
    矢印をクリックすると、詳細が表示されます。 特定の言語コピーが古くなっているのを確認できます。
 
-   ![](images/out-of-sync-uuid.png){width="800" align="left"}
+   ![](images/out-of-sync-uuid.png){width="800"}
 
 1. チェックボックスをクリックして、再翻訳のために送信するトピックを選択します。
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 1. プロジェクトコンソールで翻訳プロジェクトに移動します。 新しい翻訳ジョブ カードがフォルダーに作成されます。 省略記号をクリックして、フォルダーのアセットを表示します。
 
-   ![](images/incremental-job.PNG){width="300" align="left"}
+   ![](images/incremental-job.PNG){width="300"}
 
 1. 翻訳を開始するには、翻訳ジョブ カードの矢印をクリックし、リストから&#x200B;**開始**&#x200B;を選択します。 ジョブが開始されたことを知らせるメッセージが表示されます。
 
@@ -79,4 +79,4 @@ ht-degree: 0%
 1. Assets UIのソース言語フォルダーにあるDITA マップファイルに戻ります。 再翻訳されたトピックが同期されます。
 
 
-**親トピック：**&#x200B;[&#x200B; コンテンツを翻訳](translation.md)
+**親トピック：**[ コンテンツを翻訳](translation.md)

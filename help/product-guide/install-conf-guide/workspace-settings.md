@@ -3,10 +3,11 @@ title: Experience Manager GuidesのWorkspace設定
 description: Experience Manager Guidesのエディターインターフェイスで使用できるさまざまな設定について説明します。
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 453da51a42984b912547570f2e1de70806b41171
+exl-id: 10df0495-1d52-4c7c-a11a-059fe72d09f2
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '2191'
-ht-degree: 0%
+source-wordcount: '2220'
+ht-degree: 1%
 
 ---
 
@@ -14,11 +15,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> オンプレミス設定では、エディターのタブバーに「**設定**」オプションが表示されます。 Cloud Service設定では、このオプションの名前が&#x200B;**Workspace settings**&#x200B;に変更されました。 **エディター設定**&#x200B;で使用できる既存の設定オプションはすべて変更されません。
-> ![オンプレミス &#x200B;](assets/editor-settings-on-prem.png){width="650" align="left"}のエディター設定
+> オンプレミス設定では、エディターのタブバーに「**設定**」オプションが表示されます。 Cloud Service設定では、このオプションの名前が&#x200B;**Workspace settings**&#x200B;に変更されました。 **エディター設定**で使用できる既存の設定オプションはすべて変更されません。
+> ![オンプレミス ](assets/editor-settings-on-prem.png){width="650"}のエディター設定
 
 
-エディターの&#x200B;**タブバー**&#x200B;にある[Workspace settings](../user-guide/web-editor-tab-bar.md) オプションは、管理者およびフォルダープロファイル管理者のみが使用でき、次の設定を行うことができます。
+エディターの[ タブバー](../user-guide/web-editor-tab-bar.md)にある&#x200B;**Workspace settings** オプションは、管理者およびフォルダープロファイル管理者のみが使用でき、次の設定を行うことができます。
 
 - [一般](#general)
 - [パネル](#panels)
@@ -41,10 +42,10 @@ ht-degree: 0%
 
 一般設定では、エディターを使用する設定を設定できます。 このタブには、**AI アシスタント**、**オーサリング**、**引用**、**条件**、**スペルチェック**&#x200B;の5つのセクションがあります。
 
-![](../user-guide/images/editor-setting-general.png){width="350" align="left"}
+![](../user-guide/images/editor-setting-general.png){width="350"}
 
 - **AI アシスタント**
-これを選択して、Experience Manager Guidesの[AI アシスタント &#x200B;](../user-guide/ai-assistant.md)機能を有効にします。 この機能を無効にするには、選択を解除します。
+これを選択して、Experience Manager Guidesの[AI アシスタント ](../user-guide/ai-assistant.md)機能を有効にします。 この機能を無効にするには、選択を解除します。
 
   **AI アシスタント**&#x200B;切り替えスイッチを有効にした後、次に示すように、**オーサリングクイックアクション** メニューを使用して、作成者の&#x200B;**オーサリングタブ**&#x200B;に表示されるオプションを設定できます。\
   これらの変更は、作業中の特定のフォルダープロファイルに適用されます。 新しいフォルダープロファイルを作成すると、デフォルトで&#x200B;**Global** フォルダープロファイルで定義されているWorkspace設定が継承されます。 これらの設定は、**Workspace設定**&#x200B;を使用して必要に応じて変更し、更新された設定を保存できます。\
@@ -56,7 +57,7 @@ ht-degree: 0%
 
    - オプションが表示される順序を変更し、必要に応じてドラッグ&amp;ドロップします。
 
-  ![](../user-guide/images/authoring-quick-actions-new.png){width="350" align="left"}
+  ![](../user-guide/images/authoring-quick-actions-new.png){width="350"}
 
 
 
@@ -76,23 +77,23 @@ ht-degree: 0%
 
    - **件名パネルでタイトル付きのキーを表示**：これを選択すると、件名スキームのタイトルと共にキーが表示されます。 このオプションを選択しない場合は、タイトルのみが表示されます。 例えば、ここではキー「os」、「audience」、「other」もタイトルと共に表示されます。
 
-     ![](../user-guide/images/subject-scheme-title.png){width="550" align="left"}
+     ![](../user-guide/images/subject-scheme-title.png){width="550"}
 
    - **条件パネルで件名スキームを表示**：条件パネルで件名スキームを表示するには、これを選択します。 これを選択解除すると、定義された条件が条件パネルに表示されます。
 
 - **スペルチェック**
-選択肢は2つあります。**AEM スペルチェック**&#x200B;と&#x200B;**ブラウザーのスペルチェック**。 デフォルトでは、エディターはブラウザーのスペルチェック機能を使用します。スペルチェックは、ブラウザーの組み込み辞書を使用して実行されます。 AEM スペルチェックに切り替えて、Adobe Experience Managerの辞書を使用できます。また、カスタム単語リストを追加するようにカスタマイズすることもできます。 AEM ディクショナリのカスタマイズについて詳しくは、「AEM as a Cloud Serviceのインストールと設定」の「[Adobe Experience Manager Guidesのデフォルトディクショナリをカスタマイズ &#x200B;](../install-conf-guide/customize-aem-default-dictionary.md)」セクションを参照してください。
+選択肢は2つあります。**AEM スペルチェック**&#x200B;と&#x200B;**ブラウザーのスペルチェック**。 デフォルトでは、エディターはブラウザーのスペルチェック機能を使用します。スペルチェックは、ブラウザーの組み込み辞書を使用して実行されます。 AEM スペルチェックに切り替えて、Adobe Experience Managerの辞書を使用できます。また、カスタム単語リストを追加するようにカスタマイズすることもできます。 AEM ディクショナリのカスタマイズについて詳しくは、「AEM as a Cloud Serviceのインストールと設定」の「[Adobe Experience Manager Guidesのデフォルトディクショナリをカスタマイズ ](../install-conf-guide/customize-aem-default-dictionary.md)」セクションを参照してください。
 
 
 ## パネル
 
 この設定は、エディターとマップコンソールの左右のパネルに表示されるパネルを制御します。 ボタンを切り替えて、目的のパネルを表示または非表示にすることができます。
 
-![](../user-guide/images/editor-setting-panel.png){width="650" align="left"}
+![](../user-guide/images/editor-setting-panel.png){width="650"}
 
 パネルに表示されるフィーチャの表示順序を定義することもできます。 パネルで使用可能な機能のデフォルトの順序を変更するには、点線の棒を選択して、機能タブを目的の場所にドラッグ&amp;ドロップします。 機能は、**More** セクションからパネルのメインセクションに移動したり、その逆も必要に応じて移動したりできます。 並べ替えると、機能は左右のパネルに同じ順序で表示されます。
 
-![](../user-guide/images/panels-screen-new.png){width="650" align="left"}
+![](../user-guide/images/panels-screen-new.png){width="650"}
 
 
 一度に最大8つのパネルを表示できます。 パネル設定に加えられた変更は、すぐに適用されます。
@@ -106,23 +107,23 @@ ht-degree: 0%
 
 管理者は、作成者がファイルに挿入できる要素のリストを制御し、要素の表示名を定義することもできます。 エレメントのリスト設定では、DITAの仕様に従ってエレメントの名前を指定し、DITAで定義されたエレメント名の代わりに使用するラベルを指定できます。
 
-![](../user-guide/images/editor-setting-element-list.png){width="650" align="left"}
+![](../user-guide/images/editor-setting-element-list.png){width="650"}
 
-上のスクリーンショットでは、`p`要素に段落のラベルが付けられ、`codeblock`には他の要素と共にコードブロックのラベルが付けられています。 **上記のエレメントのみを使用** オプションを選択すると、このリストの有効なエレメント \（現在の挿入ポイント\）のみが&#x200B;**エレメントを挿入** ダイアログボックスに表示されます。
+上のスクリーンショットでは、`p`要素に段落のラベルが付けられ、`codeblock`には他の要素と共にコードブロックのラベルが付けられています。**上記のエレメントのみを使用** オプションを選択すると、このリストの有効なエレメント \（現在の挿入ポイント\）のみが&#x200B;**エレメントを挿入** ダイアログボックスに表示されます。
 
 次のスクリーンショットでは、前のスクリーンショットで設定した4つの要素のうち、現在のコンテキストに表示されているのは3つだけです。
 
-![](../user-guide/images/editor-setting-insert-element-list.PNG){width="300" align="left"}
+![](../user-guide/images/editor-setting-insert-element-list.PNG){width="300"}
 
 ## 属性リスト
 
 エレメント リストと同様に、エレメントの属性リストに表示される属性とその表示名のリストを制御できます。 次のスクリーンショットでは、要素の属性リストに表示するように設定されている属性は3つだけです。
 
-![](../user-guide/images/editor-setting-attributes-list.png){width="650" align="left"}
+![](../user-guide/images/editor-setting-attributes-list.png){width="650"}
 
 この設定では、要素に属性を追加しようとすると、リストに設定された属性のリストのみが表示されます。
 
-![](../user-guide/images/editor-setting-add-attributes-list.png){width="300" align="left"}
+![](../user-guide/images/editor-setting-add-attributes-list.png){width="300"}
 
 
 ## カラー
@@ -154,11 +155,11 @@ ht-degree: 0%
 
    - Salesforce プロファイルを作成するには、**Server type** ドロップダウンから&#x200B;**Salesforce** Knowledge Baseを選択します。 プロファイル名を入力します。 **サイト URL**&#x200B;に、出力の公開に使用するコンシューマーサイトを入力し、Salesforce コンシューマーサイトから提供された&#x200B;**Consumer Key**&#x200B;および&#x200B;**Consumer Secret**&#x200B;を追加します。 次に、**新しく作成したプロファイルを**&#x200B;検証し、**保存**&#x200B;します。
 
-     ![&#x200B; ワークスペース設定のsalesforce公開プロファイル &#x200B;](../user-guide/images/salesforce-publish-profile.png){width="550" align="left"}
+     ![ ワークスペース設定のsalesforce公開プロファイル ](../user-guide/images/salesforce-publish-profile.png){width="550"}
 
      >[!NOTE]
      >
-     >AEMでSalesforceのプロキシを設定するには、Experience Manager GuidesでApache HTTP Components Proxy Configurationを使用します。 AEM Link Checker[のプロキシを](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html)設定する方法について説明します。
+     >AEMでSalesforceのプロキシを設定するには、Experience Manager GuidesでApache HTTP Components Proxy Configurationを使用します。 AEM Link Checker](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html)のプロキシを[設定する方法について説明します。
 
 
 **ServiceNow プロファイルの作成**
@@ -179,11 +180,11 @@ ht-degree: 0%
 
 - プロファイルを作成するには、**Server type** ドロップダウンからServiceNow Knowledge Baseを選択します。 プロファイル **名前**&#x200B;を入力します。 **ServiceNow URL**&#x200B;に、出力の公開に使用するコンシューマーサイトを入力し、ServiceNow コンシューマーサイトから提供される&#x200B;**ユーザー名**&#x200B;と&#x200B;**パスワード**&#x200B;を追加します。 次に、**新しく作成したプロファイルを**&#x200B;検証し、**保存**&#x200B;します。
 
-  ![ServiceNow パブリッシュプロファイル &#x200B;](../user-guide/images/service-now-publish-profile.png){width="550" align="left"}
+  ![ServiceNow パブリッシュプロファイル ](../user-guide/images/service-now-publish-profile.png){width="550"}
 
   検証後、DITA マップの出力プリセットで公開プロファイルを選択し、それを使用して、選択した&#x200B;**Salesforce**&#x200B;または&#x200B;**ServiceNow** サーバーに出力を生成できます。
 
-  [&#x200B; ナレッジベース &#x200B;](../user-guide/generate-output-knowledge-base.md)出力プリセットについて詳しく説明します。
+  [ ナレッジベース ](../user-guide/generate-output-knowledge-base.md)出力プリセットについて詳しく説明します。
 
 
 ## 検証
@@ -197,13 +198,13 @@ ht-degree: 0%
   >- 選択したSchematron ファイルは、選択したフォルダープロファイルに対して保持されます。
   >- 無効なSchematron ファイルが追加されると、次に示すように、エラーメッセージが表示されます。
 
-  ![&#x200B; ワークスペース設定での検証](../user-guide/images/editor-setting-validation-error.png){width="550" align="left"}
+  ![ ワークスペース設定での検証](../user-guide/images/editor-setting-validation-error.png){width="550"}
 
   これにより、選択したSchematron ファイルで定義されたルールを破るファイルをユーザーが保存できなくなります。 これが選択されていない場合、変更を保存する前にファイルが検証されません。
 
 - **すべてのユーザーが検証パネルにスキーマトロンファイルを追加することを許可する**：これを選択すると、ユーザーはエディターの検証パネルにスキーマトロンファイルを追加できます。 これにより、ユーザーはSchematron ファイルを追加し、Schematron ファイルに対してトピックを検証できます。 これを選択しない場合、エディターの&#x200B;**検証パネル**&#x200B;のユーザーは、スキーマトロンファイル **スキーマトロンファイル**&#x200B;を追加するオプションを利用できません。
 
-  ![&#x200B; ワークスペース設定での検証](../user-guide/images/editor-setting-validation.png){width="550" align="left"}
+  ![ ワークスペース設定での検証](../user-guide/images/editor-setting-validation.png){width="550"}
 
 
 ## 表示属性
@@ -212,13 +213,13 @@ ht-degree: 0%
 
 エレメントに対して定義された属性は、レイアウトおよびアウトライン表示に表示されます。
 
-![](../user-guide/images/editor-settings-display-attributes.png){width="550" align="left"}
+![](../user-guide/images/editor-settings-display-attributes.png){width="550"}
 
 ## 翻訳
 
 このタブには、言語グループの作成、ソースラベルのターゲットバージョンへの反映、翻訳プロジェクトのクリーンアップを行うためのオプションが含まれています。
 
-![](../user-guide/images/editor-setting-translation.png){width="550" align="left"}
+![](../user-guide/images/editor-setting-translation.png){width="550"}
 
 - **言語グループ**：管理者は、言語のグループを作成し、それらをセットとして使用してコンテンツを翻訳できます。
 
@@ -236,7 +237,7 @@ ht-degree: 0%
       >
       > **表示の切り替え**&#x200B;から&#x200B;**表示の切り替え**&#x200B;の切り替え。一部の言語のみを表示します。
 
-   1. グループ内の言語にカーソルを合わせて![編集アイコン &#x200B;](../user-guide/images/edit_pencil_icon.svg)を編集するか、言語グループを![削除](../user-guide/images/Delete_icon.svg)します。
+   1. グループ内の言語にカーソルを合わせて![編集アイコン ](../user-guide/images/edit_pencil_icon.svg)を編集するか、言語グループを![削除](../user-guide/images/Delete_icon.svg)します。
    1. **設定**&#x200B;を保存します。
 
       >[!NOTE]
@@ -259,11 +260,11 @@ ht-degree: 0%
 メタデータパスが空白の場合は、エラーが表示されます。 ラベルを空白のままにすると、最後の要素がラベルとして選択されます。
 
 
-ワークスペース設定の「![&#x200B; メタデータ」タブ &#x200B;](../user-guide/images/editor-setting-metadata.png){width="550" align="left"}
+ワークスペース設定の「![ メタデータ」タブ ](../user-guide/images/editor-setting-metadata.png){width="550"}
 
 *バージョン履歴&#x200B;**ダイアログボックスのメタデータを設定します。***
 
 
 
 これらのメタデータタグを表示する順序を定義することもできます。 これらのタグのデフォルトの順序を変更するには、点線バーを選択して、タグを目的の場所にドラッグ&amp;ドロップします。
-メタデータラベルは、エディターの&#x200B;**バージョン履歴** ダイアログボックスに同じ順序で表示されます。
+メタデータラベルは、エディターの**バージョン履歴** ダイアログボックスに同じ順序で表示されます。
