@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: f8397acf-acd3-4e68-adce-9adbbef55337
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 1%
@@ -42,21 +42,21 @@ AEM Guidesでは、関連するDITA属性を使用して、条件付き属性を
 
 1. 属性に&#x200B;**名前**、**値**&#x200B;および&#x200B;**ラベル**&#x200B;を入力します。
 
-   You can save a profile with only the attribute name. However, an attribute can only be used when it has a value specified to it. If you specify both - value and label for an attribute, the Web Editor would still show only the value of the attribute. The label is shown to the publishing administrator at the time of creating conditional preset.
+   属性名のみでプロファイルを保存できます。 ただし、属性は、値が指定されている場合にのみ使用できます。 属性に値とラベルの両方を指定した場合でも、Web エディターには属性の値のみが表示されます。 ラベルは、コンディショナルプリセットの作成時に公開管理者に表示されます。
 
-   The following screenshot shows the definition for the `platform` attribute with value of `unix` and a label of `Red Hat Linux`.
+   次のスクリーンショットは、値が`unix`でラベルが`Red Hat Linux`の`platform`属性の定義を示しています。
 
-   ![](images/add-profile.png){width="800" align="left"}
+   ![](images/add-profile.png){width="800"}
 
-1. If you want to add more values for the same attribute, click the **+** icon and enter additional value and label.
+1. 同じ属性に値をさらに追加する場合は、**+** アイコンをクリックし、追加の値とラベルを入力します。
 
-1. If you want to add more attributes, click **Add**.
+1. さらに属性を追加する場合は、**追加**&#x200B;をクリックします。
 
 1. 「**保存**」をクリックして、変更を保存します。
 
 
-The `platform` attribute is stored in the system. Whenever an author decides to use the `platform` attribute in a DITA topic in a folder, they will see the values in the Properties tab in the Web Editor.
+`platform`属性がシステムに保存されています。 作成者がフォルダー内のDITA トピックで`platform`属性を使用することを決定すると、Web エディターの「プロパティ」タブに値が表示されます。
 
-![](images/properties-tab.png){width="350" align="left"}
+![](images/properties-tab.png){width="350"}
 
 **親トピック：**&#x200B;[&#x200B;出力生成](generate-output.md)

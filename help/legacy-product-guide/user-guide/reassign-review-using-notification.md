@@ -5,7 +5,7 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: 3e43206b-c1a3-43ba-a4e5-c45c68c8b941
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
    >
    > レビュアーは、再割り当てする権限を持っており、ユーザー管理者グループの一部である必要があります。
 
-   ![](images/reassign-user-inbox.png){width="800" align="left"}
+   ![](images/reassign-user-inbox.png){width="800"}
 
 1. 「**再割り当て**」を選択します。
 

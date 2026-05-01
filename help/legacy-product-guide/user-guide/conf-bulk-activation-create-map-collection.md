@@ -5,7 +5,7 @@ feature: Publishing, Bulk Activation
 role: User
 hide: true
 exl-id: a242efde-2b29-4d2b-8a50-fd4ae7e8f239
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '735'
 ht-degree: 0%
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 DITA マップファイルが一括アクティベーションマップコレクションに追加されます。
 
-![さんが一括アクティブ化コレクションを作成しました](images/bulk-activation-collection-created.png){width="800" align="left"}
+![さんが一括アクティブ化コレクションを作成しました](images/bulk-activation-collection-created.png){width="800"}
 
 ## 「マップとプリセット」タブ
 
@@ -85,7 +85,7 @@ DITA マップファイルが一括アクティベーションマップコレク
 
 - **変更済み**：前回の公開後にDITA マップが更新されたかどうかを示します。 この情報に基づいて、このDITA マップの出力をアクティブにするかどうかを決定できます。
 - **公開済み**：最後に公開（またはアクティブ化）された出力の日時を表示します。 リンクを選択すると、「アクティベーション結果」ページが表示されます。このページには、コンテンツがアクティベートされるルートパスに関する情報が含まれています。
-  ![さんが「一括アクティベーションコレクション監査履歴」タブを作成しました](images/bulk-collection-audit-history.png){width="800" align="left"}
+  ![さんが「一括アクティベーションコレクション監査履歴」タブを作成しました](images/bulk-collection-audit-history.png){width="800"}
 
   *アクティブ化されたマップ出力に関する情報を&#x200B;**監査履歴**&#x200B;タブで表示します。*
 

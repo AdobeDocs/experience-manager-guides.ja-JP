@@ -5,7 +5,7 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: 1a61fc05-b2b4-4665-a15a-0058fbbc2942
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 0%
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 1. 「**レポートを生成**」をクリックして、コンテンツ再利用レポートを取得します。
 
-   ![](images/content-reuse-uuid.png){width="800" align="left"}
+   ![](images/content-reuse-uuid.png){width="800"}
 
    このレポートページは、次の2つの部分に分かれています。
 

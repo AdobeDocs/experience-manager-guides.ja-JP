@@ -1,76 +1,76 @@
 ---
-title: リリースノート | Adobe Experience Manager Guidesの新機能、2023 年 7 月リリース
-description: Adobe Experience Manager Guides as a Cloud Serviceの 2023 年 7 月リリースの新機能と機能強化について説明します
+title: リリースノート | Adobe Experience Manager Guidesの新機能（2023年7月リリース）
+description: Adobe Experience Manager Guides as a Cloud Serviceの2023年7月リリースの新機能と強化機能について説明します
 exl-id: 4b907729-4fbf-48ed-a2e1-014bd1101c73
 feature: What's New
 role: Leader
-source-git-commit: 7d0ae0f13ab77a10beb89fcb0d8592b05c3828bd
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '696'
 ht-degree: 0%
 
 ---
 
-# Adobe Experience Manager Guides as a Cloud Serviceの 2023 年 7 月リリースの新機能
+# Adobe Experience Manager Guides as a Cloud Serviceの2023年7月リリースの新機能
 
-この記事では、Adobe Experience Manager Guides 2023 年 7 月バージョン（後の *AEM Guides as a Cloud Service*）の新機能および拡張機能について説明します。
+この記事では、Adobe Experience Manager Guidesの2023年7月バージョン（後に&#x200B;*AEM Guides as a Cloud Service*&#x200B;と呼ばれます）の新機能と強化機能について説明します。
 
-アップグレード手順、互換性マトリックス、このリリースで修正された問題について詳しくは、[&#x200B; リリースノート &#x200B;](release-notes-2023-7-0.md) を参照してください。
+アップグレード手順、互換性マトリックス、およびこのリリースで修正された問題について詳しくは、[&#x200B; リリースノート &#x200B;](release-notes-2023-7-0.md)を参照してください。
 
 ## データソースに接続し、トピックにデータを挿入する
 
-これで、AEM Guidesの標準搭載のコネクタを使用して、データソースにすばやく接続できます。 データソースに接続すると、データとソースの同期を維持でき、データに対する更新が自動的に反映され、AEM Guidesが真のコンテンツハブになります。 この機能により、データを手動で追加またはコピーする時間と労力を節約できます。
+AEM Guidesのすぐに使えるコネクタを使用して、データソースに素早く接続できます。 データソースに接続すると、データをソースと同期させることができます。また、データの更新は自動的に反映されるため、AEM Guidesは真のコンテンツハブとなります。 この機能により、データを手動で追加またはコピーする時間と労力を節約できます。
 
-AEM Guidesでは、管理者が、JIRA および SQL （MySQL、PostgreSQL、SQL Server、SQLite）データベース用の標準のコネクタを設定できるようになりました。 また、デフォルトのインターフェイスを拡張することで、他のコネクタを追加することもできます。
+AEM Guidesでは、JIRAおよびSQL （MySQL、PostgreSQL、SQL Server、SQLite）データベース用のすぐに使えるコネクタを設定できます。 デフォルトのインターフェイスを拡張して、他のコネクタを追加することもできます。
 
-追加したら、設定済みのコネクタを web エディターの **データソース** パネルに表示できます。
+追加すると、Web エディターの&#x200B;**データソース** パネルの下に一覧表示されている設定済みコネクタを表示できます。
 
-![](assets/code-snippet-generator.png){width="300" align="left"}
+![](assets/code-snippet-generator.png){width="300"}
 
-コンテンツスニペットジェネレーターを作成して、接続されたデータソースからデータを取得できます。 その後、データをトピックに挿入し、編集できます。
+コンテンツスニペットジェネレーターを作成して、接続されたデータソースからデータを取得できます。 トピックにデータを挿入して編集します。
 
-コンテンツスニペットジェネレーターを作成したら、それを再利用して任意のトピックにデータを挿入できます。 詳しくは、[&#x200B; データソースからコンテンツスニペットを挿入する &#x200B;](../user-guide/web-editor-content-snippet.md) を参照してください。
+コンテンツスニペットジェネレーターを作成したら、それを再利用して任意のトピックにデータを挿入できます。 詳細については、[&#x200B; データソースからコンテンツスニペットを挿入](../user-guide/web-editor-content-snippet.md)を参照してください。
 
 
 
-## レビュープロジェクトとアクティブなレビュータスクを表示するレビューパネル
+## レビューパネル：レビュープロジェクトとアクティブなレビュータスクを表示します
 
-AEM Guidesは、レビューをよりシームレスにします。 Web エディター内にレビューパネルが用意されています。 レビューパネルには、すべてのレビュープロジェクトと、自分が属するレビュープロジェクト内のアクティブなレビュータスクが表示されます。
+Adobe AEM Guidesなら、レビューをよりシームレスに。 Web エディター内のレビューパネルが表示されます。 レビューパネルには、自分が属しているレビュープロジェクト内のすべてのレビュープロジェクトとアクティブなレビュータスクが表示されます。
 
-この機能を使用すると、作成者はレビュータスクを簡単に開いてコメントを表示し、一元的なビューでコメントにすばやく対処できます。
-![](assets/active-review-task-comments.png){width="800" align="left"}
-詳しくは、「左パネル **セクション内の** レビュー [&#x200B; 機能の説明を参照し &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS) ください。
+この機能を利用すれば、レビュータスクを簡単に開いてコメントを表示し、一元的なビューでコメントにすばやく対応できます。
+![](assets/active-review-task-comments.png){width="800"}
+詳細については、[左パネル &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS) セクション内の&#x200B;**レビュー**&#x200B;機能の説明を参照してください。
 
 
 ## マップコレクションの機能強化
 
-マップ コレクションを使用すると、複数のマップを整理してバッチ パブリッシュできます。 マップ コレクションに対して多くの新しい機能強化が行われました。
+マップコレクションは、複数のマップを整理し、一括公開するのに役立ちます。 マップコレクションに多くの新しい機能強化が行われました。
 
-- また、ネイティブのPDF出力プリセットをマップコレクションに追加し、それらを使用してPDF出力を生成することもできます。
+- また、ネイティブPDF出力プリセットをマップコレクションに追加し、それらを使用してPDF出力を生成することもできます。
 - 管理者が作成したグローバルプロファイルプリセットとフォルダープロファイルプリセットを表示し、それらを使用してPDF出力を生成できます。
-- 個々のプリセットを選択できるだけでなく、DITA マップのすべてのフォルダープロファイルプリセットを一度に有効にすることもできます。
-  ![](assets/edit-map-collection.png){width="800" align="left"}
+- これで、個々のプリセットを選択するだけでなく、DITA マップのすべてのフォルダープロファイルプリセットを一括で有効にすることもできます。
+  ![](assets/edit-map-collection.png){width="800"}
 
-詳しくは、[&#x200B; 出力生成にマップ コレクションを使用 &#x200B;](../user-guide/generate-output-use-map-collection-output-generation.md) を参照してください。
+詳細については、[出力生成にマップコレクションを使用](../user-guide/generate-output-use-map-collection-output-generation.md)を参照してください。
 
-## ネイティブのHTML出力の生成中に、一時PDF ファイルにアクセスする機能
+## ネイティブのPDF出力の生成中に一時HTML ファイルにアクセスする機能
 
-AEM Guidesで、ネイティブ PDF出力の生成時に作成された一時HTML ファイルをダウンロードできるようになりました。 出力プリセット設定で、一時ファイルをダウンロードするオプションを選択します。  AEM Guidesでは、出力の生成時に作成された一時ファイルを、そのプリセットを使用してダウンロードできます。
+AEM Guidesでは、ネイティブのPDF出力の生成中に作成された一時HTML ファイルをダウンロードできます。 出力プリセット設定で、一時ファイルをダウンロードするオプションを選択します。  次に、AEM Guidesを使用すると、そのプリセットを使用して出力を生成する際に作成された一時ファイルをダウンロードできます。
 
-この機能により、暫定スタイルおよびレイアウトにアクセスして、生成プロセスに関するより優れたインサイトを得ることができます。また、要件に従って CSS スタイルを修正または変更するのに役立ちます。
+この機能を使用すると、暫定的なスタイルとレイアウトにアクセスして、生成プロセスをより詳細に把握できます。また、必要に応じてCSS スタイルを修正または変更できます。
 
-![](assets/native-pdf-advanced-settings.png){width="800" align="left"}
+![](assets/native-pdf-advanced-settings.png){width="800"}
 
-詳しくは、[PDF出力プリセットの作成 &#x200B;](../web-editor/native-pdf-web-editor.md#create-output-preset) を参照してください。
+詳しくは、[PDF出力プリセットの作成](../web-editor/native-pdf-web-editor.md#create-output-preset)を参照してください。
 
-## HTML5 とカスタム出力を生成するマイクロサービスベースのパブリッシング
+## HTML5とカスタム出力を生成するマイクロサービスベースのパブリッシング
 
-新しいパブリッシングマイクロサービスを使用すると、AEM Guides as a Cloud Serviceで大規模なパブリッシングワークロードを同時に実行し、業界をリードするAdobe I/O Runtime サーバーレスプラットフォームを活用できます。 マイクロサービスを使用すれば、HTML5 とカスタム出力を生成することもできます。
-複数の公開リクエストを実行し、パフォーマンスを向上させてこれらの出力形式を生成できます。
-詳しくは、[AEM Guides as a Cloud Serviceのマイクロサービスベースの公開を設定する &#x200B;](../knowledge-base/publishing/configure-microservices.md) を参照してください。
+新しいパブリッシングマイクロサービスを使用すると、AEM Guides as a Cloud Serviceで大規模なパブリッシングワークロードを同時に実行し、業界をリードするAdobe I/O Runtime サーバーレスプラットフォームを活用できます。 マイクロサービスを使用して、HTML5とカスタム出力を生成することもできます。
+複数の公開リクエストを実行し、パフォーマンスを向上させて、これらの出力形式を生成できます。
+詳しくは、[AEM Guides as a Cloud Serviceのマイクロサービスベースの公開の設定](../knowledge-base/publishing/configure-microservices.md)を参照してください。
 
-## AEM Guidesのバージョンの詳細を詳細情報に表示します。
+## AEM Guidesのバージョンの詳細については、「概要」を参照してください
 
-これで、AEMの **バージョン情報** 概要）と共に、AEM Guidesのバージョンの詳細を確認できます。 現在のバージョンの詳細は、「AEMのナビゲーション」ページの **ヘルプ** の **バージョン情報** オプションで確認できます。
+AEM **バージョン情報**&#x200B;と共に、AEM Guides バージョンの詳細も確認できます。 現在のバージョンの詳細は、AEM ナビゲーションページの&#x200B;**ヘルプ**&#x200B;の&#x200B;**バージョン情報** オプションで確認できます。
 
-![](assets/about-aem-help.png){width="800" align="left"}
+![](assets/about-aem-help.png){width="800"}

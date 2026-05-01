@@ -4,10 +4,11 @@ description: クラウドサービス用AEM Sites テンプレートのダウン
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 53a36126-2075-40c8-8882-f77ad6435715
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '845'
-ht-degree: 1%
+source-wordcount: '908'
+ht-degree: 0%
 
 ---
 
@@ -68,14 +69,14 @@ ht-degree: 1%
    1. Cloud Managerの左側のパネルで&#x200B;**Repositories**&#x200B;に移動します。
    2. 「**リポジトリ情報にアクセス**」を選択し、Git clone コマンドをコピーします。
 
-      ![&#x200B; アクセス リポジトリ情報を選択](/help/product-guide/knowledge-base/kb-articles/assets/publishing/access-repo.png){width="350" align="left"}
+      ![&#x200B; アクセス リポジトリ情報を選択](/help/product-guide/knowledge-base/kb-articles/assets/publishing/access-repo.png){width="350"}
 
    3. 提供されたユーザー名とパスワードを使用して、リポジトリをローカルシステムに複製します（必要に応じてパスワードを生成します）。
 2. **パッケージをMaven バンドルに追加：**
    1. ローカルに複製したリポジトリーで、新しいMaven バンドルを作成するか、既存のバンドルに追加します。
    2. Maven プロジェクトに構造`/jcr_root/apps/fmdita/` インストールが存在することを確認します。
 
-      Maven プロジェクトの![構造](/help/product-guide/knowledge-base/kb-articles/assets/publishing/maven-structure.png){width="650" align="left"}
+      Maven プロジェクトの![構造](/help/product-guide/knowledge-base/kb-articles/assets/publishing/maven-structure.png){width="650"}
 
 
    3. ダウンロードしたguides-components.all-1.x.x.zip ファイルをインストールフォルダーに配置します。
@@ -86,7 +87,7 @@ ht-degree: 1%
    2. 次のフィルターを追加します：filter root=`/apps/fmdita` mode=`merge`/
 
 
-      ![&#x200B; フィルターを追加](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-filter-xml.png){width="650" align="left"}
+      ![&#x200B; フィルターを追加](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-filter-xml.png){width="650"}
 
 
 4. **pom.xmlの設定：**&#x200B;環境要件に従ってpom.xml ファイルを更新します。
@@ -114,7 +115,7 @@ ht-degree: 1%
 2. **テンプレートを選択：** **AEMG Docs 1.x.x**&#x200B;を選択し、**次へ**&#x200B;を選択します。
 3. **サイトの詳細を入力：** **サイトのタイトル**&#x200B;と&#x200B;**サイト名**&#x200B;を入力します。
 
-   ![サイトの作成](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-site.png){width="350" align="left"}
+   ![サイトの作成](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-site.png){width="350"}
 
 4. 「**作成**」を選択します。
 
@@ -128,7 +129,7 @@ ht-degree: 1%
    5. **従来のコンポーネントマッピングを使用**&#x200B;設定のチェックを外します。
    6. 「**追加**」を選択して、プリセットを作成します。
 
-      ![新しいAEM サイトプリセットを作成](/help/product-guide/knowledge-base/kb-articles/assets/publishing/new-output-preset.png){width="350" align="left"}
+      ![新しいAEM サイトプリセットを作成](/help/product-guide/knowledge-base/kb-articles/assets/publishing/new-output-preset.png){width="350"}
 
 
 2. **AEM サイト プリセットの設定：**&#x200B;標準（OOTB）サイトを設定するには、次の2つのオプションがあります。
@@ -140,7 +141,7 @@ ht-degree: 1%
       - 公開パス：Cloud Service: `/content/AEMG-Docs-Site/en/docs/product`およびオンプレミス：`aemg-docs/en/docs/product1`
       - トピックページテンプレート：トピックページ
 
-      ![&#x200B; サイト ドロップダウンを使用して、AEM サイトを設定します](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown-cs.png){width="350" align="left"}
+      ![&#x200B; サイト ドロップダウンを使用して、AEM サイトを設定します](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown-cs.png){width="350"}
 
    **オプション 2: サイト パスを使用**
 
@@ -149,11 +150,11 @@ ht-degree: 1%
 
       Cloud Service用：
 
-      ![&#x200B; サイト パスを使用してAEM サイトを構成する](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path-cs.png){width="650" align="left"}
+      ![&#x200B; サイト パスを使用してAEM サイトを構成する](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path-cs.png){width="650"}
 
       オンプレミス用：
 
-      ![&#x200B; サイトパスを使用](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path.png){width="350" align="left"}
+      ![&#x200B; サイトパスを使用](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path.png){width="350"}
 
 3. **プリセットを保存：** プリセットに加えた変更を保存します。
 
@@ -167,15 +168,15 @@ ht-degree: 1%
    2. OOTB サイト構造の下に新しい製品ページを作成します。
    3. **AEMG Docs** > **English** > **Docs**&#x200B;に移動します。
 
-      ![ページを作成](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-page-cs.png){width="650" align="left"}
+      ![ページを作成](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-page-cs.png){width="650"}
 
    4. 「**ホームページ**」タイルを選択し、「**次へ**」を選択します。
 
-      ![&#x200B; ホームタイルを選択](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-tile-cs.png){width="650" align="left"}
+      ![&#x200B; ホームタイルを選択](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-tile-cs.png){width="650"}
 
    5. ページの&#x200B;**タイトル**&#x200B;と&#x200B;**名前**&#x200B;を入力します。
    6. 「**作成**」を選択します。
 
 >[!NOTE]
 >
-> Cloud Service設定の場合は、実稼動環境にデプロイする前に、すべての設定が非実稼動環境でテストされていることを確認します。 <br><br>詳細については、[AEM as a Cloud Serviceへのデプロイに関する公式ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/implementing/deploying/overview)を参照してください。
+> Cloud Service設定の場合は、実稼動環境にデプロイする前に、すべての設定が非実稼動環境でテストされていることを確認します。<br><br> 詳しくは、[AEM as a Cloud Serviceへのデプロイに関する公式ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/implementing/deploying/overview)を参照してください。

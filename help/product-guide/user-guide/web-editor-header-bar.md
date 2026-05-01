@@ -4,23 +4,23 @@ description: エディターのヘッダーバーについて説明します。 
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 97f72025-e0d1-494e-957a-32bba5732dc5
-source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
 
 # エディターのヘッダーバー
 
-ヘッダーバーは、Adobe Experience Manager ロゴ（統合シェルをExperience Manager Guides UI として使用している場合は、統合シェル）を表示するエディターの上部バーです。 ロゴを選択すると、Experience Managerのナビゲーションページに移動します。
+ヘッダーバーは、エディターの上部バーで、Adobe Experience Manager ロゴ（または統合シェルをExperience Manager Guides UIとして使用している場合は統合シェル）が表示されます。 ロゴを選択すると、Experience Manager ナビゲーションページに移動します。
 
-![](./images/web-editor-header-bar.png){align="left"}
+![](./images/web-editor-header-bar.png)
 
-ツールバーの **展開** アイコンを使用して、ヘッダーバーを非表示にし、コンテンツ領域を最大化します。 標準ビューを復元するには、[**展開ビューを終了**] を選択します。
+ツールバーの&#x200B;**展開** アイコンを使用して、ヘッダーバーを非表示にし、コンテンツ領域を最大化します。 標準ビューを復元するには、**拡張ビューを終了**&#x200B;を選択します。
 
-![](./images/web-editor-header-bar-expand-option.png){width="350" align="left"}
+![](./images/web-editor-header-bar-expand-option.png){width="350"}
 
 
 
-**親トピック：**&#x200B;[&#x200B; エディターの概要 &#x200B;](web-editor.md)
+**親トピック：**&#x200B;[&#x200B; エディターの概要](web-editor.md)

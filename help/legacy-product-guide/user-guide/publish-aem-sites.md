@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 3e77747d-ff04-465c-9305-fd6f1c74df04
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Sites ページを生成するには、次の手順を実行します。
 
 
 1. **サイトを生成ページ** ダイアログボックスで、次の詳細を入力します。
-   ![&#x200B; サイト生成ページでパスとテンプレートの詳細を追加](images/aem-sites-page-generate.png){width="500" align="left"}
+   ![&#x200B; サイト生成ページでパスとテンプレートの詳細を追加](images/aem-sites-page-generate.png){width="500"}
 
    * パス、タイトル、名前、テンプレートの詳細を追加して、トピックまたはその要素をサイトページとして公開します。 *
 
@@ -59,7 +59,7 @@ Sites ページを生成するには、次の手順を実行します。
 1. 「**Generate**」をクリックして、サイトページを公開します。
 1. **ファイルプロパティ**&#x200B;の&#x200B;**出力** セクションで、トピックのサイトページを表示できます。 サイトページは、公開日時に応じて表示され、最新のページが最初に表示されます。
 
-   ![&#x200B; トピックのサイトページを表示](images/aem-sites-outputs.png){width=300 align="left"}
+   ![&#x200B; トピックのサイトページを表示](images/aem-sites-outputs.png){width=300}
 
    *トピックに存在するサイトページを表示して、再公開します。*
 

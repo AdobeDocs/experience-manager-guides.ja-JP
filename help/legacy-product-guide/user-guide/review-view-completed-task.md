@@ -5,7 +5,7 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: f74269fe-a7a9-4bb3-b476-f8214387ffd0
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ただし、コメントは検索またはフィルタリングできます。 条件の表示/非表示を選択し、それに応じて条件付きコンテンツを表示することもできます。 任意の添付ファイルをダウンロードできますが、コメントの添付ファイルをアップロードまたは削除することはできません。
 
-![](images/complete-task-reviewer.png){width="800" align="left"}
+![](images/complete-task-reviewer.png){width="800"}
 
 
 ## 作成者として
@@ -31,6 +31,6 @@ ht-degree: 0%
 
 ただし、コメントは検索またはフィルタリングできます。 任意の添付ファイルをダウンロードできますが、コメントの添付ファイルをアップロードまたは削除することはできません。
 
-![](images/completed-task-author.png){width="800" align="left"}
+![](images/completed-task-author.png){width="800"}
 
 そのため、レビュー担当者または作成者は、レビュー済みのコンテンツをコメントとともに表示できますが、完了したレビュータスクに変更を加えることはできません。

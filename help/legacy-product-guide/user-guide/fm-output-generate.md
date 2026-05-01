@@ -5,7 +5,7 @@ feature: Publishing FrameMaker Documents
 role: User
 hide: true
 exl-id: 9b5760bd-817c-4d8d-ab37-ab8699ac62fa
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%
@@ -20,7 +20,7 @@ FrameMaker ドキュメントの出力を生成するには、次の手順を実
 
    DITA マップコンソールが表示され、出力の生成に使用できる出力プリセットのリストが表示されます。
 
-   ![](images/publish-fm-doc.png){width="800" align="left"}
+   ![](images/publish-fm-doc.png){width="800"}
 
 1. 出力の生成に使用する1つまたは複数の出力プリセットを選択します。
 

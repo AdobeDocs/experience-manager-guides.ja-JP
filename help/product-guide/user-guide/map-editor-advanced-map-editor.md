@@ -4,16 +4,16 @@ description: Adobe Experience Manager Guidesのマップエディターの機能
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '2671'
+source-wordcount: '2703'
 ht-degree: 0%
 
 ---
 
 # マップエディターの機能 {#id1942D0S0IHS}
 
-マップエディターのツールバーは、トピックエディターに似ています。 左パネルの切り替え、マップの保存、新しいバージョンのマップの作成、最後の操作の取り消しややり直し、選択した要素の削除などの基本的な操作は、両方のエディターで共通しています。 これらの操作の仕組みについて詳しくは、「[&#x200B; エディター」セクションの](web-editor-toolbar.md#) ツールバーを参照してください。
+マップエディターのツールバーは、トピックエディターに似ています。 左パネルの切り替え、マップの保存、新しいバージョンのマップの作成、最後の操作の取り消しややり直し、選択した要素の削除などの基本的な操作は、両方のエディターで共通しています。 これらの操作の仕組みについて詳しくは、「[&#128279;](web-editor-toolbar.md#) エディター」セクションの ツールバーを参照してください。
 
 エディターツールバーに表示されるオプションは、マップエディタービューに基づいています。 マップエディターでは、次の4つのビューを使用できます。
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ファイルを選択ダイアログを表示します。 挿入するトピック/マップファイルに移動し、**選択**&#x200B;を選択してマップに追加します。
 
-![](images/insert-topic-reference-dialog.png){align="left"}
+![](images/insert-topic-reference-dialog.png)
 
 
 **トピックグループ** - ![](images/topic-group.svg)
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 キーデフを挿入ダイアログを表示します。 このダイアログを使用して、マップで使用するキー定義を定義します。
 
-![](images/insert-key-definition-dialog.png){width="300" align="left"}
+![](images/insert-key-definition-dialog.png){width="300"}
 
 **挿入前/挿入後** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
@@ -111,7 +111,7 @@ ht-degree: 0%
 
 マップファイル内のトピックを整理するだけでなく、ファイルにカーソルを合わせるか、レイアウトビューでエディター内を右クリックすると表示されるオプションメニューを使用して、次のアクションを実行することもできます。
 
-![](images/map-editor-options-menu.png){width="650" align="left"}
+![](images/map-editor-options-menu.png){width="650"}
 
 - **追加**: マップエディターから新しいトピックまたは空の参照を追加できます。
    - **空の参照**：このオプションを使用すると、DITA マップに空の参照を追加できます。 後で挿入された空の参照をダブルクリックして、トピックの詳細を追加できます。
@@ -140,7 +140,7 @@ ht-degree: 0%
 
 **作成者** ビューでは、エディターでDITA マップを編集できます。 これは、マップエディターのWYSIWYG ビューと、オーサービューに表示される一部のアイコンがレイアウトビューと同じであることを示しています。
 
-![](images/map-editor-author-view.png){align="left"}
+![](images/map-editor-author-view.png)
 
 さらに、次のアイコンを表示し、作成者ビューから関連するタスクを実行できます。
 
@@ -179,7 +179,7 @@ Perform the following steps to work with relationship tables in the Basic Map Ed
 
 1.  Select **Reltable** from the toolbar.
 
-    ![](images/reltable.png){width="650" align="left"}
+    ![](images/reltable.png){width="650"}
 
 1.  Drag-and-drop topics from the topic list to the Reltable editor.
 
@@ -187,13 +187,13 @@ Perform the following steps to work with relationship tables in the Basic Map Ed
     >
     > You can add topics from any folder in the References rail.
 
-    ![](images/create-reltable.png){width="550" align="left"}
+    ![](images/create-reltable.png){width="550"}
 
 1.  To add a header to your relationship table, click **Add Relheader**.
 
 1.  To add a column to your relationship table, click **Add a Column**.
 
-    ![](images/complete-reltable.png){width="550" align="left"}
+    ![](images/complete-reltable.png){width="550"}
 
 1.  Click **Save**.
 
@@ -241,7 +241,7 @@ XML タグを表示または非表示にします。 タグは、要素の境界
 
 このビューでは、コンテンツを生の形式で編集でき、構造と形式を完全に制御できます。
 
-![](images/map-editor-source-view.png){align="left"}
+![](images/map-editor-source-view.png)
 
 
 このビューでは、ツールバーには、カット、コピー、取り消し、やり直し、削除、検索と置換、バージョンラベル、結合、新しいバージョンとして保存、ロックとロック解除など、**メニュー** ドロップダウンで利用できる基本的なコンテンツ編集と挿入オプションが用意されています。
@@ -252,7 +252,7 @@ XML タグを表示または非表示にします。 タグは、要素の境界
 
 マップ内の各トピックファイルの位置を表示できることに加えて、マップコンテンツを1つの連続したフローで表示することが望ましい。 マップのプレビュー機能を使用すると、マップファイルのコンテンツ全体をワンクリックで表示できます。 マップ ファイルの出力を生成して、マップ全体が公開後にどのように表示されるかを確認する必要はありません。 マップのプレビューにアクセスするだけで、すべてのトピックとサブマップがブックの形式でレンダリングされます。
 
-![](images/map-editor-preview.png){align="left"}
+![](images/map-editor-preview.png)
 
 >[!NOTE]
 >
@@ -268,7 +268,7 @@ XML タグを表示または非表示にします。 タグは、要素の境界
   >
   > 編集権限がない場合、トピックは読み取り専用モードで開きます。
 
-  ![](images/edit-topic-preview-mode.png){width="650" align="left"}
+  ![](images/edit-topic-preview-mode.png){width="650"}
 
 - マップツリー\（左パネル\）でトピックタイトルを選択して、目的のトピックにジャンプします。
 
@@ -281,10 +281,10 @@ XML タグを表示または非表示にします。 タグは、要素の境界
 マップのプレビューモードで使用できる更新機能は、次の2つの方法で使用できます。
 
 - **マップレベルの更新**:「**更新**」ボタンを選択すると、マップ全体（すべてのトピックを含む）のプレビューが更新され、最初のスクロール位置に移動して明確なビューが表示されます。
-  ![](images/refresh-map.png){width="650" align="left"}
+  ![](images/refresh-map.png){width="650"}
 
 - **トピックレベルの更新**: コンテキストメニューから&#x200B;**トピックの更新**&#x200B;を選択すると、スクロール位置を変更せずに特定のトピックが更新されます。
-  ![](images/refresh-topic.png){width="650" align="left"}
+  ![](images/refresh-topic.png){width="650"}
 
 **その他のマップファイルのプレビュー方法**
 
@@ -298,11 +298,11 @@ XML タグを表示または非表示にします。 タグは、要素の境界
 
 - **マップエディター**: マップエディターで、オプションメニューから「**プレビュー**」を選択して、現在のマップのプレビューを表示します。
 
-  ![](images/map-preview-icon.png){width="650" align="left"}
+  ![](images/map-preview-icon.png){width="650"}
 
   マップのプレビューがポップアップボックスに表示されます。
 
-  ![](images/map-editor-preview-pop-up.png){width="500" align="left"}
+  ![](images/map-editor-preview-pop-up.png){width="500"}
 
 **マップのプロパティ**
 
@@ -329,7 +329,7 @@ DITA マップを使用してトピックを編集するには、次の手順を
 
    複数のトピックをエディターで開くことができ、各トピックはエディターの新しいタブで開かれます。 DITA マップにサブマップが含まれている場合でも、サブマップのトピックも新しいタブで開いて編集できます。 サブマップの下のトピックを表示する場合は、サブマップを選択して展開できます。
 
-   ![](images/web-editor-multiple-topics.png){align="left"}
+   ![](images/web-editor-multiple-topics.png)
 
    マップファイルを選択すると、マップがエディターの新しいタブで開きます。
 
@@ -337,7 +337,7 @@ DITA マップを使用してトピックを編集するには、次の手順を
 
    - 個別に保存することもできます。 トピックを保存せずに閉じると、保存されていないトピックの保存を求めるダイアログボックスが表示されます。
 
-     ![](images/save-multiple-topics-new.png){width="300" align="left"}
+     ![](images/save-multiple-topics-new.png){width="300"}
 
      選択したすべてのトピックを保存するか、保存しないトピックの選択を解除するかを選択できます。
 
@@ -349,7 +349,7 @@ DITA マップを使用してトピックを編集するには、次の手順を
 
    - 管理者が「閉じる」でファイルのロックを解除するオプションを有効にしている場合は、ロックされたファイルを閉じるたびにファイルを保存するように求めるプロンプトが表示されます。 このオプションを有効にすると、変更されたファイルを含むエディターを閉じると、保存する必要があるロックされたファイルのリストが表示されます。 ロックされたファイルには、ロックアイコンが表示されます。
 
-     ![](images/save-on-close-new.png){width="350" align="left"}
+     ![](images/save-on-close-new.png){width="350"}
 
 ## マップエディターの右パネル
 
@@ -361,7 +361,7 @@ DITA マップを使用してトピックを編集するには、次の手順を
 
 - **その他の属性**&#x200B;管理者が属性のプロファイルを作成した場合、これらの属性と設定値が表示されます。 コンテンツプロパティパネルを使用して、これらの属性を選択し、トピック内の関連コンテンツに割り当てることができます。 管理者が設定した属性を&#x200B;**表示属性**&#x200B;に割り当てることもできます。 エレメントに対して定義された属性は、レイアウトおよびアウトライン表示に表示されます。 これにより、特定の属性が定義されているマップ内のすべてのトピックを簡単に確認できます。 例えば、`audience`属性を持つすべてのトピックは`US`として定義されます。
 
-  ![&#x200B; レイアウトビュー](images/layout-inline-attributes.png){width="650" align="left"}
+  ![&#x200B; レイアウトビュー](images/layout-inline-attributes.png){width="650"}
 
 
   詳細については、[表示属性](../cs-install-guide/workspace-settings.md#display-attributes)を参照してください。

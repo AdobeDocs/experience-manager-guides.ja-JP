@@ -5,7 +5,7 @@ exl-id: 830a4381-303c-419c-b87f-9563352a7eeb
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 7%
@@ -34,7 +34,7 @@ ht-degree: 7%
 
    パッケージマネージャーは、ローカルのAEM インストール上のパッケージを管理します。 パッケージマネージャーの操作について詳しくは、AEM ドキュメントの[&#x200B; パッケージの操作方法](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/package-manager.html)を参照してください。
 
-   ![](assets/package-manager.png){width="650" align="left"}
+   ![](assets/package-manager.png){width="650"}
 
 1. AEM Guides パッケージをアップロードするには、**パッケージをアップロード**&#x200B;をクリックします。
 
@@ -44,7 +44,7 @@ ht-degree: 7%
 
 1. パッケージをインストールするには、**インストール**&#x200B;をクリックします。
 
-   ![](assets/install-package.png){width="650" align="left"}
+   ![](assets/install-package.png){width="650"}
 
 1. パッケージをインストール ダイアログで、**Install**&#x200B;をクリックします。
 

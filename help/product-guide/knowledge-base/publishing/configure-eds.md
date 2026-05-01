@@ -1,240 +1,241 @@
 ---
 title: Experience Manager GuidesとEdge Delivery Services（Beta）
-description: Edge Delivery Services（Beta）によって、Experience Manager Guidesのオーサリングおよび公開機能がどのように拡張されるかを説明します。
+description: Edge Delivery Services（Beta）が、Experience Manager Guidesのオーサリングと公開の可能性をどのように拡大するかを理解します。
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 7ca2eeb0356f3c82a8d970f291006fc6d19aca23
+exl-id: a4623088-a867-4079-80d6-20866c99683e
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1532'
-ht-degree: 0%
+source-wordcount: '1613'
+ht-degree: 1%
 
 ---
 
 # Experience Manager GuidesとEdge Delivery Services（Beta）
 
-Adobe Experience Manager Guidesを使用すると、専用の GitHub ベースの公開プロファイルを通じて、DITA コンテンツをEdge Delivery Services（EDS）（現在 *Beta* で利用可能）に直接公開できます。 この機能を使用すると、Experience Manager Guidesで DITA ベースのオーサリングワークフローを維持しながら、高パフォーマンスでレスポンシブなドキュメントエクスペリエンスを提供できます。
+Adobe Experience Manager Guidesでは、専用のGitHub ベースのパブリッシュプロファイルを使用して、現在&#x200B;*Beta*&#x200B;で利用可能なEdge Delivery Services（EDS）にDITA コンテンツを直接公開できます。 この機能により、Experience Manager GuidesのDITA ベースのオーサリングワークフローを維持しながら、高性能でレスポンシブなドキュメント体験を提供することができます。
 
-Adobe Experience Managerでの EDS の使用について詳しくは、[Edge Delivery Servicesの概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/edge-delivery/overview) を参照してください。
+Adobe Experience ManagerでのEDSの使用について詳しくは、[Edge Delivery Servicesの概要](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/edge-delivery/overview)を参照してください。
 
-Experience Manager Guidesから EDS （Beta）に公開できるようにするには、GitHub とExperience Manager Guidesをまたいで一連の設定手順を実行する必要があります。 以下の節では、各手順を順番に説明し、公開ワークフロー全体で各手順がどのように連携するかについて説明します。
+Experience Manager GuidesからEDS （Beta）への公開を有効にするには、GitHubとExperience Manager Guidesの一連の設定手順を完了する必要があります。 以下のセクションでは、各ステップを順番に説明し、公開ワークフロー全体でどのように連携するかを説明します。
 
-1. [GitHub for EDS のセットアップと設定（Beta）](#set-up-and-configure-github-for-eds-beta)
-2. [Experience Manager Guidesでの EDS （Beta）用の公開プロファイルの作成と設定](#create-and-configure-a-publish-profile-for-eds-beta-in-experience-manager)
+1. [GitHub for EDSのセットアップと設定（Beta）](#set-up-and-configure-github-for-eds-beta)
+2. [Experience Manager GuidesでのEDS （Beta）用のパブリッシュプロファイルの作成と設定](#create-and-configure-a-publish-profile-for-eds-beta-in-experience-manager)
 3. [EDS ブロックを使用した出力のカスタマイズ](#customize-output-using-eds-blocks)
 
-ビデオの簡単なチュートリアルについては、[AEM Guidesでの公開 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25) を参照してください。
+簡単なビデオのチュートリアルについては、[AEM Guidesでの公開](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25)をご覧ください。
 
 
 
-## GitHub for EDS のセットアップと設定（Beta）
+## GitHub for EDSのセットアップと設定（Beta）
 
-この節では、EDS （Beta）で使用する GitHub のセットアップ方法と設定方法について説明します。 Adobe ボイラープレートを使用したリポジトリーの作成、AEM コード同期を通じたAdobe Experience Managerへの GitHub の接続、必要な GitHub および OAuth アプリケーションの設定、コンテンツの公開に使用するリポジトリーマウントポイントの定義について説明します。
+この節では、EDS （Beta）で使用するGitHubを設定および設定する方法について説明します。 Adobeのボイラープレートを使用したリポジトリの作成、AEM Code Syncを介したGitHubとAdobe Experience Managerの接続、必要なGitHubおよびOAuth アプリケーションの設定、コンテンツの公開に使用するリポジトリのマウントポイントの定義について説明します。
 
-### EDS 用の GitHub リポジトリの作成（Beta）
+### EDS用GitHub リポジトリの作成（Beta）
 
-EDS （Beta）には、事前に定義された構造を持つ GitHub リポジトリが必要です。 Adobeは、Experience Manager Guides ユーザー向けに特別に設計された、公式のボイラープレートリポジトリを提供します。
+EDS （Beta）には、事前定義された構造を持つGitHub リポジトリが必要です。 Adobeでは、Experience Manager Guides ユーザー向けに設計された公式の定型リポジトリを提供しています。
 
 リポジトリを作成するには、次の手順を実行します。
 
-1. Experience Manager Guides ボイラープレートテンプレートリポジトリ [`aem-guides-boilerplate`](https://github.com/adobe/aem-guides-boilerplate) ージを開きます。
-   ![](assets/eds-boilerplate-template.png){align="left"}
+1. Experience Manager Guides ボイラープレート テンプレート リポジトリ [`aem-guides-boilerplate`](https://github.com/adobe/aem-guides-boilerplate)を開きます。
+   ![](assets/eds-boilerplate-template.png)
 
-2. このテンプレートを使用して新しいリポジトリを作成します。 [&#x200B; テンプレートからのリポジトリの作成 &#x200B;](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) について説明します。 EDS からアクセスできるように、リポジトリの表示が *公開* に設定されていることを確認します。
+2. このテンプレートを使用して新しいリポジトリを作成します。 テンプレート [&#128279;](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)からリポジトリを作成するについて説明します。 リポジトリの表示が&#x200B;*パブリック*&#x200B;に設定されていることを確認し、EDSがアクセスできるようにします。
 
-   ![](assets/eds-create-new-repo.png){align="left"}
+   ![](assets/eds-create-new-repo.png)
 
-これで、リポジトリが作成され、ボイラープレートテンプレート構造に合わせて配置されます。
+リポジトリが作成され、ボイラープレートのテンプレート構造と整合します。
 
-![](assets/eds-repo-created-github-view.png){align="left"}
+![](assets/eds-repo-created-github-view.png)
 
-### AEM Code Sync を使用して GitHub をAdobeに接続する
+### AEM Code Syncを介してGitHubをAdobeに接続する
 
-Adobe Experience Managerは、**AEM コード同期** と呼ばれる GitHub アプリケーションを使用して、コンテンツをExperience Manager Guidesから GitHub にプッシュします。
+Adobe Experience Managerは、**AEM Code Sync**&#x200B;というGitHub アプリケーションを使用して、Experience Manager GuidesからGitHubにコンテンツをプッシュします。
 
-次の手順を実行して、*AEM Code Sync* アプリケーションをインストールし設定します。
+次の手順を実行して、*AEM Code Sync* アプリケーションをインストールおよび設定します。
 
-1. [AEM コード同期 &#x200B;](https://github.com/apps/aem-code-sync) ページに移動して、「**インストール**」を選択します。
-2. *AEM コード同期* は、リポジトリの変更を監視し、更新が GitHub に正しくプッシュされていることを確認します。
+1. [AEM Code Sync](https://github.com/apps/aem-code-sync) ページに移動し、**インストール**&#x200B;を選択します。
+2. *AEM Code Sync*&#x200B;は、リポジトリの変更を監視し、更新がGitHubに正しくプッシュされるようにします。
 
    >[!NOTE]
    >
-   > アプリケーションのインストール時に、リポジトリを所有しているのと同じ GitHub アカウントを使用していることを確認してください。
+   > アプリケーションのインストール中は、リポジトリを所有する同じGitHub アカウントを使用していることを確認してください。
 
-   ![](assets/eds-aem-code-sync-page.png){align="left"}
-3. 次のページで、作成したリポジトリへのアクセス権を付与します。 これを行うには、「**リポジトリの選択のみ**」オプションを選択し、ドロップダウンからリポジトリを選択します。
+   ![](assets/eds-aem-code-sync-page.png)
+3. 次のページで、作成したリポジトリへのアクセス権を付与します。 これを行うには、「**リポジトリのみを選択**」オプションを選択し、ドロップダウンからリポジトリを選択します。
 
-   ![](assets/eds-aem-code-sync-install-authorize.png){width="350" align="left"}
-4. **インストールして認証** を選択します。
+   ![](assets/eds-aem-code-sync-install-authorize.png){width="350"}
+4. 「**インストールして承認**」を選択します。
 
-GitHub のセットアップページにリダイレクトされ、*AEM Code Sync* アプリケーションの登録が成功したことが確認されます。 このページから、web サイトのプレビュー URL とライブ URL を保存することもできます。
+GitHub設定ページにリダイレクトされ、*AEM Code Sync* アプリケーションの正常な登録が確認されます。 このページから、web サイトのプレビューとライブ URLを保存することもできます。
 
-![](assets/eds-aem-code-sync-registered.png){align="left"}
+![](assets/eds-aem-code-sync-registered.png)
 
-### 新しい GitHub アプリの作成
+### 新しいGitHub アプリの作成
 
-1. GitHub で、左側のサイドバーに移動し、「**開発者設定**」を選択します。
-2. 左側のサイドバーで、「**GitHub アプリ**」を選択します。
-3. 「**新規 GitHub アプリ**」を選択します。
+1. GitHubで、左側のサイドバーに移動し、**開発者設定**&#x200B;を選択します。
+2. 左側のサイドバーで、**GitHub Apps**&#x200B;を選択します。
+3. **新しいGitHub アプリ**&#x200B;を選択します。
 
-   ![](assets/eds-new-github-app.png){width="650" align="left"}
-4. **新しい GitHub アプリを登録** ページで、次の詳細を入力します。
-   - **GitHub アプリ名**：アプリの名前を入力します。 例えば、`USERNAME-eds-app` の場合、USERNAME は GitHub のユーザー名です。
-   - **ホームページ URL**:Experience Manager Guides インスタンスへの URL を入力します。
+   ![](assets/eds-new-github-app.png){width="650"}
+4. **新しいGitHub アプリを登録** ページで、次の詳細を入力します。
+   - **GitHub アプリ名**：アプリの名前を入力します。 例えば、`USERNAME-eds-app`はUSERNAMEがGitHubのユーザー名です。
+   - **ホームページ URL**: Experience Manager Guides インスタンスのURLを入力します。
 
      サンプル URL （形式）: `https://<aem-author-url>/libs/fmdita/clientlibs/xmleditor/page.html`
 
      サンプル URL: `https://author-p16602-e335172-cmstg.adobeaemcloud.com/libs/fmdita/clientlibs/xmleditor/page.html`
-   - **コールバック URL**：ホームページ URL と同じです。
+   - **コールバック URL**: ホームページ URLと同じです。
    - **Webhook URL**：このオプションを無効にします。
-   - **リポジトリ権限**:**アクション、管理、アテステーション** の *読み取りおよび書き込み* 権限を設定します。
+   - **リポジトリ権限**: *アクション、管理、および認証*&#x200B;に対する&#x200B;**読み取りおよび書き込み**&#x200B;権限を設定します。
 5. 「**GitHub アプリを作成**」を選択します。
 
-これで、アプリの準備が整いました。 GitHub アプリの **設定** ページにリダイレクトされます。
+これでアプリの準備ができました。 GitHub アプリの&#x200B;**Settings** ページにリダイレクトされます。
 
-![](assets/eds-github-app-registered-page.png){align="left"}
+![](assets/eds-github-app-registered-page.png){}
 
-### 新しい OAuth アプリの作成
+### 新しいOAuth アプリの作成
 
-Experience Manager Guidesで EDS （Beta）公開プロファイルを作成する際にユーザーを認証するには、OAuth アプリが必要です。 *クライアント ID* および *クライアントシークレット* を使用した安全なログインフローを有効にします。
+Experience Manager GuidesでEDS （Beta）公開プロファイルを作成する際にユーザーを認証するには、OAuth アプリが必要です。 *クライアント ID*&#x200B;と&#x200B;*クライアントシークレット*&#x200B;を使用して、セキュアなログインフローを有効にします。
 
-以下の手順を実行して、新しい OAuth アプリを作成します。
+新しいOAuth アプリを作成するには、次の手順を実行します。
 
-1. GitHub で、左側のサイドバーに移動し、「**開発者設定**」を選択します。
-2. 左側のサイドバーで、「**OAuth アプリ**」を選択します。
-3. 「**新規 OAuth アプリ**」を選択します。
+1. GitHubで、左側のサイドバーに移動し、**開発者設定**&#x200B;を選択します。
+2. 左側のサイドバーで、**OAuth Apps**&#x200B;を選択します。
+3. **新規OAuth アプリ**&#x200B;を選択します。
 
-   ![](assets/eds-new-oauth-app.png){width="650" align="left"}
-4. 次の必須詳細を入力して、アプリケーションを登録します。
-   - **アプリケーション名**:EDS リポジトリの名前を入力します
-   - **ホームページ URL**:Experience Manager Guides インスタンスへの URL を入力します。 （サンプル URL 形式については、「[&#x200B; 新しい GitHub アプリの作成 &#x200B;](#create-a-new-github-app)」のステップ 4 を参照してください。
-   - **認証コールバック URL**：ホームページ URL と同じ
+   ![](assets/eds-new-oauth-app.png){width="650"}
+4. 次の必須の詳細を指定して、アプリケーションを登録します。
+   - **アプリケーション名**: EDS リポジトリの名前を入力します
+   - **ホームページ URL**: Experience Manager Guides インスタンスのURLを入力します。 （URL形式のサンプルについては、[新しいGitHub アプリの作成](#create-a-new-github-app) セクションの手順4を参照してください）。
+   - **認証コールバック URL**: ホームページ URLと同じ
 5. 「**デバイスフローを有効にする**」オプションを選択し、「**アプリケーションを登録**」を選択して登録を完了します。
 
-   ![](assets/eds-new-github-app-register.png){width="650" align="left"}
+   ![](assets/eds-new-github-app-register.png){width="650"}
 
-これで、アプリの準備が整いました。 *クライアント ID* をメモしておきます。 Experience Manager Guidesで公開プロファイルを設定する際に、今または後で最大 5 つの *クライアントシークレット* を生成できます。
+これでアプリの準備ができました。 *クライアント ID*&#x200B;をメモします。 Experience Manager Guidesで公開プロファイルを設定する際に、最大5つの&#x200B;*クライアントシークレット*&#x200B;を生成できます。
 
-![](assets/eds-new-oauth-app-page.png){align="left"}
+![](assets/eds-new-oauth-app-page.png)
 
 
-### EDS （Beta）リポジトリ内のマウントポイント URL の構成
+### EDS （Beta）リポジトリでのマウントポイント URLの設定
 
-EDS （Beta）は、*ファイル内の* マウントポイント `fstab.yaml` URL として定義された GitHub リポジトリーパスからコンテンツを読み取ります。
+EDS （Beta）は、`fstab.yaml` ファイルの&#x200B;*mountpoint* URLとして定義されたGitHub リポジトリパスからコンテンツを読み取ります。
 
-`fstab.yaml` ファイルのマウントポイント URL を構成するには、次の手順に従います。
+`fstab.yaml` ファイルでマウントポイント URLを設定するには：
 
-1. リポジトリで `fstab.yaml` ファイルを開き、以下を更新します。
+1. リポジトリで`fstab.yaml` ファイルを開き、次の内容を更新します。
    - `your-user-name`
    - `your-repo-name`
 
    >[!NOTE]
    >
-   > マウントポイント URL で、`main` はコンテンツを公開するブランチを示し、`docs` は作業中の EDS （Beta）リポジトリのルートフォルダーを示します。 GitHub のブランチ名を変更する場合は、（*ファイル内の* mountpoint`fstab.yaml` URL と、対応するExperience Manager Guidesの EDS 公開プロファイルに記載された同じブランチ名を更新する必要があります。
+   > マウントポイント URLでは、`main`はコンテンツを公開するブランチを示し、`docs`は作業中のEDS （Beta）リポジトリのルートフォルダーを示します。 GitHubでブランチ名を変更する場合は、*mountpoint* URL （`fstab.yaml` ファイル）と対応するEDS パブリッシュプロファイルの同じブランチ名をExperience Manager Guidesで更新する必要があります。
 
-   ![](assets/eds-fstab-yaml-file.png){width="650" align="left"}
+   ![](assets/eds-fstab-yaml-file.png){width="650"}
 2. 「**変更をコミット**」を選択し、コミットの詳細を入力して確認します。
-3. [&#x200B; 開発者設定 &#x200B;](https://github.com/settings/apps) に戻り、アプリを探して **編集** を選択します。
+3. [開発者設定](https://github.com/settings/apps)に戻り、アプリを見つけて、**編集**&#x200B;を選択します。
 
-   ![](assets/eds-edit-github-app.png){width="650" align="left"}
-4. 「**アプリをインストール**」ページに移動し、「**インストール**」を選択します。
+   ![](assets/eds-edit-github-app.png){width="650"}
+4. **アプリのインストール** ページに移動し、**インストール**&#x200B;を選択します。
 
-   ![](assets/eds-install-eds-app.png){width="650" align="left"}
-5. [AEM コード同期を使用して GitHub をAdobeに接続する &#x200B;](#connect-github-to-adobe-via-aem-code-sync) セクションの手順 2 と 3 を繰り返して、リポジトリを認証します。
+   ![](assets/eds-install-eds-app.png){width="650"}
+5. リポジトリを認証するには、「[AEM Code Sync](#connect-github-to-adobe-via-aem-code-sync)経由でGitHubをAdobeに接続」セクションの手順2と3を繰り返します。
 
-## Experience Managerでの EDS （Beta）用の公開プロファイルの作成と設定
+## Experience ManagerでのEDS （Beta）用のパブリッシュプロファイルの作成と設定
 
-以下の節では、各手順を順に説明し、EDS （Beta）公開プロファイルを設定する方法、出力プリセットを設定する方法、Experience Manager Guidesで EDS （Beta）を使用して出力を生成する方法について説明します。
+以下のセクションでは、各ステップを順番に説明し、Experience Manager GuidesでEDS （Beta）パブリッシュプロファイルを設定し、出力プリセットを設定し、EDS （Beta）を使用して出力を生成する方法を説明します。
 
 ### EDS （Beta）公開プロファイルの作成
 
-1. **[Workspace設定](/help/product-guide/cs-install-guide/workspace-settings.md)** **>** **プロファイルを公開** に移動します。
-2. **+** アイコンを選択して新しい公開プロファイルを作成し、次の詳細を入力します。
-   - **サーバータイプ**：ドロップダウンから **GitHub Edge Delivery Services （Beta）** を選択します。
+1. **[Workspace settings](/help/product-guide/cs-install-guide/workspace-settings.md)** **>** **プロファイルの公開**&#x200B;に移動します。
+2. **+** アイコンを選択して、新しい公開プロファイルを作成し、次の詳細を指定します。
+   - **サーバーの種類**: ドロップダウンから&#x200B;**GitHub Edge Delivery Services （Beta）**&#x200B;を選択します。
    - **名前**：このプロファイルの名前を入力します。
-   - **リポジトリ名**：ボイラープレートから作成した GitHub リポジトリ名を使用します。
-   - **ユーザー名**:GitHub のユーザー名を入力します。
-   - **Branch main**:main （デフォルト）に設定します。
-   - **ルートフォルダー**:docs に設定します（デフォルト）。
-   - **クライアント ID とクライアントシークレット**:GitHub アプリからこれらを取得します（詳しくは、[&#x200B; 新しい OAuth アプリの作成 &#x200B;](#create-a-new-oauth-app) の節を参照してください）。
-3. 「**ログイン**」を選択して認証します。
+   - **リポジトリ名**：ボイラープレートから作成されたGitHub リポジトリ名を使用します。
+   - **ユーザー名**: GitHub ユーザー名を入力します。
+   - **分岐メイン**: メイン （デフォルト）に設定します。
+   - **ルートフォルダー**: ドキュメントに設定（デフォルト）。
+   - **クライアント IDとクライアントシークレット**：これらはGitHub アプリから取得します（詳細については、[新しいOAuth アプリの作成](#create-a-new-oauth-app) セクションを参照）。
+3. 認証するには、**ログイン**&#x200B;を選択します。
 
-   ![](assets/eds-publish-profile.png){width="650" align="left"}
-4. 認証に成功したら、「**保存**」を選択します。
+   ![](assets/eds-publish-profile.png){width="650"}
+4. 認証が成功したら、**保存**&#x200B;を選択します。
 
 これで、EDS （Beta）公開プロファイルが設定されました。
 
-### EDS （Beta）の出力プリセットを作成して、出力を生成する
+### EDS （Beta）用の出力プリセットの作成と出力の生成
 
-1. マップ コンソールでマップを開きます。
-2. 「**出力プリセット**」タブで、「**+**」を選択して新しい出力プリセットを作成します。
+1. マップコンソールでマップを開きます。
+2. **出力プリセット** タブで、**+**&#x200B;を選択して、新しい出力プリセットを作成します。
 3. **新しい出力プリセット** ダイアログで、次の詳細を入力します。
-   - **種類**: **Edge Delivery サービス （Beta）を選択してください**
+   - **種類**: **Edge Delivery サービス （Beta）**&#x200B;を選択
    - **名前**：このプリセットの名前を指定します
 4. 「**追加**」を選択します。
 
-   ![](assets/eds-output-preset.png){width="650" align="left"}
-5. 新しく作成した EDS （Beta）出力プリセットを開き、「**Config**」タブに移動します。
-   - 前の手順で作成したパブリッシュプロファイルを選択します。
-   - **プッシュをライブに** を有効にします。
+   ![](assets/eds-output-preset.png){width="650"}
+5. 新しく作成したEDS （Beta）出力プリセットを開き、**Config** タブに移動します。
+   - 前の手順で作成した公開プロファイルを選択します。
+   - **ライブへのプッシュを有効にする**。
 
-   **ライブにプッシュ** が有効な場合、生成された出力は GitHub にコミットされ、対応する更新がライブ web サイトに直ちに反映されます。
+   **ライブへのプッシュ**&#x200B;が有効になっている場合、生成された出力はGitHubにコミットされ、対応する更新はすぐにライブ web サイトに反映されます。
 
-   ![](assets/eds-output-preset-config-tab.png){width="650" align="left"}
+   ![](assets/eds-output-preset-config-tab.png){width="650"}
 
-6. **保存** を選択し、次に **出力を生成** を選択します。
+6. 「**保存**」を選択し、「**出力を生成**」を選択します。
 
 >[!NOTE]
 >
-> 生成された出力は、EDS （Beta）リポジトリの **docs** フォルダーに保存されます。
+> 生成された出力は、EDS （Beta）リポジトリの&#x200B;**docs** フォルダーに保存されます。
 
-これで、EDS （Beta）出力が生成されました。 コンテンツは、クリーンでレスポンシブなレイアウトで表示されます。 ページタイトル、パンくずリスト、本文コンテンツ、トピックで使用されるブロックなどの通常の要素が含まれます。 左側の目次（マップから生成）はトピック間を移動するのに役立ち、右側のミニ目次は現在のページ内のセクションをハイライト表示します。 出力全体が完全にレスポンシブなため、デバイス間で最適化された一貫性のある読み取りエクスペリエンスが確保されます。
+これで、EDS （Beta）出力が生成されました。 コンテンツはレスポンシブでクリーンなレイアウトで表示されます。 ページタイトル、パンくずリスト、本文、トピックで使用されるすべてのブロックなどの通常の要素が含まれます。 左側の目次（マップから生成）は、トピック間を移動するのに役立ちます。右側のミニ目次は、現在のページ内のセクションをハイライト表示します。 出力全体が完全にレスポンシブになり、デバイス間で最適化された一貫性のある読み取りエクスペリエンスを実現します。
 
-![](assets/eds-site-output.png){align="left"}
+![](assets/eds-site-output.png)
 
 ## EDS ブロックを使用した出力のカスタマイズ
 
-EDS は、`blocks` を使用して、コンテンツのさまざまな部分のスタイル設定および表示方法を制御します。 既存のブロックを修正したり、カスタムのブロックを作成することができます。
+EDSは`blocks`を使用して、コンテンツのさまざまな部分のスタイル設定と表示方法を制御します。 既存のブロックを変更したり、独自のブロックを作成したりできます。
 
-以下に概説する例では、既存のブロックをカスタマイズし、新しいブロックを作成して、Experience Manager Guidesの最終的な EDS （Beta）出力のスタイルを設定する方法について順を追って説明します。
+次の例では、既存のブロックをカスタマイズし、新しいブロックを作成して、Experience Manager Guidesで最終的なEDS （Beta）出力のスタイルを設定する方法を説明します。
 
-### パンくずブロックをカスタマイズしてテキストの色を更新
+### パンくずブロックをカスタマイズしてテキストカラーを更新する
 
-パンくずリストは、ユーザーがドキュメント内の位置を理解するのに役立つように、ページ全体で使用されます。 このブロックは web サイト全体で一貫して表示されるので、スタイル設定を更新すると、統一されたデザイン更新が可能になります。
+パンくずリストは、ユーザーがドキュメント内の場所を理解するのに役立つように、ページ間で使用されます。 このブロックはweb サイト全体で一貫して表示されるため、スタイルを更新すると、統一されたデザイン更新が可能になります。
 
 パンくずブロックをカスタマイズしてテキストの色を更新するには、次の手順を実行します。
 
 1. GitHub リポジトリに移動し、`blocks` フォルダーを開きます。
-2. **パンくず** ブロックを選択します。
+2. **パンくずリスト** ブロックを選択します。
 
-   ![](assets/eds-breadcrumbs.png){width="650" align="left"}
+   ![](assets/eds-breadcrumbs.png){width="650"}
 3. `css` ファイルを開き、テキストの色を更新します。
-4. 変更内容を GitHub にコミットします。
-5. ライブ web サイトを更新して、更新内容を表示します。
+4. 変更をGitHubにコミットします。
+5. ライブ web サイトを更新して、更新を表示します。
 
-### EDS （Beta）スクリプトを更新して、公開出力にカスタム要素を作成する
+### EDS （Beta）スクリプトを更新して、パブリッシュされた出力にカスタム要素を作成する
 
-場合によっては、コンテンツの特定の部分のみのスタイルを設定したい場合があります。 カスタムブロックを使用してこれを行うには、次の手順を実行します。
+場合によっては、コンテンツの特定の部分のみにスタイルを適用することもできます。 カスタムブロックを使用してこれを実現するには、次の手順を実行します。
 
 1. トピックファイルを開き、タグ要素内のテキストを選択します。
 
    次のスクリーンショットでは、`example` タグ内のコンテンツが選択されています。
-   ![](assets/eds-example-tag-org-output.png){width="650" align="left"}
+   ![](assets/eds-example-tag-org-output.png){width="650"}
 2. `example` タグ内のテキストを設定するには：
-   - **コンテンツのプロパティ** に移動します。
-   - `outputclass` 属性を追加します。
-   - その値を `example eds-force-block` に設定します。
+   - **コンテンツのプロパティ**&#x200B;に移動します。
+   - `outputclass`属性を追加します。
+   - 値を`example eds-force-block`に設定します。
    - 「**追加**」を選択します。
-     ![](assets/eds-example-tag.png){width="650" align="left"}
+     ![](assets/eds-example-tag.png){width="650"}
 3. 出力を保存して再生成します。
-4. `outputclass` ディレクトリ内に、`blocks` と同じ名前の新しいフォルダーを作成します。 [&#x200B; リポジトリへのファイルの追加 &#x200B;](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository#adding-a-file-to-a-repository-using-the-command-line) について説明します。
+4. `blocks` ディレクトリ内に`outputclass`と同じ名前の新しいフォルダーを作成します。 [&#x200B; リポジトリへのファイルの追加](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository#adding-a-file-to-a-repository-using-the-command-line)について説明します。
 
-   ![](assets/eds-example-folder.png){width="650" align="left"}
-5. 必須の `css` ファイルとオプションの `js` ファイルを追加します。
+   ![](assets/eds-example-folder.png){width="650"}
+5. 必要な`css`とオプションの`js` ファイルを追加します。
 
-   ![](assets/eds-example-folder-subfolders.png){width="650" align="left"}
+   ![](assets/eds-example-folder-subfolders.png){width="650"}
 6. 変更をコミットして出力を再生成します。
 
-選択したコンテンツには、ブロックで定義したカスタムスタイル設定が表示されます。
+選択したコンテンツに、ブロックで定義されたカスタムスタイルが表示されるようになりました。
 
-![](assets/eds-example-output.png){width="650" align="left"}
+![](assets/eds-example-output.png){width="650"}

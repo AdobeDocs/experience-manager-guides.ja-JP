@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: d4892eca-2715-4bd6-8ac8-0a8edff2c4f8
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1972'
 ht-degree: 0%
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 1. ベースラインページで、**作成**&#x200B;をクリックします。
 1. ベースラインの名前を&#x200B;**ベースライン名**&#x200B;に入力します。
-   ![&#x200B; ベースラインの作成](images/create-baseline.png){width="800" align="left"}
+   ![&#x200B; ベースラインの作成](images/create-baseline.png){width="800"}
 1. **に基づいてバージョンを設定**&#x200B;で、次のいずれかのオプションを選択します。
 
    - **ラベル**：適用されたラベルに従ってトピックを選択するには、このオプションを選択します。 入力した文字列に基づいてリストをフィルタリングするラベルを入力します。 フィルター済みリストからラベルを選択して、指定したラベルを持つトピックやその他のアセットを選択できます。
@@ -93,7 +93,7 @@ ht-degree: 0%
 1. ベースラインに必要な変更を加えます。 トピックまたは参照コンテンツの名前とバージョンを変更できます。
 1. 1つ以上のトピックに別のバージョンを使用する場合は、これらのトピックを手動で選択して使用できます。 「**トピックを参照**」をクリックし、別のバージョンを使用するトピックを選択します。 選択したトピックの「バージョンを選択」ドロップダウンリストから、ベースラインで使用するトピックのバージョンを選択し、**OK**&#x200B;をクリックします。
 
-   ![](images/baseline-select-version-drop-down.png){width="800" align="left"}
+   ![](images/baseline-select-version-drop-down.png){width="800"}
 
    トピックと選択したバージョンに関する情報は、バックエンドに保存されます。 この手順を繰り返して、複数のトピックに対して選択したバージョンを変更できます。
 
@@ -140,7 +140,7 @@ DITA マップ内の複数のトピックと参照コンテンツにラベルを
 
 1. 「**ラベルを追加**」をクリックします。
 
-   ![](images/add-label-baseline-uuid.png){width="800" align="left"}
+   ![](images/add-label-baseline-uuid.png){width="800"}
 
 1. **ラベルを追加** ダイアログで、このベースラインに関連付ける一意のラベルを指定します。
 
@@ -151,7 +151,7 @@ DITA マップ内の複数のトピックと参照コンテンツにラベルを
    - 「**追加**」をクリックします。
 指定したラベルがDITA マップと参照トピックおよびコンテンツに追加されます。
 
-     ![](images/label-added-baseline-uuid.png){width="650" align="left"}
+     ![](images/label-added-baseline-uuid.png){width="650"}
 
 
 ## 翻訳済みベースラインの書き出し {#id196SE600GHS}
@@ -170,7 +170,7 @@ DITA マップ内の複数のトピックと参照コンテンツにラベルを
 
 1. 「**翻訳**」タブで、左側のパネルにある「**ベースライン**」オプションを展開します。
 
-   ![](images/export-baseline.png){width="800" align="left"}
+   ![](images/export-baseline.png){width="800"}
 
 1. 「**ベースラインを使用**」オプションを選択し、書き出すベースラインを選択します。
 

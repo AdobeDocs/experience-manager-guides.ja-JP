@@ -5,7 +5,7 @@ exl-id: 1dde8a29-301f-461e-b598-2a8cab61bf3d
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1209'
 ht-degree: 0%
@@ -51,7 +51,7 @@ FrameMakerのAEM コネクタを使用してコンテンツをアップロード
 
 1. **接続マネージャー** ダイアログを開きます。
 
-   ![](assets/fm-aem-connector.png){width="550" align="left"}
+   ![](assets/fm-aem-connector.png){width="550"}
 
 1. AEM リポジトリに接続するには、次の詳細を入力します。
 
@@ -64,7 +64,7 @@ FrameMakerのAEM コネクタを使用してコンテンツをアップロード
 
    接続が正常に確立されると、AEM リポジトリのAssetsがRepository Manager ウィンドウに表示されます。
 
-   ![](assets/fm-repo-manager.png){width="550" align="left"}
+   ![](assets/fm-repo-manager.png){width="550"}
 
    任意のファイルまたはフォルダーを右クリックすると、関連する操作を実行できます。 例えば、フォルダーを右クリックすると、ファイルのアップロード、依存関係を持つファイルのアップロード、フォルダー全体のアップロードなどのオプションが表示されます。
 

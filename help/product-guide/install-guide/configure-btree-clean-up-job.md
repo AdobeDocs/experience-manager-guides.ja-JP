@@ -5,7 +5,7 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: ff6f968c-3440-4757-882a-676711ad05c3
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 2%
@@ -34,7 +34,7 @@ B ツリーのクリーンアップジョブを設定するには、次の手順
 
 1. 次に示すように、B ツリークリーンアップスケジューラーを設定します。
 
-   ![](assets/btree-cleanup-config.png){align="left"}
+   ![](assets/btree-cleanup-config.png)
 
 1. 「**保存**」を選択します。
 
@@ -54,6 +54,6 @@ B ツリーのクリーンアップジョブを設定するには、次の手順
 1. *com.adobe.fmdita.config.ConfigManager* バンドルを検索して選択します。
 1. 設定`Guides btree deletion enabled`を有効にします。
 
-   ![](assets/btree-cleanup-setting.png){align="left"}
+   ![](assets/btree-cleanup-setting.png)
 
 1. 「**保存**」を選択します。

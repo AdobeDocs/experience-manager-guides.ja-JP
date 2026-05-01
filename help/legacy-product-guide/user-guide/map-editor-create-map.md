@@ -1,11 +1,11 @@
 ---
 title: マップの作成
-description: Create a map with Map Editor in AEM Guides. Find the steps to create a map file based on a map template.
+description: AEM Guidesのマップエディターでマップを作成します。 マップテンプレートに基づいてマップファイルを作成する手順を確認します。
 feature: Authoring, Map Editor
 role: User
 hide: true
 exl-id: 981ecaeb-9b1f-4c7a-8336-7746a739bedc
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%
@@ -14,39 +14,39 @@ ht-degree: 0%
 
 # マップの作成 {#id176FEN0D05Z}
 
-AEM Guides provides two out-of-the-box map templates - DITA map and Bookmap. You can also create your own map templates and share those with your authors to create map files.
+AEM Guidesには、DITA マップとBookmapの2つのマップテンプレートが用意されています。 独自のマップテンプレートを作成し、作成者と共有してマップファイルを作成することもできます。
 
-Perform the following steps to create a map file:
+マップファイルを作成するには、次の手順を実行します。
 
-1. In the Assets UI, navigate to the location where you want to create the map file.
+1. Assets UIで、マップファイルを作成する場所に移動します。
 
-1. Click **Create** \> **DITA Map**.
+1. **Create** \> **DITA Map**&#x200B;をクリックします。
 
-1. On the Blueprint page, select the type of map templates you want to use and click **Next**.
+1. ブループリントページで、使用するマップテンプレートのタイプを選択し、**次へ**&#x200B;をクリックします。
 
    >[!NOTE]
    >
-   > The way the topics are referred in a map file depend on the map template. For example, if you select the Map template, then the topic references \(`topicref`\) are used to refer to topics. In case of a Bookmap, topic references are created using the `chapter` element in DITA.
+   > マップファイルでトピックを参照する方法は、マップテンプレートによって異なります。 例えば、マップテンプレートを選択すると、トピック参照\（`topicref`\）がトピックを参照するために使用されます。 ブックマップの場合、トピック参照はDITAの`chapter`要素を使用して作成されます。
 
-   ![](images/map-template.png){width="650" align="left"}
+   ![](images/map-template.png){width="650"}
 
-1. On the Properties page, specify the map **Title**.
+1. プロパティ ページで、マップ **タイトル**&#x200B;を指定します。
 
-1. \(Optional\) Specify the file **Name**.
+1. \（Optional\） ファイル **Name**&#x200B;を指定します。
 
-   If your administrator has configured automatic file name based on UUID setting, then you will not see the option to specify the file name. A UUID-based file name is automatically assigned to the file.
+   管理者がUUID設定に基づいて自動ファイル名を設定している場合、ファイル名を指定するオプションは表示されません。 UUID ベースのファイル名が自動的にファイルに割り当てられます。
 
-   If the file naming option is available, then also the name is automatically suggested based on the Title of your map. If you want to manually specify the map file name, then ensure that the file name does not contain any spaces, apostrophe, or braces and ends with `.ditamap`.
+   ファイル名オプションが使用可能な場合は、マップのタイトルに基づいて名前も自動的に提案されます。 マップファイル名を手動で指定する場合は、ファイル名にスペース、アポストロフィ、または中括弧が含まれておらず、`.ditamap`で終わることを確認します。
 
 1. 「**作成**」をクリックします。
 
-   The Map Created message appears.
+   マップ作成メッセージが表示されます。
 
-   Every new map file that you create from the Assets UI **Create** \> **DITA Map** or the Web Editor is assigned a unique map ID. Also, the new map is saved as the latest working copy in DAM. Until you save a revision of a newly created map, you will not see any version number in the Version History. If you open the map for editing, the version information is shown in the right top corner of the map file&#39;s tab:
+   Assets UI **Create** \> **DITA Map**&#x200B;またはWeb エディターから作成したすべての新しいマップファイルには、一意のマップ IDが割り当てられます。 また、新しいマップは、最新の作業用コピーとしてDAMに保存されます。 新しく作成したマップのリビジョンを保存するまで、バージョン履歴にバージョン番号は表示されません。 編集のためにマップを開くと、バージョン情報がマップファイルのタブの右上隅に表示されます。
 
-   ![](images/first-version-map-none.png){width="650" align="left"}
+   ![](images/first-version-map-none.png){width="650"}
 
-   The version information for a newly created map is shown as *none*. 新しいバージョンを保存すると、バージョン番号が1.0として割り当てられます。 新しいバージョンの保存について詳しくは、[新しいバージョンとして保存](web-editor-features.md#save-as-new-version-id209ME400GXA)を参照してください。
+   新しく作成されたマップのバージョン情報は&#x200B;*none*&#x200B;として表示されます。 新しいバージョンを保存すると、バージョン番号が1.0として割り当てられます。 新しいバージョンの保存について詳しくは、[新しいバージョンとして保存](web-editor-features.md#save-as-new-version-id209ME400GXA)を参照してください。
 
    設定済みのマップエディターでマップを開くか、AEM リポジトリにマップファイルを保存します。
 

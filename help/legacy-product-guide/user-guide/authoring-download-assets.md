@@ -5,7 +5,7 @@ feature: Content Management
 role: User
 hide: true
 exl-id: b04a0abe-a029-44ac-b8f4-138d78908d44
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 0%
@@ -32,7 +32,7 @@ DITA マップファイルとその依存ファイルをダウンロードする
 
    マップをダウンロード ダイアログが表示されます。
 
-   ![](images/download-map.png){width="300" align="left"}
+   ![](images/download-map.png){width="300"}
 
 1. 「**ダウンロード**」をクリックします。 マップをダウンロード ダイアログで、次のオプションを選択できます。
 
@@ -44,7 +44,7 @@ DITA マップファイルとその依存ファイルをダウンロードする
 
 1. 「**ダウンロード**」ボタンをクリックすると、マップのダウンロードリクエストがキューに入れられます。 マップをダウンロードする準備ができたら、次の通知が届きます。
 
-   ![](images/download-map-prompt.png){width="550" align="left"}
+   ![](images/download-map-prompt.png){width="550"}
 
    - 「**ダウンロード**」をクリックして、マップファイルを.zip形式でダウンロードします。
 
@@ -54,7 +54,7 @@ DITA マップファイルとその依存ファイルをダウンロードする
    >
    > デフォルトでは、ダウンロードされたマップはAEM通知インボックスに5日間残ります。
 
-![](images/download-map-inbox.png){width="300" align="left"}
+![](images/download-map-inbox.png){width="300"}
 
 マップをダウンロードしたら、マップを選択し、上部の「開く」アイコンを使用して、選択したレポートを開くことができます。
 

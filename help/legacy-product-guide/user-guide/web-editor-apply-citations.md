@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: 832dbc5d-85f7-41fd-8f5d-789732b46f80
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1896'
 ht-degree: 1%
@@ -36,30 +36,30 @@ AEM Guidesは、Modern Language Association （MLA）、American Psychological A
 1. 左側のパネルで「**引用** ![引用アイコン &#x200B;](images/citations-icon.svg)」アイコンを選択します。
 **引用** パネルが開きます。
 
-   ![](images/citation-panel.png){width="300" align="left"}
+   ![](images/citation-panel.png){width="300"}
 
 1. **引用** パネルで、![&#x200B; アイコンを追加](images/Add_icon.svg)を選択します。 ドロップダウンから、新しい引用を追加するか、引用を読み込むかを選択できます。
 
 1. **New Citation**&#x200B;を選択して、新しい引用を追加します。
 **引用を追加** ダイアログボックスが開きます。
 
-   web エディターの![引用パネル &#x200B;](images/citation-add.png) {width="300" align="left"}
+   web エディターの![引用パネル &#x200B;](images/citation-add.png) {width="300"}
 
 
-1. Fill in the fields in the **Add Citation** dialog box.
+1. **引用を追加** ダイアログボックスのフィールドに入力します。
 
    >[!NOTE]
    >
-   >You can also add the ISBN or DOI or PubMed ID. AEM Guides populates the other fields automatically.
+   >ISBN、DOI、PubMed IDを追加することもできます。 AEM Guidesは、その他のフィールドに自動的に入力します。
 
    | 書籍 | Web サイト | ジャーナル |
    | --- | ---|---|
-   | **Source** <br> From the drop-down, select the source of the citation as a Book. | **Source**<br> From the drop-down, select the source of the citation as a Website. | **Source** <br> From the drop-down, select the source of the citation as a Journal. |
-   | **Search by** <br> Select **ISBN** or **DOI** from the drop-down to search for the digital ID linked to the citation.  <br> DOI: Digital Object Identifier <br> ISBN: Unique Numeric Book Identifier | **Search by** <br> Select **DOI** from the drop-down to search for the digital ID linked to the citation. | **Search by** <br> Select **DOI** or PubMed ID from the drop-down to search for the digital ID linked to the citation. <br>  <br> |
-   | **Author** <br> Add the first and last name of the author of the citation. Select ![](images/Add_icon.svg) to add more names. | **Author** <br> Add the first and last name of the author of the citation. Select ![](images/Add_icon.svg)  to add more names. | **Author** <br> Add the first and last name of the author of the citation. Select ![](images/Add_icon.svg)to add more names. |
-   | **Title** <br> Add the title of the book. | **Title** <br> Add the title of the web page. | **Title** <br> Add the title of the article. |
-   | **Editor** <br> Add the editor of the book. | **Website Name** <br> Add the name of the website. | **Journal Title** <br> Add the title of the work in which the article is found. |
-   | **Edition** <br> Add the edition of the book. | **URL** <br> Add the web link of the website to browse the content. | **Year** <br> Add the year in which the article is published. |
+   | **Source** <br> ドロップダウンから、ブックとして引用のソースを選択します。 | **Source**<br> ドロップダウンから、Web サイトとしての引用のソースを選択します。 | **Source** <br> ドロップダウンから、引用のソースをジャーナルとして選択します。 |
+   | **検索方法** <br> ドロップダウンから&#x200B;**ISBN**&#x200B;または&#x200B;**DOI**&#x200B;を選択して、引用にリンクされたデジタル IDを検索します。 <br> DOI: デジタルオブジェクト識別子<br> ISBN：一意の数値書籍識別子 | **検索方法** <br> ドロップダウンから&#x200B;**DOI**&#x200B;を選択して、引用にリンクされたデジタル IDを検索します。 | **検索方法** <br> ドロップダウンから&#x200B;**DOI**&#x200B;またはPubMed IDを選択して、引用にリンクされたデジタル IDを検索します。<br>  <br> |
+   | **作成者** <br>引用の作成者の姓と名を追加します。 ![](images/Add_icon.svg)を選択して、さらに名前を追加します。 | **作成者** <br>引用の作成者の姓と名を追加します。 ![](images/Add_icon.svg)を選択して、さらに名前を追加します。 | **作成者** <br>引用の作成者の姓と名を追加します。 ![](images/Add_icon.svg)を選択して、さらに名前を追加します。 |
+   | **タイトル** <br>本のタイトルを追加します。 | **タイトル** <br> Web ページのタイトルを追加します。 | **タイトル** <br>記事のタイトルを追加します。 |
+   | **編集者** <br>本の編集者を追加します。 | **Web サイト名** <br> Web サイトの名前を追加します。 | **ジャーナルのタイトル** <br>記事が見つかった作品のタイトルを追加します。 |
+   | **エディション** <br>本のエディションを追加します。 | **URL** <br> Web サイトのweb リンクを追加して、コンテンツを参照します。 | **年** <br>記事が公開された年を追加します。 |
    | **市区町村** <br>公開の市区町村を追加します。 | **アクセス日**<br> web サイトのコンテンツにアクセスする日付を追加します。 | **Volume** <br> シリーズ内の作業量を追加します。 |
    | **発行者** <br>本の発行者の名前を追加します。 | **公開日** <br> web サイトのコンテンツが公開される日付を追加します。 | **数値** <br>系列のボリュームの数を追加します。 |
    | **年** <br>本が公開された年を追加します。 | **更新日** <br> web サイトのコンテンツが更新される日付を追加します。 | **ページ** <br>記事が見つかったページ番号またはページ範囲を追加します。 |
@@ -160,7 +160,7 @@ AEM Guidesは、Modern Language Association （MLA）、American Psychological A
 
 引用をプレビューするには、次の手順に従います。
 
-リストから引用の名前にカーソルを合わせます。 Select     ![](images/options.svg) **オプション** アイコン。
+リストから引用の名前にカーソルを合わせます。 ![](images/options.svg) **オプション** アイコンを選択します。
 
 1. 「**プレビュー**」を選択します。
 プレビューペインで、引用の内容と形式をプレビューできます。
@@ -171,7 +171,7 @@ AEM Guidesは、Modern Language Association （MLA）、American Psychological A
 
 1. 画面の任意の場所をクリックして、プレビューボックスを閉じます。
 
-   ![](images/citation-preview.png){width="550" align="left"}
+   ![](images/citation-preview.png){width="550"}
 
 >[!NOTE]
 >
@@ -191,7 +191,7 @@ AEM Guidesは、Modern Language Association （MLA）、American Psychological A
 
 1. メインツールバーの&#x200B;**引用** ![引用アイコン &#x200B;](images/citations-icon.svg) アイコンを選択します。
 1. **引用** ダイアログで、引用を選択します。 また、複数の引用を選択することもできます。
-   ![引用ダイアログ &#x200B;](images/citation-dialog-main-toolbar.png){width="300" align="left"}
+   ![引用ダイアログ &#x200B;](images/citation-dialog-main-toolbar.png){width="300"}
 1. **引用** ダイアログボックスの検索パネルに最初のいくつかのアルファベットを入力すると、引用をフィルタリングできます。
 
 1. 「**完了**」をクリックします。
@@ -228,7 +228,7 @@ AEM Guidesは、Modern Language Association （MLA）、American Psychological A
 
 1. リストから引用の名前にカーソルを合わせます。
 1. ![](images/options.svg) **オプション** アイコンを選択します。
-1. を選択します   **削除** ![](images/Delete_icon.svg)。
+1. 「**削除** ![](images/Delete_icon.svg)」を選択します。
 確認ダイアログボックスが開きます。
 1. 「**はい**」を選択します。
 選択した引用は、引用パネルから削除されます。

@@ -5,7 +5,7 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: f6bf1033-9c2f-42c7-9ad5-e1060e2c9770
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
@@ -26,7 +26,7 @@ AEM Guidesには、様々な形式のドキュメントをDITAに変換するた
 
    コンバージョンステータスレポートは、システムで実行されたすべてのコンバージョンタスクに対して表示されます。
 
-   ![](images/conversion-status-report.png){width="800" align="left"}
+   ![](images/conversion-status-report.png){width="800"}
 
 1. このレポートページは、次の2つの部分に分かれています。
 
@@ -36,7 +36,7 @@ AEM Guidesには、様々な形式のドキュメントをDITAに変換するた
 
      次のスクリーンショットは、失敗、アクティブ、キューに入ったコンバージョンタスクのレポートデータを示しています。
 
-     ![](images/conversion-report-failed-active-queued.png){width="800" align="left"}
+     ![](images/conversion-report-failed-active-queued.png){width="800"}
 
    - **レポートデータ：**
 

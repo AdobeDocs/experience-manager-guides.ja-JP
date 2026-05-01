@@ -5,7 +5,7 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: 371d89b8-fe05-4477-9bf8-cc47c0899108
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '2362'
 ht-degree: 0%
@@ -39,7 +39,7 @@ ht-degree: 0%
 
    DITA マップを使用してレビューワークフローを開始すると、次の画面が表示されます。
 
-   ![](images/multiple-topics-review.png){width="800" align="left"}
+   ![](images/multiple-topics-review.png){width="800"}
 
    この画面では、次のオプションを使用できます。
 
@@ -64,13 +64,13 @@ ht-degree: 0%
 
    マップ内のすべてのトピックは、単一の複合ドキュメントとして表示されます。 レビュー担当者がレビューできるトピックは通常どおり表示されます。 レビューでレビューできないトピックは表示されません。
 
-   ![](images/review-read-only.png){width="800" align="left"}
+   ![](images/review-read-only.png){width="800"}
 
    上記のスクリーンショットでは、「一般的な説明」トピックが現在のレビュー担当者のレビュー用に共有されています。これは通常どおり表示されます。 ただし、次のトピック「フライトのコンテンツの履歴」はレビュー用に共有されず、読み取り専用モードで表示されます。 現在注目されているトピックは、目次でも強調表示されます。
 
    トピックまたは複数のトピックを選択してレビュー用に共有すると、次の画面が表示されます。
 
-   ![](images/review-composite-view.png){width="800" align="left"}
+   ![](images/review-composite-view.png){width="800"}
 
    >[!NOTE]
    >
@@ -90,136 +90,136 @@ ht-degree: 0%
 
 **ドキュメント ビューとトピック ビュー** – 既定では、複数のトピックがレビュー用に共有されている場合、トピックの複合ドキュメント ビューがレビュー担当者に表示されます。 DITA マップレビューの場合、マップ内のすべてのトピックは、ブックビューに似た単一のドキュメントの形式で表示されます。 必要に応じて、特定のトピックをクリックして、そのトピックのみをレビュー画面に表示することもできます。
 
-When you view a single topic, then you get an additional option to switch back to the document view. 次のスクリーンショットでは、マップファイルの特定のトピックがレビュー用に開かれています。 ハイライト表示されたオプション「**ドキュメント表示を表示**」を使用すると、ユーザーはマップファイルのドキュメントビューに戻ることができます。
+単一のトピックを表示すると、ドキュメント表示に戻すための追加オプションが表示されます。 次のスクリーンショットでは、マップファイルの特定のトピックがレビュー用に開かれています。 ハイライト表示されたオプション「**ドキュメント表示を表示**」を使用すると、ユーザーはマップファイルのドキュメントビューに戻ることができます。
 
-![](images/switch-document-view.png){width="800" align="left"}
+![](images/switch-document-view.png){width="800"}
 
 **様々な種類のコメントツールを使用する** - テキストを強調表示、テキストを強調表示、テキストを挿入、またはコメントノートを追加して、インラインコメントを追加できます。 コメントツールバーに用意されている様々な種類のコメントツールについては、以下で説明します。
 
-![](images/comments-toolbar.png){width="350" align="left"}
+![](images/comments-toolbar.png){width="350"}
 
 - **ハイライト** \（![](images/review-highlight-icon.svg)\）: ハイライトコメントを追加するには、テキストを選択してハイライトアイコンをクリックします。 または、ハイライトアイコンをクリックして、目的のテキストを選択します。
 
-  ![](images/highlight-comment.png){width="650" align="left"}
+  ![](images/highlight-comment.png){width="650"}
 
   注釈パネルにポップアップが表示され、ハイライト表示されたコンテンツに注釈を追加できます。
 
-- **取り消し線** \（![](images/review-text-strike-through-icon.svg)\）: コンテンツの削除を提案する場合は、コンテンツを選択して取り消し線アイコンをクリックします。 Or, select the desired text and click the Delete key:
+- **取り消し線** \（![](images/review-text-strike-through-icon.svg)\）: コンテンツの削除を提案する場合は、コンテンツを選択して取り消し線アイコンをクリックします。 または、目的のテキストを選択し、削除キーをクリックします。
 
   コメント パネルにポップアップが表示され、削除したコンテンツにコメントを追加できます。
 
-- **テキストを挿入** \（![](images/review-insert-text-icon.svg)\）: テキストを挿入する場合は、テキストを挿入アイコンをクリックし、テキストを挿入する場所にカーソルを置いて、情報を入力します。 Or, place the cursor where you want to insert text and start typing. The added information appears in green colored font:
+- **テキストを挿入** \（![](images/review-insert-text-icon.svg)\）: テキストを挿入する場合は、テキストを挿入アイコンをクリックし、テキストを挿入する場所にカーソルを置いて、情報を入力します。 または、テキストを挿入する場所にカーソルを置き、入力を開始します。 追加された情報は、緑色のフォントで表示されます。
 
-- **Add Comment**\(![](images/review-comment-icon.svg)\): If you want to add a sticky note type of comment, click the Add Comment icon and enter the comment in the pop-up.
+- **コメントを追加**\（![](images/review-comment-icon.svg)\）：注釈タイプの注釈を追加する場合は、「注釈を追加」アイコンをクリックし、ポップアップに注釈を入力します。
 
 
 **コンテキストツールバー**
 
-You can also highlight or strikethrough text quickly with the contextual toolbar. コンテキストツールバーを使用してコメントするには、次の手順を実行します。
+コンテキストツールバーを使用して、テキストをすばやくハイライト表示または取り消し線で表示することもできます。 コンテキストツールバーを使用してコメントするには、次の手順を実行します。
 
 1. ハイライトまたは取り消すテキストを選択します。 コンテキストツールバーが表示されます。
 
-   ![](images/review-quick-launch-toolbar.png){width="550" align="left"}
+   ![](images/review-quick-launch-toolbar.png){width="550"}
 
-1. Click the **Highlight** or **Strikethrough** icon.
-1. You can add comments in the comment panel for the highlight or strikethrough action.
+1. **ハイライト**&#x200B;または&#x200B;**取り消し線** アイコンをクリックします。
+1. ハイライトまたは取り消し線アクションのコメントパネルにコメントを追加できます。
 
-**コメントパネルを使用したレビュー** - コメントパネルには、現在のトピックに対して与えられたコメントのリストが表示されます。 このパネルには、トピックが複数のレビュー担当者に送信された場合の、他のレビュー担当者からのコメントも一覧表示されます。 Each comment in the comment panel is linked to the corresponding text in the current topic. コメント付きテキストを識別するのに役立ちます。 Each comment displays the name of the reviewer who has added the comment along with the timestamp.
+**コメントパネルを使用したレビュー** - コメントパネルには、現在のトピックに対して与えられたコメントのリストが表示されます。 このパネルには、トピックが複数のレビュー担当者に送信された場合の、他のレビュー担当者からのコメントも一覧表示されます。 コメントパネルの各コメントは、現在のトピック内の対応するテキストにリンクされます。 コメント付きテキストを識別するのに役立ちます。 各コメントには、タイムスタンプとともにコメントを追加したレビュー担当者の名前が表示されます。
 
-注釈は、文書内の注釈テキストの順序で表示されます。 For example, there is a highlight comment on the first sentence and an insert text comment on the second sentence in the first paragraph then the highlight text comment is displayed before the inserted text comment.
+注釈は、文書内の注釈テキストの順序で表示されます。 例えば、最初の文にハイライトコメントがあり、最初の段落の2番目の文にテキストコメントを挿入すると、挿入されたテキストコメントの前にハイライトテキストコメントが表示されます。
 
-The tasks that you can perform using the Comments panel are described below:
+コメントパネルを使用して実行できるタスクについては、以下で説明します。
 
-- Clicking on a comment highlights and shows the corresponding comment&#39;s location in the document.
-- You can add replies to comments.
-- You can edit your own comment by clicking on your commented text in the Comments panel and then selecting **Edit** from the Options menu.
-- You can delete your own comments by clicking on the comment in the Comments panel and then selecting the **Delete** option from the Options menu.
+- コメントをクリックすると、ドキュメント内の対応するコメントの場所がハイライト表示されます。
+- コメントに返信を追加できます。
+- コメント パネルでコメントを付けたテキストをクリックし、オプション メニューから「**編集**」を選択すると、独自のコメントを編集できます。
+- 独自のコメントを削除するには、コメントパネルのコメントをクリックし、オプションメニューから「**削除**」オプションを選択します。
 
-  ![](images/review-comment-options-menu.png){width="300" align="left"}
+  ![](images/review-comment-options-menu.png){width="300"}
 
   >[!NOTE]
   >
-  > The Options menu appears only when you hover over your own comments. It is not displayed for the comments by other reviewers.
+  > オプションメニューは、自分のコメントにカーソルを合わせたときにのみ表示されます。 他のレビュー担当者のコメントに対しては表示されません。
 
-- All participating users can respond to comments submitted by other users. On a comment, click **Reply** and press Enter to submit a response.
+- すべての参加ユーザーは、他のユーザーから送信されたコメントに返信できます。 コメントで「**返信**」をクリックし、Enter キーを押して応答を送信します。
 
 **プレビューモード**
 
-- Opening a topic in the Preview mode shows how a topic will be displayed when it is viewed by an author after applying all the changes. For example, all inserted text is shown as normal text and all striked off \(deleted\) text is removed from the content.
+- プレビューモードでトピックを開くと、すべての変更を適用した後に作成者がトピックを表示したときに、そのトピックがどのように表示されるかを示します。 例えば、挿入されたテキストはすべて通常のテキストとして表示され、削除された\（deleted\）テキストはすべてコンテンツから削除されます。
 
-- The following screenshot shows the content in *Review* mode:
+- 次のスクリーンショットは、*レビュー* モードのコンテンツを示しています。
 
-![](images/review-author-mode.png){width="550" align="left"}
+![](images/review-author-mode.png){width="550"}
 
-The following screenshot shows the content in *Preview* mode:
+次のスクリーンショットは、*プレビュー* モードのコンテンツを示しています。
 
-![](images/review-preview-mode.png){width="550" align="left"}
+![](images/review-preview-mode.png){width="550"}
 
-**Add attachments to comments** -   If you want to supplement your comment by providing additional information which is available in some other file, you can do so by attaching it with your comment. As a reviewer, you can easily add one or multiple files from your local system to your comment. A file can be added to all supported forms of comments - Highlight, Strikethrough, Insert Text, or a Comment.
+**コメントに添付ファイルを追加** – 他のファイルで使用可能な追加情報を提供してコメントを補足する場合は、コメントに添付して追加できます。 レビュアーは、ローカルシステムから1つまたは複数のファイルをコメントに簡単に追加できます。 サポートされているすべてのコメント形式（ハイライト、取り消し線、テキストの挿入、コメント）にファイルを追加できます。
 
-When you insert any of the comments, the commenting pop-up appears. After providing additional comments or information in the pop-up, you submit it by hitting Enter. Once the comment is added, you get the option to add an attachment to that comment.
+コメントを挿入すると、コメントのポップアップが表示されます。 ポップアップに追加のコメントや情報を入力したら、Enter キーを押して送信します。 コメントが追加されると、そのコメントに添付ファイルを追加するオプションが表示されます。
 
-![](images/comment-pop-up-panel.png){width="800" align="left"}
+![](images/comment-pop-up-panel.png){width="800"}
 
-In the above screenshot, the document contains the highlight comment&#39;s pop-up and the comment is also added in the Comments panel. The file attachment icon ![](images/file-attach-review.svg)is available along with the comment at both the locations.
+上のスクリーンショットでは、ドキュメントにハイライトコメントのポップアップが含まれており、コメントもコメントパネルに追加されています。 添付ファイル アイコン ![](images/file-attach-review.svg)は、コメントと共に両方の場所で使用できます。
 
-Perform the following steps to add attachment to your comment:
+コメントに添付ファイルを追加するには、次の手順を実行します。
 
-1. Click the *Add Attachment* icon ![](images/file-attach-review.svg) on the comment with which you want to add an attachment.
+1. 添付ファイルを追加するコメントの&#x200B;*添付ファイルを追加* アイコン ![](images/file-attach-review.svg)をクリックします。
 
-   The file Open dialog appears.
+   ファイル開くダイアログが表示されます。
 
-1. Select one or multiple files you want to attach.
+1. 添付する1つまたは複数のファイルを選択します。
 
-   The selected files are shown along with the comment in the Comments panel.
+   選択したファイルは、コメント パネルにコメントとともに表示されます。
 
-   In the Comments panel you can see the file name and its size. You also have an option to remove a file by clicking the delete icon ![](images/Delete_icon.svg) associated with the file name.
+   コメント パネルで、ファイル名とそのサイズを確認できます。 ファイル名に関連付けられている削除アイコン ![](images/Delete_icon.svg)をクリックして、ファイルを削除するオプションもあります。
 
 1. 「**送信**」をクリックします。
 
-   The attachments are uploaded and added to the comment.
+   添付ファイルがアップロードされ、コメントに追加されます。
 
 
-**Additional notes on working with attachments:**
+**添付ファイルの操作に関するその他の注意事項：**
 
-- By default, only two files attached with a comment are shown. If there are more files, then **View Attachment** button on the right shows the number of all attachments \(which are more than two\) associated with the comment. You can click the number to view all attachments. For example, if you have four attachments with a comment, you will see +2 on the button.
+- デフォルトでは、コメントが添付された2つのファイルのみが表示されます。 ファイルが多い場合、右側の&#x200B;**添付ファイルを表示** ボタンには、コメントに関連付けられているすべての添付ファイルの数\（2つ以上\）が表示されます。 番号をクリックすると、すべての添付ファイルを表示できます。 例えば、コメント付きの添付ファイルが4つある場合、ボタンに+2が表示されます。
 
-![](images/review-view-attachment.png){width="550" align="left"}
+![](images/review-view-attachment.png){width="550"}
 
-- Hovering the mouse pointer over an attachment gives the options to download or remove the attachment. Removing the attachment is available only if the current reviewer has added that comment, as shown the following screenshot:
+- 添付ファイルの上にマウスポインターを置くと、添付ファイルをダウンロードまたは削除するオプションが表示されます。 添付ファイルの削除は、次のスクリーンショットに示すように、現在のレビュー担当者がそのコメントを追加した場合にのみ使用できます。
 
-![](images/current-user-comment-options.png){width="550" align="left"}
+![](images/current-user-comment-options.png){width="550"}
 
-The other reviewers or authors get only the download attachment option.
+他のレビュー担当者または作成者には、添付ファイルのダウンロード オプションのみが表示されます。
 
-![](images/other-reviewer-download.png){width="550" align="left"}
+![](images/other-reviewer-download.png){width="550"}
 
-- You can download all attachments associated with a comment from the **View Attachments** dialog. Select the attachments and click the **Download** icon at the comment level.
+- コメントに関連付けられたすべての添付ファイルは、**添付ファイルを表示** ダイアログからダウンロードできます。 添付ファイルを選択し、コメントレベルの&#x200B;**ダウンロード** アイコンをクリックします。
 
-- You can also delete the attachments associated with a comment from the **View Attachments** dialog. Select the attachments and click the **Delete** icon.
+- コメントに関連付けられている添付ファイルは、**添付ファイルを表示** ダイアログから削除することもできます。 添付ファイルを選択し、**削除** アイコンをクリックします。
 
-![](images/attach-files-comments-panel.png){width="550" align="left"}
+![](images/attach-files-comments-panel.png){width="550"}
 
 
-**Conditions panel** -   If your topic has conditional content, then you will see the **Conditions** \(![](images/conditions-icon.svg)\) icon on the right. Clicking on **Conditions** icon opens the Conditions panel that allows you to highlight the content as per the available conditions in the topic.
+**条件パネル** - トピックに条件付きコンテンツがある場合、右側に&#x200B;**条件** \（![](images/conditions-icon.svg)\）アイコンが表示されます。 **条件** アイコンをクリックすると、条件パネルが開き、トピックで使用可能な条件に従ってコンテンツを強調表示できます。
 
-:   By default **Highlight All Conditions** option is enabled, all conditions are selected, the entire content is displayed, and the conditionalized content is shown as highlighted both in review and preview mode.
+：デフォルトでは、「**すべての条件を強調表示**」オプションが有効になっており、すべての条件が選択され、コンテンツ全体が表示され、条件付きコンテンツがレビューモードとプレビューモードの両方で強調表示されます。
 
-:   You can disable **Highlight All Conditions** option and see all the content present in the topic as normal text without any highlights.
+:「**すべての条件を強調表示**」オプションを無効にし、トピックに含まれるすべてのコンテンツをハイライトなしで通常のテキストとして表示できます。
 
-![](images/review-conditions-panel.png){width="350" align="left"}
+![](images/review-conditions-panel.png){width="350"}
 
-You can choose to hide or show a specific condition.
+特定の条件を表示または非表示に選択できます。
 
 - 条件を非表示にした場合、その条件を持つコンテンツはレビューモードでハイライト表示されません。
 - 条件付きコンテンツがレビューモードで強調表示されている場合。 例えば、次のスクリーンショットでは、コンテンツのみが2つの条件を使用します – `win`と`mac`が強調表示されます。
 
 
-![](images/review-condition-normal-mode.png){width="650" align="left"}
+![](images/review-condition-normal-mode.png){width="650"}
 
 プレビューモードでは、表示された2つの条件（`win`と`mac`）を使用する条件付きコンテンツと条件付きコンテンツが表示されます。 条件が非表示になっている残りの条件付きコンテンツは表示されません。
 
-**リアルタイムレビュー** -   コメントパネルは、コメントと、コメントに対して作成者が実行したフィードバックまたはアクションをリアルタイムで更新します。
+**リアルタイムのレビュー** - コメント パネルは、コメントと、コメントに対する作成者のフィードバックまたはアクションによってリアルタイムに更新されます。
 
 - 複数のレビュー担当者が、同じドキュメントにコメントを残したり、コメントに同時に返信したりできます。 画面の右上隅にあるユーザーアイコンの上にマウスを置くと、現在ドキュメントをレビューしているユーザーを確認できます。
 
@@ -227,7 +227,7 @@ You can choose to hide or show a specific condition.
 
 - 古いコメントアイコン \（![](images/outdated-comment-icon.svg)\）をクリックすると、ドキュメントの最新バージョンとコメント済みバージョンの違いが表示されます。 バージョン番号\（比較するバージョンの\）がドキュメントの上部に表示されます。
 
-  ![](images/comments-page-review-mode.png){width="800" align="left"}
+  ![](images/comments-page-review-mode.png){width="800"}
 
   >[!NOTE]
   >
@@ -235,7 +235,7 @@ You can choose to hide or show a specific condition.
 
 - 古いコメントをクリックすると、そのコメントのバージョンが左側のパネルに表示されます。 前のバージョンは左側のパネルに表示され、現在のバージョンは右側のパネルに表示されます。 古いバージョンに関するすべてのコメントは、左側に読み込まれます。 以前のバージョンと現在のバージョンを比較できます。
 
-**コメントをフィルター** -   ドキュメント内のコメントをフィルタリングして、必要に応じて特定のコメントを表示できます。 コメントをフィルタリングするには、コメントパネルの「コメントを検索」テキストボックスの右側にあるメニューに表示される&#x200B;**フィルター** アイコン \（![](images/filter-search-icon.svg)\）をクリックします。
+**コメントをフィルター** – 文書内のコメントをフィルターして、必要に応じて特定のコメントを表示できます。 コメントをフィルタリングするには、コメントパネルの「コメントを検索」テキストボックスの右側にあるメニューに表示される&#x200B;**フィルター** アイコン \（![](images/filter-search-icon.svg)\）をクリックします。
 
 **フィルタータイプ** ダイアログから次のフィルターオプションを1つ以上選択し、**適用**&#x200B;をクリックします。
 

@@ -4,9 +4,10 @@ description: バージョンの管理方法を学ぶ
 feature: Version Management
 role: Admin
 level: Experienced
-source-git-commit: b416334318a83e882c32318bc4769d24268cdd1c
+exl-id: 4ca4292a-a97a-4b54-ab9d-17f73e4a100f
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '2293'
+source-wordcount: '2309'
 ht-degree: 0%
 
 ---
@@ -113,7 +114,7 @@ AEM Guides Web エディターでは、DITA トピックを作成および更新
 
 1. 「**チェックアウトなしで編集を無効にする**」オプションを選択します。
 
-   ![](assets/xml-editor-config.png){width="650" align="left"}
+   ![](assets/xml-editor-config.png){width="650"}
 
    このオプションを使用すると、ユーザーはファイルをチェックアウトするまで、ツールバーに「編集」オプションを表示しません。
 
@@ -209,7 +210,7 @@ AEM Guides Web エディターでは、DITA トピックを作成および更新
 
 `/oak:index/damAssetLucene/indexRules/dam:Asset/properties/drivelock`
 
-![](assets/index-property-oak-index-drivelock.png){width="800" align="left"}
+![](assets/index-property-oak-index-drivelock.png){width="800"}
 
 新しいインデックスプロパティに加えて、次のプロパティが`/oak:index/damAssetLucene`に設定されていることを確認します。
 
@@ -247,7 +248,7 @@ AEM Guides Web エディターでは、DITA トピックを作成および更新
 
 | PID | プロパティキー | プロパティの値 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `block.unsafe.delete` | 使用可能な値：<br> - allow\_unsafe\_delete\_for\_all <br> -   allow\_unsafe\_delete\_for\_delete\_assets\_group <br> - block\_unsafe\_delete\_for\_all <br> **デフォルト値**: `allow_unsafe_delete_for_delete_assets_group` <br>これらの定数の詳細は以下のとおりです。 |
+| `com.adobe.fmdita.config.ConfigManager` | `block.unsafe.delete` | 使用可能な値：<br> - allow\_unsafe\_delete\_for\_all <br> - allow\_unsafe\_delete\_for\_delete\_assets\_group <br> - block\_unsafe\_delete\_for\_all <br> **デフォルト値**: `allow_unsafe_delete_for_delete_assets_group` <br>これらの定数の詳細は以下のとおりです。 |
 
 削除用のアクセス権を付与するユーザーに応じて、次のいずれかの定数を指定します。
 
@@ -279,11 +280,11 @@ AEM Guides Web エディターでは、DITA トピックを作成および更新
 
    - allow\_unsafe\_delete\_for\_all: ファイルを削除する権限をすべてのユーザーに付与します。 この場合、ファイルに参照が含まれているか、他のファイルが参照している場合は、そのファイルを強制的に削除することもできます。 ファイルを削除する前に、参照を含むプロンプトが表示されます。削除操作をキャンセルし、参照を削除してから、最後にファイル\（s\）を削除できます。 または、参照を削除せずにファイル\（s\）を強制的に削除できます。
 
-     ![](assets/allow_unsafe_delete-force-delete.PNG){width="550" align="left"}
+     ![](assets/allow_unsafe_delete-force-delete.PNG){width="550"}
 
    - allow\_unsafe\_delete\_for\_delete\_assets\_group: *delete-assets* グループに属する管理者またはユーザーは、ファイルを削除できます。 他のユーザーが参照を持つファイルを削除しようとすると、すべての参照が削除されるまで、そのようなファイルを削除することはできません。 権限を持たないユーザーがファイルを削除しようとすると、次のスクリーンショットが表示されます。
 
-     ![](assets/allow_unsafe_delete_for_delete_assets_group.PNG){width="550" align="left"}
+     ![](assets/allow_unsafe_delete_for_delete_assets_group.PNG){width="550"}
 
    - block\_unsafe\_delete\_for\_all: ファイル\（s\）への参照とファイルからの参照が削除されるまで、すべてのユーザー\（Administratorsを含む）がファイルを削除できないようにします。
 

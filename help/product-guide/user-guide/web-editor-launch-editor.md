@@ -1,75 +1,75 @@
 ---
-title: エディターの起動
-description: Adobe Experience Manager GuidesのAEM ナビゲーションページ、AEM Assets UI およびマップコンソールからエディターを起動する方法について説明します。
+title: エディターを起動
+description: Adobe Experience Manager GuidesのAEM ナビゲーションページ、AEM Assets UI、マップコンソールからエディターを起動する方法について説明します。
 exl-id: cdde7c29-ee49-4e17-902e-1e2bd6f32e8a
 feature: Authoring, Web Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '718'
 ht-degree: 0%
 
 ---
 
-# エディターの起動 {#id2056B0140HS}
+# エディターを起動 {#id2056B0140HS}
 
-エディターは次の場所から起動できます。
+エディターは、次の場所から起動できます。
 
-- [Adobe Experience Managerのナビゲーションページ](#adobe-experience-manager-navigation-page)
+- [Adobe Experience Manager ナビゲーションページ](#adobe-experience-manager-navigation-page)
 - [ADOBE EXPERIENCE MANAGER ASSETS UI](#adobe-experience-manager-assets-ui)
 - [マップコンソール](#map-console)
 
-以下の節では、様々な場所からエディターにアクセスして起動する方法の詳細について説明します。
+以下の節では、さまざまな場所からエディターにアクセスして起動する方法の詳細について説明します。
 
-## Adobe Experience Managerのナビゲーションページ
+## Adobe Experience Manager ナビゲーションページ
 
-Experience Managerにログインすると、ナビゲーション ページが表示されます。
+Experience Managerにログインすると、ナビゲーションページが表示されます。
 
-![](images/web-editor-from-navigation-page.png){align="left"}
+![](images/web-editor-from-navigation-page.png)
 
-**ガイド** リンクを選択すると、[Adobe Experience Manager Guides ホームページ &#x200B;](./intro-home-page.md) に移動します。
+**ガイド** リンクを選択すると、[Adobe Experience Manager Guides ホームページ &#x200B;](./intro-home-page.md)に移動します。
 
-![](images/aem-home-page.png){align="left"}
+![](images/aem-home-page.png)
 
-エディターを起動するには、ナビゲーションバーに移動し、ドロップダウンから **エディター** を選択します。 デフォルトでは、「ホームページ」が選択されています。
+エディターを起動するには、ナビゲーションバーに移動し、ドロップダウンから「**エディター**」を選択します。 ホームページはデフォルトで選択されています。
 
-![](images/editor-home-page-dropdown.png){width="350" align="left"}
+![](images/editor-home-page-dropdown.png){width="350"}
 
-ファイルを選択せずにエディタを起動すると、空のエディタ画面が表示されます。 ファイルを開いて編集するには、Experience Manager **リポジトリ** または自分の **コレクション** から行います。
+ファイルを選択せずにエディターを起動すると、空のエディター画面が表示されます。 Experience Manager **リポジトリ**&#x200B;または&#x200B;**コレクション**&#x200B;から編集用のファイルを開くことができます。
 
-![](images/web-editor-launch-page.png){align="left"}
+![](images/web-editor-launch-page.png)
 
-または、[Adobe Experience Manager Guidesのホームページエクスペリエンス **の** 最近のファイル **ウィジェットおよび &#x200B;](./intro-home-page.md) コレクション** ウィジェットに存在する既存のファイルを開いて、エディターを起動することもできます。
+または、[Adobe Experience Manager Guides ホームページ エクスペリエンス &#x200B;](./intro-home-page.md)の&#x200B;**最近のファイル** ウィジェットと&#x200B;**コレクション** ウィジェットに存在する既存のファイルを開いて、エディターを起動することもできます。
 
 
-Experience Manager ナビゲーション ページに戻るには、上部のヘッダーの左上隅にあるAdobe Experience Manager ロゴを選択します。
+Experience Manager ナビゲーションページに戻るには、上部ヘッダーの左上隅にあるAdobe Experience Manager ロゴを選択します。
 
 
 ## ADOBE EXPERIENCE MANAGER ASSETS UI
 
-エディターを起動できるもう 1 つの場所は、Experience Manager Assets UI です。 1 つ以上のトピックを選択して、エディターで直接開くことができます。
+エディターを起動できる別の場所は、Experience Manager Assets UIです。 1つ以上のトピックを選択し、エディターで直接開くことができます。
 
 エディターでトピックを開くには、次の手順に従います。
 
-1. Assets UI で、編集するトピックに移動します。
+1. Assets UIで、編集するトピックに移動します。
 
    >[!NOTE]
    >
-   > また、トピックの UUID を表示することもできます。
+   > トピックのUUIDを表示することもできます。
 
-   ![](images/assets_ui_with_uuid_cs.png){align="left"}
-
-   >[!IMPORTANT]
-   >
-   > 編集するトピックを含むフォルダーに対する読み取りおよび書き込み権限があることを確認します。
-
-1. トピックに対して排他的なロックを取得するには、トピックを選択して「**チェックアウト**」を選択します。
+   ![](images/assets_ui_with_uuid_cs.png)
 
    >[!IMPORTANT]
    >
-   > 管理者が「**ファイルをロックせずに編集を無効にする** オプションを設定した場合は、編集する前にファイルをチェックアウトする必要があります。 ファイルをチェックアウトしないと、編集オプションを表示できません。
+   > 編集するトピックを含むフォルダーに対する読み取り権限と書き込み権限があることを確認します。
 
-1. アセット選択モードを閉じ、編集するトピックを選択します。
+1. トピックの排他的ロックを取得するには、トピックを選択し、**チェックアウト**&#x200B;を選択します。
+
+   >[!IMPORTANT]
+   >
+   > 管理者が「**ファイルをロックせずに編集を無効にする**」オプションを設定している場合は、編集する前にファイルをチェックアウトする必要があります。 ファイルをチェックアウトしない場合は、編集オプションを表示できません。
+
+1. アセット選択モードを閉じて、編集するトピックを選択します。
 
    トピックのプレビューが表示されます。
 
@@ -77,60 +77,60 @@ Experience Manager ナビゲーション ページに戻るには、上部のヘ
 
    >[!IMPORTANT]
    >
-   > 複数のトピックを開いて編集する場合は、アセット UI から目的のトピックを選択し、「**編集**」を選択します。 ブラウザーでポップアップブロッカーが有効になっていないことを確認してください。有効になっていない場合は、選択したリストの最初のトピックのみが編集用に開かれます。
+   > 複数のトピックを開いて編集する場合は、アセット UIから目的のトピックを選択し、**編集**&#x200B;を選択します。 ブラウザーでポップアップブロッカーが有効になっていないことを確認します。有効になっていない場合は、選択したリストの最初のトピックのみが編集用に開かれます。
 
-   ![](images/edit-from-preview_cs.png){align="left"}
+   ![](images/edit-from-preview_cs.png)
 
-   トピックをプレビューせずに、エディターで直接開く場合は、カード表示からクイックアクションメニューの **編集** アイコンを選択します。
+   トピックをプレビューせず、エディターで直接開く場合は、カード表示のクイックアクションメニューで&#x200B;**編集** アイコンを選択します。
 
-   ![](images/edit-topic-from-quick-action_cs.png){align="left"}
+   ![](images/edit-topic-from-quick-action_cs.png)
 
-   エディターにトピックが表示されます。
+   トピックがエディターで開きます。
 
-   ![](images/edit-mode.png){align="left"}
+   ![](images/edit-mode.png)
 
-また、Assets UI でマップファイルを開き、エディターを起動してマップファイルのトピックを編集することもできます。
+Assets UIでマップファイルを開き、エディターを起動してマップファイルのトピックを編集することもできます。
 
 エディターでマップを開くには、次の手順に従います。
 
-1. Assets UI で、編集するトピックを含むマップファイルに移動して選択します。
-1. DITA マップコンソールで、「**トピック**」タブに移動します。 マップ ファイル内のトピックのリストが表示されます。
-1. 編集するトピック ファイルを選択します。
-1. **トピックを編集** を選択します。
+1. Assets UIで、編集するトピックを含むマップファイルに移動して選択します。
+1. DITA マップコンソールで、「**トピック**」タブに移動します。 マップファイル内のトピックのリストが表示されます。
+1. 編集するトピックファイルを選択します。
+1. 「**トピックを編集**」を選択します。
 
-   ![](images/edit-topics-map-console_cs.png){align="left"}
+   ![](images/edit-topics-map-console_cs.png)
 
-1. エディターにトピックが表示されます。
+1. トピックがエディターで開きます。
 
    >[!IMPORTANT]
    >
-   > 管理者が「**ファイルをロックせずに編集を無効にする** オプションを設定した場合は、編集する前にファイルをチェックアウトする必要があります。 ファイルをチェックアウトしない場合、ドキュメントはエディターで読み取り専用モードで開きます。
+   > 管理者が「**ファイルをロックせずに編集を無効にする**」オプションを設定している場合は、編集する前にファイルをチェックアウトする必要があります。 ファイルをチェックアウトしない場合、ドキュメントはエディターで読み取り専用モードで開きます。
 
 ## マップコンソール
 
-マップ コンソールからエディターを開くには、次の手順に従います。
+マップコンソールからエディターを開くには、次の手順に従います。
 
-1. ホームページを開き、マップ コンソールを起動します。
+1. ホームページを開き、マップコンソールを起動します。
 
-   ![](images/editor-map-console-dropdown.png){width="350" align="left"}
+   ![](images/editor-map-console-dropdown.png){width="350"}
 
-   マップファイルを選択せずにマップコンソールを起動すると、空白のマップコンソール画面が表示されます。 また、Experience Manager **リポジトリ** または自分の **コレクション** からマップファイルを開くこともできます。
+   マップファイルを選択せずにマップコンソールを起動すると、空白のマップコンソール画面が表示されます。 Experience Manager **リポジトリ**&#x200B;または&#x200B;**コレクション**&#x200B;からマップファイルを開くこともできます。
 
-   ![](images/launch-map-console.png){width="500" align="left"}
+   ![](images/launch-map-console.png){width="500"}
 
-1. 「**マップを選択**」を選択して、編集するトピックを含むマップ・ファイルをエディタで開きます。
-1. マップ ファイルがあるパスを選択します。 選択したマップ ファイルがマップ コンソールに追加されます。
-1. マップファイルに移動し、ドロップダウンから **エディターで開く** を選択します。
+1. **マップを選択**&#x200B;して、エディターで編集するトピックを含むマップファイルを開きます。
+1. マップファイルが配置されているパスを選択します。 選択したマップファイルがマップコンソールに追加されます。
+1. マップファイルに移動し、ドロップダウンから「**エディターで開く**」を選択します。
 
-   ![](images/map-console-open-in-editor.png){align="left"}
+   ![](images/map-console-open-in-editor.png)
 
-   トピックを含むマップ ファイルがエディタで編集用に開きます。
+   トピックを含むマップファイルは、エディターで編集用に開かれています。
 
-   ![](images/map-console-edit-topics.png){align="left"}
-
-
+   ![](images/map-console-edit-topics.png)
 
 
 
 
-**親トピック**: [&#x200B; エディターの概要 &#x200B;](web-editor.md)
+
+
+**親トピック**: [編集者の概要](web-editor.md)

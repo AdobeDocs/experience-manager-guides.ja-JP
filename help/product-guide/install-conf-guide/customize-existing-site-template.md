@@ -5,7 +5,7 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: eabaec57-e717-45a9-8321-4057b993d7fb
-source-git-commit: d5dbd67ba44735cf1545291e9a03e3096acd8166
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 2%
@@ -53,11 +53,11 @@ AEM サイトから2つの編集可能なテンプレートを選択して設定
 - 特定のドキュメント（製品マニュアルやガイドなど）のエントリポイントまたはホームページとして機能します。
 - id=&quot;category-page&quot; プロパティをテンプレートの最初のノードのjcr:contentに追加します。 これにより、このテンプレートから作成されたすべてのページが、AEM Guidesによってドキュメントコンテナとして自動的に処理されるようになります。
 
-  ![ID=&quot;category-page&quot;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-id-category-page.png){width="650" align="left"}を追加しています
+  ![ID=&quot;category-page&quot;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-id-category-page.png){width="650"}を追加しています
 
 - 必須プロパティを持つテキストコンポーネントを追加します：text=&quot;$category.html$&quot;。
 
-  ![&#x200B; テキストコンポーネントの追加](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component.png){width="650" align="left"}
+  ![&#x200B; テキストコンポーネントの追加](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component.png){width="650"}
 
 - 通常は、ドキュメント内のセクションやトピックへのリンクなどのナビゲーション要素が含まれます。
 - ブランディング、ヘッダー、フッター、その他のデザイン要素を含めるようにカスタマイズできます。
@@ -71,7 +71,7 @@ AEM サイトから2つの編集可能なテンプレートを選択して設定
 - DITA マップの各トピックは、このテンプレートを使用して個別のページとしてレンダリングされます。
 - 必須プロパティが&#x200B;**テキストコンポーネント**&#x200B;です：text=&quot;$topic.content$&quot;。
 
-  ![必須プロパティを含むテキストコンポーネントを追加する](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component-mandatory-property.png){width="650" align="left"}
+  ![必須プロパティを含むテキストコンポーネントを追加する](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component-mandatory-property.png){width="650"}
 
 - このプレースホルダーは、サイト生成時にDITA トピックの実際のコンテンツに置き換えられます。
    - テキストコンポーネントは通常、**コンテナコンポーネント**&#x200B;内に配置され、適切なレイアウトとスタイル設定が行われます。
@@ -82,7 +82,7 @@ AEM サイトから2つの編集可能なテンプレートを選択して設定
 
 **コンテナコンポーネント：**
 
-![&#x200B; コンテナコンポーネントの追加](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-component.png){width="650" align="left"}
+![&#x200B; コンテナコンポーネントの追加](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-component.png){width="650"}
 
 >[!NOTE]
 >
@@ -90,7 +90,7 @@ AEM サイトから2つの編集可能なテンプレートを選択して設定
 
 同じテンプレートの構造に同じ（コンテナとテキストコンポーネント）を追加します。
 
-![&#x200B; コンテナとテキストコンポーネントの追加](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-and-text-component.png){width="650" align="left"}
+![&#x200B; コンテナとテキストコンポーネントの追加](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-and-text-component.png){width="650"}
 
 ## カスタマイズされたテンプレートでのGuides コンポーネントのレンダリング
 
@@ -124,7 +124,7 @@ AEM サイトから2つの編集可能なテンプレートを選択して設定
    1. **エディターモード**&#x200B;で&#x200B;**製品ページ**&#x200B;を開きます。
    2. 「**テンプレートを編集**」を選択します（conf/settings/wcm/templates/structure.htmlなどのURLが開きます）。
 
-      ![テンプレートの編集](/help/product-guide/knowledge-base/kb-articles/assets/publishing/edit-template.png){width="650" align="left"}
+      ![テンプレートの編集](/help/product-guide/knowledge-base/kb-articles/assets/publishing/edit-template.png){width="650"}
 
 2. **ページポリシーの更新：**
 
@@ -135,7 +135,7 @@ AEM サイトから2つの編集可能なテンプレートを選択して設定
 
 3. **変更を保存：**&#x200B;必要なクライアントライブラリを追加した後にテンプレートを保存します。
 
-   ![&#x200B; クライアントライブラリを追加](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-client-libraries.png){width="650" align="left"}
+   ![&#x200B; クライアントライブラリを追加](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-client-libraries.png){width="650"}
 
 
 >[!NOTE]
