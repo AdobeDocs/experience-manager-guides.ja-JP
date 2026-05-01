@@ -18,7 +18,7 @@ ht-degree: 1%
 
 タグを使用すると、コンテンツリポジトリー内および公開された出力でコンテンツをグループ化または分類できます。 コンテンツにタグを適用した場合、DITA マップ内で関連トピックを簡単に見つけることができ、コンテンツのオーサリングに役立ちます。 公開された出力により、エンドユーザーは適切なタグを配置して、適切なコンテンツをより早く見つけることができます。
 
-Adobe Experience Manager Guidesでは、数ステップでDITA コンテンツにタグ付けすることができます。 一括タグ付け機能を使用すると、複数のトピック、DITA マップ、またはサブマップに複数のタグを適用できます。 または、個々のトピックにタグを適用することもできます。 タグ付けはAdobe Experience Managerのネイティブ機能です。タグの作成と管理について詳しくは、Adobe Experience Manager ドキュメントの「[&#x200B; タグの管理](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en)」セクションを参照してください。
+Adobe Experience Manager Guidesでは、数ステップでDITA コンテンツにタグ付けすることができます。 一括タグ付け機能を使用すると、複数のトピック、DITA マップ、またはサブマップに複数のタグを適用できます。 または、個々のトピックにタグを適用することもできます。 タグ付けはAdobe Experience Managerのネイティブ機能です。タグの作成と管理について詳しくは、Adobe Experience Manager ドキュメントの「[&#x200B; タグの管理](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=ja)」セクションを参照してください。
 
 デフォルトでは、Experience Manager Guidesは、Adobe Experience Manager リポジトリ内のすべてのタグが保存されているフォルダー上の任意のユーザーに読み取りアクセス権を付与しません。 Adobe Experience Manager リポジトリで定義されたタグを使用するには、タグが保存されているフォルダーにアクセス権を付与するようにシステム管理者に依頼する必要があります。
 

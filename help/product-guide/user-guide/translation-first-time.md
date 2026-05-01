@@ -49,7 +49,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > サードパーティの翻訳サービスとの連携について詳しくは、Adobe Experience Manager ドキュメントの[翻訳統合フレームワークの設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)を参照してください。
+   > サードパーティの翻訳サービスとの連携について詳しくは、Adobe Experience Manager ドキュメントの[翻訳統合フレームワークの設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=ja)を参照してください。
 
 1. **保存して閉じる**&#x200B;を選択し、更新されたフォルダープロパティを保存します。
 

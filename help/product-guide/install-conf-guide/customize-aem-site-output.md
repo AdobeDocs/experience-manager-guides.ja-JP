@@ -98,7 +98,7 @@ AEM Guides デザインテンプレートのプロパティについては、次
 >
 > カスタムデザインテンプレートノードを作成した後、カスタムデザインテンプレートノードを使用するには、AEM サイト出力プリセットの「デザイン」オプションを更新する必要があります。
 
-詳しくは、[最初のAdobe Experience Manager web サイトの作成](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=ja)および[AEMでの独自のweb サイトの開発の基本](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=en)を参照してください。
+詳しくは、[最初のAdobe Experience Manager web サイトの作成](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=ja)および[AEMでの独自のweb サイトの開発の基本](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=ja)を参照してください。
 
 ## AEM サイト出力の生成にドキュメントタイトルを使用する
 

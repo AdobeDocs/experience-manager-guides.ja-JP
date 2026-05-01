@@ -179,4 +179,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> Cloud Service設定の場合は、実稼動環境にデプロイする前に、すべての設定が非実稼動環境でテストされていることを確認します。<br><br> 詳しくは、[AEM as a Cloud Serviceへのデプロイに関する公式ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview)を参照してください。
+> Cloud Service設定の場合は、実稼動環境にデプロイする前に、すべての設定が非実稼動環境でテストされていることを確認します。<br><br> 詳しくは、[AEM as a Cloud Serviceへのデプロイに関する公式ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/implementing/deploying/overview)を参照してください。

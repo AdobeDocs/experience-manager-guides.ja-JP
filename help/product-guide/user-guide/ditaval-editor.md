@@ -15,7 +15,7 @@ ht-degree: 0%
 
 DITAVAL ファイルは、条件付き出力の生成に使用されます。 1つのトピックで、要素の属性を使用して条件を追加し、コンテンツをコンディショナライズできます。 次に、DITAVAL ファイルを作成します。このファイルでは、コンテンツを生成するために取得する必要がある条件と、最終的な出力から除外する条件を指定します。
 
-Adobe Experience Manager Guidesでは、DITAVAL エディターを使用してDITAVAL ファイルを簡単に作成および編集できます。 DITAVAL エディターは、システムで定義されている属性（条件として使用できます）を取得し、それらを使用してDITAVAL ファイルを作成または編集できます。 Adobe Experience Managerでの条件の作成と管理について詳しくは、Adobe Experience Manager ドキュメントの「[&#x200B; タグの管理](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en)」の節を参照してください。
+Adobe Experience Manager Guidesでは、DITAVAL エディターを使用してDITAVAL ファイルを簡単に作成および編集できます。 DITAVAL エディターは、システムで定義されている属性（条件として使用できます）を取得し、それらを使用してDITAVAL ファイルを作成または編集できます。 Adobe Experience Managerでの条件の作成と管理について詳しくは、Adobe Experience Manager ドキュメントの「[&#x200B; タグの管理](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=ja)」の節を参照してください。
 
 次の節では、Experience Manager GuidesのDITAVAL ファイルで使用できるオプションについて説明します。
 

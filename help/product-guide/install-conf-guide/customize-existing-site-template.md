@@ -140,4 +140,4 @@ AEM サイトから2つの編集可能なテンプレートを選択して設定
 
 >[!NOTE]
 >
-> 実稼動環境にデプロイする前に、テンプレートが実稼動以外の環境でテストされていることを確認します。<br><br>詳細については、[AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)および[AEM Sites](https://experienceleague.adobe.com/ja/docs/experience-manager-core-components/using/get-started/authoring)の公式ドキュメントを参照してください。
+> 実稼動環境にデプロイする前に、テンプレートが実稼動以外の環境でテストされていることを確認します。<br><br>詳細については、[AEM Guides](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/overview)および[AEM Sites](https://experienceleague.adobe.com/ja/docs/experience-manager-core-components/using/get-started/authoring)の公式ドキュメントを参照してください。

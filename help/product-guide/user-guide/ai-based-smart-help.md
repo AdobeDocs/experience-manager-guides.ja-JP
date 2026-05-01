@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # AI アシスタントのスマートヘルプで効率を向上（Beta）
 
-Experience Manager Guidesは、生成AI ベースのスマートヘルプを提供します。これは、[Adobe Experience Manager Guides ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)から関連コンテンツを見つけるのに役立つ会話型検索機能です。
+Experience Manager Guidesは、生成AI ベースのスマートヘルプを提供します。これは、[Adobe Experience Manager Guides ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/overview)から関連コンテンツを見つけるのに役立つ会話型検索機能です。
 
 質問に答えたり、有益な方法で回答を得たりすることができます。 製品ドキュメントのコンテンツに基づいて、クエリに対する回答を返します。 検索エンジンは完全に対話型です。 Experience Manager Guidesの様々な機能について質問したり、トラブルシューティングの質問を行うことができます。 回答にもとづいて、さらに質問することもできます。 応答には、ソースドキュメントへのリンクも含まれています。詳細については、こちらを参照してください。
 
