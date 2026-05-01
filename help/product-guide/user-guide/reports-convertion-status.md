@@ -56,4 +56,4 @@ Adobe Experience Manager Guidesには、様々な形式のドキュメントをD
       - **Output**：正常に変換されたドキュメントのパス。 出力リンクを選択すると、出力が保存される場所に移動します。
 
 
-**親トピック：**[ レポートの概要](reports-intro.md)
+**親トピック：**&#x200B;[&#x200B; レポートの概要](reports-intro.md)

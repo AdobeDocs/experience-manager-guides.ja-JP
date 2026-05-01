@@ -61,4 +61,4 @@ DITA マップの出力プリセットを作成するには、次の手順を実
 
 ![](images/edit-preset_cs.png){width="550"}
 
-**親トピック：**[ Web エディターからの記事ベースの公開](web-editor-article-publishing.md)
+**親トピック：**&#x200B;[&#x200B; Web エディターからの記事ベースの公開](web-editor-article-publishing.md)

@@ -21,7 +21,7 @@ ht-degree: 1%
 
 1. **一括公開ダッシュボード** タイルを選択します。
 
-   一括公開ダッシュボードには、一括アクティベーションマップコレクションのリストが表示されます。 このダッシュボードには、[Adobe Experience Manager Guides ホームページ ](intro-home-page.md)の左側のパネルからアクセスすることもできます。
+   一括公開ダッシュボードには、一括アクティベーションマップコレクションのリストが表示されます。 このダッシュボードには、[Adobe Experience Manager Guides ホームページ &#x200B;](intro-home-page.md)の左側のパネルからアクセスすることもできます。
 
 1. 公開するコレクションを選択し、**開く**&#x200B;を選択します。
 
@@ -39,7 +39,7 @@ ht-degree: 1%
 <details>
 <summary> クラウドサービス </summary>
 
-![ クラウドサービス上のbulk-collection-publish](images/bulk-activation-collection-quick-publish-CS.png){width="650"}
+![&#x200B; クラウドサービス上のbulk-collection-publish](images/bulk-activation-collection-quick-publish-CS.png){width="650"}
 
 **プレビュー**&#x200B;または&#x200B;**公開** インスタンスへの出力をアクティブ化できます。
 
@@ -85,4 +85,4 @@ ht-degree: 1%
 
 選択したマップファイルの出力がアクティブ化されると、「監査履歴」タブが更新され、最新のアクティブ化された出力が上部に表示されます。 **公開済み**&#x200B;列が、公開日時で更新されます。
 
-** 親トピック：**[公開されたコンテンツの一括アクティベーション ](conf-bulk-activation.md)
+**&#x200B; 親トピック：**&#x200B;[公開されたコンテンツの一括アクティベーション &#x200B;](conf-bulk-activation.md)

@@ -22,19 +22,19 @@ ht-degree: 1%
    - **知識チェック**：学習トピック内にグレードのないクイッククイズを追加して、学習者の理解を検証します。
    - **H5P**: インタラクティブなH5P パッケージを埋め込んで、学習体験を強化します。
 
-  詳細については、挿入メニュー](../learning-content/lc-other-insert-options.md)の[その他のオプションを参照してください。
+  詳細については、挿入メニュー[&#128279;](../learning-content/lc-other-insert-options.md)のその他のオプションを参照してください。
 
   ![](assets/knowledge-check-topic.png){width="650"}
 
 - **新しいインタラクティブウィジェット**：コンテンツをより没入感のあるものにする新しいインタラクティブウィジェットを使用して、学習者を惹きつけることができます。**クリックして表示**、**フリップカード**、**タブ**。
 
-  詳しくは、[ インタラクティブウィジェットの使用](../learning-content/lc-widgets.md)を参照してください。
+  詳しくは、[&#x200B; インタラクティブウィジェットの使用](../learning-content/lc-widgets.md)を参照してください。
 
   ![](assets/new-widgets-options.png){width="350"}
 
 - **次の**&#x200B;に一致：**次の**&#x200B;に一致する新しい質問タイプがクイズに使用できます。 学習者は、2つのリストのアイテムをマッチングさせて、関連するアイデアを結びつけ、批判的な思考を促進できます。
 
-  詳しくは、[ クイズの質問タイプ ](../learning-content/quiz-insert-questions.md#question-types)を参照してください。
+  詳しくは、[&#x200B; クイズの質問タイプ &#x200B;](../learning-content/quiz-insert-questions.md#question-types)を参照してください。
 
   ![](assets/question-types.png){width="650"}
 
@@ -42,7 +42,7 @@ ht-degree: 1%
 
 - **レビュータスクを作成**：学習コースのレビュータスクを作成し、レビュー担当者にフィードバック用に割り当てることができるようになりました。 これにより、コンテンツの品質が確保され、コラボレーションが合理化され、レビューの追跡が簡単になります。
 
-  詳しくは、[ レビュータスクの作成](../learning-content/manage-course.md#create-review-task)を参照してください。
+  詳しくは、[&#x200B; レビュータスクの作成](../learning-content/manage-course.md#create-review-task)を参照してください。
 
   ![](assets/create-review-task-lc.png){width="650"}
 

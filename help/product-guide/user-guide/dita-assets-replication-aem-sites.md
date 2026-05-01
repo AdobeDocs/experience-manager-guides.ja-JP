@@ -19,4 +19,4 @@ DITA コンテンツから生成された出力が、一部のパブリッシュ
 
 DITA コンテンツのパブリッシュ環境への意図しないレプリケーションを防ぎ、パフォーマンスの問題を回避するには、管理者はConfiguration Managerを通じてDITA アセットレプリケーションを明示的に管理する必要があります。 この設定により、管理者は、DITA マップ、DITA トピック、XML ファイル、Markdown （.md）ファイルなど、サポートされているDITA アセットタイプのレプリケーションを制御できます。
 
-DITA アセットレプリケーション機能を設定するには、使用している設定に応じて、[Cloud Service用DITA アセットレプリケーションの設定](../cs-install-guide/configure-dita-assets-replication.md)または[ オンプレミス用DITA アセットレプリケーションの設定](../install-guide/configure-dita-asset-replication.md)を表示します
+DITA アセットレプリケーション機能を設定するには、使用している設定に応じて、[Cloud Service用DITA アセットレプリケーションの設定](../cs-install-guide/configure-dita-assets-replication.md)または[&#x200B; オンプレミス用DITA アセットレプリケーションの設定](../install-guide/configure-dita-asset-replication.md)を表示します

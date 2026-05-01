@@ -28,17 +28,17 @@ DITA マップ内の少数のトピックのみを更新し、更新されたト
 
 マップコンソールを使用してAEM Sitesの増分出力を生成するには、次の手順を実行します。
 
-1. [ マップコンソール ](./open-files-map-console.md)でDITA マップファイルを開きます。
+1. [&#x200B; マップコンソール &#x200B;](./open-files-map-console.md)でDITA マップファイルを開きます。
 1. 増分出力を生成するAEM Sites プリセットを選択します。
 1. 「**トピック**」タブで、公開するトピックを選択します。
 
    - ベースラインなし
 
-     ![aem sites トピックリスト ](images/aem-presets-topic-list.png)
+     ![aem sites トピックリスト &#x200B;](images/aem-presets-topic-list.png)
 
    - ベースラインあり
 
-     ベースライン ](images/aem-presets-topic-list-new.png)を持つ![aem sites トピックリスト
+     ベースライン ![&#128279;](images/aem-presets-topic-list-new.png)を持つaem sites トピックリスト
 
    >[!NOTE]
    >

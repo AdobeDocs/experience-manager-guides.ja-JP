@@ -32,4 +32,4 @@ ht-degree: 0%
 
 - **エディターツールバー**：組織のニーズに応じてエディターツールバーをカスタマイズできます。 例えば、ツールバーボタンの名前を変更したり、位置を変更したりすることができます。
 
-  詳細については、[XML エディターの設定とカスタマイズ ](../cs-install-guide/conf-folder-level.md#configure-and-customize-the-xml-editor-id2065g300o5z)を参照してください。
+  詳細については、[XML エディターの設定とカスタマイズ &#x200B;](../cs-install-guide/conf-folder-level.md#configure-and-customize-the-xml-editor-id2065g300o5z)を参照してください。

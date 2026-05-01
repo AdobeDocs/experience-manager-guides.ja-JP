@@ -50,7 +50,7 @@ ht-degree: 0%
 
    - **レビューを閉じる**：レビュータスクを閉じます。 レビューパネルの下部にある「**タスクを更新**」ボタンが&#x200B;**クローズ**&#x200B;に変更され、レビュータスクに関与するすべてのユーザーに、そのクローズを示す通知が送信されます。
 
-   レビュー通知のトリガー方法について詳しくは、[ レビュー通知について](./review-understanding-review-notifications.md)を参照してください。
+   レビュー通知のトリガー方法について詳しくは、[&#x200B; レビュー通知について](./review-understanding-review-notifications.md)を参照してください。
 
    ![](images/update-task-dialog.png){width="350"}
 

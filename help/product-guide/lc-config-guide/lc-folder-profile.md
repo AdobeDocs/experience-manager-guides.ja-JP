@@ -16,7 +16,7 @@ ht-degree: 0%
 
 フォルダープロファイルは、企業内のさまざまな部門や製品の設定を分離するために必要です。 学習およびトレーニングコンテンツの場合、オーサリングテンプレート、出力テンプレート、出力プリセットおよびその他のフォルダーレベル設定を管理するために、フォルダーレベルのプロファイルを作成および設定できます。
 
-フォルダー構造を設定するための[ ベストプラクティス ](best-practices-folder-structure.md)について説明します。
+フォルダー構造を設定するための[&#x200B; ベストプラクティス &#x200B;](best-practices-folder-structure.md)について説明します。
 
 学習コンテンツとトレーニングコンテンツのフォルダープロファイル設定を開始するには、次の手順を実行する必要があります。
 
@@ -30,8 +30,8 @@ ht-degree: 0%
 3. **Assetsを管理するためのフォルダーを作成**: フォルダーと同様に、異なる部門のニーズに対応するために、異なるAssets フォルダーを作成することもできます。 この方法では、作成者とパブリッシャーがテンプレート、画像、その他のアセットで設定された適切なCSSにアクセスできるようにします。
 
    ![](assets/configure-assets-folder.png){width="350"}
-4. [ フォルダープロファイルを作成](../cs-install-guide/conf-folder-level.md#create-and-configure-a-folder-level-profile)して、別のフォルダーをマッピングします。
-5. **設定するフォルダープロファイルを選択**: フォルダープロファイルを作成したら、[ ユーザー環境設定](../user-guide/intro-home-page.md#user-preferences) ページでフォルダープロファイルを選択して、作成者と発行者が正しいテンプレートにアクセスできるようにする必要があります。
+4. [&#x200B; フォルダープロファイルを作成](../cs-install-guide/conf-folder-level.md#create-and-configure-a-folder-level-profile)して、別のフォルダーをマッピングします。
+5. **設定するフォルダープロファイルを選択**: フォルダープロファイルを作成したら、[&#x200B; ユーザー環境設定](../user-guide/intro-home-page.md#user-preferences) ページでフォルダープロファイルを選択して、作成者と発行者が正しいテンプレートにアクセスできるようにする必要があります。
 
    ![](assets/folder-profile.png){width="650"}
 
@@ -41,7 +41,7 @@ ht-degree: 0%
    - [コンテンツテンプレート](#configure-content-templates)
    - [出力プリセット](#configure-output-presets)
    - [HTML エディター](#html-editor-settings)
-   - [ プロファイルを公開](#manage-publish-profiles)
+   - [&#x200B; プロファイルを公開](#manage-publish-profiles)
 
 これらの設定にアクセスするには、エディタービューに切り替え、次に示すように&#x200B;**オプション** メニューから&#x200B;**Workspace設定**&#x200B;を選択します。
 
@@ -150,7 +150,7 @@ ht-degree: 0%
 
 別のマップまたはトピックテンプレートを使用するには、エディターのテンプレートパネルから新しいオーサリングテンプレートを作成します。 マップテンプレートを使用して、学習コンテンツ、クイズ、または学習サマリー用の学習コースとトピックテンプレートを作成します。
 
-詳細については、[ エディターからカスタマイズしたテンプレートを作成](../user-guide/create-maps-customized-templates.md)を参照してください。
+詳細については、[&#x200B; エディターからカスタマイズしたテンプレートを作成](../user-guide/create-maps-customized-templates.md)を参照してください。
 
 ![](assets/authoring-templates-editor.png){width="350"}
 

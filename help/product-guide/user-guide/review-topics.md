@@ -171,11 +171,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> レビュータスクに割り当てられたユーザーのリストを表示し、コメントでタグ付けするには、`/home/users and /home/groups` ノードで&#x200B;*読み取り* アクセス権が必要です。 詳しくは、[ ユーザー管理とセキュリティ ](../cs-install-guide/user-admin-sec.md#additional-notes-on-user-groups)を参照してください。<br> アクセスを確認した後もタグ付けが利用できない場合は、管理者がこの機能を有効にするために`user-admin` ライセンスを割り当てる必要がある場合があります。
+> レビュータスクに割り当てられたユーザーのリストを表示し、コメントでタグ付けするには、`/home/users and /home/groups` ノードで&#x200B;*読み取り* アクセス権が必要です。 詳しくは、[&#x200B; ユーザー管理とセキュリティ &#x200B;](../cs-install-guide/user-admin-sec.md#additional-notes-on-user-groups)を参照してください。<br> アクセスを確認した後もタグ付けが利用できない場合は、管理者がこの機能を有効にするために`user-admin` ライセンスを割り当てる必要がある場合があります。
 
 ![](images/tag-users-review-ui.png){width="350"}
 
-タグ付けされたオーディエンスには、電子メールとAEM通知の両方が配信され、迅速な情報を提供できます。 レビュー通知のトリガー方法について詳しくは、[ レビュー通知について](./review-understanding-review-notifications.md)を参照してください。
+タグ付けされたオーディエンスには、電子メールとAEM通知の両方が配信され、迅速な情報を提供できます。 レビュー通知のトリガー方法について詳しくは、[&#x200B; レビュー通知について](./review-understanding-review-notifications.md)を参照してください。
 
 ![](images/mentioned-in-tags-author.png){width="350"}
 
@@ -274,4 +274,4 @@ ht-degree: 0%
 
 フィルターを削除してすべてのコメントを表示するには、**フィルタータイプ** ダイアログからすべてのフィルターの選択を解除し、**適用**&#x200B;を選択します。
 
-**親トピック：**[ レビューの概要](review.md)
+**親トピック：**&#x200B;[&#x200B; レビューの概要](review.md)

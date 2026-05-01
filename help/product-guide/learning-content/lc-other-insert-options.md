@@ -38,7 +38,7 @@ ht-degree: 0%
 
   ![](assets/insert-h5p-lc.png)
 
-  システムからH5P コンテンツを使用する場合は、まず[ アセットのアップロード **オプションを使用してDAM](../user-guide/authoring-upload-existing-files.md)にファイルをアップロードし、リポジトリビュー/Assetsの一部にします。**
+  システムからH5P コンテンツを使用する場合は、まず[&#x200B; アセットのアップロード **オプションを使用してDAM](../user-guide/authoring-upload-existing-files.md)にファイルをアップロードし、リポジトリビュー/Assetsの一部にします。**
 
   ![](assets/upload-assets-option.png)
 
@@ -60,7 +60,7 @@ ht-degree: 0%
   ![](assets/knowledge-check-topic.png){width="650"}
 
 
-  **コンテンツのプロパティ** パネルを使用して、正解およびその他の必須フィールドを設定できます。 詳しくは、[質問タイプ ](./quiz-insert-questions.md)を参照してください。 次に示すように、ナレッジチェックオプションを使用して、さまざまな質問タイプを追加できます。
+  **コンテンツのプロパティ** パネルを使用して、正解およびその他の必須フィールドを設定できます。 詳しくは、[質問タイプ &#x200B;](./quiz-insert-questions.md)を参照してください。 次に示すように、ナレッジチェックオプションを使用して、さまざまな質問タイプを追加できます。
 
   ![](assets/knowledge-check-content-properties.png){width="650"}
 

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # アドレス確認コメント {#id2056B0X0KBI}
 
-作成者は、エディターを使用してトピック内のコメントに対応できます。 コメントは、レビューパネルで選択したレビュータスクに基づいて読み込まれます。 詳細については、[左パネル ](../user-guide/web-editor-left-panel.md) セクションの&#x200B;**レビュー** パネル ![](images/active-review-tasklist-icon.svg)機能の説明を参照してください。
+作成者は、エディターを使用してトピック内のコメントに対応できます。 コメントは、レビューパネルで選択したレビュータスクに基づいて読み込まれます。 詳細については、[左パネル &#x200B;](../user-guide/web-editor-left-panel.md) セクションの&#x200B;**レビュー** パネル ![](images/active-review-tasklist-icon.svg)機能の説明を参照してください。
 
 次の節では、エディターでコメントに対応する方法について説明します。
 
@@ -78,12 +78,12 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> レビュータスクに割り当てられたユーザーのリストを表示し、コメントでタグ付けするには、`/home/users and /home/groups` ノードで&#x200B;*読み取り* アクセス権が必要です。 詳しくは、[ ユーザー管理とセキュリティ ](../cs-install-guide/user-admin-sec.md#additional-notes-on-user-groups)を参照してください。<br> アクセスを確認した後もタグ付けが利用できない場合は、管理者がこの機能を有効にするために`user-admin` ライセンスを割り当てる必要がある場合があります。
+> レビュータスクに割り当てられたユーザーのリストを表示し、コメントでタグ付けするには、`/home/users and /home/groups` ノードで&#x200B;*読み取り* アクセス権が必要です。 詳しくは、[&#x200B; ユーザー管理とセキュリティ &#x200B;](../cs-install-guide/user-admin-sec.md#additional-notes-on-user-groups)を参照してください。<br> アクセスを確認した後もタグ付けが利用できない場合は、管理者がこの機能を有効にするために`user-admin` ライセンスを割り当てる必要がある場合があります。
 
 ![](images/tag-users-review.png){width="350"}
 *キャプション :Tag名のユーザーがイニシエータ/作成者*&#x200B;です
 
-タグ付けされたオーディエンスには、電子メールとAEM通知の両方が配信され、迅速な情報を提供できます。 レビュー通知のトリガー方法について詳しくは、[ レビュー通知について](./review-understanding-review-notifications.md)を参照してください。
+タグ付けされたオーディエンスには、電子メールとAEM通知の両方が配信され、迅速な情報を提供できます。 レビュー通知のトリガー方法について詳しくは、[&#x200B; レビュー通知について](./review-understanding-review-notifications.md)を参照してください。
 
 **レビューUI**&#x200B;を使用してレビューコメントにアクセスする
 
@@ -91,4 +91,4 @@ ht-degree: 0%
 
 ![](images/review-comments-toolbar-disabled.png){width="350"}
 
-**親トピック：**[ レビューの概要](review.md)
+**親トピック：**&#x200B;[&#x200B; レビューの概要](review.md)

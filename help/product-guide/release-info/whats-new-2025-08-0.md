@@ -16,7 +16,7 @@ ht-degree: 1%
 
 このリリースで修正された問題の一覧については、[2025.08.0リリースで修正された問題](fixed-issues-2025-08-0.md)を参照してください。
 
-2025.08.0 リリース ](../release-info/upgrade-instructions-2025-08-0.md)の[ アップグレード手順について説明します。
+2025.08.0 リリース [&#128279;](../release-info/upgrade-instructions-2025-08-0.md)の アップグレード手順について説明します。
 
 
 ## 強化されたレビューのワークフロー
@@ -32,7 +32,7 @@ ht-degree: 1%
 - 効率的でタイムリーなレビューサイクル
 - フィードバック交換時の手作業が減った
 
-詳細については、[ レビューの概要](../user-guide/review.md)を参照してください
+詳細については、[&#x200B; レビューの概要](../user-guide/review.md)を参照してください
 
 ## エディター設定での設定可能なAI アシスタントアクション
 
@@ -40,7 +40,7 @@ ht-degree: 1%
 
 **AI アシスタント**&#x200B;切り替えが有効になると、管理者は&#x200B;**オーサリング** タブの下に表示されるクイックアクションを選択して、作成者とのやり取りを効率化できます。 これらの表示設定は、各フォルダープロファイルに固有です。
 
-Experience Manager GuidesのEditor settings](../cs-install-guide/workspace-settings.md#general)の[AI アシスタントについて詳しく説明します。
+Experience Manager GuidesのEditor settings[&#128279;](../cs-install-guide/workspace-settings.md#general)のAI アシスタントについて詳しく説明します。
 
 ![](assets/authoring-quick-actions.png){width="350"}
 
@@ -51,7 +51,7 @@ Experience Manager GuidesのEditor settings](../cs-install-guide/workspace-setti
 
 主なハイライトは次のとおりです。
 
-- **DITAVAL ファイルのオーサリングにおける強化されたフラグ付けサポート：** Experience Manager Guidesでは、DITAVAL ファイルの強化されたフラグ付けサポートを通じて、コンテンツ公開をカスタマイズする新しい機能が導入されました。 画像を含む特定のコンテンツに開始および終了フラグを適用し、太字や斜体などの書式設定オプションを使用してフラグ付きセクションを強化できるようになりました。 条件の重複を処理するために、**スタイルの競合**を設定できます。これには、デフォルトの背景とテキストカラーの設定が含まれ、出力の明瞭性と一貫性が確保されます。 これらのフラグはネイティブのPDF生成で完全にサポートされており、結果の出力は、適用されたすべてのスタイル要素を正確かつ包括的に反映します。
+- **DITAVAL ファイルのオーサリングにおける強化されたフラグ付けサポート：** Experience Manager Guidesでは、DITAVAL ファイルの強化されたフラグ付けサポートを通じて、コンテンツ公開をカスタマイズする新しい機能が導入されました。 画像を含む特定のコンテンツに開始および終了フラグを適用し、太字や斜体などの書式設定オプションを使用してフラグ付きセクションを強化できるようになりました。 条件の重複を処理するために、**スタイルの競合**&#x200B;を設定できます。これには、デフォルトの背景とテキストカラーの設定が含まれ、出力の明瞭性と一貫性が確保されます。 これらのフラグはネイティブのPDF生成で完全にサポートされており、結果の出力は、適用されたすべてのスタイル要素を正確かつ包括的に反映します。
 詳細については、[DITAVAL エディターを使用](../user-guide/ditaval-editor.md)を参照してください。
 
   ![](assets/ditaval-flag-style-new.png){width="350"}
@@ -66,7 +66,7 @@ Experience Manager GuidesのEditor settings](../cs-install-guide/workspace-setti
 
 このリリースでは、出力生成ログフィルタリング機能のUIが改善されました。 出力の生成ログを、4つの異なるレベル（**Info**、**Warn**、**Error** （エラーと例外の両方を含む）、**Fatal**）すべてに対して、より適切にフィルタリングできるようになりました。改善された直感的な色分けされたインジケーターにより、分析を簡素化し、ログストリーム全体の可視性を向上させます。 この改善により、ログをより効率的に移動し、重要な問題を正確に特定できるようになります。
 
-詳細については、[基本的なトラブルシューティング ](../user-guide/generate-output-basic-troubleshooting.md)を参照してください。
+詳細については、[基本的なトラブルシューティング &#x200B;](../user-guide/generate-output-basic-troubleshooting.md)を参照してください。
 
 ![](./assets/log-file-new.png)
 
@@ -93,4 +93,4 @@ Experience Manager Guidesの最新の公開機能強化により、DITA-OTを使
 
 さらに、エディターツールバーでは、変更をトラック、タグ、非改行スペースを有効または無効にするためのクイックアクセストグルが、メニュードロップダウン内の&#x200B;**表示** オプションにグループ化され、使いやすくなりました。
 
-詳細については、エディター](../user-guide/web-editor-toolbar.md#menu-dropdown)の[ ツールバーを参照してください。
+詳細については、エディター[&#128279;](../user-guide/web-editor-toolbar.md#menu-dropdown)の ツールバーを参照してください。

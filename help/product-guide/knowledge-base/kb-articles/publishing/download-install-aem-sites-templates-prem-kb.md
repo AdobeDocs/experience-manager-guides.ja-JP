@@ -36,7 +36,7 @@ ht-degree: 0%
 ## CRX Package Managerを使用したパッケージインストール
 
 1. **コンポーネントパッケージをインストールします：**
-   1. [**CRX Package Manager**](http://<your-aem-instance>/crx/packmgr)に移動します。
+   1. [**CRX Package Manager**](http://&lt;your-aem-instance>/crx/packmgr)に移動します。
    2. on-prem-guides-components.all-1.x.0.zip パッケージをアップロードしてインストールします。
 
 2. **Sites パッケージをインストール：** CRX Package Managerを使用して、aemg-docs.all-1.x.0.zip パッケージをアップロードしてインストールします。
@@ -52,7 +52,7 @@ ht-degree: 0%
    5. **従来のコンポーネントマッピングを使用**&#x200B;設定のチェックを外します。
    6. 「**追加**」を選択して、プリセットを作成します。
 
-      ![新しい出力プリセットダイアログ ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/new-output-preset.png){width="350"}
+      ![新しい出力プリセットダイアログ &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/new-output-preset.png){width="350"}
 
 
 2. **AEM サイト プリセットの設定：**&#x200B;標準（OOTB）サイトを設定するには、次の2つのオプションがあります。
@@ -64,14 +64,14 @@ ht-degree: 0%
       - 公開パス：`aemg-docs/en/docs/product1`
       - トピックページテンプレート：トピックページ。
 
-      ![ サイトドロップダウンを使用](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown.png){width="350"}
+      ![&#x200B; サイトドロップダウンを使用](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown.png){width="350"}
 
    **オプション 2: サイト パスを使用**
 
    1. **サイトパス**&#x200B;を手動で`/content/aemg-docs/en/docs/product1`として設定します。
    2. **トピックページテンプレート**&#x200B;が自動的にトピックページに設定されていることを確認します。
 
-      ![ サイトパスを使用](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path.png){width="350"}
+      ![&#x200B; サイトパスを使用](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path.png){width="350"}
 
 3. **プリセットを保存：** プリセットに加えた変更を保存します。
 
@@ -90,7 +90,7 @@ ht-degree: 0%
 
    4. 「**ホームページ**」タイルを選択し、「**次へ**」を選択します。
 
-      ![ ホームページ タイルを選択](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-page-tile.png){width="350"}
+      ![&#x200B; ホームページ タイルを選択](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-page-tile.png){width="350"}
 
    5. ページの&#x200B;**タイトル**&#x200B;と&#x200B;**名前**&#x200B;を入力します。
    6. 「**作成**」を選択します。

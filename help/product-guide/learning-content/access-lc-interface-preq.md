@@ -27,7 +27,7 @@ ht-degree: 2%
    - **Editor**: Experience Manager Guidesでコースコンテンツを作成できる、使いやすいエディターです。
    - **マップコンソール**：コースの公開のすべての側面を処理するための専用のワークスペースを提供します。
 
-   詳しくは、[Adobe Experience Manager Guides ホームページのエクスペリエンス ](../user-guide/intro-home-page.md)を参照してください。
+   詳しくは、[Adobe Experience Manager Guides ホームページのエクスペリエンス &#x200B;](../user-guide/intro-home-page.md)を参照してください。
 
    ![](assets/aem-navigation-switcher.png){width="350"}
 
@@ -44,4 +44,4 @@ ht-degree: 2%
 - **一般**: フォルダープロファイル、ベースパス、ルートマップなどを選択できます。
 - **アピアランス**: アプリケーションのテーマと学習コンテンツのソースビューを選択するオプションを提供します。
 
-詳しくは、Experience Manager Guidesの[ ユーザー設定](../user-guide/intro-home-page.md#user-preferences)を参照してください。
+詳しくは、Experience Manager Guidesの[&#x200B; ユーザー設定](../user-guide/intro-home-page.md#user-preferences)を参照してください。

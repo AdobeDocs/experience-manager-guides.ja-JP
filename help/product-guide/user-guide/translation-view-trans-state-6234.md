@@ -28,4 +28,4 @@ DITA マップの翻訳ステータスを表示するには、次の手順を実
 
    ![](images/translation-status-new.png)
 
-**親トピック：**[ コンテンツ翻訳の概要](translation.md)
+**親トピック：**&#x200B;[&#x200B; コンテンツ翻訳の概要](translation.md)
