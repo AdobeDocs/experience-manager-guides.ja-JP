@@ -1,26 +1,41 @@
 ---
 title: Experience Manager Guides エディターインターフェイスの概要
-description: Experience Manager Guides エディターインターフェイスの理解
+description: Experience Manager Guidesのエディターインターフェイスについて
 feature: Authoring
 role: User
-source-git-commit: 6f212862855e5ce1125137f462b88c933d23ed26
+exl-id: 6c95a527-776e-47d1-b414-2f023af12fca
+source-git-commit: 6197375aa51a6b8206f59bc84ab852ce8ab10eb8
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '98'
 ht-degree: 1%
 
 ---
 
 # 概要
 
-この記事では、エディターインターフェイスの概要と、Experience Manager Guides Editor で使用できる様々な機能について説明します。
+ここでは、エディターインターフェイスの概要と、Experience Manager Guides エディターで使用できるさまざまな機能について説明します。
+
+>[!BEGINTABS]
+
+>[!TAB 新しいエディター]
+
+このビューでは、コンテンツが新規エディターでどのようにレンダリングされるかを表示します
+
+![](images/editor-overview-2-0.png)
+
+>[!TAB 古いエディター]
+
+このビューでは、古いエディターでのコンテンツのレンダリング方法が表示されます
 
 ![](images/editor-overview.png)
 
-エディターのインターフェイスは、次のセクションまたは領域に分かれています。
+>[!ENDTABS]
 
-- **（A）**&#x200B;[&#x200B; ヘッダーバー &#x200B;](./web-editor-header-bar.md)
-- **（B）**&#x200B;[&#x200B; タブバー &#x200B;](./web-editor-tab-bar.md)
-- **\（C\）** [&#x200B; ツールバー &#x200B;](./web-editor-toolbar.md)
-- **（D）**&#x200B;[&#x200B; 左パネル &#x200B;](./web-editor-left-panel.md)
-- **（E）**&#x200B;[&#x200B; コンテンツ編集エリア &#x200B;](./web-editor-content-editing-area.md)
-- **（F）**&#x200B;[&#x200B; 右パネル &#x200B;](./web-editor-right-panel.md)
+エディターインターフェイスは、次のセクションまたは領域に分かれています。
+
+- **（A）** [ ヘッダーバー](./web-editor-header-bar.md)
+- **（B）** [ タブバー](./web-editor-tab-bar.md)
+- **\（C\）** [ ツールバー](./web-editor-toolbar.md)
+- **（D）** [左パネル ](./web-editor-left-panel.md)
+- **（E）** [ コンテンツ編集領域](./web-editor-content-editing-area.md)
+- **（F）** [右パネル ](./web-editor-right-panel.md)
