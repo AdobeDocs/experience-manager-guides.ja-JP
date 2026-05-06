@@ -14,7 +14,7 @@ ht-degree: 21%
 
 このベンチマークは、AEM Guides as a Cloud Serviceの様々な出力プリセットおよび大きくなるマップサイズでの新しい公開APIのパフォーマンスを評価します。 ここでの目的は、スケーラビリティの動作を把握し、パフォーマンスのボトルネックを特定することです。
 
-パブリッシングサービスは、自動スケーリング機能を備えた[ マイクロサービスベースのアーキテクチャ ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/publish-microservice-architecture-and-performance)を使用し、追加のポッドを通じて大きなワークロードを処理できるようにします。
+パブリッシングサービスは、自動スケーリング機能を備えた[&#x200B; マイクロサービスベースのアーキテクチャ &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/publish-microservice-architecture-and-performance)を使用し、追加のポッドを通じて大きなワークロードを処理できるようにします。
 
 ## 実行環境
 
