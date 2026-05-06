@@ -4,7 +4,7 @@ description: Adobe Experience Manager Guidesのマップコンソールから、
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 exl-id: 574806bb-21c5-41fe-b8be-4c6506ce8cce
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
 source-wordcount: '1315'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> この記事は、Experience Manager Guides 2026.03.0 リリースで利用可能なパフォーマンスと安定性の向上を提供する、現在&#x200B;*Beta*&#x200B;機能として利用可能な新しいベースラインに適用されます。 設定で新しいベースライン機能を有効にするには、カスタマーサクセス チームにお問い合わせください。
+> この記事は、Experience Manager Guides 2026.04.0 リリースで利用可能なパフォーマンスと安定性の向上を提供する、現在&#x200B;*Beta*&#x200B;機能として利用可能な新しいベースラインに適用されます。 設定で新しいベースライン機能を有効にするには、カスタマーサクセス チームにお問い合わせください。
 
 新しいベースライン機能は、大規模で複雑なマップに関連する重要な信頼性とパフォーマンスの問題に対処します。 再設計されたベースラインアーキテクチャにより、より高速で、より安定した、より一貫性のあるベースラインエクスペリエンスを提供します。 詳細な解説の前に、新しいベースライン機能の機能を紹介する簡単なチュートリアル動画をご覧ください。
 

@@ -4,7 +4,7 @@ description: Experience Manager Guidesのマップエディターでマップを
 exl-id: b9cda118-ab6f-4d6b-9616-a083180ba069
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
 source-wordcount: '1599'
 ht-degree: 0%
@@ -62,7 +62,7 @@ Adobe Experience Manager Guidesには、DITA マップとBookmapの2つのマッ
 
    - **A** - \（*タブ バー*\）：これはエディターのタブ バーと似ています。 詳細については、エディターで[&#x200B; タブバー](./web-editor-tab-bar.md)を表示してください。
 
-   - **B** - \（*ツールバー*\）これは、マップファイルを操作できるツールバーです。 ツールバーで使用できる機能について詳しくは、[&#x200B; マップエディターのツールバーで使用できる機能](#features-available-in-the-map-editors-toolbar)を参照してください。
+   - **B** - \（*ツールバー*\）これは、マップファイルを操作できるツールバーです。 ツールバーで使用できる機能について詳しくは、[&#x200B; マップエディターのツールバーで使用できる機能](./map-editor-advanced-map-editor.md)を参照してください。
 
    - **C** - \（*マップビュー*\）: マップエディターをレイアウト、作成者、Source、プレビューの間で切り替えることができます。 **レイアウト** ビューを使用すると、DITA マップ内のトピックを整理できます。 これにより、マップのツリーまたは階層ビューが表示されます。 **作成者** ビューでは、マップエディターでトピックを編集できます。 これにより、マップファイルのWYSIWYG ビューも表示されます。 **Source** ビューでは、マップファイルの基になるXMLを操作できます。 プレビューでは、マップファイル内のすべてのトピックとサブマップの統合ビューが表示されます。
 

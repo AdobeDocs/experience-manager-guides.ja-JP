@@ -4,9 +4,9 @@ description: Experience Manager Guidesのエディターインターフェイス
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 10df0495-1d52-4c7c-a11a-059fe72d09f2
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
-source-wordcount: '2220'
+source-wordcount: '2275'
 ht-degree: 1%
 
 ---
@@ -82,7 +82,17 @@ ht-degree: 1%
    - **条件パネルで件名スキームを表示**：条件パネルで件名スキームを表示するには、これを選択します。 これを選択解除すると、定義された条件が条件パネルに表示されます。
 
 - **スペルチェック**
-選択肢は2つあります。**AEM スペルチェック**&#x200B;と&#x200B;**ブラウザーのスペルチェック**。 デフォルトでは、エディターはブラウザーのスペルチェック機能を使用します。スペルチェックは、ブラウザーの組み込み辞書を使用して実行されます。 AEM スペルチェックに切り替えて、Adobe Experience Managerの辞書を使用できます。また、カスタム単語リストを追加するようにカスタマイズすることもできます。 AEM ディクショナリのカスタマイズについて詳しくは、「AEM as a Cloud Serviceのインストールと設定」の「[Adobe Experience Manager Guidesのデフォルトディクショナリをカスタマイズ &#x200B;](../install-conf-guide/customize-aem-default-dictionary.md)」セクションを参照してください。
+
+  AEMのスペルチェックとブラウザーのスペルチェックの2つのオプションがあります。
+
+   - **ブラウザーのスペルチェック**：デフォルトでは、エディターはブラウザーのスペルチェック機能を使用します。この機能では、ブラウザーの組み込み辞書を使用してスペルチェックが実行されます。
+
+   - **AEM スペルチェック**: AEM スペルチェックに切り替えて、Adobe Experience Managerの辞書を使用できます。また、カスタム単語リストを追加するようにカスタマイズすることもできます。 AEM ディクショナリのカスタマイズについて詳しくは、[AEMのデフォルト ディクショナリのカスタマイズ &#x200B;](../install-conf-guide/customize-aem-default-dictionary.md)を参照してください。
+
+     >[!NOTE]
+     >
+     > AEM スペルチェックでは、ファイルのlanguage プロパティで選択した言語が使用されます。ファイルに言語が指定されていない場合、スペルチェックはAEM server languageにフォールバックします。
+     >正確なスペルチェック結果を得るには、選択した言語の辞書をAEMで使用できる必要があります。 設定された言語に必要な辞書が使用できない場合、スペルチェックのデフォルトは`en_us`です。
 
 
 ## パネル

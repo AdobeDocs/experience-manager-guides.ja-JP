@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 3f38264b6ce09366d07cdd302c9c53e8abcf4b7c
 workflow-type: tm+mt
-source-wordcount: '3316'
+source-wordcount: '3342'
 ht-degree: 8%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 8%
       - クラウドサービス {#cloud-release-notes}
          - {hide-from-toc}[&#x200B; デプロイメント手順](./release-info/deploy-xml-on-aemaacs.md)
          - 2026 リリース {#2026-releases}
+            - 2026.05.0 リリース {#2605-release}
+               - [新機能](./release-info/whats-new-2026-05-0.md)
+               - [修正された問題](./release-info/fixed-issues-2026-05-0.md)
+               - [アップグレード手順](./release-info/upgrade-instructions-2026-05-0.md)
             - 2026.04.0 リリース {#2604-release}
                - [新機能](./release-info/whats-new-2026-04-0.md)
                - [修正された問題](./release-info/fixed-issues-2026-04-0.md)
@@ -229,6 +233,7 @@ ht-degree: 8%
          - [&#x200B; データソースからのデータを使用](./user-guide/web-editor-content-snippet.md)
          - [ドキュメントの状態](./user-guide/web-editor-document-states.md)
          - [ラベルを使用](./user-guide/web-editor-use-label.md)
+         - [エディター設定](./user-guide/config-editor-settings.md)
       - マップエディター {#map-editor}
          - [マップエディターの概要](./user-guide/map-editor.md)
          - [マップの作成](./user-guide/map-editor-create-map.md)
@@ -392,7 +397,7 @@ ht-degree: 8%
          - [主要な概念、役割と権限、前提条件](./user-guide/authoring.md)
          - [ファイルのアップロード](./user-guide/authoring-upload-existing-files.md)
          - [ファイルとフォルダーの管理](./user-guide/authoring-file-management.md)
-         - [アセットの処理](./user-guide/asset-processor.md)
+         - [アセットを処理](./user-guide/asset-processor.md)
       - トラブルシューティング {#troubleshooting}
          - [セッションのタイムアウト](./user-guide/session-timeout-prompt.md)
 - ユーザーガイド（旧UI） {#user-guide-old-ui}
@@ -664,6 +669,7 @@ ht-degree: 8%
          - [Cloud Serviceの貼り付けられたテーブルの表示を設定します](./install-conf-guide/conf-pasted-tables.md)
          - [Cloud Service用のPDF生成のシングルトピックの設定](./install-conf-guide/conf-pdf-generation-dita-ot.md)
          - [Cloud ServiceのWeb エディターでの翻訳機能の設定](./install-conf-guide/conf-translation-editor.md)
+         - [Cloud Serviceのメタデータプロパティの無視リストの設定](./install-conf-guide/conf-metadata-prop.md)
       - オンプレミスのエディター設定 {#editor-on-prem-settings}
          - [オンプレミス用に追加の特殊文字を設定](/help/product-guide/web-editor/conf-additional-special-characters.md)
          - [オンプレミスのチェックインとチェックアウトのアイコンのタイトルの設定](./install-conf-guide/conf-checkin-checkout-title.md)
@@ -778,6 +784,7 @@ ht-degree: 8%
             - ウィジェット {#framework-widgets}
                - [ウィジェットのレンダリング](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
                - [基本ウィジェット](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
+            - [エディター2.0の拡張フレームワークの変更](./guides-ui-extensions/getting-started/editor-extension-guide.md)
          - はじめに {#getting-started}
             - [はじめに](./guides-ui-extensions/getting-started/introduction.md)
             - [インストールガイド](./guides-ui-extensions/getting-started/integrating-customisations.md)
@@ -813,7 +820,7 @@ ht-degree: 8%
          - [JWT認証によるマイクロサービスベースの公開を設定します](./knowledge-base/publishing/configure-microservices.md)
          - [OAuth認証によるマイクロサービスベースの公開を設定します](./knowledge-base/publishing/configure-microservices-imt-config.md)
          - [Edge Delivery Servicesの設定（Beta）](./knowledge-base/publishing/configure-eds.md)
-         - [AEM cloudでのベンチマークの公開](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
+         - [AEM cloudでのベンチマークの公開](./knowledge-base/publishing/publishing-benchmarks-on-aem-cloud.md)
       - ワークフロー {#workflows}
          - [生成後のワークフロー](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
       - 翻訳 {#translation}
