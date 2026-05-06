@@ -15,11 +15,11 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> オンプレミス設定では、エディターのタブバーに「**設定**」オプションが表示されます。 Cloud Service設定では、このオプションの名前が&#x200B;**Workspace settings**&#x200B;に変更されました。 **エディター設定**で使用できる既存の設定オプションはすべて変更されません。
-> ![オンプレミス ](assets/editor-settings-on-prem.png){width="650"}のエディター設定
+> オンプレミス設定では、エディターのタブバーに「**設定**」オプションが表示されます。 Cloud Service設定では、このオプションの名前が&#x200B;**Workspace settings**&#x200B;に変更されました。 **エディター設定**&#x200B;で使用できる既存の設定オプションはすべて変更されません。
+> ![オンプレミス &#x200B;](assets/editor-settings-on-prem.png){width="650"}のエディター設定
 
 
-エディターの[ タブバー](../user-guide/web-editor-tab-bar.md)にある&#x200B;**Workspace settings** オプションは、管理者およびフォルダープロファイル管理者のみが使用でき、次の設定を行うことができます。
+エディターの[&#x200B; タブバー](../user-guide/web-editor-tab-bar.md)にある&#x200B;**Workspace settings** オプションは、管理者およびフォルダープロファイル管理者のみが使用でき、次の設定を行うことができます。
 
 - [一般](#general)
 - [パネル](#panels)
@@ -45,7 +45,7 @@ ht-degree: 1%
 ![](../user-guide/images/editor-setting-general.png){width="350"}
 
 - **AI アシスタント**
-これを選択して、Experience Manager Guidesの[AI アシスタント ](../user-guide/ai-assistant.md)機能を有効にします。 この機能を無効にするには、選択を解除します。
+これを選択して、Experience Manager Guidesの[AI アシスタント &#x200B;](../user-guide/ai-assistant.md)機能を有効にします。 この機能を無効にするには、選択を解除します。
 
   **AI アシスタント**&#x200B;切り替えスイッチを有効にした後、次に示すように、**オーサリングクイックアクション** メニューを使用して、作成者の&#x200B;**オーサリングタブ**&#x200B;に表示されるオプションを設定できます。\
   これらの変更は、作業中の特定のフォルダープロファイルに適用されます。 新しいフォルダープロファイルを作成すると、デフォルトで&#x200B;**Global** フォルダープロファイルで定義されているWorkspace設定が継承されます。 これらの設定は、**Workspace設定**&#x200B;を使用して必要に応じて変更し、更新された設定を保存できます。\
@@ -87,7 +87,7 @@ ht-degree: 1%
 
    - **ブラウザーのスペルチェック**：デフォルトでは、エディターはブラウザーのスペルチェック機能を使用します。この機能では、ブラウザーの組み込み辞書を使用してスペルチェックが実行されます。
 
-   - **AEM スペルチェック**: AEM スペルチェックに切り替えて、Adobe Experience Managerの辞書を使用できます。また、カスタム単語リストを追加するようにカスタマイズすることもできます。 AEM ディクショナリのカスタマイズについて詳しくは、[AEMのデフォルト ディクショナリのカスタマイズ ](../install-conf-guide/customize-aem-default-dictionary.md)を参照してください。
+   - **AEM スペルチェック**: AEM スペルチェックに切り替えて、Adobe Experience Managerの辞書を使用できます。また、カスタム単語リストを追加するようにカスタマイズすることもできます。 AEM ディクショナリのカスタマイズについて詳しくは、[AEMのデフォルト ディクショナリのカスタマイズ &#x200B;](../install-conf-guide/customize-aem-default-dictionary.md)を参照してください。
 
      >[!NOTE]
      >
@@ -165,11 +165,11 @@ ht-degree: 1%
 
    - Salesforce プロファイルを作成するには、**Server type** ドロップダウンから&#x200B;**Salesforce** Knowledge Baseを選択します。 プロファイル名を入力します。 **サイト URL**&#x200B;に、出力の公開に使用するコンシューマーサイトを入力し、Salesforce コンシューマーサイトから提供された&#x200B;**Consumer Key**&#x200B;および&#x200B;**Consumer Secret**&#x200B;を追加します。 次に、**新しく作成したプロファイルを**&#x200B;検証し、**保存**&#x200B;します。
 
-     ![ ワークスペース設定のsalesforce公開プロファイル ](../user-guide/images/salesforce-publish-profile.png){width="550"}
+     ![&#x200B; ワークスペース設定のsalesforce公開プロファイル &#x200B;](../user-guide/images/salesforce-publish-profile.png){width="550"}
 
      >[!NOTE]
      >
-     >AEMでSalesforceのプロキシを設定するには、Experience Manager GuidesでApache HTTP Components Proxy Configurationを使用します。 AEM Link Checker](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html)のプロキシを[設定する方法について説明します。
+     >AEMでSalesforceのプロキシを設定するには、Experience Manager GuidesでApache HTTP Components Proxy Configurationを使用します。 AEM Link Checker[&#128279;](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html)のプロキシを設定する方法について説明します。
 
 
 **ServiceNow プロファイルの作成**
@@ -190,11 +190,11 @@ ht-degree: 1%
 
 - プロファイルを作成するには、**Server type** ドロップダウンからServiceNow Knowledge Baseを選択します。 プロファイル **名前**&#x200B;を入力します。 **ServiceNow URL**&#x200B;に、出力の公開に使用するコンシューマーサイトを入力し、ServiceNow コンシューマーサイトから提供される&#x200B;**ユーザー名**&#x200B;と&#x200B;**パスワード**&#x200B;を追加します。 次に、**新しく作成したプロファイルを**&#x200B;検証し、**保存**&#x200B;します。
 
-  ![ServiceNow パブリッシュプロファイル ](../user-guide/images/service-now-publish-profile.png){width="550"}
+  ![ServiceNow パブリッシュプロファイル &#x200B;](../user-guide/images/service-now-publish-profile.png){width="550"}
 
   検証後、DITA マップの出力プリセットで公開プロファイルを選択し、それを使用して、選択した&#x200B;**Salesforce**&#x200B;または&#x200B;**ServiceNow** サーバーに出力を生成できます。
 
-  [ ナレッジベース ](../user-guide/generate-output-knowledge-base.md)出力プリセットについて詳しく説明します。
+  [&#x200B; ナレッジベース &#x200B;](../user-guide/generate-output-knowledge-base.md)出力プリセットについて詳しく説明します。
 
 
 ## 検証
@@ -208,13 +208,13 @@ ht-degree: 1%
   >- 選択したSchematron ファイルは、選択したフォルダープロファイルに対して保持されます。
   >- 無効なSchematron ファイルが追加されると、次に示すように、エラーメッセージが表示されます。
 
-  ![ ワークスペース設定での検証](../user-guide/images/editor-setting-validation-error.png){width="550"}
+  ![&#x200B; ワークスペース設定での検証](../user-guide/images/editor-setting-validation-error.png){width="550"}
 
   これにより、選択したSchematron ファイルで定義されたルールを破るファイルをユーザーが保存できなくなります。 これが選択されていない場合、変更を保存する前にファイルが検証されません。
 
 - **すべてのユーザーが検証パネルにスキーマトロンファイルを追加することを許可する**：これを選択すると、ユーザーはエディターの検証パネルにスキーマトロンファイルを追加できます。 これにより、ユーザーはSchematron ファイルを追加し、Schematron ファイルに対してトピックを検証できます。 これを選択しない場合、エディターの&#x200B;**検証パネル**&#x200B;のユーザーは、スキーマトロンファイル **スキーマトロンファイル**&#x200B;を追加するオプションを利用できません。
 
-  ![ ワークスペース設定での検証](../user-guide/images/editor-setting-validation.png){width="550"}
+  ![&#x200B; ワークスペース設定での検証](../user-guide/images/editor-setting-validation.png){width="550"}
 
 
 ## 表示属性
@@ -247,7 +247,7 @@ ht-degree: 1%
       >
       > **表示の切り替え**&#x200B;から&#x200B;**表示の切り替え**&#x200B;の切り替え。一部の言語のみを表示します。
 
-   1. グループ内の言語にカーソルを合わせて![編集アイコン ](../user-guide/images/edit_pencil_icon.svg)を編集するか、言語グループを![削除](../user-guide/images/Delete_icon.svg)します。
+   1. グループ内の言語にカーソルを合わせて![編集アイコン &#x200B;](../user-guide/images/edit_pencil_icon.svg)を編集するか、言語グループを![削除](../user-guide/images/Delete_icon.svg)します。
    1. **設定**&#x200B;を保存します。
 
       >[!NOTE]
@@ -270,11 +270,11 @@ ht-degree: 1%
 メタデータパスが空白の場合は、エラーが表示されます。 ラベルを空白のままにすると、最後の要素がラベルとして選択されます。
 
 
-ワークスペース設定の「![ メタデータ」タブ ](../user-guide/images/editor-setting-metadata.png){width="550"}
+ワークスペース設定の「![&#x200B; メタデータ」タブ &#x200B;](../user-guide/images/editor-setting-metadata.png){width="550"}
 
 *バージョン履歴&#x200B;**ダイアログボックスのメタデータを設定します。***
 
 
 
 これらのメタデータタグを表示する順序を定義することもできます。 これらのタグのデフォルトの順序を変更するには、点線バーを選択して、タグを目的の場所にドラッグ&amp;ドロップします。
-メタデータラベルは、エディターの**バージョン履歴** ダイアログボックスに同じ順序で表示されます。
+メタデータラベルは、エディターの&#x200B;**バージョン履歴** ダイアログボックスに同じ順序で表示されます。

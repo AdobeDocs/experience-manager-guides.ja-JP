@@ -33,9 +33,9 @@ ht-degree: 1%
 
 エディターインターフェイスは、次のセクションまたは領域に分かれています。
 
-- **（A）** [ ヘッダーバー](./web-editor-header-bar.md)
-- **（B）** [ タブバー](./web-editor-tab-bar.md)
-- **\（C\）** [ ツールバー](./web-editor-toolbar.md)
-- **（D）** [左パネル ](./web-editor-left-panel.md)
-- **（E）** [ コンテンツ編集領域](./web-editor-content-editing-area.md)
-- **（F）** [右パネル ](./web-editor-right-panel.md)
+- **（A）** [&#x200B; ヘッダーバー](./web-editor-header-bar.md)
+- **（B）** [&#x200B; タブバー](./web-editor-tab-bar.md)
+- **\（C\）** [&#x200B; ツールバー](./web-editor-toolbar.md)
+- **（D）** [左パネル &#x200B;](./web-editor-left-panel.md)
+- **（E）** [&#x200B; コンテンツ編集領域](./web-editor-content-editing-area.md)
+- **（F）** [右パネル &#x200B;](./web-editor-right-panel.md)
