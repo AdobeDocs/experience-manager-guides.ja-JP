@@ -3,7 +3,7 @@ title: エディター設定
 description: AEM Guidesでエディターの設定を行う方法について説明します。
 feature: Web Editor
 role: User
-source-git-commit: 3f38264b6ce09366d07cdd302c9c53e8abcf4b7c
+source-git-commit: 2c9e91a85bb9cfbfec05dbe5c2e9eae9e240d571
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # エディター設定
 
->[!INFO]
+>[!NOTE]
 >
-> この記事は新規エディターに適用されます。 AEM Guides カスタマーサクセス チームに連絡して、環境で新しいエディターを有効にしてもらいます。
+> この記事は新しいエディターにのみ適用されます。 お客様の環境でこの機能を有効にするには、AEM Guides カスタマーサクセス チームにお問い合わせください。
 
 エディター設定には、個々の作成者レベルでエディターの動作をカスタマイズできる一元化された設定パネルが用意されています。 オーサリングプロセス中の柔軟性、一貫性、管理を向上できます。
 
