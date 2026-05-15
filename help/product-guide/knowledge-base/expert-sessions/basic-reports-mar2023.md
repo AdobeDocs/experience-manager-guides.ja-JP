@@ -69,11 +69,11 @@ ht-degree: 1%
 
 - **[AEM Guides レポート ハンドブックをダウンロード](./assets/aem-guides-expert-session-reports-documentation.pdf)**&#x200B;して、セッションで示されたレポートの詳細を確認します。
 
-- **機能ビデオ** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=en)
+- **機能ビデオ** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=ja)
 
 - **ユーザーガイド** - [&#x200B; コンテンツの作成](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
 
-- **コミュニティフォーラム** - Experience Leagueでのセッション固有のコミュニティインタラクションについては、[AEM Guides フォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)をご覧ください。
+- **コミュニティフォーラム** - Experience Leagueでのセッション固有のコミュニティインタラクションについては、[AEM Guides フォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=ja)をご覧ください。
 
 >[!NOTE]
 >

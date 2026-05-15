@@ -55,11 +55,11 @@ ht-degree: 1%
 
 ## 関連リソース
 
-- [新しいホームページエクスペリエンス](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/home-page/intro-home-page)
+- [新しいホームページエクスペリエンス](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/user-guide/home-page/intro-home-page)
 
-- [AEM GUIDESのAI機能](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/ai-assistant-aem/ai-assistant)
+- [AEM GUIDESのAI機能](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/user-guide/ai-assistant-aem/ai-assistant)
 
-- [AI アシスタントを設定](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-smart-suggestions)
+- [AI アシスタントを設定](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-smart-suggestions)
 
 
 
@@ -72,7 +72,7 @@ ht-degree: 1%
 
 ### コミュニティフォーラム
 
-- Experience Leagueに関するセッション固有のコミュニティインタラクションについては、[AEM Guides フォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)をご覧ください。
+- Experience Leagueに関するセッション固有のコミュニティインタラクションについては、[AEM Guides フォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=ja)をご覧ください。
 
 
 ## さらに詳しく

@@ -26,7 +26,7 @@ ht-degree: 0%
 
 このセッションでは、アドビのエキスパートがアドビ製品の特徴、機能、利点を詳しく解説し、ユーザーが製品を最大限に活用するための実践的なヒントとベストプラクティスを共有します。 初心者の方にも経験豊富な方にも、AEM Guidesの効果的な活用に必要な情報を提供します。
 
-アドビは、お客様の時間が貴重であることを理解しており、そのため、エキスパートセッションを容易かつ容易におこなえるようにしました。 次回のセッションに登録するには、[&#x200B; コミュニティフォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)にアクセスするか、送信された電子メールを通じて登録してください。
+アドビは、お客様の時間が貴重であることを理解しており、そのため、エキスパートセッションを容易かつ容易におこなえるようにしました。 次回のセッションに登録するには、[&#x200B; コミュニティフォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=ja)にアクセスするか、送信された電子メールを通じて登録してください。
 
 以前のセッションのいずれかを見逃した場合は、このセクションの録画にアクセスできます。
 

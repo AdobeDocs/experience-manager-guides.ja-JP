@@ -71,7 +71,7 @@ JIRA ID参照![&#128279;](../../../assets/authoring/webeditor-add-customtoolbarb
 }
 ```
 
-[フォルダープロファイルとui_config.jsonの設定について詳しくは、このリンクを使用してください](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en)
+[フォルダープロファイルとui_config.jsonの設定について詳しくは、このリンクを使用してください](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=ja)
 
 
 ### 新しいボタンのクリック時イベントを処理します

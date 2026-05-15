@@ -48,7 +48,7 @@ ht-degree: 0%
 
 フォルダープロファイルを使用して、「XML エディター設定」タブの&#x200B;*css_layout.css*&#x200B;を確認し、カスタムスタイルを持つCSSを追加します
 
-[フォルダープロファイルとCSS テンプレートレイアウトの設定について詳しくは、このリンクを使用してください](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en#customize-the-css-template-layout)
+[フォルダープロファイルとCSS テンプレートレイアウトの設定について詳しくは、このリンクを使用してください](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=ja#customize-the-css-template-layout)
 
 web エディターで上記のスタイルを設定するには、次の手順を使用します。
 - [css_layout.css](../../../assets/authoring/webeditor-customstyles-css_layout.css)を使用して、選択したフォルダープロファイルにアップロードします
@@ -72,4 +72,4 @@ Please note this is compatible to AEM Guides version 4.2 and AEM Guides cloud ve
 
 ## 参照
 
-また、[Webeditorに関するエキスパートセッション &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/webbased-authoring-jan2023.html?lang=en)で取り上げられているwebeditor設定とカスタマイズに関するエキスパートセッションにも興味があるかもしれません
+また、[Webeditorに関するエキスパートセッション &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/webbased-authoring-jan2023.html?lang=ja)で取り上げられているwebeditor設定とカスタマイズに関するエキスパートセッションにも興味があるかもしれません

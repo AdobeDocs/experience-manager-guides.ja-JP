@@ -36,7 +36,7 @@ ht-degree: 0%
 ## 背景
 
 AEM Guidesでは、DITA-OT プラグインを使用して、設定されたプラグインを使用して任意の出力フォーマットに公開できます。
-AEM DAMで管理されているアセットのメタデータをDITA-OT プロセスに渡して、生成された出力で使用することもできます。[出力プリセットにメタデータを渡すようにditamap/topicsを設定する方法](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot)に関するドキュメントを参照してください。
+AEM DAMで管理されているアセットのメタデータをDITA-OT プロセスに渡して、生成された出力で使用することもできます。[出力プリセットにメタデータを渡すようにditamap/topicsを設定する方法](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot)に関するドキュメントを参照してください。
 
 
 ## 前提
@@ -180,7 +180,7 @@ DITA-OT プラグインで&#x200B;_metadata.xml_&#x200B;とその中で使用可
 
 ### デプロイメント
 
-DITA-OT プラグインを開発したら、_dita —install_ コマンドを使用してDITA-OTに統合し、AEM サーバーにデプロイします。詳細については、この記事を参照してください[&#128279;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/steps-to-setup-a-custom-dita-ot/td-p/407659)
+DITA-OT プラグインを開発したら、_dita —install_ コマンドを使用してDITA-OTに統合し、AEM サーバーにデプロイします。詳細については、この記事を参照してください[&#128279;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/steps-to-setup-a-custom-dita-ot/td-p/407659?profile.language=ja)
 
 
 ## リソース

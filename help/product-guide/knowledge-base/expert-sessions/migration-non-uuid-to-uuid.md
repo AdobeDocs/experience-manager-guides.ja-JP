@@ -55,14 +55,14 @@ ht-degree: 2%
 
 ### ドキュメント
 
-- [非UUIDからUUIDへのコンテンツの移行](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/content-migration/migration-process/migrate-non-uuid-uuid)
+- [非UUIDからUUIDへのコンテンツの移行](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/install-guide/on-prem-ig/content-migration/migration-process/migrate-non-uuid-uuid)
 - [AEM Guides:UUID コンテンツをオンプレミス/AMSからクラウドに移行する](../../cs-install-guide/migrate-on-premise-content-cloud.md)
-- [AEM Cloudへの移行](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
+- [AEM Cloudへの移行](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
 - [AEM Guides：非uuid コンテンツのCloudへの移行](../../install-guide/migrate-uuid-non-uuid.md)
 
 ### コミュニティフォーラム
 
-- Experience Leagueに関するセッション固有のコミュニティインタラクションについては、[AEM Guides フォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)をご覧ください。
+- Experience Leagueに関するセッション固有のコミュニティインタラクションについては、[AEM Guides フォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=ja)をご覧ください。
 
 
 >[!NOTE]
