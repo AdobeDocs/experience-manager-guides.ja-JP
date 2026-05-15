@@ -5,9 +5,15 @@ exl-id: 3be387b9-6ac2-4b61-afdf-fbe9d8b6cc1e
 feature: Workflow Configuration
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+TQID: https://experienceleague.adobe.com/Q7sMFjgwS0NIiXnSv3VWO6-sg-m7i0yXgNrkwS4FqwY
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: b455a250-64c4-4598-b015-7b6b6dc528b1id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e6ff21d3-dec6-4298-8590-7c749fffaf78
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '2228'
+source-wordcount: 2228
 ht-degree: 4%
 
 ---
@@ -18,20 +24,20 @@ ht-degree: 4%
 
 AEMのワークフローについて詳しくは、次を参照してください。
 
-- [ワークフローの管理](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/workflows.html)
+- [ワークフローの管理](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)
 
-- ワークフローの適用とワークフローへの参加：[ワークフローの操作](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/workflows.html)。
+- ワークフローの適用とワークフローへの参加：[ワークフローの操作](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/workflows.html)。
 
-- ワークフローモデルの作成とワークフロー機能の拡張：[ワークフローの開発と拡張](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/workflows.html)。
+- ワークフローモデルの作成とワークフロー機能の拡張：[ワークフローの開発と拡張](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/workflows.html)。
 
-- 重要なサーバーリソースを使用するワークフローのパフォーマンスの向上：[ワークフローの同時処理](https://helpx.adobe.com/jp/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance)
+- 重要なサーバーリソースを使用するワークフローのパフォーマンスの向上：[ワークフローの同時処理](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance)
 
 
 このトピックでは、AEM Guidesに付属するデフォルトのワークフローで行えるさまざまなカスタマイズについて説明します。
 
 ## レビューワークフローをカスタマイズ {#id176NE0C00HS}
 
-あらゆる企業のコンテンツオーサリングチームは、ビジネス要件に対応するために特定の方法で作業しています。 一部の組織では専用のエディターを導入していますが、別の組織では自動化されたエディトリアルレビューシステムを導入している場合もあります。 例えば、一般的なオーサリングと公開のワークフローでは、作成者がコンテンツのオーサリングを行うたびに、レビュー担当者に自動的に送信され、レビューが完了すると、最終的な出力を生成するためにパブリッシャーに送信されます。 AEMでは、コンテンツとアセットに対して行ったアクティビティを、プロセスの形で組み合わせ、AEM ワークフローにマッピングできます。 AEMのワークフローについて詳しくは、AEM ドキュメントの[&#x200B; ワークフローの管理](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/workflows.html)を参照してください。
+あらゆる企業のコンテンツオーサリングチームは、ビジネス要件に対応するために特定の方法で作業しています。 一部の組織では専用のエディターを導入していますが、別の組織では自動化されたエディトリアルレビューシステムを導入している場合もあります。 例えば、一般的なオーサリングと公開のワークフローでは、作成者がコンテンツのオーサリングを行うたびに、レビュー担当者に自動的に送信され、レビューが完了すると、最終的な出力を生成するためにパブリッシャーに送信されます。 AEMでは、コンテンツとアセットに対して行ったアクティビティを、プロセスの形で組み合わせ、AEM ワークフローにマッピングできます。 AEMのワークフローについて詳しくは、AEM ドキュメントの[ ワークフローの管理](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)を参照してください。
 
 AEM Guidesでは、デフォルトのレビューワークフローをカスタマイズできます。 次の4つのカスタムレビュー関連プロセスを、他のオーサリングワークフローまたは公開ワークフローで使用できます。
 
@@ -110,13 +116,13 @@ workflowdata.getMetaDataMap().put("reviewVersion","3.0");
 | `startTime` | Long | 現在のシステム時間を取得するには、`System.currentTimeMillis()`関数を使用します。 |
 | `projectPath` | 文字列 | レビュータスクが割り当てられるレビュープロジェクトのパス（例：/content/projects/samplereviewproject）。 |
 | `reviewType` | 文字列 | 静的値「AEM」。 |
-| `versionJson` | JSON オブジェクト | versionJsonは、各トピックオブジェクトが次の構造を持つレビュー中のトピックのリストです[ { &quot;path&quot;: &quot;/content/dam/1-topic.dita&quot;, &quot;version&quot;: &quot;1.1&quot;, &quot;review&quot;: true, &quot;reviewers&quot;: [&quot;projects-we_retail-editor&quot;] } ] &rbrack; |
+| `versionJson` | JSON オブジェクト | versionJsonは、各トピックオブジェクトが次の構造を持つレビュー中のトピックのリストです[ { &quot;path&quot;: &quot;/content/dam/1-topic.dita&quot;, &quot;version&quot;: &quot;1.1&quot;, &quot;review&quot;: true, &quot;reviewers&quot;: [&quot;projects-we_retail-editor&quot;] } ] ] |
 | `isDitamap` | ブーリアン | false/true |
-| `ditamapHierarchy` | JSON オブジェクト | マップをレビュー用に送信する場合、ここで示す値は次のようになります。[ { &quot;path&quot;: &quot;GUID-f0df1513-fe07-473f-9960-477d4df29c87.ditamap&quot;, &quot;items&quot;: [ { &quot;path&quot;: &quot;GUID-9747e8ab-8cf1-45dd-9e20-d48f67d&quot;, dita&quot; &quot;title&quot;: &quot;&quot;, &quot;items&quot;: [] } ] } ] &rbrack; |
+| `ditamapHierarchy` | JSON オブジェクト | マップをレビュー用に送信する場合、ここで示す値は次のようになります。[ { &quot;path&quot;: &quot;GUID-f0df1513-fe07-473f-9960-477d4df29c87.ditamap&quot;, &quot;items&quot;: [ { &quot;path&quot;: &quot;GUID-9747e8ab-8cf1-45dd-9e20-d48f67d&quot;, dita&quot; &quot;title&quot;: &quot;&quot;, &quot;items&quot;: [] } ] } ] ] |
 | `ditamap` | 文字列 | レビュータスクのditamapのパスを指定します |
 | `allowAllReviewers` | ブーリアン | false/true |
 | `notifyViaEmail` | ブーリアン | false/true |
-| `reviewVersion` | 文字列 | レビューワークフローの現在のバージョンを指定します。 デフォルト値は`3.0` .<br>に設定されています [作成者](../user-guide/review-close-review-task.md)および[&#x200B; レビュー担当者](../user-guide/review-complete-review-tasks.md)の新しいレビューワークフロー機能を有効にするには、`reviewVersion`が`3.0`に設定されていることを確認してください。 |
+| `reviewVersion` | 文字列 | レビューワークフローの現在のバージョンを指定します。 デフォルト値は`3.0` .<br>に設定されています [作成者](../user-guide/review-close-review-task.md)および[ レビュー担当者](../user-guide/review-complete-review-tasks.md)の新しいレビューワークフロー機能を有効にするには、`reviewVersion`が`3.0`に設定されていることを確認してください。 |
 
 
 スクリプトを作成したら、ワークフローで「レビューを作成」プロセスを呼び出す前にスクリプトを呼び出します。 その後、要件に応じて、他のレビューワークフロープロセスを呼び出すことができます。
@@ -138,7 +144,7 @@ workflowdata.getMetaDataMap().put("reviewVersion","3.0");
 
 ### メールとAEM通知のカスタマイズ
 
-AEM Guidesの多くのワークフローでは、メール通知を使用しています。 例えば、レビュータスクを開始すると、メール通知がレビュー担当者に送信されます。 ただし、電子メール通知が送信されるようにするには、AEMでこの機能を有効にする必要があります。 AEMでメール通知を有効にするには、AEM ドキュメントの記事[&#x200B; メール通知の設定](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=ja)を参照してください。
+AEM Guidesの多くのワークフローでは、メール通知を使用しています。 例えば、レビュータスクを開始すると、メール通知がレビュー担当者に送信されます。 ただし、電子メール通知が送信されるようにするには、AEMでこの機能を有効にする必要があります。 AEMでメール通知を有効にするには、AEM ドキュメントの記事[ メール通知の設定](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=ja)を参照してください。
 
 AEM Guidesには、カスタマイズ可能なメール通知とAEM通知のセットが含まれています。 これらの通知をカスタマイズするには、次の手順を実行します。
 

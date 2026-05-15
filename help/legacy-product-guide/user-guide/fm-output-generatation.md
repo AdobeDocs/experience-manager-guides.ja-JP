@@ -5,9 +5,14 @@ feature: Publishing FrameMaker Documents
 role: User
 hide: true
 exl-id: ddb6b1ee-7993-479f-993c-d2ce686b10b3
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+TQID: https://experienceleague.adobe.com/Jnre1TiGBsueTrcstkstHmWCNl8amwjLK54jDOCXE8A
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2: id: bf79f6d3-0ad0-4d82-99e4-42ce98324d60id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: 203
 ht-degree: 1%
 
 ---

@@ -1,75 +1,81 @@
 ---
 title: コンテンツとテンプレートの設定
-description: AEM Guidesでコンテンツとテンプレートを設定する際にすべての考慮事項について説明します。
+description: AEM Guidesでコンテンツとテンプレートを設定する際に、何を考慮する必要があるかをご確認ください。
 exl-id: f125bad9-33a2-4de5-b43f-d6368d61879b
 feature: Template Configuration
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+TQID: https://experienceleague.adobe.com/uc9WOENTZ4E7ZvfwPllw81zMpvEUMkLG-gc9kF7v7IM
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0eid: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: d6596f3f-92a7-43ec-b444-237db6adad05id: df6fa66f-4542-4a6d-90ca-9f146eb5d494
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: 319
 ht-degree: 1%
 
 ---
 
 # AEM Guidesでのコンテンツとテンプレートの設定
 
-システム内で管理するコンテンツの量は、エンドユーザーに配信される様々なタイプのドキュメントをサポートするために、作成者は、コンテンツを分類して必要に応じて簡単に追跡および変更できるだけでなく、作成者が新しいドキュメントや類似したドキュメントを最初から書き込まなくても作成できるようにしておく必要があります。
+エンドユーザーに配信されるさまざまな種類のドキュメントをサポートするために、システム内で管理するコンテンツの量は、作成者がコンテンツを分類して必要に応じて簡単に追跡および変更できるようにするだけでなく、作成者がゼロからドキュメントを作成することなく、新しいドキュメントや類似するドキュメントを作成できる機能も必要です。
 
 
 ## セッションの概要
 
-このセッションでは、主に以下について説明しました。
-- コンテンツ設定の様々な側面（分類、分類、メタデータ）
+本セッションでは、次のことを幅広く解説しました。
+- コンテンツ設定のさまざまな側面（分類、分類、メタデータ）
 - コンテンツテンプレートの設定（トピックテンプレート、マップテンプレート、スニペット）
 
 
 
-## セッションの録画
+## セッション録画
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419004/guides-templates-author-templates?quality=12&learn=on)
 
 
 ## ハイライト
 
-- **日付** - 2023 年 4 月 27 日（Pt）
-- **出席者の数** ～ 70
-- **期間** - 60 分
-- **対象読者** – お客様、パートナー、Adobe社員
+- **日付** - 2023年4月27日
+- **参加者の数** - 70
+- **期間** - 60分
+- **Audience** – お客様、パートナー、およびAdobeの従業員
 
 
 ## 重要ポイント
 
-このセッションでは、次の内容について学びました。
-- コンテンツの読み込み/作成の前に分析と思考に時間を費やす
+このセッションでは、次の項目について学習しました。
+- コンテンツを読み込む/作成する前に分析し、考える時間を費やす
 - 様々なユーザーセグメント（エンドユーザーまたは作成者）に対応するためのコンテンツの分類と分類
-- メタデータ機能の活用によるユーザーの生産性の向上
-- 可能な限り事前定義済みのオーサリングテンプレートを作成して、作成者にガイド付きエクスペリエンスを提供する
-- 同じターゲットとして、ユーザーグループが使用するテンプレートを指定することもできます
-- オーサリングエクスペリエンスの最適なカスタマイズ
+- メタデータ機能を活用したユーザーの生産性の向上
+- 可能な限り作成者がガイド付きの体験を得られるように、事前定義済みのオーサリングテンプレートを作成する
+- ユーザーグループが使用するテンプレートをターゲットにする場合
+- オーサリングエクスペリエンスの最適化
 
 
 
 ## 関連リソース
 
-- **特集ビデオ** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/folder-profiles.html?lang=ja)
+- **機能ビデオ** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/folder-profiles.html)
 
-- **ユーザーガイド** - [&#x200B; コンテンツの作成 &#x200B;](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
+- **ユーザーガイド** - [ コンテンツの作成](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
 
-- **コミュニティフォーラム** - Experience Leagueに関するセッション固有のコミュニティのやり取りについては、[AEM Guides フォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=ja) にアクセスしてください。
+- **コミュニティフォーラム** - Experience Leagueでのセッション固有のコミュニティインタラクションについては、[AEM Guides フォーラム ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)をご覧ください。
 
 >[!NOTE]
 >
-> このセッションで紹介する機能は、次のバージョンのAEM Guidesで利用できます。
-> - オンプレミス：4.2 以降
-> - Cloud Service:2303 以降
+> このセッションで説明する機能は、次のバージョンのAEM Guidesで利用できます。
+> - オンプレミス：4.2以降
+> - クラウドサービス：2303以降
 
 
 ## 次回のエキスパートセッション
 
-- **トピック** - ネイティブPDFのパブリッシング – 事例を使用したラーニング（パート 1）
-- **予定** - 2023 年 6 月 1 日（PT）
+- **トピック** - ネイティブ PDF パブリッシング – 例による学習（パート 1）
+- **スケジュール日：** - 2023年6月1日
 
 
-## お問い合わせ
+## さらに詳しく
 
-ご質問については、<techcomm@adobe.com> 宛てにメールを送信してください
+ご質問がある場合は、<techcomm@adobe.com>にメールをお送りください

@@ -1,32 +1,38 @@
 ---
 title: レポートの概要
-description: AEM Guidesで DITA マップレポートを表示する方法を説明します。
+description: AEM GuidesでDITA マップレポートを表示する方法について説明します。
 exl-id: 1f8a33ba-d6e5-448f-b40b-646b9fdc0b19
 feature: Report Generation
 role: User
-source-git-commit: 38ea2eb35ebd75c1202c86d598ad953db3894d40
+TQID: https://experienceleague.adobe.com/wt6TtxJGo-CWS739y-YfnMChbtr5--W5C9ayfC87MvU
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: cdab8659-8d50-4417-b6fd-762f347c13eeid: f9dbea21-a714-40dd-bc90-080d8046c93f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: 226
 ht-degree: 0%
 
 ---
 
 # レポートの概要 {#id1645H9007MZ}
 
-組織設定では、作業を開始したり、ドキュメントをライブでプッシュしたりする前に、技術ドキュメントの全体的な完全性を検証する必要があります。 このようなニーズは、マルチユーザー環境や大規模環境ではさらに重要になります。 Adobe Experience Manager Guidesには、リポジトリ内のコンテンツの全体的な正常性と、コンテンツがドキュメントプロセスでどのように使用されているかに関する有用なインサイトを提供するいくつかのレポートが用意されています。
+組織的な設定では、テクニカルドキュメントの作業を開始したり、ドキュメントを公開したりする前に、テクニカルドキュメントの全体的な完全性を確認する必要があります。 このようなニーズは、マルチユーザーおよび大規模な環境でさらに重要になります。 Adobe Experience Manager Guidesには、リポジトリ内のコンテンツの全体的な健全性と、ドキュメントプロセスでのコンテンツの使用方法に関する有用なinsightを提供するレポートがいくつか用意されています。
 
-DITA マップレポートには、次の 2 つの方法でアクセスできます。
+DITA マップレポートには、次の2つの方法でアクセスできます。
 
-- **マップコンソールから**：トピックリストの生成、すべての参照のメタデータの管理、マルチメディアリストの表示、および現在の DITA マップのすべての壊れたリンクの修正をマップコンソールから行えます。 選択に基づいて、トピックを並べ替えたり、フィルターしたりできます。 また、選択したトピックのメタデータを一括更新する機能もあります。 すべてのレポートはページ分割されます。 下にスクロールするだけで、新しいレコードセットが読み込まれ続けます。
+- **マップコンソールから**: トピックリストを生成し、すべての参照のメタデータを管理し、マルチメディアリストを表示し、現在のDITA マップのすべての壊れたリンクをマップコンソールから修正できます。 トピックを並べ替えたり、選択内容に基づいてトピックをフィルタリングしたりできます。 また、選択したトピックのメタデータを一括更新する機能もあります。 すべてのレポートはページ分割されています。 下にスクロールするだけで、新しいレコードセットが読み込み続けます。
 
 - **マップダッシュボードから**: DITA マップレポートを生成し、マップレベルとトピックレベルの両方で詳細情報を提供できます。
 
-- **[マップコンソールからの DITA マップレポート](reports-web-editor.md)**
+- **[マップコンソールからのDITA マップレポート](reports-web-editor.md)**
 
-- **[マップダッシュボードからの DITA マップレポート](reports-ditamap.md)**
+- マップダッシュボードの&#x200B;**[DITA マップレポート](reports-ditamap.md)**
 
 - **[コンテンツ再利用レポート](reports-content-reuse.md)**
 
-- **[コンバージョン状況レポート](reports-convertion-status.md)**
+- **[コンバージョンステータスレポート](reports-convertion-status.md)**
 
-- **[元に戻したファイルのバージョン履歴レポート](reports-reverted-file-version-history.md)**
+- **[ファイルのバージョン履歴レポートを元に戻しました](reports-reverted-file-version-history.md)**

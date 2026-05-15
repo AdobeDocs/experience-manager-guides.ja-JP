@@ -2,17 +2,21 @@
 title: カスタムダイアログ
 description: カスタムダイアログの追加方法
 role: User, Admin
-source-git-commit: 4f41609368b64415993b93be27162b069e7b2e32
+exl-id: 00ea7f6f-1130-433f-b557-c2ea552b17c7
+TQID: https://experienceleague.adobe.com/rKpSp3cAlzjL6ZBOAEAbmtP3FX0oAYOl962lkFSO0eo
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: 124
 ht-degree: 0%
 
 ---
 
-
 # カスタムダイアログの追加
 
-レビューアプリにカスタムダイアログを追加する方法を確認するには、次の手順に従います。
+レビューアプリでカスタムダイアログを追加する方法を説明するには、次の手順に従います。
 
 ## 使用例
 
@@ -117,9 +121,9 @@ const acceptWithModification = {
 
 ## カスタムダイアログの呼び出し
 
-この例では、カスタムダイアログを開くためのボタンを追加する方法に関する情報について説明します。
-このためのパネル `review_comment` 考えてみましょう。 完全な拡張機能については、次を参照してください。
-[&#x200B; レビューのコメント &#x200B;](../../examples/review_app_examples/review_comment.ts)
+次の使用例は、カスタムダイアログを開くボタンの追加方法に関する情報を制限します。
+`review_comment` パネルを検討しましょう。 完全な拡張機能はここから見つけることができます：
+[ コメントを確認](../../examples/review_app_examples/review_comment.ts)
 
 ```typescript
 const reviewComment = {
@@ -168,5 +172,5 @@ const reviewComment = {
 
 ## カスタムダイアログに引数を渡す方法
 
-ここでは、ダイアログ ID を使用して `args` を渡し、成功イベントの場合にコールバックを処理するために、これを使用して onSuccess を渡しています。
-キャンセルのクリック時にカスタムコールバックを提供し、ダイアログのキャンセルイベント内で処理する場合は、`onCancel` を渡すこともできます。
+ここで、ダイアログ IDで`args`を渡し、成功イベントの場合にコールバックを処理するために、これを使用してonSuccessを渡します。
+キャンセルのクリック時にカスタムコールバックを提供し、ダイアログのキャンセルイベント内で処理する場合は、`onCancel`を渡すこともできます。

@@ -1,49 +1,54 @@
 ---
-title: Use DITAVAL editor
-description: Understand how to create and edit DITAVAL files using the DIVATAL Editor in AEM Guides. Know how the DITAVAL editor supports DITAVAL files in author and source views.
+title: DITAVAL エディターを使用
+description: AEM GuidesのDIVATAL エディターを使用して、DITAVAL ファイルを作成および編集する方法について説明します。 DITAVAL エディターがオーサービューとソースビューでDITAVAL ファイルをどのようにサポートしているかをご確認ください。
 feature: Authoring, DITAVAL Editor
 role: User
 hide: true
 exl-id: 8eee347d-840e-4eaf-9441-c7c53a7c3aa0
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+TQID: https://experienceleague.adobe.com/kIveRGwg17BgYGEsn9dgAtr8r5HFlEya-nD7gK2G--c
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: ca593223-d11a-4a52-b369-a8e081e71737
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: 792
 ht-degree: 0%
 
 ---
 
 # DITAVAL エディター {#ditaval-editor}
 
-DITAVAL files are used to generate conditional output. In a single topic, you can add conditions using element attributes to conditionalize content. Then, you create a DITAVAL file wherein you specify the conditions that should be picked up to generate content, and which condition should be left out from the final output.
+DITAVAL ファイルは、条件付き出力の生成に使用されます。 1つのトピックで、要素の属性を使用して条件を追加し、コンテンツをコンディショナライズできます。 次に、DITAVAL ファイルを作成します。このファイルでは、コンテンツを生成するために取得する必要がある条件と、最終的な出力から除外する条件を指定します。
 
-AEM Guides allows you to easily create and edit DITAVAL files using the DITAVAL editor. The DITAVAL editor retrieves the attributes \(or tags\) defined in your system, and you can use them to create or edit DITAVAL files. For more details about creating and managing tags in AEM, see [Administering Tags](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=ja) section in AEM documentation.
+AEM Guidesでは、DITAVAL エディターを使用してDITAVAL ファイルを簡単に作成および編集できます。 DITAVAL エディターは、システムで定義されている属性\（またはタグ\）を取得し、それらを使用してDITAVAL ファイルを作成または編集できます。 AEMでのタグの作成と管理について詳しくは、AEM ドキュメントの「[ タグの管理](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en)」を参照してください。
 
-## Create DITAVAL file
+## DITAVAL ファイルを作成
 
-Perform the following steps to create a DITAVAL file:
+DITAVAL ファイルを作成するには、次の手順を実行します。
 
-1. In the Assets UI, navigate to the location where you want to create the DITAVAL file.
+1. Assets UIで、DITAVAL ファイルを作成する場所に移動します。
 
-1. Click **Create** \> **DITA Topic**.
+1. **作成** \> **DITA トピック**&#x200B;をクリックします。
 
-1. On the Blueprint page, select DITAVAL file template and click **Next**.
+1. ブループリントページで、「DITAVAL ファイルテンプレート」を選択し、「**次へ**」をクリックします。
 
-1. On the Properties page, specify the **Title** and **Name** for the DITAVAL file.
+1. プロパティ ページで、DITAVAL ファイルの&#x200B;**タイトル**&#x200B;と&#x200B;**名前**&#x200B;を指定します。
 
    >[!NOTE]
    >
-   > The name is automatically suggested based on the Title of your file. If you want to manually specify the file name, then ensure that the Name does not contain any spaces, apostrophe, or braces and ends with .ditaval.
+   > 名前は、ファイルのタイトルに基づいて自動的に提案されます。 ファイル名を手動で指定する場合は、「名前」にスペース、アポストロフィ、または中括弧が含まれておらず、.ditavalで終わっていることを確認します。
 
 1. 「**作成**」をクリックします。 トピック作成メッセージが表示されます。
 
-   You can choose to open the DITAVAL file for editing in the DITAVAL editor, or the save the topic file in the AEM repository.
+   DITAVAL エディターでDITAVAL ファイルを開くか、AEM リポジトリでトピックファイルを保存するかを選択できます。
 
 
-## Edit DITAVAL file
+## DITAVAL ファイルを編集
 
-Perform the following steps to edit a DITAVAL file:
+DITAVAL ファイルを編集するには、次の手順を実行します。
 
-1. In the Assets UI, navigate to the DITAVAL file that you want to edit.
+1. Assets UIで、編集するDITAVAL ファイルに移動します。
 
 1. ファイルの排他的ロックを取得するには、ファイルを選択し、**チェックアウト**&#x200B;をクリックします。
 
@@ -86,11 +91,11 @@ DITAVAL ファイルに1つのプロパティを追加します。
 
 AEM GuidesのDITAVAL エディターでは、DITAVAL ファイルを2つの異なるモードまたはビューで表示できます。
 
-**作成者**:   これは、DITAVAL エディターの一般的なWhat You See Is What You Get \（WYSISYG\）ビューです。 プロパティを追加または削除するには、プロパティ、その値、およびアクションをドロップダウンリストで表示するシンプルなユーザーインターフェイスを使用します。 作成者ビューでは、個々のプロパティを挿入し、すべてのプロパティをワンクリックで挿入するオプションがあります。
+**作成者**：これは、DITAVAL エディターの一般的な表示です。表示される内容は、\（WYSISYG\）です。 プロパティを追加または削除するには、プロパティ、その値、およびアクションをドロップダウンリストで表示するシンプルなユーザーインターフェイスを使用します。 作成者ビューでは、個々のプロパティを挿入し、すべてのプロパティをワンクリックで挿入するオプションがあります。
 
 また、ファイル名にポインターを置くと、現在作業しているDITAVAL ファイルのバージョンを確認できます。
 
-**Source**:   Source ビューには、DITAVAL ファイルを構成する基になるXMLが表示されます。 作成者は、このビューで通常のテキスト編集を行うだけでなく、スマートカタログを使用してプロパティを追加または編集することもできます。
+**Source**: Source ビューには、DITAVAL ファイルを構成する基になるXMLが表示されます。 作成者は、このビューで通常のテキスト編集を行うだけでなく、スマートカタログを使用してプロパティを追加または編集することもできます。
 
 スマートカタログを呼び出すには、プロパティ定義の最後にカーソルを置き、「&lt;」と入力します。 エディターには、その場所に挿入できるすべての有効なXML要素のリストが表示されます。
 

@@ -4,9 +4,14 @@ description: AEM Guidesの一括公開ダッシュボードを使用します。
 exl-id: 5f897c52-5d6e-4614-a14f-1806e085c21c
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/UZY5vRMeR3ytX2lGtIBu7Dx4EPhxXmX3Cbg-Pzp3MKc
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2: id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: 250
 ht-degree: 2%
 
 ---
@@ -21,7 +26,7 @@ ht-degree: 2%
 
 1. **一括公開ダッシュボード** タイルを選択します。
 
-   一括公開ダッシュボードには、一括アクティベーションマップコレクションのリストが表示されます。 このダッシュボードには、[Adobe Experience Manager Guides ホームページ &#x200B;](intro-home-page.md)の左側のパネルからアクセスすることもできます。
+   一括公開ダッシュボードには、一括アクティベーションマップコレクションのリストが表示されます。 このダッシュボードには、[Adobe Experience Manager Guides ホームページ ](intro-home-page.md)の左側のパネルからアクセスすることもできます。
 
 1. 編集するコレクションを選択し、**開く**&#x200B;を選択します。
 
@@ -49,4 +54,4 @@ ht-degree: 2%
 1. 「**完了**」を選択します。
 
 
-**親トピック：**&#x200B;[&#x200B;公開コンテンツの一括アクティベーション &#x200B;](conf-bulk-activation.md)
+**親トピック：**[&#x200B;公開コンテンツの一括アクティベーション ](conf-bulk-activation.md)

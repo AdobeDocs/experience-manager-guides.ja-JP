@@ -1,24 +1,27 @@
 ---
-title: 変換処理イベントハンドラー
-description: コンバージョンプロセスイベントハンドラーについて説明します
+title: コンバージョンプロセスイベントハンドラー
+description: 変換プロセス イベント ハンドラーについて説明します
 exl-id: 8033935d-2113-4e39-ab74-b7431b89f948
 feature: Conversion Process Event Handler
 role: Developer
 level: Experienced
-source-git-commit: 83966cc9187b13dd3b5956821e0aa038b41db28e
+TQID: https://experienceleague.adobe.com/VhlUaVSMTZpfyh5MiJI0WHFpc46s41xjLbuLMUnKH58
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: 191
 ht-degree: 3%
 
 ---
 
-# 変換処理イベントハンドラー {#id175UB30E05Z}
+# コンバージョンプロセスイベントハンドラー {#id175UB30E05Z}
 
-AEM Guidesは、文書変換処理の完了後に後処理処理を実行するために使用される com/adobe/fmdita/conversion/complete イベントを公開します。 このイベントは、非 DITA 文書が DITA ファイル形式に移行されるたびにトリガーされます。 たとえば、Word から DITA への変換または DITA へのInDesign処理を実行する場合、このイベントは変換処理の終了後に呼び出されます。
+AEM Guidesは、ドキュメントの変換プロセスの完了後に後処理の処理を実行するために使用されるcom/adobe/fmdita/conversion/complete イベントを公開します。 このイベントは、DITA以外の文書がDITA ファイル形式に移行されるたびにトリガーされます。 例えば、WordからDITAへの変換またはInDesignからDITAへの変換プロセスを実行する場合、このイベントは変換プロセスの終了後に呼び出されます。
 
-このイベントで使用可能なプロパティを読み取り、さらに処理を行うには、AEM イベントハンドラーを作成する必要があります。
+AEM イベントハンドラーを作成して、このイベントで使用可能なプロパティを読み取り、さらに処理を行う必要があります。
 
-イベントの詳細は、以下で説明します。
+イベントの詳細は以下で説明します。
 
 **イベント名**:
 
@@ -30,7 +33,7 @@ com/adobe/fmdita/conversion/complete
 
 | 名前 | 種類 | 説明 |
 |----|----|-----------|
-| `status` | String | 実行された操作の復帰ステータス。 使用できるオプションは次のとおりです。-   成功：コンバージョンプロセスが正常に完了しました。 <br> -   エラーが発生して完了：変換処理は完了しましたが、いくつかのエラーが発生しました。 <br>-   失敗：致命的なエラーが発生したため、変換プロセスが失敗しました。 |
-| `filePath` | 文字列 | AEM リポジトリ内のソースファイル\（変換する\）の絶対パス。 |
-| `outputPath` | 文字列 | 変換された DITA ファイルが保存される保存先の絶対パス。 |
-| `logPath` | 文字列 | 変換ログが保存されるノードの絶対パス。 |
+| `status` | 文字列 | 実行された操作の戻りステータス。 可能なオプションは次のとおりです。 – 成功：変換プロセスが正常に完了しました。<br> – 完了エラー：変換プロセスは完了しましたが、エラーが発生しました。 <br> – 失敗：致命的なエラーが発生したため、変換プロセスに失敗しました。 |
+| `filePath` | 文字列 | AEM リポジトリ内のソースファイル \（変換する\）の絶対パス。 |
+| `outputPath` | 文字列 | 変換されたDITA ファイルが保存される保存先の絶対パス。 |
+| `logPath` | 文字列 | コンバージョンログが保存されるノードの絶対パス。 |

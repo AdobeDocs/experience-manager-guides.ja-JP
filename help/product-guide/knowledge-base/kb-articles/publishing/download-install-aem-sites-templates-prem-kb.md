@@ -5,9 +5,13 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: aa843a72-ff0d-4c9a-a87d-48d099087b5e
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/d-eC5SHwAeCMEZhZJzN-12rdk37TjqBy0SYXC6lfbUI
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: 469
 ht-degree: 0%
 
 ---
@@ -36,7 +40,7 @@ ht-degree: 0%
 ## CRX Package Managerを使用したパッケージインストール
 
 1. **コンポーネントパッケージをインストールします：**
-   1. [**CRX Package Manager**](http://&lt;your-aem-instance>/crx/packmgr)に移動します。
+   1. [**CRX Package Manager**](http://<your-aem-instance>/crx/packmgr)に移動します。
    2. on-prem-guides-components.all-1.x.0.zip パッケージをアップロードしてインストールします。
 
 2. **Sites パッケージをインストール：** CRX Package Managerを使用して、aemg-docs.all-1.x.0.zip パッケージをアップロードしてインストールします。
@@ -52,7 +56,7 @@ ht-degree: 0%
    5. **従来のコンポーネントマッピングを使用**&#x200B;設定のチェックを外します。
    6. 「**追加**」を選択して、プリセットを作成します。
 
-      ![新しい出力プリセットダイアログ &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/new-output-preset.png){width="350"}
+      ![新しい出力プリセットダイアログ ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/new-output-preset.png){width="350"}
 
 
 2. **AEM サイト プリセットの設定：**&#x200B;標準（OOTB）サイトを設定するには、次の2つのオプションがあります。
@@ -64,14 +68,14 @@ ht-degree: 0%
       - 公開パス：`aemg-docs/en/docs/product1`
       - トピックページテンプレート：トピックページ。
 
-      ![&#x200B; サイトドロップダウンを使用](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown.png){width="350"}
+      ![ サイトドロップダウンを使用](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown.png){width="350"}
 
    **オプション 2: サイト パスを使用**
 
    1. **サイトパス**&#x200B;を手動で`/content/aemg-docs/en/docs/product1`として設定します。
    2. **トピックページテンプレート**&#x200B;が自動的にトピックページに設定されていることを確認します。
 
-      ![&#x200B; サイトパスを使用](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path.png){width="350"}
+      ![ サイトパスを使用](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path.png){width="350"}
 
 3. **プリセットを保存：** プリセットに加えた変更を保存します。
 
@@ -90,7 +94,7 @@ ht-degree: 0%
 
    4. 「**ホームページ**」タイルを選択し、「**次へ**」を選択します。
 
-      ![&#x200B; ホームページ タイルを選択](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-page-tile.png){width="350"}
+      ![ ホームページ タイルを選択](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-page-tile.png){width="350"}
 
    5. ページの&#x200B;**タイトル**&#x200B;と&#x200B;**名前**&#x200B;を入力します。
    6. 「**作成**」を選択します。

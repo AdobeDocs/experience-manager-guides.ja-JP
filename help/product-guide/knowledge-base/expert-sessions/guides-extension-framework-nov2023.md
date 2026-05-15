@@ -1,67 +1,73 @@
 ---
-title: AEM Guidesの拡張機能フレームワーク - Web エディターのカスタマイズと UI のレビュー
-description: ガイド拡張機能フレームワークを使用すると、更新しやすい JSON、CSS、JavaScriptを使用して、レビュー Ui や Webeditor の目的のセクションをカスタマイズできます。
+title: AEM Guidesの拡張フレームワーク - Web エディターとレビューUIのカスタマイズ
+description: Adobe Guidesの拡張機能フレームワークでは、更新しやすいJSON、CSS、JavaScriptを利用して、Review UiやWebeditorの必要なセクションをカスタマイズできます。
 exl-id: 7b2efae3-be8c-4259-babb-f28a6903116a
 feature: Web Editor, Troubleshooting
 role: User, Admin
-source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
+TQID: https://experienceleague.adobe.com/6XYV9fBtBJiOAi2elIcZX3EC-fn22cfLCq2LrgpGJyg
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2: id: d6596f3f-92a7-43ec-b444-237db6adad05
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: 387
 ht-degree: 1%
 
 ---
 
-# AEM Guidesの拡張機能フレームワーク：Web エディターのカスタマイズと UI のレビュー
+# AEM Guidesの拡張機能フレームワーク：Web エディターとレビューUIのカスタマイズ
 
-システムで作業する場合、ビジネスやユーザーが操作に合わせてカスタムボタン、アクション、または表示する情報を必要とし、生産性を向上させるのは非常に一般的です。 拡張機能フレームワークでは、AEM Guides上にカスタムパッケージを作成し、ユーザーインターフェイスとその動作を拡張できます。 これらのカスタムパッケージは、開発者やコンサルタントが、エディター/レビュー UI のコンポーネントに拡張機能を付与するのに役立ちます。 ボタン、ダイアログ、ドロップダウンをターゲットにして、AEM Guides UI と簡単に相互運用できるカスタム JavaScriptを追加できます。
+システムで作業する場合、ビジネス/ユーザーは、操作に対応し、生産性を向上させるためにカスタムボタン、アクション、または情報を表示することを望んでいることが非常に一般的です。 拡張機能フレームワークでは、AEM Guides上にカスタムパッケージを作成して、ユーザーインターフェイスとその動作を拡張できます。 これらのカスタムパッケージは、開発者やコンサルタントがエディター/レビューUIのコンポーネントに拡張性を持たせるのに役立ちます。 ボタン、ダイアログ、ドロップダウンをターゲットにしたり、AEM Guides UIと簡単に相互運用できるカスタムJavaScriptを追加したりできます。
 
-このセッションでは、実践的なシナリオを活用して、AEM Guidesのレビューと web エディター UI をカスタマイズまたは拡張する方法を学習します。
+このセッションでは、実用的なシナリオを使用して、AEM GuidesのレビューとWeb エディターUIをカスタマイズまたは拡張する方法を説明します。
 
-## セッションの録画
+## セッション録画
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425476/review-ui-customization-guides-extension-framework-web-editor)
 
 ## ハイライト
 
-- **日付** - 2023 年 11 月 2 日（Pt）
-- **出席者の数** ～ 119
-- **期間** - 60 分
-- **対象読者** – お客様、パートナー、Adobe社員
+- **日付** - 2023年11月2日
+- **参加者数** - 119
+- **期間** - 60分
+- **Audience** – お客様、パートナー、およびAdobeの従業員
 
 ## 重要ポイント
 
-このセッションでは、次の内容について学びました。
+このセッションでは、次の項目について説明しました。
 - この拡張フレームワークを使用して、すべてのインターフェイスを拡張できることを理解します
-- 独自のカスタム機能の作成を簡単に開始できるように、既に利用可能な内容を理解する
-- 例を使用してカスタマイズを学習します。
-   - Web エディターへのヘルプとサポートセクションの追加
-   - 左側のパネルをさらに 1 つ追加 – 現在のユーザーのタスクを表示する場合など
-   - このフレームワークを使用して、トピック / マップ用のツールバーボタンをもう 1 つ追加します
-   - Webeditor のコンテンツプロパティパネルに表示される情報を拡張 – 特定のファイルで後処理が実行されたかどうかを示す後処理情報を追加。
-   - レビュー UI でのカスタムボタンの追加 – トピックを開いて webeditor で編集します
-   - レビュー UI のその他のカスタマイズオプション
-- 作業を開始するための、上記の例の実装はどこで見つけられますか？
+- 既に利用可能な機能を把握することで、独自のカスタム機能を簡単に作成できます
+- 例を挙げてカスタマイズを学ぶ：
+   - Web エディターでのヘルプとサポートの追加
+   - もう1つ左パネルを追加する – 現在のユーザーのタスクを表示する場合に言う
+   - このフレームワークを使用してトピック/マップ用にもう1つツールバーボタンを追加
+   - webeditorのコンテンツプロパティパネルに表示される情報を拡張する – 特定のファイルに対して後処理が実行されているかどうかを示す後処理情報を追加する
+   - レビューUIにカスタムボタンを追加 – トピックを開いてwebeditorで編集します
+   - レビューUIのその他のカスタマイズオプション
+- 上記の例の実装はどこで確認して作業を開始できますか？
 
 
 ## 関連リソース
 
-- **拡張機能フレームワークのベースリポジトリ** - [GIT](https://github.com/adobe/guides-extension/tree/main)
+- **拡張機能フレームワーク ベース リポジトリ** - [GIT](https://github.com/adobe/guides-extension/tree/main)
 
-- **ドキュメント** - [on Experience League](../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)
+- **Experience League](../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)のドキュメント** - [
 
-- **ドキュメント化された一般的なユースケース** - [Experience League時 &#x200B;](../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
+- **Experience League](../../guides-ui-extensions/aem_guides_framework/jui-framework.md)で一般的な使用例** ～ [を文書化しました
 
-- **サンプルを使用した公開リポジトリ** - [on GIT](https://github.com/adobe/guides-extension/tree/sc-expert-session)。 ブランチ sc-expert-session を参照します
+- **GIT](https://github.com/adobe/guides-extension/tree/sc-expert-session)のサンプル** - [を含むパブリックリポジトリ。 ブランチ sc-expert-sessionを参照してください
 
 
 >[!NOTE]
 >
-> このセッションで紹介する機能は、次のバージョンのAEM Guidesで利用できます。
-> - 2023 年 10 月（クラウド版）
-> - 4.3.x （非クラウドの場合）
+> このセッションで説明する機能は、次のバージョンのAEM Guidesで利用できます。
+> - 2023年10月（クラウドの場合）
+> - 4.3.x （クラウド以外の場合）
 
 
 
-## お問い合わせ
+## さらに詳しく
 
-ご質問については、<techcomm@adobe.com> 宛てにメールを送信してください
+ご質問がある場合は、<techcomm@adobe.com>にメールをお送りください

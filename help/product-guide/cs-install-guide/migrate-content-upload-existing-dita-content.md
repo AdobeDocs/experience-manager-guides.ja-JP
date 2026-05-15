@@ -5,16 +5,21 @@ exl-id: 2b385eef-00a7-4c25-9e78-367a0c9e44ba
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+TQID: https://experienceleague.adobe.com/oVLPpwMXyeRGo-1QO553dthsza05mbnRIedaIYpQ1Vg
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: 511
 ht-degree: 0%
 
 ---
 
 # 既存のDITA コンテンツのアップロード {#id176FF000JUI}
 
-AEM Guidesで使用する既存のDITA コンテンツのリポジトリがある可能性があります。 このような既存のコンテンツに対しては、[&#x200B; デジタルアセットをAdobe Experience Manager as a Cloud Service Assetsに追加](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=ja)で説明されているサポートされている方法のいずれかを使用できます。
+AEM Guidesで使用する既存のDITA コンテンツのリポジトリがある可能性があります。 このような既存のコンテンツに対しては、[ デジタルアセットをAdobe Experience Manager as a Cloud Service Assetsに追加](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html)で説明されているサポートされている方法のいずれかを使用できます。
 
 ## UUID ファイル名パターンの設定
 
@@ -81,4 +86,4 @@ curl --user <username>:<password> -F<attribute name>=<value> <metadata node path
 - `<metadata node path>`: ファイル名とそのメタデータノードを含む完全なフォルダーパス。 例えば、パスを`http://192.168.1.1:4502/content/dam/projects/AEM-Guides/intro.xml/jcr:content/metadata`として指定した場合、指定したメタデータ情報は`intro.xml` ファイルに設定されます。
 
 
-**親トピック：**&#x200B;[&#x200B;既存のコンテンツを移行](migrate-content.md)
+**親トピック：**[&#x200B;既存のコンテンツを移行](migrate-content.md)

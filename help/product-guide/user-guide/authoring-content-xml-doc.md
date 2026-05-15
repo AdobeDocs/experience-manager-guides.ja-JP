@@ -1,24 +1,29 @@
 ---
-title: Adobe Experience Manager Guidesを使用したコンテンツのオーサリング
-description: Experience Manager Guidesを使用してコンテンツを効率的に作成します。 Experience Manager Guidesでドキュメントを作成、編集、公開する方法について説明します。
+title: Adobe Experience Manager Guidesを使用したコンテンツの作成
+description: Experience Manager Guidesを利用して、コンテンツを効率的に制作。 Experience Manager Guidesでドキュメントを作成、編集、公開する方法について説明します。
 exl-id: 9e29dde4-a9de-41e0-86c8-ca949bd3669c
 feature: Authoring
 role: User
-source-git-commit: 67d6b6f59e5d8c37389a181949ce4527760576e2
+TQID: https://experienceleague.adobe.com/c6WZkgjncEFsuez-JrjuUx05Gx8oeNWYV9DuKUnft08
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: 106
 ht-degree: 0%
 
 ---
 
-# Adobe Experience Manager Guidesを使用したコンテンツのオーサリング {#id221EB0P0E20}
+# Adobe Experience Manager Guidesを使用したコンテンツの作成 {#id221EB0P0E20}
 
-Experience Manager Guidesには、3 つの標準エディターが付属しています。 これらを使用して、ドキュメントを作成、編集および公開できます。
+Experience Manager Guidesには、3つの標準エディターが搭載されています。 ドキュメントの作成、編集、公開に使用できます。
 
-1. **エディター**：構造化ドキュメントの作成と編集に使用します。 [&#x200B; エディターのインターフェイスを理解する &#x200B;](web-editor.md)
-1. **マップ エディタ**: DITA マップおよびブックマップ ファイルの作成と編集に使用します。 [&#x200B; マップ エディタを操作する &#x200B;](map-editor.md)。
-1. **Ditaval エディター**：条件付き出力の生成に使用します。 [DITAVAL エディタの詳細 &#x200B;](ditaval-editor.md)。
+1. **エディター**：構造化文書の作成と編集に使用します。 [ エディターのインターフェイス ](web-editor.md)について知る。
+1. **マップエディター**: DITA マップおよびブックマップファイルの作成と編集に使用します。 [ マップエディターの操作](map-editor.md)。
+1. **Ditaval Editor**：条件付き出力の生成に使用します。 [DITAVAL エディターについて詳しく見る](ditaval-editor.md)。
 
 
 
-**親トピック：**&#x200B;[&#x200B; コンテンツを作成 &#x200B;](authoring-content.md)
+**親トピック：**[&#x200B;作成者コンテンツ ](authoring-content.md)

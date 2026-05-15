@@ -5,9 +5,15 @@ feature: Authoring
 role: User
 hide: true
 exl-id: c2c24b6f-08e8-47be-be33-b3e9fb50052e
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/hTvisfQhFZYZ5DBE4EBhhx8-i635Wbt1rt0tmzXQo3g
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8id: f6b497f1-f8e0-42ce-8e95-56c28d94026eid: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1863'
+source-wordcount: 1863
 ht-degree: 0%
 
 ---
@@ -186,7 +192,7 @@ DITA マップコンソールまたはファイルのプレビューモードか
 
       >[!NOTE]
       >
-      > 選択したトピックで使用可能なバージョンのリストが表示されます。 各バージョンには、タイムスタンプ、ユーザー名、バージョンコメント、および[&#x200B; ラベル &#x200B;](web-editor-use-label.md#)情報が含まれます。
+      > 選択したトピックで使用可能なバージョンのリストが表示されます。 各バージョンには、タイムスタンプ、ユーザー名、バージョンコメント、および[ ラベル ](web-editor-use-label.md#)情報が含まれます。
 
    1. ブランチを作成するバージョンを選択します。 次のスクリーンショットでは、ブランチを作成するためにバージョン 1.2が選択されています。
 
@@ -217,6 +223,6 @@ DITA マップコンソールまたはファイルのプレビューモードか
    1. 「**OK**」をクリックします。
 
 
-  選択したバージョンのトピックから新しいブランチが作成されます。 上記のプロセスは、トピックの特定のバージョンに戻す場合にも適用できます。 特定のバージョンに戻すとは、選択したバージョンから新しいブランチを作成し、そのバージョンをトピックの現在の作業コピーにすることです。 バージョン復元履歴レポートで、復元済みのファイルの履歴を表示することもできます。 このレポートについて詳しくは、[&#x200B; ファイルのバージョン履歴を元に戻すレポート &#x200B;](reports-reverted-file-version-history.md#)を参照してください。
+  選択したバージョンのトピックから新しいブランチが作成されます。 上記のプロセスは、トピックの特定のバージョンに戻す場合にも適用できます。 特定のバージョンに戻すとは、選択したバージョンから新しいブランチを作成し、そのバージョンをトピックの現在の作業コピーにすることです。 バージョン復元履歴レポートで、復元済みのファイルの履歴を表示することもできます。 このレポートについて詳しくは、[ ファイルのバージョン履歴を元に戻すレポート ](reports-reverted-file-version-history.md#)を参照してください。
 
-**親トピック：**&#x200B;[&#x200B; トピックの作成とプレビュー](create-preview-topics.md)
+**親トピック：**[ トピックの作成とプレビュー](create-preview-topics.md)

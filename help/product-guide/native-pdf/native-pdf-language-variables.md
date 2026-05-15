@@ -5,9 +5,13 @@ exl-id: 2335a7d5-251b-4266-8bba-9c9935e7bbf4
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+TQID: https://experienceleague.adobe.com/Tl18qyeww079p8XGKwbKTN8TvoZLb-q9mPQ-8q660Dc
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1604'
+source-wordcount: 1604
 ht-degree: 0%
 
 ---
@@ -122,7 +126,7 @@ XML ファイルは、次の形式で読み込むことができます。
 >[!NOTE]
 > 
 ><ul><li>ファイルがXML ファイルでない場合、またはファイルに言語変数とマッピングしない誤った形式が含まれている場合は、XML ファイルに問題が発生しているというエラーが表示されます。 
->&gt;<li>ファイルに同じIDの変数が含まれていない場合は、読み込まれたファイルに一致する言語変数が見つからないという警告が表示されます。
+&gt;<li>ファイルに同じIDの変数が含まれていない場合は、読み込まれたファイルに一致する言語変数が見つからないという警告が表示されます。
 
 ### 言語変数のオプション
 
@@ -130,10 +134,10 @@ XML ファイルは、次の形式で読み込むことができます。
 
 <img width="550" alt="言語変数のオプションメニュー" src="./assets/language-variable-user-options.png">
 
-*言語変数を削除、プレビュー、複製するには、**オプション**&#x200B;メニューを使用します。*
+*言語変数を削除、プレビュー、複製するには、**オプション**メニューを使用します。*
 
-アプリケーション変数とユーザー変数の両方をプレビューできます。 変数の値が出力にどのように表示されるかを表示するには、選択した変数の&#x200B;**オプション** メニューから&#x200B;**プレビュー**&#x200B;を選択します。
-ユーザー変数を&#x200B;**削除**&#x200B;または&#x200B;**複製**&#x200B;することもできます。 ひとつの言語から変数を削除すると、すべての言語から自動的に削除されます。
+アプリケーション変数とユーザー変数の両方をプレビューできます。 変数の値が出力にどのように表示されるかを表示するには、選択した変数の&#x200B;**オプション** メニューから&#x200B;**プレビュー**を選択します。
+ユーザー変数を**削除**&#x200B;または&#x200B;**複製**&#x200B;することもできます。 ひとつの言語から変数を削除すると、すべての言語から自動的に削除されます。
 
 ### アプリケーション変数を編集または元に戻す
 
@@ -156,7 +160,7 @@ XML ファイルは、次の形式で読み込むことができます。
 
    >[!NOTE]
    >
-   > カスタマイズまたは編集用のページレイアウトを開くための[&#x200B; ページレイアウトのカスタマイズ &#x200B;](../native-pdf/components-pdf-template.md#customize-a-page-layout-customize-page-layout) セクションを表示します。
+   > カスタマイズまたは編集用のページレイアウトを開くための[ ページレイアウトのカスタマイズ ](../native-pdf/components-pdf-template.md#customize-a-page-layout-customize-page-layout) セクションを表示します。
 
 1. ヘッダーを選択して、変数の挿入をアクティブにします。
 1. **変数を挿入**&#x200B;を選択  ツールバーの<img src="./assets/insert-language-variable.svg" width="25">。
@@ -185,7 +189,7 @@ XML ファイルは、次の形式で読み込むことができます。
   タミル人にとっての価値：
   `<span data-field="page-number" data-format="tamil">1</span>`
 
-同様に、ページレイアウトの「フィールドを挿入」機能にリストされている言語変数を追加したり、他のフィールドを書式設定したりできます。 フィールドの追加について詳しくは、[&#x200B; フィールドとメタデータの追加](../native-pdf/design-page-layout.md#add-fields-metadata)を参照してください。
+同様に、ページレイアウトの「フィールドを挿入」機能にリストされている言語変数を追加したり、他のフィールドを書式設定したりできます。 フィールドの追加について詳しくは、[ フィールドとメタデータの追加](../native-pdf/design-page-layout.md#add-fields-metadata)を参照してください。
 
 - 値にローカライズされた画像を追加することもできます。 例えば、章番号の言語に画像アイコンを追加し、PDF出力にアイコンのローカライズされた画像を取得できます。
 

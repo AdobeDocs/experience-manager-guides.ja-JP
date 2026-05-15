@@ -1,13 +1,18 @@
 ---
 title: 変数を使用して、宛先パス、サイト名またはファイル名のオプションを設定します
-description: Learn how to use variables for setting the Destination Path, Site Name, or File Name options. Know out-of-the-box variables supported in AEM Guides.
+description: 変数を使用して、宛先パス、サイト名、またはファイル名オプションを設定する方法を説明します。 AEM Guidesでサポートされている、すぐに使える変数を確認できます。
 feature: Publishing
 role: User
 hide: true
 exl-id: 19d9121f-6b72-445c-a7d9-07f00026b654
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+TQID: https://experienceleague.adobe.com/ECHcQjwfY4veo70H3MRXO0C0F3Wx3-3X-vgVMnUC-3s
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: 393
 ht-degree: 0%
 
 ---
@@ -15,20 +20,20 @@ ht-degree: 0%
 # 変数を使用して、宛先パス、サイト名またはファイル名のオプションを設定します
 
 
-While generating outputs in AEM Site or PDFs, you can use variables to define the Destination Path, AEM Site Name, or PDF File Name options. You can use a single or a combination of variables to define these options.
+AEM サイトまたはPDFで出力を生成する際に、変数を使用して、宛先パス、AEM サイト名、またはPDF ファイル名のオプションを定義できます。 これらのオプションを定義するには、単一または複数の変数を組み合わせて使用できます。
 
-The following table lists the variables that are supported out of the box:
+次の表に、標準でサポートされている変数を示します。
 
-| 変数 | Final Destination Path | 例 |
+| 変数 | 最終宛先パス | 例 |
 | --- | --- | --- |
-| `${map_filename}` | Uses the DITA map files name to create the destination path. | **DITA map file name**:<br>`AEMGuides.ditamap`<br><br>**Destination Path** configured as:<br>`/content/output/sites/${map_filename}`<br><br>**Final output location**:<br>`/content/output/sites/aemGuides/AEMGuides.html` |
-| `${map_title}` | Uses the DITA map title to create the destination path. | **DITA map file name**:<br>`AEMGuides.ditamap`<br><br>**DITA map Title**:<br>`AEMGuides`<br><br>**Destination Path** configured as:<br>`/content/output/sites/${map_title}`<br><br>**Final output location**:<br>`/content/output/sites/AEMGuides/AEMGuides.html` |
-| `${preset_name}` | Uses the output preset name to create the destination path. | **Output Preset Name**:<br>`AEM Guides PDF Output`<br><br>**DITA map file name**:<br>`SampleDita.ditamap`<br><br>**Destination Path** configured as:<br>`/content/output/sites/${preset_name}`<br><br>**Final output location**:<br>`/content/output/sites/AEM Guides PDF Output/SampleDita.html` |
-| `${language_code}` | Uses the language code where the map file is located to create the destination path. | **DITA map file name**:<br>`SampleDita.ditamap`<br><br>**DITA map file path**:<br>`/content/dam/projects/AEM-Guides/en/user-guide/`<br><br>**Destination Path** configured as:<br>`/content/output/sites/${language_code}`<br><br>**Final output location**:<br>`/content/output/sites/en/SampleDita.html` |
-| `${map_parentpath}` | Uses the complete path of the map file to create the destination path.<br><br>**Note**:This variable cannot be used to specify the AEM Site Name or PDF File Name. | **DITA map file name**:<br>`SampleDita.ditamap`<br><br>**DITA map file path**:<br>`/content/dam/projects/AEM-Guides/en/user-guide`/<br><br>**Destination Path** configured as:<br>`/content/output/sites/${map_parentpath}`<br><br>**Final output location**:<br>`/content/output/sites/content/dam/projects/AEM-Guides/en/user-guide/SampleDita.html` |
-| `${path_after_langfolder}` | Uses the path of the map file after the language folder to create the destination path.<br><br>**Note**: This variable cannot be used to specify the AEM Site Name or PDF File Name. | **DITA map file name**:<br>`SampleDita.ditamap`<br><br>**DITA map file path**:<br>`/content/dam/projects/AEM-Guides/en/user-guide/`<br><br>**Destination Path** configured as:<br>`/content/output/sites/${path\_after\_langfolder}`<br><br>**Final output location**:<br>`/content/output/sites/user-guide/SampleDita.html` |
-| `${system_date}` | Uses the current server date to create the destination path. | **DITA map file name**: <br> `SampleDita.ditamap` <br><br> **DITA map file path:** <br> `/content/dam/projects/AEM-Guides/en/user-guide/` <br><br> **Destination Path** configured as: <br> `/content/output/sites/${system_date}` <br> <br> **最終的な出力場所：** <br> /`content/output/sites/08252023/SampleDita.html` |
+| `${map_filename}` | DITA マップファイル名を使用して、宛先パスを作成します。 | **DITA マップファイル名**:<br>`AEMGuides.ditamap`<br><br>**宛先パス**&#x200B;が&#x200B;<br>`/content/output/sites/${map_filename}`<br><br>**最終出力場所**:<br>`/content/output/sites/aemGuides/AEMGuides.html`に設定されました |
+| `${map_title}` | DITA マップタイトルを使用して、宛先パスを作成します。 | **DITA マップファイル名**:<br>`AEMGuides.ditamap`<br><br>**DITA マップタイトル**:<br>`AEMGuides`<br><br>**宛先パス**&#x200B;が&#x200B;<br>`/content/output/sites/${map_title}`<br><br>**最終出力場所**:<br>`/content/output/sites/AEMGuides/AEMGuides.html`に設定されました |
+| `${preset_name}` | 出力プリセット名を使用して、宛先パスを作成します。 | **出力プリセット名**:<br>`AEM Guides PDF Output`<br><br>**DITA マップファイル名**:<br>`SampleDita.ditamap`<br><br>**宛先パス**&#x200B;が&#x200B;<br>`/content/output/sites/${preset_name}`<br><br>**最終出力場所**:<br>`/content/output/sites/AEM Guides PDF Output/SampleDita.html`に設定されました |
+| `${language_code}` | マップファイルが配置されている言語コードを使用して、宛先パスを作成します。 | **DITA マップファイル名**:<br>`SampleDita.ditamap`<br><br>**DITA マップファイルのパス**:<br>`/content/dam/projects/AEM-Guides/en/user-guide/`<br><br>**宛先パス**&#x200B;が&#x200B;<br>`/content/output/sites/${language_code}`<br><br>**最終出力場所**:<br>`/content/output/sites/en/SampleDita.html`に設定されました |
+| `${map_parentpath}` | マップファイルの完全なパスを使用して、宛先パスを作成します。<br><br>**注**:This&#x200B;変数は、AEM サイト名またはPDF ファイル名を指定するために使用することはできません。 | **DITA マップファイル名**:<br>`SampleDita.ditamap`<br><br>**DITA マップファイルのパス**:<br>`/content/dam/projects/AEM-Guides/en/user-guide`/<br><br>**宛先パス**&#x200B;が&#x200B;<br>`/content/output/sites/${map_parentpath}`<br><br>**最終出力場所**:<br>`/content/output/sites/content/dam/projects/AEM-Guides/en/user-guide/SampleDita.html`として設定されました |
+| `${path_after_langfolder}` | 言語フォルダーの後のマップファイルのパスを使用して、保存先のパスを作成します。<br><br>**注意**：この変数を使用して、AEM サイト名またはPDF ファイル名を指定することはできません。 | **DITA マップファイル名**:<br>`SampleDita.ditamap`<br><br>**DITA マップファイルのパス**:<br>`/content/dam/projects/AEM-Guides/en/user-guide/`<br><br>**宛先パス**&#x200B;が&#x200B;<br>`/content/output/sites/${path\_after\_langfolder}`<br><br>**最終出力場所**:<br>`/content/output/sites/user-guide/SampleDita.html`に設定されました |
+| `${system_date}` | 現在のサーバー日付を使用して、宛先パスを作成します。 | **DITA マップファイル名**: <br> `SampleDita.ditamap` <br><br> **DITA マップファイルのパス：** <br> `/content/dam/projects/AEM-Guides/en/user-guide/` <br><br> **宛先パス**&#x200B;が<br>として設定されました `/content/output/sites/${system_date}` <br> <br> **最終的な出力場所：** <br> /`content/output/sites/08252023/SampleDita.html` |
 | `${system_time}` | 現在のサーバー時間を使用して、宛先パスを作成します。 | **DITA マップファイル名：** <br>`SampleDita.ditamap` <br> <br> **DITA マップファイルのパス：** <br>`/content/dam/projects/AEM-Guides/en/user-guide/` <br><Br>**宛先パス**&#x200B;が<br>として設定されました `/content/output/sites/${system_time}`<br><br>**最終的な出力場所：**<br>`/content/output/sites/055612/SampleDita.html` |
 
 さらに、DITA マップファイルまたはブックマップファイルに定義されているメタデータを変数として使用することもできます。 メタデータは、DITA マップまたはブックマップファイルの`/jcr:content/metadata` ノードにあります。 例えば、`/jcr:content/metadata` ノードで定義されているメタデータプロパティの1つは`dc:title`です。 `${dc:title}`を指定すると、タイトルの値が最終的な出力で使用されます。
-**親トピック：**&#x200B;[&#x200B;出力生成](generate-output.md)
+**親トピック：**[&#x200B;出力生成](generate-output.md)

@@ -1,32 +1,36 @@
 ---
-title: 上部バーとツールバー
-description: 上部バーとツールバーのカスタマイズ
+title: トップバーとツールバー
+description: トップバーとツールバーのカスタマイズ
 role: User, Admin
 exl-id: 7065c9b8-67ac-4f6d-8124-daa547f2dc3b
-source-git-commit: e1d6123991ddd8d25f76ee03befeb95f020a9834
+TQID: https://experienceleague.adobe.com/at8pRiy0xnloRpqJgBXnqJ8vkFwQ4hpotyO9dRFliK8
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: 267
 ht-degree: 0%
 
 ---
 
-# 上部バーとツールバーのカスタマイズ
+# トップバーとツールバーのカスタマイズ
 
-`topbar` と `toolbar` をカスタマイズするには、ID （`topbar` または `toolbar`）を使用し、同じビューのコントローラ構造に従います。
+`topbar`と`toolbar`をカスタマイズするには、ID : `topbar`または`toolbar`を使用し、同じビュー、コントローラ構造に従います。
 
 >[!NOTE]
 >
->2502 リリースのExperience Manager Guidesから、id **toolbar** の名前は **editor toolbar** に変更されました。 以前のバージョンを使用している場合は、**toolbar** ID を使用してツールバーをカスタマイズできます。 **topbar** としての ID がなくなり、**editor_tab_bar** が配置されています。
+>2502 リリースのExperience Manager Guides以降、ID **toolbar**&#x200B;の名前が&#x200B;**editor toolbar**&#x200B;に変更されました。 以前のバージョンを使用している場合は、**ツールバー** IDを使用してツールバーをカスタマイズできます。 現在、**topbar**&#x200B;というIDはなく、代わりに&#x200B;**editor_tab_bar**&#x200B;を使用しています。
 
-次に、ツールバーのカスタマイズの簡単な例を示します。 ここでは、「`Insert Numbered List`」ボタンを削除し、カスタマイズされたオンクリックハンドラーを使用して、「`Insert Paragraph`」ボタンを独自のコンポーネントに置き換えました。
+以下は、ツールバーのカスタマイズの簡単な例です。 ここでは、`Insert Numbered List` ボタンを削除し、カスタマイズされたクリック時のハンドラーを使用して、`Insert Paragraph` ボタンを独自のコンポーネントに置き換えました。
 
 >[!TIP]
 >
->**editor_toolbar** はボタンをレンダリングするように設計されているので、ウィジェットを追加すると CSS と応答性が損なわれる場合があります。 ボタンまたはラベルなどの基本コンポーネントのみを含めることをお勧めします。
+>**editor_toolbar**&#x200B;はボタンをレンダリングするように設計されているため、ウィジェットを追加すると、CSSと応答性が損なわれる可能性があります。 ボタンまたはラベルなどの基本的なコンポーネントのみを含めることをお勧めします。
 
-`proxy` オブジェクトの下に公開されている機能にアクセスするには、値を取得するなど、`this.getValue` を使用してアクセスする必要があります。
+`proxy` オブジェクトの下に公開されている機能にアクセスするには、`this.getValue`を使用してアクセスする必要があります。値を取得するにはと言います。
 
-AEM Guides 2502 リリース以降の場合は、ツールバーのカスタマイズに関する以下の例を参照できます。
+AEM Guides 2502 リリース以降については、以下のツールバーのカスタマイズ例を参照してください。
 
 ```js title = toolbar_customization.js
 const toolbarExtend = {
@@ -214,10 +218,10 @@ const topbarExtend = {
 
 カスタマイズが完了すると、最終的な出力は次のようになります。
 
-![&#x200B; ツールバー &#x200B;](imgs/toolbar.png)
+![ ツールバー](imgs/toolbar.png)
 
 
-別の例では、メール、ファイル参照、Web リンクなど、**相互参照** の目的のサブオプションに直接ジャンプできるカスタムツールバーボタンを作成します。
+別の例では、電子メール、ファイル参照、Weblinkなどの&#x200B;**相互参照**&#x200B;の任意のサブオプションに直接ジャンプできるカスタムツールバーボタンを作成します。
 
 
 ```js title = toolbar_customisation.js
@@ -252,4 +256,4 @@ const toolbarExtend = {
 }
 ```
 
-ここで、正し `activeTabId` タブを選択するための列挙です。 デフォルトでは、「相互参照」 タブを選択すると、`file_link` が開きます。 `activeTabId` の値は、要件に応じて `content_reference`、`conkey_reference`、`key_reference`、`file_link`、`web_link` および ` email_link` に変更できます。
+ここでは、`activeTabId`は正しいタブを選択するための列挙です。 デフォルトでは、「相互参照」タブを選択すると、`file_link`が開きます。 `activeTabId`の値は、要件に基づいて`content_reference`、`conkey_reference`、`key_reference`、`file_link`、`web_link`および` email_link`に変更できます。

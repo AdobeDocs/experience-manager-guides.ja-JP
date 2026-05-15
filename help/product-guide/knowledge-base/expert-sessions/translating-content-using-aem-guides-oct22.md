@@ -1,57 +1,62 @@
 ---
 title: コンテンツの翻訳
-description: コンテンツを複数の言語に翻訳する方法を説明します。
+description: コンテンツを複数の言語に翻訳する方法をご確認ください。
 exl-id: c8dacbdc-4b0b-44ca-82d4-889cd83741ff
 feature: Translation, Troubleshooting
 role: User, Admin
-source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
+TQID: https://experienceleague.adobe.com/wqeX15zlw6ALVSvXTJu-lMXm8dIvKSqcFGAFuu610p4
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: c6d09140-3c91-45d3-b7ed-b681af752f43
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 5%
+source-wordcount: 208
+ht-degree: 4%
 
 ---
 
 # コンテンツの翻訳
 
-AEM Guidesは、堅牢な翻訳機能を備えた、多言語コンテンツ作成の究極のソリューションを提供します。
+AEM Guidesは、強力な翻訳機能を備えた多言語コンテンツ制作のための究極のソリューションを提供します。
 
 ## セッションの概要
 
-このセッションでは、人間による翻訳ワークフローと機械翻訳ワークフローの翻訳プロセス、統合メカニズム、費用対効果について説明します。
+このセッションでは、人と機械の翻訳ワークフローの翻訳プロセス、統合メカニズム、およびコスト効率について説明します。
 
-## セッションの録画
+## セッション録画
 
 >[!VIDEO](https://video.tv.adobe.com/v/3414140/translation-aem-guides?quality=12&learn=on)
 
 ## ハイライト
 
-- **日付** - 2022 年 10 月 27 日
-- **出席者の数** ～ 94
-- **期間** - 60 分
-- **対象読者** – お客様、パートナー、Adobe社員
+- **日付** - 2022年10月27日
+- **参加者の数** - 94
+- **期間** - 60分
+- **Audience** – お客様、パートナー、およびAdobeの従業員
 
 ## 重要ポイント
 
-このセッションでは、以下について学習します。
-- 企業がビジネス改善のために翻訳に投資する理由
-- 使用可能なフレームワークのメカニズムと翻訳プロセス
+このセッションでは、次の項目について説明します。
+- 企業がビジネスを改善するために翻訳に投資する理由
+- 利用可能なフレームワークのメカニズムと翻訳プロセス
 - 翻訳ワークフロー、API、ダッシュボードの自動化
 - 構造化コンテンツ翻訳のベストプラクティス
 
 ## 関連リソース
 
-- **特集ビデオ** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=ja)
+- **機能ビデオ** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **ユーザーガイド** - [&#x200B; コンテンツの翻訳 &#x200B;](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ftranslation.html)
+- **ユーザーガイド** - [ コンテンツを翻訳](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ftranslation.html)
 
-- **コミュニティフォーラム** - Experience Leagueに関するセッション固有のコミュニティのやり取りについては、[AEM Guides フォーラムにアクセスしてください &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=ja)
+- **コミュニティフォーラム** - Experience Leagueでのセッション固有のコミュニティインタラクションについては、[AEM Guides フォーラム ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)をご覧ください
 
 >[!NOTE]
 >
-> このセッションで紹介する機能は、次のバージョンのAEM Guidesで利用できます。
-> - オンプレミス 4.1 以降
-> - Cloud Service 2207 以降
+> このセッションで説明する機能は、次のバージョンのAEM Guidesで利用できます。
+> - オンプレミス 4.1以降
+> - Cloud Services 2207以降
 
-## お問い合わせ
+## さらに詳しく
 
-ご質問については、<techcomm@adobe.com> 宛てにメールを送信してください
+ご質問がある場合は、<techcomm@adobe.com>にメールをお送りください

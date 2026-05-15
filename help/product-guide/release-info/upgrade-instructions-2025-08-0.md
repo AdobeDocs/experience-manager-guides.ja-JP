@@ -1,71 +1,76 @@
 ---
-title: リリースノート | Adobe Experience Manager Guides 2025.08.0 リリースのアップグレード手順と修正された問題
-description: 互換性マトリックスと、Adobe Experience Manager Guides as a Cloud Serviceの 2025.08.0 リリースにアップグレードする方法について説明します。
+title: リリースノート | Adobe Experience Manager Guides（2025.08.0 リリース）のアップグレード手順と修正された問題
+description: 互換性マトリックスと、Adobe Experience Manager Guides as a Cloud Serviceの2025.08.0 リリースにアップグレードする方法について説明します。
 exl-id: 8f58962c-5f49-4b48-a161-4a34cd3366cb
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/Arqmblggs3SIADT9DQpI3Bk7wOhnfvs9hpdIJx8V1Wc
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: afb45297-4313-4f67-818e-bc0b03abe086id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0eid: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: cda0baeb-996e-4aaa-92d1-41032e34fd68id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1035'
-ht-degree: 3%
+source-wordcount: 1041
+ht-degree: 4%
 
 ---
 
 # 2025.08.0 リリースのアップグレード手順
 
-この記事では、Adobe Experience Manager Guides as a Cloud Service 2025.08.0 リリースのアップグレード手順と互換性マトリックスについて説明します。
+この記事では、Adobe Experience Manager Guides as a Cloud Serviceの2025.08.0 リリースのアップグレード手順と互換性マトリックスについて説明します。
 
-新機能と機能強化について詳しくは、[&#x200B; 2025.08.0リリースの新機能](whats-new-2025-08-0.md)を参照してください。
+新機能と機能強化について詳しくは、[ 2025.08.0リリースの新機能](whats-new-2025-08-0.md)を参照してください。
 
 このリリースで修正された問題の一覧については、[2025.08.0リリースで修正された問題](fixed-issues-2025-08-0.md)を参照してください。
 
 ## 互換性マトリックス
 
-この節では、Experience Manager Guides as a Cloud Service 2025.08.0 リリースでサポートされるソフトウェアアプリケーションの互換性マトリックスについて説明します。
+この節では、Experience Manager Guides as a Cloud Serviceの2025.08.0 リリースでサポートされているソフトウェアアプリケーションの互換性マトリックスを示します。
 
 ### FrameMakerとFrameMaker Publishing Server
 
 | Experience Manager Guides as a Cloud リリース | FMPS | FrameMaker |
 | --- | --- | --- |
-| 2025.08.0 | 互換性がありません | 2022 以上 |
+| 2025.08.0 | 互換性がありません | 2022年以降 |
 
 
-### 酸素コネクタ
+### Oxygen コネクタ
 
-| Experience Manager Guides as a Cloud リリース | 酸素コネクタウィンドウ | 酸素コネクタMac | 酸素ウィンドウで編集 | Oxygen Macで編集 |
+| Experience Manager Guides as a Cloud リリース | Oxygen コネクタウィンドウ | Oxygen Connector Mac | Oxygen ウィンドウで編集 | Oxygen Macで編集 |
 | --- | --- | --- | --- | --- |
 | 2025.08.0 | 3.8 -uuid 1 | 3.8 -uuid 1 | 2.3 | 2.3 |
 
 
-### ナレッジベーステンプレートバージョン
+### ナレッジベースのテンプレートバージョン
 
-| コンポーネントパッケージ名 | コンポーネントのバージョン | テンプレートのバージョン |
+| コンポーネントパッケージ名 | コンポーネントバージョン | テンプレートバージョン |
 |---|---|---|
 | Cloud Service用Experience Manager Guides コンポーネントコンテンツパッケージ | guides-components.all-1.4.0 | aem-site-template-dxml-1.0.17 |
 
 
-### 新しいバージョンのAEM サイトテンプレート
+### 新しいAEM サイトテンプレートのバージョン
 
-| コンポーネントのバージョン | サイトバージョン |
+| コンポーネントバージョン | サイトバージョン |
 |---|---|
 | guides-components.all-1.4.0 | aemg-sites-template-1.3.0 |
 
 
 ## 2025.08.0 リリースへのアップグレード
 
-Experience Manager Guidesは、現在の（最新の）リリースのExperience Manager as a Cloud Serviceをアップグレードすると、自動的にアップグレードされます。
+Experience Manager Guidesは、Experience Manager as a Cloud Serviceの最新リリースをアップグレードすると、自動的にアップグレードされます。
 
 >[!NOTE]
 >
-> 現在（最新）のリリースの使用を開始したら、上書きされた設定を最新の設定と比較して、最新の機能を取得します。
->- ui_config.json （フォルダープロファイルで設定されている可能性）
+> 最新（最新）リリースの使用を開始したら、上書きされた設定を最新の設定と比較して、最新の機能を入手します。
+>- ui_config.json （フォルダープロファイルで設定されている可能性があります）
 
 
-既存のリリースでExperience Manager Guides as a Cloud Serviceを早く実行していない場合は、次の手順を実行します。
+既存のリリースでExperience Manager Guides as a Cloud Serviceを実行していない場合は、次の手順を実行します。
 
 ### サーブレットを使用したスクリプトのトリガーを有効にする手順
 
-（2023 年 6 月のExperience Manager Guides as a Cloud Service リリースより前のリリースを使用している場合のみ）
+（Experience Manager Guides as a Cloud Serviceの2023年6月リリースより前のリリースを使用している場合のみ）
 
-インストールが完了したら、トリガーを押して翻訳ジョブを開始できます。
+インストールが完了したら、トリガーを押して翻訳ジョブを開始します。
 
 投稿：
 
@@ -83,69 +88,69 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 }
 ```
 
-前の応答 JSON では、キー `lockNodePath` は、送信されたジョブを指す、リポジトリで作成されたノードへのパスを保持します。 ジョブが完了すると自動的に削除されるので、このノードでジョブのステータスを確認できます。
+前の応答JSONでは、キー`lockNodePath`は、送信されたジョブを指すリポジトリで作成されたノードへのパスを保持します。 ジョブが完了すると自動的に削除され、ジョブのステータスについては、このノードを参照できます。
 
-このジョブが完了するのを待ってから、次の手順に進みます。
+このジョブが完了するまで待ってから、次の手順に進みます。
 
 >[!NOTE]
 >
-> ノードがまだ存在するかどうか、およびジョブのステータスを確認する必要があります。
+> ノードがまだ存在するかどうかを確認し、ジョブのステータスを確認する必要があります。
 
 ```
 GET
 http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/1683190032886.json
 ```
 
-### 壊れたリンクレポートを使用するために、既存のコンテンツを後処理する手順
+### 既存のコンテンツを後処理して、壊れたリンクレポートを使用する手順
 
-（2023 年 6 月のExperience Manager Guides as a Cloud Service リリースより前のリリースを使用している場合のみ）
+（Experience Manager Guides as a Cloud Serviceの2023年6月リリースより前のリリースを使用している場合のみ）
 
-既存のコンテンツを後処理し、新しい壊れたリンクのレポートを使用するには、次の手順を実行します。
+既存のコンテンツを後処理し、新しい壊れたリンクレポートを使用するには、次の手順を実行します。
 
-1. （オプション）システムに 100,000 個を超える DITA ファイルがある場合は、`queryLimitReads` 下の `queryLimitInMemory` および `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` を大きい値（存在するアセットの数を超える値は、たとえば 200,000）に変更してから再デプロイします。
+1. （オプション）システムに100,000個を超えるDITA ファイルがある場合は、`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`の`queryLimitReads`と`queryLimitInMemory`をより大きな値（存在するアセット数より大きな値、例えば200,000個）に更新してから再展開します。
 
-   - Adobe Experience Manager Guides as a Cloud Serviceのインストールと設定の *設定の上書き* の節で説明した手順に従って、設定ファイルを作成します。
-   - 設定ファイルで、`queryLimitReads` と `queryLimitInMemory` オプションを設定するために、次の（プロパティ）の詳細を指定します。
+   - Adobe Experience Manager Guides as a Cloud Serviceの「*設定の上書き*」セクションで指定されている手順を使用して、設定ファイルを作成します。
+   - 設定ファイルで、次の（プロパティ）詳細を指定して、`queryLimitReads`および`queryLimitInMemory` オプションを設定します。
 
      | PID | プロパティキー | プロパティの値 |
      |---|---|---|
      | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitReads | 値：200000 デフォルト値：100000 |
      | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitInMemory | 値：200000 デフォルト値：100000 |
 
-1. （正しい認証で） サーバーへの POST リクエストを実行します – `http://<server>//bin/guides/reports/upgrade`。
+1. サーバーへのPOST リクエストを実行します（正しい認証を使用） - `http://<server>//bin/guides/reports/upgrade`。
 
-1. API は jobId を返します。 ジョブのステータスを確認するには、同じエンドポイント `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}` にジョブ ID を含むGET リクエストを送信します。
+1. APIはjobIdを返します。 ジョブのステータスを確認するには、ジョブ IDを持つGET リクエストを同じエンドポイントに送信できます。 `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
 （例：`http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）
 
-1. ジョブが完了すると、前回のGET リクエストが正常に応答します。 何らかの理由でジョブが失敗した場合は、サーバーログに失敗が記録されています。
+1. ジョブが完了すると、以前のGET リクエストは正常に応答します。 何らかの理由でジョブが失敗した場合は、サーバーログからエラーを確認できます。
 
-1. 手順 1 で変更した場合は、デフォルトまたは以前の既存の値 `queryLimitReads` に戻します。
+1. 手順1で変更した場合は、デフォルト値または以前の既存の値`queryLimitReads`に戻します。
 
-### 「レポート」タブで新しい「検索と置換」および「トピック」リストを使用するために、既存のコンテンツにインデックスを作成する手順は次のとおりです。
+### 「レポート」タブの新しい検索と置換およびトピックリストを使用して、既存のコンテンツをインデックス化する手順：
 
-（2023 年 6 月のExperience Manager Guides as a Cloud Service リリースより前のリリースを使用している場合のみ）
+（Experience Manager Guides as a Cloud Serviceの2023年6月リリースより前のリリースを使用している場合のみ）
 
-既存のコンテンツのインデックスを作成する次の手順を実行し、「レポート」タブの新しい検索と置換のテキストをマップレベルとトピックリストで使用します。
+既存のコンテンツのインデックスを作成するには、次の手順を実行し、「レポート」タブのマップレベルとトピックリストで新しい検索と置換のテキストを使用します。
 
-1. （正しい認証で） サーバーへの POST リクエストを実行します – `http://<server:port>/bin/guides/map-find/indexing`。 （オプション：マップの特定のパスをインデックスを作成するために渡すことができます。デフォルトでは、すべてのマップにインデックスが作成されます||例：`https://<Server:port>/bin/guides/map-find/indexing?paths=<path of the MAP in repository>`）。
+1. サーバーへのPOST リクエストを実行します（正しい認証を使用） - `http://<server:port>/bin/guides/map-find/indexing`。 （オプション：マップの特定のパスを渡してインデックスを作成できます。デフォルトでは、すべてのマップにインデックスが付けられます||例：`https://<Server:port>/bin/guides/map-find/indexing?paths=<path of the MAP in repository>`）
 
-1. ルートフォルダーを渡して、特定のフォルダー（およびそのサブフォルダー）の DITA マップのインデックスを作成することもできます。 例えば、`http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test` のようになります。paths パラメーターと root パラメーターの両方が渡される場合、paths パラメーターのみが考慮されることに注意してください。
+1. ルートフォルダーを渡して、特定のフォルダー（およびそのサブフォルダー）のDITA マップをインデックス化することもできます。 例えば、`http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test` のようになります。 パス パラメーターとルート パラメーターの両方が渡された場合は、パス パラメーターのみが考慮されます。
 
-1. API は jobId を返します。 ジョブのステータスを確認するには、同じエンドポイント `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}` （例：`http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）にジョブ ID を含むGET リクエストを送信します
+1. APIはjobIdを返します。 ジョブのステータスを確認するには、ジョブ IDを持つGET リクエストを同じエンドポイント `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`に送信できます（例：`http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）
 
-1. ジョブが完了すると、前のGET リクエストが成功を示して応答し、失敗したマップがあるかどうかに関して言及します。 正常にインデックス化されたマップは、サーバ ログから確認できます。
+1. ジョブが完了すると、以前のGET リクエストは成功して応答し、マップが失敗した場合にメンションします。 正常にインデックス付けされたマップは、サーバーログから確認できます。
 
-### `'fmdita rewriter'` の競合を処理する手順
+### `'fmdita rewriter'`競合を処理する手順
 
-Experience Manager Guidesには、クロスマップ（2 つの異なるマップのトピック間のリンク）の場合に生成されるリンクを処理する [**custom sling rewriter**](../cs-install-guide/conf-output-generation.md#custom-rewriter) モジュールがあります。
+Experience Manager Guidesには、クロスマップの場合に生成されるリンク（2つの異なるマップのトピック間のリンク）を処理するための&#x200B;[**カスタム sling rewriter**](../cs-install-guide/conf-output-generation.md#custom-rewriter) モジュールがあります。
 
-コードベースに別のカスタム sling rewriter がある場合は、Experience Manager Guides sling rewriter が 50 を使用するように、50 より大きい `'order'` 値を使用し `'order'` す。 これを上書きするには、50 より大きい値が必要です。 詳しくは、[&#x200B; 出力の書き換えパイプライン &#x200B;](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html) を参照してください。
+コードベースに別のカスタムスリングリライターがある場合は、`'order'`値が50より大きい値を使用します。これは、Experience Manager Guides sling リライターが`'order'` 50を使用するからです。 これを上書きするには、50を超える値が必要です。 詳細については、[出力の書き換えパイプライン ](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html)を参照してください。
 
-このアップグレード中に、`'order'` の値が 1000 から 50 に変更されるので、既存のカスタムリライターがある場合は `fmdita-rewriter` と結合する必要があります。
+このアップグレードでは、`'order'`の値が1000から50に変更されるので、既存のカスタムリライターがある場合は`fmdita-rewriter`と結合する必要があります。
 
-### コンテンツフラグメントの B-Tree 移行を実行する手順
+### コンテンツフラグメントのB ツリー移行を実行する手順
 
-コンテンツフラグメントの参照が表示されない場合は、トリガーを押して移行ジョブを開始できます。
+コンテンツフラグメントに対する参照が表示されない場合は、トリガーをヒットして移行ジョブを開始します。
 
 投稿：
 
@@ -164,13 +169,13 @@ http://localhost:4503/bin/guides/script/start?jobType=cf-reference-store-btree-m
 }
 ```
 
-前の応答では、キー `lockNodePath`JSON は、リポジトリで作成されたノードへのパスを保持します。これは、送信されたジョブを指します。 ジョブが完了すると、自動的に削除されます。 ジョブのステータスについては、このノードを参照してください。
+以前の応答であるJSONでは、キー`lockNodePath`は、リポジトリで作成されたノードへのパスを保持し、これは送信されたジョブを指します。 ジョブが完了すると、自動的に削除されます。 ジョブのステータスについては、このノードを参照できます。
 
-このジョブが完了するのを待ってから、次の手順に進みます。
+このジョブが完了するまで待ってから、次の手順に進みます。
 
 >[!NOTE]
 >
->ノードがまだ存在するかどうか、およびジョブのステータスを確認する必要があります。
+>ノードがまだ存在するかどうかを確認し、ジョブのステータスを確認する必要があります。
 
 GET:
 

@@ -1,57 +1,63 @@
 ---
-title: Web ベースコンテンツの作成
+title: web ベースのコンテンツの制作
 description: Web エディターを使用して構造化コンテンツを作成する方法を説明します。
 exl-id: ab051c14-5c1e-4685-89e8-3c90dff9ea5e
 feature: Web Editor, Troubleshooting
 role: User, Admin
-source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
+TQID: https://experienceleague.adobe.com/Y0T419aijRZIgrdc2wUo2ooCCLV01ZCLFI6Nh8nPNx0
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d6596f3f-92a7-43ec-b444-237db6adad05id: f6b497f1-f8e0-42ce-8e95-56c28d94026eid: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: 241
 ht-degree: 2%
 
 ---
 
-# Web ベースコンテンツの作成
+# web ベースのコンテンツの制作
 
-AEM Guidesには、構造化コンテンツをオーサリングするための組み込みの web エディターが付属しています。 シンプルな web ベースのオーサリングエクスペリエンスで作業できますが、条件付きコンテンツの検証、スペルチェック、コンテンツの再利用、参照の検証、わかりやすい名前、数式の作成など、強力な機能を使用することも有効にすることもできます。
+AEM Guidesには、構造化されたコンテンツをオーサリングするためのweb エディターが組み込まれています。 簡素化されたweb ベースのオーサリングエクスペリエンスでは利用できますが、条件付きコンテンツ検証、スペルチェック、コンテンツの再利用、参照検証、わかりやすい名前、著者の数式などの強力な機能を使用したり、有効にしたりすることができます。
 
 ## セッションの概要
 
-このセッションでは、web エディターを使用してコンテンツを作成、公開、管理する方法について説明します。
+このセッションでは、web エディターを使用してコンテンツを作成、公開、管理する方法を説明します。
 
-## セッションの録画
+## セッション録画
 
 >[!VIDEO](https://video.tv.adobe.com/v/3414171/dita-authoring-ccms-web-author?quality=12&learn=on)
 
 ## ハイライト
 
-- **日付** - 2023 年 1 月 19 日（Pt）
-- **出席者の数** ～ 89
-- **期間** - 60 分
-- **対象読者** – お客様、パートナー、Adobe社員
+- **日付** - 2023年1月19日
+- **参加者数** - 89
+- **期間** - 60分
+- **Audience** – お客様、パートナー、およびAdobeの従業員
 
 ## 重要ポイント
 
-このセッションでは、以下について学習します。
-- Web エディターの設定を指定
-- Web エディター機能を使用した作成者の生産性向上
+このセッションでは、次の項目について説明します。
+- Web エディターの設定
+- web エディター機能を使用して、制作者の生産性を向上させる
 - 利用可能な機能の拡張と統合
-- スタイルやブランディングをカスタマイズして web エディターをパーソナライズ
+- スタイルやブランディングをカスタマイズしてweb エディターをパーソナライズ
 
 ## 関連リソース
 
-- **特集ビデオ** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=ja)
+- **機能ビデオ** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **ユーザーガイド** - [&#x200B; コンテンツの作成 &#x200B;](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map/authoring-content.html)
+- **ユーザーガイド** - [ コンテンツの作成](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map/authoring-content.html)
 
-- **コミュニティフォーラム** - Experience Leagueに関するセッション固有のコミュニティのやり取りについては、[AEM Guides フォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=ja) にアクセスしてください。
+- **コミュニティフォーラム** - Experience Leagueでのセッション固有のコミュニティインタラクションについては、[AEM Guides フォーラム ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)をご覧ください。
 
 >[!NOTE]
 >
-> このセッションで紹介する機能は、次のバージョンのAEM Guidesで利用できます。
-> - オンプレミス 4.1.3 以降
-> - Cloud Service 2211 以降
+> このセッションで説明する機能は、次のバージョンのAEM Guidesで利用できます。
+> - オンプレミス 4.1.3以降
+> - Cloud Services 2211以降
 
-## お問い合わせ
+## さらに詳しく
 
-ご質問については、<techcomm@adobe.com> 宛てにメールを送信してください
+ご質問がある場合は、<techcomm@adobe.com>にメールをお送りください

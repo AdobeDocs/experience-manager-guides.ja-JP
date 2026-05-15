@@ -5,9 +5,14 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: c787947a-b235-4c12-a9cc-eac5136d31db
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/lRZe-xPwSSlgWvk5-YLMZkqLRHwe-lTO8jUsgYQn1dM
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: cdab8659-8d50-4417-b6fd-762f347c13ee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: 468
 ht-degree: 0%
 
 ---
@@ -59,4 +64,4 @@ AEM Guidesでは、個々のファイルまたはフォルダー内のすべて�
 
 
 
-**親トピック：**&#x200B;[&#x200B; レポート &#x200B;](reports-intro.md)
+**親トピック：**[ レポート ](reports-intro.md)

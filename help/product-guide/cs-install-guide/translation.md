@@ -5,9 +5,15 @@ exl-id: 5af78233-343e-47ba-b60c-b7f4789e2406
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+TQID: https://experienceleague.adobe.com/WjrAoZplwWbFYxySm-faIIda81AWTYnqhvbdsRk8tjU
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: 877
 ht-degree: 10%
 
 ---
@@ -23,17 +29,17 @@ ht-degree: 10%
 
 コンテンツの翻訳には次の手順が含まれます。
 
-1. AEMを[翻訳サービスプロバイダー](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=ja)に接続し、翻訳統合フレームワーク設定を作成します。
+1. AEMを[翻訳サービスプロバイダー](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)に接続し、翻訳統合フレームワーク設定を作成します。
 
 1. 言語マスターのページを翻訳サービスとフレームワーク設定に関連付けます。
 
-1. 翻訳する[&#x200B; コンテンツの種類](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/rules.html?lang=ja)を特定します。
+1. 翻訳する[ コンテンツの種類](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/rules.html?lang=en)を特定します。
 
-1. [翻訳するコンテンツを準備](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html?lang=ja)します。そのためには、言語マスターをオーサリングして、言語コピーのルートページを作成します。
+1. [翻訳するコンテンツを準備](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html?lang=en)します。そのためには、言語マスターをオーサリングして、言語コピーのルートページを作成します。
 
-1. 翻訳するコンテンツを収集し、翻訳プロセスを準備するために、[翻訳プロジェクト &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=ja)を作成します。
+1. 翻訳するコンテンツを収集し、翻訳プロセスを準備するために、[翻訳プロジェクト ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en)を作成します。
 
-1. 翻訳プロジェクトを使用して、[&#x200B; コンテンツ翻訳](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=ja) プロセスを管理します。
+1. 翻訳プロジェクトを使用して、[ コンテンツ翻訳](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en) プロセスを管理します。
 
 
 翻訳サービスプロバイダーがAEMとの統合にコネクタを提供しない場合、AEMでは、翻訳されたコンテンツのXML形式での手作業による書き出しと読み込みがサポートされます。
@@ -66,7 +72,7 @@ DITA マップダッシュボードの「翻訳」タブを非表示にするに
 
 | PID | プロパティキー | プロパティの値 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `component.translation` | ブール値：<br> – 人による翻訳を使用している場合は、*コンポーネントベースの翻訳ワークフロー&#x200B;**オプションを* \（`false`\）無効にします。<br> – 機械翻訳を使用している場合は、*コンポーネントベースの翻訳ワークフロー&#x200B;**オプションの\（`true`\）*&#x200B;を有効にします。**&#x200B;** |
+| `com.adobe.fmdita.config.ConfigManager` | `component.translation` | ブール値：<br> – 人による翻訳を使用している場合は、*コンポーネントベースの翻訳ワークフロー&#x200B;**オプションを* \（`false`\）無効にします。<br> – 機械翻訳を使用している場合は、*コンポーネントベースの翻訳ワークフロー**オプションの\（`true`\）*&#x200B;を有効にします。**** |
 
 
 
@@ -81,14 +87,14 @@ DITA マップダッシュボードの「翻訳」タブを非表示にするに
 
 | PID | プロパティキー | プロパティの値 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | ブール値：<br> – 最新の翻訳ワークフローを使用している場合は、*従来の翻訳ワークフローを実行&#x200B;**する**&#x200B;オプションを* \（`false`\）無効にします。 <br> - レガシー翻訳を使用する場合は、*レガシー翻訳ワークフローの実行&#x200B;**オプションの\（`true`\）*を有効にします。<br>**&#x200B; **&#x200B;デフォルト値**: false |
+| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | ブール値：<br> – 最新の翻訳ワークフローを使用している場合は、*従来の翻訳ワークフローを実行&#x200B;**する**オプションを* \（`false`\）無効にします。 <br> - レガシー翻訳を使用する場合は、*レガシー翻訳ワークフローの実行&#x200B;**オプションの\（`true`\）*を有効にします。<br>** **デフォルト値**: false |
 
 
 
 
 >[!NOTE]
 >
-> 翻訳コネクタを使用している場合は、Adobe Experience Manager ドキュメントの「*[Translation Integration Frameworkの設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=ja)*」のトピックで説明されているように、コネクタが設定されていることを確認してください。
+> 翻訳コネクタを使用している場合は、Adobe Experience Manager ドキュメントの「*[Translation Integration Frameworkの設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)*」のトピックで説明されているように、コネクタが設定されていることを確認してください。
 
 >[!IMPORTANT]
 >
@@ -102,5 +108,5 @@ DITA マップダッシュボードの「翻訳」タブを非表示にするに
 
 | PID | プロパティキー | プロパティの値 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | ブール値：<br> – 一時ファイルに対して後処理操作を実行しない場合は、*処理後の言語コピー&#x200B;**オプション**&#x200B;を*&#x200B;無効にする\（false\）。<br>  – 一時ファイルに対して後処理操作を実行する場合は、*Enable* \（true\）、**後処理言語コピー** オプションを使用します。<br> **デフォルト値**: false |
+| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | ブール値：<br> – 一時ファイルに対して後処理操作を実行しない場合は、*処理後の言語コピー&#x200B;**オプション**を*&#x200B;無効にする\（false\）。<br>  – 一時ファイルに対して後処理操作を実行する場合は、*Enable* \（true\）、**後処理言語コピー** オプションを使用します。<br> **デフォルト値**: false |
 

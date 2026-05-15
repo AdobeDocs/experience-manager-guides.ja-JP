@@ -5,9 +5,14 @@ exl-id: ea8a6687-1a7b-45c7-8cbc-161f9e88a8be
 feature: Template Configuration
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+TQID: https://experienceleague.adobe.com/16cGf5xY2tAfhc0qIBZeUhYTes-RrdRp-Kj-MoTuacE
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41id: ad602516-aca3-4247-9ae8-f393d958efa9id: df6fa66f-4542-4a6d-90ca-9f146eb5d494
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: 336
 ht-degree: 1%
 
 ---
@@ -24,7 +29,7 @@ AEM Guidesには、DITA マップとBookmapという2つのマップテンプレ
 
    >[!NOTE]
    >
-   > トピックまたはマップテンプレートを保存するカスタム場所を設定するには、[&#x200B; カスタム DITA テンプレートフォルダーパスの設定](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z)を参照してください
+   > トピックまたはマップテンプレートを保存するカスタム場所を設定するには、[ カスタム DITA テンプレートフォルダーパスの設定](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z)を参照してください
 
 1. **作成** \> **DITA テンプレート**&#x200B;をクリックします。
 
@@ -55,4 +60,4 @@ AEM Guidesには、DITA マップとBookmapという2つのマップテンプレ
 >
 > カスタムマップテンプレートの使用に関するベストプラクティスについては、ベストプラクティスガイドの「*カスタムテンプレート*」の節を参照してください。
 
-**親トピック：** [&#x200B; トピックとマップテンプレートの設定](conf-template-tags.md)
+**親トピック：** [ トピックとマップテンプレートの設定](conf-template-tags.md)

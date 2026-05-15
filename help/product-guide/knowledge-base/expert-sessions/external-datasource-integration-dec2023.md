@@ -1,65 +1,68 @@
 ---
-title: AEM Guides用の外部データソース統合
+title: AEM Guidesの外部データソース統合
 description: コンテンツデータソースとAEM Guidesの統合。
 role: User, Admin
 exl-id: 02a6c2ea-a550-49d5-ae54-1cc24ef35287
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+TQID: https://experienceleague.adobe.com/yTY1gZ3-dVI-XqbVyOL9y4U9c9PUuJ8v3pylkzDtf7M
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: 335
 ht-degree: 1%
 
 ---
 
-# AEM Guidesの外部データソース統合：仕組み
+# AEM Guidesの外部データソース統合：仕組み？
 
-大規模法人のお客様の多くは、データが複数のデータベースに分散していますが、データを処理できる単一のソースとしてAEM Guides 内にデータを統合する必要が生じる場合が多くあります。
-Adobe Experience Manager Guidesには、外部データソース（JIRA、PIM、SQL データベース、PLM など）への標準のコネクタが含まれるようになりました。これにより、真のContent Hubとなります。
+多くの大規模な顧客は、複数のデータベースにデータを分散していますが、データを処理するためのシングルソースとして、AEM guidesにデータを統合する必要が生じることがよくあります。
+Adobe Experience Manager Guidesには、JIRA、PIM、SQL Data Bases、PLMなどの外部データソースにすぐに利用できるコネクタが追加され、真のContent Hubとなりました。
 
 
-## セッションの録画
+## セッション録画
 
 >[!VIDEO](https://video.tv.adobe.com/v/3426542/datasources-aem-guides)
 
 ## ハイライト
 
-- **日付** - 2023 年 12 月 14 日（Pt）
-- **出席者の数** ～ 80
-- **期間** - 60 分
-- **対象読者** – お客様、パートナー、Adobe社員
+- **日付** - 2023年12月14日
+- **参加者の数** - 80
+- **期間** - 60分
+- **Audience** – お客様、パートナー、およびAdobeの従業員
 
 ## 重要ポイント
 
-このセッションでは、次の内容について学びました。
+このセッションでは、次の項目について説明しました。
 - AEM Guidesでのデータソースとその使用方法の概要
-- 様々なデータソースの接続を設定する方法
-   - データソーステンプレートでの Velocity ツールの使用
+- 様々なデータソースの接続の設定方法
+   - データソーステンプレートでのVelocity ツールの使用
    - マッピングテンプレートの操作
-- コネクタから取り込まれたデータを web エディターで表示
-- 作成したコンテンツでの取り込んだコンテンツの利用
+- Web エディターを介してコネクタから取得したデータを表示する
+- AEMから取得したコンテンツを
    - トピックジェネレーターを使用したトピックの作成
    - データソースからコンテンツスニペットを挿入する
-- AEM ガイドの統合に関するエンドツーエンドの作業デモ
-   - jira で利用可能な変更として、web サイトとPDFのリリースノートを更新します
+- AEM guides統合に関するエンドツーエンドの実用的なデモ
+   - jiraで利用可能な変更点として、web サイトとPDFのリリースノートを更新する
 
 
 ## 関連リソース
 
-- **データソースコネクタの設定** - [on Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-data-source-connector-tools.html?lang=ja)
+- **Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-data-source-connector-tools.html?lang=en)でデータソースコネクタを設定** - [する
 
-- **ドキュメント** - [on Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/web-editor-content-snippet.html?lang=ja)
+- **Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/web-editor-content-snippet.html)のドキュメント** - [
 
-- **テンプレート用 Velocity ツールの使用** - [onExperience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/web-editor-content-snippet.html?lang=ja#use-velocity-tools)
+- **Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/web-editor-content-snippet.html?lang=en#use-velocity-tools)でテンプレート用のベロシティ ツールを使用する** - [
 
 
 
 >[!NOTE]
 >
-> このセッションで紹介する機能は、次のバージョンのAEM Guidesで利用できます。
-> - 2023 年 12 月（クラウド版）
-> - 4.3.1 （非クラウドの場合）
+> このセッションで説明する機能は、次のバージョンのAEM Guidesで利用できます。
+> - 2023年12月（クラウドの場合）
+> - 4.3.1 （クラウド以外の場合）
 
 
 
-## お問い合わせ
+## さらに詳しく
 
-ご質問については、<techcomm@adobe.com> 宛てにメールを送信してください
+ご質問がある場合は、<techcomm@adobe.com>にメールをお送りください

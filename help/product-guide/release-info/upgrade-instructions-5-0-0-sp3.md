@@ -1,71 +1,77 @@
 ---
-title: リリースノート | Adobe Experience Manager Guides 5.0.0 サービスパック 3 リリースのアップグレード手順
-description: 互換性マトリックスと、Adobe Experience Manager Guides 5.0.0 Service Pack 3 リリースへのアップグレード方法について説明します。
-source-git-commit: a8a2c3c350bcd01d6ded6d04800961267fe0e00f
+title: リリースノート | Adobe Experience Manager Guides 5.0.0 Service Pack 3 リリースのアップグレード手順
+description: 互換性マトリックスと、Adobe Experience Manager Guidesの5.0.0 Service Pack 3 リリースにアップグレードする方法について説明します。
+exl-id: c78fab2e-448b-4235-9638-75c86f0e9718
+TQID: https://experienceleague.adobe.com/m-Dksx3Jm-yPVZjMGa-kjyO8VBS3pYdV7Ern5X76RUc
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: afb45297-4313-4f67-818e-bc0b03abe086id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: 471
 ht-degree: 1%
 
 ---
 
-# 5.0.0 サービスパック 3 リリース（2026 年 2 月）のアップグレード手順
+# 5.0.0 サービスパック 3 リリース（2026年2月）のアップグレード手順
 
-この記事では、Adobe Experience Manager Guides 5.0.0 Service Pack 3 リリースのアップグレード手順と互換性マトリックスについて説明します。
+この記事では、Adobe Experience Manager Guidesの5.0.0 Service Pack 3 リリースのアップグレード手順と互換性マトリックスについて説明します。
 
-このリリースで修正された問題の一覧は、[5.0.0 サービスパック 3 リリースで修正された問題 &#x200B;](../release-info/fixed-issues-5-0-0-sp3.md) を参照してください。
+このリリースで修正された問題のリストについては、「[5.0.0 サービスパック 3 リリース ](../release-info/fixed-issues-5-0-0-sp3.md)」の「修正済みの問題」を参照してください。
 
 ## 互換性マトリックス
 
-この節では、Experience Manager Guides 5.0.0 サービスパック 3 リリースでサポートされているソフトウェアアプリケーションの互換表を示します。
+この節では、Experience Manager Guides 5.0.0 Service Pack 3 リリースでサポートされているソフトウェアアプリケーションの互換性マトリックスを示します。
 
 ### Adobe Experience Manager
 
 **5.0.0 サービスパック 3 UUID**
 
-バージョン 6.5 サービスパック 22、サービスパック 21、サービスパック 20
+バージョン 6.5 サービスパック 22、サービスパック 21およびサービスパック 20
 
-詳しくは、『オンプレミスのインストールおよび設定ガイド』の [&#x200B; 技術要件 &#x200B;](../install-guide/download-install-technical-requirements.md) の節を参照してください。
+詳細については、『オンプレミス インストールおよび設定ガイド』の「[技術要件](../install-guide/download-install-technical-requirements.md)」セクションを参照してください。
 
 ### FrameMakerとFrameMaker Publishing Server
 
 | リリース | FMPS | FM |
 | --- | --- | --- |
-| 5.0.0 サービスパック 3 （UUID） | サポート対象 | 2022 以上 |
+| 5.0.0 サービスパック 3 （UUID） | サポート対象 | 2022年以降 |
 
-### 酸素コネクタ
+### Oxygen コネクタ
 
-| リリース | 酸素コネクタウィンドウ | 酸素コネクタMac | 酸素ウィンドウで編集 | Oxygen Macで編集 |
+| リリース | Oxygen コネクタウィンドウ | Oxygen Connector Mac | Oxygen ウィンドウで編集 | Oxygen Macで編集 |
 | --- | --- | --- |--- |--- |
 | 5.0.0 サービスパック 3 （UUID） | 3.7-uuid.2 | 3.7-uuid.2 | 2.3 | 2.3 |
 
-### ナレッジベーステンプレートバージョン
+### ナレッジベースのテンプレートバージョン
 
-| コンポーネントパッケージ名 | コンポーネントのバージョン | テンプレートのバージョン |
+| コンポーネントパッケージ名 | コンポーネントバージョン | テンプレートバージョン |
 |---|---|---|
 | Cloud Service用Experience Manager Guides コンポーネントコンテンツパッケージ | dxml-components.all-1.3.0 | aem-site-template-dxml.all-1.0.4 |
 
-### 新しいバージョンのAEM サイトテンプレート
+### 新しいAEM サイトテンプレートのバージョン
 
 
-| コンポーネントのバージョン | サイトバージョン |
+| コンポーネントバージョン | サイトバージョン |
 |---|---|
 | guides-components.all-1.3.0 | aemg-docs.all-1.2.0 |
 
 
-## Experience Manager Guidesの 5.0.0 サービスパック 3 リリースへのアップグレード
+## Experience Manager Guidesの5.0.0 Service Pack 3 リリースへのアップグレード
 
-Guides の現在のバージョンをバージョン 5.0.0 Service Pack 3 に簡単にアップグレードできます。 Experience Manager Guidesのバージョン 5.0.0 サービスパック 3 へのアップグレードを行う前に、次の点を考慮する必要があります。
+現在のバージョンのGuidesをバージョン 5.0.0 Service Pack 3に簡単にアップグレードできます。 Experience Manager Guidesのバージョン 5.0.0 サービスパック 3へのアップグレードを進める前に、次の点を考慮する必要があります。
 
-- バージョン 5.0.0 サービスパック 2、5.0.0 サービスパック 1 または 5.0.0 を使用している場合は、バージョン 5.0.0 サービスパック 3 に直接アップグレードできます。
-- バージョン 5.0.0 を使用している場合は、5.0.0 サービスパック 1 に直接アップグレードできます。
-- バージョン 4.6.x を使用している場合は、バージョン 5.0.0 に直接アップグレードできます。
-- バージョン 4.3.x、4.2、4.2.1 （ホットフィックス 4.2.1.3）、4.1、または 4.1.x を使用している場合は、バージョン 5.0.0 にアップグレードする前にバージョン 4.4 にアップグレードする必要があります。
-- バージョン 4.0 を使用している場合、バージョン 4.3.x にアップグレードする前にバージョン 4.2 にアップグレードする必要があります。
-- バージョン 3.8.5 を使用している場合、バージョン 4.2 にアップグレードする前にバージョン 4.0 にアップグレードする必要があります。
-- バージョン 3.8.5 より前のバージョンを使用している場合は、[Experience Manager Guides ヘルプ PDF アーカイブ &#x200B;](https://helpx.adobe.com/jp/xml-documentation-for-experience-manager/archive.html) にある製品固有のインストールガイドのAdobe Experience Manager Guidesのアップグレードの節を参照してください。
+- バージョン 5.0.0 Service Pack 2、5.0.0 Service Pack 1または5.0.0を使用している場合は、バージョン 5.0.0 Service Pack 3に直接アップグレードできます。
+- バージョン 5.0.0を使用している場合は、直接5.0.0 Service Pack 1にアップグレードできます。
+- バージョン 4.6.xを使用している場合は、バージョン 5.0.0に直接アップグレードできます。
+- バージョン 4.3.x、4.2、4.2.1 （ホットフィックス 4.2.1.3）、4.1、または4.1.xを使用している場合は、バージョン 5.0.0にアップグレードする前にバージョン 4.4にアップグレードする必要があります。
+- バージョン 4.0を使用している場合は、バージョン 4.3.xにアップグレードする前にバージョン 4.2にアップグレードする必要があります。
+- バージョン 3.8.5を使用している場合は、バージョン 4.2にアップグレードする前にバージョン 4.0にアップグレードする必要があります。
+- 3.8.5より前のバージョンを使用している場合は、[Adobe Experience Manager Guides ヘルプ Experience Manager Guides アーカイブ ](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)で入手できる製品固有のインストールガイドの「PDFのアップグレード」セクションを参照してください。
 
 >[!NOTE]
 >
->Experience Manager Guides版をアップグレードする前に、AEM サービスパックをインストールする必要があります。
+>Experience Manager Guides バージョンをアップグレードする前に、AEM サービスパックをインストールする必要があります。
 
-詳しくは、Experience Manager Guidesの [&#x200B; オンプレミスリリースのアップグレード手順 &#x200B;](../install-guide/upgrade-xml-documentation.md) を参照してください。
+詳しくは、Experience Manager Guidesのオンプレミスリリース ](../install-guide/upgrade-xml-documentation.md)の[ アップグレード手順を参照してください。
