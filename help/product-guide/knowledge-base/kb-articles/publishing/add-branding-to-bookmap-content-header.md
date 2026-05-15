@@ -1,40 +1,52 @@
 ---
-title: DITA PDFの最初のページにエンタープライズブランディングを追加
-description: カバーページとチャプターページを統合し、企業の ID がコンテンツの上部に明確に表示されるようにすることで、会社のブランディングを達成します。
+title: DITA PDFの最初のページにエンタープライズブランドを追加する
+description: 表紙と章ページを統合することで、企業のブランディングを達成し、コンテンツの上部に企業のアイデンティティが明確に表示されます。
 feature: Native PDF Output
 author: Pulkit Nagpal(punagpal)
 role: User, Admin
-source-git-commit: a9f8622dc5a2647bcff32c8895700d5c5933be4a
+exl-id: ab452529-3c7f-4057-a0f6-212b9f52a99d
+TQID: https://experienceleague.adobe.com/6CGRK2QWFZ6nIXmIAQZy3lX7t4KYP2-HeyqlVW2-7eE
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2:
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: 422
 ht-degree: 0%
 
 ---
 
-# DITA PDFの最初のページにエンタープライズブランディングを追加
+# DITA PDFの最初のページにエンタープライズブランドを追加する
 
-## この記事では、次の内容について説明します。
+## 解説します。
 
-FrontCover ページとチャプターページをシームレスに結合して企業のブランディングを達成し、企業の ID がコンテンツの上部に目立つように表示されるようにします。
+FrontCover ページとチャプターページをシームレスに統合することで、エンタープライズブランディングを実現し、コンテンツの上部に企業のIDが目立つように表示されます。
 
 - [コンテンツの設定](#set-up-your-content)
-- [PDFテンプレートで必要な変更を行う](#create-necessary-changes-in-pdf-template)
+- [PDF テンプレートで必要な変更を行う](#create-necessary-changes-in-pdf-template)
 
 **前：**
 
-![&#x200B; ブランディングを修正する前：ブランド化前のPDFレイアウトを示すスクリーンショット &#x200B;](../assets/publishing/branding-image1.png)
+![&#x200B; ブランディングを修正する前：PDFのプリブランディングのレイアウトを示すスクリーンショット](../assets/publishing/branding-image1.png)
 <br>
 <br>
 
-**After:**
+**後：**
 
-![&#x200B; ブランディングを修正した後：ブランド後のPDFのレイアウトを示すスクリーンショット &#x200B;](../assets/publishing/branding-image2.png)
+![&#x200B; ブランディングを修正した後：PDFのポストブランディングのレイアウトを示すスクリーンショット &#x200B;](../assets/publishing/branding-image2.png)
 
 ## コンテンツの設定
 
-PDFフォーマットでコンテンツを公開するには、Ditamap またはブックマップを作成する必要があります。
+PDF形式でコンテンツを公開するには、DitamapまたはBookmapを作成する必要があります。
 
-ブックマップ構造のサンプル :
+ブックマップ構造の例：
 
 ```
 <bookmap>
@@ -59,7 +71,7 @@ PDFフォーマットでコンテンツを公開するには、Ditamap または
 </bookmap>
 ```
 
-Ditamap 構造の例：
+Ditamap構造の例：
 
 ```
 <map title="My map Title">
@@ -72,40 +84,40 @@ Ditamap 構造の例：
 </map>
 ```
 
-Bookmap に `<frontmatter>` が含まれている場合、PDFの FrontCover が自動的に生成されます。
+Bookmapに`<frontmatter>`が含まれている場合、PDFのFrontCoverは自動生成されます。
 
 
-## PDFテンプレートで必要な変更を行う
+## PDF テンプレートで必要な変更を行う
 
-この節では、テンプレートを設定します。 （ハイテク テンプレートを使用または複製して開始できます。）
+このセクションでは、テンプレートを設定します。 （最初に、ハイテク テンプレートを使用または複製できます）。
 
-### テンプレートを設定します。
+### テンプレートの設定：
 
-- ネイティブPDFテンプレートに移動します。
-- FrontCover ページのレイアウトに移動して編集します。
-- ここでは、`data-region="content"` でブランディング画像を追加します。
-- 必要に応じて、チャプターテンプレートにその他の必要な変更を追加します。
-- 次に、コンテンツに応じて、次の手順に従います。
+- PDFのネイティブテンプレートを開きます。
+- FrontCover ページレイアウトに移動し、編集します。
+- ここで、`data-region="content"`にブランド画像を追加します。
+- 必要に応じて、チャプターテンプレートに必要な変更を追加します。
+- コンテンツに応じて、次の手順に従います。
 
 
-#### PDFの生成に Ditamap を使用する場合：
+#### PDFの生成にDitamapを使用している場合：
 
-DITAMAP を公開するとき、Native PDFは FrontCover ページを自動生成する機能を提供します。 FrontCover ページの生成を有効または無効にするオプションは、ネイティブPDFテンプレートで設定できます。
+DITAMAPを公開する場合、Native PDFには、FrontCover ページを自動生成する機能が用意されています。 FrontCover ページの生成を有効または無効にするオプションは、ネイティブ PDF テンプレートで設定できます。
 
 結合するには：
-- ネイティブのPDFテンプレート設定/ ページレイアウトの順序に移動します。
-- 次に、FrontCover と次のページ（チャプターとトピック）を統合します。
-  ![FrontCover とチャプターの結合：ネイティブPDFテンプレートの設定を示すスクリーンショット &#x200B;](../assets/publishing/branding-image3.png)
-- テンプレートを保存し、プリセットでこのテンプレートを選択して公開します。
+- PDFのネイティブテンプレート設定/ ページレイアウト順序に移動します
+- 次のページ（章とトピック）にFrontCoverを統合します。
+  ![章を使用したFrontCoverの統合：ネイティブ PDF テンプレート設定を示すスクリーンショット &#x200B;](../assets/publishing/branding-image3.png)
+- テンプレートを保存し、このテンプレートをプリセット用に選択して公開します。
 
 
-#### PDFの生成に Bookmap を使用する場合
+#### BookmapをPDFの生成に使用している場合
 
-ブックマップの場合、ページレイアウトの順序のシーケンスは、テンプレートの順序ではなく、ブックマップの構造によって制御されます。
+ブックマップの場合、ページレイアウト順序の順序は、テンプレートの順序ではなく、ブックマップの構造によって制御されます。
 
-Bookmap でこれを実現するために、NativePDF のJavaScript機能を利用します。
+これを実現するため、NativePDFのJavaScript機能を利用します。
 
-- テンプレートのリソースフォルダーで、JavaScriptの下に追加します
+- 以下に、テンプレートのリソースフォルダーにJavaScriptを追加します
 
 ```
 window.addEventListener('DOMContentLoaded', function () {
@@ -126,22 +138,21 @@ window.addEventListener('DOMContentLoaded', function () {
 });
 ```
 
-- このJavaScriptをチャプターテンプレートに含めます。
-  ![&#x200B; チャプターテンプレートにJavaScriptを含める：ページレイアウトPDFテンプレートのエントリを示すスクリーンショット &#x200B;](../assets/publishing/branding-image4.png)
+- このJavaScriptを章テンプレートに含めます。
+  ![&#x200B; チャプターテンプレートにJavaScriptを含める：ページレイアウトのエントリを示すスクリーンショット PDF テンプレート &#x200B;](../assets/publishing/branding-image4.png)
 
 - プリセットオプションからJavaScriptを有効にする
-  ![JavaScript プリセット設定を有効にする：JavaScriptを有効にするためのプリセット設定を示すスクリーンショット &#x200B;](../assets/publishing/branding-image5.png)
+  ![JavaScript プリセット設定を有効にする：JavaScriptを有効にするプリセット設定を示すスクリーンショット &#x200B;](../assets/publishing/branding-image5.png)
 
-- Publish!
+- 公開します！
 
 ## 添付ファイル :
 
-- [適用された変更内容を確認するには、サンプルのPDFテンプレートパッケージをダウンロードします。](../assets/publishing/NativePDF_DemoTemplate.zip)
-- [サンプルのPDFプリセットパッケージをダウンロードして、適用された変更を確認します。](../assets/publishing/Preset_Package.zip)
+- [サンプルのPDF テンプレートパッケージをダウンロードして、適用された変更を確認します。](../assets/publishing/NativePDF_DemoTemplate.zip)
+- [サンプルのPDF プリセットパッケージをダウンロードして、適用された変更を確認します。](../assets/publishing/Preset_Package.zip)
 
 
-## その他のリソース：
+## 関連トピックス：
 
-- [DITA Bookmap の目次をPDFに含める方法](./how-to-include-bookmap-toc-in-pdf-publishing.md)
-- [ネイティブPDFに関するエキスパートセッションビデオ](../../expert-sessions/native-pdf-publishing-eamples-part1-june2023.md)
-
+- [PDFにDITA ブックマップの目次を含める方法](./how-to-include-bookmap-toc-in-pdf-publishing.md)
+- [Adobe PDFのエキスパートセッションの動画](../../expert-sessions/native-pdf-publishing-eamples-part1-june2023.md)

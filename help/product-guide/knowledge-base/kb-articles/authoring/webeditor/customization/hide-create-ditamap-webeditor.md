@@ -1,44 +1,58 @@
 ---
-title: 特定のユーザーまたはグループのフォルダーコンテキストメニューオプションから「DitaMap を作成」オプションを非表示にします。
-description: 特定のユーザーまたはグループのフォルダーコンテキストメニューから「DitaMap」オプションを非表示にして、webeditor をカスタマイズする方法を説明します
+title: 特定のユーザーまたはグループのフォルダーコンテキストメニューオプションから「DitaMapを作成」オプションを非表示にします。
+description: 特定のユーザー/グループのフォルダーコンテキストメニューから「DitaMap」オプションを非表示にして、webeditorをカスタマイズする方法を説明します
 exl-id: 796bfe3a-3950-4ade-9215-c33534791055
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+TQID: https://experienceleague.adobe.com/fAMBEOKlPA4KHsE81zfI-6EJ6zwaQOgRfx0w-cx-mmw
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 0%
+source-wordcount: 571
+ht-degree: 1%
 
 ---
 
-# Webeditor のフォルダーコンテキストメニューから「DitaMAP を作成」を表示/非表示
+# Webeditorのフォルダーコンテキストメニューで「DitaMAPを作成」を表示/非表示
 
-この記事では、ユーザー/グループの権限に基づいて、Guides Web Editor をカスタマイズして、フォルダーコンテキストメニューの「Create DitaMap」オプションの表示/非表示を切り替える方法について説明します。
-このユースケースでは、作成者でないすべてのユーザーに対してこのオプションを非表示にします。
+この記事では、ユーザー/グループの権限に基づいて、フォルダーコンテキストメニューの「DitaMapを作成」オプションを非表示または表示するようにGuides Web Editorをカスタマイズする方法について説明します。
+このユースケースでは、オーサー以外のすべてのユーザーに対してこのオプションを非表示にします。
 
 ## 前提条件
 
-AEM Guides拡張機能パッケージを利用して、必要に応じてアプリの UI をカスタマイズできます。
-Guides 拡張機能フレームワークの仕組みについて詳しくは、この [&#x200B; ドキュメント &#x200B;](https://github.com/adobe/guides-extension/tree/main) を参照してください。
+アドビでは、AEM Guidesの拡張機能パッケージを活用します。このパッケージを使用すると、必要に応じてアプリのUIをカスタマイズできます。
+Guides Extension Frameworkの仕組みについて詳しくは、この[&#x200B; ドキュメント &#x200B;](https://github.com/adobe/guides-extension/tree/main)を参照してください。
 
-それでは、それでは、フォルダーコンテキストメニューをカスタマイズして、オーサー以外のすべてのユーザーに対してこのオプションを非表示にする方法について説明します。
+これで、フォルダーのコンテキストメニューをカスタマイズして、オーサー以外のすべてのユーザーに対してこのオプションを非表示にする方法を説明します。
 
-以下のスニペットからわかるように、「DitaMap を作成」オプションは作成者ユーザーに対して表示されます。
+下のスニペットから分かるように、オーサーユーザーには「DitaMapを作成」オプションが表示されます。
 
-![DitaMap 作成オプションを表示 &#x200B;](../../../assets/authoring/ditamap-show-author.png)
+![DitaMap作成オプションを表示](../../../assets/authoring/ditamap-show-author.png)
 
-次に、Guides 拡張機能フレームワークを使用してこのオプションを非表示にする方法を見てみましょう。
+Guides拡張機能フレームワークを使用してこのオプションを非表示にする方法を見てみましょう。
 
 ## 実装手順
 
-実装は、以下の部分で構成されています。
+実装は以下の部分で分かれています。
 
-- **Folder_options コントローラの変更点**
+- **Folder_options コントローラー**&#x200B;の変更
 
-  各コンテキスト メニューには、コントローラ ID が関連付けられています。 このコントローラは、さまざまなコンテキスト メニューオプションのオン イベント機能を処理します。
+  各コンテキストメニューにはコントローラ IDが関連付けられています。 このコントローラは、様々なコンテキストメニューオプションのイベント時の機能を処理します。
 
-  この例では、フォルダーのコンテキストメニューをカスタマイズして、作成者以外のユーザーに対して「DitaMap を作成」オプションを非表示にします。 この目的のために、guides extension framework リポジトリの/src の下にある folder_options.ts ファイルを変更します。
+  この例では、フォルダーコンテキストメニューをカスタマイズして、作成者以外のユーザーの「DitaMapを作成」オプションを非表示にします。 このためには、guides拡張フレームワークリポジトリの/srcの下にあるfolder_options.ts ファイルを変更します。
 
-  コンテキストメニューからこのオプションを非表示にするには、「viewState」を「REPLACE」として使用しています。
-キー「id」を使用して、この folder_options で新しいウィジェットを呼び出しています。
+  コンテキストメニューからこのオプションを非表示にするために、「viewState」を「REPLACE」として使用しています。
+キー「id」を通じて、このfolder_optionsで新しいウィジェットを呼び出しています。
 
 ```typescript
 const folderOptions = {
@@ -60,12 +74,12 @@ const folderOptions = {
 };
 ```
 
-- **ロジックを処理する新しいウィジェットの作成**
+- **ロジックを処理するための新しいウィジェットの作成**
 
-  このオプションを非表示にするロジックを作成者以外のユーザーに対してのみ記述するには、新しいウィジェットの作成（customoptions.ts）が必要です。 これを実現するために、JSON 構造でトグルとして機能する「show」キーを使用しました。
+  このオプションを非表示にするロジックを書き込むには、作成者ではないユーザーに対してのみ、新しいウィジェットの作成（customoptions.ts）が必要です。 これを実現するために、JSON構造のトグルとして機能する「show」キーを使用しました。
 
-  独自の外部サーブレットを作成して、グループの詳細を確認できます。 これにより、カスタムグループのフォルダーメニューオプションもカスタマイズできます。
-この例では、上記のスニペットに示すように、OOTB AEMの「rolesapi」呼び出しを利用して、ユーザーの詳細を取得し、応答を「isAuthor」に設定しました。
+  グループの詳細を確認するには、独自の外部サーブレットを記述できます。 これにより、カスタムグループのフォルダーメニューオプションもカスタマイズできます。
+この例では、OOTB AEMの「rolesapi」呼び出しを活用して、上記のスニペットに示すように、ユーザーの詳細を取得し、「isAuthor」に応答を設定しました。
 
 ```typescript
 const folderOptions = {
@@ -81,16 +95,16 @@ const folderOptions = {
 };
 ```
 
-これにより、「show」の値に基づいて、「Dita Map」というラベルの付いたボタンを非表示にすることができます。
+これにより、「show」の値に基づいて「Dita Map」というラベルの付いたボタンを非表示にすることができます。
 
-モデルの「isAuthor」属性を設定するコントローラーを追加しました。これは、コントローラーで次の構文を使用して行うことができます。
+モデルで「isAuthor」属性を設定するためのコントローラーを追加しました。これは、コントローラーの次の構文を使用して行うことができます。
 
 ```typescript
 this.model.extraProps.set("key", value);
 ```
 
-ここで、キーは「isAuthor」、値は rolesapi 呼び出しからの応答です。
-また、「createNewDitaMap」イベントを定義して、DitaMap 作成オプションを有効にしました（作成者ユーザー向け）。
+ここで、キーは「isAuthor」で、値はrolesapi呼び出しからの応答です。
+また、「createNewDitaMap」イベントを定義して、「DitaMapを作成」オプション（オーサーユーザー向け）を有効にしました。
 
 ```typescript
 controller: {
@@ -115,24 +129,24 @@ controller: {
 
 - **カスタマイズされたコードの追加**
 
-  folder_options.ts と customoptions.ts を/src の下の index.ts ファイルに読み込みます。
+  folder_options.tsおよびcustomoptions.tsを/srcの下のindex.ts ファイルにインポートします。
 
 ## テスト
 
-- 作成者グループに属していないユーザーでAEMにログインします。 「DitaMap を作成」オプションは、以下に示すように、どのフォルダのコンテキストメニューでも非表示になります。
-このユースケースは GIT に追加されました。以下の関連リソースを参照してください。
+- 作成者グループに属していないユーザーをAEMにログインします。 DitaMapを作成オプションは、次に示すように、フォルダーのコンテキストメニューでは非表示になります。
+このユースケースはGITに追加されました。以下の関連リソースを参照してください。
 
-![&#x200B; 作成 DitaMap オプションを非表示 &#x200B;](../../../assets/authoring/ditamap-hide-non-author.png)
+![DitaMap作成オプションを非表示](../../../assets/authoring/ditamap-hide-non-author.png)
 
 ### 関連リソース
 
-- **拡張機能フレームワークのベースリポジトリ** - [GIT](https://github.com/adobe/guides-extension/tree/main)
+- **拡張機能フレームワーク ベース リポジトリ** - [GIT](https://github.com/adobe/guides-extension/tree/main)
 
-- **ドキュメント** - [on Experience League](../../../../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)
+- **Experience League[&#128279;](../../../../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)のドキュメント** - 
 
-- **ドキュメント化された一般的なユースケース** - [Experience League時 &#x200B;](../../../../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
+- **Experience League[&#128279;](../../../../../guides-ui-extensions/aem_guides_framework/jui-framework.md)で一般的な使用例** ～ を文書化しました
 
-- **サンプルを使用した公開リポジトリ** - [on GIT](https://github.com/adobe/guides-extension/tree/sc-expert-session)。 ブランチ sc-expert-session を参照します
+- **GIT[&#128279;](https://github.com/adobe/guides-extension/tree/sc-expert-session)のサンプル** - を含むパブリックリポジトリ。 ブランチ sc-expert-sessionを参照してください
 
 ```
 

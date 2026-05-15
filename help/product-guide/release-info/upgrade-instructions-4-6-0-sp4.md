@@ -1,78 +1,90 @@
 ---
-title: リリースノート | Adobe Experience Manager Guides 4.6.0 サービスパック 4 リリースのアップグレード手順
-description: Adobe Experience Manager Guidesの 4.6.0 サービスパック 4 リリースへのアップグレード方法について説明します
+title: リリースノート | Adobe Experience Manager Guides 4.6.0 Service Pack 4 リリースのアップグレード手順
+description: Adobe Experience Manager Guidesの4.6.0 Service Pack 4 リリースへのアップグレード方法について説明します
 role: Leader
 exl-id: d0914e8a-7c7f-47da-9655-697f95f7d4ff
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/VFnhu8AwMB-wIZzLC-vG9xHozFQnwQMqYH-YPnnIE2I
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: 527
 ht-degree: 1%
 
 ---
 
-# 4.6.0 サービスパック 4 リリース（2025 年 4 月）のアップグレード手順
+# 4.6.0 サービスパック 4 リリース（2025年4月）のアップグレード手順
 
-この記事では、Adobe Experience Manager Guides 4.6.0 Service Pack 4 リリースのアップグレード手順と互換性マトリックスについて説明します。
+この記事では、Adobe Experience Manager Guidesの4.6.0 Service Pack 4 リリースのアップグレード手順と互換性マトリックスについて説明します。
 
-このリリースで修正された問題の一覧は、[4.6.0 サービスパック 4 リリースで修正された問題 &#x200B;](fixed-issues-4-6-0-sp4.md) を参照してください。
+このリリースで修正された問題のリストについては、[4.6.0 サービスパック 4 リリース &#x200B;](fixed-issues-4-6-0-sp4.md)で修正された問題を参照してください。
 
 ## 互換性マトリックス
 
-ここでは、Experience Manager Guides 4.6.0 サービスパック 4 リリースでサポートされているソフトウェアアプリケーションの互換表を示します。
+この節では、Experience Manager Guides 4.6.0 Service Pack 4 リリースでサポートされているソフトウェアアプリケーションの互換性マトリックスを示します。
 
 ### Adobe Experience Manager
 
-**4.6.0 サービスパック 4 非 UUID**
-バージョン 6.5 サービスパック 21、20、19
+**4.6.0 サービスパック 4非UUID**
+バージョン 6.5 Service Pack 21、20および19
 
 **4.6.0 サービスパック 4 UUID**
-バージョン 6.5 サービスパック 21、20、19
+バージョン 6.5 Service Pack 21、20および19
 
-詳しくは、『オンプレミスのインストールおよび設定ガイド』の [&#x200B; 技術要件 &#x200B;](../install-guide/download-install-technical-requirements.md) の節を参照してください。
+詳細については、『オンプレミス インストールおよび設定ガイド』の「[技術要件](../install-guide/download-install-technical-requirements.md)」セクションを参照してください。
 
 ### FrameMakerとFrameMaker Publishing Server
 
 | リリース | FMPS 2022 | FMPS 2020 | FM 2022 | FM 2020 |
 | --- | --- | --- | --- | --- |
-| 4.6.0 サービスパック 4 （非 UUID） | 2022 以上 | 2020.2 以上* | 2022 以上 | 2020.3 以上 |
-| 4.6.0 サービスパック 4 （UUID） | 2022 以上 | 2020.2 以上* | 2022 以上 | 2020.4 以上 |
+| 4.6.0 サービスパック 4 （非UUID） | 2022年以降 | 2020.2以降* | 2022年以降 | 2020.3以降 |
+| 4.6.0 サービスパック 4 （UUID） | 2022年以降 | 2020.2以降* | 2022年以降 | 2020.4以降 |
 | | | | | |
 
-*AEMで作成されたベースラインと条件は、2020.2 以降の FMPS リリースでサポートされます。
+* AEMで作成されたベースラインと条件は、2020.2以降のFMPS リリースでサポートされています。
 
-### 酸素コネクタ
+### Oxygen コネクタ
 
-| リリース | 酸素コネクタウィンドウ | 酸素コネクタMac | 酸素ウィンドウで編集 | Oxygen Macで編集 |
+| リリース | Oxygen コネクタウィンドウ | Oxygen Connector Mac | Oxygen ウィンドウで編集 | Oxygen Macで編集 |
 | --- | --- | --- |--- |--- |
-| 4.6.0 サービスパック 4 （非 UUID） | 2.8-regular-10 | 2.8-regular-10 | 1.6 | 1.6 |
+| 4.6.0 サービスパック 4 （非UUID） | 2.8-regular-10 | 2.8-regular-10 | 1.6 | 1.6 |
 | 4.6.0 サービスパック 4 （UUID） | 3.6-uuid.9 | 3.6-uuid.9 | 2.3 | 2.3 |
 |  |  |   |  |  |
 
-### ナレッジベーステンプレートバージョン
+### ナレッジベースのテンプレートバージョン
 
-| コンポーネントパッケージ名 | コンポーネントのバージョン | テンプレートのバージョン |
+| コンポーネントパッケージ名 | コンポーネントバージョン | テンプレートバージョン |
 |---|---|---|
 | Cloud Service用Experience Manager Guides コンポーネントコンテンツパッケージ | dxml-components.all-1.2.2 | aem-site-template-dxml.all-1.0.15 |
 
-### 新しいバージョンのAEM サイトテンプレート
+### 新しいAEM サイトテンプレートのバージョン
 
-| コンポーネントのバージョン | サイトバージョン |
+| コンポーネントバージョン | サイトバージョン |
 |---|---|
 | guides-components.all-1.0.0 | aemg-docs.all-1.0.0 |
 
-## Experience Manager Guidesの 4.6.0 サービスパック 4 リリースへのアップグレード
+## Experience Manager Guidesの4.6.0 Service Pack 4 リリースへのアップグレード
 
-Guides の現在のバージョンを 4.6.0 Service Pack 4 に簡単にアップグレードできます。 アップグレードを進める前に、次の点を考慮する必要があります。
+現在のバージョンのGuidesを4.6.0 Service Pack 4に簡単にアップグレードできます。 アップグレードを進める前に、次の点を考慮する必要があります。
 
-- バージョン 4.6.0、4.6.0 サービスパック 1 または 4.6.0 サービスパック 3 を使用している場合は、4.6.0 サービスパック 4 に直接アップグレードできます。
-- バージョン 4.4、4.3.1 または 4.3.0 を使用している場合は、バージョン 4.6.0 にアップグレードする必要があります。
-- バージョン 4.2、4.2.1 （ホットフィックス 4.2.1.3）、4.1、または 4.1.x を使用している場合、バージョン 4.6.0 にアップグレードする前にバージョン 4.4 にアップグレードする必要があります。
-- バージョン 4.0 を使用している場合、バージョン 4.3.x にアップグレードする前にバージョン 4.2 にアップグレードする必要があります。
-- バージョン 3.8.5 を使用している場合、バージョン 4.2 にアップグレードする前にバージョン 4.0 にアップグレードする必要があります。
-- バージョン 3.8.5 より前のバージョンを使用している場合は、[Experience Manager Guides ヘルプ PDF アーカイブ &#x200B;](https://helpx.adobe.com/jp/xml-documentation-for-experience-manager/archive.html) にある製品固有のインストールガイドのAdobe Experience Manager Guidesのアップグレードの節を参照してください。
+&#x200B;- バージョン 4.6.0、4.6.0 サービスパック 1または4.6.0 サービスパック 3を使用している場合は、4.6.0 サービスパック 4に直接アップグレードできます。
+&#x200B;- バージョン 4.4、4.3.1または4.3.0を使用している場合は、バージョン 4.6.0にアップグレードする必要があります。
+&#x200B;- バージョン 4.2、4.2.1 （ホットフィックス 4.2.1.3）、4.1、または4.1.xを使用している場合は、バージョン 4.6.0にアップグレードする前に、バージョン 4.4にアップグレードする必要があります。
+&#x200B;- バージョン 4.0を使用している場合は、バージョン 4.3.xにアップグレードする前にバージョン 4.2にアップグレードする必要があります。
+&#x200B;- バージョン 3.8.5を使用している場合は、バージョン 4.2にアップグレードする前にバージョン 4.0にアップグレードする必要があります。
+&#x200B;- 3.8.5より前のバージョンを使用している場合は、[Adobe Experience Manager Guides ヘルプ Experience Manager Guides アーカイブ &#x200B;](https://helpx.adobe.com/jp/xml-documentation-for-experience-manager/archive.html)で入手できる製品固有のインストールガイドの「PDFのアップグレード」セクションを参照してください。
 
 >[!NOTE]
 >
->Experience Manager Guides版をアップグレードする前に、AEM サービスパックをインストールする必要があります。
+>Experience Manager Guides バージョンをアップグレードする前に、AEM サービスパックをインストールする必要があります。
 
-4.6.0 サービスパック 4 リリースのアップグレードプロセスは、4.6.0 リリースと同じ手順に従います。 手順について詳しくは、Experience Manager Guidesの [&#x200B; オンプレミスリリースのアップグレード手順 &#x200B;](../install-guide/upgrade-xml-documentation.md) を参照してください。
+4.6.0 サービスパック 4 リリースのアップグレードプロセスは、4.6.0 リリースと同じ手順に従います。 詳細な手順については、[Experience Manager Guidesのオンプレミスリリース &#x200B;](../install-guide/upgrade-xml-documentation.md)のアップグレード手順を参照してください。

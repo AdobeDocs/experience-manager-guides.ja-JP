@@ -1,32 +1,40 @@
 ---
-title: Learn how to translate content
-description: Translate your content into multiple languages in AEM Guides. Learn about the human and machine translation workflows.
+title: さらに詳しく
+description: AEM Guidesで、コンテンツを複数の言語に翻訳できます。 人による翻訳と機械翻訳のワークフローについてご紹介します。
 feature: Translation
 role: User
 hide: true
 exl-id: ca9c6150-adc5-4c0c-94c1-802d59db9079
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+TQID: https://experienceleague.adobe.com/VYmBGK-U9AYKBhoL6IgSrCmh7JuBGqBZhXRMqcjfh8o
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: 135
 ht-degree: 1%
 
 ---
 
 # コンテンツの翻訳 {#id1645H700L67}
 
-AEM Guides comes with powerful capabilities that enable you to translate your content into multiple languages. Both, human and machine translation workflows are supported by AEM Guides.
+AEM Guidesには、コンテンツを複数の言語に翻訳できる強力な機能が備わっています。 AEM Guidesは、人による翻訳と機械翻訳の両方のワークフローをサポートしています。
 
-- **Human translation** - Assets are sent to your translation provider and translated by professional translators. When complete, the translated assets are returned and they are then imported back into AEM.
+- **人間による翻訳** - Assetsは翻訳プロバイダーに送信され、プロの翻訳者によって翻訳されます。 翻訳が完了すると、翻訳済みアセットが返され、AEMに読み込まれます。
 
-- **Machine translation** - This is the default service in AEM wherein the content is immediately translates using the machine translation in real time. Out-of-the-box AEM provides the capability to connect to Microsoft Translator.
+- **機械翻訳** – これはAEMのデフォルトサービスで、コンテンツは機械翻訳を使用してリアルタイムですぐに翻訳されます。 AEMには、Microsoft Translatorに接続するための機能が標準で用意されています。
 
   >[!NOTE]
   >
-  > Microsoft Translator is available only as a trial license.
+  > Microsoft Translatorは、体験版ライセンスとしてのみ利用できます。
 
 
-- **[Best practices for content translation](translation-first-time.md)**
+- **[コンテンツ翻訳のベストプラクティス](translation-first-time.md)**
 
-- **[View translation status](translation-view-trans-state-6234.md)**
+- **[翻訳ステータスの表示](translation-view-trans-state-6234.md)**
 
-- **[Translate modified topics](translation-modified-topics-6234.md)**
+- **[変更されたトピックの翻訳](translation-modified-topics-6234.md)**

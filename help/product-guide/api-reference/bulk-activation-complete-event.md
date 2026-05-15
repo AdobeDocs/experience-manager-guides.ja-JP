@@ -1,24 +1,30 @@
 ---
-title: 一括有効化の完了イベントハンドラー
-description: 一括アクティベーション完了イベントハンドラーについて学ぶ
+title: 一括アクティブ化完了イベントハンドラー
+description: 一括アクティベーションの完全なイベントハンドラーについて説明します
 feature: Bulk Activation Event Handler
 role: Developer
 level: Experienced
 exl-id: 08b153d7-3d13-4804-9e3e-38790dbea1f3
-source-git-commit: 9b8971bf7065a94a2e42669094249c822c555718
+TQID: https://experienceleague.adobe.com/M8Q8A8auCkKjmoilHsUfU2ztNSCxOWstwPC1bMLmvD0
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 7%
+source-wordcount: 185
+ht-degree: 6%
 
 ---
 
-# 一括有効化の完了イベントハンドラー
+# 一括アクティブ化完了イベントハンドラー
 
-Experience Manager Guidesは `com/adobe/fmdita/replication/complete` 一括有効化プロセスの完了後、操作を実行するために使用されるイベントを公開します。 このイベントは、一括アクティベーションプロセスが完了するたびにトリガーされます。 例えば、マップのAEM サイトプリセットの一括有効化を実行した場合、このイベントは有効化プロセスの終了後に呼び出されます。
+Experience Manager Guidesは、一括アクティベーションプロセスの完了後に操作を実行するために使用される`com/adobe/fmdita/replication/complete` イベントを公開します。 このイベントは、一括アクティベーションプロセスが完了するたびにトリガーされます。 例えば、マップのAEM サイトプリセットの一括アクティベーションを実行する場合、このイベントはアクティベーションプロセスの終了後に呼び出されます。
 
-このイベントで使用可能なプロパティを読み取り、さらに処理を行うには、AEM イベントハンドラーを作成する必要があります。
+AEM イベントハンドラーを作成して、このイベントで使用可能なプロパティを読み取り、さらに処理を行う必要があります。
 
-イベントの詳細は、以下で説明します。
+イベントの詳細は以下で説明します。
 
 **イベント名**:
 
@@ -30,16 +36,16 @@ com/adobe/fmdita/replication/complete
 
 | 名前 | 種類 | 説明 |
 |----|----|-----------|
-| `path` | String | このイベントをトリガーしたファイルのパス。 <br>例えば、`/content/output/sites/ditamap1-ditamap` などです。<br> JSON 配列としてシリアル化されたパスのリストです。 |
-| `messageType` | 文字列 | メッセージのタイプ。 <br> 可能なオプション : `REPLICATION` |
-| `action` | 文字列 | これは、実行されるアクションです。 <br> 可能なオプション : `BulkReplicate` |
+| `path` | 文字列 | このイベントをトリガーしたファイルのパス。<br> 例：`/content/output/sites/ditamap1-ditamap`。<br> これは、JSON配列としてシリアル化されたパスのリストです。 |
+| `messageType` | 文字列 | メッセージの種類。 <br>可能なオプション : `REPLICATION` |
+| `action` | 文字列 | これが実行されたアクションです。 <br>可能なオプション : `BulkReplicate` |
 | `user` | 文字列 | 操作を開始したユーザー。 |
-| `result` | 文字列 | 一括アクティベーションの結果。 シリアル化された JSON オブジェクトです（<br>`{"success":boolean,"code":integer,"message":"" }`）。 |
-| `agentId` | 文字列 | レプリケーションで使用される agentId。 例えば、`"publish"` のように指定します。 |
-| `importMode` | 文字列 | アクティベーションで使用されるインポートモード。 使用可能なオプションは次のとおりです。<br>`REPLACE, MERGE, UPDATE` |
+| `result` | 文字列 | 一括アクティベーションの結果。 シリアル化されたJSON オブジェクトです：<br>`{"success":boolean,"code":integer,"message":"" }` |
+| `agentId` | 文字列 | レプリケーションで使用されるagentId。 例えば、`"publish"` のように指定します。 |
+| `importMode` | 文字列 | アクティベーションで使用される読み込みモード。 使用可能なオプションは次のとおりです：<br>`REPLACE, MERGE, UPDATE`。 |
 
 
-**サンプルイベントリスナー**:
+**イベントリスナーの例**:
 
 ```XML
 @Component(service = EventHandler.class,

@@ -1,57 +1,70 @@
 ---
-title: DITA AEM Guidesでの Markdown の使用
-description: DITA AEM Guidesでの Markdown の移行と使用
+title: DITA AEM GuidesでのMarkdownの使用
+description: DITA AEM GuidesでのMarkdownの移行と使用
 author: Pulkit Nagpal(punagpal)
 exl-id: a94c0129-df40-4b61-ac60-679b2ffe7e86
-source-git-commit: f971be4be9e2d32618616727cd9c682941dd3fb2
+TQID: https://experienceleague.adobe.com/z41KjrBkAeDaH-iKXOFLH44qOQElziip1FqcRhnKaUI
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: 281
 ht-degree: 0%
 
 ---
 
-# AEM Guidesでの Markdown の使用
+# AEM GuidesでのMarkdownの使用
 
-## 使用可能なオプション
+## 利用可能なオプション
 
-AEM Guidesで Markdown ファイルを使用する方法には、次の 2 つの選択肢があります。
+AEM Guidesでマークダウンファイルを使用する方法は2つあります。
 
-- オプション 1:AEM Guidesで既存の Markdown を読み込み、ditamap 内で直接使用して公開する
+- オプション 1：既存のマークダウンをAEM Guidesに読み込み、ditamap内で直接使用して公開する
 
-- オプション 2：既存の Markdown ファイルを DITA に変換する
+- オプション 2：既存のマークダウンファイルをDITAに変換する
 
 各オプションについて説明します。
 
-### 方法 1:AEM Guidesで既存の Markdown を読み込み、ditamap 内で直接使用して公開する
+### 方法1：既存のマークダウンをAEM Guidesに読み込み、ditamap内で直接使用して公開する
 
-セットアップが簡単で、実装が高速です。 ただし、コンテンツの再利用性など、AEM Guides機能の利用には制限があります。
+セットアップがシンプルになり、実装が速くなります。 ただし、AEM Guidesの機能の使用状況は、コンテンツの再利用性など限定的です。
 
-ユーザーは、公開エンジンがファイルのタイプを認識し、それに応じて公開できるように、属性 `format="markdown" ` または `format="mdita"` を追加する必要があります。
+公開エンジンがファイルの種類を理解し、それに応じて公開できるように、属性`format="markdown" `または`format="mdita"`を追加する必要があります。
 
-サンプルファイル :[Markdown Ditamap](https://acrobat.adobe.com/id/urn:aaid:sc:AP:da31137e-be84-44fb-8974-d038eeff0283)
+サンプルファイル : [Markdown Ditamap](https://acrobat.adobe.com/id/urn:aaid:sc:AP:da31137e-be84-44fb-8974-d038eeff0283)
 
-![&#x200B; 参照用のスクリーンショット &#x200B;](../../assets/authoring/markdown_map.png)
-
-
-#### PublishからPDFおよび web への出力
-
-AEM Guidesには、Markdown コンテンツを使用して ditamap を公開するオプションとして、web （Html5/AEM サイト）とPDF（ネイティブPDF/DITA-OT）の両方が用意されています
-
-### オプション 2 :Markdown を DITA 形式に変換
-
-コンテンツの再利用性、条件付き処理の翻訳、ベースラインなどのAEM Guides機能を最大限に活用 しかし、`.md` を `.dita` 形式に変換するには、事前の取り組みが必要になります。
-
-Markdown から DITA への変換は、Adobe FrameMakerや DITA-OT などの外部ツールを使用して行うことができます。
+![参照用スクリーンショット &#x200B;](../../assets/authoring/markdown_map.png)
 
 
-Adobe FrameMakerについては、[Markdown の読み込み &#x200B;](https://www.adobe.com/in/products/framemaker/features.html#import-markdown) を参照してください。
+#### PDFおよびWeb出力への公開
 
-DITA-OT については、[Markdown as Input](https://www.dita-ot.org/dev/topics/markdown-input.html) を参照してください。
+AEM Guidesでは、Web （Html5/AEM サイト）とPDF（Native-PDF/DITA-OT）の両方に対して、Markdown コンテンツを含むditamapを公開するオプションを提供しています
 
-Adobe FrameMakerを使用して変換されたサンプルファイル : [Markdown から DITA サンプルへ &#x200B;](https://acrobat.adobe.com/id/urn:aaid:sc:AP:874881f3-ba43-410c-abc6-2df899536d79)
+### オプション 2 :MarkdownをDITA形式に変換する
 
-#### PublishからPDFおよび web への出力
+AEM Guides機能のフル活用（コンテンツの再利用性、条件付き処理翻訳、ベースラインなど）。ただし、`.md`を`.dita`形式に変換するには、事前作業が必要です。
 
-Markdown ファイルを DITA に変換すると、AEM Guidesで使用可能な任意のフォーマットに出力をシームレスに公開できます。
+マークダウンからDITAへの変換は、Adobe FrameMakerやDITA-OTなどの外部ツールを使用して行うことができます。
 
-AEM Guidesで使用可能な形式：[&#x200B; 出力形式 &#x200B;](../../../../user-guide/generate-output-understand-presets.md)
+
+Adobe FrameMakerについては、「[Markdownを読み込む](https://www.adobe.com/in/products/framemaker/features.html#import-markdown)」を参照してください。
+
+DITA-OTについては、[入力としてのMarkdown](https://www.dita-ot.org/dev/topics/markdown-input.html)を参照してください。
+
+Adobe FrameMakerを使用して変換されたサンプルファイル : [MarkdownからDITA サンプル &#x200B;](https://acrobat.adobe.com/id/urn:aaid:sc:AP:874881f3-ba43-410c-abc6-2df899536d79)
+
+#### PDFおよびWeb出力への公開
+
+マークダウンファイルがDITAに変換されると、AEM Guidesで使用可能なあらゆる形式に出力をシームレスに公開できます。
+
+AEM Guidesで使用可能な形式：[出力形式](../../../../user-guide/generate-output-understand-presets.md)

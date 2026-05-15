@@ -1,43 +1,59 @@
 ---
-title: Key AEM Guides features
-description: Explore the key features in AEM Guides, DITA authoring, content management, web-based review, translation, localization, multichannel publishing, and integration of FrameMaker.
+title: AEM Guidesの主な機能
+description: AEM Guides、DITA オーサリング、コンテンツ管理、web ベースのレビュー、翻訳、ローカライズ、マルチチャネル公開、FrameMakerの統合の主要機能をご覧ください。
 feature: Introduction
 role: User
 hide: true
 exl-id: b3e17f62-70d0-470e-9e52-73489510c62f
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+TQID: https://experienceleague.adobe.com/4k6k6IFZ9N5kdK5s5R7kdFam4WMXd1BwiMzKVtXYX8k
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: 985
 ht-degree: 0%
 
 ---
 
-# Key AEM Guides features {#id167G9I060SI}
+# AEM Guidesの主な機能 {#id167G9I060SI}
 
-**Powerful DITA authoring and content management**
-Significantly improve authoring productivity through single-sourcing of modular information optimized for effective reuse at a granular level \(modules, components, words, graphics, multimedia, and translations\).
+**強力なDITA オーサリングとコンテンツ管理**
+モジュール情報をシングルソーシングして、オーサリングの生産性を大幅に向上し、効率的に再利用できるように最適化しました。詳細なレベルで\（モジュール、コンポーネント、単語、グラフィック、マルチメディア、翻訳\）。
 
-The built-in web-based editor helps you easily author and effectively manage DITA topics, maps, and DITAVAL files. The built-in editor has a simple and intuitive word-processing interface, which provides an easy entry for subject matter experts, casual contributors, and reviewers who might not be trained to use DITA. With the intelligent Insert Element functionality, you don&#39;t have to worry about placing an element at the correct location. An element is always inserted at the next available valid location.
+組み込みのweb ベースのエディターを使用すると、DITA トピック、マップ、DITAVAL ファイルを簡単に作成して効率的に管理できます。 組み込みのエディターには、シンプルで直観的なワープロインターフェイスが用意されており、DITAの使用に関するトレーニングを受けていない分野の専門家、一般ユーザー、レビュー担当者でも簡単に入力できます。 インテリジェントなエレメント挿入機能を使用すれば、エレメントを正しい位置に配置する必要はありません。 エレメントは、常に次の有効な場所に挿入されます。
 
-You can also check-out and check-in files from the new options made available in AEM toolbar and web editor.
+AEM ツールバーおよびweb エディターで使用できる新しいオプションから、ファイルをチェックアウトおよびチェックインすることもできます。
 
-If your organization uses a specialized form of DITA, the web editor can be customized to create and edit specialized DITA documents. For more details about using DITA specialization, see *Use custom DITA-OT and DITA specialization* in Install and configure Adobe Experience Manager Guides as a Cloud Service.
+組織で特殊なDITA フォームを使用している場合、Web エディターをカスタマイズして、特殊なDITA ドキュメントを作成および編集できます。 DITA特殊化の使用について詳しくは、「*Adobe Experience Manager Guides as a Cloud Serviceのインストールと設定」の「* カスタム DITA-OTとDITA特殊化を使用する」を参照してください。
 
-Currently, the built-in editor supports the following DITA standards:
+現在、ビルトインエディターは次のDITA標準をサポートしています。
 
 * DITA 1.2
 * DITA 1.3
-* Lightweight DITA
+* 軽量DITA
 
 
 >[!NOTE]
 >
-> Lightweight DITA is still under the proposal state and has not yet become a DITA standard.
+> 軽量DITAはまだ提案中であり、DITA標準にはなっていません。
 
-**Next-gen collaboration through web-based review**
-Ensure that multi-author, multi-reviewer distributed teams collaborate smoothly through powerful web-based composite review workflow, minimizing the scope of manual errors in the process.
+web ベースのレビューによる&#x200B;**次世代の共同作業**
+強力なweb ベースの複合レビューワークフローにより、複数の作成者やレビュー担当者で構成される分散チームがスムーズに共同作業を行えるようにし、プロセスにおける手作業のエラーの範囲を最小限に抑えます。
 
-AEM Guides provides powerful yet easy-to-use web-based review capabilities. You can send multiple DITA topics for review simultaneously. The reviewing capability helps ensure that the document content is reviewed efficiently. Authors and reviewers can effortlessly collaborate on changes during ongoing reviews. レビュー担当者は、以前のバージョンとの違いを監視することで、フィードバックが正しく組み込まれているかどうかを特定できます。 管理者は、豊富な機能を備えた管理ダッシュボードを使用して、レビュータスクの履歴を追跡できます。
+AEM Guidesは、強力で使いやすいweb ベースのレビュー機能を提供します。 複数のDITA トピックを同時にレビュー用に送信できます。 レビュー機能は、ドキュメントのコンテンツを効率的にレビューするのに役立ちます。 作成者とレビューアーは、進行中のレビューで変更点について容易に共同作業をおこなうことができます。 レビュー担当者は、以前のバージョンとの違いを監視することで、フィードバックが正しく組み込まれているかどうかを特定できます。 管理者は、豊富な機能を備えた管理ダッシュボードを使用して、レビュータスクの履歴を追跡できます。
 
 DAM内のあらゆるドキュメントにドキュメントステータスが付与されます。 このドキュメントのステータスは、ドキュメントプロセス内の状態を特定するのに役立ちます。 システムの管理者は、ドキュメントの状態、デフォルトの開始状態と終了状態、ドキュメントの状態遷移を定義できます。
 

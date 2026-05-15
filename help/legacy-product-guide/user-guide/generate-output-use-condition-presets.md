@@ -5,9 +5,20 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 991179c7-186e-4b23-b918-248f596644ec
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+TQID: https://experienceleague.adobe.com/vC4GMa4uSMJY9W2bwkVw92zrrVuCdoU0BIUZ-1buIwM
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2:
+  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: 1213
 ht-degree: 2%
 
 ---
@@ -124,44 +135,44 @@ Web エディターの&#x200B;**条件プリセット** ビューから、条件
    * フラグ
 アクションは、条件プリセットに追加されているかどうかにかかわらず、すべての属性に対してデフォルトアクションとして設定されます。
 
-   For example, you have 15 condition attributes in your document and you have included four of them in the condition preset. If you select **exclude** as default action, it is applied to all 15 attributes.
+   例えば、文書に15個の条件属性があり、そのうちの4個を条件プリセットに含めています。 デフォルトのアクションとして&#x200B;**exclude**&#x200B;を選択すると、15個の属性すべてに適用されます。
 
 1. 属性を追加するには、次のいずれかの操作を行います。
-   * Click **Add** to one attribute to the condition preset. この手順を繰り返して、さらに属性を追加できます。
-   * Click **Add all** to add all the attributes to the condition preset.
-1. \(Optional\) If required, you can override the default action applied to the attributes in Step 4. 次のいずれかの操作を行います。
-   * Select multiple attributes, choose an action from **Set the action for selected conditions to**, and click **Apply**.
-   * Select an action for an attribute from the **Action** drop-down.
+   * 条件プリセットの1つの属性に&#x200B;**Add**&#x200B;をクリックします。 この手順を繰り返して、さらに属性を追加できます。
+   * 「**すべてを追加**」をクリックして、すべての属性を条件プリセットに追加します。
+1. \（オプション\）必要に応じて、手順4で属性に適用されたデフォルトのアクションを上書きできます。 次のいずれかの操作を行います。
+   * 複数の属性を選択し、**からアクションを選択して、選択した条件のアクションを**&#x200B;に設定し、**適用**&#x200B;をクリックします。
+   * 属性のアクションを&#x200B;**アクション** ドロップダウンから選択します。
 1. 「**保存**」をクリックします。
 
-### Edit a condition preset
+### 条件プリセットの編集
 
-You can make changes in an existing condition preset to change the actions applied to the attributes in the condition preset. Perform the following steps to edit a condition preset:
+既存のコンディションプリセットを変更して、コンディションプリセットの属性に適用されるアクションを変更できます。 条件プリセットを編集するには、次の手順を実行します。
 
 1. DITA マップコンソールで「**条件プリセット**」タブを選択します。
-1. Click **Edit** button.
-1. Make required changes for all the attributes in the condition preset.
+1. 「**編集**」ボタンをクリックします。
+1. 条件プリセット内のすべての属性に必要な変更を加えます。
 1. 「**保存**」をクリックします。
 
-### Create a copy of a condition preset
+### 条件プリセットのコピーの作成
 
-You can create a copy of a condition preset and then modify it according to your requirement. Perform the following steps to create a copy of a condition preset:
+条件プリセットのコピーを作成し、必要に応じて変更できます。 次の手順を実行して、条件プリセットのコピーを作成します。
 
 1. DITA マップコンソールで「**条件プリセット**」タブを選択します。
-1. Click **Duplicate** button.
+1. 「**複製**」ボタンをクリックします。
 
    >[!NOTE]
    >
-   > The default name of the preset is `<selected condition preset name>_Duplicate`
+   > プリセットのデフォルト名は`<selected condition preset name>_Duplicate`です
 
-   You can change the name according to your requirement.
+   必要に応じて名前を変更できます。
 
-1. \(Optional\) Make required changes for all the attributes in the condition preset.
+1. \（オプション\）条件プリセット内のすべての属性に必要な変更を加えます。
 1. 「**保存**」をクリックします。
 
 ### 条件プリセットの削除
 
-You can delete one or more condition presets from the **Condition Preset** tab of the DITA map console. 条件プリセットを削除するには、次の手順を実行します。
+DITA マップコンソールの「**条件プリセット**」タブから、1つ以上の条件プリセットを削除できます。 条件プリセットを削除するには、次の手順を実行します。
 
 1. DITA マップコンソールで「**条件プリセット**」タブを選択します。
 1. 削除する条件プリセットを選択します。

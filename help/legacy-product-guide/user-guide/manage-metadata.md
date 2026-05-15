@@ -1,25 +1,34 @@
 ---
 title: メタデータを管理
-description: Learn how to define and manage metadata in AEM Guides. Use smart and bulk tagging to easily find related topics within a DITA map.
+description: AEM Guidesでメタデータを定義および管理する方法について説明します。 スマートタグとバルクタグ付けタグを使用して、DITA マップ内の関連トピックを簡単に見つけることができます。
 feature: Metadata Management
 role: User
 hide: true
 exl-id: 02f94238-2f45-4fc9-8586-6b96bb435013
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+TQID: https://experienceleague.adobe.com/N3VQuKgUk9sqOsJn264DeQUxXtQwMghv6-4EQWnWGMU
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: 165
 ht-degree: 2%
 
 ---
 
 # メタデータを管理 {#id221EJ0500LI}
 
-Metadata is the description or definition of your content. This metadata is useful for defining your article or a map. For example, the PDF metadata may consist of the properties of a document like a title, author, subject, keywords, and language. AEM Guides provides various tools which can help you define metadata for your content.
+メタデータとは、コンテンツの説明または定義のことです。 このメタデータは、記事やマップの定義に役立ちます。 例えば、PDF メタデータは、タイトル、作成者、件名、キーワード、言語などの文書のプロパティで構成できます。 AEM Guidesには、コンテンツのメタデータを定義するのに役立つ様々なツールが用意されています。
 
-Adobe Experience Manager Assets provide the support to add, edit, import, or export metadata for your assets. You can use XML Keyword Extract tool to extract smart tags with the help of relevant keywords. Smart tags can help you find your related content. You can also define metadata in bulk for a collection of files and folders. Bulk tagging can help you easily find related topics within a DITA map.
+Adobe Experience Manager Assetsは、アセットのメタデータを追加、編集、読み込みまたは書き出すためのサポートを提供します。 関連するキーワードの助けを借りて、XML キーワード抽出ツールを使用してスマートタグを抽出できます。 スマートタグは、関連コンテンツを見つけるのに役立ちます。 ファイルとフォルダーのコレクションのメタデータを一括で定義することもできます。 一括タグ付けは、DITA マップ内の関連トピックを簡単に見つけるのに役立ちます。
 
-- **[Work with metadata in AEM](metadata-dita.md)**
+- **[AEMでのメタデータの操作](metadata-dita.md)**
 
-- **[Smart Tagging](web-editor-smart-tagging.md)**
+- **[スマートタグ](web-editor-smart-tagging.md)**
 
-- **[Bulk tagging of DITA content](map-editor-bulk-tagging.md)**
+- **[DITA コンテンツの一括タグ付け](map-editor-bulk-tagging.md)**

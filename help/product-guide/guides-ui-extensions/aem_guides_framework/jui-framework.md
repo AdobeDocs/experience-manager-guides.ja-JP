@@ -3,79 +3,90 @@ title: Jui フレームワーク
 description: Jui フレームワークについて
 role: User, Admin
 exl-id: c193cf90-5916-4d8c-88f1-be5014beca1c
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+TQID: https://experienceleague.adobe.com/AQFEy2bHTDHXq6QH8KTBOEzUvtA3Hf2ojhxvD0dsI7o
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+  - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: 268
 ht-degree: 1%
 
 ---
 
 # Jui フレームワーク
 
-拡張機能の書き方を学ぶ前に、フレームワークのアーキテクチャを理解します。
-効果的に拡張できるように。
+拡張機能の書き方を学ぶ前に、フレームワークのアーキテクチャについて理解します。
+これを効果的に拡張するためです。
 
 ## はじめに
 
-JUI は、React およびAdobe React Spectrum コンポーネント上の MVC フレームワークです。 JUI は JSON ユーザーインターフェイスです。 複数の Git リポジトリで構成されています。
+JUIは、ReactおよびAdobe React Spectrum コンポーネントをベースにしたMVC フレームワークです。 JUIはJSON ユーザーインターフェイスです。 複数のGit リポジトリで構成されています。
 
-JUI-Core は、JSON 設定を動作する React コンポーネントに変換し、関連するコントローラクラスインスタンスとリンクするためのすべてのロジックを備えたコアライブラリです。
-JUI-React-Spectrum  ライブラリには、Adobe React Spectrum コンポーネントのラッパーウィジェットがあります
+JUI-Coreは、JSON設定を動作するreact コンポーネントに変換し、関連するコントローラークラスインスタンスにリンクするためのすべてのロジックを備えたコアライブラリです。
+JUI-React-Spectrum ライブラリには、Adobe React Spectrum コンポーネントのラッパーウィジェットがあります
 
 ## JUI コアデザイン
 
 ### MVC UI デザイン
 
-![JUI MVC フロー &#x200B;](./imgs/jui-mvc-flow.png)
+![JUI MVC フロー](./imgs/jui-mvc-flow.png)
 
 ### ウィジェット
 
-- 一意の ID を持ちます。
-- 表示する個々の JSON ファイルを持ちます。
+- 一意のIDを持つ。
+- 表示する個々のJSON ファイルがあります。
 - 独自または共有のコントローラを持つことができます。
-- 親モデルまたは新規モデルを使用できます。
-- UI 要素（React コンポーネント）を持つことができます
-- 他のウィジェットを使用できる
+- 親モデルまたは新しいモデルを使用できます。
+- UI要素を持つことができます（React コンポーネント）
+- 他のウィジェットを持つことができます
 - アプリはウィジェットです
 
 ![JUI ウィジェット &#x200B;](./imgs/jui-widget.png)
 
 ### 要素
 
-- は、HTML/React コンポーネントです。
-- モデルがなく、親ウィジェットモデルを使用します。
+- はHTML/React コンポーネントです。
+- モデルがありません。親ウィジェットモデルを使用します。
 
-### イベント ハンドラー
+### イベントハンドラー
 
 - Next （eventOpts）
-   - 一部のオプションでイベントをトリガーするには
-- 購読（コールバック）
-   - 設定でイベントが発生したという通知を取得
+   - トリガーイベントにするためのオプションがあります
+- Subscribe （callback）
+   - イベントが設定で起動されたという通知を取得します
 
 ### アプリ/グローバルモデル
 
 - Next （新しい値）
    - 新しい値を公開するには
-- 購読（コールバック）
-   - 変更された値の通知を取得するには
-   - 初回の古い値の取得
+- Subscribe （callback）
+   - 値が変更された通知を取得するには
+   - 初めて古い値を取得
 - GetValue （）
    - 現在の値を取得
 
 ### コントローラー
 
-- Controller クラスから拡張する必要があります
+- コントローラクラスから拡張する必要があります
 - API
 - CreateModel
-   - 子ウィジェットを個別のモデルとして作成するには
+   - 子ウィジェットの別のモデルを作成するには
 - InitEventHandler
-   - 子ウィジェットに個別のイベントハンドラーを作成するには
-- RegisterCommand
-   - ローカル、親、またはアプリケーションのイベントを登録するには
+   - 子ウィジェット別のイベントハンドラーを作成するには
+- RegisterCommands
+   - ローカル、親、またはアプリイベントを登録するには
 - Next （eventName, eventHandler）
-   - 子ウィジェットイベントハンドラー、親ウィジェットイベントハンドラーまたはアプリイベントハンドラーのトリガーイベントへ
+   - 子ウィジェットイベントハンドラー、親ウィジェットイベントハンドラーまたはアプリイベントハンドラーのイベントをトリガーするには
 - Subscribe （callback, eventHandler）
-- SubscribeAppModel （callback）
+- SubscribeAppModel （コールバック）
 
 ### サンプルアプリデザイン
 

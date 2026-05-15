@@ -5,9 +5,20 @@ feature: Native PDF Output
 author: Pulkit Nagpal(punagpal)
 role: User, Admin
 exl-id: c551f0a8-f973-4c5a-bd34-f52890a91342
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+TQID: https://experienceleague.adobe.com/GyB4TpCF64rEGNgHVPKq4fUCBQsJjqh4jWA0CJC4A-0
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: 322
 ht-degree: 0%
 
 ---
@@ -17,7 +28,7 @@ ht-degree: 0%
 ## ブックマップの設定
 
 `<toc>`要素を含める：
-ブックマップの`<frontmatter>`要素で、`<booklists>`要素を見つけます。  `<toc>`要素を次のように`<booklists>`内にネストします：
+ブックマップの`<frontmatter>`要素内で、`<booklists>`要素を見つけます。  `<toc>`要素を次のように`<booklists>`内にネストします：
 
 ```
 <frontmatter>
@@ -93,8 +104,8 @@ Ditamapを公開している場合、Native PDFでは、目次とブックリス
 
 ## その他のリソース :
 
-- [&#x200B; ネイティブ PDF デザインページレイアウトのドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/design-page-layout)
-- [&#x200B; ネイティブ PDF essentialsの事前録画エキスパートセッション &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
+- [PDFのネイティブデザインページレイアウトドキュメント](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/design-page-layout)
+- [Adobe PDF essentialsのネイティブエクスペリエンスセッション](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
 
 <br>
 <br>

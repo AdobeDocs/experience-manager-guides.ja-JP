@@ -1,66 +1,81 @@
 ---
-title: メタデータの定義、管理、利用
+title: 定義、管理、利用 – メタデータ
 description: メタデータの定義、管理、利用
 exl-id: 3ebcb752-ba73-4c4c-9340-125b1e984cd1
-source-git-commit: 73c12f4f7e426c0c62150fe20770fa3599e6d095
+TQID: https://experienceleague.adobe.com/k1in0DiKrk-wRuf6fObupUlwI6RxXb7YcMmLDUBbnQE
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: 350
 ht-degree: 2%
 
 ---
 
 # メタデータの定義、管理、利用
 
-コンテンツの整理を計画したり、コンテンツを様々なタイプに分類したり、様々なエンドユーザーグループに公開したり、AI エンジンに対して検索するためにコンテンツを公開したり、エンドユーザーに様々なファセットで検索できるようにしたりするなど、コンテンツのメタデータを戦略する必要があります。
-Adobe Experience Manager Guidesを使用すると、システム内で管理されるコンテンツのメタデータを効果的に定義、適用、使用できます。 このセッションでは、その方法を学びます。
+コンテンツの整理を計画する場合も、コンテンツを異なるタイプに分類する場合も、さまざまなエンドユーザーグループ向けに公開する場合も、検索用のコンテンツをAI エンジンに公開する場合も、エンドユーザーがさまざまなファセットで検索できるようにする場合も、コンテンツのメタデータを戦略に組み込む必要があります。
+Adobe Experience Manager Guidesを使用すると、システムで管理されるコンテンツのメタデータを効果的に定義、適用、使用できます。 このセッションでは、その方法を学びます。
 
 
-## セッションの録画
+## セッション録画
 
 >[!VIDEO](https://video.tv.adobe.com/v/3429088/asset-metadata-guides-metadata-aem-guides?quality=12&learn=on)
 
 
 ## ハイライト
 
-- **日付** - 2024 年 5 月 9 日（Pt）
-- **出席者の数** ～ 100+
-- **期間** - 60 分
-- **対象読者** – お客様、パートナー、Adobe社員
+- **日付** - 2024年5月9日
+- **参加者数** - 100人以上
+- **期間** - 60分
+- **Audience** – お客様、パートナー、およびAdobeの従業員
 
 ## 重要ポイント
 
-このセッションでは、次の内容について学びました。
+このセッションでは、次の項目について学習しました。
 - Adobe Experience Managerでのメタデータの設定方法
 - メタデータフィールドの定義、コンテンツの共通性に基づく設定
-- コンテンツのメタデータを設定するための様々なオプション（一括更新オプションを含む）
-- メタデータの利用による、オーサリング、レポート、翻訳、検索、公開時の機能の有効化
+- コンテンツのメタデータを設定するさまざまなオプション（一括更新オプションを含む）
+- メタデータを利用して、オーサリング、レポート、翻訳、検索、公開中の機能を有効にする
 
 
 ## 関連リソース
 
-### ドキュメント化
+### ドキュメント
 
-- [&#x200B; メタデータスキーマ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/manage/metadata-schemas)
-- [&#x200B; メタデータプロファイル &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/manage/metadata-profiles)
-- [DITA アセットでのメタデータの管理 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/knowledge-base/kb-articles/authoring/reports/manage-metadata)
-- [DITA メタをメタデータとして抽出 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/install-guide/cs-ig/aem-asset-search-cs/conf-dita-search#id192SF0G10YK)
-- [DITA-OT 出力でのメタデータの使用 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/conf-output-generation#id191LF0U0TY4)
-- [&#x200B; ネイティブPDFでのメタデータの使用 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/user-guide/output-gen/web-editor/native-pdf-web-editor#native-pdf-publishing)
+- [メタデータスキーマ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/manage/metadata-schemas)
+- [メタデータプロファイル](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/manage/metadata-profiles)
+- [DITA アセットでのメタデータの管理](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/knowledge-base/kb-articles/authoring/reports/manage-metadata)
+- [DITA メタデータとして抽出](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/install-guide/cs-ig/aem-asset-search-cs/conf-dita-search#id192SF0G10YK)
+- [DITA-OT出力でのメタデータの使用](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/conf-output-generation#id191LF0U0TY4)
+- [ネイティブPDFでのメタデータの使用](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/user-guide/output-gen/web-editor/native-pdf-web-editor#native-pdf-publishing)
 
 
 ### コミュニティフォーラム
 
-- Experience Leagueに関するセッション固有のコミュニティのやり取りについては、[AEM Guides フォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=ja) を参照してください。
+- Experience Leagueに関するセッション固有のコミュニティインタラクションについては、[AEM Guides フォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=ja)をご覧ください。
 
 
 >[!NOTE]
 >
-> このセッションで紹介する機能は、次のバージョンのAEM Guidesで利用できます。
-> - 2024 年 3 月（クラウド版）
-> - 4.4 （非クラウドの場合）
+> このセッションで説明する機能は、次のバージョンのAEM Guidesで利用できます。
+> - 2024年3月（クラウドの場合）
+> - 4.4 （クラウド以外の場合）
 
 
 
-## お問い合わせ
+## さらに詳しく
 
-ご質問については、<techcomm@adobe.com> 宛てにメールを送信してください
+ご質問がある場合は、<techcomm@adobe.com>にメールをお送りください

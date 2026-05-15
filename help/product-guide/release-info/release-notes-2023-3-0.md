@@ -1,57 +1,69 @@
 ---
-title: リリースノート | Adobe Experience Manager Guidesas a Cloud Service、2023 年 3 月リリース
-description: Adobe Experience Manager Guides as a Cloud Serviceの 3 月リリース
+title: リリースノート | Adobe Experience Manager Guides as a Cloud Service（2023年3月リリース）
+description: Adobe Experience Manager Guides as a Cloud Serviceの3月リリース
 exl-id: 6a0bba92-7d7d-4b20-ad46-0eacc91268da
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/eIPiGBWr-vxglYwzI0zYT64a4orZXm42hWthchmcceU
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2:
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 0%
+source-wordcount: 565
+ht-degree: 2%
 
 ---
 
-# 2023 年 3 月Adobe Experience Manager Guidesas a Cloud Serviceリリース
+# Adobe Experience Manager Guides as a Cloud Serviceの2023年3月リリース
 
-このリリースノートでは、Adobe Experience Manager Guidesの 2023 年 3 月バージョン（後で *AEM Guides as a Cloud Service*）で修正されたアップグレード手順、互換性マトリックスおよび問題について説明します。
+このリリースノートでは、Adobe Experience Manager Guidesの2023年3月バージョン（後に&#x200B;*AEM Guides as a Cloud Service*&#x200B;と呼ばれます）で修正されたアップグレード手順、互換性マトリックス、および問題について説明します。
 
-新機能と機能強化について詳しくは、[AEM Guides as a Cloud Serviceの 2023 年 3 月リリースの新機能 &#x200B;](whats-new-2023-3-0.md) を参照してください。
+新機能と機能強化について詳しくは、[AEM Guides as a Cloud Serviceの2023年3月リリースの新機能](whats-new-2023-3-0.md)を参照してください。
 
-## 2023 年 3 月リリースへのアップグレード
+## 2023年3月リリースへのアップグレード
 
 次の手順を実行して、現在のAEM Guides as a Cloud Service設定をアップグレードします。
 
-1. Cloud Services の Git コードをチェックアウトし、アップグレードする環境に対応する、Cloud Services パイプラインで設定されたブランチに切り替えます。
-1. Cloud Services Git コ `<dox.version>` ド `/dox/dox.installer/pom.xml` ファイルのプロパティを 2023.3.242 に更新します。
-1. 変更内容をコミットし、Cloud Services パイプラインを実行して、2023 年 3 月リリースのAEM Guides as a Cloud Serviceにアップグレードします。
+1. Cloud ServicesのGit コードを確認し、アップグレードする環境に対応するCloud Services パイプラインで設定されたブランチに切り替えます。
+1. Cloud Services Git コードの`/dox/dox.installer/pom.xml` ファイルの`<dox.version>` プロパティを2023.3.242に更新します。
+1. 変更を確定し、Cloud Services パイプラインを実行して、AEM Guides as a Cloud Serviceの2023年3月リリースにアップグレードします。
 
-## 既存のコンテンツのインデックスを作成する手順（AEM Guides as a Cloud Serviceの 9 月のリリースより前のバージョンを使用している場合のみ）
+## 既存のコンテンツをインデックス化する手順（AEM Guides as a Cloud Serviceの9月リリース以前のバージョンを使用している場合のみ）
 
-既存のコンテンツのインデックスを作成し、新しい検索と置換のテキストをマップレベルで使用するには、次の手順を実行します。
+既存のコンテンツにインデックスを作成し、マップレベルで新しい検索と置換のテキストを使用するには、次の手順を実行します。
 
-* （正しい認証で） サーバーへの POST リクエストを実行します – `http://<server:port>/bin/guides/map-find/indexing`。
-（オプション：マップの特定のパスを渡してインデックスを作成できます。デフォルトでは、すべてのマップにインデックスが作成されます ||例：`https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`）
+* サーバーへのPOST リクエストを実行します（正しい認証を使用） - `http://<server:port>/bin/guides/map-find/indexing`。
+（オプション：マップの特定のパスを渡してインデックスを作成できます。デフォルトでは、すべてのマップにインデックスが付けられます||例：`https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`）
 
-* API は jobId を返します。 ジョブのステータスを確認するには、同じエンドポイント `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}` にジョブ ID を含むGET リクエストを送信します。
-（例：http://&lt;_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678）
+* APIはjobIdを返します。 ジョブのステータスを確認するには、ジョブ IDを持つGET リクエストを同じエンドポイントに送信できます。 `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
+（例：http://&lt;_localhost:8080_/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678）
 
-* ジョブが完了すると、上記のGET リクエストが成功を返し、失敗したマップがあるかどうかを示します。 正常にインデックス化されたマップは、サーバ ログから確認できます。
+* ジョブが完了すると、上記のGET リクエストは成功して応答し、マップが失敗した場合に言及します。 正常にインデックス化されたマップは、サーバーログから確認できます。
 
 ## 互換性マトリックス
 
-この節では、2023 年 3 月リリースのAEM Guides as a Cloud Serviceでサポートされるソフトウェアアプリケーションの互換表を示します。
+この節では、AEM Guides as a Cloud Service 2023年3月リリースでサポートされるソフトウェアアプリケーションの互換性マトリックスを示します。
 
 ### FrameMakerとFrameMaker Publishing Server
 
 | AEM Guides as a Cloud リリース | FMPS | FrameMaker |
 | --- | --- | --- |
-| 2023.03.0 | 互換性がありません | 2022 以上 |
+| 2023.03.0 | 互換性がありません | 2022年以降 |
 | | | |
 
 
-### 酸素コネクタ
+### Oxygen コネクタ
 
-| AEM Guides as a Cloud リリース | 酸素コネクタウィンドウ | 酸素コネクタMac | 酸素ウィンドウで編集 | Oxygen Macで編集 |
+| AEM Guides as a Cloud リリース | Oxygen コネクタウィンドウ | Oxygen Connector Mac | Oxygen ウィンドウで編集 | Oxygen Macで編集 |
 | --- | --- | --- | --- | --- |
 | 2023.03.0 | 2.9-uuid-2 | 2.9-uuid-2 | 2.3 | 2.3 |
 |  |  |  |  |  |
@@ -60,19 +72,19 @@ ht-degree: 0%
 
 様々な領域で修正されたバグを以下に示します。
 
-* PDFのダウンロードプロセスが web エディターで適切に機能しない。 （11496）
-* JSON 出力 | プロパティ値が `"value in spaces and double quotes"` であるマップメタデータを指定すると、公開エラーが発生します。 （11438）
-* オーディオおよびビデオマルチメディアファイルの挿入が、「マルチメディアの挿入 **アイコンの下のYouTube形式で失敗** ます。 （11320）
-* 検証エラーは、特殊なタイトル要素を持つテンプレートを使用してマップを作成したときに発生します。 （11212）
-* ネイティブ PDF | テーブルヘッダーに脚注が存在する場合、PDF出力内の対応するページフッターに太字や中央揃えのテキストが表示されます。 （10610）
+* Web エディターでPDFのダウンロード プロセスが適切に機能しない。 (11496)
+* JSON出力| プロパティ値が`"value in spaces and double quotes"`のメタデータをマッピングすると、公開エラーが発生します。 (11438)
+* オーディオおよびビデオのマルチメディアファイルの挿入は、**マルチメディアの挿入** アイコンの下のYouTube形式で失敗します。 (11320)
+* 特殊なタイトル要素を持つテンプレートを使用してマップを作成すると、検証エラーが発生します。 (11212)
+* 表のヘッダーにPDFのネイティブ脚注を配置すると、PDF出力内の対応するページフッターに太字と中央揃えのテキストが表示されます。 (10610)
 >[!NOTE]
 >
->ネイティブのPDFの変更を反映するには、/content/dam/dita-templates にあるPDF フォルダーを削除してから、最新のビルドにアップグレードしてください。 （10610）
+>ネイティブ PDFの変更を反映するには、/content/dam/dita-templatesにあるPDF フォルダーを削除し、最新のビルドにアップグレードします。 (10610)
 
-### 回避策に関する既知の問題
+### 回避策の既知の問題
 
-Adobeでは、AEM Guides as a Cloud Service 2023 年 3 月リリースの次の既知の問題を特定しました。
+Adobeでは、AEM Guides as a Cloud Service 2023年3月リリースの既知の問題を次のように特定しました。
 
-* ユーザーが、重複したアセットのバージョンを保存または作成できない。
+* ユーザーは、複製されたアセットのバージョンを保存または作成できません。
 
-**回避策**：重複アセットに変更を加える前に、Assets UI から再処理します。
+**回避策**：複製アセットに変更を加える前に、Assets UIからアセットを再処理します。

@@ -1,35 +1,46 @@
 ---
-title: 条件付き属性を操作するための REST API
-description: 条件付き属性を操作するための REST API について説明します
+title: 条件付き属性を操作するREST API
+description: 条件付き属性を操作するREST APIについて説明します
 exl-id: 1f0e023a-422c-47b9-917f-b0d80090471c
 feature: Rest API Conditional Attributes
 role: Developer
 level: Experienced
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/qtmJN6jjCm3xeNYAaHTWr7G3SZFSOodcVqBOKctR3B8
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+  - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+subfeature_v2:
+  - id: d27d524e-c4e5-4b77-b86b-3db049db0b25
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 6%
+source-wordcount: 154
+ht-degree: 5%
 
 ---
 
-# 条件付き属性を操作するための REST API {#id175UB30E05Z}
+# 条件付き属性を操作するREST API {#id175UB30E05Z}
 
-次の REST API を使用すると、フォルダープロファイルに条件付き属性を追加できます。
+次のREST APIを使用すると、フォルダープロファイルに条件付き属性を追加できます。
 
-## フォルダーレベルのプロファイルへの条件付き属性の追加
+## フォルダーレベルのプロファイルに条件付き属性を追加する
 
-特定のフォルダーレベルのプロファイルに条件属性を追加する POST メソッド。
+指定されたフォルダーレベルのプロファイルに条件付き属性を追加するPOST メソッド。
 
-**リクエスト URL**:\
+**要求URL**:\
 http://*<aem-guides-server\>*: *<port-number\>*/bin/fmdita/folderprofiles
 
 **パラメーター**:
 
-| 名前 | 型 | 必須 | 説明 |
+| 名前 | 種類 | 必須 | 説明 |
 |----|----|--------|-----------|
-| `:operation` | 文字列 | はい | 呼び出される操作の名前。 このパラメーターの値は ``ADDATTRIBUTEPROFILES`` です。<br> **メモ：** この値では、大文字と小文字が区別されません。 |
-| `profilename` | 文字列 | はい | 条件属性を追加する必要があるフォルダーレベルのプロファイルの表示名。 |
-| `conditionalprofiles` | JSON 配列 | はい | 条件付き属性名と値で構成される JSON 配列。 次のコードスニペットの例では、2 つの属性（`platform` と `product`）が割り当てられ、それらの属性に複数の値が割り当てられている JSON 配列を示しています。 |
+| `:operation` | 文字列 | はい | 呼び出される操作の名前。 このパラメーターの値は``ADDATTRIBUTEPROFILES``です。<br> **注意：**&#x200B;値では大文字と小文字が区別されません。 |
+| `profilename` | 文字列 | はい | 条件付き属性を追加する必要があるフォルダーレベルのプロファイルの表示名。 |
+| `conditionalprofiles` | JSON配列 | はい | 条件付き属性名と値で構成されるJSON配列。 次のコードスニペットの例では、複数の値が割り当てられている`platform`と`product`の2つの属性を持つJSON配列を示しています。 |
 
 ```JSON
 [  {    name: "platform",    
@@ -47,4 +58,4 @@ http://*<aem-guides-server\>*: *<port-number\>*/bin/fmdita/folderprofiles
 ```
 
 **応答値**:\
-HTTP 200 \（成功\）応答を返します。
+HTTP 200 \（Successful\）応答を返します。

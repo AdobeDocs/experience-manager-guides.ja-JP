@@ -1,48 +1,61 @@
 ---
-title: 特定のユーザーの webeditor のファイルのコンテキストメニューから「削除」オプションを削除
-description: 特定のユーザー/グループについて、ファイルのコンテキストメニューから「削除」オプションを削除して webeditor をカスタマイズする方法を説明します
+title: 特定のユーザーのwebeditorのファイルコンテキストメニューから「削除」オプションを削除する
+description: 特定のユーザー/グループのファイルコンテキストメニューから「削除」オプションを削除して、webeditorをカスタマイズする方法を説明します
 exl-id: 31b4dd53-3938-42e1-bbc6-64806d668696
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+TQID: https://experienceleague.adobe.com/dzbMsXUoEibR5QxKB-Z-h4qGnQaX2NmIYLTtxVJHE-A
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: 241
 ht-degree: 0%
 
 ---
 
-# Webeditor のファイルコンテキストメニューから「削除」オプションを削除
+# Webeditorのファイルコンテキストメニューから「削除」オプションを削除する
 
-この記事では、特定のユーザーまたはグループに対して、AEM Guides web エディターのファイルコンテキストメニューから「削除」オプションを非表示にする方法について説明します。 ファイルコンテキストメニューオプションのその他のカスタマイズについては、Guides Extension フレームワークを参照してください。 詳しくは、[&#x200B; こちら &#x200B;](https://github.com/adobe/guides-extension/tree/main) を参照してください。
+この記事では、AEM Guides Web Editorのファイルのコンテキストメニューで「削除」オプションを非表示にする方法について説明します。 ファイルのコンテキストメニューオプションに関するその他のカスタマイズについては、ガイド拡張機能のフレームワークを参照してください。 詳細については、[こちら](https://github.com/adobe/guides-extension/tree/main)を参照してください。
 
-以下のスニペットからわかるように、ファイルのコンテキストメニューには、この特定のユーザーに対して「削除」オプションが用意されています。
+下のスニペットからわかるように、ファイルコンテキストメニューには、この特定のユーザーに対して利用可能な「削除」オプションがあります。
 
-![Delete を含むファイル contextmenu](../../../assets/authoring/file-contextmenu-Delete.png)
+![削除を含むファイルのcontextmenu](../../../assets/authoring/file-contextmenu-Delete.png)
 
 次に、このユーザーの「削除」オプションを非表示にする方法を見てみましょう。
 
-## 実装手順：
+## 導入手順：
 
-- AEM ホームページからツール/セキュリティ/権限に移動します。
+- AEMのホームページから、ツール/セキュリティ/権限に移動します。
 - 検索ボックスからグループまたはユーザーを選択します。
-- 右上隅の「ACE を追加」をクリックします。
+- 右上隅の「Add ACE」をクリックします。
 - フォルダーパスを選択します。
-- 権限「jcr:removeChildNodes」および「jcr:removeNode」を含めます。
-- 「権限タイプ」を「拒否」として選択し、「追加」をクリックします（下図を参照）。
+- 権限「jcr:removeChildNodes」と「jcr:removeNode」を含めます。
+- 「権限タイプ」を「拒否」として選択し、以下に示すように「追加」をクリックします。
 
-![&#x200B; ユーザー権限による ACE の拒否 &#x200B;](../../../assets/authoring/permission-ACE-Delete.png)
+![&#x200B; ユーザー権限がACE](../../../assets/authoring/permission-ACE-Delete.png)を拒否しました
 
-![&#x200B; 権限のアクセス制御リスト &#x200B;](../../../assets/authoring/delete-acl.png)
+![権限のアクセス制御リスト &#x200B;](../../../assets/authoring/delete-acl.png)
 
 ### テスト
 
-- ACE を追加したユーザーとしてAEMにログインします。
-- Web エディターを開きます。
-- リポジトリビューに移動し、ACE を追加したフォルダーを選択します。
+- ACEが追加されたユーザーとしてAEMにログインします。
+- web エディターを開きます。
+- リポジトリビューに移動し、ACEが追加されたフォルダーを選択します。
 - ファイルのコンテキストメニューを開きます。
-- 「削除」オプションはコンテキストメニューに表示されません。
+- 「削除」オプションはコンテキストメニューには表示されません。
 
-ファイルのコンテキストメニューは次のようになります。
+ファイルコンテキストメニューは次のようになります。
 
-![&#x200B; 削除なしのファイル contextmenu](../../../assets/authoring/file-contextmenu-Delete-removed.png)
+削除のない![&#x200B; ファイルのcontextmenu](../../../assets/authoring/file-contextmenu-Delete-removed.png)
 
 ```
 Please note that these steps would also remove 'move' and 'rename' options from the Web Editor as they are also tied to delete process at the backend.

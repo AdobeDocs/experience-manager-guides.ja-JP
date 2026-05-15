@@ -5,9 +5,23 @@ feature: Publishing
 role: User
 hide: true
 exl-id: b96e6599-f8f3-491a-8b8f-fcb1e0f58aae
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+TQID: https://experienceleague.adobe.com/6cM2mNUBC3qwN0f0Kx9VkT4Xpy2pBfXdOeooDrhqYE4
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: 995
 ht-degree: 1%
 
 ---
@@ -53,12 +67,12 @@ PDFの出力プリセットを開くには、Assets UIからDITA マップファ
 
 | カスタム出力オプション | 説明 |
 | --- | --- |
-| 出力タイプ | 生成する出力のタイプ。 To generate output using custom DITA-OT plug-in, choose the Custom option. |
-| 設定名 | Give a descriptive name for the output settings you are creating. 例えば、_社内ユーザー出力_&#x200B;または&#x200B;_エンドユーザー出力_&#x200B;を指定できます。 |
+| 出力タイプ | 生成する出力のタイプ。 カスタム DITA-OT プラグインを使用して出力を生成するには、「カスタム」オプションを選択します。 |
+| 設定名 | 作成する出力設定にわかりやすい名前を付けます。 例えば、_社内ユーザー出力_&#x200B;または&#x200B;_エンドユーザー出力_&#x200B;を指定できます。 |
 | DITA-OT コマンドライン引数 | 出力の生成時にDITA-OTで処理する追加の引数を指定します。 DITA-OTでサポートされているコマンドライン引数について詳しくは、[DITA-OT ドキュメント &#x200B;](https://www.dita-ot.org/)を参照してください。 |
 | 変換名 | 生成する出力のタイプを指定します。 これは、DITA-OT プラグインに統合された独自のカスタムプラグインを使用して出力を生成する場合に必要です。 例えば、XHTML出力を生成する場合は、`xhtml`を指定します。 DITA-OTで使用可能な変換のリストについては、『 OASIS DITA-OT ユーザーガイド』の「[DITA-OT変換（出力形式） &#x200B;](http://www.dita-ot.org/2.3/user-guide/AvailableTransforms.html)」を参照してください。 |
-| ファイル名 | Specify the file name with which you want to save the output.<br><br>**Note**: If you do not provide a file name, then the DITA map&#39;s title is used to generate the final output file name. If the map does not have a title, then the DITA map&#39;s file name is used to name is the final output. ファイル名は、無効な文字を処理するためにシステムで設定されたルールを使用してサニタイズされます。 |
-| を使用した条件の適用 | 次のいずれかのオプションを選択します。<br><br>* **適用なし**：公開された出力に条件を適用しない場合は、このオプションを選択します。<br>* **DITAVal ファイル**：パーソナライズされたコンテンツを生成するには、DITAVal ファイルを選択します。 参照ダイアログまたはファイルパスを入力して、複数のDITAVal ファイルを選択できます。 ファイル名の近くにある十字アイコンを使用して削除します。 DITAVal ファイルは指定された順序で評価されるので、最初のファイルで指定された条件は、後のファイルで指定された一致する条件よりも優先されます。 ファイルを追加または削除することで、ファイルの順序を維持できます。 DITAVal ファイルが別の場所に移動されたり、削除されたりした場合、マップダッシュボードから自動的に削除されることはありません。 ファイルが移動または削除された場合は、場所を更新する必要があります。 ファイル名にカーソルを合わせると、ファイルが保存されているAEM リポジトリ内のパスを確認できます。 You can only select DITAVal files and an error is displayed if you have selected any other file type.<br>* **Condition preset**: Select a condition preset from the drop-down to apply a condition while publishing the output. このオプションは、DITA マップコンソールの「条件プリセット」タブに条件を追加した場合に表示されます。 条件プリセットについて詳しくは、[条件プリセットの使用](generate-output-use-condition-presets.md#id1825FL004PN)を参照してください。 |
+| ファイル名 | 出力を保存するファイル名を指定します。<br><br>**注意**: ファイル名を指定しない場合は、DITA マップのタイトルを使用して最終的な出力ファイル名を生成します。 マップにタイトルがない場合、DITA マップのファイル名を使用して最終出力に名前を付けます。 ファイル名は、無効な文字を処理するためにシステムで設定されたルールを使用してサニタイズされます。 |
+| を使用した条件の適用 | 次のいずれかのオプションを選択します。<br><br>* **適用なし**：公開された出力に条件を適用しない場合は、このオプションを選択します。<br>* **DITAVal ファイル**：パーソナライズされたコンテンツを生成するには、DITAVal ファイルを選択します。 参照ダイアログまたはファイルパスを入力して、複数のDITAVal ファイルを選択できます。 ファイル名の近くにある十字アイコンを使用して削除します。 DITAVal ファイルは指定された順序で評価されるので、最初のファイルで指定された条件は、後のファイルで指定された一致する条件よりも優先されます。 ファイルを追加または削除することで、ファイルの順序を維持できます。 DITAVal ファイルが別の場所に移動されたり、削除されたりした場合、マップダッシュボードから自動的に削除されることはありません。 ファイルが移動または削除された場合は、場所を更新する必要があります。 ファイル名にカーソルを合わせると、ファイルが保存されているAEM リポジトリ内のパスを確認できます。 DITAVal ファイルのみを選択でき、他のファイルタイプを選択した場合はエラーが表示されます。<br>* **条件プリセット**：出力の公開中に条件を適用するには、ドロップダウンから条件プリセットを選択します。 このオプションは、DITA マップコンソールの「条件プリセット」タブに条件を追加した場合に表示されます。 条件プリセットについて詳しくは、[条件プリセットの使用](generate-output-use-condition-presets.md#id1825FL004PN)を参照してください。 |
 | 宛先のパス | EPub出力が保存されるAEM リポジトリ内のパス。 |
 | 一時ファイルの保持 | DITA-OTで生成された一時ファイルを保持するには、このオプションを選択します。 DITA-OTを使用して出力を生成する際にエラーが発生した場合は、一時ファイルを保持するためにこのオプションを選択します。 その後、これらのファイルを使用して、出力生成エラーのトラブルシューティングを行うことができます。<br> <br>出力を生成したら、**一時ファイルをダウンロード** ![一時ファイルをダウンロード アイコン &#x200B;](images/download-temp-files-icon.png) アイコンを選択して、一時ファイルを含むZIP フォルダーをダウンロードします。<br><br> **メモ**: ファイルのプロパティが生成中に追加された場合、出力された一時ファイルには、それらのプロパティを含む&#x200B;*metadata.xml* ファイルも含まれます。 |
 | 生成後のワークフローの実行 | このオプションを選択すると、AEMで設定されたすべてのワークフローを含む新しいポストジェネレーションワークフローのドロップダウンリストが表示されます。 出力生成ワークフローの完了後に実行するワークフローを選択する必要があります。<br><br>**注**: カスタム出力後の生成ワークフローの作成について詳しくは、「_出力後の生成ワークフローをカスタマイズする_」を参照してください。Adobe Experience Manager Guides as a Cloud Serviceのインストールと設定。 |
