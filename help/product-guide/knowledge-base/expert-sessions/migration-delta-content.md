@@ -3,9 +3,13 @@ title: Delta コンテンツの移行
 description: AEM Guides, migrate delta content
 exl-id: 293d05c4-637e-41ae-81d7-9cf492be32c5
 TQID: https://experienceleague.adobe.com/WZC-a-ixs3LjKhG5-PN-cjYIW271PEcjWdWwAuXdAp4
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 310
@@ -55,7 +59,7 @@ ht-degree: 6%
 
 ### コミュニティフォーラム
 
-- Experience Leagueに関するセッション固有のコミュニティインタラクションについては、[AEM Guides フォーラム ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)をご覧ください。
+- Experience Leagueに関するセッション固有のコミュニティインタラクションについては、[AEM Guides フォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)をご覧ください。
 
 
 >[!NOTE]

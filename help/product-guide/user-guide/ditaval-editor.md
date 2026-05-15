@@ -5,10 +5,16 @@ exl-id: f3901a4f-1925-42aa-b773-0d6f18175ce8
 feature: Authoring, DITAVAL Editor
 role: User
 TQID: https://experienceleague.adobe.com/VkX-SA8LgL-O3Gws5pGoj9RIFgrcn7NADVIDzBagxeg
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: ca593223-d11a-4a52-b369-a8e081e71737
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: ca593223-d11a-4a52-b369-a8e081e71737
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 1537
@@ -20,7 +26,7 @@ ht-degree: 0%
 
 DITAVAL ファイルは、条件付き出力の生成に使用されます。 1つのトピックで、要素の属性を使用して条件を追加し、コンテンツをコンディショナライズできます。 次に、DITAVAL ファイルを作成します。このファイルでは、コンテンツを生成するために取得する必要がある条件と、最終的な出力から除外する条件を指定します。
 
-Adobe Experience Manager Guidesでは、DITAVAL エディターを使用してDITAVAL ファイルを簡単に作成および編集できます。 DITAVAL エディターは、システムで定義されている属性（条件として使用できます）を取得し、それらを使用してDITAVAL ファイルを作成または編集できます。 Adobe Experience Managerでの条件の作成と管理について詳しくは、Adobe Experience Manager ドキュメントの「[ タグの管理](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en)」の節を参照してください。
+Adobe Experience Manager Guidesでは、DITAVAL エディターを使用してDITAVAL ファイルを簡単に作成および編集できます。 DITAVAL エディターは、システムで定義されている属性（条件として使用できます）を取得し、それらを使用してDITAVAL ファイルを作成または編集できます。 Adobe Experience Managerでの条件の作成と管理について詳しくは、Adobe Experience Manager ドキュメントの「[&#x200B; タグの管理](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en)」の節を参照してください。
 
 次の節では、Experience Manager GuidesのDITAVAL ファイルで使用できるオプションについて説明します。
 
@@ -37,7 +43,7 @@ DITAVAL ファイルを作成するには、次の手順を実行します。
 
    ![](images/new-file-option.png){width="350"}
 
-   このオプションには、[Experience Manager Guidesのホームページ ](./intro-home-page.md)と、リポジトリビューのフォルダーのオプションメニューからアクセスすることもできます。
+   このオプションには、[Experience Manager Guidesのホームページ &#x200B;](./intro-home-page.md)と、リポジトリビューのフォルダーのオプションメニューからアクセスすることもできます。
 
 2. **新しいトピック** ダイアログボックスが表示されます。
 
@@ -67,7 +73,7 @@ DITAVAL エディターでは、エディターツールバーのオプション
 #### メニュードロップダウン
 
 メニュードロップダウンでは、編集アクション、検索と置換、バージョン履歴、バージョンラベル、結合、レビュータスクの作成、変更の追跡、タグ機能にアクセスできます。
-詳しくは、[ メニュードロップダウンオプション ](./web-editor-toolbar.md#menu-dropdown)を参照してください
+詳しくは、[&#x200B; メニュードロップダウンオプション &#x200B;](./web-editor-toolbar.md#menu-dropdown)を参照してください
 
 #### Propを追加
 
@@ -77,7 +83,7 @@ DITAVAL ファイルに1つのプロパティを追加します。
 
 最初のドロップダウンには、DITAVAL ファイルで使用できる許可されたDITA属性が一覧表示されます。
 
-2番目のドロップダウンリストには、選択した属性に設定された値が表示されます。 次のドロップダウンリストには、選択した属性に対して設定できるアクションが表示されます。 アクション ドロップダウンで使用できる値は、`include`、`exclude`、`passthrough`、および`flag`です。 これらの値の詳細については、[prop](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop)要素の定義をOASIS DITA ドキュメントでご確認ください。 属性に追加されたプロパティのアクションについて詳しくは、[ プロパティのアクション ](#actions-for-property)を参照してください。
+2番目のドロップダウンリストには、選択した属性に設定された値が表示されます。 次のドロップダウンリストには、選択した属性に対して設定できるアクションが表示されます。 アクション ドロップダウンで使用できる値は、`include`、`exclude`、`passthrough`、および`flag`です。 これらの値の詳細については、[prop](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop)要素の定義をOASIS DITA ドキュメントでご確認ください。 属性に追加されたプロパティのアクションについて詳しくは、[&#x200B; プロパティのアクション &#x200B;](#actions-for-property)を参照してください。
 
 #### Rev Propを追加
 
@@ -157,7 +163,7 @@ XMLのタグに特定のリビジョン番号を追加するには、「rev prop
 #### ロック/ロック解除
 
 現在のファイルをロックまたはロック解除します。 ファイルをロックすると、ファイルへの排他的な書き込みアクセス権が付与されます。
-詳細については、[ ファイルのロック解除](./web-editor-toolbar.md#lockunlock)を参照してください。
+詳細については、[&#x200B; ファイルのロック解除](./web-editor-toolbar.md#lockunlock)を参照してください。
 
 
 ### コンテンツを保存

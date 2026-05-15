@@ -4,10 +4,17 @@ description: Adobe Experience Manager Guidesの4.6.0 Service Pack 4 リリース
 role: Leader
 exl-id: d0914e8a-7c7f-47da-9655-697f95f7d4ff
 TQID: https://experienceleague.adobe.com/VFnhu8AwMB-wIZzLC-vG9xHozFQnwQMqYH-YPnnIE2I
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: afb45297-4313-4f67-818e-bc0b03abe086id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2: id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
-role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 527
@@ -19,7 +26,7 @@ ht-degree: 1%
 
 この記事では、Adobe Experience Manager Guidesの4.6.0 Service Pack 4 リリースのアップグレード手順と互換性マトリックスについて説明します。
 
-このリリースで修正された問題のリストについては、[4.6.0 サービスパック 4 リリース ](fixed-issues-4-6-0-sp4.md)で修正された問題を参照してください。
+このリリースで修正された問題のリストについては、[4.6.0 サービスパック 4 リリース &#x200B;](fixed-issues-4-6-0-sp4.md)で修正された問題を参照してください。
 
 ## 互換性マトリックス
 
@@ -69,15 +76,15 @@ ht-degree: 1%
 
 現在のバージョンのGuidesを4.6.0 Service Pack 4に簡単にアップグレードできます。 アップグレードを進める前に、次の点を考慮する必要があります。
 
-- バージョン 4.6.0、4.6.0 サービスパック 1または4.6.0 サービスパック 3を使用している場合は、4.6.0 サービスパック 4に直接アップグレードできます。
-- バージョン 4.4、4.3.1または4.3.0を使用している場合は、バージョン 4.6.0にアップグレードする必要があります。
-- バージョン 4.2、4.2.1 （ホットフィックス 4.2.1.3）、4.1、または4.1.xを使用している場合は、バージョン 4.6.0にアップグレードする前に、バージョン 4.4にアップグレードする必要があります。
-- バージョン 4.0を使用している場合は、バージョン 4.3.xにアップグレードする前にバージョン 4.2にアップグレードする必要があります。
-- バージョン 3.8.5を使用している場合は、バージョン 4.2にアップグレードする前にバージョン 4.0にアップグレードする必要があります。
-- 3.8.5より前のバージョンを使用している場合は、[Adobe Experience Manager Guides ヘルプ Experience Manager Guides アーカイブ ](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)で入手できる製品固有のインストールガイドの「PDFのアップグレード」セクションを参照してください。
+&#x200B;- バージョン 4.6.0、4.6.0 サービスパック 1または4.6.0 サービスパック 3を使用している場合は、4.6.0 サービスパック 4に直接アップグレードできます。
+&#x200B;- バージョン 4.4、4.3.1または4.3.0を使用している場合は、バージョン 4.6.0にアップグレードする必要があります。
+&#x200B;- バージョン 4.2、4.2.1 （ホットフィックス 4.2.1.3）、4.1、または4.1.xを使用している場合は、バージョン 4.6.0にアップグレードする前に、バージョン 4.4にアップグレードする必要があります。
+&#x200B;- バージョン 4.0を使用している場合は、バージョン 4.3.xにアップグレードする前にバージョン 4.2にアップグレードする必要があります。
+&#x200B;- バージョン 3.8.5を使用している場合は、バージョン 4.2にアップグレードする前にバージョン 4.0にアップグレードする必要があります。
+&#x200B;- 3.8.5より前のバージョンを使用している場合は、[Adobe Experience Manager Guides ヘルプ Experience Manager Guides アーカイブ &#x200B;](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)で入手できる製品固有のインストールガイドの「PDFのアップグレード」セクションを参照してください。
 
 >[!NOTE]
 >
 >Experience Manager Guides バージョンをアップグレードする前に、AEM サービスパックをインストールする必要があります。
 
-4.6.0 サービスパック 4 リリースのアップグレードプロセスは、4.6.0 リリースと同じ手順に従います。 詳細な手順については、[Experience Manager Guidesのオンプレミスリリース ](../install-guide/upgrade-xml-documentation.md)のアップグレード手順を参照してください。
+4.6.0 サービスパック 4 リリースのアップグレードプロセスは、4.6.0 リリースと同じ手順に従います。 詳細な手順については、[Experience Manager Guidesのオンプレミスリリース &#x200B;](../install-guide/upgrade-xml-documentation.md)のアップグレード手順を参照してください。

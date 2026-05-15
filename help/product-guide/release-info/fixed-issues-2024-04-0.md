@@ -3,11 +3,21 @@ title: リリースノート | Adobe Experience Manager Guides（2024.4.0 リリ
 description: Adobe Experience Manager Guides as a Cloud Service 2024.04.0 リリースのバグ修正について説明します。
 exl-id: 35351d71-7739-4ad3-a063-67adf64906bf
 TQID: https://experienceleague.adobe.com/cHKuFCElWbjxik0EHgoTrtlq2t3I62LQ5zUArzBoMqk
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d6596f3f-92a7-43ec-b444-237db6adad05id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0efid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 577
@@ -19,9 +29,9 @@ ht-degree: 8%
 
 この記事では、Adobe Experience Manager Guides as a Cloud Serviceの2024.04.0 リリースの様々な領域で修正されたバグについて説明します。
 
-新機能と機能強化について詳しくは、[ 2024.04.0リリースの新機能](whats-new-2024-04-0.md)を参照してください。
+新機能と機能強化について詳しくは、[&#x200B; 2024.04.0リリースの新機能](whats-new-2024-04-0.md)を参照してください。
 
-2024.04.0 リリース ](upgrade-instructions-2024-04-0.md)の[ アップグレード手順について説明します。
+2024.04.0 リリース [&#128279;](upgrade-instructions-2024-04-0.md)の アップグレード手順について説明します。
 
 ## オーサリング
 

@@ -5,10 +5,16 @@ exl-id: 0cd83fe3-1764-4f04-ae11-0b71b6ac576c
 feature: Reviewing
 role: User
 TQID: https://experienceleague.adobe.com/mOwLR3UFEcVKiEYLzLxo5lzK3rIeNJtB7q-qEyraY30
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2: id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 472
@@ -24,7 +30,7 @@ DITA プロジェクトを作成し、それを使用してレビューを開始
 
 プロジェクトにチームメンバーを追加して、作成者、レビュー担当者、発行者など、様々な役割を割り当てることができます。
 
-DITA プロジェクトを作成したら、エディターまたはAssets UIからレビューを開始できます。 詳細については、[ レビュー用にトピックを送信](review-send-topics-for-review.md#)を参照してください。
+DITA プロジェクトを作成したら、エディターまたはAssets UIからレビューを開始できます。 詳細については、[&#x200B; レビュー用にトピックを送信](review-send-topics-for-review.md#)を参照してください。
 
 同様に、作成者がレビューワークフローを開始するたびに、選択したプロジェクトのメンバーにメール通知が届きます。 メール通知を設定するには、「Adobe Experience Manager Guides as a Cloud Serviceのインストールと設定」の「*メールテンプレートのカスタマイズ*」を参照してください。
 
@@ -68,7 +74,7 @@ DITA プロジェクトを作成するには、次の手順を実行します。
 
       >[!NOTE]
       >
-      >Experience Manager Guides バージョン 3.5以前を使用している場合は、DITA マップファイルを選択して、トピック編集、プレビュー、レビューワークフローの主要な参照を解決するオプションが表示されます。 3.6以降のバージョンでは、エディターを使用してルートマップを設定できます。 詳細については、エディターの[ ユーザー環境設定](web-editor-features.md#id2087G0P40SB)を参照してください。 ルートマップを設定するもうひとつの方法は、グローバルレベルまたはフォルダーレベルのプロファイルで設定することです。 詳細については、『インストールおよび設定ガイド』の「*グローバルレベルまたはフォルダーレベルのプロファイルの設定*」を参照してください。
+      >Experience Manager Guides バージョン 3.5以前を使用している場合は、DITA マップファイルを選択して、トピック編集、プレビュー、レビューワークフローの主要な参照を解決するオプションが表示されます。 3.6以降のバージョンでは、エディターを使用してルートマップを設定できます。 詳細については、エディターの[&#x200B; ユーザー環境設定](web-editor-features.md#id2087G0P40SB)を参照してください。 ルートマップを設定するもうひとつの方法は、グローバルレベルまたはフォルダーレベルのプロファイルで設定することです。 詳細については、『インストールおよび設定ガイド』の「*グローバルレベルまたはフォルダーレベルのプロファイルの設定*」を参照してください。
 
    「**詳細**」タブの情報：
 
@@ -81,4 +87,4 @@ DITA プロジェクトを作成するには、次の手順を実行します。
 1. 「**開く**」を選択して、プロジェクトページを開きます。
 
 
-**親トピック：**[ レビューの概要](review.md)
+**親トピック：**&#x200B;[&#x200B; レビューの概要](review.md)

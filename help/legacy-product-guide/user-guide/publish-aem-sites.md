@@ -6,10 +6,15 @@ role: User
 hide: true
 exl-id: 3e77747d-ff04-465c-9305-fd6f1c74df04
 TQID: https://experienceleague.adobe.com/UT48gVRQ-ncVRjqx-b7Td-b8EddTqyKy3rLm7Vd3Ftk
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
-subfeature_v2: id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2:
+  - id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 634
@@ -33,12 +38,12 @@ Sites ページを生成するには、次の手順を実行します。
 
 
 
-1. トピックの&#x200B;**ファイルプロパティ**&#x200B;の&#x200B;**出力** セクションから&#x200B;**新規出力** ![新規出力アイコン ](./images/Add_icon.svg)を選択します。
+1. トピックの&#x200B;**ファイルプロパティ**&#x200B;の&#x200B;**出力** セクションから&#x200B;**新規出力** ![新規出力アイコン &#x200B;](./images/Add_icon.svg)を選択します。
 1. **サイトページ**&#x200B;を選択します。
 
 
 1. **サイトを生成ページ** ダイアログボックスで、次の詳細を入力します。
-   ![ サイト生成ページでパスとテンプレートの詳細を追加](images/aem-sites-page-generate.png){width="500"}
+   ![&#x200B; サイト生成ページでパスとテンプレートの詳細を追加](images/aem-sites-page-generate.png){width="500"}
 
    * パス、タイトル、名前、テンプレートの詳細を追加して、トピックまたはその要素をサイトページとして公開します。 *
 
@@ -64,7 +69,7 @@ Sites ページを生成するには、次の手順を実行します。
 1. 「**Generate**」をクリックして、サイトページを公開します。
 1. **ファイルプロパティ**&#x200B;の&#x200B;**出力** セクションで、トピックのサイトページを表示できます。 サイトページは、公開日時に応じて表示され、最新のページが最初に表示されます。
 
-   ![ トピックのサイトページを表示](images/aem-sites-outputs.png){width=300}
+   ![&#x200B; トピックのサイトページを表示](images/aem-sites-outputs.png){width=300}
 
    *トピックに存在するサイトページを表示して、再公開します。*
 

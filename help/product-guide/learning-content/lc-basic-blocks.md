@@ -5,9 +5,13 @@ feature: Authoring
 role: User
 exl-id: 171b9df9-3782-4cfa-b450-7824e5fd390d
 TQID: https://experienceleague.adobe.com/fIdzpub-IWWPZMqqRd4l6NrVGZlQAPCtAlsvuOnkCCQ
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 590
@@ -25,7 +29,7 @@ ht-degree: 0%
 
 エディターツールバーで使用できる基本的な編集機能を使用できます（以下を参照）。
 
-- **挿入オプション**: アコーディオン、カルーセル、HotSpot、タブ、フリップカード、クリックして表示するなど[ インタラクティブウィジェット ](./lc-widgets.md)を追加するオプションと、Iframe、ブロック引用、コードブロックなど[構造要素](./lc-other-insert-options.md)を提供します。 このメニューを使用して、学習コンテンツに機能と多様性を追加し、魅力的で構造化されたコンテンツにします。
+- **挿入オプション**: アコーディオン、カルーセル、HotSpot、タブ、フリップカード、クリックして表示するなど[&#x200B; インタラクティブウィジェット &#x200B;](./lc-widgets.md)を追加するオプションと、Iframe、ブロック引用、コードブロックなど[構造要素](./lc-other-insert-options.md)を提供します。 このメニューを使用して、学習コンテンツに機能と多様性を追加し、魅力的で構造化されたコンテンツにします。
 
   ![](assets/insert-menu-options-lc.png){width="650"}
 
@@ -99,7 +103,7 @@ ht-degree: 0%
    >
    > 既存の見出しをタイトルとして使用しない場合は、まずエディターツールバーのテキストコンポーネントを使用して見出しを挿入し、「**タイトルを追加**」を選択します。 これにより、サンプル **タイトル**&#x200B;がコンテンツに追加され、必要に応じて編集できます。
 
-1. ファイルのプロパティで、**字幕を追加**を選択します。
+1. ファイルのプロパティで、**字幕を追加**&#x200B;を選択します。
 サンプル **字幕**&#x200B;がコンテンツに追加されます。
 
    ![](assets/add-subtitles-lc.png)

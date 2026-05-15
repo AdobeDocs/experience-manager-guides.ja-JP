@@ -6,11 +6,19 @@ role: User
 hide: true
 exl-id: 09e813fd-ec22-4d2e-9ee7-098d562ad44f
 TQID: https://experienceleague.adobe.com/SwYb9OfbAPrK0iSbyfvAAJdEQG0ks5Ig871KBMLu2Fc
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2: id: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd456af4-cb12-4a34-8cc4-b74adf885626
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+  - id: fd456af4-cb12-4a34-8cc4-b74adf885626
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 1315
@@ -71,7 +79,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
-> この手順の手順を実行する前に、[ コンテンツ翻訳のベストプラクティス ](#id1678G0S702F)の説明に従って、必要な言語ルートとターゲットフォルダーを作成していることを確認してください。
+> この手順の手順を実行する前に、[&#x200B; コンテンツ翻訳のベストプラクティス &#x200B;](#id1678G0S702F)の説明に従って、必要な言語ルートとターゲットフォルダーを作成していることを確認してください。
 
 1. Assets UIで、DITA マップファイルをクリックします。
 
@@ -147,4 +155,4 @@ ht-degree: 2%
 >
 > 翻訳ジョブ内の1つ以上のトピックの翻訳を拒否すると、拒否されたすべてのトピックの&#x200B;**進行中**&#x200B;翻訳ステータスが元のステータスに戻ります。 参照されたトピックのステータスは、最新の翻訳状態に従って確認され、元に戻されます。 また、宛先プロジェクトで作成された翻訳ファイルは、翻訳が拒否されても削除されません。
 
-**親トピック：**[ コンテンツを翻訳](translation.md)
+**親トピック：**&#x200B;[&#x200B; コンテンツを翻訳](translation.md)

@@ -6,8 +6,11 @@ feature: Output Generation
 role: Admin
 level: Experienced
 TQID: https://experienceleague.adobe.com/W971ghc9G1ZE80ccDDAEw99d8Wvc-68AK4ELA1EC2uw
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 349
@@ -54,7 +57,7 @@ PDF出力に&#x200B;**Contents** タイトルを含めたくない場合は、`<
 ブックマークからコンテンツのタイトルを削除する手順は次のとおりです。
 
 1. PDF出力に使用しているPDF テンプレートを開きます。
-2. **ページレイアウト**&#x200B;内の&#x200B;**目次ページ**を開きます。
+2. **ページレイアウト**&#x200B;内の&#x200B;**目次ページ**&#x200B;を開きます。
 目次ページが右側に表示されます。
 3. **Source** モードに切り替え、コンテンツが配置されているエレメントを`<h1>`から`<p>`に変更します。
 
