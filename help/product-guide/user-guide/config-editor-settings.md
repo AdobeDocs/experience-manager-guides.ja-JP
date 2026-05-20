@@ -3,9 +3,9 @@ title: エディター設定
 description: AEM Guidesでエディターの設定を行う方法について説明します。
 feature: Web Editor
 role: User
-source-git-commit: 2c9e91a85bb9cfbfec05dbe5c2e9eae9e240d571
+source-git-commit: 'null'
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -47,6 +47,8 @@ ht-degree: 0%
 
   お気に入りに要素を検索して追加したり、以前に追加した要素を削除したり、シンプルなドラッグ&amp;ドロップを使用して並べ替えたりできます。 お気に入りには、最も頻繁に使用する要素が含まれます。ここで設定した順序は、エディターからアクセスすると、クイック挿入メニューに反映されます。
 
+  ここでは、新規エディターのクイック挿入メニューの操作方法に関する短いビデオを紹介します。
 
+  >[!VIDEO](https://video.tv.adobe.com/v/3491343)
 
 
