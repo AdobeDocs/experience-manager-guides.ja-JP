@@ -8,12 +8,13 @@ solution: Experience Manager, Experience Manager Guides
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+usetq: true
 feature-set: Experience Manager Guides
 landing-page-name: experience-manager-guides
 landing-page-breadcrumb-title: AEM Guides
 role: User
 index: true
-source-git-commit: 30ad2d27031542d339793b6a714ac0a2ecf9f5ab
+source-git-commit: 188d4b32dbe17781f2b2d70e943596503c873fd3
 workflow-type: tm+mt
 source-wordcount: 70
 ht-degree: 0%
