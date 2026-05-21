@@ -1,7 +1,7 @@
 ---
 cloud: Experience Cloud
 mini-toc-levels: 2
-git-repo: https://github.com/AdobeDocs/experience-manager-guides.en
+git-repo: https://github.com/AdobeDocs/experience-manager-guides.ja-JP
 product: Experience Manager
 type: Documentation
 solution: Experience Manager, Experience Manager Guides
