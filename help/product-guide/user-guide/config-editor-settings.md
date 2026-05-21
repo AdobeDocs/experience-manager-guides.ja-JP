@@ -3,7 +3,7 @@ title: エディター設定
 description: AEM Guidesでエディターの設定を行う方法について説明します。
 feature: Web Editor
 role: User
-source-git-commit: 'null'
+source-git-commit: 67bbbc9afc5278722d7d60bf5574feb44a9ed69c
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 0%
