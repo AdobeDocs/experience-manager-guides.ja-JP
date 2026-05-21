@@ -12,9 +12,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 9a779b57edd785b99b36de6450639d922ff90021
 workflow-type: tm+mt
-source-wordcount: 124
+source-wordcount: 123
 ht-degree: 0%
 
 ---
@@ -127,8 +127,7 @@ const acceptWithModification = {
 ## カスタムダイアログの呼び出し
 
 次の使用例は、カスタムダイアログを開くボタンの追加方法に関する情報を制限します。
-`review_comment` パネルを検討しましょう。 完全な拡張機能はここから見つけることができます：
-[&#x200B; コメントを確認](../../examples/review_app_examples/review_comment.ts)
+`review_comment` パネルを検討しましょう。
 
 ```typescript
 const reviewComment = {
@@ -173,6 +172,221 @@ const reviewComment = {
     ...
   }
 }
+```
+
+完全な拡張機能をこちらからダウンロードしてください：[&#x200B; コメントを確認](../../examples/review_app_examples/review_comment.ts)
+
+```typescript
+export enum VIEW_STATE {
+  APPEND = 'append',
+  PREPEND = 'prepend',
+  REPLACE = 'replace',
+}
+
+const reviewComment = {
+  id: 'review_comment',
+  view: {
+    items: [
+      {
+        component: 'label',
+        label: '@extraProps.commentUniqId',
+        extraclass: 'commentUniqId',
+        target: {
+          key: 'extraclass',
+          value: 'user-image',
+          viewState: VIEW_STATE.PREPEND,
+        },
+      },
+      {
+        component: 'div',
+        extraclass: 'user-info',
+        items: [
+          {
+            component: 'label',
+            "label": "@extraProps.userInfo",
+            "extraclass": "reviewer-name",
+          },
+          {
+            component: 'button',
+            icon: 'email',
+            extraclass: 'mailto-icon',
+            "on-click": "openMailTo"
+          }
+        ],
+        target: {
+          key: 'extraclass',
+          value: 'reviewer-name',
+          viewState: VIEW_STATE.REPLACE,
+        },
+      },
+      {
+        component: 'div',
+        extraclass: 'comment-details',
+        items:
+          [
+            {
+              component: 'div',
+              extraclass: 'comment-type-text',
+              items:
+                [
+                  {
+                    component: 'label',
+                    label: 'Comment Type: ',
+                    "extraclass": "severity-label",
+                  },
+                  {
+                    component: 'label',
+                    label: '@extraProps.severity'
+                  }
+                ],
+            },
+            {
+              component: 'div',
+              extraclass: 'comment-rationale',
+              items:
+                [
+                  {
+                    component: 'label',
+                    label: 'Comment Rationale: ',
+                    extraclass: 'comment-rationale-label'
+                  },
+                  {
+                    component: 'label',
+                    label: '@extraProps.commentRationale'
+                  }
+                ],
+            },
+          ],
+        target: {
+          key: 'id',
+          value: 'attachment_tiles',
+          viewState: VIEW_STATE.PREPEND,
+        },
+      },
+      {
+        component: 'div',
+        items: [
+          {
+            component: 'div',
+            extraclass: 'edit-comment-type',
+            items: [
+              {
+                component: 'label',
+                "label": "Comment Type",
+              },
+              {
+                "component": "comboBox",
+                "data": "@extraProps.labels",
+                "extraclass": "severity-combobox",
+                "multiple": false,
+                "placeholder": "",
+                'value': "@extraProps.severity",
+                "on-change": "changeSeverity",
+                "on-keyup": { "name": "changeSeverity", "eventArgs": { "keys": ["ENTER"] } },
+              },
+            ],
+          },
+          {
+            component: "div",
+            extraclass: 'edit-comment-rationale',
+            items: [
+              {
+                component: 'label',
+                label: 'Comment Rationale'
+              },
+              {
+                component: "textarea",
+                extraclass: "edit-textfield",
+                "id": "edit_comment_rationale",
+                "data": "@extraProps.commentRationale",
+                "on-keyup": {
+                  "name": "submitEditComment",
+                  "eventArgs": {
+                    "keys": [
+                      "ENTER"
+                    ]
+                  }
+                },
+                "stopKeyPropagation": true
+              },
+            ],
+          },
+        ],
+        target: {
+          key: 'class',
+          value: 'comment-block',
+          viewState: VIEW_STATE.APPEND,
+        },
+      },
+      {
+        component: "button",
+        "icon": "MultipleAdd",
+        "variant": "action",
+        "quiet": true,
+        "extraclass": "hover-item",
+        "title": "Accept with Modifications",
+        "on-click": "acceptWithModification",
+        target: {
+          key: 'title',
+          value: 'Reject comment',
+          viewState: VIEW_STATE.APPEND,
+        },
+      }
+    ],
+  },
+
+  controller: {
+    init: function () {
+      const reqComment = tcx.commentStore.getComment(this.getValue('commentId'))
+      this.setValue('extraProps', reqComment.extraProps)
+      this.setValue("labels", ['None', 'CRITICAL', 'MAJOR', 'SUBSTANTATIVE', 'ADMINISTRATIVE'])
+    },
+
+    sendAcceptWithModificationProps(args) {
+      this.next('updateExtraProps', args)
+    },
+
+    changeSeverity: function (args) {
+      this.setValue("severity", args.data)
+      this.next('updateExtraProps',
+        { 'severity': this.getValue("severity") }
+      )
+    },
+
+    changeCommentRationale: function () {
+      this.next('updateExtraProps',
+        { 'commentRationale': this.getValue("commentRationale") }
+      )
+    },
+
+    submitEditComment({ domEvent }: { domEvent?: KeyboardEvent } = {}) {
+      if (domEvent?.key === 'Enter') {
+        this.setValue('commentRationale', _.trim(this.getValue('commentRationale')))
+      }
+      if (this.getValue("originalCommentRationale") !== this.getValue("commentRationale")) {
+        this.setValue("originalCommentRationale", this.getValue("commentRationale"))
+        this.next('changeCommentRationale')
+      }
+    },
+
+    openMailTo() {
+      const mailToLink = `mailto:${this.getValue("userEmail")}`
+      tcx.util.openLink(mailToLink)
+    },
+
+    acceptWithModification() {
+      tcx.eventHandler.next(tcx.eventHandler.KEYS.APP_SHOW_DIALOG,
+        {
+          id: 'accept_with_modification_dialog',
+          args: {
+            onSuccess: (extraProps) => this.next('sendAcceptWithModificationProps', extraProps),
+          }
+        })
+    }
+  }
+}
+
+export default reviewComment
 ```
 
 ## カスタムダイアログに引数を渡す方法
