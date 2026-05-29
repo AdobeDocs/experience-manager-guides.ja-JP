@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: ffe43716d6f922cf6da9bd94244fc80a80d99b2f
+source-git-commit: efd7ab95f0ed7f35e99587a2f47eaeac7a330221
 workflow-type: tm+mt
-source-wordcount: '3384'
+source-wordcount: '3391'
 ht-degree: 8%
 
 ---
@@ -620,7 +620,8 @@ ht-degree: 8%
          - [Cloud Serviceの設定の変更](./install-conf-guide/download-install-config-override.md)
       - オンプレミス {#on-prem}
          - [AEM Guides オンプレミス 4.6.0以降のアップグレード &#x200B;](./install-conf-guide/upgrade-aemg-latest-version.md)
-         - [以前のバージョンのAEM Guides オンプレミスのアップグレード &#x200B;](./install-conf-guide/upgrade-aemg-prev-versions.md)
+         - [以前のバージョンのAEM Guides オンプレミスのアップグレード](./install-conf-guide/upgrade-aemg-prev-versions.md)
+         - [Experience Manager Guides リリースの設定の更新](./install-conf-guide/configuration-on-prem.md)
    - パフォーマンス最適化に関する推奨事項 {#performance-optimization-aemg}
       - [Cloud Serviceのパフォーマンスの最適化](./install-conf-guide/perf-optimization-cs.md)
       - [オンプレミス向け パフォーマンスの最適化](./install-conf-guide/perf-optimization-on-prem.md)
