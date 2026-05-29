@@ -4,10 +4,10 @@ description: AEM Guidesでメタデータプロパティの無視リストを設
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: f74c71d6a4a293bfbae55e9e57c62b7478d0a88a
+source-git-commit: 8e8b24bea8504ad9fcca1117bd9e7b400e757dff
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 1%
+source-wordcount: '251'
+ht-degree: 0%
 
 ---
 
@@ -15,12 +15,38 @@ ht-degree: 1%
 
 ファイルを編集すると、**ファイルのプロパティ**&#x200B;で使用可能なメタデータフィールドへの変更、またはドキュメント版のアスタリスク（*）をバックエンドトリガーに適用します。 システム生成のメタデータ更新がこのインジケーターに影響を与えるのを防ぐために、管理者はメタデータプロパティの無視リストを設定できます。
 
-設定ファイルを作成するには、[設定の上書き](download-install-config-override.md#)の手順を使用します。 設定ファイルで、次の（プロパティ）詳細を指定して、ダーティバージョン **のメタデータプロパティを無視オプションを設定します。**
+>[!BEGINTABS]
+
+>[!TAB Cloud Service]
+
+設定ファイルを作成するには、[設定の上書き](download-install-config-override.md#)の手順を使用します。 設定ファイルで、次の（プロパティ）詳細を指定して、ダーティバージョン **の**&#x200B;無視メタデータプロパティを設定します。
 
 
 | PID | プロパティキー | プロパティの値 |
 |---|------------|--------------|
 | `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.dirtychecker.ignoremetadata` | `<comma-separated list / array of metadata properties>` |
+
+>[!TAB  オンプレミス ]
+
+1. Adobe Experience Manager Web コンソールの設定ページを開きます。
+
+   設定ページにアクセスするためのデフォルトのURLは次のとおりです。
+
+   ```http
+   http://<server name>:<port>/system/console/configMgr
+   ```
+
+1. **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** バンドルを検索してクリックします。
+
+1. *XmlEditorConfig*&#x200B;設定で、**ダーティ バージョン** オプションのメタデータ プロパティを無視に移動します。
+
+   現在無視するように設定されているデフォルトのメタデータプロパティのリストを確認します。
+
+1. 要件に従ってメタデータプロパティを追加または削除します。
+1. **保存**&#x200B;を選択して、更新された設定を保存します。
+
+
+>[!ENDTABS]
 
 ## 無視リストのデフォルトのメタデータプロパティ
 

@@ -19,7 +19,7 @@ subfeature_v2:
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: e3a10752fa872baabf8cfc339510d3ea907a17d1
 workflow-type: tm+mt
 source-wordcount: 1929
 ht-degree: 0%
@@ -128,7 +128,7 @@ ht-degree: 0%
   >
   >動的ベースラインの場合の編集操作では、動的ベースラインの参照が実行時にラベルを使用して生成されるため、ベースラインのプロパティを編集できます。
 
-  ベースラインの![&#x200B; オプション &#x200B;](images/baseline-options.png){}
+  ベースラインの![&#x200B; オプション &#x200B;](images/baseline-options.png)
 
 ### 既存のベースラインで使用可能なアクション
 

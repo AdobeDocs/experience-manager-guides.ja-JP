@@ -11,14 +11,18 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 150
-ht-degree: 13%
+source-wordcount: 198
+ht-degree: 10%
 
 ---
 
 # フォルダーまたはアセットの後処理ステータスを追跡するAPI
+
+>[!NOTE]
+>
+> 最新のREST API エンドポイントの定義と関連する詳細については、`https://<aem-author-url>/libs/fmdita/clientlibs/api-docs/index.html`のSwagger ドキュメントを参照してください（`<aem-author-url>`をAEM サーバーのURLに置き換えます）。 この記事は2026年10月にアーカイブされる予定なので、今後Swagger ドキュメントを使用して最新のAPI情報を入手することをお勧めします。
 
 次に、アセットのステータスを取得するために非同期ジョブを開始するPOST メソッドを示します。
 

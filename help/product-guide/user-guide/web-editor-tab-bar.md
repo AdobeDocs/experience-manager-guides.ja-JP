@@ -16,9 +16,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 563
+source-wordcount: 566
 ht-degree: 0%
 
 ---
@@ -77,12 +77,12 @@ AIを活用したパワフルなツールは、スマートなヘルプとオー
    - **Cloud Services**: Cloud Servicesを使用している場合、**Assets** オプションを選択すると、AEM ナビゲーション ページに移動します。
 
    - **オンプレミスソフトウェア**: Adobe Experience Manager Guides（4.2.1以降）を使用している場合、**Assets** オプションを選択すると、Assets UIの現在のファイルパスに移動します。
-- **Workspace settings**: Workspace settings ダイアログに移動します。 詳しくは、[Workspace設定の設定](../cs-install-guide/workspace-settings.md)を参照してください。
+- **Workspace settings**: Workspace settings ダイアログに移動します。 詳しくは、[Workspace設定の設定](../install-conf-guide/workspace-settings.md)を参照してください。
 
 >[!NOTE]
 >
-> オンプレミス設定でAdobe Experience Manager Guidesを使用している場合、Workspace設定オプションは、その他のアクション メニューの下に&#x200B;**Settings**&#x200B;として引き続き表示されます。
+>バージョン 5.2より前のオンプレミス設定でAdobe Experience Manager Guidesを使用している場合、Workspace設定オプションは、その他のアクション メニューの下に&#x200B;**Settings**&#x200B;として引き続き表示されます。
 
-- **エディター設定**: エディター設定ダイアログに移動し、個々の作成者レベルでエディターの動作をカスタマイズできます。 オーサリング時に、タグ、コメント、その他のエディターレベルの設定の表示と動作を制御できます。 詳しくは、[&#x200B; エディター設定](./config-editor-settings.md)を参照してください。
+- **エディター設定**: エディター設定ダイアログに移動し、個々の作成者レベルでエディターの動作をカスタマイズできます。 オーサリング時に、タグ、コメント、その他のエディターレベルの設定の表示と動作を制御できます。 詳しくは、[&#x200B; エディター設定](../install-conf-guide/workspace-settings.md)を参照してください。
 
 **親トピック：**&#x200B;[&#x200B; エディターの概要](web-editor.md)

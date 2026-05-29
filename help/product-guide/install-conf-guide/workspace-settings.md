@@ -4,9 +4,9 @@ description: Experience Manager Guidesのエディターインターフェイス
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 10df0495-1d52-4c7c-a11a-059fe72d09f2
-source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
+source-git-commit: e41cf263f42e91bc384aa09fd1135b46e429c86a
 workflow-type: tm+mt
-source-wordcount: '2275'
+source-wordcount: '2212'
 ht-degree: 1%
 
 ---
@@ -15,8 +15,8 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> オンプレミス設定では、エディターのタブバーに「**設定**」オプションが表示されます。 Cloud Service設定では、このオプションの名前が&#x200B;**Workspace settings**&#x200B;に変更されました。 **エディター設定**&#x200B;で使用できる既存の設定オプションはすべて変更されません。
-> ![オンプレミス &#x200B;](assets/editor-settings-on-prem.png){width="650"}のエディター設定
+> バージョン 5.2より前のオンプレミス設定では、エディターのタブバーに「**設定**」オプションが表示されます。バージョン 5.2以降のCloud Serviceおよびオンプレミス設定の場合、このオプションの名前は&#x200B;**Workspace settings**&#x200B;に変更されました。**エディター設定**&#x200B;で使用できる既存の設定オプションはすべて変更されません。
+> ![&#x200B; オンプレミスのエディター設定](assets/editor-settings-on-prem.png){width="650"}
 
 
 エディターの[&#x200B; タブバー](../user-guide/web-editor-tab-bar.md)にある&#x200B;**Workspace settings** オプションは、管理者およびフォルダープロファイル管理者のみが使用でき、次の設定を行うことができます。
@@ -276,5 +276,5 @@ ht-degree: 1%
 
 
 
-これらのメタデータタグを表示する順序を定義することもできます。 これらのタグのデフォルトの順序を変更するには、点線バーを選択して、タグを目的の場所にドラッグ&amp;ドロップします。
+これらのメタデータタグを表示する順序を定義することもできます。これらのタグのデフォルトの順序を変更するには、点線バーを選択して、タグを目的の場所にドラッグ&amp;ドロップします。
 メタデータラベルは、エディターの&#x200B;**バージョン履歴** ダイアログボックスに同じ順序で表示されます。

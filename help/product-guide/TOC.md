@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: e1c94e180a89b8d68ea6e0812a2c576b272ffdf5
+source-git-commit: ffe43716d6f922cf6da9bd94244fc80a80d99b2f
 workflow-type: tm+mt
-source-wordcount: '3347'
+source-wordcount: '3384'
 ht-degree: 8%
 
 ---
@@ -129,6 +129,10 @@ ht-degree: 8%
             - [1月のリリースノート](./release-info/release-notes-2022-1-0.md)
       - オンプレミス/Managed Services {#on-prem-release-notes}
          - [[!DNL AEM Guides] リリース](./release-info/latest-release-info.md)
+         - 5.2.0 リリース {#520-release}
+            - [新機能](./release-info/whats-new-5-2-0.md)
+            - [修正された問題](./release-info/fixed-issues-5-2-0.md)
+            - [アップグレード手順](./release-info/upgrade-instructions-5-2-0.md)
          - 5.1.0 SP4 リリース {#510-sp4-release}
             - [修正された問題](./release-info/fixed-issues-5-1-0-sp4.md)
             - [アップグレード手順](./release-info/upgrade-instructions-5-1-0-sp4.md)
@@ -664,6 +668,7 @@ ht-degree: 8%
       - [テキストフィルターの設定](./install-conf-guide/conf-text-filters.md)
       - [&#x200B; ファイル参照ダイアログのフィルターの設定](./install-conf-guide/conf-custom-file-filters.md)
       - [記事ベースの公開用パッケージのインストール](./install-conf-guide/conf-article-based-publishing.md)
+      - [メタデータプロパティの無視リストの設定](./install-conf-guide/conf-metadata-prop.md)
       - Cloud Serviceのエディター設定 {#editor-cloud-settings}
          - [Cloud Serviceのオーサリング用にAIを活用したスマート提案を設定する](./install-conf-guide/conf-smart-suggestions.md)
          - [Cloud Serviceのコンテンツを検索するためのAIを活用したスマートヘルプの設定](./install-conf-guide/conf-smart-help.md)
@@ -671,8 +676,8 @@ ht-degree: 8%
          - [Cloud Serviceの貼り付けられたテーブルの表示を設定します](./install-conf-guide/conf-pasted-tables.md)
          - [Cloud Service用のPDF生成のシングルトピックの設定](./install-conf-guide/conf-pdf-generation-dita-ot.md)
          - [Cloud ServiceのWeb エディターでの翻訳機能の設定](./install-conf-guide/conf-translation-editor.md)
-         - [Cloud Serviceのメタデータプロパティの無視リストの設定](./install-conf-guide/conf-metadata-prop.md)
       - オンプレミスのエディター設定 {#editor-on-prem-settings}
+         - [新しいエディターを設定](./install-conf-guide/conf-new-editor-on-prem.md)
          - [オンプレミス用に追加の特殊文字を設定](/help/product-guide/web-editor/conf-additional-special-characters.md)
          - [オンプレミスのチェックインとチェックアウトのアイコンのタイトルの設定](./install-conf-guide/conf-checkin-checkout-title.md)
          - [オンプレミス用クエリのLimitReads数を設定します](./install-conf-guide/conf-query-limitreads.md)
@@ -714,9 +719,13 @@ ht-degree: 8%
       - [デスクトップベースのXML エディターの統合](./install-conf-guide/integrate-desktop-editors.md)
       - [Cloud Service用Workfrontの設定](./install-conf-guide/conf-workfront.md)
       - [翻訳の設定](./install-conf-guide/conf-translation.md)
+      - [オンプレミスの宛先コピーの初期化の設定](./install-conf-guide/conf-translation-copies-on-prem.md)
+      - [オンプレミスの新しいベースラインの設定](./install-conf-guide/conf-new-baseline-on-prem.md)
+      - [オンプレミスのピアリンクのスキップを設定する](./install-conf-guide/conf-skip-peer-links-on-prem.md)
    - 機能の拡張 {#aemg-customization}
       - [Cloud Serviceの検索と置換機能にカスタムインデックスをデプロイする](./install-conf-guide/custom-indexing-cs.md)
       - [オンプレミス の検索と置換機能の インデックスを再作成](./install-conf-guide/custom-indexing-on-prem.md)
+      - [オンプレミスの検索と置換機能の設定](./install-conf-guide/conf-find-replace-on-prem.md)
       - [AEM Sitesのコンポーネントマッピング](./install-conf-guide/component-mapping.md)
    - 付録 {#appendix}
       - [付録](./install-conf-guide/aemg-appendix.md)

@@ -19,9 +19,9 @@ subfeature_v2:
   - id: f3645292-50bd-4f4a-ac6a-29dcecdf8abe
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 0047d3917ffcc8b83a319be5b7c12780c0f2ef55
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 656
+source-wordcount: 686
 ht-degree: 0%
 
 ---
@@ -131,6 +131,11 @@ Experience Manager Guidesには、開発者がHTTP経由でコア機能にアク
 - カスタムアプリケーションや拡張機能の構築
 
 APIの使用状況、パラメーター、リクエストの例について詳しくは、Experience Manager Guides ドキュメントの&#x200B;**API リファレンス** セクションの関連トピックを参照してください。
+
+>[!NOTE]
+>
+> また、`https://<aem-author-url>/libs/fmdita/clientlibs/api-docs/index.html`の一般公開されているREST APIについては、**Swagger ドキュメント**&#x200B;を参照することもできます。 現在、Assets、ベースライン、レポートに関連するAPIのみがSwagger ドキュメントで使用できます。
+
 
 ## その他のリソース
 

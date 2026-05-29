@@ -17,9 +17,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 1599
+source-wordcount: 1606
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 >[!INFO]
 >
->2025.11.0 リリースから、**リポジトリ**&#x200B;の名前が&#x200B;**エクスプローラー**&#x200B;に変更されました。 オンプレミス設定の場合は、Experience Manager Guidesの5.1 リリースまで引き続きリポジトリとして使用できます。
+>Cloud Serviceの2025.11.0 リリースおよびオンプレミスの5.2 リリースから、**リポジトリ**&#x200B;の名前が&#x200B;**エクスプローラー**&#x200B;に変更されました。 5.2 バージョンより前のオンプレミス設定の場合は、引き続きリポジトリとして使用できます。
 
 Adobe Experience Manager Guidesには、DITA マップとBookmapの2つのマップテンプレートが用意されています。 独自のマップテンプレートを作成し、作成者と共有してマップファイルを作成することもできます。
 
