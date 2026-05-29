@@ -3,8 +3,11 @@ title: 例
 description: カスタマイズ例のリスト
 exl-id: 40cdc703-7a78-4979-a7b5-1158558d4868
 TQID: https://experienceleague.adobe.com/Fgry-byLX0-N5gxaBk2TiN9QyzSPTXLepzGiQ4w1hSU
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 82d95464acaa3d4d2c43a35197e40a606cd2cc49
 workflow-type: tm+mt
 source-wordcount: 533
@@ -17,7 +20,7 @@ ht-degree: 0%
 
 このパッケージでは、カスタマイズの例も提供しています（`guides_extension/src`で利用可能）。 以下は、それぞれの簡単な説明です。
 
-1. **コンテキストメニュー**：この例では、`file_options` コンテキストメニューをカスタマイズして、`Delete`および`Edit` オプションを削除し、`Duplicate` オプションを`Download` オプションに置き換えました。 [ コンテキストメニュー](./examples/file_options.ts)のコードサンプルをダウンロードします。
+1. **コンテキストメニュー**：この例では、`file_options` コンテキストメニューをカスタマイズして、`Delete`および`Edit` オプションを削除し、`Duplicate` オプションを`Download` オプションに置き換えました。 [&#x200B; コンテキストメニュー](./examples/file_options.ts)のコードサンプルをダウンロードします。
 
 ```typescript
 enum VIEW_STATE {
@@ -107,7 +110,7 @@ export default fileOptions
 ```
 
 1. **左パネル**：この例では、`left tab panel`をカスタマイズして、「TEST EXTENSION」というタイトルの別の`tab`と、ラベルが`Test Tab Panel`の対応する`tab panel`を作成しました。
-[左パネル ](./examples/left_panel_container.ts)のコードサンプルをダウンロードします。
+[左パネル &#x200B;](./examples/left_panel_container.ts)のコードサンプルをダウンロードします。
 
 ```typescript
 const tabLeftPanel = {
@@ -145,7 +148,7 @@ const tabLeftPanel = {
 export default tabLeftPanel
 ```
 
-1. **右側パネル**：この例では、`right tab panel`をカスタマイズして、「TEST EXTENSION」というタイトルの別の`tab`と、ラベルが`New Tab Panel`の対応する`tab panel`を作成しました。 [右側のパネル ](./examples/right_panel_container.ts)のコードサンプルをダウンロードします。
+1. **右側パネル**：この例では、`right tab panel`をカスタマイズして、「TEST EXTENSION」というタイトルの別の`tab`と、ラベルが`New Tab Panel`の対応する`tab panel`を作成しました。 [右側のパネル &#x200B;](./examples/right_panel_container.ts)のコードサンプルをダウンロードします。
 
 ```typescript
 const rightPanel = {
@@ -179,7 +182,7 @@ const rightPanel = {
 export default rightPanel
 ```
 
-1. **リポジトリパネル**: [ リポジトリパネル ](./examples/repository_panel.ts)のコードサンプルをダウンロードします。
+1. **リポジトリパネル**: [&#x200B; リポジトリパネル &#x200B;](./examples/repository_panel.ts)のコードサンプルをダウンロードします。
 
 ```typescript
 export enum VIEW_STATE2 {
@@ -256,7 +259,7 @@ export default {
 ```
 
 
-1. **ツールバー**：この例では、`Insert Element`、`Insert Paragraph`、`Insert Numbered List`、`Insert Bulleted List`のボタンを、これらすべてを含む単一の`More Insert Options` ボタンに置き換えました。 [ ツールバー](./examples/toolbar.ts)のコードサンプルをダウンロードします。
+1. **ツールバー**：この例では、`Insert Element`、`Insert Paragraph`、`Insert Numbered List`、`Insert Bulleted List`のボタンを、これらすべてを含む単一の`More Insert Options` ボタンに置き換えました。 [&#x200B; ツールバー](./examples/toolbar.ts)のコードサンプルをダウンロードします。
 
 ```typescript
 import { VIEW_STATE } from "./review_app_examples/review_comment"
@@ -377,7 +380,7 @@ const topbarExtend = {
 export default topbarExtend
 ```
 
-1. **メタデータパネルの「管理」ボタン**：この例では、選択したファイルが読み取り専用モードになっているときに無効になるように、**管理** ボタン（レポートページのメタデータパネルにある）をカスタマイズしました。 これにより、編集用ではないファイルのメタデータが誤って編集されるのを防ぐことができます。 メタデータパネル ](./examples/metadata_report_manage_button.ts)の[管理ボタンのコードサンプルをダウンロードします。
+1. **メタデータパネルの「管理」ボタン**：この例では、選択したファイルが読み取り専用モードになっているときに無効になるように、**管理** ボタン（レポートページのメタデータパネルにある）をカスタマイズしました。 これにより、編集用ではないファイルのメタデータが誤って編集されるのを防ぐことができます。 メタデータパネル [&#128279;](./examples/metadata_report_manage_button.ts)の管理ボタンのコードサンプルをダウンロードします。
 
 ```typescript
 const mapConsoleActionBar = {
@@ -706,7 +709,7 @@ const reviewComment = {
 export default reviewComment
 ```
 
-1. **コメント返信**：この例では、ユーザー名をユーザー情報（コメンターのフルネームとタイトルで構成）に置き換え、コメントヘッダーにmailTo アイコンを追加しました。 [ コメント返信](./examples/review_app_examples/comment_reply.ts)のコードサンプルをダウンロードします。
+1. **コメント返信**：この例では、ユーザー名をユーザー情報（コメンターのフルネームとタイトルで構成）に置き換え、コメントヘッダーにmailTo アイコンを追加しました。 [&#x200B; コメント返信](./examples/review_app_examples/comment_reply.ts)のコードサンプルをダウンロードします。
 
 ```typescript
 import { VIEW_STATE } from "./review_comment"
@@ -769,7 +772,7 @@ export default commentReply
 
    - `updatedProcessComments`関数は新しいコメントイベントごとに実行され、新しいコメントイベントを取得すると`setCommentId`が呼び出されます。
 
-[ インラインレビューパネル ](./examples/review_app_examples/inline_review_panel.ts)のコードサンプルをダウンロードします。
+[&#x200B; インラインレビューパネル &#x200B;](./examples/review_app_examples/inline_review_panel.ts)のコードサンプルをダウンロードします。
 
 ```typescript
 export const updatedProcessComments = function (data, topicIndex) {
@@ -859,7 +862,7 @@ export default inline_extend
 ```
 
 
-1. **トピックレビューパネル**：このファイルは&#x200B;**インラインレビューパネル**&#x200B;を拡張し（前に示したように）、追加されたカスタマイズがレビューアプリ側でも機能するようになります。 [ トピックレビューパネル ](./examples/review_app_examples/topic_reviews.ts)のコードサンプルをダウンロードします。
+1. **トピックレビューパネル**：このファイルは&#x200B;**インラインレビューパネル**&#x200B;を拡張し（前に示したように）、追加されたカスタマイズがレビューアプリ側でも機能するようになります。 [&#x200B; トピックレビューパネル &#x200B;](./examples/review_app_examples/topic_reviews.ts)のコードサンプルをダウンロードします。
 
 ```typescript
 import inline_extend from './inline_review_panel';
@@ -992,7 +995,7 @@ const acceptWithModification = {
 export default acceptWithModification
 ```
 
-1. **リビジョンを保存**：これは、既存のダイアログを更新する方法の例です。 「公開」ボタンを追加します。 ダイアログのコンテンツを変更できます。 ここでjsonを参照してください：[`save_revision`](./jsons/dialogs/save_revision.json)。 [ リビジョンを保存](./examples/save_revision.ts)のコードサンプルをダウンロードします。
+1. **リビジョンを保存**：これは、既存のダイアログを更新する方法の例です。 「公開」ボタンを追加します。 ダイアログのコンテンツを変更できます。 ここでjsonを参照してください：[`save_revision`](./jsons/dialogs/save_revision.json)。 [&#x200B; リビジョンを保存](./examples/save_revision.ts)のコードサンプルをダウンロードします。
 
 ```typescript
 enum VIEW_STATE {
@@ -1026,5 +1029,5 @@ export default saveRevision
 
 カスタマイズ前とカスタマイズ後のレビューパネルを次に示します。
 
-![ レビューパネル；](./imgs/review_panel.png)
+![&#x200B; レビューパネル；](./imgs/review_panel.png)
 ![変更ダイアログで同意](./imgs/customised_review_panel.png)
