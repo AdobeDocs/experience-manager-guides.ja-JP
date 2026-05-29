@@ -5,9 +5,9 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 8c551c37-2bfd-471b-bb72-514fabbc0bf2
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5af3356dff3c42b8a93ed97b5ee20b23976769a4
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '114'
 ht-degree: 3%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 3%
 
 1. *com.adobe.fmdita.config.ConfigManager* バンドルを検索して選択します。
 
-1. 必要に応じて設定`Replicate DITA assets`を構成します。 デフォルトでは、設定は有効になっています。
+1. 必要に応じて、設定&#x200B;**DITA アセットのレプリケート** （`publish.replicate`）を設定します。 デフォルトでは、設定は有効になっています。
 
 
    ![](assets/dita-assets-replication.png){width="350"}

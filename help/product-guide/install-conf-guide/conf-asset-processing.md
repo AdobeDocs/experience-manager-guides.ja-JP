@@ -4,9 +4,10 @@ description: Cloud Serviceのアセット処理を設定する方法を説明し
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 0b66a515-d8f1-4ea6-913f-e152ae114698
+source-git-commit: 5af3356dff3c42b8a93ed97b5ee20b23976769a4
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '121'
 ht-degree: 3%
 
 ---
@@ -39,7 +40,7 @@ Experience Manager Guidesの設定に基づいて、Cloud Serviceまたはオン
 
 1. *com.adobe.fmdita.config.ConfigManager* バンドルを検索して選択します。
 
-1. 必要に応じて設定`Enable Guides asset processing scheduled job`を構成します。 デフォルトでは、設定は有効になっています。
+1. 必要に応じて、**ガイド アセット処理スケジュール ジョブ** （`enable.asset.processing.scheduler`）の設定を構成します。 デフォルトでは、設定は有効になっています。
 
 1. 「**保存**」を選択します。
 

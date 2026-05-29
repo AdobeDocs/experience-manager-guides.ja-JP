@@ -6,19 +6,20 @@ role: Developer
 level: Experienced
 exl-id: feba6d8e-c363-4360-af33-92a01dcf6672
 TQID: https://experienceleague.adobe.com/rGPpMIf5X5lfZZy2ZWk9lizd2E7UyRT8BLkSBb0o320
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 591
-ht-degree: 12%
+source-wordcount: 639
+ht-degree: 11%
 
 ---
 
 # アセットの一括処理を開始するAPI
+
+>[!NOTE]
+>
+> 最新のREST API エンドポイントの定義と関連する詳細については、`https://<aem-author-url>/libs/fmdita/clientlibs/api-docs/index.html`のSwagger ドキュメントを参照してください（`<aem-author-url>`をAEM サーバーのURLに置き換えます）。 この記事は2026年10月にアーカイブされる予定なので、今後Swagger ドキュメントを使用して最新のAPI情報を入手することをお勧めします。
 
 指定されたパスに対して一括アセット処理を開始するPOST メソッド。 このAPIは、JCR ベースとデータベースベースの両方のアセット処理をサポートします。 指定されたパスとそのサブパスの下にあるすべてのアセットを処理する非同期ジョブが開始されます。 開始すると、APIは一意のprocessingIDを返し、これを使用してジョブステータスを追跡できます。
 
@@ -129,7 +130,7 @@ ht-degree: 12%
 
 ## ジョブのログを表示
 
-特定のジョブ IDのログを取得するGET メソッド。 このAPIは、アセット処理ジョブのログを取得します。 processingidは必須です。 APIには、オフセットと制限のパラメーターと、テール戦略が用意されています。
+指定されたジョブ IDのログを取得するGET メソッド。 このAPIは、アセット処理ジョブのログを取得します。 processingidは必須です。 APIには、オフセットと制限のパラメーターと、テール戦略が用意されています。
 
 **リクエスト URL**
 
