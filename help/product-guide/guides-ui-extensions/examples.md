@@ -8,12 +8,13 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 18a1e586774da61e19055f8e4eb68a507192205c
+source-git-commit: 82d95464acaa3d4d2c43a35197e40a606cd2cc49
 workflow-type: tm+mt
-source-wordcount: 563
+source-wordcount: 533
 ht-degree: 0%
 
 ---
+
 
 # 例
 
@@ -493,7 +494,7 @@ export default {
 ```
 
 1. **コメントを確認**：この例では、ユーザー名をユーザー情報（コメンターのフルネームとタイトルから成る）に置き換え、一意のコメント ID、mailTo アイコン、およびコメントの重大度と根拠を言及するための入力フィールドを追加しました。
-また、ダイアログを開くXMLEditor側のコメントに`accept with modification` ボタンを追加しました。 [Review Comment](./examples/review_app_examples/review_comment.ts)のコードサンプルをダウンロードします。
+また、ダイアログを開くXMLEditor側のコメントに`accept with modification` ボタンを追加しました。[Review Comment](./examples/review_app_examples/review_comment.ts)のコードサンプルをダウンロードします。
 
 ```typescript
 export enum VIEW_STATE {
