@@ -6,22 +6,14 @@ role: Admin
 level: Experienced
 exl-id: d48709b8-f5b2-4545-ac65-838c5d8b1bae
 TQID: https://experienceleague.adobe.com/mzWOXyP0Zr-tScAYAc4R1BBm9LaFKVhOIRbbb9DrVRQ
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 9555f90917819727b77daea4520b6bba2350129f
 workflow-type: tm+mt
-source-wordcount: 947
+source-wordcount: 951
 ht-degree: 2%
 
 ---
@@ -71,7 +63,7 @@ AEM サイトから2つの編集可能なテンプレートを選択して設定
 
 - 必須プロパティを持つテキストコンポーネントを追加します：text=&quot;$category.html$&quot;。
 
-  ![&#x200B; テキストコンポーネントの追加](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component.png){width="650"}
+  ![ テキストコンポーネントの追加](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component.png){width="650"}
 
 - 通常は、ドキュメント内のセクションやトピックへのリンクなどのナビゲーション要素が含まれます。
 - ブランディング、ヘッダー、フッター、その他のデザイン要素を含めるようにカスタマイズできます。
@@ -96,15 +88,15 @@ AEM サイトから2つの編集可能なテンプレートを選択して設定
 
 **コンテナコンポーネント：**
 
-![&#x200B; コンテナコンポーネントの追加](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-component.png){width="650"}
+![ コンテナコンポーネントの追加](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-component.png){width="650"}
 
 >[!NOTE]
 >
 > `wcm/foundation/components`の下のsling:resourceTypeを使用しているコンポーネントが、対応する`core/wcm/components`に移行されていることを確認します。
 
-同じテンプレートの構造に同じ（コンテナとテキストコンポーネント）を追加します。
+同じテンプレートの構造に同じコンテナコンポーネントを追加します。
 
-![&#x200B; コンテナとテキストコンポーネントの追加](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-and-text-component.png){width="650"}
+![ コンテナとテキストコンポーネントの追加](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-and-text-component.png){width="650"}
 
 ## カスタマイズされたテンプレートでのGuides コンポーネントのレンダリング
 
@@ -114,7 +106,7 @@ AEM サイトから2つの編集可能なテンプレートを選択して設定
 
 | 機能 | コンポーネント名 | 説明 | おすすめのテンプレート |
 |---|---|---|---|
-| 目次 | guidessidenavigation | DITA マップから完全な目次をレンダリング | ドキュメントコンテナ |
+| 目次 | guidessidenavigation | DITA マップから完全な目次をレンダリング | トピックページ |
 | ページリダイレクト | childredirect | マップの最初のトピックページにリダイレクトします | ドキュメントコンテナ |
 | ミニ目次 | minitoc | 現在のトピックの目次を表示 | トピックページ |
 | 最終更新日 | pageproperty | 最終変更日を表示 | トピックページ |
@@ -135,7 +127,7 @@ AEM サイトから2つの編集可能なテンプレートを選択して設定
 
 1. **テンプレートを編集：**
 
-   1. **エディターモード**&#x200B;で&#x200B;**製品ページ**&#x200B;を開きます。
+   1. エディターモードで&#x200B;**コンテナページテンプレート**&#x200B;と&#x200B;**トピックページテンプレート**&#x200B;を開きます。
    2. 「**テンプレートを編集**」を選択します（conf/settings/wcm/templates/structure.htmlなどのURLが開きます）。
 
       ![テンプレートの編集](/help/product-guide/knowledge-base/kb-articles/assets/publishing/edit-template.png){width="650"}
@@ -149,9 +141,9 @@ AEM サイトから2つの編集可能なテンプレートを選択して設定
 
 3. **変更を保存：**&#x200B;必要なクライアントライブラリを追加した後にテンプレートを保存します。
 
-   ![&#x200B; クライアントライブラリを追加](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-client-libraries.png){width="650"}
+   ![ クライアントライブラリを追加](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-client-libraries.png){width="650"}
 
 
 >[!NOTE]
 >
-> 実稼動環境にデプロイする前に、テンプレートが実稼動以外の環境でテストされていることを確認します。<br><br>詳細については、[AEM Guides](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/overview)および[AEM Sites](https://experienceleague.adobe.com/ja/docs/experience-manager-core-components/using/get-started/authoring)の公式ドキュメントを参照してください。
+> 実稼動環境にデプロイする前に、テンプレートが実稼動以外の環境でテストされていることを確認します。<br><br>詳細については、[AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)および[AEM Sites](https://experienceleague.adobe.com/ja/docs/experience-manager-core-components/using/get-started/authoring)の公式ドキュメントを参照してください。
