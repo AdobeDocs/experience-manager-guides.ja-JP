@@ -14,9 +14,9 @@ feature_v2:
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 6d10f55ace72536266723331313c73ce33cddcf1
 workflow-type: tm+mt
-source-wordcount: 705
+source-wordcount: 698
 ht-degree: 1%
 
 ---
@@ -53,9 +53,9 @@ ht-degree: 1%
       ![&#x200B; アクセス リポジトリ情報を選択](/help/product-guide/knowledge-base/kb-articles/assets/publishing/access-repo.png){width="350"}
 
    3. 提供されたユーザー名とパスワードを使用して、リポジトリをローカルシステムに複製します（必要に応じてパスワードを生成します）。
-2. **パッケージをMaven バンドルに追加：**
-   1. ローカルに複製したリポジトリーで、新しいMaven バンドルを作成するか、既存のバンドルに追加します。
-   2. Maven プロジェクトに構造`/jcr_root/apps/fmdita/` インストールが存在することを確認します。
+2. **プロジェクト モジュールにパッケージを追加：**
+   1. ローカルに複製したリポジトリで、新しいプロジェクトモジュールを作成するか、既存のモジュールに追加します。
+   2. 構造`/jcr_root/apps/fmdita/` インストールが存在することを確認します。
 
       Maven プロジェクトの![構造](/help/product-guide/knowledge-base/kb-articles/assets/publishing/maven-structure.png){width="650"}
 
@@ -65,8 +65,7 @@ ht-degree: 1%
 3. **filters.xmlの更新：**
 
    1. 親コンテンツディレクトリのMETA-INF フォルダーにあるfilters.xml ファイルを開きます。
-   2. 次のフィルターを追加します：filter root=`/apps/fmdita` mode=`merge`/
-
+   2. 次のフィルターを追加します：`<filter root=/apps/fmdita  mode=merge/>`。
 
       ![&#x200B; フィルターを追加](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-filter-xml.png){width="650"}
 

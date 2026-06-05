@@ -19,9 +19,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 9555f90917819727b77daea4520b6bba2350129f
 workflow-type: tm+mt
-source-wordcount: 947
+source-wordcount: 951
 ht-degree: 2%
 
 ---
@@ -102,7 +102,7 @@ AEM サイトから2つの編集可能なテンプレートを選択して設定
 >
 > `wcm/foundation/components`の下のsling:resourceTypeを使用しているコンポーネントが、対応する`core/wcm/components`に移行されていることを確認します。
 
-同じテンプレートの構造に同じ（コンテナとテキストコンポーネント）を追加します。
+同じテンプレートの構造に同じコンテナコンポーネントを追加します。
 
 ![&#x200B; コンテナとテキストコンポーネントの追加](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-and-text-component.png){width="650"}
 
@@ -114,7 +114,7 @@ AEM サイトから2つの編集可能なテンプレートを選択して設定
 
 | 機能 | コンポーネント名 | 説明 | おすすめのテンプレート |
 |---|---|---|---|
-| 目次 | guidessidenavigation | DITA マップから完全な目次をレンダリング | ドキュメントコンテナ |
+| 目次 | guidessidenavigation | DITA マップから完全な目次をレンダリング | トピックページ |
 | ページリダイレクト | childredirect | マップの最初のトピックページにリダイレクトします | ドキュメントコンテナ |
 | ミニ目次 | minitoc | 現在のトピックの目次を表示 | トピックページ |
 | 最終更新日 | pageproperty | 最終変更日を表示 | トピックページ |
@@ -135,7 +135,7 @@ AEM サイトから2つの編集可能なテンプレートを選択して設定
 
 1. **テンプレートを編集：**
 
-   1. **エディターモード**&#x200B;で&#x200B;**製品ページ**&#x200B;を開きます。
+   1. エディターモードで&#x200B;**コンテナページテンプレート**&#x200B;と&#x200B;**トピックページテンプレート**&#x200B;を開きます。
    2. 「**テンプレートを編集**」を選択します（conf/settings/wcm/templates/structure.htmlなどのURLが開きます）。
 
       ![テンプレートの編集](/help/product-guide/knowledge-base/kb-articles/assets/publishing/edit-template.png){width="650"}
