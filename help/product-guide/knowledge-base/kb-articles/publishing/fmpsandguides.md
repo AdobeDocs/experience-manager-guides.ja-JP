@@ -47,7 +47,7 @@ AEM GuidesおよびFMPSのインストールと設定については、次を参
 
 ### FMPS
 
-FMPSのインストールについては、[YouTubeのリンク &#x200B;](https://www.youtube.com/watch?v=2deelyM5VA8&t)または[FMPSのインストールと設定](https://help.adobe.com/en_US/framemaker/server/index.html#t=fmps-user-guide%2Finstall_config_fmps.html%23install_config_fmps&rhtocid=_2)を参照できます
+FMPSのインストールについては、[YouTubeのリンク &#x200B;](https://www.youtube.com/watch?v=2deelyM5VA8&t)または[FMPSのインストールと設定](https://help.adobe.com/ja_JP/framemaker/server/index.html#t=fmps-user-guide%2Finstall_config_fmps.html%23install_config_fmps&rhtocid=_2)を参照できます
 
 ## 必要な設定
 
