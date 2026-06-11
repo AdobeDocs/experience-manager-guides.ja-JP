@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: efd7ab95f0ed7f35e99587a2f47eaeac7a330221
+source-git-commit: 5f626c210e74c6d11e2441f719cfbfeb33bf55c5
 workflow-type: tm+mt
-source-wordcount: '3391'
+source-wordcount: '3406'
 ht-degree: 8%
 
 ---
@@ -237,6 +237,7 @@ ht-degree: 8%
          - [エディターからMarkdown ドキュメントを作成する](./user-guide/web-editor-markdown-topic.md)
          - [コンテンツに引用を追加する](./user-guide/web-editor-apply-citations.md)
          - [&#x200B; データソースからのデータを使用](./user-guide/web-editor-content-snippet.md)
+         - {hide-from-toc}[Git コネクタ （Beta）を使用したコンテンツの読み込み](./user-guide/web-editor-git-connector.md)
          - [ドキュメントの状態](./user-guide/web-editor-document-states.md)
          - [ラベルを使用](./user-guide/web-editor-use-label.md)
          - [エディター設定](./user-guide/config-editor-settings.md)
@@ -685,6 +686,7 @@ ht-degree: 8%
       - データソースコネクタ {#data-source}
          - [ユーザーインターフェイスからのデータソースコネクタの設定](./install-conf-guide/conf-data-source-connector-tools.md)
          - [Cloud Serviceのデータソースコネクタの設定](./install-conf-guide/conf-data-source-connector-cs.md)
+         - {hide-from-toc}[&#x200B; ユーザーインターフェイスからGit コネクタを作成および設定](./install-conf-guide/conf-git-connector.md)
    - グローバルレベルおよびフォルダーレベルのプロファイル {#global-folder-profiles}
       - [&#x200B; グローバルまたはフォルダーレベルのプロファイルを設定](./install-conf-guide/conf-profiles.md)
    - トピックとマップのテンプレート {#topic-map-template}
