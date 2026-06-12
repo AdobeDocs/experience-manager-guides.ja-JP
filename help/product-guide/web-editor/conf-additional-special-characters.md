@@ -3,9 +3,10 @@ title: Web エディターのツールバーで追加の特殊文字を設定す
 description: AEM Guidesのweb エディターで特殊文字を追加する方法について説明します。
 feature: Web Editor
 role: User
-source-git-commit: 2198b9c77a0dfa888edbce5994da4721cb6127e6
+exl-id: 4007eb03-c100-4892-b293-f22b3f0082e2
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
