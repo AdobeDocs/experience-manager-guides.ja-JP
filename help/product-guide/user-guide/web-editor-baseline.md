@@ -21,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: e3a10752fa872baabf8cfc339510d3ea907a17d1
 workflow-type: tm+mt
-source-wordcount: 1929
+source-wordcount: 1903
 ht-degree: 0%
 
 ---
@@ -141,7 +141,7 @@ ht-degree: 0%
 ![&#x200B; ベースラインの複製](images/baseline-duplicate.png){width="300"}
 *ラベルに基づいてベースラインを複製するか、正確なコピーを作成します。*
 
-1. ベースラインのオプションメニューから「**複製**」を選択します。 「**ベースラインを複製**」ダイアログボックスが開きます。
+1. ベースラインのオプションメニューから「**複製**」を選択します。「**ベースラインを複製**」ダイアログボックスが開きます。
 >[!NOTE]
 >
 > ベースラインのデフォルト名は`<selected baseline name>`_suffixです（sample-baseline_1など）。 必要に応じて名前を変更できます。
