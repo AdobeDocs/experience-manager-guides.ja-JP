@@ -4,9 +4,10 @@ description: テキストフィルターの設定方法を学ぶ
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 08502168-a995-44bc-9ce3-c3e562714c06
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '616'
 ht-degree: 0%
 
 ---

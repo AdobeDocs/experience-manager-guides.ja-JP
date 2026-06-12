@@ -4,9 +4,10 @@ description: Experience Manager GuidesでのWorkfrontの設定方法を説明し
 feature: Authoring
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 694e9eeb-59a7-43e3-89b0-510b86be1f42
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '603'
 ht-degree: 2%
 
 ---
@@ -37,7 +38,7 @@ Experience Manager Guidesでの[Adobe Workfront統合](../user-guide/workfront-i
 >[!NOTE]
 >
 > * 上記の表では、選択肢は、**タスクタイプ** フィールドで使用可能なオプションを表しています。 各オプションについて、**タスク名**&#x200B;と&#x200B;**タスク値**&#x200B;を指定する必要があります。 各タスクタイプの名前と値は、上記の表に記載されているとまったく同じである必要があります。 例えば、タスクタイプ Authorの場合、**Authoring**&#x200B;を名前として、**AUTHOR**&#x200B;を対応する値として指定します。
-> * オンプレミスサービスを使用する場合は、電子メール通知で解決されたタスクリンクを正しく受信するために、`localhost`Day CQ Link Externalizer **設定で**&#x200B;が正しいサーバーアドレスに置き換えられていることを常に確認してください。
+> * オンプレミスサービスを使用する場合は、電子メール通知で解決されたタスクリンクを正しく受信するために、**Day CQ Link Externalizer**&#x200B;設定で`localhost`が正しいサーバーアドレスに置き換えられていることを常に確認してください。
 > * Workfrontでレビュータスクを作成する場合、ユーザー（作成者またはレビューアー）は&#x200B;**workflow-users** グループに属している必要があります。 さらに、**作成者**&#x200B;として&#x200B;**content-authors**&#x200B;および&#x200B;**authors** グループに参加する必要がありますが、**レビュアー**&#x200B;として&#x200B;**レビューアー** グループに参加する必要があります。
 
 
