@@ -1,67 +1,68 @@
 ---
-title: Smarter PDF Publishing with Native PDF
-description: This expert session covers how Native PDF can  be used to create DITA ready PDF without use of advance CSS or XSLT expertise instead using low code technology for generating PDF
-keywords: DITA PDF publishing, AEM Guides, Native PDF, DITA to PDF, DITA publishing workflow, PDF automation, metadata-driven publishing, DITA templates
-source-git-commit: 1ae89da4d2638e375f684c187ef68389baa5a5bc
+title: ネイティブPDFによる、よりスマートなPDFの公開
+description: このエキスパートセッションでは、ネイティブPDFを使用して、高度なCSSやXSLTの専門知識を使用せずに、PDFを生成するためのローコードテクノロジーを使用してDITA対応PDFを作成する方法について説明します
+keywords: DITA PDF パブリッシング，AEM Guides, ネイティブ PDF, DITAからPDFへ，DITA パブリッシングワークフロー，PDFの自動処理，メタデータドリブン型パブリッシング，DITA テンプレート
+exl-id: 763ca6fb-1e5a-4676-9684-879c13ba9a8e
+source-git-commit: 2fde91e85c4283d114b29f77a38bae6d67e60112
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '266'
 ht-degree: 3%
 
 ---
 
-# Native PDFを使用した、よりスマートなPDF公開
+# ネイティブPDFによる、よりスマートなPDFの公開
 
-In this session we discovered how to enhance your DITA to PDF publishing workflow using advanced Native PDF capabilities in AEM Guides. This session demonstrates how to automate PDF customization with metadata, branding, and localization—reducing the need for multiple DITA publishing templates. Learn how these powerful features help DITA teams publish smarter, faster, and at scale.
+このセッションでは、AEM Guidesの高度なネイティブPDF機能を使用して、DITAからPDFへの公開ワークフローを強化する方法について説明しました。 このセッションでは、メタデータ、ブランディング、ローカライズによってPDFのカスタマイズを自動化する方法を説明し、複数のDITA公開テンプレートの必要性を減らします。 DITA チームがよりスマートかつ迅速に、大規模に公開するために、これらの強力な機能がどのように役立つのかをご確認ください。
 
 
-## Session recording
+## セッション録画
 
 >[!VIDEO](https://video.tv.adobe.com/v/3457489/?quality=12&learn=on)
 
 
 ## ハイライト
 
-- **Date** - April 03, 2025
-- **Number of attendees** - 70+
-- **Duration** - 60 minutes
-- **Audience** - Customers, partners, and Adobe employees
+- **日付** - 2025年4月3日
+- **参加者数** - 70人以上
+- **期間** - 60分
+- **Audience** – お客様、パートナー、およびAdobeの従業員
 
 
 ## 重要ポイント
 
-In this session, we covered:
-- ブランドに基づく表紙の動的な更新
-- Using map and topic metadata in PDF content and document properties
-- Dynamically updating static text in PDFs based on selected language
-- Implementing web-based custom fonts for better styling
-- Add Static custom  page layout directly into your PDF
-- Highlighting the latest changes in Native PDF
+このセッションでは、次のことについて解説しました。
+- ブランドに基づいて表紙を動的に更新
+- PDFのコンテンツプロパティおよびドキュメントプロパティでのマップおよびトピックメタデータの使用
+- 選択した言語に基づいてPDFの静的テキストを動的に更新する
+- web ベースのカスタムフォントを実装し、スタイルを向上
+- 静的カスタムページレイアウトを直接PDFに追加
+- Adobe Native PDFの最新の変更点を確認する
 
 
 ## 関連リソース
 
-- [Native PDF Essentials Expert Session](../expert-sessions/native-pdf-publishing-essentials-feb23.md)
-- [Add Branding to Bookmap header](../kb-articles/publishing/add-branding-to-bookmap-content-header.md)
-- [Add custom font and web-font](../kb-articles/publishing/add-custom-font-native-pdf.md)
+- [Adobe PDF Essentialsに関するエキスパートセッション](../expert-sessions/native-pdf-publishing-essentials-feb23.md)
+- [Bookmap ヘッダーにブランディングを追加](../kb-articles/publishing/add-branding-to-bookmap-content-header.md)
+- [カスタムフォントとweb フォントの追加](../kb-articles/publishing/add-custom-font-native-pdf.md)
 
-- [PDF パブリッシングでのブックマップの目次の生成](../kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
+- [PDF パブリッシングでのBookmapの目次の生成](../kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
 
 
 ### ドキュメント
 
 - [一般的なユースケース](../../native-pdf/stylesheet.md)
-- [Auto Barcode generation](../../native-pdf/add-barcode.md)
+- [自動バーコード生成](../../native-pdf/add-barcode.md)
 
 
-### Community Forum
+### コミュニティフォーラム
 
-- For session-specific community interactions on Experience League, visit  [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=ja).
-
-
-
+- Experience Leagueに関するセッション固有のコミュニティインタラクションについては、[AEM Guides フォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=ja)をご覧ください。
 
 
 
-## Contact us
 
-For any queries, send us an email at <techcomm@adobe.com>
+
+
+## さらに詳しく
+
+ご質問がある場合は、<techcomm@adobe.com>にメールをお送りください

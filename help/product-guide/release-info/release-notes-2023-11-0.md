@@ -102,7 +102,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 1. APIはjobIdを返します。 ジョブのステータスを確認するには、ジョブ IDを持つGET リクエストを同じエンドポイントに送信できます。 `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
 （例：`http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）
 
-1. ジョブが完了すると、以前のGET リクエストは正常に応答します。 何らかの理由でジョブが失敗した場合は、サーバーログから失敗が確認できます。
+1. ジョブが完了すると、前のGET リクエストが成功して応答します。 何らかの理由でジョブが失敗した場合は、サーバーログから失敗が確認できます。
 
 1. 手順1で変更した場合は、デフォルト値または以前の既存の値`queryLimitReads`に戻します。
 
