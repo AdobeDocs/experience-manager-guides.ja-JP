@@ -3,9 +3,10 @@ title: Web エディターのツールバーで追加の特殊文字を設定す
 description: AEM Guidesのweb エディターで特殊文字を追加する方法について説明します。
 feature: Web Editor
 role: User
-source-git-commit: 2198b9c77a0dfa888edbce5994da4721cb6127e6
+exl-id: 4007eb03-c100-4892-b293-f22b3f0082e2
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
@@ -54,10 +55,10 @@ symbols.json ファイルの構造を以下に示します。
 
 これにより、特殊文字ダイアログに別のカテゴリが追加されます。
 
-![特殊シンボルカテゴリ &#x200B;](assets/special-char-category.png)
+![特殊シンボルカテゴリ ](assets/special-char-category.png)
 
 ![特殊文字を挿入](assets/insert-special-char.png)
 
 >[!MORELIKETHIS]
 >
->+ [&#x200B; インストールおよび設定ガイド &#x200B;](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/3-6/XML-Documentation-for-Adobe-Experience-Manager_Installation-Configuration-Guide_EN.pdf)
+>+ [ インストールおよび設定ガイド ](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/3-6/XML-Documentation-for-Adobe-Experience-Manager_Installation-Configuration-Guide_EN.pdf)

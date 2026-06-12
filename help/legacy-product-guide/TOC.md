@@ -21,7 +21,7 @@ ht-degree: 8%
    - はじめに {#about-aem-guide}
       - [約 [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides]の機能と主な機能 {#aemg-works-features}
-         - [&#x200B; [!DNL AEM Guides] の仕組み](./user-guide/intro-how-dxml-works.md)
+         - [ [!DNL AEM Guides] の仕組み](./user-guide/intro-how-dxml-works.md)
          - [主な機能 [!DNL AEM Guides] 個](./user-guide/intro-dxml-features.md)
    - コンテンツを管理 {#manage-content}
       - [主要な概念、役割と権限、前提条件](./user-guide/authoring.md)
@@ -142,5 +142,5 @@ ht-degree: 8%
       - [コンテンツ再利用レポート](./user-guide/reports-content-reuse.md)
       - [コンバージョンステータスレポート](./user-guide/reports-convertion-status.md)
       - [復帰ファイルのバージョン履歴レポート](./user-guide/reports-reverted-file-version-history.md)
-- [ユーザーガイド（新しいUI）](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/user-guide/about-aemg/intro)
+- [ユーザーガイド（新しいUI）](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/about-aemg/intro)
 
