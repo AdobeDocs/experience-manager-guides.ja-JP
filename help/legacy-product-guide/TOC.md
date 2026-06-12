@@ -142,5 +142,5 @@ ht-degree: 8%
       - [コンテンツ再利用レポート](./user-guide/reports-content-reuse.md)
       - [コンバージョンステータスレポート](./user-guide/reports-convertion-status.md)
       - [復帰ファイルのバージョン履歴レポート](./user-guide/reports-reverted-file-version-history.md)
-- [ユーザーガイド（新しいUI）](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/about-aemg/intro)
+- [ユーザーガイド（新しいUI）](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/user-guide/about-aemg/intro)
 

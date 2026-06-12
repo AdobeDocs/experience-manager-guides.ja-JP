@@ -29,7 +29,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> Adobe Experience Managerでオーサーインスタンスとパブリッシュインスタンスを設定する方法について詳しくは、[&#x200B; オーサーとパブリッシュアーキテクチャの概要](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites)を参照してください。
+> Adobe Experience Managerでオーサーインスタンスとパブリッシュインスタンスを設定する方法について詳しくは、[&#x200B; オーサーとパブリッシュアーキテクチャの概要](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=ja#prerequisites)を参照してください。
 
 Experience Manager Guidesのバルクアクティベーション機能を利用すれば、コンテンツのオーサリングからパブリッシングインスタンスへの移行を迅速かつ容易におこなえます。 バルクアクティベーション機能では、次のことを柔軟に実行できます。
 
