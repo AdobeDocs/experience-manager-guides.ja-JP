@@ -6,17 +6,10 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 TQID: https://experienceleague.adobe.com/ZX3-rirhXTcufDkFQOF12vj3uh28gSfIpxFwlOQF-Yk
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: afb45297-4313-4f67-818e-bc0b03abe086
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: afb45297-4313-4f67-818e-bc0b03abe086id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 374
@@ -30,7 +23,7 @@ AEM Guidesは、Web エディターと統合された強力な記事ベースの
 
 記事ベースの出力を公開するAEM サイトを作成するには、次の手順を実行します。
 
-1. [XML Documentation ソフトウェア配布ポータル &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/jp/general.html)から&#x200B;**Cloud Service コンポーネントコンテンツパッケージ for Adobe**&#x200B;をダウンロードします。
+1. [XML Documentation ソフトウェア配布ポータル ](https://experience.adobe.com/#/downloads/content/software-distribution/jp/general.html)から&#x200B;**Cloud Service コンポーネントコンテンツパッケージ for Adobe**&#x200B;をダウンロードします。
 1. AEM Package Managerを開きます。 パッケージマネージャーにアクセスするためのデフォルト URLは`https://<hostname>/crx/packmgr/index.jsp`です
 1. Cloud Service用XML Documentation コンポーネントコンテンツパッケージをアップロードし、インストールします。
 1. [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/jp/general.html)から`Knowledge-base-template-for-article-based-publishing-for-cloud-service.zip` ファイルをダウンロードします。
@@ -54,4 +47,4 @@ AEM Guidesは、Web エディターと統合された強力な記事ベースの
 
 AEM サイトを使用して、Web エディターの出力プリセットを使用して記事を公開できます。
 
-**親トピック：**&#x200B;[&#x200B; Web エディターのカスタマイズ &#x200B;](conf-web-editor.md)
+**親トピック：**[ Web エディターのカスタマイズ ](conf-web-editor.md)

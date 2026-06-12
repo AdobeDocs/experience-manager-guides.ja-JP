@@ -4,9 +4,10 @@ description: デフォルトで属性@navtitle含める方法を説明します
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 80784efb-e897-47cc-a10a-4050236b0fad
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '441'
 ht-degree: 1%
 
 ---
@@ -29,7 +30,7 @@ ht-degree: 1%
 1. 「**グローバルプロファイル**」タイルをクリックします。
 1. **XML エディターの設定** タブを選択し、上部の&#x200B;**編集** アイコンをクリックします
 1. **ダウンロード** アイコンをクリックして、ui\_config.json ファイルをローカルシステムにダウンロードします。
-1. この変更は、グローバルレベルまたはフォルダーレベルのプロファイルで行うことができます。 この変更を行う場所に応じて、それぞれのui\_config.json ファイルをダウンロードする必要があります。 ui\_config.json ファイルのダウンロードについて詳しくは、[XML Web エディターの設定とカスタマイズ &#x200B;](conf-profiles.md#id2065G300O5Z)を参照してください。
+1. この変更は、グローバルレベルまたはフォルダーレベルのプロファイルで行うことができます。 この変更を行う場所に応じて、それぞれのui\_config.json ファイルをダウンロードする必要があります。 ui\_config.json ファイルのダウンロードについて詳しくは、[XML Web エディターの設定とカスタマイズ ](conf-profiles.md#id2065G300O5Z)を参照してください。
 
 1. `ditaAttributes`定義を検索します。
 
@@ -61,7 +62,7 @@ ht-degree: 1%
 
 1. ui\_config.json ファイルをダウンロードします。
 
-   この変更は、グローバルレベルまたはフォルダーレベルのプロファイルで行うことができます。 この変更を行う場所に応じて、それぞれのui\_config.json ファイルをダウンロードする必要があります。 ui\_config.json ファイルのダウンロードについて詳しくは、[XML Web エディターの設定とカスタマイズ &#x200B;](conf-profiles.md#id2065G300O5Z)を参照してください。
+   この変更は、グローバルレベルまたはフォルダーレベルのプロファイルで行うことができます。 この変更を行う場所に応じて、それぞれのui\_config.json ファイルをダウンロードする必要があります。 ui\_config.json ファイルのダウンロードについて詳しくは、[XML Web エディターの設定とカスタマイズ ](conf-profiles.md#id2065G300O5Z)を参照してください。
 
 1. `ditaAttributes`定義を検索します。
 
@@ -90,4 +91,4 @@ ht-degree: 1%
 
 >[!ENDTABS]
 
-**親トピック：**&#x200B;[&#x200B; Web エディターのカスタマイズ &#x200B;](customize-overview.md)
+**親トピック：**[ Web エディターのカスタマイズ ](customize-overview.md)
