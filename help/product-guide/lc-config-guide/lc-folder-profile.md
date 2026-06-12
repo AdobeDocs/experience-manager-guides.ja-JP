@@ -6,11 +6,25 @@ role: Admin
 level: Experienced
 exl-id: dc26ae48-c953-492c-823a-5f65157b6902
 TQID: https://experienceleague.adobe.com/jp7oUSIZlnTfGnx58E9rPn6Tk4zE2lp-oZSTdjblbZ0
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0eid: d90290ec-3e61-4ebd-8649-bcafe0836803id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
-subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: b89a36a9-95de-429b-adde-f901256d8f24id: f7774ebe-aec9-42b6-97e4-5002acdc712eid: f9dbea21-a714-40dd-bc90-080d8046c93f
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+  - id: b89a36a9-95de-429b-adde-f901256d8f24
+  - id: f7774ebe-aec9-42b6-97e4-5002acdc712e
+  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 1666
@@ -22,7 +36,7 @@ ht-degree: 0%
 
 フォルダープロファイルは、企業内のさまざまな部門や製品の設定を分離するために必要です。 学習およびトレーニングコンテンツの場合、オーサリングテンプレート、出力テンプレート、出力プリセットおよびその他のフォルダーレベル設定を管理するために、フォルダーレベルのプロファイルを作成および設定できます。
 
-フォルダー構造を設定するための[ ベストプラクティス ](best-practices-folder-structure.md)について説明します。
+フォルダー構造を設定するための[&#x200B; ベストプラクティス &#x200B;](best-practices-folder-structure.md)について説明します。
 
 学習コンテンツとトレーニングコンテンツのフォルダープロファイル設定を開始するには、次の手順を実行する必要があります。
 
@@ -36,8 +50,8 @@ ht-degree: 0%
 3. **Assetsを管理するためのフォルダーを作成**: フォルダーと同様に、異なる部門のニーズに対応するために、異なるAssets フォルダーを作成することもできます。 この方法では、作成者とパブリッシャーがテンプレート、画像、その他のアセットで設定された適切なCSSにアクセスできるようにします。
 
    ![](assets/configure-assets-folder.png){width="350"}
-4. [ フォルダープロファイルを作成](../cs-install-guide/conf-folder-level.md#create-and-configure-a-folder-level-profile)して、別のフォルダーをマッピングします。
-5. **設定するフォルダープロファイルを選択**: フォルダープロファイルを作成したら、[ ユーザー環境設定](../user-guide/intro-home-page.md#user-preferences) ページでフォルダープロファイルを選択して、作成者と発行者が正しいテンプレートにアクセスできるようにする必要があります。
+4. [&#x200B; フォルダープロファイルを作成](../cs-install-guide/conf-folder-level.md#create-and-configure-a-folder-level-profile)して、別のフォルダーをマッピングします。
+5. **設定するフォルダープロファイルを選択**: フォルダープロファイルを作成したら、[&#x200B; ユーザー環境設定](../user-guide/intro-home-page.md#user-preferences) ページでフォルダープロファイルを選択して、作成者と発行者が正しいテンプレートにアクセスできるようにする必要があります。
 
    ![](assets/folder-profile.png){width="650"}
 
@@ -47,7 +61,7 @@ ht-degree: 0%
    - [コンテンツテンプレート](#configure-content-templates)
    - [出力プリセット](#configure-output-presets)
    - [HTML エディター](#html-editor-settings)
-   - [ プロファイルを公開](#manage-publish-profiles)
+   - [&#x200B; プロファイルを公開](#manage-publish-profiles)
 
 これらの設定にアクセスするには、エディタービューに切り替え、次に示すように&#x200B;**オプション** メニューから&#x200B;**Workspace設定**&#x200B;を選択します。
 
@@ -156,7 +170,7 @@ ht-degree: 0%
 
 別のマップまたはトピックテンプレートを使用するには、エディターのテンプレートパネルから新しいオーサリングテンプレートを作成します。 マップテンプレートを使用して、学習コンテンツ、クイズ、または学習サマリー用の学習コースとトピックテンプレートを作成します。
 
-詳細については、[ エディターからカスタマイズしたテンプレートを作成](../user-guide/create-maps-customized-templates.md)を参照してください。
+詳細については、[&#x200B; エディターからカスタマイズしたテンプレートを作成](../user-guide/create-maps-customized-templates.md)を参照してください。
 
 ![](assets/authoring-templates-editor.png){width="350"}
 

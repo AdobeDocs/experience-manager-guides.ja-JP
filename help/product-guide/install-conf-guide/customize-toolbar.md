@@ -55,16 +55,16 @@ Web エディターに機能を追加するには、主に2つの作業が必要
    **items**: ツールバーのすべてのグループの定義を指定します。 各グループには、1つまたは複数のツールバーアイコンを含めることができます。 ツールバーグループ内のアイコンを定義するには、`items`内で`type`属性を再度定義し、その値を`buttonGroup`に設定する必要があります。 `extraclass` プロパティで1つ以上のクラス名を指定してください。 `label` プロパティで機能名を指定します。 `ui_config.json` ファイルの次のスニペットは、メインのツールバーブロックの定義を示し、その後に`buttonGroup`定義を示しています。
 
        &quot;&#39;
-     &quot;toolbar&quot;: {
+     &quot;toolbar&quot;: &lbrace;
      &quot;type&quot;: &quot;blockGroup&quot;,
      &quot;extraclass&quot;:
      &quot;toolbar operations&quot;,
-     &quot;items&quot;: [
-     {
+     &quot;items&quot;: &lbrack;
+     &lbrace;
 &quot;type&quot;: &quot;buttonGroup&quot;,
 &quot;extraclass&quot;: &quot;left-controls&quot;,
      &quot;label&quot;: &quot;Left コントロール&quot;,
-     &quot;items&quot;: [
+     &quot;items&quot;: &lbrack;
      &quot;&#39;
            
    `items` コレクション内で、1つ以上のツールバーアイコンの定義を指定する必要があります。
