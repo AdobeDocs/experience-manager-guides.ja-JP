@@ -5,15 +5,10 @@ feature: Authoring
 role: User
 exl-id: cf3c03b5-383c-464c-8ef1-2f0f825c4e56
 TQID: https://experienceleague.adobe.com/bz8MQVs9yKIVkdD4iyjZWj-w70f1fukQ1I-bwx6LF80
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 571
@@ -31,11 +26,11 @@ ht-degree: 0%
 
 検索パネルには、次の場所からアクセスできます。
 
-- **エディターインターフェイス**: **エクスプローラーパネル**&#x200B;から&#x200B;**検索アイコン**&#x200B;を選択するか、**コンテンツ編集領域**&#x200B;の左下隅にある&#x200B;**検索アイコン**&#x200B;を使用します。 詳しくは、「[&#x200B; エクスプローラーパネルからの検索](#search-from-the-explorer-panel)」を参照してください。
+- **エディターインターフェイス**: **エクスプローラーパネル**&#x200B;から&#x200B;**検索アイコン**&#x200B;を選択するか、**コンテンツ編集領域**&#x200B;の左下隅にある&#x200B;**検索アイコン**&#x200B;を使用します。 詳しくは、「[ エクスプローラーパネルからの検索](#search-from-the-explorer-panel)」を参照してください。
 
   ![](images/search-icon-editor.png)
 
-- **ホームページ**: ホームページのリポジトリインターフェイスから移動する際に、**検索パネルで表示** オプションを使用する。 詳細ビューについては、[&#x200B; リポジトリから検索](#search-from-the-repository-interface-on-the-home-page)してください。
+- **ホームページ**: ホームページのリポジトリインターフェイスから移動する際に、**検索パネルで表示** オプションを使用する。 詳細ビューについては、[ リポジトリから検索](#search-from-the-repository-interface-on-the-home-page)してください。
 
   ![](images/search-panel-repo.png)
 
@@ -57,7 +52,7 @@ ht-degree: 0%
 
    ![](images/search-repo-dialog.png)
 
-2. 必要に応じて検索を実行し、フィルターを適用します。 検索とフィルターのオプションについて詳しくは、[検索とフィルターのエクスペリエンス &#x200B;](./home-page-repository-view.md#search-and-filter-experience)を参照してください。
+2. 必要に応じて検索を実行し、フィルターを適用します。 検索とフィルターのオプションについて詳しくは、[検索とフィルターのエクスペリエンス ](./home-page-repository-view.md#search-and-filter-experience)を参照してください。
 
 3. 検索が完了したら、**検索パネルに表示**&#x200B;を選択します。 その後、最近検索した内容がエディター下部の検索パネルに表示されます。
 
