@@ -57,7 +57,7 @@ AEM サイトから2つの編集可能なテンプレートを選択して設定
 
 - 必須プロパティを持つテキストコンポーネントを追加します：text=&quot;$category.html$&quot;。
 
-  ![&#x200B; テキストコンポーネントの追加](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component.png){width="650"}
+  ![ テキストコンポーネントの追加](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component.png){width="650"}
 
 - 通常は、ドキュメント内のセクションやトピックへのリンクなどのナビゲーション要素が含まれます。
 - ブランディング、ヘッダー、フッター、その他のデザイン要素を含めるようにカスタマイズできます。
@@ -82,7 +82,7 @@ AEM サイトから2つの編集可能なテンプレートを選択して設定
 
 **コンテナコンポーネント：**
 
-![&#x200B; コンテナコンポーネントの追加](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-component.png){width="650"}
+![ コンテナコンポーネントの追加](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-component.png){width="650"}
 
 >[!NOTE]
 >
@@ -90,7 +90,7 @@ AEM サイトから2つの編集可能なテンプレートを選択して設定
 
 同じテンプレートの構造に同じ（コンテナとテキストコンポーネント）を追加します。
 
-![&#x200B; コンテナとテキストコンポーネントの追加](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-and-text-component.png){width="650"}
+![ コンテナとテキストコンポーネントの追加](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-and-text-component.png){width="650"}
 
 ## カスタマイズされたテンプレートでのGuides コンポーネントのレンダリング
 
@@ -135,9 +135,9 @@ AEM サイトから2つの編集可能なテンプレートを選択して設定
 
 3. **変更を保存：**&#x200B;必要なクライアントライブラリを追加した後にテンプレートを保存します。
 
-   ![&#x200B; クライアントライブラリを追加](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-client-libraries.png){width="650"}
+   ![ クライアントライブラリを追加](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-client-libraries.png){width="650"}
 
 
 >[!NOTE]
 >
-> 実稼動環境にデプロイする前に、テンプレートが実稼動以外の環境でテストされていることを確認します。<br><br>詳細については、[AEM Guides](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/overview)および[AEM Sites](https://experienceleague.adobe.com/ja/docs/experience-manager-core-components/using/get-started/authoring)の公式ドキュメントを参照してください。
+> 実稼動環境にデプロイする前に、テンプレートが実稼動以外の環境でテストされていることを確認します。<br><br>詳細については、[AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)および[AEM Sites](https://experienceleague.adobe.com/ja/docs/experience-manager-core-components/using/get-started/authoring)の公式ドキュメントを参照してください。
