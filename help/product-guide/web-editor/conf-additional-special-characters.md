@@ -55,10 +55,10 @@ symbols.json ファイルの構造を以下に示します。
 
 これにより、特殊文字ダイアログに別のカテゴリが追加されます。
 
-![特殊シンボルカテゴリ ](assets/special-char-category.png)
+![特殊シンボルカテゴリ &#x200B;](assets/special-char-category.png)
 
 ![特殊文字を挿入](assets/insert-special-char.png)
 
 >[!MORELIKETHIS]
 >
->+ [ インストールおよび設定ガイド ](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/3-6/XML-Documentation-for-Adobe-Experience-Manager_Installation-Configuration-Guide_EN.pdf)
+>+ [&#x200B; インストールおよび設定ガイド &#x200B;](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/3-6/XML-Documentation-for-Adobe-Experience-Manager_Installation-Configuration-Guide_EN.pdf)
