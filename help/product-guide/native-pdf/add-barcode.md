@@ -65,7 +65,7 @@ margin-top: 2mm;
 1. ページレイアウトを選択します。 例えば、ヘッダーまたはフッターを含むBackCover ページレイアウトを選択できます。
 1. バーコードを挿入する場所に次のスパンを追加します。
 
-   `<span class="barcode">Sample barcode</span></p>`.
+   `<span class="barcode">Sample barcode</span></p>`。
 
    >[!NOTE]
    >
