@@ -34,7 +34,7 @@ FrontCover ページとチャプターページをシームレスに統合する
 
 **前：**
 
-![&#x200B; ブランディングを修正する前：PDFのプリブランディングのレイアウトを示すスクリーンショット](../assets/publishing/branding-image1.png)
+![&#x200B; ブランディングを修正する前：PDFのプリブランディングのレイアウトを示すスクリーンショット &#x200B;](../assets/publishing/branding-image1.png)
 <br>
 <br>
 
