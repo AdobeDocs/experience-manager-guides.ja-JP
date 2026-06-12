@@ -5,18 +5,10 @@ exl-id: ae9eb355-d3ac-446a-958b-5f2da43f5533
 feature: Content Management
 role: User
 TQID: https://experienceleague.adobe.com/xwz0wuugvwPsmIX78kuwv5te2NGcNTik-qoJvijRzzg
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2:
-  - id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41id: ad602516-aca3-4247-9ae8-f393d958efa9id: f9dbea21-a714-40dd-bc90-080d8046c93f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 864
@@ -26,7 +18,7 @@ ht-degree: 0%
 
 # ファイルをダウンロード {#id216MC0H0BE8}
 
-DITAおよびDITA以外のファイルを含むアセットをダウンロードできます。 アセットをダウンロードする方法は複数あり、一部の方法はAdobe Experience Managerがネイティブで、その他の方法はAdobe Experience Manager Guidesでサポートされています。 ネイティブのAdobe Experience Manager アセットのダウンロードに関する情報については、Adobe Experience Manager ドキュメントの[Adobe Experience Managerからアセットをダウンロードする](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html?lang=ja)を参照してください。 次の節では、Experience Manager Guidesでファイルをダウンロードする仕組みについて説明します。
+DITAおよびDITA以外のファイルを含むアセットをダウンロードできます。 アセットをダウンロードする方法は複数あり、一部の方法はAdobe Experience Managerがネイティブで、その他の方法はAdobe Experience Manager Guidesでサポートされています。 ネイティブのAdobe Experience Manager アセットのダウンロードに関する情報については、Adobe Experience Manager ドキュメントの[Adobe Experience Managerからアセットをダウンロードする](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html)を参照してください。 次の節では、Experience Manager Guidesでファイルをダウンロードする仕組みについて説明します。
 
 ## エディターからDITA マップファイルをダウンロードする
 
@@ -45,7 +37,7 @@ DITAおよびDITA以外のファイルを含むアセットをダウンロード
 
 1. マップをダウンロード ダイアログで、次のオプションを選択できます。
 
-   - **ベースラインを使用**: DITA マップ用に作成されたベースラインのリストを取得するには、このオプションを選択します。 特定のベースラインに基づいてマップファイルとその内容をダウンロードする場合は、ドロップダウンリストから「ベースライン」を選択します。 ベースラインの操作について詳しくは、[&#x200B; ベースラインの操作](generate-output-use-baseline-for-publishing.md#)を参照してください。
+   - **ベースラインを使用**: DITA マップ用に作成されたベースラインのリストを取得するには、このオプションを選択します。 特定のベースラインに基づいてマップファイルとその内容をダウンロードする場合は、ドロップダウンリストから「ベースライン」を選択します。 ベースラインの操作について詳しくは、[ ベースラインの操作](generate-output-use-baseline-for-publishing.md#)を参照してください。
 
    - **ファイル階層オプション**: ファイル階層ドロップダウンを使用して、ダウンロードしたマップファイルのフォルダー構造の処理方法を選択することもできます。 使用できるオプションは以下のとおりです。
 
@@ -100,7 +92,7 @@ DITA マップファイルとその依存ファイルをダウンロードする
 
 1. 「**ダウンロード**」を選択します。 マップをダウンロード ダイアログで、次のオプションを選択できます。
 
-   - **ベースラインを使用**: DITA マップ用に作成されたベースラインのリストを取得するには、このオプションを選択します。 特定のベースラインに基づいてマップファイルとその内容をダウンロードする場合は、ドロップダウンリストから「ベースライン」を選択します。 ベースラインの操作について詳しくは、[&#x200B; ベースラインの操作](generate-output-use-baseline-for-publishing.md#)を参照してください。
+   - **ベースラインを使用**: DITA マップ用に作成されたベースラインのリストを取得するには、このオプションを選択します。 特定のベースラインに基づいてマップファイルとその内容をダウンロードする場合は、ドロップダウンリストから「ベースライン」を選択します。 ベースラインの操作について詳しくは、[ ベースラインの操作](generate-output-use-baseline-for-publishing.md#)を参照してください。
 
    - **ファイル階層を統合**：参照されているすべてのトピックとメディアファイルを1つのフォルダーに保存するには、このオプションを選択します。
 
@@ -125,4 +117,4 @@ DITA マップファイルとその依存ファイルをダウンロードする
 
 マップをダウンロードしたら、マップを選択し、上部の「開く」アイコンを使用して、ダウンロードしたコンテンツを開くことができます。
 
-**親トピック：**&#x200B;[&#x200B; コンテンツの管理](authoring.md)
+**親トピック：**[ コンテンツの管理](authoring.md)
