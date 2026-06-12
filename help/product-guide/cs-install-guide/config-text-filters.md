@@ -6,11 +6,18 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 TQID: https://experienceleague.adobe.com/kni90T4QnDideo-hhxJZRje3H4WTEvBfwEaLa2zOzcg
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2: id: b0521e56-a0b2-40b6-bf47-ebc98751f9baid: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 389
@@ -76,14 +83,14 @@ AEM Guidesには、AEM リポジトリの選択したパスにあるファイル
 
       上記のコードスニペットでは、最初のフィルターはDITA ファイル用です。 フィルター定義は、次のパラメーターを使用します。
 
-      ****タイトル****: フィルターの表示名。 このタイトルは、ファイル参照ダイアログにフィルタリングオプションとして表示されます。
+      **&#x200B;**&#x200B;タイトル&#x200B;**&#x200B;**: フィルターの表示名。 このタイトルは、ファイル参照ダイアログにフィルタリングオプションとして表示されます。
 
-      ****プロパティ****: ファイルのメタデータで一致するプロパティ。 例えば、プロパティにdita\_class メタデータを持つファイルのみを許可するには、プロパティフィルターは「jcr:content/metadata/dita\_class」を値として取ります。
+      **&#x200B;**&#x200B;プロパティ&#x200B;**&#x200B;**: ファイルのメタデータで一致するプロパティ。 例えば、プロパティにdita\_class メタデータを持つファイルのみを許可するには、プロパティフィルターは「jcr:content/metadata/dita\_class」を値として取ります。
 
-      ****操作&#x200B;**:**プロパティ パラメーターで指定された値の存在と一致するように「存在する」を指定します
+      **&#x200B;**&#x200B;操作&#x200B;**:**&#x200B;プロパティ パラメーターで指定された値の存在と一致するように「存在する」を指定します
 
 1. 追加したフィルターを含む更新されたui\_config.json ファイルをアップロードします。
 
 設定されたフィルターは、フィルターパネルで使用できます。
 
-**親トピック：**[ Web エディターのカスタマイズ ](conf-web-editor.md)
+**親トピック：**&#x200B;[&#x200B; Web エディターのカスタマイズ &#x200B;](conf-web-editor.md)
