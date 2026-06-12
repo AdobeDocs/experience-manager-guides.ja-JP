@@ -5,10 +5,16 @@ feature: Authoring
 role: User
 exl-id: 1466c263-d24b-4653-8361-098831002f4e
 TQID: https://experienceleague.adobe.com/W4cjv6Fi1v8GjbkWbBt7QYWm0PC3uEQabZ5BofdEXrM
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 1423
@@ -47,7 +53,7 @@ ht-degree: 0%
 - **更新**: リポジトリを更新して、最新の変更を反映します。
 - **Assetsをアップロード**: パンくずリストでハイライト表示されているように、現在のフォルダーにアセットを直接アップロードできます。
 - **新規**：現在のフォルダー内の新しいトピック、マップ、フォルダーを、パンくずリストでハイライト表示して作成できます。
-- **AI アシスタント**：スマートヘルプ機能を通じて生産性を向上させるように設計された、AIを活用した強力なツールです。 [AI アシスタント ](./ai-assistant.md)機能は現在、Adobe Experience Manager as Cloud Serviceでのみ使用できます。
+- **AI アシスタント**：スマートヘルプ機能を通じて生産性を向上させるように設計された、AIを活用した強力なツールです。 [AI アシスタント &#x200B;](./ai-assistant.md)機能は現在、Adobe Experience Manager as Cloud Serviceでのみ使用できます。
 - **その他のアクション**：追加のオプションへのアクセスを提供します。 このボタンを選択すると、次のオプションを含むメニューが開きます。
    - **Assets**：設定に基づいて宛先に移動します。
       - **Cloud Services**: Cloud Servicesを使用している場合、**Assets** オプションを選択すると、AEM ナビゲーション ページに移動します。
@@ -115,7 +121,7 @@ ht-degree: 0%
 
 ![](images/search-in-repository.png)
 
-**フィルター検索** \（![ フィルター検索アイコン ](images/filter-search-icon.svg)\）アイコンを選択して、右側のフィルターパネルを開きます。
+**フィルター検索** \（![&#x200B; フィルター検索アイコン &#x200B;](images/filter-search-icon.svg)\）アイコンを選択して、右側のフィルターパネルを開きます。
 
 ![](images/Search-filters-repo.png)
 
@@ -132,7 +138,7 @@ ht-degree: 0%
    - グローバルプロファイルを使用している場合は、グローバルプロファイルで設定されたフィルター値が適用されます。
    - 特定のフォルダープロファイルを選択すると、そのプロファイルで定義されたフィルター値が取得されます。
 
-  ドキュメントの状態で使用できるデフォルトのフィルター値は、ドラフト、編集、レビュー中、承認済み、レビュー済みおよび完了です。 ドキュメント状態のフィルター値のカスタマイズについて詳しくは、[ ドキュメント状態フィルターの設定](../cs-install-guide/config-doc-state-filters.md)を参照してください。
+  ドキュメントの状態で使用できるデフォルトのフィルター値は、ドラフト、編集、レビュー中、承認済み、レビュー済みおよび完了です。 ドキュメント状態のフィルター値のカスタマイズについて詳しくは、[&#x200B; ドキュメント状態フィルターの設定](../cs-install-guide/config-doc-state-filters.md)を参照してください。
 
 - **ロック済み**: ユーザーのリストを表示します。 リストはページ分割され、非同期で読み込まれます。一度に限られたユーザーのセットが表示され、スクロールまたは移動するたびに多くのユーザーが取得されます。 これにより、特に多数のユーザーを使用する場合は、読み込み速度と全体的なパフォーマンスが向上します。
 
@@ -157,6 +163,6 @@ ht-degree: 0%
 
 **検索パネルに表示**
 
-リポジトリで検索を実行すると、**検索パネルで表示** オプションが使用できるようになります。 この機能を使用すると、検索されたすべての結果をエディター内の&#x200B;**検索パネル**&#x200B;に表示できます。 詳しくは、[検索パネル ](./search-panel-explorer.md)を参照してください。
+リポジトリで検索を実行すると、**検索パネルで表示** オプションが使用できるようになります。 この機能を使用すると、検索されたすべての結果をエディター内の&#x200B;**検索パネル**&#x200B;に表示できます。 詳しくは、[検索パネル &#x200B;](./search-panel-explorer.md)を参照してください。
 
 ![](images/search-panel-repo.png)
