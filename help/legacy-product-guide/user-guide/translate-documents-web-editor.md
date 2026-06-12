@@ -23,7 +23,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 2358
+source-wordcount: 2291
 ht-degree: 1%
 
 ---
@@ -118,8 +118,8 @@ AEM Guidesには、コンテンツを複数の言語に翻訳できるWeb エデ
    新しい翻訳プロジェクトに加えて、次のオプションから選択することもできます。
 
    - 翻訳プロジェクトに対してのみ&#x200B;**構造**&#x200B;を作成することを選択できます。
-   - **新しいXLIFF翻訳プロジェクトを作成**&#x200B;して、XML コンテンツをXML Localization Interchange File Format （XLIFF）に変換できます。 XLIFFは、コンテンツ翻訳プロセスで使用される様々なツール間のデータ転送を標準化するために使用される、オープンなXML ベースの形式です。 AEM GuidesはXLIFF バージョン 1.2をサポートしています。
-XLIFF プロジェクトでは、コンテンツは業界標準のXLIFF形式に書き出され、翻訳ベンダーに提供できます。 XLIFF形式を使用すると、翻訳段階で既に翻訳したセグメントを再利用できます。\
+   - **新しいXLIFF翻訳プロジェクトを作成**&#x200B;して、XML コンテンツをXML Localization Interchange File Format （XLIFF）に変換できます。 XLIFFは、コンテンツ翻訳プロセスで使用される様々なツール間のデータ転送を標準化するために使用される、オープンなXML ベースの形式です。AEM GuidesはXLIFF バージョン 1.2をサポートしています。
+XLIFF プロジェクトでは、コンテンツは業界標準のXLIFF形式に書き出され、翻訳ベンダーに提供できます。XLIFF形式を使用すると、翻訳段階で既に翻訳したセグメントを再利用できます。\
      XLIFF コンテンツが翻訳されると、AEM Guidesに読み込まれ、元のDITA プロジェクトの翻訳版を作成できます。
 
      >[!NOTE]
