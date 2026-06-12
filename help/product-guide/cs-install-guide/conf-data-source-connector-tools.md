@@ -17,7 +17,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 908
+source-wordcount: 843
 ht-degree: 0%
 
 ---
@@ -27,8 +27,8 @@ ht-degree: 0%
 Experience Manager Guidesには、**データソース** ツールが付属しており、データソース用にすぐに使用できるコネクタを設定できます。 JIRA、SQL （MySQL、PostgreSQL、Microsoft SQL Server、SQLite、MariaDB、H2DB）、Adobe Commerce、Elasticsearch、Generic REST Client コネクタを設定できます。
 
 
-これらの標準コネクタに加えて、Experience Manager Guidesには、Salsify、Akeneo、Microsoft Azure DevOps Boards （ADO）データソース用のコネクタが用意されています。 これらのオープンソースコネクタは、[Maven Central リポジトリ &#x200B;](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides)からダウンロードしてインストールできます。 次に、ユーザーはこれらのコネクタを設定できます。
-オープンソースコネクタを[&#x200B; インストールする方法について説明します](#install-open-source-connector)。
+これらの標準コネクタに加えて、Experience Manager Guidesには、Salsify、Akeneo、Microsoft Azure DevOps Boards （ADO）データソース用のコネクタが用意されています。これらのオープンソースコネクタは、[Maven Central リポジトリ &#x200B;](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides)からダウンロードしてインストールできます。次に、ユーザーはこれらのコネクタを設定できます。
+オープンソースコネクタを[&#x200B; インストールする方法](#install-open-source-connector)について説明します。
 
 
 
@@ -137,7 +137,7 @@ Generic REST Client、Salsify、Akeneo、Microsoft Azure DevOps Boards （ADO）
 
 * **再接続**：切断されたコネクタに再接続します。
 
-* **重複**：現在のコネクタをベースとして使用して、新しい重複コネクタを作成します。 デフォルトでは、重複したコネクタは接尾辞（connectorname_1など）を付けて作成されます。 例えば、sample-elastic-search_1です。
+* **重複**：現在のコネクタをベースとして使用して、新しい重複コネクタを作成します。デフォルトでは、重複したコネクタは接尾辞（connectorname_1など）を付けて作成されます。例えば、sample-elastic-search_1です。
 同じ名前のコネクタが存在する場合は、エラーが表示されます。
 
 * **削除**：選択したコネクタを削除します。
