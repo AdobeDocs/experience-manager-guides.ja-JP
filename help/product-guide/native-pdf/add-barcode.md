@@ -3,16 +3,9 @@ title: PDFのネイティブ公開機能| バーコードの追加
 description: バーコードの追加方法を説明します。
 exl-id: 206bdcf9-2bcd-4bf1-815a-c97cdf0dc415
 TQID: https://experienceleague.adobe.com/DqR4uUYKTCRxQqr9EGgLVk-EnboNc9mIfW0X73a14EI
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 792
@@ -35,7 +28,7 @@ ht-degree: 1%
 
 ### テンプレートのCSSを更新して、バーコード値をレンダリングします
 
-PDF生成時に`layout.css` ファイルを変更して、バーコードをレンダリングします。 「qrcode」や「pdf417」など、様々なバーコードタイプがサポートされています。  詳細については、[&#x200B; バーコードタイプ &#x200B;](#barcode-types)を参照してください。
+PDF生成時に`layout.css` ファイルを変更して、バーコードをレンダリングします。 「qrcode」や「pdf417」など、様々なバーコードタイプがサポートされています。  詳細については、[ バーコードタイプ ](#barcode-types)を参照してください。
 
 
 
@@ -65,7 +58,7 @@ margin-top: 2mm;
 1. ページレイアウトを選択します。 例えば、ヘッダーまたはフッターを含むBackCover ページレイアウトを選択できます。
 1. バーコードを挿入する場所に次のスパンを追加します。
 
-   `<span class="barcode">Sample barcode</span></p>`.
+   `<span class="barcode">Sample barcode</span></p>`。
 
    >[!NOTE]
    >
