@@ -26,7 +26,7 @@ ht-degree: 0%
 
 # ファイルをダウンロード {#id216MC0H0BE8}
 
-DITAおよびDITA以外のファイルを含むアセットをダウンロードできます。 アセットをダウンロードする方法は複数あり、一部の方法はAdobe Experience Managerがネイティブで、その他の方法はAdobe Experience Manager Guidesでサポートされています。 ネイティブのAdobe Experience Manager アセットのダウンロードに関する情報については、Adobe Experience Manager ドキュメントの[Adobe Experience Managerからアセットをダウンロードする](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html)を参照してください。 次の節では、Experience Manager Guidesでファイルをダウンロードする仕組みについて説明します。
+DITAおよびDITA以外のファイルを含むアセットをダウンロードできます。 アセットをダウンロードする方法は複数あり、一部の方法はAdobe Experience Managerがネイティブで、その他の方法はAdobe Experience Manager Guidesでサポートされています。 ネイティブのAdobe Experience Manager アセットのダウンロードに関する情報については、Adobe Experience Manager ドキュメントの[Adobe Experience Managerからアセットをダウンロードする](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html?lang=ja)を参照してください。 次の節では、Experience Manager Guidesでファイルをダウンロードする仕組みについて説明します。
 
 ## エディターからDITA マップファイルをダウンロードする
 
