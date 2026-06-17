@@ -5,18 +5,13 @@ feature: Authoring
 role: User
 exl-id: 8c12ed9b-6309-40bf-b264-a2323cd6f4b3
 TQID: https://experienceleague.adobe.com/SWlP2-iWhN1x25K9s-mrMcfUTy5Fxv7TVWg6G2ucufc
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 0763896c75767d8a4bffc019d42c129e2e34f4be
 workflow-type: tm+mt
-source-wordcount: 467
+source-wordcount: 557
 ht-degree: 0%
 
 ---
@@ -48,7 +43,7 @@ ht-degree: 0%
 
   ![](assets/insert-h5p-lc.png)
 
-  システムからH5P コンテンツを使用する場合は、まず[&#x200B; アセットのアップロード **オプションを使用してDAM](../user-guide/authoring-upload-existing-files.md)にファイルをアップロードし、リポジトリビュー/Assetsの一部にします。**
+  システムからH5P コンテンツを使用する場合は、まず[ アセットのアップロード **オプションを使用してDAM](../user-guide/authoring-upload-existing-files.md)にファイルをアップロードし、リポジトリビュー/Assetsの一部にします。**
 
   ![](assets/upload-assets-option.png)
 
@@ -70,13 +65,15 @@ ht-degree: 0%
   ![](assets/knowledge-check-topic.png){width="650"}
 
 
-  **コンテンツのプロパティ** パネルを使用して、正解およびその他の必須フィールドを設定できます。 詳しくは、[質問タイプ &#x200B;](./quiz-insert-questions.md)を参照してください。 次に示すように、ナレッジチェックオプションを使用して、さまざまな質問タイプを追加できます。
+  **コンテンツのプロパティ** パネルを使用して、正解およびその他の必須フィールドを設定できます。 詳しくは、[質問タイプ ](./quiz-insert-questions.md)を参照してください。 次に示すように、ナレッジチェックオプションを使用して、さまざまな質問タイプを追加できます。
+
+  さらに、学習者が後続のコースコンテンツに進む前に、指定された知識チェックを試みるように、**知識チェックを続行する** オプションを有効にすることができます。 この機能は、学習者が重要な評価のチェックポイントをスキップするのを防ぐことによって、重要な学習目標を強化するのに役立ちます。 この機能は、**学習者がSCORM プリセット出力の設定中にコンテンツを順番に進める必要がある**&#x200B;設定が有効になっている場合にサポートされ、コースの進捗状況が意図した学習パスに従うことを保証します。
 
   ![](assets/knowledge-check-content-properties.png){width="650"}
 
-- **入力フィールド：** テキスト入力フィールドとボタンをコンテンツに追加します。 この組み合わせにより、ユーザー入力とトリガー固有のアクションを取得できます。 コンテンツに再生ボタンが追加されます（下図を参照）。
+- **入力フィールド：** テキスト入力フィールドとボタンをコンテンツに追加します。 この組み合わせにより、ユーザー入力とトリガー固有のアクションを取得できます。 説明やオープンエンドのフィードバックなど、長い応答の場合は、複数行のテキスト領域を追加できるようになりました。 複数行テキスト領域では、改行とテキストの折り返しがサポートされています。
 
-  ![](assets/button-learning-content.png){width="650"}
+  ![](assets/input-field-lc.png){width="650"}
 
 - **その他のオプション：**&#x200B;横線、改行、テキストボックス、配置されたテキストボックス、埋め込みHTMLの挿入など、学習コンテンツを強化するための追加のオプションがあります。
 

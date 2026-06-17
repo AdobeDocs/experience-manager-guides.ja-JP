@@ -5,16 +5,12 @@ feature: Reviewing
 role: User
 exl-id: 99b64fb5-c509-41cf-b091-ba78b90db481
 TQID: https://experienceleague.adobe.com/Ttty7SNmwHvrs-Ma5SN0JqjQRR3Y6yM-W-ozgQ3Vcyg
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 0763896c75767d8a4bffc019d42c129e2e34f4be
 workflow-type: tm+mt
-source-wordcount: 544
+source-wordcount: 691
 ht-degree: 0%
 
 ---
@@ -50,13 +46,24 @@ ht-degree: 0%
    ![](images/complete-task-dialog.png){width="350"}
 
 
-タスクが完了としてマークされ、ステータスが&#x200B;**完了**&#x200B;に設定されました。 タスクが完了とマークされると、それ以上のアクションは許可されません。 レビュータスクの作成者または開始者に通知が送信され、すぐに注目が集まります。 レビュー通知のトリガー方法について詳しくは、[&#x200B; レビュー通知について](./review-understanding-review-notifications.md)を参照してください。
+タスクが完了としてマークされ、ステータスが&#x200B;**完了**&#x200B;に設定されました。 タスクが完了とマークされると、それ以上のアクションは許可されません。 レビュータスクの作成者または開始者に通知が送信され、すぐに注目が集まります。 レビュー通知のトリガー方法について詳しくは、[ レビュー通知について](./review-understanding-review-notifications.md)を参照してください。
 
 ![](images/task-completed-status.png){width="350"}
 
 フィードバックに基づいて、タスクの作成者または開始者がレビュータスクを[閉じることを決定した場合](./review-close-review-task.md)、レビューUIのタスクステータスは&#x200B;**閉じた**&#x200B;に変更されます。
 
 ![](images/review-status-closed-review-ui.png){width="350"}
+
+>[!NOTE]
+>
+>デフォルトでは、レビュー担当者がレビュータスクを&#x200B;**完了**&#x200B;とマークすると、作成者またはタスク開始者がフィードバックをレビューしてレビュータスクを閉じるまで、タスクはレビューアーのAEM インボックスに残ります。
+>
+>ただし、レビューUIとAEM インボックスの間でタスクの同期を有効にすることができます。 この機能が有効になっている場合、レビューUIでレビュータスクを&#x200B;**完了**&#x200B;とマークすると、対応するタスクが自動的に完了し、レビューアーのAEM インボックスから削除されます。 同様に、AEM インボックスからタスクを完了すると、レビューUIでタスクが完了として自動的にマークされます。
+>
+>オーサーまたはタスク開始者は、引き続きフィードバックを確認し、追加のレビューが必要な場合はタスクを再割り当てできます。 タスクが再割り当てされると、レビュー担当者に対して新しいAEM インボックス通知が生成され、タスクを再度確認できるようになります。
+>
+>お客様の環境でこの機能を有効にするには、カスタマーサクセス部門にお問い合わせください。
+
 
 ## タスクレベルのコメントの表示
 
