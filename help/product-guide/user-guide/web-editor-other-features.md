@@ -17,9 +17,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
+source-git-commit: 1833481e1801fa171901abafe5eb256baaa10b8f
 workflow-type: tm+mt
-source-wordcount: 4232
+source-wordcount: 4258
 ht-degree: 0%
 
 ---
@@ -414,6 +414,10 @@ Experience Manager Guidesは、[MathType Web](https://docs.wiris.com/en/mathtype
 MathML数式ツールを使用して数式を作成し、**挿入**&#x200B;を選択して文書に追加します。 方程式が薄いグレーの背景で挿入されます。
 
 既存の数式を右クリックし、コンテキストメニューから「**MathMLを編集**」を選択して、いつでも数式を更新できます。
+
+>[!NOTE]
+>
+> MathML生成では、MathML数式に関連付けられている`output-class`が反映され、フォント、色、背景、その他の書式設定されたスタイル設定が生成された出力に反映されます。
 
 ### MathML エディターでの数式の検証
 

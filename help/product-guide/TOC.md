@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: 5f626c210e74c6d11e2441f719cfbfeb33bf55c5
+source-git-commit: c748a4cef0848b35c2e1bee6c5fec4e4de91ba22
 workflow-type: tm+mt
-source-wordcount: '3406'
-ht-degree: 8%
+source-wordcount: '2532'
+ht-degree: 11%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 8%
       - クラウドサービス {#cloud-release-notes}
          - {hide-from-toc}[&#x200B; デプロイメント手順](./release-info/deploy-xml-on-aemaacs.md)
          - 2026 リリース {#2026-releases}
+            - 2026.06.0 リリース {#2606-release}
+               - [新機能](./release-info/whats-new-2026-06-0.md)
+               - [修正された問題](./release-info/fixed-issues-2026-06-0.md)
+               - [アップグレード手順](./release-info/upgrade-instructions-2026-06-0.md)
             - 2026.05.0 SP1 リリース {#2605-sp1-release}
                - [修正された問題](./release-info/fixed-issues-2026-05-0-sp1.md)
             - 2026.05.0 リリース {#2605-release}
@@ -310,7 +314,8 @@ ht-degree: 8%
          - ベースラインを使用 {#work-with-baseline}
             - [マップコンソールでのベースラインの作成と管理](./user-guide/web-editor-baseline.md)
             - [マップダッシュボードでのベースラインの作成と管理](./user-guide/generate-output-use-baseline-for-publishing.md)
-            - [&#x200B; マップコンソールから新しいベースラインを作成および管理](./user-guide/web-editor-baseline-v2.md)
+            - [マップコンソールでの新しいベースラインの作成と管理](./user-guide/web-editor-baseline-v2.md)
+            - [新しいベースライン移行に関するFAQ](./user-guide/new-baseline-migration-faq.md)
          - [グローバルおよびフォルダープロファイル出力プリセットの管理](./user-guide/web-editor-manage-output-presets.md)
          - [変数を使用して、宛先パス、サイト名またはファイル名のオプションを設定します](./user-guide/generate-output-use-variables.md)
          - [DITA-OTを使用してメタデータを出力に渡します](./user-guide/pass-metadata-dita-ot.md)
@@ -322,7 +327,8 @@ ht-degree: 8%
                - [エクスペリエンスフラグメントを公開](./user-guide/publish-experience-fragment.md)
                - [AEM Sites ページの公開](./user-guide/publish-aem-sites.md)
                - [増分出力生成](./user-guide/generate-output-aem-site.md)
-         - [出力生成にマップコレクションを使用](./user-guide/generate-output-use-map-collection-output-generation.md)
+         - [出力生成にMap コレクションを使用](./user-guide/generate-output-use-map-collection-output-generation.md)
+         - [出力生成に新しいマップコレクションを使用](./user-guide/generate-output-use-new-map-collection-output-generation.md)
          - [出力生成プロセスの管理](./user-guide/generate-output-manage-process.md)
          - [公開ダッシュボードを使用した公開タスクの管理](./user-guide/generate-output-publish-dashboard.md)
          - [基本的なトラブルシューティング](./user-guide/generate-output-basic-troubleshooting.md)
@@ -409,200 +415,6 @@ ht-degree: 8%
          - [セッションのタイムアウト](./user-guide/session-timeout-prompt.md)
 - ユーザーガイド（旧UI） {#user-guide-old-ui}
    - [AEM Guidesの概要](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
-- インストールと設定 {#install-guide}
-   - オンプレミス {#on-prem-ig}
-      - {hide-from-toc}[&#x200B; オンプレミスの基本](./install-guide/introduction.md)
-      - ダウンロード、インストール、アップグレード {#download-install-upgrade-aemg}
-         - {hide-from-toc}[&#x200B; ダウンロードとインストールの概要](./install-guide/download-install.md)
-         - {hide-from-toc}[技術要件](./install-guide/download-install-technical-requirements.md)
-         - {hide-from-toc}[Adobe Experience Managerをインストール &#x200B;](./install-guide/download-install-aem.md)
-         - {hide-from-toc}[AEM Guidesを初めてダウンロードしてインストールする](./install-guide/download-install-aemg-first-time.md)
-         - {hide-from-toc}[Dispatcherの設定](./install-guide/download-install-configure-dispatcher.md)
-         - {hide-from-toc}[AEM Guidesのインストールを確認](./install-guide/download-install-verify-aemg-installation.md)
-         - {hide-from-toc}[AEM Guidesのアップグレード &#x200B;](./install-guide/upgrade-xml-documentation.md)
-         - {hide-from-toc}[AEM Guidesのアンインストール &#x200B;](./install-guide/download-install-unistall-aemg.md)
-         - {hide-from-toc}[&#x200B; パフォーマンス最適化の推奨事項](./install-guide/download-install-recommend-perf-optimiz.md)
-      - ユーザーグループとセキュリティの操作 {#user-group-sec}
-         - {hide-from-toc}[&#x200B; ユーザー管理とセキュリティ &#x200B;](./install-guide/user-admin-sec.md)
-      - コンテンツの移行 {#content-migration}
-         - {hide-from-toc}[非UUIDからUUID コンテンツへの移行](./install-guide/migrate-uuid-non-uuid.md)
-         - 移行プロセス {#migration-process}
-            - {hide-from-toc}[4.3.1非UUIDから4.3.2 UUID コンテンツへの移行](./install-guide/migrate-non-uuid-4-3.md)
-            - {hide-from-toc}[4.6.0非UUIDから4.6.1 UUID コンテンツへの移行](./install-guide/migrate-non-uuid-uuid-4-6.md)
-         - {hide-from-toc}[既存のコンテンツを移行](./install-guide/migrate-content.md)
-         - {hide-from-toc}[既存のDITA コンテンツをアップロード &#x200B;](./install-guide/migrate-content-upload-existing-dita-content.md)
-         - {hide-from-toc}[DITA以外のコンテンツを移行](./install-guide/migrate-content-non-dita.md)
-      - カスタム DITA-OTと特殊化の操作 {#custom-dita-ot-spec}
-         - {hide-from-toc}[&#x200B; カスタム DITA-OTとDITAの特殊化を使用](./install-guide/dita-ot-specialization.md)
-      - {hide-from-toc}[&#x200B; フォルダーの後処理の設定](./install-guide/conf-folder-post-processing.md)
-      - {hide-from-toc}[&#x200B; ファイル名の設定](./install-guide/conf-file-names.md)
-      - {hide-from-toc}[UUIDに基づいて自動ファイル名を設定](./install-guide/conf-auto-uuid-filenames.md)
-      - {hide-from-toc}[有効なファイル名文字にRegxを設定](./install-guide/conf-file-names-valid-regx.md)
-      - {hide-from-toc}[AEM サイト出力の有効なファイル名を設定](./install-guide/conf-file-names-valid-regx-aem-site-output.md)
-      - トピックとマップテンプレートの操作 {#topic-map-template}
-         - {hide-from-toc}[&#x200B; トピックとマップテンプレートの設定](./install-guide/conf-template-tags.md)
-         - {hide-from-toc}[&#x200B; カスタム DITA トピックテンプレートの設定](./install-guide/conf-template-tags-custom-dita-topic-template.md)
-         - {hide-from-toc}[&#x200B; カスタム DITA マップテンプレートの設定](./install-guide/conf-template-tags-custom-dita-map-templates.md)
-      - 文書の状態の操作 {#doc-state}
-         - {hide-from-toc}[&#x200B; ドキュメントの状態の設定](./install-guide/customize-doc-state.md)
-      - エディター設定 {#editor-configs}
-         - {hide-from-toc}[&#x200B; エディター設定の設定](./install-guide/editor-settings.md)
-      - Web エディター設定の操作 {#web-editor-configs}
-         - {hide-from-toc}[Web エディターのカスタマイズ &#x200B;](./install-guide/conf-web-editor.md)
-         - {hide-from-toc}[&#x200B; ツールバーをカスタマイズ &#x200B;](./install-guide/conf-web-editor-customize-toolbar.md)
-         - {hide-from-toc}[&#x200B; タグビューのデフォルト値を設定](./install-guide/configure-default-value-tags-view.md)
-         - {hide-from-toc}[&#x200B; チェックインとチェックアウトのアイコンのタイトルを設定](./install-guide/conf-checkin-checkout-title.md)
-         - {hide-from-toc}[UUID ベースのリンクの表示を設定](./install-guide/conf-uuid-based-links.md)
-         - {hide-from-toc}[同じタブでDITA トピックまたはマップファイルを開く](./install-guide/open-dita-files-same-tab.md)
-         - {hide-from-toc}[左側のパネルでカスタムパネルを設定](./install-guide/configure-custom-panel.md)
-         - {hide-from-toc}[Web エディターでファイルの自動保存を設定](./install-guide/auto-save-in-editor.md)
-         - {hide-from-toc}[&#x200B; ファイル参照ダイアログのフィルターの設定](./install-guide/conf-custom-file-filters.md)
-         - {hide-from-toc}[閉じるときに新しいバージョンとして保存するようにプロンプトを設定](./install-guide/conf-save-as-new-version-close.md)
-         - {hide-from-toc}[閉じるときにファイルをチェックインするためのプロンプトを設定](./install-guide/conf-checkin-file-close.md)
-         - {hide-from-toc}[許可された特殊文字の設定](./install-guide/conf-special-chars.md)
-         - {hide-from-toc}[要素IDを自動生成](./install-guide/auto-generate-ids.md)
-         - {hide-from-toc}[AEMの既定の辞書をカスタマイズ &#x200B;](./install-guide/customize-aem-custom-dictionary.md)
-         - {hide-from-toc}[&#x200B; テキストフィルターの設定](./install-guide/config-text-filters.md)
-         - {hide-from-toc}[&#x200B; クエリのLimitReads数を設定](./install-guide/conf-query-limitreads.md)
-         - {hide-from-toc}[記事ベースの公開用パッケージのインストール &#x200B;](./install-guide/configure-article-based-publishing.md)
-         - {hide-from-toc}[&#x200B; ユーザーインターフェイスからデータソースコネクタを設定](./install-guide/conf-data-source-connector-tools.md)
-         - {hide-from-toc}[詳細マップエディターをデフォルトに設定](./install-guide/conf-map-editor.md)
-         - {hide-from-toc}[&#x200B; デフォルトで@navtitle属性を含める](./install-guide/auto-add-navtitle.md)
-         - {hide-from-toc}[Oxygenで編集するオプションを設定](./cs-install-guide/conf-edit-in-oxygen.md)
-         - {hide-from-toc}[追加の特殊文字を設定](./web-editor/configure-additional-special-characters.md)
-      - グローバルレベルおよびフォルダーレベルのプロファイルの操作 {#global-folder-profiles}
-         - {hide-from-toc}[&#x200B; グローバルまたはフォルダーレベルのプロファイルを設定](./install-guide/conf-folder-level.md)
-      - バージョンの設定 {#version-mgt}
-         - {hide-from-toc}[&#x200B; バージョン管理](./install-guide/version-management.md)
-      - デスクトップベースのXML エディターの操作 {#desktop-xml-editor}
-         - {hide-from-toc}[&#x200B; デスクトップベースのXML エディターの統合](./install-guide/integrate-desktop-editors.md)
-      - 出力生成設定の操作 {#output-gen-config}
-         - {hide-from-toc}[出力生成設定の設定](./install-guide/conf-output-generation.md)
-         - {hide-from-toc}[AEM Sites テンプレートのダウンロードとインストール &#x200B;](./install-guide/download-install-aem-sites-templates.md)
-         - {hide-from-toc}[AEM Sitesのコンポーネントマッピング &#x200B;](./install-guide/component-mapping.md)
-         - {hide-from-toc}[AEM Sites出力でのHTML タグのオーバーレイ &#x200B;](./install-guide/overlay-html-tags-aem-sites.md)
-         - PDFとのネイティブな連携 {#config-native-pdf-publish}
-            - {hide-from-toc}[PDF テンプレート &#x200B;](./native-pdf/pdf-template.md)
-            - {hide-from-toc}[PDF テンプレートのコンポーネント &#x200B;](./native-pdf/components-pdf-template.md)
-            - {hide-from-toc}[&#x200B; ページレイアウトをデザイン &#x200B;](./native-pdf/design-page-layout.md)
-            - {hide-from-toc}[PDF出力の変数](./native-pdf/native-pdf-variables.md)
-            - {hide-from-toc}[言語変数のサポート &#x200B;](./native-pdf/native-pdf-language-variables.md)
-            - {hide-from-toc}[&#x200B; バーコードをPDF出力に追加](./native-pdf/add-barcode.md)
-            - 共通のコンテンツスタイル {#content-styles}
-               - {hide-from-toc}[共通のコンテンツ スタイルを使用する](./native-pdf/stylesheet.md)
-               - {hide-from-toc}[&#x200B; カスタム改訂バーのスタイルの操作](./native-pdf/change-bar-style.md)
-               - {hide-from-toc}[目次エントリとトピックコンテンツにカスタムスタイルを適用](./native-pdf/custom-style-toc.md)
-               - {hide-from-toc}[PDF出力にカスタムブックマークを追加](./native-pdf/add-custom-bookmark.md)
-               - {hide-from-toc}[JavaScriptを使用してコンテンツやスタイルを操作する](./native-pdf/use-javascript-content-style.md)
-               - {hide-from-toc}[脚注にスタイルを適用](./native-pdf/footnote-number-style.md)
-         - {hide-from-toc}[&#x200B; ネイティブ PDF パブリッシング用にJVM フラグを設定](./native-pdf/configure-jvm-flags.md)
-         - {hide-from-toc}[出力を公開するための基本出力場所の設定](./native-pdf/configure-base-output-location.md)
-         - {hide-from-toc}[&#x200B; ワークフローの設定とカスタマイズ &#x200B;](./install-guide/customize-workflows.md)
-      - 翻訳設定の操作 {#translate-config}
-         - {hide-from-toc}[コンテンツの翻訳](./install-guide/translation.md)
-      - AEM Assets検索の操作 {#aem-asset-search}
-         - {hide-from-toc}[AEM Assets UIの検索を構成する](./install-guide/conf-dita-search.md)
-      - アセット処理の操作 {#asset-processing-on-prem}
-         - {hide-from-toc}[&#x200B; アセット処理機能の設定](./install-guide/configure-asset-processing.md)
-      - B ツリークリーンアップの操作{#btree-cleanup}
-         - {hide-from-toc}[B ツリークリーンアップの設定](./install-guide/configure-btree-clean-up-job.md)
-      - カスタムインデックス作成{#custom-indexing}
-         - {hide-from-toc}[検索と置換のためのカスタムインデックスのデプロイ （Source ビュー） &#x200B;](./install-guide/custom-indexing-prem.md)
-      - DITA アセットレプリケーションの操作{#dita-assets-replication}
-         - {hide-from-toc}[DITA アセットレプリケーションの設定](./install-guide/configure-dita-asset-replication.md)
-      - {hide-from-toc}[付録](./install-guide/appendix.md)
-   - クラウドサービス {#cs-ig}
-      - {hide-from-toc}[このガイドについて](./cs-install-guide/introduction.md)
-      - AEM Guides as Cloud Serviceのデプロイと設定 {#deploy-conf-aemg-cs}
-         - {hide-from-toc}[&#x200B; ダウンロードしてインストール &#x200B;](./cs-install-guide/download-install.md)
-         - {hide-from-toc}[AEM Guides モジュールのデプロイ &#x200B;](./cs-install-guide/download-install-dxml-first-time.md)
-         - {hide-from-toc}[Dispatcherの設定](./cs-install-guide/download-install-configure-dispatcher.md)
-         - {hide-from-toc}[AEM Guidesのインストールを確認](./cs-install-guide/download-install-verify-dxml-installation.md)
-         - {hide-from-toc}[AEM Guidesのアップグレード &#x200B;](./cs-install-guide/download-install-upgrade-dxml.md)
-         - {hide-from-toc}[Cloud ServiceとしてAEM Guidesをアップグレードするための追加の設定](./cs-install-guide/additional-config-for-cloud-service.md)
-         - {hide-from-toc}[設定の上書き](./cs-install-guide/download-install-additional-config-override.md)
-         - {hide-from-toc}[&#x200B; パフォーマンス最適化の推奨事項](./cs-install-guide/download-install-recommend-perf-optimiz.md)
-      - ユーザーグループとセキュリティの操作 {#user-group-sec-cs}
-         - {hide-from-toc}[&#x200B; ユーザー管理とセキュリティ &#x200B;](./cs-install-guide/user-admin-sec.md)
-      - コンテンツの移行 {#migrate-con-cs}
-         - {hide-from-toc}[既存のコンテンツを移行](./cs-install-guide/migrate-content.md)
-         - {hide-from-toc}[既存のDITA コンテンツをアップロード &#x200B;](./cs-install-guide/migrate-content-upload-existing-dita-content.md)
-         - {hide-from-toc}[DITA以外のコンテンツを移行](./cs-install-guide/migrate-content-non-dita.md)
-         - {hide-from-toc}[&#x200B; オンプレミスからCloud Serviceへのコンテンツの移行](./cs-install-guide/migrate-on-premise-content-cloud.md)
-      - カスタム DITA-OTと特殊化の操作 {#custom-dita-ot-spec-cs}
-         - {hide-from-toc}[&#x200B; カスタム DITA-OTとDITAの特殊化を使用](./cs-install-guide/dita-ot-specialization.md)
-      - UUIDと非UUID ベースのファイル名の設定 {#conf-non-uuid-filename-cs}
-         - {hide-from-toc}[&#x200B; フォルダーの後処理の設定](./cs-install-guide/conf-folder-post-processing.md)
-         - {hide-from-toc}[&#x200B; ファイル名の設定](./cs-install-guide/conf-file-names.md)
-         - {hide-from-toc}[UUIDに基づいて自動ファイル名を設定](./cs-install-guide/conf-auto-uuid-filenames.md)
-         - {hide-from-toc}[有効なファイル名文字にRegxを設定](./cs-install-guide/conf-file-names-valid-regx.md)
-         - {hide-from-toc}[AEM サイト出力の有効なファイル名を設定](./cs-install-guide/conf-file-names-valid-regx-aem-site-output.md)
-      - トピックとマップテンプレートの操作 {#topic-map-template-cs}
-         - {hide-from-toc}[&#x200B; トピックとマップテンプレートの設定](./cs-install-guide/conf-template-tags.md)
-         - {hide-from-toc}[&#x200B; カスタム DITA トピックテンプレートの設定](./cs-install-guide/conf-template-tags-custom-dita-topic-template.md)
-         - {hide-from-toc}[&#x200B; カスタム DITA マップテンプレートの設定](./cs-install-guide/conf-template-tags-custom-dita-map-templates.md)
-      - 文書の状態の操作 {#doc-state-cs}
-         - {hide-from-toc}[&#x200B; ドキュメントの状態の設定](./cs-install-guide/customize-doc-state.md)
-         - {hide-from-toc}[&#x200B; ドキュメント状態フィルターの設定](./cs-install-guide/config-doc-state-filters.md)
-      - Workspaceの設定 {#workspace-configs}
-         - {hide-from-toc}[Workspace設定](./cs-install-guide/workspace-settings.md)
-      - Web エディター設定の操作 {#web-editor-configs-cs}
-         - {hide-from-toc}[Web エディターのカスタマイズ &#x200B;](./cs-install-guide/conf-web-editor.md)
-         - {hide-from-toc}[&#x200B; ツールバーをカスタマイズ &#x200B;](./cs-install-guide/conf-web-editor-customize-toolbar.md)
-         - {hide-from-toc}[&#x200B; オーサリング用にAIを活用したスマート提案を設定する](./cs-install-guide/conf-smart-suggestions.md)
-         - {hide-from-toc}[AIを活用したスマートヘルプを設定してコンテンツを検索する](./cs-install-guide/conf-smart-help.md)
-         - {hide-from-toc}[&#x200B; タグビューのデフォルト値を設定](./cs-install-guide/configure-default-value-tags-view.md)
-         - {hide-from-toc}[UUID ベースのリンクの表示を設定](./cs-install-guide/conf-uuid-based-links.md)
-         - {hide-from-toc}[貼り付けたテーブルの表示を設定](./cs-install-guide/conf-pasted-tables.md)
-         - {hide-from-toc}[同じタブでDITA トピックまたはマップファイルを開く](./cs-install-guide/open-dita-files-same-tab.md)
-         - {hide-from-toc}[左側のパネルでカスタムパネルを設定](./cs-install-guide/configure-custom-panel.md)
-         - {hide-from-toc}[Web エディターでファイルの自動保存を設定](./cs-install-guide/auto-save-in-editor.md)
-         - {hide-from-toc}[閉じるときに新しいバージョンとして保存するようにプロンプトを設定](./cs-install-guide/conf-save-as-new-version-close.md)
-         - {hide-from-toc}[閉じるときにファイルをチェックインするためのプロンプトを設定](./cs-install-guide/conf-checkin-file-close.md)
-         - {hide-from-toc}[許可された特殊文字の設定](./cs-install-guide/conf-special-chars.md)
-         - {hide-from-toc}[要素IDを自動生成](./cs-install-guide/auto-generate-ids.md)
-         - {hide-from-toc}[AEMの既定の辞書をカスタマイズ &#x200B;](./cs-install-guide/customize-aem-custom-dictionary.md)
-         - {hide-from-toc}[&#x200B; テキストフィルターの設定](./cs-install-guide/config-text-filters.md)
-         - {hide-from-toc}[&#x200B; ファイル参照ダイアログのフィルターの設定](./cs-install-guide/conf-custom-file-filters.md)
-         - {hide-from-toc}[記事ベースの公開用パッケージのインストール &#x200B;](./cs-install-guide/configure-article-based-publishing.md)
-         - {hide-from-toc}[1つのトピックを構成するPDF generation](./cs-install-guide/conf-pdf-generation-dita-ot.md)
-         - {hide-from-toc}[Web エディターでの翻訳機能の設定](./cs-install-guide/conf-translation-web-editor.md)
-         - {hide-from-toc}[&#x200B; データソースコネクタの設定](./cs-install-guide/conf-data-source-connector.md)
-         - {hide-from-toc}[&#x200B; ユーザーインターフェイスからデータソースコネクタを設定](./cs-install-guide/conf-data-source-connector-tools.md)
-         - {hide-from-toc}[詳細マップエディターをデフォルトに設定](./cs-install-guide/conf-map-editor.md)
-         - {hide-from-toc}[&#x200B; デフォルトで@navtitle属性を含める](./cs-install-guide/auto-add-navtitle.md)
-      - グローバルレベルおよびフォルダーレベルのプロファイルの操作 {#global-folder-profiles-cs}
-         - {hide-from-toc}[&#x200B; グローバルまたはフォルダーレベルのプロファイルを設定](./cs-install-guide/conf-folder-level.md)
-      - バージョンの設定 {#version-mgt-cs}
-         - {hide-from-toc}[&#x200B; バージョン管理](./cs-install-guide/version-management.md)
-      - デスクトップベースのXML エディターの操作 {#desktop-xml-editor}
-         - {hide-from-toc}[&#x200B; デスクトップベースのXML エディターの統合](./cs-install-guide/integrate-desktop-editors-cs.md)
-      - Workfrontの設定 {#configure-workfront-cs}
-         - {hide-from-toc}[Workfrontの設定](./cs-install-guide/conf-workfront.md)
-      - 出力生成設定の操作 {#output-gen-config-cs}
-         - {hide-from-toc}[出力生成設定の設定](./cs-install-guide/conf-output-generation.md)
-         - {hide-from-toc}[AEM Sites テンプレートのダウンロードとインストール &#x200B;](./cs-install-guide/download-install-aem-sites-templates-cs.md)
-         - {hide-from-toc}[AEM Sitesのコンポーネントマッピング &#x200B;](./cs-install-guide/component-mapping.md)
-         - {hide-from-toc}[&#x200B; ネイティブ PDF パブリッシング &#x200B;](./cs-install-guide/native-pdf-publishing.md)
-         - {hide-from-toc}[&#x200B; ネイティブ PDF パブリッシング用のノード プロセスの設定](./native-pdf/configure-node-options.md)
-         - {hide-from-toc}[&#x200B; トピックとコンテンツフラグメントのマッピングを作成](./cs-install-guide/conf-content-fragment-mapping-cs.md)
-         - {hide-from-toc}[&#x200B; トピックとエクスペリエンスフラグメントのマッピングを作成](./cs-install-guide/conf-experience-fragment-mapping-cs.md)
-         - {hide-from-toc}[出力を公開するための基本出力場所の設定](./native-pdf/configure-base-location-cs.md)
-      - カスタムワークフローの操作 {#custom-workflow-cs}
-         - {hide-from-toc}[&#x200B; ワークフローの設定とカスタマイズ &#x200B;](./cs-install-guide/customize-workflows.md)
-      - 翻訳設定の操作 {#translate-config-cs}
-         - {hide-from-toc}[コンテンツの翻訳](./cs-install-guide/translation.md)
-      - AEM Assets検索の操作 {#aem-asset-search-cs}
-         - {hide-from-toc}[AEM Assets UIの検索を構成する](./cs-install-guide/conf-dita-search.md)
-      - アセット処理の操作 {#asset-processing-cloud}
-         - {hide-from-toc}[&#x200B; アセット処理機能の設定](./cs-install-guide/configure-asset-processing-cs.md)
-      - B ツリークリーンアップの操作 {#btree-cleanup-cs}
-         - {hide-from-toc}[B ツリークリーンアップの設定](./cs-install-guide/configure-btree-cleanup-cs.md)
-      - カスタムインデックス作成 {#custom-indexing-cs}
-         - {hide-from-toc}[検索と置換のためのカスタムインデックスのデプロイ （Source ビュー） &#x200B;](./cs-install-guide/custom-indexing.md)
-      - DITA アセットレプリケーションの操作 {#dita-assets-replication-cs}
-         - {hide-from-toc}[DITA アセットレプリケーションの設定](./cs-install-guide/configure-dita-assets-replication.md)
-      - {hide-from-toc}[付録](./cs-install-guide/appendix.md)
 - インストールと設定 {#install-conf-guide}
    - [ダウンロード、インストール、アップグレード](./install-conf-guide/introduction.md)
    - Cloud Serviceのインストールプロセス {#deploy-conf-aemg-cs}
@@ -685,7 +497,7 @@ ht-degree: 8%
          - [オンプレミス用クエリのLimitReads数を設定します](./install-conf-guide/conf-query-limitreads.md)
       - データソースコネクタ {#data-source}
          - [ユーザーインターフェイスからのデータソースコネクタの設定](./install-conf-guide/conf-data-source-connector-tools.md)
-         - [Cloud Serviceのデータソースコネクタの設定](./install-conf-guide/conf-data-source-connector-cs.md)
+         - {hide-from-toc}[Cloud Service用のデータソースコネクタの設定](./install-conf-guide/conf-data-source-connector-cs.md)
          - {hide-from-toc}[&#x200B; ユーザーインターフェイスからGit コネクタを作成および設定](./install-conf-guide/conf-git-connector.md)
    - グローバルレベルおよびフォルダーレベルのプロファイル {#global-folder-profiles}
       - [&#x200B; グローバルまたはフォルダーレベルのプロファイルを設定](./install-conf-guide/conf-profiles.md)
@@ -710,7 +522,22 @@ ht-degree: 8%
          - [オンプレミス用のAEM Sites出力でのHTML タグのオーバーレイ](./install-conf-guide/overlay-html-tags-aem-sites-on-prem.md)
          - [AEM サイト出力の有効なファイル名を設定する](./install-conf-guide/conf-file-names-valid-regx-aem-site-output.md)
       - PDFとのネイティブな連携 {#config-native-pdf-publish}
-         - [PDFとのネイティブな連携](./install-conf-guide/template-content-styles.md)
+         - {hide-from-toc}[&#x200B; ネイティブ PDF パブリッシング テンプレートとコンテンツ スタイル &#x200B;](./install-conf-guide/template-content-styles.md)
+         - [PDF テンプレート](./native-pdf/pdf-template.md)
+         - [PDF テンプレートのコンポーネント](./native-pdf/components-pdf-template.md)
+         - [ページレイアウトのデザイン](./native-pdf/design-page-layout.md)
+         - [PDF出力の変数](./native-pdf/native-pdf-variables.md)
+         - [言語変数のサポート](./native-pdf/native-pdf-language-variables.md)
+         - [PDF出力にバーコードを追加する](./native-pdf/add-barcode.md)
+         - 共通のコンテンツスタイル {#content-styles}
+            - [共通のコンテンツスタイルを使用する](./native-pdf/stylesheet.md)
+            - [カスタム改訂バーのスタイルの操作](./native-pdf/change-bar-style.md)
+            - [目次エントリとトピックコンテンツにカスタムスタイルを適用する](./native-pdf/custom-style-toc.md)
+            - [PDF出力にカスタムブックマークを追加する](./native-pdf/add-custom-bookmark.md)
+            - [JavaScriptを使用したコンテンツやスタイルの操作](./native-pdf/use-javascript-content-style.md)
+            - [脚注にスタイルを適用](./native-pdf/footnote-number-style.md)
+         - [&#x200B; ネイティブ PDF用に新しい公開エンジンを設定](./native-pdf/conf-new-pdf-engine.md)
+         - [&#x200B; ネイティブ PDF エンジン v2の操作](./native-pdf/new-pdf-engine.md)
          - [Cloud Service向けネイティブ PDF パブリッシングのノードプロセスを設定](./native-pdf/conf-node-options-cs.md)
          - [オンプレミス用のネイティブ PDF パブリッシング用のJVM フラグの設定](./native-pdf/conf-jvm-flags-on-prem.md)
       - Cloud Serviceのコンテンツフラグメントとエクスペリエンスフラグメントの設定 {#conf-content-exp-fragment}
@@ -725,6 +552,7 @@ ht-degree: 8%
       - [オンプレミスの宛先コピーの初期化の設定](./install-conf-guide/conf-translation-copies-on-prem.md)
       - [オンプレミスの新しいベースラインの設定](./install-conf-guide/conf-new-baseline-on-prem.md)
       - [オンプレミスのピアリンクのスキップを設定する](./install-conf-guide/conf-skip-peer-links-on-prem.md)
+      - {hide-from-toc}[出力生成用に新しいマップコレクションを設定](./install-conf-guide/conf-new-map-collection-on-prem.md)
    - 機能の拡張 {#aemg-customization}
       - [Cloud Serviceの検索と置換機能にカスタムインデックスをデプロイする](./install-conf-guide/custom-indexing-cs.md)
       - [オンプレミス の検索と置換機能の インデックスを再作成](./install-conf-guide/custom-indexing-on-prem.md)

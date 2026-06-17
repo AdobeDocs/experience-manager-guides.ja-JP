@@ -15,32 +15,27 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 4eddfbe75d7dba679c1a414369394827162706f9
 workflow-type: tm+mt
-source-wordcount: 1962
-ht-degree: 1%
+source-wordcount: 1890
+ht-degree: 0%
 
 ---
 
 # コンテンツ内の引用の追加と管理
 
->[!NOTE]
->
-> 引用は古いエディターでのみサポートされており、現在は新しいエディターでは使用できません。 この記事の情報は、古いエディターを使用している場合にのみ適用されます。
-
 引用は、コンテンツに追加された情報のソースへの参照です。 引用を使用すると、ソース情報の作成者にクレジットを割り当て、読者がソース情報をフォローアップするのに役立ちます。 引用を追加すると、コンテンツの信頼性が向上し、盗用を防ぐことができます。 また、入念に調査されたコンテンツを表示することができます。
 
 Adobe Experience Manager Guidesでは、引用を追加および読み込み、コンテンツに適用できます。 ブック、web サイト、ジャーナルの任意のソースからこれらの引用を追加できます。
 
-
 Experience Manager Guidesでは、引用を編集、プレビュー、並べ替えできます。 引用をコンテンツに追加した後、ネイティブ PDFを使用して出力を生成できます。 また、ネイティブPDF出力に書誌ページや参照ページを追加することもできます。
 
-Experience Manager Guidesは、Modern Language Association （MLA）、American Psychological Association （APA）、Chicago、Institute for Electrical and Electronics Engineers （IEEE）、American Heart Association （AHA）など、複数のスタイルの引用をサポートしています。 これらの用語を明確かつ一貫性のある方法で使用することをお勧めします。
+Experience Manager Guidesは、Modern Language Association （MLA）、American Psychological Association （APA）、Chicago、Institute for Electrical and Electronics Engineers （IEEE）、American Heart Association （AHA）、American Medical Association （AMA）など、複数のスタイルの引用をサポートしています。 これらの用語を明確かつ一貫性のある方法で使用することをお勧めします。
 
 
 >[!NOTE]
 >
->現在、Experience Manager Guidesでは、引用に対するネイティブ PDFのみがサポートされています。
+>Experience Manager Guidesは、ネイティブ PDFに公開する際のすべての引用スタイルをサポートしています。 AEM Sites出力の場合、現在サポートされているのはAMA スタイルの引用のみです。
 
 
 ## 引用を追加
@@ -71,7 +66,7 @@ Experience Manager Guidesは、Modern Language Association （MLA）、American 
    | 書籍 | Web サイト | ジャーナル |
    | --- | ---|---|
    | **Source** <br> ドロップダウンから、ブックとして引用のソースを選択します。 | **Source**<br> ドロップダウンから、Web サイトとしての引用のソースを選択します。 | **Source** <br> ドロップダウンから、引用のソースをジャーナルとして選択します。 |
-   | **検索方法** <br> ドロップダウンから&#x200B;**ISBN**&#x200B;または&#x200B;**DOI**&#x200B;を選択して、引用にリンクされたデジタル IDを検索します。 <br> DOI: デジタルオブジェクト識別子<br> ISBN：一意の数値書籍識別子 | **検索方法** <br> ドロップダウンから&#x200B;**DOI**&#x200B;を選択して、引用にリンクされたデジタル IDを検索します。 | **検索条件：** <ul><li>ドロップダウンから&#x200B;**DOI**&#x200B;または&#x200B;**PubMed ID**&#x200B;を選択して、引用にリンクされたデジタル IDを検索します。</li><li>ドロップダウンから&#x200B;**任意のフィールド**&#x200B;を選択して、*タイトル*、*ジャーナル タイトル*、*作成者*、*年*、*ボリューム*、*数値*、*ページ*&#x200B;などのすべてのジャーナルフィールドを検索します。<br> 検索では、入力したテキストに基づいて、最も近い一致する引用が返されます。</li> |
+   | **検索方法** <br> ドロップダウンから&#x200B;**ISBN**&#x200B;または&#x200B;**DOI**&#x200B;を選択して、引用にリンクされたデジタル IDを検索します。 <br> DOI: デジタルオブジェクト識別子<br> ISBN：一意の数値書籍識別子 | **検索方法** <br> ドロップダウンから&#x200B;**DOI**&#x200B;を選択して、引用にリンクされたデジタル IDを検索します。 | **検索条件：** <ul><li>ドロップダウンから&#x200B;**DOI**&#x200B;または&#x200B;**PubMed ID**&#x200B;を選択して、引用にリンクされたデジタル IDを検索します。</li><li>ドロップダウンから&#x200B;**任意のフィールド**&#x200B;を選択して、*タイトル*、*ジャーナル タイトル*、*作成者*、*年*、*ボリューム*、*数値*、*ページ*&#x200B;などのすべてのジャーナルフィールドを検索します。<br> 検索では、入力したテキストに基づいて、最も近い一致する引用が返されます。</li><li> ドロップダウンから「**引用を解析**」を選択して、サポートされているAMA引用を解析し、引用フィールドに自動的に入力します。 |
    | **作成者** <br>引用の作成者の姓と名を追加します。 ![](images/Add_icon.svg)を選択して、さらに名前を追加します。 | **作成者** <br>引用の作成者の姓と名を追加します。 ![](images/Add_icon.svg)を選択して、さらに名前を追加します。 | **作成者** <br>引用の作成者の姓と名を追加します。 ![](images/Add_icon.svg)を選択して、さらに名前を追加します。 |
    | **タイトル** <br>本のタイトルを追加します。 | **タイトル** <br> Web ページのタイトルを追加します。 | **タイトル** <br>記事のタイトルを追加します。 |
    | **編集者** <br>本の編集者を追加します。 | **Web サイト名** <br> Web サイトの名前を追加します。 | **ジャーナルのタイトル** <br>記事が見つかった作品のタイトルを追加します。 |
@@ -161,7 +156,7 @@ Experience Manager Guidesは、Modern Language Association （MLA）、American 
 
 **引用を編集** ダイアログボックスが開きます。
 
-1. 必要な変更を行います。 「**完了**」を選択します。
+1. 必要な変更を加えます。**完了**&#x200B;を選択します。
 選択した引用が編集されます。
 
 >[!NOTE]
@@ -202,11 +197,11 @@ Experience Manager Guidesは、Modern Language Association （MLA）、American 
 ### メインツールバーから
 
 1. メインツールバーの&#x200B;**引用** ![引用アイコン &#x200B;](images/citations-icon.svg) アイコンを選択します。
-1. **引用** ダイアログボックスで、引用を選択します。 また、複数の引用を選択することもできます。
+1. **引用** ダイアログボックスで、引用を選択します。また、複数の引用を選択することもできます。
    ![引用ダイアログ &#x200B;](images/citation-dialog-main-toolbar.png){width="300"}
 1. **引用** ダイアログボックスの検索パネルに最初のいくつかのアルファベットを入力すると、引用をフィルタリングできます。
 
-1. 「**完了**」を選択します。
+1. **完了**&#x200B;を選択します。
 選択した引用は、トピック内のカーソル位置に追加されます。
 
 
@@ -242,7 +237,7 @@ Experience Manager Guidesは、Modern Language Association （MLA）、American 
 1. ![](images/options.svg) **オプション** アイコンを選択します。
 1. 「**削除** ![](images/Delete_icon.svg)」を選択します。
 確認ダイアログボックスが開きます。
-1. 「**はい**」を選択します。
+1. **はい**&#x200B;を選択します。
 選択した引用は、引用パネルから削除されます。
 
 
@@ -253,7 +248,7 @@ Experience Manager Guidesは、Modern Language Association （MLA）、American 
 
 トピックで、引用文の最後にカーソルを置きます。
 
-1. トピック内の引用を右クリックし、ショートカットメニューから「**引用を変更**」を選択します。 引用ダイアログが開きます。
+1. トピック内の引用を右クリックし、ショートカットメニューから「**引用を変更**」を選択します。引用ダイアログが開きます。
    ![引用のショートカットメニュー](./images/modify-citation.png)
 
 1. 文書に挿入する引用を選択できます。
