@@ -5,11 +5,19 @@ exl-id: 7b2efae3-be8c-4259-babb-f28a6903116a
 feature: Web Editor, Troubleshooting
 role: User, Admin
 TQID: https://experienceleague.adobe.com/6XYV9fBtBJiOAi2elIcZX3EC-fn22cfLCq2LrgpGJyg
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
-subfeature_v2: id: d6596f3f-92a7-43ec-b444-237db6adad05
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2:
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
 source-wordcount: 386
@@ -53,11 +61,11 @@ ht-degree: 1%
 
 - **拡張機能フレームワーク ベース リポジトリ** - [GIT](https://github.com/adobe/guides-extension/tree/main)
 
-- **Experience League](../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)のドキュメント** - [
+- **Experience League[&#128279;](../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)のドキュメント** - 
 
-- **Experience League](../../guides-ui-extensions/aem_guides_framework/jui-framework.md)で一般的な使用例** ～ [を文書化しました
+- **Experience League[&#128279;](../../guides-ui-extensions/aem_guides_framework/jui-framework.md)で一般的な使用例** ～ を文書化しました
 
-- **GIT](https://github.com/adobe/guides-extension/tree/sc-expert-session)のサンプル** - [を含むパブリックリポジトリ。 ブランチ sc-expert-sessionを参照してください
+- **GIT[&#128279;](https://github.com/adobe/guides-extension/tree/sc-expert-session)のサンプル** - を含むパブリックリポジトリ。 ブランチ sc-expert-sessionを参照してください
 
 
 >[!NOTE]

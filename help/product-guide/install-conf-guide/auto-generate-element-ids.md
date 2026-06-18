@@ -64,4 +64,4 @@ AEM Guidesでは、IDが自動生成される要素とIDのパターンを定義
 
 >[!ENDTABS]
 
-**親トピック：**[ エディターのカスタマイズ ](customize-overview.md)
+**親トピック：**&#x200B;[&#x200B; エディターのカスタマイズ &#x200B;](customize-overview.md)
