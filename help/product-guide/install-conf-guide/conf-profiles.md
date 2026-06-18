@@ -605,7 +605,7 @@ AIを活用したスマート提案を設定し、作成者が既存のコンテ
 
 Experience Manager Guides as a Cloud Service （![AEM cloud &#x200B;](assets/aem-cloud-icon.svg)）の場合。
 
-AIを活用したスマート **ヘルプ**&#x200B;を設定して、作成者が質問し、[Experience Manager Guides ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)から必要なコンテンツを簡単に見つけられるようにすることができます。
+AIを活用したスマート **ヘルプ**&#x200B;を設定して、作成者が質問し、[Experience Manager Guides ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/overview)から必要なコンテンツを簡単に見つけられるようにすることができます。
 
 「**XML エディター設定**」タブでは、**ヘルプ** パネルのデフォルトの質問を設定できます。
 
@@ -662,7 +662,7 @@ Experience Manager Guidesの設定に基づいた情報は、Cloud Serviceまた
 
 この設定を使用すると、`ui_config.json` ファイルで行われた変更を反映するJSON拡張機能を作成できます。 これらの拡張機能は、フォルダープロファイルレベルで個別にアップロードでき、柔軟性とカスタマイズ性が向上します。 例えば、ボタンの更新など、**XML エディター設定**&#x200B;に変更を加えた場合、システムは違いを自動的に識別します。 これらの変更を&#x200B;**XML エディターのUI設定**&#x200B;にアップロードし、**UI設定をJSON**&#x200B;に変換ボタンを使用してJSON拡張機能に変換すると、新しい機能を組み込んだ拡張機能が生成されます。
 
-[新しいAEM Guides Editor](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config)のJSON設定のカスタマイズとUI設定の変換について詳しく説明します。
+[新しいAEM Guides Editor](https://experienceleague.adobe.com/ja/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config)のJSON設定のカスタマイズとUI設定の変換について詳しく説明します。
 
 >[!NOTE]
 >

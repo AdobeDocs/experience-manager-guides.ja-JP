@@ -64,7 +64,7 @@ AEM Guides用のOxygen プラグインは、Adobe ソフトウェア配布ポー
 
 >[!IMPORTANT]
 >
->古いバージョンのプラグインがシステムにインストールされている場合は、インストールプロセスを開始する前に必ずアンインストールしてください。 アンインストール手順については、[&#x200B; パッケージの操作方法](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html)の記事の「**パッケージのアンインストール**」の節を参照してください。
+>古いバージョンのプラグインがシステムにインストールされている場合は、インストールプロセスを開始する前に必ずアンインストールしてください。 アンインストール手順については、[&#x200B; パッケージの操作方法](https://helpx.adobe.com/jp/experience-manager/6-4/sites/administering/using/package-manager.html)の記事の「**パッケージのアンインストール**」の節を参照してください。
 
 Oxygen XML Authorがインストールされているシステムで、次の手順を実行します。
 
@@ -98,7 +98,7 @@ Oxygen XML Authorがインストールされているシステムで、次の手
 
 >[!IMPORTANT]
 >
->古いバージョンのプラグインがシステムにインストールされている場合は、インストールプロセスを開始する前に必ずアンインストールしてください。 パッケージのアンインストール手順については、[&#x200B; パッケージの操作方法](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html)の記事の「**パッケージのアンインストール**」の節を参照してください。
+>古いバージョンのプラグインがシステムにインストールされている場合は、インストールプロセスを開始する前に必ずアンインストールしてください。 パッケージのアンインストール手順については、[&#x200B; パッケージの操作方法](https://helpx.adobe.com/jp/experience-manager/6-4/sites/administering/using/package-manager.html)の記事の「**パッケージのアンインストール**」の節を参照してください。
 
 Oxygen XML Authorがインストールされているシステムで、次の手順を実行します。
 
