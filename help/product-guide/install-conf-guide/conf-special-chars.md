@@ -5,16 +5,16 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: e3747a18-b6a1-46fd-a4d1-28a9c087e924
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
 
 # 許可される特殊文字の設定 {#id20CIL600035}
 
-Web エディターでは、特殊文字をすぐに挿入できます。 ただし、作成者がドキュメントに挿入できる特殊文字のリストは、カスタマイズできます。 特殊文字リストをカスタマイズすると、デフォルトの特殊文字セットが上書きされます。 設定に追加した特殊文字のみが作成者が使用できます。
+エディターでは、特殊文字をそのまま挿入できます。 ただし、作成者がドキュメントに挿入できる特殊文字のリストは、カスタマイズできます。 特殊文字リストをカスタマイズすると、デフォルトの特殊文字セットが上書きされます。 設定に追加した特殊文字のみが作成者が使用できます。
 
 次のタブには、Experience Manager Guidesの設定に基づいて特殊文字のデフォルトリストを上書きする手順が表示されます。Cloud Serviceまたはオンプレミス。
 
@@ -82,4 +82,4 @@ Web エディターでは、特殊文字をすぐに挿入できます。 ただ
 
 >[!ENDTABS]
 
-**親トピック：**&#x200B;[&#x200B; Web エディターのカスタマイズ &#x200B;](customize-overview.md)
+**親トピック：**[ エディターのカスタマイズ ](customize-overview.md)

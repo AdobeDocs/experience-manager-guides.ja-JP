@@ -4,16 +4,17 @@ description: UUID ベースのリンクの表示方法を説明します
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: d2383230-ff8f-4e9b-a529-9b9d167ebf90
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '309'
 ht-degree: 1%
 
 ---
 
 # UUID ベースのリンクの表示の設定 {#id2035G20M0QN}
 
-デフォルトでは、エディターの「参照を挿入」または「コンテンツを挿入」オプションを使用してリンクを作成する場合、参照コンテンツのUUIDを使用してリンクが作成されます。 参照コンテンツの&#x200B;**Link** プロパティ \（プロパティパネル\）を設定して、参照コンテンツまたはUUIDの相対ファイルパスを表示できます。 Cloud Serviceの場合、デフォルトでは、参照コンテンツのUUIDがプロパティパネルに表示されます。 オンプレミスの場合、この表示は&#x200B;**の** UUIDs`configMgr`を有効にするオプションによって制御されます。 デフォルトでは、オンになっています。これは、参照されたコンテンツのUUIDがプロパティパネルに表示されることを意味します。
+デフォルトでは、エディターの「参照を挿入」または「コンテンツを挿入」オプションを使用してリンクを作成する場合、参照コンテンツのUUIDを使用してリンクが作成されます。 参照コンテンツの&#x200B;**Link** プロパティ \（プロパティパネル\）を設定して、参照コンテンツまたはUUIDの相対ファイルパスを表示できます。 Cloud Serviceの場合、デフォルトでは、参照コンテンツのUUIDがプロパティパネルに表示されます。 オンプレミスの場合、この表示は`configMgr`の&#x200B;**UUIDs**&#x200B;を有効にするオプションによって制御されます。 デフォルトでは、オンになっています。これは、参照されたコンテンツのUUIDがプロパティパネルに表示されることを意味します。
 
 次のタブには、Experience Manager Guidesの設定に基づいて、エディター内の参照コンテンツの相対パスまたはUUIDを表示する手順が示されています。Cloud Serviceまたはオンプレミス。
 
@@ -48,4 +49,4 @@ ht-degree: 1%
 
 >[!ENDTABS]
 
-**親トピック：**&#x200B;[&#x200B; Web エディターのカスタマイズ &#x200B;](customize-overview.md)
+**親トピック：**[ エディターのカスタマイズ ](customize-overview.md)

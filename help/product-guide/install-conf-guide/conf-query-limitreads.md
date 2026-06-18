@@ -4,10 +4,11 @@ description: クエリのLimitReads数の設定方法を説明します
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 53748636-f3d1-4b3b-a772-2730b78741cb
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 1%
+source-wordcount: '100'
+ht-degree: 2%
 
 ---
 
@@ -32,4 +33,4 @@ ht-degree: 1%
 
 この属性値を増やすと、より大きなDITA マップのレポートを生成するのに役立ちます。
 
-**親トピック：**&#x200B;[&#x200B; Web エディターのカスタマイズ &#x200B;](customize-overview.md)
+**親トピック：**[ エディターのカスタマイズ ](customize-overview.md)

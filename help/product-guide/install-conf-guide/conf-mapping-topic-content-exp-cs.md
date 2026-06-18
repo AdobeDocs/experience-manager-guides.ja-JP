@@ -5,9 +5,9 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: f37cd341-aa8b-4af0-9a40-1d034eea3be6
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -157,6 +157,6 @@ Experience Manager Guidesは、トピック全体をHTMLに変換し、その後
 
 
 
-Web エディターからエクスペリエンスフラグメントを公開する際に、**エクスペリエンスフラグメントを生成** ダイアログボックスのドロップダウンから`Template`を選択し、**マッピング** フィールドでテンプレートで使用可能なマッピングを表示します。 テンプレートにカスタムマッピングがない場合は、デフォルトのマッピングが一覧表示されます。 デフォルトのマッピングを使用すると、トピック全体をエクスペリエンスフラグメントとして公開できます。
+エディターからエクスペリエンスフラグメントを公開する際、**エクスペリエンスフラグメントを生成** ダイアログボックスのドロップダウンから`Template`を選択して、**マッピング** フィールドのテンプレートで使用可能なマッピングを表示します。 テンプレートにカスタムマッピングがない場合は、デフォルトのマッピングが一覧表示されます。 デフォルトのマッピングを使用すると、トピック全体をエクスペリエンスフラグメントとして公開できます。
 
-詳しくは、[&#x200B; エクスペリエンスフラグメントの公開](../user-guide/publish-experience-fragment.md)を参照してください。
+詳しくは、[ エクスペリエンスフラグメントの公開](../user-guide/publish-experience-fragment.md)を参照してください。

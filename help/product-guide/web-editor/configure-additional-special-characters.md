@@ -1,25 +1,21 @@
 ---
-title: Web エディターのツールバーで追加の特殊文字を設定する
-description: AEM Guidesのweb エディターで特殊文字を追加する方法について説明します。
+title: エディターのツールバーで追加の特殊文字を設定
+description: AEM Guidesのエディターで特殊文字を追加する方法について説明します。
 feature: Web Editor
 role: User
 exl-id: 0fbc05a5-a6b0-4f6b-bbc4-8fca03581d90
 TQID: https://experienceleague.adobe.com/7InE1R4lpkq7cQ6xptqVIyjG4b-2i9klObtxf2y7Cw8
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 265
+source-wordcount: 262
 ht-degree: 0%
 
 ---
 
-# Web エディターのツールバーでオンプレミス用の特殊文字を追加する方法
+# オンプレミス用エディターツールバーで追加の特殊文字を設定する方法
 
 Web エディターのツールバーには、作成者が既に特殊文字を挿入できるショートカットオプションがあります。
 以下のスクリーンショットにも同じことが見られます。
@@ -63,10 +59,10 @@ symbols.json ファイルの構造を以下に示します。
 
 これにより、特殊文字ダイアログに別のカテゴリが追加されます。
 
-![特殊シンボルカテゴリ &#x200B;](assets/special-char-category.png)
+![特殊シンボルカテゴリ ](assets/special-char-category.png)
 
 ![特殊文字を挿入](assets/insert-special-char.png)
 
 >[!MORELIKETHIS]
 >
->+ [&#x200B; インストールおよび設定ガイド &#x200B;](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/3-6/XML-Documentation-for-Adobe-Experience-Manager_Installation-Configuration-Guide_EN.pdf)
+>+ [ インストールおよび設定ガイド ](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/3-6/XML-Documentation-for-Adobe-Experience-Manager_Installation-Configuration-Guide_EN.pdf)
