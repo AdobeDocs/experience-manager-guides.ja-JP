@@ -202,8 +202,8 @@ ht-degree: 11%
                - [リリースノート（4.2.1）](./release-info/release-notes-4-2-1.md)
                - [4.2 リリースノート](./release-info/release-notes-4-2.md)
          - [4.1.x リリースノート](./release-info/release-notes-4-1.md)
-         - [4.0.x リリースノート](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x リリースノート](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x リリースノート](https://helpx.adobe.com/jp/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x リリースノート](https://helpx.adobe.com/jp/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - ユーザーガイド（新しいUI） {#user-guide}
    - はじめに {#about-aemg}
       - [約 [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -414,7 +414,7 @@ ht-degree: 11%
       - トラブルシューティング {#troubleshooting}
          - [セッションのタイムアウト](./user-guide/session-timeout-prompt.md)
 - ユーザーガイド（旧UI） {#user-guide-old-ui}
-   - [AEM Guidesの概要](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guidesの概要](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - インストールと設定 {#install-conf-guide}
    - [ダウンロード、インストール、アップグレード](./install-conf-guide/introduction.md)
    - Cloud Serviceのインストールプロセス {#deploy-conf-aemg-cs}
