@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: c748a4cef0848b35c2e1bee6c5fec4e4de91ba22
+source-git-commit: a1c07d0f60b7c37248bcf7ce72ce25d537e3fd57
 workflow-type: tm+mt
 source-wordcount: '2532'
 ht-degree: 11%
@@ -522,7 +522,7 @@ ht-degree: 11%
          - [オンプレミス用のAEM Sites出力でのHTML タグのオーバーレイ](./install-conf-guide/overlay-html-tags-aem-sites-on-prem.md)
          - [AEM サイト出力の有効なファイル名を設定する](./install-conf-guide/conf-file-names-valid-regx-aem-site-output.md)
       - PDFとのネイティブな連携 {#config-native-pdf-publish}
-         - {hide-from-toc}[&#x200B; ネイティブ PDF パブリッシング テンプレートとコンテンツ スタイル &#x200B;](./install-conf-guide/template-content-styles.md)
+         - [PDFとのネイティブな連携](./install-conf-guide/template-content-styles.md)
          - [PDF テンプレート](./native-pdf/pdf-template.md)
          - [PDF テンプレートのコンポーネント](./native-pdf/components-pdf-template.md)
          - [ページレイアウトのデザイン](./native-pdf/design-page-layout.md)

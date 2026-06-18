@@ -12,10 +12,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 39af88b1d4bd424a8e56f3a217bcd8ee79f4be15
+source-git-commit: a1c07d0f60b7c37248bcf7ce72ce25d537e3fd57
 workflow-type: tm+mt
-source-wordcount: 820
-ht-degree: 38%
+source-wordcount: 831
+ht-degree: 37%
 
 ---
 
@@ -35,6 +35,7 @@ Experience Manager Guides as a Cloud Serviceのリリースは次のように計
 
 | リリース | イベント | スケジュール | 新機能 | アップグレード手順 | 修正された問題 | ステータス |
 |---|---|---|---|---|---|---|
+| Adobe Experience Manager Guides 2026.08.0 <br> | 自動更新 | ～ 2026年7月 | - | - | - | ターゲット |
 | Adobe Experience Manager Guides 2026.08.0 <br> | 自動更新 | 2026年8月3日～5日 | - | - | - | ターゲット |
 
 
@@ -42,7 +43,7 @@ Experience Manager Guides as a Cloud Serviceのリリースは次のように計
 
 | リリース | イベント | スケジュール | 新機能 | アップグレード手順 | 修正された問題 | ステータス |
 |---|---|---|---|---|---|---|
-| Adobe Experience Manager Guides 2026.06.0 <br> [&#x200B; （AEM リリース - 26635） &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | 自動更新 | 2026年6月17日（PT） | [こちら](whats-new-2026-06-0.md) | [こちら](upgrade-instructions-2026-06-0.md) | [こちら](fixed-issues-2026-06-0.md) | 更新済み |
+| Adobe Experience Manager Guides 2026.06.0 <br> [&#x200B; （AEM リリース - 26635） &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | 自動更新 | 2026年6月22-24日（PT） | [こちら](whats-new-2026-06-0.md) | [こちら](upgrade-instructions-2026-06-0.md) | [こちら](fixed-issues-2026-06-0.md) | 更新済み |
 | Adobe Experience Manager Guides 2026.05.0 <br> [&#x200B; （AEM リリース - 25898） &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | サービスパック 1 | 2026年5月21-22日（PT） | - | - | [こちら](fixed-issues-2026-05-0-sp1.md) | 更新済み |
 | Adobe Experience Manager Guides 2026.05.0 <br> [&#x200B; （AEM リリース - 25892） &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | 自動更新 | 2026年5月11～13日（PT） | [こちら](whats-new-2026-05-0.md) | [こちら](upgrade-instructions-2026-05-0.md) | [こちら](fixed-issues-2026-05-0.md) | 更新済み |
 | Adobe Experience Manager Guides 2026.04.0 <br> [&#x200B; （AEM リリース - 25194） &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | 自動更新 | 2026年4月6日（PT）～8日（PT） | [こちら](whats-new-2026-04-0.md) | [こちら](upgrade-instructions-2026-04-0.md) | [こちら](fixed-issues-2026-04-0.md) | 更新済み |
