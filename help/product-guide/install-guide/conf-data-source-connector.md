@@ -6,18 +6,18 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
 
 # データソースコネクタの設定
 
-AEM Guidesには、JIRAとSQL （MySQL、PostgreSQL、SQL Server、SQLite）のデータベース用にすぐに利用できるコネクタが用意されています。 デフォルトインターフェイスを拡張して、他のコネクタを追加することもできます。 次の設定を使用すると、様々なデータソースを簡単に追加できます。 追加したら、Web エディターでデータソースを表示できます。
+AEM Guidesには、JIRAとSQL （MySQL、PostgreSQL、SQL Server、SQLite）のデータベース用にすぐに利用できるコネクタが用意されています。 デフォルトインターフェイスを拡張して、他のコネクタを追加することもできます。 次の設定を使用すると、様々なデータソースを簡単に追加できます。 追加したら、エディターでデータソースを表示できます。
 
-次の手順を実行してデータソースコネクタを設定し、Web エディターから使用します。
+データソースコネクタを設定し、エディターから使用するには、次の手順を実行します。
 
 ## コネクタの設定
 

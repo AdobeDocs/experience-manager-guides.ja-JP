@@ -5,9 +5,9 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: ea09ea67-3051-4231-90e2-3b8a3ceb9270
-source-git-commit: d7d8ae300695fb6e637265766e7f44e0e0226e3a
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1171'
 ht-degree: 0%
 
 ---
@@ -167,6 +167,6 @@ Generic REST Client、Salsify、Akeneo、Microsoft Azure DevOps Boards （ADO）
 
 * **削除**：選択したコネクタを削除します。
 
-データソースを設定すると、コネクタはWeb エディターの&#x200B;**データソースパネル**&#x200B;の下に表示されます。 次に、データソースに接続し、トピックにコンテンツスニペットを挿入します。 詳細については、[&#x200B; データソースからコンテンツスニペットを挿入](../user-guide/web-editor-content-snippet.md)を参照してください。
+データソースを設定すると、コネクタはエディターの&#x200B;**データソースパネル**&#x200B;の下に表示されます。 次に、データソースに接続し、トピックにコンテンツスニペットを挿入します。 詳細については、[&#x200B; データソースからコンテンツスニペットを挿入](../user-guide/web-editor-content-snippet.md)を参照してください。
 
 オンプレミス設定の場合のみ、カスタムコネクタを作成し、様々なデータソースで使用することもできます。 カスタムコネクタを[設定](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/knowledge-base/kb-articles/external-data-source/conf-custom-data-source-connector)する方法について説明します。

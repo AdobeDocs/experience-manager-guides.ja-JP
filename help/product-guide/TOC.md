@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: a1c07d0f60b7c37248bcf7ce72ce25d537e3fd57
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '2532'
+source-wordcount: '2528'
 ht-degree: 11%
 
 ---
@@ -474,7 +474,7 @@ ht-degree: 11%
       - [UUID ベースのリンクの表示の設定](./install-conf-guide/conf-uuid-based-links.md)
       - [DITA トピックまたはマップファイルを同じタブで開く](./install-conf-guide/open-dita-files-same-tab.md)
       - [詳細マップエディターをデフォルトに設定](./install-conf-guide/conf-default-map-editor.md)
-      - [Web エディターでのファイル自動保存の設定](./install-conf-guide/conf-auto-save-in-editor.md)
+      - [エディターでのファイル自動保存の設定](./install-conf-guide/conf-auto-save-in-editor.md)
       - [閉じるときに新しいバージョンとして保存するプロンプトを設定](./install-conf-guide/conf-save-as-new-version-close.md)
       - [閉じるときにファイルをチェックインするプロンプトを設定](./install-conf-guide/conf-checkin-file-close.md)
       - [許可される特殊文字の設定](./install-conf-guide/conf-special-chars.md)
@@ -489,7 +489,7 @@ ht-degree: 11%
          - [Oxygen for Cloud Serviceで編集するオプションを設定します](./install-conf-guide/conf-edit-in-oxygen.md)
          - [Cloud Serviceの貼り付けられたテーブルの表示を設定します](./install-conf-guide/conf-pasted-tables.md)
          - [Cloud Service用のPDF生成のシングルトピックの設定](./install-conf-guide/conf-pdf-generation-dita-ot.md)
-         - [Cloud ServiceのWeb エディターでの翻訳機能の設定](./install-conf-guide/conf-translation-editor.md)
+         - [Cloud Service エディターの翻訳機能の設定](./install-conf-guide/conf-translation-editor.md)
       - オンプレミスのエディター設定 {#editor-on-prem-settings}
          - [新しいエディターを設定](./install-conf-guide/conf-new-editor-on-prem.md)
          - [オンプレミス用に追加の特殊文字を設定](/help/product-guide/web-editor/conf-additional-special-characters.md)
@@ -600,12 +600,12 @@ ht-degree: 11%
       - [AEM Guidesでのコンテンツレビュー](./knowledge-base/expert-sessions/review-in-aem-guides-jan2026.md)
    - 記事 {#kb-articles}
       - オーサリング {#authoring}
-         - web エディター {#webeditor}
+         - エディター {#webeditor}
             - [AEM Guidesでのコンテンツの再利用性](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
             - [AEM GuidesでのMarkdownの使用](./knowledge-base/kb-articles/authoring/webeditor/markdown-in-dita-and-aem-guides.md)
             - カスタマイズ {#customizing}
                - [ツールバーにカスタムボタンを追加](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
-               - [Web エディターへのカスタムスタイルの追加](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
+               - [エディターへのカスタムスタイルの追加](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
                - [フォルダーのContextMenuのカスタマイズ](./knowledge-base/kb-articles/authoring/webeditor/customization/hide-create-ditamap-webeditor.md)
                - [ファイル ContextMenuのカスタマイズ](./knowledge-base/kb-articles/authoring/webeditor/customization/remove-delete-from-webeditor.md)
             - Schematron {#schematron}

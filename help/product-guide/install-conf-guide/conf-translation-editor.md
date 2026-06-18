@@ -1,24 +1,24 @@
 ---
-title: Web エディターでの翻訳機能の設定
-description: Web エディターでの翻訳機能の設定方法を説明します
+title: エディターでの翻訳機能の設定
+description: エディターでの翻訳機能の設定方法を説明します
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 22d7e1c7-2059-43fb-b7aa-3ae4a6072678
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
 
-# Cloud ServiceのWeb エディターでの翻訳機能の設定
+# Cloud Serviceのエディターでの翻訳機能の設定
 
-Web エディターには、コンテンツを複数の言語に翻訳するための強力な翻訳機能が用意されています。
+エディターには、コンテンツを複数の言語に翻訳する強力な翻訳機能が用意されています。
 
-Web エディターの「**管理**」タブを使用して、コンテンツを翻訳できます。 このタブはデフォルトで使用できます。
+エディターの「**管理**」タブを使用して、コンテンツを翻訳できます。 このタブはデフォルトで使用できます。
 
-Web エディターで「**管理**」タブを非表示にするには、次の手順を実行します。
+エディターで「**管理**」タブを非表示にするには、次の手順を実行します。
 
 1. **Adobe Experience Manager**&#x200B;に管理者としてログインします。
 1. 上部の&#x200B;**Adobe Experience Manager** リンクをクリックし、**ツール**&#x200B;を選択します。
@@ -48,4 +48,4 @@ Web エディターで「**管理**」タブを非表示にするには、次の
 
 **管理** フィルターは使用できなくなりました。
 
-**親トピック：**&#x200B;[&#x200B; Web エディターのカスタマイズ &#x200B;](customize-overview.md)
+**親トピック：**&#x200B;[&#x200B; エディターのカスタマイズ &#x200B;](customize-overview.md)

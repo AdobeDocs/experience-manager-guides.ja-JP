@@ -12,9 +12,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 377
+source-wordcount: 376
 ht-degree: 0%
 
 ---
@@ -121,7 +121,7 @@ ht-degree: 0%
 
 - [`editor_toolbar`](./jsons/toolbars/editor_toolbar.json)
 
-  Web エディターで開くファイルのエディターツールバーをパーソナライズします。
+  エディターで開くファイルのエディターツールバーをパーソナライズします。
 
 - [`editor_tab_bar`](./jsons/toolbars/editor_tab_bar.json)
 

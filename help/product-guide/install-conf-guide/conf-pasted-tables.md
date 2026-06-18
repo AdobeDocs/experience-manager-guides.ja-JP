@@ -1,13 +1,13 @@
 ---
-title: Web エディターのカスタマイズ
+title: エディターをカスタマイズ
 description: エディターで貼り付けられたテーブルの表示をカスタマイズする方法を説明します
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: e66c13e4-6dc0-41a0-8582-32bacec9ae6c
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---

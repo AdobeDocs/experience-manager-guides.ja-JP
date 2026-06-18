@@ -1,6 +1,6 @@
 ---
-title: Web エディターのツールバーで追加の特殊文字を設定する
-description: AEM Guidesのweb エディターで特殊文字を追加する方法について説明します。
+title: エディターのツールバーで追加の特殊文字を設定
+description: AEM Guidesのエディターで特殊文字を追加する方法について説明します。
 feature: Web Editor
 role: User
 exl-id: 0fbc05a5-a6b0-4f6b-bbc4-8fca03581d90
@@ -12,14 +12,14 @@ feature_v2:
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 265
+source-wordcount: 262
 ht-degree: 0%
 
 ---
 
-# Web エディターのツールバーでオンプレミス用の特殊文字を追加する方法
+# オンプレミス用エディターツールバーで追加の特殊文字を設定する方法
 
 Web エディターのツールバーには、作成者が既に特殊文字を挿入できるショートカットオプションがあります。
 以下のスクリーンショットにも同じことが見られます。

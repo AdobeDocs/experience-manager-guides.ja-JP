@@ -25,10 +25,10 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 371
-ht-degree: 9%
+source-wordcount: 370
+ht-degree: 10%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 9%
 
 * **[[!DNL Experience Manager Guides] 組み込みエディターでのオーサリング &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=ja){target="blank"}**
 
-  _ネイティブ Web エディターを使用してコンテンツを作成する方法を[!DNL Adobe Experience Manager Guides]で説明します。 ユーザーの環境設定、エディター設定、設定、ツールバーなどを完全に理解します。_
+  _ネイティブエディターを使用してコンテンツを作成する方法を[!DNL Adobe Experience Manager Guides]で説明します。 ユーザーの環境設定、エディター設定、設定、ツールバーなどを完全に理解します。_
 
 * **[出力生成と [!DNL Experience Manager Guides]](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/overview.html?lang=ja){target="blank"}**
 

@@ -15,16 +15,16 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 241
+source-wordcount: 240
 ht-degree: 0%
 
 ---
 
 # Webeditorのファイルコンテキストメニューから「削除」オプションを削除する
 
-この記事では、AEM Guides Web Editorのファイルのコンテキストメニューで「削除」オプションを非表示にする方法について説明します。 ファイルのコンテキストメニューオプションに関するその他のカスタマイズについては、ガイド拡張機能のフレームワークを参照してください。 詳細については、[こちら](https://github.com/adobe/guides-extension/tree/main)を参照してください。
+この記事では、AEM Guides Editorのファイルのコンテキストメニューで「削除」オプションを非表示にする方法について説明します。 ファイルのコンテキストメニューオプションに関するその他のカスタマイズについては、ガイド拡張機能のフレームワークを参照してください。 詳細については、[こちら](https://github.com/adobe/guides-extension/tree/main)を参照してください。
 
 下のスニペットからわかるように、ファイルコンテキストメニューには、この特定のユーザーに対して利用可能な「削除」オプションがあります。
 
@@ -58,5 +58,5 @@ ht-degree: 0%
 削除のない![&#x200B; ファイルのcontextmenu](../../../assets/authoring/file-contextmenu-Delete-removed.png)
 
 ```
-Please note that these steps would also remove 'move' and 'rename' options from the Web Editor as they are also tied to delete process at the backend.
+Please note that these steps would also remove 'move' and 'rename' options from the Editor as they are also tied to delete process at the backend.
 ```

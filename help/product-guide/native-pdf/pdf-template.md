@@ -18,9 +18,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 1102
+source-wordcount: 1099
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 新しいPDF テンプレートを作成するには、次の手順を実行します。
 
-1. Web エディターで、「**出力**」タブに移動します。
+1. エディターで、「**出力**」タブに移動します。
 1. **テンプレート**&#x200B;を選択 左側のパネルの<img src="./assets/template.png" alt= "テンプレートアイコン" width="25">。
 
    <img src="assets/create-pdf-template.png" alt="PDF テンプレートの作成" width="400">
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 既存のPDF テンプレートを複製するには、次の手順に従います。
 
-1. Web エディターで、「**出力**」タブに移動します。
+1. エディターで、「**出力**」タブに移動します。
 1. **テンプレート**&#x200B;を選択 左側のパネルの<img src="./assets/template.svg" alt= "テンプレートアイコン" width="25">。 これにより、**テンプレート** ウィンドウが開きます。
 1. 複製するテンプレートにカーソルを合わせ、**...** *オプション* アイコンを選択し、コンテキストメニューから「**複製**」を選択します。
 
@@ -132,7 +132,7 @@ PDF出力[&#128279;](https://experienceleague.adobe.com/docs/experience-manager-
 
 PDF テンプレートをカスタマイズするには、次の手順を実行します。
 
-1. Web エディターで、「**出力**」タブに移動します。
+1. エディターで、「**出力**」タブに移動します。
 1. 左側のサイドバーを展開し、**テンプレート**&#x200B;を選択します。
 
    これにより、**テンプレート** パネルが開きます。

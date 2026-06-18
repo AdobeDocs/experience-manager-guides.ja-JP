@@ -16,16 +16,16 @@ subfeature_v2:
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 166
+source-wordcount: 165
 ht-degree: 0%
 
 ---
 
 # チェックインとチェックアウトのアイコンのタイトルの設定
 
-AEM Guidesでは、Web エディターのチェックインとチェックアウトのアイコンのタイトルを設定できます。 チェックインとチェックアウトのアイコンのタイトルを設定するには、次の手順を実行します。
+AEM Guidesでは、エディターのチェックインとチェックアウトのアイコンのタイトルを設定できます。 チェックインとチェックアウトのアイコンのタイトルを設定するには、次の手順を実行します。
 
 1. 管理者としてAdobe Experience Managerにログインして、UI設定ファイルをダウンロードします。
 1. 上部のAdobe Experience Manager リンクをクリックし、**ツール**&#x200B;を選択します。
