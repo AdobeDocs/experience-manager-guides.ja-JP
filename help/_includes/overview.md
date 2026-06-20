@@ -29,7 +29,7 @@ ht-degree: 9%
 
   _コンテンツの作成、整理、オーサリング、公開を[!DNL Adobe Experience Manager Guides]で行う方法について説明します。_
 
-- **[[!DNL Experience Manager Guides] 組み込みエディターでのオーサリング &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html){target="blank"}**
+- **[[!DNL Experience Manager Guides] 組み込みエディターでのオーサリング &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=ja){target="blank"}**
 
   _ネイティブエディターを使用してコンテンツを作成する方法を[!DNL Adobe Experience Manager Guides]で説明します。 ユーザーの環境設定、エディター設定、設定、ツールバーなどを完全に理解します。_
 
