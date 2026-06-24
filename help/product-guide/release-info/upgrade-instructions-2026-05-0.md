@@ -1,7 +1,7 @@
 ---
 title: リリースノート | Adobe Experience Manager Guides（2026.05.0 リリース）のアップグレード手順と修正された問題
 description: 互換性マトリックスと、Adobe Experience Manager Guides as a Cloud Serviceの2026.05.0 リリースにアップグレードする方法について説明します。
-source-git-commit: 8358a4dc8c023fe1155814f8248aab3ef724e013
+source-git-commit: 343fdd0afbab62a2764fcee0a1f8e0f3c08a0033
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 1%
@@ -52,6 +52,6 @@ Experience Manager Guidesは、Experience Manager as a Cloud Serviceの最新リ
 
 >[!IMPORTANT]
 >
-> このリリースには、フォルダープロファイル設定（ui_config.json）のアップデートが含まれています。 カスタム設定を使用している場合は、アップグレードする前に、必ずそれらのバックアップを取ってください。 更新後、最新バージョンで導入された変更に合わせて、設定を確認して調整します。
+> このリリースには、フォルダープロファイル設定（ui_config.json）の更新が含まれています。 カスタム設定を使用している場合は、アップグレードする前に、必ずそれらのバックアップを取ってください。 更新後、最新バージョンで導入された変更に合わせて、設定を確認して調整します。
 
-設定の設定を確認して検証し、正しく実装されていることを確認します。 カスタム設定の変更を導入した場合は、アップグレード元のバージョンに適用される追加手順について、[Cloud Serviceをアップグレードするための追加設定](../cs-install-guide/additional-config-for-cloud-service.md)を参照してください。
+設定の設定を確認して検証し、正しく実装されていることを確認します。 カスタム設定の変更を導入した場合は、アップグレード元のバージョンに適用される追加手順について、[Cloud Serviceをアップグレードするための追加設定](../install-conf-guide/additional-config-for-upgrade.md)を参照してください。
