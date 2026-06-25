@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+source-git-commit: 1aea696b5f5eba9027a71246f7bff0d0fef93221
 workflow-type: tm+mt
-source-wordcount: '2528'
+source-wordcount: '2527'
 ht-degree: 11%
 
 ---
@@ -661,7 +661,7 @@ ht-degree: 11%
          - [マイクロサービスアーキテクチャとパフォーマンス](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          - [JWT認証によるマイクロサービスベースの公開を設定します](./knowledge-base/publishing/configure-microservices.md)
          - [OAuth認証によるマイクロサービスベースの公開を設定します](./knowledge-base/publishing/configure-microservices-imt-config.md)
-         - [Edge Delivery Servicesの設定（Beta）](./knowledge-base/publishing/configure-eds.md)
+         - [Edge Delivery Servicesの設定](./knowledge-base/publishing/configure-eds.md)
          - [AEM cloudでのベンチマークの公開](./knowledge-base/publishing/publishing-benchmarks-on-aem-cloud.md)
       - ワークフロー {#workflows}
          - [生成後のワークフロー](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)

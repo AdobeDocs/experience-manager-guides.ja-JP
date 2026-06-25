@@ -5,23 +5,23 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: a4623088-a867-4079-80d6-20866c99683e
-source-git-commit: 7a207bd17946baaf1489a8aa5ca7caa07199be31
+source-git-commit: 1aea696b5f5eba9027a71246f7bff0d0fef93221
 workflow-type: tm+mt
-source-wordcount: '1589'
+source-wordcount: '1585'
 ht-degree: 1%
 
 ---
 
 # Experience Manager GuidesとEdge Delivery Services
 
-Adobe Experience Manager Guidesでは、専用のGitHub ベースのパブリッシュプロファイルを使用して、現在&#x200B;*Beta*&#x200B;で利用可能なEdge Delivery Services（EDS）にDITA コンテンツを直接公開できます。 この機能により、Experience Manager GuidesのDITA ベースのオーサリングワークフローを維持しながら、高性能でレスポンシブなドキュメント体験を提供することができます。
+Adobe Experience Manager Guidesでは、専用のGitHub ベースのパブリッシュプロファイルを使用して、DITA コンテンツをEdge Delivery Services（EDS）に直接公開できます。 この機能により、Experience Manager GuidesのDITA ベースのオーサリングワークフローを維持しながら、高性能でレスポンシブなドキュメント体験を提供することができます。
 
 Adobe Experience ManagerでのEDSの使用について詳しくは、[Edge Delivery Servicesの概要](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/edge-delivery/overview)を参照してください。
 
 Experience Manager GuidesからEDSへの公開を有効にするには、GitHubとExperience Manager Guidesの一連の設定手順を完了する必要があります。 以下のセクションでは、各ステップを順番に説明し、公開ワークフロー全体でどのように連携するかを説明します。
 
-1. [EDS用にGitHubをセットアップして設定する](#set-up-and-configure-github-for-eds-beta)
-2. [Experience Manager GuidesでのEDS用のパブリッシュプロファイルの作成と設定](#create-and-configure-a-publish-profile-for-eds-beta-in-experience-manager)
+1. [EDS用にGitHubをセットアップして設定する](#set-up-and-configure-github-for-eds)
+2. [Experience Manager GuidesでのEDS用のパブリッシュプロファイルの作成と設定](#create-and-configure-a-publish-profile-for-eds-in-experience-manager)
 3. [EDS ブロックを使用した出力のカスタマイズ](#customize-output-using-eds-blocks)
 
 簡単なビデオのチュートリアルについては、[AEM Guidesでの公開](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25)をご覧ください。
