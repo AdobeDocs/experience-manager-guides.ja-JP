@@ -6,20 +6,13 @@ role: User
 hide: true
 exl-id: bf5a4365-0183-43d5-a39a-b9eb8a34b27d
 TQID: https://experienceleague.adobe.com/FP5RxNtyWcdS-xpw2Atttt3x6DHx73Ljv-Ym91IxY5s
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
-subfeature_v2:
-  - id: bf79f6d3-0ad0-4d82-99e4-42ce98324d60
-  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: bf79f6d3-0ad0-4d82-99e4-42ce98324d60id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: c1b7d852b148187cb5d33256223d5e0f5498aa7e
 workflow-type: tm+mt
-source-wordcount: 245
+source-wordcount: 449
 ht-degree: 0%
 
 ---
@@ -48,5 +41,40 @@ FrameMaker ドキュメントの出力生成タスクを開始すると、AEM Gu
 
      このリストでは、正常に実行されたタスクまたは失敗したタスクがある場合があります。 正常に完了したタスクに対して、公開プロセスによってログファイル \（logs.txt\）が作成されます。このログファイルには、「生成時」列のリンクをクリックしてアクセスできます。
 
+> **テーブルの複数のセル、行全体または列の属性を定義する方法**
+>
+> 属性は、セル、行、列の各レベルで定義できます
+>
+> <details>
+&gt; <summary>ステップを表示</summary>
+>
+> また、複数のセル、行全体、またはテーブルの列に対して属性を定義することもできます。 例えば、表のセルを整列させるには、目的のセルをドラッグして選択します。 コンテンツのプロパティパネル（右側）で、プロパティ **Type**&#x200B;が&#x200B;**entry**&#x200B;に変わります。
+>
+> 1. **属性** セクションで、**+追加**&#x200B;を選択します。
+> 1. **属性** ドロップダウンリストから`@valign`属性を選択します。
+> 1. 値ドロップダウンリストから、選択した表セルに適用するテキストの整列を選択します。
+> 1. **追加を選択してください。**
+>
+> ![](images/align-table-cell_cs.png)
+>
+> </details>
 
-**親トピック：**&#x200B;[&#x200B; FrameMaker ドキュメントの出力を生成](fm-output-generatation.md)
+## 表の複数のセル、行全体または列の属性を定義します
+
+属性は、セルレベル、行レベルまたは列レベルで定義できます。
+
+> <details>
+&gt; <summary>ステップを表示</summary>
+>
+> また、複数のセル、行全体、またはテーブルの列に対して属性を定義することもできます。 例えば、表のセルを整列させるには、目的のセルをドラッグして選択します。 コンテンツのプロパティパネル（右側）で、プロパティ **Type**&#x200B;が&#x200B;**entry**&#x200B;に変わります。
+>
+> 1. **属性** セクションで、**+追加**&#x200B;を選択します。
+> 1. **属性** ドロップダウンリストから`@valign`属性を選択します。
+> 1. 値ドロップダウンリストから、選択した表セルに適用するテキストの整列を選択します。
+> 1. **追加を選択してください。**
+>
+> ![](images/align-table-cell_cs.png)
+>
+> </details>
+
+**親トピック：**[ FrameMaker ドキュメントの出力を生成](fm-output-generatation.md)
