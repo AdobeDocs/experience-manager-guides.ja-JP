@@ -1,9 +1,9 @@
 ---
 title: リリースノート | Adobe Experience Manager Guides（2026.06.0 リリース）で修正された問題
 description: Adobe Experience Manager Guides as a Cloud Service 2026.06.0 リリースのバグ修正について説明します。
-source-git-commit: 010a11e20d518064549ce7d66648586f49f572ec
+source-git-commit: 318f2b7a530e50ca4432313650801b2293d6697e
 workflow-type: tm+mt
-source-wordcount: '2174'
+source-wordcount: '2171'
 ht-degree: 0%
 
 ---
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 この記事では、Adobe Experience Manager Guides as a Cloud Serviceの2026.06.0 リリースの様々な領域で修正されたバグについて説明します。
 
-新機能と機能強化について詳しくは、[2026.06.0 リリース &#x200B;](whats-new-2026-06-0.md)の新機能を参照してください。
+新機能と機能強化について詳しくは、[2026.06.0 リリース ](whats-new-2026-06-0.md)の新機能を参照してください。
 
-2026.06.0 リリース [&#128279;](upgrade-instructions-2026-06-0.md)の アップグレード手順について説明します。
+2026.06.0 リリース ](upgrade-instructions-2026-06-0.md)の[ アップグレード手順について説明します。
 
 ## オーサリング
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  > 上記の問題は、Native PDF engine v2で解決されました。 詳しくは、[&#x200B; ネイティブ PDF エンジン v2](../native-pdf/new-pdf-engine.md)の操作を参照してください。
+  > 上記の問題は、Native PDF engine v2で解決されました。 詳しくは、[ ネイティブ PDF エンジン v2](../native-pdf/new-pdf-engine.md)の操作を参照してください。
 
 ## 翻訳
 
@@ -105,7 +105,7 @@ Adobeでは、2026.06.0 リリースの次の既知の問題を特定しまし�
 
 - Sourceとオーサーモードを切り替えると、コンテンツの不整合が発生し、トピックの一部が消えたり、モード間で反映されなくなったりします。 （GUIDES-47432）
 
-- **変更履歴**&#x200B;を有効にしてアウトライン ビューで作業する場合、変更を拒否すると、特定の変更されたコンテンツのみを拒否するのではなく、タグ内のコンテンツ全体が削除されます。 （GUIDES-48319）
+- 変更履歴を使用する場合、読み込んだテキストの挿入を拒否すると、特定の挿入されたコンテンツのみを拒否するのではなく、タグ内のすべてのコンテンツが削除されます。 （GUIDES-48319）
 
 - プレビューモードの&#x200B;**PDFとして書き出し** ボタンは、フォルダープロファイルで`editor_toolbar.json`を使用してエディターツールバーをカスタマイズする場合、何の操作も実行しません。 （GUIDES-47525）
 
