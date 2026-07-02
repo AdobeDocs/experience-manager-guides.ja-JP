@@ -12,7 +12,7 @@ ht-degree: 0%
 
 この記事では、Adobe Experience Manager Guides as a Cloud Serviceの2026.07.0 リリースの様々な領域で修正されたバグについて説明します。
 
-2026.07.0 リリース ](upgrade-instructions-2026-07-0.md)の[ アップグレード手順について説明します。
+2026.07.0 リリース [&#128279;](upgrade-instructions-2026-07-0.md)の アップグレード手順について説明します。
 
 ## エディター2.0
 
