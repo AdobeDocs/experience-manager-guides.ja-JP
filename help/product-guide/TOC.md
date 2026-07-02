@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: 1aea696b5f5eba9027a71246f7bff0d0fef93221
+source-git-commit: 31ea563a6878c340bba73dfa549fae7cd399720f
 workflow-type: tm+mt
-source-wordcount: '2527'
+source-wordcount: '2537'
 ht-degree: 11%
 
 ---
@@ -20,6 +20,9 @@ ht-degree: 11%
       - クラウドサービス {#cloud-release-notes}
          - {hide-from-toc}[&#x200B; デプロイメント手順](./release-info/deploy-xml-on-aemaacs.md)
          - 2026 リリース {#2026-releases}
+            - 2026.07.0 リリース {#2607-release}
+               - [修正された問題](./release-info/fixed-issues-2026-07-0.md)
+               - [アップグレード手順](./release-info/upgrade-instructions-2026-07-0.md)
             - 2026.06.0 リリース {#2606-release}
                - [新機能](./release-info/whats-new-2026-06-0.md)
                - [修正された問題](./release-info/fixed-issues-2026-06-0.md)
@@ -401,6 +404,7 @@ ht-degree: 11%
          - [フォルダープロファイルの設定](./lc-config-guide/lc-folder-profile.md)
          - [フォルダー構造を設定するベストプラクティス](./lc-config-guide/best-practices-folder-structure.md)
          - [その他の設定](./lc-config-guide/lc-other-settings.md)
+         - [SCORM プレビューフィルターの設定](./lc-config-guide/conf-scorm-preview-filters.md)
          - [SCORM キー指標](./lc-config-guide/learning-course-parameters.md)
       - ビデオチュートリアル {#lc-video}
          - [オーサーワークフロー](./lc-video-tutorials/author-workflow.md)
