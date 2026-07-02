@@ -12,9 +12,9 @@ ht-degree: 0%
 
 この記事では、Adobe Experience Manager Guides as a Cloud Serviceの2026.06.0 リリースの様々な領域で修正されたバグについて説明します。
 
-新機能と機能強化について詳しくは、[2026.06.0 リリース ](whats-new-2026-06-0.md)の新機能を参照してください。
+新機能と機能強化について詳しくは、[2026.06.0 リリース &#x200B;](whats-new-2026-06-0.md)の新機能を参照してください。
 
-2026.06.0 リリース ](upgrade-instructions-2026-06-0.md)の[ アップグレード手順について説明します。
+2026.06.0 リリース [&#128279;](upgrade-instructions-2026-06-0.md)の アップグレード手順について説明します。
 
 ## オーサリング
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  > 上記の問題は、Native PDF engine v2で解決されました。 詳しくは、[ ネイティブ PDF エンジン v2](../native-pdf/new-pdf-engine.md)の操作を参照してください。
+  > 上記の問題は、Native PDF engine v2で解決されました。 詳しくは、[&#x200B; ネイティブ PDF エンジン v2](../native-pdf/new-pdf-engine.md)の操作を参照してください。
 
 ## 翻訳
 
