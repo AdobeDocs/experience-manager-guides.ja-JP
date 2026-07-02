@@ -12,9 +12,9 @@ feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 6c69cc5da7eadbcbfe499ca7b54c2ddaa1064db7
+source-git-commit: 318f2b7a530e50ca4432313650801b2293d6697e
 workflow-type: tm+mt
-source-wordcount: 159
+source-wordcount: 125
 ht-degree: 0%
 
 ---
@@ -33,10 +33,6 @@ SCORM出力を生成するには、次の手順を実行します。
    ![](assets/scorm-success-message.png){width="350"}
 
 1. 出力をダウンロードまたはプレビューするには、それぞれ&#x200B;**出力をダウンロード**&#x200B;または&#x200B;**出力をプレビュー**&#x200B;を選択します。
-
-   >[!NOTE]
-   >
-   > SCORM プレビューは、SCORM出力を生成するときに使用できます。 コースがフォント、スタイルシート、または埋め込みコンテンツの外部ドメインに依存している場合は、[SCORM プレビューの設定](../lc-config-guide/conf-scorm-preview-filters.md)で許可されるドメインを設定します。
 
    ![](assets/scorm-view-output-new.png){width="650"}
 

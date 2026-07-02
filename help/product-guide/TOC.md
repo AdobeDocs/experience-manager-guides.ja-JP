@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: 31ea563a6878c340bba73dfa549fae7cd399720f
+source-git-commit: 944f0c06731cec941f72581a1e47aba25c451c6a
 workflow-type: tm+mt
-source-wordcount: '2537'
+source-wordcount: '2533'
 ht-degree: 11%
 
 ---
@@ -404,7 +404,6 @@ ht-degree: 11%
          - [フォルダープロファイルの設定](./lc-config-guide/lc-folder-profile.md)
          - [フォルダー構造を設定するベストプラクティス](./lc-config-guide/best-practices-folder-structure.md)
          - [その他の設定](./lc-config-guide/lc-other-settings.md)
-         - [SCORM プレビューフィルターの設定](./lc-config-guide/conf-scorm-preview-filters.md)
          - [SCORM キー指標](./lc-config-guide/learning-course-parameters.md)
       - ビデオチュートリアル {#lc-video}
          - [オーサーワークフロー](./lc-video-tutorials/author-workflow.md)
