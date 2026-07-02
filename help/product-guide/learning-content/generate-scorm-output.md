@@ -12,9 +12,9 @@ feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 318f2b7a530e50ca4432313650801b2293d6697e
+source-git-commit: 4433d28a41c3d9d797b38dbf732119fc3ea69f36
 workflow-type: tm+mt
-source-wordcount: 125
+source-wordcount: 124
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ SCORM出力を生成するには、次の手順を実行します。
 
    ![](assets/scorm-generate-output-new.png){width="650"}
 
-1. 生成が完了すると、**filename.zip** ファイルが作成されたことを確認する成功メッセージが表示されます。 成功メッセージの&#x200B;**出力を表示**&#x200B;を使用して、出力をプレビューできます。
+1. 生成が完了すると、**filename.zip** ファイルが作成されたことを確認する成功メッセージが表示されます。 成功メッセージの「**出力を表示**」オプションを使用して、出力をプレビューできます。
 
    ![](assets/scorm-success-message.png){width="350"}
 
@@ -36,5 +36,5 @@ SCORM出力を生成するには、次の手順を実行します。
 
    ![](assets/scorm-view-output-new.png){width="650"}
 
-SCORM プリセットの「**LMSに公開**」タブの「**アップロード**」オプションを使用して、LMSにZIP ファイルをアップロードし、学習者がコースを利用できるようにすることができます。
+ZIP ファイルをLMSにアップロードすると、SCORM プリセットの「**LMSに公開**」タブの「**アップロード**」オプションを使用して、学習者がコースを利用できるようになります。
 
