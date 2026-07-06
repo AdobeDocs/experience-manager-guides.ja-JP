@@ -17,9 +17,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: e8cdb1fe05d839d9167e834577f46e17f9ed28b5
+source-git-commit: 83f5a8409e8bb9c8a6ccc33ffadf64e6c7875f6f
 workflow-type: tm+mt
-source-wordcount: 1470
+source-wordcount: 1478
 ht-degree: 0%
 
 ---
@@ -164,5 +164,8 @@ PDFは、ドキュメント開発サイクルのあらゆる段階で使用さ�
 
    詳細については、[PDFを表示](./images/best-practices-guide.pdf)してください
 
+
+
+   詳細については、[PDFを表示](./images/best-practices-guide.pdf) ![PDF アイコン &#x200B;](./images/pdf_icon.png "PDF ドキュメント ")を参照してください
 
 **親トピック：**&#x200B;[&#x200B; Web エディターの操作](web-editor.md)
