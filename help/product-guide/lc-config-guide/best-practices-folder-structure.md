@@ -95,5 +95,5 @@ Experience Manager Guidesの様々なオーサリング、公開、および翻�
 
 これらの権限は、ユーザーが指定されたフォルダー内でのみコンテンツを作成または変更できることを確認するのに役立ちます。
 
-詳しくは、[AEMの権限](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/security#permissions-in-aem)を参照してください。
+詳しくは、[AEMの権限](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/security/security#permissions-in-aem)を参照してください。
 
