@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: 5dd840e3286511dff9eccc17b048bb7701f4ac9c
+source-git-commit: d24dd017dcedb08e71cfbcf6c4f0aabdc8f20d85
 workflow-type: tm+mt
-source-wordcount: '2499'
+source-wordcount: '2502'
 ht-degree: 11%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 11%
    - リリースノート {#release-notes}
       - クラウドサービス {#cloud-release-notes}
          - {hide-from-toc}[&#x200B; デプロイメント手順](./release-info/deploy-xml-on-aemaacs.md)
+         - {hide-from-toc}[&#x200B; クラウドリリース &#x200B;](./release-info/latest-release-info-cs.md)
          - 2026 リリース {#2026-releases}
             - 2026.07.0 リリース {#2607-release}
                - [修正された問題](./release-info/fixed-issues-2026-07-0.md)
@@ -602,6 +603,7 @@ ht-degree: 11%
       - [AEM Guidesでの公開](./knowledge-base/expert-sessions/publishing-in-aem-guides-aug25.md)
       - [AEM Guidesでのコンテンツレビュー](./knowledge-base/expert-sessions/review-in-aem-guides-jan2026.md)
    - 記事 {#kb-articles}
+      - [概要](./knowledge-base/kb-articles/introduction.md)
       - オーサリング {#authoring}
          - エディター {#webeditor}
             - [AEM Guidesでのコンテンツの再利用性](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
