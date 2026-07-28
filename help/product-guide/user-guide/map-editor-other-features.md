@@ -5,10 +5,16 @@ exl-id: f0e7a402-ac12-4c63-9d7f-92567ee29a39
 feature: Authoring, Map Editor
 role: User
 TQID: https://experienceleague.adobe.com/Af2mFR-OG-QTbQU7HBQb-kfvuCcw5fd89CA4-mSroNE
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: d90290ec-3e61-4ebd-8649-bcafe0836803
-subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: fd5e1e85933eb2785b0a74b0fa49fec1da4ca0c2
 workflow-type: tm+mt
 source-wordcount: 1281
@@ -84,7 +90,7 @@ DITA トピック内の重要な参照を解決するには、次の場所で使
 >
 > この機能はデフォルトで有効になっています。 お客様の環境でこの機能を使用しない場合は、カスタマーサクセス部門にお問い合わせください。
 
-どのチェックを実行できるかは、ヘルスチェックプリセットによって定義され、フォルダープロファイルレベルで管理者が作成および管理します。 詳しくは、[ ヘルスチェックプリセットの作成と管理](../install-conf-guide/conf-health-check-preset.md)を参照してください。
+どのチェックを実行できるかは、ヘルスチェックプリセットによって定義され、フォルダープロファイルレベルで管理者が作成および管理します。 詳しくは、[&#x200B; ヘルスチェックプリセットの作成と管理](../install-conf-guide/conf-health-check-preset.md)を参照してください。
 
 マップ上でヘルスチェックを実行するには、次の手順を実行します。
 
@@ -161,4 +167,4 @@ DITA トピック内の重要な参照を解決するには、次の場所で使
 **レポートをダウンロード**&#x200B;を選択して、結果ごとに詳細な情報を含むXLS形式でレポートをダウンロードします。
 
 
-**親トピック：**[ マップエディターの概要](map-editor.md)
+**親トピック：**&#x200B;[&#x200B; マップエディターの概要](map-editor.md)

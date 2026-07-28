@@ -5,9 +5,13 @@ feature: Reviewing
 role: User
 exl-id: 99b64fb5-c509-41cf-b091-ba78b90db481
 TQID: https://experienceleague.adobe.com/Ttty7SNmwHvrs-Ma5SN0JqjQRR3Y6yM-W-ozgQ3Vcyg
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: eb30be6342a50ba52e8afd8b4a31148b3ad9c340
 workflow-type: tm+mt
 source-wordcount: 854
@@ -42,7 +46,7 @@ ht-degree: 0%
    ![](images/complete-task-dialog.png){width="350"}
 
 
-タスクが完了としてマークされ、ステータスが&#x200B;**完了**&#x200B;に設定されました。 タスクが完了とマークされると、それ以上のアクションは許可されません。 レビュータスクの作成者または開始者に通知が送信され、すぐに注目が集まります。 レビュー通知のトリガー方法について詳しくは、[ レビュー通知について](./review-understanding-review-notifications.md)を参照してください。
+タスクが完了としてマークされ、ステータスが&#x200B;**完了**&#x200B;に設定されました。 タスクが完了とマークされると、それ以上のアクションは許可されません。 レビュータスクの作成者または開始者に通知が送信され、すぐに注目が集まります。 レビュー通知のトリガー方法について詳しくは、[&#x200B; レビュー通知について](./review-understanding-review-notifications.md)を参照してください。
 
 ![](images/task-completed-status.png){width="350"}
 
@@ -102,5 +106,5 @@ ht-degree: 0%
 4. *（オプション）*&#x200B;作成者のコメントを追加して、コンテキストを確認します。
 5. 「**委任**」を選択します。
 
-作成者に通知が送信され、タスクにレビュー担当者を追加するようにリクエストされたことを示します。 作成者がこのリクエストに対してどのように応答するか詳しくは、[ レビューのリクエストまたは作成者としてのレビュータスクのクローズ ](./review-close-review-task.md)を参照してください。
+作成者に通知が送信され、タスクにレビュー担当者を追加するようにリクエストされたことを示します。 作成者がこのリクエストに対してどのように応答するか詳しくは、[&#x200B; レビューのリクエストまたは作成者としてのレビュータスクのクローズ &#x200B;](./review-close-review-task.md)を参照してください。
 

@@ -28,7 +28,7 @@ AEM サイト出力では、異なる出力タスクに異なるデザインテ�
 
 >[!TIP]
 >
-> AEM サイト出力の作成に関するベストプラクティスについては、[ ベストプラクティスガイド ](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-mar-22/Adobe-Experience-Manager-Guides_Best-Practices_EN.pdf)の&#x200B;*AEM サイト公開*&#x200B;の節を参照してください。
+> AEM サイト出力の作成に関するベストプラクティスについては、[&#x200B; ベストプラクティスガイド &#x200B;](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-mar-22/Adobe-Experience-Manager-Guides_Best-Practices_EN.pdf)の&#x200B;*AEM サイト公開*&#x200B;の節を参照してください。
 
 
 ## 出力を生成するためのデザインテンプレートのカスタマイズ {#customize_xml-add-on}
@@ -110,7 +110,7 @@ UUID ベース以外のファイルシステムを使用したオンプレミス
 
 >[!NOTE]
 >
-> さらに、AEM サイト出力のURL内の一連の文字のみを許可するようにルールを設定できます。 詳しくは、[ トピックの作成とAEM サイト出力の公開に関するファイル名削除ルールの設定](#id2164D0KD0XA)を参照してください。
+> さらに、AEM サイト出力のURL内の一連の文字のみを許可するようにルールを設定できます。 詳しくは、[&#x200B; トピックの作成とAEM サイト出力の公開に関するファイル名削除ルールの設定](#id2164D0KD0XA)を参照してください。
 
 >[!BEGINTABS]
 
@@ -213,7 +213,7 @@ AEM サイト出力のURLにドキュメントタイトルを使用できます�
 
 1. *com.adobe.fmdita.common.SanitizeNodeNameImpl* バンドルを検索してクリックします。
 
-1. AEM Sites **への公開用に**&#x200B;許可されていない文字セット プロパティで、プロパティが`<>``@$`に設定されていることを確認します。 このリストにはさらに特殊文字を追加できますが、必須の特殊文字が必要です。
+1. AEM Sites **への公開用に**&#x200B;許可されていない文字セット プロパティで、プロパティが`<>`&#x200B;`@$`に設定されていることを確認します。 このリストにはさらに特殊文字を追加できますが、必須の特殊文字が必要です。
 
    >[!NOTE]
    >
@@ -366,7 +366,7 @@ AEM サイト出力でフラット化するノードを指定するのと同様�
 
 ## AEM サイト出力で削除されたページのバージョン管理を設定する
 
-「既存の出力ページ」設定で「**削除」および「**&#x200B;作成&#x200B;****」オプションを選択してAEM サイト出力を生成すると、削除するページのバージョンが作成されます。 システムを設定して、削除前にバージョンの作成を停止できます。
+「既存の出力ページ」設定で「**削除」および「**&#x200B;作成&#x200B;**&#x200B;**」オプションを選択してAEM サイト出力を生成すると、削除するページのバージョンが作成されます。 システムを設定して、削除前にバージョンの作成を停止できます。
 
 次のタブには、Experience Manager Guidesの設定に基づいて削除されるページ（Cloud Serviceまたはオンプレミス）のバージョンの作成を停止する手順が表示されます。
 
@@ -411,4 +411,4 @@ AEM サイト出力でフラット化するノードを指定するのと同様�
 
 Experience Manager Guidesには、クロスマップ（2つの異なるマップのトピック間のリンク）の場合に生成されるリンクを処理するためのカスタムスリング [**rewriter**](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html) モジュールがあります。 この書き換え設定は、次のパスにインストールされています：<br> `/apps/fmdita/config/rewriter/fmdita-crossmap-link-patcher`。
 
-コードベースに別のカスタムスリングリライターがある場合は、`'order'`値が50より大きい値を使用します。これは、Experience Manager Guides sling リライターが`'order'` 50を使用するからです。  これを上書きするには、値が50を超える必要があります。 詳細については、[出力の書き換えパイプライン ](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html)を参照してください。
+コードベースに別のカスタムスリングリライターがある場合は、`'order'`値が50より大きい値を使用します。これは、Experience Manager Guides sling リライターが`'order'` 50を使用するからです。  これを上書きするには、値が50を超える必要があります。 詳細については、[出力の書き換えパイプライン &#x200B;](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html)を参照してください。

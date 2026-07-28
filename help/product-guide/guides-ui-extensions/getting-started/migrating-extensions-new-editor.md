@@ -26,10 +26,10 @@ ht-degree: 0%
 - **エディターキャンバスは新しいサーフェスです。** コンテキストメニュー項目では、新しいウィジェット IDを宣言する必要があります
   `markup_editor_menu`。エディター内の動作は、DOMへの操作を停止する必要があります。
 - **DOMの読み取りと書き込みを停止**: `tcx.curEditor.*`のDOM アクセスを
-  `guides.editor` API: [を`runUtil(...)`](#migrate-reads-dom-runutil)で読み取り、[を`runCommand(...)`](#migrate-writes-dom-mutation-runcommand)で書き込み、[ スタイルを装飾](#migrate-rendering-only-logic-dom-paint-decorations)で書き出し、[ アプリイベント ](#migrate-global-actions-savefocus-app-events)を通じてグローバルアクション（保存）を実行します。
+  `guides.editor` API: [を`runUtil(...)`](#migrate-reads-dom-runutil)で読み取り、[を`runCommand(...)`](#migrate-writes-dom-mutation-runcommand)で書き込み、[&#x200B; スタイルを装飾](#migrate-rendering-only-logic-dom-paint-decorations)で書き出し、[&#x200B; アプリイベント &#x200B;](#migrate-global-actions-savefocus-app-events)を通じてグローバルアクション（保存）を実行します。
 - **App-shell メニュー（リポジトリ、マップビューア、ファイル/フォルダー）は変更されません**：まだ実行されます
 レガシーフレームワーク：
-- **両方のエディターが共存**：両方を配列でターゲットします。 **Register** プラグインを無条件に読み込む場合。ファイルが開かれるまで`1.0.0`残る`guides.editor.version`までに&#x200B;*ランタイム* アクションのみをゲートします。[ エディターとブートストラップを安全に検出する](#detect-the-Editor-and-bootstrap-safely)を表示します。
+- **両方のエディターが共存**：両方を配列でターゲットします。 **Register** プラグインを無条件に読み込む場合。ファイルが開かれるまで`1.0.0`残る`guides.editor.version`までに&#x200B;*ランタイム* アクションのみをゲートします。[&#x200B; エディターとブートストラップを安全に検出する](#detect-the-Editor-and-bootstrap-safely)を表示します。
 
 
 ## この変更の理由
@@ -40,7 +40,7 @@ ht-degree: 0%
 | 選択範囲 | `getSelection()` （ルート文書） | ProseMirrorの選択（位置/範囲） |
 | コンテンツを変更するには | DOM属性/クラスの変更 | コマンドのディスパッチ（トランザクション） |
 | レンダリング | DOMは永続的です | DOMはシャドウ DOM内の一時的なレンダリングで、いつでも再構築されます |
-| スタイル設定 | ページまたはclientlib CSS | CSSはレジスタルプラグインを通じてシャドウ DOMを挿入しました。 既存のクラスを使用してCSSを追加し、新しいクラスを追加してスタイルを追加するには、[Hello world: CSS専用ハイライトプラグイン ](#hello-world-a-css-only-highlight-plugin)を参照し、レンダリング専用ロジックを[移行](#migrate-rendering-only-logic-dom-paint-decorations)してください。 |
+| スタイル設定 | ページまたはclientlib CSS | CSSはレジスタルプラグインを通じてシャドウ DOMを挿入しました。 既存のクラスを使用してCSSを追加し、新しいクラスを追加してスタイルを追加するには、[Hello world: CSS専用ハイライトプラグイン &#x200B;](#hello-world-a-css-only-highlight-plugin)を参照し、レンダリング専用ロジックを[移行](#migrate-rendering-only-logic-dom-paint-decorations)してください。 |
 
 DOMを変更する拡張機能やDOMの変更は保持されず、次のリレンダリング時に消去されます。 移行は基本的に&#x200B;*DOM ファーストからモデル ファーストに移行します*。
 
@@ -54,7 +54,7 @@ guides.util      // bundled utility libs (lodash, async)
 guides.ready(cb) // fires once at app load (view system ready) — before any file is open
 ```
 
-`guides.editor.version`さんが&#x200B;**現在開いているエディター**を報告するので、これは1回だけ意味があります
+`guides.editor.version`さんが&#x200B;**現在開いているエディター**&#x200B;を報告するので、これは1回だけ意味があります
 ファイルが実際に開いています：
 
 | `guides.editor.version` | 意味 |
@@ -64,7 +64,7 @@ guides.ready(cb) // fires once at app load (view system ready) — before any fi
 
 >[!IMPORTANT]
 >
-> `guides.ready` イベントが発生した場合、ファイルはまだ開かれていないので、`version`はMarkupEditorが有効かどうかに関係なく`1.0.0`としてレポートされます。 `version`を使用して、プラグインが&#x200B;*登録済み*&#x200B;かどうかを判断しないでください（[ プラグイン登録とランタイムゲーティング ](#plugin-registration-and-runtime-gating)を表示）。 これを使用して&#x200B;*ランタイム*&#x200B;動作を分岐し、ファイルが開くことが保証されている実行時（メニューハンドラー内など）に評価します。
+> `guides.ready` イベントが発生した場合、ファイルはまだ開かれていないので、`version`はMarkupEditorが有効かどうかに関係なく`1.0.0`としてレポートされます。 `version`を使用して、プラグインが&#x200B;*登録済み*&#x200B;かどうかを判断しないでください（[&#x200B; プラグイン登録とランタイムゲーティング &#x200B;](#plugin-registration-and-runtime-gating)を表示）。 これを使用して&#x200B;*ランタイム*&#x200B;動作を分岐し、ファイルが開くことが保証されている実行時（メニューハンドラー内など）に評価します。
 
 ### プラグイン登録とランタイムゲート
 
@@ -91,7 +91,7 @@ function onMenuClick() {
 
 ### Hello world:CSS専用のハイライトプラグイン
 
-最小の便利な拡張機能には、No-op ProseMirror プラグインとスタイルが&#x200B;**のみCSS**に付属しています。 この
+最小の便利な拡張機能には、No-op ProseMirror プラグインとスタイルが&#x200B;**のみCSS**&#x200B;に付属しています。 この
 エディター内で`<note>`要素ごとに黄色の背景でハイライト表示します。
 
 ```js
@@ -105,7 +105,7 @@ guides.ready(() => {
 
 - すべての要素は`data-xml-element="<tag>"`としてレンダリングされるので、その方法で任意のDITA要素をターゲットにできます
 （`note`、`codeblock`、`section`、`table`、...）
-- CSS **must**はregisterPluginを介して出荷されます。エディターはシャドウ DOMに存在するため、page/clientlib CSSでは出荷できません
+- CSS **must**&#x200B;はregisterPluginを介して出荷されます。エディターはシャドウ DOMに存在するため、page/clientlib CSSでは出荷できません
 達成まで。
 - `<note>`を含むDITA トピックを開いて、適用されていることを確認します。 登録は無条件です（§2.1）。
 したがって、`version`が`guides.ready`時点でまだ`1.0.0`であるにもかかわらず、これは安全です。
@@ -146,7 +146,7 @@ grep -rn "dita_content_overrides" .
   | マップビューアー | `ditamap_viewer` / `map_view_options` |
   | ベースライン/プリセットパネル | `baseline_panel_menu` / `preset_item_menu` |
 
-  これらのサーフェスをターゲットとするアイテムは、新規エディターに&#x200B;**変更なし**が必要です。次の場所に移動しないでください
+  これらのサーフェスをターゲットとするアイテムは、新規エディターに&#x200B;**変更なし**&#x200B;が必要です。次の場所に移動しないでください
   `markup_editor_menu`.
 
 ## API置換リファレンス
@@ -354,7 +354,7 @@ const createXrefPlugin = () => {
 guides.ready(() => guides.editor.registerPlugin(createXrefPlugin));
 ```
 
-アプリケーションの読み込み時にプラグインを登録する（一度）、ダイアログ内ではなく、繰り返し、レジストリは重複排除されません。`registerPlugin`は&#x200B;**ファクトリ関数のみを受け入れ、**はプラグインインスタンスを受け入れません。
+アプリケーションの読み込み時にプラグインを登録する（一度）、ダイアログ内ではなく、繰り返し、レジストリは重複排除されません。`registerPlugin`は&#x200B;**ファクトリ関数のみを受け入れ、**&#x200B;はプラグインインスタンスを受け入れません。
 `guides.editor.prosemirror`の公開：`state`、`model`、`view`、`transform`、`commands`、`keymap`、
 `history`、`tables`、`dropcursor`、`collab`、`markdown`。
 
@@ -446,7 +446,7 @@ guides.ready(() => guides.editor.registerPlugin(createMyPlugin));
 
 ## 推奨ロールアウトシーケンス
 
-1. **Bootstrap**：設定を`guides.ready`でラップします。無条件にプラグインを登録し、*ランタイム* アクションのみを中心に`version` ゲートを追加します（詳細については、[ プラグイン登録とランタイムゲート ](#plugin-registration-and-runtime-gating)を参照）。
+1. **Bootstrap**：設定を`guides.ready`でラップします。無条件にプラグインを登録し、*ランタイム* アクションのみを中心に`version` ゲートを追加します（詳細については、[&#x200B; プラグイン登録とランタイムゲート &#x200B;](#plugin-registration-and-runtime-gating)を参照）。
 2. **コンテキストメニューサーフェス**: `markup_editor_menu`を追加し、`target`個のアンカーを修正します。 アイテムが表示されるようになりました。
 3. **読み取り**：選択/属性の読み取りを`runUtil`に移行します。
 4. **書き込み**：ミューテーションを`runCommand`に移行します。アプリイベントに保存します。

@@ -27,7 +27,7 @@ ht-degree: 1%
 1. **ツール** パネルで、**ガイド**&#x200B;を選択します。
 1. **Bulk Processor** タイルを選択します。
 
-   ![ バルクプロセッサタイルをハイライト表示](images/flow-asset-processor.png)
+   ![&#x200B; バルクプロセッサタイルをハイライト表示](images/flow-asset-processor.png)
 
 1. Guides Bulk Processor ウィンドウが開き、次の詳細が表示されます。
 
@@ -43,13 +43,13 @@ ht-degree: 1%
 
    - **ステータス**：移行のステータスを「進行中」、「完了」、「失敗」と表示します。
 
-   ![Guides Bulk Processor ウィンドウ ](images/guides-asset-processor-migration.png)
+   ![Guides Bulk Processor ウィンドウ &#x200B;](images/guides-asset-processor-migration.png)
 
 1. ウィンドウの右上隅にある「**新しいプロセス**」タブを選択して、新しい移行タスクを開始します。
 
    **新しいプロセス** ダイアログが開きます。
 
-   ![移行用の新しいプロセスダイアログ ](images/new-process-migration.png) {width="350"}
+   ![移行用の新しいプロセスダイアログ &#x200B;](images/new-process-migration.png) {width="350"}
 
 1. 「**機能タイプ**」ドロップダウンから「**マップコレクション**」を選択します。
 

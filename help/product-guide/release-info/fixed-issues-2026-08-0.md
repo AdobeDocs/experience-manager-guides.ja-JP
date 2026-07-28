@@ -12,9 +12,9 @@ ht-degree: 1%
 
 この記事では、Adobe Experience Manager Guides as a Cloud Serviceの2026.08.0 リリースの様々な領域で修正されたバグについて説明します。
 
-新機能と機能強化について詳しくは、[2026.08.0 リリース ](whats-new-2026-08-0.md)の新機能を参照してください。
+新機能と機能強化について詳しくは、[2026.08.0 リリース &#x200B;](whats-new-2026-08-0.md)の新機能を参照してください。
 
-2026.08.0 リリース ](upgrade-instructions-2026-08-0.md)の[ アップグレード手順について説明します。
+2026.08.0 リリース [&#128279;](upgrade-instructions-2026-08-0.md)の アップグレード手順について説明します。
 
 ## オーサリング
 
@@ -59,7 +59,7 @@ ht-degree: 1%
 
 **コレクションのマップと一括アクティブ化**
 
-Experience Manager Guidesの2020.08.0 リリースで利用可能な[新しいマップコレクション ](../user-guide/generate-output-use-new-map-collection-output-generation.md#use-new-map-collection-for-output-generation-beta)機能で、次の問題が修正されました。
+Experience Manager Guidesの2020.08.0 リリースで利用可能な[新しいマップコレクション &#x200B;](../user-guide/generate-output-use-new-map-collection-output-generation.md#use-new-map-collection-for-output-generation-beta)機能で、次の問題が修正されました。
 
 - ネットワークエラーが発生したため、100を超えるマップエントリを含むマップコレクションを読み込めません。 （GUIDES-34007）
 - マップコレクション UIのフォルダーから複数のマップを一度に選択できません。 （GUIDES-29581）

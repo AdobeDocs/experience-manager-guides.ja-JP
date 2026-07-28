@@ -93,7 +93,7 @@ Experience Manager Guidesのバージョン 5.2.0へのアップグレードを�
 - バージョン 4.3.x、4.2、4.2.1 （ホットフィックス 4.2.1.3）、4.1、または4.1.xを使用している場合は、バージョン 5.1.0にアップグレードする前にバージョン 4.4にアップグレードする必要があります。
 - バージョン 4.0を使用している場合は、バージョン 4.3.xにアップグレードする前にバージョン 4.2にアップグレードする必要があります。
 - バージョン 3.8.5を使用している場合は、バージョン 4.2にアップグレードする前にバージョン 4.0にアップグレードする必要があります。
-- 3.8.5より前のバージョンを使用している場合は、[Adobe Experience Manager Guides ヘルプ Experience Manager Guides アーカイブ ](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)で入手できる製品固有のインストールガイドの「PDFのアップグレード」セクションを参照してください。
+- 3.8.5より前のバージョンを使用している場合は、[Adobe Experience Manager Guides ヘルプ Experience Manager Guides アーカイブ &#x200B;](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)で入手できる製品固有のインストールガイドの「PDFのアップグレード」セクションを参照してください。
 
 ## Experience Manager Guides 5.2.0のアップグレードプロセス
 
@@ -105,7 +105,7 @@ Experience Manager Guidesのバージョン 5.2.0へのアップグレードを�
 1. アップグレードするバージョンパッケージをインストールし、バンドルがインストールされるまで待ちます。
 1. *（オプション）* アップグレード Oxygen コネクタプラグインは、アップグレード先のバージョンでリリースされました。
 1. パッケージのインストール後、ブラウザーキャッシュをクリアします。
-1. 以前にキャプチャしたコンテンツのソースビューの検索と置換機能にアクセスするための設定`Enable markup find and replace`を有効にしている場合は、`guidesAssetLucene` インデックスを再インデックスする必要があります。 詳細については、「検索と置換](../install-conf-guide/custom-indexing-on-prem.md)」の[ インデックス再作成を参照してください。
+1. 以前にキャプチャしたコンテンツのソースビューの検索と置換機能にアクセスするための設定`Enable markup find and replace`を有効にしている場合は、`guidesAssetLucene` インデックスを再インデックスする必要があります。 詳細については、「検索と置換[&#128279;](../install-conf-guide/custom-indexing-on-prem.md)」の インデックス再作成を参照してください。
 1. システム設定を更新して、バージョン 5.2.0で導入された新しい設定を組み込み、次の機能強化をサポートするようにします。
 
 

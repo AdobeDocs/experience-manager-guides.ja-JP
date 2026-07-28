@@ -5,10 +5,22 @@ exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
 TQID: https://experienceleague.adobe.com/aSjUOzg8-jreMvbiuBZ5lRlbeikBHMHBLUww4L3-hZA
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0efid: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd456af4-cb12-4a34-8cc4-b74adf885626
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+  - id: fd456af4-cb12-4a34-8cc4-b74adf885626
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 077335fcbb539ef545ce2ca9903e4a8223b3f6ce
 workflow-type: tm+mt
 source-wordcount: 2562
@@ -121,7 +133,7 @@ Experience Manager Guidesには、コンテンツを複数の言語に翻訳で�
    新しい翻訳プロジェクトに加えて、次のオプションから選択することもできます。
 
    - 翻訳プロジェクトの構造を&#x200B;**作成のみ**&#x200B;を選択できます。
-   - **新しいXLIFF翻訳プロジェクトを作成**して、XML コンテンツをXML Localization Interchange File Format （XLIFF）に変換できます。 XLIFFは、コンテンツ翻訳プロセスで使用される様々なツール間のデータ転送を標準化するために使用される、オープンなXML ベースの形式です。Experience Manager GuidesはXLIFF バージョン 1.2をサポートしています。
+   - **新しいXLIFF翻訳プロジェクトを作成**&#x200B;して、XML コンテンツをXML Localization Interchange File Format （XLIFF）に変換できます。 XLIFFは、コンテンツ翻訳プロセスで使用される様々なツール間のデータ転送を標準化するために使用される、オープンなXML ベースの形式です。Experience Manager GuidesはXLIFF バージョン 1.2をサポートしています。
      XLIFF プロジェクトでは、コンテンツは業界標準のXLIFF形式に書き出され、翻訳ベンダーに提供できます。XLIFF形式を使用すると、翻訳段階で既に翻訳したセグメントを再利用できます。\
      XLIFF コンテンツが翻訳されると、Experience Manager Guidesに読み込まれ、元のDITA プロジェクトの翻訳版を作成できます。
 
@@ -146,7 +158,7 @@ Experience Manager Guidesには、コンテンツを複数の言語に翻訳で�
 
    - 新しい翻訳プロジェクトを作成する場合は、プロジェクトを作成するフォルダーを選択します。
 
-     ![ プロジェクトのパスを入力](images/project-path.png){width="650"}
+     ![&#x200B; プロジェクトのパスを入力](images/project-path.png){width="650"}
 
    - 既存の翻訳プロジェクトに追加する場合は、そのプロジェクトが既に存在するパスを選択します。 次に、**既存の翻訳プロジェクト** リストから、現在の翻訳タスクを追加するプロジェクトを選択します。 リストを絞り込むには、**フィルター**&#x200B;を使用することもできます。
 
@@ -254,4 +266,4 @@ Experience Manager Guidesには、選択したバージョンと最後に翻訳�
 後で使用する場合は、翻訳プロジェクトを無効にすることもできます。 プロジェクトを削除すると、プロジェクトに存在するすべてのファイルとフォルダーが削除されます。 プロジェクトを無効にしても、削除はされませんが、リポジトリ内に保持されます。 ただし、無効なプロジェクトを更新または編集することはできません。  プロジェクトを削除または無効化しても、参照の翻訳ステータスには影響しません。
 
 
-**親トピック：**[ エディターの概要](web-editor.md)
+**親トピック：**&#x200B;[&#x200B; エディターの概要](web-editor.md)

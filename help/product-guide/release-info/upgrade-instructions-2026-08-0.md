@@ -12,9 +12,9 @@ ht-degree: 1%
 
 この記事では、Adobe Experience Manager Guides as a Cloud Serviceの2026.08.0 リリースのアップグレード手順と互換性マトリックスについて説明します。
 
-新機能と機能強化について詳しくは、[2026.08.0 リリース ](whats-new-2026-08-0.md)の新機能を参照してください。
+新機能と機能強化について詳しくは、[2026.08.0 リリース &#x200B;](whats-new-2026-08-0.md)の新機能を参照してください。
 
-このリリースで修正された問題のリストについては、[2026.08.0 リリース ](fixed-issues-2026-08-0.md)で修正された問題を参照してください。
+このリリースで修正された問題のリストについては、[2026.08.0 リリース &#x200B;](fixed-issues-2026-08-0.md)で修正された問題を参照してください。
 
 ## 互換性マトリックス
 
@@ -28,7 +28,7 @@ ht-degree: 1%
 |---|---|---|----|
 | 2026.08.0 | 2026.8.0 | [AEM Guides SDK API 2026.8.0](https://central.sonatype.com/artifact/com.adobe.aem/aem-dox-sdk-api/2026.8.0) | [Javadoc 2026.8.0](https://javadoc.io/doc/com.adobe.aem/aem-dox-sdk-api/latest/index.html) |
 
-詳細については、[Maven Central リポジトリ ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/api-reference/introduction)のAPI JARを設定して使用することを参照してください。
+詳細については、[Maven Central リポジトリ &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/api-reference/introduction)のAPI JARを設定して使用することを参照してください。
 
 ### FrameMakerとFrameMaker Publishing Server
 
