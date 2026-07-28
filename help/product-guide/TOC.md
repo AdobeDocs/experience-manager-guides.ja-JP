@@ -424,7 +424,7 @@ ht-degree: 11%
     - トラブルシューティング {#troubleshooting}
       - [セッションのタイムアウト](./user-guide/session-timeout-prompt.md)
 - ユーザーガイド（旧UI） {#user-guide-old-ui}
-  - [AEM Guidesの概要](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+  - [AEM Guidesの概要](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - インストールと設定 {#install-conf-guide}
   - [ダウンロード、インストール、アップグレード](./install-conf-guide/introduction.md)
   - Cloud Serviceのインストールプロセス {#deploy-conf-aemg-cs}
