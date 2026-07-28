@@ -5,17 +5,12 @@ feature: Authoring
 role: User
 exl-id: dff38476-c078-4970-b967-05a902430015
 TQID: https://experienceleague.adobe.com/2VGxq0TrCbvFXYL44fOo5xIjP6GBLi9aKfVSTfLD3jg
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: ff08b63bf8668fddc89c43391b3264a733a824e7
 workflow-type: tm+mt
-source-wordcount: 649
+source-wordcount: 691
 ht-degree: 0%
 
 ---
@@ -24,7 +19,7 @@ ht-degree: 0%
 
 クイズに質問を挿入するには、次の手順を実行します。
 
-1. ツールバーの&#x200B;**質問** ドロップダウンメニューから、目的の質問タイプを選択します。 要件に応じて、次の4つの形式のいずれかを使用して質問を追加できます。TrueまたはFalse、Single正解、Multiple正解、次に示すように次と短い答えを一致させます。 詳しくは、[質問タイプ &#x200B;](#question-types)を参照してください。
+1. ツールバーの&#x200B;**質問** ドロップダウンメニューから、目的の質問タイプを選択します。 要件に応じて、次の4つの形式のいずれかを使用して質問を追加できます。TrueまたはFalse、Single正解、Multiple正解、次に示すように次と短い答えを一致させます。 詳しくは、[質問タイプ ](#question-types)を参照してください。
 
    ![](assets/question-types.png){width="650"}
 
@@ -53,6 +48,13 @@ ht-degree: 0%
 - **誤った回答に対する罰則**：誤った回答に対して差し引くポイントを指定します。
 - **質問ラベル**：質問ラベルの追加を有効にします。
 - **フィードバック**：有効にすると、正解または不正解に対するフィードバックが提供されます。
+
+  >[!NOTE]
+  >
+  > コースの公開された出力では、クイズ内のすべての質問を試した後、学習者は&#x200B;**回答を確認** オプションを使用して、送信された回答を再検討し、どの回答が正しいか正しくないかを確認できます。 これには、追加の設定や設定は必要ありません。
+
+  ![](assets/review-answer-quiz.png){width="350"}
+
 - **位置にオプションをピン留め**：質問に対する特定のオプションがピン留めされている場合、SCORM プリセット設定で&#x200B;**各試行に対する回答の選択肢をランダム化**&#x200B;が有効になっている場合でも、オプションリストの指定された位置に固定されたままになります。そうでない場合、利用可能なオプションが切り替わります。 コンテンツのプロパティパネルで質問の目的のオプションにカーソルを合わせて固定できます。
 
   ![](assets/pin-question.png){width="350"}

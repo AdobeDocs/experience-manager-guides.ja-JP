@@ -5,20 +5,13 @@ feature: Authoring, Features of Web Editor
 role: User
 exl-id: 02e45d34-898f-411c-bd80-bd4f2364b7d7
 TQID: https://experienceleague.adobe.com/sqNExkYi3iIqIxC7mdlhWw-59-LcAXCOU8w7GD63d8Q
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 018c2332a9e5a4ce8fb683a8cb0bcf859977922c
 workflow-type: tm+mt
-source-wordcount: 566
+source-wordcount: 671
 ht-degree: 0%
 
 ---
@@ -49,7 +42,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 管理者は、タブ内のファイル名でファイルのリストを表示することもできます。 [&#x200B; ユーザー設定](./intro-home-page.md#user-preferences)の「**エディターファイル表示設定**」セクションで「**ファイル名**」オプションを選択します。
+> 管理者は、タブ内のファイル名でファイルのリストを表示することもできます。 [ ユーザー設定](./intro-home-page.md#user-preferences)の「**エディターファイル表示設定**」セクションで「**ファイル名**」オプションを選択します。
 
 「ファイル」タブを選択すると、「新しいバージョンとして保存」、「コピー」、「検索」、「追加先」、「プロパティ」、「分割」、「PDFとしてダウンロード」、「閉じる」オプションを備えたコンテキストメニューが開きます。
 
@@ -69,20 +62,28 @@ AIを活用したパワフルなツールは、スマートなヘルプとオー
 >
 > 現在、Adobe Experience Manager Guides as a Cloud ServiceではAI アシスタント機能を利用できます。
 
+**ガイド AI**
+
+Adobe CX Enterprise Coworkerのインテリジェントなエージェンティック型スマートタグスキルをエディターに取り入れ、自然で会話型のコンテンツタグ付けを可能にします。 コンテンツを分析し、関連するタグを提案し、一貫性のある正確なメタデータを最小限の労力で適用できます。 提案されたタグを確認し、コンテンツの整理と見つけやすさの向上のために、選択を確認する前に適用または却下することを選択できます。
+
+>[!NOTE]
+>
+> お客様の環境でGuides AI機能を使用する場合は、カスタマーサクセス チームにお問い合わせください。 この機能を有効にした後、管理者はWorkspaceの設定から有効または無効にできます。 一度に有効にできるAI エクスペリエンスは、ガイド AIまたはAI アシスタントのいずれかです。
+
 **ビューを展開**: **展開** アイコンを使用してページビューを展開できます。 このビューでは、Adobe Experience Manager ロゴを含むヘッダーバーは非表示になっています。 これにより、編集のためのコンテンツスペースが最大化されます。 標準ビューに戻るには、**拡張ビュー**&#x200B;を終了アイコンを使用します。
 
 **その他のアクション**：追加のオプションへのアクセスを提供します。 このボタンを選択すると、次のオプションを含むメニューが開きます。
 
 - **Assets**：設定に基づいて宛先に移動します。
-   - **Cloud Services**: Cloud Servicesを使用している場合、**Assets** オプションを選択すると、AEM ナビゲーション ページに移動します。
+  - **Cloud Services**: Cloud Servicesを使用している場合、**Assets** オプションを選択すると、AEM ナビゲーション ページに移動します。
 
-   - **オンプレミスソフトウェア**: Adobe Experience Manager Guides（4.2.1以降）を使用している場合、**Assets** オプションを選択すると、Assets UIの現在のファイルパスに移動します。
+  - **オンプレミスソフトウェア**: Adobe Experience Manager Guides（4.2.1以降）を使用している場合、**Assets** オプションを選択すると、Assets UIの現在のファイルパスに移動します。
 - **Workspace settings**: Workspace settings ダイアログに移動します。 詳しくは、[Workspace設定の設定](../install-conf-guide/workspace-settings.md)を参照してください。
 
 >[!NOTE]
 >
 >バージョン 5.2より前のオンプレミス設定でAdobe Experience Manager Guidesを使用している場合、Workspace設定オプションは、その他のアクション メニューの下に&#x200B;**Settings**&#x200B;として引き続き表示されます。
 
-- **エディター設定**: エディター設定ダイアログに移動し、個々の作成者レベルでエディターの動作をカスタマイズできます。 オーサリング時に、タグ、コメント、その他のエディターレベルの設定の表示と動作を制御できます。 詳しくは、[&#x200B; エディター設定](../install-conf-guide/workspace-settings.md)を参照してください。
+- **エディター設定**: エディター設定ダイアログに移動し、個々の作成者レベルでエディターの動作をカスタマイズできます。 オーサリング時に、タグ、コメント、その他のエディターレベルの設定の表示と動作を制御できます。 詳しくは、[ エディター設定](../install-conf-guide/workspace-settings.md)を参照してください。
 
-**親トピック：**&#x200B;[&#x200B; エディターの概要](web-editor.md)
+**親トピック：**[ エディターの概要](web-editor.md)

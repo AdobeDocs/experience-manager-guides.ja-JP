@@ -1,7 +1,7 @@
 ---
 title: リリースノート | Adobe Experience Manager Guides 5.2.0 リリースのアップグレード手順
 description: 互換性マトリックスと、Adobe Experience Manager Guidesの5.2.0 リリースにアップグレードする方法について説明します。
-source-git-commit: a2d4731af4f4996c87dd177a6e45f1d8ebabd6cf
+source-git-commit: 575e8452f02626dab3d2bc6a040767a592588205
 workflow-type: tm+mt
 source-wordcount: '859'
 ht-degree: 4%
@@ -26,6 +26,20 @@ ht-degree: 4%
 | 5.2.0 （UUID） | 6.5 | 24, 23, 22 |
 
 詳細については、『オンプレミス インストールおよび設定ガイド』の「[技術要件](../install-guide/download-install-technical-requirements.md)」セクションを参照してください。
+
+<!--
+
+### Java SDK resources
+
+Use the following resources when developing custom Java plugins or integrations with Experience Manager Guides. Ensure that the SDK version matches your installed Experience Manager Guides release. 
+
+| Release | Java SDK version| Maven Central| Java API reference | 
+|---|---|---|----|
+| 5.2.0 (UUID) | 5.2.1 | [AEM Guides SDK API 5.2.1 ](https://central.sonatype.com/artifact/com.adobe.aem/aem-guides-sdk-api/5.2.1/overviewhttps://central.sonatype.com/artifact/com.adobe.aem/aem-guides-sdk-api/5.2.1/overview) | [Javadoc 5.2.1](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api/5.2.1/index.html) |
+
+For more details, view [Configure and use the API JAR from Maven Central repository](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/api-reference/introduction).
+
+ -->
 
 ### FrameMakerとFrameMaker Publishing Server
 
@@ -69,7 +83,7 @@ Experience Manager Guides 5.2.0のアップグレードプロセスを開始す�
 >
 > - **AEM 6.5 LTS**&#x200B;の場合：Experience Manager Guides 5.2.0は、AEM 6.5 LTS サービスパック 2でのみサポートされます。
 > - **AEM 6.5**&#x200B;の場合：Experience Manager Guides 5.2.0は、AEM 6.5 Service Pack 24、23、および22でのみサポートされています。
-> - 現在AEM 6.5を使用しており、AEM 6.5 LTSに移行する予定がある場合は、Experience Manager Guides 5.2.0 アップグレードを進める前に、必ずAEM アップグレードを完了してください。 詳しくは、[Adobe Experience Manager（AEM） 6.5 LTS](https://experienceleague.adobe.com/ja/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)へのアップグレードを参照してください。
+> - 現在AEM 6.5を使用しており、AEM 6.5 LTSに移行する予定がある場合は、Experience Manager Guides 5.2.0 アップグレードを進める前に、必ずAEM アップグレードを完了してください。 詳しくは、[Adobe Experience Manager（AEM） 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)へのアップグレードを参照してください。
 
 Experience Manager Guidesのバージョン 5.2.0へのアップグレードを進める前に、次の点を考慮する必要があります。
 
@@ -79,7 +93,7 @@ Experience Manager Guidesのバージョン 5.2.0へのアップグレードを�
 - バージョン 4.3.x、4.2、4.2.1 （ホットフィックス 4.2.1.3）、4.1、または4.1.xを使用している場合は、バージョン 5.1.0にアップグレードする前にバージョン 4.4にアップグレードする必要があります。
 - バージョン 4.0を使用している場合は、バージョン 4.3.xにアップグレードする前にバージョン 4.2にアップグレードする必要があります。
 - バージョン 3.8.5を使用している場合は、バージョン 4.2にアップグレードする前にバージョン 4.0にアップグレードする必要があります。
-- 3.8.5より前のバージョンを使用している場合は、[Adobe Experience Manager Guides ヘルプ Experience Manager Guides アーカイブ &#x200B;](https://helpx.adobe.com/jp/xml-documentation-for-experience-manager/archive.html)で入手できる製品固有のインストールガイドの「PDFのアップグレード」セクションを参照してください。
+- 3.8.5より前のバージョンを使用している場合は、[Adobe Experience Manager Guides ヘルプ Experience Manager Guides アーカイブ ](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)で入手できる製品固有のインストールガイドの「PDFのアップグレード」セクションを参照してください。
 
 ## Experience Manager Guides 5.2.0のアップグレードプロセス
 
@@ -91,7 +105,7 @@ Experience Manager Guidesのバージョン 5.2.0へのアップグレードを�
 1. アップグレードするバージョンパッケージをインストールし、バンドルがインストールされるまで待ちます。
 1. *（オプション）* アップグレード Oxygen コネクタプラグインは、アップグレード先のバージョンでリリースされました。
 1. パッケージのインストール後、ブラウザーキャッシュをクリアします。
-1. 以前にキャプチャしたコンテンツのソースビューの検索と置換機能にアクセスするための設定`Enable markup find and replace`を有効にしている場合は、`guidesAssetLucene` インデックスを再インデックスする必要があります。 詳細については、「検索と置換[&#128279;](../install-conf-guide/custom-indexing-on-prem.md)」の インデックス再作成を参照してください。
+1. 以前にキャプチャしたコンテンツのソースビューの検索と置換機能にアクセスするための設定`Enable markup find and replace`を有効にしている場合は、`guidesAssetLucene` インデックスを再インデックスする必要があります。 詳細については、「検索と置換](../install-conf-guide/custom-indexing-on-prem.md)」の[ インデックス再作成を参照してください。
 1. システム設定を更新して、バージョン 5.2.0で導入された新しい設定を組み込み、次の機能強化をサポートするようにします。
 
 

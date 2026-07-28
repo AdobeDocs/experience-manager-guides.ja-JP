@@ -5,10 +5,10 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 0849544d-fa7b-4c66-b418-1ffcd1ca09df
-source-git-commit: 179e9016b12edb14c09ce9352a318e06a4fc628a
+source-git-commit: 75954eab3ac1738705fe2a7280973af39b9214df
 workflow-type: tm+mt
-source-wordcount: '3190'
-ht-degree: 2%
+source-wordcount: '3264'
+ht-degree: 1%
 
 ---
 
@@ -28,7 +28,7 @@ AEM サイト出力では、異なる出力タスクに異なるデザインテ�
 
 >[!TIP]
 >
-> AEM サイト出力の作成に関するベストプラクティスについては、[&#x200B; ベストプラクティスガイド &#x200B;](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-mar-22/Adobe-Experience-Manager-Guides_Best-Practices_EN.pdf)の&#x200B;*AEM サイト公開*&#x200B;の節を参照してください。
+> AEM サイト出力の作成に関するベストプラクティスについては、[ ベストプラクティスガイド ](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-mar-22/Adobe-Experience-Manager-Guides_Best-Practices_EN.pdf)の&#x200B;*AEM サイト公開*&#x200B;の節を参照してください。
 
 
 ## 出力を生成するためのデザインテンプレートのカスタマイズ {#customize_xml-add-on}
@@ -98,7 +98,7 @@ AEM Guides デザインテンプレートのプロパティについては、次
 >
 > カスタムデザインテンプレートノードを作成した後、カスタムデザインテンプレートノードを使用するには、AEM サイト出力プリセットの「デザイン」オプションを更新する必要があります。
 
-詳しくは、[最初のAdobe Experience Manager web サイトの作成](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=ja)および[AEMでの独自のweb サイトの開発の基本](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=ja)を参照してください。
+詳しくは、[最初のAdobe Experience Manager web サイトの作成](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=ja)および[AEMでの独自のweb サイトの開発の基本](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=en)を参照してください。
 
 ## AEM サイト出力の生成にドキュメントタイトルを使用する
 
@@ -110,7 +110,7 @@ UUID ベース以外のファイルシステムを使用したオンプレミス
 
 >[!NOTE]
 >
-> さらに、AEM サイト出力のURL内の一連の文字のみを許可するようにルールを設定できます。 詳しくは、[&#x200B; トピックの作成とAEM サイト出力の公開に関するファイル名削除ルールの設定](#id2164D0KD0XA)を参照してください。
+> さらに、AEM サイト出力のURL内の一連の文字のみを許可するようにルールを設定できます。 詳しくは、[ トピックの作成とAEM サイト出力の公開に関するファイル名削除ルールの設定](#id2164D0KD0XA)を参照してください。
 
 >[!BEGINTABS]
 
@@ -122,6 +122,9 @@ UUID ベース以外のファイルシステムを使用したオンプレミス
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `aemsite.pagetitle` | ブール値\（true/false\）。 ページタイトルを使用して出力を生成する場合は、このプロパティをtrueに設定します。 デフォルトでは、ファイル名を使用するように設定されています。<br> **デフォルト値**: false |
 
+>[!NOTE]
+>
+> `aemsite.pagetitle` プロパティは、AEM サイトのページタイトルに対するデフォルトのフォルダーレベルの動作を定義します。 環境のAEM Sites プリセットで`Topic filename`または`Topic title`を選択するオプションが使用可能な場合、プリセットレベルの選択が優先され、その出力の`aemsite.pagetitle` フォルダーレベルの設定が上書きされます。 例えば、`aemsite.pagetitle=true`でユーザーが出力プリセットで&#x200B;*Topic filename*&#x200B;を選択した場合、topic filenameが使用されます。 `aemsite.pagetitle=false`でユーザーが&#x200B;*トピックタイトル*&#x200B;を選択した場合、トピックタイトルが使用されます。
 
 >[!TAB  オンプレミス ]
 
@@ -210,7 +213,7 @@ AEM サイト出力のURLにドキュメントタイトルを使用できます�
 
 1. *com.adobe.fmdita.common.SanitizeNodeNameImpl* バンドルを検索してクリックします。
 
-1. AEM Sites **への公開用に**&#x200B;許可されていない文字セット プロパティで、プロパティが`<>`&#x200B;`@$`に設定されていることを確認します。 このリストにはさらに特殊文字を追加できますが、必須の特殊文字が必要です。
+1. AEM Sites **への公開用に**&#x200B;許可されていない文字セット プロパティで、プロパティが`<>``@$`に設定されていることを確認します。 このリストにはさらに特殊文字を追加できますが、必須の特殊文字が必要です。
 
    >[!NOTE]
    >
@@ -363,7 +366,7 @@ AEM サイト出力でフラット化するノードを指定するのと同様�
 
 ## AEM サイト出力で削除されたページのバージョン管理を設定する
 
-「既存の出力ページ」設定で「**削除」および「**&#x200B;作成&#x200B;**&#x200B;**」オプションを選択してAEM サイト出力を生成すると、削除するページのバージョンが作成されます。 システムを設定して、削除前にバージョンの作成を停止できます。
+「既存の出力ページ」設定で「**削除」および「**&#x200B;作成&#x200B;****」オプションを選択してAEM サイト出力を生成すると、削除するページのバージョンが作成されます。 システムを設定して、削除前にバージョンの作成を停止できます。
 
 次のタブには、Experience Manager Guidesの設定に基づいて削除されるページ（Cloud Serviceまたはオンプレミス）のバージョンの作成を停止する手順が表示されます。
 
@@ -408,4 +411,4 @@ AEM サイト出力でフラット化するノードを指定するのと同様�
 
 Experience Manager Guidesには、クロスマップ（2つの異なるマップのトピック間のリンク）の場合に生成されるリンクを処理するためのカスタムスリング [**rewriter**](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html) モジュールがあります。 この書き換え設定は、次のパスにインストールされています：<br> `/apps/fmdita/config/rewriter/fmdita-crossmap-link-patcher`。
 
-コードベースに別のカスタムスリングリライターがある場合は、`'order'`値が50より大きい値を使用します。これは、Experience Manager Guides sling リライターが`'order'` 50を使用するからです。  これを上書きするには、値が50を超える必要があります。 詳細については、[出力の書き換えパイプライン &#x200B;](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html)を参照してください。
+コードベースに別のカスタムスリングリライターがある場合は、`'order'`値が50より大きい値を使用します。これは、Experience Manager Guides sling リライターが`'order'` 50を使用するからです。  これを上書きするには、値が50を超える必要があります。 詳細については、[出力の書き換えパイプライン ](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html)を参照してください。

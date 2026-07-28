@@ -5,25 +5,17 @@ feature: Reviewing
 role: User
 exl-id: d2119bbe-3a0c-4da3-b4f8-7872496fa61f
 TQID: https://experienceleague.adobe.com/uuaP85TjYQvFzKfFRLfYj8xkOiIzpIVB-6Vj34wipHI
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: f6b42924258ff1092eb492dfdcc348f9247886f7
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 7d0c757b647a2e6c5e563f0ed7db6a7225769033
 workflow-type: tm+mt
-source-wordcount: 604
+source-wordcount: 637
 ht-degree: 0%
 
 ---
 
 # レビューを依頼するか、作成者としてレビュータスクを閉じます
-
->[!IMPORTANT]
->
-> この記事で説明する新機能は、Experience Manager Guides as a Cloud Serviceの2508 リリースでデフォルトで有効になっています。 移行前に作成されたレビューは影響を受けず、以前のワークフローを引き続き使用します。 これらのアップデートなしで既存の機能を引き続き使用したい場合は、カスタマーサクセス部門に連絡して、新しい機能を無効にしてもらってください。
 
 レビューアーがレビュータスクを「完了」とマークすると、タスク開始者に通知がトリガーされ、タスクと関連するタスクレベルのコメントにアクセスしてレビューできるようになります。
 
@@ -31,6 +23,10 @@ ht-degree: 0%
 
 - 再審査を申請
 - レビュータスクを閉じる
+
+>[!NOTE]
+>
+> 環境で委任機能が有効になっている場合、レビューアーは[別のレビューアーをレビュータスクに追加](./review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer)するようリクエストすることもできます。 このようなリクエストは、AEM インボックスに通知の形式で表示されます。 推奨されるレビュー担当者が関連するプロジェクトに含まれていない場合は、最初にプロジェクトに追加するオプションが表示されます。 それ以外の場合は、**タスクの詳細** ページの&#x200B;**REVIEWERS** タブに移動して、推奨されるレビューアーをレビュータスクに追加します。 推奨レビューアーを追加する決定は、レビュータスクの開始者として常にユーザーに委ねられます。
 
 ## 再審査をリクエストするか、レビュータスクを閉じます
 
@@ -58,7 +54,7 @@ ht-degree: 0%
 
    - **レビューを閉じる**：レビュータスクを閉じます。 レビューパネルの下部にある「**タスクを更新**」ボタンが&#x200B;**クローズ**&#x200B;に変更され、レビュータスクに関与するすべてのユーザーに、そのクローズを示す通知が送信されます。
 
-   レビュー通知のトリガー方法について詳しくは、[&#x200B; レビュー通知について](./review-understanding-review-notifications.md)を参照してください。
+   レビュー通知のトリガー方法について詳しくは、[ レビュー通知について](./review-understanding-review-notifications.md)を参照してください。
 
    ![](images/update-task-dialog.png){width="350"}
 

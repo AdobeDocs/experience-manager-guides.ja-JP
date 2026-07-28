@@ -5,19 +5,13 @@ exl-id: 285d3ad3-fb4e-4cdd-ab83-493ffce891d6
 feature: Authoring, Web Editor
 role: User
 TQID: https://experienceleague.adobe.com/SZs-Hc4QAGj6Mfdm-Rsaio-UEaIRpLQArxVP2FUydok
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c003b524d168d0c1826f6af44278223e2fa4bf0b
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 07f25eacbfa6e22c1de71d9c4012ad1e9b3440a8
 workflow-type: tm+mt
-source-wordcount: 458
+source-wordcount: 453
 ht-degree: 0%
 
 ---
@@ -48,7 +42,6 @@ Experience Manager Guidesには、構造化ドキュメントを作成および�
 新しいエディターは現在、次の機能をサポートしていません。 これらの機能は、今後のリリースで導入される予定です。
 
 - 「変更をトラック」を有効にしたオーサリング（既存のトラッキング済み変更は保持され、通常のコンテンツとして扱われます）
-- 作成者ビューでの画像リサイズ
 
 
 >[!NOTE]
@@ -61,4 +54,4 @@ Experience Manager Guidesには、構造化ドキュメントを作成および�
 Experience Manager GuidesのOld Editorは、構造化されたコンテンツに対して、シンプルで信頼性の高いオーサリングエクスペリエンスを提供し、DITA 1.2、1.3、軽量DITA、専用DITAなど、サポートされている標準への準拠を確保しながら、DITAの複雑さを抽象化します。 共通のブロックやインライン要素を操作するための必須ツールを提供し、構造化されたフレームワーク内での一貫性のある管理されたコンテンツ制作に適しています。
 
 
-**親トピック：**&#x200B;[&#x200B; Experience Manager Guidesを使用してコンテンツを作成](authoring-content-xml-doc.md)
+**親トピック：**[ Experience Manager Guidesを使用してコンテンツを作成](authoring-content-xml-doc.md)
