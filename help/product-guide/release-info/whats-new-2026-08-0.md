@@ -2,7 +2,7 @@
 title: リリースノート | Adobe Experience Manager Guides 2026.08.0 リリースの新機能
 description: Adobe Experience Manager Guides 2026.08.0 リリースの新機能と強化機能について説明します
 role: Leader
-source-git-commit: 2108fea9ba6d35a9439f672b66e5d25aeb19f0ca
+source-git-commit: b866964c30a565eab0f6f9aec4b3fc9013f15f75
 workflow-type: tm+mt
 source-wordcount: '1383'
 ht-degree: 0%
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 この記事では、Adobe Experience Manager Guides as a Cloud Serviceの2026.08.0 リリースで導入された新機能と強化機能について説明します。
 
-このリリースで修正された問題のリストについては、[2026.08.0 リリース &#x200B;](fixed-issues-2026-08-0.md)で修正された問題を参照してください。
+このリリースで修正された問題のリストについては、[2026.08.0 リリース ](fixed-issues-2026-08-0.md)で修正された問題を参照してください。
 
-2026.08.0 リリース [&#128279;](../release-info/upgrade-instructions-2026-08-0.md)の アップグレード手順について説明します。
+2026.08.0 リリース ](../release-info/upgrade-instructions-2026-08-0.md)の[ アップグレード手順について説明します。
 
 
 ## マップを管理し、出力を公開するための新しいマップコレクション
@@ -49,7 +49,7 @@ Experience Manager Guidesでは、MCP （Model Context Protocol）の統合が�
 
 レビューアーは、レビュータスクで利用可能な新しい&#x200B;**委任** オプションを使用して、レビューが作成者に戻る前に、別のユーザーがレビューに参加することを推奨できるようになりました。 これは、コンテンツの一部がレビュー担当者の専門知識を超えている場合や、レビューを完了する前に別の意見が必要な場合に、プロジェクト管理者を通じてリクエストを転送する必要がない場合に役立ちます。
 
-「委任」オプションを選択すると、推奨事項が作成者に送信され、作成者は推奨事項のレビュー担当者をタスクに追加するかどうかを決定します。 [&#x200B; レビュータスクを別のレビューアーに委任](../user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer)の詳細をご覧ください。
+「委任」オプションを選択すると、推奨事項が作成者に送信され、作成者は推奨事項のレビュー担当者をタスクに追加するかどうかを決定します。 [ レビュータスクを別のレビューアーに委任](../user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer)の詳細をご覧ください。
 
 ![](assets/review-delegate-option.png){width="350"}
 
@@ -57,21 +57,20 @@ Experience Manager Guidesでは、MCP （Model Context Protocol）の統合が�
 
 レビューアーは、通知メールのみに依存するのではなく、レビューエクスペリエンス内でタスクの説明を直接表示できるようになりました。 レビュータスクの作成中に入力された説明は、レビューの詳細ダイアログに表示され、レビューUIとエディターインターフェイスの両方で&#x200B;**情報** アイコンからアクセスできるようになります。
 
-これにより、レビュー担当者は、レビュー全体を通じて手順、範囲、焦点を当てた領域にアクセスできます。 詳細については、[&#x200B; レビュー用にトピックを送信](../user-guide/review-send-topics-for-review.md)を参照してください。
+これにより、レビュー担当者は、レビュー全体を通じて手順、範囲、焦点を当てた領域にアクセスできます。 詳細については、[ レビュー用にトピックを送信](../user-guide/review-send-topics-for-review.md)を参照してください。
 
 ![](assets/review-details.png){width="350"}
 
-
 ### レビュー時のタグ付けリストでのユーザーID
 
-レビューのコメントまたは返信でユーザーをタグ付けすると、タグ付けドロップダウンに各ユーザーのメールアドレスがユーザーIDと共に表示されるようになりました。 これにより、正確なレビュアーを特定して選択することが容易になります。特に、表示名が不明瞭な大規模組織では特に重要です。
+レビューのコメントまたは返信でユーザーをタグ付けすると、タグ付けドロップダウンに各ユーザーのメールアドレスがユーザーIDと共に表示されるようになりました。 これにより、正確なレビュアーを識別して選択することが容易になります。特に、表示名が曖昧な大規模組織の場合に便利です。
 
-メールアドレスが利用できない場合は、代わりにユーザーIDが表示されます。 レビューUIの操作について詳しくは、コメント内の[&#x200B; タスクユーザーのタグ付け](../user-guide/review-topics.md#tag-task-users-in-a-comment)を参照してください。
+メールアドレスが利用できない場合は、代わりにユーザーIDが表示されます。 レビューUIの操作について詳しくは、コメント内の[ タスクユーザーのタグ付け](../user-guide/review-topics.md#tag-task-users-in-a-comment)を参照してください。
 
 
 ### トピックのすべてのレビュータスクを表示
 
-作成者は、現在開いているトピックに関連付けられたすべてのレビュータスクを、開いているか閉じているかをコメントパネルから直接表示できるようになりました。 ドロップダウンには、トピックが属するすべてのレビュータスクと、各タスクの状態およびプロジェクトが一覧表示されます。トピックを離れたりレビュープロジェクトを切り替えたりすることなく、コメントを表示できます。 [&#x200B; トピックのすべてのレビュータスクを表示](../user-guide/review-address-review-comments.md#view-all-review-tasks-for-a-topic)の詳細を確認します。
+作成者は、現在開いているトピックに関連付けられたすべてのレビュータスクを、開いているか閉じているかをコメントパネルから直接表示できるようになりました。 ドロップダウンには、トピックが属するすべてのレビュータスクと、各タスクの状態およびプロジェクトが一覧表示されます。トピックを離れたりレビュープロジェクトを切り替えたりすることなく、コメントを表示できます。 [ トピックのすべてのレビュータスクを表示](../user-guide/review-address-review-comments.md#view-all-review-tasks-for-a-topic)の詳細を確認します。
 
 ![](assets/review-task-selection-dropdpwn.png){width="350"}
 
@@ -79,7 +78,7 @@ Experience Manager Guidesでは、MCP （Model Context Protocol）の統合が�
 
 レビュータスクに1つ以上の添付されたDITAVAL ファイルが含まれている場合、条件パネルには、各条件が、添付されたDITAVAL ファイルと一致するように事前設定された切り替えスイッチとして表示されるようになりました。これにより、レビュー担当者は、レビュー開始者が意図した方法でコンテンツを確認できます。 トグルをオフにすると、そのコンテンツはレビューから非表示になり、オンにすると元に戻ります。
 
-詳細については、DITAVAL ベースの条件[&#128279;](../user-guide/review-topics.md#conditions-panel-with-ditaval-based-conditions)を含む条件パネルを参照してください。
+詳細については、DITAVAL ベースの条件](../user-guide/review-topics.md#conditions-panel-with-ditaval-based-conditions)を含む[条件パネルを参照してください。
 
 ![](assets/review-condition-panel-ditaval.png){width="350"}
 
@@ -95,7 +94,7 @@ Experience Manager Guidesでは、MCP （Model Context Protocol）の統合が�
 
 コンテンツのヘルスチェックは、公開前にDITA マップ全体でコンテンツの品質を検証するのに役立ちます。 管理者は、壊れたリンク、重複ID、Schematron検証のチェックを組み合わせることで、再利用可能なヘルスチェックプリセットを作成できます。
 
-作成者は、DITA マップまたは選択したベースラインでヘルスチェックを実行して、関連するトピックとマップ間の問題の統合レポートを生成できます。 詳しくは、[&#x200B; マップ上でヘルスチェックを実行](../user-guide/map-editor-other-features.md#run-health-check-on-a-map)を参照してください。
+作成者は、DITA マップまたは選択したベースラインでヘルスチェックを実行して、関連するトピックとマップ間の問題の統合レポートを生成できます。 詳しくは、[ マップ上でヘルスチェックを実行](../user-guide/map-editor-other-features.md#run-health-check-on-a-map)を参照してください。
 
 
 ## 翻訳の機能強化
@@ -120,15 +119,15 @@ Experience Manager Guidesでは、MCP （Model Context Protocol）の統合が�
 
   ![](assets/pdf-icon.png){width="650"}
 
-- コースの公開出力で、学習者は、送信された回答を再検討するクイズの試みを完了した後、**回答を確認** オプションを使用して、どの回答が正しいか正しくないかを確認できるようになりました。 クイズ [&#128279;](../learning-content/quiz-insert-questions.md#question-properties)の質問プロパティについて詳しく説明します。
+- コースの公開出力で、学習者は、送信された回答を再検討するクイズの試みを完了した後、**回答を確認** オプションを使用して、どの回答が正しいか正しくないかを確認できるようになりました。 クイズ ](../learning-content/quiz-insert-questions.md#question-properties)の[質問プロパティについて詳しく説明します。
 
   ![](assets/review-answer-quiz.png){width="650"}
 
-- コース内のナレッジチェックの質問で、学習者が誤った回答を選択すると、**再試行** ボタンが表示され、質問を再試行できるようになりました。 この動作は、シングルセレクトとマルチセレクトのナレッジチェックで一貫しています。 詳細については、挿入メニュー[&#128279;](../learning-content/lc-other-insert-options.md)のその他のオプションを参照してください。
+- コース内のナレッジチェックの質問で、学習者が誤った回答を選択すると、**再試行** ボタンが表示され、質問を再試行できるようになりました。 この動作は、シングルセレクトとマルチセレクトのナレッジチェックで一貫しています。 詳細については、挿入メニュー](../learning-content/lc-other-insert-options.md)の[その他のオプションを参照してください。
 
-- HTML トピックがLearning Group マップに追加されると、`format="html"`属性が対応する`topicref`に自動的に追加されるようになり、DITA-OT 4.xで正しい処理と公開が保証されるようになりました。 詳細については、[&#x200B; コースに既存のコンテンツを追加する](../learning-content/manage-course.md#add-existing-content)を参照してください。
+- HTML トピックがLearning Group マップに追加されると、`format="html"`属性が対応する`topicref`に自動的に追加されるようになり、DITA-OT 4.xで正しい処理と公開が保証されるようになりました。 詳細については、[ コースに既存のコンテンツを追加する](../learning-content/manage-course.md#add-existing-content)を参照してください。
 
 ## APIの強化
 
-このリリースでは、アセット管理、翻訳、公開用の新しいSwagger APIが導入され、これらのワークフローを既存のツールやシステムに簡単に接続できるようになりました。 詳しくは、Experience Manager Guides リリース [&#128279;](../api-reference/api-update-swagger.md)のAPI アップデートを参照してください。
+このリリースでは、アセット管理、翻訳、公開用の新しいSwagger APIが導入され、これらのワークフローを既存のツールやシステムに簡単に接続できるようになりました。 詳しくは、Experience Manager Guides リリース ](../api-reference/api-update-swagger.md)の[API アップデートを参照してください。
 
