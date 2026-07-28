@@ -22,7 +22,7 @@ ht-degree: 0%
 
 # フォルダーのメタデータの書き出しが「文字列が長すぎます」という例外で失敗するのはなぜですか？
 
-Assets UIからフォルダーのメタデータ [&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/using/metadata#export-metadata)を書き出すと、書き出しジョブが`String is too long`件の例外で失敗する可能性があります。 これは通常、フォルダーに`baselineObj`などの文字列以外の値を格納するExperience Manager Guides固有のプロパティが含まれている場合に発生します。
+Assets UIからフォルダーのメタデータ [&#128279;](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/assets/using/metadata#export-metadata)を書き出すと、書き出しジョブが`String is too long`件の例外で失敗する可能性があります。 これは通常、フォルダーに`baselineObj`などの文字列以外の値を格納するExperience Manager Guides固有のプロパティが含まれている場合に発生します。
 
 **なぜこのようなことが起こるのですか？**
 

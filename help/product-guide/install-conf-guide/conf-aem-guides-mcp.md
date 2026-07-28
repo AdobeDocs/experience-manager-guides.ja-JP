@@ -79,7 +79,7 @@ Experience Manager Guides MCP サーバーは&#x200B;**リモート** サーバ�
 
 ### 人道クロード
 
-公式のチュートリアルに従います。[AEM MCP用にClaudeを設定](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/mcp-support/chat-applications/setup-claude)。 カスタムコネクタを追加する場合は、Experience Manager Guides エンドポイントを使用します。
+公式のチュートリアルに従います。[AEM MCP用にClaudeを設定](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/mcp-support/chat-applications/setup-claude)。 カスタムコネクタを追加する場合は、Experience Manager Guides エンドポイントを使用します。
 
 ```
 https://mcp.adobeaemcloud.com/adobe/mcp/guides

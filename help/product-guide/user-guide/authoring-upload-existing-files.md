@@ -26,13 +26,13 @@ Adobe Experience Manager Guidesで使用する既存のDITA コンテンツの�
 
 >[!IMPORTANT]
 >
-> Adobe Experience Managerでサポートされているコンテンツのアップロード方法の詳細については、[&#x200B; デジタルアセットをAdobe Experience Manager as a Cloud Service Assetsに追加する](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html)を参照してください。
+> Adobe Experience Managerでサポートされているコンテンツのアップロード方法の詳細については、[&#x200B; デジタルアセットをAdobe Experience Manager as a Cloud Service Assetsに追加する](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=ja)を参照してください。
 
 ## Assets Console ユーザーインターフェイス
 
-Assets Console ユーザーインターフェイスを使用してAdobe Experience Manager as a Cloud Service Assets[&#128279;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#filename-handling#upload-assets)にデジタルアセットを追加するには、デスクトップで必要なアセットを選択し、Adobe Experience Manager ユーザーインターフェイス \（web ブラウザー\）を移動先フォルダーにドラッグします。 アセットをアップロードする際には、ファイル名にサポートされていない文字や禁止されている文字が含まれていないことを確認してください。
+Assets Console ユーザーインターフェイスを使用してAdobe Experience Manager as a Cloud Service Assets[&#128279;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=ja#filename-handling?lang=ja#upload-assets)にデジタルアセットを追加するには、デスクトップで必要なアセットを選択し、Adobe Experience Manager ユーザーインターフェイス \（web ブラウザー\）を移動先フォルダーにドラッグします。 アセットをアップロードする際には、ファイル名にサポートされていない文字や禁止されている文字が含まれていないことを確認してください。
 
-詳しくは、Adobe Experience Manager ドキュメントの「[&#x200B; ファイル名の処理と禁止文字](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#filename-handling)」セクションを参照してください。
+詳しくは、Adobe Experience Manager ドキュメントの「[&#x200B; ファイル名の処理と禁止文字](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=ja#filename-handling)」セクションを参照してください。
 
 ### Assets UI インターフェイスを使用したファイルのアップロード
 
@@ -53,7 +53,7 @@ Assets Console ユーザーインターフェイスを使用してAdobe Experien
 
 ## アセットの一括取り込み
 
-大規模な移行や時折の一括取り込みがある場合は、アセットの一括取り込み機能を使用してコンテンツをアップロードします。 このツールを使用すると、AzureやS3などのサポートされているデータストアから一括コンテンツをアップロードできます。 詳細については、[&#x200B; アセットの一括インジェスター](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=en#asset-bulk-ingestor)を参照してください。
+大規模な移行や時折の一括取り込みがある場合は、アセットの一括取り込み機能を使用してコンテンツをアップロードします。 このツールを使用すると、AzureやS3などのサポートされているデータストアから一括コンテンツをアップロードできます。 詳細については、[&#x200B; アセットの一括インジェスター](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=ja#asset-bulk-ingestor)を参照してください。
 
 ## FrameMakerを使用した一括アップロード
 
