@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c3a30c22dd49ab8af898ecd2ff032101d2f9d93f
+source-git-commit: 06126f77ee4db22865895739ad9af4efa787a7df
 workflow-type: tm+mt
-source-wordcount: 3064
+source-wordcount: 3089
 ht-degree: 0%
 
 ---
@@ -158,6 +158,10 @@ ht-degree: 0%
 注釈は、文書内の注釈テキストの順序で表示されます。 例えば、最初の文にハイライトコメントがあり、最初の段落の2番目の文にテキストコメントを挿入すると、挿入されたテキストコメントの前にハイライトテキストコメントが表示されます。
 
 コメントパネルを使用して実行できるタスクについては、以下で説明します。
+
+- 情報アイコン ![](./images/info-icon.svg)を使用して、レビュータスクの名前、レビューバージョン、ステータス、タスクの説明など、レビュータスクの詳細を表示します。
+
+  ![](./images/review-details-review-ui.png)
 
 - コメントを選択すると、ドキュメント内の対応するコメントの場所がハイライト表示されます。
 - コメントに返信を追加できます。

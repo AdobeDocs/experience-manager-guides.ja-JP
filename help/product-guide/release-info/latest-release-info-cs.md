@@ -10,9 +10,9 @@ role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 4ec392d0525a89afc07e98bc7c23ed72178efca1
+source-git-commit: 06126f77ee4db22865895739ad9af4efa787a7df
 workflow-type: tm+mt
-source-wordcount: 413
+source-wordcount: 431
 ht-degree: 2%
 
 ---
@@ -25,6 +25,8 @@ ht-degree: 2%
 
 | [!DNL AEM Guides] リリース | リリースノート |
 |---|---|
+| **AEM Guides 2026.08.0** | [2026.08.0新機能](./whats-new-2026-08-0.md)<br><br>[2026.08.0修正済みの問題](./fixed-issues-2026-08-0.md)<br><br>[2026.08.0 アップグレード手順](./upgrade-instructions-2026-08-0.md) |
+| **AEM Guides 2026.07.0** | [2026.07.0修正された問題](./fixed-issues-2026-07-0.md)<br><br>[2026.07.0 アップグレード手順](./upgrade-instructions-2026-07-0.md) |
 | **AEM Guides 2026.06.0** | [2026.06.0新機能](./whats-new-2026-06-0.md)<br><br>[2026.06.0修正された問題](./fixed-issues-2026-06-0.md)<br><br>[2026.06.0 アップグレード手順](./upgrade-instructions-2026-06-0.md) |
 | **AEM Guides 2026.05.0 サービスパック 1** | [2026.05.0 サービスパック 1修正された問題](./fixed-issues-2026-05-0-sp1.md) |
 | **AEM Guides 2026.05.0** | [2026.05.0新機能](./whats-new-2026-05-0.md)<br><br>[2026.05.0修正済みの問題](./fixed-issues-2026-05-0.md)<br><br>[2026.05.0 アップグレード手順](./upgrade-instructions-2026-05-0.md) |
