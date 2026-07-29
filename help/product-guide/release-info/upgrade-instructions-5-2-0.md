@@ -1,7 +1,7 @@
 ---
 title: リリースノート | Adobe Experience Manager Guides 5.2.0 リリースのアップグレード手順
 description: 互換性マトリックスと、Adobe Experience Manager Guidesの5.2.0 リリースにアップグレードする方法について説明します。
-source-git-commit: a2d4731af4f4996c87dd177a6e45f1d8ebabd6cf
+source-git-commit: 575e8452f02626dab3d2bc6a040767a592588205
 workflow-type: tm+mt
 source-wordcount: '859'
 ht-degree: 4%
@@ -26,6 +26,20 @@ ht-degree: 4%
 | 5.2.0 （UUID） | 6.5 | 24, 23, 22 |
 
 詳細については、『オンプレミス インストールおよび設定ガイド』の「[技術要件](../install-guide/download-install-technical-requirements.md)」セクションを参照してください。
+
+<!--
+
+### Java SDK resources
+
+Use the following resources when developing custom Java plugins or integrations with Experience Manager Guides. Ensure that the SDK version matches your installed Experience Manager Guides release. 
+
+| Release | Java SDK version| Maven Central| Java API reference | 
+|---|---|---|----|
+| 5.2.0 (UUID) | 5.2.1 | [AEM Guides SDK API 5.2.1 ](https://central.sonatype.com/artifact/com.adobe.aem/aem-guides-sdk-api/5.2.1/overviewhttps://central.sonatype.com/artifact/com.adobe.aem/aem-guides-sdk-api/5.2.1/overview) | [Javadoc 5.2.1](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api/5.2.1/index.html) |
+
+For more details, view [Configure and use the API JAR from Maven Central repository](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/api-reference/introduction).
+
+ -->
 
 ### FrameMakerとFrameMaker Publishing Server
 
@@ -79,7 +93,7 @@ Experience Manager Guidesのバージョン 5.2.0へのアップグレードを�
 - バージョン 4.3.x、4.2、4.2.1 （ホットフィックス 4.2.1.3）、4.1、または4.1.xを使用している場合は、バージョン 5.1.0にアップグレードする前にバージョン 4.4にアップグレードする必要があります。
 - バージョン 4.0を使用している場合は、バージョン 4.3.xにアップグレードする前にバージョン 4.2にアップグレードする必要があります。
 - バージョン 3.8.5を使用している場合は、バージョン 4.2にアップグレードする前にバージョン 4.0にアップグレードする必要があります。
-- 3.8.5より前のバージョンを使用している場合は、[Adobe Experience Manager Guides ヘルプ Experience Manager Guides アーカイブ &#x200B;](https://helpx.adobe.com/jp/xml-documentation-for-experience-manager/archive.html)で入手できる製品固有のインストールガイドの「PDFのアップグレード」セクションを参照してください。
+- 3.8.5より前のバージョンを使用している場合は、[Adobe Experience Manager Guides ヘルプ Experience Manager Guides アーカイブ &#x200B;](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)で入手できる製品固有のインストールガイドの「PDFのアップグレード」セクションを参照してください。
 
 ## Experience Manager Guides 5.2.0のアップグレードプロセス
 

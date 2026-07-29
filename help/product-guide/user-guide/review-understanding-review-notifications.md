@@ -13,18 +13,14 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 7d0c757b647a2e6c5e563f0ed7db6a7225769033
 workflow-type: tm+mt
-source-wordcount: 738
+source-wordcount: 675
 ht-degree: 0%
 
 ---
 
 # レビュー通知について
-
->[!IMPORTANT]
->
-> この記事で説明する新機能は、Experience Manager Guides as a Cloud Servicesの2508 リリースでデフォルトで有効になっています。 移行前に作成されたレビューは影響を受けず、以前のワークフローを引き続き使用します。 これらのアップデートなしで既存の機能を引き続き使用したい場合は、カスタマーサクセス部門に連絡して、新しい機能を無効にしてもらってください。
 
 Experience Manager Guidesの構造化されたレビューワークフローを使用すると、作成者とレビューアー間の共同作業を効率化できます。 このワークフローの一環として、通知は、レビュータスクのすべての参加者に情報を提供し、変更に対応できるように保つ上で重要な役割を果たします。
 

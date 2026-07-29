@@ -12,9 +12,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: fb2dc7f7a0341924f86f024c31d3cc7f46092f4f
+source-git-commit: 0d64b07a3e5230b84acf451ea7a8f784bcd804f6
 workflow-type: tm+mt
-source-wordcount: 852
+source-wordcount: 881
 ht-degree: 38%
 
 ---
@@ -35,13 +35,14 @@ Experience Manager Guides as a Cloud Serviceのリリースは次のように計
 
 | リリース | イベント | スケジュール | 新機能 | アップグレード手順 | 修正された問題 | ステータス |
 |---|---|---|---|---|---|---|
-| Adobe Experience Manager Guides 2026.08.0 <br> | 自動更新 | 2026年8月3日～5日 | - | - | - | ターゲット |
+| Adobe Experience Manager Guides 2026.09.0 | 自動更新 | ～2026年9月 | - | - | - | ターゲット |
 
 
 ### ライブリリース
 
 | リリース | イベント | スケジュール | 新機能 | アップグレード手順 | 修正された問題 | ステータス |
 |---|---|---|---|---|---|---|
+| Adobe Experience Manager Guides 2026.08.0 <br> [&#x200B; （AEM リリース - 27293） &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | 自動更新 | 2026年8月3日～5日 | [こちら](./whats-new-2026-08-0.md) | [こちら](./upgrade-instructions-2026-08-0.md) | [こちら](./fixed-issues-2026-08-0.md) | 更新済み |
 | Adobe Experience Manager Guides 2026.07.0 <br> [&#x200B; （AEM リリース - 26908） &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | 自動更新 | 2026年7月の第1週 | - | [こちら](upgrade-instructions-2026-07-0.md) | [こちら](fixed-issues-2026-07-0.md) | 更新済み |
 | Adobe Experience Manager Guides 2026.06.0 <br> [&#x200B; （AEM リリース - 26773） &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | 自動更新 | 2026年6月22-24日（PT） | [こちら](whats-new-2026-06-0.md) | [こちら](upgrade-instructions-2026-06-0.md) | [こちら](fixed-issues-2026-06-0.md) | 更新済み |
 | Adobe Experience Manager Guides 2026.05.0 <br> [&#x200B; （AEM リリース - 25898） &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | サービスパック 1 | 2026年5月21-22日（PT） | - | - | [こちら](fixed-issues-2026-05-0-sp1.md) | 更新済み |

@@ -5,10 +5,10 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 0849544d-fa7b-4c66-b418-1ffcd1ca09df
-source-git-commit: 179e9016b12edb14c09ce9352a318e06a4fc628a
+source-git-commit: 75954eab3ac1738705fe2a7280973af39b9214df
 workflow-type: tm+mt
-source-wordcount: '3190'
-ht-degree: 2%
+source-wordcount: '3264'
+ht-degree: 1%
 
 ---
 
@@ -122,6 +122,9 @@ UUID ベース以外のファイルシステムを使用したオンプレミス
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `aemsite.pagetitle` | ブール値\（true/false\）。 ページタイトルを使用して出力を生成する場合は、このプロパティをtrueに設定します。 デフォルトでは、ファイル名を使用するように設定されています。<br> **デフォルト値**: false |
 
+>[!NOTE]
+>
+> `aemsite.pagetitle` プロパティは、AEM サイトのページタイトルに対するデフォルトのフォルダーレベルの動作を定義します。 環境のAEM Sites プリセットで`Topic filename`または`Topic title`を選択するオプションが使用可能な場合、プリセットレベルの選択が優先され、その出力の`aemsite.pagetitle` フォルダーレベルの設定が上書きされます。 例えば、`aemsite.pagetitle=true`でユーザーが出力プリセットで&#x200B;*Topic filename*&#x200B;を選択した場合、topic filenameが使用されます。 `aemsite.pagetitle=false`でユーザーが&#x200B;*トピックタイトル*&#x200B;を選択した場合、トピックタイトルが使用されます。
 
 >[!TAB  オンプレミス ]
 

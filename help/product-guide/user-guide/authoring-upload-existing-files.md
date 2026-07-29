@@ -13,10 +13,10 @@ feature_v2:
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: d1a4b75ef3acd3d02cce2225f03e1f9b3a086ef7
 workflow-type: tm+mt
-source-wordcount: 536
-ht-degree: 3%
+source-wordcount: 695
+ht-degree: 2%
 
 ---
 
@@ -33,6 +33,19 @@ Adobe Experience Manager Guidesで使用する既存のDITA コンテンツの�
 Assets Console ユーザーインターフェイスを使用してAdobe Experience Manager as a Cloud Service Assets[&#128279;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=ja#filename-handling?lang=ja#upload-assets)にデジタルアセットを追加するには、デスクトップで必要なアセットを選択し、Adobe Experience Manager ユーザーインターフェイス \（web ブラウザー\）を移動先フォルダーにドラッグします。 アセットをアップロードする際には、ファイル名にサポートされていない文字や禁止されている文字が含まれていないことを確認してください。
 
 詳しくは、Adobe Experience Manager ドキュメントの「[&#x200B; ファイル名の処理と禁止文字](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=ja#filename-handling)」セクションを参照してください。
+
+### Assets UI インターフェイスを使用したファイルのアップロード
+
+**Create** > **Files**&#x200B;を使用してファイルをアップロードし、システムからファイルを選択すると、**Assetsをアップロード**&#x200B;が表示されます。 このダイアログでは、アップロードを開始する前に、ファイルを確認し、オプションで名前を変更できます。 元のファイル名を保持するか、要件に基づいて新しい名前を指定できます。
+
+![](images/upload-file.png){width="350"}
+
+アップロードを開始すると、ステータスは&#x200B;**Assetsをアップロード** ダイアログに表示され、アップロード中の各ファイルのアップロード進行状況が表示されます。 操作を完了する前に停止する必要がある場合は、「**キャンセル**」オプションを選択するか、「キャンセル」アイコンを選択して、いつでもアップロードをキャンセルできます。 操作をキャンセルすると、アップロードは終了し、ファイルはリポジトリに追加されません。
+
+![](images/upload-status.png){width="350"}
+
+アップロードが正常に完了すると、ファイルが正常にアップロードされたことを示す確認メッセージが表示されます。 このメッセージは、ファイルがAssets リポジトリ内の選択した場所で使用可能であることを確認します。
+
 
 ## Adobe Experience Manager デスクトップアプリケーション
 
@@ -57,5 +70,8 @@ FrameMakerでのバルクアップロード機能の使用について詳しく�
 様々なファイルのアップロード シナリオ機能の詳細については、[&#x200B; ファイルとフォルダーの管理](authoring-file-management.md#)を参照してください。
 
 Adobe Experience Manager デスクトップアプリやAssetの一括取り込みツールなどのツールを使用する場合、重複ファイルに対して実行するアクションは、Adobe Experience Manager サーバーの設定によって制御されます。 この設定について詳しくは、システム管理者にお問い合わせください。
+
+
+
 
 **親トピック：**&#x200B;[&#x200B; コンテンツの管理](authoring.md)

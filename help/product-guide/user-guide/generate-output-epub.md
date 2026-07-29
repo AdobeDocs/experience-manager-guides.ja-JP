@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: fd5e1e85933eb2785b0a74b0fa49fec1da4ca0c2
 workflow-type: tm+mt
-source-wordcount: 927
+source-wordcount: 1020
 ht-degree: 1%
 
 ---
@@ -46,6 +46,10 @@ ht-degree: 1%
 1. 「**完了**」を選択して、プリセット設定を保存します。
 
 EPub プリセットでは、次の設定オプションを使用できます。
+
+>[!NOTE]
+>
+>フォルダープロファイルに[&#x200B; ヘルスチェック機能](../install-conf-guide/conf-health-check-preset.md)が設定されている場合は、「一般」タブに「**出力生成の前にヘルスチェックを実行」トグルが表示されます。**&#x200B;このプリセットを使用して出力を生成するたびにヘルスチェックが自動的に実行されるので、マップから手動でトリガーする必要はありません。 レポートは公開ログに追加され、純粋に情報提供されます。 チェックで未解決のエラーや警告が見つかっても、出力をブロックしたり遅延させたりすることはありません。 Experience Manager Guides[&#128279;](./map-editor-other-features.md#run-health-check-on-a-map)でのヘルスチェック機能の使用について詳しく説明します。
 
 | EPUBオプション | 説明 |
 | --- | --- |

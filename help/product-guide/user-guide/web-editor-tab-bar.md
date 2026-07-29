@@ -16,9 +16,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
+source-git-commit: 018c2332a9e5a4ce8fb683a8cb0bcf859977922c
 workflow-type: tm+mt
-source-wordcount: 566
+source-wordcount: 671
 ht-degree: 0%
 
 ---
@@ -69,14 +69,22 @@ AIを活用したパワフルなツールは、スマートなヘルプとオー
 >
 > 現在、Adobe Experience Manager Guides as a Cloud ServiceではAI アシスタント機能を利用できます。
 
+**ガイド AI**
+
+Adobe CX Enterprise Coworkerのインテリジェントなエージェンティック型スマートタグスキルをエディターに取り入れ、自然で会話型のコンテンツタグ付けを可能にします。 コンテンツを分析し、関連するタグを提案し、一貫性のある正確なメタデータを最小限の労力で適用できます。 提案されたタグを確認し、コンテンツの整理と見つけやすさの向上のために、選択を確認する前に適用または却下することを選択できます。
+
+>[!NOTE]
+>
+> お客様の環境でGuides AI機能を使用する場合は、カスタマーサクセス チームにお問い合わせください。 この機能を有効にした後、管理者はWorkspaceの設定から有効または無効にできます。 一度に有効にできるAI エクスペリエンスは、ガイド AIまたはAI アシスタントのいずれかです。
+
 **ビューを展開**: **展開** アイコンを使用してページビューを展開できます。 このビューでは、Adobe Experience Manager ロゴを含むヘッダーバーは非表示になっています。 これにより、編集のためのコンテンツスペースが最大化されます。 標準ビューに戻るには、**拡張ビュー**&#x200B;を終了アイコンを使用します。
 
 **その他のアクション**：追加のオプションへのアクセスを提供します。 このボタンを選択すると、次のオプションを含むメニューが開きます。
 
 - **Assets**：設定に基づいて宛先に移動します。
-   - **Cloud Services**: Cloud Servicesを使用している場合、**Assets** オプションを選択すると、AEM ナビゲーション ページに移動します。
+  - **Cloud Services**: Cloud Servicesを使用している場合、**Assets** オプションを選択すると、AEM ナビゲーション ページに移動します。
 
-   - **オンプレミスソフトウェア**: Adobe Experience Manager Guides（4.2.1以降）を使用している場合、**Assets** オプションを選択すると、Assets UIの現在のファイルパスに移動します。
+  - **オンプレミスソフトウェア**: Adobe Experience Manager Guides（4.2.1以降）を使用している場合、**Assets** オプションを選択すると、Assets UIの現在のファイルパスに移動します。
 - **Workspace settings**: Workspace settings ダイアログに移動します。 詳しくは、[Workspace設定の設定](../install-conf-guide/workspace-settings.md)を参照してください。
 
 >[!NOTE]

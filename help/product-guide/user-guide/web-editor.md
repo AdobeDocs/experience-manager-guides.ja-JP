@@ -15,9 +15,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c003b524d168d0c1826f6af44278223e2fa4bf0b
+source-git-commit: 07f25eacbfa6e22c1de71d9c4012ad1e9b3440a8
 workflow-type: tm+mt
-source-wordcount: 458
+source-wordcount: 453
 ht-degree: 0%
 
 ---
@@ -48,7 +48,6 @@ Experience Manager Guidesには、構造化ドキュメントを作成および�
 新しいエディターは現在、次の機能をサポートしていません。 これらの機能は、今後のリリースで導入される予定です。
 
 - 「変更をトラック」を有効にしたオーサリング（既存のトラッキング済み変更は保持され、通常のコンテンツとして扱われます）
-- 作成者ビューでの画像リサイズ
 
 
 >[!NOTE]

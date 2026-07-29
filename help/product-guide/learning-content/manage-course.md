@@ -13,9 +13,9 @@ feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 75954eab3ac1738705fe2a7280973af39b9214df
 workflow-type: tm+mt
-source-wordcount: 709
+source-wordcount: 740
 ht-degree: 0%
 
 ---
@@ -47,11 +47,16 @@ ht-degree: 0%
 コンテンツリポジトリの既存のコンテンツをコースに追加できます。 既存のコンテンツを追加するには、次の手順を実行します。
 
 1. **オプション** メニュー/**既存の**&#x200B;を追加を選択します。
-2. 作成するコースコンテンツのタイプを選択します。
-3. **ファイルを選択** ダイアログで、コンテンツの場所に移動し、目的の学習コンテンツを選択します。
+1. 作成するコースコンテンツのタイプを選択します。
+1. **ファイルを選択** ダイアログで、コンテンツの場所に移動し、目的の学習コンテンツを選択します。
 
-   ![](assets/add-existing-learning-content.png)
-4. **Select**&#x200B;を選択します。
+>[!NOTE]
+>
+> HTML トピックをラーニンググループマップに追加すると、マップ内の対応する`topicref`に`format="html"`属性が自動的に追加されます。 これにより、トピックが正しく処理され、公開されます。
+
+![](assets/add-existing-learning-content.png)
+
+1. **Select**&#x200B;を選択します。
 
 選択したコースコンテンツがリポジトリからコースに追加されます。
 

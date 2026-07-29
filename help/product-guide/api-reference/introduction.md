@@ -19,9 +19,9 @@ subfeature_v2:
   - id: f3645292-50bd-4f4a-ac6a-29dcecdf8abe
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
+source-git-commit: b0e39e78724e6d47e47648cd8c3a36aef307caf8
 workflow-type: tm+mt
-source-wordcount: 686
+source-wordcount: 701
 ht-degree: 0%
 
 ---
@@ -134,14 +134,13 @@ APIの使用状況、パラメーター、リクエストの例について詳�
 
 >[!NOTE]
 >
-> また、`https://<aem-author-url>/libs/fmdita/clientlibs/api-docs/index.html`の一般公開されているREST APIについては、**Swagger ドキュメント**&#x200B;を参照することもできます。 現在、Assets、ベースライン、レポートに関連するAPIのみがSwagger ドキュメントで使用できます。
-
+> `https://<aem-author-url>/libs/fmdita/clientlibs/api-docs/index.html`の一般公開されているREST APIについては、**Swagger ドキュメント**&#x200B;を参照するか、**ツール** > **ガイド** > **API Swagger**&#x200B;に移動して、AEM インターフェイスからアクセスすることもできます。 現在、Assets、ベースライン、レポート、翻訳、公開に関連するAPIのみがSwagger ドキュメントで使用できます。
 
 ## その他のリソース
 
-以下は、[&#x200B; ラーニングとサポート &#x200B;](https://helpx.adobe.com/jp/support/xml-documentation-for-experience-manager.html) ページで入手できるAEM Guidesのその他の役立つリソースの一覧です。
+以下は、[&#x200B; ラーニングとサポート &#x200B;](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html) ページで入手できるAEM Guidesのその他の役立つリソースの一覧です。
 
 - ユーザーガイド
 - インストールおよび設定ガイド
 - クイックスタートガイド
-- [&#x200B; ヘルプアーカイブページ &#x200B;](https://helpx.adobe.com/jp/xml-documentation-for-experience-manager/archive.html) \（以前のリリースドキュメントにアクセス\）
+- [&#x200B; ヘルプアーカイブページ &#x200B;](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \（以前のリリースドキュメントにアクセス\）

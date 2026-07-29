@@ -14,9 +14,9 @@ subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0763896c75767d8a4bffc019d42c129e2e34f4be
+source-git-commit: 7989955248054571a569ad34d92ae7e26fe70ffd
 workflow-type: tm+mt
-source-wordcount: 557
+source-wordcount: 577
 ht-degree: 0%
 
 ---
@@ -65,12 +65,14 @@ ht-degree: 0%
 
   方程式が薄いグレーの背景で挿入されます。 既存の数式を右クリックし、コンテキストメニューから「**数式を編集**」を選択して、いつでも数式を更新できます。 Experience Manager GuidesでのMathML数式の検証について詳しくは、[MathML エディターでの数式の検証](../user-guide/web-editor-other-features.md#validation-of-equations-in-the-mathml-editor)を参照してください。
 
-- **知識の確認：**&#x200B;使用できる形式で質問を追加し（Single Correct、Multiple Correct、True/False、Match the Following、またはinsert from the question bank）、レビュー用にトピックに追加し、採点なしで理解を確認できます。 これらの質問は標準的な形式を反映しており、スコアリングを除外できるため、自己評価に最適で、コースコンテンツの一部として、またはクイズや評価の前に、後で行う場合はトピックとして適しています。
+- **知識の確認：**&#x200B;使用できる形式で質問を追加し（Single Correct、Multiple Correct、True/False、Match the Following、またはinsert from the question bank）、レビュー用にトピックに追加し、採点なしで理解を確認できます。 これらの質問は標準的な形式を反映しており、スコアリングを除外できるため、自己評価に最適で、コースコンテンツの一部として、またはクイズや評価の前に、後で行う場合はトピックとして適しています。 **コンテンツのプロパティ** パネルを使用して、正解およびその他の必須フィールドを設定できます。 詳しくは、[質問タイプ &#x200B;](./quiz-insert-questions.md)を参照してください。
 
   ![](assets/knowledge-check-topic.png){width="650"}
 
 
-  **コンテンツのプロパティ** パネルを使用して、正解およびその他の必須フィールドを設定できます。 詳しくは、[質問タイプ &#x200B;](./quiz-insert-questions.md)を参照してください。 次に示すように、ナレッジチェックオプションを使用して、さまざまな質問タイプを追加できます。
+  学習者がナレッジチェックの質問に対して誤った応答を送信すると、応答フィールドがエラーメッセージとともに強調表示され、学習者は同じ質問を再試行するために&#x200B;**再試行**&#x200B;を選択するように導かれます。
+
+  ![](assets/knowledge-check-try-again.png){width="650"}
 
   さらに、学習者が後続のコースコンテンツに進む前に、指定された知識チェックを試みるように、**知識チェックを続行する** オプションを有効にすることができます。 この機能は、学習者が重要な評価のチェックポイントをスキップするのを防ぐことによって、重要な学習目標を強化するのに役立ちます。 この機能は、**学習者がSCORM プリセット出力の設定中にコンテンツを順番に進める必要がある**&#x200B;設定が有効になっている場合にサポートされ、コースの進捗状況が意図した学習パスに従うことを保証します。
 

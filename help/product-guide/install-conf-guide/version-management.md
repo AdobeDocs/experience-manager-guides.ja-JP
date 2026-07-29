@@ -5,9 +5,9 @@ feature: Version Management
 role: Admin
 level: Experienced
 exl-id: 4ca4292a-a97a-4b54-ab9d-17f73e4a100f
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+source-git-commit: 84be6501066dae623e057c15ac79b748d3e631f1
 workflow-type: tm+mt
-source-wordcount: '2307'
+source-wordcount: '2277'
 ht-degree: 0%
 
 ---
@@ -63,11 +63,6 @@ ht-degree: 0%
    このオプションを選択すると、新しいバージョン管理メカニズムが実行され、後続のアップロード用のデフォルトのアップロード動作が上書きされ、アップロードされたファイルの内容が新しいバージョンとして保存されます。 このオプションの選択を解除すると、AEM GuidesはAEMのデフォルトのバージョン管理メカニズムを使用します。
 
 1. 「**保存**」をクリックします。
-
-
->[!NOTE]
->
-> プロパティ **アップロードされたファイルの新しいバージョンを作成** \（create.ver.new.content\）を有効にし、**Assets UI**&#x200B;を使用してアセットを一括アップロードする場合、70以下のバッチでファイルをアップロードできます。
 
 >[!ENDTABS]
 
