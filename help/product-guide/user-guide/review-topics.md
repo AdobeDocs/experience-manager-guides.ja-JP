@@ -5,24 +5,14 @@ exl-id: fc87fc37-f1cd-4a19-96c2-3a08a8222002
 feature: Reviewing
 role: User
 TQID: https://experienceleague.adobe.com/FKASAXcwI6A5iGO8n758bBCNzjMitcz2zgnJWrNfM8U
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: b1210526-416b-4ef6-bcc0-1692e99f30e9
-  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
-subfeature_v2:
-  - id: c5fd2af0-6cbb-4746-ab0d-40ecb093af12
-  - id: c8841798-1a28-4264-a46a-984860f8e6f6
-  - id: f7774ebe-aec9-42b6-97e4-5002acdc712e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c3a30c22dd49ab8af898ecd2ff032101d2f9d93f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: b1210526-416b-4ef6-bcc0-1692e99f30e9id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+subfeature_v2: id: c5fd2af0-6cbb-4746-ab0d-40ecb093af12id: c8841798-1a28-4264-a46a-984860f8e6f6id: f7774ebe-aec9-42b6-97e4-5002acdc712e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 06126f77ee4db22865895739ad9af4efa787a7df
 workflow-type: tm+mt
-source-wordcount: 3064
+source-wordcount: 3089
 ht-degree: 0%
 
 ---
@@ -159,6 +149,10 @@ ht-degree: 0%
 
 コメントパネルを使用して実行できるタスクについては、以下で説明します。
 
+- 情報アイコン ![](./images/info-icon.svg)を使用して、レビュータスクの名前、レビューバージョン、ステータス、タスクの説明など、レビュータスクの詳細を表示します。
+
+  ![](./images/review-details-review-ui.png)
+
 - コメントを選択すると、ドキュメント内の対応するコメントの場所がハイライト表示されます。
 - コメントに返信を追加できます。
 - 独自のコメントを編集するには、コメントパネルでコメント付きテキストを選択し、オプションメニューから「**編集**」を選択します。
@@ -191,7 +185,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> レビュータスクに割り当てられたユーザーのリストを表示し、コメントでタグ付けするには、`/home/users and /home/groups` ノードで&#x200B;*読み取り* アクセス権が必要です。 詳しくは、[&#x200B; ユーザー管理とセキュリティ &#x200B;](../cs-install-guide/user-admin-sec.md#additional-notes-on-user-groups)を参照してください。<br> アクセスを確認した後もタグ付けが利用できない場合は、管理者がこの機能を有効にするために`user-admin` ライセンスを割り当てる必要がある場合があります。
+> レビュータスクに割り当てられたユーザーのリストを表示し、コメントでタグ付けするには、`/home/users and /home/groups` ノードで&#x200B;*読み取り* アクセス権が必要です。 詳しくは、[ ユーザー管理とセキュリティ ](../cs-install-guide/user-admin-sec.md#additional-notes-on-user-groups)を参照してください。<br> アクセスを確認した後もタグ付けが利用できない場合は、管理者がこの機能を有効にするために`user-admin` ライセンスを割り当てる必要がある場合があります。
 
 ![](images/tag-users-review-ui.png){width="350"}
 
@@ -199,7 +193,7 @@ ht-degree: 0%
 
 ![](images/tagged-users-with-email.png)
 
-タグ付けされたオーディエンスには、電子メールとAEM通知の両方が配信され、迅速な情報を提供できます。 レビュー通知のトリガー方法について詳しくは、[&#x200B; レビュー通知について](./review-understanding-review-notifications.md)を参照してください。
+タグ付けされたオーディエンスには、電子メールとAEM通知の両方が配信され、迅速な情報を提供できます。 レビュー通知のトリガー方法について詳しくは、[ レビュー通知について](./review-understanding-review-notifications.md)を参照してください。
 
 ![](images/mentioned-in-tags-author.png){width="350"}
 
@@ -292,7 +286,7 @@ ht-degree: 0%
 
 コンディショナライズされたコンテンツのハイライトのみを追加または削除する目のアイコンとは異なり、条件パネルでトグルオフにすると、レビューUIからそのコンテンツが非表示になるため、コンテンツがドキュメントにまったく表示されません。 トグルをオンにすると、コンテンツが再度表示されます。
 
-プレビューモードには、[&#x200B; コンディショナルパネルの操作](#work-with-conditions-panel) セクションで説明されているのと同じ切り替え状態が反映されます。
+プレビューモードには、[ コンディショナルパネルの操作](#work-with-conditions-panel) セクションで説明されているのと同じ切り替え状態が反映されます。
 
 レビュー開始者がレビュータスクをどのように設定したかに応じて、次の切り替えを変更できる場合とできない場合があります。
 
@@ -351,4 +345,4 @@ ht-degree: 0%
 
 ![](images/version-history-dialog.png)
 
-**親トピック：**&#x200B;[&#x200B; レビューの概要](review.md)
+**親トピック：**[ レビューの概要](review.md)
