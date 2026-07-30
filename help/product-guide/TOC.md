@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: 5a4aae4385951abb8c0a577d4b7f5542c8b1dde6
+source-git-commit: 4788cae8de3b93a008b83f8be6a42fd675b21906
 workflow-type: tm+mt
-source-wordcount: '2573'
+source-wordcount: '2575'
 ht-degree: 11%
 
 ---
@@ -412,6 +412,7 @@ ht-degree: 11%
       - [フォルダープロファイルの設定](./lc-config-guide/lc-folder-profile.md)
       - [フォルダー構造を設定するベストプラクティス](./lc-config-guide/best-practices-folder-structure.md)
       - [その他の設定](./lc-config-guide/lc-other-settings.md)
+      - [SCORM プレビュー用にCSPを設定](./lc-config-guide/guides-scorm-preview-config.md)
       - [SCORM キー指標](./lc-config-guide/learning-course-parameters.md)
     - ビデオチュートリアル {#lc-video}
       - [オーサーワークフロー](./lc-video-tutorials/author-workflow.md)
@@ -590,8 +591,7 @@ ht-degree: 11%
   - [フォルダーまたはアセットの後処理ステータスを追跡するAPI](./api-reference/track-post-processing-status.md)
   - [アセットの一括処理を開始するAPI](./api-reference/bulk-assets-processing.md)
   - [一括アクティブ化完了イベントハンドラー](./api-reference/bulk-activation-complete-event.md)
-  - [コンバージョンプロセスイベントハンドラー](./api-reference/conversion-complete-event.md)
-  - [翻訳プロジェクトを作成](./api-reference/translation-project.md)
+  - [&#x200B; コンバージョンプロセス イベント ハンドラー](./api-reference/conversion-complete-event.md)
 - ナレッジベース {#knowledge-base}
   - エキスパートセッション {#expert-session}
     - [Expert Session Overview](./knowledge-base/expert-sessions/expert-session.md)
