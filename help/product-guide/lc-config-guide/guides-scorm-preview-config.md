@@ -68,7 +68,7 @@ Experience Manager Guides SCORMのプレビューは、プレビューエクス�
 2. 環境の「**設定**」タブに移動します。
 3. 環境変数を追加するには、**追加/更新**&#x200B;を選択します。
 
-   ![ クラウドマネージャーに新しい変数を追加する](assets/add-new-variable.png){width="650"}
+   ![&#x200B; クラウドマネージャーに新しい変数を追加する](assets/add-new-variable.png){width="650"}
 
 4. **名前** フィールドに変数（`GUIDES_SCORM_PREVIEW_CONFIG`）の名前を入力します。
 
