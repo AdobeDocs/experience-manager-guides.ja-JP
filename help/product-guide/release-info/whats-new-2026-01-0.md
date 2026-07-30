@@ -3,7 +3,7 @@ title: リリースノート | Adobe Experience Manager Guides 2026.01.0 リリ�
 description: Adobe Experience Manager Guides 2026.01.0 リリースの新機能と強化機能について説明します
 role: Leader
 exl-id: f24a6f4a-2754-48d9-b0ce-79229dc8dba9
-source-git-commit: 5da6c5239a4118d00f3a40707759950483aafdd8
+source-git-commit: 3a0184bbedb9935ed4f2171245478330063904ba
 workflow-type: tm+mt
 source-wordcount: '1599'
 ht-degree: 0%
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 この記事では、Adobe Experience Manager Guides as a Cloud Serviceの2026.01.0 リリースで導入された新機能と強化機能について説明します。
 
-このリリースで修正された問題のリストについては、[2026.01.0 リリース &#x200B;](fixed-issues-2026-01-0.md)で修正された問題を参照してください。
+このリリースで修正された問題のリストについては、[2026.01.0 リリース ](fixed-issues-2026-01-0.md)で修正された問題を参照してください。
 
-2026.01.0 リリース [&#128279;](../release-info/upgrade-instructions-2026-01-0.md)の アップグレード手順について説明します。
+2026.01.0 リリース ](../release-info/upgrade-instructions-2026-01-0.md)の[ アップグレード手順について説明します。
 
 
 ## 検索と置換でのSource モード検索の概要
@@ -65,7 +65,7 @@ Experience Manager Guidesでは、エディターインターフェイスの左�
 
 ![](assets/document-state-filter-repository.png)
 
-ドキュメントの状態で使用できるデフォルトのフィルター値は、ドラフト、編集、レビュー中、承認済み、レビュー済みおよび完了です。 デフォルトのドキュメント状態フィルター値のカスタマイズについて詳しくは、[&#x200B; ドキュメント状態フィルターの設定](../cs-install-guide/config-doc-state-filters.md)を参照してください。
+ドキュメントの状態で使用できるデフォルトのフィルター値は、ドラフト、編集、レビュー中、承認済み、レビュー済みおよび完了です。 デフォルトのドキュメント状態フィルター値のカスタマイズについて詳しくは、[ ドキュメント状態フィルターの設定](../cs-install-guide/config-doc-state-filters.md)を参照してください。
 
 >[!NOTE]
 >
@@ -93,7 +93,7 @@ Experience Manager Guidesでは、エディターインターフェイスの左�
 
   ![](assets/refresh-topic.png){width="600"}
 
-詳しくは、[&#x200B; マップエディター機能](../user-guide/map-editor-advanced-map-editor.md)を参照してください。
+詳しくは、[ マップエディター機能](../user-guide/map-editor-advanced-map-editor.md)を参照してください。
 
 ### メタデータ変更の作業用コピーインジケーター
 
@@ -105,7 +105,7 @@ Experience Manager Guidesでは、エディターインターフェイスの左�
 
 ![](assets/file-properties-new.png){width="350"}
 
-詳しくは、[&#x200B; エディターの右側のパネル &#x200B;](../user-guide/web-editor-right-panel.md#file-properties)を参照してください。
+詳しくは、[ エディターの右側のパネル ](../user-guide/web-editor-right-panel.md#file-properties)を参照してください。
 
 ### 読み取り専用ファイルのメタデータプロパティを編集できなくなりました
 
@@ -126,7 +126,7 @@ Experience Manager Guidesでは、エディターインターフェイスの左�
 
 新しいトピックを進行中のレビュータスクに追加したり（以前にレビュー用に送信されていない場合）、レビューワークフローに影響を与えずに進行中のレビュータスクからトピックを削除したりできます。
 
-「**タスクの詳細**」ページでは、トピックを選択または選択解除するだけで、トピックリストを変更できます。 レビュー担当者には、割り当てられたトピックの変更に関する通知が、（AEMおよび電子メールを介して）AEMおよび電子メールで送信されます。 詳細については、[&#x200B; レビュー用にトピックを送信](../user-guide/review-send-topics-for-review.md)を参照してください。
+「**タスクの詳細**」ページでは、トピックを選択または選択解除するだけで、トピックリストを変更できます。 レビュー担当者には、割り当てられたトピックの変更に関する通知が、（AEMおよび電子メールを介して）AEMおよび電子メールで送信されます。 詳細については、[ レビュー用にトピックを送信](../user-guide/review-send-topics-for-review.md)を参照してください。
 
 ![](assets/modify-review-topics.png){width="650"}
 
@@ -138,7 +138,7 @@ Experience Manager Guidesでは、エディターインターフェイスの左�
 
 ファイルにバージョンなし変更が含まれている場合（マップに新しいバージョンとして保存されていない場合）、ファイルの横に&#x200B;_info_ アイコンが表示され、更新が存在することを示します。 これらのファイルにすばやくフォーカスするには、フィルターパネルで「**バージョンのない変更を含むアセットのみを表示**」オプションを有効にします。
 
-詳細については、[&#x200B; マップコンソールからのドキュメントの翻訳](../user-guide/translate-documents-web-editor.md)を参照してください。
+詳細については、[ マップコンソールからのドキュメントの翻訳](../user-guide/translate-documents-web-editor.md)を参照してください。
 
 ![](assets/unversioned-changes-translation.png){width="650"}
 
@@ -160,14 +160,14 @@ Assets UIを使用して出力を生成する際に、新しい「**ログをダ
 
 ネイティブ PDF出力を公開する場合、[言語変数](../native-pdf/native-pdf-language-variables.md)を使用して、静的な相互参照テキスト（_章_&#x200B;を参照）または&#x200B;_ページ_&#x200B;を参照）を翻訳できます。 変数は、`xml:lang`属性を通じてトピックで定義された言語を使用します。
 
-ネイティブ PDF出力プリセットと相互参照の設定について詳しくは、[&#x200B; ネイティブ PDF出力プリセット &#x200B;](../web-editor/native-pdf-web-editor.md)を参照してください。
+ネイティブ PDF出力プリセットと相互参照の設定について詳しくは、[ ネイティブ PDF出力プリセット ](../web-editor/native-pdf-web-editor.md)を参照してください。
 
 
 ### 新しいAEM Sites（複合コンポーネントマッピングを使用）公開でのエレメントレベルのコンポーネントマッピングのサポート
 
 Experience Manager Guidesでは、（複合コンポーネントマッピングを使用して）AEM Sites出力でエレメントレベルのコンポーネントマッピングがサポートされるようになりました。これにより、チームは`componentmapping.json`を使用してDITA エレメントをレンダリングする方法を正確に制御できるようになりました。 `topicref`、タイトル、画像、テーブルなどを適切なAEM コアコンポーネントにマッピングすることで、テキストコンポーネントにデフォルトで設定されるすべてのものではなく、よりクリーンな構造を得ることができます。 その結果、パフォーマンスが向上し、より豊かでモダンなサイト体験を実現できます。
 
-詳しくは、[AEM Sitesでのコンポーネントマッピング &#x200B;](../cs-install-guide/component-mapping.md)を参照してください。
+詳しくは、[AEM Sitesでのコンポーネントマッピング ](../cs-install-guide/component-mapping.md)を参照してください。
 
 ## アセット処理の強化
 
@@ -178,11 +178,11 @@ Experience Manager Guidesでは、（複合コンポーネントマッピング�
 - 日付ベースのフィルターを適用して、指定された期間の処理スコープを制限します。
 - リポジトリビューとエクスプローラーパネル内のファイルとフォルダーのコンテキストメニューで使用できる新しいオプション（**アセットを再処理**）を使用して、アセットを直接再処理します。
 
-アセットの処理について詳しくは、[&#x200B; アセットの処理](../user-guide/asset-processor.md)を参照してください。
+アセットの処理について詳しくは、[ アセットの処理](../user-guide/asset-processor.md)を参照してください。
 
 ## APIの機能強化
 
 このリリースの一環として、次のAPIの機能強化が行われました。
 
-- 新しい翻訳プロジェクトを作成し、そのステータスを追跡するための新しいAPIが導入されました。 これらのAPIは、翻訳プロセスの自動化、手作業の削減、効率性の向上に役立ちます。 詳しくは、[翻訳プロジェクトの作成](../api-reference/api-update-swagger.md)を参照してください。
-- ファイルとフォルダーのフィルタリング機能が改善され、アセット処理APIが強化されました。 詳しくは、[&#x200B; アセットの処理](../api-reference/bulk-assets-processing.md)を参照してください。
+- 新しい翻訳プロジェクトを作成し、そのステータスを追跡するための新しいAPIが導入されました。 これらのAPIは、翻訳プロセスの自動化、手作業の削減、効率性の向上に役立ちます。 詳しくは、[翻訳プロジェクトの作成](../api-reference/create-translation-project.md)を参照してください。
+- ファイルとフォルダーのフィルタリング機能が改善され、アセット処理APIが強化されました。 詳しくは、[ アセットの処理](../api-reference/bulk-assets-processing.md)を参照してください。
