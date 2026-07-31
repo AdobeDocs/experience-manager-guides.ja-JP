@@ -2,7 +2,7 @@
 title: リリースノート | Adobe Experience Manager Guides 5.2.0 リリースの新機能
 description: Adobe Experience Manager Guides 5.2.0 リリースの新機能と強化機能について説明します
 role: Leader
-source-git-commit: 5da6c5239a4118d00f3a40707759950483aafdd8
+source-git-commit: 3a0184bbedb9935ed4f2171245478330063904ba
 workflow-type: tm+mt
 source-wordcount: '4052'
 ht-degree: 0%
@@ -415,7 +415,7 @@ Experience Manager Guidesでは、（複合コンポーネントマッピング�
 
 このリリースの一環として、次のAPIの機能強化が行われました。
 
-- 新しい翻訳プロジェクトを作成し、そのステータスを追跡するための新しいAPIが導入されました。 これらのAPIは、翻訳プロセスの自動化、手作業の削減、効率性の向上に役立ちます。 詳しくは、[翻訳プロジェクトの作成](../api-reference/api-update-swagger.md)を参照してください。
+- 新しい翻訳プロジェクトを作成し、そのステータスを追跡するための新しいAPIが導入されました。 これらのAPIは、翻訳プロセスの自動化、手作業の削減、効率性の向上に役立ちます。 詳しくは、[翻訳プロジェクトの作成](../api-reference/create-translation-project.md)を参照してください。
 - ファイルとフォルダーのフィルタリング機能が改善され、アセット処理APIが強化されました。 詳しくは、[&#x200B; アセットの処理](../api-reference/bulk-assets-processing.md)を参照してください。
 - 新しいAPIを使用して、個々のアセットとフォルダーの後処理ステータスを追跡できます。これは、コンテンツが完全に処理された後にのみ公開する必要がある、自動化されたワークフローを使用するチームにとって特に有用です。APIは、準備状況を確認するための信頼性の高い方法を提供し、不完全な処理によって引き起こされる公開エラーのリスクを軽減します。また、このAPIの導入により、アセット後処理イベントが自動的に実行されなくなります。代わりに、管理者は`fmdita config manager`の設定を通じてこのイベントを有効にできるようになりました。
 詳細については、[APIを参照して、fmdita config manager](../api-reference/post-process-event.md)の個々のアセットとフォルダー[&#128279;](../api-reference/track-post-processing-status.md)および後処理イベントハンドラー設定の後処理ステータスを追跡します

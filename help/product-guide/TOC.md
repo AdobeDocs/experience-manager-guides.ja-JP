@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: 4788cae8de3b93a008b83f8be6a42fd675b21906
+source-git-commit: 3a0184bbedb9935ed4f2171245478330063904ba
 workflow-type: tm+mt
-source-wordcount: '2575'
+source-wordcount: '2578'
 ht-degree: 11%
 
 ---
@@ -591,7 +591,8 @@ ht-degree: 11%
   - [フォルダーまたはアセットの後処理ステータスを追跡するAPI](./api-reference/track-post-processing-status.md)
   - [アセットの一括処理を開始するAPI](./api-reference/bulk-assets-processing.md)
   - [一括アクティブ化完了イベントハンドラー](./api-reference/bulk-activation-complete-event.md)
-  - [&#x200B; コンバージョンプロセス イベント ハンドラー](./api-reference/conversion-complete-event.md)
+  - [コンバージョンプロセスイベントハンドラー](./api-reference/conversion-complete-event.md)
+  - [翻訳プロジェクトの作成](./api-reference/create-translation-project.md)
 - ナレッジベース {#knowledge-base}
   - エキスパートセッション {#expert-session}
     - [Expert Session Overview](./knowledge-base/expert-sessions/expert-session.md)
