@@ -6,8 +6,8 @@ role: Admin
 level: Experienced
 source-git-commit: 75954eab3ac1738705fe2a7280973af39b9214df
 workflow-type: tm+mt
-source-wordcount: '1904'
-ht-degree: 0%
+source-wordcount: '2006'
+ht-degree: 3%
 
 ---
 
@@ -354,9 +354,9 @@ const createXrefPlugin = () => {
 guides.ready(() => guides.editor.registerPlugin(createXrefPlugin));
 ```
 
-アプリケーションの読み込み時にプラグインを登録する（一度）、ダイアログ内ではなく、繰り返し、レジストリは重複排除されません。`registerPlugin`は&#x200B;**ファクトリ関数のみを受け入れ、**&#x200B;はプラグインインスタンスを受け入れません。
-`guides.editor.prosemirror`の公開：`state`、`model`、`view`、`transform`、`commands`、`keymap`、
-`history`、`tables`、`dropcursor`、`collab`、`markdown`。
+アプリケーションの読み込み時にプラグインを登録する（一度）、ダイアログ内ではなく、繰り返し、レジストリは重複排除されません。 `registerPlugin`は&#x200B;**ファクトリ関数のみを受け入れ、**&#x200B;はプラグインインスタンスを受け入れません。
+`guides.editor.prosemirror`さんが公開しています：`state`、`model`、`view`、`transform`、`commands`、`keymap`、
+`history`, `tables`, `dropcursor`, `collab`, `markdown`.
 
 
 ## CSSの移行（ページ clientlib → shadow DOM）
@@ -423,7 +423,7 @@ guides.ready(() => guides.editor.registerPlugin(createMyPlugin));
 （スタイル）を使用します。
 - **CSSは効果がありません**：ページレベルです。エディターはシャドウ DOMにあります。 `registerPlugin({ css })` の使用
 - **安全でないガードは**&#x200B;をスローします：`if (!tcx.curEditor && !tcx.curEditor.editor)`のようなパターンを評価します
-  `.editor`が偽装オブジェクトに対して実行されます。代わりに`guides.editor`機能を監視します：
+  `.editor`が偽装オブジェクトに対して実行されます。 代わりに`guides.editor`機能を監視します：
   `if (!guides?.editor) return;`.
 - **アプリシェルメニューを移行しようとしています**: リポジトリ/マップ/ファイルメニューはエディターキャンバスではありません。
 従来のウィジェット idのままにしておきます。
