@@ -1,9 +1,9 @@
 ---
 title: リリースノート | Adobe Experience Manager Guides（2026.08.0 リリース）で修正された問題
 description: Adobe Experience Manager Guides as a Cloud Service 2026.08.0 リリースのバグ修正について説明します。
-source-git-commit: 11d5db19cc352a3750754099a11290e4c0da0846
+source-git-commit: 9e4af58e571659d9ed92308d3629a193d5558417
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1218'
 ht-degree: 1%
 
 ---
@@ -12,9 +12,9 @@ ht-degree: 1%
 
 この記事では、Adobe Experience Manager Guides as a Cloud Serviceの2026.08.0 リリースの様々な領域で修正されたバグについて説明します。
 
-新機能と機能強化について詳しくは、[2026.08.0 リリース &#x200B;](whats-new-2026-08-0.md)の新機能を参照してください。
+新機能と機能強化について詳しくは、[2026.08.0 リリース ](whats-new-2026-08-0.md)の新機能を参照してください。
 
-2026.08.0 リリース [&#128279;](upgrade-instructions-2026-08-0.md)の アップグレード手順について説明します。
+2026.08.0 リリース ](upgrade-instructions-2026-08-0.md)の[ アップグレード手順について説明します。
 
 ## オーサリング
 
@@ -59,7 +59,7 @@ ht-degree: 1%
 
 **コレクションのマップと一括アクティブ化**
 
-Experience Manager Guidesの2020.08.0 リリースで利用可能な[新しいマップコレクション &#x200B;](../user-guide/generate-output-use-new-map-collection-output-generation.md#use-new-map-collection-for-output-generation-beta)機能で、次の問題が修正されました。
+Experience Manager Guidesの2020.08.0 リリースで利用可能な[新しいマップコレクション ](../user-guide/generate-output-use-new-map-collection-output-generation.md#use-new-map-collection-for-output-generation-beta)機能で、次の問題が修正されました。
 
 - ネットワークエラーが発生したため、100を超えるマップエントリを含むマップコレクションを読み込めません。 （GUIDES-34007）
 - マップコレクション UIのフォルダーから複数のマップを一度に選択できません。 （GUIDES-29581）
@@ -95,6 +95,7 @@ Adobeでは、2026.08.0 リリースの次の既知の問題を特定しまし�
 - `foreign`および`equation` ブロック内で囲まれたMathML数式は、不要な間隔を設定することになり、数式の内部で入力すると、インデントを調整した後でも問題が発生します。 （GUIDES-46606）
 - **タグを表示** オプションが有効で、**属性を表示** オプションがエディター設定で無効になっている場合、`reltable`内の`topicref`にカーソルを配置できません。 （GUIDES-46565）
 - 参照を空の`keydef`にドラッグ&amp;ドロップすると、参照を更新する代わりに`topicref`要素が追加されます。 （GUIDES-45068）
+- テーブル セル `<entry>`内のインライン タグの直前に入力された空白が削除されます。 （GUIDES-49144）
 
 ## 公開
 
