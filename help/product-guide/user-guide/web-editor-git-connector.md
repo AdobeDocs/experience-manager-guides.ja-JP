@@ -4,23 +4,14 @@ description: Experience Manager GuidesのGit Connectorの機能、主な機能�
 feature: Authoring, Features of Web Editor
 role: User
 TQID: https://experienceleague.adobe.com/DDAXW8cUFjvHUeJIbtL6FaHYSU7NW5fkzTai-7n90ms
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
-  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: eb30be6342a50ba52e8afd8b4a31148b3ad9c340
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: f8123b54fae2aa209efda73abb333e63cf722708
 workflow-type: tm+mt
-source-wordcount: 1352
+source-wordcount: 1409
 ht-degree: 0%
 
 ---
@@ -31,7 +22,7 @@ ht-degree: 0%
 >
 > この機能はデフォルトでは無効になっています。 自社の環境で有効にするには、カスタマーサクセス部門にお問い合わせください。
 
-Git Connectorを使用すると、接続されたGit リポジトリから[&#x200B; コンテンツをExperience Manager Guides](#import-content-from-the-connected-git-repository)に読み込むことができます。 コンテンツをインポートしたら、Experience Manager Guidesのオーサリング、レビュー、翻訳、公開機能を使用して、ドキュメントを作成および配信できます。
+Git Connectorを使用すると、接続されたGit リポジトリから[ コンテンツをExperience Manager Guides](#import-content-from-the-connected-git-repository)に読み込むことができます。 コンテンツをインポートしたら、Experience Manager Guidesのオーサリング、レビュー、翻訳、公開機能を使用して、ドキュメントを作成および配信できます。
 
 ソースリポジトリでコンテンツが変更された場合は、更新を取得し、競合をレビューし、最新の変更をExperience Manager Guidesと同期できます。
 
@@ -50,7 +41,7 @@ Git Connectorを利用すれば、手作業でファイルを転送すること�
 
 - 最後に同期されたコミットを追跡し、リポジトリ全体を再インポートする代わりに、後続の同期時に追加、変更、または削除されたファイルのみを取得します。
 - 読み込む前に、変更されたすべてのファイルとその変更タイプを一覧表示する差分レポートを作成します。
-- リポジトリのサイズに関係なく、一貫した取得時間を維持。 ベンチマークデータについては、[&#x200B; パフォーマンスベンチマーク &#x200B;](#performance-benchmarks)を参照してください。
+- リポジトリのサイズに関係なく、一貫した取得時間を維持。 ベンチマークデータについては、[ パフォーマンスベンチマーク ](#performance-benchmarks)を参照してください。
 
 ## Git コネクタの仕組み
 
@@ -85,7 +76,7 @@ Git Connectorは、Git リポジトリからExperience Manager Guidesにコン�
 この機能を使用する前に、次のことを確認してください。
 
 - お使いの環境でGit コネクタ機能を有効にする必要があります。
-- （*有効な場合*）管理者が環境でGit コネクタを設定しました。 詳しくは、[&#x200B; ユーザーインターフェイス &#x200B;](../install-conf-guide/conf-git-connector.md)からGit コネクタを作成および設定するを参照してください。
+- （*有効な場合*）管理者が環境でGit コネクタを設定しました。 詳しくは、[ ユーザーインターフェイス ](../install-conf-guide/conf-git-connector.md)からGit コネクタを作成および設定するを参照してください。
 - 読み込むコンテンツを含むGit リポジトリへの&#x200B;*読み取り* アクセス権があります。
 - 読み込むリポジトリブランチとソースフォルダーがわかっています。
 - 読み込んだコンテンツが保存されるExperience Manager Guidesのターゲットフォルダーを知っています。
@@ -115,7 +106,9 @@ Git リポジトリからコンテンツを読み込むには、次の手順を�
 
    >[!NOTE]
    >
-   > **自動同期**&#x200B;を有効にして、Git リポジトリからExperience Manager Guidesにコンテンツを自動的に同期して読み込むことができます。 エラーが検出された場合、自動同期はトリガーされず、作成者は&#x200B;**すべてを読み込み**&#x200B;を選択して、コンテンツを手動で読み込む必要があります。 有効にすると、インポーターで自動同期を無効にすることはできません。
+   > 1.0.1より前のバージョンのGit Connectorを使用している場合、取得操作中にGit サブモジュールを含むリポジトリの読み込みが失敗する可能性があります。 この問題を回避するには、Git Connector バージョン 1.0.1以降にアップグレードします。 バージョン 1.0.1以降では、Git サブモジュールは複製および読み込み中にスキップされ、メインリポジトリのコンテンツのみが読み込まれます。
+
+1. *（オプション）* **自動同期**&#x200B;を有効にすると、Git リポジトリからExperience Manager Guidesにコンテンツを自動的に同期して読み込むことができます。 エラーが検出された場合、自動同期はトリガーされず、作成者は&#x200B;**すべてを読み込み**&#x200B;を選択して、コンテンツを手動で読み込む必要があります。 有効にすると、インポーターで自動同期を無効にすることはできません。
 
 コンテンツをインポートすると、Git コネクタの設定時に、設定された&#x200B;**Target AEM ルート パス**&#x200B;の下に保存されます。
 
