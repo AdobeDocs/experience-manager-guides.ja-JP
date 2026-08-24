@@ -4,9 +4,9 @@ description: Experience Manager GuidesでGitを設定する方法を説明しま
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: eb30be6342a50ba52e8afd8b4a31148b3ad9c340
+source-git-commit: b73e904c7e0a6f398e471be6fc874de30742e519
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '568'
 ht-degree: 1%
 
 ---
@@ -40,7 +40,7 @@ Experience Manager Guidesのデータソースツールを使用して、ユー�
    >[!TIP]
    >
    >* カーソルを合わせる フィールドの近くの<img src="./assets/info-details.svg" alt= "情報アイコン" width="25">で、詳細を表示できます。
-   >* &#x200B;* フィールドは必須です。 例えば、Elasticsearch コネクタに次の詳細を入力できます。
+   >* &#x200B;* フィールドは必須です。 例えば、Git コネクタに次の詳細を入力できます。
 
    &#x200B;- **名前**: データソースの名前を入力します。
    &#x200B;- **Target AEMのルートパス**: Gitから読み込まれたコンテンツを保存するAEM リポジトリ内のパスを入力します。
@@ -70,13 +70,17 @@ Experience Manager Guidesのデータソースツールを使用して、ユー�
 
 Git コネクタを使用して&#x200B;**データソース** ページから設定する前に、AEM プロジェクトに依存関係として埋め込む必要があります。 依存関係を追加するには、次の手順を実行します。
 
+>[!NOTE]
+>
+> 使用可能なGit コネクタのバージョンを表示するには、[Maven中央リポジトリ &#x200B;](https://central.sonatype.com/artifact/com.adobe.aem.addon.guides/konnect-github)を表示します。
+
 1. AEM プロジェクトの`all/pom.xml`で、`<dependencies>`の下にGit Connectorを依存関係として追加します。
 
    ```xml
    <dependency>
        <groupId>com.adobe.aem.addon.guides</groupId>
        <artifactId>konnect-github</artifactId>
-       <version>1.0.0</version>
+       <version>1.0.1</version>
    </dependency>
    ```
 
