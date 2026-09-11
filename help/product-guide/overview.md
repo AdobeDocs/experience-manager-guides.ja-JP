@@ -62,6 +62,6 @@ ht-degree: 10%
 ## その他のリソース
 
 * [[!DNL Experience Manager Guides] ユーザーガイド （旧UI）](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
-* [[!DNL AEM Guides]学習とサポート](https://helpx.adobe.com/jp/support/xml-documentation-for-experience-manager.html)
+* [[!DNL AEM Guides]学習とサポート](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
 * [Experience League - AEMについて詳しく見る](https://business.adobe.com/jp/products/experience-manager/adobe-experience-manager.html)
 
