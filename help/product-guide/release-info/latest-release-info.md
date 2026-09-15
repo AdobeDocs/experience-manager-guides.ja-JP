@@ -7,18 +7,20 @@ role: Leader
 TQID: https://experienceleague.adobe.com/RROF3KWnqtnbbHGyW1McC9uvdA7x27fI-Rp4nCZOTHo
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 1a08469a4bd12f8b6dd9d83196463432b331f239
+    internal-label: Customer experience
+source-git-commit: 244642e60f489789379feeba34f0d5fc80e18ce1
 workflow-type: tm+mt
-source-wordcount: 2473
+source-wordcount: '2473'
 ht-degree: 0%
-
 ---
-
 # [!DNL AEM Guides] リリース
 
 [!DNL Adobe Experience Manager Guides]は、AEMにデプロイされたアプリケーションです。 Adobe Experience ManagerでネイティブのDITA サポートを有効にする、強力なエンタープライズグレードのコンポーネントコンテンツ管理ソリューション（CCMS）です。これにより、AEMでDITA ベースのコンテンツの制作と配信を処理できるようになります。
@@ -37,8 +39,8 @@ UUID ビルドと非UUID ビルドの主な違いは次のとおりです。
 ### UUID ビルドの利点
 
 * UUID インストールのパフォーマンスが高い：
-   * 参照はパスに依存しません。参照管理システムは、参照がパスではなくUUIDに基づいて作成されるため、リンクを認識します。
-   * 移動/更新操作は効率的です。アセットがリポジトリ内の別のパスに移動しても、UUIDは同じままです。 そのため、移動/更新操作のアセット間の参照にパッチを適用するための処理は必要ありません。
+  * 参照はパスに依存しません。参照管理システムは、参照がパスではなくUUIDに基づいて作成されるため、リンクを認識します。
+  * 移動/更新操作は効率的です。アセットがリポジトリ内の別のパスに移動しても、UUIDは同じままです。 そのため、移動/更新操作のアセット間の参照にパッチを適用するための処理は必要ありません。
 * UUID ビルドは、AEM Guidesのクラウド設定にもこのフレームワークを使用しているため、将来を見据えた設計になっています。
 
 
@@ -56,7 +58,9 @@ UUID ビルドと非UUID ビルドの主な違いは次のとおりです。
 
 古いバージョンから新しいバージョンの[!DNL AEM Guides]にアップグレードする場合は、移行スクリプトを実行する必要がある場合があります。 アップグレード手順については、リリースノートおよびバージョン固有のドキュメントを参照してください。
 
-すべてのアップグレードパスが直接サポートされているわけではありません。 例えば、バージョン 4.0への直接アップグレードは、バージョン 3.8からのみ可能です。3.8より前のバージョンを使用している場合は、アップグレード手順[&#x200B; ヘルプアーカイブ &#x200B;](https://helpx.adobe.com/jp/xml-documentation-for-experience-manager/archive.html)について、バージョン固有のドキュメントを参照してください。カスタマーサクセスマネージャーに連絡して、アップグレードパスを検証してください。
+すべてのアップグレードパスが直接サポートされているわけではありません。 例えば、バージョン 4.0への直接アップグレードは、バージョン 3.8からのみ可能です。
+3.8より前のバージョンを使用している場合は、アップグレード手順[&#x200B; ヘルプアーカイブ &#x200B;](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)について、バージョン固有のドキュメントを参照してください。
+カスタマーサクセスマネージャーに連絡して、アップグレードパスを検証してください。
 
 **[!DNL AEM Guides]ビルド**
 
@@ -64,7 +68,7 @@ UUID ビルドと非UUID ビルドの主な違いは次のとおりです。
 >
 >AEM as a Cloud Serviceの[!DNL AEM Guides] ビルドへのアクセスについては、カスタマーサクセスマネージャーにお問い合わせください。
 
-次のリストには、AMSまたはオンプレミスへのインストールに使用できる最新の[!DNL AEM Guides] パッケージ、パッケージのダウンロードリンク、およびその他の役立つ情報が含まれています。 Experience Manager Guidesをインストールする前に、お使いのシステムが[技術要件](../install-guide/download-install-technical-requirements.md)を満たしていることを確認してください。 また、最新ビルドの[!DNL AEM Guides]のみを使用することをお勧めします。 何らかの理由で古いビルドにアクセスする必要がある場合は、アカウントのカスタマーサクセスマネージャーに連絡してください。
+次のリストには、AMSまたはオンプレミスへのインストールに使用できる最新の[!DNL AEM Guides] パッケージ、パッケージのダウンロードリンク、およびその他の役立つ情報が含まれています。 Experience Manager Guidesをインストールする前に、お使いのシステムが[技術要件](../install-conf-guide/aemg-technical-requirements.md)を満たしていることを確認してください。 また、最新ビルドの[!DNL AEM Guides]のみを使用することをお勧めします。 何らかの理由で古いビルドにアクセスする必要がある場合は、アカウントのカスタマーサクセスマネージャーに連絡してください。
 
 >[!NOTE]
 >

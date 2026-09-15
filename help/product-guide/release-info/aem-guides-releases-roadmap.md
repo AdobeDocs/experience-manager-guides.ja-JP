@@ -6,19 +6,23 @@ exl-id: cb6709ce-2732-45d0-adfd-5aeca520240e
 TQID: https://experienceleague.adobe.com/wlMdLsi-ssGu3iOQjq64vwgPg3c-kEfG6-W6hawzQE4
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 64a36067e35da78972ae275b49f536a910ad8644
+    internal-label: Developer
+source-git-commit: 244642e60f489789379feeba34f0d5fc80e18ce1
 workflow-type: tm+mt
-source-wordcount: 929
+source-wordcount: '929'
 ht-degree: 38%
-
 ---
-
 # [!DNL Experience Manager Guides] リリース情報 {#aem-guides-releases-roadmap}
 
 [!DNL Adobe Experience Manager Guides]は、製品の[!DNL Cloud Service]およびオンプレミス（またはManaged Services）製品を使用しているユーザーに対して、新機能、既存の機能の機能強化、およびバグ修正を継続的に提供します。 この記事では、[!DNL Experience Manager Guides] の今後のリリース一覧を示します。
@@ -35,8 +39,8 @@ Experience Manager Guides as a Cloud Serviceのリリースは次のように計
 
 | リリース | イベント | スケジュール | 新機能 | アップグレード手順 | 修正された問題 | ステータス |
 |---|---|---|---|---|---|---|
-| Adobe Experience Manager Guides 2026.09.0 | 自動更新 | 2026年9月14～16日（PT） | - | - | - | ターゲット |
-| Adobe Experience Manager Guides 2026.10.0 | 自動更新 | 2026年10月26-28日（PT） | - | - | - | ターゲット |
+| Adobe Experience Manager Guides 2026.09.0 | 自動更新 | 2026年9月28～30日（PT） | - | - | - | ターゲット |
+| Adobe Experience Manager Guides 2026.11.0 | 自動更新 | 2026年11月8-10日（PT） | - | - | - | ターゲット |
 | Adobe Experience Manager Guides 2026.12.0 | 自動更新 | 2026年12月7日～9日 | - | - | - | ターゲット |
 
 
