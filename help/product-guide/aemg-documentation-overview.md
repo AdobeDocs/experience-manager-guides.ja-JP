@@ -48,7 +48,7 @@ ht-degree: 6%
 
 Experience Manager Guidesは、構造化されたオーサリング、マルチチャネル公開、コンテンツライフサイクル管理を実現する、DITA対応のネイティブ CCMSです。
 
-[!BADGE Cloud Service]{type=Informative}、[!BADGE  オンプレミス ]{type=Informative}、[!BADGE 管理サービス ]{type=Informative}
+[!BADGE Cloud Service]{type=Informative}、[!BADGE &#x200B; オンプレミス &#x200B;]{type=Informative}、[!BADGE 管理サービス &#x200B;]{type=Informative}
 
 ## 役割から始める
 
@@ -57,7 +57,7 @@ Experience Manager Guidesは、構造化されたオーサリング、マルチ�
 ::::landing-cards-container
 
 :::card
-![作成者アイコン ](./user-guide/images/author.svg)
+![作成者アイコン &#x200B;](./user-guide/images/author.svg)
 
 作成者
 
@@ -67,7 +67,7 @@ DITA トピック、マップ、コンテンツ再利用、レビューワーク
 :::
 
 :::card
-![管理者アイコン ](./user-guide/images/admin.svg)
+![管理者アイコン &#x200B;](./user-guide/images/admin.svg)
 
 管理者
 
@@ -77,7 +77,7 @@ DITA トピック、マップ、コンテンツ再利用、レビューワーク
 :::
 
 :::card
-![発行者アイコン ](./user-guide/images/publish.svg)
+![発行者アイコン &#x200B;](./user-guide/images/publish.svg)
 
 発行者
 
@@ -87,7 +87,7 @@ DITA トピック、マップ、コンテンツ再利用、レビューワーク
 :::
 
 :::card
-![ アーキテクトアイコン ](./user-guide/images/architect.svg)
+![&#x200B; アーキテクトアイコン &#x200B;](./user-guide/images/architect.svg)
 
 アーキテクト
 
@@ -105,7 +105,7 @@ DITA トピック、マップ、コンテンツ再利用、レビューワーク
 ::::landing-cards-container
 
 :::card
-![ オーサリングアイコン ](./user-guide/images/author.svg)
+![&#x200B; オーサリングアイコン &#x200B;](./user-guide/images/author.svg)
 
 オーサリング
 
@@ -115,7 +115,7 @@ web エディター、FrameMakerとの統合、コンテンツの再利用、レ
 :::
 
 :::card
-![ レビューアイコン ](./user-guide/images/review.svg)
+![&#x200B; レビューアイコン &#x200B;](./user-guide/images/review.svg)
 
 レビュー
 
@@ -125,7 +125,7 @@ web エディター、FrameMakerとの統合、コンテンツの再利用、レ
 :::
 
 :::card
-![公開アイコン ](./user-guide/images/publish.svg)
+![公開アイコン &#x200B;](./user-guide/images/publish.svg)
 
 公開
 
@@ -135,7 +135,7 @@ PDF、AEM Sites、HTML5、EPUB、JSON出力タイプ。
 :::
 
 :::card
-![翻訳アイコン ](./user-guide/images/Smock_GlobeGrid_18_N.svg)
+![翻訳アイコン &#x200B;](./user-guide/images/Smock_GlobeGrid_18_N.svg)
 
 翻訳
 
@@ -145,7 +145,7 @@ PDF、AEM Sites、HTML5、EPUB、JSON出力タイプ。
 :::
 
 :::card
-![ レポートアイコン ](./user-guide/images/Smock_Report_18_N.svg)
+![&#x200B; レポートアイコン &#x200B;](./user-guide/images/Smock_Report_18_N.svg)
 
 レポート
 
@@ -155,7 +155,7 @@ PDF、AEM Sites、HTML5、EPUB、JSON出力タイプ。
 :::
 
 :::card
-![設定アイコン ](./user-guide/images/config.svg)
+![設定アイコン &#x200B;](./user-guide/images/config.svg)
 
 設定
 
