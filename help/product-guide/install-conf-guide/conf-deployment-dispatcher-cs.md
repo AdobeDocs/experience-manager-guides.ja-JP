@@ -4,20 +4,19 @@ description: Experience Manager Guides as a Cloud Serviceのデプロイメン�
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 657a42be-36e7-4657-83d5-e866f8e55f09
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 4%
-
+source-wordcount: '347'
+ht-degree: 6%
 ---
-
 # デプロイとDispatcherの設定
 
 この記事では、Experience Manager Guides as a Cloud Serviceのデプロイ方法とDispatcherの設定方法について説明します。
 
 ## Experience Manager Guides as a Cloud Serviceのデプロイ
 
-まず、Cloud Managerを介してExperience Manager Guidesをデプロイします。 モジュールをデプロイするには、[AEM Guides as a Cloud Service デプロイメント &#x200B;](../release-info/deploy-xml-on-aemaacs.md)に記載されている手順に従います。
+まず、Cloud Managerを介してExperience Manager Guidesをデプロイします。 モジュールをデプロイするには、[AEM Guides as a Cloud Service デプロイメント ](../release-info/deploy-xml-on-aemaacs.md)に記載されている手順に従います。
 
 >[!NOTE]
 >
@@ -44,11 +43,11 @@ Experience Manager Guides ソリューションの自動プロビジョニング
 >統合プログラムの任意の環境に[!DNL Experience Manager Guides]をインストールするには、環境に関連付けられたパイプラインを実行する必要があります。 [!DNL Experience Manager Guides]をインストールするために、CM Git コードベースに追加の設定は必要ありません。
 
 
-## Dispatcher を設定します
+## Dispatcherの設定
 
-Dispatcher は、Adobe Experience Manager のキャッシュやロードバランシングを管理するツールです。詳しくは、[&#x200B; クラウド内のDispatcher](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html?lang=ja)を参照してください。
+Dispatcher は、Adobe Experience Manager のキャッシュやロードバランシングを管理するツールです。 詳しくは、[ クラウド内のDispatcher](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html?lang=en)を参照してください。
 
-1. AMSからCloud ServiceへのDispatcher設定の移行については、[AMSからAEM as a Cloud ServiceへのDispatcher設定の移行](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/ams-aem.html?lang=ja)を参照してください。
+1. AMSからCloud ServiceへのDispatcher設定の移行については、[AMSからAEM as a Cloud ServiceへのDispatcher設定の移行](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/ams-aem.html?lang=en)を参照してください。
 1. Dispatcherの設定方法について詳しくは、[Dispatcherの設定](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=ja)を参照してください。
 
 >[!NOTE]

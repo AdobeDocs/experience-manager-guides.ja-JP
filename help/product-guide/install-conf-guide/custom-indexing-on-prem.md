@@ -4,13 +4,12 @@ description: オンプレミス設定のカスタム インデックス コン�
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 87c0519d-120a-4bb7-b70f-7d217bcd7580
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '135'
 ht-degree: 0%
-
 ---
-
 # オンプレミスの「検索と置換」（Source ビュー）機能のインデックス再作成
 
 作成者ビューに表示されるコンテンツ全体と、検索文字列の基になるSource コンテンツ（エレメント、タグ、属性値を含むXML構造）をスキャンできる&#x200B;**検索および置換（Source ビュー）**&#x200B;機能を有効にするには、インデックス再作成が必要です。
@@ -19,6 +18,6 @@ ht-degree: 0%
 
 オンプレミス設定の場合、インデックス定義はパッケージに含まれます。 この機能を有効にするには、コンテンツのインデックスを再作成する必要があります。
 
-ノード `reindex=true (Boolean)`のプロパティ ` /oak:index/guidesAssetLucene`を設定して、以前にキャプチャしたコンテンツを再インデックス化することにより、インデックス再作成を開始します。
+ノード ` /oak:index/guidesAssetLucene`のプロパティ `reindex=true (Boolean)`を設定して、以前にキャプチャしたコンテンツを再インデックス化することにより、インデックス再作成を開始します。
 
 インデックス再作成プロセスは、システムがこのプロパティを自動的にfalseに戻すまで続行されます。 システムログで、インデックス再作成操作の進行状況を監視できます。

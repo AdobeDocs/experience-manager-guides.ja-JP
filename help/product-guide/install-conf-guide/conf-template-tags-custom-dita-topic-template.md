@@ -4,13 +4,12 @@ description: カスタム DITA トピックテンプレートの設定方法に�
 feature: Template Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: aaf24a83-3a94-4f77-aa37-7b0398f6ae71
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '490'
 ht-degree: 2%
-
 ---
-
 # カスタム DITA トピックテンプレートの設定 {#id16A7G0O02TD}
 
 AEM Guidesには、次のDITA トピックテンプレートが付属しています。
@@ -34,11 +33,11 @@ AEM Guidesには、次のDITA トピックテンプレートが付属してい�
 
 DITA トピックテンプレートをカスタマイズしてオーサリングに使用するには、次の3つの主なタスクを実行する必要があります。
 
-1. *\（Optional\）* [&#x200B; カスタム DITA テンプレートフォルダーパスの設定](#id191LCF0095Z)
+1. *\（Optional\）* [ カスタム DITA テンプレートフォルダーパスの設定](#id191LCF0095Z)
 
 1. [カスタムオーサリングテンプレートの作成](conf-profiles.md#id1917D0EG0HJ)
 
-1. 「[&#x200B; オーサリングテンプレートの設定](conf-profiles.md#id1889D0IL0Y4)」で説明しているように、カスタムテンプレートをグローバルレベルまたはフォルダーレベルのプロファイルに追加します
+1. 「[ オーサリングテンプレートの設定](conf-profiles.md#id1889D0IL0Y4)」で説明しているように、カスタムテンプレートをグローバルレベルまたはフォルダーレベルのプロファイルに追加します
 
 
 ## カスタム DITA テンプレートフォルダーパスの設定 {#id191LCF0095Z}
@@ -68,7 +67,7 @@ AEM Guidesでは、カスタマイズしたDITA マップとテンプレート�
 
 | PID | プロパティキー | プロパティの値 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `topic.templates` | カスタムテンプレートを保存する場所を指定します。<br>指定した場所がDAMに存在する場合、すべてのデフォルトのマップとトピックテンプレートがそのフォルダーにコピーされます。 場所が存在しない場合、フォルダーはすべてのデフォルトのマップテンプレートとトピックテンプレートで作成されます。 |
+| `com.adobe.fmdita.config.ConfigManager` | `topic.templates` | カスタムテンプレートを保存する場所を指定します。<br> 指定した場所がDAMに存在する場合、すべてのデフォルトマップテンプレートとトピックテンプレートがそのフォルダーにコピーされます。 場所が存在しない場合、フォルダーはすべてのデフォルトのマップテンプレートとトピックテンプレートで作成されます。 |
 
 >[!TAB  オンプレミス ]
 
@@ -99,4 +98,4 @@ AEM Guidesでは、カスタマイズしたDITA マップとテンプレート�
 >[!ENDTABS]
 
 
-**親トピック：**&#x200B;[&#x200B; トピックとマップテンプレートの設定](conf-template-tags.md)
+**親トピック：**[ トピックとマップテンプレートの設定](conf-template-tags.md)

@@ -4,13 +4,12 @@ description: AEM Guidesのインストールを確認する方法を説明しま
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 19cded6f-6545-42af-8511-7c32cf4ddf2d
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 0%
-
+source-wordcount: '311'
+ht-degree: 5%
 ---
-
 # AEM Guidesのインストールを確認する {#id213BD030FBE}
 
 AEM Guidesをインストールしたら、インストールが成功したかどうかを確認する必要があります。
@@ -29,7 +28,7 @@ AEM Guidesをインストールしたら、インストールが成功したか�
 
 1. AEMのOSGi バンドルのリストにアクセスします。
 
-   バンドルへのアクセスについて詳しくは、AEM ドキュメントの[&#x200B; バンドル &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=ja#bundles)を参照してください。
+   バンドルへのアクセスについて詳しくは、AEM ドキュメントの[ バンドル ](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=en#bundles)を参照してください。
 
 1. バンドルのリストでfmditaを検索し、そのステータスを確認します。
 
@@ -56,8 +55,6 @@ AEM Guidesをインストールしたら、インストールが成功したか�
 
 >[!IMPORTANT]
 >
-> システムのパフォーマンスを向上させるために考慮できるパフォーマンス最適化の推奨事項はいくつかあります。 詳しくは、[&#x200B; パフォーマンス最適化に関する推奨事項](perf-optimization-on-prem.md#)を参照してください。
+> システムのパフォーマンスを向上させるために考慮できるパフォーマンス最適化の推奨事項はいくつかあります。 詳しくは、[ パフォーマンス最適化に関する推奨事項](perf-optimization-on-prem.md#)を参照してください。
 
 >[!ENDTABS]
-
-

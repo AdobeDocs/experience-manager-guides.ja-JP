@@ -4,13 +4,12 @@ description: AEM Sitesのコンポーネントマッピングの方法を説明�
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 9243592c-1a3c-4218-8674-19305dd6f17a
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1053'
 ht-degree: 0%
-
 ---
-
 # AEM Sitesのコンポーネントマッピング
 
 この記事では、（複合コンポーネントマッピングを使用して）AEM サイトのコンポーネントマッピングのさまざまな側面について説明します。
@@ -191,9 +190,9 @@ HTML テーブルの内容を受け入れ、その中のすべての`<img>`をAE
 ### フォルダー構造とキーファイル（このリポジトリ内）
 
 - コンポーネント HTLおよびclientlibs: `ui.apps/src/main/content/jcr_root/apps/guides-components/components/table/`
-   - `table.html` （HTL レンダラー）
-   - `_cq_editConfig.xml` （リスナーを更新）
-   - `clientlibs/` （`css.txt`、`js.txt`、`css/table.css`、`js/table.js`）
+  - `table.html` （HTL レンダラー）
+  - `_cq_editConfig.xml` （リスナーを更新）
+  - `clientlibs/` （`css.txt`、`js.txt`、`css/table.css`、`js/table.js`）
 - Sling モデル：`core/src/main/java/com/adobe/guides/aem/components/core/models/TableModel.java`
 - 画像レンダリングサービス：`core/src/main/java/com/adobe/guides/aem/components/core/services/ImageComponentRenderer.java`
 
@@ -315,7 +314,7 @@ clientlibs/js.txt
 - **レスポンシブを有効にする**: `./enableResponsive` （チェックボックス）。レスポンシブラッパークラスを切り替えます。
 - **表スタイル**: `./tableStyle` （選択）。スタイル修飾子クラスを適用します。
 
-これらのマップ 1:1は、Sling モデルのプロパティと制御レンダリングにマッピングされます。
+これらのマップは、Sling モデルのプロパティと制御レンダリングに1:1で対応します。
 
 **テンプレートのコンポーネントを許可**
 

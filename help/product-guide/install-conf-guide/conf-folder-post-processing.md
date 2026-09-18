@@ -4,13 +4,12 @@ description: Adobe Experience Manager Assetsにアップロードされたフォ
 feature: Filename Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: eaf974f4-c804-4392-b1f3-f4f24dd441f7
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '427'
 ht-degree: 0%
-
 ---
-
 # フォルダーの後処理を無効にする
 
 デフォルトでは、アップロードされたすべてのアセットは、DAM アセットの更新ワークフローを使用して処理されます。 Experience Manager Guidesでは、このワークフローの一部として、後処理と呼ばれる追加処理を実行します。 これは、UUIDの生成にも役立ちます
@@ -27,8 +26,8 @@ ht-degree: 0%
 
 | PID | プロパティキー | プロパティの値 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `ignored.post.processing.paths` | 任意の標準NODE_OPTIONSを設定する文字列値（複数値のプロパティ、末尾に`/`を省略するパスを持つ文字列） <br> **デフォルト値**: `/content/dam/projects/translation_output` |
-| `com.adobe.fmdita.config.ConfigManager` | `enabled.post.processing.paths` | 任意の標準NODE_OPTIONSを設定する文字列値（複数値のプロパティ、末尾に`/`を省略するパスを持つ文字列） <br> **デフォルト値**: `/content/dam` |
+| `com.adobe.fmdita.config.ConfigManager` | `ignored.post.processing.paths` | 任意の標準NODE_OPTIONSを設定する文字列値（複数値プロパティ、末尾に`/`を省略するパスを持つ文字列） <br> **デフォルト値**: `/content/dam/projects/translation_output` |
+| `com.adobe.fmdita.config.ConfigManager` | `enabled.post.processing.paths` | 任意の標準NODE_OPTIONSを設定する文字列値（複数値プロパティ、末尾に`/`を省略するパスを持つ文字列） <br> **デフォルト値**: `/content/dam` |
 
 >[!TAB  オンプレミス ]
 
@@ -77,4 +76,3 @@ ht-degree: 0%
 * 親が後処理のために無視されますが、子フォルダーが有効になっている場合、子フォルダーとそのすべての後継フォルダーは有効と見なされます。
 * 親が後処理に対して有効になっていても、子が無視された場合、子とその後継のすべての子は無視されたとみなされます。
 * ignored.post.processing.pathsとenabled.post.processing.paths設定の両方に同じフォルダーパスが存在する場合、後処理では無視されたものとみなされます。
-

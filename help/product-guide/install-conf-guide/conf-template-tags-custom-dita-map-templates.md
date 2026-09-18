@@ -4,13 +4,12 @@ description: カスタム DITA マップテンプレートの設定方法につ�
 feature: Template Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 467cc4be-5fe7-466e-887b-eccc63acae8a
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '676'
 ht-degree: 1%
-
 ---
-
 # カスタム DITA マップテンプレートの設定 {#id1774F04F05Z}
 
 AEM Guidesには、DITA マップとBookmapという2つのマップテンプレートが用意されています。 これらのテンプレートに基づいてマップを作成したり、独自のマップテンプレートを定義して新しいマップを作成したりできます。
@@ -30,7 +29,7 @@ AEM Guidesには、DITA マップとBookmapという2つのマップテンプレ
 
    >[!NOTE]
    >
-   > トピックまたはマップテンプレートを保存するカスタム場所を設定するには、[&#x200B; カスタム DITA テンプレートフォルダーパスの設定](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z)を参照してください
+   > トピックまたはマップテンプレートを保存するカスタム場所を設定するには、[ カスタム DITA テンプレートフォルダーパスの設定](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z)を参照してください
 
 1. **作成** \> **DITA テンプレート**&#x200B;をクリックします。
 
@@ -60,7 +59,7 @@ AEM Guidesには、DITA マップとBookmapという2つのマップテンプレ
 
    >[!NOTE]
    >
-   > トピックまたはマップテンプレートを保存するカスタム場所を設定するには、[&#x200B; カスタム DITA テンプレートフォルダーパスの設定](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z)を参照してください
+   > トピックまたはマップテンプレートを保存するカスタム場所を設定するには、[ カスタム DITA テンプレートフォルダーパスの設定](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z)を参照してください
 
 1. **作成** \> **DITA テンプレート**&#x200B;をクリックします。
 
@@ -109,4 +108,4 @@ DITA マップ内の参照数に基づいて、非同期処理のしきい値を
 これを防ぐには、タスクを並行して実行し、より大きなDITA マップの処理時間を短縮できるように、XmlEditorConfigで&#x200B;**非同期DITA マップ作成**&#x200B;を設定します。
 
 
-**親トピック：** [&#x200B; トピックとマップテンプレートの設定](conf-template-tags.md)
+**親トピック：** [ トピックとマップテンプレートの設定](conf-template-tags.md)

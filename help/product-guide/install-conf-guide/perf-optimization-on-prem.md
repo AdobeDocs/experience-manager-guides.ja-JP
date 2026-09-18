@@ -4,19 +4,18 @@ description: パフォーマンス最適化に関する推奨事項を学ぶ
 feature: Performance Optimization
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 0f289f7c-8300-427a-a4d9-9c2f31608240
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '888'
 ht-degree: 0%
-
 ---
-
 # オンプレミスのパフォーマンス最適化に関する推奨事項 {#id213BD0JG0XA}
 
 ## データストアの設定\（必須\）
 
 **変更点は何ですか？**
-設定`minRecordLength`の下の`100` プロパティを`org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.`の値に設定します。ファイルの日付ストアとS3 データストアについて詳しくは、「[AEMでのノードストアとデータストアの設定」を参照してください。6](https://helpx.adobe.com/jp/experience-manager/6-5/sites/deploying/using/data-store-config.html)
+`minRecordLength` プロパティを`org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.`の設定で`100`の値に設定します。ファイルの日付ストアとS3 データストアについて詳しくは、「[AEMでのノードストアとデータストアの設定」を参照してください。6](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/data-store-config.html)
 
 >[!NOTE]
 >
@@ -50,7 +49,7 @@ JVM開始パラメーターは、インフラストラクチャとディスク�
 
 - JVM ヒープのサイズを、使用可能なメモリの合計の1/4以上に設定します。 パラメーター`-Xmx<size>`を使用して、ヒープ メモリ サイズを設定します。 -`Xms`の値を`-Xmx`に設定します。
 
-- `-XX:+HeapDumpOnOutOfMemoryError`を有効にし、`-XX:HeapDumpPath=</path/to/folder` `>`のパスを設定します。
+- `-XX:+HeapDumpOnOutOfMemoryError`を有効にし、`-XX:HeapDumpPath=</path/to/folder``>`のパスを設定します。
 
 - Java GC ログを次のように有効にします。
 
@@ -79,7 +78,7 @@ JVM開始パラメーターは、インフラストラクチャとディスク�
 ## オーサーインスタンス \（オプション\）のクライアントライブラリの縮小
 
 **変更点は何ですか？**
-クライアントライブラリは、オーサリングインスタンスで縮小するように設定する必要があります。 これにより、ユーザーが別の場所からシステムを閲覧しているときにダウンロードするバイト数が少なくなります。 この変更を行うには、Felix コンソールから&#x200B;**HTML Library Manager**&#x200B;で設定を行います。
+クライアントライブラリは、オーサリングインスタンスで縮小するように設定する必要があります。 これにより、ユーザーが別の場所からシステムを閲覧しているときにダウンロードするバイト数が少なくなります。 この変更を行うには、Felix コンソールから**HTML Library Manager**&#x200B;で設定を行います。
 
 **設定するタイミング**
 これは、Felix コンソールまたはコードデプロイメントを使用して、実行時に実行できます。
@@ -92,7 +91,7 @@ JVM開始パラメーターは、インフラストラクチャとディスク�
 **変更点は何ですか？**
 この変更は、DITA-OTを使用して出力を公開し、複数の同時公開スレッドも定義されている場合に必要です。
 
-デフォルトでは、AEM Guidesは公開スレッドをCPU+1の数に設定します。 ただし、この値は、CPUの合計数の半分\（1/2\）または3分の1の\（1/3\）に設定することをお勧めします。 これを行うには、推奨事項に従って、構成&#x200B;**の下に**&#x200B;生成プールサイズ `com.adobe.fmdita.publish.manager.PublishThreadManagerImpl` プロパティを設定します。
+デフォルトでは、AEM Guidesは公開スレッドをCPU+1の数に設定します。 ただし、この値は、CPUの合計数の半分\（1/2\）または3分の1の\（1/3\）に設定することをお勧めします。 これを行うには、推奨事項に従って、構成`com.adobe.fmdita.publish.manager.PublishThreadManagerImpl`の下に&#x200B;**生成プールサイズ** プロパティを設定します。
 
 **設定するタイミング**
 これは、Felix コンソールまたはコードデプロイメントを使用して、実行時に実行できます。
@@ -105,11 +104,10 @@ JVM開始パラメーターは、インフラストラクチャとディスク�
 **変更点は何ですか？**
 この変更は、AEM Sites出力を生成する場合に必要です。
 
-**の下のヒープ** プロパティの`com.adobe.fmdita.config.ConfigManager`AEM サイトページ制限を、システムの設定に基づく数値に設定します。 このプロパティは、サイトページの生成時にコミットされるノードのバッチサイズを定義します。 例えば、CPUとヒープサイズの数が多いシステムでは、デフォルト値を`500`から大きい値に増やすことができます。 このプロパティに最適な値にするには、変更された値を使用して実行をテストする必要があります。
+`com.adobe.fmdita.config.ConfigManager`の下のヒープ **プロパティの** AEM サイトページ制限を、システムの設定に基づく数値に設定します。 このプロパティは、サイトページの生成時にコミットされるノードのバッチサイズを定義します。 例えば、CPUとヒープサイズの数が多いシステムでは、デフォルト値を`500`から大きい値に増やすことができます。 このプロパティに最適な値にするには、変更された値を使用して実行をテストする必要があります。
 
 **設定するタイミング**
 これは、Felix コンソールまたはコードデプロイメントを使用して、実行時に実行できます。
 
 **この変更の結果**
-ヒープ **プロパティの** Limit AEM Site Pagesの数が増えたことで、AEM Siteの出力生成プロセスが最適化されます。
-
+ヒープ **プロパティの** Limit AEM Site Pagesの数を増やすと、AEM Siteの出力生成プロセスが最適化されます。

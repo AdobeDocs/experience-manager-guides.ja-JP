@@ -4,13 +4,12 @@ description: 有効なファイル名文字にRegxを設定する方法を説明
 feature: Filename Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 0eacc712-1179-4c11-b8f9-9eb2706e6295
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '511'
 ht-degree: 0%
-
 ---
-
 # 有効なファイル名文字にRegxを設定する {#id214BD0550E8}
 
 AEM Guides 3.8 リリース以降、Administratorは、ファイル名で許可される有効な特殊文字のリストを定義できます。 以前のリリースでは、ユーザーは`@`、`$`、`>`などの特殊文字を含むファイル名を定義できました。 これらの特殊文字を使用すると、DITA マップダッシュボードからトピックを開いたり、目次のトピックのリンクをクリックしたりするときに問題が発生し、URLに特殊文字が含まれているためにページが開かないことが多くなりました。

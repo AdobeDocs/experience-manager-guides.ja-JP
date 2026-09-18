@@ -4,13 +4,12 @@ description: UUID以外のコンテンツをUUID コンテンツに移行する�
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 453da51a42984b912547570f2e1de70806b41171
+exl-id: 20c977de-db01-4d1e-ba8c-7fffc2a54231
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 0%
-
 ---
-
 # 非UUIDからUUID コンテンツへの移行 {#id226TI0U20XA}
 
 
@@ -57,6 +56,3 @@ ht-degree: 0%
 
 - [**4.3.1非UUIDから4.3.2 UUID コンテンツへの移行**](../install-conf-guide/non-uuid-4-3.md)
 - [**4.6.0 サービスパック 4非UUIDから4.6.1 UUID コンテンツへの移行**](../install-conf-guide/non-uuid-uuid-4-6.md)
-
-
-

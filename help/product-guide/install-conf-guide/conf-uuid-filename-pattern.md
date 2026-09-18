@@ -4,13 +4,12 @@ description: UUID ファイル名パターンの設定方法を説明します
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 63d19ec4-1313-4691-b83e-38b67f9d2050
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '301'
 ht-degree: 1%
-
 ---
-
 # UUID ファイル名パターンの設定
 
 コンテンツを読み込む際に、ファイル名がUUIDに基づく必要はありません。 UUID ベースのファイル名を使用するシステムでは、すべてのファイルを元のファイル名ではなくUUIDを使用して参照することが必須です。 読み込んだファイルにUUID ベースのファイル名がない場合は、UUIDをファイルプロパティに追加するようにシステムを設定できます。 このUUIDは、UUIDがファイルの命名に使用されないファイルを参照するために使用されます。
@@ -27,7 +26,7 @@ ht-degree: 1%
 
 | PID | プロパティキー | プロパティの値 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `uuid.regex` | UUID ファイル名パターンの正規表現を指定する文字列。 <br> ファイルが指定されたパターンに従わない場合、UUIDがファイルのプロパティに追加され、ファイルへのすべての参照が、ファイルに割り当てられたUUIDで更新されます。<br> **デフォルト値**: `"^GUID-(?<id>.*)"` |
+| `com.adobe.fmdita.config.ConfigManager` | `uuid.regex` | UUID ファイル名パターンの正規表現を指定する文字列。<br> ファイルが指定されたパターンに従わない場合、UUIDがファイルのプロパティに追加され、ファイルへのすべての参照が、ファイルに割り当てられたUUIDで更新されます。<br> **デフォルト値**: `"^GUID-(?<id>.*)"` |
 
 >[!TAB  オンプレミス ]
 
@@ -50,8 +49,3 @@ UUID パターンに対してファイル名をチェックし、UUIDが割り�
 1. 「**保存**」を選択します。
 
 >[!ENDTABS]
-
-
-
-
-
