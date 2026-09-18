@@ -37,11 +37,11 @@ AEM Guides レビューワークフローを使用すると、作成者、SME、
 
 ## 関連リソース
 
-- [ワークフローのドキュメントを見る](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/review/review)
+- [ワークフローのドキュメントを見る](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/user-guide/review/review)
 
-- [AEM GuidesとWorkfrontの統合](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/workfront-integration/workfront-integration)
+- [AEM GuidesとWorkfrontの統合](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/user-guide/workfront-integration/workfront-integration)
 
-- [レビューUIのカスタマイズ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/extention-framework/customisations/review-app-customisations/customisation)
+- [レビューUIのカスタマイズ](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/knowledge-base/kb-articles/extention-framework/customisations/review-app-customisations/customisation)
 
 
 
@@ -54,7 +54,7 @@ AEM Guides レビューワークフローを使用すると、作成者、SME、
 
 ### コミュニティフォーラム
 
-- Experience Leagueに関するセッション固有のコミュニティインタラクションについては、[AEM Guides フォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)をご覧ください。
+- Experience Leagueに関するセッション固有のコミュニティインタラクションについては、[AEM Guides フォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=ja)をご覧ください。
 
 
 ## さらに詳しく

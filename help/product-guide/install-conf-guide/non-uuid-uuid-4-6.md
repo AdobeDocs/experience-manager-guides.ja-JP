@@ -218,4 +218,4 @@ UUID バージョン 4.6.0以外のサービスパック 4からUUID バージ�
    > 移行前にプロパティ **Use title for AEM Site page names** inside `com.adobe.fmdita.config.ConfigManager`を&#x200B;*False*&#x200B;に設定した場合、移行後にこのプロパティを更新する必要があります。
 
 
-1. 検証が完了した後、コンパクションを実行することで、ほとんどのディスク領域を再利用できます（`https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`を参照）。
+1. 検証が完了した後、コンパクションを実行することで、ほとんどのディスク領域を再利用できます（`https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=ja`を参照）。
