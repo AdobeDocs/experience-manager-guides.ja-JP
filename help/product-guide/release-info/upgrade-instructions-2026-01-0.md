@@ -11,9 +11,9 @@ ht-degree: 1%
 
 この記事では、Adobe Experience Manager Guides as a Cloud Serviceの2026.01.0 リリースのアップグレード手順と互換性マトリックスについて説明します。
 
-新機能と機能強化について詳しくは、[2026.01.0 リリース ](whats-new-2026-01-0.md)の新機能を参照してください。
+新機能と機能強化について詳しくは、[2026.01.0 リリース &#x200B;](whats-new-2026-01-0.md)の新機能を参照してください。
 
-このリリースで修正された問題のリストについては、[2026.01.0 リリース ](fixed-issues-2026-01-0.md)で修正された問題を参照してください。
+このリリースで修正された問題のリストについては、[2026.01.0 リリース &#x200B;](fixed-issues-2026-01-0.md)で修正された問題を参照してください。
 
 ## 互換性マトリックス
 
@@ -138,7 +138,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 Experience Manager Guidesには、クロスマップの場合に生成されるリンク（2つの異なるマップのトピック間のリンク）を処理するための&#x200B;[**カスタム sling rewriter**](../cs-install-guide/conf-output-generation.md#custom-rewriter) モジュールがあります。
 
-コードベースに別のカスタムスリングリライターがある場合は、`'order'`値が50より大きい値を使用します。これは、Experience Manager Guides sling リライターが`'order'` 50を使用するからです。 これを上書きするには、50を超える値が必要です。 詳細については、[出力の書き換えパイプライン ](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html)を参照してください。
+コードベースに別のカスタムスリングリライターがある場合は、`'order'`値が50より大きい値を使用します。これは、Experience Manager Guides sling リライターが`'order'` 50を使用するからです。 これを上書きするには、50を超える値が必要です。 詳細については、[出力の書き換えパイプライン &#x200B;](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html)を参照してください。
 
 このアップグレードでは、`'order'`の値が1000から50に変更されるので、既存のカスタムリライターがある場合は`fmdita-rewriter`と結合する必要があります。
 

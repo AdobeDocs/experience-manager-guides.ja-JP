@@ -13,7 +13,7 @@ ht-degree: 1%
 
 この記事では、Adobe Experience Manager Guidesの5.0.0 Service Pack 4 リリースで修正されたバグについて説明します。
 
-5.0.0 Service Pack 4 リリース ](upgrade-instructions-5-0-0-sp4.md)の[ アップグレード手順について説明します。
+5.0.0 Service Pack 4 リリース [&#128279;](upgrade-instructions-5-0-0-sp4.md)の アップグレード手順について説明します。
 
 ## 翻訳
 

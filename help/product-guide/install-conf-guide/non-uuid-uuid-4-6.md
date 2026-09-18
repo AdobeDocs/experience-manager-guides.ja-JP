@@ -21,7 +21,7 @@ UUID バージョン 4.6.0以外のサービスパック 4からUUID バージ�
 >   1. アクティブなレビューをすべて閉じました。
 >   1. すべての翻訳タスクを閉じました。
 > * UUID サーバーにコンテンツを移行する前に、互換性のあるAEM Guides バージョンがインストールされているUUID以外のサーバーが存在することを確認します。
-> * 4.6.0 サービスパック 4より前にリリースされたバージョンを使用している場合は、最初にバージョン 4.6.0 サービスパック 4にアップグレードする必要があります。 製品のライセンス版に固有の[ アップグレード手順](./upgrade-aemg-latest-version.md)に従います。
+> * 4.6.0 サービスパック 4より前にリリースされたバージョンを使用している場合は、最初にバージョン 4.6.0 サービスパック 4にアップグレードする必要があります。 製品のライセンス版に固有の[&#x200B; アップグレード手順](./upgrade-aemg-latest-version.md)に従います。
 > * 4.6.0 サービスパック 4以降にリリースされた特定のサービスパックを使用している場合は、そのサービスパックをアンインストールして4.6.0 サービスパック 4に戻す必要があります。
 
 ## パッケージインストール
@@ -56,7 +56,7 @@ UUID バージョン 4.6.0以外のサービスパック 4からUUID バージ�
    * エラーのあるファイルの数
    * GUID ファイル名を持つファイル
 
-   移行](assets/migration-compatibility-assessment.png)の「![互換性評価」タブ
+   移行![&#128279;](assets/migration-compatibility-assessment.png)の「互換性評価」タブ
 
 
 1. エラーが表示された場合は、ログを分析してエラーを修正します。 エラーを修正した後、互換性マトリックスを再実行できます。
@@ -65,7 +65,7 @@ UUID バージョン 4.6.0以外のサービスパック 4からUUID バージ�
 
    複数の大きなDITA マップを選択すると、すべてのコンテンツが問題なく正常に移行されたことを検証できます。 ベースラインを含むプリセットを選択すると、ベースラインとバージョンが正常に移行されます。
 
-   ![移行の「検証の設定」タブ ](assets/migration-configure-validation.png)
+   ![移行の「検証の設定」タブ &#x200B;](assets/migration-configure-validation.png)
 
 
 1. （オプション）コンテンツのバージョンのパージを実行して、不要なバージョンを削除し、移行プロセスを高速化します。 バージョンのパージを実行するには、移行画面から「**バージョンのパージ**」オプションを選択し、URL `http://<server- name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`を使用してユーザーインターフェイスに移動します。
@@ -73,7 +73,7 @@ UUID バージョン 4.6.0以外のサービスパック 4からUUID バージ�
    >
    >このユーティリティは、ベースラインやレビューで使用されているバージョンを削除したり、ラベルを付けたりすることはありません。
 
-詳しくは、[古いバージョンのパージ ](../install-conf-guide/version-management.md#purge-older-versions-of-dita-files)を参照してください。
+詳しくは、[古いバージョンのパージ &#x200B;](../install-conf-guide/version-management.md#purge-older-versions-of-dita-files)を参照してください。
 
 
 ## 移行の前提条件
@@ -122,7 +122,7 @@ UUID バージョン 4.6.0以外のサービスパック 4からUUID バージ�
 
 1. `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`を起動します。
 
-   ![移行の「システムのアップグレード」タブ ](assets/migration-system-upgrade.png)
+   ![移行の「システムのアップグレード」タブ &#x200B;](assets/migration-system-upgrade.png)
    >[!NOTE]
    >
    > 「DITA アセットバックアップを有効にする」を選択すると、一時バックアップファイルは`/content/uuid-upgrade`に保存され、ファイルの移行が完了するとDITA ファイルバックアップが削除されます。
@@ -152,7 +152,7 @@ UUID バージョン 4.6.0以外のサービスパック 4からUUID バージ�
 
 1. すべてのファイルを移行したら、左側のパネルから「**ベースライン/レビューアップグレード**」を選択して、ベースラインを移行し、フォルダーレベルでレビューします。
 
-![移行の「ベースラインとレビュー」タブ ](assets/migration-baseline-review-upgrade-4-6-0.png)
+![移行の「ベースラインとレビュー」タブ &#x200B;](assets/migration-baseline-review-upgrade-4-6-0.png)
 
 >[!NOTE]
 >
