@@ -1,13 +1,12 @@
 ---
 title: クラウドサービスをアップグレードするための追加設定
 description: クラウドサービスをアップグレードするための追加設定について説明します
-source-git-commit: 453da51a42984b912547570f2e1de70806b41171
+exl-id: 92230263-776f-4019-8654-f35895785398
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '849'
-ht-degree: 0%
-
+source-wordcount: '863'
+ht-degree: 1%
 ---
-
 # AEM Guides as Cloud Serviceをアップグレードするための追加設定
 
 >[!INFO]
@@ -83,18 +82,18 @@ Experience Manager Guidesには、クロスマップの場合に生成される�
 
 1. サーバーへのPOST リクエストを実行します（正しい認証を使用） - `http://<server:port>/bin/guides/map-find/indexing`。 （オプション：マップの特定のパスを渡してインデックスを作成できます。デフォルトでは、すべてのマップにインデックスが付けられます||例：`https://<Server:port>/bin/guides/map-find/indexing?paths=<path of the MAP in repository>`）
 
-1. ルートフォルダーを渡して、特定のフォルダー（およびそのサブフォルダー）のDITA マップをインデックス化することもできます。 例えば、`http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test` のようになります。パス パラメーターとルート パラメーターの両方が渡された場合は、パス パラメーターのみが考慮されます。
+1. ルートフォルダーを渡して、特定のフォルダー（およびそのサブフォルダー）のDITA マップをインデックス化することもできます。 例えば、`http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test` のようになります。 パス パラメーターとルート パラメーターの両方が渡された場合は、パス パラメーターのみが考慮されます。
 
 1. APIはjobIdを返します。 ジョブのステータスを確認するには、ジョブ IDを持つGET リクエストを同じエンドポイント `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`に送信できます（例：`http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）
 
-1. ジョブが完了すると、以前のGET リクエストは成功して応答し、マップが失敗した場合にメンションします。 正常にインデックス付けされたマップは、サーバーログから確認できます。
+1. ジョブが完了すると、前のGET リクエストが成功して応答し、マップが失敗した場合にメンションします。 正常にインデックス付けされたマップは、サーバーログから確認できます。
 
 +++
 
 +++既存のコンテンツを後処理して、壊れたリンクレポートを使用する手順 
 既存のコンテンツを後処理し、新しい壊れたリンクレポートを使用するには、次の手順を実行します。
 
-1. （オプション）システムに100,000個を超えるDITA ファイルがある場合は、`queryLimitReads`の`queryLimitInMemory`と`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`をより大きな値（存在するアセット数より大きな値、例えば200,000個）に更新してから再展開します。
+1. （オプション）システムに100,000個を超えるDITA ファイルがある場合は、`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`の`queryLimitReads`と`queryLimitInMemory`をより大きな値（存在するアセット数より大きな値、例えば200,000個）に更新してから再展開します。
 
    - Adobe Experience Manager Guides as a Cloud Serviceの「*設定の上書き*」セクションで指定されている手順を使用して、設定ファイルを作成します。
    - 設定ファイルで、次の（プロパティ）詳細を指定して、`queryLimitReads`および`queryLimitInMemory` オプションを設定します。
@@ -106,10 +105,10 @@ Experience Manager Guidesには、クロスマップの場合に生成される�
 
 1. サーバーへのPOST リクエストを実行します（正しい認証を使用） - `http://<server>//bin/guides/reports/upgrade`。
 
-1. APIはjobIdを返します。 ジョブのステータスを確認するには、ジョブ IDを持つGET リクエストを同じエンドポイント `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`に送信できます
+1. APIはjobIdを返します。 ジョブのステータスを確認するには、ジョブ IDを持つGET リクエストを同じエンドポイントに送信できます。 `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
 （例：`http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`）
 
-1. ジョブが完了すると、以前のGET リクエストは正常に応答します。 何らかの理由でジョブが失敗した場合は、サーバーログからエラーを確認できます。
+1. ジョブが完了すると、前のGET リクエストが成功して応答します。 何らかの理由でジョブが失敗した場合は、サーバーログからエラーを確認できます。
 
 1. 手順1で変更した場合は、デフォルト値または以前の既存の値`queryLimitReads`に戻します。
 

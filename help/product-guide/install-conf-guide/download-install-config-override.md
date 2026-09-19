@@ -4,13 +4,12 @@ description: 設定の上書きの方法を説明します
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: baf48913-ced7-444f-a125-661c0213d847
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 0%
-
 ---
-
 # Cloud Serviceの設定の変更 {#id216IFC003XA}
 
 Experience Manager Guides as a Cloud Serviceで設定を更新する場合は、次の汎用的な方法を使用します。
@@ -38,4 +37,3 @@ Experience Manager Guides as a Cloud Serviceで設定を更新する場合は、
    ```
 
 1. 変更を確定し、Cloud Manager パイプラインを実行して、更新された設定をデプロイします。
-

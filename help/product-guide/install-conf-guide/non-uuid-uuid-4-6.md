@@ -4,13 +4,12 @@ description: UUID以外のコンテンツをUUID コンテンツに移行する�
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 453da51a42984b912547570f2e1de70806b41171
+exl-id: 0ce73a2a-e1a4-43b6-a918-75d1c537a87c
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '1568'
+source-wordcount: '1753'
 ht-degree: 2%
-
 ---
-
 # 4.6.0 サービスパック 4非UUIDから4.6.1 UUID コンテンツへの移行
 
 UUID バージョン 4.6.0以外のサービスパック 4からUUID バージョン 4.6.1にコンテンツを移行するには、次の手順を実行します。
@@ -57,7 +56,7 @@ UUID バージョン 4.6.0以外のサービスパック 4からUUID バージ�
    * エラーのあるファイルの数
    * GUID ファイル名を持つファイル
 
-   移行![の「](assets/migration-compatibility-assessment.png)互換性評価」タブ
+   移行![&#128279;](assets/migration-compatibility-assessment.png)の「互換性評価」タブ
 
 
 1. エラーが表示された場合は、ログを分析してエラーを修正します。 エラーを修正した後、互換性マトリックスを再実行できます。
@@ -113,7 +112,7 @@ UUID バージョン 4.6.0以外のサービスパック 4からUUID バージ�
    * `com.adobe.guides.uuid`。
 
 
-1. （以前に行っていない場合）システムに100,000個を超えるDITA ファイルがある場合は、`queryLimitReads`の`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`を大きな値（存在するアセット数よりも大きい値、例えば200,000）に更新します。
+1. （以前に行っていない場合）システムに100,000個を超えるDITA ファイルがある場合は、`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`の`queryLimitReads`を大きな値（存在するアセット数よりも大きい値、例えば200,000）に更新します。
 
    | PID | プロパティキー | プロパティの値 |
    |---|---|---|

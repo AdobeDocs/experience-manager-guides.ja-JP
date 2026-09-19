@@ -4,13 +4,12 @@ description: UUID以外のコンテンツをUUID コンテンツに移行する�
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 453da51a42984b912547570f2e1de70806b41171
+exl-id: 313208e4-4403-4ba8-8e97-c5a95475b87e
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1697'
 ht-degree: 2%
-
 ---
-
 # 4.3.1非UUIDから4.3.2 UUID コンテンツへの移行
 
 
@@ -23,7 +22,7 @@ UUID バージョン 4.3.1以外からUUID バージョン 4.3.2にコンテン�
 >   1. アクティブなレビューをすべて閉じました。
 >   1. すべての翻訳タスクを閉じました。
 > * UUID サーバーにコンテンツを移行する前に、互換性のあるAEM Guides バージョンがインストールされているUUID以外のサーバーが存在することを確認します。
-> * 4.3.1より前のバージョンを使用している場合は、バージョン 4.3.1にアップグレードします。製品のライセンス版に固有の[&#x200B; アップグレード手順](./upgrade-aemg-latest-version.md)に従います。
+> * 4.3.1より前のバージョンを使用している場合は、バージョン 4.3.1にアップグレードします。 製品のライセンス版に固有の[&#x200B; アップグレード手順](./upgrade-aemg-latest-version.md)に従います。
 > * 現在、4.3.1以降のバージョンは移行でサポートされていません。
 
 
@@ -59,7 +58,7 @@ UUID バージョン 4.3.1以外からUUID バージョン 4.3.2にコンテン�
    * エラーのあるファイルの数
    * GUID ファイル名を持つファイル
 
-   移行![の「](assets/migration-compatibility-assessment-4-3-1.png)互換性評価」タブ
+   移行![&#128279;](assets/migration-compatibility-assessment-4-3-1.png)の「互換性評価」タブ
 
 
 1. エラーが表示された場合は、ログを分析してエラーを修正します。 エラーを修正した後、互換性マトリックスを再実行できます。
@@ -115,7 +114,7 @@ UUID バージョン 4.3.1以外からUUID バージョン 4.3.2にコンテン�
    * `com.adobe.guides.uuid`。
 
 
-1. （以前に行っていない場合）システムに100,000個を超えるDITA ファイルがある場合は、`queryLimitReads`の`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`を大きな値（存在するアセット数よりも大きい値、例えば200,000）に更新します。
+1. （以前に行っていない場合）システムに100,000個を超えるDITA ファイルがある場合は、`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`の`queryLimitReads`を大きな値（存在するアセット数よりも大きい値、例えば200,000）に更新します。
 
    | PID | プロパティキー | プロパティの値 |
    |---|---|---|
@@ -220,4 +219,3 @@ UUID バージョン 4.3.1以外からUUID バージョン 4.3.2にコンテン�
 
 
 1. 検証が完了した後、コンパクションを実行することで、ほとんどのディスク領域を再利用できます（`https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=ja`を参照）。
-

@@ -39,16 +39,16 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: d3a1a627c00ccf276c78a0bc1337b71dd3951bc4
+source-git-commit: 6ec4546ab632167e8e49baacc8e771a44563f394
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '288'
 ht-degree: 6%
 ---
 # Experience Manager Guides ドキュメント
 
 Experience Manager Guidesは、構造化されたオーサリング、マルチチャネル公開、コンテンツライフサイクル管理を実現する、DITA対応のネイティブ CCMSです。
 
-[!BADGE Cloud Service]{type=Informative}、[!BADGE &#x200B; オンプレミス &#x200B;]{type=Informative}、[!BADGE 管理サービス &#x200B;]{type=Informative}
+**デプロイメント：** [!BADGE Cloud Service]{type=Informative} [!BADGE &#x200B; オンプレミス &#x200B;]{type=Informative} [!BADGE 管理サービス &#x200B;]{type=Informative}
 
 ## 役割から始める
 
@@ -57,7 +57,7 @@ Experience Manager Guidesは、構造化されたオーサリング、マルチ�
 ::::landing-cards-container
 
 :::card
-![作成者アイコン &#x200B;](./user-guide/images/author.svg)
+![作成者アイコン &#x200B;](./user-guide/images/author.png)
 
 作成者
 
@@ -67,7 +67,7 @@ DITA トピック、マップ、コンテンツ再利用、レビューワーク
 :::
 
 :::card
-![管理者アイコン &#x200B;](./user-guide/images/admin.svg)
+![管理者アイコン &#x200B;](./user-guide/images/admin.png)
 
 管理者
 
@@ -77,7 +77,7 @@ DITA トピック、マップ、コンテンツ再利用、レビューワーク
 :::
 
 :::card
-![発行者アイコン &#x200B;](./user-guide/images/publish.svg)
+![発行者アイコン &#x200B;](./user-guide/images/publish.png)
 
 発行者
 
@@ -86,16 +86,17 @@ DITA トピック、マップ、コンテンツ再利用、レビューワーク
 [マップ管理と公開](./user-guide/map-console-overview.md)
 :::
 
+<!--
 :::card
-![&#x200B; アーキテクトアイコン &#x200B;](./user-guide/images/architect.svg)
+![Architects icon](./user-guide/images/architect.svg)
 
-アーキテクト
+Architects
 
-実装のためのDITAの専門分野、スキーマ、コンテンツアーキテクチャを設計します。
+Design DITA specializations, schemas, and content architecture for your implementation.
 
-[DITAの専門分野](./install-conf-guide/dita-ot-specialization.md)
+[DITA specialization](./install-conf-guide/dita-ot-specialization.md)
 :::
-
+-->
 ::::
 
 ## 機能エリア別の探索
@@ -175,17 +176,17 @@ PDF、AEM Sites、HTML5、EPUB、JSON出力タイプ。
 <tr>
 <td>
 
-[!BADGE 機能]{type=Informative} <br> [**Git コネクタを使用してコンテンツを読み込む**](./user-guide/web-editor-git-connector.md)<br> Git リポジトリから直接Guidesにコンテンツを読み込みます。
+[!BADGE 機能]{type=Neutral} <br> [**Git コネクタを使用してコンテンツを読み込む**](./user-guide/web-editor-git-connector.md)<br> Git リポジトリから直接Guidesにコンテンツを読み込みます。
 
 </td>
 <td>
 
-[!BADGE 機能]{type=Informative} <br> [**新しいマップ コレクション**](./user-guide/generate-output-use-new-map-collection-output-generation.md)<br> マップの管理と出力の公開のための統合インターフェイス
+[!BADGE 機能]{type=Neutral} <br> [**新しいマップ コレクション**](./user-guide/generate-output-use-new-map-collection-output-generation.md)<br> マップの管理と出力の公開のための統合インターフェイス
 
 </td>
 <td>
 
-[!BADGE 機能強化]{type=Informative} <br> [**レビュータスクの委任**](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer) <br>人のレビュー担当者は、レビュータスクを別のレビュー担当者に委任できます
+[!BADGE 機能強化]{type=Neutral} <br> [**レビュータスクの委任**](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer) <br>人のレビュー担当者は、レビュータスクを別のレビュー担当者に委任できます
 
 </td>
 </tr>

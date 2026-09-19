@@ -4,13 +4,12 @@ description: パフォーマンス最適化に関する推奨事項を学ぶ
 feature: Performance Optimization
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 6c9684d4-180f-4ccb-bfd6-6c82a8a7b720
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 0%
-
+source-wordcount: '152'
+ht-degree: 5%
 ---
-
 # Cloud Serviceのパフォーマンスを最適化するための推奨事項 {#id213BD0JG0XA}
 
 パフォーマンスを最適化するには、次の点を考慮する必要があります。
@@ -22,4 +21,3 @@ ht-degree: 0%
   *必要な設定*: カスタム DITA-OT パッケージのXerces Jar ファイルを、出荷されたOOTB ファイルに置き換えます。 デフォルトのOOTB `xercesImpl-2.11.0.jar` ファイルは、`/libs/fmdita/dita\_resources/DITA-OT.zip` ファイル内で使用できます。 置き換える古いXerces Jar ファイルと一致するように、`xercesImpl-2.11.0.jar` ファイルの名前を変更してください。 これは実行時に実行できます。
 
   この変更により、多数のトピックを含むDITA マップを公開する際の公開時間とメモリの使用率が削減されます。
-

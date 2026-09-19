@@ -4,20 +4,19 @@ description: Dispatcherの設定方法について説明します
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 4b7b4e9b-0a5c-4b61-87d9-a6bd6494c030
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 7%
-
+source-wordcount: '293'
+ht-degree: 10%
 ---
-
 # Dispatcher の設定 {#id213BCM0M05U}
 
 AEM上のDispatcher オーサーインスタンスをAEM Guidesと共に使用する場合は、設定を完了するために次の追加設定を実行する必要があります。
 
 >[!NOTE]
 >
-> Dispatcher は、Adobe Experience Manager のキャッシュやロードバランシングを管理するツールです。Dispatcherの使用について詳しくは、[Dispatcherの概要](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=ja)を参照してください。
+> Dispatcher は、Adobe Experience Manager のキャッシュやロードバランシングを管理するツールです。 Dispatcherの使用について詳しくは、[Dispatcherの概要](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=ja)を参照してください。
 
 ## URLでAllowEncodedSlashを有効にする
 
@@ -79,4 +78,3 @@ AEM GuidesでDispatcherを使用する場合、オーサーインスタンスの
                 /type "deny"
                 }
 ```
-

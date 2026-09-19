@@ -4,13 +4,12 @@ description: ワークフローを設定およびカスタマイズする方法�
 feature: Workflow Configuration
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 169d6e01-7ab2-4f0a-bd70-a3aee39cee8e
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '2158'
-ht-degree: 2%
-
+source-wordcount: '2280'
+ht-degree: 4%
 ---
-
 # ワークフローの設定とカスタマイズ {#id181AI0OJ0RO}
 
 ワークフローを使用すると、Adobe Experience Manager \（AEM\）アクティビティを自動化できます。 ワークフローは、特定の順序で実行される一連のステップで構成されます。 各ステップで実行するアクティビティを定義できます。 例えば、トピックレビューの作成時に、グループ内のすべてのレビュー担当者にメール通知を送信できます。 または、出力生成タスクが完了したときにパブリッシャーに通知を送信します。
@@ -90,12 +89,12 @@ workflowdata.getMetaDataMap().put("reviewVersion","3.0");
 
 これらのスクリプトは`/etc/workflows/scripts` ノードで作成できます。 次の表に、前述のECMA スクリプトの両方で割り当てられるプロパティを示します。
 
-| Property | タイプ | 説明 |
+| Property | 種類 | 説明 |
 |--------|----|-----------|
 | `initiator` | String | レビュータスクを開始するユーザーのユーザーID。 |
 | `operation` | 文字列 | `AEM_REVIEW`に設定された静的な値。 |
 | `orgTopics` | 文字列 | レビュー用に共有されているトピックのパス。 複数のトピックをコンマで区切って指定します。 |
-| `payloadJson` | JSON オブジェクト | 次の値を指定します。-   `base`：レビュー用に送信されたトピックを含む親フォルダーのパス。 <br> -   `asset`：レビュー用に送信されたトピックのパス。 <br> -   `referrer`：空白のままにします。 |
+| `payloadJson` | JSON オブジェクト | 次の値を指定します：- `base`：レビュー用に送信されたトピックを含む親フォルダーのパス。<br> - `asset`：レビュー用に送信されたトピックのパス。<br> - `referrer`：空白のままにします。 |
 | `deadline` | 文字列 | 時間を`yyyy-MM-dd'T'HH:mm:ss.SSSXXX`形式で指定してください。 |
 | `title` | 文字列 | レビュータスクのタイトルを入力します。 |
 | `description` | 文字列 | レビュータスクの説明を入力します。 |
@@ -110,7 +109,7 @@ workflowdata.getMetaDataMap().put("reviewVersion","3.0");
 | `ditamap` | 文字列 | レビュータスクのditamapのパスを指定します |
 | `allowAllReviewers` | ブーリアン | false/true |
 | `notifyViaEmail` | ブーリアン | false/true |
-| `reviewVersion` | 文字列 | レビューワークフローの現在のバージョンを指定します。 デフォルト値は`3.0`に設定されています。<br> [作成者](../user-guide/review-close-review-task.md)および[&#x200B; レビュー担当者](../user-guide/review-complete-review-tasks.md)の新しいレビューワークフロー機能を有効にするには、`reviewVersion`が`3.0`に設定されていることを確認してください。 |
+| `reviewVersion` | 文字列 | レビューワークフローの現在のバージョンを指定します。 デフォルト値は`3.0` .<br>に設定されています [作成者](../user-guide/review-close-review-task.md)および[&#x200B; レビュー担当者](../user-guide/review-complete-review-tasks.md)の新しいレビューワークフロー機能を有効にするには、`reviewVersion`が`3.0`に設定されていることを確認してください。 |
 
 
 スクリプトを作成したら、ワークフローで「レビューを作成」プロセスを呼び出す前にスクリプトを呼び出します。 その後、要件に応じて、他のレビューワークフロープロセスを呼び出すことができます。
@@ -140,7 +139,7 @@ AEM Guidesには、レビューワークフローで使用される電子メー�
 
    >[!NOTE]
    >
-   > ``libs`` ノードで使用できる既定の構成ファイルのカスタマイズを行わないでください。 ``libs`` ノードで``apps`` ノードのオーバーレイを作成し、``apps`` ノードでのみ必要なファイルを更新する必要があります。
+   > ``libs`` ノードで使用できる既定の構成ファイルのカスタマイズを行わないでください。 ``apps`` ノードで``libs`` ノードのオーバーレイを作成し、``apps`` ノードでのみ必要なファイルを更新する必要があります。
 
 1. `review` フォルダーには、次のサブフォルダーが含まれています。
 
@@ -190,7 +189,7 @@ AEM Guidesでは、出力後の生成ワークフローを柔軟に指定でき�
 
 出力後の生成ワークフローとして使用する新しいワークフローモデルを作成できます。 出力後の生成ワークフローがトリガーされると、出力生成ワークフローはワークフローメタデータマップを通じてコンテキスト情報を共有します。この情報を使用して、生成された出力に対する処理を実行できます。 次の表に、メタデータとして共有されるコンテキスト情報を示します。
 
-| Property | タイプ | 説明 |
+| Property | 種類 | 説明 |
 |--------|----|-----------|
 | ``outputName`` | String | 出力の生成に使用する出力プリセットの名前。 |
 | `generatedPath` | 文字列 | 生成された出力が保存されるDAM内のパス。 |
