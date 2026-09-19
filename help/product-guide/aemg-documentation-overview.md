@@ -39,35 +39,22 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 6ec4546ab632167e8e49baacc8e771a44563f394
+source-git-commit: a45df7e9eef75b0c4684e944fd9611eb6e7b060e
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '289'
 ht-degree: 6%
 ---
 # Experience Manager Guides ドキュメント
 
 Experience Manager Guidesは、構造化されたオーサリング、マルチチャネル公開、コンテンツライフサイクル管理を実現する、DITA対応のネイティブ CCMSです。
 
-**デプロイメント：** [!BADGE Cloud Service]{type=Informative} [!BADGE &#x200B; オンプレミス &#x200B;]{type=Informative} [!BADGE 管理サービス &#x200B;]{type=Informative}
+**デプロイメント：** [!BADGE Cloud Service]{type=Positive} [!BADGE &#x200B; オンプレミス &#x200B;]{type=Informative}
 
 ## 役割から始める
 
-<!-- Author note: The landing-cards-container component is in beta with known display issues in preview and review environments. Verify rendering in production before publishing. Update icon paths below once confirmed against the ExL CDN icon library. Role card links point to the first topic in each role's section of the left nav — update paths to match the actual repo structure. -->
-
 ::::landing-cards-container
-
 :::card
-![作成者アイコン &#x200B;](./user-guide/images/author.png)
-
-作成者
-
-DITA トピック、マップ、コンテンツ再利用、レビューワークフローを作成、管理します。
-
-[オーサリングの概要](./user-guide/authoring-content.md)
-:::
-
-:::card
-![管理者アイコン &#x200B;](./user-guide/images/admin.png)
+![管理者アイコン &#x200B;](../assets/admin.png)
 
 管理者
 
@@ -77,7 +64,17 @@ DITA トピック、マップ、コンテンツ再利用、レビューワーク
 :::
 
 :::card
-![発行者アイコン &#x200B;](./user-guide/images/publish.png)
+![作成者アイコン &#x200B;](../assets/author.png)
+
+作成者
+
+DITA トピック、マップ、コンテンツ再利用、レビューワークフローを作成、管理します。
+
+[オーサリングの概要](./user-guide/authoring-content.md)
+:::
+
+:::card
+![発行者アイコン &#x200B;](../assets/publisher.png)
 
 発行者
 
@@ -85,6 +82,8 @@ DITA トピック、マップ、コンテンツ再利用、レビューワーク
 
 [マップ管理と公開](./user-guide/map-console-overview.md)
 :::
+
+::::
 
 <!--
 :::card
@@ -96,17 +95,18 @@ Design DITA specializations, schemas, and content architecture for your implemen
 
 [DITA specialization](./install-conf-guide/dita-ot-specialization.md)
 :::
--->
+
 ::::
+-->
 
 ## 機能エリア別の探索
 
-<!-- Author note: Six cards will wrap to two rows of three in production. Same beta caveat as the role cards above applies here. -->
+<!-- Author note: Six cards wrap to two rows of three in production. The landing-cards-container component is in beta — verify rendering in production before publishing. -->
 
 ::::landing-cards-container
 
 :::card
-![&#x200B; オーサリングアイコン &#x200B;](./user-guide/images/author.svg)
+![&#x200B; オーサリングアイコン &#x200B;](../assets/authoring.png)
 
 オーサリング
 
@@ -116,7 +116,7 @@ web エディター、FrameMakerとの統合、コンテンツの再利用、レ
 :::
 
 :::card
-![&#x200B; レビューアイコン &#x200B;](./user-guide/images/review.svg)
+![&#x200B; レビューアイコン &#x200B;](../assets/review.png)
 
 レビュー
 
@@ -126,7 +126,7 @@ web エディター、FrameMakerとの統合、コンテンツの再利用、レ
 :::
 
 :::card
-![公開アイコン &#x200B;](./user-guide/images/publish.svg)
+![公開アイコン &#x200B;](../assets/publishing.png)
 
 公開
 
@@ -136,7 +136,7 @@ PDF、AEM Sites、HTML5、EPUB、JSON出力タイプ。
 :::
 
 :::card
-![翻訳アイコン &#x200B;](./user-guide/images/Smock_GlobeGrid_18_N.svg)
+![翻訳アイコン &#x200B;](../assets/translation.png)
 
 翻訳
 
@@ -146,7 +146,7 @@ PDF、AEM Sites、HTML5、EPUB、JSON出力タイプ。
 :::
 
 :::card
-![&#x200B; レポートアイコン &#x200B;](./user-guide/images/Smock_Report_18_N.svg)
+![&#x200B; レポートアイコン &#x200B;](../assets/reports.png)
 
 レポート
 
@@ -156,7 +156,7 @@ PDF、AEM Sites、HTML5、EPUB、JSON出力タイプ。
 :::
 
 :::card
-![設定アイコン &#x200B;](./user-guide/images/config.svg)
+![設定アイコン &#x200B;](../assets/configure.png)
 
 設定
 
@@ -169,28 +169,43 @@ PDF、AEM Sites、HTML5、EPUB、JSON出力タイプ。
 
 ## 新機能
 
-<!-- Author note: Badges render correctly in markdown table cells per ExL spec. <br> is supported within cells. Update release version, links, and descriptions each release cycle. The What's new table is the primary update touchpoint on this page — aim to refresh it within one week of each cloud service release. -->
+<!-- Author note: Update images, badge labels, feature titles, descriptions, and links each release cycle. Images are stored in /assets/. The shade box with a borderless HTML table provides the three-column layout. Blank lines inside each <td> are required for ExL to process badge and bold-link markdown syntax. -->
 
+>[!BEGINSHADEBOX]
 
 <table>
-<tr>
+<tr style="border: 0;">
 <td>
 
-[!BADGE 機能]{type=Neutral} <br> [**Git コネクタを使用してコンテンツを読み込む**](./user-guide/web-editor-git-connector.md)<br> Git リポジトリから直接Guidesにコンテンツを読み込みます。
+![Git コネクタ &#x200B;](../assets/whats-new-git-connector.svg)
+
+**[Git コネクタを使用したコンテンツの読み込み](./user-guide/web-editor-git-connector.md)**
+
+Git リポジトリから直接Guidesにコンテンツを読み込みます。
 
 </td>
 <td>
 
-[!BADGE 機能]{type=Neutral} <br> [**新しいマップ コレクション**](./user-guide/generate-output-use-new-map-collection-output-generation.md)<br> マップの管理と出力の公開のための統合インターフェイス
+![&#x200B; マップコレクション &#x200B;](../assets/whats-new-map-collection.svg)
+
+**[新しいマップコレクション](./user-guide/generate-output-use-new-map-collection-output-generation.md)**
+
+マップの管理と出力の公開のための統合インターフェイス。
 
 </td>
 <td>
 
-[!BADGE 機能強化]{type=Neutral} <br> [**レビュータスクの委任**](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer) <br>人のレビュー担当者は、レビュータスクを別のレビュー担当者に委任できます
+![&#x200B; レビューを委任](../assets/whats-new-delegate-review.svg)
+
+**[レビュータスクを委任](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer)**
+
+レビューアーは、レビュータスクを別のレビューアーに委任できます。
 
 </td>
 </tr>
 </table>
+
+>[!ENDSHADEBOX]
 
 ## その他のリソース
 
