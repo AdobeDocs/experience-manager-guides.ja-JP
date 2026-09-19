@@ -39,22 +39,22 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 411756129e6ce756f8674d6d3feb27a1cd9a2f19
+source-git-commit: a45df7e9eef75b0c4684e944fd9611eb6e7b060e
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '289'
 ht-degree: 6%
 ---
 # Experience Manager Guides ドキュメント
 
 Experience Manager Guidesは、構造化されたオーサリング、マルチチャネル公開、コンテンツライフサイクル管理を実現する、DITA対応のネイティブ CCMSです。
 
-**デプロイメント：** [!BADGE Cloud Service]{type=Positive} [!BADGE &#x200B; オンプレミス &#x200B;]{type=Informative}
+**デプロイメント：** [!BADGE Cloud Service]{type=Positive} [!BADGE  オンプレミス ]{type=Informative}
 
 ## 役割から始める
 
 ::::landing-cards-container
 :::card
-![管理者アイコン &#x200B;](./user-guide/images/admin.png)
+![管理者アイコン ](../assets/admin.png)
 
 管理者
 
@@ -64,7 +64,7 @@ Experience Manager Guidesは、構造化されたオーサリング、マルチ�
 :::
 
 :::card
-![作成者アイコン &#x200B;](./user-guide/images/author.png)
+![作成者アイコン ](../assets/author.png)
 
 作成者
 
@@ -74,7 +74,7 @@ DITA トピック、マップ、コンテンツ再利用、レビューワーク
 :::
 
 :::card
-![発行者アイコン &#x200B;](./user-guide/images/publish.png)
+![発行者アイコン ](../assets/publisher.png)
 
 発行者
 
@@ -84,7 +84,6 @@ DITA トピック、マップ、コンテンツ再利用、レビューワーク
 :::
 
 ::::
-
 
 <!--
 :::card
@@ -102,12 +101,12 @@ Design DITA specializations, schemas, and content architecture for your implemen
 
 ## 機能エリア別の探索
 
-<!-- Author note: Six cards will wrap to two rows of three in production. Same beta caveat as the role cards above applies here. -->
+<!-- Author note: Six cards wrap to two rows of three in production. The landing-cards-container component is in beta — verify rendering in production before publishing. -->
 
 ::::landing-cards-container
 
 :::card
-![&#x200B; オーサリングアイコン &#x200B;](./user-guide/images/author.svg)
+![ オーサリングアイコン ](../assets/authoring.png)
 
 オーサリング
 
@@ -117,7 +116,7 @@ web エディター、FrameMakerとの統合、コンテンツの再利用、レ
 :::
 
 :::card
-![&#x200B; レビューアイコン &#x200B;](./user-guide/images/review.svg)
+![ レビューアイコン ](../assets/review.png)
 
 レビュー
 
@@ -127,7 +126,7 @@ web エディター、FrameMakerとの統合、コンテンツの再利用、レ
 :::
 
 :::card
-![公開アイコン &#x200B;](./user-guide/images/publish.svg)
+![公開アイコン ](../assets/publishing.png)
 
 公開
 
@@ -137,7 +136,7 @@ PDF、AEM Sites、HTML5、EPUB、JSON出力タイプ。
 :::
 
 :::card
-![翻訳アイコン &#x200B;](./user-guide/images/Smock_GlobeGrid_18_N.svg)
+![翻訳アイコン ](../assets/translation.png)
 
 翻訳
 
@@ -147,7 +146,7 @@ PDF、AEM Sites、HTML5、EPUB、JSON出力タイプ。
 :::
 
 :::card
-![&#x200B; レポートアイコン &#x200B;](./user-guide/images/Smock_Report_18_N.svg)
+![ レポートアイコン ](../assets/reports.png)
 
 レポート
 
@@ -157,7 +156,7 @@ PDF、AEM Sites、HTML5、EPUB、JSON出力タイプ。
 :::
 
 :::card
-![設定アイコン &#x200B;](./user-guide/images/config.svg)
+![設定アイコン ](../assets/configure.png)
 
 設定
 
@@ -170,69 +169,49 @@ PDF、AEM Sites、HTML5、EPUB、JSON出力タイプ。
 
 ## 新機能
 
-<!-- Author note: Badges render correctly in markdown table cells per ExL spec. <br> is supported within cells. Update release version, links, and descriptions each release cycle. The What's new table is the primary update touchpoint on this page — aim to refresh it within one week of each cloud service release. -->
-::::landing-cards-container
+<!-- Author note: Update images, badge labels, feature titles, descriptions, and links each release cycle. Images are stored in /assets/. The shade box with a borderless HTML table provides the three-column layout. Blank lines inside each <td> are required for ExL to process badge and bold-link markdown syntax. -->
 
-:::card
-![管理者アイコン &#x200B;](https://cdn.experienceleague.adobe.com/icons/admin.svg)
+>[!BEGINSHADEBOX]
 
-Git コネクタ
+<table>
+<tr style="border: 0;">
+<td>
+
+![Git コネクタ ](../assets/whats-new-git-connector.svg)
+
+**[Git コネクタを使用したコンテンツの読み込み](./user-guide/web-editor-git-connector.md)**
 
 Git リポジトリから直接Guidesにコンテンツを読み込みます。
 
-[Git コネクタを使用したコンテンツのインポート](./user-guide/web-editor-git-connector.md)
-:::
+</td>
+<td>
 
-:::card
-![&#x200B; トラブルシューティング アイコン &#x200B;](https://cdn.experienceleague.adobe.com/icons/atomic-search-troubleshoot.svg)
+![ マップコレクション ](../assets/whats-new-map-collection.svg)
 
-新しいマップコレクション
+**[新しいマップコレクション](./user-guide/generate-output-use-new-map-collection-output-generation.md)**
 
 マップの管理と出力の公開のための統合インターフェイス。
 
-[新しいマップコレクション](./user-guide/web-editor-git-connector.md)
-:::
+</td>
+<td>
 
-:::card
-![&#x200B; ブックアイコン &#x200B;](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![ レビューを委任](../assets/whats-new-delegate-review.svg)
 
-レビュータスクを委任
+**[レビュータスクを委任](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer)**
 
 レビューアーは、レビュータスクを別のレビューアーに委任できます。
-
-[レビュータスクの委任](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer)
-:::
-
-::::
-
-<!--
-<table>
-<tr>
-<td>
-
-[!BADGE Feature]{type=Neutral} <br> [**Import content using Git Connector**](./user-guide/web-editor-git-connector.md)<br> Import content into Guides directly from Git repositories.
-
-</td>
-<td>
-
-[!BADGE Feature]{type=Neutral} <br> [**New map collection**](./user-guide/generate-output-use-new-map-collection-output-generation.md)<br> Unified interface for managing maps and publishing outputs
-
-</td>
-<td>
-
-[!BADGE Enhancement]{type=Neutral} <br> [**Delegate a review task**](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer) <br> Reviewers can delegate a review task to another reviewer
 
 </td>
 </tr>
 </table>
--->
 
+>[!ENDSHADEBOX]
 
 ## その他のリソース
 
 * [Cloud Serviceのリリースノート](./release-info/latest-release-info-cs.md)
 * [オンプレミスのリリースノート](./release-info/latest-release-info.md)
-* [AEM Guides community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=ja){target="_blank"}
-* [GitHub リポジトリ](https://github.com/AdobeDocs/experience-manager-guides.ja-JP){target="_blank"}
-* [サポート](https://experienceleague.adobe.com/support/v2/en/?lang=ja){target="_blank"}
-* [ビデオチュートリアル](https://experienceleague.adobe.com/ja/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [AEM Guides community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
+* [GitHub リポジトリ](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [サポート](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [ビデオチュートリアル](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
