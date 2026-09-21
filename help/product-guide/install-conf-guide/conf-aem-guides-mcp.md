@@ -1,15 +1,13 @@
 ---
 title: Adobe Experience Manager GuidesでのMCPの使用
 description: AEM GuidesでModel Context Protocol （MCP）を使用して、AI アシスタントを通じてトピック、マップ、ベースライン、レポートを操作する方法を説明します
-feature: Authoring, Publishing
+feature: Authoring
 role: User
-source-git-commit: c724946a3426e28a1270ba01cdf2646bbf5f2a0d
+source-git-commit: 864884f26389d256b0e054e3c0b7400b89f6d6ce
 workflow-type: tm+mt
-source-wordcount: '974'
+source-wordcount: '814'
 ht-degree: 0%
-
 ---
-
 
 # Adobe Experience Manager Guides MCP Serverの使用
 
@@ -17,7 +15,7 @@ ht-degree: 0%
 
 Adobe Experience Manager Guides MCP サーバーは、これをExperience Manager Guidesに取り込みます。 これにより、Anthropic ClaudeなどのMCP対応AI アシスタントがExperience Manager Guides環境に接続し、独自のAEM権限の下でユーザーに代わって行動できるようになります。 接続すると、Experience Manager Guides as a Cloud Serviceで自然言語を使用して、マップ、トピック、ベースライン、レポートを操作できます。
 
-この記事では、MCPがExperience Manager Guidesに役立つ理由、MCP サーバーがカバーするアプリケーション、その設定方法、およびその使用方法について説明します。
+この記事では、MCPがExperience Manager Guidesに役立つ理由、MCP サーバーがカバーする内容、使用するアプリケーション、使用方法について説明します。
 
 ## Experience Manager Guides向けMCPが有用な理由
 
@@ -31,93 +29,26 @@ Adobe Experience Manager Guides MCP サーバーは、これをExperience Manage
 
 ## Experience Manager Guidesが提供するMCP サーバー
 
-Experience Manager Guidesは、単一のHTTP エンドポイントを通じてMCP機能を公開します。
+Experience Manager Guidesでは、Experience Manager Guidesのコンテンツと関連するワークフローを操作するためのMCP機能が公開されています。 AEMの権限に応じて、MCP サーバーは次の機能にアクセスできます。
 
-| MCP サーバー | エンドポイント | 説明 |
-| --- | --- | --- |
-| **Experience Manager Guides** | `https://mcp.adobeaemcloud.com/adobe/mcp/guides` | Experience Manager Guidesでトピック、マップ、ベースライン、レポートを操作します。 |
+* **トピックとマップ**: コンテンツの作成と表示から、コンテンツの更新、バージョン管理、ロック、削除に至るまで、コンテンツライフサイクル全体を通じてトピックとマップを操作します。
+* **ベースライン**: ベースラインの作成、一覧表示、書き出し、複製、再構築、およびラベル付けによって、ベースラインを操作します。
+  >[!NOTE]
+  >
+  > Cloud Serviceとオンプレミス環境の両方で、ベースライン機能は[新しいベースライン ](../user-guide/web-editor-baseline-v2.md)が有効になっている場合にのみ使用できます。
+* **レポート**: トピックリストとメタデータにアクセスし、壊れているリンクを特定し、マルチメディアの使用状況を確認することで、コンテンツに関するインサイトを得ることができます。
+* **システム**: パッケージのバージョン、バンドルの正常性、環境の診断を確認して、システムの状態を把握します。
 
-この1つのエンドポイントは、次の4つの領域をカバーしています。
-
-- **トピックとマップ** - トピックとマップを作成、読み取り、更新、削除、バージョン、ロックします。
-- **ベースライン** - ベースラインを作成、リスト化、書き出し、複製、再構築、ラベル付けします。
-- **レポート** - トピックリスト、メタデータ、壊れたリンク、マルチメディアの使用状況。
-- **システム** - パッケージのバージョン、バンドルの正常性、および環境の診断。
+AEMでアクションを実行する権限がない場合、MCPを通じて同じアクションを実行することはできません。
 
 利用できるツールは、時間の経過とともに変化します。 固定のリストに頼るのではなく、アシスタントに利用可能なものを教えてもらいましょう。
 
-```
-List all Experience Manager Guides tools available from the author https://author-pXXXX-eXXXX.adobeaemcloud.com and describe what they do.
-```
+`List all Experience Manager Guides tools available and describe what they do.`
 
-## 組織のアクセスをリクエスト
-
-Experience Manager Guides MCP サーバーへのアクセスは、組織ごとに&#x200B;**オプトイン**&#x200B;です。 組織内の誰もが次のことにアクセスできるようになります。
-
-- AEM as a Cloud Service環境でExperience Manager Guidesを有効にする必要があります。
-- 組織のIMS組織ID （組織ID）は、Adobe Guides チームが許可リストに登録している必要があります。
-
-アクセスをリクエストするには、Adobe カスタマーサクセス部門にお問い合わせください。
 
 ## サポートされているアプリケーション
 
-Experience Manager Guides MCP サーバーは&#x200B;**リモート** サーバーです。 次のようなリモートサーバーをサポートするあらゆるMCP クライアントで動作します。
-
-### チャットアプリ
-
-- Anthropic Claude （ウェブとデスクトップ）
-
-### 開発者ツール
-
-- カーソル
-- Visual Studio Code
-- その他のMCP対応IDE
-
-## セットアップ
-
-ローカルに何もインストールしません。 クライアントをサーバーURLに指定し、Adobe IMSのサインインフローを使用して認証を行います。
-
-### 人道クロード
-
-公式のチュートリアルに従います。[AEM MCP用にClaudeを設定](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/mcp-support/chat-applications/setup-claude)。 カスタムコネクタを追加する場合は、Experience Manager Guides エンドポイントを使用します。
-
-```
-https://mcp.adobeaemcloud.com/adobe/mcp/guides
-```
-
-### カーソル / Visual Studio Code
-
-サーバーをMCP設定に追加します。 カーソルの場合は、`.cursor/mcp.json`に追加します。
-
-```json
-{
-  "mcpServers": {
-    "aem-guides": {
-      "url": "https://mcp.adobeaemcloud.com/adobe/mcp/guides"
-    }
-  }
-}
-```
-
-ローカル （Studio） サーバーのみをサポートするクライアントの場合、[`mcp-remote`](https://www.npmjs.com/package/mcp-remote)を使用してリモート エンドポイントにブリッジします。
-
-```json
-{
-  "mcpServers": {
-    "aem-guides": {
-      "command": "npx",
-      "args": ["-y", "mcp-remote", "https://mcp.adobeaemcloud.com/adobe/mcp/guides"]
-    }
-  }
-}
-```
-
-## 認証
-
-Experience Manager Guides MCP サーバーは、Adobe IMSに&#x200B;**認証**&#x200B;を使用しています。
-
-- 最初の接続時に、クライアントはブラウザーのログインウィンドウを開きます。 Adobe IDでログインして、接続を完了します。
-- ログインすると、すべてのアクションが既存のAEM権限の下で実行されます。 AEMでアクションに対する権限がない場合、MCPを通じて同じアクションが失敗します。
+Experience Manager Guides MCP サーバーは、互換性のあるMCP クライアントと接続できるリモート MCP サーバーです。 環境に応じて、MCP クライアントを接続し、Experience Manager Guides MCP サーバーに認証します。 詳しくは、[Experience Manager Guides MCP サーバーの設定](./configure-aem-guides-mcp.md)を参照してください。
 
 ## Experience Manager Guides MCP Serverの使用
 
@@ -125,7 +56,7 @@ Experience Manager Guides MCP サーバーは、Adobe IMSに&#x200B;**認証**&#
 
 >[!IMPORTANT]
 >
->書き出し、ベースライン構築、一括更新など、複数のステップを伴ったり、完了までに時間がかかったりするリクエストは、思考モデルで最も効果的に機能します。 これらはバックグラウンドで実行されます。アシスタントはジョブを開始し、結果またはダウンロードリンクが準備ができるまでステータスを確認します。
+> 書き出し、ベースライン構築、一括更新など、複数のステップを伴ったり、完了までに時間がかかったりするリクエストは、思考モデルで最も効果的に機能します。 これらはバックグラウンドで実行されます。アシスタントはジョブを開始し、結果またはダウンロードリンクが準備ができるまでステータスを確認します。
 
 ### プロンプト例
 
