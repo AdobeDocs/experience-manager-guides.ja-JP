@@ -28,7 +28,7 @@ ht-degree: 0%
 
 このリリースで修正された問題のリストについては、「[5.2.0 サービスパック 1 リリースの修正済みの問題](fixed-issues-5-2-0-sp1.md)」を参照してください。
 
-5.2.0 サービスパック 1 リリース ](../release-info/upgrade-instructions-5-2-0-sp1.md)の[ アップグレード手順について説明します。
+5.2.0 サービスパック 1 リリース [&#128279;](../release-info/upgrade-instructions-5-2-0-sp1.md)の アップグレード手順について説明します。
 
 
 ## Experience Manager Guides、MCP サポートを追加

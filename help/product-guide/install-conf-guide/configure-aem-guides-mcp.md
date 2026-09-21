@@ -25,7 +25,7 @@ Experience Manager Guidesは、単一のHTTP エンドポイントを通じてMC
 
 | MCP サーバー | エンドポイント | 説明 |
 |---|---|---|
-| **Experience Manager Guides** | `https://mcp.adobeaemcloud.com/adobe/mcp/guides` | Experience Manager Guidesでトピックとマップ、[新しいベースライン ](../user-guide/web-editor-baseline-v2.md)、レポートを操作します。 |
+| **Experience Manager Guides** | `https://mcp.adobeaemcloud.com/adobe/mcp/guides` | Experience Manager Guidesでトピックとマップ、[新しいベースライン &#x200B;](../user-guide/web-editor-baseline-v2.md)、レポートを操作します。 |
 
 お使いの環境の現在のツールリストを確認するには、アシスタントに次の質問を行います。
 
@@ -141,7 +141,7 @@ Model Context Protocol （MCP）を使用して、サポートされているAI 
 
 Claude Desktopはデスクトップ拡張機能（`.mcpb`）をサポートしています。 Experience Manager Guides MCP拡張機能は、MCP JSON設定を手動で編集する必要がないように、接続設定をパッケージ化します。
 
-1. [AEM Guides .mcpb zip ファイル ](./mcpbfile.zip)を展開し、`aem-guides-mcp.mcpb`拡張子ファイルを取得します。
+1. [AEM Guides .mcpb zip ファイル &#x200B;](./mcpbfile.zip)を展開し、`aem-guides-mcp.mcpb`拡張子ファイルを取得します。
 
 2. **Claude Desktop**&#x200B;を開き、**設定/拡張機能**&#x200B;に移動します。
 
