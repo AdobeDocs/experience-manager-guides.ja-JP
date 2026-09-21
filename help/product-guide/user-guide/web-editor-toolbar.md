@@ -7,26 +7,34 @@ exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
 TQID: https://experienceleague.adobe.com/KX-yf8J7QxTJ-vZq0onxJVPLqYFPMIka8CE6DWZgvbw
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41
+    internal-label: Map Editor
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 550ca219c5664b33e5a4a3db74ff3cade05e0c68
+    internal-label: Metadata
+source-git-commit: 2a8b90039694267a542d3eb6012a3b5d439eeba8
 workflow-type: tm+mt
-source-wordcount: 6454
+source-wordcount: '6603'
 ht-degree: 0%
-
 ---
-
 # エディターのツールバー
 
 >[!INFO]
@@ -269,7 +277,7 @@ Assets UIの[&#x200B; バージョン履歴](web-editor-use-label.md) パネル�
 
 古いエディターの「表示」メニューには、次の機能があります。
 
-- **変更履歴：**&#x200B;変更履歴モードを有効にすると、ドキュメントに加えられたすべての更新を追跡できます。変更履歴を有効にすると、すべての挿入と削除がドキュメントに取り込まれます。削除されたすべてのコンテンツは取り消し線を使用して強調表示され、すべての挿入は緑色のテキストで強調表示されます。さらに、トピックページの端にある改訂バーも表示されます。繰り返しますが、削除されたコンテンツには赤いバーが表示され、追加されたコンテンツには緑のバーが表示されます。同じ行に追加と削除がある場合は、緑と赤のバーの両方が表示されます。
+- **変更履歴：**&#x200B;変更履歴モードを有効にすると、ドキュメントに加えられたすべての更新を追跡できます。 変更履歴を有効にすると、すべての挿入と削除がドキュメントに取り込まれます。 削除されたすべてのコンテンツは取り消し線を使用して強調表示され、すべての挿入は緑色のテキストで強調表示されます。 さらに、トピックページの端にある改訂バーも表示されます。 繰り返しますが、削除されたコンテンツには赤いバーが表示され、追加されたコンテンツには緑のバーが表示されます。 同じ行に追加と削除がある場合は、緑と赤のバーの両方が表示されます。
 次のスクリーンショットは、削除および挿入されたコンテンツと改訂バーを強調表示しています。
   ![](images/track-changes-content.png){width="650"}
 
@@ -555,7 +563,8 @@ YouTubeまたはVimeoを選択すると、**マルチメディアを挿入** ダ
 
 >[!IMPORTANT]
 >
-> 標準のDITA動作では、外部リソースへの参照のみを目的としているため、scope=`external`属性を内部リンクに適用しないでください。 この属性を内部リンクに適用すると、ワークフローが中断される可能性があります。 Experience Manager Guidesで管理されているコンテンツの場合は、代わりにデフォルトのscope=`local`またはキーベースの参照を使用します。
+> - 標準のDITA動作では、外部リソースへの参照のみを目的としているため、scope=`external`属性を内部リンクに適用しないでください。 この属性を内部リンクに適用すると、ワークフローが中断される可能性があります。 Experience Manager Guidesで管理されているコンテンツの場合は、代わりにデフォルトのscope=`local`またはキーベースの参照を使用します。
+> - Web リンク参照タイプは、デフォルトで常にscope=`external`を挿入し、変更なしでURLをそのまま追加します。 この動作は、HTTP/SおよびFTP/Sを含む、サポートされているすべてのURL タイプで、相対パスと絶対パスの両方に一貫して適用されます。
 
 >[!BEGINTABS]
 

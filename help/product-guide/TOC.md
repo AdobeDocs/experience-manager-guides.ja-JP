@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: d3a1a627c00ccf276c78a0bc1337b71dd3951bc4
+source-git-commit: 79259c4991292c12990c42bdd819f121655d650b
 workflow-type: tm+mt
-source-wordcount: '2582'
+source-wordcount: '2610'
 ht-degree: 11%
 ---
 
@@ -140,6 +140,10 @@ ht-degree: 11%
         - [1月のリリースノート](./release-info/release-notes-2022-1-0.md)
     - オンプレミス/Managed Services {#on-prem-release-notes}
       - [[!DNL AEM Guides] リリース](./release-info/latest-release-info.md)
+      - 5.2.0 SP1 リリース {#520-sp1-release}
+        - [新機能](./release-info/whats-new-5-2-1.md)
+        - [修正された問題](./release-info/fixed-issues-5-2-0-sp1.md)
+        - [アップグレード手順](./release-info/upgrade-instructions-5-2-0-sp1.md)
       - 5.2.0 リリース {#520-release}
         - [新機能](./release-info/whats-new-5-2-0.md)
         - [修正された問題](./release-info/fixed-issues-5-2-0.md)
@@ -566,7 +570,10 @@ ht-degree: 11%
     - [オンプレミスの新しいベースラインの設定](./install-conf-guide/conf-new-baseline-on-prem.md)
     - [オンプレミスのピアリンクのスキップを設定する](./install-conf-guide/conf-skip-peer-links-on-prem.md)
     - {hide-from-toc}[出力生成用に新しいマップコレクションを設定](./install-conf-guide/conf-new-map-collection-on-prem.md)
-    - [Experience Manager Guides MCP Serverの使用](./install-conf-guide/conf-aem-guides-mcp.md)
+    - AEM Guides MCPとの統合 {#mcp}
+      - [AEM Guides MCP Serverの使用](./install-conf-guide/conf-aem-guides-mcp.md)
+      - [AEM Guides MCP サーバーの設定](./install-conf-guide/configure-aem-guides-mcp.md)
+      - [AEM Guides オンプレミスのMCP接続設定](./install-conf-guide/configure-aem-guides-mcp-on-prem.md)
   - 機能の拡張 {#aemg-customization}
     - [Cloud Serviceの検索と置換機能にカスタムインデックスをデプロイする](./install-conf-guide/custom-indexing-cs.md)
     - [オンプレミス の検索と置換機能の インデックスを再作成](./install-conf-guide/custom-indexing-on-prem.md)

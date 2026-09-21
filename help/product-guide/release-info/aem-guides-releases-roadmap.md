@@ -18,9 +18,9 @@ role_v2:
     internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 07589ad852842604e53ccd7cb5802ade6573a786
+source-git-commit: 79259c4991292c12990c42bdd819f121655d650b
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '919'
 ht-degree: 38%
 ---
 # [!DNL Experience Manager Guides] リリース情報 {#aem-guides-releases-roadmap}
@@ -29,7 +29,7 @@ ht-degree: 38%
 
 >[!NOTE]
 >
->以下の日付とこの記事で入手可能なロードマップ更新は情報提供のみを目的としており、いつでも変更される可能性があります。
+>以下の日付とこの記事で提供されるロードマップの更新情報は、情報提供のみを目的としており、いつでも変更される可能性があります。
 
 ## [!DNL Experience Manager Guides] as a [!DNL Cloud Service] {#aem-guides-roadmap-cs}
 
@@ -79,7 +79,6 @@ Experience Manager Guides as a Cloud Serviceのリリースは次のように計
 
 | リリース | イベント | スケジュール | 新機能 | アップグレード手順 | ステータス |
 |---|---|---|---|---|---|
-| Adobe Experience Manager Guides 5.2.0 | サービスパック 1 | 2026年9月21日（PT） | - | - | ターゲット |
 | Adobe Experience Manager Guides 5.2.0 | サービスパック 3 | 2026年11月17日（PT） | - | - | ターゲット |
 | Adobe Experience Manager Guides 5.3.0 | リリース | 2027年1月20日 | - | - | ターゲット |
 
@@ -88,6 +87,7 @@ Experience Manager Guides as a Cloud Serviceのリリースは次のように計
 
 | リリース | イベント | スケジュール | 新機能 | アップグレード手順 | ステータス |
 |---|---|---|---|---|---|
+| Adobe Experience Manager Guides 5.2.0 | サービスパック 1 | 2026年9月21日（PT） | [こちら](whats-new-5-2-1.md) | [こちら](upgrade-instructions-5-2-0-sp1.md) | リリース |
 | Adobe Experience Manager Guides 5.2.0 | リリース | 2026年5月29日（PT） | [こちら](whats-new-5-2-0.md) | [こちら](upgrade-instructions-5-2-0.md) | リリース |
 | Adobe Experience Manager Guides 5.1.0 | サービスパック 4 | 2026年4月1日（PT） | - | [こちら](upgrade-instructions-5-1-0-sp4.md) | リリース |
 | Adobe Experience Manager Guides 5.0.0 | サービスパック 4 | 2026年4月1日（PT） | - | [こちら](upgrade-instructions-5-0-0-sp4.md) | リリース |
