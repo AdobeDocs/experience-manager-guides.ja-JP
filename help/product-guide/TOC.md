@@ -437,7 +437,7 @@ ht-degree: 11%
     - パフォーマンス管理 {#performance-management}
       - [&#x200B; ファイルとフォルダーのページ区切りの読み込み](./user-guide/paginated-loading-assets.md)
 - ユーザーガイド（旧UI） {#user-guide-old-ui}
-  - [AEM Guidesの概要](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+  - [AEM Guidesの概要](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - インストールと設定 {#install-conf-guide}
   - [ダウンロード、インストール、アップグレード](./install-conf-guide/introduction.md)
   - Cloud Serviceのインストールプロセス {#deploy-conf-aemg-cs}
