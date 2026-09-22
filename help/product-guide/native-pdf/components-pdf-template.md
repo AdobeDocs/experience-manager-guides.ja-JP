@@ -95,7 +95,7 @@ PDF テンプレートには、ページレイアウト、スタイルシート�
    カスタマイズ用のページレイアウトエディターが開きます。
 1. 必要な変更を行ったら、*すべて保存* （または`Crl+S`）をクリックします。
 
-   ヘッダー、フッター、ページ番号、タイトルなどの個々のレイアウト要素の定義について詳しくは、[ ページレイアウトのデザイン ](design-page-layout.md)を参照してください。
+   ヘッダー、フッター、ページ番号、タイトルなどの個々のレイアウト要素の定義について詳しくは、[&#x200B; ページレイアウトのデザイン &#x200B;](design-page-layout.md)を参照してください。
 
 ## スタイルシートを使用したPDFのカスタマイズ {#stylesheet-customization}
 
@@ -219,13 +219,13 @@ DITA トピックに追加されたドラフトコメントは、デフォルト
 
 4. **プロパティ** パネルで、**display** プロパティの値を`none`から表示値（`block`、`inline-block`、`grid`など）に変更します。
 
-   ![ コンテンツ スタイルシートのdraft-comment プロパティの設定](./assets/draft-comment-setting.png)
+   ![&#x200B; コンテンツ スタイルシートのdraft-comment プロパティの設定](./assets/draft-comment-setting.png)
 
 5. スタイルシートを保存。
 
 >[!NOTE]
 >
->このスタイルは、スタイル設定されたコンテンツにドラフトコメントを表示するかどうかを一般的に制御します。 **ネイティブPDF**&#x200B;出力にドラフトコメントを具体的に含めるには、ネイティブPDF出力プリセットで「**ドラフトコメントを含める**」オプションも有効にする必要があります。 詳しくは、[ ネイティブ PDF出力プリセット ](../web-editor/native-pdf-web-editor.md)を参照してください。 両方の設定は、生成されたPDFでドラフトコメントがエディターに表示されるとおりに表示されるために、一緒に必要です。
+>このスタイルは、スタイル設定されたコンテンツにドラフトコメントを表示するかどうかを一般的に制御します。 **ネイティブPDF**&#x200B;出力にドラフトコメントを具体的に含めるには、ネイティブPDF出力プリセットで「**ドラフトコメントを含める**」オプションも有効にする必要があります。 詳しくは、[&#x200B; ネイティブ PDF出力プリセット &#x200B;](../web-editor/native-pdf-web-editor.md)を参照してください。 両方の設定は、生成されたPDFでドラフトコメントがエディターに表示されるとおりに表示されるために、一緒に必要です。
 
 ## PDFの詳細設定 {#advanced-pdf-settings}
 
@@ -333,7 +333,7 @@ DITA トピックに追加されたドラフトコメントは、デフォルト
 
 
 
-ページレイアウトについて詳しくは、[ ページレイアウトのデザイン ](design-page-layout.md)を参照してください。
+ページレイアウトについて詳しくは、[&#x200B; ページレイアウトのデザイン &#x200B;](design-page-layout.md)を参照してください。
 
 ### ページレイアウト順序 {#page-order}
 
@@ -497,11 +497,11 @@ AEM Guidesには、次のすぐに使用できる変数が用意されていま�
 段落セクションに`${lng:<variable name>}`を追加すると、出力の段落内の相互参照に、ローカライズされたテキストとページ番号が含まれます。\
 例えば、次のスクリーンショットは、相互参照「View on page 1」を英語で、「Einzelheiten finden Sie auf der Seite 1」をドイツ語で示しています。
 
-<img src="./assets/english-output-corss-reference.png" alt="段落の相互参照の英語出力" width ="800" border="2px">
+<img src="./assets/english-output-corss-reference.png" alt="段落の相互参照の英語出力&quot; width =&quot;800" border="2px">
 
 *英語で公開された段落内の相互参照。*
 
-<img src="./assets/german-output-corss-reference.png" alt="プラハでの相互参照のドイツ語出力" width ="800" border="2px">
+<img src="./assets/german-output-corss-reference.png" alt="プラハでの相互参照のドイツ語出力&quot; width =&quot;800" border="2px">
 
 
 *ドイツ語で公開された段落内の相互参照。*

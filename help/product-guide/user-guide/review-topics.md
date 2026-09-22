@@ -273,7 +273,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> レビュータスクに割り当てられたユーザーのリストを表示し、コメントでタグ付けするには、`/home/users and /home/groups` ノードで&#x200B;*読み取り* アクセス権が必要です。 詳しくは、[ ユーザー管理とセキュリティ ](../cs-install-guide/user-admin-sec.md#additional-notes-on-user-groups)を参照してください。<br> アクセスを確認した後もタグ付けが利用できない場合は、管理者がこの機能を有効にするために`user-admin` ライセンスを割り当てる必要がある場合があります。
+> レビュータスクに割り当てられたユーザーのリストを表示し、コメントでタグ付けするには、`/home/users and /home/groups` ノードで&#x200B;*読み取り* アクセス権が必要です。 詳しくは、[&#x200B; ユーザー管理とセキュリティ &#x200B;](../cs-install-guide/user-admin-sec.md#additional-notes-on-user-groups)を参照してください。<br> アクセスを確認した後もタグ付けが利用できない場合は、管理者がこの機能を有効にするために`user-admin` ライセンスを割り当てる必要がある場合があります。
 
 ![](images/tag-users-review-ui.png){width="350"}
 
@@ -289,7 +289,7 @@ ht-degree: 0%
 
 ![](images/tagged-users-in-review-ui.png)
 
-タグ付けされたオーディエンスには、電子メールとAEM通知の両方が配信され、迅速な情報を提供できます。 レビュー通知のトリガー方法について詳しくは、[ レビュー通知について](./review-understanding-review-notifications.md)を参照してください。
+タグ付けされたオーディエンスには、電子メールとAEM通知の両方が配信され、迅速な情報を提供できます。 レビュー通知のトリガー方法について詳しくは、[&#x200B; レビュー通知について](./review-understanding-review-notifications.md)を参照してください。
 
 ![](images/mentioned-in-tags-author.png){width="350"}
 
@@ -382,7 +382,7 @@ ht-degree: 0%
 
 コンディショナライズされたコンテンツのハイライトのみを追加または削除する目のアイコンとは異なり、条件パネルでトグルオフにすると、レビューUIからそのコンテンツが非表示になるため、コンテンツがドキュメントにまったく表示されません。 トグルをオンにすると、コンテンツが再度表示されます。
 
-プレビューモードには、[ コンディショナルパネルの操作](#work-with-conditions-panel) セクションで説明されているのと同じ切り替え状態が反映されます。
+プレビューモードには、[&#x200B; コンディショナルパネルの操作](#work-with-conditions-panel) セクションで説明されているのと同じ切り替え状態が反映されます。
 
 レビュー開始者がレビュータスクをどのように設定したかに応じて、次の切り替えを変更できる場合とできない場合があります。
 
@@ -441,4 +441,4 @@ ht-degree: 0%
 
 ![](images/version-history-dialog.png)
 
-**親トピック：**[ レビューの概要](review.md)
+**親トピック：**&#x200B;[&#x200B; レビューの概要](review.md)

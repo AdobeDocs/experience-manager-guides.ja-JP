@@ -34,11 +34,11 @@ ht-degree: 0%
 
 検索パネルには、次の場所からアクセスできます。
 
-- **エディターインターフェイス**: **エクスプローラーパネル**&#x200B;から&#x200B;**検索アイコン**&#x200B;を選択するか、**コンテンツ編集領域**&#x200B;の左下隅にある&#x200B;**検索アイコン**&#x200B;を使用します。 詳しくは、「[ エクスプローラーパネルからの検索](#search-from-the-explorer-panel)」を参照してください。
+- **エディターインターフェイス**: **エクスプローラーパネル**&#x200B;から&#x200B;**検索アイコン**&#x200B;を選択するか、**コンテンツ編集領域**&#x200B;の左下隅にある&#x200B;**検索アイコン**&#x200B;を使用します。 詳しくは、「[&#x200B; エクスプローラーパネルからの検索](#search-from-the-explorer-panel)」を参照してください。
 
   ![](images/search-icon-editor.png)
 
-- **ホームページ**: ホームページのリポジトリインターフェイスから移動する際に、**検索パネルで表示** オプションを使用する。 詳細ビューについては、[ リポジトリから検索](#search-from-the-repository-interface-on-the-home-page)してください。
+- **ホームページ**: ホームページのリポジトリインターフェイスから移動する際に、**検索パネルで表示** オプションを使用する。 詳細ビューについては、[&#x200B; リポジトリから検索](#search-from-the-repository-interface-on-the-home-page)してください。
 
   ![](images/search-panel-repo.png)
 
@@ -60,13 +60,13 @@ ht-degree: 0%
 
    ![](images/search-repo-dialog.png)
 
-2. 必要に応じて検索を実行し、フィルターを適用します。 検索とフィルターのオプションについて詳しくは、[検索とフィルターのエクスペリエンス ](./home-page-repository-view.md#search-and-filter-experience)を参照してください。
+2. 必要に応じて検索を実行し、フィルターを適用します。 検索とフィルターのオプションについて詳しくは、[検索とフィルターのエクスペリエンス &#x200B;](./home-page-repository-view.md#search-and-filter-experience)を参照してください。
 
 3. 検索が完了したら、**検索パネルに表示**&#x200B;を選択します。 その後、最近検索した内容がエディター下部の検索パネルに表示されます。
 
    >[!NOTE]
    >
-   > 2026.09.0 リリース以降、Experience Manager Guidesでは、ページ分割による読み込みにより閲覧体験が向上しました。 この機能はデフォルトで有効になっています。 無効にするには、カスタマーサクセス部門にお問い合わせください。 詳しくは、[ ファイルとフォルダーのページ分割による読み込み](./web-editor-other-features.md#paginated-loading-of-files-and-folders)を参照してください。
+   > 2026.09.0 リリース以降、Experience Manager Guidesでは、ページ分割による読み込みにより閲覧体験が向上しました。 この機能はデフォルトで有効になっています。 無効にするには、カスタマーサクセス部門にお問い合わせください。 詳しくは、[&#x200B; ファイルとフォルダーのページ分割による読み込み](./web-editor-other-features.md#paginated-loading-of-files-and-folders)を参照してください。
 
    ![](images/show-search-explorer.png)
 

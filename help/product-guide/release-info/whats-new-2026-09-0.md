@@ -11,15 +11,15 @@ ht-degree: 0%
 
 この記事では、Adobe Experience Manager Guides as a Cloud Serviceの2026.09.0 リリースで導入された新機能と強化機能について説明します。
 
-このリリースで修正された問題のリストについては、[2026.09.0 リリース ](fixed-issues-2026-09-0.md)で修正された問題を参照してください。
+このリリースで修正された問題のリストについては、[2026.09.0 リリース &#x200B;](fixed-issues-2026-09-0.md)で修正された問題を参照してください。
 
-2026.09.0 リリース ](../release-info/upgrade-instructions-2026-09-0.md)の[ アップグレード手順について説明します。
+2026.09.0 リリース [&#128279;](../release-info/upgrade-instructions-2026-09-0.md)の アップグレード手順について説明します。
 
 ## AI アシスタントのAIを活用したスマートタグ機能の紹介
 
 AI アシスタントを使用して、コンテンツにタグを提案したり追加したりできます。 新しいスマートタグ機能では、Adobe CX Enterprise Coworkerのスマートタグ機能を活用し、AI アシスタントに対して1つ以上のトピックのタグを提案するように依頼できます。 スキルがコンテンツをレビューし、タグのレコメンデーションを生成し、レビュー用に提示します。 確認すると、提案されたタグは、マップ内の関連トピックに適用されます。
 
-詳しくは、[ エージェンティックモードでのAI アシスタントの使用](../user-guide/ai-assistant-agentic.md)を参照してください。
+詳しくは、[&#x200B; エージェンティックモードでのAI アシスタントの使用](../user-guide/ai-assistant-agentic.md)を参照してください。
 
 ![](./assets/guides-ai-tags-review.png)
 
@@ -44,7 +44,7 @@ AI アシスタントを使用して、コンテンツにタグを提案した�
 
 マップに1つ以上の静的ベースラインがある場合、エディターの現在の作業コピーではなく、選択したベースラインに基づいてマップをプレビューできるようになりました。
 
-選択したベースラインに関連付けられているトピック、アセット、画像、参照のすべてのバージョンがプレビューに表示され、ベースラインの作成時にマップコンテンツが正確に表示されます。 詳細については、[ トピックのエディタービュー](../user-guide/web-editor-views.md#preview-content-using-baseline)を参照してください。
+選択したベースラインに関連付けられているトピック、アセット、画像、参照のすべてのバージョンがプレビューに表示され、ベースラインの作成時にマップコンテンツが正確に表示されます。 詳細については、[&#x200B; トピックのエディタービュー](../user-guide/web-editor-views.md#preview-content-using-baseline)を参照してください。
 
 ## 機能強化を見る
 
@@ -56,7 +56,7 @@ Experience Manager Guidesでは、レビュー担当者のトピックレベル�
 
 これをサポートするために、レビューUIのドキュメントビューのトピックは、**トピックを完了としてマーク** チェックボックス付きのアコーディオンに整理されます。 チェックボックスを使用してレビュー済みとしてマークしたトピックは、**トピック** パネルに表示されます。上部の&#x200B;**トピック レビュー** カウンターには、割り当てられたトピックに対する進行状況が表示されます。 これらを組み合わせることで、ブレーク後に長いレビュータスクに戻っても、カバーしたことや残っていることを明確に把握することができます。
 
-詳細については、[ トピックのレビュー](../user-guide/review-topics.md#mark-individual-topics-as-done-in-a-review-task)を参照してください。
+詳細については、[&#x200B; トピックのレビュー](../user-guide/review-topics.md#mark-individual-topics-as-done-in-a-review-task)を参照してください。
 
 
 ### コメントでタグ付けする際に役割を持つユーザーを特定する
@@ -69,7 +69,7 @@ Experience Manager Guidesでは、レビュー担当者のトピックレベル�
 
 レビュー用のコンテンツを選択する際に、レビュータスクの作成者または開始者として、すべてのトピックをフラットリストとして表示するのではなく、**コンテンツ** ページで、既存の階層内のマップ、サブマップ、トピックを表示できるようになりました。 階層表示を使用すると、コンテンツの構造を理解しやすくなり、レビュー用に個々のトピックまたはサブマップ全体を選択しやすくなります。
 
-詳細については、[ レビュー対象のトピックを選択する際にマップ階層を表示](../user-guide/review-send-topics-for-review.md#view-the-map-hierarchy-while-selecting-topics-for-review)するを参照してください。
+詳細については、[&#x200B; レビュー対象のトピックを選択する際にマップ階層を表示](../user-guide/review-send-topics-for-review.md#view-the-map-hierarchy-while-selecting-topics-for-review)するを参照してください。
 
 ![](assets/review-map-hierarchy.png)
 
@@ -79,7 +79,7 @@ Experience Manager Guidesでは、レビュー担当者のトピックレベル�
 
 PDFのネイティブ出力プリセットページに、新しい&#x200B;**マップ言語を使用** オプションが追加されました。 選択すると、出力テンプレート変数は、プリセットで明示的に選択された言語ではなく、ルートマップの`xml:lang`属性から言語を解決します。 これにより、翻訳されたマップを公開する際に、言語ごとに個別の出力プリセットを管理する必要がなくなります。 マップに`xml:lang`が定義されていない場合、出力はデフォルトで英語（en_US）になります。
 
-詳しくは、[ ネイティブ PDF プリセット設定](../web-editor/native-pdf-web-editor.md)および[出力テンプレートで言語変数を使用](../native-pdf/native-pdf-language-variables.md#use-language-variables-in-the-output-templates)を参照してください。
+詳しくは、[&#x200B; ネイティブ PDF プリセット設定](../web-editor/native-pdf-web-editor.md)および[出力テンプレートで言語変数を使用](../native-pdf/native-pdf-language-variables.md#use-language-variables-in-the-output-templates)を参照してください。
 
 ## 学習コンテンツの機能強化
 
@@ -87,7 +87,7 @@ PDFのネイティブ出力プリセットページに、新しい&#x200B;**マ�
 
 作成者は、学習コース内で使用される各H5P要素について、フルスクリーン表示を有効または無効にできるようになりました。 この設定を制御するには、**コンテンツプロパティ** パネルの&#x200B;**全画面表示を有効にする** トグルを使用します。 有効にすると、学習者はH5P コンテンツを全画面に展開できます。 無効にすると、コンテンツは標準ビュー内でインラインのままになります。 この設定は、プレビューモードと公開出力に一貫して適用されます。
 
-製品トレーニングと学習コンテンツの挿入メニュー](../learning-content/lc-other-insert-options.md)の[その他のオプションについて詳しく説明します。
+製品トレーニングと学習コンテンツの挿入メニュー[&#128279;](../learning-content/lc-other-insert-options.md)のその他のオプションについて詳しく説明します。
 
 ![](./assets/h5p-fullscreen.png)
 
@@ -101,9 +101,9 @@ Experience Manager Guidesでは、ページ分割によるファイルやフォ�
 
 ページ分割された読み込みは、ホームリポジトリテーブル、コレクション、エクスプローラー、検索およびテンプレートのパネル、パスを選択ダイアログで使用できます。
 
-詳細については、[ ファイルとフォルダーのページ分割による読み込み](../user-guide/paginated-loading-assets.md)を参照してください。
+詳細については、[&#x200B; ファイルとフォルダーのページ分割による読み込み](../user-guide/paginated-loading-assets.md)を参照してください。
 
-フォルダーナビゲーションパネル ](../user-guide/images/home-tree-pagination.png){width="650"}の![ ページ
+フォルダーナビゲーションパネル ![&#128279;](../user-guide/images/home-tree-pagination.png){width="650"}の ページ
 
 
 

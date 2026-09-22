@@ -63,29 +63,29 @@ ht-degree: 2%
 
 | [!DNL AEM Guides] リリース | リリースノート |
 |---|---|
-| **AEM Guides 2023.12.0** | [2023.12.0新機能](./whats-new-2023-12-0.md)<br><br>[2023.12.0 リリースノート ](./release-notes-2023-12-0.md) |
-| **AEM Guides 2023.11.0** | [2023.11.0新機能](./whats-new-2023-11-0.md)<br><br>[2023.11.0 リリースノート ](./release-notes-2023-11-0.md) |
-| **AEM Guides 2023.10.0** | [2023.10.0新機能](./whats-new-2023-10-0.md)<br><br>[2023.10.0 リリースノート ](./release-notes-2023-10-0.md) |
-| **AEM Guides 2023.09.0** | [2023.09.0新機能](./whats-new-2023-9-0.md)<br><br>[2023.09.0 リリースノート ](./release-notes-2023-9-0.md) |
-| **AEM Guides 2023.07.0** | [2023.07.0新機能](./whats-new-2023-7-0.md)<br><br>[2023.07.0 リリースノート ](./release-notes-2023-7-0.md) |
-| **AEM Guides 2023.06.0** | [2023.06.0新機能](./whats-new-2023-6-0.md)<br><br>[2023.06.0 リリースノート ](./release-notes-2023-6-0.md) |
-| **AEM Guides 2023.04.0** | [2023.04.0新機能](./whats-new-2023-4-0.md)<br><br>[2023.04.0 リリースノート ](./release-notes-2023-4-0.md) |
-| **AEM Guides 2023.03.0** | [2023.03.0新機能](./whats-new-2023-3-0.md)<br><br>[2023.03.0 リリースノート ](./release-notes-2023-3-0.md) |
-| **AEM Guides 2023.02.0** | [2023.02.0新機能](./whats-new-2023-2-0.md)<br><br>[2023.02.0 リリースノート ](./release-notes-2023-2-0.md) |
+| **AEM Guides 2023.12.0** | [2023.12.0新機能](./whats-new-2023-12-0.md)<br><br>[2023.12.0 リリースノート &#x200B;](./release-notes-2023-12-0.md) |
+| **AEM Guides 2023.11.0** | [2023.11.0新機能](./whats-new-2023-11-0.md)<br><br>[2023.11.0 リリースノート &#x200B;](./release-notes-2023-11-0.md) |
+| **AEM Guides 2023.10.0** | [2023.10.0新機能](./whats-new-2023-10-0.md)<br><br>[2023.10.0 リリースノート &#x200B;](./release-notes-2023-10-0.md) |
+| **AEM Guides 2023.09.0** | [2023.09.0新機能](./whats-new-2023-9-0.md)<br><br>[2023.09.0 リリースノート &#x200B;](./release-notes-2023-9-0.md) |
+| **AEM Guides 2023.07.0** | [2023.07.0新機能](./whats-new-2023-7-0.md)<br><br>[2023.07.0 リリースノート &#x200B;](./release-notes-2023-7-0.md) |
+| **AEM Guides 2023.06.0** | [2023.06.0新機能](./whats-new-2023-6-0.md)<br><br>[2023.06.0 リリースノート &#x200B;](./release-notes-2023-6-0.md) |
+| **AEM Guides 2023.04.0** | [2023.04.0新機能](./whats-new-2023-4-0.md)<br><br>[2023.04.0 リリースノート &#x200B;](./release-notes-2023-4-0.md) |
+| **AEM Guides 2023.03.0** | [2023.03.0新機能](./whats-new-2023-3-0.md)<br><br>[2023.03.0 リリースノート &#x200B;](./release-notes-2023-3-0.md) |
+| **AEM Guides 2023.02.0** | [2023.02.0新機能](./whats-new-2023-2-0.md)<br><br>[2023.02.0 リリースノート &#x200B;](./release-notes-2023-2-0.md) |
 
 ## 2022 リリース
 
 | [!DNL AEM Guides] リリース | リリースノート |
 |---|---|
-| **AEM Guides 2022.11.0** | [2022.11.0 リリースノート ](./release-notes-2022-11-0.md) |
-| **AEM Guides 2022.10.0** | [2022.10.0 リリースノート ](./release-notes-2022-10-0.md) |
-| **AEM Guides 2022.09.0** | [2022.09.0 リリースノート ](./release-notes-2022-9-0.md) |
-| **AEM Guides 2022.08.0** | [2022.08.0 リリースノート ](./release-notes-2022-8-0.md) |
-| **AEM Guides 2022.05.0** | [2022.05.0 リリースノート ](./release-notes-2022-5-0.md) |
-| **AEM Guides 2022.04.0** | [2022.04.0 リリースノート ](./release-notes-2022-4-0.md) |
-| **AEM Guides 2022.03.0** | [2022.03.0 リリースノート ](./release-notes-2022-3-0.md) |
-| **AEM Guides 2022.02.0** | [2022.02.0 リリースノート ](./release-notes-2022-2-0.md) |
-| **AEM Guides 2022.01.0** | [2022.01.0 リリースノート ](./release-notes-2022-1-0.md) |
+| **AEM Guides 2022.11.0** | [2022.11.0 リリースノート &#x200B;](./release-notes-2022-11-0.md) |
+| **AEM Guides 2022.10.0** | [2022.10.0 リリースノート &#x200B;](./release-notes-2022-10-0.md) |
+| **AEM Guides 2022.09.0** | [2022.09.0 リリースノート &#x200B;](./release-notes-2022-9-0.md) |
+| **AEM Guides 2022.08.0** | [2022.08.0 リリースノート &#x200B;](./release-notes-2022-8-0.md) |
+| **AEM Guides 2022.05.0** | [2022.05.0 リリースノート &#x200B;](./release-notes-2022-5-0.md) |
+| **AEM Guides 2022.04.0** | [2022.04.0 リリースノート &#x200B;](./release-notes-2022-4-0.md) |
+| **AEM Guides 2022.03.0** | [2022.03.0 リリースノート &#x200B;](./release-notes-2022-3-0.md) |
+| **AEM Guides 2022.02.0** | [2022.02.0 リリースノート &#x200B;](./release-notes-2022-2-0.md) |
+| **AEM Guides 2022.01.0** | [2022.01.0 リリースノート &#x200B;](./release-notes-2022-1-0.md) |
 
 
 
