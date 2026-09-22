@@ -25,7 +25,7 @@ Experience Manager Guidesは、単一のHTTP エンドポイントを通じてMC
 
 | MCP サーバー | エンドポイント | 説明 |
 |---|---|---|
-| **Experience Manager Guides** | `https://mcp.adobeaemcloud.com/adobe/mcp/guides` | Experience Manager Guidesでトピックとマップ、[新しいベースライン ](../user-guide/web-editor-baseline-v2.md)、レポートを操作します。 |
+| **Experience Manager Guides** | `https://mcp.adobeaemcloud.com/adobe/mcp/guides` | Experience Manager Guidesでトピックとマップ、[新しいベースライン &#x200B;](../user-guide/web-editor-baseline-v2.md)、レポートを操作します。 |
 
 お使いの環境の現在のツールリストを確認するには、アシスタントに次の質問を行います。
 
