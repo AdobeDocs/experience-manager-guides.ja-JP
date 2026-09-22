@@ -21,7 +21,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: e4019ae1e605bd26f7df676a4fab8c632fd8fa8e
+source-git-commit: 71ddd55d2a6848449d5810701b60e9f69a29112b
 workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 0%
@@ -77,7 +77,7 @@ Schematron ファイルを読み込んだ後、エディターで編集できま
 
    >[!NOTE]
    >
-   > 検証結果は、Schematron ファイルで定義されたロール属性に基づいて表示されます。 詳細については、[検証結果とサーバーリティレベルについて](#understanding-validation-results-and-serverity-levels)を参照してください。
+   > 検証結果は、Schematron ファイルで定義されたロール属性に基づいて表示されます。 詳細については、[検証結果と重大度レベルについて](#understanding-validation-results-and-severity-levels)を参照してください。
 
 1. エラーメッセージを選択して、開いたトピック/マップ内のエラーを含む要素を強調表示します。
 
@@ -89,7 +89,7 @@ Schematron ファイルを読み込んだ後、エディターで編集できま
 
 ![](images/schematron-validation-errors.png){width="350"}
 
-問題の重大度を判断するには、対応するSchematron ファイルで定義されたロール属性の&#x200B;_case-senstive_&#x200B;値が評価されます。
+問題の重大度を判断するには、対応するSchematron ファイルで定義されたロール属性の&#x200B;_大文字と小文字を区別する_&#x200B;値が評価されます。
 
 次のスニペットは、Schematron ルールで定義されたサポートされるロール属性値を示しています。
 

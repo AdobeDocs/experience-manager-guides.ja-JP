@@ -1,7 +1,7 @@
 ---
 title: リリースノート | Adobe Experience Manager Guides（2026.09.0 リリース）で修正された問題
 description: Adobe Experience Manager Guides as a Cloud Service 2026.09.0 リリースのバグ修正について説明します。
-source-git-commit: 2123962f8c168928c9b0a1ee1331e5cfd86db319
+source-git-commit: 71ddd55d2a6848449d5810701b60e9f69a29112b
 workflow-type: tm+mt
 source-wordcount: '1241'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 この記事では、Adobe Experience Manager Guides as a Cloud Serviceの2026.09.0 リリースの様々な領域で修正されたバグについて説明します。
 
-新機能と機能強化について詳しくは、[2026.09.0 リリース &#x200B;](./whats-new-2026-09-0.md)の新機能を参照してください。
+新機能と機能強化について詳しくは、[2026.09.0 リリース ](./whats-new-2026-09-0.md)の新機能を参照してください。
 
-2026.09.0 リリース [&#128279;](./upgrade-instructions-2026-09-0.md)の アップグレード手順について説明します。
+2026.09.0 リリース ](./upgrade-instructions-2026-09-0.md)の[ アップグレード手順について説明します。
 
 ## エディター2.0
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 ## 学習コンテンツ
 
-- HTMLまたはカスタムヘッダー付きの学習テンプレートを使用して新しい学習トピックを作成する場合、トピックタイトルはカスタムヘッダーに表示されません。 （GUIDES-52343）
+- HTMLまたはカスタムヘッダー付きの学習テンプレートを使用して新しい学習トピックを作成した場合、トピックタイトルはカスタムヘッダーに表示されません。 （GUIDES-52343）
 - コースクイズの計算された正確性の割合は、期待値とわずかに異なります。 （GUIDES-52346）
 - コースの場合、クイズを試みる際の点数は、予想される計算スコアと若干異なります。 （GUIDES-52345）
 

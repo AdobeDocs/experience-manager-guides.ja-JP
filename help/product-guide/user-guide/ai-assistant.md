@@ -24,7 +24,7 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
+source-git-commit: 71ddd55d2a6848449d5810701b60e9f69a29112b
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 0%
@@ -54,9 +54,9 @@ AI アシスタントは、**Agentic**&#x200B;と&#x200B;**Standard**&#x200B;の
 
 エージェント型モードのAI アシスタントなら、対話型のプロンプトウィンドウを通じて、コンテンツへのタグ付けをすばやく簡単に実行できます。 AI アシスタントは、Adobe CX Enterprise Coworkerのエージェント型スマートタグ付けスキルを使用し、コンテンツのタグ付けを求めると、最適なタグを提案します。 提案されたタグを確認し、マップ内の複数のトピックを含む1つまたは複数のトピックに適用することを選択して、コントロールを維持できます。
 
-詳しくは、[&#x200B; エージェンティック AI アシスタントの基本を学ぶ](./ai-assistant-agentic.md)を参照してください。
+詳しくは、[ エージェンティック AI アシスタントの基本を学ぶ](./ai-assistant-agentic.md)を参照してください。
 
-![ai アシスタントのスマートタグ &#x200B;](./images/suggested-prompts.png)
+![ai アシスタントのスマートタグ ](./images/suggested-prompts.png)
 
 ## 標準モード
 
@@ -64,18 +64,18 @@ AI アシスタントは、**Agentic**&#x200B;と&#x200B;**Standard**&#x200B;の
 
 AI アシスタントが&#x200B;**標準** モードで設定されている場合、AI アシスタントの&#x200B;**オーサリング**&#x200B;機能により、オーサリングプロセスがよりスマートかつ迅速になります。 選択したコンテンツに基づいて、コンテンツの再利用に向けたインテリジェントな提案の生成、コンテンツの翻訳、コンテンツ品質の向上など、さまざまな機能を提供します。 この機能は、オーサリングエクスペリエンス全体と作成者の生産性を向上させます。
 
-詳しくは、[&#x200B; オーサリング &#x200B;](./ai-assistant-right-panel.md)を参照してください。
+詳しくは、[ オーサリング ](./ai-assistant-right-panel.md)を参照してください。
 
-![ai アシスタント &#x200B;](./images/ai-assistant-panel.png)
+![ai アシスタント ](./images/ai-assistant-panel.png)
 
 ### ヘルプ
 
 AI アシスタントが&#x200B;**標準** モードで設定されている場合、**ヘルプ**&#x200B;機能は、Experience Manager Guidesの理解、問題のトラブルシューティング、Adobe Experience Manager Guides ドキュメントの情報の検索を支援する、直感的なチャットベースのエクスペリエンスを提供します。 ユーザーガイドや参照ドキュメントを検索する代わりに、**ヘルプ**&#x200B;機能を使用して、クエリに関連する回答をすばやく見つけることができます。 これにより、時間を節約し、コンテンツ制作に専念できるようになり、生産性と効率性が向上します。
 
-詳細については、[&#x200B; ヘルプ &#x200B;](./ai-based-smart-help.md)を参照してください。
+詳細については、[ ヘルプ ](./ai-based-smart-help.md)を参照してください。
 
 
-![&#x200B; スマートヘルプパネル &#x200B;](images/smart-help-panel.png)
+![ スマートヘルプパネル ](images/smart-help-panel.png)
 
 ## 標準モードでAI アシスタントを使い始める
 
@@ -86,9 +86,9 @@ AI アシスタントを起動するには、次の手順を実行します。
 1. Experience Manager Guidesにログインします。
 1. ホームページで、上部から「**AI Assistant**」を選択します。 管理者が目的のモードでAI アシスタント機能を有効にしていることを確認します。
 
-AI アシスタントに、主要な機能、ユーザーガイドラインのリンク、および「**開始**」ボタンが表示されます。
+AI アシスタントに、主な機能、ユーザーガイドラインのリンク、および&#x200B;**開始** ボタンが表示されます。
 
-![&#x200B; スマートヘルプパネル &#x200B;](images/get-started-ai.png)
+![ スマートヘルプパネル ](images/get-started-ai.png)
 
 ユーザーガイドラインを注意深く読み、**開始**&#x200B;を選択してAI アシスタントを起動します。
 
