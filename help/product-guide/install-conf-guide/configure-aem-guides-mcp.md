@@ -5,9 +5,9 @@ meta-feature: Authoring
 meta-product: Experience Manager, Experience Manager Guides
 meta-role: User
 meta-type: Documentation
-source-git-commit: e234425f1e277990de25057971f3e2453c93360f
+source-git-commit: 6841c373b75770e8691a2cac4d56aeb368b09480
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: '1557'
 ht-degree: 1%
 ---
 
@@ -25,7 +25,7 @@ Experience Manager Guidesは、単一のHTTP エンドポイントを通じてMC
 
 | MCP サーバー | エンドポイント | 説明 |
 |---|---|---|
-| **Experience Manager Guides** | `https://mcp.adobeaemcloud.com/adobe/mcp/guides` | Experience Manager Guidesでトピックとマップ、[新しいベースライン &#x200B;](../user-guide/web-editor-baseline-v2.md)、レポートを操作します。 |
+| **Experience Manager Guides** | `https://mcp.adobeaemcloud.com/adobe/mcp/guides` | Experience Manager Guidesでトピックとマップ、[新しいベースライン ](../user-guide/web-editor-baseline-v2.md)、レポートを操作します。 |
 
 お使いの環境の現在のツールリストを確認するには、アシスタントに次の質問を行います。
 
@@ -48,7 +48,7 @@ Experience Manager Guides MCP サーバーへのアクセスは、組織ごと�
 
 ### 人道クロード
 
-公式のチュートリアルに従います。[AEM MCP用にClaudeを設定](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/mcp-support/chat-applications/setup-claude)。 カスタムコネクタを追加する場合は、Experience Manager Guides エンドポイントを使用します。
+公式のチュートリアルに従います。[AEM MCP用にClaudeを設定](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/mcp-support/chat-applications/setup-claude)。 カスタムコネクタを追加する場合は、Experience Manager Guides エンドポイントを使用します。
 
 ```
 https://mcp.adobeaemcloud.com/adobe/mcp/guides
@@ -141,7 +141,7 @@ Model Context Protocol （MCP）を使用して、サポートされているAI 
 
 Claude Desktopはデスクトップ拡張機能（`.mcpb`）をサポートしています。 Experience Manager Guides MCP拡張機能は、MCP JSON設定を手動で編集する必要がないように、接続設定をパッケージ化します。
 
-1. [AEM Guides .mcpb zip ファイル &#x200B;](./mcpbfile.zip)を展開し、`aem-guides-mcp.mcpb`拡張子ファイルを取得します。
+1. [`aem-guides-mcp.mcpb`](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/aemdox/other-packages/guides-mcp/aem-guides-mcp.zip)拡張機能ファイルを取得します。
 
 2. **Claude Desktop**&#x200B;を開き、**設定/拡張機能**&#x200B;に移動します。
 
