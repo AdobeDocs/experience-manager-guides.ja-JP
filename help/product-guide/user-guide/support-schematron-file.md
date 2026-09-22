@@ -7,21 +7,25 @@ role: User
 TQID: https://experienceleague.adobe.com/8heDTU9viOxhsg-Epvu6OZMrRyHoWRJ-584O6u9lut8
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: de26a643364cab57b415d8eff9e863ea1b4bfe62
+    internal-label: User
+source-git-commit: e4019ae1e605bd26f7df676a4fab8c632fd8fa8e
 workflow-type: tm+mt
-source-wordcount: 984
+source-wordcount: '1098'
 ht-degree: 0%
-
 ---
-
 # Schematron ファイルのサポート
 
 「Schematron」とは、XML ファイルのテストを定義するために使用されるルールベースの検証言語を指します。 エディターはSchematron ファイルをサポートしています。 スキーマトロンファイルを読み込み、エディターで編集することもできます。 Schematron ファイルを使用すると、特定のルールを定義し、DITA トピックまたはマップに対して検証できます。
@@ -79,7 +83,7 @@ Schematron ファイルを読み込んだ後、エディターで編集できま
 
 エディターのSchematron サポートは、一連のルールに照らし合わせてファイルを検証し、トピック全体で一貫性と正確性を維持するのに役立ちます。
 
-## 検証結果とサーバーリティレベルについて
+## 検証結果と重大度レベルについて
 
 検証結果は、Schematron ファイルで定義されたロール属性に基づいて表示されます。 問題は`Fatal`、`Error`、`Warn`または`Info`に分類され、検証パネルに各カテゴリの表示数が表示されます。
 
@@ -191,3 +195,21 @@ You have <sch:value-of select="$words"/> letters. This should be greater than <s
 
 </sch:pattern> 
 ```
+
+## テキストノードコンテキストを使用したルールの定義
+
+テキストノードのコンテキスト（例：`context="//text()"`）を使用してSchematron ルールを定義できます。これにより、ルールは、そのテキストを含む可能性のあるすべてのDITA要素を列挙する必要はなく、テキストノードに対して直接評価されます。
+
+例えば、次のルールでは、トピックテキスト内の任意の場所に引用符を付けます。
+
+```XML
+<sch:pattern id="quotation-marks-straight-v2">
+  <sch:rule context="//text()">
+    <sch:report role="info" test="contains(., '&quot;')">Please use typographic quotes instead of straight quotes.</sch:report>
+  </sch:rule>
+</sch:pattern>
+```
+
+このルールが一致すると、検証結果は、囲む要素だけでなく、それをトリガーした正確なテキストノードを指します。
+
+明示的な要素コンテキスト（例：`context="//p"`）を使用するルールは、以前と同様に機能し続けます。一致とエラーの場所の精度に応じて、どちらのアプローチも使用できます。

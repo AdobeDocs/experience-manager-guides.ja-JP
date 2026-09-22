@@ -5,24 +5,34 @@ exl-id: 23c5285e-0d4f-484a-a062-fe1ba1608b8d
 TQID: https://experienceleague.adobe.com/M46mebqRPlx-9qmpAG3rB3xwREgEbW9yx-VKLyuNFyg
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: ac5ecfc1-cc78-4ecc-a90a-0362685062ce
+    internal-label: AI Tools
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: bf7fca06-df97-4229-884f-76afcfade5ad
+    internal-label: AI Assistant
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: ae9ac69745555aa3683e0a6a648f6519377dd6d7
 workflow-type: tm+mt
-source-wordcount: 690
+source-wordcount: '700'
 ht-degree: 0%
-
 ---
-
 # AIを活用したスマートな提案によりコンテンツを作成
+
+>[!NOTE]
+>
+>この機能は、標準モードのAI アシスタントで利用できます。
 
 Adobe Experience Manager Guidesには、一貫性のある正確なコンテンツを作成するのに役立つスマートな提案が用意されています。
 
@@ -31,30 +41,30 @@ Adobe Experience Manager Guidesには、一貫性のある正確なコンテン�
 これにより、ドキュメントリポジトリの既存のコンテンツを再利用し、一貫性のあるコンテンツを作成できます。 例えば、**Adobe**&#x200B;に関する情報と&#x200B;**Adobe Firefly**&#x200B;に関する段落を含む文書を作成するとします。 その場合、同じ段落を含む&#x200B;**Adobe Photoshop**&#x200B;のように、別のトピックからコンテンツ参照をすばやく表示して追加できます。
 >[!NOTE]
 >
-> [&#x200B; グローバルまたはフォルダーレベルのプロファイル &#x200B;](../cs-install-guide/conf-folder-level.md#conf-ai-smart-suggestions)で、管理者は、スマート提案のインデックスを作成するファイルまたはフォルダー、提案を表示するために入力する必要がある最小文字数、およびリストで表示できる提案の最大数を定義する必要があります。
+> [ グローバルまたはフォルダーレベルのプロファイル ](../cs-install-guide/conf-folder-level.md#conf-ai-smart-suggestions)で、管理者は、スマート提案のインデックスを作成するファイルまたはフォルダー、提案を表示するために入力する必要がある最小文字数、およびリストで表示できる提案の最大数を定義する必要があります。
 
 次の手順を実行して、トピックに適切なコンテンツ参照を追加するためのスマート提案を表示します。
 
 
 1. トピック内のコンテンツを選択して、関連する提案を表示します。 コンテンツの文字長が、コンテンツの候補を表示するために管理者がフォルダープロファイルで設定した文字長を超えていることを確認します。
-1. AI アシスタントの&#x200B;**オーサリングパネル**&#x200B;から、**再利用可能なコンテンツの提案**&#x200B;を![AIが再利用可能なコンテンツの提案アイコン &#x200B;](./images/ai-suggest-reusable-content-icon.svg)を選択します。
+1. AI アシスタントの&#x200B;**オーサリングパネル**&#x200B;から、**再利用可能なコンテンツの提案**&#x200B;を![AIが再利用可能なコンテンツの提案アイコン ](./images/ai-suggest-reusable-content-icon.svg)を選択します。
 
 1. タグを選択して、現在のタグのオーサリング候補を表示します。  インデックス付きファイルからコンテンツ参照を表示および追加するための提案は、現在のタグ内のコンテンツに基づいて表示されます。 複数のタグを選択することもできます。
 
 
-1. すべてのタグを選択して、ドキュメント全体に含まれるコンテンツに基づいた提案を表示します。  **再利用可能なコンテンツを提案** ![aiが再利用可能なコンテンツを提案アイコン &#x200B;](./images/ai-suggest-reusable-content-icon.svg)が、適切な一致が見つかったコンテンツの横に表示されます。
+1. すべてのタグを選択して、ドキュメント全体に含まれるコンテンツに基づいた提案を表示します。  **再利用可能なコンテンツを提案** ![aiが再利用可能なコンテンツを提案アイコン ](./images/ai-suggest-reusable-content-icon.svg)が、適切な一致が見つかったコンテンツの横に表示されます。
 
 
 
    >[!NOTE]
    >
-   > 現在のビューポート（画面に表示されるコンテンツ）の候補のみを表示できます。 ドキュメント内の他のコンテンツの提案を表示するには、上または下にスクロールしてビューポートに表示し、**再利用可能なコンテンツを提案** ![aiが再利用可能なコンテンツアイコン &#x200B;](./images/ai-suggest-reusable-content-icon.svg)を提案を選択します。
+   > 現在のビューポート（画面に表示されるコンテンツ）の候補のみを表示できます。 ドキュメント内の他のコンテンツの提案を表示するには、上または下にスクロールしてビューポートに表示し、**再利用可能なコンテンツを提案** ![aiが再利用可能なコンテンツアイコン ](./images/ai-suggest-reusable-content-icon.svg)を提案を選択します。
 
 
 1. スマート提案は、提案パネルで表示できます。  Experience Manager Guidesは、コンテキストが似ているか、同じ意味を持つ提案コンテンツを提供します。 例えば、「リリースバージョン 2023.03.12」のように、正確なバージョン番号を含むトピックを検索できます。 また、「Adobeはカリフォルニア州サンノゼに本社を置いています」と検索し、「サンノゼにはAdobeのような多くのソフトウェア企業の四半期があります」と同様のコンテンツを検索することもできます。
-1. **コンテンツ情報** ![&#x200B; コンテンツ情報](images/smart-suggestions-content-info-icon.svg)を選択して、詳細を表示します。
+1. **コンテンツ情報** ![ コンテンツ情報](images/smart-suggestions-content-info-icon.svg)を選択して、詳細を表示します。
 
-   ![&#x200B; コンテンツ情報パネル &#x200B;](images/smart-suggestions-content-information.png){width="300"}
+   ![ コンテンツ情報パネル ](images/smart-suggestions-content-information.png){width="300"}
 
    *コンテンツ参照に関する詳細情報を表示します。*
 
@@ -62,7 +72,7 @@ Adobe Experience Manager Guidesには、一貫性のある正確なコンテン�
    1. コンテンツ参照を含むファイルのパス。
    1. コンテンツが参照される参照のタイプ。
    1. トピックが参照されるDITA ファイルの名前は、ハイパーリンクとして表示されます。
-1. 現在のコンテンツと提案されたコンテンツを比較するには、**プレビュー** ![&#x200B; プレビューアイコン &#x200B;](./images/expand-icon.svg)を選択します。 これにより、相違点を比較し、提案されたコンテンツのコンテンツ参照を追加して、現在のコンテンツを維持または一貫性を保つかどうかを判断できます。
+1. 現在のコンテンツと提案されたコンテンツを比較するには、**プレビュー** ![ プレビューアイコン ](./images/expand-icon.svg)を選択します。 これにより、相違点を比較し、提案されたコンテンツのコンテンツ参照を追加して、現在のコンテンツを維持または一貫性を保つかどうかを判断できます。
 
    ![再利用可能なコンテンツのプレビューを提案](images/ai-assistant-suggest-reusable-content.png)
 

@@ -7,21 +7,25 @@ role: User
 TQID: https://experienceleague.adobe.com/Ln0JE2F8klsmIZJqtpy3Idi3VHdh1U900sfMrD0xpEU
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 67bbbc9afc5278722d7d60bf5574feb44a9ed69c
+    internal-label: User
+source-git-commit: 44b50108aa453052c1c9b429eaeb254cad746166
 workflow-type: tm+mt
-source-wordcount: 1409
+source-wordcount: '1497'
 ht-degree: 0%
-
 ---
-
 # エディターでのトピックの編集 {#id2056B040VUI}
 
 >[!INFO]
@@ -42,9 +46,9 @@ ht-degree: 0%
 
 1. さらに、クイック挿入メニューを使用して、カーソル位置に許可された要素を簡単に挿入できます。 Windowsの場合は&#x200B;**Control + /**、Macの場合は&#x200B;**Command + /**&#x200B;を選択して、エレメントにアクセスします。
 
-   ![&#x200B; クイック挿入メニュー](./images/quick-insert-menu-in-editor.png){width="650"}
+   ![ クイック挿入メニュー](./images/quick-insert-menu-in-editor.png){width="650"}
 
-   クイック挿入メニューを使用して新しいエレメントを検索するか、お気に入りからエレメントを選択し、現在のカーソル位置に挿入します。 お気に入りには、最も頻繁に使用される要素が含まれ、現在のカーソルの場所に有効な要素のみが表示されます。 この機能を有効または無効にし、[&#x200B; エディター設定](./config-editor-settings.md)で利用できるクイック挿入メニューを使用して、挿入するお気に入りの要素を設定できます。
+   クイック挿入メニューを使用して新しいエレメントを検索するか、お気に入りからエレメントを選択し、現在のカーソル位置に挿入します。 お気に入りには、最も頻繁に使用される要素が含まれ、現在のカーソルの場所に有効な要素のみが表示されます。 この機能を有効または無効にし、[ エディター設定](./config-editor-settings.md)で利用できるクイック挿入メニューを使用して、挿入するお気に入りの要素を設定できます。
 
 
 >[!TAB 古いエディター]
@@ -79,7 +83,7 @@ Experience Manager Guidesでは、複数の要素からコンテンツを選択�
 
 コンテキストツールバーを使用して、選択したコンテンツを太字、斜体、または下線として書式設定できます。 コンテンツを選択し、表示されるメニューで適切な書式設定アイコンをクリックします。 選択したコンテンツを太字、斜体、または下線にします。 有効なオープンタグのコンテンツが結合され、1つの要素の下に表示されます。
 
-![書式設定オプション &#x200B;](./images/formatting-options.png){width="650"}
+![書式設定オプション ](./images/formatting-options.png){width="650"}
 
 >[!TAB 古いエディター]
 
@@ -91,16 +95,16 @@ Experience Manager Guidesでは、複数の要素からコンテンツを選択�
 
 - コンテンツを有効な要素で囲む：次の手順を実行して、コンテンツを有効な要素でラップします。
 
-   - エレメント内のコンテンツを選択します。
-   - 上部のツールバーから![add](images/Add_icon.svg) アイコンを選択して、**要素を挿入** ダイアログボックスを表示します。 ダイアログボックスには、選択したコンテンツの有効な要素が一覧表示されます。
+  - エレメント内のコンテンツを選択します。
+  - 上部のツールバーから![add](images/Add_icon.svg) アイコンを選択して、**要素を挿入** ダイアログボックスを表示します。 ダイアログボックスには、選択したコンテンツの有効な要素が一覧表示されます。
 
-     >[!NOTE]
-     >
-     > 選択したコンテンツのコンテキストメニューを選択して、エレメントを挿入ダイアログボックスを表示することもできます。
+    >[!NOTE]
+    >
+    > 選択したコンテンツのコンテキストメニューを選択して、エレメントを挿入ダイアログボックスを表示することもできます。
 
-   - ダイアログボックスからエレメントを選択します。 選択したコンテンツはその要素の下にラップされます。 例えば、段落内のコンテンツを選択し、**エレメントを挿入** ダイアログボックスから`<note>` エレメントを選択すると、選択したコンテンツがメモの下に表示されます。
+  - ダイアログボックスからエレメントを選択します。 選択したコンテンツはその要素の下にラップされます。 例えば、段落内のコンテンツを選択し、**エレメントを挿入** ダイアログボックスから`<note>` エレメントを選択すると、選択したコンテンツがメモの下に表示されます。
 
-     ![&#x200B; エレメントを挿入ダイアログボックス &#x200B;](./images/insert-element-editor.png) {width="300"}
+    ![ エレメントを挿入ダイアログボックス ](./images/insert-element-editor.png) {width="300"}
 
 ## ファイルの編集中にブラウザーを更新する
 
@@ -136,17 +140,17 @@ Experience Manager Guidesは、ファイルの最後に保存された\（workin
 
 >[!NOTE]
 >
-> [&#x200B; ファイルプロパティ &#x200B;](./web-editor-right-panel.md#file-properties)で使用可能なメタデータフィールドへの変更、またはバックエンドで適用されたメタデータフィールドへの変更は、ドキュメントバージョンのアスタリスク `(*)`もトリガーします。  システム生成のメタデータ更新がこのインジケーターに影響を与えるのを防ぐために、管理者はメタデータプロパティの無視リストを設定できます。 メタデータプロパティの設定方法について詳しくは、[&#x200B; メタデータプロパティの無視リストの設定](../install-conf-guide/conf-metadata-prop.md)を参照してください。
+> [ ファイルプロパティ ](./web-editor-right-panel.md#file-properties)で使用可能なメタデータフィールドへの変更、またはバックエンドで適用されたメタデータフィールドへの変更は、ドキュメントバージョンのアスタリスク `(*)`もトリガーします。  システム生成のメタデータ更新がこのインジケーターに影響を与えるのを防ぐために、管理者はメタデータプロパティの無視リストを設定できます。 メタデータプロパティの設定方法について詳しくは、[ メタデータプロパティの無視リストの設定](../install-conf-guide/conf-metadata-prop.md)を参照してください。
 
 >[!BEGINTABS]
 
 >[!TAB 新しいエディター]
 
-![&#x200B; バージョン更新インジケーター](images/version-update-indicator-editor-2-0.png){width="650"}
+![ バージョン更新インジケーター](images/version-update-indicator-editor-2-0.png){width="650"}
 
 >[!TAB 古いエディター]
 
-![&#x200B; バージョン更新インジケーター](images/version-update-indicator.png){width="650"}
+![ バージョン更新インジケーター](images/version-update-indicator.png){width="650"}
 
 
 >[!ENDTABS]
@@ -181,6 +185,14 @@ You can access the **Layout** view for read-only DITA maps. This view lets you s
 
  -->
 
+## 同時編集中にコンテンツが上書きされるのを防止します
+
+>[!NOTE]
+>
+> この機能のConfigMgrからファイル **設定をロックせずに**&#x200B;編集を無効にします。
+
+2人の作成者が同じDITA トピックで同時に作業する場合、古いコピーの上で行われた編集によって、別の作成者の変更が誤って上書きされる可能性があります。 これを防ぐには、トピックで&#x200B;**ロック**&#x200B;を選択すると、エディターが自動的に更新され、編集を開始する前に最新のコンテンツがサーバーから読み込まれます。これにより、変更は常に最新バージョンに基づいて行われ、古いコピーは元に戻されません。
+
 ## エクスプローラーで開いているファイルを見つける
 
 エディターでファイルを開くと、Experience Manager Guidesには、エクスプローラーでファイルを検索する機能が用意されています。 例えば、編集中に現在のトピックが検索されます。
@@ -191,4 +203,4 @@ You can access the **Layout** view for read-only DITA maps. This view lets you s
 >
 >2025.11.0 リリースから、設定&#x200B;**常にリポジトリ内のファイルを検索**&#x200B;は、**常にエクスプローラー内のファイルを検索**&#x200B;という名前に変更されました。 オンプレミス設定の場合は、Experience Manager Guidesの5.1 リリースまで、「常にリポジトリ内のファイルを探す」として引き続き使用できます。
 
-**親トピック：**&#x200B;[&#x200B;編集者との共同作業](web-editor.md)
+**親トピック：**[&#x200B;編集者との共同作業](web-editor.md)

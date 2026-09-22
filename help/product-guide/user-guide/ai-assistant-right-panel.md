@@ -5,21 +5,28 @@ exl-id: 47d37323-20bf-4444-a2c9-41c44b2c8daf
 TQID: https://experienceleague.adobe.com/R61ig9pzRNSHnZrlnZRRPMwNXjJhvcKoJ5SCUQb3nzI
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: ae9ac69745555aa3683e0a6a648f6519377dd6d7
 workflow-type: tm+mt
-source-wordcount: 1059
+source-wordcount: '1070'
 ht-degree: 0%
-
 ---
-
 # AI アシスタントを使用してスマートにドキュメントを作成（Beta）
+
+>[!NOTE]
+>
+>この機能は、標準モードのAI アシスタントで利用できます。
 
 Adobe Experience Manager Guidesには、オーサリングをよりスマートかつ迅速におこなうためのAI アシスタントツールが用意されています。 このツールを使用して、既存のコンテンツリポジトリからコンテンツを再利用するためのスマート提案を表示します。 テキストプロンプト機能を使用してプロンプトを表示し、必要に応じてコンテンツを変更します。 AI アシスタントを使用して、段落をリストにスマートに変換します。 選択したコンテンツに基づいて、現在のトピックの簡単な説明を作成できます。 また、この機能は、選択したコンテンツを簡単に改善および翻訳するのにも役立ちます。
 
@@ -29,12 +36,12 @@ Adobe Experience Manager Guidesには、オーサリングをよりスマート�
 
 トピック内のテキストを選択したら、AI アシスタントのアクションのいずれかを実行できます。
 
-![ai アシスタント &#x200B;](./images/ai-assistant-panel.png){width="300"}
+![ai アシスタント ](./images/ai-assistant-panel.png){width="300"}
 
 ## 再利用可能なコンテンツを提案
 
 
-**再利用可能なコンテンツを提案** ![aiが再利用可能なコンテンツアイコン &#x200B;](./images/ai-suggest-reusable-content-icon.svg)機能を提案して、一貫した正確なコンテンツのオーサリングを行います。 コンテンツを選択できます。Experience Manager Guidesには、リポジトリ内の既存のコンテンツを再利用する方法に関する推奨事項が表示されます。
+**再利用可能なコンテンツを提案** ![aiが再利用可能なコンテンツアイコン ](./images/ai-suggest-reusable-content-icon.svg)機能を提案して、一貫した正確なコンテンツのオーサリングを行います。 コンテンツを選択できます。Experience Manager Guidesには、リポジトリ内の既存のコンテンツを再利用する方法に関する推奨事項が表示されます。
 [AIを活用したスマート提案を使用してコンテンツを作成する方法について詳しくは、](authoring-ai-based-smart-suggestions.md)を参照してください。
 
 
@@ -45,7 +52,7 @@ Adobe Experience Manager Guidesには、オーサリングをよりスマート�
 テキストプロンプトを使用してコンテンツを変更できます。 例えば、現在のトピックのコンテンツを選択し、プロンプト *テキストをより簡潔にする*&#x200B;を使用できます。 同様に、テキストプロンプトを使用して、選択したコンテンツで使用されるタグに属性を追加できます。
 
 1. テキストプロンプトを使用するテキストを選択します。
-1. **オーサリング** パネルから&#x200B;**テキストプロンプトを使用** ![AI テキストプロンプトアイコン &#x200B;](./images/ai-use-text-prompt.svg)を選択します。
+1. **オーサリング** パネルから&#x200B;**テキストプロンプトを使用** ![AI テキストプロンプトアイコン ](./images/ai-use-text-prompt.svg)を選択します。
 1. 次のいずれかの方法でプロンプトを入力します。
 
    - プロンプト候補からプロンプトを選択します。
@@ -58,9 +65,9 @@ Adobe Experience Manager Guidesには、オーサリングをよりスマート�
    - テキストボックスにプロンプトを入力します。
 
 
-1. プロンプトに基づいた別の応答または出力については、**再生成** ![再生成アイコン &#x200B;](./images/refresh-icon.svg)を選択します。
+1. プロンプトに基づいた別の応答または出力については、**再生成** ![再生成アイコン ](./images/refresh-icon.svg)を選択します。
 
-1. （オプション）「**展開** ![展開アイコン &#x200B;](./images/expand-icon.svg)」を選択して、**テキストプロンプトを使用** エディターを開きます。 現在のコンテンツと生成されたコンテンツが表示されます。 ソースレイアウトのコンテンツを編集し、プレビューを確認できます。
+1. （オプション）「**展開** ![展開アイコン ](./images/expand-icon.svg)」を選択して、**テキストプロンプトを使用** エディターを開きます。 現在のコンテンツと生成されたコンテンツが表示されます。 ソースレイアウトのコンテンツを編集し、プレビューを確認できます。
 
    ![ai アシスタント テキスト プロンプト エディター](./images/text-prompt.png)
 
@@ -110,7 +117,7 @@ Adobe Experience Manager Guidesには、オーサリングをよりスマート�
 
 
 1. コンテンツを選択します。
-1. **ショートデスクを作成** ![AIの短い説明を作成アイコン &#x200B;](./images/ai-create-shortdesc-icon.svg)を選択して、現在のトピックの短い説明を作成します。
+1. **ショートデスクを作成** ![AIの短い説明を作成アイコン ](./images/ai-create-shortdesc-icon.svg)を選択して、現在のトピックの短い説明を作成します。
 1. 短い説明がまだ存在しない場合は、**受け入れる**&#x200B;を選択して、新しい短い説明を作成します。 短い説明が存在する場合は、新しい短い説明に置き換える前に確認する必要があります。
 
 次のアクションを実行することもできます。
@@ -127,7 +134,7 @@ Adobe Experience Manager Guidesには、オーサリングをよりスマート�
 
 この機能は、選択した段落をインテリジェントにリストに変換します。  コンテンツを分析し、アイテムの論理リストを作成します。 手作業でアイテムを作成する必要はありません。 例えば、ユーザーアカウントを作成する手順を詳細に説明する段落がある場合、ツールはこれをステップバイステップのリストに変換し、アイテムを手動で1つずつ作成する必要がなくなります。
 
-![ai アシスタントの項目別コンテンツアイコン &#x200B;](./images/ai-assisstant-itemise-content.png)
+![ai アシスタントの項目別コンテンツアイコン ](./images/ai-assisstant-itemise-content.png)
 
 
 
@@ -146,7 +153,7 @@ AI アシスタントパネルのオーサリングツールを使用すると�
 コンテンツを翻訳するには、次の手順を実行します。
 
 1. 翻訳するコンテンツを選択します。
-1. **オーサリング** パネルから&#x200B;**コンテンツの翻訳** ![AI コンテンツの翻訳アイコン &#x200B;](./images/ai-translate-content-icon.svg)を選択します。
+1. **オーサリング** パネルから&#x200B;**コンテンツの翻訳** ![AI コンテンツの翻訳アイコン ](./images/ai-translate-content-icon.svg)を選択します。
 1. ドロップダウンからターゲット言語を選択します。 翻訳されたコンテンツがAI アシスタントパネルに表示されます。
 
 1. （オプション）「**展開**」を選択して、**コンテンツの翻訳** エディターを開きます。

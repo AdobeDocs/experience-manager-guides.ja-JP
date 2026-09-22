@@ -7,20 +7,23 @@ exl-id: 8c12ed9b-6309-40bf-b264-a2323cd6f4b3
 TQID: https://experienceleague.adobe.com/SWlP2-iWhN1x25K9s-mrMcfUTy5Fxv7TVWg6G2ucufc
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 7989955248054571a569ad34d92ae7e26fe70ffd
+    internal-label: User
+source-git-commit: 2fcdb485f7527b5ffdfe1d42ed3d9bbdd576ce7a
 workflow-type: tm+mt
-source-wordcount: 577
+source-wordcount: '640'
 ht-degree: 0%
-
 ---
-
 # 挿入メニューのその他のオプション
 
 エディターツールバーの挿入メニューで使用できるその他のオプションには、次のものがあります。
@@ -48,15 +51,21 @@ ht-degree: 0%
 
   ![](assets/insert-h5p-lc.png)
 
-  システムからH5P コンテンツを使用する場合は、まず[&#x200B; アセットのアップロード **オプションを使用してDAM](../user-guide/authoring-upload-existing-files.md)にファイルをアップロードし、リポジトリビュー/Assetsの一部にします。**
+  システムからH5P コンテンツを使用する場合は、まず[ アセットのアップロード **オプションを使用してDAM](../user-guide/authoring-upload-existing-files.md)にファイルをアップロードし、リポジトリビュー/Assetsの一部にします。**
 
   ![](assets/upload-assets-option.png)
 
-  完了したら、プレビューモードと公開済み出力でH5P コンテンツを確認します。
+  完了したら、プレビューモードと公開済み出力でH5P コンテンツを確認します。 H5P コンテンツは、フルスクリーン表示オプションもサポートしています。 コンテンツプロパティパネルの専用のトグルを使用して、埋め込まれたH5P要素ごとにフルスクリーンモードを有効または無効にできます。 有効にすると、学習者はコンテンツを全画面に展開できます。無効にすると、コンテンツは標準ビュー内でインラインのままになります。 この設定は、プレビューモードと公開出力に一貫して適用されます。
 
   >[!NOTE]
   >
   > H5P コンテンツの編集や作成は、Adobe Experience Manager Guidesではサポートされていません。 アップロードする前に、H5P パッケージを外部で準備します。
+
+  ![](assets/h5p-fullscreen.png)
+
+  **プレビューモード**
+
+  ![](assets/h5p-preview.png)
 
 
 - **MathML数式：**&#x200B;は、MathML数式をコンテンツに挿入します。 MathML数式を作成し、**挿入**&#x200B;を選択して文書に追加できます。
@@ -65,7 +74,7 @@ ht-degree: 0%
 
   方程式が薄いグレーの背景で挿入されます。 既存の数式を右クリックし、コンテキストメニューから「**数式を編集**」を選択して、いつでも数式を更新できます。 Experience Manager GuidesでのMathML数式の検証について詳しくは、[MathML エディターでの数式の検証](../user-guide/web-editor-other-features.md#validation-of-equations-in-the-mathml-editor)を参照してください。
 
-- **知識の確認：**&#x200B;使用できる形式で質問を追加し（Single Correct、Multiple Correct、True/False、Match the Following、またはinsert from the question bank）、レビュー用にトピックに追加し、採点なしで理解を確認できます。 これらの質問は標準的な形式を反映しており、スコアリングを除外できるため、自己評価に最適で、コースコンテンツの一部として、またはクイズや評価の前に、後で行う場合はトピックとして適しています。 **コンテンツのプロパティ** パネルを使用して、正解およびその他の必須フィールドを設定できます。 詳しくは、[質問タイプ &#x200B;](./quiz-insert-questions.md)を参照してください。
+- **知識の確認：**&#x200B;使用できる形式で質問を追加し（Single Correct、Multiple Correct、True/False、Match the Following、またはinsert from the question bank）、レビュー用にトピックに追加し、採点なしで理解を確認できます。 これらの質問は標準的な形式を反映しており、スコアリングを除外できるため、自己評価に最適で、コースコンテンツの一部として、またはクイズや評価の前に、後で行う場合はトピックとして適しています。 **コンテンツのプロパティ** パネルを使用して、正解およびその他の必須フィールドを設定できます。 詳しくは、[質問タイプ ](./quiz-insert-questions.md)を参照してください。
 
   ![](assets/knowledge-check-topic.png){width="650"}
 
