@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: 79259c4991292c12990c42bdd819f121655d650b
+source-git-commit: 2123962f8c168928c9b0a1ee1331e5cfd86db319
 workflow-type: tm+mt
-source-wordcount: '2610'
+source-wordcount: '2647'
 ht-degree: 11%
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 11%
       - {hide-from-toc}[&#x200B; デプロイメント手順](./release-info/deploy-xml-on-aemaacs.md)
       - [クラウドリリース](./release-info/latest-release-info-cs.md)
       - 2026 リリース {#2026-releases}
+        - 2026.09.0 リリース {#2609-release}
+          - [新機能](./release-info/whats-new-2026-09-0.md)
+          - [修正された問題](./release-info/fixed-issues-2026-09-0.md)
+          - [アップグレード手順](./release-info/upgrade-instructions-2026-09-0.md)
         - 2026.08.0 リリース {#2608-release}
           - [新機能](./release-info/whats-new-2026-08-0.md)
           - [修正された問題](./release-info/fixed-issues-2026-08-0.md)
@@ -364,12 +368,13 @@ ht-degree: 11%
   - AEM GUIDESのAI アシスタント {#ai-assistant-aem}
     - [Adobeの生成AI ユーザーによる情報開示](./user-guide/adobe-generative-ai-disclosures.md)
     - [AI アシスタントの概要](./user-guide/ai-assistant.md)
-    - [AIを活用したスマートヘルプでコンテンツを検索](./user-guide/ai-based-smart-help.md)
-    - [AI アシスタント オーサリングによるドキュメントのスマートな作成](./user-guide/ai-assistant-right-panel.md)
-    - [AIを活用したスマートな提案によりコンテンツを作成](./user-guide/authoring-ai-based-smart-suggestions.md)
-    - [よくある質問](./user-guide/ai-assistant-faq.md)
-  - AEM Guidesのガイド AI {#guides-ai-aem}
-    - [&#x200B; ガイド AIの基本を学ぶ](./user-guide/guides-ai.md)
+    - エージェント型モードのAI アシスタント {#ai-assistant-agentic}
+      - [エージェント型モードでのAI アシスタントの使用](./user-guide/ai-assistant-agentic.md)
+    - 標準モードのAI アシスタント {#ai-assistant-standard}
+      - [AIを活用したスマートヘルプでコンテンツを検索](./user-guide/ai-based-smart-help.md)
+      - [AI アシスタント オーサリングによるドキュメントのスマートな作成](./user-guide/ai-assistant-right-panel.md)
+      - [AIを活用したスマートな提案によりコンテンツを作成](./user-guide/authoring-ai-based-smart-suggestions.md)
+      - [よくある質問](./user-guide/ai-assistant-faq.md)
   - 学習コンテンツの管理 {#learning-training-content}
     - 入門ガイド {#get-started}
       - はじめに {#intro-lc}
@@ -429,6 +434,8 @@ ht-degree: 11%
     - トラブルシューティング {#troubleshooting}
       - [セッションのタイムアウト](./user-guide/session-timeout-prompt.md)
       - [メタデータの書き出しで文字列が長すぎます](./user-guide/metadata-export-failure.md)
+    - パフォーマンス管理 {#performance-management}
+      - [&#x200B; ファイルとフォルダーのページ区切りの読み込み](./user-guide/paginated-loading-assets.md)
 - ユーザーガイド（旧UI） {#user-guide-old-ui}
   - [AEM Guidesの概要](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - インストールと設定 {#install-conf-guide}
@@ -500,6 +507,7 @@ ht-degree: 11%
     - [記事ベースの公開用パッケージのインストール](./install-conf-guide/conf-article-based-publishing.md)
     - [メタデータプロパティの無視リストの設定](./install-conf-guide/conf-metadata-prop.md)
     - Cloud Serviceのエディター設定 {#editor-cloud-settings}
+      - [Cloud ServiceのAgentic モードでのAI アシスタントの設定](./install-conf-guide/configure-ai-assistant-agentic-mode-cs.md)
       - [Cloud Serviceのオーサリング用にAIを活用したスマート提案を設定する](./install-conf-guide/conf-smart-suggestions.md)
       - [Cloud Serviceのコンテンツを検索するためのAIを活用したスマートヘルプの設定](./install-conf-guide/conf-smart-help.md)
       - [Oxygen for Cloud Serviceで編集するオプションを設定します](./install-conf-guide/conf-edit-in-oxygen.md)
@@ -556,10 +564,11 @@ ht-degree: 11%
         - [&#x200B; ネイティブ PDF用に新しい公開エンジンを設定](./native-pdf/conf-new-pdf-engine.md)
       - [&#x200B; ネイティブ PDF エンジン v2の操作](./native-pdf/new-pdf-engine.md)
       - [Cloud Service向けネイティブ PDF パブリッシングのノードプロセスを設定](./native-pdf/conf-node-options-cs.md)
-      - [オンプレミス用のネイティブ PDF パブリッシング用のJVM フラグの設定](./native-pdf/conf-jvm-flags-on-prem.md)
+      - [&#x200B; オンプレミス用のネイティブ PDF公開用のJVM フラグを設定](./native-pdf/conf-jvm-flags-on-prem.md)
     - Cloud Serviceのコンテンツフラグメントとエクスペリエンスフラグメントの設定 {#conf-content-exp-fragment}
       - [トピックとコンテンツフラグメントのマッピングの作成](./install-conf-guide/conf-mapping-topic-content-fragment-cs.md)
       - [トピックとエクスペリエンスフラグメントのマッピングの作成](./install-conf-guide/conf-mapping-topic-content-exp-cs.md)
+    - [XML パーサーエンティティのサイズ制限の設定](./install-conf-guide/conf-xml-parsing.md)
   - ワークフローのカスタマイズ {#workflow}
     - [&#x200B; ワークフローの設定とカスタマイズ &#x200B;](./install-conf-guide/conf-customize-workflows.md)
   - 統合 {#aemg-integrations}

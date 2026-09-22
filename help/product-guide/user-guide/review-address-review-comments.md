@@ -7,28 +7,38 @@ role: User
 TQID: https://experienceleague.adobe.com/1eKOv9Ys8N5wOu5-gon4uDq-LLIqADeSmbWq55iVg18
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: b1210526-416b-4ef6-bcc0-1692e99f30e9
+    internal-label: Administration and security
   - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: c5fd2af0-6cbb-4746-ab0d-40ecb093af12
+    internal-label: Introduction
   - id: c8841798-1a28-4264-a46a-984860f8e6f6
+    internal-label: User administration
   - id: f7774ebe-aec9-42b6-97e4-5002acdc712e
+    internal-label: Review
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e5812ebac255dc10f4b6bf7287cfaede92354e70
+    internal-label: Administration
+source-git-commit: 912b7583cbbbb4beff08423d360a9a06f3c365cf
 workflow-type: tm+mt
-source-wordcount: 1526
+source-wordcount: '1618'
 ht-degree: 0%
-
 ---
-
 # アドレス確認コメント {#id2056B0X0KBI}
 
 作成者は、エディターを使用してトピック内のコメントに対応できます。 コメントは、レビューパネルで選択したレビュータスクに基づいて読み込まれます。 詳細については、[左パネル &#x200B;](../user-guide/web-editor-left-panel.md) セクションの&#x200B;**レビュー** パネル ![](images/active-review-tasklist-icon.svg)機能の説明を参照してください。
@@ -101,6 +111,18 @@ ht-degree: 0%
 
 ![](images/tag-users-review.png){width="350"}
 *キャプション :Tag名のユーザーがイニシエータ/作成者*&#x200B;です
+
+ユーザーにタグを付けるには、コメントまたは返信に`@`と入力し、このプロジェクトに関連付けられているユーザーのリストからユーザーを選択します。 リストには、ユーザーの名前と、正しいユーザーを識別するのに役立つ追加の詳細が表示されます。
+
+ユーザーの詳細は、次の順序で表示されます。
+
+`<Role>` | `<User name>` | `<Email address>`
+
+メールアドレスが使用できない場合は、ユーザーの役割と名前のみが表示されます。
+
+リスト内のユーザーにカーソルを合わせると、ユーザーネーム、役割、メールアドレスをツールチップで表示できます。
+
+![](images/tag-users-author-ui.png){width="350"}
 
 タグ付けされたオーディエンスには、電子メールとAEM通知の両方が配信され、迅速な情報を提供できます。 レビュー通知のトリガー方法について詳しくは、[&#x200B; レビュー通知について](./review-understanding-review-notifications.md)を参照してください。
 

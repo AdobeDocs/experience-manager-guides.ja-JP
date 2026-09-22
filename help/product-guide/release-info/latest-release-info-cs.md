@@ -5,26 +5,29 @@ feature: Release Notes
 role: Leader
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 06126f77ee4db22865895739ad9af4efa787a7df
+    internal-label: Customer experience
+source-git-commit: 6841c373b75770e8691a2cac4d56aeb368b09480
 workflow-type: tm+mt
-source-wordcount: 431
+source-wordcount: '441'
 ht-degree: 2%
-
 ---
-
 # Adobe Experience Manager Guides as a Cloud Service リリース情報
 
-このページでは、Adobe Experience Manager Guides as a Cloud Serviceの最新のリリース情報を提供します。 新機能、機能強化、修正済みの問題、既知の問題、アップグレード手順の詳細を確認して、各リリースの最新情報を入手できます。
+この記事では、Adobe Experience Manager Guides as a Cloud Serviceの最新のリリース情報を提供します。 新機能、機能強化、修正済みの問題、既知の問題、アップグレード手順の詳細を確認して、各リリースの最新情報を入手できます。
 
 ## 2026 リリース
 
 | [!DNL AEM Guides] リリース | リリースノート |
 |---|---|
+| **AEM Guides 2026.09.0** | [2026.09.0新機能](./whats-new-2026-09-0.md)<br><br>[2026.09.0修正された問題](./fixed-issues-2026-09-0.md)<br><br>[2026.09.0 アップグレード手順](./upgrade-instructions-2026-09-0.md) |
 | **AEM Guides 2026.08.0** | [2026.08.0新機能](./whats-new-2026-08-0.md)<br><br>[2026.08.0修正済みの問題](./fixed-issues-2026-08-0.md)<br><br>[2026.08.0 アップグレード手順](./upgrade-instructions-2026-08-0.md) |
 | **AEM Guides 2026.07.0** | [2026.07.0修正された問題](./fixed-issues-2026-07-0.md)<br><br>[2026.07.0 アップグレード手順](./upgrade-instructions-2026-07-0.md) |
 | **AEM Guides 2026.06.0** | [2026.06.0新機能](./whats-new-2026-06-0.md)<br><br>[2026.06.0修正された問題](./fixed-issues-2026-06-0.md)<br><br>[2026.06.0 アップグレード手順](./upgrade-instructions-2026-06-0.md) |

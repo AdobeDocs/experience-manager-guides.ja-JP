@@ -7,21 +7,25 @@ role: User
 TQID: https://experienceleague.adobe.com/Ln0JE2F8klsmIZJqtpy3Idi3VHdh1U900sfMrD0xpEU
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 67bbbc9afc5278722d7d60bf5574feb44a9ed69c
+    internal-label: User
+source-git-commit: 44b50108aa453052c1c9b429eaeb254cad746166
 workflow-type: tm+mt
-source-wordcount: 1409
+source-wordcount: '1497'
 ht-degree: 0%
-
 ---
-
 # エディターでのトピックの編集 {#id2056B040VUI}
 
 >[!INFO]
@@ -91,16 +95,16 @@ Experience Manager Guidesでは、複数の要素からコンテンツを選択�
 
 - コンテンツを有効な要素で囲む：次の手順を実行して、コンテンツを有効な要素でラップします。
 
-   - エレメント内のコンテンツを選択します。
-   - 上部のツールバーから![add](images/Add_icon.svg) アイコンを選択して、**要素を挿入** ダイアログボックスを表示します。 ダイアログボックスには、選択したコンテンツの有効な要素が一覧表示されます。
+  - エレメント内のコンテンツを選択します。
+  - 上部のツールバーから![add](images/Add_icon.svg) アイコンを選択して、**要素を挿入** ダイアログボックスを表示します。 ダイアログボックスには、選択したコンテンツの有効な要素が一覧表示されます。
 
-     >[!NOTE]
-     >
-     > 選択したコンテンツのコンテキストメニューを選択して、エレメントを挿入ダイアログボックスを表示することもできます。
+    >[!NOTE]
+    >
+    > 選択したコンテンツのコンテキストメニューを選択して、エレメントを挿入ダイアログボックスを表示することもできます。
 
-   - ダイアログボックスからエレメントを選択します。 選択したコンテンツはその要素の下にラップされます。 例えば、段落内のコンテンツを選択し、**エレメントを挿入** ダイアログボックスから`<note>` エレメントを選択すると、選択したコンテンツがメモの下に表示されます。
+  - ダイアログボックスからエレメントを選択します。 選択したコンテンツはその要素の下にラップされます。 例えば、段落内のコンテンツを選択し、**エレメントを挿入** ダイアログボックスから`<note>` エレメントを選択すると、選択したコンテンツがメモの下に表示されます。
 
-     ![&#x200B; エレメントを挿入ダイアログボックス &#x200B;](./images/insert-element-editor.png) {width="300"}
+    ![&#x200B; エレメントを挿入ダイアログボックス &#x200B;](./images/insert-element-editor.png) {width="300"}
 
 ## ファイルの編集中にブラウザーを更新する
 
@@ -180,6 +184,14 @@ You can access the **Layout** view for read-only DITA maps. This view lets you s
 > Your folder-level administrative users must update *ui_config.json* so that you can harmoniously access the read-only files in the  Author, Source, and Layout modes.
 
  -->
+
+## 同時編集中にコンテンツが上書きされるのを防止します
+
+>[!NOTE]
+>
+> この機能のConfigMgrからファイル **設定をロックせずに**&#x200B;編集を無効にします。
+
+2人の作成者が同じDITA トピックで同時に作業する場合、古いコピーの上で行われた編集によって、別の作成者の変更が誤って上書きされる可能性があります。 これを防ぐには、トピックで&#x200B;**ロック**&#x200B;を選択すると、エディターが自動的に更新され、編集を開始する前に最新のコンテンツがサーバーから読み込まれます。これにより、変更は常に最新バージョンに基づいて行われ、古いコピーは元に戻されません。
 
 ## エクスプローラーで開いているファイルを見つける
 

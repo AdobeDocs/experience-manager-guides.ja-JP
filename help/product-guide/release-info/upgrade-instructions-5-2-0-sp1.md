@@ -1,10 +1,10 @@
 ---
 title: リリースノート | Adobe Experience Manager Guides 5.2.0 Service Pack 1 リリースのアップグレード手順
 description: 互換性マトリックスと、Adobe Experience Manager Guidesの5.2.0 Service Pack 1 リリースにアップグレードする方法について説明します。
-source-git-commit: b975fd2c2d79fb56f180484431af135d35eec750
+source-git-commit: 6841c373b75770e8691a2cac4d56aeb368b09480
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 4%
+source-wordcount: '926'
+ht-degree: 3%
 ---
 # 5.2.0 サービスパック 1 リリース（2026年9月）のアップグレード手順
 
@@ -80,6 +80,7 @@ Experience Manager Guides 5.2.0 Service Pack 1のアップグレードプロセ�
 > - **AEM 6.5 LTS**&#x200B;の場合：Experience Manager Guides 5.2.0 Service Pack 1は、AEM 6.5 LTS Service Pack 2でのみサポートされます。
 > - **AEM 6.5**&#x200B;の場合：Experience Manager Guides 5.2.0 Service Pack 1は、AEM 6.5 Service Pack 24、23、22でのみサポートされます。
 > - 現在AEM 6.5を使用しており、AEM 6.5 LTSに移行する予定がある場合は、Experience Manager Guides 5.2.0 アップグレードを進める前に、必ずAEM アップグレードを完了してください。 詳しくは、[Adobe Experience Manager（AEM） 6.5 LTS](https://experienceleague.adobe.com/ja/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)へのアップグレードを参照してください。
+> - 現在AEM 6.5を使用しており、AEM 6.5 サービスパック 24以降に移行する予定の場合は、まずAEMのアップグレードを完了してください。 完了したら、Experience Manager Guides 5.2.0を再インストールします。 Experience Manager Guides 5.2.1のインストール前。
 
 Experience Manager Guidesのバージョン 5.2.0 サービスパック 1へのアップグレードを進める前に、次の点を考慮する必要があります。
 

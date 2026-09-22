@@ -7,23 +7,29 @@ role: User
 TQID: https://experienceleague.adobe.com/r6gZE2a3lXtL0mFWxurEjna8mUTJIMEQdz2eLw2OWcQ
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1833481e1801fa171901abafe5eb256baaa10b8f
+    internal-label: User
+source-git-commit: 811743900fefe761f10254ff13c741a7d8f41d27
 workflow-type: tm+mt
-source-wordcount: 4258
+source-wordcount: '4329'
 ht-degree: 0%
-
 ---
-
 # エディターの追加機能 {#id2056B0B0YPF}
 
 エディターには、次の便利な機能があります。
@@ -220,26 +226,26 @@ Generate the output for the selected file. Output can be generated only for file
 
   ![](images/set-alignment-rows.png){width="550"}
 
-   - 横組みテキスト整列（単純な表では使用できません）
-   - 縦書き文字の整列（単純な表では使用できません）
-   - 上に行を挿入
-   - 行を下に挿入
-   - 行を削除
-   - セルを結合（単純な表では使用できません）
+  - 横組みテキスト整列（単純な表では使用できません）
+  - 縦書き文字の整列（単純な表では使用できません）
+  - 上に行を挿入
+  - 行を下に挿入
+  - 行を削除
+  - セルを結合（単純な表では使用できません）
 
   単一または複数の列の選択に使用できるオプション：
 
   ![](images/set-alignment-columns.png){width="550"}
 
-   - 横組みテキスト整列（単純な表では使用できません）
-   - 縦書き文字の整列（単純な表では使用できません）
-   - 上に行を挿入
-   - 行を下に挿入
-   - 行を削除
-   - 上に列を挿入
-   - 下に列を挿入
-   - 列を削除
-   - セルを結合（単純な表では使用できません）
+  - 横組みテキスト整列（単純な表では使用できません）
+  - 縦書き文字の整列（単純な表では使用できません）
+  - 上に行を挿入
+  - 行を下に挿入
+  - 行を削除
+  - 上に列を挿入
+  - 下に列を挿入
+  - 列を削除
+  - セルを結合（単純な表では使用できません）
 
 - 表を選択して、表全体にテキストの書式設定と整列を適用します。
 
@@ -349,17 +355,17 @@ Experience Manager Guidesには、コンテンツリポジトリ内のファイ�
 
   つまり、
 
-   - グローバルプロファイルを使用している場合は、グローバルプロファイルで設定されたフィルター値が適用されます。
-   - 特定のフォルダープロファイルを選択すると、そのプロファイルで定義されたフィルター値が取得されます。
+  - グローバルプロファイルを使用している場合は、グローバルプロファイルで設定されたフィルター値が適用されます。
+  - 特定のフォルダープロファイルを選択すると、そのプロファイルで定義されたフィルター値が取得されます。
 
   ドキュメントの状態で使用できるデフォルトのフィルター値は、ドラフト、編集、レビュー中、承認済み、レビュー済みおよび完了です。 ドキュメント状態のフィルター値のカスタマイズについて詳しくは、[&#x200B; ドキュメント状態フィルターの設定](../cs-install-guide/config-doc-state-filters.md)を参照してください。
 
 - **ロック済み**: ユーザーのリストを表示します。 リストはページ分割され、非同期で読み込まれます。一度に限られたユーザーのセットが表示され、スクロールまたは移動するたびに多くのユーザーが取得されます。 これにより、特に多数のユーザーを使用する場合は、読み込み速度と全体的なパフォーマンスが向上します。
 
 - **最終変更日**：変更日に基づいてコンテンツをフィルタリングします。 カレンダーから日付範囲を選択するか、次のいずれかの時間枠オプションを選択します。
-   - 先週
-   - 「先月」
-   - 昨年
+  - 先週
+  - 「先月」
+  - 昨年
 
 - **タグ**: タグに基づいてコンテンツをフィルタリングします。
 
@@ -422,7 +428,7 @@ MathML数式ツールを使用して数式を作成し、**挿入**&#x200B;を�
 ### MathML エディターでの数式の検証
 
 Experience Manager Guidesでは、MathML数式を含むトピックを保存すると、数式が検証されます。
-MathML エディターを使用して数式を挿入すると、構文に問題がある場合は、Experience Manager Guidesで数式が赤で強調表示されます。挿入する前に修正することができます。変更を加えずに&#x200B;**挿入**&#x200B;を選択すると、警告が表示されます。
+MathML エディターを使用して数式を挿入すると、構文に問題がある場合は、Experience Manager Guidesで数式が赤で強調表示されます。 挿入する前に修正することができます。 変更を加えずに&#x200B;**挿入**&#x200B;を選択すると、警告が表示されます。
 
 ![数式を検証](images/validate-mathml-equation.png){width="400"}
 
@@ -551,6 +557,5 @@ DITA トピック内のエレメントのIDを自動的に生成できます。 
 
 
 - アラートメッセージはDITA ファイルでのみ使用でき、オーサー、Source、レイアウトのすべてのビューに表示されます。
-
 
 **親トピック：**&#x200B;[&#x200B; エディターの概要](web-editor.md)

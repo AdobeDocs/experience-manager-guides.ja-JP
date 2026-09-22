@@ -7,29 +7,40 @@ exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
 TQID: https://experienceleague.adobe.com/GbsiDGw2pByOZ-AfWM2yH46QYWm95Z4ShDSvqyedViU
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: d6596f3f-92a7-43ec-b444-237db6adad05
+    internal-label: Native PDF publishing
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: fd5e1e85933eb2785b0a74b0fa49fec1da4ca0c2
+    internal-label: Troubleshooting
+source-git-commit: 06a24bcf5a4dc05ba20846e9d745ea6f36ee8183
 workflow-type: tm+mt
-source-wordcount: 11073
+source-wordcount: '11307'
 ht-degree: 0%
-
 ---
-
 # エディターの左パネル
 
 >[!INFO]
@@ -77,6 +88,10 @@ Adobe Workfrontが設定されている場合、**Workfront**&#x200B;とラベ�
 左パネルの機能の詳細な説明は次のとおりです。
 
 ## コレクション
+
+>[!NOTE]
+>
+> 2026.09.0 リリース以降、Experience Manager Guidesでは、ページ分割による読み込みにより閲覧体験が向上しました。 この機能はデフォルトで有効になっています。 無効にするには、カスタマーサクセス部門にお問い合わせください。 詳しくは、[&#x200B; ファイルとフォルダーのページ分割による読み込み](./web-editor-other-features.md#paginated-loading-of-files-and-folders)を参照してください。
 
 一連のファイルやフォルダーを使用している場合は、お気に入りのリストに追加して、すばやくアクセスできます。 **コレクション**&#x200B;には、追加したドキュメントのリストと、他のユーザーから公開されているドキュメントのリストが表示されます。
 
@@ -493,7 +508,8 @@ DAM内で必要なファイルに簡単に移動し、エディターで開く�
 
 >[!NOTE]
 >
-> Cloud Serviceの2025.11.0 リリースおよびオンプレミスの5.2.0 リリース以降、**Repository**&#x200B;は&#x200B;**Explorer**&#x200B;に置き換えられます。 バージョン 5.2より前のオンプレミスの場合は、エディターインターフェイスを通じて引き続きリポジトリを表示して使用します。
+>- Cloud Serviceの2025.11.0 リリースおよびオンプレミスの5.2.0 リリース以降、**Repository**&#x200B;は&#x200B;**Explorer**&#x200B;に置き換えられます。 バージョン 5.2より前のオンプレミスの場合は、エディターインターフェイスを通じて引き続きリポジトリを表示して使用します。
+>- 2026.09.0 リリース以降、Experience Manager Guidesでは、ページ分割による読み込みにより閲覧体験が向上しました。 この機能はデフォルトで有効になっています。 無効にするには、カスタマーサクセス部門にお問い合わせください。 詳しくは、[&#x200B; ファイルとフォルダーのページ分割による読み込み](./web-editor-other-features.md#paginated-loading-of-files-and-folders)を参照してください。
 
 Explorerには、以前リポジトリで利用できたほとんどの機能が用意されています。次の機能があります。
 
@@ -1008,8 +1024,8 @@ Experience Manager Guidesでは、同じマップに存在する列挙と件名�
     <summary> 値を特定の要素に制限 </summary>
 
 
-また、トピック内の一部の要素に条件を制限することもできます。`<elementdef>` タグを使用して要素を定義し、`<attributedef>` タグを使用して要素に適用できる条件を定義します。 `<elementdef>` タグを追加しない場合は、すべての要素に条件を適用できます。
-例えば、次の列挙を使用して、`@platform`属性を`<shortdesc>`要素に制限します。 その他の条件は、すべての要素に対して表示されます。
+また、トピック内の一部の要素に条件を制限することもできます。 `<elementdef>` タグを使用して要素を定義し、`<attributedef>` タグを使用して要素に適用できる条件を定義します。  `<elementdef>` タグを追加しない場合は、すべての要素に条件を適用できます。
+例えば、次の列挙を使用して、`@platform`属性を`<shortdesc>`要素に制限します。  その他の条件は、すべての要素に対して表示されます。
 
 ```XML
 <enumerationdef>
@@ -1115,6 +1131,10 @@ Source ビューの属性のドロップダウンから値を変更すること�
 > スニペットエントリのコンテキストメニューから、「編集」、「削除」、「プレビューを取得」、「スニペットを挿入」のいずれかを選択することもできます。
 
 ## テンプレート
+
+>[!NOTE]
+>
+> 2026.09.0 リリース以降、Experience Manager Guidesでは、ページ分割による読み込みにより閲覧体験が向上しました。 この機能はデフォルトで有効になっています。 無効にするには、カスタマーサクセス部門にお問い合わせください。 詳しくは、[&#x200B; ファイルとフォルダーのページ分割による読み込み](./web-editor-other-features.md#paginated-loading-of-files-and-folders)を参照してください。
 
 テンプレートパネルは、管理者のみが使用できます。 管理者は、このパネルを使用して、作成者が使用できるテンプレートを簡単に作成および管理できます。 デフォルトでは、テンプレートは&#x200B;*map*&#x200B;および&#x200B;*topic* タイプのテンプレートに分類されます。
 
@@ -1384,7 +1404,7 @@ Experience Manager Guidesには、プロジェクト内のすべてのレビュ�
 
    >[!NOTE]
    > 
-   > **レビュー** パネルと&#x200B;**コメント** パネルは、常に同期しています。コメント パネルでは、レビューパネルに読み込まれたレビュータスクに基づいてコメントが読み込まれます。
+   > **レビュー** パネルと&#x200B;**コメント** パネルは、常に同期しています。 コメント パネルでは、レビューパネルに読み込まれたレビュータスクに基づいてコメントが読み込まれます。
    >レビューパネルの左側のパネルに、アクティブなレビュータスクと共に、閉じられたレビュータスクを表示できます。
    >さらに、閉じたレビュータスクの場合は、右側のコメントパネルでレビューコメントを表示できますが、「**コメントを読み込み**」と「**バージョンを元に戻す**」ボタンは無効になっています。
    >コメントへの対処方法について詳しくは、[&#x200B; レビューコメントのアドレス &#x200B;](review-address-review-comments.md#)を参照してください。
