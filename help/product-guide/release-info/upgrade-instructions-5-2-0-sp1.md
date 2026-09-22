@@ -34,7 +34,7 @@ ht-degree: 3%
 |---|---|---|----|
 | 5.2.0 サービスパック 1 （UUID） | 5.2.2 | [AEM Guides SDK API 5.2.2](https://central.sonatype.com/artifact/com.adobe.aem/aem-guides-sdk-api/5.2.2/) | [Javadoc 5.2.2](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api/latest/index.html) |
 
-詳細については、[Maven Central リポジトリ &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/api-reference/introduction)のAPI JARを設定して使用することを参照してください。
+詳細については、[Maven Central リポジトリ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/api-reference/introduction)のAPI JARを設定して使用することを参照してください。
 
 
 ### FrameMakerとFrameMaker Publishing Server
@@ -79,7 +79,7 @@ Experience Manager Guides 5.2.0 Service Pack 1のアップグレードプロセ�
 >
 > - **AEM 6.5 LTS**&#x200B;の場合：Experience Manager Guides 5.2.0 Service Pack 1は、AEM 6.5 LTS Service Pack 2でのみサポートされます。
 > - **AEM 6.5**&#x200B;の場合：Experience Manager Guides 5.2.0 Service Pack 1は、AEM 6.5 Service Pack 24、23、22でのみサポートされます。
-> - 現在AEM 6.5を使用しており、AEM 6.5 LTSに移行する予定がある場合は、Experience Manager Guides 5.2.0 アップグレードを進める前に、必ずAEM アップグレードを完了してください。 詳しくは、[Adobe Experience Manager（AEM） 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)へのアップグレードを参照してください。
+> - 現在AEM 6.5を使用しており、AEM 6.5 LTSに移行する予定がある場合は、Experience Manager Guides 5.2.0 アップグレードを進める前に、必ずAEM アップグレードを完了してください。 詳しくは、[Adobe Experience Manager（AEM） 6.5 LTS](https://experienceleague.adobe.com/ja/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)へのアップグレードを参照してください。
 > - 現在AEM 6.5を使用しており、AEM 6.5 サービスパック 24以降に移行する予定の場合は、まずAEMのアップグレードを完了してください。 完了したら、Experience Manager Guides 5.2.0を再インストールします。 Experience Manager Guides 5.2.1のインストール前。
 
 Experience Manager Guidesのバージョン 5.2.0 サービスパック 1へのアップグレードを進める前に、次の点を考慮する必要があります。
