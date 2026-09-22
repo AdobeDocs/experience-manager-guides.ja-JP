@@ -26,7 +26,7 @@ ht-degree: 1%
 |---|---|---|----|
 | 2026.09.0 | 2026.9.0 | [AEM Guides SDK API 2026.9.0](https://central.sonatype.com/artifact/com.adobe.aem/aem-dox-sdk-api/2026.9.0) | [Javadoc 2026.9.0](https://javadoc.io/doc/com.adobe.aem/aem-dox-sdk-api/latest/index.html) |
 
-詳細については、[Maven Central リポジトリ &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/api-reference/introduction)のAPI JARを設定して使用することを参照してください。
+詳細については、[Maven Central リポジトリ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/api-reference/introduction)のAPI JARを設定して使用することを参照してください。
 
 ### FrameMakerとFrameMaker Publishing Server
 

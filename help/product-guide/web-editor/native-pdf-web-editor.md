@@ -126,7 +126,7 @@ PDFのネイティブなパブリッシング機能では、事前に定義さ�
 
 * **XMP ファイルを提供**
 
-  [XMP](https://www.adobe.com/products/xmp.html) （Extensible Metadata Platform）ファイルを読み込むことで、メタデータフィールドに直接入力することもできます。 サンプルのXMP ファイルは、ここからダウンロードできます。
+  [XMP](https://www.adobe.com/jp/products/xmp.html) （Extensible Metadata Platform）ファイルを読み込むことで、メタデータフィールドに直接入力することもできます。 サンプルのXMP ファイルは、ここからダウンロードできます。
 
   [ダウンロード](assets/SampleXMP.xmp)
 
@@ -256,7 +256,7 @@ PDFの結合、圧縮の使用、コンプライアンス標準の選択など�
 | **変更履歴を含める** | 生成されたPDFに変更履歴を含めて、レビューと比較を容易にする場合は、このオプションを選択します。 |
 | **下書きコメントを含める** | 生成されたPDFで、選択したマップのDITA トピックに追加されたドラフトコメントを含める場合は、このオプションを選択します。<br> **注意**：このオプションのみを有効にしても、ドラフトコメントは出力に表示されません。 管理者は、マップに使用する出力テンプレートで、ドラフト注釈スタイルの表示プロパティを表示値（`block`、`inline-block`、`grid`など）に設定する必要があります。 詳しくは、[PDFのネイティブ出力で下書きコメントを表示または非表示にする](../native-pdf/components-pdf-template.md#show-or-hide-draft-comments-in-native-pdf-output)を参照してください。 |
 | **一時ファイルを保持** | ネイティブPDF出力の生成中に作成された暫定HTML ファイルを保持する場合は、このオプションを選択します。 出力を生成した後で、一時ファイルをダウンロードできます。 ダウンロードされたファイルには、作成者URL、ローカル URL、公開URLに関する情報を提供する`system_config.xml` ファイルも含まれます。 これらのURLは、AEMの外部化設定で設定され、`system_config.xml` ファイルに反映されます。 |
-| **PDF準拠** | これは、PDFが準拠していることを確認するために保存する標準です。 ドロップダウンから選択して、使用可能なPDF規格の一覧から選択します。 サポートされている標準について詳しくは、[PDF標準について](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards)を参照してください。 |
+| **PDF準拠** | これは、PDFが準拠していることを確認するために保存する標準です。 ドロップダウンから選択して、使用可能なPDF規格の一覧から選択します。 サポートされている標準について詳しくは、[PDF標準について](https://helpx.adobe.com/jp/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards)を参照してください。 |
 | **ファイルのプロパティ** | ネイティブ PDF パブリッシングに渡すメタデータを選択します。 ドロップダウンには、カスタムプロパティとデフォルトプロパティの両方が一覧表示されます。 例えば、`dc:description`、`dc:language`、`dc:title`および`docstate`はデフォルトのプロパティですが、カスタムプロパティとして`author`を指定できます。 選択したメタデータプロパティは、ネイティブ PDFを使用して生成されたPDF ファイルに渡されます。<br> これらのプロパティは、次の`/libs/fmdita/config/metadataList`で利用可能な`metadataList` ファイルから選択されます。 <br>このファイルは`/apps/fmdita/config/metadataList`でオーバーレイできます。 |
 
 
