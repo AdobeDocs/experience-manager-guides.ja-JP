@@ -7,22 +7,27 @@ exl-id: 02e45d34-898f-411c-bd80-bd4f2364b7d7
 TQID: https://experienceleague.adobe.com/sqNExkYi3iIqIxC7mdlhWw-59-LcAXCOU8w7GD63d8Q
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 018c2332a9e5a4ce8fb683a8cb0bcf859977922c
+    internal-label: User
+source-git-commit: 4546a7e24f9eea064f049d9f84eabd3253d257bd
 workflow-type: tm+mt
-source-wordcount: 671
+source-wordcount: '691'
 ht-degree: 0%
-
 ---
-
 # エディターのタブバー
 
 >[!INFO]
@@ -61,21 +66,17 @@ ht-degree: 0%
 >
 > **すべて保存**&#x200B;操作では、トピックの新しいバージョンは作成されません。 新しいバージョンを作成するには、**新しいバージョンとして保存** オプションを使用します。
 
-**AI アシスタント**
-
-AIを活用したパワフルなツールは、スマートなヘルプとオーサリング機能によって生産性を向上させるように設計されています。 **オーサリング**&#x200B;と&#x200B;**ヘルプ**&#x200B;の2つの堅牢なAI機能をExperience Manager Guides インターフェイスに統合し、コンテンツのオーサリングとExperience Manager Guides ドキュメントからの情報へのアクセスをより迅速かつ効率的におこなうことができます。
+**AI アシスタント**: AI アシスタントは、**Agentic**&#x200B;と&#x200B;**Standard**&#x200B;の2つのモードで利用できます。
 
 >[!NOTE]
 >
-> 現在、Adobe Experience Manager Guides as a Cloud ServiceではAI アシスタント機能を利用できます。
+> お客様の環境でAI アシスタント機能のエージェンティックモードを使用する場合は、カスタマーサクセス部門にお問い合わせください。 この機能を有効にした後、管理者はWorkspaceの設定から有効または無効にできます。 AI アシスタントのモードは、エージェント型または標準のどちらか1つしか有効にできません。
 
-**ガイド AI**
+- **エージェント型**: Adobe CX Enterprise Coworkerのインテリジェントなエージェント型スマートタグ付けスキルをエディターに取り込み、自然で会話型のコンテンツタグ付けを可能にします。 コンテンツを分析し、関連するタグを提案し、一貫性のある正確なメタデータを最小限の労力で適用できます。 提案されたタグを確認し、選択を確定する前に適用または却下することを選択できます。 [&#x200B; エージェンティックモードでAI アシスタントを使用](../user-guide/ai-assistant-agentic.md)すると、タグ付けプロセスが効率化され、コンテンツの整理と見つけやすさが向上します。
 
-Adobe CX Enterprise Coworkerのインテリジェントなエージェンティック型スマートタグスキルをエディターに取り入れ、自然で会話型のコンテンツタグ付けを可能にします。 コンテンツを分析し、関連するタグを提案し、一貫性のある正確なメタデータを最小限の労力で適用できます。 提案されたタグを確認し、コンテンツの整理と見つけやすさの向上のために、選択を確認する前に適用または却下することを選択できます。
+- **Standard**: スマートヘルプ機能を使用して生産性を向上させるように設計された、AIを活用した強力なツールです。 さらに、エディターのインターフェイスで作業する際には、AI アシスタントのスマートオーサリング機能を活用できます。これにより、コンテンツの再利用と最適化に関するインテリジェントな提案を通じて、オーサリングプロセスをよりスマートかつ迅速におこなうことができます。
 
->[!NOTE]
->
-> お客様の環境でGuides AI機能を使用する場合は、カスタマーサクセス チームにお問い合わせください。 この機能を有効にした後、管理者はWorkspaceの設定から有効または無効にできます。 一度に有効にできるAI エクスペリエンスは、ガイド AIまたはAI アシスタントのいずれかです。
+[AI アシスタント &#x200B;](./ai-assistant.md)機能は現在、Adobe Experience Manager as Cloud Serviceでのみ使用できます。
 
 **ビューを展開**: **展開** アイコンを使用してページビューを展開できます。 このビューでは、Adobe Experience Manager ロゴを含むヘッダーバーは非表示になっています。 これにより、編集のためのコンテンツスペースが最大化されます。 標準ビューに戻るには、**拡張ビュー**&#x200B;を終了アイコンを使用します。
 
@@ -91,6 +92,6 @@ Adobe CX Enterprise Coworkerのインテリジェントなエージェンティ�
 >
 >バージョン 5.2より前のオンプレミス設定でAdobe Experience Manager Guidesを使用している場合、Workspace設定オプションは、その他のアクション メニューの下に&#x200B;**Settings**&#x200B;として引き続き表示されます。
 
-- **エディター設定**: エディター設定ダイアログに移動し、個々の作成者レベルでエディターの動作をカスタマイズできます。 オーサリング時に、タグ、コメント、その他のエディターレベルの設定の表示と動作を制御できます。 詳しくは、[&#x200B; エディター設定](../install-conf-guide/workspace-settings.md)を参照してください。
+- **エディター設定**: エディター設定ダイアログに移動し、個々の作成者レベルでエディターの動作をカスタマイズできます。 オーサリング時に、タグ、コメント、その他のエディターレベルの設定の表示と動作を制御できます。 詳しくは、[&#x200B; エディター設定](../user-guide/config-editor-settings.md)を参照してください。
 
 **親トピック：**&#x200B;[&#x200B; エディターの概要](web-editor.md)
