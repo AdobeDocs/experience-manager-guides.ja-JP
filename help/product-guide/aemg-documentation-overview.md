@@ -39,7 +39,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: bd500b169cc39e5d179bb2ba36e70f9a7c64958f
+source-git-commit: afb7cb895a2861dfa49070ef10bd69becf5d686b
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 6%
@@ -48,13 +48,13 @@ ht-degree: 6%
 
 Experience Manager Guidesは、構造化されたオーサリング、マルチチャネル公開、コンテンツライフサイクル管理を実現する、DITA対応のネイティブ CCMSです。
 
-**デプロイメント：** [!BADGE Cloud Service]{type=Positive} [!BADGE &#x200B; オンプレミス &#x200B;]{type=Informative}
+**デプロイメント：** [!BADGE Cloud Service]{type=Positive} [!BADGE  オンプレミス ]{type=Informative}
 
 ## 役割から始める
 
 ::::landing-cards-container
 :::card
-![管理者アイコン &#x200B;](../assets/admin.png)
+![管理者アイコン ](../assets/admin.png)
 
 管理者
 
@@ -64,7 +64,7 @@ Experience Manager Guidesは、構造化されたオーサリング、マルチ�
 :::
 
 :::card
-![作成者アイコン &#x200B;](../assets/author.png)
+![作成者アイコン ](../assets/author.png)
 
 作成者
 
@@ -74,7 +74,7 @@ DITA トピック、マップ、コンテンツ再利用、レビューワーク
 :::
 
 :::card
-![発行者アイコン &#x200B;](../assets/publisher.png)
+![発行者アイコン ](../assets/publisher.png)
 
 発行者
 
@@ -106,7 +106,7 @@ Design DITA specializations, schemas, and content architecture for your implemen
 ::::landing-cards-container
 
 :::card
-![&#x200B; オーサリングアイコン &#x200B;](../assets/authoring.png)
+![ オーサリングアイコン ](../assets/authoring.png)
 
 オーサリング
 
@@ -116,7 +116,7 @@ web エディター、FrameMakerとの統合、コンテンツの再利用、レ
 :::
 
 :::card
-![&#x200B; レビューアイコン &#x200B;](../assets/review.png)
+![ レビューアイコン ](../assets/review.png)
 
 レビュー
 
@@ -126,7 +126,7 @@ web エディター、FrameMakerとの統合、コンテンツの再利用、レ
 :::
 
 :::card
-![公開アイコン &#x200B;](../assets/publishing.png)
+![公開アイコン ](../assets/publishing.png)
 
 公開
 
@@ -136,7 +136,7 @@ PDF、AEM Sites、HTML5、EPUB、JSON出力タイプ。
 :::
 
 :::card
-![翻訳アイコン &#x200B;](../assets/translation.png)
+![翻訳アイコン ](../assets/translation.png)
 
 翻訳
 
@@ -146,7 +146,7 @@ PDF、AEM Sites、HTML5、EPUB、JSON出力タイプ。
 :::
 
 :::card
-![&#x200B; レポートアイコン &#x200B;](../assets/reports.png)
+![ レポートアイコン ](../assets/reports.png)
 
 レポート
 
@@ -156,7 +156,7 @@ PDF、AEM Sites、HTML5、EPUB、JSON出力タイプ。
 :::
 
 :::card
-![設定アイコン &#x200B;](../assets/configure.png)
+![設定アイコン ](../assets/configure.png)
 
 設定
 
@@ -177,7 +177,7 @@ PDF、AEM Sites、HTML5、EPUB、JSON出力タイプ。
 <tr style="border: 0;">
 <td>
 
-![Git コネクタ &#x200B;](../assets/whats-new-git-connector.svg)
+![Git コネクタ ](../assets/whats-new-git-connector.svg)
 
 **[Git コネクタを使用したコンテンツの読み込み](./user-guide/web-editor-git-connector.md)**
 
@@ -186,7 +186,7 @@ Git リポジトリから直接Guidesにコンテンツを読み込みます。
 </td>
 <td>
 
-![&#x200B; マップコレクション &#x200B;](../assets/whats-new-map-collection.svg)
+![ マップコレクション ](../assets/whats-new-map-collection.svg)
 
 **[新しいマップコレクション](./user-guide/generate-output-use-new-map-collection-output-generation.md)**
 
@@ -195,7 +195,7 @@ Git リポジトリから直接Guidesにコンテンツを読み込みます。
 </td>
 <td>
 
-![&#x200B; レビューを委任](../assets/whats-new-delegate-review.svg)
+![ レビューを委任](../assets/whats-new-delegate-review.svg)
 
 **[レビュータスクを委任](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer)**
 
@@ -209,18 +209,22 @@ Git リポジトリから直接Guidesにコンテンツを読み込みます。
 
 ## 新機能
 
-[!BADGE 2026.09.0 リリース &#x200B;]{type=Informative}
+[!BADGE 2026.09.0 リリース ]{type=Informative}
+
+>[!BEGINSHADEBOX]
 
 Adobe Experience Manager Guides 2026.09.0 リリースでは、AI アシスタントにAIを活用したスマートタグが導入され、オーサリング、コンテンツ管理、パブリッシング、全体的なユーザーエクスペリエンスが強化されました。
 
 [新機能を見る](./release-info/whats-new-2026-09-0.md)
+
+>[!ENDSHADEBOX]
 
 
 ## その他のリソース
 
 * [Cloud Serviceのリリースノート](./release-info/latest-release-info-cs.md)
 * [オンプレミスのリリースノート](./release-info/latest-release-info.md)
-* [AEM Guides community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=ja){target="_blank"}
-* [GitHub リポジトリ](https://github.com/AdobeDocs/experience-manager-guides.ja-JP){target="_blank"}
-* [サポート](https://experienceleague.adobe.com/support/v2/en/?lang=ja){target="_blank"}
-* [ビデオチュートリアル](https://experienceleague.adobe.com/ja/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [AEM Guides community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
+* [GitHub リポジトリ](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [サポート](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [ビデオチュートリアル](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
