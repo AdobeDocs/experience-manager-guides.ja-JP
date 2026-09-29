@@ -186,7 +186,7 @@ Adobe Experience Manager Guidesでは、変数セットもサポートしてお�
 
    >[!NOTE]
    >
-   > カスタマイズまたは編集用のページレイアウトを開くための[ ページレイアウトのカスタマイズ ](../native-pdf/components-pdf-template.md#customize-a-page-layout-customize-page-layout) セクションを表示します。
+   > カスタマイズまたは編集用のページレイアウトを開くための[&#x200B; ページレイアウトのカスタマイズ &#x200B;](../native-pdf/components-pdf-template.md#customize-a-page-layout-customize-page-layout) セクションを表示します。
 
 1. ヘッダーを選択して、変数の挿入をアクティブにします。
 
@@ -208,7 +208,7 @@ Adobe Experience Manager Guidesでは、変数セットもサポートしてお�
 
 異なる変数の値を使用してPDF出力を生成できます。 レイアウトを生成する前に、出力プリセットの&#x200B;**変数セット** ドロップダウンリストから変数セットを選択して、その値を選択します。
 
-![変数セットドロップダウン ](assets/output-preset-variable-dropdown.png){width="550"}
+![変数セットドロップダウン &#x200B;](assets/output-preset-variable-dropdown.png){width="550"}
 
 *PDF出力の生成に使用する出力プリセットのドロップダウンから変数セットを選択します。*
 

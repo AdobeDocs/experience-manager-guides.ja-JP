@@ -42,7 +42,7 @@ ht-degree: 17%
 
 このリリースで修正された問題のリストについては、[4.6.0 リリースで修正された問題](../release-info/fixed-issues-4-6-0.md)を参照してください。
 
-4.6.0 リリース ](../release-info/upgrade-instructions-4-6-0.md)の[ アップグレード手順について説明します。
+4.6.0 リリース [&#128279;](../release-info/upgrade-instructions-4-6-0.md)の アップグレード手順について説明します。
 
 
 ## 公開の機能強化
@@ -55,9 +55,9 @@ ht-degree: 17%
 
 エクスペリエンスフラグメントとは、Adobe Experience Manager内でコンテンツとレイアウトを統合するモジュール式のコンテンツユニットです。 エクスペリエンスフラグメントは、一貫性のある魅力的なエクスペリエンスを構築し、複数のチャネルをまたいでさらに再利用するのに役立ちます。 例えば、ブランディング要素、プロモーションバナー、顧客の声、イベントプロモーションを含むヘッダーやフッター用のエクスペリエンスフラグメントを作成できます。
 
-![ ファイルのプロパティ オプション タブ ](./assets/file-properties-outputs-4-6.png) {width="300"}
+![&#x200B; ファイルのプロパティ オプション タブ &#x200B;](./assets/file-properties-outputs-4-6.png) {width="300"}
 
-*トピックのエクスペリエンスフラグメントを&#x200B;**ファイルプロパティ**の&#x200B;**出力**セクションから公開して表示します。*
+*トピックのエクスペリエンスフラグメントを&#x200B;**ファイルプロパティ**&#x200B;の&#x200B;**出力**&#x200B;セクションから公開して表示します。*
 
 Experience Manager Guidesでは、トピックまたはそのエレメントをエクスペリエンスフラグメントに公開できるようになりました。 トピックまたはその要素とエクスペリエンスフラグメントテンプレートとの間に、JSON ベースのマッピングを作成できます。 また、条件フィルターを使用して、エクスペリエンスフラグメントのバリエーションを作成することもできます。
 
@@ -80,9 +80,9 @@ Experience Manager Guidesには、コンテンツフラグメントに関する�
 
 現在では、コンテンツフラグメント全体を上書きする代わりに、コンテンツフラグメントの公開は、マッピングされたコンテンツのみを置き換えます。 この機能を使用すると、複数のトピックやコンテンツフラグメントエディターなど、複数のソースからのデータをコンテンツフラグメントに含めることができます。
 
-![ コンテンツフラグメントとして公開ダイアログで、フラグメントモデルとマッピングの詳細を追加](assets/content-fragment-mapping.png)
+![&#x200B; コンテンツフラグメントとして公開ダイアログで、フラグメントモデルとマッピングの詳細を追加](assets/content-fragment-mapping.png)
 
-詳しくは、[ コンテンツフラグメントの公開](../user-guide/publish-content-fragment.md)を参照してください。
+詳しくは、[&#x200B; コンテンツフラグメントの公開](../user-guide/publish-content-fragment.md)を参照してください。
 
 ### AEM Sites プリセットを使いやすいように再編成
 
@@ -106,9 +106,9 @@ scope=&quot;peer&quot;を使用して、他のDITA マップで使用可能な�
 
 同じトピックがファイル内で複数回参照される場合は、各インスタンスに対して異なる公開コンテキストを追加できます。 これにより、コンテンツに対する柔軟性と制御が向上します。 例えば、トピック 3はマップ Bとマップ Cの両方に存在します。トピック 1には、トピック 3への2つの参照が含まれています。 最初のリンクの親マップとしてマップ Bを選択し、2番目のリンクの親としてマップ Cを選択できます。
 
-![従来のAEM Sites プリセット ](assets/aem-sites-legacy.png)
+![従来のAEM Sites プリセット &#x200B;](assets/aem-sites-legacy.png)
 
-*リンクされたトピックの公開コンテキストを、**AEM Sites**プリセットの&#x200B;**クロスマップ参照**タブから指定します。*
+*リンクされたトピックの公開コンテキストを、**AEM Sites**&#x200B;プリセットの&#x200B;**クロスマップ参照**&#x200B;タブから指定します。*
 
 
 
@@ -119,11 +119,11 @@ scope=&quot;peer&quot;を使用して、他のDITA マップで使用可能な�
 
 Experience Manager Guidesでは、ネイティブのPDF出力を生成しながら、トピックのファイルプロパティからページレイアウトにメタデータを追加できます。 この機能を使用して、タイトル、タグ、説明などのトピック固有のメタデータをページレイアウトに追加します。 トピックのドキュメントの状態に基づいてトピックの背景に透かしを追加するなど、トピックのメタデータに基づいて、公開されたPDFをカスタマイズすることもできます。
 
-![ メタデータネイティブ pdfを追加](./assets/add-metadata-native-pdf.png) {width="300"}
+![&#x200B; メタデータネイティブ pdfを追加](./assets/add-metadata-native-pdf.png) {width="300"}
 
 *ページレイアウトのフィールドにメタデータを追加します。*
 
-ページレイアウトでフィールドとメタデータ ](../native-pdf/design-page-layout.md#add-fields-metadata)を[追加する方法について説明します。
+ページレイアウトでフィールドとメタデータ [&#128279;](../native-pdf/design-page-layout.md#add-fields-metadata)を追加する方法について説明します。
 
 
 
@@ -133,7 +133,7 @@ Experience Manager Guidesでは、ネイティブのPDF出力を生成しなが�
 
 Experience Manager Guidesは、ネイティブのPDF パブリッシングでMarkdown ドキュメントもサポートしています。 この機能は便利で、DITA マップ内のMarkdown ファイルのPDFを生成するのに役立ちます。
 
-詳しくは、「[Markdown ドキュメントのサポート ](../web-editor/native-pdf-web-editor.md#support-for-markdown-documents)」をご覧ください。
+詳しくは、「[Markdown ドキュメントのサポート &#x200B;](../web-editor/native-pdf-web-editor.md#support-for-markdown-documents)」をご覧ください。
 
 
 ### DITA-OTで出力を生成する際に、一時ファイルをダウンロードします
@@ -168,7 +168,7 @@ DITAまたはMarkdown ファイルが他のユーザーによってロックま�
 >
 > フォルダープロファイル管理者は、*ui_config.json*&#x200B;を更新して、オーサーモード、Source モード、レイアウトモードの読み取り専用ファイルに調和してアクセスできるようにする必要があります。
 
-![ ロックされたファイルエディター](./assets/locked-file-editor.png)
+![&#x200B; ロックされたファイルエディター](./assets/locked-file-editor.png)
 *ロックされたファイルを作成者モードとSource モードで表示します。*
 
 
@@ -194,7 +194,7 @@ Web エディターでドキュメントを編集する際に、現在の場所�
 - **現在のカーソル位置に挿入できる現在の場所**&#x200B;の有効な要素。
 - **現在の場所**&#x200B;の外部にある有効な要素です。この要素は、要素階層内の現在の要素の親の後に挿入できます。
 
-![ エレメントを挿入ダイアログ ](assets/insert-element-dialog.png){width="300"}
+![&#x200B; エレメントを挿入ダイアログ &#x200B;](assets/insert-element-dialog.png){width="300"}
 
 *有効な要素の個別リストを表示して、現在の場所に要素を挿入します。*
 
@@ -232,7 +232,7 @@ Experience Manager Guidesでは、条件をグループ化してネストされ�
 
 ネストされた階層で整理された![条件](assets/conditions-nested-hierarchy.png){width="300"}
 
-**条件**&#x200B;機能の説明について詳しくは、[左パネル ](../user-guide/web-editor-features.md#id2051EA0M0HS) セクションを参照してください。
+**条件**&#x200B;機能の説明について詳しくは、[左パネル &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS) セクションを参照してください。
 
 ### 新しいユーザー環境設定UIで、Web エディター体験をカスタマイズできます
 
@@ -240,11 +240,11 @@ Web エディターの&#x200B;**ユーザー環境設定** ダイアログボッ
 
 タイトルまたはファイル名でファイルを表示するように設定したり、アプリケーションとソースビューのテーマを変更したりできます。 また、リポジトリビューで開いているファイルを見つけたり、区切り以外のスペースを処理したりするための設定を行う場合にも役立ちます。
 
-![ ユーザー設定の「アピアランス」タブ ](assets/user_preference_editor_appearance.png){width="550"}
+![&#x200B; ユーザー設定の「アピアランス」タブ &#x200B;](assets/user_preference_editor_appearance.png){width="550"}
 
 *好みに合わせて外観をカスタマイズします。*
 
-**ユーザー設定**&#x200B;機能の説明について詳しくは、[左パネル ](../user-guide/web-editor-features.md#id2051EA0M0HS) セクションを参照してください。
+**ユーザー設定**&#x200B;機能の説明について詳しくは、[左パネル &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS) セクションを参照してください。
 
 
 ### Web エディターのリポジトリービューで開いているファイルを探します
@@ -253,7 +253,7 @@ Web エディターの&#x200B;**ユーザー環境設定** ダイアログボッ
 
 この機能は、編集中に、リポジトリ階層内のファイルの場所を簡単に表示するのにも役立ちます。
 
-詳細については、[ リポジトリビュー](../user-guide/web-editor-edit-topics.md#locate-an-open-file-in-the-repository-view)で開いているファイルを見つけます。
+詳細については、[&#x200B; リポジトリビュー](../user-guide/web-editor-edit-topics.md#locate-an-open-file-in-the-repository-view)で開いているファイルを見つけます。
 
 ### Web エディターでの非改行スペースの処理を改善
 
@@ -271,11 +271,11 @@ Experience Manager Guidesを使用すると、Web エディターでドキュメ
 このドロップダウンメニューを使用すると、選択したタグのコンテンツプロパティにすばやくアクセスできます。
 
 
-![ コンテンツプロパティの種類ドロップダウンメニュー](assets/content-properties-type.png){width="300"}
+![&#x200B; コンテンツプロパティの種類ドロップダウンメニュー](assets/content-properties-type.png){width="300"}
 
 *現在のタグの階層からタグを選択します。*
 
-**コンテンツのプロパティ**&#x200B;機能について詳しくは、[右側のパネル ](../user-guide/web-editor-features.md#id2051eb003yk)の節を参照してください。
+**コンテンツのプロパティ**&#x200B;機能について詳しくは、[右側のパネル &#x200B;](../user-guide/web-editor-features.md#id2051eb003yk)の節を参照してください。
 
 
 
@@ -284,7 +284,7 @@ Experience Manager Guidesを使用すると、Web エディターでドキュメ
 Experience Manager Guidesは、マップエディターのバルクファイルチェックイン機能のパフォーマンスとエクスペリエンスを向上させます。 この改善により、ファイルを一括でチェックインしやすくなります。
 ファイルのチェックイン操作の進行状況は、**新しいバージョンとして保存およびロック解除** ダイアログボックスからも確認できます。 最後に、操作が完了し、選択したすべてのチェックアウト済みファイルがチェックインされた後に、成功メッセージが表示されます。
 
-![新しいバージョンとして保存してロック解除ダイアログボックス ](./assets/save-version-lock.png){width="300"}
+![新しいバージョンとして保存してロック解除ダイアログボックス &#x200B;](./assets/save-version-lock.png){width="300"}
 
 *マップエディターから一括でチェックインされたファイルのリストとステータスを表示します。*
 
@@ -320,7 +320,7 @@ Experience Manager Guides では、言語グループを作成し、コンテン
 全体として、言語グループを作成すると、翻訳プロジェクトの効率と生産性が向上し、最終的には複数の言語にわたるローカライゼーションプロセスが向上します。
 
 
-Web エディター](../user-guide/translate-documents-web-editor.md)からドキュメントを[翻訳する方法について説明します。
+Web エディター[&#128279;](../user-guide/translate-documents-web-editor.md)からドキュメントを翻訳する方法について説明します。
 
 
 ### 大規模な翻訳プロジェクトのパフォーマンスと拡張性を向上
@@ -329,7 +329,7 @@ Web エディター](../user-guide/translate-documents-web-editor.md)からド�
 
 この改善は、生産性と全体的な体験を向上させるので、非常に有益です。
 
-Web エディター](../user-guide/translate-documents-web-editor.md)からドキュメントを[翻訳する方法について詳しくは、こちらを参照してください。
+Web エディター[&#128279;](../user-guide/translate-documents-web-editor.md)からドキュメントを翻訳する方法について詳しくは、こちらを参照してください。
 
 ### 翻訳後に翻訳プロジェクトを自動的に削除または無効にする
 
@@ -345,7 +345,7 @@ Web エディター](../user-guide/translate-documents-web-editor.md)からド�
 *翻訳プロジェクトの言語グループとクリーンアップ設定を構成します。*
 
 
-翻訳プロジェクトを自動的に削除または無効化する方法について詳しくは、](../user-guide/translate-documents-web-editor.md#automatically-delete-or-disable-a-completed-translation-project)を参照してください。[
+翻訳プロジェクトを自動的に削除または無効化する方法について詳しくは、[&#128279;](../user-guide/translate-documents-web-editor.md#automatically-delete-or-disable-a-completed-translation-project)を参照してください。
 
 
 ### Adobe Experience Manager Assetsの選択フォルダーの後処理を無効にする
@@ -355,7 +355,7 @@ Web エディター](../user-guide/translate-documents-web-editor.md)からド�
 
 フォルダーの後処理を無効にすると、そのフォルダーのすべての子フォルダーにも影響します。 ただし、Experience Manager Guidesでは、無視されたフォルダー内の個々の子フォルダーの後処理を選択的に有効にできるようになりました。
 
-フォルダー](../cs-install-guide/conf-folder-post-processing.md)の後処理を[無効にする方法について説明します。
+フォルダー[&#128279;](../cs-install-guide/conf-folder-post-processing.md)の後処理を無効にする方法について説明します。
 
 
 ## データソースコネクタの機能強化

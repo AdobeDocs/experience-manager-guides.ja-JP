@@ -22,17 +22,17 @@ Adobe Developer ConsoleでIMS設定を作成するには、次の手順を実行
 1. [Adobe Developer Console](https://developer.adobe.com/console)を起動します。
 1. Developer Consoleに正常にログインすると、**Home**&#x200B;画面が表示されます。 **ホーム**&#x200B;画面では、プロジェクトやダウンロードへのトップナビゲーションリンクなど、情報やクイックリンクを簡単に見つけることができます。
 1. 新しい空のプロジェクトを作成するには、**クイックスタート** リンクから「**新しいプロジェクトを作成**」を選択します。
-   ![ クイックスタートリンク ](assets/conf-ss-quick-start.png) {width="550"}
+   ![&#x200B; クイックスタートリンク &#x200B;](assets/conf-ss-quick-start.png) {width="550"}
    *新しいプロジェクトを作成します。*
 
 1. **プロジェクト**&#x200B;画面から「**API**&#x200B;を追加」を選択します。  「**API**&#x200B;を追加」画面が表示されます。 この画面には、アプリケーションの開発に使用できるAdobe製品およびテクノロジに使用できるすべてのAPI、イベント、サービスが表示されます。
 
-1. **I/O Management API**を選択して、プロジェクトに追加します。
+1. **I/O Management API**&#x200B;を選択して、プロジェクトに追加します。
    ![IO管理API](assets/confi-ss-io-management.png)
    *I/O Management APIをプロジェクトに追加します。*
 
-1. 新しい&#x200B;**OAuth資格情報**を作成して保存します。
-   configure API](assets/conf-ss-OAuth-credential.png)の![OAuth資格情報タイル {width="3000"}
+1. 新しい&#x200B;**OAuth資格情報**&#x200B;を作成して保存します。
+   configure API![&#128279;](assets/conf-ss-OAuth-credential.png)のOAuth資格情報タイル {width="3000"}
    *APIにOAuth資格情報を設定します。*
 
 1. 「**プロジェクト**」タブで、「**OAuth サーバーからサーバー**」オプションを選択し、新しく作成した資格情報を選択します。
@@ -103,5 +103,5 @@ IMS設定を環境に追加したら、次の手順を実行して、これら�
 ```
 
 
-設定が完了すると、**スマートヘルプ** ![ スマートヘルプ ](assets/smart-help-icon.svg) アイコンがエディターの右側のパネルに表示されます。 アイコンを選択して、**スマートヘルプ** パネルを表示します。
+設定が完了すると、**スマートヘルプ** ![&#x200B; スマートヘルプ &#x200B;](assets/smart-help-icon.svg) アイコンがエディターの右側のパネルに表示されます。 アイコンを選択して、**スマートヘルプ** パネルを表示します。
 詳しくは、Experience Manager ユーザーガイドの「[AIを活用したスマートヘルプでコンテンツを検索する](../user-guide/ai-based-smart-help.md)」の節を参照してください。
