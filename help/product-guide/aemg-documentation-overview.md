@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: a45df7e9eef75b0c4684e944fd9611eb6e7b060e
+source-git-commit: 863a9c706ce3aa62aaa24bef7242019e1886f255
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '325'
 ht-degree: 6%
 ---
 # Experience Manager Guides ドキュメント
@@ -206,6 +206,15 @@ Git リポジトリから直接Guidesにコンテンツを読み込みます。
 </table>
 
 >[!ENDSHADEBOX]
+
+## 新機能
+
+[!BADGE 2026.09.0 リリース &#x200B;]{type=Informative}
+
+Adobe Experience Manager Guides 2026.09.0 リリースでは、AI アシスタントにAIを活用したスマートタグが導入され、オーサリング、コンテンツ管理、パブリッシング、全体的なユーザーエクスペリエンスが強化されました。
+
+[新機能を見る](./release-info/whats-new-2026-09-0.md)
+
 
 ## その他のリソース
 
