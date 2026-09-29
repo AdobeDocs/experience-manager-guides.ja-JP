@@ -8,16 +8,17 @@ exl-id: 96e54aee-52df-4af1-97fd-34986f553be4
 TQID: https://experienceleague.adobe.com/Y6sobecXfXdQn-BpVO-z3H2uLbSCLpbcPtYUv7pFPYo
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Admin
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
-source-wordcount: 1318
-ht-degree: 0%
-
+source-wordcount: '1476'
+ht-degree: 1%
 ---
-
 # PDF出力の変数
 
 変数とは、再利用可能な情報となるデータの名前と値のペアのことです。 これにより、コンテンツを持ち出して更新しやすくなります。 変数またはその値を変更すると、その変数または値のすべての出現箇所が更新されます。
@@ -77,7 +78,7 @@ ht-degree: 0%
 
 ### 変数の検索とプレビュー
 
-変数の値を検索してプレビューできます。**変数** パネルの検索ボックスに文字列を入力します。変数名とその値に基づいて両方を検索します。
+変数の値を検索してプレビューできます。 **変数** パネルの検索ボックスに文字列を入力します。 変数名とその値に基づいて両方を検索します。
 変数は、次の2つの方法でプレビューできます。
 
 変数のプレビューには、デフォルト値が表示されます。 例えば、ProductName変数のデフォルト値を「Adobe Experience Manager Guides」として定義した場合、この値はプレビューに表示されます。
@@ -141,7 +142,7 @@ Adobe Experience Manager Guidesでは、変数セットもサポートしてお�
 
 すべての変数セットは同じ変数を持ちますが、値が異なる場合があります。
 
-特定の変数セットの値を表示、編集、プレビューできます。**変数セット** ドロップダウンから変数セットを選択します。値は、選択した変数セットに従って表示されます。
+特定の変数セットの値を表示、編集、プレビューできます。 **変数セット** ドロップダウンから変数セットを選択します。 値は、選択した変数セットに従って表示されます。
 特定の変数セットの変数の値を編集すると、デフォルト値が上書きされ、選択した変数セットの値が変更されます。
 例えば、*Adobe-set1*&#x200B;および&#x200B;*Adobe-set2*&#x200B;の変数セットに次の値を設定できます。
 
@@ -185,7 +186,7 @@ Adobe Experience Manager Guidesでは、変数セットもサポートしてお�
 
    >[!NOTE]
    >
-   > カスタマイズまたは編集用のページレイアウトを開くための[&#x200B; ページレイアウトのカスタマイズ &#x200B;](../native-pdf/components-pdf-template.md#customize-a-page-layout-customize-page-layout) セクションを表示します。
+   > カスタマイズまたは編集用のページレイアウトを開くための[ ページレイアウトのカスタマイズ ](../native-pdf/components-pdf-template.md#customize-a-page-layout-customize-page-layout) セクションを表示します。
 
 1. ヘッダーを選択して、変数の挿入をアクティブにします。
 
@@ -207,7 +208,7 @@ Adobe Experience Manager Guidesでは、変数セットもサポートしてお�
 
 異なる変数の値を使用してPDF出力を生成できます。 レイアウトを生成する前に、出力プリセットの&#x200B;**変数セット** ドロップダウンリストから変数セットを選択して、その値を選択します。
 
-![変数セットドロップダウン &#x200B;](assets/output-preset-variable-dropdown.png){width="550"}
+![変数セットドロップダウン ](assets/output-preset-variable-dropdown.png){width="550"}
 
 *PDF出力の生成に使用する出力プリセットのドロップダウンから変数セットを選択します。*
 

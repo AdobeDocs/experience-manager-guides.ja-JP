@@ -5,25 +5,33 @@ exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
 TQID: https://experienceleague.adobe.com/gR8g8sV4RYkMabIxgGFk1I3lKffpMKJdvsPasHgC5aw
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+    internal-label: APIs
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
-source-wordcount: 989
+source-wordcount: '989'
 ht-degree: 1%
-
 ---
-
 # AI アシスタントの設定
 
 管理者は、Experience Manager GuidesのAI アシスタント機能を設定できます。 AI アシスタントは、Adobe IMS認証ベースの認証によって保護されています。 セキュアなトークンベースの認証ワークフローを使用して、Adobe Adobeと自社の環境を統合し、AI アシスタント機能を利用できるようになります。 次の設定により、**AI設定** タブをフォルダープロファイルに追加できます。 追加したら、Experience Manager GuidesのAI アシスタント機能を使用できます。
@@ -49,18 +57,18 @@ Adobe Developer ConsoleでIMS設定を作成するには、次の手順を実行
 1. [Adobe Developer Console](https://developer.adobe.com/console)を起動します。
 1. Developer Consoleに正常にログインすると、**Home**&#x200B;画面が表示されます。 **ホーム**&#x200B;画面では、プロジェクトやダウンロードへのトップナビゲーションリンクなど、情報やクイックリンクを簡単に見つけることができます。
 1. 新しい空のプロジェクトを作成するには、**クイックスタート** リンクから「**新しいプロジェクトを作成**」を選択します。
-   ![&#x200B; クイックスタートリンク &#x200B;](assets/conf-ss-quick-start.png) {width="550"}
+   ![ クイックスタートリンク ](assets/conf-ss-quick-start.png) {width="550"}
    *新しいプロジェクトを作成します。*
 
 1. **プロジェクト**&#x200B;画面から「**API**&#x200B;を追加」を選択します。  「**API**&#x200B;を追加」画面が表示されます。 この画面には、アプリケーションの開発に使用できるAdobe製品およびテクノロジに使用できるすべてのAPI、イベント、サービスが表示されます。
 
-1. **I/O Management API**&#x200B;を選択して、プロジェクトに追加します。
+1. **I/O Management API**を選択して、プロジェクトに追加します。
    ![IO管理API](assets/confi-ss-io-management.png)
    *I/O Management APIをプロジェクトに追加します。*
 
 1. 新しい&#x200B;**OAuth資格情報**&#x200B;を作成して保存します。
 
-   configure API![&#128279;](assets/conf-ss-OAuth-credential.png)のOAuth資格情報タイル
+   configure API](assets/conf-ss-OAuth-credential.png)の![OAuth資格情報タイル
 
    *APIにOAuth資格情報を設定します。*
 
@@ -132,7 +140,7 @@ IMS設定を追加し、AI アシスタントフラグを有効にしたら、�
 
 設定の変更が適用されたら、目的のフォルダープロファイルのAI アシスタント機能を有効にします。
 
-詳細については、[&#x200B; エディター機能について](../user-guide/web-editor-features.md)を参照してください。
+詳細については、[ エディター機能について](../user-guide/web-editor-features.md)を参照してください。
 
 ![](assets/conf-folder-ai-assistant-enable-settings.png){width="300"}
 
@@ -140,7 +148,7 @@ IMS設定を追加し、AI アシスタントフラグを有効にしたら、�
 
 AI アシスタント機能を有効にした後、フォルダープロファイルでスマート提案の機能を設定します。
 
-詳しくは、[&#x200B; フォルダープロファイルでのスマート提案の設定](./conf-folder-level.md#configure-ai-assistant-for-smart-help-and-authoring)を参照してください。
+詳しくは、[ フォルダープロファイルでのスマート提案の設定](./conf-folder-level.md#configure-ai-assistant-for-smart-help-and-authoring)を参照してください。
 
 
 ## 付録 {#appendix}
@@ -181,4 +189,4 @@ AI アシスタント機能を有効にした後、フォルダープロファ�
 | chat.url | AI アシスタントサービスのエンドポイント | [https://aem-guides-ai-v2.adobe.io](https://aem-guides-ai-v2.adobe.io) | [https://aem-guides-ai-v2.adobe.io](https://aem-guides-ai-v2.adobe.io) |
 | instance.type | AEM インスタンスのタイプ。 スマート提案が設定されているAEM インスタンスごとに一意であることを確認します。 ユースケースとしては、「instance.type」 = 「stage」を使用してステージ環境で機能をテストすると同時に、「prod」でも機能が設定されます。 | 環境を識別する一意のキー。 *英数字*&#x200B;個の値のみ使用できます。 &quot;dev&quot;/&quot;stage&quot;/&quot;prod&quot;/&quot;test1&quot;/&quot;stage2&quot; | 「prod」 |
 
-設定が完了すると、Experience Manager GuidesのホームページとエディターにAI アシスタントアイコンが表示されます。 詳しくは、Experience Manager ユーザーガイドの[AI アシスタント &#x200B;](../user-guide/ai-assistant.md) セクションを参照してください。
+設定が完了すると、Experience Manager GuidesのホームページとエディターにAI アシスタントアイコンが表示されます。 詳しくは、Experience Manager ユーザーガイドの[AI アシスタント ](../user-guide/ai-assistant.md) セクションを参照してください。

@@ -7,24 +7,30 @@ role: User
 TQID: https://experienceleague.adobe.com/9NrYbEPcHa0QEwAnN5VTK7UVT9sBDJHOYZZuSsID8Kc
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
-source-wordcount: 1211
+source-wordcount: '1211'
 ht-degree: 2%
-
 ---
-
 # エディターからMarkdown ドキュメントを作成する {#id223MIE0B079}
 
 Markdownは、プレーンテキストドキュメントに書式要素を追加するのに役立つ、軽量なマークアップ言語です。 Adobe Experience Manager Guidesには、エディターからMarkdown \（.md\）トピックを作成、作成、プレビューする機能が用意されています。 既存のMarkdown ドキュメントをアップロードして、エディターで編集することもできます。
@@ -45,7 +51,7 @@ Markdownは、プレーンテキストドキュメントに書式要素を追加
 
    >[!NOTE]
    >
-   > アップグレードの場合は、使用中の現在のフォルダープロファイルにMarkdown テンプレートを追加する必要があります。 エディター[&#128279;](./web-editor-features.md#templates)から新しいマークダウン テンプレートを作成するか、既存のテンプレートをマークダウン オーサリングに使用できます。 Experience Manager Guidesでオーサリングテンプレートを追加する方法について詳しくは、[&#x200B; グローバルレベルまたはフォルダーレベルのプロファイルの設定](../cs-install-guide/conf-folder-level.md)を参照してください。
+   > アップグレードの場合は、使用中の現在のフォルダープロファイルにMarkdown テンプレートを追加する必要があります。 エディター](./web-editor-features.md#templates)から新しいマークダウン テンプレートを[作成するか、既存のテンプレートをマークダウン オーサリングに使用できます。 Experience Manager Guidesでオーサリングテンプレートを追加する方法について詳しくは、[ グローバルレベルまたはフォルダーレベルのプロファイルの設定](../cs-install-guide/conf-folder-level.md)を参照してください。
 
 1. 「**作成**」を選択します。
 
@@ -162,7 +168,7 @@ Markdown オーサリングの場合、エディターは、コンテンツの�
 * **作成日**: トピックが作成された日時を表示します。
 * **変更日**: トピックが変更された日時を表示します。
 * **によってロックされています**: トピックをチェックアウトしたユーザーを表示します。
-* **ドキュメントの状態**：現在開いているトピックのドキュメントの状態を選択して更新できます。 詳細については、[&#x200B; ドキュメントの状態](./web-editor-document-states.md)を参照してください。
+* **ドキュメントの状態**：現在開いているトピックのドキュメントの状態を選択して更新できます。 詳細については、[ ドキュメントの状態](./web-editor-document-states.md)を参照してください。
 * **タグ**：トピックのメタデータタグです。 これらは、プロパティページの「タグ」フィールドから設定します。 ドロップダウンから入力または選択できます。 タグはドロップダウンの下に表示されます。 タグを削除するには、タグの横にある十字アイコンを選択します。
 * **他のプロパティを編集**: ファイルのプロパティ ページから、他のプロパティを編集できます。
 
@@ -190,4 +196,4 @@ Markdown オーサリングの場合、エディターは、コンテンツの�
 
 
 
-**親トピック：**&#x200B;[&#x200B; エディターの概要](web-editor.md)
+**親トピック：**[ エディターの概要](web-editor.md)

@@ -6,31 +6,37 @@ exl-id: 13135928-f0fe-4147-83ac-8b06ca241ed7
 TQID: https://experienceleague.adobe.com/PFM-i4fVsgpBUJy4BeOpvyY4GWxGS8F24jEGb0Y2oiI
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Content reuse
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
-source-wordcount: 1026
+source-wordcount: '1021'
 ht-degree: 1%
-
 ---
-
 # 2024.10.0 リリース（2024年10月）の新機能
 
 この記事では、Adobe Experience Manager Guides as a Cloud Serviceの2024.10.0 リリースで導入された新機能と強化機能について説明します。
 
 このリリースで修正された問題の一覧については、[2024.10.0リリースで修正された問題](fixed-issues-2024-10-0.md)を参照してください。
 
-2024.10.0 リリース [&#128279;](../release-info/upgrade-instructions-2024-10-0.md)の アップグレード手順について説明します。
+2024.10.0 リリース ](../release-info/upgrade-instructions-2024-10-0.md)の[ アップグレード手順について説明します。
 
 
 ## 公開の機能強化
@@ -55,9 +61,9 @@ Experience Manager Guidesには、コンテンツフラグメントに関する�
 
 現在では、コンテンツフラグメント全体を上書きする代わりに、コンテンツフラグメントの公開は、マッピングされたコンテンツのみを置き換えます。 この機能を使用すると、複数のトピックやコンテンツフラグメントエディターなど、複数のソースからのデータをコンテンツフラグメントに含めることができます。
 
-![&#x200B; コンテンツフラグメントとして公開ダイアログで、フラグメントモデルとマッピングの詳細を追加](assets/content-fragment-mapping.png)
+![ コンテンツフラグメントとして公開ダイアログで、フラグメントモデルとマッピングの詳細を追加](assets/content-fragment-mapping.png)
 
-詳しくは、[&#x200B; コンテンツフラグメントの公開](../user-guide/publish-content-fragment.md)を参照してください。
+詳しくは、[ コンテンツフラグメントの公開](../user-guide/publish-content-fragment.md)を参照してください。
 
 
 ### 条件フィルターに基づくエクスペリエンスフラグメントのバリエーションの公開
@@ -89,11 +95,11 @@ scope=&quot;peer&quot;を使用して、他のDITA マップで使用可能な�
 
 同じトピックがファイル内で複数回参照される場合は、各インスタンスに対して異なる公開コンテキストを追加できます。 これにより、コンテンツに対する柔軟性と制御が向上します。 例えば、トピック 3はマップ Bとマップ Cの両方に存在します。トピック 1には、トピック 3への2つの参照が含まれています。 最初のリンクの親マップとしてマップ Bを選択し、2番目のリンクの親としてマップ Cを選択できます。
 
-![従来のAEM Sites プリセット &#x200B;](assets/aem-sites-legacy.png)
+![従来のAEM Sites プリセット ](assets/aem-sites-legacy.png)
 
-*リンクされたトピックの公開コンテキストを、**AEM Sites**&#x200B;プリセットの&#x200B;**クロスマップ参照**&#x200B;タブから指定します。*
+*リンクされたトピックの公開コンテキストを、**AEM Sites**プリセットの&#x200B;**クロスマップ参照**タブから指定します。*
 
-[AEM Sites プリセット &#x200B;](../user-guide/generate-output-aem-site.md)の詳細をご覧ください。
+[AEM Sites プリセット ](../user-guide/generate-output-aem-site.md)の詳細をご覧ください。
 
 ### HTML5出力のフラットファイル階層またはネストされたファイル階層を選択するオプション
 
@@ -101,7 +107,7 @@ Experience Manager Guidesでは、コンテンツ全体がHTML5出力フォー�
 ファイル階層を統合しない場合、HTML5出力はネストされたフォルダー階層で生成されます。 これは、コンテンツの元のフォルダー構造と、サブフォルダーに整理されたファイルが出力にレプリケートされることを意味します。 このネストされたフォルダー階層を使用すると、より複雑なファイルの整理と分類が可能になり、大量のデータの管理と移動が簡単になります。
 
 
-HTML5出力[&#128279;](../user-guide/generate-output-html5.md)を生成する方法について詳しくは、こちらを参照してください。
+HTML5出力](../user-guide/generate-output-html5.md)を[生成する方法について詳しくは、こちらを参照してください。
 
 
 ## エディターの機能強化
@@ -114,11 +120,12 @@ DITAまたはMarkdown ファイルが他のユーザーによってロックま�
 読み取り専用モードでは、**作成者**&#x200B;または&#x200B;**Source** モード内のタグと属性とともにコンテンツを表示し、ファイルプロパティを編集できます。
 
 読み取り専用DITA マップの&#x200B;**レイアウト** ビューにアクセスすることもできます。
+
 >[!NOTE]
 >
 > フォルダープロファイル管理者は、*ui_config.json*&#x200B;を更新して、オーサーモード、Source モード、レイアウトモードの読み取り専用ファイルに調和してアクセスできるようにする必要があります。
 
-![&#x200B; ロックされたファイルエディター](./assets/locked-file-editor.png)
+![ ロックされたファイルエディター](./assets/locked-file-editor.png)
 *ロックされたファイルを作成者モードとSource モードで表示します。*
 
 
@@ -131,4 +138,4 @@ Experience Manager Guidesでは、条件をグループ化してネストされ�
 
 ネストされた階層で整理された![条件](assets/conditions-nested-hierarchy.png){width="300"}
 
-**条件**&#x200B;機能の説明について詳しくは、[左パネル &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS) セクションを参照してください。
+**条件**&#x200B;機能の説明について詳しくは、[左パネル ](../user-guide/web-editor-features.md#id2051EA0M0HS) セクションを参照してください。

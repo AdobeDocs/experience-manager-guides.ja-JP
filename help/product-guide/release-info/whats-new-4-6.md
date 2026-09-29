@@ -6,34 +6,43 @@ exl-id: 3e73d595-a574-4104-af46-6994685a2f4c
 TQID: https://experienceleague.adobe.com/SuUfplm5WDGOjPlkNjMiWXoWzpFeM8RQsTHNL36iLn8
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: d6596f3f-92a7-43ec-b444-237db6adad05
+    internal-label: Native PDF publishing
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+    internal-label: Content structure
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Content reuse
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
-source-wordcount: 2738
-ht-degree: 19%
-
+source-wordcount: '3084'
+ht-degree: 17%
 ---
-
 # 4.6.0 リリース（2024年9月）の新機能
 
 この記事では、Adobe Experience Manager Guidesのバージョン 4.6.0で導入された新機能と強化機能について説明します。
 
 このリリースで修正された問題のリストについては、[4.6.0 リリースで修正された問題](../release-info/fixed-issues-4-6-0.md)を参照してください。
 
-4.6.0 リリース [&#128279;](../release-info/upgrade-instructions-4-6-0.md)の アップグレード手順について説明します。
+4.6.0 リリース ](../release-info/upgrade-instructions-4-6-0.md)の[ アップグレード手順について説明します。
 
 
 ## 公開の機能強化
@@ -46,9 +55,9 @@ ht-degree: 19%
 
 エクスペリエンスフラグメントとは、Adobe Experience Manager内でコンテンツとレイアウトを統合するモジュール式のコンテンツユニットです。 エクスペリエンスフラグメントは、一貫性のある魅力的なエクスペリエンスを構築し、複数のチャネルをまたいでさらに再利用するのに役立ちます。 例えば、ブランディング要素、プロモーションバナー、顧客の声、イベントプロモーションを含むヘッダーやフッター用のエクスペリエンスフラグメントを作成できます。
 
-![&#x200B; ファイルのプロパティ オプション タブ &#x200B;](./assets/file-properties-outputs-4-6.png) {width="300"}
+![ ファイルのプロパティ オプション タブ ](./assets/file-properties-outputs-4-6.png) {width="300"}
 
-*トピックのエクスペリエンスフラグメントを&#x200B;**ファイルプロパティ**&#x200B;の&#x200B;**出力**&#x200B;セクションから公開して表示します。*
+*トピックのエクスペリエンスフラグメントを&#x200B;**ファイルプロパティ**の&#x200B;**出力**セクションから公開して表示します。*
 
 Experience Manager Guidesでは、トピックまたはそのエレメントをエクスペリエンスフラグメントに公開できるようになりました。 トピックまたはその要素とエクスペリエンスフラグメントテンプレートとの間に、JSON ベースのマッピングを作成できます。 また、条件フィルターを使用して、エクスペリエンスフラグメントのバリエーションを作成することもできます。
 
@@ -71,9 +80,9 @@ Experience Manager Guidesには、コンテンツフラグメントに関する�
 
 現在では、コンテンツフラグメント全体を上書きする代わりに、コンテンツフラグメントの公開は、マッピングされたコンテンツのみを置き換えます。 この機能を使用すると、複数のトピックやコンテンツフラグメントエディターなど、複数のソースからのデータをコンテンツフラグメントに含めることができます。
 
-![&#x200B; コンテンツフラグメントとして公開ダイアログで、フラグメントモデルとマッピングの詳細を追加](assets/content-fragment-mapping.png)
+![ コンテンツフラグメントとして公開ダイアログで、フラグメントモデルとマッピングの詳細を追加](assets/content-fragment-mapping.png)
 
-詳しくは、[&#x200B; コンテンツフラグメントの公開](../user-guide/publish-content-fragment.md)を参照してください。
+詳しくは、[ コンテンツフラグメントの公開](../user-guide/publish-content-fragment.md)を参照してください。
 
 ### AEM Sites プリセットを使いやすいように再編成
 
@@ -97,9 +106,9 @@ scope=&quot;peer&quot;を使用して、他のDITA マップで使用可能な�
 
 同じトピックがファイル内で複数回参照される場合は、各インスタンスに対して異なる公開コンテキストを追加できます。 これにより、コンテンツに対する柔軟性と制御が向上します。 例えば、トピック 3はマップ Bとマップ Cの両方に存在します。トピック 1には、トピック 3への2つの参照が含まれています。 最初のリンクの親マップとしてマップ Bを選択し、2番目のリンクの親としてマップ Cを選択できます。
 
-![従来のAEM Sites プリセット &#x200B;](assets/aem-sites-legacy.png)
+![従来のAEM Sites プリセット ](assets/aem-sites-legacy.png)
 
-*リンクされたトピックの公開コンテキストを、**AEM Sites**&#x200B;プリセットの&#x200B;**クロスマップ参照**&#x200B;タブから指定します。*
+*リンクされたトピックの公開コンテキストを、**AEM Sites**プリセットの&#x200B;**クロスマップ参照**タブから指定します。*
 
 
 
@@ -110,11 +119,11 @@ scope=&quot;peer&quot;を使用して、他のDITA マップで使用可能な�
 
 Experience Manager Guidesでは、ネイティブのPDF出力を生成しながら、トピックのファイルプロパティからページレイアウトにメタデータを追加できます。 この機能を使用して、タイトル、タグ、説明などのトピック固有のメタデータをページレイアウトに追加します。 トピックのドキュメントの状態に基づいてトピックの背景に透かしを追加するなど、トピックのメタデータに基づいて、公開されたPDFをカスタマイズすることもできます。
 
-![&#x200B; メタデータネイティブ pdfを追加](./assets/add-metadata-native-pdf.png) {width="300"}
+![ メタデータネイティブ pdfを追加](./assets/add-metadata-native-pdf.png) {width="300"}
 
 *ページレイアウトのフィールドにメタデータを追加します。*
 
-ページレイアウトでフィールドとメタデータ [&#128279;](../native-pdf/design-page-layout.md#add-fields-metadata)を追加する方法について説明します。
+ページレイアウトでフィールドとメタデータ ](../native-pdf/design-page-layout.md#add-fields-metadata)を[追加する方法について説明します。
 
 
 
@@ -124,12 +133,12 @@ Experience Manager Guidesでは、ネイティブのPDF出力を生成しなが�
 
 Experience Manager Guidesは、ネイティブのPDF パブリッシングでMarkdown ドキュメントもサポートしています。 この機能は便利で、DITA マップ内のMarkdown ファイルのPDFを生成するのに役立ちます。
 
-詳しくは、「[Markdown ドキュメントのサポート &#x200B;](../web-editor/native-pdf-web-editor.md#support-for-markdown-documents)」をご覧ください。
+詳しくは、「[Markdown ドキュメントのサポート ](../web-editor/native-pdf-web-editor.md#support-for-markdown-documents)」をご覧ください。
 
 
 ### DITA-OTで出力を生成する際に、一時ファイルをダウンロードします
 
-AEM Sites、HTML、カスタム、JSON、またはPDF出力をDITA-OTを通じて公開するときに生成された一時ファイルをダウンロードすることもできます。この機能は、出力生成プロセス中に発生する可能性のある問題を分析し、効果的にトラブルシューティングするのに役立ちます。  
+AEM Sites、HTML、カスタム、JSON、またはPDF出力をDITA-OTを通じて公開するときに生成された一時ファイルをダウンロードすることもできます。 この機能は、出力生成プロセス中に発生する可能性のある問題を分析し、効果的にトラブルシューティングするのに役立ちます。  
 DITA-OTを使用して生成された出力に渡されたメタデータプロパティを選択した場合は、metadata.xml ファイルをダウンロードすることもできます。 
 
 プリセットの詳細については、[出力プリセットについて](../user-guide/generate-output-understand-presets.md)を参照してください。
@@ -138,7 +147,7 @@ DITA-OTを使用して生成された出力に渡されたメタデータプロ�
 ### HTML5出力のフラットファイル階層またはネストされたファイル階層を選択するオプション
 
 Experience Manager Guidesでは、コンテンツ全体がHTML5出力フォーマットで公開され、1つのフォルダーに保存される一時ファイルのフラットフォルダー階層を保持できるようになりました。
-ファイル階層を統合しない場合、HTML5出力はネストされたフォルダー階層で生成されます。これは、コンテンツの元のフォルダー構造と、サブフォルダーに整理されたファイルが出力にレプリケートされることを意味します。このネストされたフォルダー階層を使用すると、より複雑なファイルの整理と分類が可能になり、大量のデータの管理と移動が簡単になります。
+ファイル階層を統合しない場合、HTML5出力はネストされたフォルダー階層で生成されます。 これは、コンテンツの元のフォルダー構造と、サブフォルダーに整理されたファイルが出力にレプリケートされることを意味します。 このネストされたフォルダー階層を使用すると、より複雑なファイルの整理と分類が可能になり、大量のデータの管理と移動が簡単になります。
 
 
 HTML5出力を[生成する方法について詳しくは、こちらを参照してください](../user-guide/generate-output-html5.md)
@@ -150,15 +159,16 @@ HTML5出力を[生成する方法について詳しくは、こちらを参照�
 
 ### ロックされたファイルのオーサーモードとSource モードへの読み取り専用アクセス
 
-DITAまたはMarkdown ファイルが他のユーザーによってロックまたはチェックアウトされている場合、コンテンツを編集または変更することはできません。プレビュー以外に、オーサーモードまたはSource モードで読み取り専用ファイルとして表示することもできます。
+DITAまたはMarkdown ファイルが他のユーザーによってロックまたはチェックアウトされている場合、コンテンツを編集または変更することはできません。 プレビュー以外に、オーサーモードまたはSource モードで読み取り専用ファイルとして表示することもできます。
 読み取り専用モードでは、**作成者**&#x200B;または&#x200B;**Source** モード内のタグと属性とともにコンテンツを表示し、ファイルプロパティを編集できます。
 
 読み取り専用DITA マップの&#x200B;**レイアウト** ビューにアクセスすることもできます。
+
 >[!NOTE]
 >
 > フォルダープロファイル管理者は、*ui_config.json*&#x200B;を更新して、オーサーモード、Source モード、レイアウトモードの読み取り専用ファイルに調和してアクセスできるようにする必要があります。
 
-![&#x200B; ロックされたファイルエディター](./assets/locked-file-editor.png)
+![ ロックされたファイルエディター](./assets/locked-file-editor.png)
 *ロックされたファイルを作成者モードとSource モードで表示します。*
 
 
@@ -184,7 +194,7 @@ Web エディターでドキュメントを編集する際に、現在の場所�
 - **現在のカーソル位置に挿入できる現在の場所**&#x200B;の有効な要素。
 - **現在の場所**&#x200B;の外部にある有効な要素です。この要素は、要素階層内の現在の要素の親の後に挿入できます。
 
-![&#x200B; エレメントを挿入ダイアログ &#x200B;](assets/insert-element-dialog.png){width="300"}
+![ エレメントを挿入ダイアログ ](assets/insert-element-dialog.png){width="300"}
 
 *有効な要素の個別リストを表示して、現在の場所に要素を挿入します。*
 
@@ -222,7 +232,7 @@ Experience Manager Guidesでは、条件をグループ化してネストされ�
 
 ネストされた階層で整理された![条件](assets/conditions-nested-hierarchy.png){width="300"}
 
-**条件**&#x200B;機能の説明について詳しくは、[左パネル &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS) セクションを参照してください。
+**条件**&#x200B;機能の説明について詳しくは、[左パネル ](../user-guide/web-editor-features.md#id2051EA0M0HS) セクションを参照してください。
 
 ### 新しいユーザー環境設定UIで、Web エディター体験をカスタマイズできます
 
@@ -230,11 +240,11 @@ Web エディターの&#x200B;**ユーザー環境設定** ダイアログボッ
 
 タイトルまたはファイル名でファイルを表示するように設定したり、アプリケーションとソースビューのテーマを変更したりできます。 また、リポジトリビューで開いているファイルを見つけたり、区切り以外のスペースを処理したりするための設定を行う場合にも役立ちます。
 
-![&#x200B; ユーザー設定の「アピアランス」タブ &#x200B;](assets/user_preference_editor_appearance.png){width="550"}
+![ ユーザー設定の「アピアランス」タブ ](assets/user_preference_editor_appearance.png){width="550"}
 
 *好みに合わせて外観をカスタマイズします。*
 
-**ユーザー設定**&#x200B;機能の説明について詳しくは、[左パネル &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS) セクションを参照してください。
+**ユーザー設定**&#x200B;機能の説明について詳しくは、[左パネル ](../user-guide/web-editor-features.md#id2051EA0M0HS) セクションを参照してください。
 
 
 ### Web エディターのリポジトリービューで開いているファイルを探します
@@ -243,12 +253,12 @@ Web エディターの&#x200B;**ユーザー環境設定** ダイアログボッ
 
 この機能は、編集中に、リポジトリ階層内のファイルの場所を簡単に表示するのにも役立ちます。
 
-詳細については、[&#x200B; リポジトリビュー](../user-guide/web-editor-edit-topics.md#locate-an-open-file-in-the-repository-view)で開いているファイルを見つけます。
+詳細については、[ リポジトリビュー](../user-guide/web-editor-edit-topics.md#locate-an-open-file-in-the-repository-view)で開いているファイルを見つけます。
 
 ### Web エディターでの非改行スペースの処理を改善
 
-Experience Manager Guidesを使用すると、Web エディターでドキュメントを編集する際に、改行しないスペースインジケーターを表示できます。また、非分割スペースの処理も改善されます。
-複数の連続する空白を1つの空白に変換し、Web エディターでのWYSIWYG表示を維持します。この機能は、文書の全体的な外観と専門性を向上させるのにも役立ちます。
+Experience Manager Guidesを使用すると、Web エディターでドキュメントを編集する際に、改行しないスペースインジケーターを表示できます。 また、非分割スペースの処理も改善されます。
+複数の連続する空白を1つの空白に変換し、Web エディターでのWYSIWYG表示を維持します。 この機能は、文書の全体的な外観と専門性を向上させるのにも役立ちます。
 
 
 詳しくは、[Web エディターのその他の機能](../user-guide/web-editor-other-features.md)を参照してください。
@@ -261,20 +271,20 @@ Experience Manager Guidesを使用すると、Web エディターでドキュメ
 このドロップダウンメニューを使用すると、選択したタグのコンテンツプロパティにすばやくアクセスできます。
 
 
-![&#x200B; コンテンツプロパティの種類ドロップダウンメニュー](assets/content-properties-type.png){width="300"}
+![ コンテンツプロパティの種類ドロップダウンメニュー](assets/content-properties-type.png){width="300"}
 
 *現在のタグの階層からタグを選択します。*
 
-**コンテンツのプロパティ**&#x200B;機能について詳しくは、[右側のパネル &#x200B;](../user-guide/web-editor-features.md#id2051eb003yk)の節を参照してください。
+**コンテンツのプロパティ**&#x200B;機能について詳しくは、[右側のパネル ](../user-guide/web-editor-features.md#id2051eb003yk)の節を参照してください。
 
 
 
 ### マップエディターからファイルを一括でチェックインする際のパフォーマンスが向上しました
 
-Experience Manager Guidesは、マップエディターのバルクファイルチェックイン機能のパフォーマンスとエクスペリエンスを向上させます。この改善により、ファイルを一括でチェックインしやすくなります。
-ファイルのチェックイン操作の進行状況は、**新しいバージョンとして保存およびロック解除** ダイアログボックスからも確認できます。最後に、操作が完了し、選択したすべてのチェックアウト済みファイルがチェックインされた後に、成功メッセージが表示されます。
+Experience Manager Guidesは、マップエディターのバルクファイルチェックイン機能のパフォーマンスとエクスペリエンスを向上させます。 この改善により、ファイルを一括でチェックインしやすくなります。
+ファイルのチェックイン操作の進行状況は、**新しいバージョンとして保存およびロック解除** ダイアログボックスからも確認できます。 最後に、操作が完了し、選択したすべてのチェックアウト済みファイルがチェックインされた後に、成功メッセージが表示されます。
 
-![新しいバージョンとして保存してロック解除ダイアログボックス &#x200B;](./assets/save-version-lock.png){width="300"}
+![新しいバージョンとして保存してロック解除ダイアログボックス ](./assets/save-version-lock.png){width="300"}
 
 *マップエディターから一括でチェックインされたファイルのリストとステータスを表示します。*
 
@@ -310,7 +320,7 @@ Experience Manager Guides では、言語グループを作成し、コンテン
 全体として、言語グループを作成すると、翻訳プロジェクトの効率と生産性が向上し、最終的には複数の言語にわたるローカライゼーションプロセスが向上します。
 
 
-Web エディター[&#128279;](../user-guide/translate-documents-web-editor.md)からドキュメントを翻訳する方法について説明します。
+Web エディター](../user-guide/translate-documents-web-editor.md)からドキュメントを[翻訳する方法について説明します。
 
 
 ### 大規模な翻訳プロジェクトのパフォーマンスと拡張性を向上
@@ -319,7 +329,7 @@ Web エディター[&#128279;](../user-guide/translate-documents-web-editor.md)�
 
 この改善は、生産性と全体的な体験を向上させるので、非常に有益です。
 
-Web エディター[&#128279;](../user-guide/translate-documents-web-editor.md)からドキュメントを翻訳する方法について詳しくは、こちらを参照してください。
+Web エディター](../user-guide/translate-documents-web-editor.md)からドキュメントを[翻訳する方法について詳しくは、こちらを参照してください。
 
 ### 翻訳後に翻訳プロジェクトを自動的に削除または無効にする
 
@@ -335,17 +345,17 @@ Web エディター[&#128279;](../user-guide/translate-documents-web-editor.md)�
 *翻訳プロジェクトの言語グループとクリーンアップ設定を構成します。*
 
 
-翻訳プロジェクトを自動的に削除または無効化する方法について詳しくは、[&#128279;](../user-guide/translate-documents-web-editor.md#automatically-delete-or-disable-a-completed-translation-project)を参照してください。
+翻訳プロジェクトを自動的に削除または無効化する方法について詳しくは、](../user-guide/translate-documents-web-editor.md#automatically-delete-or-disable-a-completed-translation-project)を参照してください。[
 
 
 ### Adobe Experience Manager Assetsの選択フォルダーの後処理を無効にする
 
 
-管理者は、Experience Manager Assetsの選択フォルダーのUUIDの後処理と生成を無効にできるようになりました。この設定は、多くのアセットや複雑なフォルダー構造を扱う場合に特に役立ちます。また、複数のユーザーが干渉することなく、同時にアセットを迅速にアップロードすることもできます。  
+管理者は、Experience Manager Assetsの選択フォルダーのUUIDの後処理と生成を無効にできるようになりました。 この設定は、多くのアセットや複雑なフォルダー構造を扱う場合に特に役立ちます。 また、複数のユーザーが干渉することなく、同時にアセットを迅速にアップロードすることもできます。  
 
 フォルダーの後処理を無効にすると、そのフォルダーのすべての子フォルダーにも影響します。 ただし、Experience Manager Guidesでは、無視されたフォルダー内の個々の子フォルダーの後処理を選択的に有効にできるようになりました。
 
-フォルダー[&#128279;](../cs-install-guide/conf-folder-post-processing.md)の後処理を無効にする方法について説明します。
+フォルダー](../cs-install-guide/conf-folder-post-processing.md)の後処理を[無効にする方法について説明します。
 
 
 ## データソースコネクタの機能強化
