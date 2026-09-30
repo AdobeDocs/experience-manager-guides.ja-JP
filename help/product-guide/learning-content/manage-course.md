@@ -7,19 +7,22 @@ exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
 TQID: https://experienceleague.adobe.com/Ffg1tESMpsZU71BF5UcWu-bSBTekVGiv-dv24jD-tjA
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 75954eab3ac1738705fe2a7280973af39b9214df
+    internal-label: User
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
-source-wordcount: 740
+source-wordcount: '740'
 ht-degree: 0%
-
 ---
-
 # コースの管理
 
 コースを作成すると、コースマネージャーパネルが開きます。 コースをロックし、コースレベルで必要なすべての変更を行うことができます。 次の節では、コースを編集するために使用できるオプションについて説明します。
@@ -50,11 +53,11 @@ ht-degree: 0%
 1. 作成するコースコンテンツのタイプを選択します。
 1. **ファイルを選択** ダイアログで、コンテンツの場所に移動し、目的の学習コンテンツを選択します。
 
->[!NOTE]
->
-> HTML トピックをラーニンググループマップに追加すると、マップ内の対応する`topicref`に`format="html"`属性が自動的に追加されます。 これにより、トピックが正しく処理され、公開されます。
+   >[!NOTE]
+   >
+   > HTML トピックをラーニンググループマップに追加すると、マップ内の対応する`topicref`に`format="html"`属性が自動的に追加されます。 これにより、トピックが正しく処理され、公開されます。
 
-![](assets/add-existing-learning-content.png)
+   ![](assets/add-existing-learning-content.png)
 
 1. **Select**&#x200B;を選択します。
 

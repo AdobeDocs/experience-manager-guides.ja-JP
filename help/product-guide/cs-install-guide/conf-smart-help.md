@@ -5,24 +5,31 @@ exl-id: b5836c02-027e-459a-a7f0-f7d631f999dc
 TQID: https://experienceleague.adobe.com/CVY-v5lrpyLwIjmcxA6-p-4E0OuKZM14cvJomBqADz4
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+    internal-label: APIs
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
-source-wordcount: 591
+source-wordcount: '625'
 ht-degree: 0%
-
 ---
-
 # AIを活用したスマートヘルプを設定してコンテンツを検索
 
 管理者は、作成者に対してスマートヘルプ機能を設定できます。 スマートヘルプサービスは、Adobe IMS認証ベースの認証によって保護されています。 Adobeの安全なトークンベースの認証ワークフローと既存の環境を統合し、新しいスマートヘルプ機能を使用できるようにします。 次の設定を使用すると、**AI設定** タブをフォルダープロファイルに追加できます。 追加したら、Web エディターのスマートヘルプ機能を使用できます。
@@ -48,7 +55,7 @@ Adobe Developer ConsoleでIMS設定を作成するには、次の手順を実行
    *I/O Management APIをプロジェクトに追加します。*
 
 1. 新しい&#x200B;**OAuth資格情報**&#x200B;を作成して保存します。
-   configure APIの![OAuth資格情報タイル &#x200B;](assets/conf-ss-OAuth-credential.png) {width="3000"}
+   configure API![&#128279;](assets/conf-ss-OAuth-credential.png)のOAuth資格情報タイル {width="3000"}
    *APIにOAuth資格情報を設定します。*
 
 1. 「**プロジェクト**」タブで、「**OAuth サーバーからサーバー**」オプションを選択し、新しく作成した資格情報を選択します。
@@ -119,5 +126,5 @@ IMS設定を環境に追加したら、次の手順を実行して、これら�
 ```
 
 
-設定が完了すると、**スマートヘルプ** ![&#x200B; スマートヘルプ &#x200B;](assets/smart-help-icon.svg) アイコンがWeb エディターの右側のパネルに表示されます。アイコンを選択して、**スマートヘルプ** パネルを表示します。
+設定が完了すると、**スマートヘルプ** ![&#x200B; スマートヘルプ &#x200B;](assets/smart-help-icon.svg) アイコンがWeb エディターの右側のパネルに表示されます。 アイコンを選択して、**スマートヘルプ** パネルを表示します。
 詳しくは、Experience Manager ユーザーガイドの「[AIを活用したスマートヘルプでコンテンツを検索する](../user-guide/ai-based-smart-help.md)」の節を参照してください。

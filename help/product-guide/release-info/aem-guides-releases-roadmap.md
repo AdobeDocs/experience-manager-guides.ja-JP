@@ -1,5 +1,5 @@
 ---
-title: Adobe Experience Manager Guides リリースロードマップ 2024
+title: Adobe Experience Manager Guides リリースロードマップ
 description: Adobe Experience Manager Guides オンプレミスおよびAdobe Experience Manager Guides as a Cloud Serviceのライブリリースと今後のリリースについて説明します
 role: Admin, Leader, Developer, User
 exl-id: cb6709ce-2732-45d0-adfd-5aeca520240e
@@ -18,9 +18,9 @@ role_v2:
     internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 6841c373b75770e8691a2cac4d56aeb368b09480
+source-git-commit: 8614b2ad9ae0bc762745a4b558c1565ee4c7ca1a
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '938'
 ht-degree: 39%
 ---
 # [!DNL Experience Manager Guides] リリース情報 {#aem-guides-releases-roadmap}

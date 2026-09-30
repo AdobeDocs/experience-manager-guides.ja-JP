@@ -17,7 +17,7 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
 source-wordcount: '1891'
 ht-degree: 0%
@@ -91,9 +91,9 @@ AEM Guidesには、定義済みまたは標準のアプリケーション変数�
 
 1. **言語変数を追加**&#x200B;を選択 <img src="./assets/add-language-variable.svg" width="25">を使用して、選択した言語に新しい言語変数を追加します。 1つの言語に変数を追加すると、すべての言語に自動的に追加されます。 既存の変数と同じ名前の変数を作成することはできません。 エラーが表示されます。
 
->[!NOTE]
->
-> **言語変数を追加**&#x200B;を選択しない場合、変数は作成されず、リストに追加されます
+   >[!NOTE]
+   >
+   > **言語変数を追加**&#x200B;を選択しない場合、変数は作成されず、リストに追加されます
 
 ## 言語変数の書き出しと読み込み
 

@@ -2,13 +2,11 @@
 title: スマートヘルプとオーサリング用にAI アシスタントを設定する
 description: Experience Manager GuidesでAI アシスタントを設定する方法について説明します
 exl-id: 59da626d-8433-44c6-ba69-654c7796a264
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
 source-wordcount: '992'
 ht-degree: 1%
-
 ---
-
 # Cloud Service用AI アシスタントの設定
 
 管理者は、Experience Manager GuidesのAI アシスタント機能を設定できます。 AI アシスタントは、Adobe IMS認証ベースの認証によって保護されています。 セキュアなトークンベースの認証ワークフローを使用して、Adobe Adobeと自社の環境を統合し、AI アシスタント機能を利用できるようになります。 次の設定により、**AI設定** タブをフォルダープロファイルに追加できます。 追加したら、Experience Manager GuidesのAI アシスタント機能を使用できます。

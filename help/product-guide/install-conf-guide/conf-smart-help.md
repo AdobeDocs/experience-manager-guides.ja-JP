@@ -2,13 +2,11 @@
 title: コンテンツを検索するためのスマートヘルプの設定
 description: コンテンツを検索するためのスマートヘルプの設定方法を説明します
 exl-id: 5ebda503-066a-428e-bff4-1a1e91ada917
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '626'
 ht-degree: 0%
-
 ---
-
 # Cloud Serviceのコンテンツを検索するためのAIを活用したスマートヘルプの設定
 
 管理者は、作成者に対してスマートヘルプ機能を設定できます。 スマートヘルプサービスは、Adobe IMS認証ベースの認証によって保護されています。 Adobeの安全なトークンベースの認証ワークフローと既存の環境を統合し、新しいスマートヘルプ機能を使用できるようにします。 次の設定を使用すると、**AI設定** タブをフォルダープロファイルに追加できます。 追加したら、エディターのスマートヘルプ機能を使用できます。
@@ -34,7 +32,7 @@ Adobe Developer ConsoleでIMS設定を作成するには、次の手順を実行
    *I/O Management APIをプロジェクトに追加します。*
 
 1. 新しい&#x200B;**OAuth資格情報**&#x200B;を作成して保存します。
-   configure APIの![OAuth資格情報タイル &#x200B;](assets/conf-ss-OAuth-credential.png) {width="3000"}
+   configure API![&#128279;](assets/conf-ss-OAuth-credential.png)のOAuth資格情報タイル {width="3000"}
    *APIにOAuth資格情報を設定します。*
 
 1. 「**プロジェクト**」タブで、「**OAuth サーバーからサーバー**」オプションを選択し、新しく作成した資格情報を選択します。
@@ -105,5 +103,5 @@ IMS設定を環境に追加したら、次の手順を実行して、これら�
 ```
 
 
-設定が完了すると、**スマートヘルプ** ![&#x200B; スマートヘルプ &#x200B;](assets/smart-help-icon.svg) アイコンがエディターの右側のパネルに表示されます。アイコンを選択して、**スマートヘルプ** パネルを表示します。
+設定が完了すると、**スマートヘルプ** ![&#x200B; スマートヘルプ &#x200B;](assets/smart-help-icon.svg) アイコンがエディターの右側のパネルに表示されます。 アイコンを選択して、**スマートヘルプ** パネルを表示します。
 詳しくは、Experience Manager ユーザーガイドの「[AIを活用したスマートヘルプでコンテンツを検索する](../user-guide/ai-based-smart-help.md)」の節を参照してください。
