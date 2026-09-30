@@ -254,11 +254,11 @@ Experience Manager Guidesの最新リリースの新機能について説明し�
 
 有益なリソース、ドキュメント、サポートにアクセスし、プラットフォームを最大限に活用しましょう。
 
-* [GitHub リポジトリ](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
-* [サポート](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
-* [ビデオチュートリアル](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [GitHub リポジトリ](https://github.com/AdobeDocs/experience-manager-guides.ja-JP){target="_blank"}
+* [サポート](https://experienceleague.adobe.com/support/v2/en/?lang=ja){target="_blank"}
+* [ビデオチュートリアル](https://experienceleague.adobe.com/ja/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
 
-[コミュニティでのやり取り](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11)
+[コミュニティでのやり取り](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=ja)
 
 </td>
 </tr>
@@ -273,7 +273,7 @@ Experience Manager Guidesの最新リリースの新機能について説明し�
 
 * [Cloud Serviceのリリースノート](./release-info/latest-release-info-cs.md)
 * [オンプレミスのリリースノート](./release-info/latest-release-info.md)
-* [AEM Guides community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
-* [GitHub リポジトリ](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
-* [サポート](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
-* [ビデオチュートリアル](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [AEM Guides community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=ja){target="_blank"}
+* [GitHub リポジトリ](https://github.com/AdobeDocs/experience-manager-guides.ja-JP){target="_blank"}
+* [サポート](https://experienceleague.adobe.com/support/v2/en/?lang=ja){target="_blank"}
+* [ビデオチュートリアル](https://experienceleague.adobe.com/ja/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
