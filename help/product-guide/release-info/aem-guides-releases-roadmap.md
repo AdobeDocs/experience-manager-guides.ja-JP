@@ -18,7 +18,7 @@ role_v2:
     internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 8614b2ad9ae0bc762745a4b558c1565ee4c7ca1a
+source-git-commit: 40e70b86b070cb91a7bc18da595edd2f2f90d29b
 workflow-type: tm+mt
 source-wordcount: '938'
 ht-degree: 39%
@@ -46,7 +46,7 @@ Adobe Experience Manager Guides as a Cloud Serviceのリリースは次のよう
 
 | リリース | イベント | スケジュール | 新機能 | アップグレード手順 | 修正された問題 | ステータス |
 |---|---|---|---|---|---|---|
-| Adobe Experience Manager Guides 2026.09.0 <br> [&#x200B; （AEM リリース - 28187） &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | 自動更新 | 2026年9月28～30日（PT） | [こちら](./whats-new-2026-09-0.md) | [こちら](./upgrade-instructions-2026-09-0.md) | [こちら](./fixed-issues-2026-09-0.md) | 更新済み |
+| Adobe Experience Manager Guides 2026.09.0 <br> [&#x200B; （AEM リリース - 28386） &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | 自動更新 | 2026年9月28～30日（PT） | [こちら](./whats-new-2026-09-0.md) | [こちら](./upgrade-instructions-2026-09-0.md) | [こちら](./fixed-issues-2026-09-0.md) | 更新済み |
 | Adobe Experience Manager Guides 2026.08.0 <br> [&#x200B; （AEM リリース - 27293） &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | 自動更新 | 2026年8月3日～05日 | [こちら](./whats-new-2026-08-0.md) | [こちら](./upgrade-instructions-2026-08-0.md) | [こちら](./fixed-issues-2026-08-0.md) | 更新済み |
 | Adobe Experience Manager Guides 2026.07.0 <br> [&#x200B; （AEM リリース - 26908） &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | 自動更新 | 2026年7月の第1週 | - | [こちら](upgrade-instructions-2026-07-0.md) | [こちら](fixed-issues-2026-07-0.md) | 更新済み |
 | Adobe Experience Manager Guides 2026.06.0 <br> [&#x200B; （AEM リリース - 26773） &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | 自動更新 | 2026年6月22～24日（PT） | [こちら](whats-new-2026-06-0.md) | [こちら](upgrade-instructions-2026-06-0.md) | [こちら](fixed-issues-2026-06-0.md) | 更新済み |

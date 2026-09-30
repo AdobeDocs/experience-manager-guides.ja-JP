@@ -1,13 +1,11 @@
 ---
 title: リリースノート | Adobe Experience Manager Guides 5.2.0 リリースのアップグレード手順
 description: 互換性マトリックスと、Adobe Experience Manager Guidesの5.2.0 リリースにアップグレードする方法について説明します。
-source-git-commit: 575e8452f02626dab3d2bc6a040767a592588205
+source-git-commit: 40e70b86b070cb91a7bc18da595edd2f2f90d29b
 workflow-type: tm+mt
-source-wordcount: '859'
-ht-degree: 4%
-
+source-wordcount: '872'
+ht-degree: 3%
 ---
-
 # 5.2.0 リリース（2026年5月）のアップグレード手順
 
 この記事では、Adobe Experience Manager Guidesの5.2.0 リリースのアップグレード手順と互換性マトリックスについて説明します。
@@ -64,7 +62,7 @@ For more details, view [Configure and use the API JAR from Maven Central reposit
 
 | AEM ガイド | AEM バージョン | コンポーネントバージョン | サイトバージョン |
 |---|---|---| ---|
-| 5.2.0 UUID | 6.5 LTS | guides-components.all-1.4.1 | 該当なし |
+| 5.2.0 UUID | 6.5 LTS | guides-components.all-1.4.1 | aemg-sites-template-1.3.0 |
 | 5.2.0 UUID | 6.5 | guides-components.all-1.4.0 | aemg-sites-template-1.3.0 |
 
 ## 前提条件
@@ -116,7 +114,7 @@ Experience Manager Guidesのバージョン 5.2.0へのアップグレードを�
 | バージョンをダーティとしてマークするためのメタデータプロパティを無視 | `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | ダーティバージョンのメタデータプロパティを無視 | `xmleditor.dirtychecker.ignoremetadata` |
 | Source ビューでの機能の検索と置換 | `com.adobe.fmdita.config.ConfigManager` | マークアップの検索と置換を有効にする | `enable.markup.findreplace` |
 | 古いベースラインのピアリンクのスキップを有効または無効にする | `com.adobe.fmdita.config.ConfigManager` | ベースライン V1のピア リンクをスキップ | `guides.baseline.v1.skip.peer.links` |
-| 翻訳ワークフローのソースコンテンツを使用した宛先コピーの初期化を有効または無効にします。これは、従来の翻訳ワークフローが無効になっている場合にのみ適用されます。  | `com.adobe.fmdita.config.ConfigManager` | ソースコンテンツを使用した宛先言語コピーの初期化 | `translation.workflow.propagate.source.content` |
+| 翻訳ワークフローのソースコンテンツを使用した宛先コピーの初期化を有効または無効にします。 これは、従来の翻訳ワークフローが無効になっている場合にのみ適用されます。  | `com.adobe.fmdita.config.ConfigManager` | ソースコンテンツを使用した宛先言語コピーの初期化 | `translation.workflow.propagate.source.content` |
 | 参照ストアのクリーンアップ | `com.adobe.fmdita.config.ConfigManager` | ガイドのツリー削除有効 | `btree.deletion.enabled` |
 | DITA アセットレプリケーション | `com.adobe.fmdita.config.ConfigManager` | DITA アセットのレプリケート | `publish.replicate` |
 | アセット処理 | `com.adobe.fmdita.config.ConfigManager` | Guides アセット処理スケジュール ジョブを有効にする | `enable.asset.processing.scheduler` |

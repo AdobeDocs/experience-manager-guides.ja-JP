@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 863a9c706ce3aa62aaa24bef7242019e1886f255
+source-git-commit: ce193b31d44d3a67bb18d1db5531c23cb81c4803
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '459'
 ht-degree: 6%
 ---
 # Experience Manager Guides ドキュメント
@@ -214,6 +214,63 @@ Git リポジトリから直接Guidesにコンテンツを読み込みます。
 Adobe Experience Manager Guides 2026.09.0 リリースでは、AI アシスタントにAIを活用したスマートタグが導入され、オーサリング、コンテンツ管理、パブリッシング、全体的なユーザーエクスペリエンスが強化されました。
 
 [新機能を見る](./release-info/whats-new-2026-09-0.md)
+
+## クイックリンク
+
+>[!BEGINSHADEBOX]
+
+<table>
+<tr style="border: 0;">
+<td>
+
+![新機能](../assets/whats-new-git-connector.svg)
+
+**AEM Guidesの新機能**
+
+Experience Manager Guidesの最新リリースで導入された新機能と強化機能をご覧ください。
+
+- AI アシスタントのAIを活用したスマートタグ
+- レビュータスクでトピックを「完了」とマーク
+- 学習コンテンツの機能強化
+
+[すべて見る](../../help/product-guide/release-info/whats-new-2026-09-0.md)
+
+</td>
+<td>
+
+![リリースノート](../assets/whats-new-map-collection.svg)
+
+**リリースノート**
+
+クラウドおよびオンプレミスのデプロイメントに関する最新のリリースノートと製品アップデートをご覧ください。
+
+- クラウドリリース | [&#x200B; リリースノートを表示](./release-info/latest-release-info-cs.md)
+- オンプレミスのリリース | [&#x200B; リリースノートを表示](./release-info/latest-release-info.md)
+
+[リリースロードマップを見る](./release-info/aem-guides-releases-roadmap.md)
+
+</td>
+<td>
+
+![学習とサポート &#x200B;](../assets/whats-new-delegate-review.svg)
+
+**学習とサポート**
+
+有益なリソース、ドキュメント、サポートにアクセスし、プラットフォームを最大限に活用しましょう。
+
+* [GitHub リポジトリ](https://github.com/AdobeDocs/experience-manager-guides.ja-JP){target="_blank"}
+* [サポート](https://experienceleague.adobe.com/support/v2/en/?lang=ja){target="_blank"}
+* [ビデオチュートリアル](https://experienceleague.adobe.com/ja/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+
+[コミュニティでのやり取り](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=ja)
+
+</td>
+</tr>
+</table>
+
+>[!ENDSHADEBOX]
+
+
 
 
 ## その他のリソース
