@@ -220,7 +220,7 @@ AEM Guidesに付属しているデフォルトのデザインテンプレート�
 >
 > カスタムデザインテンプレートノードを作成した後、カスタムデザインテンプレートノードを使用するには、AEM サイト出力プリセットの「デザイン」オプションを更新する必要があります。
 
-詳しくは、[最初のAdobe Experience Manager 6.3 web サイトの作成](https://helpx.adobe.com/experience-manager/using/first_aem63_website.html)および[AEMでの独自のweb サイトの開発の基本](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/the-basics.html)を参照してください。
+詳しくは、[最初のAdobe Experience Manager 6.3 web サイトの作成](https://helpx.adobe.com/experience-manager/using/first_aem63_website.html)および[AEMでの独自のweb サイトの開発の基本](https://helpx.adobe.com/jp/experience-manager/6-3/sites/developing/using/the-basics.html)を参照してください。
 
 ### AEM サイト出力の生成にドキュメントタイトルを使用する
 
@@ -677,11 +677,11 @@ AEM Guidesには、マップコンソールをカスタマイズするための`
 
 >[!NOTE]
 >
-> AEM クライアントライブラリの作成について詳しくは、[&#x200B; クライアントサイドライブラリの使用](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/clientlibs.html)を参照してください。
+> AEM クライアントライブラリの作成について詳しくは、[&#x200B; クライアントサイドライブラリの使用](https://helpx.adobe.com/jp/experience-manager/6-4/sites/developing/using/clientlibs.html)を参照してください。
 
 ## 出力生成時の画像レンディションの処理 {#id177BF0G0VY4}
 
-AEMには、アセットを処理するためのデフォルトワークフローとメディアハンドルのセットが付属しています。 AEMには、最も一般的なMIME タイプのアセット処理を処理するための定義済みワークフローがあります。 通常、AEMでは、アップロードした画像ごとに、同じ画像の複数のレンディションがバイナリ形式で作成されます。 これらのレンディションのサイズは異なり、解像度も異なり、透かしが追加されたり、その他の特性が変更されたりします。 AEMでのアセットの処理方法について詳しくは、AEM ドキュメントの「[Media HandlersとWorkflowsを使用したAssetsの処理](https://helpx.adobe.com/experience-manager/6-5/assets/using/media-handlers.html)」を参照してください。
+AEMには、アセットを処理するためのデフォルトワークフローとメディアハンドルのセットが付属しています。 AEMには、最も一般的なMIME タイプのアセット処理を処理するための定義済みワークフローがあります。 通常、AEMでは、アップロードした画像ごとに、同じ画像の複数のレンディションがバイナリ形式で作成されます。 これらのレンディションのサイズは異なり、解像度も異なり、透かしが追加されたり、その他の特性が変更されたりします。 AEMでのアセットの処理方法について詳しくは、AEM ドキュメントの「[Media HandlersとWorkflowsを使用したAssetsの処理](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/media-handlers.html)」を参照してください。
 
 AEM Guidesでは、ドキュメントの出力を生成する際に使用する画像レンディションを設定できます。 例えば、デフォルトの画像レンディションのいずれかを選択するか、作成した画像レンディションを使用してドキュメントを公開できます。 ドキュメントを公開するための画像レンディションマッピングは、`/libs/fmdita/config/ **renditionmap.xml**` ファイルに保存されます。 `renditionmap.xml` ファイルのスニペットは次のとおりです。
 

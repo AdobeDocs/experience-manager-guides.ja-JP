@@ -72,11 +72,11 @@ AEM Guidesには、構造化コンテンツをオーサリングするための�
 
 ## 関連リソース
 
-- **機能ビデオ** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
+- **機能ビデオ** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=ja)
 
 - **ユーザーガイド** - [&#x200B; コンテンツの作成](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map/authoring-content.html)
 
-- **コミュニティフォーラム** - Experience Leagueでのセッション固有のコミュニティインタラクションについては、[AEM Guides フォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)をご覧ください。
+- **コミュニティフォーラム** - Experience Leagueでのセッション固有のコミュニティインタラクションについては、[AEM Guides フォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=ja)をご覧ください。
 
 >[!NOTE]
 >

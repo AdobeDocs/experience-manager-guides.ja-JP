@@ -61,7 +61,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
-> 現在AEM 6.5を使用しており、AEM 6.5 LTSに移行する予定がある場合は、Experience Manager Guides 5.2.0 アップグレードを進める前に、必ずAEM アップグレードを完了してください。 詳しくは、[Adobe Experience Manager（AEM） 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)へのアップグレードを参照してください。
+> 現在AEM 6.5を使用しており、AEM 6.5 LTSに移行する予定がある場合は、Experience Manager Guides 5.2.0 アップグレードを進める前に、必ずAEM アップグレードを完了してください。 詳しくは、[Adobe Experience Manager（AEM） 6.5 LTS](https://experienceleague.adobe.com/ja/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)へのアップグレードを参照してください。
 
 **前提条件**
 
@@ -89,7 +89,7 @@ Experience Manager Guides 5.2.0のアップグレードプロセスを開始す�
 
 >[!IMPORTANT]
 >
-> 現在AEM 6.5を使用しており、AEM 6.5 LTSに移行する予定がある場合は、Experience Manager Guides 5.1.0 アップグレードを進める前に、必ずAEM アップグレードを完了してください。 詳しくは、[Adobe Experience Manager（AEM） 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)へのアップグレードを参照してください。
+> 現在AEM 6.5を使用しており、AEM 6.5 LTSに移行する予定がある場合は、Experience Manager Guides 5.1.0 アップグレードを進める前に、必ずAEM アップグレードを完了してください。 詳しくは、[Adobe Experience Manager（AEM） 6.5 LTS](https://experienceleague.adobe.com/ja/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)へのアップグレードを参照してください。
 
 **前提条件**
 
@@ -293,7 +293,7 @@ Experience Manager Guidesには、クロスマップの場合に生成される�
 
 ### damAssetLuceneのインデックスを再作成する手順
 
-AEM Guidesを使用してdamAssetLuceneのインデックス定義を更新します。 必要なバージョンにアップグレードした後、damAssetLuceneのインデックス再作成については、[この記事](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460)を参照してください。
+AEM Guidesを使用してdamAssetLuceneのインデックス定義を更新します。 必要なバージョンにアップグレードした後、damAssetLuceneのインデックス再作成については、[この記事](https://experienceleague.adobe.com/ja/docs/experience-cloud-kcs/kbarticles/ka-16460)を参照してください。
 
 >[!NOTE]
 >

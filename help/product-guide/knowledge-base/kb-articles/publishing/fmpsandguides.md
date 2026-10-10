@@ -43,9 +43,9 @@ ht-degree: 0%
 
 ## FMPSとAEM Guidesの互換性
 
-- 4.1 AEM Guidesとの互換性：[4.1互換性マトリックス &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=en/#compatibility-matrix)
+- 4.1 AEM Guidesとの互換性：[4.1互換性マトリックス &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=ja/#compatibility-matrix)
 - 4.0 AEM Guidesとの互換性：[4.0互換性マトリックス &#x200B;](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html/#Compatibility%20matrix)
-- 最新リリース：[最新リリース情報](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=en)
+- 最新リリース：[最新リリース情報](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=ja)
 
 ## インストール
 
@@ -57,7 +57,7 @@ AEM GuidesおよびFMPSのインストールと設定については、次を参
 
 ### FMPS
 
-FMPSのインストールについては、[YouTubeのリンク &#x200B;](https://www.youtube.com/watch?v=2deelyM5VA8&t)または[FMPSのインストールと設定](https://help.adobe.com/en_US/framemaker/server/index.html#t=fmps-user-guide%2Finstall_config_fmps.html%23install_config_fmps&rhtocid=_2)を参照できます
+FMPSのインストールについては、[YouTubeのリンク &#x200B;](https://www.youtube.com/watch?v=2deelyM5VA8&t)または[FMPSのインストールと設定](https://help.adobe.com/ja_JP/framemaker/server/index.html#t=fmps-user-guide%2Finstall_config_fmps.html%23install_config_fmps&rhtocid=_2)を参照できます
 
 ## 必要な設定
 
@@ -117,10 +117,10 @@ FMPS2020.0.2以降のバージョンで、既に作成したベースライン�
 
 ## 関連トピックス：
 
-[FMPSの学習とサポート](https://helpx.adobe.com/support/framemaker-publishing-server.html)
+[FMPSの学習とサポート](https://helpx.adobe.com/jp/support/framemaker-publishing-server.html)
 
 [AEM Guidesの学習とサポート](https://helpx.adobe.com/in/support/xml-documentation-for-experience-manager.html)
 
 [FrameMakerとFMPS コミュニティ](https://community.adobe.com/t5/framemaker/ct-p/ct-framemaker?page=1&sort=latest_replies&lang=all&tabid=all)
 
-[AEM Guides Community](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)
+[AEM Guides Community](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=ja)

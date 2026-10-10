@@ -119,7 +119,7 @@ Assets UIでテンプレートを表示するには、このオプションを�
 
 カスタムテンプレートを作成したら、PDF出力プリセットの「ページレイアウト」から選択できます。
 
-PDF出力[&#128279;](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=en)を公開する方法について説明します。
+PDF出力[&#128279;](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=ja)を公開する方法について説明します。
 
 >[!NOTE]
 >

@@ -226,6 +226,6 @@ AEM as a Cloud Serviceへのカスタムインデックスのデプロイにつ�
 
 - [AEM as a Cloud Service インデックス作成ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/operations/indexing)
 - [Apache Jackrabbit Oak インデックスガイド](https://jackrabbit.apache.org/oak/docs/query/indexing.html)
-- [AEM Guides ドキュメント](https://experienceleague.adobe.com/en/docs/experience-manager-guides)
+- [AEM Guides ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-manager-guides)
 - [Cloud Manager のドキュメント](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager)
 

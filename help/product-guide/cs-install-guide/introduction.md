@@ -119,9 +119,9 @@ Adobe Experience Manager Guides \（後に&#x200B;*AEM Guides*\）は、強力�
 
 [Adobe Experience Manager \（AEM\） &#x200B;](https://business.adobe.com/jp/products/experience-manager/adobe-experience-manager.html)は、web サイト、モバイルアプリ、フォームを作成するための包括的なコンテンツ管理ソリューションです。 AEMは、マーケティングコンテンツとアセットの管理を支援します。 AEMはas a Cloud Serviceで利用できます。 AEM as a Cloud Serviceは、AEM Content Management SystemとAEM Digital Asset Managementを組み合わせることで、パーソナライズされたコンテンツ主導型のエクスペリエンスをお客様に提供するのに役立ちます。AEM as a Cloud Serviceの導入を開始するのに役立つ主なリソースは次のとおりです。
 
-- [Experience Manager as a Cloud Serviceの概要](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=en)
-- [AEM as a Cloud Service への移行ジャーニーの概要](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/getting-started.html?lang=en)
-- [Experience Manager as a Cloud Serviceへのオンボーディングを開始](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/home.html?lang=enhttps://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/home.html?lang=en)
+- [Experience Manager as a Cloud Serviceの概要](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=ja)
+- [AEM as a Cloud Service への移行ジャーニーの概要](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/getting-started.html?lang=ja)
+- [Experience Manager as a Cloud Serviceへのオンボーディングを開始](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/home.html?lang=jahttps://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/home.html?lang=en)
 - [AEM as a Cloud Service のアプリケーションの実装](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/home.html?lang=ja)
 - [AEM as a Cloud Service へのデプロイ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/overview.html?lang=ja)
 - [Assets as a Cloud Service ガイド](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html?lang=ja)

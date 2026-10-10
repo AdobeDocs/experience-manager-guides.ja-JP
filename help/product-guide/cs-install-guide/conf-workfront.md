@@ -52,7 +52,7 @@ Experience Manager Guidesでの[Adobe Workfront統合](../user-guide/workfront-i
 まず、次のことを確認してください。
 
 1. Adobe Workfrontへの標準アクセス権と、Experience Manager Guidesへの管理者アクセス権があります。
-2. 次のフィールドを使用して、Experience Manager Guidesに必要な新しいカスタムフォームを[Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/customize/custom-forms/design-a-form/design-a-form)で作成します。
+2. 次のフィールドを使用して、Experience Manager Guidesに必要な新しいカスタムフォームを[Adobe Workfront](https://experienceleague.adobe.com/ja/docs/workfront/using/administration-and-setup/customize/custom-forms/design-a-form/design-a-form)で作成します。
 
    | フィールドタイプ | ラベル | 名前 | 選択肢（値を表示を有効） |
    |------------|------|------|-------------------------------|
@@ -86,7 +86,7 @@ Experience Manager GuidesでAdobe Workfrontを設定するには、次の手順�
 
    Adobe Workfront設定で設定された&#x200B;**クライアント ID**&#x200B;および&#x200B;**クライアントシークレット** キーにアクセスするには、`Setup >> Systems>> oAuth2 Applications`に移動します。
 
-   Adobe Workfront ドメインの設定について詳しくは、[Workfront統合用のOAuth2 アプリケーションの作成](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/configure-integrations/create-oauth-application#create-an-oauth2-application-using-user-credentials-authorization-code-flow)の「認証コード フロー」セクションを参照してください。
+   Adobe Workfront ドメインの設定について詳しくは、[Workfront統合用のOAuth2 アプリケーションの作成](https://experienceleague.adobe.com/ja/docs/workfront/using/administration-and-setup/configure-integrations/create-oauth-application#create-an-oauth2-application-using-user-credentials-authorization-code-flow)の「認証コード フロー」セクションを参照してください。
 
 4. **ログインを選択して**&#x200B;を確認します。
 
@@ -98,4 +98,4 @@ Experience Manager GuidesでAdobe Workfrontを設定するには、次の手順�
 6. カスタムフォーム ドロップダウンリストで、Experience Manager Guides用に作成したAdobe Workfront カスタムフォームを選択します。 [前提条件](#prerequisites)を表示します。
 7. 「**保存して閉じる**」を選択して、Workfront設定の変更を適用および保存します。
 
-設定が完了したら、[Experience Manager Guidesと同じ電子メールアドレスを使用してAdobe Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/add-users/create-manage-users/add-users)にユーザーを追加します。
+設定が完了したら、[Experience Manager Guidesと同じ電子メールアドレスを使用してAdobe Workfront](https://experienceleague.adobe.com/ja/docs/workfront/using/administration-and-setup/add-users/create-manage-users/add-users)にユーザーを追加します。

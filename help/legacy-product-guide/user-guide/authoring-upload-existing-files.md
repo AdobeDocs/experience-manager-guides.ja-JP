@@ -32,11 +32,11 @@ AEM Guidesで使用する既存のDITA コンテンツのリポジトリがあ�
 
 >[!IMPORTANT]
 >
-> AEMでサポートされているコンテンツのアップロード方法について詳しくは、[Adobe Experience Manager as a Cloud Service Assetsにデジタルアセットを追加する](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html)を参照してください。
+> AEMでサポートされているコンテンツのアップロード方法について詳しくは、[Adobe Experience Manager as a Cloud Service Assetsにデジタルアセットを追加する](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=ja)を参照してください。
 
 ## Assets Console ユーザーインターフェイス
 
-デスクトップでコンテンツを選択し、AEM ユーザーインターフェイス \（web ブラウザー\）を移動先フォルダーにドラッグできます。 詳しくは、AEM ドキュメントの[&#x200B; アセットのアップロード &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#upload-assets)を参照してください。
+デスクトップでコンテンツを選択し、AEM ユーザーインターフェイス \（web ブラウザー\）を移動先フォルダーにドラッグできます。 詳しくは、AEM ドキュメントの[&#x200B; アセットのアップロード &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=ja#upload-assets)を参照してください。
 
 ## AEM デスクトップアプリケーション
 
@@ -44,7 +44,7 @@ AEM Guidesで使用する既存のDITA コンテンツのリポジトリがあ�
 
 ## アセットの一括取り込み
 
-大規模な移行や時折の一括取り込みがある場合は、アセットの一括取り込み機能を使用してコンテンツをアップロードします。 このツールを使用すると、AzureやS3などのサポートされているデータストアから一括コンテンツをアップロードできます。 詳しくは、[&#x200B; アセットの一括インジェスター](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=en#asset-bulk-ingestor)を参照してください。
+大規模な移行や時折の一括取り込みがある場合は、アセットの一括取り込み機能を使用してコンテンツをアップロードします。 このツールを使用すると、AzureやS3などのサポートされているデータストアから一括コンテンツをアップロードできます。 詳しくは、[&#x200B; アセットの一括インジェスター](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=ja#asset-bulk-ingestor)を参照してください。
 
 ## FrameMakerを使用した一括アップロード
 

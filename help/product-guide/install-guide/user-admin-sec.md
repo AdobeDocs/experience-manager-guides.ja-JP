@@ -59,13 +59,13 @@ AEM Guidesの機能にアクセスして設定するには、ユーザーを作�
 
 AEM ドキュメントの次のトピックでは、ユーザー管理とセキュリティ関連の概念と機能について説明します。
 
-- [AEM のユーザーとグループ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)
+- [AEM のユーザーとグループ](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)
 
 - [AEM の権限](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)
 
-- [ユーザーとグループの管理](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)
+- [ユーザーとグループの管理](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)
 
-- [権限の管理](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions)
+- [権限の管理](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions)
 
 
 ## AEM Guidesで作成されたユーザーグループ {#id181TF0K0MHT}
