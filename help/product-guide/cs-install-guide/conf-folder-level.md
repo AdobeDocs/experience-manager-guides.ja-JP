@@ -5,37 +5,56 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/By8tpSe4XkfhYsfCbJMhlGqyi3asQfJa2QqlLF6zKDQ
+TQID: 'https://experienceleague.adobe.com/By8tpSe4XkfhYsfCbJMhlGqyi3asQfJa2QqlLF6zKDQ'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
   - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: e13e7f13-0f4c-43f9-b0a7-1f33bd47e105
+    internal-label: Troubleshooting
   - id: e557051c-ff02-4ff8-9421-cf452af0edd5
+    internal-label: Installation
   - id: f7774ebe-aec9-42b6-97e4-5002acdc712e
+    internal-label: Review
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Content reuse
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 5239
+source-wordcount: '5239'
 ht-degree: 0%
-
 ---
-
 # グローバルレベルまたはフォルダーレベルのプロファイルの設定 {#id181AH2003PF}
 
 企業では、異なるグループまたは製品が、異なるオーサリングテンプレート、出力テンプレート、条件付き属性プロファイル \（またはサブジェクトスキーム\）、およびWeb エディター設定を使用する場合があります。 これらをエンタープライズ（またはグローバル）レベルでのみ設定すると、作成者は自分に関係のないテンプレートやプロファイルを見るので、作成者は操作が難しくなります。
@@ -54,21 +73,21 @@ AEM Guidesでは、オーサリング \（topicまたはmap\） テンプレー�
 
 - **テンプレート**：このタブを使用して、作成者がDITA コンテンツの作成または公開に使用するテンプレートを設定します。 次のトピックテンプレートは、すぐに使用できます。
 
-   - 用語集
+  - 用語集
 
-   - 参照
+  - 参照
 
-   - トピック
+  - トピック
 
-   - コンセプト
+  - コンセプト
 
-   - タスク
+  - タスク
 
-   - トラブルシューティング
+  - トラブルシューティング
 
-   - 空白
+  - 空白
 
-   - DITAVAL
+  - DITAVAL
 
   >[!NOTE]
   >
@@ -76,33 +95,33 @@ AEM Guidesでは、オーサリング \（topicまたはmap\） テンプレー�
 
   トピックテンプレートに加えて、作成者が利用できるマップテンプレートを定義することもできます。 次のマップテンプレートは、すぐに使用できます。
 
-   - Map
+  - Map
 
-   - Bookmap
+  - Bookmap
 
 - **出力プリセット**: テンプレートと同様に、事前に設定された5つの出力プリセットがあります。
 
-   - AEMサイト
+  - AEMサイト
 
-   - PDF
+  - PDF
 
-   - HTML5
+  - HTML5
 
-   - EPUB
+  - EPUB
 
-   - カスタム
+  - カスタム
 
   これらの出力プリセットを使用して、コンテンツを公開できます。 これらのプリセットは、グローバルプロファイルまたはフォルダーレベルのプロファイルの管理者が設定できます。 設定が完了すると、パブリッシングプリセットは、新しく作成したDITA マップに対してパブリッシャーで使用できるようになります。 既存のDITA マップに公開プリセットを適用することもできます。詳しくは、[&#x200B; プリセットの変更を適用](#id18AGD0K0OHS)を参照してください。
 
 - **XML エディターの設定**：このタブを使用して、Web エディターのルックアンドフィールや様々な機能をカスタマイズします。 Web エディターでは、次の設定可能な設定を使用できます。
 
-   - XML エディターのUI設定
-   - XML エディターのページレイアウト
-   - XML エディター設定
-   - CSS テンプレートレイアウト
-   - XML エディターのスニペット
-   - XML コンテンツバージョンラベル
-   - Rootmap \（フォルダーレベルでのみ\）
+  - XML エディターのUI設定
+  - XML エディターのページレイアウト
+  - XML エディター設定
+  - CSS テンプレートレイアウト
+  - XML エディターのスニペット
+  - XML コンテンツバージョンラベル
+  - Rootmap \（フォルダーレベルでのみ\）
 
 グローバルプロファイルとフォルダーレベルのプロファイルの両方を設定できます。 フォルダーレベルのプロファイルでは、設定を適用するフォルダーを定義できます。 これらの設定には、条件付き属性、テンプレート、出力プリセット、およびXML エディターの設定が含まれます。 コンディショナルプリセット、テンプレート、およびXML エディターの設定は、設定されたフォルダーで作業する作成者が使用できるようになります。 同様に、パブリッシャーは、設定されたフォルダー内で定義された設定された出力プリセットにアクセスできます。
 

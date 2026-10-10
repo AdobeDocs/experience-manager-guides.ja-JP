@@ -5,13 +5,28 @@ feature: User Management
 role: Admin
 level: Experienced
 exl-id: c5ac6537-d7e8-4408-b85d-b82d7c038591
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: dc1f7602-db3c-4ad4-a440-ff999bb16455
+    internal-label: User management
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 12%
-
 ---
-
 # ユーザー管理とセキュリティ {#id181AED00G5Z}
 
 AEM Guidesの機能にアクセスして設定するには、ユーザーを作成する必要があります。 その後、これらのユーザーには、AEM Guidesのすべての機能または特定の機能にアクセスする権限を割り当てることができます。 AEMでユーザー認証を設定および管理する方法と、認証と認証の仕組みの背後にある理論について説明します。
@@ -85,11 +100,11 @@ AEM Guidesには、3つのグループが用意されています。 これら�
 
 - デフォルトでは、*発行者*&#x200B;には、DAM内の次のフォルダーに対するアクセス権と権限が付与されます。
 
-   - `/content/fmdita` -\>読み取りと書き込み（適用先：![](./assets/Smock_Cloud_18_N.svg)） <br>``/var/dxml``-\>読み取りと書き込み（適用先：![](./assets/Smock_Building_18_N.svg)）
+  - `/content/fmdita` -\>読み取りと書き込み（適用先：![](./assets/Smock_Cloud_18_N.svg)） <br>``/var/dxml``-\>読み取りと書き込み（適用先：![](./assets/Smock_Building_18_N.svg)）
 
-   - `/content/dam/fmdita-outputs` -\>読み取りと書き込み
+  - `/content/dam/fmdita-outputs` -\>読み取りと書き込み
 
-   - `/content/output/sites` -\>読み取りと書き込み
+  - `/content/output/sites` -\>読み取りと書き込み
 
   上記のデフォルトの公開場所を除く他の場所を使用している場合は、パブリッシャーに明示的な読み取りおよび書き込み権限を付与する必要があります。
 

@@ -5,23 +5,33 @@ exl-id: b801c2b3-445f-4aa7-a4f2-029563d7cb3a
 feature: Java-Based API Packages
 role: Developer
 level: Experienced
-TQID: https://experienceleague.adobe.com/g5Mp7tMM9JaAYwNmMyPmaFEcI0fx66vrX8ry97lIUF8
+TQID: 'https://experienceleague.adobe.com/g5Mp7tMM9JaAYwNmMyPmaFEcI0fx66vrX8ry97lIUF8'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+    internal-label: APIs
+subfeature_v2:
+  - id: b08e3313-66b4-4bf9-9abb-43d0f38c4fd3
+    internal-label: Java Based API Packages
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 618
+source-wordcount: '620'
 ht-degree: 1%
-
 ---
-
 # パッケージを作成およびアクティブ化するためのJava ベースのAPI {#id175UB30E05Z}
 
 >[!NOTE]
@@ -90,7 +100,7 @@ throws GuidesApiException
 
 | 名前 | 種類 | 説明 |
 |----|----|-----------|
-| `json` | 文字列 | 構築するCRX パッケージを決定するJSON文字列。 次の形式を使用してJSON文字列を作成します：<br>- `activate`：はBoolean \（`true`/`false`\）型です。 オーサーインスタンスで作成されたCRX パッケージをパブリッシュインスタンスにレプリケートするかどうかを指定します。<br> - `rules`: JSON配列タイプです。 CRX パッケージを構築するために順次処理されるJSON ルールの配列。<br> - `rootPath`：はString タイプです。 ノード/プロパティクエリが実行されるベースパス。 ノード/プロパティクエリが存在しない場合、ルートパスと、ルートパスの下に存在するすべてのノードがCRX パッケージに含まれます。<br> - `nodeQueries`: Regex Array タイプです。 ルートパスの下に特定のファイルを含めるために使用される正規表現の配列。<br> - `propertyQueries`: JSON配列タイプです。 ルートパスで実行されるXPath クエリと、クエリの実行後に各JCR ノードに存在するプロパティの名前で構成される各JSON オブジェクトを含むJSON オブジェクトの配列。 各JCR ノードのプロパティの値は、パスまたはパスの配列である必要があります。 このプロパティに存在するパスは、CRX パッケージに追加されます。 |
+| `json` | String | 構築するCRX パッケージを決定するJSON文字列。 次の形式を使用してJSON文字列を作成します：<br>- `activate`：はBoolean \（`true`/`false`\）型です。 オーサーインスタンスで作成されたCRX パッケージをパブリッシュインスタンスにレプリケートするかどうかを指定します。<br> - `rules`: JSON配列タイプです。 CRX パッケージを構築するために順次処理されるJSON ルールの配列。<br> - `rootPath`：はString タイプです。 ノード/プロパティクエリが実行されるベースパス。 ノード/プロパティクエリが存在しない場合、ルートパスと、ルートパスの下に存在するすべてのノードがCRX パッケージに含まれます。<br> - `nodeQueries`: Regex Array タイプです。 ルートパスの下に特定のファイルを含めるために使用される正規表現の配列。<br> - `propertyQueries`: JSON配列タイプです。 ルートパスで実行されるXPath クエリと、クエリの実行後に各JCR ノードに存在するプロパティの名前で構成される各JSON オブジェクトを含むJSON オブジェクトの配列。 各JCR ノードのプロパティの値は、パスまたはパスの配列である必要があります。 このプロパティに存在するパスは、CRX パッケージに追加されます。 |
 | `outputstream` | java.io.OutputStream | これは、クエリの実行、ファイルのインクルージョン、CRX パッケージの作成、アクティベーションなど、様々なステージの結果を書き込むために使用されます。 作成中またはアクティブ化プロセス中に発生したエラーは、`outputstream`に書き込まれます。 これはデバッグに便利です。 |
 | `session` | 文字列 | アクティブ化権限を持つ有効なJCR セッション。 |
 | `activationTarget` | 文字列 | （*オプション*） `preview`または`publish` （Cloud Serviceの場合）、および`publish` （オンプレミスソフトウェアの場合） <br> - Cloud Serviceの場合、パラメーターに無効な値が含まれている場合、パッケージアクティベーションに失敗します。<br> - オンプレミス ソフトウェアの場合、パラメーターに無効な値が含まれている場合、エラーはログに記録され、デフォルト値`publish`を使用して公開が行われます。 |

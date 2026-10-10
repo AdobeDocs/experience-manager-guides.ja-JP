@@ -4,19 +4,23 @@ description: AEM Guidesで完了したレビュータスクをレビュー担当
 exl-id: 7c468a1c-046c-4b40-9f0b-1a67e6cf65fe
 feature: Reviewing
 role: User
-TQID: https://experienceleague.adobe.com/Uwt2OFOxnk-4HVSr9QUwcX5TTrWwwQ94pl9nRboMn3U
+TQID: 'https://experienceleague.adobe.com/Uwt2OFOxnk-4HVSr9QUwcX5TTrWwwQ94pl9nRboMn3U'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 72792fc7-6fd6-5775-a2c2-99253bb26dc2
+    internal-label: Reviewing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 387
+source-wordcount: '387'
 ht-degree: 0%
-
 ---
-
 # 完了したレビュータスクの表示
 
 作成者（またはイニシエータ）であるプロジェクトのレビュータスクを完了できます。 レビュータスクが完了すると、あなたとすべてのレビューアーは読み取り専用モードでレビュータスクにアクセスできます。

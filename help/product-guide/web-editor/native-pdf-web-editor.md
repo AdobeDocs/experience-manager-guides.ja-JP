@@ -4,7 +4,7 @@ description: ネイティブ PDF パブリッシングの使用方法、PDF出�
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
 feature: Publishing, Native PDF Output
 role: User
-TQID: https://experienceleague.adobe.com/GV3iYtBdFVrQwFjdvfqnfDIWPMugO3hFjS4FZqspG2M
+TQID: 'https://experienceleague.adobe.com/GV3iYtBdFVrQwFjdvfqnfDIWPMugO3hFjS4FZqspG2M'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -19,6 +19,8 @@ feature_v2:
     internal-label: Knowledge base
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
     internal-label: Configuration
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
     internal-label: Editor
@@ -30,6 +32,10 @@ subfeature_v2:
     internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
     internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
+  - id: c4e6b17e-c50c-59a1-a719-9c33ce69e5b6
+    internal-label: Native PDF Output
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -40,7 +46,7 @@ topic_v2:
     internal-label: Accessibility
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '4071'
 ht-degree: 1%

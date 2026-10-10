@@ -4,19 +4,25 @@ description: 最新の AEM Guides リリースと前提条件の AEM バージ�
 exl-id: 780697a9-bdc6-40c2-b258-64639fe30f88
 feature: Release Notes
 role: Leader
-TQID: https://experienceleague.adobe.com/RROF3KWnqtnbbHGyW1McC9uvdA7x27fI-Rp4nCZOTHo
+TQID: 'https://experienceleague.adobe.com/RROF3KWnqtnbbHGyW1McC9uvdA7x27fI-Rp4nCZOTHo'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: fc07eb3b-d7d7-4e9a-a558-c3099c2b6f7b
+    internal-label: Release notes
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
     internal-label: Leader
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 79259c4991292c12990c42bdd819f121655d650b
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '2546'
 ht-degree: 0%

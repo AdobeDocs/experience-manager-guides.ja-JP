@@ -5,22 +5,37 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: 61a6a623-2f29-43b5-a053-7f1f925de6d6
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: e557051c-ff02-4ff8-9421-cf452af0edd5
+    internal-label: Installation
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '3168'
-ht-degree: 2%
-
+source-wordcount: '3216'
+ht-degree: 3%
 ---
-
 # Adobe Experience Manager Guides オンプレミスのアップグレード（バージョン 4.4.0以前）
 
 この記事では、**Adobe Experience Manager Guides** バージョン **を4.6.0**&#x200B;より前（最大&#x200B;**4.4.0**&#x200B;を含む）にアップグレードする手順について説明します。
 
-3.8.5 **より前のバージョン**&#x200B;を使用している場合は、[Experience Manager Guides ヘルプのPDF アーカイブ &#x200B;](https://helpx.adobe.com/jp/xml-documentation-for-experience-manager/archive.html)で入手できる製品固有のインストールガイドの&#x200B;**Adobe Experience Manager Guidesのアップグレード**&#x200B;の節を参照してください。
+3.8.5 **より前のバージョン**&#x200B;を使用している場合は、[Experience Manager Guides ヘルプのPDF アーカイブ &#x200B;](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)で入手できる製品固有のインストールガイドの&#x200B;**Adobe Experience Manager Guidesのアップグレード**&#x200B;の節を参照してください。
 
 新しいリリースのアップグレード手順については、[&#x200B; バージョン 4.6.0以降のAdobe Experience Manager Guidesのアップグレード &#x200B;](./upgrade-aemg-latest-version.md)を参照してください。
 
-## 開始する前に
+## 始める前に
 
 >[!NOTE]
 >
@@ -58,7 +73,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
-> このアップグレードプロセスは、**3.8.5**&#x200B;から&#x200B;**4.0**&#x200B;まで&#x200B;**のみ**&#x200B;適用できます。 **3.4以降**&#x200B;から&#x200B;**3.8.5**&#x200B;へのアップグレードについては、[Adobe Experience Manager Guides ヘルプ PDF アーカイブ &#x200B;](https://helpx.adobe.com/jp/xml-documentation-for-experience-manager/archive.html)で入手できる製品固有のインストールガイドを参照してください。
+> このアップグレードプロセスは、**3.8.5**&#x200B;から&#x200B;**4.0**&#x200B;まで&#x200B;**のみ**&#x200B;適用できます。 **3.4以降**&#x200B;から&#x200B;**3.8.5**&#x200B;へのアップグレードについては、[Adobe Experience Manager Guides ヘルプ PDF アーカイブ &#x200B;](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)で入手できる製品固有のインストールガイドを参照してください。
 
 Experience Manager Guides バージョン **3.8.5**&#x200B;を使用している場合は、以前のバージョンをアンインストールせずにバージョン **4.0**&#x200B;にアップグレードできます。
 
@@ -108,7 +123,7 @@ Experience Manager Guides バージョン **3.8.5**&#x200B;を使用している
 
    - UUID バージョンのソフトウェアを使用している場合は、「4.0 UUID Release for XML Documentation solution for AEM 6.5」を検索します。
    - 非UUID バージョンのソフトウェアを使用している場合は、「4.0 Non-UUID Release for XML Documentation solution for AEM 6.5」を検索します。
-CRX Package Managerを使用して、パッケージを既存のAEM サーバーインスタンスにアップロードし、インストールします。
+     CRX Package Managerを使用して、パッケージを既存のAEM サーバーインスタンスにアップロードし、インストールします。
 
      >[!NOTE]
      >
@@ -368,12 +383,12 @@ Experience Manager Guidesをインストールした後、新しくインスト�
    1. 「**コンポーネントを挿入**」（最後の手順としてガイドの後処理を担当）をクリックします。
    2. **プロセス手順**&#x200B;を設定します。
       **共通タブ**
-- タイトル：`DXML Post Process Initiator`
- – 説明：`DXML post process initiator step which will trigger a sling job for DXML post-processing of the modified/created asset`
+- タイトル： `DXML Post Process Initiator`
+ – 説明： `DXML post process initiator step which will trigger a sling job for DXML post-processing of the modified/created asset`
       **プロセスタブ**
-- プロセス：選択 `DXML Post Process Initiator`
- – 選択 `Handler Advance`
-- `Done`を選択
+      - プロセス：選択 `DXML Post Process Initiator`
+       – 選択 `Handler Advance`
+      - `Done`を選択
    3. 変更を完了したら、右上の&#x200B;**同期**&#x200B;をクリックします。 成功の通知が届きます。
 
 >[!NOTE]

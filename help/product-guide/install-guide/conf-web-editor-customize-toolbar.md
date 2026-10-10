@@ -5,27 +5,37 @@ exl-id: 14a82c7e-5c07-43a8-bd9e-b221d80f6d05
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/eZq4BTrrbSDDDuYas-D4iCw4WS6Pvzas2AhBPl67LKo
+TQID: 'https://experienceleague.adobe.com/eZq4BTrrbSDDDuYas-D4iCw4WS6Pvzas2AhBPl67LKo'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
   - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 950
+source-wordcount: '968'
 ht-degree: 0%
-
 ---
-
 # ツールバーをカスタマイズ {#id172FB00L0V6}
 
 デフォルトでは、Web エディターには、任意のDITA エディターで必要な最も一般的な編集機能が付属しています。 テキストリスト \（番号付きまたは箇条書き\）、相互参照、コンテンツ参照、表、段落、文字の書式設定などのエレメントの挿入などの機能をエディターで利用できます。 これらの基本要素に加えて、Web エディターをカスタマイズして、オーサリング環境で使用される要素を挿入できます。
@@ -83,7 +93,7 @@ Web エディターのツールバーに機能を追加するには、次の手�
      ```
 
      `items` コレクション内で、1つ以上のツールバーアイコンの定義を指定する必要があります。
-ツールバーアイコンを追加するには、次のプロパティを定義する必要があります。
+     ツールバーアイコンを追加するには、次のプロパティを定義する必要があります。
 
    - **type:** `button`を`type`値として指定します。 この値は、ツールバーボタンを追加していることを示します。
 

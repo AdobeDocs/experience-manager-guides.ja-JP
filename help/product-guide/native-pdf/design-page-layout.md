@@ -5,26 +5,36 @@ exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
 feature: Output Generation
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/S-gzuvk3PoU8kiNR9m39L50ftQRTrt8RnZ3Lo9WJkZs
+TQID: 'https://experienceleague.adobe.com/S-gzuvk3PoU8kiNR9m39L50ftQRTrt8RnZ3Lo9WJkZs'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: d6596f3f-92a7-43ec-b444-237db6adad05
+    internal-label: Native PDF publishing
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 5060
+source-wordcount: '5089'
 ht-degree: 0%
-
 ---
-
 # ページレイアウトのデザイン {#design-page-layout}
 
 PDF ドキュメントを作成する場合は、様々な種類の情報を表示するための様々なセクションが用意されています。 例えば、PDFのドキュメントは、フロントページやカバーページから始まり、会社のロゴ、本のタイトル、バージョン情報が含まれます。 そこには章、付録、用語集のページがあります。 PDF ドキュメントの各セクションは異なって見え、ページレイアウトを作成およびカスタマイズすることで達成されます。
@@ -113,9 +123,9 @@ PDFテンプレートのページレイアウトは、最初、右、左のペ�
 * **回転表示**：回転後に元の上辺を表す辺または方向を指定します。 時計回り90、反時計回り90、または反時計回り180度から選択できます。 これは、出力にポートレート レイアウトと風景レイアウトを組み合わせて使用する場合に非常に便利です。 例えば、一般的なページレイアウトとしてポートレートを使用したり、幅広い表をレンダリングするための横向きページレイアウトを設定したりできます。 そのような場合は、テーブルの内容を時計回りに90度表示するように設定できます。 これにより、ページは横方向に配置され、コンテンツは90度回転して、表示の連続性を維持します。 これについては、この節の後半で例として説明します。
 
 * **ページ番号** :The ページ番号は、デフォルトではPDFで連続しています。 例えば、100 ページのPDFの場合、1から100までの連続ページ番号を持つことができます。 すべての異なるセクションまたはセクションの最初の出現の特定の番号から番号付けを再開することもできます。
-   * **開始**：このページレイアウトの番号付けを開始するページ番号を指定します。 例えば、ページ番号を設定して、各章で再開することができます。 その場合は、チャプターページレイアウトの最初のページレイアウトのバリアントで「再起動」プロパティを1に設定する必要があります。 デフォルトでは、ページ番号は前のページから続きます。
+  * **開始**：このページレイアウトの番号付けを開始するページ番号を指定します。 例えば、ページ番号を設定して、各章で再開することができます。 その場合は、チャプターページレイアウトの最初のページレイアウトのバリアントで「再起動」プロパティを1に設定する必要があります。 デフォルトでは、ページ番号は前のページから続きます。
 
-   * **最初の出現にのみ適用**: セクションの最初の出現に対してのみ、特定の数字から開始することもできます。 例えば、最初の章は1からのみ開始し、その他の章のページ番号を続行できます。
+  * **最初の出現にのみ適用**: セクションの最初の出現に対してのみ、特定の数字から開始することもできます。 例えば、最初の章は1からのみ開始し、その他の章のページ番号を続行できます。
 
 * **レイアウト**：ページの余白と、上下、左、右のパディングを指定します。 次の図は、コンテンツの周囲の余白、パディング、および境界線のレンダリング方法を示しています。 ページの上下の余白には、ヘッダーとフッターが含まれています。
 

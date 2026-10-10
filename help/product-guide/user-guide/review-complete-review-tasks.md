@@ -4,19 +4,22 @@ description: AEM Guidesでタスクをレビュー担当者として完了とし
 feature: Reviewing
 role: User
 exl-id: 99b64fb5-c509-41cf-b091-ba78b90db481
-TQID: https://experienceleague.adobe.com/Ttty7SNmwHvrs-Ma5SN0JqjQRR3Y6yM-W-ozgQ3Vcyg
+TQID: 'https://experienceleague.adobe.com/Ttty7SNmwHvrs-Ma5SN0JqjQRR3Y6yM-W-ozgQ3Vcyg'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: 72792fc7-6fd6-5775-a2c2-99253bb26dc2
+    internal-label: Reviewing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 912b7583cbbbb4beff08423d360a9a06f3c365cf
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '912'
 ht-degree: 0%

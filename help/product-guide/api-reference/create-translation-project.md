@@ -4,13 +4,28 @@ description: API翻訳プロジェクトの作成について詳しく見る
 feature: Post-Processing Event Handler
 role: Developer
 level: Experienced
-source-git-commit: 3a0184bbedb9935ed4f2171245478330063904ba
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+    internal-label: APIs
+subfeature_v2:
+  - id: e0bef973-8c57-4760-9b12-ec950a3c7247
+    internal-label: Post processing event handler
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '247'
-ht-degree: 14%
-
+source-wordcount: '249'
+ht-degree: 15%
 ---
-
 
 # 翻訳プロジェクトを作成
 

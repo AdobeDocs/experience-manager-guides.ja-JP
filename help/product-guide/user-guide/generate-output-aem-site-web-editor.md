@@ -4,28 +4,39 @@ description: 複合コンポーネントマッピングとレガシーコンポ�
 feature: Publishing
 role: User
 exl-id: f3657268-9dee-43af-b643-499dbc3ca948
-TQID: https://experienceleague.adobe.com/o-vv28SWWNym2aSVCshJDbPTWkpwH-KNwES4M5MKKJ8
+TQID: 'https://experienceleague.adobe.com/o-vv28SWWNym2aSVCshJDbPTWkpwH-KNwES4M5MKKJ8'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: fd5e1e85933eb2785b0a74b0fa49fec1da4ca0c2
+    internal-label: Troubleshooting
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 3727
+source-wordcount: '3873'
 ht-degree: 0%
-
 ---
-
 # マップコンソールでのAEM Sites プリセット
 
 マップコンソールからAEM Sites プリセットを作成し、AEM Sites出力を生成するように設定できます。 AEM Sites出力を作成するには、次の2つの方法があります。
@@ -241,10 +252,10 @@ Experience Manager Guidesでは、`peer @scope`を使用してトピック参照
    ![&#x200B; クロスマップ参照](images/aem-sites-preset-cross-map-references.png)
 
 1. マップ内の各依存ファイルの最近公開された出力を使用する場合は、**すべての依存トピックに対して最近生成された**&#x200B;公開コンテキストを使用するを選択します。
-リンクされたトピックを含むマップを公開する前に、親マップとして選択したマップを公開する必要があります。リンクされたトピックを含むマップが公開されていない場合、リンクはAEM Sites出力にハイパーリンクではなく通常のテキストとして表示されます。
-リンクされたトピックに対して、同じ種類のAEM Sites プリセットを選択する必要があります。例えば、現在のAEM Sites プリセットで従来のコンポーネントマッピングを使用している場合は、リンクされたトピックの同様のAEM Sites プリセットを選択します。
+リンクされたトピックを含むマップを公開する前に、親マップとして選択したマップを公開する必要があります。 リンクされたトピックを含むマップが公開されていない場合、リンクはAEM Sites出力にハイパーリンクではなく通常のテキストとして表示されます。
+リンクされたトピックに対して、同じ種類のAEM Sites プリセットを選択する必要があります。 例えば、現在のAEM Sites プリセットで従来のコンポーネントマッピングを使用している場合は、リンクされたトピックの同様のAEM Sites プリセットを選択します。
 1. 親マップ ドロップダウンリストで、現在のマップの出力をリンクする出力を含むマップファイルを選択します。
-マップファイルを選択すると、親マップ UUID列にマップのUUIDが表示されます。選択したマップに関連付けられている出力プリセットは、親マップのプリセットリストにリストされます。例えば、マップ Aのトピック 1には、トピック 2への参照が含まれています。トピック 2は、単一または複数のマップで使用できます。親マップと、各リンクに対して特定のプリセットまたは最近公開された出力を選択できます。
+マップファイルを選択すると、親マップ UUID列にマップのUUIDが表示されます。 選択したマップに関連付けられている出力プリセットは、親マップのプリセットリストにリストされます。 例えば、マップ Aのトピック 1には、トピック 2への参照が含まれています。 トピック 2は、単一または複数のマップで使用できます。 親マップと、各リンクに対して特定のプリセットまたは最近公開された出力を選択できます。
 
 1. 同じトピックがファイル内で複数回参照される場合は、各インスタンスに対して異なる公開コンテキストを追加できます。 これにより、コンテンツに対する柔軟性と制御が向上します。 例えば、トピック 3はマップ Bとマップ Cの両方に存在します。トピック 1には、トピック 3への2つの参照が含まれています。 最初のリンクの親マップとしてマップ Bを選択し、2番目のリンクの親としてマップ Cを選択できます。
 

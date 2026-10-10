@@ -4,29 +4,39 @@ description: AEM Guidesでネイティブのpdf エンジンを使用してPDF�
 exl-id: e7ba6d2d-ebfb-4400-9b10-c4fb173123cf
 feature: Native PDF Output
 role: User, Admin
-TQID: https://experienceleague.adobe.com/9uoaiKxDQ4Yn8WCvGCe9BwBEVOZ2nYVm-pz1bq0c6f8
+TQID: 'https://experienceleague.adobe.com/9uoaiKxDQ4Yn8WCvGCe9BwBEVOZ2nYVm-pz1bq0c6f8'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
 subfeature_v2:
   - id: d6596f3f-92a7-43ec-b444-237db6adad05
+    internal-label: Native PDF publishing
+  - id: c4e6b17e-c50c-59a1-a719-9c33ce69e5b6
+    internal-label: Native PDF Output
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Security
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 255
+source-wordcount: '255'
 ht-degree: 1%
-
 ---
-
 # PDF publishing essentials
 
 AEM Guidesには、PDFのパブリッシュエンジンが組み込まれており、PDF形式でコンテンツを制作、開発、公開することができます。 豊富な機能を備えているため、多様なページレイアウトの作成、スタイルシートのカスタマイズ、シームレスなコンテンツ公開に必要なさまざまなPDFコンポーネントのデザインが可能です。

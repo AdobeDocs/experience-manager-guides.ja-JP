@@ -2,7 +2,15 @@
 title: コンテンツを検索するためのスマートヘルプの設定
 description: コンテンツを検索するためのスマートヘルプの設定方法を説明します
 exl-id: 5ebda503-066a-428e-bff4-1a1e91ada917
-source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 0%

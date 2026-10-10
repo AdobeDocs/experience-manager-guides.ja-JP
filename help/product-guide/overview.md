@@ -4,34 +4,51 @@ description: Experience Manager Guides（旧称 XML Documentation for Adobe Expe
 exl-id: 06dd1b77-1a98-430f-8322-475d4fa4947b
 feature: AEM Guides Tutorials
 role: User
-TQID: https://experienceleague.adobe.com/S4wTM-7gfU7D-JfKVbb9nK3qoQIG6PdiY7jtpsc6kDs
+TQID: 'https://experienceleague.adobe.com/S4wTM-7gfU7D-JfKVbb9nK3qoQIG6PdiY7jtpsc6kDs'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
   - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
 subfeature_v2:
   - id: aad65a09-20cc-4780-ad44-329d14dc8481
+    internal-label: Workflows
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
   - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f5449061-fbde-4905-be99-034c1b054385
+    internal-label: AEM Guides tutorials
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+    internal-label: Content reuse
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 370
+source-wordcount: '370'
 ht-degree: 10%
-
 ---
-
 # Experience Manager Guides Documentation
 
 [!DNL Experience Manager Guides]は、強力なエンタープライズグレードのコンポーネントコンテンツ管理ソリューション（CCMS）です。 Experience Managerでネイティブ DITA サポートを有効にし、AEMがDITA ベースのコンテンツの制作と配信を処理できるようにします。 Adobe FrameMakerや使いやすい組み込みエディターなど、オフラインのDITA オーサリングツールを使用して、コンテンツを制作できます。

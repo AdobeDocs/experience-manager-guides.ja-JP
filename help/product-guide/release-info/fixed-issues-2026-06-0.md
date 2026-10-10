@@ -1,13 +1,19 @@
 ---
 title: リリースノート | Adobe Experience Manager Guides（2026.06.0 リリース）で修正された問題
 description: Adobe Experience Manager Guides as a Cloud Service 2026.06.0 リリースのバグ修正について説明します。
-source-git-commit: 318f2b7a530e50ca4432313650801b2293d6697e
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '2171'
 ht-degree: 0%
-
 ---
-
 # 2026.06.0 リリースで修正された問題
 
 この記事では、Adobe Experience Manager Guides as a Cloud Serviceの2026.06.0 リリースの様々な領域で修正されたバグについて説明します。
@@ -63,10 +69,10 @@ ht-degree: 0%
 - AEM Sites上の`processing-role=resource-only`要素を含むDITA マップを公開する場合（従来のコンポーネントマッピングを含む）、孤立したサイトページは、`topicgroup`要素や特定のコンテンツ設定などの追加のシナリオでそれらの要素に対して生成されます。 （GUIDES-37650）
 - 長い名前のマップがマップコレクションに追加されると、マップコレクション UIは歪んだレイアウトでレンダリングされます。 この問題は、新しいマップ コレクションで解決されました。 （GUIDES-42062）
 - Native PDF engine v1での公開：
-   - 特定のコンテンツに対してPDFのネイティブ出力を生成する場合、複数のページにまたがるコンテンツ全体が含まれる中間HTMLにもかかわらず、PDFでは最初のページのみがレンダリングされます。 （GUIDES-28270）
-   - アクセシビリティ設定が有効になっているNative PDF出力のコンテンツの読み取り順序が正しくありません。 フッターのページ番号は、最後ではなくメインコンテンツの前に読み取られます。 （GUIDES-27790）
-   - ネイティブPDF出力のカラーバーは、ページ全体の幅に広がらず、ページサイズをカスタマイズすると重なり合い、一部のカラーボックスが非表示になります。 （GUIDES-15505）
-   - CSS `:is()`の擬似クラス セレクターは、ネイティブ PDF出力で尊重されないため、ブラウザーのレンダリングと比較してスタイルの違いが生じます。 （GUIDES-11328）
+  - 特定のコンテンツに対してPDFのネイティブ出力を生成する場合、複数のページにまたがるコンテンツ全体が含まれる中間HTMLにもかかわらず、PDFでは最初のページのみがレンダリングされます。 （GUIDES-28270）
+  - アクセシビリティ設定が有効になっているNative PDF出力のコンテンツの読み取り順序が正しくありません。 フッターのページ番号は、最後ではなくメインコンテンツの前に読み取られます。 （GUIDES-27790）
+  - ネイティブPDF出力のカラーバーは、ページ全体の幅に広がらず、ページサイズをカスタマイズすると重なり合い、一部のカラーボックスが非表示になります。 （GUIDES-15505）
+  - CSS `:is()`の擬似クラス セレクターは、ネイティブ PDF出力で尊重されないため、ブラウザーのレンダリングと比較してスタイルの違いが生じます。 （GUIDES-11328）
 
   >[!NOTE]
   >

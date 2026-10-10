@@ -5,37 +5,55 @@ feature: Content Management
 role: User
 hide: true
 exl-id: 54b960cf-fb00-4d4a-a836-9de4738c49a8
-TQID: https://experienceleague.adobe.com/Rko9tfse1l5d-ZKeidb8hCqs1L2RcMlc9o581Xiakk4
+TQID: 'https://experienceleague.adobe.com/Rko9tfse1l5d-ZKeidb8hCqs1L2RcMlc9o581Xiakk4'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
   - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+  - id: 2afda568-c433-5cad-ab97-19b8847286b0
+    internal-label: Content Management
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: b88be3fe-792c-484d-8262-9f667de75c8d
+    internal-label: Version management
   - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
   - id: f7774ebe-aec9-42b6-97e4-5002acdc712e
+    internal-label: Review
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: da3860b0-d637-47df-bef0-273751180266
+    internal-label: Digital asset management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Administration
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 741
+source-wordcount: '741'
 ht-degree: 12%
-
 ---
-
 # コンテンツの管理 {#id164JBG0M0T1}
 
 実際のコンテンツ制作に取り組む前に、AEM Guidesのコンテンツ管理の基本的な概念を理解しておく必要があります。 続いて、さまざまなユーザーグループを作成し、アセットを整理します。

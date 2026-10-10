@@ -4,22 +4,27 @@ description: AEM リポジトリにファイルをアップロードし、エラ
 exl-id: b5430242-1122-43df-a0b2-275b1dea33f2
 feature: Content Management
 role: User
-TQID: https://experienceleague.adobe.com/GG5Bx2yyJz2GaQFmMsDZ6wq6xzb4XUAsSBxEkRNvEVE
+TQID: 'https://experienceleague.adobe.com/GG5Bx2yyJz2GaQFmMsDZ6wq6xzb4XUAsSBxEkRNvEVE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: 2afda568-c433-5cad-ab97-19b8847286b0
+    internal-label: Content Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d1a4b75ef3acd3d02cce2225f03e1f9b3a086ef7
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 695
+source-wordcount: '695'
 ht-degree: 2%
-
 ---
-
 # ファイルのアップロード {#id176FF000JUI}
 
 Adobe Experience Manager Guidesで使用する既存のDITA コンテンツのリポジトリがある可能性があります。 このような既存のコンテンツの場合は、次のいずれかの方法を使用して、コンテンツをAdobe Experience Manager リポジトリに一括アップロードできます。

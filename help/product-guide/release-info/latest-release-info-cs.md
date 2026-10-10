@@ -8,13 +8,19 @@ product_v2:
     internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: fc07eb3b-d7d7-4e9a-a558-c3099c2b6f7b
+    internal-label: Release notes
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
     internal-label: Leader
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 6841c373b75770e8691a2cac4d56aeb368b09480
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 2%

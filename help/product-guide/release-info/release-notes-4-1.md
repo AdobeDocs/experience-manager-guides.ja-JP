@@ -4,35 +4,53 @@ description: Adobe Experience Manager Guidesの最新リリース
 exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
 feature: Release Notes
 role: Leader
-TQID: https://experienceleague.adobe.com/7j-OqZiXh2jVJwQRVsnKkJJSzf614jjiaOJ8fUl8oQQ
+TQID: 'https://experienceleague.adobe.com/7j-OqZiXh2jVJwQRVsnKkJJSzf614jjiaOJ8fUl8oQQ'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
   - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+    internal-label: APIs
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
   - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+    internal-label: FrameMaker Publishing Server
   - id: d6596f3f-92a7-43ec-b444-237db6adad05
+    internal-label: Native PDF publishing
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
+  - id: fc07eb3b-d7d7-4e9a-a558-c3099c2b6f7b
+    internal-label: Release notes
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 3665
+source-wordcount: '3665'
 ht-degree: 3%
-
 ---
-
 # Adobe Experience Manager Guidesの4.1.x リリース
 
 このリリースノートでは、Adobe Experience Manager Guides（後で&#x200B;*AEM Guides*&#x200B;と呼ばれます）のバージョン 4.1.xのアップグレード手順、新機能、および機能強化について説明します。

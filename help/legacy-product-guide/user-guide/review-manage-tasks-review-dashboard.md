@@ -5,19 +5,23 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: f3ed7e82-8bb8-400f-9406-367da9e0052c
-TQID: https://experienceleague.adobe.com/9A3QCOjdrMwovrnsHnRAQZv9iFryLXrgJP-dCjCGN04
+TQID: 'https://experienceleague.adobe.com/9A3QCOjdrMwovrnsHnRAQZv9iFryLXrgJP-dCjCGN04'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 72792fc7-6fd6-5775-a2c2-99253bb26dc2
+    internal-label: Reviewing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1302
+source-wordcount: '1302'
 ht-degree: 0%
-
 ---
-
 # レビューダッシュボードを使用したレビュータスクの管理 {#id2056B0Y70X4}
 
 レビュー管理ワークフローには、様々なタスクを含めることができます。 例えば、特定のトピックにレビュー担当者を追加したり、レビューの期限を延長したりすることができます。 また、すべての関係者がフィードバックを行ったと思われる場合は、レビュータスクを「完了」としてマークすることもできます。 これらのタスクは、レビューダッシュボードで管理できます。
@@ -124,9 +128,9 @@ ht-degree: 0%
 
 - レビュータスクが割り当てられているレビューアーの名前。
 - 「ステータス」列には、レビューのステータスが表示されます。 ステータスは、次のいずれかになります。
-   - **未開始**：レビュー担当者はまだレビューリンクを開いていません。
-   - **進行中**：レビュー担当者はレビューリンクを開き、トピックをレビュー中です。
-   - **完了**：レビュー担当者は、割り当てられたレビュータスクを完了してレビューを完了しました。 レビュータスクは、各レビューアーのAEM通知インボックスにあります。
+  - **未開始**：レビュー担当者はまだレビューリンクを開いていません。
+  - **進行中**：レビュー担当者はレビューリンクを開き、トピックをレビュー中です。
+  - **完了**：レビュー担当者は、割り当てられたレビュータスクを完了してレビューを完了しました。 レビュータスクは、各レビューアーのAEM通知インボックスにあります。
 - レビュー担当者がレビューリンクを開き、トピックのレビュー済みリストに追加された特定のトピックに移動すると、 これは、レビュー担当者がそれぞれのセクションを開いたかどうかを判断するのに役立ちます。 コメントが付いた場合は、角括弧で囲みます。
 - すべてのトピックに対して行われたコメントの合計数。 レビュー中の複数のトピックの場合、各トピックのコメント数はトピック名に対して\（括弧で囲んで\）記載されます。
 - レビュー担当者が最後にトピックにアクセスした日付。

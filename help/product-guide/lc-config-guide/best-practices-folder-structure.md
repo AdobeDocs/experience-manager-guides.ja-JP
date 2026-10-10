@@ -5,34 +5,50 @@ feature: Authoring
 role: Admin
 level: Experienced
 exl-id: 1b99ade0-0eee-42c3-a383-0c3774b6c1f6
-TQID: https://experienceleague.adobe.com/jfoPbeASfVpgWYR2-cKacAdhWKPw-2j6qliqzjEzgFw
+TQID: 'https://experienceleague.adobe.com/jfoPbeASfVpgWYR2-cKacAdhWKPw-2j6qliqzjEzgFw'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: b1210526-416b-4ef6-bcc0-1692e99f30e9
+    internal-label: Administration and security
   - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: a7a242db-c88c-4e44-818b-bfb4ef92efdf
+    internal-label: Permissions
   - id: c8841798-1a28-4264-a46a-984860f8e6f6
+    internal-label: User administration
   - id: dc1f7602-db3c-4ad4-a440-ff999bb16455
+    internal-label: User management
   - id: f7774ebe-aec9-42b6-97e4-5002acdc712e
+    internal-label: Review
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd456af4-cb12-4a34-8cc4-b74adf885626
+    internal-label: Content translation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff832d30f88c5810017e1a1ee41d644619f7331f
+    internal-label: Administration
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 625
+source-wordcount: '625'
 ht-degree: 0%
-
 ---
-
 # フォルダー構造を設定する際のベストプラクティス
 
 この記事では、管理者がAdobe Experience Manager Guidesでフォルダー構造を設定するための基本的な手順とベストプラクティスについて説明します。 よく整理されたフォルダー階層は、学習およびトレーニングコンテンツのオーサリング、公開、翻訳ワークフローをスムーズに行うのに役立ちます。

@@ -4,34 +4,51 @@ description: Adobe Experience Manager Guides as a Cloud Serviceのバグ修正�
 exl-id: 80839890-075f-4187-a167-444c73215496
 feature: Release Notes
 role: Leader
-TQID: https://experienceleague.adobe.com/LUI-d06rZGiDMXwm0x6m4LAkppl0O5ceCWFhaTiJff0
+TQID: 'https://experienceleague.adobe.com/LUI-d06rZGiDMXwm0x6m4LAkppl0O5ceCWFhaTiJff0'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: cda0baeb-996e-4aaa-92d1-41032e34fd68
+    internal-label: What's new
   - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+    internal-label: FrameMaker Publishing Server
   - id: d6596f3f-92a7-43ec-b444-237db6adad05
+    internal-label: Native PDF publishing
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
+  - id: fc07eb3b-d7d7-4e9a-a558-c3099c2b6f7b
+    internal-label: Release notes
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Accessibility
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1694
+source-wordcount: '1694'
 ht-degree: 3%
-
 ---
-
 # Adobe Experience Manager Guides as a Cloud Serviceの2023年11月リリース
 
 このリリースノートでは、2023年11月バージョンのAdobe Experience Manager Guides as a Cloud Service（後で&#x200B;*Experience Manager Guides as a Cloud Service*&#x200B;と呼ばれます）で修正されたアップグレード手順、互換性マトリックス、および問題について説明します。
@@ -119,7 +136,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 1. APIはjobIdを返します。 ジョブのステータスを確認するには、ジョブ IDを持つGET リクエストを同じエンドポイント `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`に送信できます（例：`http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`）
 
 
-1. ジョブが完了すると、以前のGET リクエストは成功して応答し、マップが失敗した場合にメンションします。 正常にインデックス化されたマップは、サーバーログから確認できます。
+1. ジョブが完了すると、前のGET リクエストが成功して応答し、マップが失敗した場合にメンションします。 正常にインデックス化されたマップは、サーバーログから確認できます。
 
 ## `'fmdita rewriter'`競合を処理する手順
 

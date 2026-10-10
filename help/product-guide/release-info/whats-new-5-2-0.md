@@ -2,13 +2,19 @@
 title: リリースノート | Adobe Experience Manager Guides 5.2.0 リリースの新機能
 description: Adobe Experience Manager Guides 5.2.0 リリースの新機能と強化機能について説明します
 role: Leader
-source-git-commit: 3a0184bbedb9935ed4f2171245478330063904ba
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '4052'
+source-wordcount: '4152'
 ht-degree: 0%
-
 ---
-
 # 5.2.0 リリース（2026年5月）の新機能
 
 この記事では、Adobe Experience Manager Guides as a Cloud Serviceの5.2.0 リリースで導入された新機能と強化機能について説明します。
@@ -417,7 +423,7 @@ Experience Manager Guidesでは、（複合コンポーネントマッピング�
 
 - 新しい翻訳プロジェクトを作成し、そのステータスを追跡するための新しいAPIが導入されました。 これらのAPIは、翻訳プロセスの自動化、手作業の削減、効率性の向上に役立ちます。 詳しくは、[翻訳プロジェクトの作成](../api-reference/create-translation-project.md)を参照してください。
 - ファイルとフォルダーのフィルタリング機能が改善され、アセット処理APIが強化されました。 詳しくは、[&#x200B; アセットの処理](../api-reference/bulk-assets-processing.md)を参照してください。
-- 新しいAPIを使用して、個々のアセットとフォルダーの後処理ステータスを追跡できます。これは、コンテンツが完全に処理された後にのみ公開する必要がある、自動化されたワークフローを使用するチームにとって特に有用です。APIは、準備状況を確認するための信頼性の高い方法を提供し、不完全な処理によって引き起こされる公開エラーのリスクを軽減します。また、このAPIの導入により、アセット後処理イベントが自動的に実行されなくなります。代わりに、管理者は`fmdita config manager`の設定を通じてこのイベントを有効にできるようになりました。
+- 新しいAPIを使用して、個々のアセットとフォルダーの後処理ステータスを追跡できます。 これは、コンテンツが完全に処理された後にのみ公開する必要がある、自動化されたワークフローを使用するチームにとって特に有用です。 APIは、準備状況を確認するための信頼性の高い方法を提供し、不完全な処理によって引き起こされる公開エラーのリスクを軽減します。 また、このAPIの導入により、アセット後処理イベントが自動的に実行されなくなります。 代わりに、管理者は`fmdita config manager`の設定を通じてこのイベントを有効にできるようになりました。
 詳細については、[APIを参照して、fmdita config manager](../api-reference/post-process-event.md)の個々のアセットとフォルダー[&#128279;](../api-reference/track-post-processing-status.md)および後処理イベントハンドラー設定の後処理ステータスを追跡します
 
 ## Adobe Experience Manager Guidesの製品トレーニングと学習コンテンツの紹介

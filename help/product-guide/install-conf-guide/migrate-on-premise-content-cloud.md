@@ -5,17 +5,29 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: c8348aae-224c-4419-845a-b8910629e5b3
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: 5be0fc8f-1cff-5c3e-bb92-2903a56a3de6
+    internal-label: Migration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 3%
-
+source-wordcount: '1034'
+ht-degree: 6%
 ---
-
 # オンプレミスからCloud Serviceへのコンテンツの移行
 
-Experience Manager as a Cloud Serviceは、Experience Manager Guides、Assets、Forms、Screens向けに、拡張性、安全性、俊敏性の高いテクノロジー基盤を提供します。これにより、マーケターやIT担当者は、インパクトのあるエクスペリエンスを大規模に提供することに注力できます。
-Experience Manager as a Cloud Serviceなら、製品のアップグレード計画ではなく、イノベーションに集中できます。新機能は徹底的にテストされ、チームに中断されることなく提供されるので、チームは常に最新バージョンのAdobe Experience Managerにアクセスできます。
+Experience Manager as a Cloud Serviceは、Experience Manager Guides、Assets、Forms、Screens向けに、拡張性、安全性、俊敏性の高いテクノロジー基盤を提供します。 これにより、マーケターやIT担当者は、インパクトのあるエクスペリエンスを大規模に提供することに注力できます。
+Experience Manager as a Cloud Service を使用すると、チームは製品アップグレード計画ではなく技術革新に専念できます。 新機能は徹底的にテストされ、チームに中断されることなく提供されるので、チームは常に最新バージョンのAdobe Experience Managerにアクセスできます。
 
 この記事では、オンプレミスまたはManaged Services Experience Manager GuidesのコンテンツをCloud Servicesに移行するための詳細な手順を説明し、クラウドベースのプラットフォームへのスムーズな移行を実現します。
 
@@ -32,7 +44,7 @@ Experience Manager as a Cloud Serviceなら、製品のアップグレード計�
 ## 移行プロセス
 
 **コンテンツ転送ツール**&#x200B;は、Adobeによって開発されたツールで、ソース Adobe Experience Manager オンプレミスまたはManaged Services インスタンスからターゲット Experience Manager Cloud Service インスタンスへの既存のコンテンツの移行を開始するために使用できます。
-このツールは、プリンシパル（ユーザーまたはグループ）も自動的に転送します。
+プリンシパル（ユーザーやグループ）も自動的に転送されます。
 
 **コンテンツ転送ツール**&#x200B;をZIP ファイルとして&#x200B;**ソフトウェア配布** ポータルからダウンロードできます。
 
@@ -40,8 +52,8 @@ Experience Manager as a Cloud Serviceなら、製品のアップグレード計�
 1. **コンテンツ転送ツール**&#x200B;を検索します。
 1. リストから&#x200B;**コンテンツ転送ツール**&#x200B;を選択してダウンロードします。
 
-![&#x200B; コンテンツ転送ツールのダウンロード &#x200B;](./assets/content-transfer-tool-software-portal.png)
-次に、**Package Manager**&#x200B;を介してパッケージをソース Adobe Experience Manager インスタンスにインストールします。必ず最新バージョンをダウンロードしてください。
+![&#x200B; コンテンツ転送ツールのダウンロード](./assets/content-transfer-tool-software-portal.png)
+次に、**Package Manager**&#x200B;を介してパッケージをソース Adobe Experience Manager インスタンスにインストールします。 最新バージョンをダウンロードしてください。
 最新バージョンについて詳しくは、[&#x200B; リリースノート &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=ja)を参照してください。
 
 >[!NOTE]
@@ -82,7 +94,7 @@ Experience Manager Guides コンテンツをExperience Manager as a Cloud Servic
 1. 作成後、3つのドットを選択し、**抽出キーをコピー**&#x200B;を選択します。
 
 
-1. 「**クリップボードにコピー**」をクリックします。最初のプロジェクトを作成します。
+1. 「**クリップボードにコピー**」をクリックします。 最初のプロジェクトを作成します。
    ![抽出キー](./assets/migration-copy-to-clipboard.png)
 
 1. 上部の&#x200B;**Adobe Experience Manager**&#x200B;を選択し、**ソフトウェア配布** タイルを選択します。
@@ -108,7 +120,7 @@ Experience Manager Guides コンテンツをExperience Manager as a Cloud Servic
    ![](./assets/migration-create-migration-set.png)
 
 1. 移行するパスを指定し、**保存**&#x200B;をクリックします。
-例：`/content/sites`
+次に例を示します。  `/content/sites`
 または
    `/content/dam/tech-docs`
    ![含まれるパス &#x200B;](./assets/migration-included-paths.png)
@@ -132,14 +144,14 @@ Experience Manager Guides コンテンツをExperience Manager as a Cloud Servic
 1. **移行セット**&#x200B;を選択し、上部の&#x200B;**抽出**&#x200B;を選択します。
    ![移行セット抽出](./assets/migration-extract.png)
 
-1. 選択したパスと設定の&#x200B;**移行セット抽出** ポップアップで詳細を確認し、**抽出**&#x200B;をクリックします。抽出には数分かかり、ステータスが更新済みとして表示されます。
+1. 選択したパスと設定の&#x200B;**移行セット抽出** ポップアップで詳細を確認し、**抽出**&#x200B;をクリックします。 抽出には数分かかり、ステータスが更新済みとして表示されます。
    ![移行セット抽出](./assets/migration-set-extraction.png)
 
 1. 抽出が完了し、ステータス `finished`が表示されたら、Cloud Acceleration Managerに移動し、手順18で作成したプロジェクトを選択します。
 詳細については、3つのドットを選択し、**詳細を表示**&#x200B;を選択してください。
 
 
-1. 移行セットの詳細ポップアップで、移行セットの設定を確認し、ポップアップを閉じます。次のスクリーンショットに示すように、パスおよびその他の設定を表示できます。
+1. 移行セットの詳細ポップアップで、移行セットの設定を確認し、ポップアップを閉じます。 次のスクリーンショットに示すように、パスおよびその他の設定を表示できます。
    ![migration-details](./assets/migration-details.png)
 
 
@@ -154,7 +166,7 @@ Experience Manager Guides コンテンツをExperience Manager as a Cloud Servic
 ## パブリッシュインスタンスでのコンテンツ転送ツールの実行
 
 ソース公開インスタンスにコンテンツ転送ツールをインストールして、コンテンツをターゲット公開インスタンスに移動します。
-コンテンツ転送ツールは、公開環境にコンテンツを取り込む際に、公開コンテンツと非公開コンテンツを区別しません。移行セットで指定されたコンテンツは、選択したターゲットインスタンスに取り込まれます。ユーザーは、移行セットをオーサーインスタンス、パブリッシュインスタンス、またはその両方に取り込むことができます。
+コンテンツ転送ツールは、公開環境にコンテンツを取り込む際に、公開コンテンツと非公開コンテンツを区別しません。 移行セットで指定されたコンテンツは、選択したターゲットインスタンスに取り込まれます。 ユーザーは、移行セットをオーサーインスタンス、パブリッシュインスタンス、またはその両方に取り込むことができます。
 
 ### 推奨アプローチ
 

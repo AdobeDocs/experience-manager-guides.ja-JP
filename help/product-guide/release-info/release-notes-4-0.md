@@ -1,13 +1,19 @@
 ---
 title: Adobe Experience Manager Guides 4.0.xのリリースノート
 description: Adobe Experience Manager Guides バージョン 4.0、4.0.1、4.0.2、および4.0.3のバグ修正、新機能、および機能強化について説明します。
-source-git-commit: dc078c23c02c813fe39ca563e615dc3238c40253
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '3496'
 ht-degree: 5%
-
 ---
-
 
 # リリースノート | Adobe Experience Manager Guides 4.0.x
 
@@ -209,10 +215,10 @@ Web エディターには多くの機能強化と新機能が導入されてい�
 
 - コアフレームワークをCoral ベースのUIからSpectrum ベースのUIに変更しました。 これにより、非常に標準化された直感的なUIを利用できます。
 - 右側のパネルに新しいファイルのプロパティ機能が導入されました。 アクティブなドキュメントのプロパティを確認できます。 この情報は、次の2つのセクションに分類されます。
-   - *一般*: ファイル名、UUID、メタデータタグ、言語、作成日、チェックアウト済みステータス、ドキュメント状態などの一般的なファイルの詳細が含まれます。
-   - *参照*：受信および送信の参照が含まれています。
+  - *一般*: ファイル名、UUID、メタデータタグ、言語、作成日、チェックアウト済みステータス、ドキュメント状態などの一般的なファイルの詳細が含まれます。
+  - *参照*：受信および送信の参照が含まれています。
 
-     ![&#x200B; ファイルのプロパティ パネル &#x200B;](assets/file-properties.avif)
+    ![&#x200B; ファイルのプロパティ パネル &#x200B;](assets/file-properties.avif)
 
 - Web エディターに件名スキームのサポートも追加されました。 件名スキームパネルを使用して、件名スキームを作成および使用できるようになりました。 件名スキームの追加により、独自の企業メタデータと分類を使用できるようになりました。
 

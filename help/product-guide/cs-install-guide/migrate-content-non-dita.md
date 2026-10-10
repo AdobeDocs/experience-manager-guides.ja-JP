@@ -5,24 +5,33 @@ exl-id: cf437fb8-ed33-47af-aa7e-ffd8acd232da
 feature: Migration
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/EoyXmpAq2512icOucboiDrqOSyOaIESRz32v3QXzQSM
+TQID: 'https://experienceleague.adobe.com/EoyXmpAq2512icOucboiDrqOSyOaIESRz32v3QXzQSM'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: 5be0fc8f-1cff-5c3e-bb92-2903a56a3de6
+    internal-label: Migration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Customer experience
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 2581
+source-wordcount: '2581'
 ht-degree: 0%
-
 ---
-
 # DITA以外のコンテンツの移行 {#id181AH0R02HT}
 
 この節では、DITA以外のドキュメントをDITA形式に移行する移行プロセスについて説明します。 AEM Guidesには、次のソースからの移行が用意されています。

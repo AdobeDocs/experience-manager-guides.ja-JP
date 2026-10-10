@@ -5,24 +5,34 @@ feature: Publishing
 role: User
 hide: true
 exl-id: c3c6c063-441c-413b-a63e-0acbd126ca6d
-TQID: https://experienceleague.adobe.com/-criVtAp0Z8q4-Pw0fdJvqXxYgWBOXUSuH3ySkaMeNc
+TQID: 'https://experienceleague.adobe.com/-criVtAp0Z8q4-Pw0fdJvqXxYgWBOXUSuH3ySkaMeNc'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+    internal-label: APIs
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 974
-ht-degree: 0%
-
+source-wordcount: '995'
+ht-degree: 1%
 ---
-
 # エクスペリエンスフラグメントを公開
 
 エクスペリエンスフラグメントは、Adobe Experience Managerのモジュラーコンテンツの一部です。 これらのコンテンツブロックはテンプレートにもとづいており、コンテンツとそのレイアウトの両方をカプセル化します。 こうした再利用可能なコンテンツにより、コンテンツ制作者は、Experience Managerがサポートする複数のチャネルをまたいで、一貫性のあるスケーラブルなエクスペリエンスを組み立てて提供することができます。 ニュースレター、プロモーションバナー、顧客の声など、一貫したマーケティング体験を効率的に容易に構築できます。
@@ -42,13 +52,13 @@ Experience Manager Guidesを使用すると、トピックまたはそのエレ�
 
    * **タイトル**: フォルダーのタイトルを表示または編集します。
 
-   * **許可されたテンプレート**: エクスペリエンスフラグメントの子ページとして追加できるテンプレートのリストが含まれます。許可されたテンプレートを追加するには、**許可されたテンプレート** フィールドで、必要なテンプレートを取得するための正規表現を指定します。
+   * **許可されたテンプレート**: エクスペリエンスフラグメントの子ページとして追加できるテンプレートのリストが含まれます。 許可されたテンプレートを追加するには、**許可されたテンプレート** フィールドで必要なテンプレートを取得するための正規表現を指定します。
 例：
      `/libs/cq/experience-fragments/components/experiencefragment/template`
 
      フォルダーに許可されるテンプレートを定義しない場合、テンプレートはデフォルトで親フォルダーまたはテンプレートフォルダーから選択されます。
    * **順序可能**: フォルダー内のアセットの順序を変更できます。
-     ![&#x200B; フォルダーのプロパティにクラウド設定の詳細を追加](images/experience-fragment-folder-properties.png){width="650"}
+     ![&#x200B; フォルダープロパティにクラウド設定の詳細を追加](images/experience-fragment-folder-properties.png){width="650"}
      *フォルダープロパティにクラウド設定を追加して、フラグメントテンプレートに接続します。*
 1. エクスペリエンスフラグメントを生成するには、トピックの&#x200B;**ファイルプロパティ**&#x200B;の&#x200B;**出力** セクションから&#x200B;**新規出力** ![新規出力アイコン &#x200B;](./images/Add_icon.svg)を選択します。
 1. 「**エクスペリエンスフラグメント**」を選択します。\
@@ -78,9 +88,9 @@ Experience Manager Guidesを使用すると、トピックまたはそのエレ�
    * また、コンテンツを公開する様々な条件を選択することもできます。  次のいずれかのオプションを選択します。
 
 
-      * **なし**：公開された出力に条件を適用しない場合は、このオプションを選択します。
-      * **DITAVALの使用**: パーソナライズされたコンテンツを生成するDITAVAL ファイルを選択します。 DITAVAL ファイルは、参照ダイアログまたはファイルパスを入力して選択できます。
-      * **属性の使用**: DITA トピックで条件属性を定義できます。 次に、関連するコンテンツを公開する条件属性を選択します。
+     * **なし**：公開された出力に条件を適用しない場合は、このオプションを選択します。
+     * **DITAVALの使用**: パーソナライズされたコンテンツを生成するDITAVAL ファイルを選択します。 DITAVAL ファイルは、参照ダイアログまたはファイルパスを入力して選択できます。
+     * **属性の使用**: DITA トピックで条件属性を定義できます。 次に、関連するコンテンツを公開する条件属性を選択します。
 
      >[!NOTE]
      > 

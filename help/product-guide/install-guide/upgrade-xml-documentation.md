@@ -5,30 +5,46 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/ga5xY7Qjubm-GcHwxt6QWbLU5MZ-VXTD3ML2pHFBOIE
+TQID: 'https://experienceleague.adobe.com/ga5xY7Qjubm-GcHwxt6QWbLU5MZ-VXTD3ML2pHFBOIE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
   - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+    internal-label: APIs
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: cdab8659-8d50-4417-b6fd-762f347c13ee
+    internal-label: Report generation
+  - id: e557051c-ff02-4ff8-9421-cf452af0edd5
+    internal-label: Installation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Security
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 9214
+source-wordcount: '9271'
 ht-degree: 2%
-
 ---
-
 # Adobe Experience Manager Guidesのアップグレード {#id224MBE0M0XA}
 
 >[!NOTE]
@@ -43,7 +59,7 @@ ht-degree: 2%
 - バージョン 4.3.x、4.2、4.2.1 （ホットフィックス 4.2.1.3）、4.1、または4.1.xを使用している場合は、バージョン 5.0.0にアップグレードする前にバージョン 4.4にアップグレードする必要があります。
 - バージョン 4.0を使用している場合は、バージョン 4.3.xにアップグレードする前にバージョン 4.2にアップグレードする必要があります。
 - バージョン 3.8.5を使用している場合は、バージョン 4.2にアップグレードする前にバージョン 4.0にアップグレードする必要があります。
-- 3.8.5より前のバージョンを使用している場合は、[Adobe Experience Manager Guides ヘルプ Experience Manager Guides アーカイブ &#x200B;](https://helpx.adobe.com/jp/xml-documentation-for-experience-manager/archive.html)で入手できる製品固有のインストールガイドの「PDFのアップグレード」セクションを参照してください。
+- 3.8.5より前のバージョンを使用している場合は、[Adobe Experience Manager Guides ヘルプ Experience Manager Guides アーカイブ &#x200B;](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)で入手できる製品固有のインストールガイドの「PDFのアップグレード」セクションを参照してください。
 
 
 >[!NOTE]
@@ -76,7 +92,7 @@ Experience Manager Guides バージョン 3.8.5を使用している場合は、
 
 >[!NOTE]
 >
-> このアップグレードプロセスは、バージョン 3.8.5からバージョン 4.0にのみ適用されます。 バージョン 3.4以降から3.8.5にアップグレードするプロセスについては、[Adobe Experience Manager Guides ヘルプのExperience Manager Guides アーカイブ &#x200B;](https://helpx.adobe.com/jp/xml-documentation-for-experience-manager/archive.html)で入手できる製品固有のインストールガイドの&#x200B;*PDFのアップグレード*&#x200B;の節を参照してください。
+> このアップグレードプロセスは、バージョン 3.8.5からバージョン 4.0にのみ適用されます。 バージョン 3.4以降から3.8.5にアップグレードするプロセスについては、[Adobe Experience Manager Guides ヘルプのExperience Manager Guides アーカイブ &#x200B;](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)で入手できる製品固有のインストールガイドの&#x200B;*PDFのアップグレード*&#x200B;の節を参照してください。
 
 
 
@@ -134,7 +150,7 @@ Experience Manager Guidesのアップグレードプロセスを開始する前�
 
    - UUID バージョンのソフトウェアを使用している場合は、「4.0 UUID Release for XML Documentation solution for AEM 6.5」を検索します。
    - 非UUID バージョンのソフトウェアを使用している場合は、「4.0 Non-UUID Release for XML Documentation solution for AEM 6.5」を検索します。
-CRX Package Managerを使用して、パッケージを既存のAEM サーバーインスタンスにアップロードし、インストールします。
+     CRX Package Managerを使用して、パッケージを既存のAEM サーバーインスタンスにアップロードし、インストールします。
 
    >[!NOTE]
    >
@@ -287,7 +303,7 @@ Experience Manager Guidesをインストールした後、新しくインスト�
 1. ノードの下に名前の抜粋を含む新しいノードを追加します。
 
    `/oak:index/damAssetLucene/indexRules/dam:Asset/properties`
-ノードで次のプロパティを設定します。
+   ノードで次のプロパティを設定します。
 
    ```
    name - rep:excerpt
@@ -485,7 +501,7 @@ Experience Manager Guidesをインストールした後、新しくインスト�
 
 既存のコンテンツのインデックスを作成するには、次の手順を実行し、マップレベルで新しい検索と置換のテキストを使用します。
 
-- `damAssetLucene`のインデックス作成が完了していることを確認します。サーバーに存在するデータ量に応じて、最大で数時間かかる場合があります。インデックス再作成が完了したことを確認するには、でインデックス再作成フィールドがfalseに設定されていることを確認します
+- `damAssetLucene`のインデックス作成が完了していることを確認します。 サーバーに存在するデータ量に応じて、最大で数時間かかる場合があります。 インデックス再作成が完了したことを確認するには、でインデックス再作成フィールドがfalseに設定されていることを確認します
   `http://<server:port>/oak:index/damAssetLucene`.  また、`damAssetLucene`でカスタマイズを追加した場合は、再度適用する必要がある場合があります。
 
 - サーバー\（正しい認証\）に対してPOST リクエストを実行します – `http://<server:port\>/bin/guides/map-find/indexing`。 （オプション：マップの特定のパスを渡してインデックスを作成できます。デフォルトでは、すべてのマップにインデックスが付けられます（例：`https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`）。

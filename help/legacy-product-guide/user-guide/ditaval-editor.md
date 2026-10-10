@@ -5,24 +5,30 @@ feature: Authoring, DITAVAL Editor
 role: User
 hide: true
 exl-id: 8eee347d-840e-4eaf-9441-c7c53a7c3aa0
-TQID: https://experienceleague.adobe.com/kIveRGwg17BgYGEsn9dgAtr8r5HFlEya-nD7gK2G--c
+TQID: 'https://experienceleague.adobe.com/kIveRGwg17BgYGEsn9dgAtr8r5HFlEya-nD7gK2G--c'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: ca593223-d11a-4a52-b369-a8e081e71737
+    internal-label: Desktop tools
+  - id: ec789d92-5632-44b6-abc6-bc29bbd44cb6
+    internal-label: DITAVAL editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 792
+source-wordcount: '792'
 ht-degree: 0%
-
 ---
-
 # DITAVAL エディター {#ditaval-editor}
 
 DITAVAL ファイルは、条件付き出力の生成に使用されます。 1つのトピックで、要素の属性を使用して条件を追加し、コンテンツをコンディショナライズできます。 次に、DITAVAL ファイルを作成します。このファイルでは、コンテンツを生成するために取得する必要がある条件と、最終的な出力から除外する条件を指定します。
@@ -63,13 +69,13 @@ DITAVAL ファイルを編集するには、次の手順を実行します。
    DITAVAL エディターでは、次のタスクを実行できます。
 
    A：左パネルの切り替え
-左パネル表示を切り替えます。 DITA マップを使用してDITAVAL ファイルを開くと、マップとリポジトリがこのパネルに表示されます。 DITA マップを使用してファイルを開く方法について詳しくは、[DITA マップを使用してトピックを編集](map-editor-advanced-map-editor.md#id17ACJ0F0FHS)を参照してください。
+   左パネル表示を切り替えます。 DITA マップを使用してDITAVAL ファイルを開くと、マップとリポジトリがこのパネルに表示されます。 DITA マップを使用してファイルを開く方法について詳しくは、[DITA マップを使用してトピックを編集](map-editor-advanced-map-editor.md#id17ACJ0F0FHS)を参照してください。
 
    B：保存
-ファイルに加えた変更を保存します。 変更内容はすべて、現在のバージョンのファイルに保存されます。
+   ファイルに加えた変更を保存します。 変更内容はすべて、現在のバージョンのファイルに保存されます。
 
    C: プロパティを追加
-DITAVAL ファイルに1つのプロパティを追加します。
+   DITAVAL ファイルに1つのプロパティを追加します。
 
    ![](images/ditaval-editor-props.png)
 
@@ -78,7 +84,7 @@ DITAVAL ファイルに1つのプロパティを追加します。
    2番目のドロップダウンリストには、選択した属性に設定された値が表示されます。 次のドロップダウンリストには、選択した属性に対して設定できるアクションが表示されます。 アクション ドロップダウンで使用できる値は、`include`、`exclude`、`passthrough`、および`flag`です。 これらの値について詳しくは、OASIS DITA ドキュメントの[prop](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop)要素の定義を参照してください
 
    D：すべてのプロパティを追加
-システムで定義されているすべてのコンディショナルプロパティまたは属性を1回のクリックで追加する場合は、「すべてのプロパティを追加」機能を使用します。
+   システムで定義されているすべてのコンディショナルプロパティまたは属性を1回のクリックで追加する場合は、「すべてのプロパティを追加」機能を使用します。
 
    >[!NOTE]
    >

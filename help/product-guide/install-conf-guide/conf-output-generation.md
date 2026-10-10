@@ -5,13 +5,28 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 6fff24d2-ec25-4654-837c-179e8688e2f4
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+subfeature_v2:
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '3397'
+source-wordcount: '3402'
 ht-degree: 1%
-
 ---
-
 # 出力生成設定の設定 {#id181AI0B0E30}
 
 AEM Guidesには、出力生成プロセスをカスタマイズするための多くの設定オプションが用意されています。 このトピックでは、出力生成プロセスの設定に役立つすべての設定とカスタマイズについて説明します。
@@ -287,8 +302,8 @@ DITA-OTに渡されたメタデータ値を検証するには、クラウド対�
 
   metadata.xmlにアクセスするには：
 
-   - AEM インスタンスが実行されているサーバーの場所にログインします。
-   - crx-quickstart/profiles/ditamaps/&lt;new-created-directory-name\>/metadata.xmlに移行します。
+  - AEM インスタンスが実行されているサーバーの場所にログインします。
+  - crx-quickstart/profiles/ditamaps/&lt;new-created-directory-name\>/metadata.xmlに移行します。
 - サンプルファイル形式：
 
   **metadata.xml**
@@ -499,11 +514,11 @@ FMPSを使用するようにAEM Guidesを設定するには、Web コンソー�
 
 >[!NOTE]
 >
-> http://&lt;server name\>:<port\>/system/console/configMgr URLにアクセスして、Web コンソールを開きます。
+> http://<server name\>:<port\>/system/console/configMgr URLにアクセスして、Web コンソールを開きます。
 
 | プロパティ | 説明 |
 |--------|-----------|
-| FrameMaker Publishing Server Login Domain | FrameMaker Publishing Serverをホストするドメイン名またはワークグループ名を指定します。 FMPS バージョンに基づいて、ドメイン名を:- **FMPS 2020**&#x200B;として指定します。192.168.1.101 <br>- **FMPS 2019以前**&#x200B;のIP アドレスまたはドメイン名を指定します |
+| FrameMaker Publishing Server Login Domain | FrameMaker Publishing Serverをホストするドメイン名またはワークグループ名を指定します。 FMPS バージョンに基づいて、ドメイン名を次のように指定します。- **FMPS 2020**: 192.168.1.101 <br>- **FMPS 2019以前の**: IP アドレスまたはドメイン名 |
 | FRAMEMAKER PUBLISHING SERVER URL | FrameMaker Publishing ServerのURLを指定します。 FMPS バージョンに基づいて、FMPS URLを<br>- **FMPS 2020**: `http://<fmps_ip>:<port>` \（http://192.168.1.101:7000\） <br> - **FMPS 2019以前**: `http://<fmps_ip>:<port>/fmserver/v1/`として指定します |
 | FMPS バージョン | FrameMaker Publishing Serverのバージョン番号を指定します。 FMPS バージョンに基づいて、バージョン情報を<br>- **FMPS 2020**: 2020 <br> - **FMPS 2019以前**: 2019または2017として指定します |
 | FrameMaker Publishing Serverのユーザー名とパスワード | FrameMaker Publishing Serverにアクセスするためのユーザー名とパスワードを指定します。 |

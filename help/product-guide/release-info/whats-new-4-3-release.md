@@ -4,34 +4,51 @@ description: Adobe Experience Manager Guides 4.3.0 リリースの新機能と�
 exl-id: 36decbf0-ec9d-43e2-99b7-85b0f9a87bc1
 feature: What's New
 role: Leader
-TQID: https://experienceleague.adobe.com/N-4hVzb2vN6fLLIFtyftHhzK94G7Q14Knj1-1Y9nGHE
+TQID: 'https://experienceleague.adobe.com/N-4hVzb2vN6fLLIFtyftHhzK94G7Q14Knj1-1Y9nGHE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+    internal-label: APIs
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388b
+    internal-label: Bulk activation
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: cda0baeb-996e-4aaa-92d1-41032e34fd68
+    internal-label: What's new
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Insights
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 2242
+source-wordcount: '2705'
 ht-degree: 0%
-
 ---
-
 # Adobe Experience Manager Guides 4.3.0 リリース（2023年7月）の新機能
 
 この記事では、Adobe Experience Manager Guides（後で&#x200B;*AEM Guides*&#x200B;と呼ばれます）のバージョン 4.3.0の新機能と強化機能について説明します。
@@ -43,7 +60,7 @@ ht-degree: 0%
 
 AEM Guidesのすぐに使えるコネクタを使用して、データソースに素早く接続できます。 データソースに接続すると、データをソースと同期させることができます。また、データの更新は自動的に反映されるため、AEM Guidesは真のコンテンツハブとなります。 この機能により、データを手動で追加またはコピーする時間と労力を節約できます。
 
-AEM Guidesでは、JIRAおよびSQL （MySQL、PostgreSQL、SQL Server、SQLite）データベース用のすぐに使えるコネクタを設定できます。デフォルトのインターフェイスを拡張して、他のコネクタを追加することもできます。
+AEM Guidesでは、JIRAおよびSQL （MySQL、PostgreSQL、SQL Server、SQLite）データベース用のすぐに使えるコネクタを設定できます。 デフォルトのインターフェイスを拡張して、他のコネクタを追加することもできます。
 追加すると、Web エディターのデータソースパネルの下に一覧表示される設定済みコネクタを表示できます。
 
 <img src="assets/data-sources.png" alt="パネルのデータソースリスト" width="300">
@@ -92,8 +109,8 @@ Adobe AEM Guidesなら、レビューをよりシームレスに。 Web エデ�
 
 ### レビューのトピックを検索
 
-レビューの実施は、AEM Guidesの重要な機能のひとつです。レビュー担当者は、割り当てられたドキュメントを確認できます。
-レビューパネルのトピックビューの検索バーに、タイトルまたはファイルパスのテキストの一部を入力して、トピックを検索できるようになりました。すべてのトピックを表示するか、コメント付きのトピックを表示するかを選択することもできます。デフォルトでは、レビュータスクに存在するすべてのトピックを表示できます。
+レビューの実施は、AEM Guidesの重要な機能のひとつです。 レビュー担当者は、割り当てられたドキュメントを確認できます。
+レビューパネルのトピックビューの検索バーに、タイトルまたはファイルパスのテキストの一部を入力して、トピックを検索できるようになりました。 すべてのトピックを表示するか、コメント付きのトピックを表示するかを選択することもできます。 デフォルトでは、レビュータスクに存在するすべてのトピックを表示できます。
 
 
 ![&#x200B; レビュートピックパネルでの検索](assets/review-search-topic.png){width="800"}
@@ -112,12 +129,12 @@ AEM Guidesをより堅牢な製品にするため、4.3.0 リリースでは、�
 
 ### 言語変数のサポート
 
-AEM Guidesでは、言語変数をサポートしています。言語変数を使用すると、メモ、注意、警告などの標準ラベルのローカライズ版や、PDF出力の静的テキストを定義できます。
+AEM Guidesでは、言語変数をサポートしています。 言語変数を使用すると、メモ、注意、警告などの標準ラベルのローカライズ版や、PDF出力の静的テキストを定義できます。
 PDF出力および出力テンプレートの適切なセクションに、言語変数またはラベルのローカライズ版を追加できます。
 
 #### PDF出力の言語変数
 
-言語変数を使用して、メモ、注意、警告などの要素のローカライズされたラベルを定義できます。これらの変数の値を1つ以上の言語で更新すると、ローカライズされた値がPDF出力で自動的に選択されます。
+言語変数を使用して、メモ、注意、警告などの要素のローカライズされたラベルを定義できます。 これらの変数の値を1つ以上の言語で更新すると、ローカライズされた値がPDF出力で自動的に選択されます。
 例えば、次の方法でPDF出力にラベルノートを表示できます。
 
 * 英語：メモ
@@ -126,8 +143,8 @@ PDF出力および出力テンプレートの適切なセクションに、言�
 
 #### 出力テンプレートの言語変数
 
-PDF出力を様々な言語で作成する場合は、各言語用のローカライズされたテキストを含む様々なPDF テンプレートを作成する必要がありました。言語変数機能を使用すれば、テンプレートを一度作成するだけで済みます。次に、ローカライズする必要がある静的テキストについて、対応する言語変数を作成し、テンプレートで使用できます。
-文全体や段落など、長いテキストの言語変数を作成できます。また、スタイルを適用し、HTML マークアップを使用してこれらの言語変数を書式設定することもできます。
+PDF出力を様々な言語で作成する場合は、各言語用のローカライズされたテキストを含む様々なPDF テンプレートを作成する必要がありました。 言語変数機能を使用すれば、テンプレートを一度作成するだけで済みます。 次に、ローカライズする必要がある静的テキストについて、対応する言語変数を作成し、テンプレートで使用できます。
+文全体や段落など、長いテキストの言語変数を作成できます。 また、スタイルを適用し、HTML マークアップを使用してこれらの言語変数を書式設定することもできます。
 
 詳しくは、[言語変数のサポート &#x200B;](../native-pdf/native-pdf-language-variables.md)を参照してください。
 
@@ -188,7 +205,7 @@ PDF出力に特定のセクションを表示したくない場合は、切り�
 変数を使用して、相互参照を定義できます。 変数を使用すると、その値はプロパティから選択されます。
 
 {figure}と{table}を使用することもできます。
-{figure}を使用して、図形番号に相互参照を追加します。Figure用に定義した自動番号スタイルからFigure番号を選択します。
+{figure}を使用して、図形番号に相互参照を追加します。 Figure用に定義した自動番号スタイルからFigure番号を選択します。
 
 {table}を使用して、テーブル番号に相互参照を追加します。 キャプション用に定義した自動番号スタイルから表番号を選択します。
 
@@ -237,7 +254,7 @@ AEM Guidesでは、スタイルのプレビューセクションの下に新し�
 
 ## Web エディターでの壊れたリンクのレポート
 
-AEM Guidesを使用すると、テクニカルドキュメントの全体的な完成度を確認し、Web エディターからレポートを生成できます。2023年6月リリースのAEM Guidesでは、破損したリンクを表示および修正する機能が提供されています。これは、壊れたリンクを管理するのに役立つ便利なレポートです。DITA マップに存在する壊れたリンクを簡単に表示し、修正することもできます。
+AEM Guidesを使用すると、テクニカルドキュメントの全体的な完成度を確認し、Web エディターからレポートを生成できます。 2023年6月リリースのAEM Guidesでは、破損したリンクを表示および修正する機能が提供されています。 これは、壊れたリンクを管理するのに役立つ便利なレポートです。 DITA マップに存在する壊れたリンクを簡単に表示し、修正することもできます。
 ![&#x200B; リンク切れレポート &#x200B;](assets/broken-link-report.png){width="800"}
 
 リンクを修正すると、壊れたリンクのリストの下に表示されません。
@@ -289,13 +306,13 @@ AEM Guidesでは、XML Localization Interchange File Format （XLIFF）形式の
 ## 一括公開ダッシュボードでのPDFのネイティブサポート
 
 
-AEM Guidesのバルクアクティベーション機能を利用すれば、コンテンツのオーサリングからパブリッシングインスタンスへの移行を迅速かつ容易におこなえます。一括アクティベーションマップでは、ネイティブ PDF出力プリセット、AEM サイト、PDF、HTML5、カスタムおよびJSON出力を含めることができます。
+AEM Guidesのバルクアクティベーション機能を利用すれば、コンテンツのオーサリングからパブリッシングインスタンスへの移行を迅速かつ容易におこなえます。 一括アクティベーションマップでは、ネイティブ PDF出力プリセット、AEM サイト、PDF、HTML5、カスタムおよびJSON出力を含めることができます。
 詳細については、[公開されたコンテンツの一括アクティベーション &#x200B;](../user-guide/conf-bulk-activation.md)を参照してください。
 
 ## 一括移動ツールの改善
 
 管理者は、改善された一括移動ツールを使用して、多くのファイルを含むフォルダーを1つの場所から別の場所に移動できるようになりました。
-ファイルを参照ダイアログを使用して、移動するソースフォルダーを選択できます。ソースフォルダーを移動する保存先を参照して選択することもできます。フィールドの近くの![情報アイコン &#x200B;](assets/info-icon.svg) {width="25"}を選択すると、そのフィールドに関する詳細情報を表示できます。
+ファイルを参照ダイアログを使用して、移動するソースフォルダーを選択できます。 ソースフォルダーを移動する保存先を参照して選択することもできます。 フィールドの近くの![情報アイコン &#x200B;](assets/info-icon.svg) {width="25"}を選択すると、そのフィールドに関する詳細情報を表示できます。
 
 詳細については、[&#x200B; ファイルを一括で移動](../user-guide/authoring-file-management.md#move-files-bulk)するをご覧ください。
 

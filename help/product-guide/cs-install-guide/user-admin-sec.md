@@ -5,34 +5,52 @@ exl-id: 10ab0f3c-97dc-4293-ab73-75b438c03d99
 feature: User Management
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/QpFE9DrZXxZTfONQFEtNCZCBRu5zOhjFkf1PcVj9sfU
+TQID: 'https://experienceleague.adobe.com/QpFE9DrZXxZTfONQFEtNCZCBRu5zOhjFkf1PcVj9sfU'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: b1210526-416b-4ef6-bcc0-1692e99f30e9
+    internal-label: Administration and security
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
   - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: a7a242db-c88c-4e44-818b-bfb4ef92efdf
+    internal-label: Permissions
   - id: c8841798-1a28-4264-a46a-984860f8e6f6
+    internal-label: User administration
   - id: f7774ebe-aec9-42b6-97e4-5002acdc712e
+    internal-label: Review
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
+  - id: dc1f7602-db3c-4ad4-a440-ff999bb16455
+    internal-label: User management
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Administration
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 728
+source-wordcount: '728'
 ht-degree: 12%
-
 ---
-
 # ユーザー管理とセキュリティ {#id181AED00G5Z}
 
 AEM Guidesの機能にアクセスして設定するには、ユーザーを作成する必要があります。 その後、これらのユーザーには、AEM Guidesのすべての機能または特定の機能にアクセスする権限を割り当てることができます。 AEMでユーザー認証を設定および管理する方法と、認証と認証の仕組みの背後にある理論について説明します。
@@ -106,11 +124,11 @@ AEM Guidesには、3つのグループが用意されています。 これら�
 
 - デフォルトでは、*発行者*&#x200B;には、DAM内の次のフォルダーに対するアクセス権と権限が付与されます。
 
-   - `/content/fmdita` -\>読み取りと書き込み
+  - `/content/fmdita` -\>読み取りと書き込み
 
-   - `/content/dam/fmdita-outputs` -\>読み取りと書き込み
+  - `/content/dam/fmdita-outputs` -\>読み取りと書き込み
 
-   - `/content/output/sites` -\>読み取りと書き込み
+  - `/content/output/sites` -\>読み取りと書き込み
 
   上記のデフォルトの公開場所を除く他の場所を使用している場合は、パブリッシャーに明示的な読み取りおよび書き込み権限を付与する必要があります。
 

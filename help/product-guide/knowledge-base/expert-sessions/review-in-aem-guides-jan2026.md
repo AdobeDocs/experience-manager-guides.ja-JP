@@ -2,7 +2,15 @@
 title: AEM Guidesでのコンテンツレビュー
 description: エキスパートセッション - AEM Guides レビューワークフロー内。 機能と実例
 exl-id: 4fa4a7f8-4b0b-45d8-978e-e2bde3692b1d
-source-git-commit: 0d214aca4b5f12d5401ed174d20259627bf94469
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 2%

@@ -5,27 +5,38 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: f53f4eef-5e99-4342-9919-508b90ee3571
-TQID: https://experienceleague.adobe.com/lqOHyhWXl0fJ2SFFP4wGlrPiFV-hIwdiUgbM8-O-UAc
+TQID: 'https://experienceleague.adobe.com/lqOHyhWXl0fJ2SFFP4wGlrPiFV-hIwdiUgbM8-O-UAc'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
+  - id: 5be0fc8f-1cff-5c3e-bb92-2903a56a3de6
+    internal-label: Migration
 subfeature_v2:
   - id: ed9d83c9-e55d-4a67-9667-8e31871715a7
+    internal-label: Content migration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Customer experience
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1696
+source-wordcount: '1697'
 ht-degree: 2%
-
 ---
-
 # 4.3.1非UUIDから4.3.2 UUID コンテンツへの移行
 
 
@@ -127,7 +138,7 @@ UUID バージョン 4.3.1以外からUUID バージョン 4.3.2にコンテン�
 
 1. 次の別のロガーを追加します。
    * `com.adobe.fmdita.uuid`
-   * `com.adobe.guides.uuid`
+   * `com.adobe.guides.uuid`。
 
 
 1. （以前に行っていない場合）システムに100,000個を超えるDITA ファイルがある場合は、`org.apache.jackrabbit.oak.query.QueryEngineSettingsService`の`queryLimitReads`を大きな値（存在するアセット数よりも大きい値、例えば200,000）に更新します。

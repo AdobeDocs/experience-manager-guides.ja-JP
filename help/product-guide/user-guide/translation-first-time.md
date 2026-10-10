@@ -4,27 +4,35 @@ description: AEM Guidesにおけるコンテンツ翻訳のベストプラクテ
 exl-id: f2a4df86-bba7-434c-b7f9-3587b8a4f9bc
 feature: Translation
 role: User
-TQID: https://experienceleague.adobe.com/798Cq-uPIr0LZRTB7LbcM5mYeoDxuVTR4meQn0LYsfs
+TQID: 'https://experienceleague.adobe.com/798Cq-uPIr0LZRTB7LbcM5mYeoDxuVTR4meQn0LYsfs'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: 626b0638-bd2d-504c-8ccd-53d63b856710
+    internal-label: Translation
 subfeature_v2:
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd456af4-cb12-4a34-8cc4-b74adf885626
+    internal-label: Content translation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 857
+source-wordcount: '857'
 ht-degree: 0%
-
 ---
-
 # コンテンツ翻訳のベストプラクティス {#id1678G0S702F}
 
 コンテンツを翻訳する際には、次の点を考慮してください。

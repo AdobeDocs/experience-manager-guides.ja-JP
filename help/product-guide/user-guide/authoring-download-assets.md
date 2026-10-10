@@ -4,26 +4,34 @@ description: AEM GuidesのDITA マップコンソールからファイルをダ�
 exl-id: ae9eb355-d3ac-446a-958b-5f2da43f5533
 feature: Content Management
 role: User
-TQID: https://experienceleague.adobe.com/xwz0wuugvwPsmIX78kuwv5te2NGcNTik-qoJvijRzzg
+TQID: 'https://experienceleague.adobe.com/xwz0wuugvwPsmIX78kuwv5te2NGcNTik-qoJvijRzzg'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: 2afda568-c433-5cad-ab97-19b8847286b0
+    internal-label: Content Management
 subfeature_v2:
   - id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41
+    internal-label: Map Editor
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 864
+source-wordcount: '864'
 ht-degree: 0%
-
 ---
-
 # ファイルをダウンロード {#id216MC0H0BE8}
 
 DITAおよびDITA以外のファイルを含むアセットをダウンロードできます。 アセットをダウンロードする方法は複数あり、一部の方法はAdobe Experience Managerがネイティブで、その他の方法はAdobe Experience Manager Guidesでサポートされています。 ネイティブのAdobe Experience Manager アセットのダウンロードに関する情報については、Adobe Experience Manager ドキュメントの[Adobe Experience Managerからアセットをダウンロードする](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html?lang=ja)を参照してください。 次の節では、Experience Manager Guidesでファイルをダウンロードする仕組みについて説明します。
@@ -49,13 +57,13 @@ DITAおよびDITA以外のファイルを含むアセットをダウンロード
 
    - **ファイル階層オプション**: ファイル階層ドロップダウンを使用して、ダウンロードしたマップファイルのフォルダー構造の処理方法を選択することもできます。 使用できるオプションは以下のとおりです。
 
-      - **ファイル階層を保持**：ダウンロードしたファイルの既存のフォルダー構造を保持するには、ドロップダウンからこのオプションを選択します。
-      - **ファイル階層を統合**: ドロップダウンからこのオプションを選択すると、参照されているすべてのトピックとメディアファイルが1つのフォルダーにダウンロードされます。
+     - **ファイル階層を保持**：ダウンロードしたファイルの既存のフォルダー構造を保持するには、ドロップダウンからこのオプションを選択します。
+     - **ファイル階層を統合**: ドロップダウンからこのオプションを選択すると、参照されているすべてのトピックとメディアファイルが1つのフォルダーにダウンロードされます。
 
      各オプションについて、ダウンロードしたファイルのファイル名の処理方法をさらに指定できます。 次のファイル名オプションを使用できます。
 
-      - **GUID ファイル名を使用**: GUIDを持つマップ ファイルをファイル名としてダウンロードします。
-      - **実際のファイル名を使用**：元のファイル名でマップファイルをダウンロードします。 このオプションをファイル階層の統合で使用すると、マップ内の重複したファイル名は、一意のファイル名を確保するために数値サフィックス（_2、_3など）を追加することで自動的に解決されます。
+     - **GUID ファイル名を使用**: GUIDを持つマップ ファイルをファイル名としてダウンロードします。
+     - **実際のファイル名を使用**：元のファイル名でマップファイルをダウンロードします。 このオプションをファイル階層の統合で使用すると、マップ内の重複したファイル名は、一意のファイル名を確保するために数値サフィックス（_2、_3など）を追加することで自動的に解決されます。
 
    >[!NOTE]
    >

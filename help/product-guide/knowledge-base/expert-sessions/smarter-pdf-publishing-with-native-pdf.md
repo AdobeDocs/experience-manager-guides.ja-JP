@@ -3,13 +3,19 @@ title: ネイティブPDFによる、よりスマートなPDFの公開
 description: このエキスパートセッションでは、ネイティブPDFを使用して、高度なCSSやXSLTの専門知識を使用せずに、PDFを生成するためのローコードテクノロジーを使用してDITA対応PDFを作成する方法について説明します
 keywords: DITA PDF パブリッシング，AEM Guides, ネイティブ PDF, DITAからPDFへ，DITA パブリッシングワークフロー，PDFの自動処理，メタデータドリブン型パブリッシング，DITA テンプレート
 exl-id: 763ca6fb-1e5a-4676-9684-879c13ba9a8e
-source-git-commit: 2fde91e85c4283d114b29f77a38bae6d67e60112
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 3%
-
 ---
-
 # ネイティブPDFによる、よりスマートなPDFの公開
 
 このセッションでは、AEM Guidesの高度なネイティブPDF機能を使用して、DITAからPDFへの公開ワークフローを強化する方法について説明しました。 このセッションでは、メタデータ、ブランディング、ローカライズによってPDFのカスタマイズを自動化する方法を説明し、複数のDITA公開テンプレートの必要性を減らします。 DITA チームがよりスマートかつ迅速に、大規模に公開するために、これらの強力な機能がどのように役立つのかをご確認ください。

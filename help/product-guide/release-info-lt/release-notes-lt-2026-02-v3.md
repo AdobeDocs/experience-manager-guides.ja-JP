@@ -3,13 +3,19 @@ title: リリースノート |製品トレーニングおよび学習コンテ�
 description: 製品トレーニングと学習コンテンツの2026年2月リリースの新機能と強化機能について説明します
 role: Leader
 exl-id: aef24b0c-0cb8-4646-9d8b-92d3460a7faa
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '735'
 ht-degree: 0%
-
 ---
-
 # 製品トレーニングと学習コンテンツの2026年2月リリース
 
 このリリースノートでは、製品トレーニングと学習コンテンツの2026年2月リリースで修正された新機能の機能強化と問題について説明します。

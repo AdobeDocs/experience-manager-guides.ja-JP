@@ -5,23 +5,31 @@ exl-id: 2f301f6a-0d1c-4194-84c2-0fddaef8d3ec
 feature: Output Generation
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/qLGskiqXBeu9Q7XjCBMjmRx5NFNaJ7xtS0XzxOFX0Zw
+TQID: 'https://experienceleague.adobe.com/qLGskiqXBeu9Q7XjCBMjmRx5NFNaJ7xtS0XzxOFX0Zw'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
 subfeature_v2:
   - id: d6596f3f-92a7-43ec-b444-237db6adad05
+    internal-label: Native PDF publishing
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 519
+source-wordcount: '519'
 ht-degree: 1%
-
 ---
-
 # JavaScriptを使用したコンテンツやスタイルの操作
 
 PDFのネイティブ公開機能を使用すると、JavaScriptを実行して、最終的なPDFが生成される前に、コンテンツに適用されたコンテンツやスタイルを操作できます。 この機能により、最終的な出力の生成方法を完全に制御できます。 例えば、別のPDFにあるPDF出力に法的通知を追加することができます。 JavaScriptを使用すると、基本コンテンツ用にPDFが作成された後、最終的なPDFが生成される前に、法的通知の情報を追加できます。\

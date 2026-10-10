@@ -2,7 +2,15 @@
 title: リリースノート | Adobe Experience Manager Guides 5.0.0 Service Pack 4 リリースのアップグレード手順
 description: 互換性マトリックスと、Adobe Experience Manager Guidesの5.0.0 Service Pack 4 リリースにアップグレードする方法について説明します。
 exl-id: 9b3d20a8-26b3-470c-8ce9-d5a5fddf88ee
-source-git-commit: dc8f50f21aa27730e541f7e0f41b2a81eaf4fe6a
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 1%

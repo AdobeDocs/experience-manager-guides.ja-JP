@@ -4,24 +4,30 @@ description: Adobe Experience Manager GuidesのDIVATAL エディターを使用�
 exl-id: f3901a4f-1925-42aa-b773-0d6f18175ce8
 feature: Authoring, DITAVAL Editor
 role: User
-TQID: https://experienceleague.adobe.com/VkX-SA8LgL-O3Gws5pGoj9RIFgrcn7NADVIDzBagxeg
+TQID: 'https://experienceleague.adobe.com/VkX-SA8LgL-O3Gws5pGoj9RIFgrcn7NADVIDzBagxeg'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: ca593223-d11a-4a52-b369-a8e081e71737
+    internal-label: Desktop tools
+  - id: ec789d92-5632-44b6-abc6-bc29bbd44cb6
+    internal-label: DITAVAL editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1537
+source-wordcount: '1556'
 ht-degree: 0%
-
 ---
-
 # DITAVAL エディター {#ditaval-editor}
 
 DITAVAL ファイルは、条件付き出力の生成に使用されます。 1つのトピックで、要素の属性を使用して条件を追加し、コンテンツをコンディショナライズできます。 次に、DITAVAL ファイルを作成します。このファイルでは、コンテンツを生成するために取得する必要がある条件と、最終的な出力から除外する条件を指定します。

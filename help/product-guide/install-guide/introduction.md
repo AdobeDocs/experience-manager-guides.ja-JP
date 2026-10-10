@@ -5,41 +5,64 @@ exl-id: 90d5ad94-eb68-4d73-9b23-a1f3d4b802ba
 feature: Introduction
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/MidaLhLlTZi2vCZ94Qyf5mxzTca5NgKRoExav7Mt8qY
+TQID: 'https://experienceleague.adobe.com/MidaLhLlTZi2vCZ94Qyf5mxzTca5NgKRoExav7Mt8qY'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: b1210526-416b-4ef6-bcc0-1692e99f30e9
+    internal-label: Administration and security
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
   - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: a7a242db-c88c-4e44-818b-bfb4ef92efdf
+    internal-label: Permissions
   - id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41
+    internal-label: Map Editor
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: b88be3fe-792c-484d-8262-9f667de75c8d
+    internal-label: Version management
   - id: c5fd2af0-6cbb-4746-ab0d-40ecb093af12
+    internal-label: Introduction
   - id: c8841798-1a28-4264-a46a-984860f8e6f6
+    internal-label: User administration
   - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+    internal-label: Content structure
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Administration
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 606
+source-wordcount: '606'
 ht-degree: 0%
-
 ---
-
 # このガイドについて {#id175MC0P0S5Z}
 
 Adobe Experience Manager Guides \（後に&#x200B;*AEM Guides*\）は、強力なエンタープライズグレードのコンポーネントコンテンツ管理ソリューション \（CCMS\）です。 Adobe Experience Managerでネイティブ DITA サポートを有効にし、AEMがDITA ベースのコンテンツの制作と配信を処理できるようにします。 これにより、Adobe FrameMakerや使いやすい組み込みWeb エディターなど、オフラインのDITA オーサリングツールを使用して、コンテンツを制作できるようになります。
@@ -96,9 +119,9 @@ Adobe Experience Manager Guides \（後に&#x200B;*AEM Guides*\）は、強力�
 
 ## その他のリソース
 
-以下は、[&#x200B; ラーニングとサポート &#x200B;](https://helpx.adobe.com/jp/support/xml-documentation-for-experience-manager.html) ページで入手できるAEM Guidesのその他の役立つリソースの一覧です。
+以下は、[&#x200B; ラーニングとサポート &#x200B;](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html) ページで入手できるAEM Guidesのその他の役立つリソースの一覧です。
 
 - ユーザーガイド
 - API リファレンスガイド
 - クイックスタートガイド
-- [&#x200B; ヘルプアーカイブページ &#x200B;](https://helpx.adobe.com/jp/xml-documentation-for-experience-manager/archive.html) \（以前のリリースドキュメントにアクセス\）
+- [&#x200B; ヘルプアーカイブページ &#x200B;](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \（以前のリリースドキュメントにアクセス\）

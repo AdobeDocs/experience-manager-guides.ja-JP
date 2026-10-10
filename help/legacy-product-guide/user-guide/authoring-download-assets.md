@@ -5,24 +5,30 @@ feature: Content Management
 role: User
 hide: true
 exl-id: b04a0abe-a029-44ac-b8f4-138d78908d44
-TQID: https://experienceleague.adobe.com/iCZL0VgkFqcKWqnTpNWkXvJUXyMbLUL6wENBvVXe40Y
+TQID: 'https://experienceleague.adobe.com/iCZL0VgkFqcKWqnTpNWkXvJUXyMbLUL6wENBvVXe40Y'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: 2afda568-c433-5cad-ab97-19b8847286b0
+    internal-label: Content Management
 subfeature_v2:
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 440
+source-wordcount: '440'
 ht-degree: 0%
-
 ---
-
 # ファイルをダウンロード {#id216MC0H0BE8}
 
 DITAおよびDITA以外のファイルを含むアセットをダウンロードできます。 アセットをダウンロードする方法は複数あり、一部の方法はAEMがネイティブで、その他の方法はAEM Guidesでサポートされています。 ネイティブのAEM アセットのダウンロードについて詳しくは、AEM ドキュメントの「[Adobe Experience Managerからアセットをダウンロードする](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html?lang=ja)」を参照してください。 次の節では、AEM GuidesのDITA マップコンソールを使用してファイルをダウンロードする仕組みについて説明します。

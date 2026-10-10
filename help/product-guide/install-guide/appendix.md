@@ -5,24 +5,36 @@ exl-id: 02da0e61-7a73-4c4c-9bd7-2664d90fa728
 feature: InDesign File Conversion
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/cfaAR6ieDyb5pmbXcAcxzXzHj0mGoJyX5QYg9O4InY8
+TQID: 'https://experienceleague.adobe.com/cfaAR6ieDyb5pmbXcAcxzXzHj0mGoJyX5QYg9O4InY8'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: f118db50-bb08-4bfa-a602-3b196f1f8882
+    internal-label: InDesign file conversion
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Troubleshooting
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 2865
+source-wordcount: '2865'
 ht-degree: 0%
-
 ---
-
 # 付録 {#id195AD0L60Y4}
 
 ## 変換するInDesign ファイルの準備 {#id195DBF0045Z}
@@ -321,8 +333,8 @@ InDesignの表スタイルを使用すると、列とセルの罫線を交互の
 - `@mapTo`: DITA ターゲット要素の名前。
 
 - `@context`：この属性は、複数のラッパーの選択肢が使用可能な場合に、特定の&#x200B;**ラップ** ルールにリンクするために使用されます。 例：`li`要素は、`ol`要素または`ul`要素のいずれかにラップできます。 異なるリストタイプを識別するには、特定のスタイル名または`@local`属性を使用して、次を表示できます。
-   - `local="p[-|-|-|-|-|b|-|-]"` フィールド 6の&#39;`b`&#39;は、箇条書きリスト項目を示します。 この場合、`@context`を&#39;`bullet`&#39;に設定します。
-   - `local="p[-|-|-|-|-|n|-|-]"` フィールド 6の&#39;`n`&#39;は番号付きリスト項目を示します。 この場合、`@context`を&#39;`number`&#39;に設定します。
+  - `local="p[-|-|-|-|-|b|-|-]"` フィールド 6の&#39;`b`&#39;は、箇条書きリスト項目を示します。 この場合、`@context`を&#39;`bullet`&#39;に設定します。
+  - `local="p[-|-|-|-|-|n|-|-]"` フィールド 6の&#39;`n`&#39;は番号付きリスト項目を示します。 この場合、`@context`を&#39;`number`&#39;に設定します。
 
 - `@commentOut`：この属性を使用すると、XML コメント内のターゲット要素の折り返しが可能になり、情報が失われることはなく、ユーザーが手動で処理できるようになります。 これは、ソースコンテンツがDITA構造ルールに強制的に準拠できない場合に便利です。
 
@@ -353,9 +365,9 @@ InDesignの表スタイルを使用すると、列とセルの罫線を交互の
 - `@local`: [\#id194CG0V005Z](#id194CG0V005Z)を参照してください。
 - `@mapTo`: DITA ターゲット要素の名前。
 - `@refactor`：このオプション属性には、次の2つの値の選択肢があります。
-   - `unwrap`：一致した要素は、そのコンテンツを保持している間に削除されます。
+  - `unwrap`：一致した要素は、そのコンテンツを保持している間に削除されます。
 
-   - `drop`：一致した要素とそのすべてのコンテンツが削除されます。
+  - `drop`：一致した要素とそのすべてのコンテンツが削除されます。
 
 
 **属性ルール**
@@ -385,11 +397,11 @@ InDesignの表スタイルを使用すると、列とセルの罫線を交互の
 > この要素には、複数の子要素を含めることができます。
 
 - `addNew`：一致した要素に新しい属性を追加します。 あらゆるコンテキストで利用可能です。 これには2つの属性があります。
-   - `@name`：有効なXML名である必要があります。DITA コンテキストで有効であることが望ましいです。
-   - `@value`: リテラルテキストまたは単純なXPath式を指定できます。
+  - `@name`：有効なXML名である必要があります。DITA コンテキストで有効であることが望ましいです。
+  - `@value`: リテラルテキストまたは単純なXPath式を指定できます。
 - `copyAtt`：必要に応じて、プロセス内で名前を変更しながら、単一の属性をターゲットにコピーします。 値は変更されません。 コンテキスト `mapDoctypeParaRule`、`mapDoctypeElemRule`、`doctypeElemRule`、`elementRule`で使用できます。 この要素が存在する場合、`@copyAllAtts`値は`false`と見なされます。 これには2つの属性があります。
-   - `@name`: ソース XML要素に存在する属性の名前である必要があります。
-   - `@mapTo`：有効なXML名である必要があります。DITA コンテキストで有効であることが望ましいです。
+  - `@name`: ソース XML要素に存在する属性の名前である必要があります。
+  - `@mapTo`：有効なXML名である必要があります。DITA コンテキストで有効であることが望ましいです。
 
 **ローカルの書式設定コード**
 
@@ -437,9 +449,9 @@ InDesignの表スタイルを使用すると、列とセルの罫線を交互の
 
 - `@refactor`：このオプション属性には、次の2つの値の選択肢があります。
 
-   - `unwrap`：一致した要素は、そのコンテンツを保持している間に削除されます。
+  - `unwrap`：一致した要素は、そのコンテンツを保持している間に削除されます。
 
-   - `drop`：一致した要素とそのすべてのコンテンツが削除されます。
+  - `drop`：一致した要素とそのすべてのコンテンツが削除されます。
 
 - `@context`：この属性は、複数のラッパーの選択肢がある場合に、特定のラッピングルールにリンクするために使用されます。 例：`li`要素は、`ol`要素または`ul`要素のいずれかにラップできます。
 

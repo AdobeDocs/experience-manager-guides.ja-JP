@@ -4,25 +4,37 @@ description: コンテンツを複数の言語に翻訳する方法をご確認�
 exl-id: c8dacbdc-4b0b-44ca-82d4-889cd83741ff
 feature: Translation, Troubleshooting
 role: User, Admin
-TQID: https://experienceleague.adobe.com/wqeX15zlw6ALVSvXTJu-lMXm8dIvKSqcFGAFuu610p4
+TQID: 'https://experienceleague.adobe.com/wqeX15zlw6ALVSvXTJu-lMXm8dIvKSqcFGAFuu610p4'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
   - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+    internal-label: APIs
+  - id: 626b0638-bd2d-504c-8ccd-53d63b856710
+    internal-label: Translation
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: e13e7f13-0f4c-43f9-b0a7-1f33bd47e105
+    internal-label: Troubleshooting
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Troubleshooting
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 208
+source-wordcount: '208'
 ht-degree: 4%
-
 ---
-
 # コンテンツの翻訳
 
 AEM Guidesは、強力な翻訳機能を備えた多言語コンテンツ制作のための究極のソリューションを提供します。

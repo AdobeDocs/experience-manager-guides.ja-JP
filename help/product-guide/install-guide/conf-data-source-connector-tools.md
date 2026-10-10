@@ -5,24 +5,31 @@ exl-id: 2a0ac0a0-b2a9-453e-851b-fb04c8903526
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/VnRmYie1-SA-DFrz46j3xS6GEO6rJG4QAc4M-mNMYYc
+TQID: 'https://experienceleague.adobe.com/VnRmYie1-SA-DFrz46j3xS6GEO6rJG4QAc4M-mNMYYc'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 519
+source-wordcount: '548'
 ht-degree: 0%
-
 ---
-
 # ユーザーインターフェイスからのデータソースコネクタの設定
 
 Experience Manager Guidesには、**データソース** ツールが付属しており、データソース用にすぐに使用できるコネクタを設定できます。 JIRA、SQL （MySQL、PostgreSQL、Microsoft SQL Server、SQLite、MariaDB、H2DB）、Adobe Commerce、Elasticsearch データベース用のコネクタを設定できます。
@@ -81,7 +88,7 @@ Experience Manager Guidesには、**データソース** ツールが付属し�
 
 * **再接続**：切断されたコネクタに再接続します。
 
-* **重複**：現在のコネクタをベースとして使用して、新しい重複コネクタを作成します。デフォルトでは、重複したコネクタは接尾辞（connectorname_1など）を付けて作成されます。例えば、sample-elastic-search_1です。
+* **重複**：現在のコネクタをベースとして使用して、新しい重複コネクタを作成します。 デフォルトでは、重複したコネクタは接尾辞（connectorname_1など）を付けて作成されます。 例えば、sample-elastic-search_1です。
 同じ名前のコネクタが存在する場合は、エラーが表示されます。
 
 * **削除**：選択したコネクタを削除します。

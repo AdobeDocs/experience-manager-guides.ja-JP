@@ -4,24 +4,30 @@ description: マップエディターの一般的な機能をいくつか紹介�
 exl-id: f0e7a402-ac12-4c63-9d7f-92567ee29a39
 feature: Authoring, Map Editor
 role: User
-TQID: https://experienceleague.adobe.com/Af2mFR-OG-QTbQU7HBQb-kfvuCcw5fd89CA4-mSroNE
+TQID: 'https://experienceleague.adobe.com/Af2mFR-OG-QTbQU7HBQb-kfvuCcw5fd89CA4-mSroNE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
+  - id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41
+    internal-label: Map Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c3a30c22dd49ab8af898ecd2ff032101d2f9d93f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1285
+source-wordcount: '1285'
 ht-degree: 0%
-
 ---
-
 # マップエディターの追加機能 {#id1942D0T0HUI}
 
 マップエディターの一般的な機能には、次のようなものがあります。

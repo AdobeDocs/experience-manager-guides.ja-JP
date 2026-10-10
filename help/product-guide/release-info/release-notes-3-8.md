@@ -1,13 +1,19 @@
 ---
 title: Adobe Experience Manager Guides 3.8および3.8.5のリリースノート
 description: Adobe Experience Manager Guidesの3.8および3.8.5 リリース（以前はXML Documentation ソリューションと呼ばれていました）の主な新機能と機能強化。
-source-git-commit: ff3d35832b80f6221f1261498934ab74261b282b
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1589'
 ht-degree: 0%
-
 ---
-
 
 # リリースノート | Adobe Experience Manager Guides 3.8
 
@@ -66,8 +72,8 @@ XML Documentation ソリューションでDITA トピックを作成する際は
   ![Version cue](assets/old-version-icon.avif)
 
 - このリリースでは、新しいバージョン履歴機能が導入されました。 バージョン履歴機能を使用して、以下を行います。
-   - 現在アクティブなトピックのすべてのバージョンと、各バージョンに追加されたラベルのリストを表示します。
-   - トピックの以前のバージョンに戻します。
+  - 現在アクティブなトピックのすべてのバージョンと、各バージョンに追加されたラベルのリストを表示します。
+  - トピックの以前のバージョンに戻します。
 
   ![&#x200B; バージョン履歴](assets/version-history.avif)
 
@@ -98,9 +104,9 @@ XML Documentation ソリューションでDITA トピックを作成する際は
 #### 公開
 
 - **生成されたサイト ページのサニタイズ ルールの設定を許可**：管理者は、生成されたAEM サイトまたはDITA-OT出力のファイル名にサニタイズ ルールを定義できます。 DITA-OTを使用してAEM サイトの出力または出力を生成する場合は、出力生成されたURLまたはファイル名をサニタイズするために、次のルールを設定できます。
-   - すべての文字を小文字に変換します。
-   - 特殊文字を区切り記号に置き換えます。
-   - 長いファイル名を、定義済みの文字数に制限します。
+  - すべての文字を小文字に変換します。
+  - 特殊文字を区切り記号に置き換えます。
+  - 長いファイル名を、定義済みの文字数に制限します。
 
 - 一括アクティベーションダッシュボードを使用すると、オーサーインスタンスからパブリッシュインスタンスに出力を簡単にプッシュできます。 1つのマップまたはマップコレクションで作業し、パブリッシュに使用する出力プリセットを選択できます。
 

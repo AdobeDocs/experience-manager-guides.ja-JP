@@ -3,7 +3,7 @@ title: Experience Manager Guides ドキュメント
 description: Adobe Experience Manager Guidesのドキュメントを参照してください。 Experience Managerのネイティブ DITA サポート、構造化オーサリング、マルチチャネル公開についてご確認ください。
 feature: AEM Guides Tutorials
 role: User
-TQID: https://experienceleague.adobe.com/S4wTM-7gfU7D-JfKVbb9nK3qoQIG6PdiY7jtpsc6kDs
+TQID: 'https://experienceleague.adobe.com/S4wTM-7gfU7D-JfKVbb9nK3qoQIG6PdiY7jtpsc6kDs'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -20,6 +20,8 @@ feature_v2:
     internal-label: Reports
   - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
     internal-label: Authoring and publishing content
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
 subfeature_v2:
   - id: aad65a09-20cc-4780-ad44-329d14dc8481
     internal-label: Workflows
@@ -31,6 +33,8 @@ subfeature_v2:
     internal-label: Publishing
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
     internal-label: Output generation
+  - id: f5449061-fbde-4905-be99-034c1b054385
+    internal-label: AEM Guides tutorials
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -39,7 +43,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: ce193b31d44d3a67bb18d1db5531c23cb81c4803
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 6%

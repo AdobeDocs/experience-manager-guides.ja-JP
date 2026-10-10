@@ -1,13 +1,19 @@
 ---
 title: EXPERIENCE MANAGER GUIDES リリースのAPI アップデート
 description: Experience Manager Guides リリースの様々なAPI アップデートについて説明します
-source-git-commit: 24637376024107ae575620e5491c0150da6cc956
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: bd6ba4ddd51327ea87ee9adcd5f7d23e0582e75c
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 7%
-
 ---
-
 
 # EXPERIENCE MANAGER GUIDES リリースのAPI アップデート
 

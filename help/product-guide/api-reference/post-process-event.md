@@ -5,21 +5,31 @@ exl-id: 3b105ff5-02d4-40e3-a713-206a7fcf18b2
 feature: Post-Processing Event Handler
 role: Developer
 level: Experienced
-TQID: https://experienceleague.adobe.com/ixD-jFpXxkdmPbOWtCDxPgjtxu-FfJkzGCdUHNeA1CY
+TQID: 'https://experienceleague.adobe.com/ixD-jFpXxkdmPbOWtCDxPgjtxu-FfJkzGCdUHNeA1CY'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+    internal-label: APIs
+subfeature_v2:
+  - id: e0bef973-8c57-4760-9b12-ec950a3c7247
+    internal-label: Post processing event handler
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 427
+source-wordcount: '427'
 ht-degree: 4%
-
 ---
-
 # 後処理イベントハンドラー {#id175UB30E05Z}
 
 ## UUIDとCloud Service
@@ -48,7 +58,7 @@ com/adobe/guides/postprocess/complete
 
 | 名前 | 種類 | 説明 |
 |----|----|-----------|
-| `path` | 文字列 | このイベントをトリガーしたファイルのパス。 通常、これは操作が実行されたファイルです。 |
+| `path` | String | このイベントをトリガーしたファイルのパス。 通常、これは操作が実行されたファイルです。 |
 | `eventType` | 文字列 | イベントのタイプ（CREATEまたはMODIFY）。 |
 | `status` | 文字列 | 実行された操作の戻りステータス。 可能なオプションは次のとおりです。<br> – 成功：後処理操作が正常に完了しました。 <br> – 失敗：一部のエラーが原因で、後処理操作が失敗しました。 |
 | `errorMsg` | 文字列 | 処理後の操作に失敗した場合のエラーメッセージ。 |
@@ -117,7 +127,7 @@ com/adobe/fmdita/postprocess/complete
 
 | 名前 | 種類 | 説明 |
 |----|----|-----------|
-| `path` | 文字列 | このイベントをトリガーしたファイルのパス。 通常、これは操作が実行されたファイルです。 |
+| `path` | String | このイベントをトリガーしたファイルのパス。 通常、これは操作が実行されたファイルです。 |
 | `status` | 文字列 | 実行された操作の戻りステータス。 可能なオプションは次のとおりです。<br> – 成功：後処理操作が正常に完了しました。 <br>- エラーが発生して完了：後処理操作は完了しましたが、エラーが発生しました。 <br> – 失敗：一部のエラーが原因で、後処理操作が失敗しました。 |
 | `message` | 文字列 | ステータスが「エラーで完了」または「失敗」の場合、このパラメーターにはエラーまたは失敗の理由に関する詳細が含まれます。 |
 | `operation` | 文字列 | ファイルに対して実行された後処理操作。 可能なオプションは次のとおりです。<br> – 追加<br> – 更新<br> – 削除 |
