@@ -4,33 +4,42 @@ description: Adobe Experience Manager Guides as a Cloud Serviceの2023年6月リ
 exl-id: 625f9702-2b91-4622-9fec-282f47f1d7a6
 feature: What's New
 role: Leader
-TQID: https://experienceleague.adobe.com/fPOg5RioczOxug8ACT9X9seCvXgjZ84mpPMEBUD4yJs
+TQID: 'https://experienceleague.adobe.com/fPOg5RioczOxug8ACT9X9seCvXgjZ84mpPMEBUD4yJs'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
+subfeature_v2:
+  - id: cda0baeb-996e-4aaa-92d1-41032e34fd68
+    internal-label: What's new
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 910
+source-wordcount: '1228'
 ht-degree: 0%
-
 ---
-
 # Adobe Experience Manager Guides as a Cloud Serviceの2023年6月リリースの新機能
 
 この記事では、Adobe Experience Manager Guidesの2023年6月バージョン（後に&#x200B;*AEM Guides as a Cloud Service*&#x200B;と呼ばれます）の新機能と強化機能について説明します。
 
-アップグレード手順、互換性マトリックス、およびこのリリースで修正された問題について詳しくは、[&#x200B; リリースノート &#x200B;](release-notes-2023-6-0.md)を参照してください。
+アップグレード手順、互換性マトリックス、およびこのリリースで修正された問題について詳しくは、[ リリースノート ](release-notes-2023-6-0.md)を参照してください。
 
 ## Web エディターでの壊れたリンクのレポート
 
-AEM Guidesを使用すると、テクニカルドキュメントの全体的な完成度を確認し、Web エディターからレポートを生成できます。2023年6月リリースのAEM Guidesでは、破損したリンクを表示および修正する機能が提供されています。これは、壊れたリンクを管理するのに役立つ便利なレポートです。DITA マップに存在する壊れたリンクを簡単に表示し、修正することもできます。
+AEM Guidesを使用すると、テクニカルドキュメントの全体的な完成度を確認し、Web エディターからレポートを生成できます。 2023年6月リリースのAEM Guidesでは、破損したリンクを表示および修正する機能が提供されています。 これは、壊れたリンクを管理するのに役立つ便利なレポートです。 DITA マップに存在する壊れたリンクを簡単に表示し、修正することもできます。
 ![](assets/broken-link-report.png){width="800"}
 
 リンクを修正すると、壊れたリンクのリストの下に表示されません。
@@ -43,7 +52,7 @@ AEM Guidesを使用すると、テクニカルドキュメントの全体的な�
 
 ![](assets/rename-move-assets.png){width="650"}
 
-ファイルのオプションメニューについて詳しくは、[左パネル &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS) セクションの&#x200B;**リポジトリビュー**&#x200B;機能の説明を参照してください。
+ファイルのオプションメニューについて詳しくは、[左パネル ](../user-guide/web-editor-features.md#id2051EA0M0HS) セクションの&#x200B;**リポジトリビュー**&#x200B;機能の説明を参照してください。
 
 ## PDFのネイティブ機能
 
@@ -55,12 +64,12 @@ AEM Guidesを使用すると、テクニカルドキュメントの全体的な�
 
 ### 言語変数のサポート
 
-AEM Guidesでは、言語変数をサポートしています。言語変数を使用すると、メモ、注意、警告などの標準ラベルのローカライズ版や、PDF出力の静的テキストを定義できます。
+AEM Guidesでは、言語変数をサポートしています。 言語変数を使用すると、メモ、注意、警告などの標準ラベルのローカライズ版や、PDF出力の静的テキストを定義できます。
 PDF出力および出力テンプレートの適切なセクションに、言語変数またはラベルのローカライズ版を追加できます。
 
 #### PDF出力の言語変数
 
-言語変数を使用して、メモ、注意、警告などの要素のローカライズされたラベルを定義できます。これらの変数の値を1つ以上の言語で更新すると、ローカライズされた値がPDF出力で自動的に選択されます。
+言語変数を使用して、メモ、注意、警告などの要素のローカライズされたラベルを定義できます。 これらの変数の値を1つ以上の言語で更新すると、ローカライズされた値がPDF出力で自動的に選択されます。
 例えば、次の方法でPDF出力にラベルノートを表示できます。
 
 * 英語：メモ
@@ -69,10 +78,10 @@ PDF出力および出力テンプレートの適切なセクションに、言�
 
 #### 出力テンプレートの言語変数
 
-PDF出力を様々な言語で作成する場合は、各言語用のローカライズされたテキストを含む様々なPDF テンプレートを作成する必要がありました。言語変数機能を使用すれば、テンプレートを一度作成するだけで済みます。次に、ローカライズする必要がある静的テキストについて、対応する言語変数を作成し、テンプレートで使用できます。
-文全体や段落など、長いテキストの言語変数を作成できます。また、スタイルを適用し、HTML マークアップを使用してこれらの言語変数を書式設定することもできます。
+PDF出力を様々な言語で作成する場合は、各言語用のローカライズされたテキストを含む様々なPDF テンプレートを作成する必要がありました。 言語変数機能を使用すれば、テンプレートを一度作成するだけで済みます。 次に、ローカライズする必要がある静的テキストについて、対応する言語変数を作成し、テンプレートで使用できます。
+文全体や段落など、長いテキストの言語変数を作成できます。 また、スタイルを適用し、HTML マークアップを使用してこれらの言語変数を書式設定することもできます。
 
-詳しくは、[言語変数のサポート &#x200B;](../native-pdf/native-pdf-language-variables.md)を参照してください。
+詳しくは、[言語変数のサポート ](../native-pdf/native-pdf-language-variables.md)を参照してください。
 
 ### PDF レイアウトでAEM メタデータを使用する機能
 
@@ -87,7 +96,7 @@ Adobe AEM Guidesでは、アセットのメタデータプロパティを選択�
 >
 > AEM Guidesは、DITA マップのメタデータプロパティもサポートしています。
 
-詳細については、[&#x200B; フィールドとメタデータの追加](../native-pdf/design-page-layout.md#add-fields-metadata)を参照してください。
+詳細については、[ フィールドとメタデータの追加](../native-pdf/design-page-layout.md#add-fields-metadata)を参照してください。
 
 
 ## Schematronの機能強化
@@ -96,7 +105,7 @@ Adobe AEM Guidesでは、アセットのメタデータプロパティを選択�
 
 AEM Guidesは、Schematronでレポートステートメントもサポートするようになりました。 レポート文は、テスト文がtrueと評価されたときにメッセージを生成します。 例えば、短い説明を150文字以下にする場合は、レポート文を定義して、短い説明が150文字以上のトピックを確認できます。
 
-詳細については、[&#x200B; アサートステートメントとレポートステートメントを使用してルールを確認する](../user-guide/support-schematron-file.md#schematron-assert-report)を参照してください。
+詳細については、[ アサートステートメントとレポートステートメントを使用してルールを確認する](../user-guide/support-schematron-file.md#schematron-assert-report)を参照してください。
 
 ### 正規表現の使用
 
@@ -121,18 +130,18 @@ Web エディターからAEM ホームページに簡単に移動できるよう
 * 「**ガイド**」アイコン（![](assets/aem-guides-icon.png)）をクリックして、AEMのナビゲーションページに戻ります。
 
 
-詳しくは、[AEMのナビゲーションページ &#x200B;](../user-guide/web-editor-launch-editor.md#id2056BG00RZJ)を参照してください。
+詳しくは、[AEMのナビゲーションページ ](../user-guide/web-editor-launch-editor.md#id2056BG00RZJ)を参照してください。
 
 ## 件名の定義と列挙の階層定義の処理
 
-AEM Guidesには、分類の被写体と制御値を定義するために使用されるDITA マップの特殊な形式である被写体スキーム マップを作成する強力な機能が搭載されています。AEM Guidesでは、マップ内の被写体の定義と別のマップ内の列挙定義を定義することもできます。その後、マップ参照を追加し、件名スキームを使用できます。
+AEM Guidesには、分類の被写体と制御値を定義するために使用されるDITA マップの特殊な形式である被写体スキーム マップを作成する強力な機能が搭載されています。 AEM Guidesでは、マップ内の被写体の定義と別のマップ内の列挙定義を定義することもできます。 その後、マップ参照を追加し、件名スキームを使用できます。
 サブジェクト列挙の参照は、同じマップまたは参照されたマップで解決されます。
 
-件名の定義と列挙の階層定義の処理について詳しくは、[左パネル &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS) セクションの&#x200B;**件名スキーム**&#x200B;機能の説明を参照してください。
+件名の定義と列挙の階層定義の処理について詳しくは、[左パネル ](../user-guide/web-editor-features.md#id2051EA0M0HS) セクションの&#x200B;**件名スキーム**&#x200B;機能の説明を参照してください。
 
 ## 翻訳でのXLIFF形式のサポート
 
-AEM Guidesでは、XML Localization Interchange File Format （XLIFF）形式のサポートも提供されています。また、**新しいXLIFF翻訳プロジェクトを作成**&#x200B;して、XML コンテンツをXLIFF形式に変換することもできます。
+AEM Guidesでは、XML Localization Interchange File Format （XLIFF）形式のサポートも提供されています。 また、**新しいXLIFF翻訳プロジェクトを作成**して、XML コンテンツをXLIFF形式に変換することもできます。
 この形式を使用すると、コンテンツを業界標準のXLIFF形式に書き出してから、翻訳ベンダーに同じものを提供できます。詳細については、[翻訳プロジェクトの作成](../user-guide/translate-documents-web-editor.md#create-translation-project)を参照してください。
 
 ![](assets/translation-project-types.png){width="350"}
@@ -149,7 +158,7 @@ AEM Guidesを使用すると、ファイルやフォルダーのコレクショ�
 >
 > 上部の&#x200B;**更新** アイコンを使用して、リストを更新することもできます。
 
-お気に入りコレクションの&#x200B;**オプション** メニューについて詳しくは、[左パネル &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS) セクションの&#x200B;**お気に入り**&#x200B;機能の説明を参照してください。
+お気に入りコレクションの&#x200B;**オプション** メニューについて詳しくは、[左パネル ](../user-guide/web-editor-features.md#id2051EA0M0HS) セクションの&#x200B;**お気に入り**&#x200B;機能の説明を参照してください。
 
 ## システムテーマに切り替え
 
@@ -157,4 +166,4 @@ AEM Guidesを使用すると、ファイルやフォルダーのコレクショ�
 
 ![](assets/device-theme-user-preferences.png){width="550"}
 
-詳細については、[&#x200B; メインツールバー](../user-guide/web-editor-features.md#id2051EA0G05Z) セクションの&#x200B;**ユーザー環境設定**&#x200B;機能の説明を参照してください。
+詳細については、[ メインツールバー](../user-guide/web-editor-features.md#id2051EA0G05Z) セクションの&#x200B;**ユーザー環境設定**&#x200B;機能の説明を参照してください。

@@ -8,13 +8,19 @@ product_v2:
     internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: fc07eb3b-d7d7-4e9a-a558-c3099c2b6f7b
+    internal-label: Release notes
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
     internal-label: Leader
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 6841c373b75770e8691a2cac4d56aeb368b09480
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 2%
@@ -63,29 +69,29 @@ ht-degree: 2%
 
 | [!DNL AEM Guides] リリース | リリースノート |
 |---|---|
-| **AEM Guides 2023.12.0** | [2023.12.0新機能](./whats-new-2023-12-0.md)<br><br>[2023.12.0 リリースノート &#x200B;](./release-notes-2023-12-0.md) |
-| **AEM Guides 2023.11.0** | [2023.11.0新機能](./whats-new-2023-11-0.md)<br><br>[2023.11.0 リリースノート &#x200B;](./release-notes-2023-11-0.md) |
-| **AEM Guides 2023.10.0** | [2023.10.0新機能](./whats-new-2023-10-0.md)<br><br>[2023.10.0 リリースノート &#x200B;](./release-notes-2023-10-0.md) |
-| **AEM Guides 2023.09.0** | [2023.09.0新機能](./whats-new-2023-9-0.md)<br><br>[2023.09.0 リリースノート &#x200B;](./release-notes-2023-9-0.md) |
-| **AEM Guides 2023.07.0** | [2023.07.0新機能](./whats-new-2023-7-0.md)<br><br>[2023.07.0 リリースノート &#x200B;](./release-notes-2023-7-0.md) |
-| **AEM Guides 2023.06.0** | [2023.06.0新機能](./whats-new-2023-6-0.md)<br><br>[2023.06.0 リリースノート &#x200B;](./release-notes-2023-6-0.md) |
-| **AEM Guides 2023.04.0** | [2023.04.0新機能](./whats-new-2023-4-0.md)<br><br>[2023.04.0 リリースノート &#x200B;](./release-notes-2023-4-0.md) |
-| **AEM Guides 2023.03.0** | [2023.03.0新機能](./whats-new-2023-3-0.md)<br><br>[2023.03.0 リリースノート &#x200B;](./release-notes-2023-3-0.md) |
-| **AEM Guides 2023.02.0** | [2023.02.0新機能](./whats-new-2023-2-0.md)<br><br>[2023.02.0 リリースノート &#x200B;](./release-notes-2023-2-0.md) |
+| **AEM Guides 2023.12.0** | [2023.12.0新機能](./whats-new-2023-12-0.md)<br><br>[2023.12.0 リリースノート ](./release-notes-2023-12-0.md) |
+| **AEM Guides 2023.11.0** | [2023.11.0新機能](./whats-new-2023-11-0.md)<br><br>[2023.11.0 リリースノート ](./release-notes-2023-11-0.md) |
+| **AEM Guides 2023.10.0** | [2023.10.0新機能](./whats-new-2023-10-0.md)<br><br>[2023.10.0 リリースノート ](./release-notes-2023-10-0.md) |
+| **AEM Guides 2023.09.0** | [2023.09.0新機能](./whats-new-2023-9-0.md)<br><br>[2023.09.0 リリースノート ](./release-notes-2023-9-0.md) |
+| **AEM Guides 2023.07.0** | [2023.07.0新機能](./whats-new-2023-7-0.md)<br><br>[2023.07.0 リリースノート ](./release-notes-2023-7-0.md) |
+| **AEM Guides 2023.06.0** | [2023.06.0新機能](./whats-new-2023-6-0.md)<br><br>[2023.06.0 リリースノート ](./release-notes-2023-6-0.md) |
+| **AEM Guides 2023.04.0** | [2023.04.0新機能](./whats-new-2023-4-0.md)<br><br>[2023.04.0 リリースノート ](./release-notes-2023-4-0.md) |
+| **AEM Guides 2023.03.0** | [2023.03.0新機能](./whats-new-2023-3-0.md)<br><br>[2023.03.0 リリースノート ](./release-notes-2023-3-0.md) |
+| **AEM Guides 2023.02.0** | [2023.02.0新機能](./whats-new-2023-2-0.md)<br><br>[2023.02.0 リリースノート ](./release-notes-2023-2-0.md) |
 
 ## 2022 リリース
 
 | [!DNL AEM Guides] リリース | リリースノート |
 |---|---|
-| **AEM Guides 2022.11.0** | [2022.11.0 リリースノート &#x200B;](./release-notes-2022-11-0.md) |
-| **AEM Guides 2022.10.0** | [2022.10.0 リリースノート &#x200B;](./release-notes-2022-10-0.md) |
-| **AEM Guides 2022.09.0** | [2022.09.0 リリースノート &#x200B;](./release-notes-2022-9-0.md) |
-| **AEM Guides 2022.08.0** | [2022.08.0 リリースノート &#x200B;](./release-notes-2022-8-0.md) |
-| **AEM Guides 2022.05.0** | [2022.05.0 リリースノート &#x200B;](./release-notes-2022-5-0.md) |
-| **AEM Guides 2022.04.0** | [2022.04.0 リリースノート &#x200B;](./release-notes-2022-4-0.md) |
-| **AEM Guides 2022.03.0** | [2022.03.0 リリースノート &#x200B;](./release-notes-2022-3-0.md) |
-| **AEM Guides 2022.02.0** | [2022.02.0 リリースノート &#x200B;](./release-notes-2022-2-0.md) |
-| **AEM Guides 2022.01.0** | [2022.01.0 リリースノート &#x200B;](./release-notes-2022-1-0.md) |
+| **AEM Guides 2022.11.0** | [2022.11.0 リリースノート ](./release-notes-2022-11-0.md) |
+| **AEM Guides 2022.10.0** | [2022.10.0 リリースノート ](./release-notes-2022-10-0.md) |
+| **AEM Guides 2022.09.0** | [2022.09.0 リリースノート ](./release-notes-2022-9-0.md) |
+| **AEM Guides 2022.08.0** | [2022.08.0 リリースノート ](./release-notes-2022-8-0.md) |
+| **AEM Guides 2022.05.0** | [2022.05.0 リリースノート ](./release-notes-2022-5-0.md) |
+| **AEM Guides 2022.04.0** | [2022.04.0 リリースノート ](./release-notes-2022-4-0.md) |
+| **AEM Guides 2022.03.0** | [2022.03.0 リリースノート ](./release-notes-2022-3-0.md) |
+| **AEM Guides 2022.02.0** | [2022.02.0 リリースノート ](./release-notes-2022-2-0.md) |
+| **AEM Guides 2022.01.0** | [2022.01.0 リリースノート ](./release-notes-2022-1-0.md) |
 
 
 

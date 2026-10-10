@@ -3,26 +3,35 @@ title: 出力生成に新しいマップコレクションを使用
 description: 新しいマップコレクションを作成および削除し、DITA マップを追加または削除する方法について説明します。 AEM Guidesのマップコレクションから出力生成タスクを設定、生成、キャンセルします。
 feature: Publishing
 role: User
-TQID: https://experienceleague.adobe.com/4ZtP8sNNhuZwJ-bTKThXiRZwVXvJ2PvfKyyo91HO1bE
+TQID: 'https://experienceleague.adobe.com/4ZtP8sNNhuZwJ-bTKThXiRZwVXvJ2PvfKyyo91HO1bE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 56c9710820f790ed64e58521dd0d0f9ac343825f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1548
+source-wordcount: '1565'
 ht-degree: 0%
-
 ---
-
 # 出力生成に新しいマップコレクションを使用
 
 >[!IMPORTANT]
@@ -64,23 +73,23 @@ Adobe Experience Manager Guidesのマップコレクションを使用すると�
 
 1. **コレクションを編集**&#x200B;を選択し、**マップを追加**&#x200B;を選択します。
 
-   ![&#x200B; マップを追加](./images/add-maps-new-collection.png)
+   ![ マップを追加](./images/add-maps-new-collection.png)
 
 1. 目的のマップを選択し、**使用可能な翻訳を選択** トグルを有効にすると、そのマップのすべての使用可能な翻訳コピーがマップコレクションに自動的に追加されます。 マップに翻訳コピーがない場合、デフォルトの言語がマップに追加されます。
 
-   ![&#x200B; マップを選択](./images/select-maps-new-collection.png)
+   ![ マップを選択](./images/select-maps-new-collection.png)
 
 1. 「**追加**」を選択します。
 
    マップファイルは、使用可能なすべての翻訳コピーとともに一覧表示されます。 翻訳されたコピーがないマップの場合、デフォルトの言語が表示されます。
 
-   ![&#x200B; プリセットを取得](./images/fetch-presets.png)
+   ![ プリセットを取得](./images/fetch-presets.png)
 
 1. 必要なマップまたはすべてのリストされたマップを選択し、「**プリセットを取得**」ボタンを選択して、選択したマップで使用可能なプリセットを取得します。
 
    選択したマップで使用可能なすべてのプリセットのリストが表示され、**フォルダープロファイルプリセット**&#x200B;と&#x200B;**その他のプリセット**&#x200B;の2つのカテゴリにグループ化されます。 **フォルダープロファイルプリセット**&#x200B;は、選択したすべてのマップに共通ですが、**その他のプリセット**&#x200B;は個々のマップに固有です。 **その他のプリセット**&#x200B;の下のプリセットの場合、対応するトグルの横に関連するマップが表示されます。
 
-   ![&#x200B; プリセットタイプを取得](./images/fetch-presets-types.png)
+   ![ プリセットタイプを取得](./images/fetch-presets-types.png)
 
 1. 要件に応じて、**すべてのプリセットを有効にする**&#x200B;または&#x200B;**すべてのフォルダープロファイルプリセットを有効にする**&#x200B;を選択します。 右側のフィルターアイコンを使用して、リストを絞り込むこともできます。 フィルターには、2つのレベルのフィルタリングが用意されています。リストされているプリセットを絞り込む&#x200B;**プリセットタイプ**&#x200B;と、マップパネルから特定のマップを選択する&#x200B;**マップステータス**。
 
@@ -94,7 +103,7 @@ Adobe Experience Manager Guidesのマップコレクションを使用すると�
 >
 > マップコレクションに多数のマップが追加されると、「マップとプリセット」タブには、関連付けられたプリセットとともに、一度に最大4つのマップが表示されます。 ページ分割されたビューは画面の下部に表示され、ユーザーはページ間を移動して追加のマップやプリセットにアクセスできます。 マップまたはプリセットを選択すると、残りのマップとプリセットを別のページ間で移動する際に、選択範囲が保持されます。
 
-![&#x200B; マップとプリセットのタブ &#x200B;](./images/maps-presets-tab.png)
+![ マップとプリセットのタブ ](./images/maps-presets-tab.png)
 
 「**マップとプリセット**」タブには、特定の言語に対して選択したマップに基づく情報が次の列に表示されます。
 
@@ -114,7 +123,7 @@ Adobe Experience Manager Guidesのマップコレクションを使用すると�
 - **プリセットタイプ**：マップファイルを除外するプリセットを選択します。 例えば、*AEM サイト* プリセットを選択した場合、*AEM サイト*&#x200B;出力プリセットが設定されているマップのみが表示されます。
 - **言語**：使用可能な言語コードのいずれかを選択し、「マップとプリセット」タブに選択した言語のみを表示できます。
 
-  ![&#x200B; マップとプリセットタブのフィルター](./images/filters-maps-presets.png)
+  ![ マップとプリセットタブのフィルター](./images/filters-maps-presets.png)
 
 
 ## マップコレクションを使用した出力の生成
@@ -133,7 +142,7 @@ Adobe Experience Manager Guidesのマップコレクションを使用すると�
 1. 出力が生成されたら、「**生成履歴**」タブに移動して、生成されたすべてのマップのリストを表示します。 生成の進行状況は、**ステータス**&#x200B;列で追跡できます。この列は、生成が実行中か完了しているかを示します。
 
 
-   ![生成のステータス &#x200B;](./images/generated-tab-status.png)
+   ![生成のステータス ](./images/generated-tab-status.png)
 
 1. 生成プロセスの最新ステータスを表示するには、**更新**&#x200B;を選択します。 ステータス列が更新され、各マップの現在の状態と関連するプリセットが反映されます。
 
@@ -144,7 +153,7 @@ Adobe Experience Manager Guidesのマップコレクションを使用すると�
    - **待機中（青）**：生成がキューに入っています。
 
 
-   ![&#x200B; ステータスタイプ &#x200B;](./images/status-types.png)
+   ![ ステータスタイプ ](./images/status-types.png)
 
 1. タスクのステータスが実行中になるまで、**生成をキャンセル** アイコンを選択して、出力生成タスクをキャンセルすることもできます。
 
@@ -171,7 +180,7 @@ Adobe Experience Manager Guidesのマップコレクションを使用すると�
 
 1. 「**公開履歴**」タブに切り替えて、公開タスクのステータスを監視します。
 
-   ![公開ステータス &#x200B;](./images/publish-status.png)
+   ![公開ステータス ](./images/publish-status.png)
 
 1. タスクの最新のステータスを表示するには、**更新**&#x200B;を選択します。
 1. ステータスが&#x200B;**Successful**&#x200B;に変わったら、選択したターゲットインスタンスで公開されたコンテンツを確認します。
@@ -181,7 +190,7 @@ Adobe Experience Manager Guidesのマップコレクションを使用すると�
 
 マップコレクションでは、DITA マップのメタデータプロパティを一括設定できます。 「**マップとプリセット**」タブから「**メタデータを設定**」アイコンを選択して、**アセットメタデータ** ページを開きます。 **アセットメタデータ** ページでは、コレクションに存在するすべてのマップが左側に一覧表示されます。
 
-![&#x200B; メタデータの設定](images/map-collection-asset-metadata.png)
+![ メタデータの設定](images/map-collection-asset-metadata.png)
 
 メタデータプロパティを設定するには、次の手順を実行します。
 
@@ -203,4 +212,4 @@ Adobe Experience Manager Guidesのマップコレクションを使用すると�
 メタデータプロパティはファイルプロパティと同期しています。 更新したら、エディターの&#x200B;**ファイルのプロパティ** パネルから表示できます。
 
 
-**親トピック：**&#x200B;[&#x200B;出力生成](generate-output.md)
+**親トピック：**[&#x200B;出力生成](generate-output.md)

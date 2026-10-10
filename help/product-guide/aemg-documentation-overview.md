@@ -3,7 +3,7 @@ title: Experience Manager Guides ドキュメント
 description: Adobe Experience Manager Guidesのドキュメントを参照してください。 Experience Managerのネイティブ DITA サポート、構造化オーサリング、マルチチャネル公開についてご確認ください。
 feature: AEM Guides Tutorials
 role: User
-TQID: https://experienceleague.adobe.com/S4wTM-7gfU7D-JfKVbb9nK3qoQIG6PdiY7jtpsc6kDs
+TQID: 'https://experienceleague.adobe.com/S4wTM-7gfU7D-JfKVbb9nK3qoQIG6PdiY7jtpsc6kDs'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -20,6 +20,8 @@ feature_v2:
     internal-label: Reports
   - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
     internal-label: Authoring and publishing content
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
 subfeature_v2:
   - id: aad65a09-20cc-4780-ad44-329d14dc8481
     internal-label: Workflows
@@ -31,6 +33,8 @@ subfeature_v2:
     internal-label: Publishing
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
     internal-label: Output generation
+  - id: f5449061-fbde-4905-be99-034c1b054385
+    internal-label: AEM Guides tutorials
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -39,7 +43,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: ce193b31d44d3a67bb18d1db5531c23cb81c4803
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 6%
@@ -48,13 +52,13 @@ ht-degree: 6%
 
 Experience Manager Guidesは、構造化されたオーサリング、マルチチャネル公開、コンテンツライフサイクル管理を実現する、DITA対応のネイティブ CCMSです。
 
-**デプロイメント：** [!BADGE Cloud Service]{type=Positive} [!BADGE &#x200B; オンプレミス &#x200B;]{type=Informative}
+**デプロイメント：** [!BADGE Cloud Service]{type=Positive} [!BADGE  オンプレミス ]{type=Informative}
 
 ## 役割から始める
 
 ::::landing-cards-container
 :::card
-![管理者アイコン &#x200B;](../assets/admin.png)
+![管理者アイコン ](../assets/admin.png)
 
 管理者
 
@@ -64,7 +68,7 @@ Experience Manager Guidesは、構造化されたオーサリング、マルチ�
 :::
 
 :::card
-![作成者アイコン &#x200B;](../assets/author.png)
+![作成者アイコン ](../assets/author.png)
 
 作成者
 
@@ -74,7 +78,7 @@ DITA トピック、マップ、コンテンツ再利用、レビューワーク
 :::
 
 :::card
-![発行者アイコン &#x200B;](../assets/publisher.png)
+![発行者アイコン ](../assets/publisher.png)
 
 発行者
 
@@ -106,7 +110,7 @@ Design DITA specializations, schemas, and content architecture for your implemen
 ::::landing-cards-container
 
 :::card
-![&#x200B; オーサリングアイコン &#x200B;](../assets/authoring.png)
+![ オーサリングアイコン ](../assets/authoring.png)
 
 オーサリング
 
@@ -116,7 +120,7 @@ web エディター、FrameMakerとの統合、コンテンツの再利用、レ
 :::
 
 :::card
-![&#x200B; レビューアイコン &#x200B;](../assets/review.png)
+![ レビューアイコン ](../assets/review.png)
 
 レビュー
 
@@ -126,7 +130,7 @@ web エディター、FrameMakerとの統合、コンテンツの再利用、レ
 :::
 
 :::card
-![公開アイコン &#x200B;](../assets/publishing.png)
+![公開アイコン ](../assets/publishing.png)
 
 公開
 
@@ -136,7 +140,7 @@ PDF、AEM Sites、HTML5、EPUB、JSON出力タイプ。
 :::
 
 :::card
-![翻訳アイコン &#x200B;](../assets/translation.png)
+![翻訳アイコン ](../assets/translation.png)
 
 翻訳
 
@@ -146,7 +150,7 @@ PDF、AEM Sites、HTML5、EPUB、JSON出力タイプ。
 :::
 
 :::card
-![&#x200B; レポートアイコン &#x200B;](../assets/reports.png)
+![ レポートアイコン ](../assets/reports.png)
 
 レポート
 
@@ -156,7 +160,7 @@ PDF、AEM Sites、HTML5、EPUB、JSON出力タイプ。
 :::
 
 :::card
-![設定アイコン &#x200B;](../assets/configure.png)
+![設定アイコン ](../assets/configure.png)
 
 設定
 
@@ -177,7 +181,7 @@ PDF、AEM Sites、HTML5、EPUB、JSON出力タイプ。
 <tr style="border: 0;">
 <td>
 
-![Git コネクタ &#x200B;](../assets/whats-new-git-connector.svg)
+![Git コネクタ ](../assets/whats-new-git-connector.svg)
 
 **[Git コネクタを使用したコンテンツの読み込み](./user-guide/web-editor-git-connector.md)**
 
@@ -186,7 +190,7 @@ Git リポジトリから直接Guidesにコンテンツを読み込みます。
 </td>
 <td>
 
-![&#x200B; マップコレクション &#x200B;](../assets/whats-new-map-collection.svg)
+![ マップコレクション ](../assets/whats-new-map-collection.svg)
 
 **[新しいマップコレクション](./user-guide/generate-output-use-new-map-collection-output-generation.md)**
 
@@ -195,7 +199,7 @@ Git リポジトリから直接Guidesにコンテンツを読み込みます。
 </td>
 <td>
 
-![&#x200B; レビューを委任](../assets/whats-new-delegate-review.svg)
+![ レビューを委任](../assets/whats-new-delegate-review.svg)
 
 **[レビュータスクを委任](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer)**
 
@@ -209,7 +213,7 @@ Git リポジトリから直接Guidesにコンテンツを読み込みます。
 
 ## 新機能
 
-[!BADGE 2026.09.0 リリース &#x200B;]{type=Informative}
+[!BADGE 2026.09.0 リリース ]{type=Informative}
 
 Adobe Experience Manager Guides 2026.09.0 リリースでは、AI アシスタントにAIを活用したスマートタグが導入され、オーサリング、コンテンツ管理、パブリッシング、全体的なユーザーエクスペリエンスが強化されました。
 
@@ -244,25 +248,25 @@ Experience Manager Guidesの最新リリースで導入された新機能と強�
 
 クラウドおよびオンプレミスのデプロイメントに関する最新のリリースノートと製品アップデートをご覧ください。
 
-- クラウドリリース | [&#x200B; リリースノートを表示](./release-info/latest-release-info-cs.md)
-- オンプレミスのリリース | [&#x200B; リリースノートを表示](./release-info/latest-release-info.md)
+- クラウドリリース | [ リリースノートを表示](./release-info/latest-release-info-cs.md)
+- オンプレミスのリリース | [ リリースノートを表示](./release-info/latest-release-info.md)
 
 [リリースロードマップを見る](./release-info/aem-guides-releases-roadmap.md)
 
 </td>
 <td>
 
-![学習とサポート &#x200B;](../assets/whats-new-delegate-review.svg)
+![学習とサポート ](../assets/whats-new-delegate-review.svg)
 
 **学習とサポート**
 
 有益なリソース、ドキュメント、サポートにアクセスし、プラットフォームを最大限に活用しましょう。
 
-* [GitHub リポジトリ](https://github.com/AdobeDocs/experience-manager-guides.ja-JP){target="_blank"}
-* [サポート](https://experienceleague.adobe.com/support/v2/en/?lang=ja){target="_blank"}
-* [ビデオチュートリアル](https://experienceleague.adobe.com/ja/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [GitHub リポジトリ](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [サポート](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [ビデオチュートリアル](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
 
-[コミュニティでのやり取り](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=ja)
+[コミュニティでのやり取り](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11)
 
 </td>
 </tr>
@@ -277,7 +281,7 @@ Experience Manager Guidesの最新リリースで導入された新機能と強�
 
 * [Cloud Serviceのリリースノート](./release-info/latest-release-info-cs.md)
 * [オンプレミスのリリースノート](./release-info/latest-release-info.md)
-* [AEM Guides community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=ja){target="_blank"}
-* [GitHub リポジトリ](https://github.com/AdobeDocs/experience-manager-guides.ja-JP){target="_blank"}
-* [サポート](https://experienceleague.adobe.com/support/v2/en/?lang=ja){target="_blank"}
-* [ビデオチュートリアル](https://experienceleague.adobe.com/ja/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [AEM Guides community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
+* [GitHub リポジトリ](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [サポート](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [ビデオチュートリアル](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}

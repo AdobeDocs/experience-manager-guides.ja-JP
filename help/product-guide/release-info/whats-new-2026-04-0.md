@@ -3,20 +3,26 @@ title: リリースノート | Adobe Experience Manager Guides 2026.04.0 リリ�
 description: Adobe Experience Manager Guides 2026.04.0 リリースの新機能と強化機能について説明します
 role: Leader
 exl-id: 39b73511-a324-461d-b569-b3b215988890
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 0%
-
 ---
-
 # 2026.04.0 リリース（2026年4月）の新機能
 
 この記事では、Adobe Experience Manager Guides as a Cloud Serviceの2026.04.0 リリースで導入された新機能と強化機能について説明します。
 
-このリリースで修正された問題のリストについては、[2026.04.0 リリース &#x200B;](fixed-issues-2026-04-0.md)で修正された問題を参照してください。
+このリリースで修正された問題のリストについては、[2026.04.0 リリース ](fixed-issues-2026-04-0.md)で修正された問題を参照してください。
 
-2026.04.0 リリース [&#128279;](../release-info/upgrade-instructions-2026-04-0.md)の アップグレード手順について説明します。
+2026.04.0 リリース ](../release-info/upgrade-instructions-2026-04-0.md)の[ アップグレード手順について説明します。
 
 ## Adobe Experience Manager Guidesの製品トレーニングと学習コンテンツの紹介
 
@@ -40,7 +46,7 @@ Experience Manager Guidesの&#x200B;**製品トレーニングと学習** コン
 - 業界をリードする翻訳管理
 - すぐに使えるSCORMおよびPDF出力フォーマットを使用したマルチチャネルパブリッシング
 
-詳しくは、[入門ガイド &#x200B;](../learning-content/course-overview.md)および[設定ガイド &#x200B;](../lc-config-guide/introduction.md)を参照してください。
+詳しくは、[入門ガイド ](../learning-content/course-overview.md)および[設定ガイド ](../lc-config-guide/introduction.md)を参照してください。
 
 
 ## エディターの機能強化
@@ -63,7 +69,7 @@ Schematronのユーザーインターフェイスに次の機能強化が加え�
 
   ![](assets/schematron-validation-errors.png){width="350"}
 
-Experience Manager GuidesでのSchematron ファイルの使用について詳しくは、[Schematron ファイルのサポート &#x200B;](../user-guide/support-schematron-file.md)を参照してください。
+Experience Manager GuidesでのSchematron ファイルの使用について詳しくは、[Schematron ファイルのサポート ](../user-guide/support-schematron-file.md)を参照してください。
 
 ### 翻訳言語のコピーは、エディターインターフェイスの右側のパネルで使用できるようになりました
 
@@ -73,14 +79,14 @@ Experience Manager GuidesでのSchematron ファイルの使用について詳�
 
 言語コピーごとに、ファイルにカーソルを合わせてリポジトリ内のパスを見つけるか、ファイルを選択してエディターで開くことができます。 ファイルを開くだけでなく、**オプション** メニューを使用して多くのアクションを実行することもできます。 実行できるアクションには、編集、プレビュー、UUIDのコピー、パスのコピー、コレクションへの追加、プロパティなどがあります。
 
-詳細については、[&#x200B; エディターの右側のパネル &#x200B;](../user-guide/web-editor-right-panel.md#file-properties)を参照してください。
+詳細については、[ エディターの右側のパネル ](../user-guide/web-editor-right-panel.md#file-properties)を参照してください。
 
 
 ### すべてのJournal フィールドで引用を検索する
 
 これで、**引用を追加** ダイアログの&#x200B;**任意フィールド** オプションを使用して、*タイトル*、*ジャーナル タイトル*、*作成者*、*年*、*ボリューム*、*番号*、*ページ*&#x200B;など、すべてのジャーナル フィールドで引用を検索できるようになりました。 検索では、入力したテキストに基づいて、最も近い一致する引用が返されます。
 
-Experience Manager Guidesでの引用の追加について詳しくは、[&#x200B; コンテンツでの引用の追加と管理](../user-guide/web-editor-apply-citations.md)を参照してください。
+Experience Manager Guidesでの引用の追加について詳しくは、[ コンテンツでの引用の追加と管理](../user-guide/web-editor-apply-citations.md)を参照してください。
 
 ![](assets/add-citations.png){width="350"}
 
@@ -98,7 +104,7 @@ Experience Manager Guidesでの引用の追加について詳しくは、[&#x200
 
 これらの機能強化により、レビュー担当者の選択がより正確かつ効率的になり、プロジェクト固有のレビューワークフローとの連携が強化されます。
 
-詳細については、[&#x200B; レビュー用にトピックを送信](../user-guide/review-send-topics-for-review.md)を参照してください。
+詳細については、[ レビュー用にトピックを送信](../user-guide/review-send-topics-for-review.md)を参照してください。
 
 ## アセット管理の強化
 
@@ -108,7 +114,7 @@ Experience Manager Guidesでの引用の追加について詳しくは、[&#x200
 
 これで、ファイル階層を統合オプションを使用して、元のファイル名のマップをダウンロードできます。 さらに、ダウンロードされたパッケージには`metadata.json` ファイルが含まれているため、関連するメタデータにExperience Manager Guides外で簡単にアクセスして再利用できます。
 
-Experience Manager Guidesでのファイルのダウンロードについて詳しくは、[&#x200B; ファイルのダウンロード &#x200B;](../user-guide/authoring-download-assets.md)を参照してください。
+Experience Manager Guidesでのファイルのダウンロードについて詳しくは、[ ファイルのダウンロード ](../user-guide/authoring-download-assets.md)を参照してください。
 
 ### 正規表現を使用して後処理を有効または無効にする
 

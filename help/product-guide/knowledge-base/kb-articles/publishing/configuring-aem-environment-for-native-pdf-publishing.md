@@ -4,28 +4,37 @@ description: ネイティブ PDF パブリッシング用のAEM環境の設定
 exl-id: 40266ca0-0b0b-4418-b606-f70270addbaa
 feature: Native PDF Output
 role: User, Admin
-TQID: https://experienceleague.adobe.com/SLuPn9YigAcHvcSEdrbbQOz29Y6DeWGYnWktWY9L9nQ
+TQID: 'https://experienceleague.adobe.com/SLuPn9YigAcHvcSEdrbbQOz29Y6DeWGYnWktWY9L9nQ'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: d6596f3f-92a7-43ec-b444-237db6adad05
+    internal-label: Native PDF publishing
+  - id: c4e6b17e-c50c-59a1-a719-9c33ce69e5b6
+    internal-label: Native PDF Output
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+    internal-label: Troubleshooting
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 911
+source-wordcount: '928'
 ht-degree: 1%
-
 ---
-
 # ネイティブ PDF パブリッシング用のAEM環境の設定
 
 AEM Guidesには、PDFのネイティブなパブリッシングエンジンが搭載されており、PDF形式でコンテンツを設計、開発、公開できます。
@@ -158,8 +167,8 @@ AEM Guidesでこのネイティブ PDFを設定する手順は、オペレーテ
    C:/{aem-installation-folder}/crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166
 
    i）を検索します。 -type d -exec chmod 0755 {} \;
-ii）を検索します。 -type f -exec chmod 0755 {} \;
-iii） ./node-darwin/bin/node node-darwin/lib/node_modules/npm/bin/npm-cli.js —prefix . install —unsafe-perm —scripts-prepend-node-path
+   ii）を検索します。 -type f -exec chmod 0755 {} \;
+   iii） ./node-darwin/bin/node node-darwin/lib/node_modules/npm/bin/npm-cli.js —prefix . install —unsafe-perm —scripts-prepend-node-path
 
 8. 次のコマンドを使用して、Javaがインストールされているかどうかを確認します
 
@@ -190,14 +199,14 @@ Java環境設定を修正しても問題が解決しない場合は、次の点�
 
 ### RHEL 7 Linux OSでライブラリが見つからない
 
-![&#x200B; ライブラリがありません](../assets/publishing/missing-libraries.png)
+![ ライブラリがありません](../assets/publishing/missing-libraries.png)
 
 ### 公開プロセスのタイムアウト： 指定された時間0msでプロセスが完了しませんでした
 
-![公開プロセスのタイムアウト &#x200B;](../assets/publishing/publish-process-timeout.png)
+![公開プロセスのタイムアウト ](../assets/publishing/publish-process-timeout.png)
 
 CRX リポジトリの/var/dxml/profiles/b1aad0a7-9079-e56c-1ed8-6fcababe8166/nodejsのnodejs ノードのタイムアウトプロパティ値を検証します。 デフォルト値は 300 です。
 
 
 
-上記のいずれかの手順を実行する際に問題が発生した場合は、AEM Guides コミュニティ [&#x200B; フォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=ja)に質問を投稿してサポートを受けてください。
+上記のいずれかの手順を実行する際に問題が発生した場合は、AEM Guides コミュニティ [ フォーラム ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)に質問を投稿してサポートを受けてください。

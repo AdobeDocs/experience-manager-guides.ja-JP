@@ -5,21 +5,31 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: aa843a72-ff0d-4c9a-a87d-48d099087b5e
-TQID: https://experienceleague.adobe.com/d-eC5SHwAeCMEZhZJzN-12rdk37TjqBy0SYXC6lfbUI
+TQID: 'https://experienceleague.adobe.com/d-eC5SHwAeCMEZhZJzN-12rdk37TjqBy0SYXC6lfbUI'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: e557051c-ff02-4ff8-9421-cf452af0edd5
+    internal-label: Installation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 469
+source-wordcount: '469'
 ht-degree: 0%
-
 ---
-
 # AEM Sites テンプレートのダウンロードとインストール（オンプレミスサービス）
 
 このガイドでは、AEM Sitesを生成するための最新のAEM Guides テンプレートを設定および設定する手順を説明します。 必要なパッケージのインストール、プリセットの作成と設定、AEM Sitesの生成を行うには、次の手順に従います。
@@ -32,19 +42,19 @@ ht-degree: 0%
 
 - **必要な権限**：次の権限を持っていることを確認してください：
 
-   - 必要なパッケージをダウンロードするための&#x200B;**ソフトウェア配布ポータル**&#x200B;へのアクセス
-   - AEMにパッケージをインストールするための&#x200B;**CRX Package Manager**&#x200B;へのアクセス。
-   - AEM Guidesでプリセットを作成および変更するための権限。
+  - 必要なパッケージをダウンロードするための&#x200B;**ソフトウェア配布ポータル**&#x200B;へのアクセス
+  - AEMにパッケージをインストールするための&#x200B;**CRX Package Manager**&#x200B;へのアクセス。
+  - AEM Guidesでプリセットを作成および変更するための権限。
 
 - **パッケージをダウンロード**: **ソフトウェア配布ポータル**&#x200B;から次のパッケージをダウンロードします。
 
-   - コンポーネントパッケージ：on-prem-guides-components.all-1.x.0.zip
-   - Sites パッケージ：aemg-docs.all-1.x.0.zip
+  - コンポーネントパッケージ：on-prem-guides-components.all-1.x.0.zip
+  - Sites パッケージ：aemg-docs.all-1.x.0.zip
 
 ## CRX Package Managerを使用したパッケージインストール
 
 1. **コンポーネントパッケージをインストールします：**
-   1. [**CRX Package Manager**](http://&lt;your-aem-instance>/crx/packmgr)に移動します。
+   1. [**CRX Package Manager**](http://<your-aem-instance>/crx/packmgr)に移動します。
    2. on-prem-guides-components.all-1.x.0.zip パッケージをアップロードしてインストールします。
 
 2. **Sites パッケージをインストール：** CRX Package Managerを使用して、aemg-docs.all-1.x.0.zip パッケージをアップロードしてインストールします。
@@ -60,7 +70,7 @@ ht-degree: 0%
    5. **従来のコンポーネントマッピングを使用**&#x200B;設定のチェックを外します。
    6. 「**追加**」を選択して、プリセットを作成します。
 
-      ![新しい出力プリセットダイアログ &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/new-output-preset.png){width="350"}
+      ![新しい出力プリセットダイアログ ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/new-output-preset.png){width="350"}
 
 
 2. **AEM サイト プリセットの設定：**&#x200B;標準（OOTB）サイトを設定するには、次の2つのオプションがあります。
@@ -72,14 +82,14 @@ ht-degree: 0%
       - 公開パス：`aemg-docs/en/docs/product1`
       - トピックページテンプレート：トピックページ。
 
-      ![&#x200B; サイトドロップダウンを使用](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown.png){width="350"}
+      ![ サイトドロップダウンを使用](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown.png){width="350"}
 
    **オプション 2: サイト パスを使用**
 
    1. **サイトパス**&#x200B;を手動で`/content/aemg-docs/en/docs/product1`として設定します。
    2. **トピックページテンプレート**&#x200B;が自動的にトピックページに設定されていることを確認します。
 
-      ![&#x200B; サイトパスを使用](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path.png){width="350"}
+      ![ サイトパスを使用](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path.png){width="350"}
 
 3. **プリセットを保存：** プリセットに加えた変更を保存します。
 
@@ -98,7 +108,7 @@ ht-degree: 0%
 
    4. 「**ホームページ**」タイルを選択し、「**次へ**」を選択します。
 
-      ![&#x200B; ホームページ タイルを選択](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-page-tile.png){width="350"}
+      ![ ホームページ タイルを選択](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-page-tile.png){width="350"}
 
    5. ページの&#x200B;**タイトル**&#x200B;と&#x200B;**名前**&#x200B;を入力します。
    6. 「**作成**」を選択します。

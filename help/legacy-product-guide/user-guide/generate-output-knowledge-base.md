@@ -5,28 +5,40 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 5fc81de9-9ae0-4cd4-a7ef-b52eed2479f7
-TQID: https://experienceleague.adobe.com/HJXph-LwnRky6LmJspO7ipWaeTAAuloZb5paG6HqZJQ
+TQID: 'https://experienceleague.adobe.com/HJXph-LwnRky6LmJspO7ipWaeTAAuloZb5paG6HqZJQ'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: e2fdbf15-a7e4-4d2a-84cc-bd581e74b56d
+    internal-label: Disclaimer
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1166
+source-wordcount: '1166'
 ht-degree: 2%
-
 ---
-
 # ナレッジベース {#knowledge-base}
 
 Web エディターから&#x200B;**ナレッジベース** プリセットを作成できます。
@@ -47,14 +59,14 @@ Web エディターでは、**一般**&#x200B;および&#x200B;**記事** タブ
 | ナレッジベースオプション | 説明 |
 | --- | --- |
 | を使用した条件の適用 | 次のいずれかのオプションを選択します。<br><br>* **適用なし**：公開された出力に条件を適用しない場合は、このオプションを選択します。<br>* **DITAVAL ファイル**：パーソナライズされたコンテンツを生成するには、DITAVAL ファイルを選択します。 参照ダイアログを使用するか、ファイルパスを入力することで、複数のDITAVAL ファイルを選択できます。 ファイル名の近くにある十字アイコンを使用して削除します。 DITAVAL ファイルは指定された順序で評価されるので、最初のファイルで指定された条件は、後のファイルで指定された一致する条件よりも優先されます。 ファイルを追加または削除することで、ファイルの順序を維持できます。 DITAVAL ファイルを別の場所に移動したり削除したりしても、プリセットから自動的に削除されることはありません。 ファイルが移動または削除された場合は、場所を更新する必要があります。 ファイル名にカーソルを合わせると、ファイルが保存されているAdobe Experience Manager リポジトリ内のパスを表示できます。 DITAVAL ファイルのみを選択でき、他のファイルタイプを選択するとエラーが表示されます。<br>* **条件プリセット**：出力の公開中に条件を適用するには、ドロップダウンから条件プリセットを選択します。 このオプションは、DITA マップコンソールの「条件プリセット」タブに条件を追加した場合に表示されます。 条件プリセットについて詳しくは、[条件プリセットの使用](generate-output-use-condition-presets.md#id1825FL004PN)を参照してください。 |
-| ベースラインを使用 | 選択したDITA マップのベースラインを作成した場合は、このオプションを選択して、公開するバージョンを指定します。<br><br>詳細については、[&#x200B; ベースラインの操作](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF)を参照してください。 |
-| 生成後のワークフロー | このオプションを選択すると、Adobe Experience Managerで設定されたすべてのワークフローを含む新しいポストジェネレーションワークフローのドロップダウンリストが表示されます。 出力生成が完了したら、実行するワークフローを選択する必要があります。<br><br>**注**：出力後の生成ワークフローを[&#x200B; カスタマイズする方法について詳しくは、Cloud Servicesのインストールおよび設定ガイドを参照してください。](/help/product-guide/cs-install-guide/customize-workflows.md#id17A6GI004Y4) |
+| ベースラインを使用 | 選択したDITA マップのベースラインを作成した場合は、このオプションを選択して、公開するバージョンを指定します。<br><br>詳細については、[ ベースラインの操作](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF)を参照してください。 |
+| 生成後のワークフロー | このオプションを選択すると、Adobe Experience Managerで設定されたすべてのワークフローを含む新しいポストジェネレーションワークフローのドロップダウンリストが表示されます。 出力生成が完了したら、実行するワークフローを選択する必要があります。<br><br>**注**：出力後の生成ワークフローを[ カスタマイズする方法について詳しくは、Cloud Servicesのインストールおよび設定ガイドを参照してください。](/help/product-guide/cs-install-guide/customize-workflows.md#id17A6GI004Y4) |
 
 ### ServiceNow
 
 | ServiceNow オプション | 説明 |
 | --- | --- |
-| パブリッシュプロファイル | ドロップダウンを使用して、管理者が設定したServiceNow接続プロファイルから選択します。 管理者が公開プロファイルを作成する方法について詳しくは、[左パネル &#x200B;](./web-editor-features.md#id2051EA0M0HS) セクションの&#x200B;**エディター設定**&#x200B;機能の説明を参照してください。 |
+| パブリッシュプロファイル | ドロップダウンを使用して、管理者が設定したServiceNow接続プロファイルから選択します。 管理者が公開プロファイルを作成する方法について詳しくは、[左パネル ](./web-editor-features.md#id2051EA0M0HS) セクションの&#x200B;**エディター設定**&#x200B;機能の説明を参照してください。 |
 | ナレッジベース | このフィールドを使用して、必要なServiceNow ナレッジベースを選択します。 権限に基づいてコンテンツを保存するように、ServiceNow サイトでナレッジベースを設定できます。 このDITA マップの記事は、これらのナレッジベースに公開できます。 |
 | カテゴリとサブカテゴリ | カテゴリは、ServiceNow ナレッジベース記事を検索および分類するために使用される階層木のようなものです。 カテゴリとサブカテゴリを追加して、目次のトピックとサブトピックをServiceNow サイトのそのカテゴリとサブカテゴリに公開します。 |
 
@@ -62,7 +74,7 @@ Web エディターでは、**一般**&#x200B;および&#x200B;**記事** タブ
 
 | Salesforceオプション | 説明 |
 | --- | --- |
-| パブリッシュプロファイル | ドロップダウンを使用して、管理者が設定したSalesforce接続プロファイルから選択します。 管理者が公開プロファイルを作成する方法について詳しくは、[左パネル &#x200B;](./web-editor-features.md#id2051EA0M0HS) セクションの&#x200B;**エディター設定**&#x200B;機能の説明を参照してください。 |
+| パブリッシュプロファイル | ドロップダウンを使用して、管理者が設定したSalesforce接続プロファイルから選択します。 管理者が公開プロファイルを作成する方法について詳しくは、[左パネル ](./web-editor-features.md#id2051EA0M0HS) セクションの&#x200B;**エディター設定**&#x200B;機能の説明を参照してください。 |
 | レコードタイプ | ドロップダウンを使用して、ユーザープロファイルに基づく表示設定に従って、Salesforceで設定されたレコードタイプの中から選択します。 Salesforce レコードタイプは、そのオブジェクトに対して1つのタイプの多くのレコードをグループ化する方法です。 スタイルシステムは、公開の組織化方法を定義します。 例えば、FAQ レコードタイプを選択し、FAQ ページレイアウトとフィールドに従って公開できます。 |
 | 記事コンテンツフィールド | レコードタイプテンプレートごとに、異なるフィールドと一意のレイアウトを設定できます。 これらのフィールドを使用して、記事の種類に応じて特定の情報を入力します。 例えば、FAQ記事のタイトル、回答、数式を表示できます。 |
 | カテゴリ | ドロップダウンからカテゴリを選択して、Salesforce サイトでそのカテゴリの目次のトピックを公開します。 |
@@ -89,11 +101,11 @@ SalesforceおよびServiceNow プリセットでは、次のオプションも�
 | サイト | このフィールドを使用して、必要なAdobe Experience Manager ナレッジベースを選択します。 Adobe Experience Manager サイトで、権限に基づいてコンテンツを保存するようにナレッジベースを設定できます。 このDITA マップの記事は、これらのナレッジベースに公開できます。 |
 | カテゴリ | ドロップダウンからカテゴリを選択して、Adobe Experience Manager サイトでそのカテゴリの目次のトピックを公開します。 |
 | セクションテンプレートと記事テンプレート | アウトプットのコンテンツを整理するために使用される構造的コンポーネントです。 これらは、Adobe Experience Manager サイトテンプレートで事前定義されています。 |
-| 生成後のワークフロー | このオプションを選択すると、Adobe Experience Managerで設定されたすべてのワークフローを含む新しいポストジェネレーションワークフローのドロップダウンリストが表示されます。 出力生成ワークフローの完了後に実行するワークフローを選択する必要があります。<br>出力後の生成ワークフローを[&#x200B; カスタマイズする方法について詳しくは、『インストールおよび設定ガイド』の「](/help/product-guide/install-guide/customize-workflows.md#id17A6GI004Y4)」セクションを参照してください。 |
+| 生成後のワークフロー | このオプションを選択すると、Adobe Experience Managerで設定されたすべてのワークフローを含む新しいポストジェネレーションワークフローのドロップダウンリストが表示されます。 出力生成ワークフローの完了後に実行するワークフローを選択する必要があります。<br>出力後の生成ワークフローを[ カスタマイズする方法について詳しくは、『インストールおよび設定ガイド』の「](/help/product-guide/install-guide/customize-workflows.md#id17A6GI004Y4)」セクションを参照してください。 |
 
 >[!TIP]
 > 
->選択したナレッジベーステンプレートに従って、フィールドにそれぞれのテンプレートを入力するには、**更新** ![更新アイコン &#x200B;](images/navtitle-refresh-icon.svg)を選択します。
+>選択したナレッジベーステンプレートに従って、フィールドにそれぞれのテンプレートを入力するには、**更新** ![更新アイコン ](images/navtitle-refresh-icon.svg)を選択します。
 
 ### 記事
 

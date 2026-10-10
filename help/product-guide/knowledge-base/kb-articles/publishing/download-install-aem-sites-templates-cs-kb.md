@@ -5,22 +5,33 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: 67f7ff26-fbc7-426c-aa7d-9bf4debf05d8
-TQID: https://experienceleague.adobe.com/fj9JDKmklfdc-3UHShHD3PqynCcnnH5cK8lQNqCLD2c
+TQID: 'https://experienceleague.adobe.com/fj9JDKmklfdc-3UHShHD3PqynCcnnH5cK8lQNqCLD2c'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: e557051c-ff02-4ff8-9421-cf452af0edd5
+    internal-label: Installation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 6d10f55ace72536266723331313c73ce33cddcf1
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 698
+source-wordcount: '698'
 ht-degree: 1%
-
 ---
-
 # AEM Sites テンプレートのダウンロードとインストール（クラウドサービス）
 
 このガイドでは、クラウド環境でAEM Sites ページを生成するための最新のAEM Guides テンプレートを設定および設定する手順を説明します。 必要なパッケージのインストール、プリセットの作成と設定、AEM Sitesの生成を行うには、次の手順に従います。
@@ -33,14 +44,14 @@ ht-degree: 1%
 
 - **必要な権限**：次の権限が必要です：
 
-   - パッケージをデプロイするための&#x200B;**Cloud Manager**&#x200B;へのアクセス。
-   - 環境に関連付けられた&#x200B;**Git リポジトリ**&#x200B;へのアクセス。
-   - AEM Guidesでプリセットを作成および変更するための権限。
+  - パッケージをデプロイするための&#x200B;**Cloud Manager**&#x200B;へのアクセス。
+  - 環境に関連付けられた&#x200B;**Git リポジトリ**&#x200B;へのアクセス。
+  - AEM Guidesでプリセットを作成および変更するための権限。
 
 - **パッケージをダウンロード**: ソフトウェア配布ポータルから次のパッケージをダウンロードします。
 
-   - コンポーネントパッケージ：guides-components.all-1.x.0.zip
-   - サイトテンプレート：aemg-docs-1.x.0.zip
+  - コンポーネントパッケージ：guides-components.all-1.x.0.zip
+  - サイトテンプレート：aemg-docs-1.x.0.zip
 
 ## クラウドデプロイメントによるパッケージインストール
 
@@ -50,7 +61,7 @@ ht-degree: 1%
    1. Cloud Managerの左側のパネルで&#x200B;**Repositories**&#x200B;に移動します。
    2. 「**リポジトリ情報にアクセス**」を選択し、Git clone コマンドをコピーします。
 
-      ![&#x200B; アクセス リポジトリ情報を選択](/help/product-guide/knowledge-base/kb-articles/assets/publishing/access-repo.png){width="350"}
+      ![ アクセス リポジトリ情報を選択](/help/product-guide/knowledge-base/kb-articles/assets/publishing/access-repo.png){width="350"}
 
    3. 提供されたユーザー名とパスワードを使用して、リポジトリをローカルシステムに複製します（必要に応じてパスワードを生成します）。
 2. **プロジェクト モジュールにパッケージを追加：**
@@ -67,7 +78,7 @@ ht-degree: 1%
    1. 親コンテンツディレクトリのMETA-INF フォルダーにあるfilters.xml ファイルを開きます。
    2. 次のフィルターを追加します：`<filter root=/apps/fmdita  mode=merge/>`。
 
-      ![&#x200B; フィルターを追加](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-filter-xml.png){width="650"}
+      ![ フィルターを追加](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-filter-xml.png){width="650"}
 
 
 4. **pom.xmlの設定：**&#x200B;環境要件に従ってpom.xml ファイルを更新します。
@@ -110,14 +121,14 @@ ht-degree: 1%
       - 公開パス：`/content/AEMG-Docs-Site/en/docs/product`
       - トピックページテンプレート：トピックページ
 
-      ![&#x200B; サイト ドロップダウンを使用して、AEM サイトを設定します](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown-cs.png){width="350"}
+      ![ サイト ドロップダウンを使用して、AEM サイトを設定します](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown-cs.png){width="350"}
 
    **オプション 2: サイト パスを使用**
 
    1. **サイトパス**&#x200B;を手動で`/content/AEMG-Docs-Site/en/docs/product`として設定します。
    2. **トピックページ** テンプレートが自動的にトピックページに設定されていることを確認します。
 
-      ![&#x200B; サイト パスを使用してAEM サイトを構成する](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path-cs.png){width="650"}
+      ![ サイト パスを使用してAEM サイトを構成する](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path-cs.png){width="650"}
 
 3. **プリセットを保存：** プリセットに加えた変更を保存します。
 
@@ -135,11 +146,11 @@ ht-degree: 1%
 
    4. 「**ホームページ**」タイルを選択し、「**次へ**」を選択します。
 
-      ![&#x200B; ホームタイルを選択](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-tile-cs.png){width="650"}
+      ![ ホームタイルを選択](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-tile-cs.png){width="650"}
 
    5. ページの&#x200B;**タイトル**&#x200B;と&#x200B;**名前**&#x200B;を入力します。
    6. 「**作成**」を選択します。
 
 >[!NOTE]
 >
-> 本番環境にデプロイする前に、すべての設定が非本番環境でテストされていることを確認します。<br><br> 詳しくは、[AEM as a Cloud Serviceへのデプロイに関する公式ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/implementing/deploying/overview)を参照してください。
+> 本番環境にデプロイする前に、すべての設定が非本番環境でテストされていることを確認します。<br><br> 詳しくは、[AEM as a Cloud Serviceへのデプロイに関する公式ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview)を参照してください。

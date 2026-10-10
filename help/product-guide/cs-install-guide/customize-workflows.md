@@ -5,30 +5,42 @@ exl-id: a5742082-cc0b-49d9-9921-d0da1b272ea5
 feature: Workflow Configuration
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/g16Rjnn4M9yRvt0LBT2WieXj6nxejdPpNwgZaMoAHbA
+TQID: 'https://experienceleague.adobe.com/g16Rjnn4M9yRvt0LBT2WieXj6nxejdPpNwgZaMoAHbA'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: b455a250-64c4-4598-b015-7b6b6dc528b1
+    internal-label: Workflow configuration
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Content and assets
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1833
+source-wordcount: '1833'
 ht-degree: 4%
-
 ---
-
 # ワークフローの設定とカスタマイズ {#id181AI0OJ0RO}
 
 ワークフローを使用すると、Adobe Experience Manager \（AEM\）アクティビティを自動化できます。 ワークフローは、特定の順序で実行される一連のステップで構成されます。 各ステップで実行するアクティビティを定義できます。 例えば、トピックレビューの作成時に、グループ内のすべてのレビュー担当者にメール通知を送信できます。 または、出力生成タスクが完了したときにパブリッシャーに通知を送信します。
@@ -37,14 +49,14 @@ AEMのワークフローについて詳しくは、次を参照してくださ�
 
 - [ワークフローインスタンスの管理](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html?lang=ja)
 
-- ワークフローの適用と参加：[&#x200B; プロジェクトワークフローの操作](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/projects/workflows.html?lang=ja)。
+- ワークフローの適用と参加：[ プロジェクトワークフローの操作](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/projects/workflows.html)。
 
 
 このトピックでは、AEM Guidesに付属するデフォルトのワークフローで行える様々なカスタマイズについて説明します。
 
 ## レビューワークフローをカスタマイズ {#id176NE0C00HS}
 
-あらゆる企業のコンテンツオーサリングチームは、ビジネス要件に対応するために特定の方法で作業しています。 一部の組織では専用のエディターを導入していますが、別の組織では自動化されたエディトリアルレビューシステムを導入している場合もあります。 例えば、一般的なオーサリングと公開のワークフローでは、作成者がコンテンツのオーサリングを行うたびに、レビュー担当者に自動的に送信され、レビューが完了すると、最終的な出力を生成するためにパブリッシャーに送信されます。 AEMでは、コンテンツとアセットに対して行ったアクティビティを、プロセスの形で組み合わせ、AEM ワークフローにマッピングできます。 AEMのワークフローについて詳しくは、AEM ドキュメントの[&#x200B; ワークフローの管理](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html?lang=ja)を参照してください。
+あらゆる企業のコンテンツオーサリングチームは、ビジネス要件に対応するために特定の方法で作業しています。 一部の組織では専用のエディターを導入していますが、別の組織では自動化されたエディトリアルレビューシステムを導入している場合もあります。 例えば、一般的なオーサリングと公開のワークフローでは、作成者がコンテンツのオーサリングを行うたびに、レビュー担当者に自動的に送信され、レビューが完了すると、最終的な出力を生成するためにパブリッシャーに送信されます。 AEMでは、コンテンツとアセットに対して行ったアクティビティを、プロセスの形で組み合わせ、AEM ワークフローにマッピングできます。 AEMのワークフローについて詳しくは、AEM ドキュメントの[ ワークフローの管理](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html?lang=ja)を参照してください。
 
 AEM Guidesでは、デフォルトのレビューワークフローをカスタマイズできます。 次の4つのカスタムレビュー関連プロセスを、他のオーサリングワークフローまたは公開ワークフローで使用できます。
 
@@ -111,7 +123,7 @@ workflowdata.getMetaDataMap().put("reviewVersion","3.0");
 
 | Property | 種類 | 説明 |
 |--------|----|-----------|
-| `initiator` | 文字列 | レビュータスクを開始するユーザーのユーザーID。 |
+| `initiator` | String | レビュータスクを開始するユーザーのユーザーID。 |
 | `operation` | 文字列 | `AEM_REVIEW`に設定された静的な値。 |
 | `orgTopics` | 文字列 | レビュー用に共有されているトピックのパス。 複数のトピックをコンマで区切って指定します。 |
 | `payloadJson` | JSON オブジェクト | 次の値を指定します：- `base`：レビュー用に送信されたトピックを含む親フォルダーのパス。<br> - `asset`：レビュー用に送信されたトピックのパス。<br> - `referrer`：空白のままにします。 |
@@ -123,13 +135,13 @@ workflowdata.getMetaDataMap().put("reviewVersion","3.0");
 | `startTime` | Long | 現在のシステム時間を取得するには、`System.currentTimeMillis()`関数を使用します。 |
 | `projectPath` | 文字列 | レビュータスクが割り当てられるレビュープロジェクトのパス（例：/content/projects/samplereviewproject）。 |
 | `reviewType` | 文字列 | 静的値「AEM」。 |
-| `versionJson` | JSON オブジェクト | versionJsonは、各トピックオブジェクトが次の構造を持つレビュー中のトピックのリストです[ { &quot;path&quot;: &quot;/content/dam/1-topic.dita&quot;, &quot;version&quot;: &quot;1.1&quot;, &quot;review&quot;: true, &quot;reviewers&quot;: [&quot;projects-we_retail-editor&quot;] } ] &rbrack; |
+| `versionJson` | JSON オブジェクト | versionJsonは、各トピックオブジェクトが次の構造を持つレビュー中のトピックのリストです[ { &quot;path&quot;: &quot;/content/dam/1-topic.dita&quot;, &quot;version&quot;: &quot;1.1&quot;, &quot;review&quot;: true, &quot;reviewers&quot;: [&quot;projects-we_retail-editor&quot;] } ] ] |
 | `isDitamap` | ブーリアン | false/true |
-| `ditamapHierarchy` | JSON オブジェクト | マップをレビュー用に送信する場合、ここで示す値は次のようになります。[ { &quot;path&quot;: &quot;GUID-f0df1513-fe07-473f-9960-477d4df29c87.ditamap&quot;, &quot;items&quot;: [ { &quot;path&quot;: &quot;GUID-9747e8ab-8cf1-45dd-9e20-d48f67d&quot;, dita&quot; &quot;title&quot;: &quot;&quot;, &quot;items&quot;: [] } ] } ] &rbrack; |
+| `ditamapHierarchy` | JSON オブジェクト | マップをレビュー用に送信する場合、ここで示す値は次のようになります。[ { &quot;path&quot;: &quot;GUID-f0df1513-fe07-473f-9960-477d4df29c87.ditamap&quot;, &quot;items&quot;: [ { &quot;path&quot;: &quot;GUID-9747e8ab-8cf1-45dd-9e20-d48f67d&quot;, dita&quot; &quot;title&quot;: &quot;&quot;, &quot;items&quot;: [] } ] } ] ] |
 | `ditamap` | 文字列 | レビュータスクのditamapのパスを指定します |
 | `allowAllReviewers` | ブーリアン | false/true |
 | `notifyViaEmail` | ブーリアン | false/true |
-| `reviewVersion` | 文字列 | レビューワークフローの現在のバージョンを指定します。 デフォルト値は`3.0` .<br>に設定されています [作成者](../user-guide/review-close-review-task.md)および[&#x200B; レビュー担当者](../user-guide/review-complete-review-tasks.md)の新しいレビューワークフロー機能を有効にするには、`reviewVersion`が`3.0`に設定されていることを確認してください。 |
+| `reviewVersion` | 文字列 | レビューワークフローの現在のバージョンを指定します。 デフォルト値は`3.0` .<br>に設定されています [作成者](../user-guide/review-close-review-task.md)および[ レビュー担当者](../user-guide/review-complete-review-tasks.md)の新しいレビューワークフロー機能を有効にするには、`reviewVersion`が`3.0`に設定されていることを確認してください。 |
 
 
 スクリプトを作成したら、ワークフローで「レビューを作成」プロセスを呼び出す前にスクリプトを呼び出します。 その後、要件に応じて、他のレビューワークフロープロセスを呼び出すことができます。
@@ -151,7 +163,7 @@ workflowdata.getMetaDataMap().put("reviewVersion","3.0");
 
 ### メールとAEM通知のカスタマイズ
 
-AEM Guidesの多くのワークフローでは、メール通知を使用しています。 例えば、レビュータスクを開始すると、メール通知がレビュー担当者に送信されます。 ただし、電子メール通知が送信されるようにするには、AEMでこの機能を有効にする必要があります。 AEMでメール通知を有効にするには、AEM ドキュメントの記事[&#x200B; メールの送信](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=ja#sending-email)を参照してください。
+AEM Guidesの多くのワークフローでは、メール通知を使用しています。 例えば、レビュータスクを開始すると、メール通知がレビュー担当者に送信されます。 ただし、電子メール通知が送信されるようにするには、AEMでこの機能を有効にする必要があります。 AEMでメール通知を有効にするには、AEM ドキュメントの記事[ メールの送信](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=ja#sending-email)を参照してください。
 
 AEM Guidesには、レビューワークフローで使用される電子メールとAEM通知のセットが含まれており、カスタマイズできます。 これらの通知をカスタマイズするには、次の手順を実行します。
 
@@ -211,7 +223,7 @@ AEM Guidesでは、出力後の生成ワークフローを柔軟に指定でき�
 
 | Property | 種類 | 説明 |
 |--------|----|-----------|
-| ``outputName`` | 文字列 | 出力の生成に使用する出力プリセットの名前。 |
+| ``outputName`` | String | 出力の生成に使用する出力プリセットの名前。 |
 | `generatedPath` | 文字列 | 生成された出力が保存されるDAM内のパス。 |
 | `outputType` | com.adobe.fmdita.output.OutputType | 出力プリセットのタイプ。 |
 | `outputTitle` | 文字列 | 出力プリセットのタイトル。 |

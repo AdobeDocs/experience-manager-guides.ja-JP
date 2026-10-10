@@ -4,31 +4,40 @@ description: Adobe Experience Manager Guides 4.2 リリースの新機能と強�
 exl-id: 46367ccf-58ff-4889-8314-cdd5bf5d0f1d
 feature: What's New
 role: Leader
-TQID: https://experienceleague.adobe.com/Ig3Lc-OGmHe83U44eEebdfUwquPqskLorbUgGX4JHJ4
+TQID: 'https://experienceleague.adobe.com/Ig3Lc-OGmHe83U44eEebdfUwquPqskLorbUgGX4JHJ4'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
 subfeature_v2:
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: cda0baeb-996e-4aaa-92d1-41032e34fd68
+    internal-label: What's new
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 2435
+source-wordcount: '2438'
 ht-degree: 0%
-
 ---
-
 # Adobe Experience Manager Guidesの4.2 リリース（2023年2月）の新機能
 
 この記事では、Adobe Experience Manager Guidesのバージョン 4.2 （後で&#x200B;*AEM Guides*&#x200B;と呼ばれます）の新機能と強化機能について説明します。
 
-アップグレード手順、互換性マトリックス、およびこのリリースで修正された問題について詳しくは、[&#x200B; リリースノート &#x200B;](release-notes-4-2.md)の記事を参照してください。
+アップグレード手順、互換性マトリックス、およびこのリリースで修正された問題について詳しくは、[ リリースノート ](release-notes-4-2.md)の記事を参照してください。
 
 ## Web エディターからのレポートの生成
 
@@ -141,7 +150,7 @@ AEM Guidesには、グローバルプロファイルとフォルダープロフ�
 マップには、トピック参照、トピックグループ、キー定義を挿入できます。 マップ内に存在するトピックを上、下、左、または右に移動して、整理を変更できます。 トピックをドラッグ&amp;ドロップして、マップ内に移動することもできます。 マップエディターには、ファイルのロックまたはロック解除、バージョン履歴の確認、バージョンラベル管理を行うためのアイコンも用意されています。
 
 
-レイアウトビューには、**表示オプション**&#x200B;も用意されており、行番号の表示/非表示、チェックボックスの表示/非表示、マップ内のトピックのファイル名またはタイトルの表示を行うことができます。
+レイアウトビューには、**表示オプション**も用意されており、行番号の表示/非表示、チェックボックスの表示/非表示、マップ内のトピックのファイル名またはタイトルの表示を行うことができます。
 また、トピックに適用された条件付きフィルターに基づいてトピックを表示することもできます。
 
 マップファイル内のトピックを整理するだけでなく、レイアウトビューのエレメントで使用可能な&#x200B;**オプション** メニューを使用して、参照を追加、移動、コピー、貼り付け、削除することもできます。

@@ -5,27 +5,35 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: ca557b73-8608-4fdd-8e11-adc6de2ad82a
-TQID: https://experienceleague.adobe.com/JTfQ4wbTh1b3qZYT6I3L--AW2ZGkWIBKW2YOORW9zHE
+TQID: 'https://experienceleague.adobe.com/JTfQ4wbTh1b3qZYT6I3L--AW2ZGkWIBKW2YOORW9zHE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 2408
+source-wordcount: '2412'
 ht-degree: 0%
-
 ---
-
 # データソースからのデータを利用する
 
 **データソース**&#x200B;は、組織のデータを保存および管理するシステムです。 JIRA、SQL データベース、PIM、PLMなどの記録システムです。 AEM Guidesには、データソースに接続し、そのデータを使用する機能が用意されています。
@@ -34,7 +42,7 @@ ht-degree: 0%
 
 ## データソースパネル
 
-左側のパネルで「**データソース** ![&#x200B; データソース &#x200B;](images/data-source-icon.svg)」を選択して、接続されたデータソースを表示します。 データソースパネルが開き、接続されているすべてのデータソースが表示されます。
+左側のパネルで「**データソース** ![ データソース ](images/data-source-icon.svg)」を選択して、接続されたデータソースを表示します。 データソースパネルが開き、接続されているすべてのデータソースが表示されます。
 
 設定に基づいて、管理者はデータソースコネクタを設定できます。
 
@@ -42,18 +50,18 @@ ht-degree: 0%
 <summary> クラウドサービス </summary>
 
 
-- 2023年10月リリース以降を使用している場合は、Cloud Services インストールおよび設定ガイドのユーザーインターフェイス [&#128279;](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md)からデータソースコネクタを設定する方法について説明します。
+- 2023年10月リリース以降を使用している場合は、Cloud Services インストールおよび設定ガイドのユーザーインターフェイス ](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md)からデータソースコネクタを[設定する方法について説明します。
 
-- 2023年7月または2023年9月リリースを使用している場合は、Cloud Services インストールおよび設定ガイドの「[&#x200B; データソースコネクタを設定する](/help/product-guide/cs-install-guide/conf-data-source-connector.md)」の方法を参照してください。
+- 2023年7月または2023年9月リリースを使用している場合は、Cloud Services インストールおよび設定ガイドの「[ データソースコネクタを設定する](/help/product-guide/cs-install-guide/conf-data-source-connector.md)」の方法を参照してください。
 
 </details>
 
 <details>    
 <summary>  オンプレミスソフトウェア </summary>
 
-- 4.3.1 リリース以降を使用している場合は、オンプレミス インストールおよび設定ガイドのユーザーインターフェイス [&#128279;](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md)からデータソースコネクタを設定する方法を説明します。
+- 4.3.1 リリース以降を使用している場合は、オンプレミス インストールおよび設定ガイドのユーザーインターフェイス ](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md)からデータソースコネクタを[設定する方法を説明します。
 
-- 4.3 リリースを使用している場合は、オンプレミスのインストールおよび設定ガイドの「[&#x200B; データソースコネクタを設定する](/help/product-guide/cs-install-guide/conf-data-source-connector.md)」の方法を参照してください。
+- 4.3 リリースを使用している場合は、オンプレミスのインストールおよび設定ガイドの「[ データソースコネクタを設定する](/help/product-guide/cs-install-guide/conf-data-source-connector.md)」の方法を参照してください。
 </details>
 
 
@@ -134,7 +142,7 @@ AEM Guidesには、データソースに接続する機能が用意されてい�
 1. データは、プレビューまたはDITA ソースビューで表示できます。
 
    1. プレビューには、コンテンツに挿入されたときにデータがどのように表示されるかが示されます。 プレビューには、選択したテンプレートの形式のデータのほんの一部が表示されます。
-例：
+      例：
       - SQL-table テンプレートを選択した場合は、SQL データを表形式で表示できます。
       - Jira-ordered-list テンプレートを選択した場合は、Jiraの課題の順序付きリストを表示できます。
 
@@ -295,7 +303,7 @@ AEM Guidesには、データソースに接続する機能が用意されてい�
 
 ## データソーステンプレートでのVelocity ツールの使用 {#use-velocity-tools}
 
-Experience Manager テンプレートは、Velocity ツール（バージョン 2.0）もサポートしています。 これらのツールは、データソースから取得したデータに様々な関数を適用するのに役立ちます。 [速度ツール &#x200B;](https://velocity.apache.org/tools/2.0/generic.html)の使用と、適用できる関数について詳しく説明します。
+Experience Manager テンプレートは、Velocity ツール（バージョン 2.0）もサポートしています。 これらのツールは、データソースから取得したデータに様々な関数を適用するのに役立ちます。 [速度ツール ](https://velocity.apache.org/tools/2.0/generic.html)の使用と、適用できる関数について詳しく説明します。
 
 テンプレートでVelocity ツールを使用するには、次の手順を実行します。
 1. Web エディターでVelocity テンプレートを編集します。

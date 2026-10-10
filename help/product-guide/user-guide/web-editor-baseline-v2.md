@@ -4,13 +4,29 @@ description: Adobe Experience Manager Guidesのマップコンソールから、
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 exl-id: 574806bb-21c5-41fe-b8be-4c6506ce8cce
-source-git-commit: 5fe9e9476b001a1ad74c045bf05e3061702f5e42
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1409'
 ht-degree: 0%
-
 ---
-
 # Experience Manager Guidesの新しいベースライン（Beta）
 
 >[!NOTE]
@@ -115,7 +131,7 @@ ht-degree: 0%
 
 ## 新しいベースラインの使用
 
-新しいベースラインモデルでは、Experience Manager Guidesの既存のベースラインフィーチャーと同じワークフローとユーザーインターフェイスを使用します。 使用可能なオプションを使用して、[Map コンソール &#x200B;](./web-editor-baseline.md)からベースラインを作成および管理できます。
+新しいベースラインモデルでは、Experience Manager Guidesの既存のベースラインフィーチャーと同じワークフローとユーザーインターフェイスを使用します。 使用可能なオプションを使用して、[Map コンソール ](./web-editor-baseline.md)からベースラインを作成および管理できます。
 
 >[!NOTE]
 >
@@ -136,10 +152,10 @@ ht-degree: 0%
   ![](images/baseline-v2-dynamic-baseline-new.png)
 
   新しいベースラインモデルを使用して作成された動的ベースラインに対して導入された新しいオプションを使用することもできます。
-   - **プロパティを編集**：既存のベースラインのプロパティを編集できます。
-   - **再構築**：変更が発生するたびに、動的ベースラインを再構築できます。
+  - **プロパティを編集**：既存のベースラインのプロパティを編集できます。
+  - **再構築**：変更が発生するたびに、動的ベースラインを再構築できます。
 
-     ![rebuild-baseline](images/rebuild-baseline.png)
+    ![rebuild-baseline](images/rebuild-baseline.png)
 
 - **ダウンロード** アクションは、ページ分割されたダウンロードをサポートしています。 適用されたフィルターに一致するすべてのベースラインコンテンツは、現在のページに表示されるコンテンツだけでなく、ダウンロードに含まれます。
 - ファイル名またはファイルの場所に加えて、GUIDでファイルをフィルタリングします。 ラベルのない&#x200B;**フィルターファイル**&#x200B;に対する追加オプションも使用できます。
@@ -151,28 +167,28 @@ ht-degree: 0%
 
   ベースラインを編集するには、次の手順を実行します。
 
-   - **ベースライン** パネルからベースラインを開きます。
+  - **ベースライン** パネルからベースラインを開きます。
 
-     ベースラインの参照の表形式表示が表示されます。
+    ベースラインの参照の表形式表示が表示されます。
 
-   - 編集するファイルに移動し、カーソルを合わせます。
-   - 「**編集**」アイコンを選択します。
+  - 編集するファイルに移動し、カーソルを合わせます。
+  - 「**編集**」アイコンを選択します。
 
-     ![edit-baseline-icon](images/edit-baseline-icon.png)
+    ![edit-baseline-icon](images/edit-baseline-icon.png)
 
-     **バージョンを編集** ダイアログが表示されます。
-   - **バージョン** ドロップダウンから必要なバージョンを選択します（例えば、バージョン 1.0から1.1に変更）。
+    **バージョンを編集** ダイアログが表示されます。
+  - **バージョン** ドロップダウンから必要なバージョンを選択します（例えば、バージョン 1.0から1.1に変更）。
 
 
-     ![edit-version-baseline](images/edit-version-baseline.png)
+    ![edit-version-baseline](images/edit-version-baseline.png)
 
-     追加および削除された依存関係が評価され、プレビューとして表示されます。 変更を適用する前に、変更を確認します。
+    追加および削除された依存関係が評価され、プレビューとして表示されます。 変更を適用する前に、変更を確認します。
 
-     ![](images/baseline-v2-version-added.png)
+    ![](images/baseline-v2-version-added.png)
 
-     依存関係の変更が検出されない場合は、空の状態のメッセージが表示されます。
+    依存関係の変更が検出されない場合は、空の状態のメッセージが表示されます。
 
-   - **更新**&#x200B;を選択して変更を適用します。
+  - **更新**&#x200B;を選択して変更を適用します。
 
   ベースラインは、選択したバージョンで更新されます。
   +++

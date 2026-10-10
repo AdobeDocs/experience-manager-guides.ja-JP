@@ -4,25 +4,33 @@ description: AEM Guidesの公開ダッシュボードを使用して、公開タ
 exl-id: d9e25e52-ba9d-4088-ac95-8df76b69f5d3
 feature: Publishing
 role: User
-TQID: https://experienceleague.adobe.com/PK8-P0Mqn-MWI0Zz2RW27U0B6AXbIfWCIfYqoPmL3F0
+TQID: 'https://experienceleague.adobe.com/PK8-P0Mqn-MWI0Zz2RW27U0B6AXbIfWCIfYqoPmL3F0'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Troubleshooting
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 562
+source-wordcount: '562'
 ht-degree: 0%
-
 ---
-
 # 公開ダッシュボードを使用した公開タスクの管理 {#id205CC08305Z}
 
 システム上で多数の公開タスクを実行している場合、各DITA マップを個別にチェックして公開タスクを監視することは事実上不可能になります。 Adobe Experience Manager Guidesを使用すると、管理者とパブリッシャーは、システム内で実行されているすべての公開タスクを一元的に把握できます。 アクティブなすべての公開タスクのリストは、公開ダッシュボードで使用できます。
@@ -59,7 +67,7 @@ ht-degree: 0%
 
 ## 公開ダッシュボードへのアクセス
 
-**公開ダッシュボード**&#x200B;には、[Experience Manager Guides ホームページ &#x200B;](./intro-home-page.md)から直接アクセスできます。 ホームページを開き、左側のパネルから「**キューを公開**」オプションを選択します。
+**公開ダッシュボード**&#x200B;には、[Experience Manager Guides ホームページ ](./intro-home-page.md)から直接アクセスできます。 ホームページを開き、左側のパネルから「**キューを公開**」オプションを選択します。
 
 >[!NOTE]
 >
@@ -88,7 +96,7 @@ Adobe Experience Manager **ツール** ページから&#x200B;**公開ダッシ�
 
 パブリッシュダッシュボードから出力生成タスクをキャンセルするには、次の手順を実行します。
 
-1. [公開ダッシュボードにアクセス &#x200B;](#access-the-publish-dashboard)。
+1. [公開ダッシュボードにアクセス ](#access-the-publish-dashboard)。
 
 1. アクティブな公開タスクのリストから、キャンセルするタスクの削除アイコンを選択します。
 
@@ -101,4 +109,4 @@ Adobe Experience Manager **ツール** ページから&#x200B;**公開ダッシ�
    ![](images/cancelled-output-task.png)
 
 
-**親トピック：**&#x200B;[&#x200B;出力生成](generate-output.md)
+**親トピック：**[&#x200B;出力生成](generate-output.md)

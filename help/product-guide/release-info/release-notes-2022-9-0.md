@@ -4,26 +4,35 @@ description: Adobe Experience Manager Guides as a Cloud Serviceの9月リリー�
 exl-id: f6247f91-43cc-43a4-a6f8-3b1f09d0533f
 feature: Release Notes
 role: Leader
-TQID: https://experienceleague.adobe.com/vzzg-FlQ0IsMKzYDYcIJjh9hGRnuzV-tiuMa7tvO85o
+TQID: 'https://experienceleague.adobe.com/vzzg-FlQ0IsMKzYDYcIJjh9hGRnuzV-tiuMa7tvO85o'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+    internal-label: FrameMaker Publishing Server
+  - id: fc07eb3b-d7d7-4e9a-a558-c3099c2b6f7b
+    internal-label: Release notes
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1300
+source-wordcount: '1301'
 ht-degree: 3%
-
 ---
-
 # Adobe Experience Manager Guides as a Cloud Serviceの9月リリース
 
 ## 9月リリースへのアップグレード
@@ -40,7 +49,7 @@ ht-degree: 3%
 （オプション：マップの特定のパスを渡してインデックスを作成できます。デフォルトでは、すべてのマップにインデックスが付けられます||例：`https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`）
 * APIはjobIdを返します。 ジョブのステータスを確認するには、ジョブ IDを持つGET リクエストを同じエンドポイントに送信できます。 `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
 （例：`http://<_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)`
-* ジョブが完了すると、上記のGET リクエストは成功して応答し、マップが失敗した場合に言及します。 正常にインデックス化されたマップは、サーバーログから確認できます。
+* ジョブが完了すると、上記のGET リクエストは成功して応答し、マップが失敗した場合にメンションします。 正常にインデックス化されたマップは、サーバーログから確認できます。
 
 
 ## 互換性マトリックス
@@ -74,14 +83,14 @@ AEM Guides as a Cloud Serviceには、9月リリースで多くの機能強化�
 AEM Guidesでは、ラベルにもとづいて動的なベースラインを作成する機能が提供されています。 ベースラインを生成する、ベースラインをダウンロードする、ベースラインを使用して翻訳プロジェクトを作成する場合、更新されたラベルに基づいてファイルが動的に選択されます。 この機能は、ラベルを更新する際にベースラインを変更する必要がないので便利です。
 ベースラインのスナップショットをCSVとしてエクスポートすることもできます。
 
-![&#x200B; ベースラインの作成](assets/dynamic-baseline.png)
+![ ベースラインの作成](assets/dynamic-baseline.png)
 
 ### マップレベルでのテキストの検索と置換
 
 特定のテキストを含むマップ内のファイルを検索できるようになりました。 検索したテキストがファイル内でハイライト表示されます。 検索した単語またはフレーズを、ファイル内の別の単語またはフレーズに置き換えることもできます。
 「**置換**」アイコンを選択して現在のオカレンスを置換し、「**ファイル内のすべてを置換**」アイコンを選択して、選択したファイル内のすべてのオカレンスを置換します。
 
-![&#x200B; マップ内で置換を検索](assets/map-find-replace.png)
+![ マップ内で置換を検索](assets/map-find-replace.png)
 
 デフォルトでは、「**置換前にファイルをチェックアウトする**」オプションと「**置換後に新しいバージョンを作成する**」オプションが選択されているため、テキストを置き換える前にファイルをチェックアウトし、テキストを置き換えた後に新しいバージョンを作成します。
 
@@ -91,7 +100,7 @@ AEM Guidesでは、ラベルにもとづいて動的なベースラインを作�
 ![翻訳ダッシュボード](assets/translation-version-diff.png)
 翻訳ダッシュボードでは、最後に翻訳されたバージョンと選択したファイルの現在のバージョンの違いを簡単に確認できます。
 
-![&#x200B; バージョンの違いダイアログ &#x200B;](assets/version-diff.png)
+![ バージョンの違いダイアログ ](assets/version-diff.png)
 
 違いに基づいて、トピックを翻訳するかどうかを決定できます。
 
@@ -100,7 +109,7 @@ AEM Guidesでは、ラベルにもとづいて動的なベースラインを作�
 DITA マップの出力プリセットからメタデータを設定できます。 タイトル、作成者、件名、キーワードのメタデータを設定できます。 このメタデータは、出力PDFのファイルプロパティのメタデータにマッピングされます。
 このメタデータは、ブックレベルで定義されたメタデータを上書きします。 各出力プリセットでメタデータを具体的に定義し、出力PDFに渡すことができます。
 
-![&#x200B; プリセットのメタデータ &#x200B;](assets/preset-metadata.png)
+![ プリセットのメタデータ ](assets/preset-metadata.png)
 
 
 ## 修正された問題

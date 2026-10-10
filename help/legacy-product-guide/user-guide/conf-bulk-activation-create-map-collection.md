@@ -5,23 +5,30 @@ feature: Publishing, Bulk Activation
 role: User
 hide: true
 exl-id: a242efde-2b29-4d2b-8a50-fd4ae7e8f239
-TQID: https://experienceleague.adobe.com/ADaV0D2fpnxIo3tKN9zw-oUKyN6wWgALOMmgt3yJfgw
+TQID: 'https://experienceleague.adobe.com/ADaV0D2fpnxIo3tKN9zw-oUKyN6wWgALOMmgt3yJfgw'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388b
+    internal-label: Bulk activation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 709
+source-wordcount: '735'
 ht-degree: 0%
-
 ---
-
 # 一括アクティベーションマップコレクションの作成 {#id214GG0E90EV}
 
 一括アクティベーションマップコレクションを作成するには、次の手順を実行します。
@@ -94,10 +101,10 @@ DITA マップファイルが一括アクティベーションマップコレク
   > 小さな![](images/global-preset-icon.svg) アイコンは、フォルダープロファイルレベルのプリセットを示します。
 
 - **変更済み**：前回の公開後にDITA マップが更新されたかどうかを示します。 この情報に基づいて、このDITA マップの出力をアクティブにするかどうかを決定できます。
-- **公開済み**：最後に公開（またはアクティブ化）された出力の日時を表示します。リンクを選択すると、「アクティベーション結果」ページが表示されます。このページには、コンテンツがアクティベートされるルートパスに関する情報が含まれています。
+- **公開済み**：最後に公開（またはアクティブ化）された出力の日時を表示します。 リンクを選択すると、「アクティベーション結果」ページが表示されます。このページには、コンテンツがアクティベートされるルートパスに関する情報が含まれています。
   ![さんが「一括アクティベーションコレクション監査履歴」タブを作成しました](images/bulk-collection-audit-history.png){width="800"}
 
-  *アクティブ化されたマップ出力に関する情報を&#x200B;**監査履歴**&#x200B;タブで表示します。*
+  *アクティブ化されたマップ出力に関する情報を&#x200B;**監査履歴**タブで表示します。*
 
 
   >[!NOTE]
@@ -116,4 +123,4 @@ DITA マップファイルが一括アクティベーションマップコレク
 
 フィルターは、「**マップとプリセット**」タブから「**監査履歴**」タブに切り替えると更新されます。その逆も同様です。
 
-**&#x200B; 親トピック：**&#x200B;[公開されたコンテンツの一括アクティベーション &#x200B;](conf-bulk-activation.md)
+** 親トピック：**[公開されたコンテンツの一括アクティベーション ](conf-bulk-activation.md)

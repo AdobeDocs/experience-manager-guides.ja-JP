@@ -4,37 +4,52 @@ description: Adobe Experience Manager Guides as a Cloud Serviceの2023年9月リ
 exl-id: d185d27f-0cbb-4ec6-ac65-cb69f7572c3f
 feature: What's New
 role: Leader
-TQID: https://experienceleague.adobe.com/mwi2Z0-3bixo5z1oi7tIk0yYwd2thaP0JV-k8swfCk0
+TQID: 'https://experienceleague.adobe.com/mwi2Z0-3bixo5z1oi7tIk0yYwd2thaP0JV-k8swfCk0'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+    internal-label: APIs
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388b
+    internal-label: Bulk activation
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: cda0baeb-996e-4aaa-92d1-41032e34fd68
+    internal-label: What's new
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1516
+source-wordcount: '1728'
 ht-degree: 0%
-
 ---
-
 # Adobe Experience Manager Guides as a Cloud Serviceの2023年9月リリースの新機能
 
 この記事では、Adobe Experience Manager Guidesの2023年9月バージョン（後に&#x200B;*AEM Guides as a Cloud Service*&#x200B;と呼ばれます）の新機能と強化機能について説明します。
 
-アップグレード手順、互換性マトリックス、およびこのリリースで修正された問題について詳しくは、[&#x200B; リリースノート &#x200B;](release-notes-2023-9-0.md)を参照してください。
+アップグレード手順、互換性マトリックス、およびこのリリースで修正された問題について詳しくは、[ リリースノート ](release-notes-2023-9-0.md)を参照してください。
 
 ## データソースに接続し、トピックを挿入する
 
@@ -50,7 +65,7 @@ Web エディターの&#x200B;**データソース** パネルで、設定され
 
 接続されたデータソースからトピックを作成することもできます。 トピックには、表、リスト、段落など、様々な形式のデータを含めることができます。 また、すべてのトピックのDITA マップを作成することもできます。 データソースから取り出す際に、メタデータをトピックに関連付けることができます。
 
-詳しくは、[&#x200B; データソースからのデータを使用](../user-guide/web-editor-content-snippet.md)を参照してください。
+詳しくは、[ データソースからのデータを使用](../user-guide/web-editor-content-snippet.md)を参照してください。
 
 ## コンテンツに引用を追加する
 
@@ -60,11 +75,11 @@ AEM Guidesでは、引用を追加したり、引用を読み込んでコンテ�
 
 トピックに引用を挿入した後、Web エディターで引用をプレビューできます。 また、ネイティブPDFを使用して、引用を含むコンテンツを公開することもできます。
 
-![&#x200B; パネルに表示される引用](assets/citation-panel.png){width="300"}
+![ パネルに表示される引用](assets/citation-panel.png){width="300"}
 
 *引用パネルで引用のリストを表示します。*
 
-詳細については、[&#x200B; コンテンツ内の引用の追加と管理](../user-guide/web-editor-apply-citations.md)を参照してください。
+詳細については、[ コンテンツ内の引用の追加と管理](../user-guide/web-editor-apply-citations.md)を参照してください。
 
 
 ## コンテンツフラグメントへの公開
@@ -75,11 +90,11 @@ AEM Guidesでは、トピックまたはトピック内のエレメントをコ�
 
 AEM Guidesとコンテンツフラグメントの機能を活用し、あらゆるAEMサイトでコンテンツフラグメントを利用できます。 コンテンツフラグメントでサポートされているAPIを使用して、詳細を抽出することもできます。
 
-![&#x200B; コンテンツフラグメントを公開するオプション &#x200B;](assets/content-fragment-publish.png){width="550"}
+![ コンテンツフラグメントを公開するオプション ](assets/content-fragment-publish.png){width="550"}
 
 *コンテンツフラグメントにトピックを公開します。*
 
-詳しくは、[&#x200B; コンテンツフラグメントへの公開](../user-guide//publish-content-fragment.md)を参照してください。
+詳しくは、[ コンテンツフラグメントへの公開](../user-guide//publish-content-fragment.md)を参照してください。
 
 ## 機能強化を見る
 
@@ -87,10 +102,10 @@ AEM Guidesでは、次の機能を使用してレビュー機能が改善され�
 
 ### レビューのトピックを検索
 
-レビューの実施は、AEM Guidesの重要な機能のひとつです。レビュー担当者は、割り当てられたドキュメントを確認できます。
-レビューパネルのトピックビューの検索バーに、タイトルまたはファイルパスのテキストの一部を入力して、トピックを検索できるようになりました。すべてのトピックを表示するか、コメント付きのトピックを表示するかを選択することもできます。デフォルトでは、レビュータスクに存在するすべてのトピックを表示できます。詳細については、[&#x200B; トピックのレビュー](../user-guide/review-topics.md)を参照してください。
+レビューの実施は、AEM Guidesの重要な機能のひとつです。 レビュー担当者は、割り当てられたドキュメントを確認できます。
+レビューパネルのトピックビューの検索バーに、タイトルまたはファイルパスのテキストの一部を入力して、トピックを検索できるようになりました。 すべてのトピックを表示するか、コメント付きのトピックを表示するかを選択することもできます。 デフォルトでは、レビュータスクに存在するすべてのトピックを表示できます。 詳細については、[ トピックのレビュー](../user-guide/review-topics.md)を参照してください。
 
-![&#x200B; レビュートピックパネルでの検索](assets/review-search-topic.png){width="800"}
+![ レビュートピックパネルでの検索](assets/review-search-topic.png){width="800"}
 
 *レビューパネルでレビュートピックを検索します。*
 
@@ -123,13 +138,13 @@ PDFで次のセクションを表示または非表示にしたり、最終的�
 
 PDF出力に特定のセクションを表示したくない場合は、切り替えスイッチをオフにすることで非表示にできます。
 
-詳細については、[&#x200B; ページの順序](../native-pdf/components-pdf-template.md#page-order)を参照してください。
+詳細については、[ ページの順序](../native-pdf/components-pdf-template.md#page-order)を参照してください。
 
 ### ページを結合
 
 デフォルトでPDFのネイティブ出力では、すべてのセクションが新しいページから始まります。 セクションを前のページまたは次のページに結合できるようになりました。 これにより、PDF出力で選択したページでセクションが続けて公開され、間にページブレークインはありません。
 
-詳細については、[&#x200B; ページ順序](../native-pdf/components-pdf-template.md#page-order) セクションの&#x200B;**ページを結合**&#x200B;機能の説明を参照してください。
+詳細については、[ ページ順序](../native-pdf/components-pdf-template.md#page-order) セクションの&#x200B;**ページを結合**&#x200B;機能の説明を参照してください。
 
 ### 現在のページからすべての章を開始
 
@@ -143,7 +158,7 @@ PDF出力に特定のセクションを表示したくない場合は、切り�
 
 また、カスタムページレイアウトを作成し、PDF出力で静的ページとして公開することもできます。 これにより、メモや空白ページなどの静的コンテンツを追加できます。
 
-詳細については、[&#x200B; ページ順序](../native-pdf/components-pdf-template.md#page-order) セクションの&#x200B;**静的ページ**&#x200B;機能の説明を参照してください。
+詳細については、[ ページ順序](../native-pdf/components-pdf-template.md#page-order) セクションの&#x200B;**静的ページ**&#x200B;機能の説明を参照してください。
 
 
 ### 相互参照の変数
@@ -151,7 +166,7 @@ PDF出力に特定のセクションを表示したくない場合は、切り�
 変数を使用して、相互参照を定義できます。 変数を使用すると、その値はプロパティから選択されます。
 
 {figure}と{table}を使用することもできます。
-{figure}を使用して、図形番号に相互参照を追加します。Figure用に定義した自動番号スタイルからFigure番号を選択します。
+{figure}を使用して、図形番号に相互参照を追加します。 Figure用に定義した自動番号スタイルからFigure番号を選択します。
 
 {table}を使用して、テーブル番号に相互参照を追加します。 キャプション用に定義した自動番号スタイルから表番号を選択します。
 
@@ -167,7 +182,7 @@ PDF出力に特定のセクションを表示したくない場合は、切り�
 
 カスタムセレクターを使用して、複雑なスタイルを追加できるようになりました。 新しいセレクターフィールドを使用すると、クラス、タグ、擬似クラスの組み合わせ以外にもカスタムセレクターを追加できます。 例えば、テーブル内のすべてのハイパーリンクに`table a.link` スタイルを作成できます。
 
-![&#x200B; ネイティブ pdf テンプレートにスタイルを追加する](assets/add-styles-native-pdf.png){width="300"}
+![ ネイティブ pdf テンプレートにスタイルを追加する](assets/add-styles-native-pdf.png){width="300"}
 
 *新しいスタイルの詳細を追加します。*
 
@@ -182,7 +197,7 @@ AEM Guidesでは、スタイルのプレビューセクションの下に新し�
 
 また、条件を定義し、トピック内の特定の要素に適用することもできます。  条件は、特定の要素に対してのみ表示され、他のすべての要素に対しては表示されません。
 
-件名の定義と列挙の階層定義の処理について詳しくは、[左パネル &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS) セクションの件名スキーム機能の説明を参照してください。
+件名の定義と列挙の階層定義の処理について詳しくは、[左パネル ](../user-guide/web-editor-features.md#id2051EA0M0HS) セクションの件名スキーム機能の説明を参照してください。
 
 
 
@@ -191,7 +206,7 @@ AEM Guidesでは、スタイルのプレビューセクションの下に新し�
 ## マップコレクション内のすべてのプリセットを選択
 
 個々のプリセットとすべてのフォルダープロファイルプリセットを有効にするだけでなく、DITA マップのすべてのプリセットを一度に有効にすることもできます。
-![&#x200B; マップコレクションの編集](assets/edit-map-collection-cs.png){width="800"}\
+![ マップコレクションの編集](assets/edit-map-collection-cs.png){width="800"}\
 *マップコレクション内のすべてのプリセットを選択します。*
 
 詳細については、[出力生成にマップコレクションを使用](../user-guide/generate-output-use-map-collection-output-generation.md)を参照してください。
@@ -200,26 +215,26 @@ AEM Guidesでは、スタイルのプレビューセクションの下に新し�
 ## 一括公開ダッシュボードでのPDFのネイティブサポート
 
 
-AEM Guidesのバルクアクティベーション機能を利用すれば、コンテンツのオーサリングからパブリッシングインスタンスへの移行を迅速かつ容易におこなえます。一括アクティベーションマップでは、ネイティブ PDF出力プリセット、AEM サイト、PDF、HTML5、カスタムおよびJSON出力を含めることができます。
-詳細については、[公開されたコンテンツの一括アクティベーション &#x200B;](../user-guide/conf-bulk-activation.md)を参照してください。
+AEM Guidesのバルクアクティベーション機能を利用すれば、コンテンツのオーサリングからパブリッシングインスタンスへの移行を迅速かつ容易におこなえます。 一括アクティベーションマップでは、ネイティブ PDF出力プリセット、AEM サイト、PDF、HTML5、カスタムおよびJSON出力を含めることができます。
+詳細については、[公開されたコンテンツの一括アクティベーション ](../user-guide/conf-bulk-activation.md)を参照してください。
 
 ## 一括移動ツールの改善
 
 管理者は、改善された一括移動ツールを使用して、多くのファイルを含むフォルダーを1つの場所から別の場所に移動できるようになりました。
-ファイルを参照ダイアログを使用して、移動するソースフォルダーを選択できます。ソースフォルダーを移動する保存先を参照して選択することもできます。フィールドの近くの![情報アイコン &#x200B;](assets/info-icon.svg) {width="25"}を選択すると、そのフィールドに関する詳細情報を表示できます。
+ファイルを参照ダイアログを使用して、移動するソースフォルダーを選択できます。 ソースフォルダーを移動する保存先を参照して選択することもできます。 フィールドの近くの![情報アイコン ](assets/info-icon.svg) {width="25"}を選択すると、そのフィールドに関する詳細情報を表示できます。
 
-詳細については、[&#x200B; ファイルを一括で移動](../user-guide/authoring-file-management.md#move-files-bulk)するをご覧ください。
+詳細については、[ ファイルを一括で移動](../user-guide/authoring-file-management.md#move-files-bulk)するをご覧ください。
 
 
 ## コンテキストメニューからのプレビュー体験の向上
 
 コンテキストメニューを使用して、ファイル（.dita、.xml、オーディオ、ビデオ、または画像）を開かずにプレビューします。 プレビューペインのサイズを変更できるようになりました。コンテンツに参照リンクが含まれている場合は、そのリンクを選択して新しいタブで開くことができます。
 
-![&#x200B; プレビューペイン &#x200B;](assets/quick-preview_cs.png){width="800"}
+![ プレビューペイン ](assets/quick-preview_cs.png){width="800"}
 
 *ペインでファイルをプレビューします。*
 
-コンテキストメニューについて詳しくは、[左パネル &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS) セクションのファイル **機能の** オプションの説明を参照してください。
+コンテキストメニューについて詳しくは、[左パネル ](../user-guide/web-editor-features.md#id2051EA0M0HS) セクションのファイル **機能の** オプションの説明を参照してください。
 
 
 ## 「宛先パス」、「サイト名」または「ファイル名」オプションで、現在の日時に変数を使用します

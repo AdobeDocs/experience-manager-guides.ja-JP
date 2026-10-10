@@ -5,7 +5,7 @@ feature: Publishing, Bulk Activation
 role: User
 hide: true
 exl-id: de1fd057-60c6-4b1a-9e55-f32969eb0079
-TQID: https://experienceleague.adobe.com/DjyZb6keMyvxaRF39lD1-xsugNBJPxP-WqfNnMEU-T4
+TQID: 'https://experienceleague.adobe.com/DjyZb6keMyvxaRF39lD1-xsugNBJPxP-WqfNnMEU-T4'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -14,13 +14,17 @@ product_v2:
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
     internal-label: Publishing
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388b
     internal-label: Bulk activation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: f2cfc65b00e0e70b22c50b7a3f97029a811f8ecb
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 2%
@@ -53,7 +57,7 @@ ht-degree: 2%
 <details>
 <summary> クラウドサービス </summary>
 
-![&#x200B; クラウドサービス上のbulk-collection-publish](images/bulk-activation-collection-quick-publish-CS.png){width="650"}
+![ クラウドサービス上のbulk-collection-publish](images/bulk-activation-collection-quick-publish-CS.png){width="650"}
 
 **プレビュー**&#x200B;または&#x200B;**公開** インスタンスへの出力をアクティブ化できます。
 
@@ -97,4 +101,4 @@ ht-degree: 2%
 
 選択したマップファイルの出力がアクティブ化されると、「監査履歴」タブが更新され、最新のアクティブ化された出力が上部に表示されます。 **公開済み**&#x200B;列が、公開日時で更新されます。
 
-**&#x200B; 親トピック：**&#x200B;[公開されたコンテンツの一括アクティベーション &#x200B;](conf-bulk-activation.md)
+** 親トピック：**[公開されたコンテンツの一括アクティベーション ](conf-bulk-activation.md)

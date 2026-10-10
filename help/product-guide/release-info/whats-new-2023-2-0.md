@@ -4,29 +4,38 @@ description: Adobe Experience Manager Guides as a Cloud Serviceの2月リリー�
 exl-id: 090eaf94-fe3a-47e9-9937-f84f8434550d
 feature: Release Notes
 role: Leader
-TQID: https://experienceleague.adobe.com/8alpUFz4njJtpUZrGcZ5wdrbmqSGOjSVqaHX1T4YeJ4
+TQID: 'https://experienceleague.adobe.com/8alpUFz4njJtpUZrGcZ5wdrbmqSGOjSVqaHX1T4YeJ4'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: fc07eb3b-d7d7-4e9a-a558-c3099c2b6f7b
+    internal-label: Release notes
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1382
+source-wordcount: '1462'
 ht-degree: 0%
-
 ---
-
 # Adobe Experience Manager Guides as a Cloud Serviceの2023年2月リリースの新機能
 
 この記事では、Adobe Experience Manager Guidesの2023年2月バージョン（後に&#x200B;*AEM Guides as a Cloud Service*&#x200B;と呼ばれます）の新機能と強化機能について説明します。
 
-アップグレード手順、互換性マトリックス、およびこのリリースで修正された問題について詳しくは、[&#x200B; リリースノート &#x200B;](release-notes-2023-2-0.md)の記事を参照してください。
+アップグレード手順、互換性マトリックス、およびこのリリースで修正された問題について詳しくは、[ リリースノート ](release-notes-2023-2-0.md)の記事を参照してください。
 
 
 ## Web エディターからのレポートの生成
@@ -47,7 +56,7 @@ Web エディターの「**レポート**」タブ。
 
 **マルチメディアレポートを生成**
 
-現在のマップ内の参照で使用されるマルチメディアに関する詳細情報を含むマルチメディアレポートを生成できます。レポートにリストされているマルチメディアファイルを柔軟にフィルタリングおよび並べ替えることができます。
+現在のマップ内の参照で使用されるマルチメディアに関する詳細情報を含むマルチメディアレポートを生成できます。 レポートにリストされているマルチメディアファイルを柔軟にフィルタリングおよび並べ替えることができます。
 CSVを生成して、DITA マップで使用されているマルチメディアの現在のスナップショットをダウンロードすることもできます。
 
 <img src="assets/web-editor-reports-multimedia.png" alt="マルチメディアレポート" width="600">

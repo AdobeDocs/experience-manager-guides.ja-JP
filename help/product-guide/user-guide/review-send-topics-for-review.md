@@ -4,7 +4,7 @@ description: AEM Guidesでレビュータスクを作成し、レビュー用に
 exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 feature: Reviewing
 role: User
-TQID: https://experienceleague.adobe.com/mrpBKOZcVm1XHdkEy9PBFOt-cbjfmyjqhT-BRbg3Swo
+TQID: 'https://experienceleague.adobe.com/mrpBKOZcVm1XHdkEy9PBFOt-cbjfmyjqhT-BRbg3Swo'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -13,6 +13,8 @@ product_v2:
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
     internal-label: Authoring
+  - id: 72792fc7-6fd6-5775-a2c2-99253bb26dc2
+    internal-label: Reviewing
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
     internal-label: Editor
@@ -21,7 +23,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 279cf0605427042290a7bbf179636f022d4bfd46
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '4036'
 ht-degree: 0%
@@ -34,7 +36,7 @@ ht-degree: 0%
 
 次の場所からレビュータスクを作成できます。
 
-- **エディター**：個々のトピックまたはDITA マップをレビュー用に送信できます。 レビュータスクを作成するワークフローは、エディターとAssets UIで共通することに注意してください。 レビューワークフローを起動する方法のみが異なります。 エディターからのレビューワークフローの起動について詳しくは、エディターの[&#x200B; レビュータスクの作成](web-editor-left-panel.md#review)機能を参照してください。
+- **エディター**：個々のトピックまたはDITA マップをレビュー用に送信できます。 レビュータスクを作成するワークフローは、エディターとAssets UIで共通することに注意してください。 レビューワークフローを起動する方法のみが異なります。 エディターからのレビューワークフローの起動について詳しくは、エディターの[ レビュータスクの作成](web-editor-left-panel.md#review)機能を参照してください。
 
 - **Assets UI**: 1つまたは複数のトピックとDITA マップをレビュー用に送信できます。 Assets UI ワークフローからのレビュー用ドキュメントの共有については、このトピックで説明します。
 
@@ -93,7 +95,7 @@ Assets UIから、作成者/発行者がレビュータスクを作成するに�
 
    >[!NOTE]
    >
-   > 期限に達すると、レビュータスクが完了したことを通知する電子メールが開始者に送信されます。 開始者は、[&#x200B; レビューダッシュボード &#x200B;](review-manage-tasks-review-dashboard.md#)からレビュータスクの期限を延長できます。
+   > 期限に達すると、レビュータスクが完了したことを通知する電子メールが開始者に送信されます。 開始者は、[ レビューダッシュボード ](review-manage-tasks-review-dashboard.md#)からレビュータスクの期限を延長できます。
 
 1. **自動リマインダー**&#x200B;を有効にして、レビュー担当者にスケジュールされたリマインダー通知（およびメールリマインダー）を設定します。 これは、レビュータスクの期日を迎える前と期限が過ぎた後の両方で実行できます。
 
@@ -113,7 +115,7 @@ Assets UIから、作成者/発行者がレビュータスクを作成するに�
 
    >[!NOTE]
    >
-   > 選択したルートマップは、キー参照を解決する際に最も優先されます。 詳細については、[&#x200B; キー参照の解決](map-editor-other-features.md#id176GD01H05Z)を参照してください。
+   > 選択したルートマップは、キー参照を解決する際に最も優先されます。 詳細については、[ キー参照の解決](map-editor-other-features.md#id176GD01H05Z)を参照してください。
 
 1. DITAVAL ファイルの添付（ご使用の環境で有効になっている場合のみ利用可能）
 
@@ -202,7 +204,7 @@ Assets UIから、作成者/発行者がレビュータスクを作成するに�
    - **レビュー担当者の編集**: トピックリストで![](images/edit_pencil_icon.svg) アイコンを選択すると、レビュー担当者の編集ダイアログが表示されます。 選択したトピックのレビュー担当者を、このダイアログから追加または削除できます。
 1. レビュータスクを作成するには、**作成**&#x200B;を選択します。
 
-   レビュータスクが正常に作成されると、確認メッセージが表示されます。 レビュー用に送信されたトピックの[&#x200B; ドキュメントの状態](web-editor-document-states.md#)は、「レビュー中」に設定されています。
+   レビュータスクが正常に作成されると、確認メッセージが表示されます。 レビュー用に送信されたトピックの[ ドキュメントの状態](web-editor-document-states.md#)は、「レビュー中」に設定されています。
 
    >[!NOTE]
    >
@@ -265,7 +267,7 @@ Experience Manager Guidesを使用すると、DITA マップ内の1つ以上の�
 
    >[!NOTE]
    >
-   > 期限に達すると、レビュータスクが完了したことを通知する電子メールが開始者に送信されます。 開始者は、[&#x200B; レビューダッシュボード &#x200B;](review-manage-tasks-review-dashboard.md#)からレビュータスクの期限を延長できます。
+   > 期限に達すると、レビュータスクが完了したことを通知する電子メールが開始者に送信されます。 開始者は、[ レビューダッシュボード ](review-manage-tasks-review-dashboard.md#)からレビュータスクの期限を延長できます。
 
 1. 異なるレビュー担当者を異なるトピックに割り当てることができるので、**担当者に任意のトピックをレビューすることを許可** オプションは、レビュー担当者がレビュータスクのすべてのトピックをレビューできるか、レビューに割り当てられたトピックのみをレビューできるかを制御します。
 
@@ -281,7 +283,7 @@ Experience Manager Guidesを使用すると、DITA マップ内の1つ以上の�
 
    >[!NOTE]
    >
-   > このページでコンテンツを整理する方法は、マップ階層機能が環境に対して有効になっているかどうかによって異なります。 有効にすると、マップとそのサブマップは、トピックのフラットリストではなく階層ビューに表示されます。 詳細については、[&#x200B; レビュー対象のトピックを選択する際にマップ階層を表示](#view-the-map-hierarchy-while-selecting-topics-for-review)するを参照してください。
+   > このページでコンテンツを整理する方法は、マップ階層機能が環境に対して有効になっているかどうかによって異なります。 有効にすると、マップとそのサブマップは、トピックのフラットリストではなく階層ビューに表示されます。 詳細については、[ レビュー対象のトピックを選択する際にマップ階層を表示](#view-the-map-hierarchy-while-selecting-topics-for-review)するを参照してください。
 
 1. コンテンツ ページで、レビュー用に共有するトピックのバージョンを選択します。
 
@@ -323,7 +325,7 @@ Experience Manager Guidesを使用すると、DITA マップ内の1つ以上の�
 
 1. レビュータスクを作成するには、**作成**&#x200B;を選択します。
 
-   レビュータスクが正常に作成されると、確認メッセージが表示されます。 レビュー用に送信されたトピックの[&#x200B; ドキュメントの状態](web-editor-document-states.md#)は、「レビュー中」に設定されています。
+   レビュータスクが正常に作成されると、確認メッセージが表示されます。 レビュー用に送信されたトピックの[ ドキュメントの状態](web-editor-document-states.md#)は、「レビュー中」に設定されています。
 
    >[!NOTE]
    >
@@ -397,7 +399,7 @@ Experience Manager Guidesを使用すると、DITA マップ内の1つ以上の�
 - **進行中**: タスクに取り組んでいるレビュー担当者に、タスクが更新されたことを通知します。
 - **完了済み**：レビューを完了したレビュー担当者には、再審査を依頼する通知が届きます。
 
-詳細については、[&#x200B; レビュー通知について](./review-understanding-review-notifications.md)を参照してください。
+詳細については、[ レビュー通知について](./review-understanding-review-notifications.md)を参照してください。
 
 
-**親トピック：**&#x200B;[&#x200B; レビューの概要](review.md)
+**親トピック：**[ レビューの概要](review.md)

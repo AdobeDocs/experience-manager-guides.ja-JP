@@ -5,13 +5,32 @@ feature: InDesign File Conversion, Troubleshooting
 role: Admin
 level: Experienced
 exl-id: 6e757850-c563-42c5-aeac-b23c3f2ce679
-source-git-commit: 35fdbf480b4b70b70193772d0eae3a3cedec0077
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: f118db50-bb08-4bfa-a602-3b196f1f8882
+    internal-label: InDesign file conversion
+  - id: e13e7f13-0f4c-43f9-b0a7-1f33bd47e105
+    internal-label: Troubleshooting
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '2866'
 ht-degree: 0%
-
 ---
-
 # 付録 {#id195AD0L60Y4}
 
 ## AEM Guidesのトラブルシューティング
@@ -34,7 +53,7 @@ AEM Guidesをインストールして設定したら、問題をトラブルシ�
 1. 検証スクリプト \[`/bin/fmdita/validatebtree?operation=validate`\]を実行して、新しい壊れた参照がないか確認します。
 1. 検証スクリプトでエラーが報告された場合は、パッチスクリプトを使用してパッチを適用できます。
 1. 以下の詳細を記録し、必要に応じてカスタマーサクセス部門と共有します。
-1. &#x200B;
+1. 
    - スクリプトの検証によって出力されたログ
 - 「`/content/fmdita/references`」のパッケージ
 - 報告されたシナリオに応じて、その他の必要な詳細
@@ -50,7 +69,7 @@ AEM Guidesをインストールして設定したら、問題をトラブルシ�
    > 参照目的でログをコピーして保存することをお勧めします。
 
 1. パッチスクリプトが正常に実行されると、次のチェックを実行できます。
-1. &#x200B;
+1. 
    - 新しいノード「`references_backup_<timestamp>"`」が`/content/fmdita`の下に作成されたことを確認します
 - 参照が修正されていることを確認します
 
@@ -71,7 +90,7 @@ DITA エディターでDITA コンテンツを適切な順序に変更するこ�
 
 ***テキスト枠をスレッド化***
 
-InDesignでは、1つのフレームを別のフレームにリンクするプロセスに&#x200B;*&#39;スレッド&#39;*&#x200B;という用語を使用しています。 テキスト枠のスレッド化について詳しくは、InDesign ドキュメントの&#x200B;*[テキストのスレッド &#x200B;](https://helpx.adobe.com/in/indesign/using/threading-text.html)*&#x200B;のトピックを参照してください。
+InDesignでは、1つのフレームを別のフレームにリンクするプロセスに&#x200B;*&#39;スレッド&#39;*&#x200B;という用語を使用しています。 テキスト枠のスレッド化について詳しくは、InDesign ドキュメントの&#x200B;*[テキストのスレッド ](https://helpx.adobe.com/in/indesign/using/threading-text.html)*&#x200B;のトピックを参照してください。
 
 ***重なり合うフレーム***
 
@@ -344,7 +363,7 @@ InDesignの表スタイルを使用すると、列とセルの罫線を交互の
 
 `paragraphStyleRule`要素について次に説明します。
 
-**&#x200B; `paraRule`要素**
+** `paraRule`要素**
 
 `paraRule`要素は必須です。 すべての段落スタイルのマッピングルールを指定します。 InDesign ドキュメントでは、すべてのテキストが段落スタイルのサブ構造内に含まれます。スタイルのない段落も`\[No paragraph style\]`という名前になります。 正方形の角かっこ、これらは組み込みのInDesign スタイル名を示します。
 
@@ -359,8 +378,8 @@ InDesignの表スタイルを使用すると、列とセルの罫線を交互の
 - `@mapTo`: DITA ターゲット要素の名前。
 
 - `@context`：この属性は、複数のラッパーの選択肢が使用可能な場合に、特定の&#x200B;**ラップ** ルールにリンクするために使用されます。 例：`li`要素は、`ol`要素または`ul`要素のいずれかにラップできます。 異なるリストタイプを識別するには、特定のスタイル名または`@local`属性を使用して、次を表示できます。
-   - `local="p[-|-|-|-|-|b|-|-]"` フィールド 6の&#39;`b`&#39;は、箇条書きリスト項目を示します。 この場合、`@context`を&#39;`bullet`&#39;に設定します。
-   - `local="p[-|-|-|-|-|n|-|-]"` フィールド 6の&#39;`n`&#39;は番号付きリスト項目を示します。 この場合、`@context`を&#39;`number`&#39;に設定します。
+  - `local="p[-|-|-|-|-|b|-|-]"` フィールド 6の&#39;`b`&#39;は、箇条書きリスト項目を示します。 この場合、`@context`を&#39;`bullet`&#39;に設定します。
+  - `local="p[-|-|-|-|-|n|-|-]"` フィールド 6の&#39;`n`&#39;は番号付きリスト項目を示します。 この場合、`@context`を&#39;`number`&#39;に設定します。
 
 - `@commentOut`：この属性を使用すると、XML コメント内のターゲット要素の折り返しが可能になり、情報が失われることはなく、ユーザーが手動で処理できるようになります。 これは、ソースコンテンツがDITA構造ルールに強制的に準拠できない場合に便利です。
 
@@ -391,9 +410,9 @@ InDesignの表スタイルを使用すると、列とセルの罫線を交互の
 - `@local`: [\#id194CG0V005Z](#id194CG0V005Z)を参照してください。
 - `@mapTo`: DITA ターゲット要素の名前。
 - `@refactor`：このオプション属性には、次の2つの値の選択肢があります。
-   - `unwrap`：一致した要素は、そのコンテンツを保持している間に削除されます。
+  - `unwrap`：一致した要素は、そのコンテンツを保持している間に削除されます。
 
-   - `drop`：一致した要素とそのすべてのコンテンツが削除されます。
+  - `drop`：一致した要素とそのすべてのコンテンツが削除されます。
 
 
 **属性ルール**
@@ -423,11 +442,11 @@ InDesignの表スタイルを使用すると、列とセルの罫線を交互の
 > この要素には、複数の子要素を含めることができます。
 
 - `addNew`：一致した要素に新しい属性を追加します。 あらゆるコンテキストで利用可能です。 これには2つの属性があります。
-   - `@name`：有効なXML名である必要があります。DITA コンテキストで有効であることが望ましいです。
-   - `@value`: リテラルテキストまたは単純なXPath式を指定できます。
+  - `@name`：有効なXML名である必要があります。DITA コンテキストで有効であることが望ましいです。
+  - `@value`: リテラルテキストまたは単純なXPath式を指定できます。
 - `copyAtt`：必要に応じて、プロセス内で名前を変更しながら、単一の属性をターゲットにコピーします。 値は変更されません。 コンテキスト `mapDoctypeParaRule`、`mapDoctypeElemRule`、`doctypeElemRule`、`elementRule`で使用できます。 この要素が存在する場合、`@copyAllAtts`値は`false`と見なされます。 これには2つの属性があります。
-   - `@name`: ソース XML要素に存在する属性の名前である必要があります。
-   - `@mapTo`：有効なXML名である必要があります。DITA コンテキストで有効であることが望ましいです。
+  - `@name`: ソース XML要素に存在する属性の名前である必要があります。
+  - `@mapTo`：有効なXML名である必要があります。DITA コンテキストで有効であることが望ましいです。
 
 **ローカルの書式設定コード**
 
@@ -481,9 +500,9 @@ InDesignの表スタイルを使用すると、列とセルの罫線を交互の
 
 - `@refactor`：このオプション属性には、次の2つの値の選択肢があります。
 
-   - `unwrap`：一致した要素は、そのコンテンツを保持している間に削除されます。
+  - `unwrap`：一致した要素は、そのコンテンツを保持している間に削除されます。
 
-   - `drop`：一致した要素とそのすべてのコンテンツが削除されます。
+  - `drop`：一致した要素とそのすべてのコンテンツが削除されます。
 
 - `@context`：この属性は、複数のラッパーの選択肢がある場合に、特定のラッピングルールにリンクするために使用されます。 例：`li`要素は、`ol`要素または`ul`要素のいずれかにラップできます。
 

@@ -1,7 +1,15 @@
 ---
 title: リリースノート | Adobe Experience Manager Guides（2026.09.0 リリース）のアップグレード手順と修正された問題
 description: 互換性マトリックスと、Adobe Experience Manager Guides as a Cloud Serviceの2026.09.0 リリースにアップグレードする方法について説明します。
-source-git-commit: c3c72732237f937fef0213afbbd7f20cc1d9ee65
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 1%
@@ -10,9 +18,9 @@ ht-degree: 1%
 
 この記事では、Adobe Experience Manager Guides as a Cloud Serviceの2026.09.0 リリースのアップグレード手順と互換性マトリックスについて説明します。
 
-新機能と機能強化について詳しくは、[2026.09.0 リリース &#x200B;](whats-new-2026-09-0.md)の新機能を参照してください。
+新機能と機能強化について詳しくは、[2026.09.0 リリース ](whats-new-2026-09-0.md)の新機能を参照してください。
 
-このリリースで修正された問題のリストについては、[2026.09.0 リリース &#x200B;](fixed-issues-2026-09-0.md)で修正された問題を参照してください。
+このリリースで修正された問題のリストについては、[2026.09.0 リリース ](fixed-issues-2026-09-0.md)で修正された問題を参照してください。
 
 ## 互換性マトリックス
 
@@ -26,7 +34,7 @@ ht-degree: 1%
 |---|---|---|----|
 | 2026.09.0 | 2026.9.0 | [AEM Guides SDK API 2026.9.0](https://central.sonatype.com/artifact/com.adobe.aem/aem-dox-sdk-api/2026.9.0) | [Javadoc 2026.9.0](https://javadoc.io/doc/com.adobe.aem/aem-dox-sdk-api/latest/index.html) |
 
-詳細については、[Maven Central リポジトリ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/api-reference/introduction)のAPI JARを設定して使用することを参照してください。
+詳細については、[Maven Central リポジトリ ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/api-reference/introduction)のAPI JARを設定して使用することを参照してください。
 
 ### FrameMakerとFrameMaker Publishing Server
 

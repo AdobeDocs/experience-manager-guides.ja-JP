@@ -2,20 +2,26 @@
 title: リリースノート | Adobe Experience Manager Guides 2026.06.0 リリースの新機能
 description: Adobe Experience Manager Guides 2026.06.0 リリースの新機能と強化機能について説明します
 role: Leader
-source-git-commit: f3f30400f776f746427e257e2c937ff3413aa9ac
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 0%
-
 ---
-
 # 2026.06.0 リリース（2026年6月）の新機能
 
 この記事では、Adobe Experience Manager Guides as a Cloud Serviceの2026.06.0 リリースで導入された新機能と強化機能について説明します。
 
-このリリースで修正された問題のリストについては、[2026.06.0 リリース &#x200B;](fixed-issues-2026-06-0.md)で修正された問題を参照してください。
+このリリースで修正された問題のリストについては、[2026.06.0 リリース ](fixed-issues-2026-06-0.md)で修正された問題を参照してください。
 
-2026.06.0 リリース [&#128279;](../release-info/upgrade-instructions-2026-06-0.md)の アップグレード手順について説明します。
+2026.06.0 リリース ](../release-info/upgrade-instructions-2026-06-0.md)の[ アップグレード手順について説明します。
 
 
 ## マップの管理と出力の公開のための新しいマップコレクション（Beta）
@@ -28,7 +34,7 @@ ht-degree: 0%
 
 ![](assets/new-maps-collection.png)
 
-詳細については、[新しいマップ コレクションを使用して出力を生成する（Beta） &#x200B;](../user-guide/generate-output-use-new-map-collection-output-generation.md)を参照してください。
+詳細については、[新しいマップ コレクションを使用して出力を生成する（Beta） ](../user-guide/generate-output-use-new-map-collection-output-generation.md)を参照してください。
 
 ## Native PDF用の新しい公開エンジンの導入
 
@@ -38,7 +44,7 @@ ht-degree: 0%
 
 お使いの環境で[PDF Native Engine v2](../native-pdf/conf-new-pdf-engine.md)を有効にする方法について説明します。
 
-**ネイティブ PDF エンジン v2**&#x200B;について詳しくは、[&#x200B; ネイティブ PDF エンジン v2](../native-pdf/new-pdf-engine.md)の操作を参照してください。
+**ネイティブ PDF エンジン v2**&#x200B;について詳しくは、[ ネイティブ PDF エンジン v2](../native-pdf/new-pdf-engine.md)の操作を参照してください。
 
 
 ## エディターの機能強化
@@ -68,17 +74,17 @@ AMAの引用スタイルは、ネイティブPDFおよびAEM Sitesの出力形�
 
 レビューUIとAEM インボックスの間で、レビュータスクの完了を同期させることができるようになりました。 この機能が有効になっている場合、レビューUIでタスクを完了すると、AEM インボックスからタスクが削除され、AEM インボックスからタスクを完了すると、レビューUIで完了としてマークされます。 これにより、同じタスクを2回完了する必要がなくなり、レビューワークフローがよりスムーズになります。 作成者やタスク開始者は、フィードバックを継続的にレビューし、追加のレビューが必要な場合にタスクを再割り当てすることができます。 タスクが再割り当てされると、レビュー担当者に対して新しいAEM インボックス通知が生成され、レビューサイクルをシームレスに続行できます。
 
-詳細については、[&#x200B; レビュー担当者としてレビュータスクを完了する](../user-guide/review-complete-review-tasks.md)を参照してください。
+詳細については、[ レビュー担当者としてレビュータスクを完了する](../user-guide/review-complete-review-tasks.md)を参照してください。
 
 ## 学習コンテンツの機能強化
 
 このリリースの製品トレーニングおよび学習コンテンツ機能では、次の機能強化を利用できます。
 
-- 作成者は、学習者がコースに進む前に、ナレッジチェックを必須にできるようになりました。 コースのナレッジチェックに新しい&#x200B;**進むにはナレッジチェックが必要** オプションが導入されました。 有効にすると、学習者は後続のコースコンテンツに進む前に知識チェックを試す必要があります。 これにより、コースの指定ポイントで必要な知識チェックを完了できます。 詳細については、挿入メニュー[&#128279;](../learning-content/lc-other-insert-options.md)のその他のオプションを参照してください。
+- 作成者は、学習者がコースに進む前に、ナレッジチェックを必須にできるようになりました。 コースのナレッジチェックに新しい&#x200B;**進むにはナレッジチェックが必要** オプションが導入されました。 有効にすると、学習者は後続のコースコンテンツに進む前に知識チェックを試す必要があります。 これにより、コースの指定ポイントで必要な知識チェックを完了できます。 詳細については、挿入メニュー](../learning-content/lc-other-insert-options.md)の[その他のオプションを参照してください。
 - 学習コンテンツの作成時に、複数行のテキスト入力フィールドを使用できるようになりました。 この機能強化により、カスタムスクリプトを使用することなく、1つのフィールド内で改行とテキストの折り返しをサポートすることで、より長い学習者の応答を簡単に取り込むことができます。 [その他のオプションについて詳しくは、挿入メニュー](../learning-content/lc-other-insert-options.md)を参照してください。
 - SCORM出力テンプレートで、コース内の異なるトピックタイプに異なるページレイアウトを割り当てることができるようになりました。 これにより、出力テンプレート設定から直接、レッスン、クイズ、概要ページ、その他のトピックタイプ用の専用レイアウトを設定できます。
 
-  これにより、各トピックタイプは、すべてのコースページに同じレイアウトを適用するのではなく、コンテンツと構造に適したレイアウトを使用できます。 SCORM出力テンプレートのページレイアウトの設定について詳しくは、[&#x200B; フォルダープロファイルの設定](../lc-config-guide/lc-folder-profile.md)を参照してください。
+  これにより、各トピックタイプは、すべてのコースページに同じレイアウトを適用するのではなく、コンテンツと構造に適したレイアウトを使用できます。 SCORM出力テンプレートのページレイアウトの設定について詳しくは、[ フォルダープロファイルの設定](../lc-config-guide/lc-folder-profile.md)を参照してください。
 - Experience Manager Guidesでは、SCORM コンテンツをAdobe Learning Manager（ALM）に直接公開できるようになりました。 ALM パブリッシュプロファイルを設定すると、作成者はSCORM出力を生成し、パッケージをダウンロードして手動で読み込むことなく、Adobe Learning Managerに直接アップロードできます。
 
   詳細については、[SCORM プリセットの設定](../learning-content/config-scorm-preset.md)を参照してください。

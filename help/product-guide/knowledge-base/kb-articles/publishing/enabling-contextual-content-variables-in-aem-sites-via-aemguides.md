@@ -4,23 +4,32 @@ description: AEM Guidesから生成されたAEM Sites ページでのコンテ�
 feature: Web Editor
 role: User, Admin
 exl-id: f9adbb3f-6c1c-4d6f-b55d-1fb45acca91a
-TQID: https://experienceleague.adobe.com/ehW4uJQaj3XqejwquxVwFo4vFx6q7qCsVIm6MowolZE
+TQID: 'https://experienceleague.adobe.com/ehW4uJQaj3XqejwquxVwFo4vFx6q7qCsVIm6MowolZE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+subfeature_v2:
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Admin
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 497
+source-wordcount: '497'
 ht-degree: 3%
-
 ---
-
 # AEM Guidesから生成されたAEM Sites ページでのコンテキストコンテンツ変数（CCVAR）の有効化
 
 コンテキストコンテンツ変数（CCVAR）は、作成者が作成したテキストで動的コンテンツ変数を直接使用できるようにするACS Commons機能です。 CCVARはAEM Sitesで一般的に使用されますが、この記事では、**AEM Guides***で作成されたコンテンツから生成されたページを通じて、主にDITA マップ*&#x200B;で定義されたキーワードを使用して、同様の機能を実現する方法について説明します。
@@ -44,10 +53,10 @@ AEM Guidesがすべてのコンテンツ（AEM Sites、PDF、HTML5など）の�
    - **ACS AEM Commons**&#x200B;がAEM インスタンスにインストールされていることを確認します。 これは、CCVARの使用に必要です。
 
 2. **コンテキスト コンテンツ変数の設定**:
-   - [公式ドキュメント &#x200B;](https://adobe-consulting-services.github.io/acs-aem-commons/features/contextual-content-variables/index.html)を使用して、AEMの&#x200B;**コンテキストコンテンツ変数**&#x200B;の設定を完了します。 これには次が含まれます。
-      - **プロパティ集計**&#x200B;を有効にしています。
-      - HTML出力を使用している場合は、**HTML書き換え**&#x200B;を設定しています。
-      - **JSON書き換え**&#x200B;の設定（JSON出力を使用する場合）。
+   - [公式ドキュメント ](https://adobe-consulting-services.github.io/acs-aem-commons/features/contextual-content-variables/index.html)を使用して、AEMの&#x200B;**コンテキストコンテンツ変数**&#x200B;の設定を完了します。 これには次が含まれます。
+     - **プロパティ集計**&#x200B;を有効にしています。
+     - HTML出力を使用している場合は、**HTML書き換え**&#x200B;を設定しています。
+     - **JSON書き換え**&#x200B;の設定（JSON出力を使用する場合）。
 
 
 
@@ -88,7 +97,7 @@ AEM Guidesがすべてのコンテンツ（AEM Sites、PDF、HTML5など）の�
 
 - AEM Sitesの出力を生成すると、キーワード参照は対応する動的な値に解決されます。
 - 例：
-   - `((page_properties.pageTitle))`が`My Product`に解決した場合、出力は次のように表示されます。
+  - `((page_properties.pageTitle))`が`My Product`に解決した場合、出力は次のように表示されます。
 
 ```xml
    This is the title of the product: My Product.
@@ -129,4 +138,4 @@ AEM Guidesがすべてのコンテンツ（AEM Sites、PDF、HTML5など）の�
 ### リソース
 
 **コンテキストコンテンツ変数**&#x200B;の詳細については、公式ドキュメントを参照してください。\
-AEM Commons[&#128279;](https://adobe-consulting-services.github.io/acs-aem-commons/features/contextual-content-variables/index.html)の コンテキスト コンテンツ変数
+AEM Commons](https://adobe-consulting-services.github.io/acs-aem-commons/features/contextual-content-variables/index.html)の[ コンテキスト コンテンツ変数

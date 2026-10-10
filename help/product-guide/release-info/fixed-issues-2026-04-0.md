@@ -2,7 +2,15 @@
 title: リリースノート | Adobe Experience Manager Guides（2026.04.0 リリース）の修正済みの問題
 description: Adobe Experience Manager Guides as a Cloud Service 2026.04.0 リリースのバグ修正について説明します。
 exl-id: 2861db0f-2086-445a-8b1d-27393f5b101d
-source-git-commit: 97512e5459540f57703bc99ec9a29a9d35786f01
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 0%
@@ -11,9 +19,9 @@ ht-degree: 0%
 
 この記事では、Adobe Experience Manager Guides as a Cloud Serviceの2026.04.0 リリースの様々な領域で修正されたバグについて説明します。
 
-新機能と機能強化について詳しくは、[2026.04.0 リリース &#x200B;](whats-new-2026-04-0.md)の新機能を参照してください。
+新機能と機能強化について詳しくは、[2026.04.0 リリース ](whats-new-2026-04-0.md)の新機能を参照してください。
 
-2026.04.0 リリース [&#128279;](upgrade-instructions-2026-04-0.md)の アップグレード手順について説明します。
+2026.04.0 リリース ](upgrade-instructions-2026-04-0.md)の[ アップグレード手順について説明します。
 
 ## オーサリング
 

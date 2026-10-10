@@ -5,13 +5,28 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 24e47af6-8d81-4994-8d97-474f5029392b
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 3%
-
 ---
-
 # 記事ベースの公開用パッケージのインストール {#id21BNL02052Z}
 
 AEM Guidesは、エディターと統合された強力な記事ベースの公開機能を提供します。 この機能を使用すると、1つ以上のトピックを同時に公開できます。 マップエディターでマップを開いたら、「出力」タブに移動してプリセットを作成し、1つ以上のトピックを選択して出力を生成できます。 記事ベースの公開機能を使用すると、1つ以上のトピックの出力を段階的に生成したり、記事ごとにコンテンツをナレッジベースプラットフォームに公開したりできます。 詳しくは、ユーザーガイドの「*エディターからの記事ベースの公開」セクション*&#x200B;を参照してください。
@@ -22,7 +37,7 @@ AEM Guidesは、エディターと統合された強力な記事ベースの公�
 
 >[!TAB Cloud Service]
 
-1. [XML Documentation ソフトウェア配布ポータル &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/jp/general.html)から&#x200B;**Cloud Service コンポーネントコンテンツパッケージ for Adobe**&#x200B;をダウンロードします。
+1. [XML Documentation ソフトウェア配布ポータル ](https://experience.adobe.com/#/downloads/content/software-distribution/jp/general.html)から&#x200B;**Cloud Service コンポーネントコンテンツパッケージ for Adobe**&#x200B;をダウンロードします。
 1. AEM Package Managerを開きます。 パッケージマネージャーにアクセスするためのデフォルト URLは`https://<hostname>/crx/packmgr/index.jsp`です
 1. Cloud Service用XML Documentation コンポーネントコンテンツパッケージをアップロードし、インストールします。
 1. [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/jp/general.html)から`Knowledge-base-template-for-article-based-publishing-for-cloud-service.zip` ファイルをダウンロードします。
@@ -56,4 +71,4 @@ AEM サイトを使用して、エディターの出力プリセットを使用�
 >[!ENDTABS]
 
 
-**親トピック：**&#x200B;[&#x200B; エディターのカスタマイズ &#x200B;](customize-overview.md)
+**親トピック：**[ エディターのカスタマイズ ](customize-overview.md)

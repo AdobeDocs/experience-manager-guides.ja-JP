@@ -4,26 +4,35 @@ description: Adobe Experience Manager Guides as a Cloud Serviceの8月リリー�
 exl-id: a01bfe8a-4715-438c-bb94-aa1d31f6662d
 feature: Release Notes
 role: Leader
-TQID: https://experienceleague.adobe.com/ozowf4-i02AJDe40hzWHjuqYZ0Q-eIG3nnPpI9mvBqI
+TQID: 'https://experienceleague.adobe.com/ozowf4-i02AJDe40hzWHjuqYZ0Q-eIG3nnPpI9mvBqI'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+    internal-label: FrameMaker Publishing Server
+  - id: fc07eb3b-d7d7-4e9a-a558-c3099c2b6f7b
+    internal-label: Release notes
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1176
+source-wordcount: '1166'
 ht-degree: 1%
-
 ---
-
 # Adobe Experience Manager Guides as a Cloud Serviceの8月リリース
 
 ## 8月リリースへのアップグレード
@@ -62,7 +71,7 @@ AEM Guides as a Cloud Serviceには、8月リリースで多くの機能強化�
 
 これで、マップエディターでDITA マップの完全なレイアウトを表示できるようになります。 編集のためにマップを開くと、マップエディターの&#x200B;**レイアウト** ビューが開きます。 このビューでは、マップ階層をツリービューで表示したり、マップ内のトピックを整理または構造化したりできます。
 
-![&#x200B; レイアウトビュー](assets/layout-view-map.png)
+![ レイアウトビュー](assets/layout-view-map.png)
 
 レイアウトビューには、マップ内のトピックに関する多くのタスクを実行するのに役立つ別のツールバーが含まれています。
 マップには、トピック参照、トピックグループ、キー定義を挿入できます。 マップ内に存在するトピックを上、下、左、または右に移動して、整理を変更できます。 トピックをドラッグ&amp;ドロップして、マップ内に移動することもできます。 マップエディターには、ファイルのロックまたはロック解除、バージョン履歴の確認、バージョンラベル管理を行うためのアイコンも用意されています。
@@ -81,7 +90,7 @@ AEM Guides as a Cloud Serviceには、8月リリースで多くの機能強化�
 
 トピックやマップのメタデータ情報も設定できます。 選択したトピックまたはマップのナビゲーションタイトル、リンクテキスト、短い説明、キーワードを定義できます。
 
-![&#x200B; レイアウトビューの右側のパネル &#x200B;](assets/layout-inline-attributes.png)
+![ レイアウトビューの右側のパネル ](assets/layout-inline-attributes.png)
 
 詳しくは、「Adobe Experience Manager Guides as a Cloud Serviceの使用」の「*レイアウトビュー*」セクションを参照してください。
 
@@ -90,7 +99,7 @@ AEM Guides as a Cloud Serviceには、8月リリースで多くの機能強化�
 AEM Guidesでは、管理者が&#x200B;**Editor Settings**&#x200B;から&#x200B;**インライン属性**&#x200B;を設定できるようになりました。 新しいインライン属性を追加したり、既存のインライン属性をエディター設定の「**インライン属性**」タブから削除したりすることもできます。
 トピックに対して定義された設定されたインライン属性は、レイアウトビューでそのトピックに対して表示されます。
 
-![&#x200B; エディター設定](assets/editor-settings-inline-attributes.png)
+![ エディター設定](assets/editor-settings-inline-attributes.png)
 
 
 ### リポジトリビューでの追加フィルター
@@ -99,7 +108,7 @@ AEM Guidesでは、管理者が&#x200B;**Editor Settings**&#x200B;から&#x200B;
 * **最終更新日**：選択した日付より後で、選択した日付より前に最終更新日が設定されているファイルを検索できます。 また、事前に定義された基準を使用して、過去2時間、先週、先月、または昨年に最後に変更されたファイルを探すオプションもあります。
 * **タグ**：特定のタグが適用されているファイルを探すこともできます。 タグを入力するか、ドロップダウンリストから選択します。
 
-![&#x200B; リポジトリビューフィルター](assets/repo-filter-search.png)
+![ リポジトリビューフィルター](assets/repo-filter-search.png)
 
 
 ## 修正された問題

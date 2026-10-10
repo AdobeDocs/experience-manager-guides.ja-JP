@@ -5,13 +5,28 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 682d58df-7404-4e84-9b5f-ab40c46bef84
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 7%
-
 ---
-
 # 検索と置換（Source ビュー）機能のカスタムインデックスのデプロイ
 
 ## 概要
@@ -180,8 +195,8 @@ AEM as a Cloud Serviceへのカスタムインデックスのデプロイにつ�
 - **索引の種類**：完全なカスタム インデックス （OOTB インデックスのカスタマイズではありません）
 - **場所**: `ui.apps/src/main/content/jcr_root/_oak_index/guidesAssetLucene-1-custom-1/.content.xml`
 - **パッケージのプロパティが必要**:
-   - `noIntermediateSaves=true`
-   - `allowIndexDefinitions=true`
+  - `noIntermediateSaves=true`
+  - `allowIndexDefinitions=true`
 
 ## インデックス再作成
 
@@ -220,5 +235,5 @@ AEM as a Cloud Serviceへのカスタムインデックスのデプロイにつ�
 
 - [AEM as a Cloud Service インデックス作成ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/operations/indexing)
 - [Apache Jackrabbit Oak インデックスガイド](https://jackrabbit.apache.org/oak/docs/query/indexing.html)
-- [AEM Guides ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-manager-guides)
+- [AEM Guides ドキュメント](https://experienceleague.adobe.com/en/docs/experience-manager-guides)
 - [Cloud Manager のドキュメント](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager)

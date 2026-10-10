@@ -4,24 +4,32 @@ description: AEM Guidesでの条件プリセットの使用について説明し
 exl-id: f6865a34-abdd-4d23-b903-0211bebd13b7
 feature: Publishing
 role: User
-TQID: https://experienceleague.adobe.com/IKcIREoHuXjW-uUDFS6ifRhjzzUoKCXPMW5ip2OKBZU
+TQID: 'https://experienceleague.adobe.com/IKcIREoHuXjW-uUDFS6ifRhjzzUoKCXPMW5ip2OKBZU'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1154
+source-wordcount: '1154'
 ht-degree: 2%
-
 ---
-
 # 条件プリセットの使用 {#id1825FL004PN}
 
 DITA トピックで属性を定義し、条件プリセットを使用して、最終的な出力で属性に対して何が起こるかを指定できます。 例えば、コンテンツにバージョン 1.0とバージョン 2.0として属性を追加し、条件プリセットを使用してリリース 1.0のバージョン 1.0を含め、バージョン 2.0を除外できます。 同様に、OS WindowsおよびOS Linuxの属性をコンテンツに追加し、オペレーティングシステムに応じて最終的な出力に関連するコンテンツを含めたり除外したりできます。
@@ -44,7 +52,7 @@ Experience Manager Guidesでは、マップコンソールから条件プリセ�
 
 トピックの条件プリセットを作成するには、次の手順を実行します。
 
-1. [&#x200B; マップコンソール &#x200B;](./open-files-map-console.md)でDITA マップファイルを開きます。
+1. [ マップコンソール ](./open-files-map-console.md)でDITA マップファイルを開きます。
 1. 左側の&#x200B;**条件プリセット**&#x200B;に移動します。 DITA マップに定義された条件プリセットのリストが表示されます。
 1. **条件プリセット**&#x200B;の横にある「+」アイコンを選択して、**新しい条件プリセット** ダイアログボックスを開きます。
 1. プリセットの一意の名前を入力します。
@@ -70,7 +78,7 @@ Experience Manager Guidesでは、マップコンソールから条件プリセ�
 1. （オプション）必要に応じて、属性に適用されるアクションを上書きできます。
 
    次のいずれかの操作を行います。
-任意の属性について、アクション ドロップダウンまたはツールバーから次のいずれかのアクションを選択します。
+   任意の属性について、アクション ドロップダウンまたはツールバーから次のいずれかのアクションを選択します。
 
    - 次を含む
    - 除外
@@ -134,7 +142,7 @@ Experience Manager Guidesでは、マップコンソールから条件プリセ�
    - 除外
    - 通過
    - フラグ
-アクションは、条件プリセットに追加されているかどうかにかかわらず、すべての属性に対してデフォルトアクションとして設定されます。
+     アクションは、条件プリセットに追加されているかどうかにかかわらず、すべての属性に対してデフォルトアクションとして設定されます。
 
    例えば、文書に15個の条件属性があり、そのうちの4個を条件プリセットに含めています。 デフォルトのアクションとして&#x200B;**exclude**&#x200B;を選択すると、15個の属性すべてに適用されます。
 
@@ -180,4 +188,4 @@ DITA マップコンソールの「**条件プリセット**」タブから、1�
 1. 「**削除**」ボタンを選択します。
 1. 「**削除**」を選択して、アクションを確認します。
 
-**親トピック：**&#x200B;[&#x200B;出力生成](generate-output.md)
+**親トピック：**[&#x200B;出力生成](generate-output.md)

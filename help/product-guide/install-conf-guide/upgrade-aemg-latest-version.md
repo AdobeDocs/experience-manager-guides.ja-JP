@@ -5,13 +5,28 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: f84bc82a-505c-4511-8336-bb87c8eb78e3
-source-git-commit: aac604893134edc2b28e8f6d7977e92256fe7e63
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: e557051c-ff02-4ff8-9421-cf452af0edd5
+    internal-label: Installation
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1884'
 ht-degree: 2%
-
 ---
-
 # バージョン 4.6.0以降のAdobe Experience Manager Guidesのアップグレード
 
 この記事では、Experience Manager Guides バージョン 4.6.0以降をアップグレードする手順について説明します。
@@ -24,7 +39,7 @@ ht-degree: 2%
 
 - バージョン 5.0.0、5.0.3、5.1.0または5.1.3を使用している場合は、バージョン 5.2.0に直接アップグレードできます。
 - バージョン 4.6.0、4.6.x、5.0.0、または5.0.xを使用している場合は、バージョン 5.1.0にアップグレードする必要があります。
-- 4.6.0より前のバージョンを使用している場合は、アップグレード手順の詳細については、[&#x200B; バージョン 4.4.0以前のAdobe Experience Manager Guidesのアップグレード &#x200B;](./upgrade-aemg-prev-versions.md)を参照してください。
+- 4.6.0より前のバージョンを使用している場合は、アップグレード手順の詳細については、[ バージョン 4.4.0以前のAdobe Experience Manager Guidesのアップグレード ](./upgrade-aemg-prev-versions.md)を参照してください。
 
 >[!NOTE]
 >
@@ -46,7 +61,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
-> 現在AEM 6.5を使用しており、AEM 6.5 LTSに移行する予定がある場合は、Experience Manager Guides 5.2.0 アップグレードを進める前に、必ずAEM アップグレードを完了してください。 詳しくは、[Adobe Experience Manager（AEM） 6.5 LTS](https://experienceleague.adobe.com/ja/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)へのアップグレードを参照してください。
+> 現在AEM 6.5を使用しており、AEM 6.5 LTSに移行する予定がある場合は、Experience Manager Guides 5.2.0 アップグレードを進める前に、必ずAEM アップグレードを完了してください。 詳しくは、[Adobe Experience Manager（AEM） 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)へのアップグレードを参照してください。
 
 **前提条件**
 
@@ -66,7 +81,7 @@ Experience Manager Guides 5.2.0のアップグレードプロセスを開始す�
 
 **バージョン 5.2.0**&#x200B;のインストール
 
-[Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/ja/aem.html)から5.2.0 バージョンのパッケージをダウンロードし、[&#x200B; インストールおよびインストール後のアップグレードワークフロー](#installation-and-post-installation-upgrade-workflow)の手順に従って、アップグレードプロセスを完了します。
+[Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/ja/aem.html)から5.2.0 バージョンのパッケージをダウンロードし、[ インストールおよびインストール後のアップグレードワークフロー](#installation-and-post-installation-upgrade-workflow)の手順に従って、アップグレードプロセスを完了します。
 
 
 ## バージョン 5.1.0へのアップグレード
@@ -74,7 +89,7 @@ Experience Manager Guides 5.2.0のアップグレードプロセスを開始す�
 
 >[!IMPORTANT]
 >
-> 現在AEM 6.5を使用しており、AEM 6.5 LTSに移行する予定がある場合は、Experience Manager Guides 5.1.0 アップグレードを進める前に、必ずAEM アップグレードを完了してください。 詳しくは、[Adobe Experience Manager（AEM） 6.5 LTS](https://experienceleague.adobe.com/ja/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)へのアップグレードを参照してください。
+> 現在AEM 6.5を使用しており、AEM 6.5 LTSに移行する予定がある場合は、Experience Manager Guides 5.1.0 アップグレードを進める前に、必ずAEM アップグレードを完了してください。 詳しくは、[Adobe Experience Manager（AEM） 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade)へのアップグレードを参照してください。
 
 **前提条件**
 
@@ -94,7 +109,7 @@ Experience Manager Guides 5.1.0のアップグレードプロセスを開始す�
 
 **バージョン 5.1.0**&#x200B;のインストール
 
-[Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/ja/aem.html)から5.1.0 バージョンのパッケージをダウンロードし、[&#x200B; インストールおよびインストール後のアップグレードワークフロー](#installation-and-post-installation-upgrade-workflow)の手順に従って、アップグレードプロセスを完了します。
+[Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/ja/aem.html)から5.1.0 バージョンのパッケージをダウンロードし、[ インストールおよびインストール後のアップグレードワークフロー](#installation-and-post-installation-upgrade-workflow)の手順に従って、アップグレードプロセスを完了します。
 
 
 ## バージョン 5.0.0へのアップグレード
@@ -118,7 +133,7 @@ Experience Manager Guides 5.0.0のアップグレードプロセスを開始す�
 
 **バージョン 5.0.0**&#x200B;のインストール
 
-[Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)から5.0.0 バージョンのパッケージをダウンロードし、[&#x200B; インストールおよびインストール後のアップグレードワークフロー](#installation-and-post-installation-upgrade-workflow)の指示に従って、アップグレードプロセスを完了します。
+[Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)から5.0.0 バージョンのパッケージをダウンロードし、[ インストールおよびインストール後のアップグレードワークフロー](#installation-and-post-installation-upgrade-workflow)の指示に従って、アップグレードプロセスを完了します。
 
 ## バージョン 4.6.0へのアップグレード
 
@@ -142,7 +157,7 @@ Experience Manager Guides 4.6.0のアップグレードプロセスを開始す�
 
 **バージョン 4.6.0**&#x200B;のインストール
 
-[Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)から4.6.0 バージョンのパッケージをダウンロードし、[&#x200B; インストールおよびインストール後のアップグレードワークフロー](#installation-and-post-installation-upgrade-workflow)の手順に従って、アップグレードプロセスを完了します。
+[Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)から4.6.0 バージョンのパッケージをダウンロードし、[ インストールおよびインストール後のアップグレードワークフロー](#installation-and-post-installation-upgrade-workflow)の手順に従って、アップグレードプロセスを完了します。
 
 ## インストールとインストール後のアップグレードワークフロー
 
@@ -151,7 +166,7 @@ Experience Manager Guides 4.6.0のアップグレードプロセスを開始す�
 バージョンパッケージをインストールするには、次の手順を実行します。
 
 1. アップグレードするバージョンパッケージをインストールします。
-1. トリガーを押して、翻訳マップのアップグレードジョブを開始します。 詳しくは、[&#x200B; サーブレットを介したスクリプトのトリガーを有効にする](#enable-trigger-of-script-via-a-servlet)を参照してください。
+1. トリガーを押して、翻訳マップのアップグレードジョブを開始します。 詳しくは、[ サーブレットを介したスクリプトのトリガーを有効にする](#enable-trigger-of-script-via-a-servlet)を参照してください。
 
 1. パッケージのインストールが完了したら、ログに次のメッセージが表示されるまで待ちます。
 
@@ -193,15 +208,15 @@ Experience Manager Guidesをインストールした後、新しくインスト�
 
      **共通タブ：**
 
-      - **タイトル：** DXML後処理イニシエータ
+     - **タイトル：** DXML後処理イニシエータ
 
-      - **説明**：変更または作成されたアセットのDXML後処理のSling ジョブをトリガーするDXML後処理イニシエータステップ
+     - **説明**：変更または作成されたアセットのDXML後処理のSling ジョブをトリガーするDXML後処理イニシエータステップ
 
      **プロセスタブ**
 
-      - 「**プロセス**」ドロップダウンから「**DXML Post Process Initiator**」を選択します
-      - **ハンドラーの詳細**&#x200B;を選択
-      - **完了**&#x200B;を選択
+     - 「**プロセス**」ドロップダウンから「**DXML Post Process Initiator**」を選択します
+     - **ハンドラーの詳細**&#x200B;を選択
+     - **完了**&#x200B;を選択
 
 1. 変更を完了した後、右上の&#x200B;**同期**&#x200B;を選択します。 成功の通知が届きます。
 
@@ -271,14 +286,14 @@ Experience Manager Guidesをインストールした後、新しくインスト�
 
 Experience Manager Guidesには、クロスマップの場合に生成されるリンク（2つの異なるマップのトピック間のリンク）を処理するための&#x200B;[**カスタム sling rewriter**](../install-conf-guide/conf-output-generation.md#custom-rewriter) モジュールがあります。
 
-コードベースに別のカスタムスリングリライターがある場合は、`'order'`値が50より大きい値を使用します。これは、Experience Manager Guides sling リライターが`'order'` 50を使用するからです。  これを上書きするには、50を超える値が必要です。 詳細については、[出力の書き換えパイプライン &#x200B;](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html)を参照してください。
+コードベースに別のカスタムスリングリライターがある場合は、`'order'`値が50より大きい値を使用します。これは、Experience Manager Guides sling リライターが`'order'` 50を使用するからです。  これを上書きするには、50を超える値が必要です。 詳細については、[出力の書き換えパイプライン ](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html)を参照してください。
 
 このアップグレードでは、`'order'`の値が1000から50に変更されるので、既存のカスタムリライターがある場合は`'fmdita-rewriter'`と結合する必要があります。
 
 
 ### damAssetLuceneのインデックスを再作成する手順
 
-AEM Guidesを使用してdamAssetLuceneのインデックス定義を更新します。 必要なバージョンにアップグレードした後、damAssetLuceneのインデックス再作成については、[この記事](https://experienceleague.adobe.com/ja/docs/experience-cloud-kcs/kbarticles/ka-16460)を参照してください。
+AEM Guidesを使用してdamAssetLuceneのインデックス定義を更新します。 必要なバージョンにアップグレードした後、damAssetLuceneのインデックス再作成については、[この記事](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460)を参照してください。
 
 >[!NOTE]
 >

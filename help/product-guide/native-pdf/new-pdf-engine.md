@@ -3,34 +3,53 @@ title: ネイティブ PDF用の新しいパブリッシングエンジン | PDF
 description: ネイティブ PDF パブリッシング用の新しいパブリッシングエンジンの操作方法について説明します
 feature: Publishing, Native PDF Output
 role: User
-TQID: https://experienceleague.adobe.com/GV3iYtBdFVrQwFjdvfqnfDIWPMugO3hFjS4FZqspG2M
+TQID: 'https://experienceleague.adobe.com/GV3iYtBdFVrQwFjdvfqnfDIWPMugO3hFjS4FZqspG2M'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: d6596f3f-92a7-43ec-b444-237db6adad05
+    internal-label: Native PDF publishing
   - id: f6b497f1-f8e0-42ce-8e95-56c28d94026e
+    internal-label: Conditional content
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
+  - id: c4e6b17e-c50c-59a1-a719-9c33ce69e5b6
+    internal-label: Native PDF Output
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d5b0e57887574e1e154f1937852f78f6e6f9f7c6
+    internal-label: Security
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 845
+source-wordcount: '845'
 ht-degree: 0%
-
 ---
-
 # ネイティブ PDF エンジン v2の操作
 
 新しい公開エンジン *ネイティブ PDF エンジン v2*&#x200B;は、アップグレードされたPDF生成フレームワークに基づいており、フォント処理、CSS処理、レンダリング動作の変更が含まれています。
@@ -39,7 +58,7 @@ ht-degree: 0%
 
 例えば、ネイティブ PDF エンジン v2は`OpenType` フォントをサポートしていますが、ネイティブ PDF エンジン v1は主に`TrueType` フォントに依存しています。 同様のレンダリングの強化は、生成されたPDFの全体的な外観に影響を与える可能性があります。
 
-お使いの環境でネイティブ PDF エンジン v2を有効にする方法について詳しくは、[&#x200B; ネイティブ PDF用の新しい公開エンジンの設定](./conf-new-pdf-engine.md)を参照してください。
+お使いの環境でネイティブ PDF エンジン v2を有効にする方法について詳しくは、[ ネイティブ PDF用の新しい公開エンジンの設定](./conf-new-pdf-engine.md)を参照してください。
 
 ## 新しい公開エンジンの推奨CSS アップデート
 

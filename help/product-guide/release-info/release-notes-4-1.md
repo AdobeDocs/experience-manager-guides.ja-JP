@@ -4,35 +4,53 @@ description: Adobe Experience Manager Guidesの最新リリース
 exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
 feature: Release Notes
 role: Leader
-TQID: https://experienceleague.adobe.com/7j-OqZiXh2jVJwQRVsnKkJJSzf614jjiaOJ8fUl8oQQ
+TQID: 'https://experienceleague.adobe.com/7j-OqZiXh2jVJwQRVsnKkJJSzf614jjiaOJ8fUl8oQQ'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
   - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+    internal-label: APIs
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
   - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+    internal-label: FrameMaker Publishing Server
   - id: d6596f3f-92a7-43ec-b444-237db6adad05
+    internal-label: Native PDF publishing
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
+  - id: fc07eb3b-d7d7-4e9a-a558-c3099c2b6f7b
+    internal-label: Release notes
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 3665
+source-wordcount: '3665'
 ht-degree: 3%
-
 ---
-
 # Adobe Experience Manager Guidesの4.1.x リリース
 
 このリリースノートでは、Adobe Experience Manager Guides（後で&#x200B;*AEM Guides*&#x200B;と呼ばれます）のバージョン 4.1.xのアップグレード手順、新機能、および機能強化について説明します。
@@ -46,7 +64,7 @@ ht-degree: 3%
 * バージョン 3.8.5を使用している場合は、4.1にアップグレードする前にバージョン 4.0.xにアップグレードする必要があります。
 * 3.8.5より前のバージョンを使用している場合は、製品固有のインストールガイドの「アップグレード」セクションを参照してください。
 
-詳しくは、[&#x200B; アップグレード手順](assets/Adobe-Experience-Manager-Guides-Upgrade-Instructions-EN.pdf)を参照してください。
+詳しくは、[ アップグレード手順](assets/Adobe-Experience-Manager-Guides-Upgrade-Instructions-EN.pdf)を参照してください。
 
 ## 4.1.3 | リリースノート
 
@@ -207,7 +225,7 @@ AEM Guidesには、1つ以上のトピックの出力を段階的に生成した
 
 DITA コンテンツキー参照は、あるトピックのコンテンツの一部を別のトピックに挿入します。 キーを使用してコンテンツを検索します。 DITA トピックに関連付けられている主要な参照を解決する必要があります。 選択したルートマップは、キー参照を解決する際に最も優先されます。
 
-![&#x200B; ユーザー設定ダイアログ &#x200B;](assets/user-preferences.png)
+![ ユーザー設定ダイアログ ](assets/user-preferences.png)
 
 これで、キー参照は、次の優先順位で設定されたルートマップに基づいて解決されます。
 
@@ -225,13 +243,13 @@ DITA コンテンツキー参照は、あるトピックのコンテンツの一
 
 DITA マップ内で選択したトピックのドキュメント状態を簡単に変更できるようになりました。 DITA マップで選択したトピックのプロパティを開いて、マップビューパネルの下部にある&#x200B;**その他のオプション** メニューから編集することもできます。
 
-![選択したトピックプロパティ &#x200B;](assets/map-view-properties.png)
+![選択したトピックプロパティ ](assets/map-view-properties.png)
 
 * **プレビューモードに表示されるバージョン情報**
 
 Web エディターは、バージョンの管理に役立ちます。 また、トピックのプレビューモードで、トピックの「ファイル」タブの右上隅に、アクティブなトピックまたはDITA マップのバージョンが表示されるようになりました。
 
-![&#x200B; バージョンのプレビュー](assets/preview-version.png)
+![ バージョンのプレビュー](assets/preview-version.png)
 
 
 * **Web エディターの更新動作を改善**
@@ -250,7 +268,7 @@ web エディターのコンテンツ： ブラウザーの更新アイコンを
 
 これで、カスタマイズされたマップテンプレートを作成する強力な機能が手に入りました。 それらを使用して、マップテンプレートで参照されるトピックテンプレートやマップテンプレートと共にDITA マップを作成できます。
 
-![dita テンプレート &#x200B;](assets/dita-templates.png)
+![dita テンプレート ](assets/dita-templates.png)
 
 また、カスタマイズされたマップテンプレートから、他のマップテンプレートやトピックテンプレートを参照することもできます。 参照されるマップテンプレートは、様々なマップテンプレート、トピックテンプレート、トピック、マップ、画像、ビデオ、その他のアセットを参照できます。
 
@@ -261,7 +279,7 @@ web エディターのコンテンツ： ブラウザーの更新アイコンを
 * **Schematron サポート**
 「Schematron」とは、XML ファイルのテストを定義するために使用されるルールベースの検証言語を指します。 Schematron ファイルを使用すると、特定のルールを定義し、DITA トピックまたはマップに対して検証できます。 Web エディターはSchematron ファイルをサポートしています。 スキーマトロンファイルを読み込み、Web エディターで編集することもできます。 Web エディターのSchematron サポートは、一連のルールに照らし合わせてファイルを検証し、トピック全体で一貫性と正確性を維持するのに役立ちます。
 
-![&#x200B; スキーマトロンの検証](assets/schematron-validate.png)
+![ スキーマトロンの検証](assets/schematron-validate.png)
 
 * **ファイルを閉じる際のダイアログが改善されました**
 
@@ -269,16 +287,16 @@ Web エディターで開いているファイルを閉じようとすると、A
 
 設定に基づいて、変更を保存し、ドキュメントの新しいバージョンを作成するオプションが表示されます。 または、ファイルをチェックインして、現在のバージョンに変更を保存することもできます。
 
-![&#x200B; ファイルを閉じる](assets/file-close-save-changes-unlock.png)
+![ ファイルを閉じる](assets/file-close-save-changes-unlock.png)
 
 詳しくは、「Adobe Experience Manager Guidesを使用する」ガイドの「*ファイルの閉じおよび保存シナリオ*」セクションを参照してください。*「**キーワードを挿入**」機能が改善されました。 キーワードがアルファベット順にリストされるため、挿入するキーワードをより簡単に見つけることができるようになりました。 検索ボックスに検索文字列を入力して、キーワードを検索することもできます。
 
-![&#x200B; キーワードを挿入](assets/insert-keyword.png)
+![ キーワードを挿入](assets/insert-keyword.png)
 
 * Markdown ドキュメントの&#x200B;**サポート**
 Markdownは、プレーンテキストドキュメントに書式要素を追加するのに役立つ、軽量なマークアップ言語です。 Web エディターでは、DITA ドキュメントと共にMarkdown ドキュメント（.md）を使用できます。 Web エディターでMarkdown ドキュメントを簡単に作成およびプレビューし、DITA マップエディターを使用してマップファイルに追加できます。  詳しくは、Adobe Experience Manager Guidesの使用ガイドの「Web エディター*」セクションの「* Markdown ドキュメントの作成」を参照してください。
 
-![&#x200B; マークダウンのサポート &#x200B;](assets/create-markdown-dita-topic.png)
+![ マークダウンのサポート ](assets/create-markdown-dita-topic.png)
 
 * **デフォルトのタグビューを設定する機能**
 ユーザーがWeb エディターからタグビューを有効にした場合、セッション全体でも有効のままになります。  これは、後でタグビューにアクセスするために、もう一度タグビューを有効にする必要がないことを意味します。 管理者は、Web エディターでタグビューのデフォルトの状態を設定できます。 新規ユーザーのセッションのタグビューのデフォルト値は、ui_config.json ファイルのtagsView プロパティによって決まります。
@@ -295,11 +313,11 @@ AEM Guides 4.1 リリースには、Web エディター内に統合されたベ�
 
 この機能を使用して、特定の日時に利用可能なトピックの特定のバージョンを含むベースラインを作成します。 また、トピックのバージョンに対して定義されたラベルを使用して、ベースラインを作成または更新するためのAPI サポートも利用できます。
 
-![&#x200B; ベースライン管理タブ &#x200B;](assets/baseline-manage.png)
+![ ベースライン管理タブ ](assets/baseline-manage.png)
 
 ファイル名またはファイルの場所に基づいてファイルを検索できます。 ベースライン編集ウィンドウに表示するトピックをフィルタリングし、特定の列に基づいて並べ替えることもできます。
 
-![&#x200B; ベースライン管理タブ &#x200B;](assets/baseline-filter.png)
+![ ベースライン管理タブ ](assets/baseline-filter.png)
 
 ベースライン作成プロセスのパフォーマンスがさらに向上しました。 ベースラインを作成するプロセスは非同期なので、ベースラインの作成中にWeb エディターで他のファイルの編集を続行できます。 詳しくは、Adobe Experience Manager Guidesの使用ガイドの「*Web エディターからのベースラインの作成と管理*」を参照してください。
 
@@ -325,7 +343,7 @@ AEM Guides 4.1 リリースには、Web エディター内に統合されたベ�
 
 * マップダッシュボードから出力を生成する際に、「出力」タブから「**公開ダッシュボード**」にアクセスすることもできます。 アクティブなすべての公開タスクのリストは、公開ダッシュボードで使用できます。
 
-![&#x200B; キューに入れた出力](assets/queued-output.png)
+![ キューに入れた出力](assets/queued-output.png)
 
 * マップダッシュボードから、複数のDITAVAL ファイルを選択して、コンディショナライズされたコンテンツを生成できます。 ファイルを追加または削除することで、ファイルの順序を維持できます。 ファイル名にカーソルを合わせると、ファイルが保存されているAEM リポジトリ内のパスを確認できます。
 
@@ -337,7 +355,7 @@ AEM Guides 4.1 リリースには、Web エディター内に統合されたベ�
 
 DITA マップのダウンロードを選択すると、リクエストはキューに入れ、マップのダウンロード準備が整うと通知が届きます。 マップファイルをすぐにダウンロードするか、AEM通知の受信トレイに表示されるリンクから後でダウンロードするかを選択できます。
 
-![&#x200B; マップのダウンロード &#x200B;](assets/download-map-prompt.png)
+![ マップのダウンロード ](assets/download-map-prompt.png)
 
 ### その他の機能強化
 

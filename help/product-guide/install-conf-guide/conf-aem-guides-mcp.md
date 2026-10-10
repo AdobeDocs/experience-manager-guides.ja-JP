@@ -3,7 +3,18 @@ title: Adobe Experience Manager GuidesでのMCPの使用
 description: AEM GuidesでModel Context Protocol （MCP）を使用して、AI アシスタントを通じてトピック、マップ、ベースライン、レポートを操作する方法を説明します
 feature: Authoring
 role: User
-source-git-commit: 20e5b1099b3d9a7230a40415495ba8e77f438b2a
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '790'
 ht-degree: 0%
@@ -35,7 +46,7 @@ Experience Manager Guidesでは、Experience Manager Guidesのコンテンツと
 * **ベースライン**: ベースラインの作成、一覧表示、書き出し、複製、再構築、およびラベル付けによって、ベースラインを操作します。
   >[!NOTE]
   >
-  > Cloud Serviceとオンプレミス環境の両方で、ベースライン機能は[新しいベースライン &#x200B;](../user-guide/web-editor-baseline-v2.md)が有効になっている場合にのみ使用できます。
+  > Cloud Serviceとオンプレミス環境の両方で、ベースライン機能は[新しいベースライン ](../user-guide/web-editor-baseline-v2.md)が有効になっている場合にのみ使用できます。
 * **レポート**: トピックリストとメタデータにアクセスし、壊れているリンクを特定し、マルチメディアの使用状況を確認することで、コンテンツに関するインサイトを得ることができます。
 * **システム**: パッケージのバージョン、バンドルの正常性、環境の診断を確認して、システムの状態を把握します。
 

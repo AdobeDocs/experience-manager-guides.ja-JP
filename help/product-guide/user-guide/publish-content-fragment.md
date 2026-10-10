@@ -4,23 +4,32 @@ description: AEM Guidesのコンテンツフラグメントに、トピックま
 exl-id: b1769e48-d721-4e93-b10f-04b385272be7
 feature: Publishing
 role: User
-TQID: https://experienceleague.adobe.com/VcZKWpffZfB7KtquXVtIFWESim8paNCYmqGqboC1Kic
+TQID: 'https://experienceleague.adobe.com/VcZKWpffZfB7KtquXVtIFWESim8paNCYmqGqboC1Kic'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 955
+source-wordcount: '962'
 ht-degree: 2%
-
 ---
-
 # コンテンツフラグメントの公開
 
 コンテンツフラグメントは、Adobe Experience Managerの個別のコンテンツです。 コンテンツモデルにもとづいた構造化コンテンツです。 コンテンツフラグメントは、デザインやレイアウトに関する情報を含まない純粋なコンテンツです。 Adobe Experience Managerがサポートするチャネルに依存せずに作成および管理できます。 コンテンツフラグメントはモジュール式で、コンテンツをより小さなコンポーネントに分割します。
@@ -34,23 +43,23 @@ Experience Manager Guidesでは、トピックまたはそのエレメントを�
 
 コンテンツフラグメントを作成するには、次の手順を実行します。
 
-1. Adobe Experience Manager Assetsで[&#x200B; コンテンツフラグメントモデル &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/assets/content-fragments/content-fragments-models.html?lang=ja)を作成します。
+1. Adobe Experience Manager Assetsで[ コンテンツフラグメントモデル ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/content-fragments/content-fragments-models.html?lang=ja)を作成します。
 1. コンテンツフラグメントモデルに基づいて作成したコンテンツフラグメントを保存するフォルダーを作成します。 例えば、「stock-content-fragments」のように指定します。
 1. フォルダーのプロパティ（「stock-content-fragments」など）を編集し、クラウド設定でコンテンツフラグメントモデルを含むフォルダーのパスを追加します。
 例えば、クラウド設定に`/conf/we-retail`を追加します。 この設定では、すべてのコンテンツフラグメントモデルをフォルダーに接続します。\
-   ![&#x200B; フォルダープロパティにクラウド設定の詳細を追加](images/fragment-folder-cloud-configuration.png){width="650"}
+   ![ フォルダープロパティにクラウド設定の詳細を追加](images/fragment-folder-cloud-configuration.png){width="650"}
    *フォルダープロパティにクラウド設定を追加して、フラグメントモデルに接続します。*
 
-1. コンテンツフラグメントを生成するには、トピックの&#x200B;**ファイルプロパティ**&#x200B;の&#x200B;**出力** セクションから&#x200B;**新規出力** ![新規出力アイコン &#x200B;](./images/Add_icon.svg)を選択します。
+1. コンテンツフラグメントを生成するには、トピックの&#x200B;**ファイルプロパティ**&#x200B;の&#x200B;**出力** セクションから&#x200B;**新規出力** ![新規出力アイコン ](./images/Add_icon.svg)を選択します。
 1. **コンテンツフラグメント**&#x200B;を選択します。\
-   ![&#x200B; ファイルのプロパティ オプション タブ &#x200B;](./images/file-properties-outputs-tab-new.png) {width="300"}
+   ![ ファイルのプロパティ オプション タブ ](./images/file-properties-outputs-tab-new.png) {width="300"}
 
    *トピック*&#x200B;のファイル プロパティから新しいコンテンツ フラグメントを追加します。
 
 1. **コンテンツフラグメントを生成** ダイアログボックスで、**一般** タブと&#x200B;**マッピング** タブに次の詳細を入力します。
 
    **一般** タブ
-   ![&#x200B; コンテンツフラグメントとして公開ダイアログで、フラグメントモデルとマッピングの詳細を追加する](images/generate-content-fragment.png)
+   ![ コンテンツフラグメントとして公開ダイアログで、フラグメントモデルとマッピングの詳細を追加する](images/generate-content-fragment.png)
    *トピックまたはその要素をコンテンツフラグメントとして公開するために、パス、名前、タイトル、条件フィルターを追加します。*
 
 
@@ -63,9 +72,9 @@ Experience Manager Guidesでは、トピックまたはそのエレメントを�
      > 
      > 条件は、トピックで条件属性が定義されている場合にのみ有効になります。
 
-      * **なし**：公開された出力に条件を適用しない場合は、このオプションを選択します。
-      * **DITAVALの使用**：生成された出力に特定のコンテンツを含めるか除外するDITAVAL ファイルを選択します。 DITAVAL ファイルは、参照ダイアログまたはファイルパスを入力して選択できます。
-      * **属性の使用**: DITA トピックで条件属性を定義できます。 次に、関連するコンテンツを公開する条件属性を選択します。
+     * **なし**：公開された出力に条件を適用しない場合は、このオプションを選択します。
+     * **DITAVALの使用**：生成された出力に特定のコンテンツを含めるか除外するDITAVAL ファイルを選択します。 DITAVAL ファイルは、参照ダイアログまたはファイルパスを入力して選択できます。
+     * **属性の使用**: DITA トピックで条件属性を定義できます。 次に、関連するコンテンツを公開する条件属性を選択します。
 
 
 
@@ -74,13 +83,13 @@ Experience Manager Guidesでは、トピックまたはそのエレメントを�
 
    **マッピング** タブ
 
-   ![&#x200B; コンテンツフラグメントとして公開ダイアログで、フラグメントモデルとマッピングの詳細を追加](images/content-fragment-mapping.png)
+   ![ コンテンツフラグメントとして公開ダイアログで、フラグメントモデルとマッピングの詳細を追加](images/content-fragment-mapping.png)
 
    *コンテンツフラグメントモデルを選択し、マッピングの詳細を追加して、トピックまたはその要素をコンテンツフラグメントとして公開します。*
 
    * **モデル**: コンテンツフラグメントの作成に使用するコンテンツフラグメントモデルを選択します。 モデルは、Experience Manager Guides サーバーで設定したフォルダーから選択されます。
    * **マッピング**: ID属性が適用されたトピック要素を表示できます。 トピック要素を、コンテンツフラグメントモデルに存在するフィールドにドラッグします。
-既存のコンテンツフラグメントの場合、右側には、公開されたコンテンツフラグメントのコンテンツが入力されます。 必要に応じて、トピックの内容でこれらを上書きできます。 **取り消し**&#x200B;を選択して、マッピングの変更を元に戻すこともできます。
+     既存のコンテンツフラグメントの場合、右側には、公開されたコンテンツフラグメントのコンテンツが入力されます。 必要に応じて、トピックの内容でこれらを上書きできます。 **取り消し**&#x200B;を選択して、マッピングの変更を元に戻すこともできます。
 
 
      >[!NOTE]
@@ -91,7 +100,7 @@ Experience Manager Guidesでは、トピックまたはそのエレメントを�
 
 1. トピックのコンテンツフラグメントは、**ファイルプロパティ**&#x200B;の&#x200B;**出力** セクションで表示できます。
 
-   ![&#x200B; トピックのコンテンツフラグメントを表示](images/outputs-options-menu-new.png){width="300"}
+   ![ トピックのコンテンツフラグメントを表示](images/outputs-options-menu-new.png){width="300"}
 
    *トピックに存在するコンテンツフラグメントを表示し、再公開します。*
 

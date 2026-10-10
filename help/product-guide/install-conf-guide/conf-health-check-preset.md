@@ -4,13 +4,28 @@ description: 作成者とパブリッシャーがDITA マップでヘルスチ�
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: fd5e1e85933eb2785b0a74b0fa49fec1da4ca0c2
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 0%
-
 ---
-
 # ヘルスチェックプリセットの作成と管理
 
 >[!NOTE]
@@ -35,7 +50,7 @@ ht-degree: 0%
 1. 「**作成**」を選択します。
 1. 設定を保存するには、**保存**&#x200B;を選択します。
 
-このプリセットは、作成者とパブリッシャーが利用できるようになりました。 作成者の場合、この機能は、マップビューのマップのオプションメニューと、検索パネルと並ぶヘルスチェックレポートパネルで使用できます。これにより、プロファイルに設定されたヘルスチェックプリセットのいずれかを使用して、選択したマップでヘルスチェックを実行できます。 詳しくは、[&#x200B; マップエディターの追加機能](../user-guide/map-editor-other-features.md#run-health-check-on-a-map)を参照してください。
+このプリセットは、作成者とパブリッシャーが利用できるようになりました。 作成者の場合、この機能は、マップビューのマップのオプションメニューと、検索パネルと並ぶヘルスチェックレポートパネルで使用できます。これにより、プロファイルに設定されたヘルスチェックプリセットのいずれかを使用して、選択したマップでヘルスチェックを実行できます。 詳しくは、[ マップエディターの追加機能](../user-guide/map-editor-other-features.md#run-health-check-on-a-map)を参照してください。
 
 パブリッシャーの場合、**出力生成の前にヘルスチェックを実行** トグルがプリセットパネルに表示され、要件に応じて有効または無効にできます。 有効にすると、公開プロセスの開始時にヘルスチェックレポートがログに追加されますが、出力生成はブロックされません。
 

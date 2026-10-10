@@ -1,20 +1,26 @@
 ---
 title: リリースノート | Adobe Experience Manager Guides 5.2.0 リリースの修正済みの問題
 description: Adobe Experience Manager Guides 5.2.0 リリースのバグ修正について説明します。
-source-git-commit: 5eee826022f798b4eb0014ea4b97d2916eb92f33
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '3559'
 ht-degree: 0%
-
 ---
-
 # 5.2.0 リリース（2026年5月）で修正された問題
 
 この記事では、Adobe Experience Manager Guidesの5.2.0 リリースの様々な領域で修正されたバグについて説明します。
 
 新機能と機能強化について詳しくは、[5.2.0 リリースの新機能](whats-new-5-2-0.md)を参照してください。
 
-5.2.0 リリース [&#128279;](upgrade-instructions-5-2-0.md)の アップグレード手順について説明します。
+5.2.0 リリース ](upgrade-instructions-5-2-0.md)の[ アップグレード手順について説明します。
 
 
 ## オーサリング

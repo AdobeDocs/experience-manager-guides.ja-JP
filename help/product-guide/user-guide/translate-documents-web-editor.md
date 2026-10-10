@@ -4,7 +4,7 @@ description: web エディターからコンテンツを複数の言語に翻訳
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-TQID: https://experienceleague.adobe.com/aSjUOzg8-jreMvbiuBZ5lRlbeikBHMHBLUww4L3-hZA
+TQID: 'https://experienceleague.adobe.com/aSjUOzg8-jreMvbiuBZ5lRlbeikBHMHBLUww4L3-hZA'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -17,6 +17,10 @@ feature_v2:
     internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
     internal-label: Configuration
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
+  - id: 626b0638-bd2d-504c-8ccd-53d63b856710
+    internal-label: Translation
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
     internal-label: Editor
@@ -33,7 +37,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 0db59f201b2418911634609b93ab7892477052c9
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '2794'
 ht-degree: 0%
@@ -146,7 +150,7 @@ Experience Manager Guidesには、コンテンツを複数の言語に翻訳で�
    新しい翻訳プロジェクトに加えて、次のオプションから選択することもできます。
 
    - 翻訳プロジェクトの構造を&#x200B;**作成のみ**&#x200B;を選択できます。
-   - **新しいXLIFF翻訳プロジェクトを作成**&#x200B;して、XML コンテンツをXML Localization Interchange File Format （XLIFF）に変換できます。 XLIFFは、コンテンツ翻訳プロセスで使用される様々なツール間のデータ転送を標準化するために使用される、オープンなXML ベースの形式です。 Experience Manager GuidesはXLIFF バージョン 1.2をサポートしています。
+   - **新しいXLIFF翻訳プロジェクトを作成**して、XML コンテンツをXML Localization Interchange File Format （XLIFF）に変換できます。 XLIFFは、コンテンツ翻訳プロセスで使用される様々なツール間のデータ転送を標準化するために使用される、オープンなXML ベースの形式です。 Experience Manager GuidesはXLIFF バージョン 1.2をサポートしています。
      XLIFF プロジェクトでは、コンテンツは業界標準のXLIFF形式に書き出され、翻訳ベンダーに提供できます。 XLIFF形式を使用すると、翻訳段階で既に翻訳したセグメントを再利用できます。\
      XLIFF コンテンツが翻訳されると、Experience Manager Guidesに読み込まれ、元のDITA プロジェクトの翻訳版を作成できます。
 
@@ -175,7 +179,7 @@ Experience Manager Guidesには、コンテンツを複数の言語に翻訳で�
 
    - 新しい翻訳プロジェクトを作成する場合は、プロジェクトを作成するフォルダーを選択します。
 
-     ![&#x200B; プロジェクトのパスを入力](images/project-path.png){width="650"}
+     ![ プロジェクトのパスを入力](images/project-path.png){width="650"}
 
    - 既存の翻訳プロジェクトに追加する場合は、そのプロジェクトが既に存在するパスを選択します。 次に、**既存の翻訳プロジェクト** リストから、現在の翻訳タスクを追加するプロジェクトを選択します。 リストを絞り込むには、**フィルター**&#x200B;を使用することもできます。
 
@@ -284,4 +288,4 @@ Experience Manager Guidesには、選択したバージョンと最後に翻訳�
 後で使用する場合は、翻訳プロジェクトを無効にすることもできます。 プロジェクトを削除すると、プロジェクトに存在するすべてのファイルとフォルダーが削除されます。 プロジェクトを無効にしても、削除はされませんが、リポジトリ内に保持されます。 ただし、無効なプロジェクトを更新または編集することはできません。  プロジェクトを削除または無効化しても、参照の翻訳ステータスには影響しません。
 
 
-**親トピック：**&#x200B;[&#x200B; エディターの概要](web-editor.md)
+**親トピック：**[ エディターの概要](web-editor.md)

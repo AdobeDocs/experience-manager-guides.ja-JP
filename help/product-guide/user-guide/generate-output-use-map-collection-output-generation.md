@@ -4,26 +4,35 @@ description: マップコレクションを作成および削除し、DITA マ�
 exl-id: 41152fa4-f739-44d2-9ccd-74072f53e31b
 feature: Publishing
 role: User
-TQID: https://experienceleague.adobe.com/4ZtP8sNNhuZwJ-bTKThXiRZwVXvJ2PvfKyyo91HO1bE
+TQID: 'https://experienceleague.adobe.com/4ZtP8sNNhuZwJ-bTKThXiRZwVXvJ2PvfKyyo91HO1bE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1234
+source-wordcount: '1251'
 ht-degree: 1%
-
 ---
-
 # 出力生成にマップコレクションを使用 {#id1723F20G0HS}
 
 あらゆる組織において、製品には複数の種類のドキュメントが含まれます。 パブリッシングスペシャリストは、どのドキュメントに対してどのような出力を生成するかを制御したいと考えます。 また、複数のドキュメントを一括で公開する方法があります。
@@ -36,7 +45,7 @@ Adobe Experience Manager Guidesでは、Map Collectionというダッシュボ�
 
 マップコレクションを作成し、DITA マップをコレクションに追加するには、次の手順を実行します。
 
-1. [Experience Manager Guidesのホームページ &#x200B;](./intro-home-page.md#map-collections)を開き、**コレクションをマップ**&#x200B;を選択します。
+1. [Experience Manager Guidesのホームページ ](./intro-home-page.md#map-collections)を開き、**コレクションをマップ**&#x200B;を選択します。
 
    **マップコレクション** ページが新しいタブで開きます。
 
@@ -67,24 +76,24 @@ Adobe Experience Manager Guidesでは、Map Collectionというダッシュボ�
 
    DITA マップファイルがマップコレクションに追加されます。
 
-   ![&#x200B; マップコレクションダッシュボード &#x200B;](./images/map-collection-dashboard.png)
+   ![ マップコレクションダッシュボード ](./images/map-collection-dashboard.png)
 
 **フィルターオプション**
 
 次のフィルタリングオプションとマップの詳細がコレクションページに表示されます。
 
 - **フィルター：**&#x200B;左側のパネルには、次のフィルターが表示されます。
-   - **変更**:「はい」または「いいえ」を選択できます。 「はい」を選択すると、変更されたDITA マップのみがマップとプリセット テーブルに表示されます。
-   - **プリセット**: マップファイルを除外するプリセットを選択します。 例えば、*AEM サイト* プリセットを選択した場合、*AEM サイト*&#x200B;出力プリセットが設定されているマップのみが表示されます。
-   - **言語**：使用可能な言語コードのいずれかを選択し、選択した言語のみをマップとプリセット テーブルに表示できます。
+  - **変更**:「はい」または「いいえ」を選択できます。 「はい」を選択すると、変更されたDITA マップのみがマップとプリセット テーブルに表示されます。
+  - **プリセット**: マップファイルを除外するプリセットを選択します。 例えば、*AEM サイト* プリセットを選択した場合、*AEM サイト*&#x200B;出力プリセットが設定されているマップのみが表示されます。
+  - **言語**：使用可能な言語コードのいずれかを選択し、選択した言語のみをマップとプリセット テーブルに表示できます。
 - **マップとプリセット** テーブル：マップとプリセット テーブルには、次の列の情報が表示されます。
-   - **Map**: DITA マップファイルのタイトルを表示します。
-   - **Filename**: DITA マップのファイル名を表示します。
-   - **言語**: DITA マップの言語を表示します。
-   - **プリセット**: マップファイルで設定された出力プリセットタイプを表示します。
-   - **ベースライン**：出力プリセットで使用されるベースラインを表示します。  ベースラインが使用されていない場合は、ハイフン「 – 」が表示されます
-   - **変更済み**: DITA マップが最後の公開後に更新されるかどうかを示します。 この情報に基づいて、このDITA マップの出力を再公開するかどうかを決定できます。
-   - **最終生成日時**：最後に生成された出力の日時を表示します。
+  - **Map**: DITA マップファイルのタイトルを表示します。
+  - **Filename**: DITA マップのファイル名を表示します。
+  - **言語**: DITA マップの言語を表示します。
+  - **プリセット**: マップファイルで設定された出力プリセットタイプを表示します。
+  - **ベースライン**：出力プリセットで使用されるベースラインを表示します。  ベースラインが使用されていない場合は、ハイフン「 – 」が表示されます
+  - **変更済み**: DITA マップが最後の公開後に更新されるかどうかを示します。 この情報に基づいて、このDITA マップの出力を再公開するかどうかを決定できます。
+  - **最終生成日時**：最後に生成された出力の日時を表示します。
 
 ## マップコレクションを使用した出力の設定と生成
 
@@ -108,7 +117,7 @@ Adobe Experience Manager Guidesでは、Map Collectionというダッシュボ�
    - DITA マップの&#x200B;**すべてのプリセット**&#x200B;を有効にして、すべてのプリセットを1回で選択します。 このオプションはデフォルトでは無効です。
    - DITA マップの&#x200B;**フォルダープロファイルプリセット**&#x200B;を有効にして、そのフォルダープロファイルプリセットをすべて選択します。 このオプションはデフォルトでは無効です。
 
-![&#x200B; クラウドサービスでのマップコレクションの編集](images/edit-map-collection-cs.png)
+![ クラウドサービスでのマップコレクションの編集](images/edit-map-collection-cs.png)
 
 
 
@@ -125,7 +134,7 @@ Adobe Experience Manager Guidesでは、Map Collectionというダッシュボ�
 
 マップコレクションでは、DITA マップのメタデータプロパティを一括設定できます。 「**メタデータを設定**」を選択して、**アセットメタデータ** ページを開きます。 **アセットメタデータ** ページでは、コレクションに存在するすべてのマップが左側に一覧表示されます。
 
-![&#x200B; メタデータの設定](images/map-collection-asset-metadata.png)
+![ メタデータの設定](images/map-collection-asset-metadata.png)
 
 メタデータプロパティを設定するには、次の手順を実行します。
 
@@ -158,8 +167,8 @@ Adobe Experience Manager Guidesでは、Map Collectionというダッシュボ�
 
 ## マップコレクションからの出力生成タスクのキャンセル
 
-[DITA マップコンソール &#x200B;](generate-output-for-a-dita-map.md#id2061H100T5Z)または[公開ダッシュボード &#x200B;](generate-output-publish-dashboard.md#)から出力生成タスクをキャンセルする方法と同様に、マップコレクションから出力生成タスクをキャンセルできます。 マップコレクションの「出力」タブにアクセスし、キャンセルする公開タスクに移動し、「**このジョブをキャンセル**」アイコンを選択して公開タスクをキャンセルします。
+[DITA マップコンソール ](generate-output-for-a-dita-map.md#id2061H100T5Z)または[公開ダッシュボード ](generate-output-publish-dashboard.md#)から出力生成タスクをキャンセルする方法と同様に、マップコレクションから出力生成タスクをキャンセルできます。 マップコレクションの「出力」タブにアクセスし、キャンセルする公開タスクに移動し、「**このジョブをキャンセル**」アイコンを選択して公開タスクをキャンセルします。
 
 ![](images/cancel-publish-task-map-collection.png)
 
-**親トピック：**&#x200B;[&#x200B;出力生成](generate-output.md)
+**親トピック：**[&#x200B;出力生成](generate-output.md)

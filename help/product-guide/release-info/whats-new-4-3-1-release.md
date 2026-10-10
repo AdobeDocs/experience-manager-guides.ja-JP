@@ -4,28 +4,36 @@ description: Adobe Experience Manager Guides 4.3.1 リリースの新機能と�
 exl-id: 14db7453-ccc1-4709-903f-677f55c263b2
 feature: What's New
 role: Leader
-TQID: https://experienceleague.adobe.com/ARoAPa2b8DUCuRMbl4-8QwulfVtXMYnE9ixKVGlTJIg
+TQID: 'https://experienceleague.adobe.com/ARoAPa2b8DUCuRMbl4-8QwulfVtXMYnE9ixKVGlTJIg'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
+subfeature_v2:
+  - id: cda0baeb-996e-4aaa-92d1-41032e34fd68
+    internal-label: What's new
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1136
+source-wordcount: '1143'
 ht-degree: 0%
-
 ---
-
 # Adobe Experience Manager Guidesの4.3.1 リリース（2023年10月）の新機能
 
 この記事では、Adobe Experience Manager Guides（後で&#x200B;*Experience Manager Guides*&#x200B;と呼ばれます）のバージョン 4.3.1の新機能と強化機能について説明します。
 
-アップグレード手順、互換性マトリックス、およびこのリリースで修正された問題について詳しくは、[&#x200B; リリースノート &#x200B;](./release-notes-4-3-1.md)を参照してください。
+アップグレード手順、互換性マトリックス、およびこのリリースで修正された問題について詳しくは、[ リリースノート ](./release-notes-4-3-1.md)を参照してください。
 
 ## データソースに接続し、トピックを挿入する
 
@@ -41,21 +49,21 @@ Web エディターの&#x200B;**データソース** パネルで、設定され
 
 接続されたデータソースからトピックを作成することもできます。 トピックには、表、リスト、段落など、様々な形式のデータを含めることができます。 また、すべてのトピックのDITA マップを作成することもできます。 データソースから取り出す際に、メタデータをトピックに関連付けることができます。
 
-詳しくは、[&#x200B; データソースからのデータを使用](../user-guide/web-editor-content-snippet.md)を参照してください。
+詳しくは、[ データソースからのデータを使用](../user-guide/web-editor-content-snippet.md)を参照してください。
 
 ## ユーザーインターフェイスからのデータソースコネクタの設定
 
 Experience Manager Guidesには、データソース用のすぐに使えるコネクタの設定を支援する&#x200B;**データソース** ツールも用意されています。 JIRA、SQL （MySQL、PostgreSQL、Microsoft SQL Server、SQLite、MariaDB、H2DB）、Adobe Commerce、Elasticsearch データベース用のコネクタを簡単に作成できます。
 
-また、データソースコネクタを簡単に編集、再接続、複製、または削除できます。 ユーザーインターフェイス [&#128279;](../install-guide/conf-data-source-connector-tools.md)からデータソースコネクタを簡単に設定する方法について詳しく説明します。
+また、データソースコネクタを簡単に編集、再接続、複製、または削除できます。 ユーザーインターフェイス ](../install-guide/conf-data-source-connector-tools.md)からデータソースコネクタを[簡単に設定する方法について詳しく説明します。
 
-![&#x200B; データソースパネルにリストされているデータソースコネクタ &#x200B;](assets/data-sources-create-window.png){width="550"}
+![ データソースパネルにリストされているデータソースコネクタ ](assets/data-sources-create-window.png){width="550"}
 
 *データソースパネルからデータソースコネクタを作成して表示します。*
 
 ## トピックジェネレーターのログの表示
 
-コンテンツ生成ログファイルを表示できるようになりました。 このログファイルは、警告、エラー、例外を確認するのに役立ちます。  トピックジェネレーター[&#128279;](../user-guide/web-editor-content-snippet.md#options-for-a-topic-generator)の オプションを使用して、トピックジェネレーターを簡単に生成および管理する方法について詳しくは、こちらを参照してください。
+コンテンツ生成ログファイルを表示できるようになりました。 このログファイルは、警告、エラー、例外を確認するのに役立ちます。  トピックジェネレーター](../user-guide/web-editor-content-snippet.md#options-for-a-topic-generator)の[ オプションを使用して、トピックジェネレーターを簡単に生成および管理する方法について詳しくは、こちらを参照してください。
 
 ## データソーステンプレートでのVelocity ツールのサポート
 
@@ -71,20 +79,20 @@ Experience Manager Guides テンプレートでVelocity ツールを使用でき
 ### レイアウトの最初のページのページ番号をリセットする
 
 PDFのネイティブ出力では、ページ番号を再起動し、番号付けの開始番号を指定できます。 これで、セクションの最初の出現に対してのみ番号付けを開始することもできます。
-ページレイアウト [&#128279;](../native-pdf/design-page-layout.md#page-props-page-layout)のページプロパティを操作する方法について詳しくは、こちらを参照してください。
+ページレイアウト ](../native-pdf/design-page-layout.md#page-props-page-layout)のページプロパティを[操作する方法について詳しくは、こちらを参照してください。
 
 
 ### 目次で自動番号のない章を表示する
 
-Experience Manager Guidesでは、章番号と章名が目次（TOC）に表示されます。 これで、章番号なしで章名のみを公開するように選択できます。 テンプレート [&#128279;](../native-pdf/components-pdf-template.md#advanced-pdf-settings)の詳細なPDF設定の設定方法について詳しく説明します。
+Experience Manager Guidesでは、章番号と章名が目次（TOC）に表示されます。 これで、章番号なしで章名のみを公開するように選択できます。 テンプレート ](../native-pdf/components-pdf-template.md#advanced-pdf-settings)の[詳細なPDF設定の設定方法について詳しく説明します。
 
 ## Web エディターからマップをダウンロードする
 
 これで、Web エディターのマップビューでマップを編集するだけでなく、ダウンロードすることもできます。 特定のベースラインを使用してマップをダウンロードできます。 また、階層を統合し、すべてのファイルとフォルダーを1つのフォルダーに保存するオプションもあります。
 
-詳しくは、[左パネル &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS) セクション内の&#x200B;**マップビュー**&#x200B;機能の説明を参照してください。
+詳しくは、[左パネル ](../user-guide/web-editor-features.md#id2051EA0M0HS) セクション内の&#x200B;**マップビュー**&#x200B;機能の説明を参照してください。
 
-リポジトリビューでのファイルの![&#x200B; オプションメニュー](assets/options-menu-repo-view-file-level-2310.png){width="550"}
+リポジトリビューでのファイルの![ オプションメニュー](assets/options-menu-repo-view-file-level-2310.png){width="550"}
 
 *リポジトリビューでファイルを選択し、ファイルに対してアクションを実行するオプションを選択します。*
 
@@ -95,7 +103,7 @@ Experience Manager Guidesでは、章番号と章名が目次（TOC）に表示�
 
 また、条件を定義し、トピック内の特定の要素に適用することもできます。  条件は、特定の要素に対してのみ表示され、他のすべての要素に対しては表示されません。
 
-件名の定義と列挙の階層定義の処理について詳しくは、[左パネル &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS) セクションの件名スキーム機能の説明を参照してください。
+件名の定義と列挙の階層定義の処理について詳しくは、[左パネル ](../user-guide/web-editor-features.md#id2051EA0M0HS) セクションの件名スキーム機能の説明を参照してください。
 
 
 
@@ -104,17 +112,17 @@ Experience Manager Guidesでは、章番号と章名が目次（TOC）に表示�
 
 コンテキストメニューを使用して、ファイル（.dita、.xml、オーディオ、ビデオ、または画像）を開かずにプレビューします。 プレビューペインのサイズを変更できるようになりました。コンテンツに参照リンクが含まれている場合は、そのリンクを選択して新しいタブで開くことができます。
 
-![&#x200B; プレビューペイン &#x200B;](assets/quick-preview_cs.png){width="800"}
+![ プレビューペイン ](assets/quick-preview_cs.png){width="800"}
 
 *ペインでファイルをプレビューします。*
 
-コンテキストメニューについて詳しくは、[左パネル &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS) セクションのファイル **機能の** オプションの説明を参照してください。
+コンテキストメニューについて詳しくは、[左パネル ](../user-guide/web-editor-features.md#id2051EA0M0HS) セクションのファイル **機能の** オプションの説明を参照してください。
 
 ## Oxygen コネクタプラグインでのファイルの編集
 
 Experience Manager Guidesでは、Web エディターでファイルを選択し、Oxygen コネクタプラグインでファイルを編集できるようになりました。 このオプションは、標準サポートの一部として有効になっていません。
 
-詳しくは、[左パネル &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS) セクション内のファイル **機能の説明に関する** オプションを参照してください。
+詳しくは、[左パネル ](../user-guide/web-editor-features.md#id2051EA0M0HS) セクション内のファイル **機能の説明に関する** オプションを参照してください。
 
 ## 「宛先パス」、「サイト名」または「ファイル名」オプションで、現在の日時に変数を使用します
 
@@ -127,4 +135,4 @@ AEM サイトまたはPDFで出力を生成する際に、変数を使用して�
 
 Experience Manager Guidesでは、キーボードショートカットを使用して、Web エディターでカーソルを移動できるようになりました。 キーボードショートカットを使用して、1つの単語を左右にすばやく移動できます。 キーボードショートカットを使用して、行の先頭または末尾に移動することもできます。
 
-Web エディター[&#128279;](../user-guide/web-editor-keyboard-shortcuts.md)の キーボードショートカットについて詳しく説明します。
+Web エディター](../user-guide/web-editor-keyboard-shortcuts.md)の[ キーボードショートカットについて詳しく説明します。

@@ -5,19 +5,29 @@ feature: Post-Processing Event Handler
 role: Developer
 level: Experienced
 exl-id: feba6d8e-c363-4360-af33-92a01dcf6672
-TQID: https://experienceleague.adobe.com/rGPpMIf5X5lfZZy2ZWk9lizd2E7UyRT8BLkSBb0o320
+TQID: 'https://experienceleague.adobe.com/rGPpMIf5X5lfZZy2ZWk9lizd2E7UyRT8BLkSBb0o320'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+    internal-label: APIs
+subfeature_v2:
+  - id: e0bef973-8c57-4760-9b12-ec950a3c7247
+    internal-label: Post processing event handler
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 639
+source-wordcount: '639'
 ht-degree: 11%
-
 ---
-
 # アセットの一括処理を開始するAPI
 
 >[!NOTE]
@@ -249,7 +259,7 @@ ht-degree: 11%
 
 ## ジョブ履歴の表示
 
-Asset Post-Processingの最後の「N」実行を返すGET API。
+アセット後処理の最後の「N」実行を返すGET API。
 
 **リクエスト URL**
 

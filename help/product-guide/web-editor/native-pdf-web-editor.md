@@ -4,7 +4,7 @@ description: ネイティブ PDF パブリッシングの使用方法、PDF出�
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
 feature: Publishing, Native PDF Output
 role: User
-TQID: https://experienceleague.adobe.com/GV3iYtBdFVrQwFjdvfqnfDIWPMugO3hFjS4FZqspG2M
+TQID: 'https://experienceleague.adobe.com/GV3iYtBdFVrQwFjdvfqnfDIWPMugO3hFjS4FZqspG2M'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -19,6 +19,8 @@ feature_v2:
     internal-label: Knowledge base
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
     internal-label: Configuration
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
     internal-label: Editor
@@ -30,6 +32,10 @@ subfeature_v2:
     internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
     internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
+  - id: c4e6b17e-c50c-59a1-a719-9c33ce69e5b6
+    internal-label: Native PDF Output
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -40,7 +46,7 @@ topic_v2:
     internal-label: Accessibility
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '4071'
 ht-degree: 1%
@@ -61,16 +67,16 @@ PDFのネイティブなパブリッシング機能では、事前に定義さ�
 
 マップコンソールからPDF プリセットを作成するには、次の手順を実行します。
 
-1. [&#x200B; マップコンソールでDITA マップファイルを開きます](../user-guide/open-files-map-console.md)。
+1. [ マップコンソールでDITA マップファイルを開きます](../user-guide/open-files-map-console.md)。
 
-   [概要セクション &#x200B;](../user-guide/intro-home-page.md#overview)の&#x200B;**最近のファイル** ウィジェットからマップファイルにアクセスすることもできます。 選択したマップファイルがマップコンソールで開きます。
+   [概要セクション ](../user-guide/intro-home-page.md#overview)の&#x200B;**最近のファイル** ウィジェットからマップファイルにアクセスすることもできます。 選択したマップファイルがマップコンソールで開きます。
 1. 「**出力プリセット**」タブで、「+」アイコンを選択して出力プリセットを作成します。
 1. **新規出力プリセット** ダイアログボックスの「タイプ」ドロップダウンから「**PDF**」を選択します。
 1. 「**名前**」フィールドで、このプリセットに名前を付けます。
 1. **Generate PDF Using** フィールドで、**Native-PDF**&#x200B;を選択します。
-1. 「**現在のフォルダープロファイルに追加**」オプションを選択して、現在のフォルダープロファイル内に出力プリセットを作成します。 ![&#x200B; フォルダープロファイルアイコン &#x200B;](./assets/global-preset-icon.svg)は、フォルダープロファイルレベルのプリセットを示します。
+1. 「**現在のフォルダープロファイルに追加**」オプションを選択して、現在のフォルダープロファイル内に出力プリセットを作成します。 ![ フォルダープロファイルアイコン ](./assets/global-preset-icon.svg)は、フォルダープロファイルレベルのプリセットを示します。
 
-   [&#x200B; グローバルおよびフォルダープロファイル出力プリセットの管理](../user-guide/web-editor-manage-output-presets.md)の詳細をご覧ください。
+   [ グローバルおよびフォルダープロファイル出力プリセットの管理](../user-guide/web-editor-manage-output-presets.md)の詳細をご覧ください。
 
 1. 「**追加**」を選択します。
 
@@ -88,17 +94,17 @@ PDFのネイティブなパブリッシング機能では、事前に定義さ�
 
 >[!NOTE]
 >
->フォルダープロファイルに[&#x200B; ヘルスチェック機能](../install-conf-guide/conf-health-check-preset.md)が設定されている場合は、「一般」タブに「**出力生成の前にヘルスチェックを実行」トグルが表示されます。**&#x200B;このプリセットを使用して出力を生成するたびにヘルスチェックが自動的に実行されるので、マップから手動でトリガーする必要はありません。 レポートは公開ログに追加され、純粋に情報提供されます。 チェックで未解決のエラーや警告が見つかっても、出力をブロックしたり遅延させたりすることはありません。 Experience Manager Guides[&#128279;](../user-guide/map-editor-other-features.md#run-health-check-on-a-map)でのヘルスチェック機能の使用について詳しく説明します。
+>フォルダープロファイルに[ ヘルスチェック機能](../install-conf-guide/conf-health-check-preset.md)が設定されている場合は、「一般」タブに「**出力生成の前にヘルスチェックを実行」トグルが表示されます。**&#x200B;このプリセットを使用して出力を生成するたびにヘルスチェックが自動的に実行されるので、マップから手動でトリガーする必要はありません。 レポートは公開ログに追加され、純粋に情報提供されます。 チェックで未解決のエラーや警告が見つかっても、出力をブロックしたり遅延させたりすることはありません。 Experience Manager Guides](../user-guide/map-editor-other-features.md#run-health-check-on-a-map)でのヘルスチェック機能の使用について詳しく説明します。[
 
 | 設定 | 説明 |
 | --- | --- |
-| **出力パス** | PDF出力が保存されるAEM リポジトリ内のパス。 出力パスがプロジェクトフォルダー内にないことを確認します。 出力パスは、管理者が設定した変数`${base_output_path}`を通じて設定されます。 出力パスを設定するには、使用しているサービスに基づいて、[&#x200B; クラウドサービスの基本出力場所の設定](../native-pdf/configure-base-location-cs.md)または[&#x200B; オンプレミスサービスの基本出力場所の設定](../native-pdf/configure-base-output-location.md)を表示します。 <br>次の標準の変数を使用して、出力パスを定義することもできます。 このオプションを定義するには、単一または複数の変数を組み合わせて使用できます。<br> `${map_filename}`: DITA マップファイル名を使用して、宛先パスを作成します。<br> `${map_title}`: DITA マップタイトルを使用して、宛先パスを作成します。 <br>`${preset_name}`：出力プリセット名を使用して、宛先パスを作成します。<br> `${language_code}`: マップファイルが配置されている言語コードを使用して、宛先パスを作成します。<br> `${map_parentpath}`: マップファイルの完全パスを使用して、宛先パスを作成します。 <br>`${path_after_langfolder}`：言語フォルダーの後のマップファイルのパスを使用して、宛先パスを作成します。 |
+| **出力パス** | PDF出力が保存されるAEM リポジトリ内のパス。 出力パスがプロジェクトフォルダー内にないことを確認します。 出力パスは、管理者が設定した変数`${base_output_path}`を通じて設定されます。 出力パスを設定するには、使用しているサービスに基づいて、[ クラウドサービスの基本出力場所の設定](../native-pdf/configure-base-location-cs.md)または[ オンプレミスサービスの基本出力場所の設定](../native-pdf/configure-base-output-location.md)を表示します。 <br>次の標準の変数を使用して、出力パスを定義することもできます。 このオプションを定義するには、単一または複数の変数を組み合わせて使用できます。<br> `${map_filename}`: DITA マップファイル名を使用して、宛先パスを作成します。<br> `${map_title}`: DITA マップタイトルを使用して、宛先パスを作成します。 <br>`${preset_name}`：出力プリセット名を使用して、宛先パスを作成します。<br> `${language_code}`: マップファイルが配置されている言語コードを使用して、宛先パスを作成します。<br> `${map_parentpath}`: マップファイルの完全パスを使用して、宛先パスを作成します。 <br>`${path_after_langfolder}`：言語フォルダーの後のマップファイルのパスを使用して、宛先パスを作成します。 |
 | **PDF ファイル** | PDFを保存するファイル名を指定します。 デフォルトでは、PDF ファイル名はDITA マップ名とプリセット名を追加します。 例えば、ditamapは「TestMap」で、プリセットの名前は「preset1」で、pdfのデフォルト名は「TestMap_preset1.pdf」です。 <br>次の標準変数を使用して、PDF ファイルを定義することもできます。 このオプションを定義するには、単一または複数の変数を組み合わせて使用できます。<br>`${map_filename}`<br>`${map_title}`<br>`${preset_name}` <br> `${language_code}`。 |
 | **次を使用して条件を適用する** | 条件付きコンテンツの場合、次のオプションから選択して、条件に基づいてPDF出力を生成します：<br><ul> <li> **適用なし** マップとソースコンテンツに条件を適用しない場合は、このオプションを選択します。<br><li> **DITAVAL ファイル**&#x200B;条件付きコンテンツを生成するDITAVAL ファイルを選択します。 参照ダイアログを使用するか、ファイルパスを手動で入力することで、複数のDITAVAL ファイルを選択できます。 選択したファイルを削除するには、ファイル名の横にある十字アイコンをクリックします。 無効なファイルが選択されている場合、**無効なDITAVAL ファイルが選択されています**。<br> <br>各DITAVAL ファイルには、フィルター条件やフラグ設定スタイルなど、様々なプロパティを含めることができます。 フラグを設定すると、開始フラグと終了フラグを使用してコンテンツにマークを付けることができます。このフラグには、画像やテキストの書式設定（太字や斜体など）を含めることができます。 条件が重なり、スタイルの競合が発生した場合は、スタイルの競合の設定を使用して背景色を定義できます。 詳細については、[DITAVAL エディターを使用](../user-guide/ditaval-editor.md).<br>を参照してください。<li> **条件プリセット**&#x200B;出力の公開中に条件を適用するには、ドロップダウンから条件プリセットを選択します。 このオプションは、DITA マップファイルの条件を追加した場合に表示されます。 条件設定は、DITA マップコンソールの「条件プリセット」タブで使用できます。 条件プリセットについて詳しくは、[条件プリセットの使用](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-condition-presets.html)を参照してください。<br> </ul> |
-| **ベースラインの使用** | 選択したDITA マップのベースラインを作成した場合は、このオプションを選択して、公開するバージョンを指定します。 詳細については、[&#x200B; ベースラインの操作](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html)を参照してください。 |
+| **ベースラインの使用** | 選択したDITA マップのベースラインを作成した場合は、このオプションを選択して、公開するバージョンを指定します。 詳細については、[ ベースラインの操作](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html)を参照してください。 |
 | **公開済みバージョン間の改訂バーを使用してPDFを作成** | 次のオプションを使用して、改訂バーを使用した2つのバージョン間の内容の違いを示すPDFを作成します：<br><ul><li> **以前のバージョンのベースライン**&#x200B;現在のバージョンまたは別のベースラインと比較するベースラインバージョンを選択します。 変更された内容を示す改訂バーがPDFに表示されます。 改訂バーとは、新しいコンテンツや改訂されたコンテンツを視覚的に識別する縦線のことです。 変更バーは、挿入、変更、または削除されたコンテンツの左側に表示されます。<br> **注意**:「**ベースライン**&#x200B;を使用」を選択し、公開するベースラインを選択した場合、選択した2つのベースラインバージョン間で比較が行われます。 例えば、**ベースラインを使用**&#x200B;でベースラインバージョン 1.3を選択し、以前のバージョン **の** ベースラインでバージョン 1.1を選択した場合、ベースラインバージョン 1.1とベースラインバージョン 1.3の間で比較が行われます。<br><li> **追加したテキストを表示**&#x200B;選択すると、挿入したテキストが緑色で下線で表示されます。 このオプションはデフォルトで選択されています。<br> <li> **削除したテキストを表示**&#x200B;削除したテキストを赤で表示し、取り消し線でマークする場合に選択します。 このオプションはデフォルトで選択されています。 <br>**注** スタイルシートを使用して、変更バー、挿入されたコンテンツ、または削除されたコンテンツのスタイルをカスタマイズすることもできます。<br></ul> |
 | **言語** | 出力を翻訳する言語を選択します。 出力をルートマップの`xml:lang`属性と同じ言語で公開する場合は、言語を明示的に選択する代わりに、**マップ言語を使用** オプションを選択します。<br> マップに`xml:lang`が定義されていない場合、デフォルトで出力は英語（en_US）に設定されます。 これは、親マップに既に`xml:lang`属性が設定されているため、言語ごとに個別の出力プリセットが必要ない場合に役立ちます。 この設定がさまざまな種類のコンテンツにどのような影響を与えるかを理解するには、[DITA コンテンツと出力テンプレート変数の言語解決](../native-pdf/native-pdf-language-variables.md#language-resolution-for-dita-content-vs-output-template-variables)を参照してください。 |
-| **DITA-OT コマンドライン引数** | **DITA-OT前処理を有効にする**&#x200B;と、**DITA-OT コマンドライン引数** フィールドが使用できるようになります。 ここでは、出力の生成時にDITA-OTで処理する追加の引数を指定できます。 DITA-OTでサポートされているコマンドライン引数について詳しくは、[DITA-OT ドキュメント &#x200B;](https://www.dita-ot.org/)を参照してください。<br>**注：** <br> DITA関係テーブル （`<reltable>`）で定義されている関連リンクは、デフォルトでネイティブ PDF出力に含まれていません。 このような関連リンクをネイティブ PDF出力に含めるには、`-Dargs.rellinks=nofamily` DITA-OT引数を使用します。<br> ネストされたマップの場合、マップ参照に設定された`toc="no"`属性は、デフォルトで子トピックを目次から除外しません。 `-Dpreprocess.move-meta-entries.skip=false` DITA-OT引数を使用して、子トピックがそのようなマップの目次から除外されるようにします。 |
+| **DITA-OT コマンドライン引数** | **DITA-OT前処理を有効にする**&#x200B;と、**DITA-OT コマンドライン引数** フィールドが使用できるようになります。 ここでは、出力の生成時にDITA-OTで処理する追加の引数を指定できます。 DITA-OTでサポートされているコマンドライン引数について詳しくは、[DITA-OT ドキュメント ](https://www.dita-ot.org/)を参照してください。<br>**注：** <br> DITA関係テーブル （`<reltable>`）で定義されている関連リンクは、デフォルトでネイティブ PDF出力に含まれていません。 このような関連リンクをネイティブ PDF出力に含めるには、`-Dargs.rellinks=nofamily` DITA-OT引数を使用します。<br> ネストされたマップの場合、マップ参照に設定された`toc="no"`属性は、デフォルトで子トピックを目次から除外しません。 `-Dpreprocess.move-meta-entries.skip=false` DITA-OT引数を使用して、子トピックがそのようなマップの目次から除外されるようにします。 |
 | **生成後のワークフロー** | 選択すると、AEMで設定されたすべてのワークフローを含むドロップダウンリストが表示されます。 PDFの生成ワークフローの完了後に実行するワークフローを選択できます。 |
 
 >[!NOTE]
@@ -126,7 +132,7 @@ PDFのネイティブなパブリッシング機能では、事前に定義さ�
 
 * **XMP ファイルを提供**
 
-  [XMP](https://www.adobe.com/jp/products/xmp.html) （Extensible Metadata Platform）ファイルを読み込むことで、メタデータフィールドに直接入力することもできます。 サンプルのXMP ファイルは、ここからダウンロードできます。
+  [XMP](https://www.adobe.com/products/xmp.html) （Extensible Metadata Platform）ファイルを読み込むことで、メタデータフィールドに直接入力することもできます。 サンプルのXMP ファイルは、ここからダウンロードできます。
 
   [ダウンロード](assets/SampleXMP.xmp)
 
@@ -256,7 +262,7 @@ PDFの結合、圧縮の使用、コンプライアンス標準の選択など�
 | **変更履歴を含める** | 生成されたPDFに変更履歴を含めて、レビューと比較を容易にする場合は、このオプションを選択します。 |
 | **下書きコメントを含める** | 生成されたPDFで、選択したマップのDITA トピックに追加されたドラフトコメントを含める場合は、このオプションを選択します。<br> **注意**：このオプションのみを有効にしても、ドラフトコメントは出力に表示されません。 管理者は、マップに使用する出力テンプレートで、ドラフト注釈スタイルの表示プロパティを表示値（`block`、`inline-block`、`grid`など）に設定する必要があります。 詳しくは、[PDFのネイティブ出力で下書きコメントを表示または非表示にする](../native-pdf/components-pdf-template.md#show-or-hide-draft-comments-in-native-pdf-output)を参照してください。 |
 | **一時ファイルを保持** | ネイティブPDF出力の生成中に作成された暫定HTML ファイルを保持する場合は、このオプションを選択します。 出力を生成した後で、一時ファイルをダウンロードできます。 ダウンロードされたファイルには、作成者URL、ローカル URL、公開URLに関する情報を提供する`system_config.xml` ファイルも含まれます。 これらのURLは、AEMの外部化設定で設定され、`system_config.xml` ファイルに反映されます。 |
-| **PDF準拠** | これは、PDFが準拠していることを確認するために保存する標準です。 ドロップダウンから選択して、使用可能なPDF規格の一覧から選択します。 サポートされている標準について詳しくは、[PDF標準について](https://helpx.adobe.com/jp/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards)を参照してください。 |
+| **PDF準拠** | これは、PDFが準拠していることを確認するために保存する標準です。 ドロップダウンから選択して、使用可能なPDF規格の一覧から選択します。 サポートされている標準について詳しくは、[PDF標準について](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards)を参照してください。 |
 | **ファイルのプロパティ** | ネイティブ PDF パブリッシングに渡すメタデータを選択します。 ドロップダウンには、カスタムプロパティとデフォルトプロパティの両方が一覧表示されます。 例えば、`dc:description`、`dc:language`、`dc:title`および`docstate`はデフォルトのプロパティですが、カスタムプロパティとして`author`を指定できます。 選択したメタデータプロパティは、ネイティブ PDFを使用して生成されたPDF ファイルに渡されます。<br> これらのプロパティは、次の`/libs/fmdita/config/metadataList`で利用可能な`metadataList` ファイルから選択されます。 <br>このファイルは`/apps/fmdita/config/metadataList`でオーバーレイできます。 |
 
 

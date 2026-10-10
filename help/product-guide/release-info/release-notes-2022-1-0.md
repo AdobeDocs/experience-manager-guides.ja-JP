@@ -1,34 +1,48 @@
 ---
-title: 2022年1月リリースの [!DNL AEM Guides]のリリースノート
-description: ' [!DNL Adobe Experience Manager Guides] as a Cloud Serviceの1月リリース'
+title: 2022年1月リリースの[!DNL AEM Guides]のリリースノート
+description: '[!DNL Adobe Experience Manager Guides] as a Cloud Serviceの1月リリース'
 exl-id: b2da77fa-f17c-440b-be59-acaafcd9a57c
 feature: Release Notes
 role: Leader
-TQID: https://experienceleague.adobe.com/-ddCfI97I7XJ-OuoritVp7KRCRst5veYuu3oSQWZw9Y
+TQID: 'https://experienceleague.adobe.com/-ddCfI97I7XJ-OuoritVp7KRCRst5veYuu3oSQWZw9Y'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+    internal-label: FrameMaker Publishing Server
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: fc07eb3b-d7d7-4e9a-a558-c3099c2b6f7b
+    internal-label: Release notes
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Taxonomy
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 2326
+source-wordcount: '2471'
 ht-degree: 3%
-
 ---
-
 # [!DNL Adobe Experience Manager Guides] as a Cloud Serviceの1月リリース
 
 ## 1月リリースへのアップグレード
@@ -66,7 +80,7 @@ ht-degree: 3%
 
 ![記事ベースの公開](assets/article-based-publishing.png)
 
-AEMに加えて、この一意の機能を使用して、Salesforceなどのナレッジベースポータルに記事を公開できます。この機能には、AEMのコアコンポーネント上に構築されたOOTB コンテンツテンプレートも付属しています。これにより、テクニカルコンテンツのナレッジベースのリポジトリを構築できます。このテンプレートの優れた点は、組織の要件に合わせて完全にカスタマイズでき、企業のイントラネットポータルなどのユースケースもサポートできることです。
+AEMに加えて、この一意の機能を使用して、Salesforceなどのナレッジベースポータルに記事を公開できます。 この機能には、AEMのコアコンポーネント上に構築されたOOTB コンテンツテンプレートも付属しています。これにより、テクニカルコンテンツのナレッジベースのリポジトリを構築できます。 このテンプレートの優れた点は、組織の要件に合わせて完全にカスタマイズでき、企業のイントラネットポータルなどのユースケースもサポートできることです。
 ドキュメントの状態と変更時間に基づいて記事をフィルタリングすることもできます。
 
 外出先でも必要に応じて記事を公開できるため、コンテンツの公開を完全に制御できるだけでなく、更新されたコンテンツを公開するための全体的な時間を短縮できます。
@@ -79,20 +93,20 @@ Web エディターには多くの機能強化と新機能が導入されてい�
 
 * Web エディターに件名スキームのサポートも追加されました。 件名スキームパネルを使用して、件名スキームを作成および使用できるようになりました。 件名スキームの追加により、独自の企業メタデータと分類を使用できるようになりました。
 
-![件名スキーム &#x200B;](assets/subject-scheme-panel.png)
+![件名スキーム ](assets/subject-scheme-panel.png)
 
 * 新しい用語集ホットスポットツールがこのバージョンに導入され、用語集を一括管理できるようになりました。 このツールを使用すると、選択したマップまたは開いているトピックのテキストを用語集にすばやく変換したり、用語集を用語に一括変換したりできます。
 
-![用語集ホットスポット &#x200B;](assets/glossary-hotspot-tool.png)
+![用語集ホットスポット ](assets/glossary-hotspot-tool.png)
 
 * 再利用可能なコンテンツパネルに更新機能が追加され、参照ファイル内の再利用可能なコンテンツをすばやく更新できるようになりました。
 * 新しい作業コピーのインジケーターは、現在の（作業コピー）ファイルが保存済みのバージョンと同期しているかどうかを示します。
 
-![&#x200B; バージョンインジケーター](assets/version-update-indicator.png)
+![ バージョンインジケーター](assets/version-update-indicator.png)
 
 * リポジトリパネルとファイル参照ダイアログの検索フィルターが強化され、さらにカスタマイズできるフィルターオプションが追加されました。
 
-![&#x200B; リポジトリ内のフィルターを検索](assets/repository-filter-search.png)
+![ リポジトリ内のフィルターを検索](assets/repository-filter-search.png)
 
 * Web エディターから.docx ファイルをアップロードできるようになりました。
 
@@ -100,7 +114,7 @@ Web エディターには多くの機能強化と新機能が導入されてい�
 
 FrameMakerでドキュメントを作成して公開できるようになりました。 FrameMakerには、Adobe Experience Managerへのコネクタが付属しています。 FrameMakerでは、使いやすいインターフェイスを利用して、ドキュメントのバージョンを分散した共同作業に利用できます。
 
-コンテンツを作成したら、FrameMakerを使用して、PDF、HTML5、EPUB、DITAなど、様々な形式でドキュメントを公開できます。また、チェックアウト、扶養家族とのチェックアウト、チェックイン、更新など、様々なファイル管理操作を実行することもできます。
+コンテンツを作成したら、FrameMakerを使用して、PDF、HTML5、EPUB、DITAなど、様々な形式でドキュメントを公開できます。 また、チェックアウト、扶養家族とのチェックアウト、チェックイン、更新など、様々なファイル管理操作を実行することもできます。
 [!DNL AEM Guides] as a Cloud ServiceでFrameMakerを使用してオーサリングするには、FrameMaker バージョン 2020.4以降を使用します。
 
 ### 新しい翻訳ダッシュボード
@@ -113,13 +127,13 @@ Web エディターに新しい翻訳ダッシュボードが導入され、次�
 * 複数の言語に対して翻訳リクエストを開始する際に、各言語に対して複数のプロジェクトを作成することを避けるための多言語翻訳メカニズムを導入しました。
 * マップダッシュボードで「翻訳」タブを非表示にする設定を導入しました。 デフォルトでは表示されます。 マップダッシュボードまたはWeb エディターを使用して、コンテンツを翻訳できます。
 
-![翻訳ダッシュボード &#x200B;](assets/translation-from-web-editor.png)
+![翻訳ダッシュボード ](assets/translation-from-web-editor.png)
 
 ### 公開機能の強化
 
 * 作成者は、マップレベルおよびトピックレベルのメタデータをDITA-OT パブリッシングに渡せるようになりました。 これは、カスタム PDF テンプレートが、タグ、作成者、ドキュメントの状態などのファイルメタデータプロパティを使用するように設計されている場合に役立ちます。
 
-![DITA-OT メタデータ &#x200B;](assets/custom-meta-data-output-preset.png)
+![DITA-OT メタデータ ](assets/custom-meta-data-output-preset.png)
 
 * AEM サイトの出力生成で「**削除と作成**」オプションを使用すると、削除されるトピックのバージョンを保持または削除できるように、新しい設定が追加されました。
 
@@ -128,12 +142,12 @@ Web エディターに新しい翻訳ダッシュボードが導入され、次�
 AEM Assetsでファイルを操作する際に、次の改善点が確認できるようになりました。
 * 新しいファイルのアップロードエクスペリエンスと、競合解決戦略を選択するための新しいダイアログが導入されました。
 
-![&#x200B; ファイルのアップロード競合](assets/file-upload-name-conflict.png)
+![ ファイルのアップロード競合](assets/file-upload-name-conflict.png)
 
 * チェックアウトしたファイルの上書きを防ぐ機能を備えた、アップロードされたファイルの新しいバージョンを作成する機能。
 * バージョン履歴ビューから画像のプレビューを直接表示できるようになりました。 また、DITA ファイルとDITA以外のファイルの場合、バージョン履歴には現在のバージョン情報が別々に表示されます。
 
-![&#x200B; バージョン履歴のサムネール &#x200B;](assets/version-history-preview-image.png)
+![ バージョン履歴のサムネール ](assets/version-history-preview-image.png)
 
 * ユーザーがDITA ファイルを作成するたびに、デフォルトのファイル名は小さなケースで表示され、ネイティブ AEM フォルダー作成シナリオとインラインになります。
 
@@ -141,7 +155,7 @@ AEM Assetsでファイルを操作する際に、次の改善点が確認でき�
 
 レポートは、コンテンツの健全性を特定するのに役立ちます。 [!DNL AEM Guides] as a Cloud Serviceには、コンテンツを制御するための様々なレポートが用意されています。 これにより、レポートを表示するだけでなく、レポートデータをCSV ファイルに書き出して、大規模なチームで表示および共有できるようになります。 レポートデータでは、リンク切れや画像の欠落などを簡単に確認できます。
 
-![&#x200B; レポートの書き出し](assets/export-report.png)
+![ レポートの書き出し](assets/export-report.png)
 
 ### Oxygen DAMの更新体験の向上
 

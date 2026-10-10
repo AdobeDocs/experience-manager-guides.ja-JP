@@ -5,37 +5,56 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/By8tpSe4XkfhYsfCbJMhlGqyi3asQfJa2QqlLF6zKDQ
+TQID: 'https://experienceleague.adobe.com/By8tpSe4XkfhYsfCbJMhlGqyi3asQfJa2QqlLF6zKDQ'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
   - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: e13e7f13-0f4c-43f9-b0a7-1f33bd47e105
+    internal-label: Troubleshooting
   - id: e557051c-ff02-4ff8-9421-cf452af0edd5
+    internal-label: Installation
   - id: f7774ebe-aec9-42b6-97e4-5002acdc712e
+    internal-label: Review
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Content reuse
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 5239
+source-wordcount: '5239'
 ht-degree: 0%
-
 ---
-
 # グローバルレベルまたはフォルダーレベルのプロファイルの設定 {#id181AH2003PF}
 
 企業では、異なるグループまたは製品が、異なるオーサリングテンプレート、出力テンプレート、条件付き属性プロファイル \（またはサブジェクトスキーム\）、およびWeb エディター設定を使用する場合があります。 これらをエンタープライズ（またはグローバル）レベルでのみ設定すると、作成者は自分に関係のないテンプレートやプロファイルを見るので、作成者は操作が難しくなります。
@@ -54,21 +73,21 @@ AEM Guidesでは、オーサリング \（topicまたはmap\） テンプレー�
 
 - **テンプレート**：このタブを使用して、作成者がDITA コンテンツの作成または公開に使用するテンプレートを設定します。 次のトピックテンプレートは、すぐに使用できます。
 
-   - 用語集
+  - 用語集
 
-   - 参照
+  - 参照
 
-   - トピック
+  - トピック
 
-   - コンセプト
+  - コンセプト
 
-   - タスク
+  - タスク
 
-   - トラブルシューティング
+  - トラブルシューティング
 
-   - 空白
+  - 空白
 
-   - DITAVAL
+  - DITAVAL
 
   >[!NOTE]
   >
@@ -76,33 +95,33 @@ AEM Guidesでは、オーサリング \（topicまたはmap\） テンプレー�
 
   トピックテンプレートに加えて、作成者が利用できるマップテンプレートを定義することもできます。 次のマップテンプレートは、すぐに使用できます。
 
-   - Map
+  - Map
 
-   - Bookmap
+  - Bookmap
 
 - **出力プリセット**: テンプレートと同様に、事前に設定された5つの出力プリセットがあります。
 
-   - AEMサイト
+  - AEMサイト
 
-   - PDF
+  - PDF
 
-   - HTML5
+  - HTML5
 
-   - EPUB
+  - EPUB
 
-   - カスタム
+  - カスタム
 
-  これらの出力プリセットを使用して、コンテンツを公開できます。 これらのプリセットは、グローバルプロファイルまたはフォルダーレベルのプロファイルの管理者が設定できます。 設定が完了すると、パブリッシングプリセットは、新しく作成したDITA マップに対してパブリッシャーで使用できるようになります。 既存のDITA マップに公開プリセットを適用することもできます。詳しくは、[&#x200B; プリセットの変更を適用](#id18AGD0K0OHS)を参照してください。
+  これらの出力プリセットを使用して、コンテンツを公開できます。 これらのプリセットは、グローバルプロファイルまたはフォルダーレベルのプロファイルの管理者が設定できます。 設定が完了すると、パブリッシングプリセットは、新しく作成したDITA マップに対してパブリッシャーで使用できるようになります。 既存のDITA マップに公開プリセットを適用することもできます。詳しくは、[ プリセットの変更を適用](#id18AGD0K0OHS)を参照してください。
 
 - **XML エディターの設定**：このタブを使用して、Web エディターのルックアンドフィールや様々な機能をカスタマイズします。 Web エディターでは、次の設定可能な設定を使用できます。
 
-   - XML エディターのUI設定
-   - XML エディターのページレイアウト
-   - XML エディター設定
-   - CSS テンプレートレイアウト
-   - XML エディターのスニペット
-   - XML コンテンツバージョンラベル
-   - Rootmap \（フォルダーレベルでのみ\）
+  - XML エディターのUI設定
+  - XML エディターのページレイアウト
+  - XML エディター設定
+  - CSS テンプレートレイアウト
+  - XML エディターのスニペット
+  - XML コンテンツバージョンラベル
+  - Rootmap \（フォルダーレベルでのみ\）
 
 グローバルプロファイルとフォルダーレベルのプロファイルの両方を設定できます。 フォルダーレベルのプロファイルでは、設定を適用するフォルダーを定義できます。 これらの設定には、条件付き属性、テンプレート、出力プリセット、およびXML エディターの設定が含まれます。 コンディショナルプリセット、テンプレート、およびXML エディターの設定は、設定されたフォルダーで作業する作成者が使用できるようになります。 同様に、パブリッシャーは、設定されたフォルダー内で定義された設定された出力プリセットにアクセスできます。
 
@@ -126,13 +145,13 @@ AEM Guidesでは、オーサリング \（topicまたはmap\） テンプレー�
 
 1. 「**グローバルプロファイル**」タイルをクリックします。
 
-1. **条件付き属性**&#x200B;を設定するには、[&#x200B; グローバルまたはフォルダーレベルのプロファイルの条件付き属性の設定](#id1889D0I305Z)を参照してください。
+1. **条件付き属性**&#x200B;を設定するには、[ グローバルまたはフォルダーレベルのプロファイルの条件付き属性の設定](#id1889D0I305Z)を参照してください。
 
-1. **テンプレート**&#x200B;を設定するには、[&#x200B; オーサリングテンプレートの設定](#id1889D0IL0Y4)を参照してください。
+1. **テンプレート**&#x200B;を設定するには、[ オーサリングテンプレートの設定](#id1889D0IL0Y4)を参照してください。
 
 1. **出力プリセット**&#x200B;を設定するには、[出力プリセットの設定](#id18AGD0IH0Y4)を参照してください。
 
-1. XML エディター設定を設定するには、[XML エディターの設定とカスタマイズ &#x200B;](#id2065G300O5Z)を参照してください。
+1. XML エディター設定を設定するには、[XML エディターの設定とカスタマイズ ](#id2065G300O5Z)を参照してください。
 
 1. 必要なすべての更新を行ったら、**グローバルプロファイル**&#x200B;を保存して閉じます。
 
@@ -258,7 +277,7 @@ AEM Guidesでは、オーサリング \（topicまたはmap\） テンプレー�
 
 AEM Guidesには、すぐに使用できる7つのトピックテンプレート、2つのDITA マップテンプレート、3つのPDF テンプレートが用意されています。 作成者とパブリッシャーが利用できるテンプレートの数を制限することができます。 カスタムテンプレートを使用する場合は、同じものを設定し、オーサリングと公開に利用できるようにします。 フォルダープロファイル設定の「**テンプレート**」タブを使用して、グローバルまたはフォルダーレベルのプロファイルからトピック、マップ、またはPDF テンプレートを追加または削除します。
 
-トピック、マップ、またはPDF テンプレートをグローバルレベルまたはフォルダーレベルで設定する前でも、カスタムテンプレートを保存する場所を定義することもできます。 テンプレートを保存するカスタムの場所を設定するには、[&#x200B; カスタム DITA テンプレートフォルダーパスの設定](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z)を参照してください。
+トピック、マップ、またはPDF テンプレートをグローバルレベルまたはフォルダーレベルで設定する前でも、カスタムテンプレートを保存する場所を定義することもできます。 テンプレートを保存するカスタムの場所を設定するには、[ カスタム DITA テンプレートフォルダーパスの設定](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z)を参照してください。
 
 トピック、マップ、またはPDF テンプレートをフォルダープロファイルに追加するには、次の手順を実行します。
 
@@ -281,7 +300,7 @@ AEM Guidesには、すぐに使用できる7つのトピックテンプレート
 
    >[!NOTE]
    >
-   > デフォルトでは、すべてのテンプレートは/content/dam/dita-templates フォルダーに保存されます。 `dita-templates` フォルダーには、`topics`、`maps`、および`PDF`個のサブフォルダーが含まれており、トピック、マップ、およびPDF テンプレートを格納できます。 カスタムテンプレート \（.dita、.xmlまたは.ditamapfiles\）は、デフォルトのテンプレートフォルダーに追加できます。 デフォルトのフォルダーにテンプレートを追加すると、グローバルプロファイルまたはフォルダープロファイルにテンプレートを追加できるようになります。 Web エディターを使用したカスタムテンプレートの作成について詳しくは、[&#x200B; カスタムオーサリングテンプレートの作成](#id1917D0EG0HJ)を参照してください。
+   > デフォルトでは、すべてのテンプレートは/content/dam/dita-templates フォルダーに保存されます。 `dita-templates` フォルダーには、`topics`、`maps`、および`PDF`個のサブフォルダーが含まれており、トピック、マップ、およびPDF テンプレートを格納できます。 カスタムテンプレート \（.dita、.xmlまたは.ditamapfiles\）は、デフォルトのテンプレートフォルダーに追加できます。 デフォルトのフォルダーにテンプレートを追加すると、グローバルプロファイルまたはフォルダープロファイルにテンプレートを追加できるようになります。 Web エディターを使用したカスタムテンプレートの作成について詳しくは、[ カスタムオーサリングテンプレートの作成](#id1917D0EG0HJ)を参照してください。
 
    ![](assets/search-author-temp.png){width="800"}
 
@@ -328,7 +347,7 @@ AEM Guidesでは、オーサリングテンプレートを簡単に作成でき�
 
    >[!NOTE]
    >
-   > トピックまたはマップテンプレートを保存するカスタム場所を設定するには、[&#x200B; カスタム DITA テンプレートフォルダーパスの設定](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z)を参照してください
+   > トピックまたはマップテンプレートを保存するカスタム場所を設定するには、[ カスタム DITA テンプレートフォルダーパスの設定](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z)を参照してください
 
 1. **作成** \> **DITA テンプレート**&#x200B;をクリックします。
 
@@ -435,7 +454,7 @@ AEM Guidesを使用すると、管理者は特定の設定を使用して出力�
 
 ## スマートヘルプとオーサリング用にAI アシスタントを設定する
 
-Experience Manager Guides as a Cloud Service （![AEM cloud &#x200B;](assets/aem-cloud-icon.svg)）の場合。
+Experience Manager Guides as a Cloud Service （![AEM cloud ](assets/aem-cloud-icon.svg)）の場合。
 
 Adobe Experience Manager GuidesのAI アシスタントは、スマートなオーサリングとコンテンツ再利用の体験を通じて、コンテンツの質を向上させるように設計された、AIを活用したパワフルなツールです。 **オーサリング**&#x200B;と&#x200B;**ヘルプ**&#x200B;の2つの堅牢なAI機能をExperience Manager Guides インターフェイスに統合し、ドキュメントのオーサリングと情報へのアクセスをより迅速かつ効率的におこなうことができます。
 
@@ -457,7 +476,7 @@ AIを活用したスマート提案を設定し、作成者が既存のコンテ
 
 1. プロファイルページで、「**AI設定**」タブを選択します。
 
-   ![&#x200B; グローバルプロファイルの「AI設定」タブ &#x200B;](assets/global-profile-AI-configuration-cs.png) {width="800"}
+   ![ グローバルプロファイルの「AI設定」タブ ](assets/global-profile-AI-configuration-cs.png) {width="800"}
 
 1. 「**編集**」を選択します。
 1. 管理者は、次の設定を行うことができます。
@@ -476,7 +495,7 @@ AIを活用したスマート提案を設定し、作成者が既存のコンテ
 
    **最大の提案**: コンテンツのオーサリング中に作成者が取得できる提案の最大数を入力します。 例えば、この数値が5の場合、作成者は5つ以下のスマートな提案を表示できます。
 
-   **ファイルとフォルダー**: スマート提案を表示するフォルダーを選択します。 フォルダープロファイル内の指定されたフォルダーパスの子フォルダーのみを選択できます。 詳しくは、[&#x200B; フォルダープロファイルの制限](#folder-profile-restrictions)を参照してください。
+   **ファイルとフォルダー**: スマート提案を表示するフォルダーを選択します。 フォルダープロファイル内の指定されたフォルダーパスの子フォルダーのみを選択できます。 詳しくは、[ フォルダープロファイルの制限](#folder-profile-restrictions)を参照してください。
 
    *コンテンツの一貫性を維持するために、リスト内の2つのエントリに共通のファイルがないことをお勧めします*。 ファイルとフォルダーを選択すると、一覧が表示されます。
 
@@ -521,9 +540,9 @@ Web エディターでオーサリング中にコンテンツ参照を追加す�
 
 **スマートヘルプのデフォルトの質問をカスタマイズ**
 
-Experience Manager Guides as a Cloud Service （![AEM cloud &#x200B;](assets/aem-cloud-icon.svg)）の場合。
+Experience Manager Guides as a Cloud Service （![AEM cloud ](assets/aem-cloud-icon.svg)）の場合。
 
-AIを活用したスマート **ヘルプ**&#x200B;を設定して、作成者が質問し、[Experience Manager Guides ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/overview)から必要なコンテンツを簡単に見つけられるようにすることができます。
+AIを活用したスマート **ヘルプ**&#x200B;を設定して、作成者が質問し、[Experience Manager Guides ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)から必要なコンテンツを簡単に見つけられるようにすることができます。
 
 「**XML エディター設定**」タブでは、**ヘルプ** パネルのデフォルトの質問を設定できます。
 
@@ -564,7 +583,7 @@ AIを活用したスマート **ヘルプ**&#x200B;を設定して、作成者�
    > ファイルを保存すると、デフォルトの質問が&#x200B;**スマートヘルプ** パネルに表示されます。
 
 
-[AIを活用したスマートヘルプ &#x200B;](../user-guide/ai-based-smart-help.md)を使用して、必要なコンテンツを見つける方法について詳しくは、Experience Manager Guides ドキュメントを参照してください。
+[AIを活用したスマートヘルプ ](../user-guide/ai-based-smart-help.md)を使用して、必要なコンテンツを見つける方法について詳しくは、Experience Manager Guides ドキュメントを参照してください。
 
 
 ## XML エディターの設定とカスタマイズ {#id2065G300O5Z}
@@ -575,7 +594,7 @@ AIを活用したスマート **ヘルプ**&#x200B;を設定して、作成者�
 
 この設定を使用すると、`ui_config.json` ファイルで行われた変更を反映するJSON拡張機能を作成できます。 これらの拡張機能は、フォルダープロファイルレベルで個別にアップロードでき、柔軟性とカスタマイズ性が向上します。 例えば、ボタンの更新など、**XML エディター設定**&#x200B;に変更を加えた場合、システムは違いを自動的に識別します。 これらの変更を&#x200B;**XML エディターのUI設定**&#x200B;にアップロードし、**UI設定をJSON**&#x200B;に変換ボタンを使用してJSON拡張機能に変換すると、新しい機能を組み込んだ拡張機能が生成されます。
 
-[新しいAEM Guides Editor](https://experienceleague.adobe.com/ja/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config)のJSON設定のカスタマイズとUI設定の変換について詳しく説明します。
+[新しいAEM Guides Editor](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config)のJSON設定のカスタマイズとUI設定の変換について詳しく説明します。
 
 >[!NOTE]
 >
@@ -587,7 +606,7 @@ AIを活用したスマート **ヘルプ**&#x200B;を設定して、作成者�
 
 **XML エディター設定**
 
-この設定は、ツールバーとエディターのその他のユーザーインターフェイス要素を制御します。 **ダウンロード** アイコンを選択して、ローカルシステムに`ui\_config.json` ファイルをダウンロードします。 その後、ファイルに変更を加え、同じようにアップロードできます。 ファイルをアップロードする場所、グローバルレベルまたはフォルダーレベルのプロファイルに応じて、変更が適切に適用されます。 `ui\_config.json file`を使用してXML エディターをカスタマイズする方法の詳細については、[&#x200B; ツールバーのカスタマイズ &#x200B;](conf-web-editor-customize-toolbar.md#)を参照してください。
+この設定は、ツールバーとエディターのその他のユーザーインターフェイス要素を制御します。 **ダウンロード** アイコンを選択して、ローカルシステムに`ui\_config.json` ファイルをダウンロードします。 その後、ファイルに変更を加え、同じようにアップロードできます。 ファイルをアップロードする場所、グローバルレベルまたはフォルダーレベルのプロファイルに応じて、変更が適切に適用されます。 `ui\_config.json file`を使用してXML エディターをカスタマイズする方法の詳細については、[ ツールバーのカスタマイズ ](conf-web-editor-customize-toolbar.md#)を参照してください。
 
 >[!NOTE]
 >

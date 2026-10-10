@@ -5,27 +5,40 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: d48709b8-f5b2-4545-ac65-838c5d8b1bae
-TQID: https://experienceleague.adobe.com/mzWOXyP0Zr-tScAYAc4R1BBm9LaFKVhOIRbbb9DrVRQ
+TQID: 'https://experienceleague.adobe.com/mzWOXyP0Zr-tScAYAc4R1BBm9LaFKVhOIRbbb9DrVRQ'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
+  - id: e557051c-ff02-4ff8-9421-cf452af0edd5
+    internal-label: Installation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 9555f90917819727b77daea4520b6bba2350129f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 951
+source-wordcount: '951'
 ht-degree: 2%
-
 ---
-
 # AEM Guides用の既存のAEM サイトテンプレートのカスタマイズ
 
 このガイドでは、既存のAEM サイトテンプレートをカスタマイズしてAEM Guidesで使用し、DITA マップやトピックからAEM Sitesを生成する手順を説明します。
@@ -40,8 +53,8 @@ ht-degree: 2%
 - 編集可能なテンプレートを使用して作成された既存のサイト階層があります。
 - 既存のプロジェクトから少なくとも2つのテンプレートがあります。
 
-   - DITA マップをドキュメントのルートとしてレンダリングするために使用される&#x200B;**ドキュメントコンテナページテンプレート**。
-   - 個別のDITA トピックページのレンダリングに使用される&#x200B;**トピックページテンプレート**。
+  - DITA マップをドキュメントのルートとしてレンダリングするために使用される&#x200B;**ドキュメントコンテナページテンプレート**。
+  - 個別のDITA トピックページのレンダリングに使用される&#x200B;**トピックページテンプレート**。
 
 ## テンプレートの命名に関する考慮事項
 
@@ -71,7 +84,7 @@ AEM サイトから2つの編集可能なテンプレートを選択して設定
 
 - 必須プロパティを持つテキストコンポーネントを追加します：text=&quot;$category.html$&quot;。
 
-  ![&#x200B; テキストコンポーネントの追加](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component.png){width="650"}
+  ![ テキストコンポーネントの追加](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component.png){width="650"}
 
 - 通常は、ドキュメント内のセクションやトピックへのリンクなどのナビゲーション要素が含まれます。
 - ブランディング、ヘッダー、フッター、その他のデザイン要素を含めるようにカスタマイズできます。
@@ -88,15 +101,15 @@ AEM サイトから2つの編集可能なテンプレートを選択して設定
   ![必須プロパティを含むテキストコンポーネントを追加する](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component-mandatory-property.png){width="650"}
 
 - このプレースホルダーは、サイト生成時にDITA トピックの実際のコンテンツに置き換えられます。
-   - テキストコンポーネントは通常、**コンテナコンポーネント**&#x200B;内に配置され、適切なレイアウトとスタイル設定が行われます。
-   - あらゆるトピックページをまたいで、ヘッダー、フッター、ナビゲーション要素の一貫性を維持するようにカスタマイズできます。
+  - テキストコンポーネントは通常、**コンテナコンポーネント**&#x200B;内に配置され、適切なレイアウトとスタイル設定が行われます。
+  - あらゆるトピックページをまたいで、ヘッダー、フッター、ナビゲーション要素の一貫性を維持するようにカスタマイズできます。
 
 **使用例：**
 「インストール手順」に関するDITA トピックがある場合、トピックページテンプレートはそのトピックのコンテンツを表示するページを生成します。
 
 **コンテナコンポーネント：**
 
-![&#x200B; コンテナコンポーネントの追加](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-component.png){width="650"}
+![ コンテナコンポーネントの追加](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-component.png){width="650"}
 
 >[!NOTE]
 >
@@ -104,7 +117,7 @@ AEM サイトから2つの編集可能なテンプレートを選択して設定
 
 同じテンプレートの構造に同じコンテナコンポーネントを追加します。
 
-![&#x200B; コンテナとテキストコンポーネントの追加](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-and-text-component.png){width="650"}
+![ コンテナとテキストコンポーネントの追加](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-and-text-component.png){width="650"}
 
 ## カスタマイズされたテンプレートでのGuides コンポーネントのレンダリング
 
@@ -149,9 +162,9 @@ AEM サイトから2つの編集可能なテンプレートを選択して設定
 
 3. **変更を保存：**&#x200B;必要なクライアントライブラリを追加した後にテンプレートを保存します。
 
-   ![&#x200B; クライアントライブラリを追加](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-client-libraries.png){width="650"}
+   ![ クライアントライブラリを追加](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-client-libraries.png){width="650"}
 
 
 >[!NOTE]
 >
-> 実稼動環境にデプロイする前に、テンプレートが実稼動以外の環境でテストされていることを確認します。<br><br>詳細については、[AEM Guides](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/overview)および[AEM Sites](https://experienceleague.adobe.com/ja/docs/experience-manager-core-components/using/get-started/authoring)の公式ドキュメントを参照してください。
+> 実稼動環境にデプロイする前に、テンプレートが実稼動以外の環境でテストされていることを確認します。<br><br>詳細については、[AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)および[AEM Sites](https://experienceleague.adobe.com/ja/docs/experience-manager-core-components/using/get-started/authoring)の公式ドキュメントを参照してください。

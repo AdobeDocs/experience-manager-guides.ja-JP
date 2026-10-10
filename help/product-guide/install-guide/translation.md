@@ -5,26 +5,36 @@ exl-id: 0d3a909c-3499-4ef4-b033-02e412dae959
 feature: Translation
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/z-F7BZkijY3MNcgHYJvw3ZxqCRldK0qWAdGoClTWNYo
+TQID: 'https://experienceleague.adobe.com/z-F7BZkijY3MNcgHYJvw3ZxqCRldK0qWAdGoClTWNYo'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: 626b0638-bd2d-504c-8ccd-53d63b856710
+    internal-label: Translation
 subfeature_v2:
   - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1088
+source-wordcount: '1088'
 ht-degree: 12%
-
 ---
-
 # コンテンツの翻訳 {#id181GB0400UI}
 
 ページコンテンツ、アセットおよびユーザー生成コンテンツの翻訳を自動化して、多言語の web サイトを作成および管理します。 翻訳ワークフローを自動化するには、翻訳サービスプロバイダーと AEM とを統合して、コンテンツを複数の言語に翻訳するためのプロジェクトを作成します。 AEM では人間による翻訳と機械翻訳のワークフローがサポートされます。
@@ -36,17 +46,17 @@ ht-degree: 12%
 
 コンテンツの翻訳には次の手順が含まれます。
 
-1. AEMを[翻訳サービスプロバイダー](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider)と接続し、[翻訳インテグレーションフレームワーク設定](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration)を作成します。
+1. AEMを[翻訳サービスプロバイダー](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider)と接続し、[翻訳インテグレーションフレームワーク設定](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration)を作成します。
 
-1. 言語マスターのページを[翻訳サービスとフレームワーク設定](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation)に関連付けます。
+1. 言語マスターのページを[翻訳サービスとフレームワーク設定](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation)に関連付けます。
 
-1. 翻訳する[&#x200B; コンテンツの種類](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/tc-rules.html?lang=ja-JP)を特定します。
+1. 翻訳する[ コンテンツの種類](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-rules.html?lang=ja-JP)を特定します。
 
 1. [翻訳するコンテンツを準備](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/tc-prep.html)します。そのためには、言語マスターをオーサリングして、言語コピーのルートページを作成します。
 
-1. 翻訳するコンテンツを収集し、翻訳プロセスを準備するために、[翻訳プロジェクト &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/administering/introduction/tc-manage.html?lang=ja)を作成します。
+1. 翻訳するコンテンツを収集し、翻訳プロセスを準備するために、[翻訳プロジェクト ](https://experienceleague.adobe.com/docs/experience-manager-65/administering/introduction/tc-manage.html?lang=ja)を作成します。
 
-1. 翻訳プロジェクトを使用して、[&#x200B; コンテンツ翻訳](https://experienceleague.adobe.com/docs/experience-manager-65/administering/introduction/tc-manage.html?lang=ja) プロセスを管理します。
+1. 翻訳プロジェクトを使用して、[ コンテンツ翻訳](https://experienceleague.adobe.com/docs/experience-manager-65/administering/introduction/tc-manage.html?lang=ja) プロセスを管理します。
 
 
 翻訳サービスプロバイダーがAEMとの統合にコネクタを提供しない場合、AEMでは、翻訳されたコンテンツのXML形式での手作業による書き出しと読み込みがサポートされます。
@@ -101,7 +111,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   > 翻訳コネクタを使用している場合は、AEM ドキュメントの「*[Translation Integration Frameworkの設定](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/tc-tic.html)*」のトピックで説明されているように、コネクタが設定されていることを確認してください。
+   > 翻訳コネクタを使用している場合は、AEM ドキュメントの「*[Translation Integration Frameworkの設定](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html)*」のトピックで説明されているように、コネクタが設定されていることを確認してください。
 
 1. 「**保存**」をクリックします。
 

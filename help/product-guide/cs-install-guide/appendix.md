@@ -5,7 +5,7 @@ exl-id: 71b09039-b220-45f3-b334-c23f5b09dadc
 feature: InDesign File Conversion, Troubleshooting
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/etvy4eVDOfc8wWTt4LDk-XtEbAvQxESduB3-N114X-0
+TQID: 'https://experienceleague.adobe.com/etvy4eVDOfc8wWTt4LDk-XtEbAvQxESduB3-N114X-0'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -14,15 +14,27 @@ product_v2:
 feature_v2:
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
     internal-label: Reports
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: f118db50-bb08-4bfa-a602-3b196f1f8882
+    internal-label: InDesign file conversion
+  - id: e13e7f13-0f4c-43f9-b0a7-1f33bd47e105
+    internal-label: Troubleshooting
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: d5800bf2b6aa807975b6c12c20bfb340a015b830
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '2866'
 ht-degree: 0%
@@ -86,7 +98,7 @@ DITA エディターでDITA コンテンツを適切な順序に変更するこ�
 
 ***テキスト枠をスレッド化***
 
-InDesignでは、1つのフレームを別のフレームにリンクするプロセスに&#x200B;*&#39;スレッド&#39;*&#x200B;という用語を使用しています。 テキスト枠のスレッド化について詳しくは、InDesign ドキュメントの&#x200B;*[テキストのスレッド &#x200B;](https://helpx.adobe.com/in/indesign/using/threading-text.html)*&#x200B;のトピックを参照してください。
+InDesignでは、1つのフレームを別のフレームにリンクするプロセスに&#x200B;*&#39;スレッド&#39;*&#x200B;という用語を使用しています。 テキスト枠のスレッド化について詳しくは、InDesign ドキュメントの&#x200B;*[テキストのスレッド ](https://helpx.adobe.com/in/indesign/using/threading-text.html)*&#x200B;のトピックを参照してください。
 
 ***重なり合うフレーム***
 
@@ -359,7 +371,7 @@ InDesignの表スタイルを使用すると、列とセルの罫線を交互の
 
 `paragraphStyleRule`要素について次に説明します。
 
-**&#x200B; `paraRule`要素**
+** `paraRule`要素**
 
 `paraRule`要素は必須です。 すべての段落スタイルのマッピングルールを指定します。 InDesign ドキュメントでは、すべてのテキストが段落スタイルのサブ構造内に含まれます。スタイルのない段落も`\[No paragraph style\]`という名前になります。 正方形の角かっこ、これらは組み込みのInDesign スタイル名を示します。
 

@@ -4,7 +4,7 @@ description: エディターのタブバーについて説明します。 Adobe 
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 02e45d34-898f-411c-bd80-bd4f2364b7d7
-TQID: https://experienceleague.adobe.com/sqNExkYi3iIqIxC7mdlhWw-59-LcAXCOU8w7GD63d8Q
+TQID: 'https://experienceleague.adobe.com/sqNExkYi3iIqIxC7mdlhWw-59-LcAXCOU8w7GD63d8Q'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -15,6 +15,8 @@ feature_v2:
     internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
     internal-label: Configuration
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
     internal-label: Editor
@@ -23,7 +25,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 0%
@@ -54,7 +56,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 管理者は、タブ内のファイル名でファイルのリストを表示することもできます。 [&#x200B; ユーザー設定](./intro-home-page.md#user-preferences)の「**エディターファイル表示設定**」セクションで「**ファイル名**」オプションを選択します。
+> 管理者は、タブ内のファイル名でファイルのリストを表示することもできます。 [ ユーザー設定](./intro-home-page.md#user-preferences)の「**エディターファイル表示設定**」セクションで「**ファイル名**」オプションを選択します。
 
 「ファイル」タブを選択すると、「新しいバージョンとして保存」、「コピー」、「検索」、「追加先」、「プロパティ」、「分割」、「PDFとしてダウンロード」、「閉じる」オプションを備えたコンテキストメニューが開きます。
 
@@ -72,11 +74,11 @@ ht-degree: 0%
 >
 > お客様の環境でAI アシスタント機能のエージェンティックモードを使用する場合は、カスタマーサクセス部門にお問い合わせください。 この機能を有効にした後、管理者はWorkspaceの設定から有効または無効にできます。 AI アシスタントのモードは、エージェント型または標準のどちらか1つしか有効にできません。
 
-- **エージェント型**: Adobe CX Enterprise Coworkerのインテリジェントなエージェント型スマートタグ付けスキルをエディターに取り込み、自然で会話型のコンテンツタグ付けを可能にします。 コンテンツを分析し、関連するタグを提案し、一貫性のある正確なメタデータを最小限の労力で適用できます。 提案されたタグを確認し、選択を確定する前に適用または却下することを選択できます。 [&#x200B; エージェンティックモードでAI アシスタントを使用](../user-guide/ai-assistant-agentic.md)すると、タグ付けプロセスが効率化され、コンテンツの整理と見つけやすさが向上します。
+- **エージェント型**: Adobe CX Enterprise Coworkerのインテリジェントなエージェント型スマートタグ付けスキルをエディターに取り込み、自然で会話型のコンテンツタグ付けを可能にします。 コンテンツを分析し、関連するタグを提案し、一貫性のある正確なメタデータを最小限の労力で適用できます。 提案されたタグを確認し、選択を確定する前に適用または却下することを選択できます。 [ エージェンティックモードでAI アシスタントを使用](../user-guide/ai-assistant-agentic.md)すると、タグ付けプロセスが効率化され、コンテンツの整理と見つけやすさが向上します。
 
 - **Standard**: スマートヘルプ機能を使用して生産性を向上させるように設計された、AIを活用した強力なツールです。 さらに、エディターのインターフェイスで作業する際には、AI アシスタントのスマートオーサリング機能を活用できます。これにより、コンテンツの再利用と最適化に関するインテリジェントな提案を通じて、オーサリングプロセスをよりスマートかつ迅速におこなうことができます。
 
-[AI アシスタント &#x200B;](./ai-assistant.md)機能は現在、Adobe Experience Manager as Cloud Serviceでのみ使用できます。
+[AI アシスタント ](./ai-assistant.md)機能は現在、Adobe Experience Manager as Cloud Serviceでのみ使用できます。
 
 **ビューを展開**: **展開** アイコンを使用してページビューを展開できます。 このビューでは、Adobe Experience Manager ロゴを含むヘッダーバーは非表示になっています。 これにより、編集のためのコンテンツスペースが最大化されます。 標準ビューに戻るには、**拡張ビュー**&#x200B;を終了アイコンを使用します。
 
@@ -92,6 +94,6 @@ ht-degree: 0%
 >
 >バージョン 5.2より前のオンプレミス設定でAdobe Experience Manager Guidesを使用している場合、Workspace設定オプションは、その他のアクション メニューの下に&#x200B;**Settings**&#x200B;として引き続き表示されます。
 
-- **エディター設定**: エディター設定ダイアログに移動し、個々の作成者レベルでエディターの動作をカスタマイズできます。 オーサリング時に、タグ、コメント、その他のエディターレベルの設定の表示と動作を制御できます。 詳しくは、[&#x200B; エディター設定](../user-guide/config-editor-settings.md)を参照してください。
+- **エディター設定**: エディター設定ダイアログに移動し、個々の作成者レベルでエディターの動作をカスタマイズできます。 オーサリング時に、タグ、コメント、その他のエディターレベルの設定の表示と動作を制御できます。 詳しくは、[ エディター設定](../user-guide/config-editor-settings.md)を参照してください。
 
-**親トピック：**&#x200B;[&#x200B; エディターの概要](web-editor.md)
+**親トピック：**[ エディターの概要](web-editor.md)

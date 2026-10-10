@@ -5,24 +5,31 @@ exl-id: 00bc894a-031e-4d09-bd30-331399fedbc8
 feature: Output Generation
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/DLj96sH6jNX2uDY8yey-pLRvx0bD7tBry3P-s56BkUw
+TQID: 'https://experienceleague.adobe.com/DLj96sH6jNX2uDY8yey-pLRvx0bD7tBry3P-s56BkUw'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
 subfeature_v2:
   - id: d6596f3f-92a7-43ec-b444-237db6adad05
+    internal-label: Native PDF publishing
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 202
+source-wordcount: '202'
 ht-degree: 0%
-
 ---
-
 # PDFとのネイティブな連携
 
 AEM Guidesでは、PDF出力のネイティブ生成機能を使用して、個々のトピックのPDFやマップファイルを生成できます。 PDF出力の生成時に、PDF テンプレートをカスタマイズして使用できます。 ページレイアウトを作成およびデザインして、必要に応じてPDF出力の様々なセクションを表示できます。
@@ -38,9 +45,9 @@ AEM Guidesでは、PDF出力のネイティブ生成機能を使用して、個�
 * [PDF出力の変数](../native-pdf/native-pdf-variables.md)
 * [PDF出力にバーコードを追加する](../native-pdf/add-barcode.md)
 * 共通のコンテンツスタイル {#content-styles}
-   * [共通のコンテンツスタイルを使用する](../native-pdf/stylesheet.md)
-   * [カスタム改訂バーのスタイルの操作](../native-pdf/change-bar-style.md)
-   * [目次エントリとトピックコンテンツにカスタムスタイルを適用する](../native-pdf/custom-style-toc.md)
-   * [PDF出力にカスタムブックマークを追加する](../native-pdf/add-custom-bookmark.md)
-   * [JavaScriptを使用したコンテンツやスタイルの操作](../native-pdf/use-javascript-content-style.md)
-   * [脚注でのカスタムスタイルの使用](../native-pdf/footnote-number-style.md)
+  * [共通のコンテンツスタイルを使用する](../native-pdf/stylesheet.md)
+  * [カスタム改訂バーのスタイルの操作](../native-pdf/change-bar-style.md)
+  * [目次エントリとトピックコンテンツにカスタムスタイルを適用する](../native-pdf/custom-style-toc.md)
+  * [PDF出力にカスタムブックマークを追加する](../native-pdf/add-custom-bookmark.md)
+  * [JavaScriptを使用したコンテンツやスタイルの操作](../native-pdf/use-javascript-content-style.md)
+  * [脚注でのカスタムスタイルの使用](../native-pdf/footnote-number-style.md)

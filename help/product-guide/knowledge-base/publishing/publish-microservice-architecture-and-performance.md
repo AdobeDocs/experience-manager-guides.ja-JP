@@ -4,28 +4,37 @@ description: 新しいマイクロサービスが、AEMaaCSでのスケーラブ
 exl-id: 948fce3f-b989-48f0-9a85-e921717e2986
 feature: Microservice in AEM Guides
 role: User, Admin
-TQID: https://experienceleague.adobe.com/dXRfQ3DBW-1l-4hy5H0yowfXntJ3jcLU5bHvkquJBOY
+TQID: 'https://experienceleague.adobe.com/dXRfQ3DBW-1l-4hy5H0yowfXntJ3jcLU5bHvkquJBOY'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: b455a250-64c4-4598-b015-7b6b6dc528b1
+    internal-label: Workflow configuration
+  - id: ee44b950-990d-4271-90e4-464bdf208628
+    internal-label: Microservice in AEM Guides
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Insights
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 753
+source-wordcount: '753'
 ht-degree: 0%
-
 ---
-
 # クラウドパブリッシングのマイクロサービスアーキテクチャとパフォーマンス分析
 
 この記事では、新しいクラウドパブリッシングマイクロサービスのアーキテクチャとパフォーマンス番号に関するインサイトを共有します。
@@ -97,4 +106,4 @@ DITA公開は、主に利用可能なシステムメモリとCPUに依存する�
 
 各公開リクエストの一部は、マイクロサービスに送信する正しい公開コンテンツを取得するために、AEM インスタンスで実行する必要があります。 新しいクラウドアーキテクチャでは、従来のアーキテクチャと同様に、AEM ワークフローの代わりにAEM ジョブを使用します。 この変更により、AEM Guides管理者は、他のAEM ジョブやワークフロー設定に影響を与えることなく、クラウド公開キュー設定を個別に設定できます。
 
-新しいパブリッシュマイクロサービスの設定方法の詳細については、こちらを参照してください。[&#x200B; マイクロサービスの設定](configure-microservices.md)
+新しいパブリッシュマイクロサービスの設定方法の詳細については、こちらを参照してください。[ マイクロサービスの設定](configure-microservices.md)

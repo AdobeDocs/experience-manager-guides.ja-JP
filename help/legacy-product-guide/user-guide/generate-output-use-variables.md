@@ -5,23 +5,31 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 19d9121f-6b72-445c-a7d9-07f00026b654
-TQID: https://experienceleague.adobe.com/ECHcQjwfY4veo70H3MRXO0C0F3Wx3-3X-vgVMnUC-3s
+TQID: 'https://experienceleague.adobe.com/ECHcQjwfY4veo70H3MRXO0C0F3Wx3-3X-vgVMnUC-3s'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 393
+source-wordcount: '396'
 ht-degree: 0%
-
 ---
-
 # 変数を使用して、宛先パス、サイト名またはファイル名のオプションを設定します
 
 
@@ -41,4 +49,4 @@ AEM サイトまたはPDFで出力を生成する際に、変数を使用して�
 | `${system_time}` | 現在のサーバー時間を使用して、宛先パスを作成します。 | **DITA マップファイル名：** <br>`SampleDita.ditamap` <br> <br> **DITA マップファイルのパス：** <br>`/content/dam/projects/AEM-Guides/en/user-guide/` <br><Br>**宛先パス**&#x200B;が<br>として設定されました `/content/output/sites/${system_time}`<br><br>**最終的な出力場所：**<br>`/content/output/sites/055612/SampleDita.html` |
 
 さらに、DITA マップファイルまたはブックマップファイルに定義されているメタデータを変数として使用することもできます。 メタデータは、DITA マップまたはブックマップファイルの`/jcr:content/metadata` ノードにあります。 例えば、`/jcr:content/metadata` ノードで定義されているメタデータプロパティの1つは`dc:title`です。 `${dc:title}`を指定すると、タイトルの値が最終的な出力で使用されます。
-**親トピック：**&#x200B;[&#x200B;出力生成](generate-output.md)
+**親トピック：**[&#x200B;出力生成](generate-output.md)

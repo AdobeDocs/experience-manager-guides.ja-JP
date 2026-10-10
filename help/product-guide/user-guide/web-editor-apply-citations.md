@@ -4,24 +4,30 @@ description: AEM Guidesで引用を追加および管理します。 引用を�
 exl-id: 685d747d-e017-4350-a6bf-822fd55c76e8
 feature: Authoring, Features of Web Editor
 role: User
-TQID: https://experienceleague.adobe.com/FHH8Sah-KUCBl7R3XRrKXgW3aNcaeTkzJnDqRBg6OWU
+TQID: 'https://experienceleague.adobe.com/FHH8Sah-KUCBl7R3XRrKXgW3aNcaeTkzJnDqRBg6OWU'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4eddfbe75d7dba679c1a414369394827162706f9
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1890
-ht-degree: 0%
-
+source-wordcount: '1968'
+ht-degree: 1%
 ---
-
 # コンテンツ内の引用の追加と管理
 
 引用は、コンテンツに追加された情報のソースへの参照です。 引用を使用すると、ソース情報の作成者にクレジットを割り当て、読者がソース情報をフォローアップするのに役立ちます。 引用を追加すると、コンテンツの信頼性が向上し、盗用を防ぐことができます。 また、入念に調査されたコンテンツを表示することができます。
@@ -42,19 +48,19 @@ Experience Manager Guidesは、Modern Language Association （MLA）、American 
 
 引用を追加するには、次の手順に従います。
 
-1. 左側のパネルで「**引用** ![引用アイコン &#x200B;](images/citations-icon.svg)」アイコンを選択します。
+1. 左側のパネルで「**引用** ![引用アイコン ](images/citations-icon.svg)」アイコンを選択します。
 
    **引用** パネルが開きます。
 
    ![](images/citation-panel.png){width="350"}
 
-1. **引用** パネルで、![&#x200B; アイコンを追加](images/Add_icon.svg)を選択します。 ドロップダウンから、新しい引用を追加するか、引用を読み込むかを選択できます。
+1. **引用** パネルで、![ アイコンを追加](images/Add_icon.svg)を選択します。 ドロップダウンから、新しい引用を追加するか、引用を読み込むかを選択できます。
 
 1. **New citation**&#x200B;を選択して、新しいcitationを追加します。
 
    **引用を追加** ダイアログボックスが開きます。
 
-   web エディターの![引用パネル &#x200B;](images/citation-add.png) {width="300"}
+   web エディターの![引用パネル ](images/citation-add.png) {width="300"}
 
 
 1. **引用を追加** ダイアログボックスのフィールドに入力します。
@@ -91,11 +97,11 @@ Experience Manager Guidesは、Modern Language Association （MLA）、American 
 
 引用を読み込むには、次の手順に従います。
 
-1. 左側のパネルで、**引用** ![引用アイコン &#x200B;](images/citations-icon.svg)を選択します。
+1. 左側のパネルで、**引用** ![引用アイコン ](images/citations-icon.svg)を選択します。
 
    **引用** パネルが開きます。
 
-1. **引用** パネルで、![&#x200B; アイコンを追加](images/Add_icon.svg)を選択し、ドロップダウンから&#x200B;**読み込み**&#x200B;を選択します。
+1. **引用** パネルで、![ アイコンを追加](images/Add_icon.svg)を選択し、ドロップダウンから&#x200B;**読み込み**&#x200B;を選択します。
 1. システムから.bib ファイルを参照して読み込みます。
 
    >[!TIP]
@@ -106,7 +112,7 @@ Experience Manager Guidesは、Modern Language Association （MLA）、American 
 
    >[!NOTE]
    > <ol><li> Experience Manager Guidesは、一意で、まだ存在しない引用のみを読み込みます。
-   > &gt; <li> Experience Manager Guidesは、ブック、ジャーナル、またはWeb サイトから引用を読み込むことができます。 現在、他のソースからの引用はサポートしていません。
+    &gt; <li> Experience Manager Guidesは、ブック、ジャーナル、またはWeb サイトから引用を読み込むことができます。 現在、他のソースからの引用はサポートしていません。
 
 ## 引用の管理
 
@@ -156,7 +162,7 @@ Experience Manager Guidesは、Modern Language Association （MLA）、American 
 
 **引用を編集** ダイアログボックスが開きます。
 
-1. 必要な変更を加えます。**完了**&#x200B;を選択します。
+1. 必要な変更を行います。 「**完了**」を選択します。
 選択した引用が編集されます。
 
 >[!NOTE]
@@ -196,12 +202,12 @@ Experience Manager Guidesは、Modern Language Association （MLA）、American 
 
 ### メインツールバーから
 
-1. メインツールバーの&#x200B;**引用** ![引用アイコン &#x200B;](images/citations-icon.svg) アイコンを選択します。
-1. **引用** ダイアログボックスで、引用を選択します。また、複数の引用を選択することもできます。
-   ![引用ダイアログ &#x200B;](images/citation-dialog-main-toolbar.png){width="300"}
+1. メインツールバーの&#x200B;**引用** ![引用アイコン ](images/citations-icon.svg) アイコンを選択します。
+1. **引用** ダイアログボックスで、引用を選択します。 また、複数の引用を選択することもできます。
+   ![引用ダイアログ ](images/citation-dialog-main-toolbar.png){width="300"}
 1. **引用** ダイアログボックスの検索パネルに最初のいくつかのアルファベットを入力すると、引用をフィルタリングできます。
 
-1. **完了**&#x200B;を選択します。
+1. 「**完了**」を選択します。
 選択した引用は、トピック内のカーソル位置に追加されます。
 
 
@@ -211,7 +217,7 @@ Experience Manager Guidesは、Modern Language Association （MLA）、American 
 > 
 >左側のパネルから&#x200B;**引用** アイコンを表示するには、システム管理者が&#x200B;**設定**&#x200B;の&#x200B;**パネル** タブで&#x200B;**引用** オプションを有効にする必要があります。
 
-1. 左側のパネルで「**引用** ![引用アイコン &#x200B;](images/citations-icon.svg)」アイコンを選択します。
+1. 左側のパネルで「**引用** ![引用アイコン ](images/citations-icon.svg)」アイコンを選択します。
 1. **引用** パネルから引用をドラッグし、トピック内の適切な場所にドロップします。
 
    ![](images/options.svg) **オプション**&#x200B;から&#x200B;**挿入**&#x200B;を選択して、引用を挿入することもできます。
@@ -237,7 +243,7 @@ Experience Manager Guidesは、Modern Language Association （MLA）、American 
 1. ![](images/options.svg) **オプション** アイコンを選択します。
 1. 「**削除** ![](images/Delete_icon.svg)」を選択します。
 確認ダイアログボックスが開きます。
-1. **はい**&#x200B;を選択します。
+1. 「**はい**」を選択します。
 選択した引用は、引用パネルから削除されます。
 
 
@@ -248,7 +254,7 @@ Experience Manager Guidesは、Modern Language Association （MLA）、American 
 
 トピックで、引用文の最後にカーソルを置きます。
 
-1. トピック内の引用を右クリックし、ショートカットメニューから「**引用を変更**」を選択します。引用ダイアログが開きます。
+1. トピック内の引用を右クリックし、ショートカットメニューから「**引用を変更**」を選択します。 引用ダイアログが開きます。
    ![引用のショートカットメニュー](./images/modify-citation.png)
 
 1. 文書に挿入する引用を選択できます。
@@ -266,10 +272,10 @@ Experience Manager Guidesは、Modern Language Association （MLA）、American 
 
 ネイティブ PDF出力では、引用文は挿入したコンテンツ内に表示されます。 また、参考文献ページを作成することもできます。 引用を選択すると、参考文献ページにリダイレクトされます。
 
-PDF テンプレートで&#x200B;**引用** ページレイアウトを作成し、ドキュメントに含めます。 ブックで使用されているすべての引用が、PDF出力に表示される1 ページに一覧表示されます。 ページレイアウトの作成について詳しくは、[&#x200B; ページレイアウトの作成](../native-pdf/components-pdf-template.md#create-page-layout)を参照してください。
+PDF テンプレートで&#x200B;**引用** ページレイアウトを作成し、ドキュメントに含めます。 ブックで使用されているすべての引用が、PDF出力に表示される1 ページに一覧表示されます。 ページレイアウトの作成について詳しくは、[ ページレイアウトの作成](../native-pdf/components-pdf-template.md#create-page-layout)を参照してください。
 
 
-引用ページの表示と操作性を変更するには、[PDF テンプレートのカスタマイズ &#x200B;](../native-pdf/pdf-template.md)を表示します。
+引用ページの表示と操作性を変更するには、[PDF テンプレートのカスタマイズ ](../native-pdf/pdf-template.md)を表示します。
 
 
 ### コンテンツのスタイルを引用に適用

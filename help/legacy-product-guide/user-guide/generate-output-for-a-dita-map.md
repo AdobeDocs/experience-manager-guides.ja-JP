@@ -5,26 +5,35 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 5c2a8239-e6eb-482b-a11b-3732e667c880
-TQID: https://experienceleague.adobe.com/gYpcLtTC6inOVLNQParI5LBheJHK-f5OWQbpvCp8bLQ
+TQID: 'https://experienceleague.adobe.com/gYpcLtTC6inOVLNQParI5LBheJHK-f5OWQbpvCp8bLQ'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Troubleshooting
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1421
+source-wordcount: '1421'
 ht-degree: 0%
-
 ---
-
 # マップコンソールからDITA マップの出力を生成する {#id1825FG00UHT}
 
 DITA マップの出力を生成するには、次の手順を実行します。
@@ -50,7 +59,7 @@ DITA マップの出力を生成するには、次の手順を実行します。
 >
 > プリセットの出力生成プロセスがキュー内または処理中の場合、同じプリセットに対して別の出力生成タスクを開始することはできません。
 
-Web エディターから、DITA マップ用に作成された1つ以上の出力プリセットのPDF出力を生成できます。 詳細については、[&#x200B; クイック生成パネルを使用してプリセットの出力を生成および表示する](web-editor-quick-generate-panel.md#)を参照してください。
+Web エディターから、DITA マップ用に作成された1つ以上の出力プリセットのPDF出力を生成できます。 詳細については、[ クイック生成パネルを使用してプリセットの出力を生成および表示する](web-editor-quick-generate-panel.md#)を参照してください。
 
 1つ以上のトピックのAEM サイト出力や、Web エディターからDITA マップ全体を生成することもできます。 詳しくは、[Web エディターからの記事ベースの公開](web-editor-article-publishing.md#id218CK0U019I)を参照してください。
 
@@ -136,7 +145,7 @@ DITA マップ内の少数のトピックのみを更新し、更新されたト
 
 ## 出力生成タスクのキャンセル {#id2061H100T5Z}
 
-AEM Guidesを使用すると、パブリッシャーは進行中の公開タスクをキャンセルするシンプルで簡単な方法を入手できます。 パブリッシャーは、DITA マップコンソールまたは[公開ダッシュボード &#x200B;](generate-output-publish-dashboard.md#)から進行中の公開タスクをキャンセルできます。
+AEM Guidesを使用すると、パブリッシャーは進行中の公開タスクをキャンセルするシンプルで簡単な方法を入手できます。 パブリッシャーは、DITA マップコンソールまたは[公開ダッシュボード ](generate-output-publish-dashboard.md#)から進行中の公開タスクをキャンセルできます。
 
 DITA マップコンソールから出力生成タスクをキャンセルするには、次の手順を実行します。
 
@@ -182,4 +191,4 @@ DITA マップに対して複数の出力を生成すると、そのマップの
    タスクは、生成出力リストから削除されます。
 
 
-**親トピック：**&#x200B;[&#x200B;出力生成](generate-output.md)
+**親トピック：**[&#x200B;出力生成](generate-output.md)

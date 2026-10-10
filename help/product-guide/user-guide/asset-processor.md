@@ -5,24 +5,33 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: 27786098-119c-4b7a-8275-8a89d435294f
-TQID: https://experienceleague.adobe.com/gAPjyNNTtHv3StIe0O-Fs8Wx0NhXjkML-TEkAPLosIE
+TQID: 'https://experienceleague.adobe.com/gAPjyNNTtHv3StIe0O-Fs8Wx0NhXjkML-TEkAPLosIE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: 5be0fc8f-1cff-5c3e-bb92-2903a56a3de6
+    internal-label: Migration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Troubleshooting
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 648
+source-wordcount: '677'
 ht-degree: 0%
-
 ---
-
 # アセットの処理
 
 公開のようなデータ集約的なワークフローでは、効率的なアセット管理はパフォーマンスと信頼性を維持するために不可欠です。 アセット処理ワークフローは、集中的なデータ運用を必要とするユーザー固有のアセットを管理するように設計されています。 主に、エラーが原因で初期処理が失敗した場合と、アセット処理トリガーが開始されなかったためにファイルが未処理のままになった場合の2つのケースに対応します。 ターゲットを絞ったフォルダーレベルの処理を可能にすることで、必要なアセットのみを分離して処理できるため、不要な計算のオーバーヘッドを回避できます。 この選択的なアプローチにより、パフォーマンスが大幅に向上し、公開やレポート生成のような重要な作業に必要な時間が短縮されます。 全体として、複雑なデータタスクを処理する際の効率性とスピードの向上に貢献します。
@@ -30,7 +39,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 > - 大規模なデータセットの場合、システムのパフォーマンスに影響を与えないように、オフピーク時間中に処理を実行することをお勧めします。 処理タスクが完了したら、詳細を確認して結果を分析できます。<br>
->- システムは、15分ごとに`/content/dam` フォルダーのアセット処理をトリガーします。 各サイクルで、新しく追加されたアセットや、最新の15分以内に未処理のままになったアセットは、ピックアップして再処理されます。 自動アセット処理機能ビューを設定するには、[&#x200B; アセット処理機能を設定](../cs-install-guide/configure-asset-processing-cs.md)します。
+>- システムは、15分ごとに`/content/dam` フォルダーのアセット処理をトリガーします。 各サイクルで、新しく追加されたアセットや、最新の15分以内に未処理のままになったアセットは、ピックアップして再処理されます。 自動アセット処理機能ビューを設定するには、[ アセット処理機能を設定](../cs-install-guide/configure-asset-processing-cs.md)します。
 
 ## アセットの処理
 
@@ -74,7 +83,7 @@ ht-degree: 0%
    1. **フォルダーとファイルを選択**：移動して、処理する1つまたは複数のフォルダーとファイルを選択します。
    1. **無視するフォルダーを選択**：オプションで、選択した親フォルダー内のサブフォルダーを選択して、処理から除外します。
    1. **Asset Type**: ドロップダウンから、処理する特定のアセットタイプ（DITA Topic、DITA Map、Markdown、HTML/CSS、DITAVAL、その他のファイルなど）を選択します。 選択したアセットタイプのみが、先ほど指定したフォルダーから処理されます。
-例：DITA トピックを選択すると、選択したフォルダー内のDITA トピックのみが処理され、ターゲットフィルタリングが有効になります。
+      例：DITA トピックを選択すると、選択したフォルダー内のDITA トピックのみが処理され、ターゲットフィルタリングが有効になります。
    1. **作成後/作成前**：日付フィルターを適用して、指定した期間内に作成されたアセットを処理します。
 
    >[!NOTE]

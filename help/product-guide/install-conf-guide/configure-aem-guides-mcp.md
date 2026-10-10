@@ -5,7 +5,15 @@ meta-feature: Authoring
 meta-product: Experience Manager, Experience Manager Guides
 meta-role: User
 meta-type: Documentation
-source-git-commit: 6841c373b75770e8691a2cac4d56aeb368b09480
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1557'
 ht-degree: 1%
@@ -25,7 +33,7 @@ Experience Manager Guidesは、単一のHTTP エンドポイントを通じてMC
 
 | MCP サーバー | エンドポイント | 説明 |
 |---|---|---|
-| **Experience Manager Guides** | `https://mcp.adobeaemcloud.com/adobe/mcp/guides` | Experience Manager Guidesでトピックとマップ、[新しいベースライン &#x200B;](../user-guide/web-editor-baseline-v2.md)、レポートを操作します。 |
+| **Experience Manager Guides** | `https://mcp.adobeaemcloud.com/adobe/mcp/guides` | Experience Manager Guidesでトピックとマップ、[新しいベースライン ](../user-guide/web-editor-baseline-v2.md)、レポートを操作します。 |
 
 お使いの環境の現在のツールリストを確認するには、アシスタントに次の質問を行います。
 
@@ -48,7 +56,7 @@ Experience Manager Guides MCP サーバーへのアクセスは、組織ごと�
 
 ### 人道クロード
 
-公式のチュートリアルに従います。[AEM MCP用にClaudeを設定](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/mcp-support/chat-applications/setup-claude)。 カスタムコネクタを追加する場合は、Experience Manager Guides エンドポイントを使用します。
+公式のチュートリアルに従います。[AEM MCP用にClaudeを設定](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/mcp-support/chat-applications/setup-claude)。 カスタムコネクタを追加する場合は、Experience Manager Guides エンドポイントを使用します。
 
 ```
 https://mcp.adobeaemcloud.com/adobe/mcp/guides

@@ -5,30 +5,36 @@ exl-id: d7cd412b-89ea-43a5-97b3-09944863bbee
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/tigE3HdrbQXr37-Xl7ueyoWlnycTKFz02SP-koF5XAY
+TQID: 'https://experienceleague.adobe.com/tigE3HdrbQXr37-Xl7ueyoWlnycTKFz02SP-koF5XAY'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 843
+source-wordcount: '912'
 ht-degree: 0%
-
 ---
-
 # ユーザーインターフェイスからのデータソースコネクタの設定
 
 Experience Manager Guidesには、**データソース** ツールが付属しており、データソース用にすぐに使用できるコネクタを設定できます。 JIRA、SQL （MySQL、PostgreSQL、Microsoft SQL Server、SQLite、MariaDB、H2DB）、Adobe Commerce、Elasticsearch、Generic REST Client コネクタを設定できます。
 
 
-これらの標準コネクタに加えて、Experience Manager Guidesには、Salsify、Akeneo、Microsoft Azure DevOps Boards （ADO）データソース用のコネクタが用意されています。これらのオープンソースコネクタは、[Maven Central リポジトリ &#x200B;](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides)からダウンロードしてインストールできます。次に、ユーザーはこれらのコネクタを設定できます。
-オープンソースコネクタを[&#x200B; インストールする方法](#install-open-source-connector)について説明します。
+これらの標準コネクタに加えて、Experience Manager Guidesには、Salsify、Akeneo、Microsoft Azure DevOps Boards （ADO）データソース用のコネクタが用意されています。 これらのオープンソースコネクタは、[Maven Central リポジトリ ](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides)からダウンロードしてインストールできます。 次に、ユーザーはこれらのコネクタを設定できます。
+オープンソースコネクタを[ インストールする方法について説明します](#install-open-source-connector)。
 
 
 
@@ -59,7 +65,7 @@ Experience Manager Guidesには、**データソース** ツールが付属し�
    >[!TIP]
    >
    >* カーソルを合わせる フィールドの近くの<img src="./assets/info-details.svg" alt= "情報アイコン" width="25">で、詳細を表示できます。
-   >* &#x200B;* フィールドは必須です。 例えば、Elasticsearch コネクタに次の詳細を入力できます。
+   >* * フィールドは必須です。 例えば、Elasticsearch コネクタに次の詳細を入力できます。
 
    * **名前**: データソースの名前を入力します。
    * **認証タイプ**: ドロップダウンから認証タイプを選択します。 例えば、Basic username-password認証のように指定します
@@ -81,10 +87,10 @@ Generic REST Client、Salsify、Akeneo、Microsoft Azure DevOps Boards （ADO）
 
 リソースを作成するには、次の手順を実行します。
 
-1. **URL リソースセクション**&#x200B;の![追加アイコン &#x200B;](assets/Add_icon.svg)を選択して、各URLのリソースを追加します。
+1. **URL リソースセクション**&#x200B;の![追加アイコン ](assets/Add_icon.svg)を選択して、各URLのリソースを追加します。
 1. **リソースを追加** ダイアログボックスのすべての詳細を設定します。
 1. 「**追加**」をクリックします。
-1. ![編集アイコン &#x200B;](assets/edit_pencil_icon.svg)を編集するか、URL リソースリストから![削除](assets/Delete_icon.svg) リソースを削除できます。
+1. ![編集アイコン ](assets/edit_pencil_icon.svg)を編集するか、URL リソースリストから![削除](assets/Delete_icon.svg) リソースを削除できます。
 1. Salsify、Akeneo、Microsoft ADOなどのデータソースで利用できるデフォルトリソースを使用することもできます。 データソース用に設定しないリソースのオプションをオフに切り替えます。
 
 これにより、単一のコンテンツスニペットまたはトピック内の特定のデータソースの任意のリソースからデータをすばやく取得できます。
@@ -93,7 +99,7 @@ Generic REST Client、Salsify、Akeneo、Microsoft Azure DevOps Boards （ADO）
 
 ## オープンソースコネクタのインストール{#install-open-source-connector}
 
-[Maven中央リポジトリ &#x200B;](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides)に存在する依存関係をCloud Servicesに公開するには、オープンソースコネクタの依存関係を含めて埋め込む必要があります。
+[Maven中央リポジトリ ](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides)に存在する依存関係をCloud Servicesに公開するには、オープンソースコネクタの依存関係を含めて埋め込む必要があります。
 
 1. Cloud Manager Git プロジェクトコードに`all/pom.xml`の依存関係を追加します。 例えば、Microsoft Azure DevOps Boards データソースコネクタに次の依存関係を追加できます。
 
@@ -137,11 +143,11 @@ Generic REST Client、Salsify、Akeneo、Microsoft Azure DevOps Boards （ADO）
 
 * **再接続**：切断されたコネクタに再接続します。
 
-* **重複**：現在のコネクタをベースとして使用して、新しい重複コネクタを作成します。デフォルトでは、重複したコネクタは接尾辞（connectorname_1など）を付けて作成されます。例えば、sample-elastic-search_1です。
+* **重複**：現在のコネクタをベースとして使用して、新しい重複コネクタを作成します。 デフォルトでは、重複したコネクタは接尾辞（connectorname_1など）を付けて作成されます。 例えば、sample-elastic-search_1です。
 同じ名前のコネクタが存在する場合は、エラーが表示されます。
 
 * **削除**：選択したコネクタを削除します。
 
 
-データソースを設定すると、コネクタはWeb エディターの&#x200B;**データソースパネル**&#x200B;の下に表示されます。 次に、データソースに接続し、トピックにコンテンツスニペットを挿入します。 詳細については、[&#x200B; データソースからコンテンツスニペットを挿入](../user-guide/web-editor-content-snippet.md)を参照してください。
+データソースを設定すると、コネクタはWeb エディターの&#x200B;**データソースパネル**&#x200B;の下に表示されます。 次に、データソースに接続し、トピックにコンテンツスニペットを挿入します。 詳細については、[ データソースからコンテンツスニペットを挿入](../user-guide/web-editor-content-snippet.md)を参照してください。
 

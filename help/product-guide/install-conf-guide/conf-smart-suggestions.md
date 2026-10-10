@@ -2,7 +2,15 @@
 title: スマートヘルプとオーサリング用にAI アシスタントを設定する
 description: Experience Manager GuidesでAI アシスタントを設定する方法について説明します
 exl-id: 59da626d-8433-44c6-ba69-654c7796a264
-source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '992'
 ht-degree: 1%
@@ -32,18 +40,18 @@ Adobe Developer ConsoleでIMS設定を作成するには、次の手順を実行
 1. [Adobe Developer Console](https://developer.adobe.com/console)を起動します。
 1. Developer Consoleに正常にログインすると、**Home**&#x200B;画面が表示されます。 **ホーム**&#x200B;画面では、プロジェクトやダウンロードへのトップナビゲーションリンクなど、情報やクイックリンクを簡単に見つけることができます。
 1. 新しい空のプロジェクトを作成するには、**クイックスタート** リンクから「**新しいプロジェクトを作成**」を選択します。
-   ![&#x200B; クイックスタートリンク &#x200B;](assets/conf-ss-quick-start.png) {width="550"}
+   ![ クイックスタートリンク ](assets/conf-ss-quick-start.png) {width="550"}
    *新しいプロジェクトを作成します。*
 
 1. **プロジェクト**&#x200B;画面から「**API**&#x200B;を追加」を選択します。  「**API**&#x200B;を追加」画面が表示されます。 この画面には、アプリケーションの開発に使用できるAdobe製品およびテクノロジに使用できるすべてのAPI、イベント、サービスが表示されます。
 
-1. **I/O Management API**&#x200B;を選択して、プロジェクトに追加します。
+1. **I/O Management API**を選択して、プロジェクトに追加します。
    ![IO管理API](assets/confi-ss-io-management.png)
    *I/O Management APIをプロジェクトに追加します。*
 
 1. 新しい&#x200B;**OAuth資格情報**&#x200B;を作成して保存します。
 
-   configure API![&#128279;](assets/conf-ss-OAuth-credential.png)のOAuth資格情報タイル
+   configure API](assets/conf-ss-OAuth-credential.png)の![OAuth資格情報タイル
 
    *APIにOAuth資格情報を設定します。*
 
@@ -115,7 +123,7 @@ IMS設定を追加し、AI アシスタントフラグを有効にしたら、�
 
 設定の変更が適用されたら、目的のフォルダープロファイルのAI アシスタント機能を有効にします。
 
-詳細については、[&#x200B; エディター機能について](../user-guide/web-editor-features.md)を参照してください。
+詳細については、[ エディター機能について](../user-guide/web-editor-features.md)を参照してください。
 
 ![](assets/conf-folder-ai-assistant-enable-settings.png){width="300"}
 
@@ -123,7 +131,7 @@ IMS設定を追加し、AI アシスタントフラグを有効にしたら、�
 
 AI アシスタント機能を有効にした後、フォルダープロファイルでスマート提案の機能を設定します。
 
-詳しくは、[&#x200B; フォルダープロファイルでのスマート提案の設定](./conf-profiles.md#configure-ai-assistant-for-smart-help-and-authoring)を参照してください。
+詳しくは、[ フォルダープロファイルでのスマート提案の設定](./conf-profiles.md#configure-ai-assistant-for-smart-help-and-authoring)を参照してください。
 
 
 ## 付録 {#appendix}
@@ -164,4 +172,4 @@ AI アシスタント機能を有効にした後、フォルダープロファ�
 | chat.url | AI アシスタントサービスのエンドポイント | [https://aem-guides-ai-v2.adobe.io](https://aem-guides-ai-v2.adobe.io) | [https://aem-guides-ai-v2.adobe.io](https://aem-guides-ai-v2.adobe.io) |
 | instance.type | AEM インスタンスのタイプ。 スマート提案が設定されているAEM インスタンスごとに一意であることを確認します。 ユースケースとしては、「instance.type」 = 「stage」を使用してステージ環境で機能をテストすると同時に、「prod」でも機能が設定されます。 | 環境を識別する一意のキー。 *英数字*&#x200B;個の値のみ使用できます。 &quot;dev&quot;/&quot;stage&quot;/&quot;prod&quot;/&quot;test1&quot;/&quot;stage2&quot; | 「prod」 |
 
-設定が完了すると、Experience Manager GuidesのホームページとエディターにAI アシスタントアイコンが表示されます。 詳しくは、Experience Manager ユーザーガイドの[AI アシスタント &#x200B;](../user-guide/ai-assistant.md) セクションを参照してください。
+設定が完了すると、Experience Manager GuidesのホームページとエディターにAI アシスタントアイコンが表示されます。 詳しくは、Experience Manager ユーザーガイドの[AI アシスタント ](../user-guide/ai-assistant.md) セクションを参照してください。

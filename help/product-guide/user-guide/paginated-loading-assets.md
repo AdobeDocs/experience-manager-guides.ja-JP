@@ -3,7 +3,23 @@ title: Experience Manager Guidesのパフォーマンス向上について
 description: ファイルとフォルダーのページ分割による読み込みが、Experience Manager Guidesのパフォーマンスをどのように向上させるかを説明します。
 feature: Authoring, Publishing
 role: User
-source-git-commit: e4019ae1e605bd26f7df676a4fab8c632fd8fa8e
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 0%
@@ -32,14 +48,14 @@ Experience Manager Guidesでは、ページ分割APIを使用してファイル�
 - **並べ替え**：無限スクロールで最初に並べ替えられたページを表示します。
 - **フォルダーナビゲーションパネル**: フォルダーを開くと、アセットの最初のバッチが読み込まれ、後続のバッチに対して&#x200B;**さらに**&#x200B;の読み込みオプションが追加されます。
 
-  フォルダーナビゲーションパネル ![&#128279;](images/home-tree-pagination.png){width="650"}の ページ
+  フォルダーナビゲーションパネル ](images/home-tree-pagination.png){width="650"}の![ ページ
 
 ### コレクション
 
 - ファイルを追加すると、フォルダーを更新せずに、フォルダーの上部にファイルが挿入されます。
 - フォルダーを開くと、アセットの最初のバッチが読み込まれ、後続のバッチに対して&#x200B;**さらに**&#x200B;の読み込みオプションが追加されます。
 
-  コレクション ![&#128279;](images/collections-paginated.png){width="650"}の ページ
+  コレクション ](images/collections-paginated.png){width="650"}の![ ページ
 
 
 ### エクスプローラー
@@ -47,7 +63,7 @@ Experience Manager Guidesでは、ページ分割APIを使用してファイル�
 - **ルートフォルダー**：無限スクロールです。 アセットの最初のバッチは最初に読み込まれます。後続のバッチは、スクロールすると自動的に追加されます。
 - **子フォルダー**: フォルダーを展開すると、アセットの最初のバッチが読み込まれ、後続のバッチに&#x200B;**さらに**&#x200B;の読み込みオプションが追加されます。
 
-  エクスプローラー![&#128279;](images/explorer-pagination.png){width="650"}の ページ
+  エクスプローラー](images/explorer-pagination.png){width="650"}の![ ページ
 
 - **名前を変更**: フォルダーを更新せずに同じ場所で実行されます。
 - **削除**: ルートフォルダーが更新され、アセットの最初のバッチが表示されます。
@@ -67,6 +83,6 @@ Experience Manager Guidesでは、ページ分割APIを使用してファイル�
 
 - 各フォルダーノードは、アセットの最初のバッチを読み込み、後続のバッチに対して&#x200B;**さらに**&#x200B;の読み込みオプションが追加されます。
 
-  パス選択ダイアログ ![&#128279;](images/select-path-pagination.png){width="650"}の ページ
+  パス選択ダイアログ ](images/select-path-pagination.png){width="650"}の![ ページ
 
 - ダイアログが開き、特定のターゲットパスに移動すると、ツリーはルートからターゲットに自動的に展開されます。 パスに沿ったフォルダーは大きなページサイズで読み込まれ、ターゲットフォルダーは標準のバッチサイズで読み込まれます。

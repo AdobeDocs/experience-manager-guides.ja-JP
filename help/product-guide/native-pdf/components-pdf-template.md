@@ -5,7 +5,7 @@ exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
 feature: Output Generation
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/h8V5bE1J5ztJNJ9wMPoQR4k36-pZuiaYbnD7xPYX-zE
+TQID: 'https://experienceleague.adobe.com/h8V5bE1J5ztJNJ9wMPoQR4k36-pZuiaYbnD7xPYX-zE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -16,10 +16,16 @@ feature_v2:
     internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
     internal-label: Configuration
+subfeature_v2:
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '5049'
 ht-degree: 0%
@@ -96,7 +102,7 @@ PDF テンプレートには、ページレイアウト、スタイルシート�
    カスタマイズ用のページレイアウトエディターが開きます。
 1. 必要な変更を行ったら、*すべて保存* （または`Crl+S`）をクリックします。
 
-   ヘッダー、フッター、ページ番号、タイトルなどの個々のレイアウト要素の定義について詳しくは、[&#x200B; ページレイアウトのデザイン &#x200B;](design-page-layout.md)を参照してください。
+   ヘッダー、フッター、ページ番号、タイトルなどの個々のレイアウト要素の定義について詳しくは、[ ページレイアウトのデザイン ](design-page-layout.md)を参照してください。
 
 ## スタイルシートを使用したPDFのカスタマイズ {#stylesheet-customization}
 
@@ -221,13 +227,13 @@ DITA トピックに追加されたドラフトコメントは、デフォルト
 
 4. **プロパティ** パネルで、**display** プロパティの値を`none`から表示値（`block`、`inline-block`、`grid`など）に変更します。
 
-   ![&#x200B; コンテンツ スタイルシートのdraft-comment プロパティの設定](./assets/draft-comment-setting.png)
+   ![ コンテンツ スタイルシートのdraft-comment プロパティの設定](./assets/draft-comment-setting.png)
 
 5. スタイルシートを保存。
 
 >[!NOTE]
 >
->このスタイルは、スタイル設定されたコンテンツにドラフトコメントを表示するかどうかを一般的に制御します。 **ネイティブPDF**&#x200B;出力にドラフトコメントを具体的に含めるには、ネイティブPDF出力プリセットで「**ドラフトコメントを含める**」オプションも有効にする必要があります。 詳しくは、[&#x200B; ネイティブ PDF出力プリセット &#x200B;](../web-editor/native-pdf-web-editor.md)を参照してください。 両方の設定は、生成されたPDFでドラフトコメントがエディターに表示されるとおりに表示されるために、一緒に必要です。
+>このスタイルは、スタイル設定されたコンテンツにドラフトコメントを表示するかどうかを一般的に制御します。 **ネイティブPDF**&#x200B;出力にドラフトコメントを具体的に含めるには、ネイティブPDF出力プリセットで「**ドラフトコメントを含める**」オプションも有効にする必要があります。 詳しくは、[ ネイティブ PDF出力プリセット ](../web-editor/native-pdf-web-editor.md)を参照してください。 両方の設定は、生成されたPDFでドラフトコメントがエディターに表示されるとおりに表示されるために、一緒に必要です。
 
 ## PDFの詳細設定 {#advanced-pdf-settings}
 
@@ -335,7 +341,7 @@ DITA トピックに追加されたドラフトコメントは、デフォルト
 
 
 
-ページレイアウトについて詳しくは、[&#x200B; ページレイアウトのデザイン &#x200B;](design-page-layout.md)を参照してください。
+ページレイアウトについて詳しくは、[ ページレイアウトのデザイン ](design-page-layout.md)を参照してください。
 
 ### ページレイアウト順序 {#page-order}
 
@@ -496,11 +502,11 @@ AEM Guidesには、次のすぐに使用できる変数が用意されていま�
 段落セクションに`${lng:<variable name>}`を追加すると、出力の段落内の相互参照に、ローカライズされたテキストとページ番号が含まれます。\
 例えば、次のスクリーンショットは、相互参照「View on page 1」を英語で、「Einzelheiten finden Sie auf der Seite 1」をドイツ語で示しています。
 
-<img src="./assets/english-output-corss-reference.png" alt="段落の相互参照の英語出力&quot; width =&quot;800" border="2px">
+<img src="./assets/english-output-corss-reference.png" alt="段落の相互参照の英語出力" width ="800" border="2px">
 
 *英語で公開された段落内の相互参照。*
 
-<img src="./assets/german-output-corss-reference.png" alt="プラハでの相互参照のドイツ語出力&quot; width =&quot;800" border="2px">
+<img src="./assets/german-output-corss-reference.png" alt="プラハでの相互参照のドイツ語出力" width ="800" border="2px">
 
 *ドイツ語で公開された段落内の相互参照。*
 

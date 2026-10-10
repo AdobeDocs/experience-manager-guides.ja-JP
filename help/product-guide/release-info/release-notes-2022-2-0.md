@@ -1,30 +1,41 @@
 ---
-title: 2022年2月リリースの [!DNL AEM Guides]のリリースノート
-description: ' [!DNL Adobe Experience Manager Guides] as a Cloud Serviceの2月リリース'
+title: 2022年2月リリース [!DNL AEM Guides]のリリースノート
+description: '[!DNL Adobe Experience Manager Guides] as a Cloud Serviceの2月リリース'
 exl-id: eb7ff475-bb5b-4d32-b291-024147fbfed1
 feature: Release Notes
 role: Leader
-TQID: https://experienceleague.adobe.com/QdLQIO8X1Lkj3iwoJAUQ-ENujxT-n7y5gGlI-gQz-IE
+TQID: 'https://experienceleague.adobe.com/QdLQIO8X1Lkj3iwoJAUQ-ENujxT-n7y5gGlI-gQz-IE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+    internal-label: FrameMaker Publishing Server
   - id: d6596f3f-92a7-43ec-b444-237db6adad05
+    internal-label: Native PDF publishing
+  - id: fc07eb3b-d7d7-4e9a-a558-c3099c2b6f7b
+    internal-label: Release notes
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Leader
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 982
+source-wordcount: '983'
 ht-degree: 2%
-
 ---
-
 # [!DNL Adobe Experience Manager Guides] as a Cloud Serviceの2月リリース
 
 ## 2月リリースへのアップグレード
@@ -78,7 +89,7 @@ Web エディターに多くの機能強化と新機能が追加されました�
 
 設定に基づいて、変更を保存し、ドキュメントの新しいバージョンを作成するオプションが表示されます。 または、ファイルをチェックインして、現在のバージョンに変更を保存することもできます。
 
-![&#x200B; ファイルを閉じる](assets/file-close-save-changes-unlock.png)
+![ ファイルを閉じる](assets/file-close-save-changes-unlock.png)
 
 詳しくは、ユーザーガイドの「*ファイルを閉じてシナリオを保存*」を参照してください。
 
@@ -92,7 +103,7 @@ Web エディターに多くの機能強化と新機能が追加されました�
 
 DITA マップのダウンロードを選択すると、リクエストはキューに入れ、マップのダウンロード準備が整うと通知が届きます。 マップファイルをすぐにダウンロードするか、AEM通知の受信トレイに表示されるリンクから後でダウンロードするかを選択できます。
 
-![&#x200B; マップのダウンロード &#x200B;](assets/download-map-prompt.png)
+![ マップのダウンロード ](assets/download-map-prompt.png)
 
 ### レビュー
 

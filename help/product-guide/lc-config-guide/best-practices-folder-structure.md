@@ -5,34 +5,50 @@ feature: Authoring
 role: Admin
 level: Experienced
 exl-id: 1b99ade0-0eee-42c3-a383-0c3774b6c1f6
-TQID: https://experienceleague.adobe.com/jfoPbeASfVpgWYR2-cKacAdhWKPw-2j6qliqzjEzgFw
+TQID: 'https://experienceleague.adobe.com/jfoPbeASfVpgWYR2-cKacAdhWKPw-2j6qliqzjEzgFw'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: b1210526-416b-4ef6-bcc0-1692e99f30e9
+    internal-label: Administration and security
   - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: a7a242db-c88c-4e44-818b-bfb4ef92efdf
+    internal-label: Permissions
   - id: c8841798-1a28-4264-a46a-984860f8e6f6
+    internal-label: User administration
   - id: dc1f7602-db3c-4ad4-a440-ff999bb16455
+    internal-label: User management
   - id: f7774ebe-aec9-42b6-97e4-5002acdc712e
+    internal-label: Review
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd456af4-cb12-4a34-8cc4-b74adf885626
+    internal-label: Content translation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff832d30f88c5810017e1a1ee41d644619f7331f
+    internal-label: Administration
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 625
+source-wordcount: '625'
 ht-degree: 0%
-
 ---
-
 # フォルダー構造を設定する際のベストプラクティス
 
 この記事では、管理者がAdobe Experience Manager Guidesでフォルダー構造を設定するための基本的な手順とベストプラクティスについて説明します。 よく整理されたフォルダー階層は、学習およびトレーニングコンテンツのオーサリング、公開、翻訳ワークフローをスムーズに行うのに役立ちます。
@@ -61,7 +77,7 @@ Experience Manager Guidesの様々なオーサリング、公開、および翻�
 **部署レベルのフォルダーを設定するためのベストプラクティス**
 
 - 部門レベルの共通アセット用に、各部門の下に専用の&#x200B;**Common** > **assets** フォルダーを作成します（必要に応じて）。
-- 翻訳用にコンテンツを共有する場合は、言語固有のフォルダー（en、de、frなど）を作成します。 作成者は、ソース言語フォルダー以外のコンテンツは翻訳ワークフローに含まれないため、ソース言語フォルダー（enなど）でのみコンテンツを作成または更新する必要があります。 他の言語フォルダーは、プレースホルダーとして空のままにできます。 [&#x200B; コンテンツ翻訳](../user-guide/translation.md)の詳細をご覧ください。
+- 翻訳用にコンテンツを共有する場合は、言語固有のフォルダー（en、de、frなど）を作成します。 作成者は、ソース言語フォルダー以外のコンテンツは翻訳ワークフローに含まれないため、ソース言語フォルダー（enなど）でのみコンテンツを作成または更新する必要があります。 他の言語フォルダーは、プレースホルダーとして空のままにできます。 [ コンテンツ翻訳](../user-guide/translation.md)の詳細をご覧ください。
 - 権限は、特定の部門またはユーザーのアクセスを、新しく作成されたフォルダー構造に制限するために利用できます。 例えば、人事部門のユーザーのみが、指定されたフォルダー内でコンテンツを作成または変更できるようにするために、権限を割り当てます。
 
 財務、法務など、他の部門についても同じ構造を繰り返します。
@@ -84,7 +100,7 @@ Experience Manager Guidesの様々なオーサリング、公開、および翻�
 
 ![](assets/create-users-page.png)
 
-詳細については、[&#x200B; ユーザー管理とセキュリティ &#x200B;](../cs-install-guide/user-admin-sec.md)を参照してください
+詳細については、[ ユーザー管理とセキュリティ ](../cs-install-guide/user-admin-sec.md)を参照してください
 
 
 ## 各ユーザーグループに権限を割り当てる
@@ -95,5 +111,5 @@ Experience Manager Guidesの様々なオーサリング、公開、および翻�
 
 これらの権限は、ユーザーが指定されたフォルダー内でのみコンテンツを作成または変更できることを確認するのに役立ちます。
 
-詳しくは、[AEMの権限](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/security/security#permissions-in-aem)を参照してください。
+詳しくは、[AEMの権限](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/security#permissions-in-aem)を参照してください。
 
