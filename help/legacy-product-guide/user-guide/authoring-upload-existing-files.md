@@ -36,15 +36,15 @@ AEM Guidesで使用する既存のDITA コンテンツのリポジトリがあ�
 
 ## Assets Console ユーザーインターフェイス
 
-デスクトップでコンテンツを選択し、AEM ユーザーインターフェイス \（web ブラウザー\）を移動先フォルダーにドラッグできます。 詳しくは、AEM ドキュメントの[ アセットのアップロード ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#upload-assets)を参照してください。
+デスクトップでコンテンツを選択し、AEM ユーザーインターフェイス \（web ブラウザー\）を移動先フォルダーにドラッグできます。 詳しくは、AEM ドキュメントの[&#x200B; アセットのアップロード &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#upload-assets)を参照してください。
 
 ## AEM デスクトップアプリケーション
 
-クリエイターで、ローカルデスクトップでアセットを管理する場合は、AEM デスクトップアプリを使用します。 これらのアセットは、デスクトップアプリケーションで開いて編集できます。 バージョンを管理したり、他のユーザーとファイルを共有したりすることもできます。 詳しくは、[AEM デスクトップアプリ ](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html?lang=ja)を参照してください。
+クリエイターで、ローカルデスクトップでアセットを管理する場合は、AEM デスクトップアプリを使用します。 これらのアセットは、デスクトップアプリケーションで開いて編集できます。 バージョンを管理したり、他のユーザーとファイルを共有したりすることもできます。 詳しくは、[AEM デスクトップアプリ &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html?lang=ja)を参照してください。
 
 ## アセットの一括取り込み
 
-大規模な移行や時折の一括取り込みがある場合は、アセットの一括取り込み機能を使用してコンテンツをアップロードします。 このツールを使用すると、AzureやS3などのサポートされているデータストアから一括コンテンツをアップロードできます。 詳しくは、[ アセットの一括インジェスター](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=en#asset-bulk-ingestor)を参照してください。
+大規模な移行や時折の一括取り込みがある場合は、アセットの一括取り込み機能を使用してコンテンツをアップロードします。 このツールを使用すると、AzureやS3などのサポートされているデータストアから一括コンテンツをアップロードできます。 詳しくは、[&#x200B; アセットの一括インジェスター](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=en#asset-bulk-ingestor)を参照してください。
 
 ## FrameMakerを使用した一括アップロード
 
@@ -58,8 +58,8 @@ FrameMakerでのバルクアップロード機能の使用について詳しく�
 
 ![](images/uuid-files-failed-to-upload_cs.png){width="650" align="center"}
 
-様々なファイルのアップロード方法について詳しくは、[DITA コンテンツのアップロード ](authoring-file-management.md#)を参照してください。
+様々なファイルのアップロード方法について詳しくは、[DITA コンテンツのアップロード &#x200B;](authoring-file-management.md#)を参照してください。
 
 AEM デスクトップアプリやAssetの一括取り込みツールなどのツールを使用する場合、重複ファイルに対して実行するアクションは、AEM サーバーの設定によって制御されます。 この設定について詳しくは、システム管理者にお問い合わせください。
 
-**親トピック：**[ コンテンツの管理](authoring.md)
+**親トピック：**&#x200B;[&#x200B; コンテンツの管理](authoring.md)

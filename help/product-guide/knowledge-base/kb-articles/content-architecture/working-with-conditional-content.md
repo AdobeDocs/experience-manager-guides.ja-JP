@@ -42,25 +42,25 @@ ht-degree: 3%
 
 **手順 1**
 
-[!UICONTROL  フォルダープロファイル ]のドキュメントに関連する条件を定義します。
-インストールおよび設定ガイド ](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf)の[ ページ 69のグローバルまたはフォルダーレベルのプロファイル **の条件付き属性の設定** セクションを参照してください
+[!UICONTROL &#x200B; フォルダープロファイル &#x200B;]のドキュメントに関連する条件を定義します。
+インストールおよび設定ガイド [&#128279;](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf)の ページ 69のグローバルまたはフォルダーレベルのプロファイル **の条件付き属性の設定** セクションを参照してください
 
-![ フォルダープロファイルの条件の設定](assets/conditions-in-profiles.png)
+![&#x200B; フォルダープロファイルの条件の設定](assets/conditions-in-profiles.png)
 
 **手順 2**
 
-XML エディターの&#x200B;**ユーザー環境設定**&#x200B;の手順1で定義された&#x200B;**[!UICONTROL フォルダープロファイル]**を選択します。
-ユーザーガイド ](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)の[41 ページの&#x200B;**ユーザー環境設定**&#x200B;の節を参照してください
+XML エディターの&#x200B;**ユーザー環境設定**&#x200B;の手順1で定義された&#x200B;**[!UICONTROL フォルダープロファイル]**&#x200B;を選択します。
+ユーザーガイド [&#128279;](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)の41 ページの&#x200B;**ユーザー環境設定**&#x200B;の節を参照してください
 
 
 **手順 3**
 
 条件を使用して、コンテンツのセクションを条件付けします。
-ユーザーガイド ](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)の[ ページ 90の&#x200B;**条件**&#x200B;の節を参照してください
+ユーザーガイド [&#128279;](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)の ページ 90の&#x200B;**条件**&#x200B;の節を参照してください
 
-![ エディターで条件を使用](assets/conditions-in-web-editor.png)
+![&#x200B; エディターで条件を使用](assets/conditions-in-web-editor.png)
 
 **手順 4**
 
 マップレベルで条件プリセットを定義して、出力で有効にする条件を選択します。
-ユーザーガイド ](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)の[ ページ 249の&#x200B;**条件プリセットの使用**&#x200B;の節を参照してください
+ユーザーガイド [&#128279;](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)の ページ 249の&#x200B;**条件プリセットの使用**&#x200B;の節を参照してください

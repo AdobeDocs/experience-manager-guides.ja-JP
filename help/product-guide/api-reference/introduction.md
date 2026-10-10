@@ -148,9 +148,9 @@ APIの使用状況、パラメーター、リクエストの例について詳�
 
 ## その他のリソース
 
-以下は、[ ラーニングとサポート ](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html) ページで入手できるAEM Guidesのその他の役立つリソースの一覧です。
+以下は、[&#x200B; ラーニングとサポート &#x200B;](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html) ページで入手できるAEM Guidesのその他の役立つリソースの一覧です。
 
 - ユーザーガイド
 - インストールおよび設定ガイド
 - クイックスタートガイド
-- [ ヘルプアーカイブページ ](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \（以前のリリースドキュメントにアクセス\）
+- [&#x200B; ヘルプアーカイブページ &#x200B;](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \（以前のリリースドキュメントにアクセス\）

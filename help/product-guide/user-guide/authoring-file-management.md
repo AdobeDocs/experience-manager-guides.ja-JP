@@ -339,4 +339,4 @@ Adobe Experience Manager リポジトリからのファイルの削除は、シ�
    ![](images/media-version-preview.png){width="650" align="center"}
 
 
-**親トピック：**[ コンテンツの管理](authoring.md)
+**親トピック：**&#x200B;[&#x200B; コンテンツの管理](authoring.md)

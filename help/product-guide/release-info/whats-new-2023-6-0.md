@@ -35,7 +35,7 @@ ht-degree: 0%
 
 この記事では、Adobe Experience Manager Guidesの2023年6月バージョン（後に&#x200B;*AEM Guides as a Cloud Service*&#x200B;と呼ばれます）の新機能と強化機能について説明します。
 
-アップグレード手順、互換性マトリックス、およびこのリリースで修正された問題について詳しくは、[ リリースノート ](release-notes-2023-6-0.md)を参照してください。
+アップグレード手順、互換性マトリックス、およびこのリリースで修正された問題について詳しくは、[&#x200B; リリースノート &#x200B;](release-notes-2023-6-0.md)を参照してください。
 
 ## Web エディターでの壊れたリンクのレポート
 
@@ -52,7 +52,7 @@ AEM Guidesを使用すると、テクニカルドキュメントの全体的な�
 
 ![](assets/rename-move-assets.png){width="650"}
 
-ファイルのオプションメニューについて詳しくは、[左パネル ](../user-guide/web-editor-features.md#id2051EA0M0HS) セクションの&#x200B;**リポジトリビュー**&#x200B;機能の説明を参照してください。
+ファイルのオプションメニューについて詳しくは、[左パネル &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS) セクションの&#x200B;**リポジトリビュー**&#x200B;機能の説明を参照してください。
 
 ## PDFのネイティブ機能
 
@@ -81,7 +81,7 @@ PDF出力および出力テンプレートの適切なセクションに、言�
 PDF出力を様々な言語で作成する場合は、各言語用のローカライズされたテキストを含む様々なPDF テンプレートを作成する必要がありました。 言語変数機能を使用すれば、テンプレートを一度作成するだけで済みます。 次に、ローカライズする必要がある静的テキストについて、対応する言語変数を作成し、テンプレートで使用できます。
 文全体や段落など、長いテキストの言語変数を作成できます。 また、スタイルを適用し、HTML マークアップを使用してこれらの言語変数を書式設定することもできます。
 
-詳しくは、[言語変数のサポート ](../native-pdf/native-pdf-language-variables.md)を参照してください。
+詳しくは、[言語変数のサポート &#x200B;](../native-pdf/native-pdf-language-variables.md)を参照してください。
 
 ### PDF レイアウトでAEM メタデータを使用する機能
 
@@ -96,7 +96,7 @@ Adobe AEM Guidesでは、アセットのメタデータプロパティを選択�
 >
 > AEM Guidesは、DITA マップのメタデータプロパティもサポートしています。
 
-詳細については、[ フィールドとメタデータの追加](../native-pdf/design-page-layout.md#add-fields-metadata)を参照してください。
+詳細については、[&#x200B; フィールドとメタデータの追加](../native-pdf/design-page-layout.md#add-fields-metadata)を参照してください。
 
 
 ## Schematronの機能強化
@@ -105,7 +105,7 @@ Adobe AEM Guidesでは、アセットのメタデータプロパティを選択�
 
 AEM Guidesは、Schematronでレポートステートメントもサポートするようになりました。 レポート文は、テスト文がtrueと評価されたときにメッセージを生成します。 例えば、短い説明を150文字以下にする場合は、レポート文を定義して、短い説明が150文字以上のトピックを確認できます。
 
-詳細については、[ アサートステートメントとレポートステートメントを使用してルールを確認する](../user-guide/support-schematron-file.md#schematron-assert-report)を参照してください。
+詳細については、[&#x200B; アサートステートメントとレポートステートメントを使用してルールを確認する](../user-guide/support-schematron-file.md#schematron-assert-report)を参照してください。
 
 ### 正規表現の使用
 
@@ -130,18 +130,18 @@ Web エディターからAEM ホームページに簡単に移動できるよう
 * 「**ガイド**」アイコン（![](assets/aem-guides-icon.png)）をクリックして、AEMのナビゲーションページに戻ります。
 
 
-詳しくは、[AEMのナビゲーションページ ](../user-guide/web-editor-launch-editor.md#id2056BG00RZJ)を参照してください。
+詳しくは、[AEMのナビゲーションページ &#x200B;](../user-guide/web-editor-launch-editor.md#id2056BG00RZJ)を参照してください。
 
 ## 件名の定義と列挙の階層定義の処理
 
 AEM Guidesには、分類の被写体と制御値を定義するために使用されるDITA マップの特殊な形式である被写体スキーム マップを作成する強力な機能が搭載されています。 AEM Guidesでは、マップ内の被写体の定義と別のマップ内の列挙定義を定義することもできます。 その後、マップ参照を追加し、件名スキームを使用できます。
 サブジェクト列挙の参照は、同じマップまたは参照されたマップで解決されます。
 
-件名の定義と列挙の階層定義の処理について詳しくは、[左パネル ](../user-guide/web-editor-features.md#id2051EA0M0HS) セクションの&#x200B;**件名スキーム**&#x200B;機能の説明を参照してください。
+件名の定義と列挙の階層定義の処理について詳しくは、[左パネル &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS) セクションの&#x200B;**件名スキーム**&#x200B;機能の説明を参照してください。
 
 ## 翻訳でのXLIFF形式のサポート
 
-AEM Guidesでは、XML Localization Interchange File Format （XLIFF）形式のサポートも提供されています。 また、**新しいXLIFF翻訳プロジェクトを作成**して、XML コンテンツをXLIFF形式に変換することもできます。
+AEM Guidesでは、XML Localization Interchange File Format （XLIFF）形式のサポートも提供されています。 また、**新しいXLIFF翻訳プロジェクトを作成**&#x200B;して、XML コンテンツをXLIFF形式に変換することもできます。
 この形式を使用すると、コンテンツを業界標準のXLIFF形式に書き出してから、翻訳ベンダーに同じものを提供できます。詳細については、[翻訳プロジェクトの作成](../user-guide/translate-documents-web-editor.md#create-translation-project)を参照してください。
 
 ![](assets/translation-project-types.png){width="350"}
@@ -158,7 +158,7 @@ AEM Guidesを使用すると、ファイルやフォルダーのコレクショ�
 >
 > 上部の&#x200B;**更新** アイコンを使用して、リストを更新することもできます。
 
-お気に入りコレクションの&#x200B;**オプション** メニューについて詳しくは、[左パネル ](../user-guide/web-editor-features.md#id2051EA0M0HS) セクションの&#x200B;**お気に入り**&#x200B;機能の説明を参照してください。
+お気に入りコレクションの&#x200B;**オプション** メニューについて詳しくは、[左パネル &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS) セクションの&#x200B;**お気に入り**&#x200B;機能の説明を参照してください。
 
 ## システムテーマに切り替え
 
@@ -166,4 +166,4 @@ AEM Guidesを使用すると、ファイルやフォルダーのコレクショ�
 
 ![](assets/device-theme-user-preferences.png){width="550"}
 
-詳細については、[ メインツールバー](../user-guide/web-editor-features.md#id2051EA0G05Z) セクションの&#x200B;**ユーザー環境設定**&#x200B;機能の説明を参照してください。
+詳細については、[&#x200B; メインツールバー](../user-guide/web-editor-features.md#id2051EA0G05Z) セクションの&#x200B;**ユーザー環境設定**&#x200B;機能の説明を参照してください。

@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ![](images/xml-add-on-how-it-works.png){align="center"}
 
-どのワークフローでも作業中に、セッションが長時間非アクティブのままになっている場合は、セッションタイムアウトプロンプトがトリガーされ、コンテンツの損失を防ぎます。 詳細については、[ セッション タイムアウト ](./session-timeout-prompt.md)を参照してください。
+どのワークフローでも作業中に、セッションが長時間非アクティブのままになっている場合は、セッションタイムアウトプロンプトがトリガーされ、コンテンツの損失を防ぎます。 詳細については、[&#x200B; セッション タイムアウト &#x200B;](./session-timeout-prompt.md)を参照してください。
 
 
-**親トピック：**[ Adobe Experience Manager Guides as a Cloud Serviceについて](intro.md)
+**親トピック：**&#x200B;[&#x200B; Adobe Experience Manager Guides as a Cloud Serviceについて](intro.md)

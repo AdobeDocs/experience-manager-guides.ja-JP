@@ -55,7 +55,7 @@ Experience Manager Guidesのデータソースツールを使用して、ユー�
    >[!TIP]
    >
    >* カーソルを合わせる フィールドの近くの<img src="./assets/info-details.svg" alt= "情報アイコン" width="25">で、詳細を表示できます。
-   >* * フィールドは必須です。 例えば、Git コネクタに次の詳細を入力できます。
+   >* &#x200B;* フィールドは必須です。 例えば、Git コネクタに次の詳細を入力できます。
 
    - **名前**: データソースの名前を入力します。
    - **Target AEMのルートパス**: Gitから読み込まれたコンテンツを保存するAEM リポジトリ内のパスを入力します。
@@ -87,7 +87,7 @@ Git コネクタを使用して&#x200B;**データソース** ページから設
 
 >[!NOTE]
 >
-> 使用可能なGit コネクタのバージョンを表示するには、[Maven中央リポジトリ ](https://central.sonatype.com/artifact/com.adobe.aem.addon.guides/konnect-github)を表示します。
+> 使用可能なGit コネクタのバージョンを表示するには、[Maven中央リポジトリ &#x200B;](https://central.sonatype.com/artifact/com.adobe.aem.addon.guides/konnect-github)を表示します。
 
 1. AEM プロジェクトの`all/pom.xml`で、`<dependencies>`の下にGit Connectorを依存関係として追加します。
 

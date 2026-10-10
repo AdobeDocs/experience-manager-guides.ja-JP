@@ -56,10 +56,10 @@ FMPSの設定について詳しくは、[FrameMaker ドキュメントから出�
 
 この方法を使用すると、W3C CSS3およびCSS Paged Media標準に基づいて、機能豊富なPDF出力を生成できます。 PDFのネイティブパブリッシング機能では、テンプレートを使用してコンテンツのレイアウトやスタイルを設定し、さまざまな設定を適用してPDFを調整できます。 さらに、テンプレートエディターを使用して、独自のテンプレートを変更および作成できます。
 
-ネイティブ PDF プリセットの作成について詳しくは、[ ネイティブ PDF出力プリセットの作成](../web-editor/native-pdf-web-editor.md)を参照してください。
+ネイティブ PDF プリセットの作成について詳しくは、[&#x200B; ネイティブ PDF出力プリセットの作成](../web-editor/native-pdf-web-editor.md)を参照してください。
 
 
 
 
 
-**親トピック：**[&#x200B;出力プリセットについて](generate-output-understand-presets.md)
+**親トピック：**&#x200B;[&#x200B;出力プリセットについて](generate-output-understand-presets.md)

@@ -59,7 +59,7 @@ Experience Manager Guides as a Cloud Serviceでは、公開リクエストごと
 
    <img src="assets/projects-tab.png" alt="「プロジェクト」タブ" width="500">
 
-   *Adobe Developer Console***&#x200B;の「**プロジェクト**」タブを選択します&#x200B;**
+   *Adobe Developer Console&#x200B;***&#x200B;の「**&#x200B;プロジェクト&#x200B;**」タブを選択します&#x200B;**
 
 1. 新しい空のプロジェクトを作成するには、「**新しいプロジェクトを作成**」ドロップダウンから「**空のプロジェクト**」を選択します。
 

@@ -69,9 +69,9 @@ AEM Guidesには、PDFのパブリッシュエンジンが組み込まれてお�
 
 - **機能ビデオ** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **ユーザーガイド** - [ ネイティブ PDF パブリッシング ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/map-management-publishing/output-gen/output-presets-aemg/pdf-preset/native-pdf-web-editor)
+- **ユーザーガイド** - [&#x200B; ネイティブ PDF パブリッシング &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/map-management-publishing/output-gen/output-presets-aemg/pdf-preset/native-pdf-web-editor)
 
-- **コミュニティフォーラム** - Experience Leagueでのセッション固有のコミュニティインタラクションについては、[AEM Guides フォーラム ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)をご覧ください。
+- **コミュニティフォーラム** - Experience Leagueでのセッション固有のコミュニティインタラクションについては、[AEM Guides フォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)をご覧ください。
 
 >[!NOTE]
 >

@@ -47,7 +47,7 @@ Adobe Experience Managerのコンテンツ管理の重要な概念には、次�
 
 **アセット管理**
 
-Experience Manager Guidesでは、Adobe Experience Managerのデジタルアセット管理\（DAM\）を使用してDITA ファイルを管理します。 DAMにアップロードまたはチェックインしたファイルは、デジタルアセットとして保存されます。 Adobe Experience Manager Assetsでアセットを管理および編集できます。 アセット管理について詳しくは、[ アセットの管理](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=ja)を参照してください。
+Experience Manager Guidesでは、Adobe Experience Managerのデジタルアセット管理\（DAM\）を使用してDITA ファイルを管理します。 DAMにアップロードまたはチェックインしたファイルは、デジタルアセットとして保存されます。 Adobe Experience Manager Assetsでアセットを管理および編集できます。 アセット管理について詳しくは、[&#x200B; アセットの管理](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=ja)を参照してください。
 
 **リンク管理**
 

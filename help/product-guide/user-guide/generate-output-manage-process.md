@@ -76,7 +76,7 @@ Adobe Experience Manager Guidesでは、生成された出力に対して次の�
 
 ## 出力生成タスクのキャンセル
 
-Experience Manager Guidesを使用すると、パブリッシャーは進行中の公開タスクをキャンセルするシンプルで簡単な方法を入手できます。 パブリッシャーは、DITA マップコンソールまたは[公開ダッシュボード ](generate-output-publish-dashboard.md#)から進行中の公開タスクをキャンセルできます。
+Experience Manager Guidesを使用すると、パブリッシャーは進行中の公開タスクをキャンセルするシンプルで簡単な方法を入手できます。 パブリッシャーは、DITA マップコンソールまたは[公開ダッシュボード &#x200B;](generate-output-publish-dashboard.md#)から進行中の公開タスクをキャンセルできます。
 
 DITA マップコンソールから出力生成タスクをキャンセルするには、次の手順を実行します。
 

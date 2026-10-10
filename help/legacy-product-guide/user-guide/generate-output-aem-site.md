@@ -41,7 +41,7 @@ Web エディターまたはマップダッシュボードからAEM Sites プリ
 1. 「出力」タブで「+」アイコンを選択して、出力プリセットを作成します。
 1. 「**新規出力プリセット**」ダイアログボックスの「タイプ」ドロップダウンから「AEM サイト」を選択します。
 
-Web エディター](generate-output-aem-site-web-editor.md)の[AEM Sites プリセットについて詳しく説明します。
+Web エディター[&#128279;](generate-output-aem-site-web-editor.md)のAEM Sites プリセットについて詳しく説明します。
 
 
 **マップダッシュボードから**
@@ -51,4 +51,4 @@ Web エディター](generate-output-aem-site-web-editor.md)の[AEM Sites プリ
 1. 「出力プリセット」を選択し、「AEM サイト出力」オプションを選択します。
 1. マップダッシュボードで、上部の&#x200B;**編集**&#x200B;をクリックして様々な設定を更新し、**保存**&#x200B;をクリックします。
 
-マップダッシュボード ](generate-output-aem-site-map-dashboard.md)の[AEM Sites プリセットについて詳しく説明します。
+マップダッシュボード [&#128279;](generate-output-aem-site-map-dashboard.md)のAEM Sites プリセットについて詳しく説明します。

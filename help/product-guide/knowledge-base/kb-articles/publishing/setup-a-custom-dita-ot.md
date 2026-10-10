@@ -39,12 +39,12 @@ ht-degree: 0%
 
 + 基本的なDITA-OTを入手する
   + [!DNL AEM Guides]からすぐに使えるDITA-OTのコピーを取得する場合は、パス `/etc/fmdita/dita_resources/DITA-OT.zip`からダウンロードします
-  + 別のバージョンを取得する場合は、[dita-ot リポジトリ ](https://www.dita-ot.org/download)からダウンロードできます
-+ [新しいプラグイン ](https://www.dita-ot.org/dev/topics/plugins-installing.html)の追加、既存のプラグインのカスタマイズなど、DITA-OTに変更を加えます（以下の関連リンクの節の例を参照）
+  + 別のバージョンを取得する場合は、[dita-ot リポジトリ &#x200B;](https://www.dita-ot.org/download)からダウンロードできます
++ [新しいプラグイン &#x200B;](https://www.dita-ot.org/dev/topics/plugins-installing.html)の追加、既存のプラグインのカスタマイズなど、DITA-OTに変更を加えます（以下の関連リンクの節の例を参照）
 + `DITA-OT.zip`のアップロードを`/apps/<project-folder>/dita_resources`に受信しました（カスタムプロジェクトフォルダーの作成は推奨されるアプローチです）
-+ **[!UICONTROL ツール]**/**[!UICONTROL ガイド]**/**[!UICONTROL DITA プロファイル]**を使用してDITA プロファイルを追加します（カスタム DITA-OTがアップロードされるDITA-OT パスを使用します。以下のスクリーンショットを参照してください）
-  ![DITA プロファイル ](assets/dita-profile.png)
++ **[!UICONTROL ツール]**/**[!UICONTROL ガイド]**/**[!UICONTROL DITA プロファイル]**&#x200B;を使用してDITA プロファイルを追加します（カスタム DITA-OTがアップロードされるDITA-OT パスを使用します。以下のスクリーンショットを参照してください）
+  ![DITA プロファイル &#x200B;](assets/dita-profile.png)
 
 >[!MORELIKETHIS]
 >
->+ [DITA-OT プラグインサンプルのカスタマイズ ](https://www.dita-ot.org/dev/topics/pdf-customization.html)
+>+ [DITA-OT プラグインサンプルのカスタマイズ &#x200B;](https://www.dita-ot.org/dev/topics/pdf-customization.html)

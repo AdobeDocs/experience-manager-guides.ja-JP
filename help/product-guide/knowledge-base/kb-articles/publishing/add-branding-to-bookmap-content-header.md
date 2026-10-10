@@ -40,13 +40,13 @@ FrontCover ページとチャプターページをシームレスに統合する
 
 **前：**
 
-![ ブランディングを修正する前：PDFのプリブランディングのレイアウトを示すスクリーンショット](../assets/publishing/branding-image1.png)
+![&#x200B; ブランディングを修正する前：PDFのプリブランディングのレイアウトを示すスクリーンショット](../assets/publishing/branding-image1.png)
 <br>
 <br>
 
 **後：**
 
-![ ブランディングを修正した後：PDFのポストブランディングのレイアウトを示すスクリーンショット ](../assets/publishing/branding-image2.png)
+![&#x200B; ブランディングを修正した後：PDFのポストブランディングのレイアウトを示すスクリーンショット &#x200B;](../assets/publishing/branding-image2.png)
 
 ## コンテンツの設定
 
@@ -113,7 +113,7 @@ DITAMAPを公開する場合、Native PDFには、FrontCover ページを自動�
 結合するには：
 - PDFのネイティブテンプレート設定/ ページレイアウト順序に移動します
 - 次のページ（章とトピック）にFrontCoverを統合します。
-  ![章を使用したFrontCoverの統合：ネイティブ PDF テンプレート設定を示すスクリーンショット ](../assets/publishing/branding-image3.png)
+  ![章を使用したFrontCoverの統合：ネイティブ PDF テンプレート設定を示すスクリーンショット &#x200B;](../assets/publishing/branding-image3.png)
 - テンプレートを保存し、このテンプレートをプリセット用に選択して公開します。
 
 
@@ -145,10 +145,10 @@ window.addEventListener('DOMContentLoaded', function () {
 ```
 
 - このJavaScriptを章テンプレートに含めます。
-  ![ チャプターテンプレートにJavaScriptを含める：ページレイアウトのエントリを示すスクリーンショット PDF テンプレート ](../assets/publishing/branding-image4.png)
+  ![&#x200B; チャプターテンプレートにJavaScriptを含める：ページレイアウトのエントリを示すスクリーンショット PDF テンプレート &#x200B;](../assets/publishing/branding-image4.png)
 
 - プリセットオプションからJavaScriptを有効にする
-  ![JavaScript プリセット設定を有効にする：JavaScriptを有効にするプリセット設定を示すスクリーンショット ](../assets/publishing/branding-image5.png)
+  ![JavaScript プリセット設定を有効にする：JavaScriptを有効にするプリセット設定を示すスクリーンショット &#x200B;](../assets/publishing/branding-image5.png)
 
 - 公開します！
 

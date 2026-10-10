@@ -238,7 +238,7 @@ AEM Guidesが一時的な翻訳フォルダーの場所を検索できないよ�
 
 >[!NOTE]
 >
-> この手順を使用して、除外リストに他のフォルダーの場所を追加できます。 インデックスの操作について詳しくは、[ コンテンツ検索とインデックス作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html?lang=ja)を参照してください。
+> この手順を使用して、除外リストに他のフォルダーの場所を追加できます。 インデックスの操作について詳しくは、[&#x200B; コンテンツ検索とインデックス作成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html?lang=ja)を参照してください。
 
 1. カスタム damAssetLucene インデックスに次のプロパティを追加します。
 

@@ -70,9 +70,9 @@ AEM Guidesのリリース管理では、ベースラインを使用してトピ�
 
 - **機能ビデオ** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **ユーザーガイド** - [ ベースラインの操作](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html)
+- **ユーザーガイド** - [&#x200B; ベースラインの操作](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html)
 
-- **コミュニティフォーラム** - Experience Leagueでのセッション固有のコミュニティインタラクションについては、[AEM Guides フォーラム ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)をご覧ください。
+- **コミュニティフォーラム** - Experience Leagueでのセッション固有のコミュニティインタラクションについては、[AEM Guides フォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)をご覧ください。
 
 >[!NOTE]
 >

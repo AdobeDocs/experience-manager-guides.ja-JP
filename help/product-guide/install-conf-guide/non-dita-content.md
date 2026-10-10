@@ -45,7 +45,7 @@ AEM Guidesを使用すると、既存のWord ドキュメント \（`.docx`\）�
 
 Word文書を正常に変換するには、文書を適切に構造化する必要があります。 例えば、文書にはタイトルを付け、その後に見出し1、見出し2などを付けます。 各見出しには、ある程度の内容を含める必要があります。 ドキュメントの構造が適切でない場合、プロセスが期待どおりに動作しない可能性があります。
 
-デフォルトでは、AEM Guidesは[Word-DITA \（Word2DITA\）変換フレームワーク ](http://www.dita4publishers.org/docs/repo/org.dita4publishers.word2dita/word2dita/word2dita-intro.html)を使用します。 この変換は、[ スタイルからタグへのマッピング ](http://www.dita4publishers.org/docs/repo/org.dita4publishers.word2dita/word2dita/style-to-tag-map-overview.html)設定ファイルによって異なります。 Word2DITA変換を正常に使用するには、変換のためにWord文書を準備するための次のガイドラインを考慮する必要があります。
+デフォルトでは、AEM Guidesは[Word-DITA \（Word2DITA\）変換フレームワーク &#x200B;](http://www.dita4publishers.org/docs/repo/org.dita4publishers.word2dita/word2dita/word2dita-intro.html)を使用します。 この変換は、[&#x200B; スタイルからタグへのマッピング &#x200B;](http://www.dita4publishers.org/docs/repo/org.dita4publishers.word2dita/word2dita/style-to-tag-map-overview.html)設定ファイルによって異なります。 Word2DITA変換を正常に使用するには、変換のためにWord文書を準備するための次のガイドラインを考慮する必要があります。
 
 >[!NOTE]
 >
@@ -104,7 +104,7 @@ Word文書を正常に変換するには、文書を適切に構造化する必�
 
      >[!NOTE]
      >
-     > `word-builtin-styles-style2tagmap.xml` ファイルの構造とカスタマイズ方法について詳しくは、*DITA For Publishers ユーザーガイド*&#x200B;の「[ タグマッピングのスタイル ](http://www.dita4publishers.org/docs/repo/org.dita4publishers.word2dita/word2dita/style-to-tag-map-overview.html)」を参照してください。
+     > `word-builtin-styles-style2tagmap.xml` ファイルの構造とカスタマイズ方法について詳しくは、*DITA For Publishers ユーザーガイド*&#x200B;の「[&#x200B; タグマッピングのスタイル &#x200B;](http://www.dita4publishers.org/docs/repo/org.dita4publishers.word2dita/word2dita/style-to-tag-map-overview.html)」を参照してください。
 
    - props2Propagate エレメントで、DITA マップに渡すプロパティを指定します。 このプロパティは、ドキュメントメタデータから変換されたDITA アセットにdc:title,dc:subject,dam:keywords,dam:categoryなどのデフォルトメタデータを渡すために必要です。
 
@@ -114,7 +114,7 @@ Word文書を正常に変換するには、文書を適切に構造化する必�
 
 1. 入力フォルダーの場所\（`wordtodita`\）に移動します。
 
-1. ソース Word ドキュメントをこのフォルダーにアップロードします。 DAMでのコンテンツのアップロードについて詳しくは、[既存のDITA コンテンツのアップロード ](upload-dita-content.md#)を参照してください。
+1. ソース Word ドキュメントをこのフォルダーにアップロードします。 DAMでのコンテンツのアップロードについて詳しくは、[既存のDITA コンテンツのアップロード &#x200B;](upload-dita-content.md#)を参照してください。
 
 
 `config` `/config` ブロックを使用すると、変換する設定の1つまたは複数のブロックを定義できます。 変換ワークフローが実行され、DITA トピック形式の最終出力が`outputDir`要素で指定された場所に保存されます。
@@ -163,7 +163,7 @@ AEM Guides as a Cloud Serviceの既存のユーザーで、2021年8月リリー�
 
      >[!NOTE]
      >
-     > `word-builtin-styles-style2tagmap.xml` ファイルの構造とカスタマイズ方法について詳しくは、*DITA For Publishers ユーザーガイド*&#x200B;の「[ タグマッピングのスタイル ](http://www.dita4publishers.org/docs/repo/org.dita4publishers.word2dita/word2dita/style-to-tag-map-overview.html)」を参照してください。
+     > `word-builtin-styles-style2tagmap.xml` ファイルの構造とカスタマイズ方法について詳しくは、*DITA For Publishers ユーザーガイド*&#x200B;の「[&#x200B; タグマッピングのスタイル &#x200B;](http://www.dita4publishers.org/docs/repo/org.dita4publishers.word2dita/word2dita/style-to-tag-map-overview.html)」を参照してください。
 
    - props2Propagate エレメントで、DITA マップに渡すプロパティを指定します。 このプロパティは、ドキュメントメタデータから変換されたDITA アセットにdc:title,dc:subject,dam:keywords,dam:categoryなどのデフォルトメタデータを渡すために必要です。
 
@@ -173,7 +173,7 @@ AEM Guides as a Cloud Serviceの既存のユーザーで、2021年8月リリー�
 
 1. 入力フォルダーの場所\（`wordtodita`\）に移動します。
 
-1. ソース Word ドキュメントをこのフォルダーにアップロードします。 DAMでのコンテンツのアップロードについて詳しくは、[既存のDITA コンテンツのアップロード ](upload-dita-content.md#)を参照してください。
+1. ソース Word ドキュメントをこのフォルダーにアップロードします。 DAMでのコンテンツのアップロードについて詳しくは、[既存のDITA コンテンツのアップロード &#x200B;](upload-dita-content.md#)を参照してください。
 
 
 `config` `/config` ブロックを使用すると、変換する設定の1つまたは複数のブロックを定義できます。 変換ワークフローが実行され、DITA トピック形式の最終出力が`outputDir`要素で指定された場所に保存されます。
@@ -252,7 +252,7 @@ AEM Guidesでは、InDesign ドキュメントを変換できます。 FrameMake
 
 1. 入力フォルダーの場所\（`indesigntodita`\）に移動します。
 
-1. ソースのInDesign ドキュメントをこのフォルダーにアップロードします。 DAMでのコンテンツのアップロードについて詳しくは、[既存のDITA コンテンツのアップロード ](upload-dita-content.md#)を参照してください。
+1. ソースのInDesign ドキュメントをこのフォルダーにアップロードします。 DAMでのコンテンツのアップロードについて詳しくは、[既存のDITA コンテンツのアップロード &#x200B;](upload-dita-content.md#)を参照してください。
 
 
 ## XHTML ドキュメントの移行 {#id1949B04L0Y4}
@@ -364,7 +364,7 @@ ZIP ファイルを作成する際の考慮事項とは別に、XHTML ドキュ�
 
 1. 入力フォルダーの場所\（`xhtmltodita`\）に移動します。
 
-1. ソース XHTML ドキュメントをこのフォルダーにアップロードします。 DAMでのコンテンツのアップロードについて詳しくは、[既存のDITA コンテンツのアップロード ](upload-dita-content.md#)を参照してください。
+1. ソース XHTML ドキュメントをこのフォルダーにアップロードします。 DAMでのコンテンツのアップロードについて詳しくは、[既存のDITA コンテンツのアップロード &#x200B;](upload-dita-content.md#)を参照してください。
 
 
 `<config> </config>` ブロックを使用すると、変換する設定の1つまたは複数のブロックを定義できます。 変換ワークフローが実行され、DITA トピック形式の最終出力が`outputDir`要素で指定された場所に保存されます。
@@ -415,7 +415,7 @@ ZIP ファイルを作成する際の考慮事項とは別に、XHTML ドキュ�
    4. ファイルを保存して閉じます。
 1. 入力フォルダーの場所\（`xhtmltodita`\）に移動します。
 
-1. ソース XHTML ドキュメントをこのフォルダーにアップロードします。 DAMでのコンテンツのアップロードについて詳しくは、[既存のDITA コンテンツのアップロード ](upload-dita-content.md#)を参照してください。
+1. ソース XHTML ドキュメントをこのフォルダーにアップロードします。 DAMでのコンテンツのアップロードについて詳しくは、[既存のDITA コンテンツのアップロード &#x200B;](upload-dita-content.md#)を参照してください。
 
 
 `<config> </config>` ブロックを使用すると、変換する設定の1つまたは複数のブロックを定義できます。 変換ワークフローが実行され、DITA トピック形式の最終出力が`outputDir`要素で指定された場所に保存されます。
@@ -467,7 +467,7 @@ AEM Guidesを使用すると、既存の構造化ドキュメントを有効なD
 
 1. 入力フォルダーの場所\（`xsltodita`\）に移動します。
 
-1. ソース構造化文書をこのフォルダーにアップロードします。 DAMでのコンテンツのアップロードについて詳しくは、[既存のDITA コンテンツのアップロード ](upload-dita-content.md#)を参照してください。
+1. ソース構造化文書をこのフォルダーにアップロードします。 DAMでのコンテンツのアップロードについて詳しくは、[既存のDITA コンテンツのアップロード &#x200B;](upload-dita-content.md#)を参照してください。
 
 
 `<config> </config>` ブロックを使用すると、変換する設定の1つまたは複数のブロックを定義できます。 変換ワークフローが実行され、DITA トピック形式の最終出力が`outputDir`要素で指定された場所に保存されます。
@@ -506,11 +506,11 @@ AEM Guidesを使用すると、既存の構造化ドキュメントを有効なD
 
 1. 入力フォルダーの場所\（`xsltodita`\）に移動します。
 
-1. ソース構造化文書をこのフォルダーにアップロードします。 DAMでのコンテンツのアップロードについて詳しくは、[既存のDITA コンテンツのアップロード ](upload-dita-content.md#)を参照してください。
+1. ソース構造化文書をこのフォルダーにアップロードします。 DAMでのコンテンツのアップロードについて詳しくは、[既存のDITA コンテンツのアップロード &#x200B;](upload-dita-content.md#)を参照してください。
 
 
 `<config> </config>` ブロックを使用すると、変換する設定の1つまたは複数のブロックを定義できます。 変換ワークフローが実行され、DITA トピック形式の最終出力が`outputDir`要素で指定された場所に保存されます。
 
 >[!ENDTABS]
 
-**親トピック：**[&#x200B;既存のコンテンツを移行](migrate-content.md)
+**親トピック：**&#x200B;[&#x200B;既存のコンテンツを移行](migrate-content.md)

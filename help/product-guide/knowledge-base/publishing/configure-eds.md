@@ -56,7 +56,7 @@ EDSには、事前定義された構造を持つGitHub リポジトリが必要�
 1. Experience Manager Guides ボイラープレートテンプレートリポジトリ [aem-guides-boilerplate](https://github.com/adobe/aem-guides-boilerplate)を開きます。
    ![](assets/eds-boilerplate-template.png)
 
-2. このテンプレートを使用して新しいリポジトリを作成します。 テンプレート ](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)からリポジトリを作成する[について説明します。 リポジトリの表示が&#x200B;*パブリック*&#x200B;に設定されていることを確認し、EDSがアクセスできるようにします。
+2. このテンプレートを使用して新しいリポジトリを作成します。 テンプレート [&#128279;](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)からリポジトリを作成するについて説明します。 リポジトリの表示が&#x200B;*パブリック*&#x200B;に設定されていることを確認し、EDSがアクセスできるようにします。
 
    ![](assets/eds-create-new-repo.png)
 
@@ -259,7 +259,7 @@ EDSは`blocks`を使用して、コンテンツのさまざまな部分のスタ
    - 「**追加**」を選択します。
      ![](assets/eds-example-tag.png){width="650"}
 3. 出力を保存して再生成します。
-4. `blocks` ディレクトリ内に`outputclass`と同じ名前の新しいフォルダーを作成します。 [ リポジトリへのファイルの追加](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository#adding-a-file-to-a-repository-using-the-command-line)について説明します。
+4. `blocks` ディレクトリ内に`outputclass`と同じ名前の新しいフォルダーを作成します。 [&#x200B; リポジトリへのファイルの追加](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository#adding-a-file-to-a-repository-using-the-command-line)について説明します。
 
    ![](assets/eds-example-folder.png){width="650"}
 

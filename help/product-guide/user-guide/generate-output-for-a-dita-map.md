@@ -43,14 +43,14 @@ ht-degree: 0%
 
 DITA マップの出力を生成するには、次の2つの方法があります。
 
-- [ マップコンソールからDITA マップの出力を生成](#generate-output-for-a-dita-map-from-the-map-console)
+- [&#x200B; マップコンソールからDITA マップの出力を生成](#generate-output-for-a-dita-map-from-the-map-console)
 - [マップダッシュボードからDITA マップの出力を生成する](#generate-output-for-a-dita-map-from-the-map-dashboard)
 
 ## マップコンソールからDITA マップの出力を生成する
 
 マップコンソールを使用してDITA マップの出力を生成するには、次の手順を実行します。
 
-1. [ マップコンソールでマップファイルを開く](./open-files-map-console.md)。
+1. [&#x200B; マップコンソールでマップファイルを開く](./open-files-map-console.md)。
 2. DITA マップコンソールが表示され、出力の生成に使用できる&#x200B;**出力プリセット**&#x200B;のリストが表示されます。
 
 3. 出力の生成に使用するプリセットを開き、**出力の生成**&#x200B;を選択して生成プロセスを開始します。
@@ -97,7 +97,7 @@ DITA マップの出力を生成するには、次の2つの方法がありま�
 >
 > プリセットの出力生成プロセスがキュー内または処理中の場合、同じプリセットに対して別の出力生成タスクを開始することはできません。
 
-1つ以上のトピックのAEM Sites出力や、マップコンソールからDITA マップ全体を生成することもできます。 詳細については、[ ナレッジベース出力の生成](web-editor-article-publishing.md#id218CK0U019I)を参照してください。
+1つ以上のトピックのAEM Sites出力や、マップコンソールからDITA マップ全体を生成することもできます。 詳細については、[&#x200B; ナレッジベース出力の生成](web-editor-article-publishing.md#id218CK0U019I)を参照してください。
 
 ## `chunk`属性を使用したDITA マップ内の異なるトピックの結合
 
@@ -110,4 +110,4 @@ DITA マップには、参照、概念、タスクなど、様々なトピック
 
 
 
-**親トピック：**[&#x200B;出力生成](generate-output.md)
+**親トピック：**&#x200B;[&#x200B;出力生成](generate-output.md)

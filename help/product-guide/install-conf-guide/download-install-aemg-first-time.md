@@ -49,7 +49,7 @@ AEM Guidesを初めてダウンロードしてインストールするには、�
    http://<server name>:<port>/crx/packmgr/index.jsp
    ```
 
-   パッケージマネージャーは、ローカルのAEM インストール上のパッケージを管理します。 パッケージマネージャーの操作について詳しくは、AEM ドキュメントの[ パッケージの操作方法](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/package-manager.html)を参照してください。
+   パッケージマネージャーは、ローカルのAEM インストール上のパッケージを管理します。 パッケージマネージャーの操作について詳しくは、AEM ドキュメントの[&#x200B; パッケージの操作方法](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/package-manager.html)を参照してください。
 
    ![](assets/package-manager.png){width="650"}
 

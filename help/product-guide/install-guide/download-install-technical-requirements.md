@@ -41,7 +41,7 @@ Adobe Experience Manager Guidesをインストールする前に、ご使用の�
 
 >[!NOTE]
 >
-> [Experience Manager Guides リリースの詳細とビルドのダウンロード ](../release-info/latest-release-info.md)。
+> [Experience Manager Guides リリースの詳細とビルドのダウンロード &#x200B;](../release-info/latest-release-info.md)。
 
 
 | [!DNL AEM Guides] リリース | 技術仕様 |
@@ -56,4 +56,4 @@ Adobe Experience Manager Guidesをインストールする前に、ご使用の�
 | **AEM Guides 3.8.5** <br><br> 3.8.5は、3.8のSP リリースです。 <br> 3.8 リリースは、<br> スタンドアロンをインストールしてはなりません。これは、3.8.5 SPに<br>件の重要な修正が含まれているためです。<br> お客様は、まず3.8 <br>をインストールしてから、SP 3.8.5をインストールする必要があります。 | **非UUID** <br> <ul><li>AEM 6.5 SP9またはSP8 <br> AEM 6.4 SP8 <br> AEM 6.3 SP3 <br><br> <li>オペレーティングシステム： <ul><li>Windows Server 2012 R2 <br> <li> Red Hat Linux 7および6</ul><br> **UUID** <br><li> AEM 6.5 SP9またはSP8 <br><br> <li> オペレーティングシステム： <ul><li>Windows Server 2012 R2 <br> <li>Red Hat Linux 7および6 |
 
 
-**親トピック：** [ ダウンロードしてインストール ](download-install.md)
+**親トピック：** [&#x200B; ダウンロードしてインストール &#x200B;](download-install.md)

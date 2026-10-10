@@ -36,7 +36,7 @@ ht-degree: 0%
 
 - 翻訳が完了して承認されたら、すべてのプロジェクトを「非アクティブ」としてマークします。プロジェクトは引き続きレビュー可能であり、非アクティブとしてマークされます。
   - 次の手順を実行すると、全体的な翻訳パフォーマンスを正常に維持できます。
-    ![非アクティブな翻訳プロジェクト ](./assets/translation-project-image1.png)
+    ![非アクティブな翻訳プロジェクト &#x200B;](./assets/translation-project-image1.png)
 
 - 古いプロジェクトの場合は、非アクティブ、承認済みおよびレビュー済みとしてマークされたフォルダーを削除する必要があります
   - これらの手順を実行すると、このプロジェクトフォルダーに関連する一時的な翻訳ファイルとユーザーグループをクリーンアップすることで、翻訳パフォーマンス全体を正常に維持できます。
@@ -49,4 +49,4 @@ ht-degree: 0%
 
 参照：[完了した翻訳プロジェクトを自動的に削除または無効にする](../../../user-guide/translate-documents-web-editor.md#automatically-delete-or-disable-a-completed-translation-project)
 
-![AEM Guides ](./assets/translation-project-image3.png)で翻訳プロジェクトを削除および無効にする自動設定
+![AEM Guides &#x200B;](./assets/translation-project-image3.png)で翻訳プロジェクトを削除および無効にする自動設定

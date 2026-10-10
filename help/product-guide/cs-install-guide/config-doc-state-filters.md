@@ -43,36 +43,36 @@ Adobe Experience Manager Guidesには、現在のドキュメントの状態に�
 ダウンロードした`ui\_config.json` ファイルで、次の節を参照してください。
 
        &quot;&#39;
-     &quot;repositoryFilters&quot;: [
-     {
+     &quot;repositoryFilters&quot;: &lbrack;
+     &lbrace;
      &quot;title&quot;: &quot;Document state&quot;,
      &quot;property&quot;: &quot;jcr:content/metadata/docstate&quot;,
-     &quot;children&quot;: [
-     {
+     &quot;children&quot;: &lbrack;
+     &lbrace;
 &quot;title&quot;: &quot;Draft&quot;,
-{value&quot;: &quot;Draft&quot;
+&lbrace;value&quot;: &quot;Draft&quot;
      ,
-}     {
+&rbrace;     &lbrace;
      &quot;title&quot;: &quot;Edit&quot;,
      &quot;value&quot;: &quot;Edit&quot;
-     },
-     {
+     &rbrace;,
+     &lbrace;
     &quot;title&quot;: &quot;In-Review&quot;,
      &quot;value&quot;: &quot;In-Review&quot;
-},
-     {
+&rbrace;,
+     &lbrace;
 &quot;title&quot;: &quot;Approved&quot;,
      &quot;value&quot;: &quot;Approved&quot;
-     }},
-     {
+     &rbrace;&rbrace;,
+     &lbrace;
      &quot;title&quot;: &quot;Reviewed&quot;,
      &quot;value&quot;: &quot;Reviewed&quot;
 ,
-     {
+     &lbrace;
      &quot;title&quot;: &quot;Done&quot;,
      &quot;value&quot;: &quot;Done&quot;
-         }}     }
-     ]
+         &rbrace;&rbrace;     &rbrace;
+     &rbrack;
      &quot;&#39;
                    
     
@@ -91,4 +91,4 @@ Adobe Experience Manager Guidesには、現在のドキュメントの状態に�
 
 設定されたフィルターは、ホームページのリポジトリの&#x200B;**フィルター** パネルに表示されます。
 
-**親トピック：**[ Web エディターのカスタマイズ ](conf-web-editor.md)
+**親トピック：**&#x200B;[&#x200B; Web エディターのカスタマイズ &#x200B;](conf-web-editor.md)

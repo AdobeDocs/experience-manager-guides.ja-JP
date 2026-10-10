@@ -43,8 +43,8 @@ ht-degree: 0%
 
 ## FMPSとAEM Guidesの互換性
 
-- 4.1 AEM Guidesとの互換性：[4.1互換性マトリックス ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=en/#compatibility-matrix)
-- 4.0 AEM Guidesとの互換性：[4.0互換性マトリックス ](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html/#Compatibility%20matrix)
+- 4.1 AEM Guidesとの互換性：[4.1互換性マトリックス &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=en/#compatibility-matrix)
+- 4.0 AEM Guidesとの互換性：[4.0互換性マトリックス &#x200B;](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html/#Compatibility%20matrix)
 - 最新リリース：[最新リリース情報](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=en)
 
 ## インストール
@@ -57,7 +57,7 @@ AEM GuidesおよびFMPSのインストールと設定については、次を参
 
 ### FMPS
 
-FMPSのインストールについては、[YouTubeのリンク ](https://www.youtube.com/watch?v=2deelyM5VA8&t)または[FMPSのインストールと設定](https://help.adobe.com/en_US/framemaker/server/index.html#t=fmps-user-guide%2Finstall_config_fmps.html%23install_config_fmps&rhtocid=_2)を参照できます
+FMPSのインストールについては、[YouTubeのリンク &#x200B;](https://www.youtube.com/watch?v=2deelyM5VA8&t)または[FMPSのインストールと設定](https://help.adobe.com/en_US/framemaker/server/index.html#t=fmps-user-guide%2Finstall_config_fmps.html%23install_config_fmps&rhtocid=_2)を参照できます
 
 ## 必要な設定
 
@@ -86,7 +86,7 @@ FMPS プリセットを選択し、AEMからカスタム設定またはditaval �
 
 FMPS2020.0.2以降のバージョンで、既に作成したベースラインを公開できます。
 
-開始する&#x200B;**サンプル FMPS設定ファイル（.sts ファイル）:** [ サンプル FMPS設定ファイル ](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:ef750752-7a7e-4e51-923e-6b7d9861ed54) （このファイルを解凍）
+開始する&#x200B;**サンプル FMPS設定ファイル（.sts ファイル）:** [&#x200B; サンプル FMPS設定ファイル &#x200B;](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:ef750752-7a7e-4e51-923e-6b7d9861ed54) （このファイルを解凍）
 
 ## FAQとトラブルシューティング：
 

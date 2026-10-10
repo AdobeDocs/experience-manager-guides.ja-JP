@@ -53,23 +53,23 @@ Experience Manager Guidesでは、トピックまたはそのエレメントを�
 
 コンテンツフラグメントを作成するには、次の手順を実行します。
 
-1. Adobe Experience Manager Assetsで[ コンテンツフラグメントモデル ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/content-fragments/content-fragments-models.html?lang=ja)を作成します。
+1. Adobe Experience Manager Assetsで[&#x200B; コンテンツフラグメントモデル &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/assets/content-fragments/content-fragments-models.html?lang=ja)を作成します。
 1. コンテンツフラグメントモデルに基づいて作成したコンテンツフラグメントを保存するフォルダーを作成します。 例えば、「stock-content-fragments」のように指定します。
 1. フォルダーのプロパティ（「stock-content-fragments」など）を編集し、クラウド設定でコンテンツフラグメントモデルを含むフォルダーのパスを追加します。
 例えば、クラウド設定に`/conf/we-retail`を追加します。 この設定では、すべてのコンテンツフラグメントモデルをフォルダーに接続します。\
-   ![ フォルダープロパティにクラウド設定の詳細を追加](images/fragment-folder-cloud-configuration.png){width="650"}
+   ![&#x200B; フォルダープロパティにクラウド設定の詳細を追加](images/fragment-folder-cloud-configuration.png){width="650"}
    *フォルダープロパティにクラウド設定を追加して、フラグメントモデルに接続します。*
 
-1. コンテンツフラグメントを生成するには、トピックの&#x200B;**ファイルプロパティ**&#x200B;の&#x200B;**出力** セクションから&#x200B;**新規出力** ![新規出力アイコン ](./images/Add_icon.svg)を選択します。
+1. コンテンツフラグメントを生成するには、トピックの&#x200B;**ファイルプロパティ**&#x200B;の&#x200B;**出力** セクションから&#x200B;**新規出力** ![新規出力アイコン &#x200B;](./images/Add_icon.svg)を選択します。
 1. **コンテンツフラグメント**&#x200B;を選択します。\
-   ![ ファイルのプロパティ オプション タブ ](./images/file-properties-outputs-tab.png) {width="300"}
+   ![&#x200B; ファイルのプロパティ オプション タブ &#x200B;](./images/file-properties-outputs-tab.png) {width="300"}
 
    *トピック*&#x200B;のファイル プロパティから新しいコンテンツ フラグメントを追加します。
 
 1. **コンテンツフラグメントを生成** ダイアログボックスで、**一般** タブと&#x200B;**マッピング** タブに次の詳細を入力します。
 
    **一般** タブ
-   ![ コンテンツフラグメントとして公開ダイアログで、フラグメントモデルとマッピングの詳細を追加する](images/generate-content-fragment.png)
+   ![&#x200B; コンテンツフラグメントとして公開ダイアログで、フラグメントモデルとマッピングの詳細を追加する](images/generate-content-fragment.png)
    *トピックまたはその要素をコンテンツフラグメントとして公開するために、パス、名前、タイトル、条件フィルターを追加します。*
 
 
@@ -93,7 +93,7 @@ Experience Manager Guidesでは、トピックまたはそのエレメントを�
 
    **マッピング** タブ
 
-   ![ コンテンツフラグメントとして公開ダイアログで、フラグメントモデルとマッピングの詳細を追加](images/content-fragment-mapping.png)
+   ![&#x200B; コンテンツフラグメントとして公開ダイアログで、フラグメントモデルとマッピングの詳細を追加](images/content-fragment-mapping.png)
 
    *コンテンツフラグメントモデルを選択し、マッピングの詳細を追加して、トピックまたはその要素をコンテンツフラグメントとして公開します。*
 
@@ -110,7 +110,7 @@ Experience Manager Guidesでは、トピックまたはそのエレメントを�
 
 1. トピックのコンテンツフラグメントは、**ファイルプロパティ**&#x200B;の&#x200B;**出力** セクションで表示できます。
 
-   ![ トピックのコンテンツフラグメントを表示](images/outputs-options-menu.png){width="300"}
+   ![&#x200B; トピックのコンテンツフラグメントを表示](images/outputs-options-menu.png){width="300"}
 
    *トピックに存在するコンテンツフラグメントを表示し、再公開します。*
 

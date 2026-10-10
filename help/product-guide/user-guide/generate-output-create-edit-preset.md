@@ -42,7 +42,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->テンプレートプリセットは編集、複製、削除できません。 これらのアクションは管理者に限定されます。 テンプレートプリセットについて詳しくは、[ テンプレートプリセット ](../install-conf-guide/template-presets-output-generation.md)を参照してください。
+>テンプレートプリセットは編集、複製、削除できません。 これらのアクションは管理者に限定されます。 テンプレートプリセットについて詳しくは、[&#x200B; テンプレートプリセット &#x200B;](../install-conf-guide/template-presets-output-generation.md)を参照してください。
 
 
 ![](images/delete-preset-map-console.png)
@@ -56,4 +56,4 @@ ht-degree: 0%
 
 
 
-**親トピック：**[&#x200B;出力生成](generate-output.md)
+**親トピック：**&#x200B;[&#x200B;出力生成](generate-output.md)

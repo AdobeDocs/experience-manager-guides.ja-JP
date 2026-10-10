@@ -75,11 +75,11 @@ ht-degree: 1%
 
 - **拡張機能フレームワーク ベース リポジトリ** - [GIT](https://github.com/adobe/guides-extension/tree/main)
 
-- **Experience League](../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)のドキュメント** - [
+- **Experience League[&#128279;](../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)のドキュメント** - 
 
-- **Experience League](../../guides-ui-extensions/aem_guides_framework/jui-framework.md)で一般的な使用例** ～ [を文書化しました
+- **Experience League[&#128279;](../../guides-ui-extensions/aem_guides_framework/jui-framework.md)で一般的な使用例** ～ を文書化しました
 
-- **GIT](https://github.com/adobe/guides-extension/tree/sc-expert-session)のサンプル** - [を含むパブリックリポジトリ。 ブランチ sc-expert-sessionを参照してください
+- **GIT[&#128279;](https://github.com/adobe/guides-extension/tree/sc-expert-session)のサンプル** - を含むパブリックリポジトリ。 ブランチ sc-expert-sessionを参照してください
 
 
 >[!NOTE]

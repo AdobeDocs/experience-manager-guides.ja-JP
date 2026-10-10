@@ -167,7 +167,7 @@ AEM サイト出力を生成する場合、URLの生成方法は、コンテン�
 
 >[!NOTE]
 >
-> さらに、AEM サイト出力のURL内の一連の文字のみを許可するようにルールを設定できます。 詳しくは、[ トピックの作成とAEM サイト出力の公開に関するファイル名削除ルールの設定](#id2164D0KD0XA)を参照してください。
+> さらに、AEM サイト出力のURL内の一連の文字のみを許可するようにルールを設定できます。 詳しくは、[&#x200B; トピックの作成とAEM サイト出力の公開に関するファイル名削除ルールの設定](#id2164D0KD0XA)を参照してください。
 
 設定ファイルを作成するには、[設定の上書き](download-install-additional-config-override.md#)の手順を使用します。 コンフィギュレーションファイルで、次の\（property\）詳細を指定して、AEM サイト出力のURL生成を設定します。
 
@@ -300,7 +300,7 @@ AEM サイト出力でフラット化するノードを指定するのと同様�
 
 ### AEM サイト出力で削除されたページのバージョン管理を設定する
 
-「既存の出力ページ」設定で「**削除」および「**&#x200B;作成&#x200B;****」オプションを選択してAEM サイト出力を生成すると、削除するページのバージョンが作成されます。 システムを設定して、削除前にバージョンの作成を停止できます。
+「既存の出力ページ」設定で「**削除」および「**&#x200B;作成&#x200B;**&#x200B;**」オプションを選択してAEM サイト出力を生成すると、削除するページのバージョンが作成されます。 システムを設定して、削除前にバージョンの作成を停止できます。
 
 削除されるページのバージョンの作成を停止するには、次の手順を実行します。
 
@@ -319,7 +319,7 @@ AEM サイト出力でフラット化するノードを指定するのと同様�
 
 Experience Manager Guidesには、クロスマップ（2つの異なるマップのトピック間のリンク）の場合に生成されるリンクを処理するためのカスタムスリング [**rewriter**](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html) モジュールがあります。 この書き換え設定は、次のパスにインストールされています：<br> `/apps/fmdita/config/rewriter/fmdita-crossmap-link-patcher`。
 
-コードベースに別のカスタムスリングリライターがある場合は、`'order'`値が50より大きい値を使用します。これは、Experience Manager Guides sling リライターが`'order'` 50を使用するからです。  これを上書きするには、値が50を超える必要があります。 詳細については、[出力の書き換えパイプライン ](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html)を参照してください。
+コードベースに別のカスタムスリングリライターがある場合は、`'order'`値が50より大きい値を使用します。これは、Experience Manager Guides sling リライターが`'order'` 50を使用するからです。  これを上書きするには、値が50を超える必要があります。 詳細については、[出力の書き換えパイプライン &#x200B;](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html)を参照してください。
 
 
 ## DITA-OTを介した出力の公開でメタデータを使用する {#id191LF0U0TY4}
@@ -661,7 +661,7 @@ AEM Guidesには、マップコンソールをカスタマイズするための`
 
 >[!NOTE]
 >
-> AEM クライアントライブラリの作成について詳しくは、[ クライアントサイドライブラリの使用](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=en)を参照してください。
+> AEM クライアントライブラリの作成について詳しくは、[&#x200B; クライアントサイドライブラリの使用](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=en)を参照してください。
 
 ## 出力生成時の画像レンディションの処理 {#id177BF0G0VY4}
 

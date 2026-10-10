@@ -51,7 +51,7 @@ ht-degree: 2%
 
 - バージョン：**3.4**
 
-- パッケージ：****com.adobe.fmdita.api.maps****
+- パッケージ：**&#x200B;**&#x200B;com.adobe.fmdita.api.maps&#x200B;**&#x200B;**
 
 - クラスの詳細：
 

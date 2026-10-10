@@ -35,7 +35,7 @@ ht-degree: 0%
 
 この記事では、Adobe Experience Manager Guides（後で&#x200B;*AEM Guides*&#x200B;と呼ばれます）のバージョン 4.2.1の新機能と強化機能について説明します。
 
-アップグレード手順、互換性マトリックス、およびこのリリースで修正された問題について詳しくは、[ リリースノート ](release-notes-4-2-1.md)の記事を参照してください。
+アップグレード手順、互換性マトリックス、およびこのリリースで修正された問題について詳しくは、[&#x200B; リリースノート &#x200B;](release-notes-4-2-1.md)の記事を参照してください。
 
 ## Web エディターからAEM ホームページに移動します
 
@@ -46,7 +46,7 @@ Web エディターからAEM ナビゲーションページに簡単に移動で
 * 「**ガイド**」アイコン（![](assets/aem-guides-icon.png)）をクリックして、AEMのナビゲーションページに戻ります。
 
 
-詳しくは、[AEMのナビゲーションページ ](../user-guide/web-editor-launch-editor.md#id2056BG00RZJ)を参照してください。
+詳しくは、[AEMのナビゲーションページ &#x200B;](../user-guide/web-editor-launch-editor.md#id2056BG00RZJ)を参照してください。
 
 ## PDF公開時の高度なメタデータのサポート
 
@@ -70,7 +70,7 @@ AEM Guidesでは、ドキュメントで使用されるエレメントの階層�
 
 * 検索機能を使用すると、名前、ID、テキストまたは属性値でエレメントを検索できます。
 
-詳しくは、[左パネル ](../user-guide/web-editor-features.md#id2051EA0M0HS) セクションのアウトライン表示機能の説明を参照してください。
+詳しくは、[左パネル &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS) セクションのアウトライン表示機能の説明を参照してください。
 
 ## Web エディターからのマルチメディアレポートの生成
 
@@ -89,7 +89,7 @@ AEM Guidesでは、PDF出力の目次で変更されたトピックをすばや�
 
 <img src="assets/change-marker-toc.png" alt="目次のマーカーを変更 " width="500">
 
-詳細については、[ カスタム改訂バーのスタイルの操作](../native-pdf/change-bar-style.md)を参照してください。
+詳細については、[&#x200B; カスタム改訂バーのスタイルの操作](../native-pdf/change-bar-style.md)を参照してください。
 
 
 
@@ -105,4 +105,4 @@ AEM Guidesには、Web エディターでオーディオファイルまたはビ
 
 <img src="assets/video-web-editor.png" alt="動画を再生" width="600">
 
-詳しくは、[左パネル ](../user-guide/web-editor-features.md#id2051EA0M0HS) セクションのリポジトリビュー機能の説明を参照してください。
+詳しくは、[左パネル &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS) セクションのリポジトリビュー機能の説明を参照してください。

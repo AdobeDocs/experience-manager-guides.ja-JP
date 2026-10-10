@@ -19,7 +19,7 @@ ht-degree: 3%
 
 この記事では、Adobe Experience Manager Guides as a Cloud Serviceの2024.12.0 リリースの様々な領域で修正されたバグについて説明します。
 
-2024.12.0 リリース ](./upgrade-instructions-2024-12-0.md)の[ アップグレード手順について説明します。
+2024.12.0 リリース [&#128279;](./upgrade-instructions-2024-12-0.md)の アップグレード手順について説明します。
 
 ## オーサリング
 
@@ -65,7 +65,7 @@ Adobeでは、Adobe Experience Manager Guides as a Cloud Serviceの2024.12.0 リ
 
 **回避策**：この問題を解決するには、次の回避策の手順を実行します。
 
-1. repoinit ファイルを追加します。 ファイルが存在しない場合は、[ サンプル repoinit構成作成手順](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-cloud-questions/repoinit-configuration-for-property-set-on-aem-as-cloud-service/m-p/438854)を実行してファイルを作成します。
+1. repoinit ファイルを追加します。 ファイルが存在しない場合は、[&#x200B; サンプル repoinit構成作成手順](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-cloud-questions/repoinit-configuration-for-property-set-on-aem-as-cloud-service/m-p/438854)を実行してファイルを作成します。
 2. ファイルに次の行を追加し、コードをデプロイします。
 
    ```

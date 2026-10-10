@@ -52,13 +52,13 @@ ht-degree: 6%
 
 Experience Manager Guidesは、構造化されたオーサリング、マルチチャネル公開、コンテンツライフサイクル管理を実現する、DITA対応のネイティブ CCMSです。
 
-**デプロイメント：** [!BADGE Cloud Service]{type=Positive} [!BADGE  オンプレミス ]{type=Informative}
+**デプロイメント：** [!BADGE Cloud Service]{type=Positive} [!BADGE &#x200B; オンプレミス &#x200B;]{type=Informative}
 
 ## 役割から始める
 
 ::::landing-cards-container
 :::card
-![管理者アイコン ](../assets/admin.png)
+![管理者アイコン &#x200B;](../assets/admin.png)
 
 管理者
 
@@ -68,7 +68,7 @@ Experience Manager Guidesは、構造化されたオーサリング、マルチ�
 :::
 
 :::card
-![作成者アイコン ](../assets/author.png)
+![作成者アイコン &#x200B;](../assets/author.png)
 
 作成者
 
@@ -78,7 +78,7 @@ DITA トピック、マップ、コンテンツ再利用、レビューワーク
 :::
 
 :::card
-![発行者アイコン ](../assets/publisher.png)
+![発行者アイコン &#x200B;](../assets/publisher.png)
 
 発行者
 
@@ -110,7 +110,7 @@ Design DITA specializations, schemas, and content architecture for your implemen
 ::::landing-cards-container
 
 :::card
-![ オーサリングアイコン ](../assets/authoring.png)
+![&#x200B; オーサリングアイコン &#x200B;](../assets/authoring.png)
 
 オーサリング
 
@@ -120,7 +120,7 @@ web エディター、FrameMakerとの統合、コンテンツの再利用、レ
 :::
 
 :::card
-![ レビューアイコン ](../assets/review.png)
+![&#x200B; レビューアイコン &#x200B;](../assets/review.png)
 
 レビュー
 
@@ -130,7 +130,7 @@ web エディター、FrameMakerとの統合、コンテンツの再利用、レ
 :::
 
 :::card
-![公開アイコン ](../assets/publishing.png)
+![公開アイコン &#x200B;](../assets/publishing.png)
 
 公開
 
@@ -140,7 +140,7 @@ PDF、AEM Sites、HTML5、EPUB、JSON出力タイプ。
 :::
 
 :::card
-![翻訳アイコン ](../assets/translation.png)
+![翻訳アイコン &#x200B;](../assets/translation.png)
 
 翻訳
 
@@ -150,7 +150,7 @@ PDF、AEM Sites、HTML5、EPUB、JSON出力タイプ。
 :::
 
 :::card
-![ レポートアイコン ](../assets/reports.png)
+![&#x200B; レポートアイコン &#x200B;](../assets/reports.png)
 
 レポート
 
@@ -160,7 +160,7 @@ PDF、AEM Sites、HTML5、EPUB、JSON出力タイプ。
 :::
 
 :::card
-![設定アイコン ](../assets/configure.png)
+![設定アイコン &#x200B;](../assets/configure.png)
 
 設定
 
@@ -181,7 +181,7 @@ PDF、AEM Sites、HTML5、EPUB、JSON出力タイプ。
 <tr style="border: 0;">
 <td>
 
-![Git コネクタ ](../assets/whats-new-git-connector.svg)
+![Git コネクタ &#x200B;](../assets/whats-new-git-connector.svg)
 
 **[Git コネクタを使用したコンテンツの読み込み](./user-guide/web-editor-git-connector.md)**
 
@@ -190,7 +190,7 @@ Git リポジトリから直接Guidesにコンテンツを読み込みます。
 </td>
 <td>
 
-![ マップコレクション ](../assets/whats-new-map-collection.svg)
+![&#x200B; マップコレクション &#x200B;](../assets/whats-new-map-collection.svg)
 
 **[新しいマップコレクション](./user-guide/generate-output-use-new-map-collection-output-generation.md)**
 
@@ -199,7 +199,7 @@ Git リポジトリから直接Guidesにコンテンツを読み込みます。
 </td>
 <td>
 
-![ レビューを委任](../assets/whats-new-delegate-review.svg)
+![&#x200B; レビューを委任](../assets/whats-new-delegate-review.svg)
 
 **[レビュータスクを委任](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer)**
 
@@ -213,7 +213,7 @@ Git リポジトリから直接Guidesにコンテンツを読み込みます。
 
 ## 新機能
 
-[!BADGE 2026.09.0 リリース ]{type=Informative}
+[!BADGE 2026.09.0 リリース &#x200B;]{type=Informative}
 
 Adobe Experience Manager Guides 2026.09.0 リリースでは、AI アシスタントにAIを活用したスマートタグが導入され、オーサリング、コンテンツ管理、パブリッシング、全体的なユーザーエクスペリエンスが強化されました。
 
@@ -248,15 +248,15 @@ Experience Manager Guidesの最新リリースで導入された新機能と強�
 
 クラウドおよびオンプレミスのデプロイメントに関する最新のリリースノートと製品アップデートをご覧ください。
 
-- クラウドリリース | [ リリースノートを表示](./release-info/latest-release-info-cs.md)
-- オンプレミスのリリース | [ リリースノートを表示](./release-info/latest-release-info.md)
+- クラウドリリース | [&#x200B; リリースノートを表示](./release-info/latest-release-info-cs.md)
+- オンプレミスのリリース | [&#x200B; リリースノートを表示](./release-info/latest-release-info.md)
 
 [リリースロードマップを見る](./release-info/aem-guides-releases-roadmap.md)
 
 </td>
 <td>
 
-![学習とサポート ](../assets/whats-new-delegate-review.svg)
+![学習とサポート &#x200B;](../assets/whats-new-delegate-review.svg)
 
 **学習とサポート**
 

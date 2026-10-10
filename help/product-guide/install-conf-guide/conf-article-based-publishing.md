@@ -37,7 +37,7 @@ AEM Guidesは、エディターと統合された強力な記事ベースの公�
 
 >[!TAB Cloud Service]
 
-1. [XML Documentation ソフトウェア配布ポータル ](https://experience.adobe.com/#/downloads/content/software-distribution/jp/general.html)から&#x200B;**Cloud Service コンポーネントコンテンツパッケージ for Adobe**&#x200B;をダウンロードします。
+1. [XML Documentation ソフトウェア配布ポータル &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/jp/general.html)から&#x200B;**Cloud Service コンポーネントコンテンツパッケージ for Adobe**&#x200B;をダウンロードします。
 1. AEM Package Managerを開きます。 パッケージマネージャーにアクセスするためのデフォルト URLは`https://<hostname>/crx/packmgr/index.jsp`です
 1. Cloud Service用XML Documentation コンポーネントコンテンツパッケージをアップロードし、インストールします。
 1. [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/jp/general.html)から`Knowledge-base-template-for-article-based-publishing-for-cloud-service.zip` ファイルをダウンロードします。
@@ -71,4 +71,4 @@ AEM サイトを使用して、エディターの出力プリセットを使用�
 >[!ENDTABS]
 
 
-**親トピック：**[ エディターのカスタマイズ ](customize-overview.md)
+**親トピック：**&#x200B;[&#x200B; エディターのカスタマイズ &#x200B;](customize-overview.md)

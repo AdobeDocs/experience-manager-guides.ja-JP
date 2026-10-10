@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ## データソースパネル
 
-左側のパネルで「**データソース** ![ データソース ](images/data-sources-new-icon.svg)」を選択して、接続されたデータソースを表示します。 データソースパネルが開き、接続されているすべてのデータソースが表示されます。
+左側のパネルで「**データソース** ![&#x200B; データソース &#x200B;](images/data-sources-new-icon.svg)」を選択して、接続されたデータソースを表示します。 データソースパネルが開き、接続されているすべてのデータソースが表示されます。
 
 設定に基づいて、管理者はデータソースコネクタを設定できます。
 
@@ -51,18 +51,18 @@ ht-degree: 0%
 <summary> クラウドサービス </summary>
 
 
-- 2023年10月リリース以降を使用している場合は、Cloud Services インストールおよび設定ガイドのユーザーインターフェイス ](../cs-install-guide/conf-data-source-connector-tools.md)からデータソースコネクタを[設定する方法について説明します。
+- 2023年10月リリース以降を使用している場合は、Cloud Services インストールおよび設定ガイドのユーザーインターフェイス [&#128279;](../cs-install-guide/conf-data-source-connector-tools.md)からデータソースコネクタを設定する方法について説明します。
 
-- 2023年7月または2023年9月リリースを使用している場合は、Cloud Services インストールおよび設定ガイドの「[ データソースコネクタを設定する](../cs-install-guide/conf-data-source-connector.md)」の方法を参照してください。
+- 2023年7月または2023年9月リリースを使用している場合は、Cloud Services インストールおよび設定ガイドの「[&#x200B; データソースコネクタを設定する](../cs-install-guide/conf-data-source-connector.md)」の方法を参照してください。
 
 </details>
 
 <details>    
 <summary>  オンプレミスソフトウェア </summary>
 
-- 4.3.1 リリース以降を使用している場合は、オンプレミス インストールおよび設定ガイドのユーザーインターフェイス ](../cs-install-guide/conf-data-source-connector-tools.md)からデータソースコネクタを[設定する方法を説明します。
+- 4.3.1 リリース以降を使用している場合は、オンプレミス インストールおよび設定ガイドのユーザーインターフェイス [&#128279;](../cs-install-guide/conf-data-source-connector-tools.md)からデータソースコネクタを設定する方法を説明します。
 
-- 4.3 リリースを使用している場合は、オンプレミスのインストールおよび設定ガイドの「[ データソースコネクタを設定する](../cs-install-guide/conf-data-source-connector.md)」の方法を参照してください。
+- 4.3 リリースを使用している場合は、オンプレミスのインストールおよび設定ガイドの「[&#x200B; データソースコネクタを設定する](../cs-install-guide/conf-data-source-connector.md)」の方法を参照してください。
 </details>
 
 
@@ -306,7 +306,7 @@ Adobe Experience Manager Guidesには、データソースに接続する機能�
 
 ## データソーステンプレートでのVelocity ツールの使用 {#use-velocity-tools}
 
-Experience Manager テンプレートは、Velocity ツール（バージョン 2.0）もサポートしています。 これらのツールは、データソースから取得したデータに様々な関数を適用するのに役立ちます。 [速度ツール ](https://velocity.apache.org/tools/2.0/generic.html)の使用と、適用できる関数について詳しく説明します。
+Experience Manager テンプレートは、Velocity ツール（バージョン 2.0）もサポートしています。 これらのツールは、データソースから取得したデータに様々な関数を適用するのに役立ちます。 [速度ツール &#x200B;](https://velocity.apache.org/tools/2.0/generic.html)の使用と、適用できる関数について詳しく説明します。
 
 テンプレートでVelocity ツールを使用するには、次の手順を実行します。
 1. エディターでVelocity テンプレートを編集します。

@@ -74,4 +74,4 @@ AEM Guidesを使用すると、個々のトピックのPDFまたはマップフ�
 
 上記の手順を実行した後、EditorのUser Preferencesから同じフォルダープロファイルを選択すると、トピックのプレビューモードでPDF生成のオプションが表示されます。
 
-**親トピック：**[ エディターのカスタマイズ ](customize-overview.md)
+**親トピック：**&#x200B;[&#x200B; エディターのカスタマイズ &#x200B;](customize-overview.md)

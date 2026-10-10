@@ -65,7 +65,7 @@ ht-degree: 4%
 >
 >Experience Manager Guides バージョンをアップグレードする前に、AEM サービスパックをインストールする必要があります。
 
-詳しくは、[ アップグレード手順](../install-guide/upgrade-xml-documentation.md)を参照してください。
+詳しくは、[&#x200B; アップグレード手順](../install-guide/upgrade-xml-documentation.md)を参照してください。
 
 ## 互換性マトリックス
 

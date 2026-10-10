@@ -117,7 +117,7 @@ Ditamapを公開している場合、Native PDFでは、目次とブックリス
 <br>
 <br>
 
-質問がある場合は、AEM Guides コミュニティ [ フォーラム ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)に投稿してください。
+質問がある場合は、AEM Guides コミュニティ [&#x200B; フォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)に投稿してください。
 
 
 

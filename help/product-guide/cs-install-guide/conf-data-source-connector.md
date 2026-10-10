@@ -299,4 +299,4 @@ AEM Guidesでは、ユーザーのニーズに合わせて、設定ファイル�
 
 REST APIを使用して設定を登録できます。 詳しくは、「Adobe Experience Manager Guides用API リファレンス」の「*REST API to register a data source connector*」セクションを参照してください。
 
-データソースを設定すると、コネクタはWeb エディターのデータソースパネルの下に表示されます。 次に、データソースに接続し、トピックにコンテンツスニペットを挿入します。 詳細については、[ データソースからコンテンツスニペットを挿入](../user-guide/web-editor-content-snippet.md)を参照してください。
+データソースを設定すると、コネクタはWeb エディターのデータソースパネルの下に表示されます。 次に、データソースに接続し、トピックにコンテンツスニペットを挿入します。 詳細については、[&#x200B; データソースからコンテンツスニペットを挿入](../user-guide/web-editor-content-snippet.md)を参照してください。

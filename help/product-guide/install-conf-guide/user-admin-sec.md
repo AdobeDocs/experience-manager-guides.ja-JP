@@ -35,7 +35,7 @@ Adobe Experience Manager ドキュメントの次のトピックでは、ユー�
 
 | クラウドサービス | オンプレミス |
 |---|---|
-| [AEM ユーザー、グループ、権限](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html)<br>[ ユーザー管理とセキュリティ ](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=ja) | [AEMのユーザーとグループ ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)<br>[AEMの権限](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)<br>[ ユーザーとグループの管理](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)<br>[権限の管理](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions) |
+| [AEM ユーザー、グループ、権限](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html)<br>[&#x200B; ユーザー管理とセキュリティ &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=ja) | [AEMのユーザーとグループ &#x200B;](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)<br>[AEMの権限](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)<br>[&#x200B; ユーザーとグループの管理](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)<br>[権限の管理](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions) |
 
 
 ## AEM Guidesで作成されたユーザーグループ {#id181TF0K0MHT}

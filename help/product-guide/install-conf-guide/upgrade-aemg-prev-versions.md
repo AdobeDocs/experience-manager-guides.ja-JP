@@ -31,9 +31,9 @@ ht-degree: 3%
 
 この記事では、**Adobe Experience Manager Guides** バージョン **を4.6.0**&#x200B;より前（最大&#x200B;**4.4.0**&#x200B;を含む）にアップグレードする手順について説明します。
 
-3.8.5 **より前のバージョン**&#x200B;を使用している場合は、[Experience Manager Guides ヘルプのPDF アーカイブ ](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)で入手できる製品固有のインストールガイドの&#x200B;**Adobe Experience Manager Guidesのアップグレード**&#x200B;の節を参照してください。
+3.8.5 **より前のバージョン**&#x200B;を使用している場合は、[Experience Manager Guides ヘルプのPDF アーカイブ &#x200B;](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)で入手できる製品固有のインストールガイドの&#x200B;**Adobe Experience Manager Guidesのアップグレード**&#x200B;の節を参照してください。
 
-新しいリリースのアップグレード手順については、[ バージョン 4.6.0以降のAdobe Experience Manager Guidesのアップグレード ](./upgrade-aemg-latest-version.md)を参照してください。
+新しいリリースのアップグレード手順については、[&#x200B; バージョン 4.6.0以降のAdobe Experience Manager Guidesのアップグレード &#x200B;](./upgrade-aemg-latest-version.md)を参照してください。
 
 ## 始める前に
 
@@ -73,7 +73,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
-> このアップグレードプロセスは、**3.8.5**&#x200B;から&#x200B;**4.0**&#x200B;まで&#x200B;**のみ**&#x200B;適用できます。 **3.4以降**&#x200B;から&#x200B;**3.8.5**&#x200B;へのアップグレードについては、[Adobe Experience Manager Guides ヘルプ PDF アーカイブ ](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)で入手できる製品固有のインストールガイドを参照してください。
+> このアップグレードプロセスは、**3.8.5**&#x200B;から&#x200B;**4.0**&#x200B;まで&#x200B;**のみ**&#x200B;適用できます。 **3.4以降**&#x200B;から&#x200B;**3.8.5**&#x200B;へのアップグレードについては、[Adobe Experience Manager Guides ヘルプ PDF アーカイブ &#x200B;](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html)で入手できる製品固有のインストールガイドを参照してください。
 
 Experience Manager Guides バージョン **3.8.5**&#x200B;を使用している場合は、以前のバージョンをアンインストールせずにバージョン **4.0**&#x200B;にアップグレードできます。
 
@@ -178,7 +178,7 @@ Experience Manager Guides 4.2のアップグレードプロセスを開始する
 >
 > アップグレードされたサーバーにハイテク テンプレートが表示されない。 ハイテク テンプレートをサーバーに含めるには、それをコピーできます：Source: `/libs/fmdita/pdf/Hi-Tech` Destination: `/content/dam/dita-templates/pdf`.
 
-次に、[一般的なアップグレード後タスク（すべてのバージョン） ](#common-postupgrade-tasks-all-versions)の共有アップグレード後タスクに進みます。
+次に、[一般的なアップグレード後タスク（すべてのバージョン） &#x200B;](#common-postupgrade-tasks-all-versions)の共有アップグレード後タスクに進みます。
 
 ## バージョン 4.2.1へのアップグレード
 
@@ -206,7 +206,7 @@ Experience Manager Guides 4.2のアップグレードプロセスを開始する
 
 1. [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)から&#x200B;**4.2.1** パッケージをダウンロードします。
 2. 4.2.1 パッケージをインストールします。
-3. オプションで、翻訳マップのアップグレードジョブをトリガーします。 詳しくは、[ サーブレットを介したスクリプトのトリガーを有効にする](#enable-trigger-of-script-via-a-servlet)を参照してください。
+3. オプションで、翻訳マップのアップグレードジョブをトリガーします。 詳しくは、[&#x200B; サーブレットを介したスクリプトのトリガーを有効にする](#enable-trigger-of-script-via-a-servlet)を参照してください。
 
 4. インストール後、ログで`Completed the post deployment setup script`を待ちます。
 
@@ -217,7 +217,7 @@ Experience Manager Guides 4.2のアップグレードプロセスを開始する
    - `Unable to port translation map from v1 to v2 for property`
 5. （オプション） バージョン **4.2**&#x200B;でリリースされたOxygen コネクタプラグインのアップグレード
 6. ブラウザーのキャッシュを消去します。
-7. [一般的なアップグレード後のタスク（すべてのバージョン） ](#common-postupgrade-tasks-all-versions)で続行します。
+7. [一般的なアップグレード後のタスク（すべてのバージョン） &#x200B;](#common-postupgrade-tasks-all-versions)で続行します。
 
 ### バージョン 4.2.1のインストール後
 
@@ -225,7 +225,7 @@ Experience Manager Guides 4.2のアップグレードプロセスを開始する
 >
 > アップグレードされたサーバーにハイテク テンプレートが表示されない。 ハイテク テンプレートをサーバーに含めるには、それをコピーできます：Source: `/libs/fmdita/pdf/Hi-Tech` Destination: `/content/dam/dita-templates/pdf`.
 
-[一般的なアップグレード後のタスク（すべてのバージョン） ](#common-postupgrade-tasks-all-versions)および（必要に応じて） [ マップの検索と置換に使用する既存のコンテンツのインデックス作成](#index-existing-content-for-map-find-and-replace)。
+[一般的なアップグレード後のタスク（すべてのバージョン） &#x200B;](#common-postupgrade-tasks-all-versions)および（必要に応じて） [&#x200B; マップの検索と置換に使用する既存のコンテンツのインデックス作成](#index-existing-content-for-map-find-and-replace)。
 
 
 ## バージョン 4.3.0へのアップグレード
@@ -254,7 +254,7 @@ Experience Manager Guides 4.3.0のアップグレードプロセスを開始す�
 
 次の操作を行います。
 
-- [一般的なアップグレード後のタスク（すべてのバージョン） ](#common-postupgrade-tasks-all-versions)
+- [一般的なアップグレード後のタスク（すべてのバージョン） &#x200B;](#common-postupgrade-tasks-all-versions)
 - 該当する場合：[壊れたリンク レポートの既存のコンテンツを後処理](#post-process-existing-content-for-broken-link-report)
 
 ## バージョン 4.3.1へのアップグレード
@@ -277,7 +277,7 @@ Experience Manager Guides 4.3.1のアップグレードプロセスを開始す�
 
 1. [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)から4.3.1 バージョンのパッケージをダウンロードします。
 1. バージョン 4.3.1 パッケージをインストールします。
-1. オプションで、翻訳マップのアップグレードジョブをトリガーします。 詳しくは、[ サーブレットを介したスクリプトのトリガーを有効にする](#enable-trigger-of-script-via-a-servlet)を参照してください。
+1. オプションで、翻訳マップのアップグレードジョブをトリガーします。 詳しくは、[&#x200B; サーブレットを介したスクリプトのトリガーを有効にする](#enable-trigger-of-script-via-a-servlet)を参照してください。
 1. インストール後、ログで`Completed the post deployment setup script`を待ちます。
 これらのエラーをカスタマーサクセスに報告します。\
    `Error in post deployment setup script`, `Exception while porting the translation MAP`, `Unable to port translation map from v1 to v2 for property`
@@ -288,8 +288,8 @@ Experience Manager Guides 4.3.1のアップグレードプロセスを開始す�
 
 次の操作を行います。
 
-- [一般的なアップグレード後のタスク（すべてのバージョン） ](#common-postupgrade-tasks-all-versions)
-- 該当する場合：[ マップの検索と置換に使用する既存コンテンツのインデックス ](#index-existing-content-for-map-find-and-replace)
+- [一般的なアップグレード後のタスク（すべてのバージョン） &#x200B;](#common-postupgrade-tasks-all-versions)
+- 該当する場合：[&#x200B; マップの検索と置換に使用する既存コンテンツのインデックス &#x200B;](#index-existing-content-for-map-find-and-replace)
 - 該当する場合：[壊れたリンク レポートの既存のコンテンツを後処理](#post-process-existing-content-for-broken-link-report)
 
 
@@ -342,7 +342,7 @@ Experience Manager Guides 4.4.0のアップグレードプロセスを開始す�
 
 1. [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)から4.4.0 バージョンパッケージをダウンロードします。
 2. 4.4.0 パッケージをインストールします。
-3. オプションで、翻訳マップのアップグレードジョブをトリガーします。 詳しくは、[ サーブレットを介したスクリプトのトリガーを有効にする](#enable-trigger-of-script-via-a-servlet)を参照してください。
+3. オプションで、翻訳マップのアップグレードジョブをトリガーします。 詳しくは、[&#x200B; サーブレットを介したスクリプトのトリガーを有効にする](#enable-trigger-of-script-via-a-servlet)を参照してください。
 4. パッケージのインストールが完了したら、ログに次のメッセージが表示されるまで待ちます。
 
    `Completed the post deployment setup script`
@@ -359,9 +359,9 @@ Experience Manager Guides 4.4.0のアップグレードプロセスを開始す�
 7. 次でログイン：
 
    - [アップグレード後の一般的なタスク（すべてのバージョン）](#common-ppostupgrade-tasks-all-versions)
-   - [ マップ検索と置換のための既存コンテンツのインデックス作成](#index-existing-content-for-map-find-and-replace) （該当する場合のみ）
+   - [&#x200B; マップ検索と置換のための既存コンテンツのインデックス作成](#index-existing-content-for-map-find-and-replace) （該当する場合のみ）
    - [壊れたリンク レポートの既存コンテンツを後処理](#post-process-existing-content-for-broken-link-report) （該当する場合のみ）
-   - [翻訳マップのアップグレード（サーブレットトリガー） ](#translation-map-upgrade-servlet-trigger) （該当する場合のみ）
+   - [翻訳マップのアップグレード（サーブレットトリガー） &#x200B;](#translation-map-upgrade-servlet-trigger) （該当する場合のみ）
 
 
 ## アップグレード後の一般的なタスク（すべてのバージョン）
@@ -381,7 +381,7 @@ Experience Manager Guidesをインストールした後、新しくインスト�
 4. **DXML Post Process Initiator** コンポーネントが存在する場合は、カスタマイズが同期されていることを確認します。
 5. コンポーネントが存在しない場合は、次のように挿入します。
    1. 「**コンポーネントを挿入**」（最後の手順としてガイドの後処理を担当）をクリックします。
-   2. **プロセス手順**を設定します。
+   2. **プロセス手順**&#x200B;を設定します。
       **共通タブ**
 - タイトル： `DXML Post Process Initiator`
  – 説明： `DXML post process initiator step which will trigger a sling job for DXML post-processing of the modified/created asset`

@@ -67,7 +67,7 @@ ht-degree: 0%
 
 ## 公開ダッシュボードへのアクセス
 
-**公開ダッシュボード**&#x200B;には、[Experience Manager Guides ホームページ ](./intro-home-page.md)から直接アクセスできます。 ホームページを開き、左側のパネルから「**キューを公開**」オプションを選択します。
+**公開ダッシュボード**&#x200B;には、[Experience Manager Guides ホームページ &#x200B;](./intro-home-page.md)から直接アクセスできます。 ホームページを開き、左側のパネルから「**キューを公開**」オプションを選択します。
 
 >[!NOTE]
 >
@@ -96,7 +96,7 @@ Adobe Experience Manager **ツール** ページから&#x200B;**公開ダッシ�
 
 パブリッシュダッシュボードから出力生成タスクをキャンセルするには、次の手順を実行します。
 
-1. [公開ダッシュボードにアクセス ](#access-the-publish-dashboard)。
+1. [公開ダッシュボードにアクセス &#x200B;](#access-the-publish-dashboard)。
 
 1. アクティブな公開タスクのリストから、キャンセルするタスクの削除アイコンを選択します。
 
@@ -109,4 +109,4 @@ Adobe Experience Manager **ツール** ページから&#x200B;**公開ダッシ�
    ![](images/cancelled-output-task.png)
 
 
-**親トピック：**[&#x200B;出力生成](generate-output.md)
+**親トピック：**&#x200B;[&#x200B;出力生成](generate-output.md)

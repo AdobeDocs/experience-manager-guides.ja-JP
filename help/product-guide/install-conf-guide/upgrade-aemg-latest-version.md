@@ -39,7 +39,7 @@ ht-degree: 2%
 
 - バージョン 5.0.0、5.0.3、5.1.0または5.1.3を使用している場合は、バージョン 5.2.0に直接アップグレードできます。
 - バージョン 4.6.0、4.6.x、5.0.0、または5.0.xを使用している場合は、バージョン 5.1.0にアップグレードする必要があります。
-- 4.6.0より前のバージョンを使用している場合は、アップグレード手順の詳細については、[ バージョン 4.4.0以前のAdobe Experience Manager Guidesのアップグレード ](./upgrade-aemg-prev-versions.md)を参照してください。
+- 4.6.0より前のバージョンを使用している場合は、アップグレード手順の詳細については、[&#x200B; バージョン 4.4.0以前のAdobe Experience Manager Guidesのアップグレード &#x200B;](./upgrade-aemg-prev-versions.md)を参照してください。
 
 >[!NOTE]
 >
@@ -81,7 +81,7 @@ Experience Manager Guides 5.2.0のアップグレードプロセスを開始す�
 
 **バージョン 5.2.0**&#x200B;のインストール
 
-[Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/ja/aem.html)から5.2.0 バージョンのパッケージをダウンロードし、[ インストールおよびインストール後のアップグレードワークフロー](#installation-and-post-installation-upgrade-workflow)の手順に従って、アップグレードプロセスを完了します。
+[Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/ja/aem.html)から5.2.0 バージョンのパッケージをダウンロードし、[&#x200B; インストールおよびインストール後のアップグレードワークフロー](#installation-and-post-installation-upgrade-workflow)の手順に従って、アップグレードプロセスを完了します。
 
 
 ## バージョン 5.1.0へのアップグレード
@@ -109,7 +109,7 @@ Experience Manager Guides 5.1.0のアップグレードプロセスを開始す�
 
 **バージョン 5.1.0**&#x200B;のインストール
 
-[Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/ja/aem.html)から5.1.0 バージョンのパッケージをダウンロードし、[ インストールおよびインストール後のアップグレードワークフロー](#installation-and-post-installation-upgrade-workflow)の手順に従って、アップグレードプロセスを完了します。
+[Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/ja/aem.html)から5.1.0 バージョンのパッケージをダウンロードし、[&#x200B; インストールおよびインストール後のアップグレードワークフロー](#installation-and-post-installation-upgrade-workflow)の手順に従って、アップグレードプロセスを完了します。
 
 
 ## バージョン 5.0.0へのアップグレード
@@ -133,7 +133,7 @@ Experience Manager Guides 5.0.0のアップグレードプロセスを開始す�
 
 **バージョン 5.0.0**&#x200B;のインストール
 
-[Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)から5.0.0 バージョンのパッケージをダウンロードし、[ インストールおよびインストール後のアップグレードワークフロー](#installation-and-post-installation-upgrade-workflow)の指示に従って、アップグレードプロセスを完了します。
+[Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)から5.0.0 バージョンのパッケージをダウンロードし、[&#x200B; インストールおよびインストール後のアップグレードワークフロー](#installation-and-post-installation-upgrade-workflow)の指示に従って、アップグレードプロセスを完了します。
 
 ## バージョン 4.6.0へのアップグレード
 
@@ -157,7 +157,7 @@ Experience Manager Guides 4.6.0のアップグレードプロセスを開始す�
 
 **バージョン 4.6.0**&#x200B;のインストール
 
-[Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)から4.6.0 バージョンのパッケージをダウンロードし、[ インストールおよびインストール後のアップグレードワークフロー](#installation-and-post-installation-upgrade-workflow)の手順に従って、アップグレードプロセスを完了します。
+[Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)から4.6.0 バージョンのパッケージをダウンロードし、[&#x200B; インストールおよびインストール後のアップグレードワークフロー](#installation-and-post-installation-upgrade-workflow)の手順に従って、アップグレードプロセスを完了します。
 
 ## インストールとインストール後のアップグレードワークフロー
 
@@ -166,7 +166,7 @@ Experience Manager Guides 4.6.0のアップグレードプロセスを開始す�
 バージョンパッケージをインストールするには、次の手順を実行します。
 
 1. アップグレードするバージョンパッケージをインストールします。
-1. トリガーを押して、翻訳マップのアップグレードジョブを開始します。 詳しくは、[ サーブレットを介したスクリプトのトリガーを有効にする](#enable-trigger-of-script-via-a-servlet)を参照してください。
+1. トリガーを押して、翻訳マップのアップグレードジョブを開始します。 詳しくは、[&#x200B; サーブレットを介したスクリプトのトリガーを有効にする](#enable-trigger-of-script-via-a-servlet)を参照してください。
 
 1. パッケージのインストールが完了したら、ログに次のメッセージが表示されるまで待ちます。
 
@@ -286,7 +286,7 @@ Experience Manager Guidesをインストールした後、新しくインスト�
 
 Experience Manager Guidesには、クロスマップの場合に生成されるリンク（2つの異なるマップのトピック間のリンク）を処理するための&#x200B;[**カスタム sling rewriter**](../install-conf-guide/conf-output-generation.md#custom-rewriter) モジュールがあります。
 
-コードベースに別のカスタムスリングリライターがある場合は、`'order'`値が50より大きい値を使用します。これは、Experience Manager Guides sling リライターが`'order'` 50を使用するからです。  これを上書きするには、50を超える値が必要です。 詳細については、[出力の書き換えパイプライン ](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html)を参照してください。
+コードベースに別のカスタムスリングリライターがある場合は、`'order'`値が50より大きい値を使用します。これは、Experience Manager Guides sling リライターが`'order'` 50を使用するからです。  これを上書きするには、50を超える値が必要です。 詳細については、[出力の書き換えパイプライン &#x200B;](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html)を参照してください。
 
 このアップグレードでは、`'order'`の値が1000から50に変更されるので、既存のカスタムリライターがある場合は`'fmdita-rewriter'`と結合する必要があります。
 

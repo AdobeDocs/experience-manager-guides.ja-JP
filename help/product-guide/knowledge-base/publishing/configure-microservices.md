@@ -42,7 +42,7 @@ ht-degree: 3%
 
 Adobe Experience Manager Guides as a Cloud Service用のマイクロサービスベースのパブリッシングでは、PDF（ネイティブベースとDITA-OT ベースの両方）、HTML5、JSON、およびカスタムタイプの出力プリセットをサポートしています。
 
-サービスアカウント（JWT）資格情報が廃止されたため、Adobe IMSのOAuth ベース認証を使用することをお勧めします。 OAuth認証](configure-microservices-imt-config.md)を使用してマイクロサービスベースの公開を[設定する方法について説明します。
+サービスアカウント（JWT）資格情報が廃止されたため、Adobe IMSのOAuth ベース認証を使用することをお勧めします。 OAuth認証[&#128279;](configure-microservices-imt-config.md)を使用してマイクロサービスベースの公開を設定する方法について説明します。
 
 Adobe IMS JWT ベースの認証によって保護されるクラウドパブリッシングサービスについては、以下の手順に従って、環境をAdobeのセキュアトークンベースの認証ワークフローと統合し、新しいクラウドベースのスケーラブルなパブリッシングソリューションの使用を開始する必要があります。
 

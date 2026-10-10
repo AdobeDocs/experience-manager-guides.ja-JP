@@ -61,6 +61,6 @@ Experience Manager Guidesでは、AEM Sites、PDF、ナレッジベース、HTML
 
 - **[JSON](generate-output-json.md)**
 
-Experience Manager Guidesでは、管理者として、グローバルプロファイルとフォルダープロファイルの出力プリセットを作成および管理できます。 詳細については、[ グローバルおよびフォルダープロファイル出力プリセットの管理](./web-editor-manage-output-presets.md)を参照してください。
+Experience Manager Guidesでは、管理者として、グローバルプロファイルとフォルダープロファイルの出力プリセットを作成および管理できます。 詳細については、[&#x200B; グローバルおよびフォルダープロファイル出力プリセットの管理](./web-editor-manage-output-presets.md)を参照してください。
 
-**親トピック：**[&#x200B;出力生成](generate-output.md)
+**親トピック：**&#x200B;[&#x200B;出力生成](generate-output.md)

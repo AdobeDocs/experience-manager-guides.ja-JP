@@ -64,7 +64,7 @@ AEMのコンテンツ管理の重要な概念には、次のようなものが�
 
 **アセット管理**
 
-AEM Guidesでは、AEMのデジタルアセット管理\（DAM\）を使用してDITA ファイルを管理します。 DAMにアップロードまたはチェックインしたファイルは、デジタルアセットとして保存されます。 AEM Assetsでアセットを管理および編集できます。 アセット管理について詳しくは、[ アセットの管理](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=ja)を参照してください。
+AEM Guidesでは、AEMのデジタルアセット管理\（DAM\）を使用してDITA ファイルを管理します。 DAMにアップロードまたはチェックインしたファイルは、デジタルアセットとして保存されます。 AEM Assetsでアセットを管理および編集できます。 アセット管理について詳しくは、[&#x200B; アセットの管理](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=ja)を参照してください。
 
 **リンク管理**
 

@@ -92,4 +92,4 @@ Adobe Experience Manager Guidesには、現在のドキュメントの状態に�
 
 設定されたフィルターは、ホームページのリポジトリの&#x200B;**フィルター** パネルに表示されます。
 
-**親トピック：**[ エディターのカスタマイズ ](customize-overview.md)
+**親トピック：**&#x200B;[&#x200B; エディターのカスタマイズ &#x200B;](customize-overview.md)

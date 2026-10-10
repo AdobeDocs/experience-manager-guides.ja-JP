@@ -362,7 +362,7 @@ AEM Guidesには、マップコンソールをカスタマイズするための`
 
 >[!NOTE]
 >
-> AEM クライアントライブラリの作成について詳しくは、[ クライアントサイドライブラリの使用](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=en)を参照してください。
+> AEM クライアントライブラリの作成について詳しくは、[&#x200B; クライアントサイドライブラリの使用](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=en)を参照してください。
 
 ## 出力生成時の画像レンディションの処理 {#id177BF0G0VY4}
 
@@ -494,7 +494,7 @@ DITA マップの「出力」タブに表示される生成された出力の最
 
 >[!TIP]
 >
-> 出力履歴の操作に関するベストプラクティスについては、[ ベストプラクティスガイド ](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-mar-22/Adobe-Experience-Manager-Guides_Best-Practices_EN.pdf)の「*出力履歴*」の節を参照してください。
+> 出力履歴の操作に関するベストプラクティスについては、[&#x200B; ベストプラクティスガイド &#x200B;](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-mar-22/Adobe-Experience-Manager-Guides_Best-Practices_EN.pdf)の「*出力履歴*」の節を参照してください。
 
 ## 出力生成パフォーマンスの最適化（オンプレミスのみ） {#id176LB050VUI}
 

@@ -199,14 +199,14 @@ Java環境設定を修正しても問題が解決しない場合は、次の点�
 
 ### RHEL 7 Linux OSでライブラリが見つからない
 
-![ ライブラリがありません](../assets/publishing/missing-libraries.png)
+![&#x200B; ライブラリがありません](../assets/publishing/missing-libraries.png)
 
 ### 公開プロセスのタイムアウト： 指定された時間0msでプロセスが完了しませんでした
 
-![公開プロセスのタイムアウト ](../assets/publishing/publish-process-timeout.png)
+![公開プロセスのタイムアウト &#x200B;](../assets/publishing/publish-process-timeout.png)
 
 CRX リポジトリの/var/dxml/profiles/b1aad0a7-9079-e56c-1ed8-6fcababe8166/nodejsのnodejs ノードのタイムアウトプロパティ値を検証します。 デフォルト値は 300 です。
 
 
 
-上記のいずれかの手順を実行する際に問題が発生した場合は、AEM Guides コミュニティ [ フォーラム ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)に質問を投稿してサポートを受けてください。
+上記のいずれかの手順を実行する際に問題が発生した場合は、AEM Guides コミュニティ [&#x200B; フォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)に質問を投稿してサポートを受けてください。

@@ -45,7 +45,7 @@ Adobe Experience Manager Guidesでは、Map Collectionというダッシュボ�
 
 マップコレクションを作成し、DITA マップをコレクションに追加するには、次の手順を実行します。
 
-1. [Experience Manager Guidesのホームページ ](./intro-home-page.md#map-collections)を開き、**コレクションをマップ**&#x200B;を選択します。
+1. [Experience Manager Guidesのホームページ &#x200B;](./intro-home-page.md#map-collections)を開き、**コレクションをマップ**&#x200B;を選択します。
 
    **マップコレクション** ページが新しいタブで開きます。
 
@@ -76,7 +76,7 @@ Adobe Experience Manager Guidesでは、Map Collectionというダッシュボ�
 
    DITA マップファイルがマップコレクションに追加されます。
 
-   ![ マップコレクションダッシュボード ](./images/map-collection-dashboard.png)
+   ![&#x200B; マップコレクションダッシュボード &#x200B;](./images/map-collection-dashboard.png)
 
 **フィルターオプション**
 
@@ -117,7 +117,7 @@ Adobe Experience Manager Guidesでは、Map Collectionというダッシュボ�
    - DITA マップの&#x200B;**すべてのプリセット**&#x200B;を有効にして、すべてのプリセットを1回で選択します。 このオプションはデフォルトでは無効です。
    - DITA マップの&#x200B;**フォルダープロファイルプリセット**&#x200B;を有効にして、そのフォルダープロファイルプリセットをすべて選択します。 このオプションはデフォルトでは無効です。
 
-![ クラウドサービスでのマップコレクションの編集](images/edit-map-collection-cs.png)
+![&#x200B; クラウドサービスでのマップコレクションの編集](images/edit-map-collection-cs.png)
 
 
 
@@ -134,7 +134,7 @@ Adobe Experience Manager Guidesでは、Map Collectionというダッシュボ�
 
 マップコレクションでは、DITA マップのメタデータプロパティを一括設定できます。 「**メタデータを設定**」を選択して、**アセットメタデータ** ページを開きます。 **アセットメタデータ** ページでは、コレクションに存在するすべてのマップが左側に一覧表示されます。
 
-![ メタデータの設定](images/map-collection-asset-metadata.png)
+![&#x200B; メタデータの設定](images/map-collection-asset-metadata.png)
 
 メタデータプロパティを設定するには、次の手順を実行します。
 
@@ -167,8 +167,8 @@ Adobe Experience Manager Guidesでは、Map Collectionというダッシュボ�
 
 ## マップコレクションからの出力生成タスクのキャンセル
 
-[DITA マップコンソール ](generate-output-for-a-dita-map.md#id2061H100T5Z)または[公開ダッシュボード ](generate-output-publish-dashboard.md#)から出力生成タスクをキャンセルする方法と同様に、マップコレクションから出力生成タスクをキャンセルできます。 マップコレクションの「出力」タブにアクセスし、キャンセルする公開タスクに移動し、「**このジョブをキャンセル**」アイコンを選択して公開タスクをキャンセルします。
+[DITA マップコンソール &#x200B;](generate-output-for-a-dita-map.md#id2061H100T5Z)または[公開ダッシュボード &#x200B;](generate-output-publish-dashboard.md#)から出力生成タスクをキャンセルする方法と同様に、マップコレクションから出力生成タスクをキャンセルできます。 マップコレクションの「出力」タブにアクセスし、キャンセルする公開タスクに移動し、「**このジョブをキャンセル**」アイコンを選択して公開タスクをキャンセルします。
 
 ![](images/cancel-publish-task-map-collection.png)
 
-**親トピック：**[&#x200B;出力生成](generate-output.md)
+**親トピック：**&#x200B;[&#x200B;出力生成](generate-output.md)
