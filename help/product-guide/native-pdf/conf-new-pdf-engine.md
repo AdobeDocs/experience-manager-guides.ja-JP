@@ -21,19 +21,37 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: f89becea89888f7dec81e18c9220dcabda8f4e7d
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 2%
+source-wordcount: '161'
+ht-degree: 4%
 ---
 
 # ネイティブ PDF エンジン v2の設定
 
 ネイティブ PDF用の新しい公開エンジン、つまり&#x200B;_ネイティブ PDF エンジン v2_&#x200B;では、_ネイティブ PDF エンジン v1_&#x200B;の問題に関する更新されたPDF レンダリング機能と修正が提供されます。
 
+>[!BEGINTABS]
+>[!TAB Cloud Service]
+
 設定ファイルを作成するには、[設定の上書き](../install-conf-guide/download-install-config-override.md)の手順を使用します。 設定ファイルで、次の（プロパティ）詳細を指定します。
 
 | PID | プロパティキー | プロパティの値 |
 |-----|--------------|----------------|
 | `com.adobe.fmdita.publish.config.GuidesPublishConfiguratorService` | `guides.publish.config` | `{"PDF_ENGINE": "v2"}` <br> デフォルト値：`v1` |
+
+>[!TAB  オンプレミス ]
+
+
+オンプレミスのデプロイメントの場合、その可用性はAEMとJavaのバージョンによって異なります。
+
+_ネイティブ PDF エンジン v2_&#x200B;には&#x200B;**Java 17以降**&#x200B;が必要です。
+
+- **AEM 6.5:** AEM 6.5がJava 8で実行されているため、ネイティブ PDF パブリッシング エンジン v2はサポートされていません。
+- **AEM 6.5 LTS:** ネイティブ PDF パブリッシング エンジン v2は、デフォルトで有効になっています。 追加の設定は必要ありません。
+
+AEM 6.5 LTSを使用して&#x200B;_Native PDF engine v2_に切り替える場合は、PDF パブリッシャーパッケージをアンインストールします。
+CRX Package Managerの`/crx/packmgr/index.jsp#/etc/packages/com.adobe.guides/pdf-publisher-package-3.0.0.zip`。
+
+>[!ENDTABS]
 
