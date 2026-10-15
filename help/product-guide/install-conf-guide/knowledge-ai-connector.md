@@ -44,7 +44,7 @@ ht-degree: 2%
 
 ナレッジ AIは、サービスアカウントを使用して安全に認証し、コンテンツにアクセスします。
 
-1. [&#x200B; マイクロサービス IMT設定の設定](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/configure-microservices-imt-config)の手順に従います
+1. [&#x200B; マイクロサービス IMT設定の設定](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/configure-microservices-imt-config)の手順に従います
 
 1. 新しいサービスアカウントを作成し、生成されたJSON資格情報ファイルをダウンロードします。
 
