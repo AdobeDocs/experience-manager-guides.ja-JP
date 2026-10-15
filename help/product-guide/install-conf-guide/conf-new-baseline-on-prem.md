@@ -15,9 +15,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 4abf673f636ffd20d087c99b5112d8504929a6ee
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '124'
 ht-degree: 1%
 ---
 # オンプレミスの新しいベースラインの設定
@@ -44,5 +44,5 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->この機能を有効にした後、既存のベースラインを新しいベースラインに移行する必要があります。 ステップバイステップの手順とチュートリアル動画については、[Experience Manager Guidesの新しいベースライン（Beta）を](../user-guide/web-editor-baseline-v2.md)ご覧ください。
+>この機能を有効にした後、既存のベースラインを新しいベースラインに移行する必要があります。 ステップバイステップの手順とチュートリアル動画については、[Experience Manager Guidesの新しいベースライン ](../user-guide/web-editor-baseline-v2.md)をご覧ください。
 
