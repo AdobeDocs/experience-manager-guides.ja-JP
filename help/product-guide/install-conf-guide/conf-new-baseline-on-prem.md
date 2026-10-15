@@ -44,5 +44,5 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->この機能を有効にした後、既存のベースラインを新しいベースラインに移行する必要があります。 ステップバイステップの手順とチュートリアル動画については、[Experience Manager Guidesの新しいベースライン ](../user-guide/web-editor-baseline-v2.md)をご覧ください。
+>この機能を有効にした後、既存のベースラインを新しいベースラインに移行する必要があります。 ステップバイステップの手順とチュートリアル動画については、[Experience Manager Guidesの新しいベースライン &#x200B;](../user-guide/web-editor-baseline-v2.md)をご覧ください。
 
