@@ -36,7 +36,7 @@ ht-degree: 2%
 |---|---|
 | Adobe 開発者コンソール | サービスアカウントを作成し、そのJSON資格情報をダウンロードします。 |
 | Adobe Experience Manager Guides | コンテンツを作成し、ナレッジ AIの出力プリセットを設定します。 |
-| [ ナレッジ AI](https://guidesai.adobe.io/) | 役割とユーザーを管理し、アップロードされたコンテンツを受け取ります。 |
+| [&#x200B; ナレッジ AI](https://guidesai.adobe.io/) | 役割とユーザーを管理し、アップロードされたコンテンツを受け取ります。 |
 | 権限：サービスアカウントの作成 | サービスアカウントを作成するには、Adobe Developer Consoleで必要です。 |
 | 権限：ナレッジ AIでのユーザーと役割の管理 | ナレッジ AIでサービスアカウントにアクセス権を付与するために必要です。 |
 
@@ -44,7 +44,7 @@ ht-degree: 2%
 
 ナレッジ AIは、サービスアカウントを使用して安全に認証し、コンテンツにアクセスします。
 
-1. [ マイクロサービス IMT設定の設定](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/configure-microservices-imt-config)の手順に従います
+1. [&#x200B; マイクロサービス IMT設定の設定](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/configure-microservices-imt-config)の手順に従います
 
 1. 新しいサービスアカウントを作成し、生成されたJSON資格情報ファイルをダウンロードします。
 
@@ -76,7 +76,7 @@ ht-degree: 2%
 
 サービスアカウントがコンテンツを管理およびアップロードできるようにするには、適切な権限を持ってナレッジ AIに追加します。
 
-1. [ ナレッジ AI](https://guidesai.adobe.io/)を開きます。
+1. [&#x200B; ナレッジ AI](https://guidesai.adobe.io/)を開きます。
 1. **セキュリティ/役割**&#x200B;に移動し、必要な権限を最小限に抑えた役割を作成します。
 1. **セキュリティ/ユーザー/ユーザーを追加**&#x200B;に移動します。 サービスアカウント JSONからコピーした`technical_account_email`を使用して新しいユーザーを追加し、**ドメイン** ドロップダウンからドメインを選択し、前の手順で作成した役割を割り当てます。
 
@@ -103,7 +103,7 @@ ht-degree: 2%
 
    ![knowledge-ai-open](assets/open-knowledge-ai.png)
 
-サービスアカウントを正常に設定し、必要な権限を割り当て、ナレッジ AIでExperience Manager Guides コンテンツを利用できるようにしました。 更新されたコンテンツを公開する場合は、新しいナレッジ AI プリセットを作成し、[ ナレッジ AI プリセットの設定とコンテンツのアップロード ](#configure-knowledge-ai-preset-and-upload-content) セクションで説明されている手順に従います。
+サービスアカウントを正常に設定し、必要な権限を割り当て、ナレッジ AIでExperience Manager Guides コンテンツを利用できるようにしました。 更新されたコンテンツを公開する場合は、新しいナレッジ AI プリセットを作成し、[&#x200B; ナレッジ AI プリセットの設定とコンテンツのアップロード &#x200B;](#configure-knowledge-ai-preset-and-upload-content) セクションで説明されている手順に従います。
 
 
 
