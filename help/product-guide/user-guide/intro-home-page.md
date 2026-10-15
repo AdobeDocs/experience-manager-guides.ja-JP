@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 481c5fe8df7a81a8f00358b8f28dba131bca63d9
+source-git-commit: 4b9859bf08ffdfc7047477203eb7c2b590dfb3d9
 workflow-type: tm+mt
-source-wordcount: '2331'
+source-wordcount: '2380'
 ht-degree: 0%
 ---
 # Experience Manager Guidesのホームページのエクスペリエンス
@@ -179,6 +179,10 @@ Experience Manager Guidesのホームページは、次のセクションに分�
 リポジトリは、フォルダとファイルを簡単に検出するための一元化されたハブとして機能します。 すべてのファイルとフォルダーの包括的な表形式のリストと、そのコンテキストの詳細が表示されます。 この統合されたインターフェイスを通じて、堅牢なフィルタリングオプションを使用してファイルをシームレスに参照し、検索を実行できるので、効率性を確保し、エクスペリエンスを強化できます。 [&#x200B; リポジトリ &#x200B;](./home-page-repository-view.md)の詳細をご覧ください。
 
 ### マップコレクション
+
+>[!NOTE]
+>
+>Adobe Experience Manager Guides as a Cloud Serviceの新しいマップコレクション機能（2026.08.0 リリース以降）を使用すると、マップ管理と一括公開を統合インターフェイスに組み込むことができます。 この機能を有効にするには、カスタマーサクセス チームにお問い合わせください。新しいマップコレクションの使用[について詳しく見る。](./generate-output-use-new-map-collection-output-generation.md)
 
 Experience Manager Guidesでは、**マップコレクション**&#x200B;というダッシュボードを使用して、公開用にコンテンツを整理できます。 この機能を使用するには、左側のパネルから「**コレクションをマップ**」を選択します。 **Assets UI**&#x200B;のマップコレクションページに移動します。このページでは、[出力生成にマップコレクションを使用できます。](./generate-output-use-map-collection-output-generation.md)
 
