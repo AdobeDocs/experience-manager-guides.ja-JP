@@ -1,6 +1,6 @@
 ---
-title: マップコンソールから新しいベースライン（Beta）を作成および管理します
-description: Adobe Experience Manager Guidesのマップコンソールから、新しいベースライン（Beta）を作成および管理します。
+title: マップコンソールから新しいベースラインを作成および管理する
+description: Adobe Experience Manager Guidesのマップコンソールで、新しいベースラインを作成および管理します。
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 exl-id: 574806bb-21c5-41fe-b8be-4c6506ce8cce
@@ -22,16 +22,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 4abf673f636ffd20d087c99b5112d8504929a6ee
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1400'
 ht-degree: 0%
 ---
-# Experience Manager Guidesの新しいベースライン（Beta）
+# Experience Manager Guidesの新しいベースライン
 
 >[!NOTE]
 >
-> - この記事は、Experience Manager Guides 2026.04.0 リリースで利用可能なパフォーマンスと安定性の向上を提供する、現在&#x200B;*Beta*&#x200B;機能として利用可能な新しいベースラインに適用されます。
+> - この記事は、Experience Manager Guides 2026.04.0 リリースで利用できるパフォーマンスと安定性の向上を提供する新しいベースラインに適用されます。
 > - Cloud Serviceの新しいベースライン機能を有効にするには、カスタマーサクセス チームにお問い合わせください。
 > - オンプレミスの新しいベースライン機能を有効にするには、[新しいベースラインの設定](../install-conf-guide/conf-new-baseline-on-prem.md)を表示します。
 

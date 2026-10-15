@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: 2123962f8c168928c9b0a1ee1331e5cfd86db319
+source-git-commit: a9f16f7a9a4458a89664c1b8bdae41453d4d8c3f
 workflow-type: tm+mt
-source-wordcount: '2647'
+source-wordcount: '2654'
 ht-degree: 11%
 ---
 
@@ -590,6 +590,7 @@ ht-degree: 11%
     - [レビュータスクのトピックのインデックス作成](./install-conf-guide/index-review-tasks.md)
     - [AEM Sitesのコンポーネントマッピング](./install-conf-guide/component-mapping.md)
     - [出力生成用のテンプレートプリセットの設定](./install-conf-guide/template-presets-output-generation.md)
+    - [AEM GuidesとGuides Knowledge AIの連携](./install-conf-guide/knowledge-ai-connector.md)
   - 付録 {#appendix}
     - [付録](./install-conf-guide/aemg-appendix.md)
 

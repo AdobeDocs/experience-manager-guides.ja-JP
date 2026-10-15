@@ -35,16 +35,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 4abf673f636ffd20d087c99b5112d8504929a6ee
 workflow-type: tm+mt
-source-wordcount: '1929'
+source-wordcount: '1927'
 ht-degree: 0%
 ---
 # マップコンソールでのベースラインの作成と管理 {#id223MB0ZF043}
 
 >[!NOTE]
 >
-> Experience Manager Guides 2026.03.0 リリースでは、パフォーマンスと安定性が向上した新しいベースライン（Beta）が利用可能です。 このベースラインを使用するには、カスタマーサクセスチームに連絡して、この機能を有効にします。 [新しいベースライン （Beta） &#x200B;](./web-editor-baseline-v2.md)について詳しく説明します。
+> Experience Manager Guides 2026.03.0 リリースでは、パフォーマンスと安定性を向上させた新しいベースラインを利用できます。 このベースラインを使用するには、カスタマーサクセスチームに連絡して、この機能を有効にします。 [新しいベースライン &#x200B;](./web-editor-baseline-v2.md)について詳しく説明します。
 
 ベースライン機能を使用すると、トピックとアセットのバージョンを作成し、公開または翻訳に使用できます。 例えば、DITA マップに`topicA`と`imageA`がある場合、ベースラインを作成して、3番目のバージョンの`topicA`を使用し、4番目のバージョンの`ImageA`を使用できます。 ベースラインを設定したら、様々なバージョンのトピックを1回の手順で公開または翻訳できます。
 
