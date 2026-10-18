@@ -7,7 +7,9 @@ type: Documentation
 solution: Experience Manager, Experience Manager Guides
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: "Experience Manager"
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: "Experience Manager Guides"
 usetq: true
 feature-set: Experience Manager Guides
 landing-page-name: experience-manager-guides
@@ -16,11 +18,9 @@ role: User
 index: true
 source-git-commit: 188d4b32dbe17781f2b2d70e943596503c873fd3
 workflow-type: tm+mt
-source-wordcount: 70
+source-wordcount: '64'
 ht-degree: 0%
-
 ---
-
 
 # 内部使用のためのメタデータ
 
