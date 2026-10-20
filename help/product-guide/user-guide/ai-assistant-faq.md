@@ -31,7 +31,7 @@ ADOBE EXPERIENCE MANAGER GUIDESのAI アシスタントは、プライバシー�
 
 ## AI Assistantに提供したコンテンツは他の人と共有されますか？
 
-いいえ、AI アシスタントに提供したコンテンツとプロンプトは、他の顧客と共有されません。 AI アシスタントは、ユーザーの入力をワークスペース内の応答を生成するためにのみ処理し、他のユーザーのモデルのトレーニングには使用しません。 詳しくは、[Adobe生成AI ユーザーガイドライン &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)を参照してください。
+いいえ、AI アシスタントに提供したコンテンツとプロンプトは、他の顧客と共有されません。 AI アシスタントは、ユーザーの入力をワークスペース内の応答を生成するためにのみ処理し、他のユーザーのモデルのトレーニングには使用しません。 詳しくは、[Adobe生成AI ユーザーガイドライン &#x200B;](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)を参照してください。
 
 ## AI Assistantの回答に対するフィードバックを提供できますか？
 
