@@ -266,7 +266,7 @@ Experience Manager Guidesの最新リリースで導入された新機能と強�
 * [サポート](https://experienceleague.adobe.com/support/v2/en/?lang=ja){target="_blank"}
 * [ビデオチュートリアル](https://experienceleague.adobe.com/ja/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
 
-[コミュニティでのやり取り](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=ja)
+[コミュニティでのやり取り](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=ja&lang=ja)
 
 </td>
 </tr>
@@ -281,7 +281,7 @@ Experience Manager Guidesの最新リリースで導入された新機能と強�
 
 * [Cloud Serviceのリリースノート](./release-info/latest-release-info-cs.md)
 * [オンプレミスのリリースノート](./release-info/latest-release-info.md)
-* [AEM Guides community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=ja){target="_blank"}
+* [AEM Guides community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=ja&lang=ja){target="_blank"}
 * [GitHub リポジトリ](https://github.com/AdobeDocs/experience-manager-guides.ja-JP){target="_blank"}
 * [サポート](https://experienceleague.adobe.com/support/v2/en/?lang=ja){target="_blank"}
 * [ビデオチュートリアル](https://experienceleague.adobe.com/ja/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
