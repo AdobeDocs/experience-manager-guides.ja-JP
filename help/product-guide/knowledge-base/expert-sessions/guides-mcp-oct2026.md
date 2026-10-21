@@ -39,11 +39,11 @@ Model Context Protocol （MCP）により、AIを活用したエクスペリエ�
 
 ## 関連リソース
 
-- **AEM Guides MCP Server**&#x200B;をセットアップ - [Experience League](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-conf-guide/aemg-integrations/mcp/configure-aem-guides-mcp)で
+- **AEM Guides MCP Server**&#x200B;をセットアップ - [Experience League](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/install-conf-guide/aemg-integrations/mcp/configure-aem-guides-mcp)で
 
-- **Experience LeagueでのAEM Guides MCP Server**&#x200B;の使用 – [&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview)
+- **Experience LeagueでのAEM Guides MCP Server**&#x200B;の使用 – [&#128279;](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview)
 
-- **コミュニティフォーラム** - Experience Leagueでのセッション固有のコミュニティインタラクションについては、[AEM Guides フォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)をご覧ください。
+- **コミュニティフォーラム** - Experience Leagueでのセッション固有のコミュニティインタラクションについては、[AEM Guides フォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=ja)をご覧ください。
 
 >[!NOTE]
 >
