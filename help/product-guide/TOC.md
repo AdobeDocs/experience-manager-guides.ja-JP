@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: a9f16f7a9a4458a89664c1b8bdae41453d4d8c3f
+source-git-commit: 564c62de840aee9858d3c0476db6343bf306785f
 workflow-type: tm+mt
-source-wordcount: '2654'
+source-wordcount: '2657'
 ht-degree: 11%
 ---
 
@@ -632,6 +632,7 @@ ht-degree: 11%
     - [AEM Guidesの新しいUXおよびAI機能](./knowledge-base/expert-sessions/new-ux-and-ai-capabilities.md)
     - [AEM Guidesでの公開](./knowledge-base/expert-sessions/publishing-in-aem-guides-aug25.md)
     - [AEM Guidesでのコンテンツレビュー](./knowledge-base/expert-sessions/review-in-aem-guides-jan2026.md)
+    - [AEM GUIDES - MCP](./knowledge-base/expert-sessions/guides-mcp-oct2026.md)
   - 記事 {#kb-articles}
     - [概要](./knowledge-base/kb-articles/introduction.md)
     - オーサリング {#authoring}
