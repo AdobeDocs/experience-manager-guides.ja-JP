@@ -43,9 +43,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 212757685049f8787ffe4d63be48c44977a67ef0
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '378'
 ht-degree: 6%
 ---
 # Experience Manager Guides ドキュメント
@@ -171,53 +171,6 @@ PDF、AEM Sites、HTML5、EPUB、JSON出力タイプ。
 
 ::::
 
-## 新機能
-
-<!-- Author note: Update images, badge labels, feature titles, descriptions, and links each release cycle. Images are stored in /assets/. The shade box with a borderless HTML table provides the three-column layout. Blank lines inside each <td> are required for ExL to process badge and bold-link markdown syntax. -->
-
->[!BEGINSHADEBOX]
-
-<table>
-<tr style="border: 0;">
-<td>
-
-![Git コネクタ &#x200B;](../assets/whats-new-git-connector.svg)
-
-**[Git コネクタを使用したコンテンツの読み込み](./user-guide/web-editor-git-connector.md)**
-
-Git リポジトリから直接Guidesにコンテンツを読み込みます。
-
-</td>
-<td>
-
-![&#x200B; マップコレクション &#x200B;](../assets/whats-new-map-collection.svg)
-
-**[新しいマップコレクション](./user-guide/generate-output-use-new-map-collection-output-generation.md)**
-
-マップの管理と出力の公開のための統合インターフェイス。
-
-</td>
-<td>
-
-![&#x200B; レビューを委任](../assets/whats-new-delegate-review.svg)
-
-**[レビュータスクを委任](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer)**
-
-レビューアーは、レビュータスクを別のレビューアーに委任できます。
-
-</td>
-</tr>
-</table>
-
->[!ENDSHADEBOX]
-
-## 新機能
-
-[!BADGE 2026.09.0 リリース &#x200B;]{type=Informative}
-
-Adobe Experience Manager Guides 2026.09.0 リリースでは、AI アシスタントにAIを活用したスマートタグが導入され、オーサリング、コンテンツ管理、パブリッシング、全体的なユーザーエクスペリエンスが強化されました。
-
-[新機能を見る](./release-info/whats-new-2026-09-0.md)
 
 ## クイックリンク
 
@@ -266,7 +219,7 @@ Experience Manager Guidesの最新リリースで導入された新機能と強�
 * [サポート](https://experienceleague.adobe.com/support/v2/en/?lang=ja){target="_blank"}
 * [ビデオチュートリアル](https://experienceleague.adobe.com/ja/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
 
-[コミュニティでのやり取り](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=ja&lang=ja)
+[コミュニティでのやり取り](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?lang=ja)
 
 </td>
 </tr>
@@ -274,14 +227,11 @@ Experience Manager Guidesの最新リリースで導入された新機能と強�
 
 >[!ENDSHADEBOX]
 
-
-
-
 ## その他のリソース
 
 * [Cloud Serviceのリリースノート](./release-info/latest-release-info-cs.md)
 * [オンプレミスのリリースノート](./release-info/latest-release-info.md)
-* [AEM Guides community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=ja&lang=ja){target="_blank"}
+* [AEM Guides community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?lang=ja){target="_blank"}
 * [GitHub リポジトリ](https://github.com/AdobeDocs/experience-manager-guides.ja-JP){target="_blank"}
 * [サポート](https://experienceleague.adobe.com/support/v2/en/?lang=ja){target="_blank"}
 * [ビデオチュートリアル](https://experienceleague.adobe.com/ja/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
