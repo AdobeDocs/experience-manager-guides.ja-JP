@@ -6,12 +6,17 @@ exl-id: 00ea7f6f-1130-433f-b557-c2ea552b17c7
 TQID: https://experienceleague.adobe.com/rKpSp3cAlzjL6ZBOAEAbmtP3FX0oAYOl962lkFSO0eo
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 source-git-commit: 9a779b57edd785b99b36de6450639d922ff90021
 workflow-type: tm+mt
 source-wordcount: 93
