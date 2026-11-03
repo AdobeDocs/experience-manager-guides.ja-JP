@@ -44,7 +44,7 @@ DITA マップ内の一部のトピックに対してのみコンテンツを更
 
 記事ベースの出力を生成するには、次の手順を実行します。
 
-1. [記事ベースの出力用のナレッジベースプリセット ](./generate-output-knowledge-base.md)を作成します。
+1. [記事ベースの出力用のナレッジベースプリセット &#x200B;](./generate-output-knowledge-base.md)を作成します。
 1. 「**記事**」タブに移動し、出力を生成するトピックを選択します。
 
    ![](images/add-preset-articles-tab_cs.png)
@@ -113,4 +113,4 @@ Experience Manager Guides as Cloud Serviceの2026.11.0 リリース以降、強�
 Experience Manager Guidesで更新トークンのサポートを有効にすると、PKCE サポートが自動的に有効になります。 ただし、認証が正常に機能するように、対応する設定をSalesforceで有効にする必要があります。
 
 
-**親トピック：**[&#x200B;編集者との共同作業](web-editor.md)
+**親トピック：**&#x200B;[&#x200B;編集者との共同作業](web-editor.md)

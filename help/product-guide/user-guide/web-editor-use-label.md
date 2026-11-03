@@ -38,7 +38,7 @@ ht-degree: 0%
 ---
 # ラベルを使用 {#id164JBG0M0T1}
 
-Adobe Experience Manager Guidesでは、ファイルの様々なバージョンにラベルを追加できます。 バージョンラベルを使用して、公開用に[ ベースライン ](./generate-output-use-baseline-for-publishing.md)に含めるトピックのバージョンを指定し、画像、マルチメディアファイル、PDF、ZIP ファイルなど、DITA以外のファイル ](./authoring-file-management.md#work-with-media-and-other-non-dita-files)のバージョンを[管理できます。
+Adobe Experience Manager Guidesでは、ファイルの様々なバージョンにラベルを追加できます。 バージョンラベルを使用して、公開用に[&#x200B; ベースライン &#x200B;](./generate-output-use-baseline-for-publishing.md)に含めるトピックのバージョンを指定し、画像、マルチメディアファイル、PDF、ZIP ファイルなど、DITA以外のファイル [&#128279;](./authoring-file-management.md#work-with-media-and-other-non-dita-files)のバージョンを管理できます。
 
 例えば、*リリース 2.0*&#x200B;の&#x200B;*リリース 1.0*&#x200B;のトピックの&#x200B;*バージョン 1.0*&#x200B;と同じトピックの&#x200B;*バージョン 1.1*&#x200B;を使用する場合、*バージョン 1.1*&#x200B;の&#x200B;*バージョン 1.0*&#x200B;と&#x200B;*リリース 2.0*&#x200B;のラベルに&#x200B;*リリース 1.0*&#x200B;のラベルを追加できます。
 
@@ -69,7 +69,7 @@ Adobe Experience Manager Guidesでは、ファイルの様々なバージョン�
 
    >[!NOTE]
    >
-   > ベースラインを使用して、複数のトピックにラベルを追加できます。 ベースラインを使用したラベルの追加について詳しくは、[ ベースラインへのラベルの追加](generate-output-use-baseline-for-publishing.md#id184KD0T305Z)を参照してください。
+   > ベースラインを使用して、複数のトピックにラベルを追加できます。 ベースラインを使用したラベルの追加について詳しくは、[&#x200B; ベースラインへのラベルの追加](generate-output-use-baseline-for-publishing.md#id184KD0T305Z)を参照してください。
 
 トピックからバージョンラベルを削除するには、バージョンラベル管理ダイアログで追加された各ラベルに対して指定された&#x200B;**削除** アイコンを使用します。
 
@@ -97,11 +97,11 @@ Assets UIからトピックにラベルを追加するには、次の手順を�
 
 >[!NOTE]
 >
-> ベースラインを使用して、複数のトピックにラベルを追加できます。 ベースラインを使用したラベルの追加について詳しくは、[ ベースラインへのラベルの追加](generate-output-use-baseline-for-publishing.md#id184KD0T305Z)を参照してください。
+> ベースラインを使用して、複数のトピックにラベルを追加できます。 ベースラインを使用したラベルの追加について詳しくは、[&#x200B; ベースラインへのラベルの追加](generate-output-use-baseline-for-publishing.md#id184KD0T305Z)を参照してください。
 
 トピックからバージョンラベルを削除するには、バージョン履歴パネルの各ラベルに対して指定された&#x200B;**削除** ボタンを使用します。
 
 ![](images/delete-labels.png){width="300"}
 
 
-**親トピック：**[ エディターの概要](web-editor.md)
+**親トピック：**&#x200B;[&#x200B; エディターの概要](web-editor.md)

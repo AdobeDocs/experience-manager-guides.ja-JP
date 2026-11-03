@@ -56,7 +56,7 @@ AEM GuidesのボイラープレートからGitHub リポジトリを作成し、
 
 同じAEM Guides ボイラープレートから別のGitLab リポジトリ（例：`my-eds-gitlab`）を作成します。 Experience Manager Guidesは、生成された出力をこのリポジトリに公開します。 EDSには`main` ブランチが必要です。
 
-リポジトリを作成するには、空白のプロジェクトを作成し、[aem-guides-boilerplate](https://github.com/adobe/aem-guides-boilerplate)の内容をそれにプッシュするか、ボイラープレートを新しいプロジェクトに読み込みます。 手順については、GitLab ドキュメントの[ プロジェクトの作成](https://docs.gitlab.com/user/project/)および[GitHubからGitLab](https://docs.gitlab.com/user/project/import/github/)へのプロジェクトのインポートを参照してください。
+リポジトリを作成するには、空白のプロジェクトを作成し、[aem-guides-boilerplate](https://github.com/adobe/aem-guides-boilerplate)の内容をそれにプッシュするか、ボイラープレートを新しいプロジェクトに読み込みます。 手順については、GitLab ドキュメントの[&#x200B; プロジェクトの作成](https://docs.gitlab.com/user/project/)および[GitHubからGitLab](https://docs.gitlab.com/user/project/import/github/)へのプロジェクトのインポートを参照してください。
 
 ### &#x200B;3. マウントポイント URLの設定
 
@@ -79,7 +79,7 @@ https://<worker URL>/gitlab/<git acc domain>/<git username>/<git repo>/main/docs
 以下に必要なアクセストークンを作成します。
 
 - **Cloud Manager**。リポジトリを検証してアクセスします。 詳しくは、[Cloud Managerで外部リポジトリを追加する](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/managing-code/external-repositories)を参照してください。
-- **Experience Manager Guides パブリッシュプロファイル**&#x200B;を使用して、パブリッシュされた出力を確定します。 **Developer**&#x200B;の役割と`api`のスコープを持つGitLab プロジェクト アクセス トークンを作成します。 詳しくは、[GitLab ドキュメント ](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html)を参照してください。
+- **Experience Manager Guides パブリッシュプロファイル**&#x200B;を使用して、パブリッシュされた出力を確定します。 **Developer**&#x200B;の役割と`api`のスコープを持つGitLab プロジェクト アクセス トークンを作成します。 詳しくは、[GitLab ドキュメント &#x200B;](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html)を参照してください。
 
 >[!NOTE]
 >

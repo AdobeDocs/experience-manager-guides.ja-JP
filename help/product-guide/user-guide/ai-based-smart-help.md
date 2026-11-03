@@ -27,7 +27,7 @@ ht-degree: 0%
 ---
 # ヘルプアシスタントで効率アップ
 
-Experience Manager Guidesは、生成AI ベースのスマートヘルプを提供します。これは、[Adobe Experience Manager Guides ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/about-aemg/intro)から関連コンテンツを見つけるのに役立つ会話型検索機能です。
+Experience Manager Guidesは、生成AI ベースのスマートヘルプを提供します。これは、[Adobe Experience Manager Guides ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/about-aemg/intro)から関連コンテンツを見つけるのに役立つ会話型検索機能です。
 
 質問に答えたり、有益な方法で回答を得たりすることができます。 製品ドキュメントのコンテンツに基づいて、クエリに対する回答を返します。 検索エンジンは完全に対話型です。 Experience Manager Guidesの様々な機能について質問したり、トラブルシューティングの質問を行うことができます。 回答にもとづいて、さらに質問することもできます。 応答には、ソースドキュメントへのリンクも含まれています。詳細については、こちらを参照してください。
 
@@ -43,17 +43,17 @@ Experience Manager Guidesは、生成AI ベースのスマートヘルプを提�
 
    >[!NOTE]
    >
-   > [ グローバルまたはフォルダーレベルのプロファイル ](../cs-install-guide/conf-folder-level.md#conf-ai-guides-assistant)で、管理者はパネルに表示されるデフォルトの質問を定義する必要があります。
+   > [&#x200B; グローバルまたはフォルダーレベルのプロファイル &#x200B;](../cs-install-guide/conf-folder-level.md#conf-ai-guides-assistant)で、管理者はパネルに表示されるデフォルトの質問を定義する必要があります。
 
-   ![ スマートヘルプパネル ](images/smart-help-panel-new.png){width="300"}
+   ![&#x200B; スマートヘルプパネル &#x200B;](images/smart-help-panel-new.png){width="300"}
 
 1. 質問を入力して、関連するコンテンツをExperience Manager Guides ドキュメントで見つけます。 パネルでデフォルトの質問を選択するか、テキストボックスに質問を入力します。
 
-1. **送信** ![送信アイコン ](images/send-icon.svg)を選択するか、**Enter**&#x200B;を押して、質問に対する回答を表示します。
+1. **送信** ![送信アイコン &#x200B;](images/send-icon.svg)を選択するか、**Enter**&#x200B;を押して、質問に対する回答を表示します。
 
    質問に応じて、コンテンツ、該当する画像、記事へのリンクを表示できます。
 
-   ![ スマートヘルプパネルの応答](images/smart-help-panel-response.png){width="300"}
+   ![&#x200B; スマートヘルプパネルの応答](images/smart-help-panel-response.png){width="300"}
 
 
    *サンプルの質問を選択し、回答の内容と画像を表示します。*
@@ -74,7 +74,7 @@ Experience Manager Guidesは、生成AI ベースのスマートヘルプを提�
 ![](images/ai-assistant-response-options.png){width="300"}
 
 - **コピー**：文書で使用する応答をコピーします。
-- **いいね**：回答が有益または正確であることを示します。 「いいね！」アイコンを選択して、応答を「いいね！」し、**詳細なフィードバックを提供するには、**詳細を教える」オプションを使用します。
+- **いいね**：回答が有益または正確であることを示します。 「いいね！」アイコンを選択して、応答を「いいね！」し、**詳細なフィードバックを提供するには、**&#x200B;詳細を教える」オプションを使用します。
   ![](images/feedback-help.png){width="300"}
 - **嫌い**：応答を役に立たないか、正しくないとマークします。 「いいね！」アイコンを選択して、**詳細を教える** オプションを使用して、詳細なフィードバックを提供します。\
   ![](images/dislike-help.png){width="300"}

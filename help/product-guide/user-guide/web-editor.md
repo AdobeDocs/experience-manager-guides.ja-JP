@@ -56,4 +56,4 @@ Experience Manager Guidesには、構造化ドキュメントを作成および�
 Experience Manager GuidesのOld Editorは、構造化されたコンテンツに対して、シンプルで信頼性の高いオーサリングエクスペリエンスを提供し、DITA 1.2、1.3、軽量DITA、専用DITAなど、サポートされている標準への準拠を確保しながら、DITAの複雑さを抽象化します。 共通のブロックやインライン要素を操作するための必須ツールを提供し、構造化されたフレームワーク内での一貫性のある管理されたコンテンツ制作に適しています。
 
 
-**親トピック：**[ Experience Manager Guidesを使用してコンテンツを作成](authoring-content-xml-doc.md)
+**親トピック：**&#x200B;[&#x200B; Experience Manager Guidesを使用してコンテンツを作成](authoring-content-xml-doc.md)

@@ -12,9 +12,9 @@ ht-degree: 0%
 
 この記事では、Adobe Experience Manager Guides as a Cloud Serviceの2026.11.0 リリースで導入された新機能と強化機能について説明します。
 
-このリリースで修正された問題のリストについては、[2026.11.0 リリース ](fixed-issues-2026-11-0.md)で修正された問題を参照してください。
+このリリースで修正された問題のリストについては、[2026.11.0 リリース &#x200B;](fixed-issues-2026-11-0.md)で修正された問題を参照してください。
 
-2026.11.0 リリース ](../release-info/upgrade-instructions-2026-11-0.md)の[ アップグレード手順について説明します。
+2026.11.0 リリース [&#128279;](../release-info/upgrade-instructions-2026-11-0.md)の アップグレード手順について説明します。
 
 ## マップレベルの分岐と結合の導入
 
@@ -48,7 +48,7 @@ Adobe Experience Manager Guidesでは、マップレベルの分岐と結合機�
 
 **AI アシスタント** パネルでは、フルスクリーンモードと&#x200B;**アクティブな会話** セクションも導入され、会話体験を強化できます。
 
-詳しくは、[ エージェンティックモードでのAI アシスタントの使用](../user-guide/ai-assistant.md#agentic-mode)を参照してください。
+詳しくは、[&#x200B; エージェンティックモードでのAI アシスタントの使用](../user-guide/ai-assistant.md#agentic-mode)を参照してください。
 
 ![](./assets/preview-import.png){width="650"}
 
@@ -59,7 +59,7 @@ Adobe Experience Manager Guidesでは、マップレベルの分岐と結合機�
 
 管理者は、Workspace設定を使用して、ヘルプアシスタントパネルの利用状況を管理できます。 **AI ヘルプアシスタント** セクションには、ユーザーのパネルを有効または無効にするトグルが含まれています。
 
-詳細については、[ ヘルプアシスタント ](../user-guide/ai-based-smart-help.md)を参照してください。
+詳細については、[&#x200B; ヘルプアシスタント &#x200B;](../user-guide/ai-based-smart-help.md)を参照してください。
 
 ![](./assets/help-assistant.png){width="650"}
 
@@ -71,7 +71,7 @@ Adobe Experience Manager Guidesでは、マップレベルの分岐と結合機�
 
 また、削除されたコンテンツを取り消し線テキストとして表示したり、対応する変更にリンクされた鉛筆アイコンに置き換えたりできる&#x200B;**トラッキングされた削除をインラインで表示**&#x200B;設定を使用して、エディターで削除されたコンテンツを表示する方法を制御することもできます。 [変更履歴](../user-guide/config-editor-settings.md#track-changes)の詳細を確認します。
 
-![ エディター設定](./assets/track-changes-all.png){width="650"}
+![&#x200B; エディター設定](./assets/track-changes-all.png){width="650"}
 
 ### エクスプローラーパネルでのファイルとフォルダーの並べ替え
 
@@ -83,10 +83,10 @@ Adobe Experience Manager Guidesでは、マップレベルの分岐と結合機�
 
 Experience Manager Guidesを使用すると、画像、マルチメディア、ZIP、PDF、DOCX ファイルなど、DITA以外のファイルのバージョン履歴を表示したり、バージョンラベルをエディターから直接管理したりできます。 Assets UIに移動しなくても、これらのファイルをプレビューしたり、バージョン履歴を確認したり、バージョンを比較したり、以前のバージョンに戻したりできます。 また、既存のファイルバージョンのバージョンラベルを適用または更新して、バージョンの識別と管理を簡素化することもできます。
 
-詳しくは、[ メディアやその他のDITA以外のファイルの操作](../user-guide/authoring-file-management.md#work-with-media-and-other-non-dita-files)を参照してください。
+詳しくは、[&#x200B; メディアやその他のDITA以外のファイルの操作](../user-guide/authoring-file-management.md#work-with-media-and-other-non-dita-files)を参照してください。
 
 
-![ エディター設定](./assets/version-management-non-dita-files.png){width="650"}
+![&#x200B; エディター設定](./assets/version-management-non-dita-files.png){width="650"}
 
 
 ## 機能強化を見る
@@ -95,7 +95,7 @@ Experience Manager Guidesを使用すると、画像、マルチメディア、Z
 
 レビュー開始者は、レビューUIを使用して、レビュータスク内のトピックにインラインコメントや注釈を追加できます。 これにより、トピックを追加したり、特定のコンテンツをハイライト表示したり、フィードバックが必要な部分にレビュー担当者の注意を向けたりすることができます。
 
-これらのコメントは、他のレビュー担当者からのフィードバックと共に&#x200B;**コメント** パネルに表示され、レビュー議論の全体像を提供します。 また、レビューアーは、イニシエーターがコメントを追加するとAEM通知を受け取り、レビュープロセス全体を通じてコラボレーションとコミュニケーションを合理化するのに役立ちます。 詳細については、[ レビュー担当者のコメントを追加](../user-guide/review-send-topics-for-review.md#add-comments-for-reviewers)を参照してください。
+これらのコメントは、他のレビュー担当者からのフィードバックと共に&#x200B;**コメント** パネルに表示され、レビュー議論の全体像を提供します。 また、レビューアーは、イニシエーターがコメントを追加するとAEM通知を受け取り、レビュープロセス全体を通じてコラボレーションとコミュニケーションを合理化するのに役立ちます。 詳細については、[&#x200B; レビュー担当者のコメントを追加](../user-guide/review-send-topics-for-review.md#add-comments-for-reviewers)を参照してください。
 
 ## 公開の機能強化
 
@@ -107,7 +107,7 @@ Experience Manager Guidesのマップコンソールに「**出力履歴**」タ
 
 詳しくは、[出力生成プロセスの管理](../user-guide/generate-output-manage-process.md#view-and-manage-output-generation-tasks-from-the-editor)を参照してください。
 
-![ エディター設定](./assets/output-history-editor-view.png){width="650"}
+![&#x200B; エディター設定](./assets/output-history-editor-view.png){width="650"}
 
 
 ### 出力履歴のパージ オプションの強化
@@ -130,7 +130,7 @@ Edge Delivery Services パブリッシングは、GitLabでホストされてい
 
 Experience Manager Guidesは、セキュリティ、パフォーマンス、公開の効率性を向上させ、Salesforceの公開機能を強化します。 これらの機能強化には、Code Exchangeのプルーフキー（PKCE）、トークンベースの認証の更新、記事レベルの公開ステータス、詳細な公開ログ、出力履歴、および冗長なアップロードを減らすための最適化されたアセット公開のサポートが含まれます。
 
-詳しくは、「[ バックエンド処理を使用した拡張Salesforce公開](../user-guide/web-editor-article-publishing.md#enhanced-salesforce-publishing-using-backend-processing)」を参照してください。
+詳しくは、「[&#x200B; バックエンド処理を使用した拡張Salesforce公開](../user-guide/web-editor-article-publishing.md#enhanced-salesforce-publishing-using-backend-processing)」を参照してください。
 
 
 ### Native PDFでのマップメタデータからの画像のサポート
@@ -139,13 +139,13 @@ PDFのネイティブ公開では、DITA マップ、ブックマップ、カス
 
 画像プレースホルダーをページレイアウトに追加すると、公開中にマップメタデータで参照される画像を自動的に入力できます。 これにより、異なる画像用に別々のテンプレートを管理する必要がなくなり、テンプレート管理が簡素化されます。
 
-詳しくは、[ マップメタデータから画像を追加](../native-pdf/design-page-layout.md#add-an-image-from-map-metadata-add-image-map-metadata)を参照してください。
+詳しくは、[&#x200B; マップメタデータから画像を追加](../native-pdf/design-page-layout.md#add-an-image-from-map-metadata-add-image-map-metadata)を参照してください。
 
 ### 古いエディターのコンテンツのヘルスチェックでコンテンツの品質を検証する
 
 コンテンツのヘルスチェックは古いエディター（既に新しいエディターでサポート）で利用でき、公開前にDITA マップ全体でコンテンツ品質を検証するのに役立ちます。 管理者は、壊れたリンク、重複ID、Schematron検証のチェックを組み合わせることで、再利用可能なヘルスチェックプリセットを作成できます。
 
-作成者は、DITA マップまたは古いエディターで選択したベースラインでヘルスチェックを実行して、関連するトピックとマップ間の問題の統合レポートを生成できます。 詳しくは、[ マップ上でヘルスチェックを実行](../user-guide/map-editor-other-features.md#run-health-check-on-a-map)を参照してください。
+作成者は、DITA マップまたは古いエディターで選択したベースラインでヘルスチェックを実行して、関連するトピックとマップ間の問題の統合レポートを生成できます。 詳しくは、[&#x200B; マップ上でヘルスチェックを実行](../user-guide/map-editor-other-features.md#run-health-check-on-a-map)を参照してください。
 
 ## レガシーコンテンツ移行用のUpsert API
 
