@@ -34,23 +34,23 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '597'
 ht-degree: 0%
 ---
 # 出力を生成
 
 DITA マップの出力を生成するには、次の2つの方法があります。
 
-- [&#x200B; マップコンソールからDITA マップの出力を生成](#generate-output-for-a-dita-map-from-the-map-console)
+- [ マップコンソールからDITA マップの出力を生成](#generate-output-for-a-dita-map-from-the-map-console)
 - [マップダッシュボードからDITA マップの出力を生成する](#generate-output-for-a-dita-map-from-the-map-dashboard)
 
 ## マップコンソールからDITA マップの出力を生成する
 
 マップコンソールを使用してDITA マップの出力を生成するには、次の手順を実行します。
 
-1. [&#x200B; マップコンソールでマップファイルを開く](./open-files-map-console.md)。
+1. [ マップコンソールでマップファイルを開く](./open-files-map-console.md)。
 2. DITA マップコンソールが表示され、出力の生成に使用できる&#x200B;**出力プリセット**&#x200B;のリストが表示されます。
 
 3. 出力の生成に使用するプリセットを開き、**出力の生成**&#x200B;を選択して生成プロセスを開始します。
@@ -76,6 +76,9 @@ DITA マップの出力を生成するには、次の2つの方法がありま�
 >
 > マップでDITAVAL ファイルを使用する場合、DITAVAL ファイルで参照されているフラグ付きの画像は、出力で公開されたマップに関連する場所にコピーされます。  また、同じマップ内で複数のDITAVAL ファイルをフィルタリングに使用する場合は、公開中にファイル名が重複するのを避けるために、一意の`.ditaval` ファイル名を使用するようにしてください。
 
+出力生成リクエストの現在のステータスは、**出力履歴** タブで確認できます。 詳細については、[出力生成タスクのステータスを表示](./generate-output-manage-process.md#view-and-manage-output-generation-tasks-from-the-editor)するを参照してください。
+
+
 ## マップダッシュボードからDITA マップの出力を生成する
 
 マップダッシュボードを使用してDITA マップの出力を生成するには、次の手順を実行します。
@@ -91,13 +94,13 @@ DITA マップの出力を生成するには、次の2つの方法がありま�
 1. **Generate** アイコンを選択して、出力生成プロセスを開始します。
 
 
-出力生成リクエストの現在のステータスは、**出力** タブで確認できます。 詳細については、[出力生成タスクのステータスを表示](./generate-output-manage-process.md#view-the-status-of-the-output-generation-task)するを参照してください。
+出力生成リクエストの現在のステータスは、**出力** タブで確認できます。 詳細については、[出力生成タスクのステータスを表示](./generate-output-manage-process.md#view-and-manage-output-generation-tasks-from-the-editor)するを参照してください。
 
 >[!IMPORTANT]
 >
 > プリセットの出力生成プロセスがキュー内または処理中の場合、同じプリセットに対して別の出力生成タスクを開始することはできません。
 
-1つ以上のトピックのAEM Sites出力や、マップコンソールからDITA マップ全体を生成することもできます。 詳細については、[&#x200B; ナレッジベース出力の生成](web-editor-article-publishing.md#id218CK0U019I)を参照してください。
+1つ以上のトピックのAEM Sites出力や、マップコンソールからDITA マップ全体を生成することもできます。 詳細については、[ ナレッジベース出力の生成](web-editor-article-publishing.md#id218CK0U019I)を参照してください。
 
 ## `chunk`属性を使用したDITA マップ内の異なるトピックの結合
 
@@ -110,4 +113,4 @@ DITA マップには、参照、概念、タスクなど、様々なトピック
 
 
 
-**親トピック：**&#x200B;[&#x200B;出力生成](generate-output.md)
+**親トピック：**[&#x200B;出力生成](generate-output.md)

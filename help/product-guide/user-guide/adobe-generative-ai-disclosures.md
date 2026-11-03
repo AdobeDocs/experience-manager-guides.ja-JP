@@ -14,18 +14,16 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: a96b54b405c93383689c81bcb31e1b95d9d24182
 workflow-type: tm+mt
-source-wordcount: 408
+source-wordcount: '406'
 ht-degree: 3%
-
 ---
-
 # Adobe Experience Manager Guidesの生成AI ユーザーによる情報開示
 
-Experience Manager Guides AI アシスタントへのアクセスと使用を管理するユーザーガイドラインが[こちら](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)にあります。
+Experience Manager Guides AI アシスタントへのアクセスと使用を管理するユーザーガイドラインが[こちら](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)にあります。
 
-AI アシスタント「ベータ版」 （「Beta」）を使用することにより、お客様は、Betaの使用が「現状のまま」提供され、いかなる保証もされないことに同意するものとします。 Adobeは、Betaを維持、修正、更新、変更、その他の方法でサポートする義務を負いません。 このようなBetaおよび/または付随資料の正しい機能や性能に依存しないように、慎重に使用することをお勧めします。 BetaはAdobeの機密情報と見なされます。 Adobeでは、Betaに入力または読み込まれたプロンプト、コンテンツ、データ、およびその他のマテリアルと、お客様に提供された応答を使用して、製品の改善および開発を行うことができます。 お客様がAdobeに提供する「フィードバック」（Betaの使用中に発生した問題や欠陥、提案、改善、推奨事項を含むがこれらに限定されないBetaに関する情報）は、お客様がそれらのフィードバックに対するすべての権利、権原、利益を含め、Adobeに割り当てられます。 
+AI アシスタントを使用することにより、お客様は、Betaの使用が、いかなる保証もなく「現状のまま」提供されることを了承するものとします。 Adobeは、Betaを維持、修正、更新、変更、その他の方法でサポートする義務を負いません。 このようなBetaおよび/または付随資料の正しい機能や性能に依存しないように、慎重に使用することをお勧めします。 BetaはAdobeの機密情報と見なされます。 Adobeでは、Betaに入力または読み込まれたプロンプト、コンテンツ、データ、およびその他のマテリアルと、お客様に提供された応答を使用して、製品の改善および開発を行うことができます。 お客様がAdobeに提供する「フィードバック」（Betaの使用中に発生した問題や欠陥、提案、改善、推奨事項を含むがこれらに限定されないBetaに関する情報）は、お客様がそれらのフィードバックに対するすべての権利、権原、利益を含め、Adobeに割り当てられます。 
 
 さらに、生成された出力とソースアトリビューションを評価するには、常に判断を使用してください。 Experience Manager Guidesの生成AI機能は、不正確または誤解を招く出力や、Adobeの見解を反映しないコンテンツを生成する、新しい強力な大規模言語モデルテクノロジーを基盤として構築されています。
 

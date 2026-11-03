@@ -45,9 +45,9 @@ topic_v2:
     internal-label: Accessibility
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '872'
 ht-degree: 0%
 ---
 # ネイティブ PDF エンジン v2の操作
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 例えば、ネイティブ PDF エンジン v2は`OpenType` フォントをサポートしていますが、ネイティブ PDF エンジン v1は主に`TrueType` フォントに依存しています。 同様のレンダリングの強化は、生成されたPDFの全体的な外観に影響を与える可能性があります。
 
-お使いの環境でネイティブ PDF エンジン v2を有効にする方法について詳しくは、[&#x200B; ネイティブ PDF用の新しい公開エンジンの設定](./conf-new-pdf-engine.md)を参照してください。
+お使いの環境でネイティブ PDF エンジン v2を有効にする方法について詳しくは、[ ネイティブ PDF用の新しい公開エンジンの設定](./conf-new-pdf-engine.md)を参照してください。
 
 ## 新しい公開エンジンの推奨CSS アップデート
 
@@ -102,3 +102,4 @@ _Native PDF Engine v1_&#x200B;を使用して生成されたPDF出力の次の�
 - アクセシビリティ設定が有効になっているNative PDF出力のコンテンツの読み取り順序が正しくありません。 フッターのページ番号は、最後ではなくメインコンテンツの前に読み取られます。 （GUIDES-27790）
 - ネイティブPDF出力のカラーバーは、ページ全体の幅に広がらず、ページサイズをカスタマイズすると重なり合い、一部のカラーボックスが非表示になります。 （GUIDES-15505）
 - `CSS:is()pseudo-class` セレクターはネイティブ PDF出力で尊重されないため、ブラウザーのレンダリングと比較してスタイルの違いが生じます。 （GUIDES-11328）
+- ネイティブPDF出力では、出力言語が中国語（zh-CN）に設定されている場合でも、一部の中国語（簡体字）の文字が日本語フォントでレンダリングされます。 （GUIDES-48094）

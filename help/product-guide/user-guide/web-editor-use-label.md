@@ -31,14 +31,14 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '541'
 ht-degree: 0%
 ---
 # ラベルを使用 {#id164JBG0M0T1}
 
-Adobe Experience Manager Guidesでは、ファイルの様々なバージョンにラベルを追加できます。 これらのラベルを使用して、公開用のベースラインに含めるバージョンを指定できます。 ラベルを使用してベースラインを作成する方法について詳しくは、[&#x200B; ベースラインを使用した作業](generate-output-use-baseline-for-publishing.md#)を参照してください。
+Adobe Experience Manager Guidesでは、ファイルの様々なバージョンにラベルを追加できます。 バージョンラベルを使用して、公開用に[ ベースライン ](./generate-output-use-baseline-for-publishing.md)に含めるトピックのバージョンを指定し、画像、マルチメディアファイル、PDF、ZIP ファイルなど、DITA以外のファイル ](./authoring-file-management.md#work-with-media-and-other-non-dita-files)のバージョンを[管理できます。
 
 例えば、*リリース 2.0*&#x200B;の&#x200B;*リリース 1.0*&#x200B;のトピックの&#x200B;*バージョン 1.0*&#x200B;と同じトピックの&#x200B;*バージョン 1.1*&#x200B;を使用する場合、*バージョン 1.1*&#x200B;の&#x200B;*バージョン 1.0*&#x200B;と&#x200B;*リリース 2.0*&#x200B;のラベルに&#x200B;*リリース 1.0*&#x200B;のラベルを追加できます。
 
@@ -69,7 +69,7 @@ Adobe Experience Manager Guidesでは、ファイルの様々なバージョン�
 
    >[!NOTE]
    >
-   > ベースラインを使用して、複数のトピックにラベルを追加できます。 ベースラインを使用したラベルの追加について詳しくは、[&#x200B; ベースラインへのラベルの追加](generate-output-use-baseline-for-publishing.md#id184KD0T305Z)を参照してください。
+   > ベースラインを使用して、複数のトピックにラベルを追加できます。 ベースラインを使用したラベルの追加について詳しくは、[ ベースラインへのラベルの追加](generate-output-use-baseline-for-publishing.md#id184KD0T305Z)を参照してください。
 
 トピックからバージョンラベルを削除するには、バージョンラベル管理ダイアログで追加された各ラベルに対して指定された&#x200B;**削除** アイコンを使用します。
 
@@ -97,11 +97,11 @@ Assets UIからトピックにラベルを追加するには、次の手順を�
 
 >[!NOTE]
 >
-> ベースラインを使用して、複数のトピックにラベルを追加できます。 ベースラインを使用したラベルの追加について詳しくは、[&#x200B; ベースラインへのラベルの追加](generate-output-use-baseline-for-publishing.md#id184KD0T305Z)を参照してください。
+> ベースラインを使用して、複数のトピックにラベルを追加できます。 ベースラインを使用したラベルの追加について詳しくは、[ ベースラインへのラベルの追加](generate-output-use-baseline-for-publishing.md#id184KD0T305Z)を参照してください。
 
 トピックからバージョンラベルを削除するには、バージョン履歴パネルの各ラベルに対して指定された&#x200B;**削除** ボタンを使用します。
 
 ![](images/delete-labels.png){width="300"}
 
 
-**親トピック：**&#x200B;[&#x200B; エディターの概要](web-editor.md)
+**親トピック：**[ エディターの概要](web-editor.md)

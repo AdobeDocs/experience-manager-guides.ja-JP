@@ -28,7 +28,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 0%
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> AEMでオーサーインスタンスとパブリッシュインスタンスを設定する方法について詳しくは、[&#x200B; オーサーとパブリッシュアーキテクチャの概要](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=ja#prerequisites)を参照してください。
+> AEMでオーサーインスタンスとパブリッシュインスタンスを設定する方法について詳しくは、[ オーサーとパブリッシュアーキテクチャの概要](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites)を参照してください。
 
 AEM Guidesのバルクアクティベーション機能を利用すれば、コンテンツのオーサリングからパブリッシングインスタンスへの移行を迅速かつ容易におこなえます。 バルクアクティベーション機能では、次のことを柔軟に実行できます。
 
@@ -63,4 +63,5 @@ JSON出力プリセット：
 - **[一括アクティベーションマップコレクションを削除](conf-bulk-activation-delete-map-collection.md)**
 
 
-**親トピック：**&#x200B;[&#x200B;出力生成](generate-output.md)
+**親トピック：**[&#x200B;出力生成](generate-output.md)
+

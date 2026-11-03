@@ -22,9 +22,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1140'
 ht-degree: 0%
 ---
 # AEM Sitesのコンポーネントマッピング
@@ -171,9 +171,30 @@ HTMLをコンポーネントに変換するには、ルールのJSON配列（`co
 ]
 ```
 
-ターゲットとする要素とクラスを定義し、`attributeMap`を使用してノードプロパティを設定し、`path-attributes` エントリを追加してパスを正規化し、抽出する値に対して適切な`from`を選択します。 上記の`heroimage`は`we-retail` サイトのコンポーネントです。
+ターゲットとする要素とクラスを定義し、`attributeMap`を使用してノードプロパティを設定し、`path-attributes` エントリを追加してパスを正規化し、抽出する値に対して適切な`from`を選択します。 上記の`heroimage`は`we-retail` サイトのコンポーネントです。  デフォルトのリッチテキストについて説明し、それを使用する要素を特定することが重要です。
 
-**メモ**：デフォルトのリッチテキストについて説明し、そのリッチテキストが使用される要素を特定することが重要です。
+
+## プロログメタデータをページヘッドに伝達する
+
+コンポーネントマッピングを使用してAEM Sites出力を生成すると、作成者、キーワード、リソース IDなどのプロログメタデータが、ページヘッドではなく、生成されたAEM Sites ページの本文に追加されます。
+
+プロログメタデータを出力ページの先頭に反映するには、次のマッピングをコンポーネントマッピングファイルに追加します。
+
+```json
+{
+  "name": "div",
+  "class": "prolog",
+  "resourceType": "guides-components/components/prolog",
+  "attributeMap": [
+    {
+      "from": "outerHTML",
+      "to": "prologContent"
+    }
+  ]
+}
+```
+
+このマッピングを追加すると、生成されたページの先頭にプロログメタデータが表示されます。 これは、検索インデックス作成などのユースケースをサポートしています。
 
 ## カスタムコンポーネントの作成
 

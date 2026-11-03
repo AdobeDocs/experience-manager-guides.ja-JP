@@ -25,9 +25,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '5049'
+source-wordcount: '5098'
 ht-degree: 0%
 ---
 # PDF テンプレートのコンポーネント {#components-pdf-template}
@@ -102,7 +102,7 @@ PDF テンプレートには、ページレイアウト、スタイルシート�
    カスタマイズ用のページレイアウトエディターが開きます。
 1. 必要な変更を行ったら、*すべて保存* （または`Crl+S`）をクリックします。
 
-   ヘッダー、フッター、ページ番号、タイトルなどの個々のレイアウト要素の定義について詳しくは、[&#x200B; ページレイアウトのデザイン &#x200B;](design-page-layout.md)を参照してください。
+   ヘッダー、フッター、ページ番号、タイトルなどの個々のレイアウト要素の定義について詳しくは、[ ページレイアウトのデザイン ](design-page-layout.md)を参照してください。
 
 ## スタイルシートを使用したPDFのカスタマイズ {#stylesheet-customization}
 
@@ -227,13 +227,13 @@ DITA トピックに追加されたドラフトコメントは、デフォルト
 
 4. **プロパティ** パネルで、**display** プロパティの値を`none`から表示値（`block`、`inline-block`、`grid`など）に変更します。
 
-   ![&#x200B; コンテンツ スタイルシートのdraft-comment プロパティの設定](./assets/draft-comment-setting.png)
+   ![ コンテンツ スタイルシートのdraft-comment プロパティの設定](./assets/draft-comment-setting.png)
 
 5. スタイルシートを保存。
 
 >[!NOTE]
 >
->このスタイルは、スタイル設定されたコンテンツにドラフトコメントを表示するかどうかを一般的に制御します。 **ネイティブPDF**&#x200B;出力にドラフトコメントを具体的に含めるには、ネイティブPDF出力プリセットで「**ドラフトコメントを含める**」オプションも有効にする必要があります。 詳しくは、[&#x200B; ネイティブ PDF出力プリセット &#x200B;](../web-editor/native-pdf-web-editor.md)を参照してください。 両方の設定は、生成されたPDFでドラフトコメントがエディターに表示されるとおりに表示されるために、一緒に必要です。
+>このスタイルは、スタイル設定されたコンテンツにドラフトコメントを表示するかどうかを一般的に制御します。 **ネイティブPDF**&#x200B;出力にドラフトコメントを具体的に含めるには、ネイティブPDF出力プリセットで「**ドラフトコメントを含める**」オプションも有効にする必要があります。 詳しくは、[ ネイティブ PDF出力プリセット ](../web-editor/native-pdf-web-editor.md)を参照してください。 両方の設定は、生成されたPDFでドラフトコメントがエディターに表示されるとおりに表示されるために、一緒に必要です。
 
 ## PDFの詳細設定 {#advanced-pdf-settings}
 
@@ -287,14 +287,17 @@ DITA トピックに追加されたドラフトコメントは、デフォルト
   >[!NOTE]
   >
   > 「**改行前のテキスト**」または「**改行後のテキスト**」フィールドで言語変数を使用する場合は、テキスト全体が単一の言語変数内で定義されていることを確認します。 これらのフィールドで言語変数の外部に追加されたテキストまたは変数は、レンダリングされません。 例えば、**改行後のテキスト**&#x200B;で`${lng:Continued-from-page} %page-num%`などの変数を組み合わせて使用する代わりに、フィールドに`${lng:Continued-from-page}`のみを使用し、`Continued-from-page`言語変数の値を個別に`Continued-from-page %page-num%`に設定します。
-* **用語集の用語を用語集ページにリンク**：このオプションを選択すると、用語集の用語がコンテンツ内のハイパーリンクとして表示され、用語集ページの用語にリンクされます。 これにより、用語集で定義された用語の定義をすばやく確認できます。
+* **用語集の用語を用語集ページにリンク**：このオプションを有効にすると、用語集の用語がコンテンツ内のハイパーリンクとして表示され、用語集ページの用語にリンクされます。 これにより、用語集で定義された用語の定義をすばやく確認できます。
 
   用語集の用語をハイパーリンクに変換するには、次の操作を行う必要があります。
   * DITA マップの「**ページレイアウト順序**」タブで「**用語集**」を有効にします。
   * ブックマップのバックマターページに用語集を追加します。
 
   用語集ページを有効にしない場合、コンテンツ内の用語集の用語は、PDF出力のハイパーリンクに変換されません。
-  <!--For more information on using table continuation markers, see Use table continuation markers.-->
+
+* **すべての用語集エントリを表示**：対応する用語がコンテンツで参照されているかどうかにかかわらず、マップで定義されているすべての用語集エントリを含めるには、このオプションを有効にします。 デフォルトでは、このオプションは無効になっており、コンテンツで実際に使用されている用語集の用語のみが用語集ページに含まれます。
+
+<!--For more information on using table continuation markers, see Use table continuation markers.-->
 
 ### ページレイアウト {#page-layouts}
 
@@ -341,7 +344,7 @@ DITA トピックに追加されたドラフトコメントは、デフォルト
 
 
 
-ページレイアウトについて詳しくは、[&#x200B; ページレイアウトのデザイン &#x200B;](design-page-layout.md)を参照してください。
+ページレイアウトについて詳しくは、[ ページレイアウトのデザイン ](design-page-layout.md)を参照してください。
 
 ### ページレイアウト順序 {#page-order}
 
@@ -502,11 +505,11 @@ AEM Guidesには、次のすぐに使用できる変数が用意されていま�
 段落セクションに`${lng:<variable name>}`を追加すると、出力の段落内の相互参照に、ローカライズされたテキストとページ番号が含まれます。\
 例えば、次のスクリーンショットは、相互参照「View on page 1」を英語で、「Einzelheiten finden Sie auf der Seite 1」をドイツ語で示しています。
 
-<img src="./assets/english-output-corss-reference.png" alt="段落の相互参照の英語出力&quot; width =&quot;800" border="2px">
+<img src="./assets/english-output-corss-reference.png" alt="段落の相互参照の英語出力" width ="800" border="2px">
 
 *英語で公開された段落内の相互参照。*
 
-<img src="./assets/german-output-corss-reference.png" alt="プラハでの相互参照のドイツ語出力&quot; width =&quot;800" border="2px">
+<img src="./assets/german-output-corss-reference.png" alt="プラハでの相互参照のドイツ語出力" width ="800" border="2px">
 
 *ドイツ語で公開された段落内の相互参照。*
 

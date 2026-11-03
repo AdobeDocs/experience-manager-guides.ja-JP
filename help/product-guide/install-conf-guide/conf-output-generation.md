@@ -22,9 +22,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '3402'
+source-wordcount: '3665'
 ht-degree: 1%
 ---
 # 出力生成設定の設定 {#id181AI0B0E30}
@@ -362,11 +362,11 @@ AEM Guidesには、マップコンソールをカスタマイズするための`
 
 >[!NOTE]
 >
-> AEM クライアントライブラリの作成について詳しくは、[&#x200B; クライアントサイドライブラリの使用](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=ja)を参照してください。
+> AEM クライアントライブラリの作成について詳しくは、[ クライアントサイドライブラリの使用](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=en)を参照してください。
 
 ## 出力生成時の画像レンディションの処理 {#id177BF0G0VY4}
 
-AEMには、アセットを処理するためのデフォルトワークフローとメディアハンドルのセットが付属しています。 AEMには、最も一般的なMIME タイプのアセット処理を処理するための定義済みワークフローがあります。 通常、AEMでは、アップロードした画像ごとに、同じ画像の複数のレンディションがバイナリ形式で作成されます。 これらのレンディションのサイズは異なり、解像度も異なり、透かしが追加されたり、その他の特性が変更されたりします。 AEMでのアセットの処理方法について詳しくは、AEM ドキュメントの「[Media HandlersとWorkflowsを使用したAssetsの処理](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=ja)」を参照してください。
+AEMには、アセットを処理するためのデフォルトワークフローとメディアハンドルのセットが付属しています。 AEMには、最も一般的なMIME タイプのアセット処理を処理するための定義済みワークフローがあります。 通常、AEMでは、アップロードした画像ごとに、同じ画像の複数のレンディションがバイナリ形式で作成されます。 これらのレンディションのサイズは異なり、解像度も異なり、透かしが追加されたり、その他の特性が変更されたりします。 AEMでのアセットの処理方法について詳しくは、AEM ドキュメントの「[Media HandlersとWorkflowsを使用したAssetsの処理](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=en)」を参照してください。
 
 AEM Guidesでは、ドキュメントの出力を生成する際に使用する画像レンディションを設定できます。 例えば、デフォルトの画像レンディションのいずれかを選択するか、作成した画像レンディションを使用してドキュメントを公開できます。 ドキュメントを公開するための画像レンディションマッピングは、`/libs/fmdita/config/ **renditionmap.xml**` ファイルに保存されます。 `renditionmap.xml` ファイルのスニペットは次のとおりです。
 
@@ -423,7 +423,12 @@ AEM Guidesでは、ドキュメントの出力を生成する際に使用する�
 
 `/var/dxml/metadata/outputHistory`
 
-時間の経過とともに、すべてのログファイルの合計サイズがGBに達する可能性があります。 AEM Guidesでは、これらのログファイルをリポジトリに保持する期間を設定できます。 指定された期間が経過すると、出力生成履歴と共にログがリポジトリから削除されます。
+時間の経過とともに、すべてのログファイルの合計サイズがGBに達する可能性があります。 AEM Guidesを使用すると、ログと出力生成履歴をリポジトリに保持する期間を制御できます。 出力履歴は、次のいずれかの方法で保持できます。
+
+- **年齢別（デフォルト）:**&#x200B;指定した日数より古いエントリはパージされます。
+- **カウント別：**&#x200B;指定した最新のエントリ数のみが、各マップとプリセットに保持されます。 古いエントリは、年齢に関係なく消去されます。
+
+また、パージによってログと共に出力履歴エントリ全体を削除するか、ログのみを削除するかを選択することもできます。 ログなしでエントリを保持すると、リポジトリサイズを削減しながら、監査目的で生成された出力の記録を保持できます。
 
 >[!NOTE]
 >
@@ -431,11 +436,15 @@ AEM Guidesでは、ドキュメントの出力を生成する際に使用する�
 
 履歴パージ機能を設定すると、リポジトリ内のすべてのDITA マップの出力生成に影響します。 DITA マップの「出力」タブでは、履歴は指定された日数の後、設定で指定された時間に消去されます。
 
+
+
 >[!NOTE]
 >
 > ログファイルと出力生成履歴を削除しても、生成された出力には影響しません。
 
-次のタブでは、Experience Manager Guidesの設定に基づいて出力履歴とログをパージする日時を設定する手順を示します。Cloud Serviceまたはオンプレミス。
+次のタブでは、Experience Manager Guidesの設定に基づいて出力履歴とログをパージする方法を設定する手順を示します。Cloud Serviceまたはオンプレミスです。
+
+![](assets/purging-history-setting.png){width="600"}
 
 >[!BEGINTABS]
 
@@ -445,8 +454,11 @@ AEM Guidesでは、ドキュメントの出力を生成する際に使用する�
 
 | PID | プロパティキー | プロパティの値 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager\|output.history.purgeperiod` | 出力ログとともに出力履歴が消去されるまでの日数を指定します。 この機能を無効にする場合は、このプロパティで指定された日数より前に生成された出力に対してパージ処理が実行される指定された時間に、このプロパティを0.Everydayに設定します。 | **デフォルト値**: 5 |
-| `output.history.purgetime` | パージ処理が開始される時間を指定します。 | **デフォルト値**: 0:00 \（または12:00 midnight\） |
+| `com.adobe.fmdita.config.ConfigManager` | `output.history.purgeperiod` | 出力ログとともに出力履歴が消去されるまでの日数を指定します。 この機能を無効にする場合は、このプロパティを0に設定します。 指定された時間に毎日、このプロパティで指定された日数より前に生成された出力に対してパージ処理が実行されます。 このプロパティは、`output.history.retention.mode`が`AGE`の場合にのみ使用されます。 **デフォルト値**: `5` |
+| `com.adobe.fmdita.config.ConfigManager` | `output.history.purgetime` | パージ処理が開始される時間を指定します。 形式：`HH:MM` （例：`15:30`）。 **デフォルト値**: `0:00` （または午前0時00分） |
+| `com.adobe.fmdita.config.ConfigManager` | `output.history.retention.mode` | 出力履歴の保存方法を指定します。 指定できる値は`AGE`と`COUNT`です。 **デフォルト値**: `AGE` |
+| `com.adobe.fmdita.config.ConfigManager` | `output.history.retention.count` | 各マップとプリセットに対して保持する最新の出力履歴エントリの数を指定します。 正の整数を入力します。 このプロパティは、`output.history.retention.mode`が`COUNT`の場合にのみ使用されます。 **デフォルト値**: `25` |
+| `com.adobe.fmdita.config.ConfigManager` | `output.history.retention.action` | いずれかのモードで、保持によって削除された出力履歴エントリの処理を指定します。 指定できる値は`DELETE_ENTRY`と`LOGS_ONLY`です。 **デフォルト値**: `DELETE_ENTRY` |
 
 >[!TAB  オンプレミス ]
 
@@ -460,13 +472,19 @@ AEM Guidesでは、ドキュメントの出力を生成する際に使用する�
 
 1. **com.adobe.fmdita.config.ConfigManager** バンドルを検索してクリックします。
 
-1. **出力履歴のパージ期間** プロパティで、出力ログと共に出力履歴がパージされるまでの日数を指定します。 デフォルトでは、5日に設定されています。 この機能を無効にする場合は、このプロパティを0に設定します。
+1. **出力履歴のパージ期間** プロパティで、出力ログと共に出力履歴がパージされるまでの日数を指定します。 デフォルトでは、5日に設定されています。 この機能を無効にする場合は、このプロパティを0に設定します。 このプロパティは、**出力履歴保持モード**&#x200B;が&#x200B;**AGE**&#x200B;に設定されている場合にのみ使用されます。
 
-1. **出力履歴パージ時間** プロパティで、パージ プロセスが開始される時間を指定します。 デフォルトでは、0:00 \（または12:00 midnight\）に設定されています。 この時点では、パージ処理は毎日、**出力履歴パージ期間** プロパティで指定された日数より前に生成された出力に対して実行されます。
+1. **出力履歴パージ時間** プロパティで、パージ プロセスが開始される時間を指定します。 デフォルトでは、0:00 （または0:00:00:00:12:00:00）に設定されています。 この時点では、パージ処理は毎日、**出力履歴パージ期間** プロパティで指定された日数より前に生成された出力に対して実行されます。
 
    >[!NOTE]
    >
-   > デフォルトでは、パージ機能は5日より古い出力で毎晩0時に実行されます。
+   >デフォルトでは、パージ機能は5日より古い出力で毎晩0時に実行されます。
+
+1. **出力履歴保持モード** ドロップダウンリストから、保持戦略を選択します。 デフォルトでは、**AGE**&#x200B;に設定されています。 この2つのモードは相互に排他的です。
+
+1. **出力履歴保持回数（プリセットごと）** プロパティで、各マップとプリセットに保持する最新の出力履歴エントリの数を指定します。 デフォルトでは、25に設定されています。 このプロパティは、**出力履歴保持モード**&#x200B;が&#x200B;**COUNT**&#x200B;に設定されている場合にのみ使用されます。
+
+1. **出力履歴保持アクション** ドロップダウンリストから、保持によって削除されたエントリに対する処理を選択します。 デフォルトでは、**DELETE_ENTRY**&#x200B;に設定されています。
 
 1. 「**保存**」をクリックします。
 
@@ -494,7 +512,7 @@ DITA マップの「出力」タブに表示される生成された出力の最
 
 >[!TIP]
 >
-> 出力履歴の操作に関するベストプラクティスについては、[&#x200B; ベストプラクティスガイド &#x200B;](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-mar-22/Adobe-Experience-Manager-Guides_Best-Practices_EN.pdf)の「*出力履歴*」の節を参照してください。
+> 出力履歴の操作に関するベストプラクティスについては、[ ベストプラクティスガイド ](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-mar-22/Adobe-Experience-Manager-Guides_Best-Practices_EN.pdf)の「*出力履歴*」の節を参照してください。
 
 ## 出力生成パフォーマンスの最適化（オンプレミスのみ） {#id176LB050VUI}
 

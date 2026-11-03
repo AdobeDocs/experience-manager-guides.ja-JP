@@ -9,9 +9,9 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: f936d474c6efcea89b244ccd25e03b065a478250
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '437'
 ht-degree: 2%
 ---
 
@@ -74,4 +74,4 @@ IMS設定を環境に追加するには、次の手順を実行します。
 
 環境の設定が完了したら、カスタマーサクセスチームに連絡してエージェンティックモードを有効にします。
 
-お使いの環境でエージェンティックモードが有効になっている場合は、**Workspace settings**&#x200B;に移動し、**AI アシスタント** セクションの「**一般**」タブにある&#x200B;**エージェンティック** トグルを有効にします。
+お使いの環境でエージェンティックモードが有効になっている場合は、**Workspace settings**&#x200B;に移動し、**AI機能** セクションの「**一般**」タブで「**エージェンティック**」オプションを有効にします。 詳しくは、[Workspaceの設定](../install-conf-guide/workspace-settings.md)を参照してください。
