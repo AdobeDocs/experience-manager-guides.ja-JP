@@ -46,9 +46,9 @@ topic_v2:
     internal-label: Accessibility
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '4071'
+source-wordcount: '4203'
 ht-degree: 1%
 ---
 # ネイティブPDF出力プリセット
@@ -264,6 +264,21 @@ PDFの結合、圧縮の使用、コンプライアンス標準の選択など�
 | **一時ファイルを保持** | ネイティブPDF出力の生成中に作成された暫定HTML ファイルを保持する場合は、このオプションを選択します。 出力を生成した後で、一時ファイルをダウンロードできます。 ダウンロードされたファイルには、作成者URL、ローカル URL、公開URLに関する情報を提供する`system_config.xml` ファイルも含まれます。 これらのURLは、AEMの外部化設定で設定され、`system_config.xml` ファイルに反映されます。 |
 | **PDF準拠** | これは、PDFが準拠していることを確認するために保存する標準です。 ドロップダウンから選択して、使用可能なPDF規格の一覧から選択します。 サポートされている標準について詳しくは、[PDF標準について](https://helpx.adobe.com/jp/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards)を参照してください。 |
 | **ファイルのプロパティ** | ネイティブ PDF パブリッシングに渡すメタデータを選択します。 ドロップダウンには、カスタムプロパティとデフォルトプロパティの両方が一覧表示されます。 例えば、`dc:description`、`dc:language`、`dc:title`および`docstate`はデフォルトのプロパティですが、カスタムプロパティとして`author`を指定できます。 選択したメタデータプロパティは、ネイティブ PDFを使用して生成されたPDF ファイルに渡されます。<br> これらのプロパティは、次の`/libs/fmdita/config/metadataList`で利用可能な`metadataList` ファイルから選択されます。 <br>このファイルは`/apps/fmdita/config/metadataList`でオーバーレイできます。 |
+
+## 中間HTMLのDITA エレメントマッピング
+
+ネイティブPDF生成時に、DITA コンテンツは、PDF出力が生成される前に中間HTMLに変換されます。 これらの中間ファイルにアクセスするには、ネイティブ PDF出力プリセットで「**一時ファイルを保持**」オプションを有効にします。
+
+この変換の一環として、特定のDITA エレメントを中間`merged.html` ファイル内の異なるHTML エレメントにマッピングできます。 これらのマッピングは、生成されたPDFで期待されるインラインレンダリングを保持するのに役立ちます。
+
+中間ファイルでHTML要素構造に依存するカスタマイズや自動処理を使用する場合は、生成されたHTMLを処理する際にこれらのマッピングを考慮してください。
+
+現在、次のDITA要素マッピングは、中間`merged.html` ファイルで適用できます。
+
+| DITA エレメント | HTML要素 | 説明 |
+|----|----|-----|
+| `<option>` | `<span>` | DITA `<option>` エレメントをHTML `<span>` エレメントにマッピングして、生成されたPDF内の周囲のスペースを保持します。 |
+
 
 
 

@@ -25,9 +25,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '5049'
+source-wordcount: '5098'
 ht-degree: 0%
 ---
 # PDF テンプレートのコンポーネント {#components-pdf-template}
@@ -287,14 +287,17 @@ DITA トピックに追加されたドラフトコメントは、デフォルト
   >[!NOTE]
   >
   > 「**改行前のテキスト**」または「**改行後のテキスト**」フィールドで言語変数を使用する場合は、テキスト全体が単一の言語変数内で定義されていることを確認します。 これらのフィールドで言語変数の外部に追加されたテキストまたは変数は、レンダリングされません。 例えば、**改行後のテキスト**&#x200B;で`${lng:Continued-from-page} %page-num%`などの変数を組み合わせて使用する代わりに、フィールドに`${lng:Continued-from-page}`のみを使用し、`Continued-from-page`言語変数の値を個別に`Continued-from-page %page-num%`に設定します。
-* **用語集の用語を用語集ページにリンク**：このオプションを選択すると、用語集の用語がコンテンツ内のハイパーリンクとして表示され、用語集ページの用語にリンクされます。 これにより、用語集で定義された用語の定義をすばやく確認できます。
+* **用語集の用語を用語集ページにリンク**：このオプションを有効にすると、用語集の用語がコンテンツ内のハイパーリンクとして表示され、用語集ページの用語にリンクされます。 これにより、用語集で定義された用語の定義をすばやく確認できます。
 
   用語集の用語をハイパーリンクに変換するには、次の操作を行う必要があります。
   * DITA マップの「**ページレイアウト順序**」タブで「**用語集**」を有効にします。
   * ブックマップのバックマターページに用語集を追加します。
 
   用語集ページを有効にしない場合、コンテンツ内の用語集の用語は、PDF出力のハイパーリンクに変換されません。
-  <!--For more information on using table continuation markers, see Use table continuation markers.-->
+
+* **すべての用語集エントリを表示**：対応する用語がコンテンツで参照されているかどうかにかかわらず、マップで定義されているすべての用語集エントリを含めるには、このオプションを有効にします。 デフォルトでは、このオプションは無効になっており、コンテンツで実際に使用されている用語集の用語のみが用語集ページに含まれます。
+
+<!--For more information on using table continuation markers, see Use table continuation markers.-->
 
 ### ページレイアウト {#page-layouts}
 

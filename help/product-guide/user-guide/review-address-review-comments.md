@@ -36,9 +36,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '1618'
+source-wordcount: '1613'
 ht-degree: 0%
 ---
 # アドレス確認コメント {#id2056B0X0KBI}
@@ -130,9 +130,10 @@ ht-degree: 0%
 
 **レビューUI**&#x200B;を使用してレビューコメントにアクセスする
 
-レビュータスクの開始者または作成者が&#x200B;**プロジェクトコンソール**&#x200B;からレビュータスクを開くと、レビューUIでトピックが起動します。 このタスクは自分に割り当てられていないので、コメントを表示して返信することはできますが、レビューアクションを実行することはできません。 タスクに割り当てられていないユーザーのコメントツールバーは無効のままです。
+レビュータスクの開始者は、**レビューUI**&#x200B;でレビュータスクを開いて、レビュー担当者のコメントを表示および返信できます。 レビュータスクのトピックにコメントを追加して、追加のコンテキストを提供したり、特定のコンテンツにレビューアーの注意を引いたりすることもできます。
 
-![](images/review-comments-toolbar-disabled.png){width="350"}
+詳細については、[&#x200B; レビュー担当者のコメントを追加](./review-send-topics-for-review.md#add-comments-for-reviewers)を参照してください。
+
 
 ## トピックのすべてのレビュータスクを表示
 

@@ -19,9 +19,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 2fcdb485f7527b5ffdfe1d42ed3d9bbdd576ce7a
+source-git-commit: ab188ec25b60920cf4055bc21e21634a811bb20a
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '672'
 ht-degree: 0%
 ---
 # 挿入メニューのその他のオプション
@@ -59,7 +59,8 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  > H5P コンテンツの編集や作成は、Adobe Experience Manager Guidesではサポートされていません。 アップロードする前に、H5P パッケージを外部で準備します。
+  > - H5P コンテンツの編集や作成は、Adobe Experience Manager Guidesではサポートされていません。 アップロードする前に、H5P パッケージを外部で準備します。
+  > - 複数のH5P ファイルを含むコースでは、各ファイルに対して共有リソースを複製するのではなく、共有リソースを使用します。 これにより、パッケージサイズが削減され、H5Pを多用するコースの生成と公開が高速化されます。
 
   ![](assets/h5p-fullscreen.png)
 

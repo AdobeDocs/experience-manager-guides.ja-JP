@@ -22,9 +22,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
 workflow-type: tm+mt
-source-wordcount: '1585'
+source-wordcount: '1913'
 ht-degree: 1%
 ---
 # Experience Manager GuidesとEdge Delivery Services
@@ -64,58 +64,6 @@ EDSには、事前定義された構造を持つGitHub リポジトリが必要�
 
 ![](assets/eds-repo-created-github-view.png)
 
-### AEM Code Syncを介してGitHubをAdobeに接続する
-
-Adobe Experience Managerは、**AEM Code Sync**&#x200B;というGitHub アプリケーションを使用して、Experience Manager GuidesからGitHubにコンテンツをプッシュします。
-
-次の手順を実行して、*AEM Code Sync* アプリケーションをインストールおよび設定します。
-
-1. [AEM Code Sync](https://github.com/apps/aem-code-sync) ページに移動し、**インストール**&#x200B;を選択します。
-2. *AEM Code Sync*&#x200B;は、リポジトリの変更を監視し、更新がGitHubに正しくプッシュされるようにします。
-
-   >[!NOTE]
-   >
-   >アプリケーションのインストール中は、リポジトリを所有する同じGitHub アカウントを使用していることを確認してください。
-
-   ![](assets/eds-aem-code-sync-page.png)
-
-3. 次のページで、作成したリポジトリへのアクセス権を付与します。 これを行うには、「**リポジトリのみを選択**」オプションを選択し、ドロップダウンからリポジトリを選択します。
-
-   ![](assets/eds-aem-code-sync-install-authorize.png){width="350"}
-
-4. 「**インストールして承認**」を選択します。
-
-GitHub設定ページにリダイレクトされ、*AEM Code Sync* アプリケーションの正常な登録が確認されます。 このページから、web サイトのプレビューとライブ URLを保存することもできます。
-
-![](assets/eds-aem-code-sync-registered.png)
-
-### 新しいGitHub アプリの作成
-
-1. GitHubで、左側のサイドバーに移動し、**開発者設定**&#x200B;を選択します。
-2. 左側のサイドバーで、**GitHub Apps**&#x200B;を選択します。
-3. **新しいGitHub アプリ**&#x200B;を選択します。
-
-   ![](assets/eds-new-github-app.png){width="650"}
-
-4. **新しいGitHub アプリを登録** ページで、次の詳細を入力します。
-
-   - **GitHub アプリ名**：アプリの名前を入力します。 例えば、`USERNAME-eds-app`はUSERNAMEがGitHubのユーザー名です。
-   - **ホームページ URL**: Experience Manager Guides インスタンスのURLを入力します。
-
-     サンプル URL （形式）: `https://<aem-author-url>/libs/fmdita/clientlibs/xmleditor/page.html`
-
-     サンプル URL: `https://author-p16602-e335172-cmstg.adobeaemcloud.com/libs/fmdita/clientlibs/xmleditor/page.html`
-
-   - **コールバック URL**: ホームページ URLと同じです。
-   - **Webhook URL**：このオプションを無効にします。
-   - **リポジトリ権限**: *アクション、管理、および認証*&#x200B;に対する&#x200B;**読み取りおよび書き込み**&#x200B;権限を設定します。
-
-5. 「**GitHub アプリを作成**」を選択します。
-
-これでアプリの準備ができました。 GitHub アプリの&#x200B;**Settings** ページにリダイレクトされます。
-
-![](assets/eds-github-app-registered-page.png)
-
 ### 新しいOAuth アプリの作成
 
 Experience Manager GuidesでEDS公開プロファイルを作成する際にユーザーを認証するには、OAuth アプリが必要です。 *クライアント ID*&#x200B;と&#x200B;*クライアントシークレット*&#x200B;を使用して、セキュアなログインフローを有効にします。
@@ -145,54 +93,122 @@ Experience Manager GuidesでEDS公開プロファイルを作成する際にユ�
 
 ### EDS リポジトリでのマウントポイント URLの設定
 
-EDSは、`fstab.yaml` ファイルの&#x200B;*mountpoint* URLとして定義されたGitHub リポジトリパスからコンテンツを読み取ります。
+EDSは、リポジトリのルートにある`fstab.yaml` ファイルで定義された&#x200B;*mountpoint* URLからコンテンツを読み取ります。 このURLは、生成されたコンテンツをExperience Manager Guidesが公開する場所をEDSに示します。
 
 `fstab.yaml` ファイルでマウントポイント URLを設定するには：
 
-1. リポジトリで`fstab.yaml` ファイルを開き、次の内容を更新します。
+1. GitHub リポジトリで、`fstab.yaml` ファイルを開きます。
+2. 次の形式を使用して`url`値を更新します。
 
-   - `your-user-name`
-   - `your-repo-name`
+   ```text
+   https://guides.adobe.com/eds-workers/<account type>/<git acc domain>/<git username>/<git repo>/<branch>/<root folder>
+   ```
 
-   >[!NOTE]
-   >
-   > マウントポイント URLで、`main`はコンテンツを公開するブランチを示し、`docs`は作業中のEDS リポジトリのルートフォルダーを示します。 GitHubでブランチ名を変更する場合は、*mountpoint* URL （`fstab.yaml` ファイル）と対応するEDS パブリッシュプロファイルの同じブランチ名をExperience Manager Guidesで更新する必要があります。
+   次の表に、URLの各フィールドを示します。
+
+   | フィールド | 説明 |
+   |---|---|
+   | `https://guides.adobe.com/eds-workers` | Experience Manager GuidesがコンテンツをEDSに公開するために使用するワーカーURL。 この値は変更しないでください。 |
+   | `<account type>` | Git アカウントのタイプ。 `github` に設定します。 |
+   | `<git acc domain>` | Git アカウントのドメイン。 `github.com` に設定します。 |
+   | `<git username>` | GitHub ユーザー名。 |
+   | `<git repo>` | EDS用に作成したGitHub リポジトリの名前。 |
+   | `<branch>` | コンテンツを公開するブランチ。 デフォルト値は `main` です。 GitHubでブランチ名を変更した場合は、ここで更新し、Experience Manager GuidesのEDS パブリッシュプロファイルで更新します。 |
+   | `<root folder>` | 公開されたファイルがコミットされるリポジトリのルートフォルダー。 デフォルト値は `docs` です。 GitHubでフォルダー名を変更した場合は、ここで更新し、Experience Manager GuidesのEDS パブリッシュプロファイルで更新します。 |
+
+   例えば、GitHub ユーザー名が`my-username`、リポジトリ名が`my-eds-repo`の場合、`fstab.yaml` ファイルは次のように表示されます。
+
+   ```yaml
+   mountpoints:
+     /:
+       url: https://guides.adobe.com/eds-workers/github/github.com/my-username/my-eds-repo/main/docs
+       type: markup
+   ```
 
    ![](assets/eds-fstab-yaml-file.png){width="650"}
 
-2. 「**変更をコミット**」を選択し、コミットの詳細を入力して確認します。
-3. [開発者設定](https://github.com/settings/apps)に戻り、アプリを見つけて、**編集**&#x200B;を選択します。
+   >[!NOTE]
+   >
+   > 以前のURL形式（`https://guides.adobe.com/eds-workers/<git username>/<git repo>/<branch>/<root folder>`）を引き続き使用する場合、アカウントタイプとドメインはデフォルトで`github`と`github.com`になります。
 
-   ![](assets/eds-edit-github-app.png){width="650"}
+3. リポジトリを認証するには、「[AEM Code Sync](#connect-github-to-adobe-via-aem-code-sync)経由でGitHubをAdobeに接続」セクションの手順2と3を繰り返します。
 
-4. **アプリのインストール** ページに移動し、**インストール**&#x200B;を選択します。
+### AEM Code Syncを介してGitHubをAdobeに接続する
 
-   ![](assets/eds-install-eds-app.png){width="650"}
+Adobe Experience Managerは、**AEM Code Sync**&#x200B;というGitHub アプリケーションを使用して、Experience Manager GuidesからGitHubにコンテンツをプッシュします。
 
-5. リポジトリを認証するには、「[AEM Code Sync](#connect-github-to-adobe-via-aem-code-sync)経由でGitHubをAdobeに接続」セクションの手順2と3を繰り返します。
+次の手順を実行して、*AEM Code Sync* アプリケーションをインストールおよび設定します。
+
+1. [AEM Code Sync](https://github.com/apps/aem-code-sync) ページに移動し、**インストール**&#x200B;を選択します。
+
+   **AEM Code Sync**&#x200B;は、リポジトリの変更を監視し、更新がGitHubに正しくプッシュされるようにします。
+
+   >[!NOTE]
+   >
+   >アプリケーションのインストール中は、リポジトリを所有する同じGitHub アカウントを使用していることを確認してください。
+
+   ![](assets/eds-aem-code-sync-page.png)
+
+2. 次のページで、作成したリポジトリへのアクセス権を付与します。 「**リポジトリのみを選択**」を選択し、ドロップダウンからリポジトリを選択します。
+
+   ![](assets/eds-aem-code-sync-install-authorize.png){width="350"}
+
+3. 「**インストールして承認**」を選択します。
+
+   GitHub設定ページにリダイレクトされます。
+
+   ![](./assets/aem-code-sync-source-code-github.png)
+
+4. ソースコードの詳細を確認し、**次へ**&#x200B;を選択してください。
+
+5. **コンテンツソース** ページで、次の設定を行います。
+
+   - **コンテンツ ソースの種類：** **その他（独自のマークアップを取り込む）**&#x200B;を選択します。
+   - **コンテンツソース URL:** `fstab.yaml` ファイルでマウントポイント URLとして設定されたURLを確認します。 ファイル内のURLを更新していない場合は、ここで更新できます。
+   - **ファイル拡張子：** デフォルトの`.html`接尾辞を`.htm`に変更します。
+
+   **別のコンテンツソースを使用**&#x200B;が選択されていることを確認します。
+
+6. **ユーザー** ページで、必要に応じてユーザーを追加し、**次**&#x200B;を選択します。
+
+7. 設定の概要を確認し、**保存**&#x200B;を選択します。
+
+   登録が成功すると、確認ページが表示されます。 このページから、web サイトの&#x200B;**プレビュー**&#x200B;および&#x200B;**ライブ**&#x200B;のURLをコピーして保存できます。
+
+   ![](assets/eds-aem-code-sync-registered.png)
+
+## EDS用にGitLabをセットアップして設定する
+
+GitLabをEdge Delivery Servicesの公開リポジトリとして設定する手順については、[EDS](./configure-eds-gitlab.md)のGitLabの設定と設定を参照してください。
 
 ## Experience ManagerでのEDS用のパブリッシュプロファイルの作成と設定
 
 以下の節では、各ステップを順番に説明し、EDS パブリッシュプロファイルの設定、出力プリセットの設定、およびExperience Manager GuidesでのEDSを使用した出力の生成方法について説明します。
 
-### EDS公開プロファイルの作成
+### GitHubまたはGitLab用のEDS パブリッシュプロファイルの作成
 
 1. **[Workspace settings](/help/product-guide/cs-install-guide/workspace-settings.md)** **>** **プロファイルの公開**&#x200B;に移動します。
 2. **+** アイコンを選択して、新しい公開プロファイルを作成し、次の詳細を指定します。
 
-   - **サーバーの種類**: ドロップダウンから&#x200B;**GitHub Edge Delivery Services**&#x200B;を選択します。
-   - **名前**：このプロファイルの名前を入力します。
-   - **リポジトリ名**：ボイラープレートから作成されたGitHub リポジトリ名を使用します。
-   - **ユーザー名**: GitHub ユーザー名を入力します。
-   - **分岐メイン**: メイン （デフォルト）に設定します。
-   - **ルートフォルダー**: ドキュメントに設定（デフォルト）。
-   - **クライアント IDとクライアントシークレット**：これらはGitHub アプリから取得します（詳細については、[新しいOAuth アプリの作成](#create-a-new-oauth-app) セクションを参照）。
-
-3. 認証するには、**ログイン**&#x200B;を選択します。
+   - **Server type\*:** ドロップダウンから「**Git （Edge Delivery Service）**」を選択します。
+   - **名前\*:**&#x200B;公開プロファイルの名前を入力します。
+   - **Git アカウントの種類\*:** Git リポジトリ プロバイダーに応じて、ドロップダウンから&#x200B;**GitHub**&#x200B;または&#x200B;**GitLab**&#x200B;を選択します。
+   - **インスタンス URL\*:** GitHubまたはGitLab インスタンスのURL （例：`https://github.com`または`https://gitlab.com`）を入力します。
+   - **リポジトリ名\*:** GitHubまたはGitLab リポジトリの名前を入力します。
+   - **ユーザー名\*:** GitHubまたはGitLabのユーザー名を入力します。
+   - **分岐名：**&#x200B;を`main`に設定しました（デフォルト）。
+   - **ルートフォルダー\*:**&#x200B;を`docs`に設定（デフォルト）。
+   - **サイト所有者（*GitLabのみ*）:** Edge Delivery Services サイトの所有者を入力します。
+   - **サイトリポジトリ （*GitLabのみ*）:** Edge Delivery Services サイトに関連付けられているリポジトリ名を入力します。
+   - **HLX API キー：** EDS設定のHLX API キーを入力します。 このキーは、Experience Manager Guides as a Cloud Serviceの2026.11.0 リリースで導入された非公開機能をサポートするために必要です。 また、コンテンツサイズが100個を超える場合は、コンテンツをEDSに公開するためにキーが必要です。
+   - **認証資格情報：**&#x200B;選択したGit アカウントの種類に基づいて資格情報を指定します：
+     - **GitHub:** GitHub OAuth アプリから取得した&#x200B;**クライアント ID\***と&#x200B;**クライアントシークレット\***を入力します。 詳しくは、[新しいOAuth アプリの作成](#create-a-new-oauth-app)を参照してください。
+     - **GitLab:** GitLab アカウント用に生成された&#x200B;**アクセストークン\***を入力します。
+3. （*GitHubのみ*）認証する&#x200B;**ログイン**&#x200B;を選択します。 GitLabの場合、アクセストークンは認証に使用されるため、ログインは必要ありません。
 
    ![](assets/eds-publish-profile.png){width="650"}
 
-4. 認証が成功したら、**保存**&#x200B;を選択します。
+4. 「**保存**」を選択します。 GitHubの場合、認証が成功すると、**保存** オプションが使用できます。
 
 これで、EDS公開プロファイルが設定されました。
 
@@ -206,21 +222,25 @@ EDSは、`fstab.yaml` ファイルの&#x200B;*mountpoint* URLとして定義さ�
 4. 「**追加**」を選択します。
 
    ![](assets/eds-output-preset.png){width="650"}
-5. 新しく作成したEDS出力プリセットを開き、**Config** タブに移動します。
-   - 前の手順で作成した公開プロファイルを選択します。
-   - **ライブへのプッシュを有効にする**。
+5. 新しく作成したEDS出力プリセットを開き、次のフィールドを設定します。
 
-   **ライブへのプッシュ**&#x200B;が有効になっている場合、生成された出力はGitHubにコミットされ、対応する更新はすぐにライブ web サイトに反映されます。
+   - **条件付きフィルタリング：** **なし**&#x200B;を選択してフィルタリングせずに出力を生成するか、**DITAVAL**&#x200B;を使用して条件付きフィルタリングを適用します。
+   - **サブフォルダーを公開：**&#x200B;出力が公開されるサブフォルダーの名前を入力します。 サブフォルダーはルートフォルダーの下のリポジトリーに作成され、その名前は公開されたコンテンツへのEDS リンクに表示されます。 例えば、ルートフォルダーが`docs`、公開サブフォルダーが`product-guide`の場合、コンテンツは`docs/contents/product-guide`に公開されます。
+   - **公開プロファイル：**&#x200B;前のセクションで設定したGitHubまたはGitLab公開プロファイルを選択します。
 
-   ![](assets/eds-output-preset-config-tab.png){width="650"}
+     ![](assets/eds-output-preset-config.png){width="650"}
 
 6. 「**保存**」を選択し、「**出力を生成**」を選択します。
 
 >[!NOTE]
 >
->生成された出力は、EDS リポジトリの&#x200B;**docs** フォルダーに保存されます。
+>生成された出力は、EDS リポジトリの`<root folder>/contents/<publish subfolder>` フォルダーに保存されます。
 
 これで、EDS出力が生成されました。 コンテンツはレスポンシブでクリーンなレイアウトで表示されます。 ページタイトル、パンくずリスト、本文、トピックで使用されるすべてのブロックなどの通常の要素が含まれます。 左側の目次（マップから生成）は、トピック間を移動するのに役立ちます。右側のミニ目次は、現在のページ内のセクションをハイライト表示します。 出力全体が完全にレスポンシブになり、デバイス間で最適化された一貫性のある読み取りエクスペリエンスを実現します。
+
+>[!NOTE]
+>
+> 同じweb サイトに複数のDITA マップを公開できます。 公開されたマップは左側のナビゲーションパネルに表示され、各マップからコンテンツにアクセスできます。 新しいマップを公開しても、以前に公開したマップは上書きされません。
 
 ![](assets/eds-site-output.png)
 

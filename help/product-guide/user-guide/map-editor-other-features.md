@@ -23,9 +23,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1297'
 ht-degree: 0%
 ---
 # マップエディターの追加機能 {#id1942D0T0HUI}
@@ -90,7 +90,7 @@ DITA トピック内の重要な参照を解決するには、次の場所で使
 
 ## マップ上でヘルスチェックを実行
 
-コンテキストメニューの「ヘルスチェックを実行」オプションを使用すると、選択したマップでヘルスチェックを実行して、公開前にリンク切れ、重複ID、Schematron検証エラーなどの問題を検出できます。
+コンテキストメニューの「**ヘルスチェックを実行**」オプションを使用すると、選択したマップでヘルスチェックを実行して、公開前にリンク切れ、重複ID、Schematron検証エラーなどの問題を検出できます。 この機能は、新規エディターと古いエディターの両方で使用できます。
 
 >[!NOTE]
 >

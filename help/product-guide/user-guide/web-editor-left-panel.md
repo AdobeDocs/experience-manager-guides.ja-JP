@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '11296'
+source-wordcount: '11329'
 ht-degree: 0%
 ---
 # エディターの左パネル
@@ -859,7 +859,8 @@ Experience Manager Guidesを使用すると、用語集タイプのドキュメ�
 
 >[!NOTE]
 >
-> を入力して新しいグループを作成するか、特定の属性に既存のグループを選択します。
+> - を入力して新しいグループを作成するか、特定の属性に既存のグループを選択します。
+> - 条件パネルの条件は、値ではなくラベルに基づいてアルファベット順に並べ替えられます。 並べ替え順序は、対応する値に関係なく、条件に割り当てられたラベルによって決まります。
 
 `/`を使用して、`AEM Guides/Cloud Service`のようなサブグループを定義できます。
 

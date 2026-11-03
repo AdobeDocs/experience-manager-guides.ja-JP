@@ -21,9 +21,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '445'
 ht-degree: 0%
 ---
 # レビューの概要 {#id1645H6010Q5}
@@ -42,6 +42,8 @@ Adobe Experience Manager Guidesが&#x200B;*イニシエーター\（または作
 - レビューダッシュボードからレビュー用に更新されたトピックを共有します。
 
 - トピックの異なるバージョンで共有されたコメントにアクセスします。
+- トピックにコメントを追加してコンテキストを提供したり、特定のコンテンツにレビュー担当者の注意を引き付けたりできます。
+
 - コメントや返信内の特定のレビュータスクのユーザーを簡単にタグ付けして、すばやくアクションやフォローアップを実行できます。 タグ付けされたユーザーには、AEMとメール通知の両方を通じてすぐに通知されます。
 - トピックのバージョンに基づいてコメントをグループ化し、フィルタリングします。
 

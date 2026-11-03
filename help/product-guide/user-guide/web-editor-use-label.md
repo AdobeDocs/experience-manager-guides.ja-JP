@@ -31,14 +31,14 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '541'
 ht-degree: 0%
 ---
 # ラベルを使用 {#id164JBG0M0T1}
 
-Adobe Experience Manager Guidesでは、ファイルの様々なバージョンにラベルを追加できます。 これらのラベルを使用して、公開用のベースラインに含めるバージョンを指定できます。 ラベルを使用してベースラインを作成する方法について詳しくは、[&#x200B; ベースラインを使用した作業](generate-output-use-baseline-for-publishing.md#)を参照してください。
+Adobe Experience Manager Guidesでは、ファイルの様々なバージョンにラベルを追加できます。 バージョンラベルを使用して、公開用に[&#x200B; ベースライン &#x200B;](./generate-output-use-baseline-for-publishing.md)に含めるトピックのバージョンを指定し、画像、マルチメディアファイル、PDF、ZIP ファイルなど、DITA以外のファイル [&#128279;](./authoring-file-management.md#work-with-media-and-other-non-dita-files)のバージョンを管理できます。
 
 例えば、*リリース 2.0*&#x200B;の&#x200B;*リリース 1.0*&#x200B;のトピックの&#x200B;*バージョン 1.0*&#x200B;と同じトピックの&#x200B;*バージョン 1.1*&#x200B;を使用する場合、*バージョン 1.1*&#x200B;の&#x200B;*バージョン 1.0*&#x200B;と&#x200B;*リリース 2.0*&#x200B;のラベルに&#x200B;*リリース 1.0*&#x200B;のラベルを追加できます。
 

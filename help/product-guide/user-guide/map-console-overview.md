@@ -34,9 +34,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: d859c31fb0241400fd0f1b4a8acfc0fed9554242
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '935'
 ht-degree: 0%
 ---
 # マップコンソールの概要
@@ -67,7 +67,7 @@ Adobe Experience Manager Guidesでは、**マップコンソール**&#x200B;と�
   >
   > Adobe Experience Manager Guides as a Cloud Serviceを使用している場合は、ナビゲーションバーに追加機能[AI アシスタント &#x200B;](./ai-assistant.md)が表示されます。
 
-- （**B**） **左パネル**：左パネルでは、出力生成、レポート作成と管理、ベースライン、条件プリセット、コンテンツ翻訳、Workfront（設定されている場合のみ）機能にすばやくアクセスできます。
+- （**B**） **左パネル**：左パネルでは、出力生成、出力履歴、レポートの作成と管理、ベースライン、条件プリセット、コンテンツ翻訳、Workfrontの機能（設定されている場合のみ）に素早くアクセスできます。
 
   詳しくは、以下の「[&#x200B; マップコンソール機能](#map-console-features)」セクションを参照してください。
 
@@ -81,6 +81,14 @@ Adobe Experience Manager Guidesでは、**マップコンソール**&#x200B;と�
 
 詳細については、[出力生成](./generate-output.md)を参照してください。
 
+**出力履歴**
+
+選択したDITA マップの出力生成タスクをエディターから直接表示および管理できます。 進行中および完了したタスクのステータスの監視、出力生成の詳細の表示、公開ログへのアクセス、出力生成履歴の管理を行うことができます。
+
+また、プリセットの種類、タスクのステータス、日時の範囲に基づいて出力生成タスクを検索およびフィルタリングし、出力生成履歴をCSV形式でダウンロードすることもできます。
+
+詳細については、[出力生成プロセスの管理](./generate-output-manage-process.md#view-and-manage-output-generation-tasks-from-the-editor)を参照してください。
+
 **レポートの作成と管理**
 
 組織的な設定では、テクニカルドキュメントの作業を開始したり、ドキュメントを公開したりする前に、テクニカルドキュメントの全体的な完全性を確認する必要があります。 このようなニーズは、マルチユーザー環境や大規模環境では、さらに重要になります。 マップコンソールを使用すると、リポジトリ内のコンテンツの全体的な健全性と、ドキュメントプロセスでのコンテンツの使用方法に関する有益なinsightを提供するExperience Manager Guides レポートにアクセスできます。
@@ -88,6 +96,10 @@ Adobe Experience Manager Guidesでは、**マップコンソール**&#x200B;と�
 詳しくは、[Experience Manager Guidesのレポート &#x200B;](./reports-intro.md)を参照してください。
 
 **ベースライン**
+
+>[!NOTE]
+>
+> マップコンソールには、環境で分岐が有効になっているかどうかに応じて、**ベースライン** タブまたは&#x200B;**分岐** タブが表示されます。 分岐は、2026.11.0 リリース以降のExperience Manager Guides as a Cloud Serviceで使用でき、デフォルトでは無効になっています。 有効にするには、Adobe カスタマーサクセス チームにお問い合わせください。 分岐が有効になっている場合、ベースラインは使用できなくなります。 詳しくは、[Experience Manager Guidesでの分岐](./branching-overview.md)および[DITA マップの分岐の作成と管理](./create-manage-branch.md#manage-branches)を参照してください。
 
 Experience Manager Guidesには、トピックとアセットのバージョンを作成し、公開または翻訳に使用できるベースライン機能が用意されています。 同じDITA マップの複数の出力プリセットを並行して公開することもできます。
 

@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: 09b8fabaa75d656ae1465d741c8aac8307ce6231
+source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
 workflow-type: tm+mt
-source-wordcount: '2657'
+source-wordcount: '2705'
 ht-degree: 11%
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 11%
       - {hide-from-toc}[&#x200B; デプロイメント手順](./release-info/deploy-xml-on-aemaacs.md)
       - [クラウドリリース](./release-info/latest-release-info-cs.md)
       - 2026 リリース {#2026-releases}
+        - 2026.11.0 リリース {#2611-release}
+          - [新機能](./release-info/whats-new-2026-11-0.md)
+          - [修正された問題](./release-info/fixed-issues-2026-11-0.md)
+          - [アップグレード手順](./release-info/upgrade-instructions-2026-11-0.md)
         - 2026.09.0 リリース {#2609-release}
           - [新機能](./release-info/whats-new-2026-09-0.md)
           - [修正された問題](./release-info/fixed-issues-2026-09-0.md)
@@ -293,6 +297,10 @@ ht-degree: 11%
   - マップ管理と公開 {#map-management-publishing}
     - [マップコンソールの概要](./user-guide/map-console-overview.md)
     - [マップコンソールでファイルを開く](./user-guide/open-files-map-console.md)
+    - 分岐と結合 {#work-with-branching}
+      - [概要](./user-guide/branching-overview.md)
+      - [分岐の作成と管理](./user-guide/create-manage-branch.md)
+      - [分岐を結合](./user-guide/merge-branches.md)
     - レポート {#reports-aem-guide}
       - [レポートの概要](./user-guide/reports-intro.md)
       - [マップコンソールからのDITA マップレポート](./user-guide/reports-web-editor.md)
@@ -369,12 +377,15 @@ ht-degree: 11%
     - [Adobeの生成AI ユーザーによる情報開示](./user-guide/adobe-generative-ai-disclosures.md)
     - [AI アシスタントの概要](./user-guide/ai-assistant.md)
     - エージェント型モードのAI アシスタント {#ai-assistant-agentic}
-      - [エージェント型モードでのAI アシスタントの使用](./user-guide/ai-assistant-agentic.md)
+      - [AI アシスタントでコンテンツをインポート](./user-guide/import-ai-assistant.md)
+      - [コンテンツの最初のドラフトを作成](./user-guide/create-ai-assistant.md)
+      - [AI アシスタントを使用したスマートタグ](./user-guide/ai-assistant-agentic.md)
     - 標準モードのAI アシスタント {#ai-assistant-standard}
-      - [AIを活用したスマートヘルプでコンテンツを検索](./user-guide/ai-based-smart-help.md)
       - [AI アシスタント オーサリングによるドキュメントのスマートな作成](./user-guide/ai-assistant-right-panel.md)
       - [AIを活用したスマートな提案によりコンテンツを作成](./user-guide/authoring-ai-based-smart-suggestions.md)
       - [よくある質問](./user-guide/ai-assistant-faq.md)
+  - AEM Guidesのヘルプアシスタント {#help-assistant-aem}
+    - [AIを活用したスマートヘルプによるコンテンツの検索](./user-guide/ai-based-smart-help.md)
   - 学習コンテンツの管理 {#learning-training-content}
     - 入門ガイド {#get-started}
       - はじめに {#intro-lc}
@@ -563,6 +574,7 @@ ht-degree: 11%
         - [脚注にスタイルを適用](./native-pdf/footnote-number-style.md)
         - [&#x200B; ネイティブ PDF用に新しい公開エンジンを設定](./native-pdf/conf-new-pdf-engine.md)
       - [&#x200B; ネイティブ PDF エンジン v2の操作](./native-pdf/new-pdf-engine.md)
+      - [Native PDFのマップレンダリング用の付録レンダリングの設定](./install-conf-guide/conf-appendix-map-ref-native-pdf.md)
       - [Cloud Service向けネイティブ PDF パブリッシングのノードプロセスを設定](./native-pdf/conf-node-options-cs.md)
       - [&#x200B; オンプレミス用のネイティブ PDF公開用のJVM フラグを設定](./native-pdf/conf-jvm-flags-on-prem.md)
     - Cloud Serviceのコンテンツフラグメントとエクスペリエンスフラグメントの設定 {#conf-content-exp-fragment}
@@ -699,6 +711,7 @@ ht-degree: 11%
       - [JWT認証によるマイクロサービスベースの公開を設定します](./knowledge-base/publishing/configure-microservices.md)
       - [OAuth認証によるマイクロサービスベースの公開を設定します](./knowledge-base/publishing/configure-microservices-imt-config.md)
       - [Edge Delivery Servicesの設定](./knowledge-base/publishing/configure-eds.md)
+      - [Edge Delivery Services用GitLabの設定](./knowledge-base/publishing/configure-eds-gitlab.md)
       - [AEM cloudでのベンチマークの公開](./knowledge-base/publishing/publishing-benchmarks-on-aem-cloud.md)
     - ワークフロー {#workflows}
       - [生成後のワークフロー](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
