@@ -22,9 +22,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 63ae0f947d50646bed34cd815db6b9fb585fc015
+source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
 workflow-type: tm+mt
-source-wordcount: '1916'
+source-wordcount: '1913'
 ht-degree: 1%
 ---
 # Experience Manager GuidesとEdge Delivery Services
@@ -39,7 +39,7 @@ Experience Manager GuidesからEDSへの公開を有効にするには、GitHub�
 2. [Experience Manager GuidesでのEDS用のパブリッシュプロファイルの作成と設定](#create-and-configure-a-publish-profile-for-eds-in-experience-manager)
 3. [EDS ブロックを使用した出力のカスタマイズ](#customize-output-using-eds-blocks)
 
-簡単なビデオのチュートリアルについては、[AEM Guidesでの公開](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25)をご覧ください。
+簡単なビデオのチュートリアルについては、[AEM Guidesでの公開](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25)をご覧ください。
 
 
 
@@ -56,7 +56,7 @@ EDSには、事前定義された構造を持つGitHub リポジトリが必要�
 1. Experience Manager Guides ボイラープレートテンプレートリポジトリ [aem-guides-boilerplate](https://github.com/adobe/aem-guides-boilerplate)を開きます。
    ![](assets/eds-boilerplate-template.png)
 
-2. このテンプレートを使用して新しいリポジトリを作成します。 テンプレート [&#128279;](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)からリポジトリを作成するについて説明します。 リポジトリの表示が&#x200B;*パブリック*&#x200B;に設定されていることを確認し、EDSがアクセスできるようにします。
+2. このテンプレートを使用して新しいリポジトリを作成します。 テンプレート ](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)からリポジトリを作成する[について説明します。 リポジトリの表示が&#x200B;*パブリック*&#x200B;に設定されていることを確認し、EDSがアクセスできるようにします。
 
    ![](assets/eds-create-new-repo.png)
 
@@ -169,7 +169,7 @@ Adobe Experience Managerは、**AEM Code Sync**&#x200B;というGitHub アプリ
 
    **別のコンテンツソースを使用**&#x200B;が選択されていることを確認します。
 
-6. **ユーザー** ページで、必要に応じてユーザーを追加し、**次へ**&#x200B;を選択します。
+6. **ユーザー** ページで、必要に応じてユーザーを追加し、**次**&#x200B;を選択します。
 
 7. 設定の概要を確認し、**保存**&#x200B;を選択します。
 
@@ -279,7 +279,7 @@ EDSは`blocks`を使用して、コンテンツのさまざまな部分のスタ
    - 「**追加**」を選択します。
      ![](assets/eds-example-tag.png){width="650"}
 3. 出力を保存して再生成します。
-4. `blocks` ディレクトリ内に`outputclass`と同じ名前の新しいフォルダーを作成します。 [&#x200B; リポジトリへのファイルの追加](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository#adding-a-file-to-a-repository-using-the-command-line)について説明します。
+4. `blocks` ディレクトリ内に`outputclass`と同じ名前の新しいフォルダーを作成します。 [ リポジトリへのファイルの追加](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository#adding-a-file-to-a-repository-using-the-command-line)について説明します。
 
    ![](assets/eds-example-folder.png){width="650"}
 
