@@ -215,10 +215,10 @@ AEM Sites、PDF、HTML5、EPUB、JSONなどの形式で出力を設定および�
 
 有益なリソース、ドキュメント、サポートにアクセスし、プラットフォームを最大限に活用しましょう。
 
-* [GitHub リポジトリ](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
-* [サポート](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
-* [ビデオチュートリアル](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
-* [AEM Guides community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
+* [GitHub リポジトリ](https://github.com/AdobeDocs/experience-manager-guides.ja-JP){target="_blank"}
+* [サポート](https://experienceleague.adobe.com/support/v2/en/?lang=ja){target="_blank"}
+* [ビデオチュートリアル](https://experienceleague.adobe.com/ja/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [AEM Guides community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?lang=ja){target="_blank"}
 
 </td>
 </tr>
