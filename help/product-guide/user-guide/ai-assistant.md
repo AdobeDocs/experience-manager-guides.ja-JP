@@ -24,7 +24,7 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
+source-git-commit: b3c2c68321080aa4dde16befe4bfd0022bf9f61c
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 0%
@@ -86,9 +86,8 @@ AI アシスタントを起動するには、次の手順を実行します。
 
 1. Experience Manager Guidesにログインします。
 1. ホームページで、上部から「**AI Assistant**」を選択します。 管理者が目的のモードでAI アシスタント機能を有効にしていることを確認します。
-
 AI アシスタントに、主な機能、ユーザーガイドラインのリンク、および&#x200B;**開始** ボタンが表示されます。
-ユーザーガイドラインを注意深く読み、**開始**&#x200B;を選択してAI アシスタントを起動します。
+1. ユーザーガイドラインを注意深く読み、**開始**&#x200B;を選択してAI アシスタントを起動します。
 
 >[!NOTE]
 >

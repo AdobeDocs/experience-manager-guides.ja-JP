@@ -4,9 +4,9 @@ description: GitLab リポジトリ、アクセストークン、Cloud Manager�
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: e5721ff1d6e2322213ac7bc988fb1d7e721cd148
+source-git-commit: 380089cbcfc56b23a9cb494d49c0e39e1813eabd
 workflow-type: tm+mt
-source-wordcount: '1256'
+source-wordcount: '1217'
 ht-degree: 3%
 ---
 
@@ -27,20 +27,9 @@ GitLabを使用してExperience Manager GuidesからEdge Delivery Services（EDS
 - Cloud Manager API統合を作成するには、Adobe組織のシステム管理者またはAPI開発者ロールを使用します。
 - 構成サービスに`aem.live`組織が登録されました。 詳しくは、[設定サービスの設定](https://www.aem.live/docs/config-service-setup)を参照してください。
 
-## 設定シーケンス
+## Edge Delivery Services用GitLabの設定
 
-1. [GitHubを使用したEDS サイトの作成](#1-create-the-eds-site-using-github)
-2. [GitLab リポジトリの作成](#2-create-the-gitlab-repository)
-3. [マウントポイント URLの設定](#3-configure-the-mountpoint-url)
-4. [GitLab アクセストークンの作成](#4-create-gitlab-access-tokens)
-5. [GitLab リポジトリをCloud Managerに追加する](#5-add-the-gitlab-repository-to-cloud-manager)
-6. [Cloud Manager API キーの生成](#6-generate-a-cloud-manager-api-key)
-7. [GitLab Webhookの設定](#7-configure-the-gitlab-webhook)
-8. [EDS サイトをCloud Managerに追加](#8-add-the-eds-site-to-cloud-manager)
-9. [Bring Your Own Gitを使用してリポジトリを接続する](#9-connect-the-repository-using-bring-your-own-git)
-10. [Cloud Managerを使用するようにEDS サイトを設定する](#10-configure-the-eds-site-to-use-cloud-manager)
-11. [同期と検証](#11-sync-and-verify)
-12. [Experience Manager Guidesから公開](#12-publish-from-experience-manager-guides)
+Edge Delivery Servicesで使用するようにGitLabを設定するには、指定した順序で次の手順を実行して、適切に設定および統合します。
 
 ### &#x200B;1. GitHubを使用したEDS サイトの作成
 
