@@ -4,9 +4,9 @@ description: GitLab リポジトリ、アクセストークン、Cloud Manager�
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 97620587a9e736e0886ea4d7158af330814e6392
+source-git-commit: 380089cbcfc56b23a9cb494d49c0e39e1813eabd
 workflow-type: tm+mt
-source-wordcount: '1256'
+source-wordcount: '1217'
 ht-degree: 3%
 ---
 
@@ -27,22 +27,11 @@ GitLabを使用してExperience Manager GuidesからEdge Delivery Services（EDS
 - Cloud Manager API統合を作成するには、Adobe組織のシステム管理者またはAPI開発者ロールを使用します。
 - 構成サービスに`aem.live`組織が登録されました。 詳しくは、[設定サービスの設定](https://www.aem.live/docs/config-service-setup)を参照してください。
 
-## 設定シーケンス
+## Edge Delivery Services用GitLabの設定
 
-1. [GitHubを使用したEDS サイトの作成](#1-create-the-eds-site-using-github-create-eds-site)
-2. [GitLab リポジトリの作成](#2-create-the-gitlab-repository)
-3. [マウントポイント URLの設定](#3-configure-the-mountpoint-url)
-4. [GitLab アクセストークンの作成](#4-create-gitlab-access-tokens)
-5. [GitLab リポジトリをCloud Managerに追加する](#5-add-the-gitlab-repository-to-cloud-manager)
-6. [Cloud Manager API キーの生成](#6-generate-a-cloud-manager-api-key)
-7. [GitLab Webhookの設定](#7-configure-the-gitlab-webhook)
-8. [EDS サイトをCloud Managerに追加](#8-add-the-eds-site-to-cloud-manager)
-9. [Bring Your Own Gitを使用してリポジトリを接続する](#9-connect-the-repository-using-bring-your-own-git)
-10. [Cloud Managerを使用するようにEDS サイトを設定する](#10-configure-the-eds-site-to-use-cloud-manager)
-11. [同期と検証](#11-sync-and-verify)
-12. [Experience Manager Guidesから公開](#12-publish-from-experience-manager-guides)
+Edge Delivery Servicesで使用するようにGitLabを設定するには、指定した順序で次の手順を実行して、適切に設定および統合します。
 
-### &#x200B;1. GitHubを使用したEDS サイトの作成 {#create-eds-site}
+### &#x200B;1. GitHubを使用したEDS サイトの作成
 
 AEM GuidesのボイラープレートからGitHub リポジトリを作成し、その上にAEM Code Sync アプリをインストールします。 生成された&#x200B;**ライブ URL** （`https://<branch>--<github-repo>--<github-username>.aem.live`）を後で使用するために保存します。
 
@@ -56,7 +45,7 @@ AEM GuidesのボイラープレートからGitHub リポジトリを作成し、
 
 同じAEM Guides ボイラープレートから別のGitLab リポジトリ（例：`my-eds-gitlab`）を作成します。 Experience Manager Guidesは、生成された出力をこのリポジトリに公開します。 EDSには`main` ブランチが必要です。
 
-リポジトリを作成するには、空白のプロジェクトを作成し、[aem-guides-boilerplate](https://github.com/adobe/aem-guides-boilerplate)の内容をそれにプッシュするか、ボイラープレートを新しいプロジェクトに読み込みます。 手順については、GitLab ドキュメントの[&#x200B; プロジェクトの作成](https://docs.gitlab.com/user/project/)および[GitHubからGitLab](https://docs.gitlab.com/user/project/import/github/)へのプロジェクトのインポートを参照してください。
+リポジトリを作成するには、空白のプロジェクトを作成し、[aem-guides-boilerplate](https://github.com/adobe/aem-guides-boilerplate)の内容をそれにプッシュするか、ボイラープレートを新しいプロジェクトに読み込みます。 手順については、GitLab ドキュメントの[ プロジェクトの作成](https://docs.gitlab.com/user/project/)および[GitHubからGitLab](https://docs.gitlab.com/user/project/import/github/)へのプロジェクトのインポートを参照してください。
 
 ### &#x200B;3. マウントポイント URLの設定
 
@@ -78,18 +67,18 @@ https://<worker URL>/gitlab/<git acc domain>/<git username>/<git repo>/main/docs
 
 以下に必要なアクセストークンを作成します。
 
-- **Cloud Manager**。リポジトリを検証してアクセスします。 詳しくは、[Cloud Managerで外部リポジトリを追加する](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-manager/content/managing-code/external-repositories)を参照してください。
-- **Experience Manager Guides パブリッシュプロファイル**&#x200B;を使用して、パブリッシュされた出力を確定します。 **Developer**&#x200B;の役割と`api`のスコープを持つGitLab プロジェクト アクセス トークンを作成します。 詳しくは、[GitLab ドキュメント &#x200B;](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html)を参照してください。
+- **Cloud Manager**。リポジトリを検証してアクセスします。 詳しくは、[Cloud Managerで外部リポジトリを追加する](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/managing-code/external-repositories)を参照してください。
+- **Experience Manager Guides パブリッシュプロファイル**&#x200B;を使用して、パブリッシュされた出力を確定します。 **Developer**&#x200B;の役割と`api`のスコープを持つGitLab プロジェクト アクセス トークンを作成します。 詳しくは、[GitLab ドキュメント ](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html)を参照してください。
 
 >[!NOTE]
 >
-> トークンが期限切れになる前に更新します。 公開プロファイルのトークンが期限切れになっている場合、公開は失敗します。 Cloud Managerで使用するトークンを更新するには、[外部リポジトリのアクセストークンの管理](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-manager/content/managing-code/manage-access-tokens)を参照してください。
+> トークンが期限切れになる前に更新します。 公開プロファイルのトークンが期限切れになっている場合、公開は失敗します。 Cloud Managerで使用するトークンを更新するには、[外部リポジトリのアクセストークンの管理](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/managing-code/manage-access-tokens)を参照してください。
 
 ### &#x200B;5. GitLab リポジトリをCloud Managerに追加する
 
 Cloud Managerで、**Repositories** > **Add Repository**&#x200B;に移動し、**Private Repository**&#x200B;を選択し、アクセストークンを使用して所有権を検証します。 リポジトリのステータスが&#x200B;**準備完了**&#x200B;になるまで待ちます。 BYOG オプションは、少なくとも1つの外部リポジトリが準備完了した後にのみ使用できます。
 
-手順については、[Cloud Managerで外部リポジトリを追加する](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-manager/content/managing-code/external-repositories)を参照してください。
+手順については、[Cloud Managerで外部リポジトリを追加する](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/managing-code/external-repositories)を参照してください。
 
 ### &#x200B;6. Cloud Manager API キーの生成
 
