@@ -43,10 +43,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: c6381f6d58f64bed575966423685b63971834d66
+source-git-commit: 30cc2448fbc386901ec2a71f4d226ca3b01d905e
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 7%
+source-wordcount: '349'
+ht-degree: 6%
 ---
 # Experience Manager Guides ドキュメント
 
@@ -114,7 +114,7 @@ Design DITA specializations, schemas, and content architecture for your implemen
 
 オーサリング
 
-web エディター、FrameMakerとの統合、コンテンツの再利用、レビューサイクル。
+エディターおよびDITA オーサリング機能を使用して、構造化コンテンツを作成、編集します。
 
 [コンテンツの作成](./user-guide/web-editor.md)
 :::
@@ -124,7 +124,7 @@ web エディター、FrameMakerとの統合、コンテンツの再利用、レ
 
 レビュー
 
-トピックのレビュー、レビュータスクの管理、通知のレビューを行うことができます。
+レビュータスクを作成、管理し、フィードバックで共同作業をおこない、レビューコメントに対応できます。
 
 [レビューの概要](./user-guide/review.md)
 :::
@@ -134,7 +134,7 @@ web エディター、FrameMakerとの統合、コンテンツの再利用、レ
 
 公開
 
-PDF、AEM Sites、HTML5、EPUB、JSON出力タイプ。
+AEM Sites、PDF、HTML5、EPUB、JSONなどの形式で出力を設定および生成できます。
 
 [コンテンツを公開](./user-guide/generate-output.md)
 :::
@@ -144,7 +144,7 @@ PDF、AEM Sites、HTML5、EPUB、JSON出力タイプ。
 
 翻訳
 
-多言語コンテンツ向けの人間による翻訳と機械翻訳のワークフロー。
+人による翻訳または機械翻訳のワークフローを使用してコンテンツを翻訳し、翻訳ステータスを追跡できます。
 
 [コンテンツの翻訳](./user-guide/translation.md)
 :::
@@ -154,7 +154,7 @@ PDF、AEM Sites、HTML5、EPUB、JSON出力タイプ。
 
 レポート
 
-トピックリスト、マルチメディア、壊れているリンク、メタデータレポート。
+コンテンツの健全性の評価、メタデータの管理、壊れているリンクの特定、コンテンツの再利用の分析を行います。
 
 [レポートの生成](./user-guide/reports-intro.md)
 :::
@@ -164,7 +164,7 @@ PDF、AEM Sites、HTML5、EPUB、JSON出力タイプ。
 
 設定
 
-フォルダープロファイル、DITA-OT カスタマイズ、出力テンプレート。
+プロファイル、テンプレート、条件付き属性、出力プリセット、エディター設定を設定します。
 
 [フォルダープロファイルの設定](./install-conf-guide/conf-profiles.md)
 :::
@@ -172,7 +172,7 @@ PDF、AEM Sites、HTML5、EPUB、JSON出力タイプ。
 ::::
 
 
-## クイックリンク
+## リソースとアップデート
 
 >[!BEGINSHADEBOX]
 
@@ -184,7 +184,7 @@ PDF、AEM Sites、HTML5、EPUB、JSON出力タイプ。
 
 **AEM Guidesの新機能**
 
-Experience Manager Guidesの最新リリースで導入された新機能と強化機能をご覧ください。
+最新のExperience Manager Guides リリース（2026.11.0）で導入された新機能と強化機能をご覧ください。
 
 - マップレベルの分岐と結合
 - AI アシスタントでのコンテンツの制作とインポート
