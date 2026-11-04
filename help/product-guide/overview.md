@@ -43,22 +43,22 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: c578f56f0aa976ea4421e4317e4c86dedfc5a700
+source-git-commit: c6381f6d58f64bed575966423685b63971834d66
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '326'
 ht-degree: 7%
 ---
 # Experience Manager Guides ドキュメント
 
 Experience Manager Guidesは、構造化されたオーサリング、マルチチャネル公開、コンテンツライフサイクル管理を実現する、DITA対応のネイティブ CCMSです。
 
-**デプロイメント：** [!BADGE Cloud Service]{type=Positive} [!BADGE &#x200B; オンプレミス &#x200B;]{type=Informative}
+**デプロイメント：** [!BADGE Cloud Service]{type=Positive} [!BADGE  オンプレミス ]{type=Informative}
 
 ## 役割から始める
 
 ::::landing-cards-container
 :::card
-![管理者アイコン &#x200B;](../assets/admin.png)
+![管理者アイコン ](../assets/admin.png)
 
 管理者
 
@@ -68,7 +68,7 @@ Experience Manager Guidesは、構造化されたオーサリング、マルチ�
 :::
 
 :::card
-![作成者アイコン &#x200B;](../assets/author.png)
+![作成者アイコン ](../assets/author.png)
 
 作成者
 
@@ -78,7 +78,7 @@ DITA トピック、マップ、コンテンツ再利用、レビューワーク
 :::
 
 :::card
-![発行者アイコン &#x200B;](../assets/publisher.png)
+![発行者アイコン ](../assets/publisher.png)
 
 発行者
 
@@ -110,7 +110,7 @@ Design DITA specializations, schemas, and content architecture for your implemen
 ::::landing-cards-container
 
 :::card
-![&#x200B; オーサリングアイコン &#x200B;](../assets/authoring.png)
+![ オーサリングアイコン ](../assets/authoring.png)
 
 オーサリング
 
@@ -120,7 +120,7 @@ web エディター、FrameMakerとの統合、コンテンツの再利用、レ
 :::
 
 :::card
-![&#x200B; レビューアイコン &#x200B;](../assets/review.png)
+![ レビューアイコン ](../assets/review.png)
 
 レビュー
 
@@ -130,7 +130,7 @@ web エディター、FrameMakerとの統合、コンテンツの再利用、レ
 :::
 
 :::card
-![公開アイコン &#x200B;](../assets/publishing.png)
+![公開アイコン ](../assets/publishing.png)
 
 公開
 
@@ -140,7 +140,7 @@ PDF、AEM Sites、HTML5、EPUB、JSON出力タイプ。
 :::
 
 :::card
-![翻訳アイコン &#x200B;](../assets/translation.png)
+![翻訳アイコン ](../assets/translation.png)
 
 翻訳
 
@@ -150,7 +150,7 @@ PDF、AEM Sites、HTML5、EPUB、JSON出力タイプ。
 :::
 
 :::card
-![&#x200B; レポートアイコン &#x200B;](../assets/reports.png)
+![ レポートアイコン ](../assets/reports.png)
 
 レポート
 
@@ -160,7 +160,7 @@ PDF、AEM Sites、HTML5、EPUB、JSON出力タイプ。
 :::
 
 :::card
-![設定アイコン &#x200B;](../assets/configure.png)
+![設定アイコン ](../assets/configure.png)
 
 設定
 
@@ -186,11 +186,11 @@ PDF、AEM Sites、HTML5、EPUB、JSON出力タイプ。
 
 Experience Manager Guidesの最新リリースで導入された新機能と強化機能をご覧ください。
 
-- AI アシスタントのAIを活用したスマートタグ
-- レビュータスクでトピックを「完了」とマーク
-- 学習コンテンツの機能強化
+- マップレベルの分岐と結合
+- AI アシスタントでのコンテンツの制作とインポート
+- 新しいヘルプアシスタントパネル
 
-[すべて見る](../../help/product-guide/release-info/whats-new-2026-09-0.md)
+[すべて見る](../../help/product-guide/release-info/whats-new-2026-11-0.md)
 
 </td>
 <td>
@@ -201,24 +201,24 @@ Experience Manager Guidesの最新リリースで導入された新機能と強�
 
 クラウドおよびオンプレミスのデプロイメントに関する最新のリリースノートと製品アップデートをご覧ください。
 
-- クラウドリリース | [&#x200B; リリースノートを表示](./release-info/latest-release-info-cs.md)
-- オンプレミスのリリース | [&#x200B; リリースノートを表示](./release-info/latest-release-info.md)
+- クラウドリリース | [ リリースノートを表示](./release-info/latest-release-info-cs.md)
+- オンプレミスのリリース | [ リリースノートを表示](./release-info/latest-release-info.md)
 
 [リリースロードマップを見る](./release-info/aem-guides-releases-roadmap.md)
 
 </td>
 <td>
 
-![学習とサポート &#x200B;](../assets/whats-new-delegate-review.svg)
+![学習とサポート ](../assets/whats-new-delegate-review.svg)
 
 **学習とサポート**
 
 有益なリソース、ドキュメント、サポートにアクセスし、プラットフォームを最大限に活用しましょう。
 
-* [GitHub リポジトリ](https://github.com/AdobeDocs/experience-manager-guides.ja-JP){target="_blank"}
-* [サポート](https://experienceleague.adobe.com/support/v2/en/?lang=ja){target="_blank"}
-* [ビデオチュートリアル](https://experienceleague.adobe.com/ja/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
-* [AEM Guides community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?lang=ja){target="_blank"}
+* [GitHub リポジトリ](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [サポート](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [ビデオチュートリアル](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [AEM Guides community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
 
 </td>
 </tr>
