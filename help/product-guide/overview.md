@@ -1,7 +1,6 @@
 ---
-title: Experience Manager Guidesのチュートリアル
-description: Experience Manager Guides（旧称 XML Documentation for Adobe Experience Manager）のチュートリアルビデオを検索します。 Experience Manager でのネイティブ DITA サポートと構造化オーサリングについて学習します。
-exl-id: 06dd1b77-1a98-430f-8322-475d4fa4947b
+title: Experience Manager Guides ドキュメント
+description: Adobe Experience Manager Guidesのドキュメントを参照してください。 Experience Managerのネイティブ DITA サポート、構造化オーサリング、マルチチャネル公開についてご確認ください。
 feature: AEM Guides Tutorials
 role: User
 TQID: 'https://experienceleague.adobe.com/S4wTM-7gfU7D-JfKVbb9nK3qoQIG6PdiY7jtpsc6kDs'
@@ -44,41 +43,190 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: c578f56f0aa976ea4421e4317e4c86dedfc5a700
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 10%
+source-wordcount: '328'
+ht-degree: 7%
 ---
-# Experience Manager Guides Documentation
+# Experience Manager Guides ドキュメント
 
-[!DNL Experience Manager Guides]は、強力なエンタープライズグレードのコンポーネントコンテンツ管理ソリューション（CCMS）です。 Experience Managerでネイティブ DITA サポートを有効にし、AEMがDITA ベースのコンテンツの制作と配信を処理できるようにします。 Adobe FrameMakerや使いやすい組み込みエディターなど、オフラインのDITA オーサリングツールを使用して、コンテンツを制作できます。
+Experience Manager Guidesは、構造化されたオーサリング、マルチチャネル公開、コンテンツライフサイクル管理を実現する、DITA対応のネイティブ CCMSです。
 
-[!DNL Experience Manager Guides]のソリューションは、DITA コンテンツの共同作業、レビュー、翻訳、検索、レポートなど、すべてのコア CCMS機能を提供し、コンテンツの効率的な再利用と強力なワークフローを通じて、より短時間でより多くの作業をおこなえるようにします。 さらに、クラス最高のシングルクリック公開機能を活用して、最も一般的なフォーマット（Experience Manager Sites、PDF、HTML5、EPUB、JSON、DITA-OTを通じたカスタム出力）用のDITA ベースの出力を生成できます。
+**デプロイメント：** [!BADGE Cloud Service]{type=Positive} [!BADGE  オンプレミス ]{type=Informative}
 
-[!DNL Experience Manager Guides] ソリューションを使用すると、企業はエンドユーザーにシームレスでパーソナライズされたエクスペリエンスを提供し、販売前と販売後のコンテンツの一貫性と統一性を確保できます。 コンテンツの整合性を容易に詳細に制御できます。 さらに、ローカライズにかかる時間とコストも大幅に削減されます。
+## 役割から始める
 
->[!NOTE]
-> 
-> Adobe Experience Manager Guidesは、以前はAdobe Experience Manager用に&#x200B;_XML Documentationとしてブランド化されていました_。 ドキュメント内の特定の参照は、以前のブランディングを参照する場合がありますが、現在のオファーに適用されます。
+::::landing-cards-container
+:::card
+![管理者アイコン ](../assets/admin.png)
 
-## 新機能
+管理者
 
-* **[[!DNL Experience Manager Guides] はじめにコース &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/getting-started/overview.html?lang=ja){target="blank"}**
+フォルダープロファイル、権限、ワークフロー設定、出力テンプレートを設定します。
 
-  _コンテンツの作成、整理、オーサリング、公開を[!DNL Adobe Experience Manager Guides]で行う方法について説明します。_
+[管理ガイド](./install-conf-guide/introduction.md)
+:::
 
-* **[[!DNL Experience Manager Guides] 組み込みエディターでのオーサリング &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=ja){target="blank"}**
+:::card
+![作成者アイコン ](../assets/author.png)
 
-  _ネイティブエディターを使用してコンテンツを作成する方法を[!DNL Adobe Experience Manager Guides]で説明します。 ユーザーの環境設定、エディター設定、設定、ツールバーなどを完全に理解します。_
+作成者
 
-* **[出力生成と [!DNL Experience Manager Guides]](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/overview.html?lang=ja){target="blank"}**
+DITA トピック、マップ、コンテンツ再利用、レビューワークフローを作成、管理します。
 
-  _[!DNL Adobe Experience Manager Guides]を使用して出力を生成する方法を説明します。 レポート、ベースライン、条件、トラブルシューティング、一括公開、アクティベーションなど、出力生成で使用できるさまざまな機能について説明します。_
+[オーサリングの概要](./user-guide/authoring-content.md)
+:::
+
+:::card
+![発行者アイコン ](../assets/publisher.png)
+
+発行者
+
+出力プリセットの設定、ベースラインの管理、チャネルをまたいだ出力の生成を行います。
+
+[マップ管理と公開](./user-guide/map-console-overview.md)
+:::
+
+::::
+
+<!--
+:::card
+![Architects icon](./user-guide/images/architect.svg)
+
+Architects
+
+Design DITA specializations, schemas, and content architecture for your implementation.
+
+[DITA specialization](./install-conf-guide/dita-ot-specialization.md)
+:::
+
+::::
+-->
+
+## 機能エリア別の探索
+
+<!-- Author note: Six cards wrap to two rows of three in production. The landing-cards-container component is in beta — verify rendering in production before publishing. -->
+
+::::landing-cards-container
+
+:::card
+![ オーサリングアイコン ](../assets/authoring.png)
+
+オーサリング
+
+web エディター、FrameMakerとの統合、コンテンツの再利用、レビューサイクル。
+
+[コンテンツの作成](./user-guide/web-editor.md)
+:::
+
+:::card
+![ レビューアイコン ](../assets/review.png)
+
+レビュー
+
+トピックのレビュー、レビュータスクの管理、通知のレビューを行うことができます。
+
+[レビューの概要](./user-guide/review.md)
+:::
+
+:::card
+![公開アイコン ](../assets/publishing.png)
+
+公開
+
+PDF、AEM Sites、HTML5、EPUB、JSON出力タイプ。
+
+[コンテンツを公開](./user-guide/generate-output.md)
+:::
+
+:::card
+![翻訳アイコン ](../assets/translation.png)
+
+翻訳
+
+多言語コンテンツ向けの人間による翻訳と機械翻訳のワークフロー。
+
+[コンテンツの翻訳](./user-guide/translation.md)
+:::
+
+:::card
+![ レポートアイコン ](../assets/reports.png)
+
+レポート
+
+トピックリスト、マルチメディア、壊れているリンク、メタデータレポート。
+
+[レポートの生成](./user-guide/reports-intro.md)
+:::
+
+:::card
+![設定アイコン ](../assets/configure.png)
+
+設定
+
+フォルダープロファイル、DITA-OT カスタマイズ、出力テンプレート。
+
+[フォルダープロファイルの設定](./install-conf-guide/conf-profiles.md)
+:::
+
+::::
 
 
-## その他のリソース
+## クイックリンク
 
-* [[!DNL Experience Manager Guides] ユーザーガイド （旧UI）](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
-* [[!DNL AEM Guides]学習とサポート](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
-* [Experience League - AEMについて詳しく見る](https://business.adobe.com/jp/products/experience-manager/adobe-experience-manager.html)
+>[!BEGINSHADEBOX]
+
+<table>
+<tr style="border: 0;">
+<td>
+
+![新機能](../assets/whats-new-git-connector.svg)
+
+**AEM Guidesの新機能**
+
+Experience Manager Guidesの最新リリースで導入された新機能と強化機能をご覧ください。
+
+- AI アシスタントのAIを活用したスマートタグ
+- レビュータスクでトピックを「完了」とマーク
+- 学習コンテンツの機能強化
+
+[すべて見る](../../help/product-guide/release-info/whats-new-2026-09-0.md)
+
+</td>
+<td>
+
+![リリースノート](../assets/whats-new-map-collection.svg)
+
+**リリースノート**
+
+クラウドおよびオンプレミスのデプロイメントに関する最新のリリースノートと製品アップデートをご覧ください。
+
+- クラウドリリース | [ リリースノートを表示](./release-info/latest-release-info-cs.md)
+- オンプレミスのリリース | [ リリースノートを表示](./release-info/latest-release-info.md)
+
+[リリースロードマップを見る](./release-info/aem-guides-releases-roadmap.md)
+
+</td>
+<td>
+
+![学習とサポート ](../assets/whats-new-delegate-review.svg)
+
+**学習とサポート**
+
+有益なリソース、ドキュメント、サポートにアクセスし、プラットフォームを最大限に活用しましょう。
+
+* [GitHub リポジトリ](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [サポート](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [ビデオチュートリアル](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [AEM Guides community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
+
+</td>
+</tr>
+</table>
+
+>[!ENDSHADEBOX]
+
+
+
+
 
