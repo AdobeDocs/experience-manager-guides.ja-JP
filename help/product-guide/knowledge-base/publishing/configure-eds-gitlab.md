@@ -67,18 +67,18 @@ https://<worker URL>/gitlab/<git acc domain>/<git username>/<git repo>/main/docs
 
 以下に必要なアクセストークンを作成します。
 
-- **Cloud Manager**。リポジトリを検証してアクセスします。 詳しくは、[Cloud Managerで外部リポジトリを追加する](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/managing-code/external-repositories)を参照してください。
+- **Cloud Manager**。リポジトリを検証してアクセスします。 詳しくは、[Cloud Managerで外部リポジトリを追加する](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-manager/content/managing-code/external-repositories)を参照してください。
 - **Experience Manager Guides パブリッシュプロファイル**&#x200B;を使用して、パブリッシュされた出力を確定します。 **Developer**&#x200B;の役割と`api`のスコープを持つGitLab プロジェクト アクセス トークンを作成します。 詳しくは、[GitLab ドキュメント &#x200B;](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html)を参照してください。
 
 >[!NOTE]
 >
-> トークンが期限切れになる前に更新します。 公開プロファイルのトークンが期限切れになっている場合、公開は失敗します。 Cloud Managerで使用するトークンを更新するには、[外部リポジトリのアクセストークンの管理](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/managing-code/manage-access-tokens)を参照してください。
+> トークンが期限切れになる前に更新します。 公開プロファイルのトークンが期限切れになっている場合、公開は失敗します。 Cloud Managerで使用するトークンを更新するには、[外部リポジトリのアクセストークンの管理](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-manager/content/managing-code/manage-access-tokens)を参照してください。
 
 ### &#x200B;5. GitLab リポジトリをCloud Managerに追加する
 
 Cloud Managerで、**Repositories** > **Add Repository**&#x200B;に移動し、**Private Repository**&#x200B;を選択し、アクセストークンを使用して所有権を検証します。 リポジトリのステータスが&#x200B;**準備完了**&#x200B;になるまで待ちます。 BYOG オプションは、少なくとも1つの外部リポジトリが準備完了した後にのみ使用できます。
 
-手順については、[Cloud Managerで外部リポジトリを追加する](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/managing-code/external-repositories)を参照してください。
+手順については、[Cloud Managerで外部リポジトリを追加する](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-manager/content/managing-code/external-repositories)を参照してください。
 
 ### &#x200B;6. Cloud Manager API キーの生成
 
