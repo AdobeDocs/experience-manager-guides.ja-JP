@@ -43,7 +43,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: de4730d6b52026979ba40224dc7ff811a8915412
+source-git-commit: ea5982aa0802068c9adc6ba38764f7102850996e
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 6%
@@ -52,13 +52,13 @@ ht-degree: 6%
 
 Experience Manager Guidesは、構造化されたオーサリング、マルチチャネル公開、コンテンツライフサイクル管理を実現する、DITA対応のネイティブ CCMSです。
 
-**デプロイメント：** [!BADGE Cloud Service]{type=Positive} [!BADGE &#x200B; オンプレミス &#x200B;]{type=Informative}
+**デプロイメント：** [!BADGE Cloud Service]{type=Positive} [!BADGE  オンプレミス ]{type=Informative}
 
 ## 役割から始める
 
 ::::landing-cards-container
 :::card
-![管理者アイコン &#x200B;](../assets/admin.png)
+![管理者アイコン ](../assets/admin.png)
 
 管理者
 
@@ -68,7 +68,7 @@ Experience Manager Guidesは、構造化されたオーサリング、マルチ�
 :::
 
 :::card
-![作成者アイコン &#x200B;](../assets/author.png)
+![作成者アイコン ](../assets/author.png)
 
 作成者
 
@@ -78,7 +78,7 @@ DITA トピック、マップ、コンテンツ再利用、レビューワーク
 :::
 
 :::card
-![発行者アイコン &#x200B;](../assets/publisher.png)
+![発行者アイコン ](../assets/publisher.png)
 
 発行者
 
@@ -110,7 +110,7 @@ Design DITA specializations, schemas, and content architecture for your implemen
 ::::landing-cards-container
 
 :::card
-![&#x200B; オーサリングアイコン &#x200B;](../assets/authoring.png)
+![ オーサリングアイコン ](../assets/authoring.png)
 
 オーサリング
 
@@ -120,17 +120,17 @@ Design DITA specializations, schemas, and content architecture for your implemen
 :::
 
 :::card
-![AI アシスタント アイコン &#x200B;](../assets/ai-author.png)
+![AI アシスタント アイコン ](../assets/ai-author.png)
 
 AI アシスタント
 
 AIを活用したアシスタントにより、コンテンツ制作を加速させ、回答を見つけ出し、インテリジェントなタグを適用します。
 
-[AI アシスタント](./install-conf-guide/conf-profiles.md)
+[AI アシスタント](./user-guide/ai-assistant.md)
 :::
 
 :::card
-![&#x200B; レビューアイコン &#x200B;](../assets/review.png)
+![ レビューアイコン ](../assets/review.png)
 
 レビュー
 
@@ -140,7 +140,7 @@ AIを活用したアシスタントにより、コンテンツ制作を加速さ
 :::
 
 :::card
-![公開アイコン &#x200B;](../assets/publishing.png)
+![公開アイコン ](../assets/publishing.png)
 
 公開
 
@@ -150,7 +150,7 @@ AEM Sites、PDF、HTML5、EPUB、JSONなどの形式で出力を設定および�
 :::
 
 :::card
-![翻訳アイコン &#x200B;](../assets/translation.png)
+![翻訳アイコン ](../assets/translation.png)
 
 翻訳
 
@@ -160,7 +160,7 @@ AEM Sites、PDF、HTML5、EPUB、JSONなどの形式で出力を設定および�
 :::
 
 :::card
-![&#x200B; レポートアイコン &#x200B;](../assets/reports.png)
+![ レポートアイコン ](../assets/reports.png)
 
 レポート
 
@@ -201,24 +201,24 @@ AEM Sites、PDF、HTML5、EPUB、JSONなどの形式で出力を設定および�
 
 クラウドおよびオンプレミスのデプロイメントに関する最新のリリースノートと製品アップデートをご覧ください。
 
-- クラウドリリース | [&#x200B; リリースノートを表示](./release-info/latest-release-info-cs.md)
-- オンプレミスのリリース | [&#x200B; リリースノートを表示](./release-info/latest-release-info.md)
+- クラウドリリース | [ リリースノートを表示](./release-info/latest-release-info-cs.md)
+- オンプレミスのリリース | [ リリースノートを表示](./release-info/latest-release-info.md)
 
 [リリースロードマップを見る](./release-info/aem-guides-releases-roadmap.md)
 
 </td>
 <td>
 
-![学習とサポート &#x200B;](../assets/whats-new-delegate-review.svg)
+![学習とサポート ](../assets/whats-new-delegate-review.svg)
 
 **学習とサポート**
 
 有益なリソース、ドキュメント、サポートにアクセスし、プラットフォームを最大限に活用しましょう。
 
-* [GitHub リポジトリ](https://github.com/AdobeDocs/experience-manager-guides.ja-JP){target="_blank"}
-* [サポート](https://experienceleague.adobe.com/support/v2/en/?lang=ja){target="_blank"}
-* [ビデオチュートリアル](https://experienceleague.adobe.com/ja/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
-* [AEM Guides community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?lang=ja){target="_blank"}
+* [GitHub リポジトリ](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [サポート](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [ビデオチュートリアル](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [AEM Guides community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
 
 </td>
 </tr>
