@@ -43,9 +43,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 30cc2448fbc386901ec2a71f4d226ca3b01d905e
+source-git-commit: ea5982aa0802068c9adc6ba38764f7102850996e
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '353'
 ht-degree: 6%
 ---
 # Experience Manager Guides ドキュメント
@@ -120,6 +120,16 @@ Design DITA specializations, schemas, and content architecture for your implemen
 :::
 
 :::card
+![AI アシスタント アイコン &#x200B;](../assets/ai-author.png)
+
+AI アシスタント
+
+AIを活用したアシスタントにより、コンテンツ制作を加速させ、回答を見つけ出し、インテリジェントなタグを適用します。
+
+[AI アシスタント](./user-guide/ai-assistant.md)
+:::
+
+:::card
 ![&#x200B; レビューアイコン &#x200B;](../assets/review.png)
 
 レビュー
@@ -157,16 +167,6 @@ AEM Sites、PDF、HTML5、EPUB、JSONなどの形式で出力を設定および�
 コンテンツの健全性の評価、メタデータの管理、壊れているリンクの特定、コンテンツの再利用の分析を行います。
 
 [レポートの生成](./user-guide/reports-intro.md)
-:::
-
-:::card
-![設定アイコン &#x200B;](../assets/configure.png)
-
-設定
-
-プロファイル、テンプレート、条件付き属性、出力プリセット、エディター設定を設定します。
-
-[フォルダープロファイルの設定](./install-conf-guide/conf-profiles.md)
 :::
 
 ::::
