@@ -9,9 +9,9 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: b5e241987a89ab974c71f3ec7283c668fedb164b
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '873'
 ht-degree: 3%
 ---
 # 5.2.0 リリース（2026年5月）のアップグレード手順
@@ -31,7 +31,7 @@ ht-degree: 3%
 | 5.2.0 （UUID） | 6.5 LTS | 2 |
 | 5.2.0 （UUID） | 6.5 | 24, 23, 22 |
 
-詳細については、『オンプレミス インストールおよび設定ガイド』の「[技術要件](../install-guide/download-install-technical-requirements.md)」セクションを参照してください。
+詳細については、『オンプレミス インストールおよび設定ガイド』の「[技術要件](../install-conf-guide/aemg-technical-requirements.md)」セクションを参照してください。
 
 <!--
 
