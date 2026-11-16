@@ -9,9 +9,9 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: b5e241987a89ab974c71f3ec7283c668fedb164b
+source-git-commit: c6bb63b574b77ce58e7335f90aa38ae6cff13503
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '868'
 ht-degree: 3%
 ---
 # 5.2.0 リリース（2026年5月）のアップグレード手順
@@ -70,8 +70,8 @@ For more details, view [Configure and use the API JAR from Maven Central reposit
 
 | AEM ガイド | AEM バージョン | コンポーネントバージョン | サイトバージョン |
 |---|---|---| ---|
-| 5.2.0 UUID | 6.5 LTS | guides-components.all-1.4.1 | aemg-sites-template-1.3.0 |
-| 5.2.0 UUID | 6.5 | guides-components.all-1.4.0 | aemg-sites-template-1.3.0 |
+| 5.2.0 UUID | 6.5 LTS | guides-components.all-1.4.1 | - |
+| 5.2.0 UUID | 6.5 | guides-components.all-1.4.0 | aemg-docs.all-1.2.0 |
 
 ## 前提条件
 
