@@ -27,14 +27,14 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 543a83c00a07931231dcd985e8ffdceb4306b4b7
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '934'
 ht-degree: 0%
 ---
 # ファイルをダウンロード {#id216MC0H0BE8}
 
-DITAおよびDITA以外のファイルを含むアセットをダウンロードできます。 アセットをダウンロードする方法は複数あり、一部の方法はAdobe Experience Managerがネイティブで、その他の方法はAdobe Experience Manager Guidesでサポートされています。 ネイティブのAdobe Experience Manager アセットのダウンロードに関する情報については、Adobe Experience Manager ドキュメントの[Adobe Experience Managerからアセットをダウンロードする](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html?lang=ja)を参照してください。 次の節では、Experience Manager Guidesでファイルをダウンロードする仕組みについて説明します。
+DITAおよびDITA以外のファイルを含むアセットをダウンロードできます。 アセットをダウンロードする方法は複数あり、一部の方法はAdobe Experience Managerがネイティブで、その他の方法はAdobe Experience Manager Guidesでサポートされています。 ネイティブのAdobe Experience Manager アセットのダウンロードに関する情報については、Adobe Experience Manager ドキュメントの[Adobe Experience Managerからアセットをダウンロードする](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html)を参照してください。 次の節では、Experience Manager Guidesでファイルをダウンロードする仕組みについて説明します。
 
 ## エディターからDITA マップファイルをダウンロードする
 
@@ -53,7 +53,7 @@ DITAおよびDITA以外のファイルを含むアセットをダウンロード
 
 1. マップをダウンロード ダイアログで、次のオプションを選択できます。
 
-   - **ベースラインを使用**: DITA マップ用に作成されたベースラインのリストを取得するには、このオプションを選択します。 特定のベースラインに基づいてマップファイルとその内容をダウンロードする場合は、ドロップダウンリストから「ベースライン」を選択します。 ベースラインの操作について詳しくは、[&#x200B; ベースラインの操作](generate-output-use-baseline-for-publishing.md#)を参照してください。
+   - **ベースラインを使用**: DITA マップ用に作成されたベースラインのリストを取得するには、このオプションを選択します。 特定のベースラインに基づいてマップファイルとその内容をダウンロードする場合は、ドロップダウンリストから「ベースライン」を選択します。 ベースラインの操作について詳しくは、[ ベースラインの操作](generate-output-use-baseline-for-publishing.md#)を参照してください。
 
    - **ファイル階層オプション**: ファイル階層ドロップダウンを使用して、ダウンロードしたマップファイルのフォルダー構造の処理方法を選択することもできます。 使用できるオプションは以下のとおりです。
 
@@ -90,6 +90,10 @@ DITAおよびDITA以外のファイルを含むアセットをダウンロード
 
 ## マップダッシュボードからDITA マップファイルをダウンロードする
 
+>[!NOTE]
+>
+>Cloud Serviceの2027.01.0 リリースおよびExperience Manager Guides オンプレミスの5.4 リリース以降、新規のお客様のマップダッシュボード機能は非推奨（廃止予定）になります。 ただし、既に使用している既存顧客に対しては、引き続き有効になります。 マップダッシュボードを無効にする場合は、カスタマーサクセス部門にお問い合わせください。 今後、マップ管理と公開には、マップコンソールを使用することをお勧めします。
+
 DITA マップファイルをAdobe Experience Manager リポジトリに保存したら、そのマップファイルを依存関係とともにダウンロードできます。 これにより、オフライン編集、検証、レビュー、またはバックアップの作成のために完全なマップファイルを柔軟に共有できます。
 
 DITA マップファイルとその依存ファイルをダウンロードするには、次の手順を実行します。
@@ -108,7 +112,7 @@ DITA マップファイルとその依存ファイルをダウンロードする
 
 1. 「**ダウンロード**」を選択します。 マップをダウンロード ダイアログで、次のオプションを選択できます。
 
-   - **ベースラインを使用**: DITA マップ用に作成されたベースラインのリストを取得するには、このオプションを選択します。 特定のベースラインに基づいてマップファイルとその内容をダウンロードする場合は、ドロップダウンリストから「ベースライン」を選択します。 ベースラインの操作について詳しくは、[&#x200B; ベースラインの操作](generate-output-use-baseline-for-publishing.md#)を参照してください。
+   - **ベースラインを使用**: DITA マップ用に作成されたベースラインのリストを取得するには、このオプションを選択します。 特定のベースラインに基づいてマップファイルとその内容をダウンロードする場合は、ドロップダウンリストから「ベースライン」を選択します。 ベースラインの操作について詳しくは、[ ベースラインの操作](generate-output-use-baseline-for-publishing.md#)を参照してください。
 
    - **ファイル階層を統合**：参照されているすべてのトピックとメディアファイルを1つのフォルダーに保存するには、このオプションを選択します。
 
@@ -133,4 +137,4 @@ DITA マップファイルとその依存ファイルをダウンロードする
 
 マップをダウンロードしたら、マップを選択し、上部の「開く」アイコンを使用して、ダウンロードしたコンテンツを開くことができます。
 
-**親トピック：**&#x200B;[&#x200B; コンテンツの管理](authoring.md)
+**親トピック：**[ コンテンツの管理](authoring.md)

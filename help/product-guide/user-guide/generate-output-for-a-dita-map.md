@@ -34,23 +34,23 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
+source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '667'
 ht-degree: 0%
 ---
 # 出力を生成
 
 DITA マップの出力を生成するには、次の2つの方法があります。
 
-- [&#x200B; マップコンソールからDITA マップの出力を生成](#generate-output-for-a-dita-map-from-the-map-console)
+- [ マップコンソールからDITA マップの出力を生成](#generate-output-for-a-dita-map-from-the-map-console)
 - [マップダッシュボードからDITA マップの出力を生成する](#generate-output-for-a-dita-map-from-the-map-dashboard)
 
 ## マップコンソールからDITA マップの出力を生成する
 
 マップコンソールを使用してDITA マップの出力を生成するには、次の手順を実行します。
 
-1. [&#x200B; マップコンソールでマップファイルを開く](./open-files-map-console.md)。
+1. [ マップコンソールでマップファイルを開く](./open-files-map-console.md)。
 2. DITA マップコンソールが表示され、出力の生成に使用できる&#x200B;**出力プリセット**&#x200B;のリストが表示されます。
 
 3. 出力の生成に使用するプリセットを開き、**出力の生成**&#x200B;を選択して生成プロセスを開始します。
@@ -81,6 +81,10 @@ DITA マップの出力を生成するには、次の2つの方法がありま�
 
 ## マップダッシュボードからDITA マップの出力を生成する
 
+>[!NOTE]
+>
+>Cloud Serviceの2027.01.0 リリースおよびExperience Manager Guides オンプレミスの5.4 リリース以降、新規のお客様のマップダッシュボード機能は非推奨（廃止予定）になります。 ただし、既に使用している既存顧客に対しては、引き続き有効になります。 マップダッシュボードを無効にする場合は、カスタマーサクセス部門にお問い合わせください。 今後、マップ管理と公開には、マップコンソールを使用することをお勧めします。
+
 マップダッシュボードを使用してDITA マップの出力を生成するには、次の手順を実行します。
 
 1. Assets UIで、パブリッシュするDITA マップファイルに移動して選択します。
@@ -100,7 +104,7 @@ DITA マップの出力を生成するには、次の2つの方法がありま�
 >
 > プリセットの出力生成プロセスがキュー内または処理中の場合、同じプリセットに対して別の出力生成タスクを開始することはできません。
 
-1つ以上のトピックのAEM Sites出力や、マップコンソールからDITA マップ全体を生成することもできます。 詳細については、[&#x200B; ナレッジベース出力の生成](web-editor-article-publishing.md#id218CK0U019I)を参照してください。
+1つ以上のトピックのAEM Sites出力や、マップコンソールからDITA マップ全体を生成することもできます。 詳細については、[ ナレッジベース出力の生成](web-editor-article-publishing.md#id218CK0U019I)を参照してください。
 
 ## `chunk`属性を使用したDITA マップ内の異なるトピックの結合
 
@@ -113,4 +117,4 @@ DITA マップには、参照、概念、タスクなど、様々なトピック
 
 
 
-**親トピック：**&#x200B;[&#x200B;出力生成](generate-output.md)
+**親トピック：**[&#x200B;出力生成](generate-output.md)

@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Metadata
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '690'
 ht-degree: 0%
 ---
 # DITA-OTを使用してメタデータを出力に渡します {#id21BJ00QD0XA}
@@ -52,7 +52,7 @@ DITA-OTを使用してメタデータをOutputに渡すには、次の2つの方
 
 DITA-OT パブリッシングを使用してメタデータを出力に渡すには、次の手順を実行します。
 
-1. [&#x200B; メタデータをDITA-OTに渡すDITA マップファイルをマップコンソール &#x200B;](./open-files-map-console.md)で開きます。
+1. [ メタデータをDITA-OTに渡すDITA マップファイルをマップコンソール ](./open-files-map-console.md)で開きます。
 1. メタデータフィールドを渡す出力プリセットを選択して開きます。 例えば、「PDF出力プリセット」を選択します。 **DITA-OT** オプションを使用して作成されていることを確認します。
 1. **ファイルプロパティ** ドロップダウンから、DITA-OT パブリッシングに渡すメタデータを選択します。
 
@@ -66,7 +66,7 @@ DITA-OT パブリッシングを使用してメタデータを出力に渡すに
 
    このファイルは`/apps/fmdita/config/metadataList`でオーバーレイできます。
 
-   既に値を定義したカスタムプロパティを渡すには、[DITA-OT PDF出力でのAEM メタデータの使用](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880?profile.language=ja)を参照してください。
+   既に値を定義したカスタムプロパティを渡すには、[DITA-OT PDF出力でのAEM メタデータの使用](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880)を参照してください。
 
 1. 選択したプロパティは、ドロップダウンの下に表示されます。
 
@@ -82,6 +82,10 @@ DITA-OT パブリッシングを使用してメタデータを出力に渡すに
 > Experience Manager Guidesの2502 リリース以降、DITA-OT コマンドラインを通じてルートマップのメタデータ引数を渡す機能は廃止されました。 ただし、中断を避けるために、機能を有効または無効にするための新しいプロパティが`Config.Manager`に追加されました。  詳細については、[出力生成設定の設定](../cs-install-guide/conf-output-generation.md#configure-the-dita-ot-command-line-arguement-field-on-the-dita-map-dashboard)を参照してください。
 
 ## マップダッシュボードの使用
+
+>[!NOTE]
+>
+>Cloud Serviceの2027.01.0 リリースおよびExperience Manager Guides オンプレミスの5.4 リリース以降、新規のお客様のマップダッシュボード機能は非推奨（廃止予定）になります。 ただし、既に使用している既存顧客に対しては、引き続き有効になります。 マップダッシュボードを無効にする場合は、カスタマーサクセス部門にお問い合わせください。 今後、マップ管理と公開には、マップコンソールを使用することをお勧めします。
 
 **Assets UI**&#x200B;で作業している場合は、次の手順を実行して、DITA-OT パブリッシングを使用してメタデータを出力に渡します。
 
@@ -101,7 +105,7 @@ DITA-OT パブリッシングを使用してメタデータを出力に渡すに
 
    このファイルは`/apps/fmdita/config/metadataList`でオーバーレイできます。
 
-   既に値を定義したカスタムプロパティを渡すには、[DITA-OT PDF出力でのAEM メタデータの使用](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880?profile.language=ja)を参照してください。
+   既に値を定義したカスタムプロパティを渡すには、[DITA-OT PDF出力でのAEM メタデータの使用](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880)を参照してください。
 
 1. **プロパティ** ドロップダウンから、必要なカスタムプロパティとデフォルトプロパティを選択します。 例えば、`author`、`dc:title`、`dc:description`を選択します。 これらは、ファイルを作成すると作成される標準の`metadata/properties`です。 選択したプロパティはドロップボックスの下に表示されます。
 
@@ -114,4 +118,4 @@ DITA-OT パブリッシングを使用してメタデータを出力に渡すに
 
 
 
-**親トピック：**&#x200B;[&#x200B;出力生成](generate-output.md)
+**親トピック：**[&#x200B;出力生成](generate-output.md)
