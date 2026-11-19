@@ -1,5 +1,5 @@
 ---
-title: AEM Guidesでの分岐| Adobe Experience Manager Guides'
+title: AEM Guidesでの分岐| Adobe Experience Manager Guides
 description: AEM GuidesでDITA マップのブランチを作成および管理し、ドキュメントの変更を並行してオーサリング、独立した公開、結合する方法を説明します。
 TQID: https://experienceleague.adobe.com/pg9zeEg8m3NeDbN-j945SqPbaMX0GgBmuquAsQcrjOM
 product_v2:
@@ -10,8 +10,8 @@ product_v2:
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
     internal-label: Authoring
-  - id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
-    internal-label: Generative AI
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
     internal-label: Editor
@@ -23,9 +23,9 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 3f0d8e31537ade58a4eab5ddf73eb6d263d3dd96
+source-git-commit: 6359bacca2ef4114a81049d9792214f3439de364
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '659'
 ht-degree: 0%
 ---
 # 概要
@@ -54,8 +54,6 @@ Adobe Experience Manager Guidesで分岐すると、DITA マップ用の&#x200B;
 >DITA マップに基づいてブランチが作成されます。 選択したブランチ内のマップで参照されていないトピックを追加および編集することもできます。 詳細については、[現在のマップ以外のトピックを開いたり編集したりします](./create-manage-branch.md#open-or-edit-topics-outside-the-current-map-context)。
 
 DITA マップのブランチを作成する場合、Experience Manager Guidesはマップの参照トピックを新しいブランチに自動的にコピーしません。 変更されていないトピックは、ソースブランチまたはデフォルトブランチ（main）から読み取られます。 トピックは、そのブランチで編集して保存する場合にのみ、新しいブランチにコピーされます。
-
-例えば、DITA マップは100件のトピックを参照し、リポジトリにはマップで参照されない50件の追加トピックが含まれます。 新しいブランチ（release-1.0）を作成すると、100件の参照トピックはすべて、編集されていなくても、自動的にrelease-1.0の一部になります。 参照されていない50個のトピックは、自動的に新しいブランチの一部にはなりません。 そのうち10個を編集した場合、その10個のみがリリース 1.0の一部になります。 残りの40個の未変更のトピックは、デフォルトのブランチ（main）から引き続き使用されます。
 
 >[!NOTE]
 >
