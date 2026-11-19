@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 6359bacca2ef4114a81049d9792214f3439de364
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 0%
@@ -106,4 +106,4 @@ DITA公開は、主に利用可能なシステムメモリとCPUに依存する�
 
 各公開リクエストの一部は、マイクロサービスに送信する正しい公開コンテンツを取得するために、AEM インスタンスで実行する必要があります。 新しいクラウドアーキテクチャでは、従来のアーキテクチャと同様に、AEM ワークフローの代わりにAEM ジョブを使用します。 この変更により、AEM Guides管理者は、他のAEM ジョブやワークフロー設定に影響を与えることなく、クラウド公開キュー設定を個別に設定できます。
 
-新しいパブリッシュマイクロサービスの設定方法の詳細については、こちらを参照してください。[&#x200B; マイクロサービスの設定](configure-microservices.md)
+新しいパブリッシュマイクロサービスの設定方法の詳細については、こちらを参照してください。[&#x200B; マイクロサービスの設定](./configure-microservices-imt-config.md)

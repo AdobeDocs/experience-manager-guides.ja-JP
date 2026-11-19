@@ -25,9 +25,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 543a83c00a07931231dcd985e8ffdceb4306b4b7
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '223'
 ht-degree: 0%
 ---
 # 出力プリセットの編集、複製、削除 {#id205BEH0K09Z}
@@ -49,6 +49,10 @@ ht-degree: 0%
 
 
 ## マップダッシュボードの使用
+
+>[!NOTE]
+>
+>Cloud Serviceの2027.01.0 リリースおよびExperience Manager Guides オンプレミスの5.4 リリース以降、新規のお客様のマップダッシュボード機能は非推奨（廃止予定）になります。 ただし、既に使用している既存顧客に対しては、引き続き有効になります。 マップダッシュボードを無効にする場合は、カスタマーサクセス部門にお問い合わせください。 今後、マップ管理と公開には、マップコンソールを使用することをお勧めします。
 
 次に示すように、上部バーから必要なタブを選択して、マップダッシュボードを使用して出力プリセットを編集、複製、削除できます。
 

@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Metadata
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '690'
 ht-degree: 0%
 ---
 # DITA-OTを使用してメタデータを出力に渡します {#id21BJ00QD0XA}
@@ -82,6 +82,10 @@ DITA-OT パブリッシングを使用してメタデータを出力に渡すに
 > Experience Manager Guidesの2502 リリース以降、DITA-OT コマンドラインを通じてルートマップのメタデータ引数を渡す機能は廃止されました。 ただし、中断を避けるために、機能を有効または無効にするための新しいプロパティが`Config.Manager`に追加されました。  詳細については、[出力生成設定の設定](../cs-install-guide/conf-output-generation.md#configure-the-dita-ot-command-line-arguement-field-on-the-dita-map-dashboard)を参照してください。
 
 ## マップダッシュボードの使用
+
+>[!NOTE]
+>
+>Cloud Serviceの2027.01.0 リリースおよびExperience Manager Guides オンプレミスの5.4 リリース以降、新規のお客様のマップダッシュボード機能は非推奨（廃止予定）になります。 ただし、既に使用している既存顧客に対しては、引き続き有効になります。 マップダッシュボードを無効にする場合は、カスタマーサクセス部門にお問い合わせください。 今後、マップ管理と公開には、マップコンソールを使用することをお勧めします。
 
 **Assets UI**&#x200B;で作業している場合は、次の手順を実行して、DITA-OT パブリッシングを使用してメタデータを出力に渡します。
 

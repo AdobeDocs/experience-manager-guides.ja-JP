@@ -19,9 +19,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
 workflow-type: tm+mt
-source-wordcount: '1573'
+source-wordcount: '1643'
 ht-degree: 9%
 ---
 # コンテンツの翻訳 {#id181GB0400UI}
@@ -75,6 +75,10 @@ ht-degree: 9%
 > コンテンツの翻訳に関するベストプラクティスについては、ベストプラクティスガイドの「*翻訳*」セクションを参照してください。
 
 ## DITA マップダッシュボードの「翻訳」タブの設定
+
+>[!NOTE]
+>
+>Cloud Serviceの2027.01.0 リリースおよびExperience Manager Guides オンプレミスの5.4 リリース以降、新規のお客様のマップダッシュボード機能は非推奨（廃止予定）になります。 ただし、既に使用している既存顧客に対しては、引き続き有効になります。 マップダッシュボードを無効にする場合は、カスタマーサクセス部門にお問い合わせください。 今後、マップ管理と公開には、マップコンソールを使用することをお勧めします。
 
 次のタブには、Experience Manager Guidesの設定に基づいてDITA マップダッシュボードの「翻訳」タブを非表示にする手順が示されています。Cloud Serviceまたはオンプレミス。
 

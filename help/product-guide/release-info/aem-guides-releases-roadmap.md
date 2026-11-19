@@ -18,10 +18,10 @@ role_v2:
     internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 01ef49b5e26c31359559d9849e6726f704393cd7
+source-git-commit: 7a7297820a64e650b4bad60fc202dc1f539b81c5
 workflow-type: tm+mt
-source-wordcount: '944'
-ht-degree: 39%
+source-wordcount: '1002'
+ht-degree: 38%
 ---
 # [!DNL Experience Manager Guides] リリース情報 {#aem-guides-releases-roadmap}
 
@@ -34,6 +34,15 @@ ht-degree: 39%
 ## [!DNL Experience Manager Guides] as a [!DNL Cloud Service] {#aem-guides-roadmap-cs}
 
 Adobe Experience Manager Guides as a Cloud Serviceのリリースは次のとおりです。
+
+### 予定リリース
+
+| リリース | イベント | スケジュール | 新機能 | アップグレード手順 | 修正された問題 | ステータス |
+|---|---|---|---|---|---|---|
+| Adobe Experience Manager Guides 2027.01.0 | 自動更新 | 2027年1月25日・27日 | - | - | - | ターゲット |
+| Adobe Experience Manager Guides 2027.03.0 | 自動更新 | 2027年3月10日（PT） | - | - | - | ターゲット |
+| Adobe Experience Manager Guides 2027.04.0 | 自動更新 | 2027年4月21日（PT） | - | - | - | ターゲット |
+| Adobe Experience Manager Guides 2027.06.0 | 自動更新 | 2027年6月2日（PT） | - | - | - | ターゲット |
 
 ### ライブリリース
 
@@ -73,7 +82,6 @@ Adobe Experience Manager Guides as a Cloud Serviceのリリースは次のとお
 
 | リリース | イベント | スケジュール | 新機能 | アップグレード手順 | ステータス |
 |---|---|---|---|---|---|
-| Adobe Experience Manager Guides 5.2.0 | サービスパック 3 | 2026年11月17日（PT） | - | - | ターゲット |
 | Adobe Experience Manager Guides 5.3.0 | リリース | 2027年1月20日 | - | - | ターゲット |
 
 
@@ -81,6 +89,7 @@ Adobe Experience Manager Guides as a Cloud Serviceのリリースは次のとお
 
 | リリース | イベント | スケジュール | 新機能 | アップグレード手順 | ステータス |
 |---|---|---|---|---|---|
+| Adobe Experience Manager Guides 5.2.0 | サービスパック 3 | 2026年11月17日（PT） | - | [こちら](upgrade-instructions-5-2-0-sp3.md) | リリース |
 | Adobe Experience Manager Guides 5.2.0 | サービスパック 1 | 2026年9月21日（PT） | [こちら](whats-new-5-2-1.md) | [こちら](upgrade-instructions-5-2-0-sp1.md) | リリース |
 | Adobe Experience Manager Guides 5.2.0 | リリース | 2026年5月29日（PT） | [こちら](whats-new-5-2-0.md) | [こちら](upgrade-instructions-5-2-0.md) | リリース |
 | Adobe Experience Manager Guides 5.1.0 | サービスパック 4 | 2026年4月1日（PT） | - | [こちら](upgrade-instructions-5-1-0-sp4.md) | リリース |

@@ -34,9 +34,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
+source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '667'
 ht-degree: 0%
 ---
 # 出力を生成
@@ -80,6 +80,10 @@ DITA マップの出力を生成するには、次の2つの方法がありま�
 
 
 ## マップダッシュボードからDITA マップの出力を生成する
+
+>[!NOTE]
+>
+>Cloud Serviceの2027.01.0 リリースおよびExperience Manager Guides オンプレミスの5.4 リリース以降、新規のお客様のマップダッシュボード機能は非推奨（廃止予定）になります。 ただし、既に使用している既存顧客に対しては、引き続き有効になります。 マップダッシュボードを無効にする場合は、カスタマーサクセス部門にお問い合わせください。 今後、マップ管理と公開には、マップコンソールを使用することをお勧めします。
 
 マップダッシュボードを使用してDITA マップの出力を生成するには、次の手順を実行します。
 
