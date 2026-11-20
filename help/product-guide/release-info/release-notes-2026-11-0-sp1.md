@@ -9,9 +9,9 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 9fc07666f2f53b6f0ca43e3203ac817daf8039d9
+source-git-commit: e21e39b2acf48c4115101ab806e97b45844fa191
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '431'
 ht-degree: 1%
 ---
 # 2026.11.0 Service Pack 1 リリース（2026年11月）のリリースノート
@@ -26,7 +26,7 @@ ht-degree: 1%
 |---|---|---|----|
 | 2026.11.0 Service Pack 1 | 2026.11.0 | [AEM Guides SDK API 2026.11.0](https://central.sonatype.com/artifact/com.adobe.aem/aem-dox-sdk-api/2026.11.0) | [Javadoc 2026.11.0](https://javadoc.io/doc/com.adobe.aem/aem-dox-sdk-api/latest/index.html) |
 
-詳細については、[Maven Central リポジトリ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/api-reference/introduction)のAPI JARを設定して使用することを参照してください。
+詳細については、[Maven Central リポジトリ ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/api-reference/introduction)のAPI JARを設定して使用することを参照してください。
 
 
 ## 修正された問題
@@ -46,5 +46,5 @@ AEM Sitesへの公開時（複合コンポーネントマッピングを使用�
 Adobeでは、2026.11.0 Service Pack 1 リリースの次の既知の問題を特定しました。
 
 - Experience Manager Guides as a Cloud Service 2026.11.0以降を使用する場合、AEMが公開プロセス中に特定の内部サービス（サーバーインスタンスの開始時など）を再起動すると、公開がアプリケーションエラーで失敗します。 （GUIDES-60804） <br>**回避策：**&#x200B;この問題を解決するには、公開を再試行してください。
-- 複数のAEM Sites（複合コンポーネントマッピングを使用）プリセットまたは&#x200B;**Map collection**&#x200B;またはAPIを介してネイティブPDF プリセットの出力を生成する場合、出力の生成は`Rebuild the Baseline`例外で失敗します。 （GUIDES-60877） <br>**回避策：** プリセットを同時ではなく順を追って公開して、問題を回避します。
+- 複数のAEM Sites（複合コンポーネントマッピングを使用）プリセットまたは同じベースラインを&#x200B;**Map collection**&#x200B;またはAPIを使用してネイティブPDFプリセットの出力を生成する場合、出力生成は`Rebuild the Baseline`例外で失敗します。 （GUIDES-60877） <br>**回避策：** プリセットを同時ではなく順を追って公開して、問題を回避します。
 
