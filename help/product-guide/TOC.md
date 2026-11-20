@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Adobe Experience Manager Guides の製品ドキュメントを参照してください。
 breadcrumb-title: AEM Guides ドキュメント
-source-git-commit: 5a65f5e9fc14df1548491321aa3a3356b6a91c12
+source-git-commit: ac9fe64cd8316750bc65c4ee295329508cecbfc2
 workflow-type: tm+mt
-source-wordcount: '2708'
+source-wordcount: '2713'
 ht-degree: 11%
 ---
 
@@ -18,7 +18,9 @@ ht-degree: 11%
     - クラウドサービス {#cloud-release-notes}
       - {hide-from-toc}[&#x200B; デプロイメント手順](./release-info/deploy-xml-on-aemaacs.md)
       - [クラウドリリース](./release-info/latest-release-info-cs.md)
-      - 2026 リリース {#2026-releases}
+      - {hide-from-toc}2026 リリース  {#2026-releases}
+        - 2026.11.0 SP1 リリース {#2611-sp1-release}
+          - {hide-from-toc}[リリースノート](./release-info/release-notes-2026-11-0-sp1.md)
         - 2026.11.0 リリース {#2611-release}
           - [新機能](./release-info/whats-new-2026-11-0.md)
           - [修正された問題](./release-info/fixed-issues-2026-11-0.md)
