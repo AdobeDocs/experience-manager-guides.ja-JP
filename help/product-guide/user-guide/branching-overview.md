@@ -1,5 +1,5 @@
 ---
-title: AEM Guidesでの分岐| Adobe Experience Manager Guides
+title: AEM Guidesでの分岐と結合| Adobe Experience Manager Guides
 description: AEM GuidesでDITA マップのブランチを作成および管理し、ドキュメントの変更を並行してオーサリング、独立した公開、結合する方法を説明します。
 TQID: https://experienceleague.adobe.com/pg9zeEg8m3NeDbN-j945SqPbaMX0GgBmuquAsQcrjOM
 product_v2:
@@ -23,16 +23,16 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 6359bacca2ef4114a81049d9792214f3439de364
+source-git-commit: 88172f3fd5c6da80091581a082db9b05d5d13483
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '677'
 ht-degree: 0%
 ---
 # 概要
 
->[!NOTE]
+>[!IMPORTANT]
 >
-> 分岐と結合機能は、Experience Manager Guides as a Cloud Serviceの2026.11.0 リリースで導入され、デフォルトでは無効になっています。 お客様の環境で機能を有効にするには、カスタマーサクセス部門にお問い合わせください。
+> **分岐および結合機能**&#x200B;は、Experience Manager Guides as a Cloud Serviceの2026.11.0 リリース以降で使用できます。 現在、データベース設定を使用するCloud Service環境でのみサポートされており、デフォルトでは無効になっています。 環境での分岐と結合を有効にするには、カスタマーサクセス部門にお問い合わせください。
 
 Adobe Experience Manager Guidesで分岐すると、DITA マップ用の&#x200B;**main** ブランチから複数のブランチを作成および管理して、様々なドキュメントリリースを並行して作業できます。 各ブランチでは、作成者は、他のブランチの対応するコンテンツに影響を与えることなく、コンテンツの変更を個別に管理できます。
 

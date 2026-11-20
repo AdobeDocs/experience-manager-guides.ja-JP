@@ -2,9 +2,9 @@
 title: リリースノート | Adobe Experience Manager Guides 2026.11.0 リリースの新機能
 description: マップレベルの分岐やAI アシスタントによるコンテンツの作成など、Adobe Experience Manager Guides 2026.11.0 リリースの新機能をご確認ください。
 role: Leader
-source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
+source-git-commit: 88172f3fd5c6da80091581a082db9b05d5d13483
 workflow-type: tm+mt
-source-wordcount: '1508'
+source-wordcount: '1544'
 ht-degree: 0%
 ---
 
@@ -17,6 +17,10 @@ ht-degree: 0%
 2026.11.0 リリース [&#128279;](../release-info/upgrade-instructions-2026-11-0.md)の アップグレード手順について説明します。
 
 ## マップレベルの分岐と結合の導入
+
+>[!NOTE]
+>
+> **分岐および結合機能**&#x200B;は、現在、データベース設定を使用するCloud Service環境でのみサポートされており、デフォルトでは無効になっています。 環境での分岐と結合を有効にするには、カスタマーサクセス部門にお問い合わせください。
 
 Experience Manager Guidesでは、マップレベルの分岐と結合機能が導入されており、制作者はメインコンテンツに影響を与えることなく、複数のドキュメントバージョン、機能アップデート、クリティカルフィックスに並行して取り組むことができます。 作成者は、DITA マップとその依存関係の独立した分岐を作成して、編集、ロック、プレビューを各ブランチに固有のままにすることができます。
 
