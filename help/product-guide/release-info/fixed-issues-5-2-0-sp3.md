@@ -23,7 +23,7 @@ ht-degree: 1%
 
 この記事では、Adobe Experience Manager Guidesの5.2.0 Service Pack 3 リリースの様々な領域で修正されたバグについて説明します。
 
-5.2.0 Service Pack 3 リリース ](upgrade-instructions-5-2-0-sp3.md)の[ アップグレード手順について説明します。
+5.2.0 Service Pack 3 リリース [&#128279;](upgrade-instructions-5-2-0-sp3.md)の アップグレード手順について説明します。
 
 ## エディター2.0
 
