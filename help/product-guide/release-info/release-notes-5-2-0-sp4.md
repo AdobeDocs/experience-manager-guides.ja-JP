@@ -14,14 +14,14 @@ feature_v2:
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
     internal-label: Leader
-source-git-commit: ad78587f55ec7190443dbbce80f596821ec41f9f
+source-git-commit: a232c8a03cda9b0ef7ae8114c3d901df5fb5bcb4
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '530'
 ht-degree: 2%
 ---
 # 5.2.0 サービスパック 4 リリース（2026年11月）のリリースノート
 
-この記事では、Adobe Experience Manager Guidesの5.2.0 サービスパック 4 リリースのアップグレード手順、Java SDKの互換性、修正された問題および既知の問題について説明します。
+この記事では、Adobe Experience Manager Guidesの5.2.0 Service Pack 4 リリースのアップグレード手順、Java SDKの互換性、修正された問題、既知の問題について説明します。
 
 ## Java SDKのリソース
 
@@ -31,7 +31,7 @@ ht-degree: 2%
 |---|---|---|----|
 | 5.2.0 サービスパック 4 （UUID） | 5.2.2 | [AEM Guides SDK API 5.2.2](https://central.sonatype.com/artifact/com.adobe.aem/aem-guides-sdk-api/5.2.2/) | [Javadoc 5.2.2](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api/latest/index.html) |
 
-詳細については、[Maven Central リポジトリ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-guides/using/api-reference/introduction)のAPI JARを設定して使用することを参照してください。
+詳細については、[Maven Central リポジトリ ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/api-reference/introduction)のAPI JARを設定して使用することを参照してください。
 
 ## Experience Manager Guidesの5.2.0 Service Pack 4 リリースへのアップグレード
 
@@ -45,7 +45,7 @@ Experience Manager Guides 5.2.0 Service Pack 4 リリースのインストール
 
 Experience Manager Guides 5.2.0 Service Pack 4のアップグレードプロセスを開始する前に、バージョン 5.2.0 Service Pack 1を使用していることを確認してください。
 
-### アップグレードプロセス 5.2.0 サービスパック 4 リリース
+### 5.2.0 Service Pack 4 リリースのアップグレードプロセス
 
 1. Experience Manager Guides パッケージバージョン 5.2.0 サービスパック 4をダウンロードします。
 1. パッケージマネージャー（`/crx/packmgr`）を使用して、パッケージをインスタンスにアップロードします。
