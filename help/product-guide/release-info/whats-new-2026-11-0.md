@@ -2,9 +2,9 @@
 title: リリースノート | Adobe Experience Manager Guides 2026.11.0 リリースの新機能
 description: マップレベルの分岐やAI アシスタントによるコンテンツの作成など、Adobe Experience Manager Guides 2026.11.0 リリースの新機能をご確認ください。
 role: Leader
-source-git-commit: 88172f3fd5c6da80091581a082db9b05d5d13483
+source-git-commit: 79ba2d52e002fd5c821678e5662d67e6607f7808
 workflow-type: tm+mt
-source-wordcount: '1544'
+source-wordcount: '1543'
 ht-degree: 0%
 ---
 
@@ -118,7 +118,7 @@ Experience Manager Guidesのマップコンソールに「**出力履歴**」タ
 
 出力履歴&#x200B;**年齢別** （指定された日数より古いエントリを削除）または&#x200B;**カウント別** （指定された最近のエントリ数のみを保持）をパージできます。
 
-また、監査目的で履歴エントリを保持しながら出力ログのみをパージするか、ログと関連するエントリの両方を削除することもできます。 これらのオプションは、出力履歴のパージをより詳細に制御しながら、リポジトリストレージを最適化するのに役立ちます。
+監査のために履歴エントリを保持する一方で、出力ログのみをパージするか、ログと関連するエントリの両方を削除するかを選択できます。 これらのオプションは、出力履歴のパージをより詳細に制御しながら、リポジトリストレージを最適化するのに役立ちます。
 
 詳細については、[出力履歴の自動削除期間の設定](../install-conf-guide/conf-output-generation.md#configure-auto-purging-period-for-output-history-id19aai070v8q)を参照してください。
 
