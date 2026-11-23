@@ -31,7 +31,7 @@ ht-degree: 2%
 |---|---|---|----|
 | 5.2.0 サービスパック 4 （UUID） | 5.2.2 | [AEM Guides SDK API 5.2.2](https://central.sonatype.com/artifact/com.adobe.aem/aem-guides-sdk-api/5.2.2/) | [Javadoc 5.2.2](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api/latest/index.html) |
 
-詳細については、[Maven Central リポジトリ ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/api-reference/introduction)のAPI JARを設定して使用することを参照してください。
+詳細については、[Maven Central リポジトリ &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/api-reference/introduction)のAPI JARを設定して使用することを参照してください。
 
 ## Experience Manager Guidesの5.2.0 Service Pack 4 リリースへのアップグレード
 
