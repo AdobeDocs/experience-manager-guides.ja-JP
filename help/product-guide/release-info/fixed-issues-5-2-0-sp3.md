@@ -14,9 +14,9 @@ feature_v2:
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
     internal-label: Leader
-source-git-commit: 01aae4f8c25d87d2dd0a0255bedab8d7b091e54d
+source-git-commit: a3144f0078b2073289043befacc5e2358b9c0e02
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '816'
 ht-degree: 1%
 ---
 # 5.2.0 サービスパック 3 リリース（2026年11月）で修正された問題
@@ -74,4 +74,4 @@ ht-degree: 1%
 
 Adobeでは、5.2.0 サービスパック 3 リリースの次の既知の問題を特定しました。
 
-- サービスパックをインストールすると、Schematronの検証が`NoClassDefFoundError`例外で失敗し、エディターにトピックを保存できないことがあります。 <br>**回避策：** AEM Web コンソール（`/system/console/bundles`）から`com.adobe.fmdita.schematron-wrapper` バンドルを更新します。
+- サービスパックをインストールすると、Schematronの検証が`NoClassDefFoundError`例外で失敗し、エディターにトピックを保存できないことがあります。 （GUIDES-60062） <br>**回避策：** AEM Web コンソール （`/system/console/bundles`）から`com.adobe.fmdita.schematron-wrapper` バンドルを更新します。
