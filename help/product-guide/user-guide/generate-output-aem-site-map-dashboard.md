@@ -32,16 +32,16 @@ topic_v2:
     internal-label: Metadata
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 543a83c00a07931231dcd985e8ffdceb4306b4b7
+source-git-commit: 2296e0706603eef5c4a76542c4a58f7eb2e13c6c
 workflow-type: tm+mt
-source-wordcount: '2589'
+source-wordcount: '2595'
 ht-degree: 0%
 ---
 # マップダッシュボード上のAEM Sites プリセット {#id205BE3008SW}
 
 >[!NOTE]
 >
->Cloud Serviceの2027.01.0 リリースおよびExperience Manager Guides オンプレミスの5.4 リリース以降、新規のお客様のマップダッシュボード機能は非推奨（廃止予定）になります。 ただし、既に使用している既存顧客に対しては、引き続き有効になります。 マップダッシュボードを無効にする場合は、カスタマーサクセス部門にお問い合わせください。 今後、マップ管理と公開には、マップコンソールを使用することをお勧めします。
+>Experience Manager Guides Cloud Serviceの2027.01.0 リリースおよび5.3 オンプレミス リリース以降、新規のお客様のマップダッシュボードは廃止されます。 新規のお客様は、デフォルトでマップコンソールを使用します。 2027.03.0 リリースでは、マップダッシュボードはデフォルトで無効になります。 今後、マップ管理と公開には、マップコンソールを使用することをお勧めします。 それでもマップダッシュボードにアクセスする必要がある場合は、カスタマーサクセスチームにお問い合わせください。
 
 マップダッシュボードからAEM Sites プリセットを作成し、AEM Sites出力を生成するように設定できます。
 

@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Metadata
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
+source-git-commit: 2296e0706603eef5c4a76542c4a58f7eb2e13c6c
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '696'
 ht-degree: 0%
 ---
 # DITA-OTを使用してメタデータを出力に渡します {#id21BJ00QD0XA}
@@ -85,7 +85,7 @@ DITA-OT パブリッシングを使用してメタデータを出力に渡すに
 
 >[!NOTE]
 >
->Cloud Serviceの2027.01.0 リリースおよびExperience Manager Guides オンプレミスの5.4 リリース以降、新規のお客様のマップダッシュボード機能は非推奨（廃止予定）になります。 ただし、既に使用している既存顧客に対しては、引き続き有効になります。 マップダッシュボードを無効にする場合は、カスタマーサクセス部門にお問い合わせください。 今後、マップ管理と公開には、マップコンソールを使用することをお勧めします。
+>Experience Manager Guides Cloud Serviceの2027.01.0 リリースおよび5.3 オンプレミス リリース以降、新規のお客様のマップダッシュボードは廃止されます。 新規のお客様は、デフォルトでマップコンソールを使用します。 2027.03.0 リリースでは、マップダッシュボードはデフォルトで無効になります。 今後、マップ管理と公開には、マップコンソールを使用することをお勧めします。 それでもマップダッシュボードにアクセスする必要がある場合は、カスタマーサクセスチームにお問い合わせください。
 
 **Assets UI**&#x200B;で作業している場合は、次の手順を実行して、DITA-OT パブリッシングを使用してメタデータを出力に渡します。
 
