@@ -25,9 +25,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 543a83c00a07931231dcd985e8ffdceb4306b4b7
+source-git-commit: 2296e0706603eef5c4a76542c4a58f7eb2e13c6c
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '741'
 ht-degree: 0%
 ---
 # 増分出力生成
@@ -46,17 +46,17 @@ DITA マップ内の少数のトピックのみを更新し、更新されたト
 
 マップコンソールを使用してAEM Sitesの増分出力を生成するには、次の手順を実行します。
 
-1. [&#x200B; マップコンソール &#x200B;](./open-files-map-console.md)でDITA マップファイルを開きます。
+1. [ マップコンソール ](./open-files-map-console.md)でDITA マップファイルを開きます。
 1. 増分出力を生成するAEM Sites プリセットを選択します。
 1. 「**トピック**」タブで、公開するトピックを選択します。
 
    - ベースラインなし
 
-     ![aem sites トピックリスト &#x200B;](images/aem-presets-topic-list.png)
+     ![aem sites トピックリスト ](images/aem-presets-topic-list.png)
 
    - ベースラインあり
 
-     ベースライン ![&#128279;](images/aem-presets-topic-list-new.png)を持つaem sites トピックリスト
+     ベースライン ](images/aem-presets-topic-list-new.png)を持つ![aem sites トピックリスト
 
    >[!NOTE]
    >
@@ -71,7 +71,7 @@ DITA マップ内の少数のトピックのみを更新し、更新されたト
 
 >[!NOTE]
 >
->Cloud Serviceの2027.01.0 リリースおよびExperience Manager Guides オンプレミスの5.4 リリース以降、新規のお客様のマップダッシュボード機能は非推奨（廃止予定）になります。 ただし、既に使用している既存顧客に対しては、引き続き有効になります。 マップダッシュボードを無効にする場合は、カスタマーサクセス部門にお問い合わせください。 今後、マップ管理と公開には、マップコンソールを使用することをお勧めします。
+>Experience Manager Guides Cloud Serviceの2027.01.0 リリースおよび5.3 オンプレミス リリース以降、新規のお客様のマップダッシュボードは廃止されます。 新規のお客様は、デフォルトでマップコンソールを使用します。 2027.03.0 リリースでは、マップダッシュボードはデフォルトで無効になります。 今後、マップ管理と公開には、マップコンソールを使用することをお勧めします。 それでもマップダッシュボードにアクセスする必要がある場合は、カスタマーサクセスチームにお問い合わせください。
 
 マップダッシュボードを使用してAEM Sitesの増分出力を生成するには、次の手順を実行します。
 

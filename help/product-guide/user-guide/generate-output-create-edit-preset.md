@@ -25,9 +25,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 543a83c00a07931231dcd985e8ffdceb4306b4b7
+source-git-commit: 2296e0706603eef5c4a76542c4a58f7eb2e13c6c
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '229'
 ht-degree: 0%
 ---
 # 出力プリセットの編集、複製、削除 {#id205BEH0K09Z}
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->テンプレートプリセットは編集、複製、削除できません。 これらのアクションは管理者に限定されます。 テンプレートプリセットについて詳しくは、[&#x200B; テンプレートプリセット &#x200B;](../install-conf-guide/template-presets-output-generation.md)を参照してください。
+>テンプレートプリセットは編集、複製、削除できません。 これらのアクションは管理者に限定されます。 テンプレートプリセットについて詳しくは、[ テンプレートプリセット ](../install-conf-guide/template-presets-output-generation.md)を参照してください。
 
 
 ![](images/delete-preset-map-console.png)
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Cloud Serviceの2027.01.0 リリースおよびExperience Manager Guides オンプレミスの5.4 リリース以降、新規のお客様のマップダッシュボード機能は非推奨（廃止予定）になります。 ただし、既に使用している既存顧客に対しては、引き続き有効になります。 マップダッシュボードを無効にする場合は、カスタマーサクセス部門にお問い合わせください。 今後、マップ管理と公開には、マップコンソールを使用することをお勧めします。
+>Experience Manager Guides Cloud Serviceの2027.01.0 リリースおよび5.3 オンプレミス リリース以降、新規のお客様のマップダッシュボードは廃止されます。 新規のお客様は、デフォルトでマップコンソールを使用します。 2027.03.0 リリースでは、マップダッシュボードはデフォルトで無効になります。 今後、マップ管理と公開には、マップコンソールを使用することをお勧めします。 それでもマップダッシュボードにアクセスする必要がある場合は、カスタマーサクセスチームにお問い合わせください。
 
 次に示すように、上部バーから必要なタブを選択して、マップダッシュボードを使用して出力プリセットを編集、複製、削除できます。
 
@@ -60,4 +60,4 @@ ht-degree: 0%
 
 
 
-**親トピック：**&#x200B;[&#x200B;出力生成](generate-output.md)
+**親トピック：**[&#x200B;出力生成](generate-output.md)

@@ -19,9 +19,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
+source-git-commit: 2296e0706603eef5c4a76542c4a58f7eb2e13c6c
 workflow-type: tm+mt
-source-wordcount: '1643'
+source-wordcount: '1649'
 ht-degree: 9%
 ---
 # コンテンツの翻訳 {#id181GB0400UI}
@@ -39,32 +39,32 @@ ht-degree: 9%
 
 >[!TAB Cloud Service]
 
-1. AEMを[翻訳サービスプロバイダー](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=ja)に接続し、翻訳統合フレームワーク設定を作成します。
+1. AEMを[翻訳サービスプロバイダー](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)に接続し、翻訳統合フレームワーク設定を作成します。
 
 1. 言語マスターのページを翻訳サービスとフレームワーク設定に関連付けます。
 
-1. 翻訳する[&#x200B; コンテンツの種類](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/rules.html?lang=ja)を特定します。
+1. 翻訳する[ コンテンツの種類](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/rules.html?lang=en)を特定します。
 
-1. [翻訳するコンテンツを準備](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html?lang=ja)します。そのためには、言語マスターをオーサリングして、言語コピーのルートページを作成します。
+1. [翻訳するコンテンツを準備](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html?lang=en)します。そのためには、言語マスターをオーサリングして、言語コピーのルートページを作成します。
 
-1. 翻訳するコンテンツを収集し、翻訳プロセスを準備するために、[翻訳プロジェクト &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=ja)を作成します。
+1. 翻訳するコンテンツを収集し、翻訳プロセスを準備するために、[翻訳プロジェクト ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en)を作成します。
 
-1. 翻訳プロジェクトを使用して、[&#x200B; コンテンツ翻訳](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=ja) プロセスを管理します。
+1. 翻訳プロジェクトを使用して、[ コンテンツ翻訳](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en) プロセスを管理します。
 
 
 >[!TAB  オンプレミス ]
 
-1. AEMを[翻訳サービスプロバイダー](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider)と接続し、[翻訳インテグレーションフレームワーク設定](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration)を作成します。
+1. AEMを[翻訳サービスプロバイダー](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider)と接続し、[翻訳インテグレーションフレームワーク設定](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration)を作成します。
 
-1. 言語マスターのページを[翻訳サービスとフレームワーク設定](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation)に関連付けます。
+1. 言語マスターのページを[翻訳サービスとフレームワーク設定](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation)に関連付けます。
 
-1. 翻訳する[&#x200B; コンテンツの種類](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/tc-rules.html?lang=ja-JP)を特定します。
+1. 翻訳する[ コンテンツの種類](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-rules.html?lang=ja-JP)を特定します。
 
 1. [翻訳するコンテンツを準備](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/tc-prep.html)します。そのためには、言語マスターをオーサリングして、言語コピーのルートページを作成します。
 
-1. 翻訳するコンテンツを収集し、翻訳プロセスを準備するために、[翻訳プロジェクト &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/administering/introduction/tc-manage.html?lang=ja)を作成します。
+1. 翻訳するコンテンツを収集し、翻訳プロセスを準備するために、[翻訳プロジェクト ](https://experienceleague.adobe.com/docs/experience-manager-65/administering/introduction/tc-manage.html?lang=ja)を作成します。
 
-1. 翻訳プロジェクトを使用して、[&#x200B; コンテンツ翻訳](https://experienceleague.adobe.com/docs/experience-manager-65/administering/introduction/tc-manage.html?lang=ja) プロセスを管理します。
+1. 翻訳プロジェクトを使用して、[ コンテンツ翻訳](https://experienceleague.adobe.com/docs/experience-manager-65/administering/introduction/tc-manage.html?lang=ja) プロセスを管理します。
 
 >[!ENDTABS]
 
@@ -78,7 +78,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->Cloud Serviceの2027.01.0 リリースおよびExperience Manager Guides オンプレミスの5.4 リリース以降、新規のお客様のマップダッシュボード機能は非推奨（廃止予定）になります。 ただし、既に使用している既存顧客に対しては、引き続き有効になります。 マップダッシュボードを無効にする場合は、カスタマーサクセス部門にお問い合わせください。 今後、マップ管理と公開には、マップコンソールを使用することをお勧めします。
+>Experience Manager Guides Cloud Serviceの2027.01.0 リリースおよび5.3 オンプレミス リリース以降、新規のお客様のマップダッシュボードは廃止されます。 新規のお客様は、デフォルトでマップコンソールを使用します。 2027.03.0 リリースでは、マップダッシュボードはデフォルトで無効になります。 今後、マップ管理と公開には、マップコンソールを使用することをお勧めします。 それでもマップダッシュボードにアクセスする必要がある場合は、カスタマーサクセスチームにお問い合わせください。
 
 次のタブには、Experience Manager Guidesの設定に基づいてDITA マップダッシュボードの「翻訳」タブを非表示にする手順が示されています。Cloud Serviceまたはオンプレミス。
 
@@ -138,7 +138,7 @@ ht-degree: 9%
 
 | PID | プロパティキー | プロパティの値 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `component.translation` | ブール値：<br> – 人による翻訳を使用している場合は、*コンポーネントベースの翻訳ワークフロー&#x200B;**オプションを* \（`false`\）無効にします。<br> – 機械翻訳を使用している場合は、*コンポーネントベースの翻訳ワークフロー&#x200B;**オプションの\（`true`\）*&#x200B;を有効にします。**&#x200B;** |
+| `com.adobe.fmdita.config.ConfigManager` | `component.translation` | ブール値：<br> – 人による翻訳を使用している場合は、*コンポーネントベースの翻訳ワークフロー&#x200B;**オプションを* \（`false`\）無効にします。<br> – 機械翻訳を使用している場合は、*コンポーネントベースの翻訳ワークフロー**オプションの\（`true`\）*&#x200B;を有効にします。**** |
 
 >[!TAB  オンプレミス ]
 
@@ -160,7 +160,7 @@ ht-degree: 9%
 
    >[!NOTE]
    >
-   > 翻訳コネクタを使用している場合は、AEM ドキュメントの「*[Translation Integration Frameworkの設定](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/tc-tic.html)*」のトピックで説明されているように、コネクタが設定されていることを確認してください。
+   > 翻訳コネクタを使用している場合は、AEM ドキュメントの「*[Translation Integration Frameworkの設定](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html)*」のトピックで説明されているように、コネクタが設定されていることを確認してください。
 
 1. 「**保存**」をクリックします。
 
@@ -188,12 +188,12 @@ ht-degree: 9%
 
 | PID | プロパティキー | プロパティの値 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | ブール値：<br> – 最新の翻訳ワークフローを使用している場合は、*従来の翻訳ワークフローを実行&#x200B;**する**&#x200B;オプションを* \（`false`\）無効にします。 <br> - レガシー翻訳を使用する場合は、*レガシー翻訳ワークフローの実行&#x200B;**オプションの\（`true`\）*を有効にします。<br>**&#x200B; **&#x200B;デフォルト値**: false |
+| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | ブール値：<br> – 最新の翻訳ワークフローを使用している場合は、*従来の翻訳ワークフローを実行&#x200B;**する**オプションを* \（`false`\）無効にします。 <br> - レガシー翻訳を使用する場合は、*レガシー翻訳ワークフローの実行&#x200B;**オプションの\（`true`\）*を有効にします。<br>** **デフォルト値**: false |
 
 
 >[!NOTE]
 >
-> 翻訳コネクタを使用している場合は、Adobe Experience Manager ドキュメントの「*[Translation Integration Frameworkの設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=ja)*」のトピックで説明されているように、コネクタが設定されていることを確認してください。
+> 翻訳コネクタを使用している場合は、Adobe Experience Manager ドキュメントの「*[Translation Integration Frameworkの設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)*」のトピックで説明されているように、コネクタが設定されていることを確認してください。
 
 >[!IMPORTANT]
 >
@@ -238,7 +238,7 @@ ht-degree: 9%
 
 | PID | プロパティキー | プロパティの値 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | ブール値：<br> – 一時ファイルに対して後処理操作を実行しない場合は、*処理後の言語コピー&#x200B;**オプション**&#x200B;を*&#x200B;無効にする\（false\）。<br>  – 一時ファイルに対して後処理操作を実行する場合は、*Enable* \（true\）、**後処理言語コピー** オプションを使用します。<br> **デフォルト値**: false |
+| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | ブール値：<br> – 一時ファイルに対して後処理操作を実行しない場合は、*処理後の言語コピー&#x200B;**オプション**を*&#x200B;無効にする\（false\）。<br>  – 一時ファイルに対して後処理操作を実行する場合は、*Enable* \（true\）、**後処理言語コピー** オプションを使用します。<br> **デフォルト値**: false |
 
 >[!TAB  オンプレミス ]
 
